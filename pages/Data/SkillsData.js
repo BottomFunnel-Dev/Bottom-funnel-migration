@@ -2876,7 +2876,7 @@ export const postgresqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/postgresqlSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/postgresqlSkillsPhotos/banner.webp",
     title: "PostgreSQL Development Services",
     description:
       "Do you have a lot of data and need an easy way to manage it? | PostgreSQL is the perfect choice for you.",
@@ -2884,7 +2884,7 @@ export const postgresqlData = {
   isDes: true,
   desData: {
     title: "PostgreSQL",
-    image: "/Images/postgresqlSkillsPhotos/postgresql-logo.png",
+    image: "/Images/skillsPhotos/postgresqlSkillsPhotos/postgresql-logo.webp",
     description: `Companies worldwide are turning to PostgreSQL as a powerful, open source database system with over 35 years of active development. With a reputation for stability and reliability, PostgreSQL has earned its place as one of the most trusted database systems in the industry.
       PostgreSQL offers an unmatched level of functionality and extensibility, making it an ideal choice for any enterprise looking to modernize their data infrastructure. Plus, thanks to its commitment to community development, you're always getting new features and bug fixes that make your app more efficient and reliable.
       `,
@@ -2895,7 +2895,7 @@ export const postgresqlData = {
     cardsData: [
       {
         img: {
-          src: "/Images/postgresqlSkillsPhotos/dumble.png",
+          src: "/Images/skillsPhotos/postgresqlSkillsPhotos/dumble.webp",
           alt: "Robust feature set logo",
         },
         title: "Data types and Data Integrity",
@@ -2905,7 +2905,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "/Images/postgresqlSkillsPhotos/oops.png",
+          src: "/Images/skillsPhotos/postgresqlSkillsPhotos/oops.webp",
           alt: "Object-oriented database features logo",
         },
         title: "Performance",
@@ -2914,7 +2914,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "/Images/postgresqlSkillsPhotos/sql-docs.png",
+          src: "/Images/skillsPhotos/postgresqlSkillsPhotos/sql-docs.webp",
           alt: "SQL standards conformance logo",
         },
         title: "Disaster Recovery & Reliability",
@@ -2923,7 +2923,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "/Images/postgresqlSkillsPhotos/recycle.png",
+          src: "/Images/skillsPhotos/postgresqlSkillsPhotos/recycle.webp",
           alt: "ACID compliance logo",
         },
         title: "Extensibility",
@@ -2932,7 +2932,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "/Images/postgresqlSkillsPhotos/user-database.png",
+          src: "/Images/skillsPhotos/postgresqlSkillsPhotos/user-database.webp",
           alt: "Diverse indexing techniques logo",
         },
         title: "Internationalization & Text Search",
@@ -2941,7 +2941,7 @@ export const postgresqlData = {
       },
       {
         img: {
-          src: "/Images/postgresqlSkillsPhotos/light-setting.png",
+          src: "/Images/skillsPhotos/postgresqlSkillsPhotos/light-setting.webp",
           alt: "Diverse indexing techniques logo",
         },
         title: "Support of non-relational data",
@@ -2953,7 +2953,7 @@ export const postgresqlData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For PostgreSQL",
-    image: "/Images/postgresqlSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/postgresqlSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2967,66 +2967,47 @@ export const postgresqlData = {
   BookCallData: {
     title: "Need our PostgreSQL developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefit of using postgreSQL",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "PostgreSQL is the most professional relational open source database. It is a highly reliable, stable, scalable and secure system that has been in use for over 20 years.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/djangoPhotos/community-driven.webp",
+          alt: "Community-driven logo",
         },
-        title: "Easy complex component handling",
+        title: "Community-driven",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/dotnetphotos/security.webp",
+          alt: "Security logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Security",
       },
     ],
   },
 };
 
 export const redisData = {
-  title: "Best redis developers in the market | Bottom Funnel",
+  title:
+    "Best redis developers in the market | Bottom Funnel Technology PVT. LTD.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/redisSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/redisSkillsPhotos/banner.webp",
     title: "Redis Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3034,7 +3015,7 @@ export const redisData = {
   isDes: true,
   desData: {
     title: "Redis",
-    image: "/Images/redisSkillsPhotos/redis-logo.png",
+    image: "/Images/skillsPhotos/redisSkillsPhotos/redis-logo.webp",
     description:
       "Redis is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3044,7 +3025,7 @@ export const redisData = {
     cardsData: [
       {
         img: {
-          src: "/Images/redisSkillsPhotos/setting-up.png",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/setting-up.webp",
           alt: "Performace logo",
         },
         title: "Performace",
@@ -3054,7 +3035,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "/Images/redisSkillsPhotos/structure.png",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/structure.webp",
           alt: "Flexible data structure logo",
         },
         title: "Flexible data structure",
@@ -3063,7 +3044,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "/Images/redisSkillsPhotos/docs-rotate.png",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/docs-rotate.webp",
           alt: "Replication and persistence logo",
         },
         title: "Replication and persistence",
@@ -3072,7 +3053,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "/Images/redisSkillsPhotos/cloud-clock.png",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/cloud-clock.webp",
           alt: "High availability and scalability logo",
         },
         title: "High availability and scalability",
@@ -3081,7 +3062,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "/Images/redisSkillsPhotos/docs-left-right.png",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/docs-left-right.webp",
           alt: "Support transactions logo",
         },
         title: "Support transactions",
@@ -3090,7 +3071,7 @@ export const redisData = {
       },
       {
         img: {
-          src: "/Images/redisSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -3102,7 +3083,7 @@ export const redisData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For redis",
-    image: "/Images/redisSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/redisSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3116,54 +3097,34 @@ export const redisData = {
   BookCallData: {
     title: "Need our Redis developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using redis",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Redis is the most popular database among developers for five years in a row. Developers appreciate Redis for its ease of use, performance, and scalability.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/caching.webp",
+          alt: "Caching logo",
         },
-        title: "Open-source",
+        title: "Caching",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
+          alt: "Performance logo",
         },
-        title: "Easy complex component handling",
+        title: "Performance",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
+          alt: "Data Structures logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Data Structures",
       },
     ],
   },
