@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 
-import styles from "./StartupSolutions.module.css";
-import { StartupSolutionsBanner } from './StartupSolutionsBanner/StartupSolutionsBanner';
-import { StartupSolMidBanner } from "./StartupSolMidBanner/StartupSolMidBanner";
-import { StartupSolPartner } from './StartupSolPartner/StartupSolPartner';
-import { StartupSolOffer } from './StartupSolOffer/StartupSolOffer';
-import { StartupSolOfferCard } from './StartupSolOfferCard/StartupSolOfferCard';
-import { StartupSolWhyBF } from './StartupSolWhyBF/StartupSolWhyBF';
-import { CustomWebForm } from '../CustomisedWebPage/CustomWebForm/CustomWebForm';
+import { BIBanner } from "./BIBanner/BIBanner";
+import { BIPartner } from "./BIPartner/BIPartner";
+import { BISolutions } from "./BISolutions/BISolutions";
+import { BIWhyBF } from "./BIWhyBF/BIWhyBF";
+import { BIAnalytics } from "./BIAnalytics/BIAnalytics";
+import { BISlider } from "./BISlider/BISlider";
+import { CustomWebForm } from "../CustomisedWebPage/CustomWebForm/CustomWebForm";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -20,16 +19,15 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function StartupSolutions () {
+export default function  BusinessIntelligence() {
   return (
-    <div className={styles.StartupSolutionsMain}>
-        
-      <StartupSolutionsBanner />
-      <StartupSolPartner />
-      <StartupSolOffer />
-      <StartupSolOfferCard />
-      <StartupSolMidBanner />
-      <StartupSolWhyBF />
+    <div>
+      <BIBanner />
+      <BIPartner />
+      <BISolutions />
+      <BIWhyBF />
+      <BIAnalytics />
+      <BISlider />
       <CustomWebForm />
       
       <StoriesSection />
@@ -43,5 +41,5 @@ export default function StartupSolutions () {
       <ContectForm />
       {/* <MainFooter /> */}
     </div>
-  )
+  );
 };

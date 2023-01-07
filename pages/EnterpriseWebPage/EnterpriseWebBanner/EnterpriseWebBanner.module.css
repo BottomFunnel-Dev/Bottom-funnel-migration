@@ -1,11 +1,10 @@
-.StartupSolutionsBannerMain {
+.EnterpriseWebBannerMain {
   height: 100vh;
   padding-left: 5%;
 
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Images/startupSolPhotos/banner.png");
+  background: url("/Images/enterpriseWebPhotos/banner.png");
   background-size: 110%;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
 
   display: flex;
@@ -13,37 +12,33 @@
   justify-content: center;
 }
 
-.StartupSolutionsBannerMain > h1 {
+.EnterpriseWebBannerMain > h1 {
   font-size: 40px;
   width: 65%;
   margin-bottom: 1%;
   margin-top: 1%;
   margin-bottom: 1%;
 
-  color: #f5f5f5;
+  color: whitesmoke;
 }
 
-.StartupSolutionsBannerMain > h1 > span {
-  color: #ef4c23;
-}
-
-.StartupSolutionsBannerMain > p {
+.EnterpriseWebBannerMain > p {
   font-size: 20px;
   width: 70%;
   margin-bottom: 1%;
   margin-top: 1%;
 
-  color: #f5f5f5;
+  color: whitesmoke;
 }
 
-.StartupSolutionsBannerMain > button {
+.EnterpriseWebBannerMain > button {
   font-size: 20px;
   font-weight: 600;
   height: fit-content;
   width: fit-content;
   margin-top: 1%;
 
-  background-color: #f5f5f5;
+  background-color: white;
   color: #ef4c23;
   padding: 10px 50px;
   border-radius: 10px;
@@ -54,12 +49,12 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.StartupSolutionsBannerMain > button:hover {
-  color: #f5f5f5;
+.EnterpriseWebBannerMain > button:hover {
+  color: white;
   background-color: #ef4c23;
 }
 
-.StartupSolutionsBannerHrLine {
+.EnterpriseWebBannerHrLine {
   width: 30%;
   margin-top: 1%;
   margin-bottom: 1%;
@@ -69,14 +64,14 @@
   justify-content: space-between;
 }
 
-.StartupSolutionsBannerHrLine > div {
+.EnterpriseWebBannerHrLine > div {
   border: 2px solid #fff;
   width: 20px;
   height: 20px;
   border-radius: 20px;
 }
 
-.StartupSolutionsBannerHrLine > span {
+.EnterpriseWebBannerHrLine > span {
   width: 46%;
   height: 2px;
   background-color: #fff;

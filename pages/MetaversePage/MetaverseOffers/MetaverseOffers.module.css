@@ -1,0 +1,111 @@
+.MetaverseOffersContainer {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.MetaverseOffersContainer > h1 {
+  font-size: 32px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.MetaverseOffersMain > div {
+  margin-bottom: 1%;
+  padding: 1%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* border: 1px solid #d9d9d9;
+  box-shadow: rgba(99, 99, 99, 0.14) 0px 2px 8px 0px; */
+}
+
+.MetaverseOffersMain > div:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.MetaverseOffersContent {
+  width: 85%;
+}
+
+.MetaverseOffersContent > h2 {
+  font-size: 25px;
+  width: 100%;
+  margin: 1% auto;
+  color: #ef4c23;
+}
+
+.MetaverseOffersContent > p {
+  font-size: 17px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.MetaverseOffersImage {
+  width: 10%;
+}
+
+.MetaverseOffersImage > img {
+  width: 100%;
+}
+
+.MetaverseOffersButton {
+  width: 500px;
+  height: fit-content;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  justify-content: flex-end;
+
+  border-radius: 100px;
+  padding-left: 3%;
+
+  background: linear-gradient(to Right, #ef4c23 60%, #fd5f03);
+}
+
+.MetaverseOffersButton > h3 {
+  font-size: 18px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.MetaverseOffersButton > div {
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+
+  background: linear-gradient(to Bottom, #ef4c23, #fd5f03);
+  border-radius: 100px;
+  border: 2px solid white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MetaverseOffersButton > div > div {
+  width: fit-content;
+  height: fit-content;
+
+  background: linear-gradient(to Bottom Right, #fd5f03, #ef4c23);
+  padding: 5px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MetaverseOffersButton > div > div > svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}

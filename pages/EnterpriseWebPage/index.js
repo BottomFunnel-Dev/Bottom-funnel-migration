@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import styles from "./StartupSolutions.module.css";
-import { StartupSolutionsBanner } from './StartupSolutionsBanner/StartupSolutionsBanner';
-import { StartupSolMidBanner } from "./StartupSolMidBanner/StartupSolMidBanner";
-import { StartupSolPartner } from './StartupSolPartner/StartupSolPartner';
-import { StartupSolOffer } from './StartupSolOffer/StartupSolOffer';
-import { StartupSolOfferCard } from './StartupSolOfferCard/StartupSolOfferCard';
-import { StartupSolWhyBF } from './StartupSolWhyBF/StartupSolWhyBF';
+import { EnterpriseWebBanner } from './EnterpriseWebBanner/EnterpriseWebBanner';
+import { EnterpriseWebAnalysis } from './EnterpriseWebAnalysis/EnterpriseWebAnalysis';
+import { EnterpriseSupporting } from './EnterpriseSupporting/EnterpriseSupporting';
+import { EnterpriseWebSolutions } from './EnterpriseWebSolutions/EnterpriseWebSolutions';
+import { EnterpriseMidBanner } from './EnterpriseMidBanner/EnterpriseMidBanner';
+import { EnterpriseWhyBF } from './EnterpriseWhyBF/EnterpriseWhyBF';
+import { EnterpriseSlider } from './EnterpriseSlider/EnterpriseSlider';
 import { CustomWebForm } from '../CustomisedWebPage/CustomWebForm/CustomWebForm';
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
@@ -20,18 +20,19 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function StartupSolutions () {
+export default function EnterprisePage () {
   return (
-    <div className={styles.StartupSolutionsMain}>
-        
-      <StartupSolutionsBanner />
-      <StartupSolPartner />
-      <StartupSolOffer />
-      <StartupSolOfferCard />
-      <StartupSolMidBanner />
-      <StartupSolWhyBF />
+    <div>
+         
+      <EnterpriseWebBanner />
+      <EnterpriseWebAnalysis />
+      <EnterpriseSupporting />
+      <EnterpriseWebSolutions />
+      <EnterpriseMidBanner />
+      <EnterpriseWhyBF />
+      <EnterpriseSlider />
       <CustomWebForm />
-      
+
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}
@@ -43,5 +44,5 @@ export default function StartupSolutions () {
       <ContectForm />
       {/* <MainFooter /> */}
     </div>
-  )
+  );
 };

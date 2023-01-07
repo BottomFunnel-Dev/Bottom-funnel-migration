@@ -1,12 +1,10 @@
 import React from 'react'
 
-import styles from "./StartupSolutions.module.css";
-import { StartupSolutionsBanner } from './StartupSolutionsBanner/StartupSolutionsBanner';
-import { StartupSolMidBanner } from "./StartupSolMidBanner/StartupSolMidBanner";
-import { StartupSolPartner } from './StartupSolPartner/StartupSolPartner';
-import { StartupSolOffer } from './StartupSolOffer/StartupSolOffer';
-import { StartupSolOfferCard } from './StartupSolOfferCard/StartupSolOfferCard';
-import { StartupSolWhyBF } from './StartupSolWhyBF/StartupSolWhyBF';
+import { MetaverseBanner } from './MetaverseBanner/MetaverseBanner';
+import { MetaverseServices } from './MetaverseServices/MetaverseServices';
+import { MetaverseOffers } from './MetaverseOffers/MetaverseOffers';
+import { MetaverseMidBanner } from './MetaverseMidBanner/MetaverseMidBanner';
+import { MetaverseWhyBF } from './MetaverseWhyBF/MetaverseWhyBF';
 import { CustomWebForm } from '../CustomisedWebPage/CustomWebForm/CustomWebForm';
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
@@ -20,16 +18,15 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function StartupSolutions () {
+export default function MetaverseWebPage () {
   return (
-    <div className={styles.StartupSolutionsMain}>
+    <div>
         
-      <StartupSolutionsBanner />
-      <StartupSolPartner />
-      <StartupSolOffer />
-      <StartupSolOfferCard />
-      <StartupSolMidBanner />
-      <StartupSolWhyBF />
+      <MetaverseBanner />
+      <MetaverseServices />
+      <MetaverseOffers />
+      <MetaverseMidBanner />
+      <MetaverseWhyBF />
       <CustomWebForm />
       
       <StoriesSection />
@@ -43,5 +40,5 @@ export default function StartupSolutions () {
       <ContectForm />
       {/* <MainFooter /> */}
     </div>
-  )
+  );
 };
