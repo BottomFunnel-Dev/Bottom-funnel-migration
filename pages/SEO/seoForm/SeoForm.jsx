@@ -1,25 +1,23 @@
 import React from "react";
-import styles from "./seoForm.module.css";
-
+import "./seoForm.css";
 export const SeoForm = () => {
   return (
-    <div className={styles._Seoform}>
-      <div className={styles._Seoformcontent}>
-        <div className={styles._Seoformheading}>
+    <div className="_Seoform">
+      <div className="_Seoformcontent">
+        <div className="_Seoformheading">
           Want to kickstart your first SEO Campaign? no contracts, no
           commitments
         </div>
-
-        <div className={styles._Seoenterform}>
-          <input type="text" placeholder="Name" className={styles._seoforminput} />
+        <div className="_Seoenterform">
+          <input type="text" placeholder="Name" className="_seoforminput" />
           <br />
           <input
             type="text"
             placeholder="Work email"
-            className={styles._seoforminput}
+            className="_seoforminput"
           />
           <br />
-          <input type="text" placeholder="Phone" className={styles._seoforminput} />
+          <input type="text" placeholder="Phone" className="_seoforminput" />
           <br />
           <label>How soon do you want to start the project ?*</label>
           <br />
@@ -36,11 +34,11 @@ export const SeoForm = () => {
           <br />
           <input
             placeholder="tell your requirement"
-            className={styles._seoforminput}
+            className="_seoforminput"
             type="text"
           />
           <br />
-          <div className={styles._SeoSubmitbutton}>
+          <div className="_SeoSubmitbutton">
             <button>Submit</button>
           </div>
         </div>

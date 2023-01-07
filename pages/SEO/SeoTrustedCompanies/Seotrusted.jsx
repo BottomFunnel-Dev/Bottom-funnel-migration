@@ -1,12 +1,12 @@
 import styles from "./Seotrusted.module.css";
 import React from "react";
 import Slider from "react-slick";
-// import tata from "../../ImageSection/Tata.jpg";
-// import hdfc from "../../ImageSection/HDFC.jpg";
-// import airtel from "../../ImageSection/Airtel.jpg";
+import tata from "../../ImageSection/Tata.jpg";
+import hdfc from "../../ImageSection/HDFC.jpg";
+import airtel from "../../ImageSection/Airtel.jpg";
 // import { partnerData } from './SeopartnerData';
 
-const Trusted = ({ partnerLogo }) => {
+export const Trusted = ({ partnerLogo}) => {
   const settings = {
     infinite: true,
     speed: 1000,
@@ -18,21 +18,25 @@ const Trusted = ({ partnerLogo }) => {
     autoplaySpeed: 2500,
     variableWidth: true,
   };
+
+
+  
   return (
-    <div className={styles._SeoTrusted}>
-      <div className={styles._SeoTrustedtext} >
+    <div className={styles.SeoTrusted}>
+      <div className={styles.SeoTrustedtext} style={partnerLogo.bgcolors}>
         <h2 className={styles.globalbrands}>Trusted By Global Brands</h2>
       </div>
-      <div className={styles._SeoTrustedCarousel}>
+      <div className={styles.SeoTrustedCarousel}>
         <Slider {...settings}>
           {partnerLogo.logo.map((item, index) => (
             <div className={styles.mainlogoDiv} key={index}>
-              <div key={index} className={styles._Seobrandimg}>
+              <div key={index} className={styles.Seobrandimg}>
                 <img src={item.partnerImage} alt="image.jpg" />
               </div>
             </div>
           ))}
 
+        
         </Slider>
       </div>
     </div>

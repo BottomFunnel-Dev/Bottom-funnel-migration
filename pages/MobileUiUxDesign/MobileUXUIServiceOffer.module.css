@@ -1,14 +1,16 @@
 .mobileuxuiserviceofferedmainboxes {
-  height: 500px;
+  height: 450px;
 
-  background: url("/Images/MobileUIUXDesign/BannerBackgrounds/Component 66.png");
+  background: url("/MobileUIUXDesign/BannerBackgrounds/Component 66.png");
   background-position: center;
+  background-size:contain;
   position: relative;
+  background-color: white;
 }
 
 .mobileuxuiserviceofferedmainboxes {
   text-align: center;
-  margin-top: 5%;
+
 }
 
 .serviceweofferdatamappinguxuidesign {

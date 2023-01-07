@@ -1,9 +1,10 @@
 .mobileuiuxtopnotchedmainboxes{
     height: fit-content;
 
-    margin-left: 3%;
-    width: 70%;
+    background-color: white;
+    width: 100%;
     text-align: justify;
+    padding: 5%;
 }
 
 .mobileuiuxtopnotchedmainboxes >h1 {

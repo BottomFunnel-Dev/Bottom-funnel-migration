@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from "./MobileUXUIServiceOffer.module.css";
+import React from 'react'
+import styles from "./MobileUXUIServiceOffer.module.css"
 
 export const MobileUXUIServiceOffer = () => {
 
@@ -59,8 +59,7 @@ export const MobileUXUIServiceOffer = () => {
                         <div className={styles.serviceweofferaftermappingindivisalboxicons}>
                             <img src={e.icon} alt='images' />
                         </div>
-                        <div className={styles.serviceweofferaftermappingindivisalboxheadingtxt}>
-                            <h4>{e.htxt}</h4>
+                        <div className={styles.serviceweofferaftermappingindivisalboxheadingtxt}><h4>{e.htxt}</h4>
                             <p>{e.stxt}</p>
                         </div>
 

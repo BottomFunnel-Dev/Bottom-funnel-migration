@@ -1,68 +1,81 @@
-.mobileuxuib2csolutionmainboxes {
-  height: fit-content;
+.mobileuxuib2csolutionmainboxes{
+    height: fit-content;
+    background-color: white;
 
-  margin-top: 5%;
+    padding-top: 5%;
 }
 
-/* .mobileuxuib2csolutionmainboxes > h1 {
-  margin-left: 3%;
-} */
-
-.mobileuxuib2csolutionmainboxes > p {
-  margin-left: 3%;
-  width: 60%;
-  text-align: justify;
+.mobileuxuib2csolutionmainboxes >h1{
+    margin-left: 5%;
 }
+
+.mobileuxuib2csolutionmainboxes >p {
+    margin-left: 5%;
+    width: 60%;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+
 
 .mobilesolutionuxuib2bb2cbanner {
-  height: fit-content;
-  width: 99.5%;
-  border: 1px solid white;
-  background: url("/Images/MobileUIUXDesign/BannerBackgrounds/Component 65.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+    height: fit-content;
+    width: 100%;
+    border: 1px solid white;
+
+    background: url("/Images/MobileUIUXDesign/BannerBackgrounds/Component 65.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
 }
+
 
 .mobilesoulutionb2bb2cbannermiddlediv {
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  color: white;
+
+margin-top: 10%;
+display: flex;
+justify-content: center;
+color: white;
 }
 
-.mobilesoulutionb2bb2cbannermiddlediv > h1 {
+.mobilesoulutionb2bb2cbannermiddlediv >h1{
   font-size: 50px;
+  
 }
 
-.mobileb2bb2cuibox {
-  height: 10%;
-  width: 20%;
 
-  text-align: center;
+.mobileb2bb2cuibox{
+    height: 10%;
+    width: 20%;
+
+    text-align: center;
 }
 
-.mobileb2bb2cuxbox {
-  height: 10%;
-  width: 20%;
-  text-align: center;
 
-  margin-left: 2%;
+
+
+.mobileb2bb2cuxbox{
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    
+    margin-left: 2%;
 }
 
-.mobiledatapublishb2bb2c {
-  height: 50%;
-  width: 60%;
 
-  display: flex;
-  flex-wrap: wrap;
+.mobiledatapublishb2bb2c{
+    height: 50%;
+    width: 60%;
+ 
+    display: flex;
+    flex-wrap: wrap;
   margin: auto;
   margin-top: 2%;
 }
 
-.mobiledatapublishb2bb2caftermappingbox {
-  width: fit-content;
+.mobiledatapublishb2bb2caftermappingbox{
+    width: fit-content;
 
-  height: fit-content;
+    height: fit-content;
   margin: 1%;
-  padding: 5px;
+    padding: 5px;
 }

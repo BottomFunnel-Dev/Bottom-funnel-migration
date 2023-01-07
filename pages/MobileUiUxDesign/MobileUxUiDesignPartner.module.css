@@ -1,59 +1,67 @@
-.mobileuxuidesignpartnermainbox {
-  height: fit-content;
-
-  margin-top: 5%;
+.mobileuxuidesignpartnermainbox{
+    height: fit-content;
+padding-bottom: 5%;
+padding-top: 5%;
+    background-color: white;
 }
 
-.mobileuxuidesignpartnermainbox > p {
-  margin-left: 3%;
-  width: 25%;
+.mobileuxuidesignpartnermainbox >p {
+
+    margin-left: 5%;
+    width: 25%;
+   
 }
 
-.mobileuxuidesignpartnermainbox > h1 {
-  margin-left: 3%;
+.mobileuxuidesignpartnermainbox >h1 {
+    margin-left: 5%;
 }
 
-.mobileuxuidesignpartnermainbox > h6 {
-  width: 70%;
-  margin-left: 3%;
-  text-align: justify;
+.mobileuxuidesignpartnermainbox >h4 {
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 1%;
+    text-align: justify;
+  
 }
 
-.mobileuxuidesignpartnerdatamappingmainbox {
-  height: fit-content;
-
-  margin-left: 3%;
-  display: flex;
-  flex-wrap: wrap;
+.mobileuxuidesignpartnerdatamappingmainbox{
+    height: fit-content;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.mobileuxuidesignpartnerindividualdatabox {
-  height: 300px;
-  width: 28%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 2% 3% 0% 0%;
-  padding: 10px;
-  text-align: justify;
+.mobileuxuidesignpartnerindividualdatabox{
+    height: 250px;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1% 2% 1% 0%;
+    padding: 10px;
+    text-align: justify;
 }
 
-.mobileuxuidesignpartnerindividualdatabox:hover {
-  transform: scale(1.02);
+.mobileuxuidesignpartnerindividualdatabox:hover{
+    transform:scale(1.02)
 }
 
-.mobileuxuidesignpartnerindividualdataboxlogo {
-  height: 30%;
-  width: 20%;
 
-  margin: 2%;
-  padding: 10px;
+
+
+.mobileuxuidesignpartnerindividualdataboxlogo{
+    height: 30%;
+    width: 20%;
+
+    margin: 2%;
+    padding: 10px;
 }
 
-.mobileuxuidesignpartnerindividualdataboxlogo > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+.mobileuxuidesignpartnerindividualdataboxlogo >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
-.mobileuxuidesignpartnerindividualdataboxtxt {
-  padding: 10px;
+.mobileuxuidesignpartnerindividualdataboxtxt{
+    padding: 10px;
 }

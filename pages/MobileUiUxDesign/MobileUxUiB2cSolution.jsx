@@ -1,6 +1,6 @@
-import React from 'react';
-import { useState } from 'react';
-import styles from "./MobileUxUiB2cSolution.module.css";
+import React from 'react'
+import { useState } from 'react'
+import styles from "./MobileUxUiB2cSolution.module.css"
 
 export const MobileUxUiB2cSolution = () => {
 
@@ -145,9 +145,7 @@ export const MobileUxUiB2cSolution = () => {
                     <div className={styles.mobileb2bb2cuxbox} onClick={() => {
                         setData(true)
 
-                    }}>
-                        <h1 style={data == true ? { borderBottom: "5px solid white" } : { border: "none" }}>UX</h1>
-                    </div>
+                    }}><h1 style={data == true ? { borderBottom: "5px solid white" } : { border: "none" }}>UX</h1></div>
                 </div>
                 {
                     data == false ?
@@ -173,7 +171,7 @@ export const MobileUxUiB2cSolution = () => {
                             )
                         })}
 
-                    </div>
+                        </div>
                 }
             </div>
 

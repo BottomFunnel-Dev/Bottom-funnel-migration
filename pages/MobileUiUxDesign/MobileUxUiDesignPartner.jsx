@@ -71,26 +71,26 @@ export const MobileUxUiDesignPartner = () => {
             <p>
                 <small>SEE HOW MAKE YOUR PRODUCT ENGAGING AND USEFUL</small>
             </p>
-            <h6>
+            <h4>
                 Our UIs are smooth, superb-looking and user-friendly, created to make it simple and amusing for the end user to interact with your mobile apps/site.
                 We develop outstanding UI designs for almost every type of mobile device and platform, including Android, iOS, Smartphones, Tablet, Windows UI, and more.
                 At SAG IPL, we have a proficient team of UI designers who have the experience and skills to create uniquely amazing mobile UIs by analysing the specific
                 requirements and features of your app. Hire a professional Mobile UI Designer today with BottomFunnnel!
-            </h6>
+            </h4>
             <div className={styles.mobileuxuidesignpartnerdatamappingmainbox}>{designpartnerdata.map((e) => {
                 return (
                     <div className={styles.mobileuxuidesignpartnerindividualdatabox}>
-                        <div className={styles.mobileuxuidesignpartnerindividualdataboxlogo}>
-                            <img src={e.icon} alt='image' /> 
-                        </div>
-                        <div className={styles.mobileuxuidesignpartnerindividualdataboxtxt}>
-                            <h4>{e.htxt}</h4>
+                        <div className={styles.mobileuxuidesignpartnerindividualdataboxlogo}><img src={e.icon} alt='image' /> </div>
+                        <div className={styles.mobileuxuidesignpartnerindividualdataboxtxt}><h4>{e.htxt}</h4>
                             {e.stxt}
                         </div>
+
+
                     </div>
                 )
-            })}
-            </div>
+            })}</div>
+
+
 
         </div>
     )
