@@ -1,0 +1,44 @@
+.Performingmaindiv{
+    /* border: 2px solid green; */
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+.Performing1stdivimage{
+    border: 1px solid lightgrey;
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+.Performing1stdivimage img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.Performing2ndinnerdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.Performing2ndpart1{
+    /* border: 2px solid black; */
+    width: 60%;
+
+}
+
+.Performing2ndpart2{
+  /* border: 2px solid yellow; */
+  width: 50%;
+  height: 400px;
+}
+.Performing2ndpart2 img{
+    width: 100%;
+    height: 100%;
+}

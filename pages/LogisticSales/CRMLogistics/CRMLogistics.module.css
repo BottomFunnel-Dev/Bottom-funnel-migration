@@ -1,0 +1,47 @@
+.CRMLogisticsmaindiv{
+    /* border:2px solid red; */
+    margin-top: 5%;
+   
+}
+
+
+.CRMLogisticsinnerdiv{
+    border: 2px solid pink;
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    margin: auto;
+    font-size: 18px;
+}
+.CRMLogisticsinnerdivimage{
+    /* border: 2px solid yellow; */
+    width: 250px;
+    height: 85px;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    /* justify-content: center; */
+}
+.CRMLogisticsinnerdivimage img{
+    width: 100%;
+    height: 100%;
+
+}
+.CRMLogisticsinnerdivcontain{
+ /* border: 2px solid green; */
+ margin-left: 2%;
+}
+.CRMLogisticsinnerdiv1{
+    /* border: 2px solid green; */
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.CRMLogisticsinnerdiv1contain{
+    /* border: 2px solid green; */
+    margin-left: 2%;
+    padding-top: 50px;
+
+    font-size: 18px;
+}

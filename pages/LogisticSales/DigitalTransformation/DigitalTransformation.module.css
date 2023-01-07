@@ -1,0 +1,47 @@
+.DigitalTransformationmaindiv{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #ffff00; */
+    justify-content: center;
+    background-color: #FFEDD4;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.DigitalTransformationinnerdiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+
+}
+.DigitalTransformationinnerdiv2contain{
+    /* border: 2px solid red; */
+    font-size: 18px;
+    padding-top: 70px;
+    /* text-align: center; */
+}
+.DigitalTransformationinnerdivcontain{
+    /* border: 2px solid red; */
+    font-size: 18px;
+    /* padding-top: 60px; */
+    /* text-align: center; */
+}
+.DigitalTransformationinnerdiv2{
+ /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+
+}
+.DigitalTransformationinnerdiv3{
+ /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: auto;
+
+}
