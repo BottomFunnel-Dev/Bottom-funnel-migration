@@ -1,0 +1,35 @@
+.trendingtechnologiesbannermainboxes {
+  height: 100vh;
+  border: 1px solid white;
+  background: url("/Images/TrendingTechnologies/Banners\ &\ backgounds/Group 770575 1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.trendingtechnologiesbannersometextbox {
+  height: fit-content;
+  width: 40%;
+  margin-top: 18%;
+  margin-left: 5%;
+  color: white;
+  text-align: justify;
+}
+
+.trendingtechnologybannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5%;
+}
+
+.trendingtechnologybannerbutton:hover {
+  background-color: white;
+  color: #3380f2;
+}
