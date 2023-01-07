@@ -2489,7 +2489,7 @@ export const msSQLData = {
     "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/mssqlSKillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/mssqlSKillsPhotos/banner.webp",
     title: "MicrosoftSQL Development Services",
     description:
       "Delivering on your business vision with quality backend development.",
@@ -2497,7 +2497,7 @@ export const msSQLData = {
   isDes: true,
   desData: {
     title: "MicrosoftSQL",
-    image: "/Images/mssqlSKillsPhotos/mssql-logo.png",
+    image: "/Images/skillsPhotos/mssqlSKillsPhotos/mssql-logo.webp",
     description:
       "Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.",
   },
@@ -2507,7 +2507,7 @@ export const msSQLData = {
     cardsData: [
       {
         img: {
-          src: "/Images/mssqlSKillsPhotos/docs-security.png",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/docs-security.webp",
           alt: "Increse data security logo",
         },
         title: "Increse data security",
@@ -2517,7 +2517,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "/Images/mssqlSKillsPhotos/computer-ai.png",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/computer-ai.webp",
           alt: "Ease of configuration logo",
         },
         title: "Ease of configuration",
@@ -2526,7 +2526,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "/Images/mssqlSKillsPhotos/database.png",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/database.webp",
           alt: "Optimized data storage logo",
         },
         title: "Optimized data storage",
@@ -2535,7 +2535,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "/Images/mssqlSKillsPhotos/setting-docs-loading.png",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/setting-docs-loading.webp",
           alt: "Data recovery support logo",
         },
         title: "Data recovery support",
@@ -2544,7 +2544,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "/Images/mssqlSKillsPhotos/sql-server.png",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
           alt: "Intelligent database logo",
         },
         title: "Intelligent database",
@@ -2553,7 +2553,7 @@ export const msSQLData = {
       },
       {
         img: {
-          src: "/Images/mssqlSKillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/mssqlSKillsPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -2565,7 +2565,7 @@ export const msSQLData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For MicrosoftSQL",
-    image: "/Images/mssqlSKillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/mssqlSKillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2579,54 +2579,34 @@ export const msSQLData = {
   BookCallData: {
     title: "Need our microsoftSQL developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using microsoftsql",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "SQL is popular and in high demand because of its many advantages. It is a reliable and efficient language used to communicate with databases.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "Fast query processing logo",
         },
-        title: "Open-source",
+        title: "Fast query processing",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
+          alt: "No Coding Skills logo",
         },
-        title: "Easy complex component handling",
+        title: "No Coding Skills",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/phpskillsphotos/scalable.webp",
+          alt: "Standardized Language logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Standardized Language",
       },
     ],
   },
@@ -2638,7 +2618,7 @@ export const mongodbData = {
     "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/mongodbSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/mongodbSkillsPhotos/banner.webp",
     title: "MongoDB Development Services",
     description:
       "MongoDB is a powerful database that's a favorite among developers. This flexible schema approach makes it popular with teams using agile methodologies.",
@@ -2646,7 +2626,7 @@ export const mongodbData = {
   isDes: true,
   desData: {
     title: "MongoDB",
-    image: "/Images/mongodbSkillsPhotos/mongodb.png",
+    image: "/Images/skillsPhotos/mongodbSkillsPhotos/mongodb.webp",
     description:
       "MongoDB is a database that's used by developers worldwide. It's flexible, scalable and easy to use. With its drivers for programming languages, you can start building your app right away without spending time on installing the database. And with its support in agile methodologies like Agile SDLC, it's even more popular today than before!",
   },
@@ -2656,7 +2636,7 @@ export const mongodbData = {
     cardsData: [
       {
         img: {
-          src: "/Images/mongodbSkillsPhotos/user-cloud.png",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/user-cloud.webp",
           alt: "Cloud based logo",
         },
         title: "Cloud based",
@@ -2666,7 +2646,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "/Images/mongodbSkillsPhotos/docs-checked.png",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
           alt: "Flexible document schemas logo",
         },
         title: "Flexible document schemas",
@@ -2675,7 +2655,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "/Images/mongodbSkillsPhotos/desktop-setting.png",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/desktop-setting.webp",
           alt: "Widely supported and code native access logo",
         },
         title: "Widely supported and code native access",
@@ -2684,7 +2664,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "/Images/mongodbSkillsPhotos/mobile-smile.png",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/mobile-smile.webp",
           alt: "Change-friendly design logo",
         },
         title: "Change-friendly design",
@@ -2693,7 +2673,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "/Images/mongodbSkillsPhotos/setting-clock.png",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/setting-clock.webp",
           alt: "High performance logo",
         },
         title: "High performance",
@@ -2702,7 +2682,7 @@ export const mongodbData = {
       },
       {
         img: {
-          src: "/Images/mongodbSkillsPhotos/analysis.png",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
           alt: "Powerful querying and analytics logo",
         },
         title: "Powerful querying and analytics",
@@ -2714,7 +2694,7 @@ export const mongodbData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For MongoDB",
-    image: "/Images/mongodbSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/mongodbSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2728,54 +2708,34 @@ export const mongodbData = {
   BookCallData: {
     title: "Need our MongoDB developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Benefits of using mongodb",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "MongoDB is a document-oriented database. Indexing makes documents easily accessible. Therefore, it provides a quick response to your queries. MongoDB is 100x faster than relational databases.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/phpskillsphotos/hosting.webp",
+          alt: "Document Oriented Storage logo",
         },
-        title: "Easy complex component handling",
+        title: "Document Oriented Storage",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
+          alt: "Rich queries logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Rich queries",
       },
     ],
   },
@@ -2787,7 +2747,7 @@ export const mysqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/mysqlSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/mysqlSkillsPhotos/banner.webp",
     title: "MySQL Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -2795,7 +2755,7 @@ export const mysqlData = {
   isDes: true,
   desData: {
     title: "MySQL",
-    image: "/Images/mysqlSkillsPhotos/mysql-logo.png",
+    image: "/Images/skillsPhotos/mysqlSkillsPhotos/mysql-logo.webp",
     description:
       "MySQL is an open-source relational database management system (RDBMS). Its name is a combination of 'My', the name of co-founder Michael Widenius's daughter My, and 'SQL', the abbreviation for Structured Query Language. A relational database organizes data into one or more data tables in which data may be related to each other; these relations help structure the data.",
   },
@@ -2805,7 +2765,7 @@ export const mysqlData = {
     cardsData: [
       {
         img: {
-          src: "/Images/mysqlSkillsPhotos/security.png",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/security.webp",
           alt: "Data security logo",
         },
         title: "Data security",
@@ -2815,7 +2775,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "/Images/mysqlSkillsPhotos/user-database.png",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
           alt: "On demand scalibility logo",
         },
         title: "On demand scalibility",
@@ -2824,7 +2784,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "/Images/mysqlSkillsPhotos/setting-clock.png",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/setting-clock.webp",
           alt: "High performance logo",
         },
         title: "High performance",
@@ -2833,7 +2793,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "/Images/mysqlSkillsPhotos/databasae-clock.png",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/databasae-clock.webp",
           alt: "Round-the-clock Uptime logo",
         },
         title: "Round-the-clock Uptime",
@@ -2842,7 +2802,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "/Images/mysqlSkillsPhotos/docs-left-right.png",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/docs-left-right.webp",
           alt: "Comprehensive transactions support logo",
         },
         title: "Comprehensive transactions support",
@@ -2851,7 +2811,7 @@ export const mysqlData = {
       },
       {
         img: {
-          src: "/Images/mysqlSkillsPhotos/setting-loading.png",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/setting-loading.webp",
           alt: "Complete Workflow Control logo",
         },
         title: "Complete Workflow Control",
@@ -2863,7 +2823,7 @@ export const mysqlData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For MySQL",
-    image: "/Images/mysqlSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/mysqlSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -2877,54 +2837,34 @@ export const mysqlData = {
   BookCallData: {
     title: "Need our MySQL developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using mysql",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "MySQL is a free-to-use, open-source database that connects your database to your software, making it easier to manage your database effectively. It is a stable, reliable and powerful solution with advanced features.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          alt: "High Performance logo",
         },
-        title: "Easy complex component handling",
+        title: "High Performance",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
+          alt: "Scalability of Demand logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Scalability of Demand",
       },
     ],
   },
