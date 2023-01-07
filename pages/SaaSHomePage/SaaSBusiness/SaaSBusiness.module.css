@@ -1,0 +1,41 @@
+.SaaSBusinessmaindiv{
+    /* border: 2px solid red; */
+    width: 90%;
+   margin: auto;
+   margin-top: 5%;
+
+}
+.SaaSBusinessmaindiv p{
+    font-size: 18px;
+}
+.SaaSBusinessmaindiv h1{
+    margin-bottom: 3%;
+}
+.SaaSBusinessinnerdiv{
+    border: 2px solid pink;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px 30px 30px;
+
+}
+.SaaSBusinessinnerimagediv{
+    /* border: 2px solid green; */
+    width: 32%;
+    height: 380px;
+}
+.SaaSBusinessinnerimagediv img{
+    width: 100%;
+    height: 100%;
+ }
+.SaaSBusinessinnercontaindiv{
+    /* border: 2px solid yellow; */
+    width: 60%;
+    margin-left: 4%;
+    padding-top: 20px;
+}
+.SaaSBusinessinnercontaindiv h2{
+    color: #ef4c23;
+    margin-bottom: 4%;
+    
+}
