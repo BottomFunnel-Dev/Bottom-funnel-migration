@@ -1,0 +1,67 @@
+.InsuranceProductivitymaindiv{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+.InsuranceProductivitymaindiv1{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green ; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+.InsuranceProductivitymaindiv1image{
+    /* border: 2px solid purple; */
+    width: 20%;
+    height: 210px;
+    
+}
+.InsuranceProductivitymaindiv1image img{
+    width: 100%;
+    height: 100%;
+
+}
+.InsuranceProductivitymaindiv1contain{
+    /* border: 2px solid red; */
+    color: #ef4c23;
+    margin-left: 4%;
+    padding: 30px 20px 20px ;
+    /* width: 80%; */
+    
+}
+.InsuranceProductivityinnermaindiv2{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid yellow; */
+    padding-top: 10px;
+}
+.InsuranceProductivityinnermaindiv2contain{
+    /* border: 2px solid pink; */
+    font-size: 18px;
+    width: 70%;
+   padding-top: 40px;
+     padding-right: 80px; 
+     padding-left: 40px;
+    /* padding: 40px 10px 10px 80px; */
+    /* margin-left: 2%; */
+    /* margin-right: 4%; */
+}
+.InsuranceProductivityinnermaindiv2contain p{
+     font-size: 18px;
+     text-align: justify;
+}
+.InsuranceProductivityinnermaindiv2image{
+    /* border: 2px solid black; */
+    height: 260px;
+
+}
+.InsuranceProductivityinnermaindiv2image img{
+    width: 100%;
+    height: 100%;
+}

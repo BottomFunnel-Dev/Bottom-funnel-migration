@@ -1,0 +1,87 @@
+.Opportunitymaindiv{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-top: 4%;
+
+}
+.Opportunityinnerdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    width: 95%;
+    /* height: 450px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5%;
+    padding-top: 3%;
+    margin-top: 4%;
+     
+}
+.Opportunityinnerdivheading{
+    /* border: 2px solid pink; */
+    width: 55%;
+}
+.Opportunitylogodiv{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+
+}
+.Opportunityimagediv{
+    /* border: 2px solid green; */
+    height: 400px;
+
+}
+.Opportunityimagediv img{
+    height: 100%;
+    width: 100%;
+}
+
+.Opportunityinnerdivheading h4{
+color: #ef2c30;
+}
+.Opportunitylogodiv img{
+    height: 25px;
+    width: 25px;
+
+}
+.Opportunitylogodiv p{
+    margin-left: 2%;
+}
+.Opportunityptag{
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+.Opportunitinnerdiv1{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    /* width: 95%; */
+    /* height: 450px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 5%;
+    padding-top: 3%;
+    margin-top: 4%;
+    margin-left: 8%;
+
+}
+.Opportunityimagediv1{
+    /* border: 2px solid green; */
+    height: 400px;
+
+}
+.Opportunityimagediv1 img{
+    height: 100%;
+    width: 100%;
+}
+.Opportunityinnerdivheading1{
+    /* border: 2px solid pink; */
+    width: 55%;
+    margin-left: 7%;
+}

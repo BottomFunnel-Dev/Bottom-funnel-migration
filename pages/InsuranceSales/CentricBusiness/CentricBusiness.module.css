@@ -1,0 +1,10 @@
+.CentricBusinessmaindiv{
+/* border: 2px solid red; */
+width: 90%;
+margin: auto;
+margin-top: 6%;
+}
+.CentricBusinessmaindiv p{
+    font-size: 18px;
+    margin-top: 2%;
+}

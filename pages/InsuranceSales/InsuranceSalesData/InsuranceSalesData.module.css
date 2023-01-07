@@ -1,0 +1,55 @@
+.InsuranceSalesDatamaindiv{
+    /* border:  2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+
+}
+.InsuranceSalesDatamaindiv p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.InsuranceSalesDatamaindiv ul li{
+    font-size: 18px;
+}
+.InsuranceSalesDatamaincontaindiv{
+    /* border: 2px solid green; */
+    width: 60%;
+   
+}
+.InsuranceSalesDatamainimagediv{
+    border: 1px solid lightgray;
+    width: 50%;
+     height: 480px;
+     margin-left: 2%;
+     border-radius: 10px;
+     margin-top: 1%;
+}
+.InsuranceSalesDatamainimagediv img{
+    width: 100%;
+    
+
+}
+
+.InsuranceSalesDatamainimagediv1{
+    border: 1px solid lightgray;
+    width: 50%;
+     height: 480px;
+     /* margin-left: 2%; */
+     border-radius: 10px;
+     margin-top: 1%;
+}
+.InsuranceSalesDatamainimagediv1 img{
+    width: 100%;
+    
+
+}
+.InsuranceSalesDatamaincontaindiv1{
+    /* border: 2px solid green; */
+    width: 60%;
+    margin-left: 3%;
+   
+}
+

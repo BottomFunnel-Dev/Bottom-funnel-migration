@@ -1,0 +1,47 @@
+.WhatCanYouDomaindiv{
+    /* border: 2px solid red; */
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.WhatCanYouDomaindiv h1{
+    color: #ef4c23;
+
+}
+.WhatCanYouDoimagediv{
+    width: 90%;
+    /* height: 550px ; */
+    margin: auto;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.WhatCanYouDoimagediv img{
+  width: 100%;
+/* height: 100%; */
+
+}
+.WhatCanYouDomore{
+    color: #7777fc;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.WhatCanYouDomore:hover{
+  color: #ef4c23;
+}
+.WhatCanYouDoinnerdiv{
+    margin-top: 4%;
+
+}
+
+.WhatCanYouDoinnerdiv p{
+    margin-top: 10px;
+}
+.WhatCanYouDoinnerdiv ul li{
+    margin-top: 10px;
+}
+.WhatCanYouDoinnerdiv h2{
+    margin-bottom: 2%;
+}

@@ -1,0 +1,93 @@
+.SalesPageBannermainbox {
+    height: 100vh;
+    width: 100%;
+    /* background-position: right; */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .SalesPageBannermainboxinnertextdiv {
+    height: 50%;
+    width: 50%;
+    /* border: 2px solid red; */
+  
+    margin-top: 15%;
+    margin-left: 3%;
+    /* text-align: right; */
+    /* padding-top: 10.5%; */
+    /* text-align: center; */
+  }
+  .SalesPageBannermainboximage {
+    /* border: 2px solid red; */
+    width: 40%;
+    /* margin-left: 4%; */
+    margin-top: 6%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SalesPageBannermainboxinnertextdiv > h1 {
+    color: black;
+    font-size: 42px;
+    /* margin-left: %; */
+    /* font-weight: 600; */
+  }
+  .SalesPageBannermainboxinnertextdiv > p {
+    color: black;
+    margin-top: 1%;
+    font-size: 18px;
+    text-align: left;
+    /* font-weight: 500; */
+  }
+  
+  .SalesPageBannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 230px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    /* margin-left: 15%; */
+    /* border: 2px solid green; */
+  }
+  
+  .SalesPageBannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid #ef4c23;
+  }
+  .SalesPageBannermainboximage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SalesPageBannerbuttonbox{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .SalesPageBannerbutton1 {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 230px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ef4c23;
+    margin-top: 30px;
+    margin-left: 3%;
+    border: 1px solid #ef4c23;
+  }
+  
+  .SalesPageBannerbutton1:hover {
+    background-color: #ef4c23;
+    color: white
+  }

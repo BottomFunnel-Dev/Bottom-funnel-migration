@@ -1,0 +1,36 @@
+.AccessDatamaindiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+
+
+}
+.AccessDatainnerdiv1{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-right: 2%;
+
+    
+}
+.AccessDatainnerdiv2{
+    width: fit-content;
+    border: 1px solid lightgray;
+    /* height: 550px; */
+    margin-top: 1%;
+    
+
+}
+.AccessDatainnerdiv1 h1{
+    margin-bottom: 5%;
+}
+.AccessDatainnerdiv1 ul li{
+    margin-top: 20px;
+}
+.AccessDatainnerdiv2 img{
+    width: 70%;
+    /* height: 90%; */
+}
+

@@ -1,0 +1,45 @@
+.Productivitymaindiv{
+    /* border: 2px solid red; */
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.Productivityimagediv{
+    width: 90%;
+    /* height: 550px ; */
+    margin: auto;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.Productivityimagediv img{
+  width: 100%;
+/* height: 100%; */
+
+}
+.Productivitymore{
+    color: #7777fc;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.Productivitymore:hover{
+  color: #ef4c23;
+}
+.Productivityinnerdiv{
+    margin-top: 6%;
+
+}
+
+.Productivityinnerdiv p{
+    margin-top: 10px;
+}
+.Productivityinnerdiv ul li{
+    margin-top: 10px;
+}
+.Productivityinnerdiv h2{
+    margin-bottom: 2%;
+    /* border: 2px solid red; */
+}

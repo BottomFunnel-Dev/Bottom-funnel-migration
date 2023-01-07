@@ -1,0 +1,94 @@
+.SaleSmarterdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    margin-top: 5%;
+    /* margin: auto; */
+
+
+}
+.SaleSmarterinnerdiv{
+    /* border: 2px solid green; */
+    width: 20%;
+    height: 575px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* margin-top: 2%; */
+
+
+
+}
+.SaleSmarterinnerdiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.SaleSmarterheading{
+    background-color: black;
+    color: white;
+    text-align: center;
+ padding-top: 3%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.SaleSmarterparagrafdiv{
+    border-bottom: 1px solid #ef4c23;
+    margin-top: 2%;
+    height: 80px;
+}
+
+.SaleSmarterpricediv{
+    margin-top: 5%;
+    /* border: 2px solid green; */
+
+}
+.SaleSmarterpricediv h1{
+    font-size: 42px;
+    color: #ef4c23;
+
+}
+.SaleSmarterbutton{
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    color: white;
+    font-size: 18px;
+    margin-top: 5%;
+}
+.SaleSmarterbutton:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid  #ef4c23;
+}
+.SaleSmarterlistdiv{
+    /* border: 2px solid yellow; */
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.SaleSmarterlistdiv ul li{
+   margin-top: 5%;
+}
+.SaleSmarterlistdiv h6{
+
+    margin-left: 5%;
+ }
+ 
+ .SaleSmarterdivupperheading{
+    /* border: 2px solid yellow; */
+    text-align: center;
+    margin-top: 6%;
+ }
+ .SaleSmartertext{
+    text-decoration: underline;
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 3%;
+    /* font-weight: bold; */
+ }

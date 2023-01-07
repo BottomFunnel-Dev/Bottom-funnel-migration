@@ -1,0 +1,40 @@
+.TheSolutiondiv{
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-top: 4%;
+
+}
+.TheSolutionmaindiv{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+   
+
+}
+.TheSolutionimagediv{
+    width: 20%;
+    height: 200px;
+    margin: auto;
+
+}
+.TheSolutioncontaindiv{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    /* padding-top:3% ; */
+    /* padding-bottom: 2%; */
+    
+}
+.TheSolutionimagediv img{
+    width: 95%;
+    height: 100%;
+}
+.TheSolutionmaindiv p{
+    font-size: 18px;
+}
+.TheSolutioncontaindiv h3{
+    color: #ef4c23 ;
+}
