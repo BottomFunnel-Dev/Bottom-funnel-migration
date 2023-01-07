@@ -1,0 +1,58 @@
+.icecreambannermainboxes{
+    height: 100vh;
+     background: url("/Images/icecreamchanges/Banner/Component 114.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    position: relative;
+    background-color: white;
+}
+
+.icreambannersometextbox{
+    height: fit-content;
+    width: 50%;
+    margin-left: 5%;
+   position: absolute;
+    margin-top: 17%;
+    text-align: justify;
+}
+.icreambannersometextbox >h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.icreambannersometextbox >h2{
+font-weight: 700;
+    font-size: 50px;
+}
+
+.icreambannersometextbox >p{
+    text-align: justify;
+    width: 70%;
+    margin-top: 2%;
+}
+
+.icecreambannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5%;
+  
+}
+
+.icecreambannerbutton:hover {
+
+    background-color:white;
+    color:  #ef4c23;
+
+}
+.specialcolr{
+    color:  #ef4c23;
+}

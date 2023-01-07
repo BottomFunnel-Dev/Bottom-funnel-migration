@@ -1,0 +1,43 @@
+.socialmediabannermainbox{
+    height: 100vh;
+    background-image: url("/Images/socialmedia/bannesbackground/Group\ 339981.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    position: relative;
+}
+
+.socialmediabannerinnertextboxes{
+    height: 40%;
+    width: 40%;
+ 
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.socialmediabannerinnertextboxes>h1{
+font-weight: 700;
+font-size: 45px;
+}
+
+.socialmediabannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5%;
+   
+}
+
+.socialmediabannerbutton:hover{
+    background-color:white;
+    color:  #3380f2;
+}
+

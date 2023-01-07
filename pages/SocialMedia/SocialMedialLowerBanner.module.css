@@ -1,0 +1,42 @@
+
+
+.socialmedialowerbannermainboxes {
+    margin-top: 5%;
+    background: url("/Images/socialmedia/bannesbackground/Group 339983.png");
+    background-size: cover; 
+   background-repeat: no-repeat;
+   height: 200px;
+   margin-bottom: 5%;
+   
+
+   
+
+}
+
+.socialmediaflexboxlowerbanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+
+.medialowerbannerimagedivflexing{
+width: 18%;
+text-align: center;
+}
+
+.medialowerbannerimagedivflexing >img {
+    height: 80px;
+  
+}
+
+.medialowerbannerimagedivflexing >h5 {
+color: white;
+margin-top: 3%;
+font-size: 18px;
+}

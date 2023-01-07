@@ -1,0 +1,69 @@
+.realestatecustomerboxmain{
+    height: fit-content;
+
+    display: flex;
+    background-color: white;
+}
+
+.realestatecustomerleftbox{
+    width: 55%;
+  
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.realstatecustomerappleftboxsometextupper{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 2%;
+  
+}
+
+.realestatecustomermappingmainbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+   
+}
+
+.realstatemapperindivisuallybox{
+    width: 48%;
+    height: 170px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.realstatemapperindivisuallybox:hover{
+    transform: scale(1.02);
+    background-color: #F5F5F5;
+}
+
+
+.realestatecustomerrightbox{
+    height: 550px;
+    width: 45%;
+  
+   
+    margin-left: 3%;
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 144.png");
+    background-repeat: no-repeat;
+    background-size: 95% 60%;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.realestatecustomerapprightboxformobile{
+    height: 85%;
+    width: 40%;
+   
+    margin: 5% 0% 3% 25%;
+}
+
+.realestatecustomerapprightboxformobile >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

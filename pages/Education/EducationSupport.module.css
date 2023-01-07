@@ -1,0 +1,45 @@
+.educationsupporttextandborderbox{
+    margin-bottom: 5%;
+}
+
+
+
+.educationsupporttextandborderbox >h2{
+    margin-left: 5%;
+    font-size: 35px;
+    
+    
+}
+
+
+.educationsupporttextandtextingpara{
+display: flex;
+width: 100%;
+height: fit-content;
+}
+
+.educationsupportrighttboxingflexfortext{
+    height: fit-content;
+    width: 50%;
+  margin-top: 31px;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.educationsupportrighttboxingflexfortext >p{
+    font-size: 18px;
+}
+
+.educationsupportleftboxingflexforimage{
+    height: 520px;
+  
+    width: 50%;
+ margin-top: -5%;
+    margin-right: 2%;
+}
+
+.educationsupportleftboxingflexforimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

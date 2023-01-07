@@ -1,0 +1,30 @@
+.szpoliticsmobile {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+
+.szpoliticsmobilesub {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  height: 140px;
+}
+
+.szPoliticalmobilediv {
+  width: 70%;
+  padding: 0 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 52%;
+  font-size: 18px;
+  left: 38%;
+}
+.szpoliticmobilehead {
+  width: 65%;
+ padding: 30px;
+}
+.szpoliticmobilehead > h1 {
+  margin-left: 4%;
+}

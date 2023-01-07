@@ -1,0 +1,85 @@
+.taxibookingdriverappmainboxes{
+    height: fit-content;
+    background-color: white;
+    display: flex;
+}
+
+.taxibookingappdriverappleftbox{
+    height: fit-content;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-top: 1%;
+  
+}
+
+.taxibookingappdriverapprightbox{
+    height: 450px;
+    width: 40%;
+
+ margin-left: 10%;
+    background: url("/public/Images/Taxibooking/Bannersbackgrounds/Rectangle 4866.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  background-position-y:top ;
+  
+}
+
+
+
+
+.taxibookingappdriverrightboxinnermobile{
+    height: 90%;
+    width: 60%;
+
+    margin: 2% 0% 0% 10%;
+}
+
+.taxibookingappdriverrightboxinnermobile >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.taxibookingdriverflexingboxesindi{
+    height: 150px;
+    width: 48%;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin: 1%;
+   text-align: justify;
+   border-radius: 10px;
+
+}
+
+.taxibookingdriverflexingboxesindi:hover{
+    transform: scale(1.02);
+    background-color: #efd5a7;
+}
+
+.taxibookingflexingboxesdriverindiforlogo{
+    height: 14%;
+    width: 18%;
+
+}
+
+.taxibookingflexingboxesdriverindiforlogo >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.driverapptaxibookingboxfortxt >h1{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.driverapptaxibookingboxfortxt{
+    background-color: white;
+}
+
+.specialcolor{
+    color: #ef4c23;
+}

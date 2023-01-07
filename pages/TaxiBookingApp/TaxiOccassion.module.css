@@ -1,0 +1,249 @@
+.taxioccasioncontainer {
+    width: 100%;
+    height: fit-content;
+    
+    background-color: white;
+
+  }
+  .taxioccasionsub {
+    width: 100%;
+    
+    height: fit-content;
+    margin: auto;
+
+  }
+  .sztaxi {
+    width: 100%;
+    height: 620px;
+
+    background: url("/public/Images/Taxibooking/Bannersbackgrounds/Component 130.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+
+    padding: 10px;
+  }
+  .sztaxicard {
+    width: 80%;
+    height: 80%;
+    position: relative;
+
+    z-index: 1;
+ margin-left: 10%;
+    padding-top: 1%;
+    display: flex;
+   
+  }
+  .sztaxihead {
+    text-align: center;
+ margin-bottom: 3%;
+
+  }
+  .sztaxicard > div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    width: 30%;
+    height: 420px;
+ padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+  }
+
+.sztaxicard>div:hover{
+   transform: scale(1.02);
+}
+
+
+
+  .sztaxicard > div > h4 {
+    padding-left: 10px;
+  }
+  .sztaxicard > div > p {
+    padding: 2px 10px;
+    font-size: 16px;
+  }
+  .sztaxioccasion1 {
+   
+ 
+  
+    position: absolute;
+    z-index: 2;
+  
+  }
+  .sztaxioccasion2 {
+    position: absolute;
+    margin-left: 35%;
+    z-index: 4;
+  }
+  .sztaxioccasion3 {
+    position: absolute;
+    z-index: 4;
+    margin-left: 70%;
+  }
+  
+  .szoccassionimage {
+    width: 100%;
+  padding: 2px;
+    height: fit-content;
+
+
+  }
+  .szoccassionimage > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  .sztaxiride {
+    width: 95%;
+    height: fit-content;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+  }
+  .sztaxiride > div {
+    width: 30%;
+
+    display: flex;
+    height: 50px;
+    display: flex;
+    gap: 4%;
+    align-items: center;
+  }
+  .sztaxiride > div > p {
+    font-size: 13px;
+    margin: 0;
+  }
+
+
+  /*Mobile Screen */
+
+  @media only screen and (max-width: 600px) {
+
+    .taxioccasioncontainer {
+      width: 100%;
+      height: fit-content;
+      
+      background-color: white;
+  
+    }
+    .taxioccasionsub {
+      width: 100%;
+      
+      height: fit-content;
+      margin: auto;
+  
+    }
+    .sztaxi {
+      width: 100%;
+      height: 620px;
+  
+      background: url("/public/Images/Taxibooking/Bannersbackgrounds/Component 130.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: auto;
+  
+      padding: 10px;
+    }
+    .sztaxicard {
+      width: 80%;
+      height: 80%;
+      position: relative;
+  
+      z-index: 1;
+   margin-left: 10%;
+      padding-top: 1%;
+      display: flex;
+     
+    }
+    .sztaxihead {
+      text-align: center;
+   margin-bottom: 3%;
+  
+  
+    }
+.sztaxihead >h1{
+  font-size: 20px;
+}
+
+
+
+
+
+    .sztaxicard > div {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      background-color: white;
+      width: 30%;
+      height: 420px;
+   padding: 10px;
+      text-align: left;
+      border-radius: 10px;
+    }
+  
+  /* .sztaxicard>div:hover{
+     transform: scale(1.02);
+  }
+   */
+  
+  
+    .sztaxicard > div > h4 {
+      padding-left: 10px;
+    }
+    .sztaxicard > div > p {
+      padding: 2px 10px;
+      font-size: 16px;
+    }
+    .sztaxioccasion1 {
+     
+   
+    
+      position: absolute;
+      z-index: 2;
+    
+    }
+    .sztaxioccasion2 {
+      position: absolute;
+      margin-left: 35%;
+      z-index: 4;
+    }
+    .sztaxioccasion3 {
+      position: absolute;
+      z-index: 4;
+      margin-left: 70%;
+    }
+    
+    .szoccassionimage {
+      width: 100%;
+    padding: 2px;
+      height: fit-content;
+  
+  
+    }
+    .szoccassionimage > img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+    .sztaxiride {
+      width: 95%;
+      height: fit-content;
+      margin: auto;
+     
+      display: flex;
+      justify-content: space-between;
+    }
+    .sztaxiride > div {
+      width: 30%;
+  
+      display: flex;
+      height: 50px;
+      display: flex;
+      gap: 4%;
+      align-items: center;
+    }
+    .sztaxiride > div > p {
+      font-size: 13px;
+      margin: 0;
+    }
+
+  }

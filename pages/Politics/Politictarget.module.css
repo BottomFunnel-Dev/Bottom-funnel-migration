@@ -1,0 +1,37 @@
+.targetingdiv{
+    width: 100%;
+    background-color: white;
+    height:380px;
+}
+.targetingsub{
+    width: 100%;
+    margin: auto;
+    /* display: flex; */
+    height: 300px;
+    /* background-color: chartreuse; */
+}
+.sztargeting{
+    width: 70%;
+    height: 80px;
+    /* background-color: rgb(109, 230, 230); */
+  display: flex;
+  margin-left: 4%;
+}
+.sztargetingimage{
+    width: 13%;
+    padding: 10px;
+    height: 75px; 
+    /* background-color: brown; */
+}
+.sztargetingimage>img{
+    width: 100%;
+    height: 100%;
+}
+.targetinghead{
+    width: 100%;
+    margin:3%;
+}
+.targetpara{
+    width: 50%;
+    margin-left: 14%;
+}

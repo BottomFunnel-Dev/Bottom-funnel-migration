@@ -1,0 +1,26 @@
+.politicsreliable {
+  width: 100%;
+ padding-top: 15px;
+  background-color: white;
+}
+
+.politicsreliablesub {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+
+.szPoliticalreliablediv {
+  /* background-color: coral; */
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+.szpoliticreliablehead {
+  width: 100%;
+  text-align: center;
+padding-top: 30px;
+}

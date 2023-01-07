@@ -1,0 +1,253 @@
+.travelflightcontainer{
+   width: 100%;
+   height: 2000px;
+   background-color: white;
+}
+.szflightcontainer{
+    width: 90%; 
+    margin: auto;
+    display: flex; 
+    height: 500px;
+    /* background-color: black; */
+    height: 650px;
+    padding: 20px;
+}
+.szflightleft{
+    width: 55%;
+    /* background-color: rebeccapurple; */
+    position:relative;
+}
+.szbgflight{
+    position: absolute;
+    width: 105%;
+    height: 600px;
+    z-index: 0;
+}
+.szbgflight>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+.szflightright{
+    width: 50%;
+    /* background-color: blue; */
+    text-align: left;
+     padding: 60px 20px;
+
+}
+.szflightright>div{
+
+    height: 130px;
+    padding: 5%;
+}
+
+.szflightright>div:hover{
+    transform: scale(1.02);
+}
+
+.szflightright>div>h4{
+font-size: 20px;
+}
+
+.szflightright>div>p{
+ font-size: 16px;
+}
+.szflightlaptopright>div>p{
+    font-size: 16px;
+}
+
+.szflightlaptopright >div>h4{
+    font-size: 20px;
+}
+
+.szflightlaptopright >div{
+   
+    height: 130px;
+    padding: 5%;
+}
+
+.szflightmobileright>div>h4{
+    font-size: 20px;
+}
+
+.szflightmobileright>div{
+
+height: 130px;
+}
+
+
+.szflightmobileright>div>p{
+    font-size: 16px;
+}
+.sztravelphone{
+   width: 49%;
+   height: 500px;
+   position: absolute;
+   z-index: 1;
+   margin:68px 33%;
+}
+.sztravelphone>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.discovermobilescreen{
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    height:400px;
+    margin: 13% 20%;
+}
+.discovermobilescreen>img{
+ width: 100%;
+ height: 100%;
+ object-fit: contain;
+}
+.szflightright>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+   border-radius: 15px;
+   margin: 10px;
+  }
+ 
+  .szflightlaptopcontainer{
+    width: 90%; 
+    margin: auto;
+    display: flex; 
+    height: 500px;
+    /* background-color: black; */
+    height: 650px;
+    padding: 20px;
+  }
+  .szflightlaptopright{
+    width: 50%;
+    /* background-color: blue; */
+     
+    text-align: left;
+     padding: 60px 20px;
+  }
+
+  .szflightlaptopright>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+   border-radius: 15px;
+   margin: 10px;
+  }
+
+  .szflightlaptopright>div:hover{
+    transform: scale(1.02);
+  }
+  .szflightlaptopleft{
+    width: 50%;
+   
+    /* background-color: rebeccapurple; */
+    position:relative;
+  }
+  .macbook{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    margin: 22%  12%;
+  }
+  .macbook>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .szbgflight2{
+    position: absolute;
+    width: 100%;
+    margin-top:-5%;
+    height: 630px;
+    z-index: 0;
+    /* padding-bottom: 30px; */
+}
+.szbgflight2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.szflightmobilecontainer{
+    width: 90%; 
+    margin: auto;
+    display: flex; 
+    height: 500px;
+    height: 650px;
+    padding: 20px;
+}
+.szflightmobileleft{
+    width: 50%;
+    /* background-color: rebeccapurple; */
+    position:relative;
+}
+.szflightmobileright{
+    width: 50%;
+    /* background-color: blue; */ 
+    text-align: left;
+     padding: 60px 20px;
+}
+
+.szflightmobileright >div:hover{
+transform: scale(1.02);
+}
+
+
+.szlaptopscreen{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin:25% 15px;
+    /* padding: 20px 20px; */
+    height: 250px;
+}
+.szlaptopscreen>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.bgcircle{
+    width: 100%;
+    height: 630px;
+    position: absolute;
+    z-index: 0;
+    margin-top:-5%;
+}
+.bgcircle>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+ .sztravelmobilecase{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    margin:12% 20%;
+    height: 550px;
+ }
+ .sztravelmobilecase>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+ }
+ .sztravelexplore{
+    width: 74%;
+    height: 430px;
+    position: absolute;
+    z-index: 2;
+    margin: 16% 20%;
+ }
+ .sztravelexplore>img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+ }
+ .szflightmobileright>div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+   border-radius: 15px;
+   margin: 10px;
+  }

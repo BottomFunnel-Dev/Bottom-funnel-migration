@@ -1,0 +1,65 @@
+.socialmediaadminmainboxing {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.socialmediaadmintextparaheader{
+  height: 150px;
+ margin-top: 5%;
+}
+
+.socialmedialeftboxafterflexing {
+  width: 55%;
+height: fit-content;
+
+
+}
+
+.socialmediainsiderflexboxadminpannel {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.socialmediaadminmaperbox {
+  height: 150px;
+  width: 42%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  margin: 1% 1% 1% 1%;
+
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+.socialmediaadminmaperbox:hover {
+  transform: scale(1.02);
+  background-color: #F8F9FE;
+}
+
+.socialmeditxtmapperbox {
+  width: 80%;
+  text-align: justify;
+  margin-left: 2%;
+}
+
+.afterflexingsocialmediarightbox {
+  width: 40%;
+  margin-top: 10%;
+  height: 300px;
+ 
+}
+
+.afterflexingsocialmediarightbox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: 100% 100%;
+}

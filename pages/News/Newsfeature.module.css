@@ -1,0 +1,42 @@
+.newfeaturemainboxes{
+    height: 60vh;
+padding-top: 1%;
+  position: relative;
+    background: url("/Images/News/Bannerbackground/Group 340282.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: white;
+}
+
+.newsfeaturelowerbannersometextandimageboxes{
+    width: 95%;
+    height: 70%;
+    display: flex;
+
+ padding-top: 8%;
+    margin-left: 5%;
+    position: absolute;
+ 
+}
+
+.newsfeaturelowerbannersometextboxes{
+    height: fit-content;
+    width:50%;
+ color: white;
+   position: relative;
+text-align: justify;
+    
+}
+
+.newsfeaturelowerbannersomeimageboxes{
+    width: 30%;
+ 
+
+    margin-left: 5%;
+}
+
+.newsfeaturelowerbannersomeimageboxes >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

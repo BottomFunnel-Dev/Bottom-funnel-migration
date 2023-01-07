@@ -1,0 +1,40 @@
+.taxibookinglowerbannermainbox{
+    height: 70vh;
+    background: url("/Images/Taxibooking/Bannersbackgrounds/Group 340255.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: white;
+    
+}
+
+.taxibookinglowerbannertxtbox{
+    height: 200px;
+    width: 60%;
+   
+    position: absolute;
+    margin: 12% 0% 0% 30%;
+    color: white;
+}
+
+.taxibookinglowerbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  margin-top: 2%;
+}
+
+.taxibookinglowerbannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}

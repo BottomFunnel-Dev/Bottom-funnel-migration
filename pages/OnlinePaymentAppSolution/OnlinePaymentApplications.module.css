@@ -1,0 +1,85 @@
+.onlinepaymentmobileapplicationmainbox{
+    height: 70vh;
+   
+    display: flex;
+ padding-top: 5%;
+    background-color: white;
+}
+
+.onlinepaymentmobileapplicationleftbox{
+    height: 80%;
+    width: 50%;
+
+    background: url("/Images/onlinepaymentpage/Rectangle 18529.png");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.specialcolor{
+    color: #ef4c23;
+}
+.onlinepaymentmobileapplicationleftboxformobileimage{
+    height: 100%;
+
+    width: 45%;
+    margin: 0% 0% 3% 10%;
+}
+
+.onlinepaymentmobileapplicationleftboxformobileimage >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.onlinepaymentmobileapplicationrightbox{
+    height: 80%;
+    width: 40%;
+
+    margin:2% 0% 0% 5%
+
+}
+
+.onlinepaymentmobileapplicationmappingbox{
+    height: fit-content;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+
+
+
+
+
+.onlinepaymentmobileapplicationmappingbox >h4{
+    font-size: 20px;
+}
+
+.onlinepaymentmobileapplicationmappingbox:hover{
+    transform: scale(1.02);
+    background-color: #CDFCF6;
+}
+
+
+.onlinepaymentmobileapplicationtetxtupperheadline{
+    height: 50px;
+    width: 100%;
+    
+ 
+}
+
+
+.onlinepaymentmobileapplicationmappingbox >h4{
+    margin-left: 2%;
+    
+}
+
+.onlinepaymentmobileapplicationmappingbox >svg{
+    color: #CDFCF6;
+}
+
+

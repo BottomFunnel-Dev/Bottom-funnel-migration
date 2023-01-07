@@ -1,0 +1,82 @@
+.cannbiescustomerappmainboxes{
+    height: fit-content;
+
+   
+}
+
+.cannbiescustomerappmainboxes >h1{
+    text-align: center;
+}
+
+.cannbiesdeliveryappflexingbox{
+    height: fit-content;
+ margin-top: 2%;
+    display: flex;
+  
+}
+
+.cannabiesdeliveryappflexingboxleftbox{
+    height: 480px;
+    width: 45%;
+ 
+    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4861.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+.cannabiesdeliveryappleftboxinsiderupperimage{
+    height: 90%;
+    width: 35%;
+  
+    margin: 5% 0% 0% 10%;
+ 
+}
+
+.cannabiesdeliveryappleftboxinsiderupperimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.cannbiesdeliveryappflexingboxrightbox{
+    height: fit-content;
+    width: 60%;
+    margin-left: 1%;
+    margin-right: 3%;
+   text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cannbiescustomerappmainboxes >h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.cannabiesdeliveryappindivisualbox{
+    height: 230px;
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  
+}
+
+.cannabiesdeliveryappindivisualbox:hover{
+    transform: scale(1.02);
+}
+
+
+.cannbiesdeliveryappindivisualboxforlogo{
+height: 25%;
+width: 18%;
+
+}
+
+.cannbiesdeliveryappindivisualboxforlogo>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+}

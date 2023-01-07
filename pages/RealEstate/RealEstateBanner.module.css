@@ -1,0 +1,59 @@
+.realestatebannermainbox{
+    height: 100vh;
+
+    background: url("/Images/RealEstate/Backgrounds/Group 1000002336.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.realestatebannersometextandimages{
+    display: flex;
+    width: 100%;
+}
+
+.realestatebannersometext{
+    width:35%;
+   
+    height: fit-content;
+    margin: 15% 0% 0% 3%;
+    color: white;
+}
+.realestatebannersometext>h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.realestatebannersomeimages{
+    width: 18%;
+    height: 400px;
+   
+    margin-left:3%;
+    margin-top: 10%;
+}
+
+.realestatebannersomeimages >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.textboxinsidetextrealestatebox{
+    width: 100%;
+   
+    height: 200px;
+margin-top: 10%;
+display: flex;
+}
+
+.txtinsidetxtrealstateindi{
+    width: 30%;
+   
+    height: fit-content;
+    margin: 2%;
+}
+
+.txtinsidetxtrealstateindi >h1{
+    color: #ef4c23;
+}
+

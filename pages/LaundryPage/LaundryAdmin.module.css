@@ -1,0 +1,54 @@
+.laundrypageadminmainbox{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+
+}
+
+.laundryadminleftbox{
+    height: fit-content;
+    width: 50%;
+    
+    margin-left: 5%;
+}
+
+.laundryadminmappingbox{
+    height: fit-content;
+    width: 100%;
+    
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.laundryadmindatamappingindi{
+width: 47%;
+height: 170px;
+
+margin: 1%;
+border-radius: 10px;
+padding: 10px;
+text-align: justify;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.laundryadmindatamappingindi:hover{
+    transform: scale(1.02);
+    background-color: #EFEAE1;
+}
+
+.laundryadminrightbox{
+    width: 40%;
+   
+    height: 450px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.laundryadminrightbox >img{
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+    

@@ -1,0 +1,45 @@
+.realestatewhychoosemainboxes{
+    height: fit-content;
+    background-color: white;
+}
+
+.realestatewhychoosebottomtextbox{
+    height: fit-content;
+width: 50%;
+margin: auto;
+text-align: center;
+}
+
+.realestatewhychoosemapperbox{
+height: fit-content;
+
+display: flex;
+width: 90%;
+margin-left: 5%;
+margin-top: 3%;
+
+}
+
+.realestatewhychooseindivisuallybox{
+    height: 250px;
+    width: 30%;
+    margin: 1%;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.realestatewhychooseindivisuallybox >h3{
+    text-align: center;
+}
+
+
+.whychooserealestateicon{
+
+   width: 40%;
+   margin-left: 25%;
+}
+
+.whychooserealestateicon >img{
+  padding: 10px;
+}

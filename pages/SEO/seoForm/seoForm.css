@@ -1,0 +1,176 @@
+._SeoMain1 {
+    height: auto;
+    width: 100%;
+    background: url("/public/Images/seopages/seo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-origin: border-box;
+    position: relative;
+    margin-top: 70px;
+  }
+  
+  .gifDenote {
+    width: 230px;
+    height: 400px;
+    position: absolute;
+    top: 32%;
+    right: 34%;
+  }
+  .gifDenote > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  ._Seoupperdiv {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 100%;
+    height:100vh;
+    background: none !important;
+  }
+  ._Seotext {
+    /* border:1px solid white; */
+    width: 40%;
+    color: black;
+    box-sizing: border-box;
+    margin: auto;
+    margin-left: 80px;
+    /* text-align: center; */
+  }
+  ._Seoparagraph {
+    /* border:1px solid white; */
+    color: gray;
+    font-weight: 400;
+    width: 100%;
+    color: black;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  ._Seoheading {
+    /* border:1px solid white; */
+    margin-bottom: 10px;
+    color: #605d5d;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    /* text-align: left; */
+  }
+  ._Seoheading + div {
+    font-size: 18px;
+    /* text-align: left; */
+  }
+  ._Seoform {
+    /* border:1px solid red; */
+    width: 42%;
+    height: 100%;
+  }
+  ._Seoformcontent {
+    border: 1px solid white;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
+    margin: auto;
+    margin-top: 30px;
+  }
+  ._Seoformheading {
+    /* border: 1px solid red; */
+    /* border-radius: 35px; */
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    color: #605d5d;
+  }
+  
+  ._SeoRatings {
+    border: 1px solid green;
+  }
+  ._Seoenterform {
+    /* border:1px solid red; */
+    width: 85%;
+    height: 440px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  ._seoforminput {
+    border: 1px solid #393939;
+    font-size: 15px;
+    border-radius: 4px;
+  
+    margin-top: 10px;
+    /* outline: #EF4C23; */
+    padding: 7px 10px;
+    width: 100%;
+    color: gray;
+    font-weight: 400;
+  }
+  ._seoforminput ~ label {
+    color: #ef4c23;
+    font-size: 15px;
+    font-weight: 400;
+    /* border:1px solid rebeccapurple; */
+    display: inline-block;
+    margin-top: 12px;
+    padding: 4px;
+  }
+  .Seoforminput:hover {
+    outline-color: #ef4c23;
+  }
+  label ~ select {
+    width: 100%;
+    font-size: 16px;
+    /* font-weight: 500; */
+    border-radius: 4px;
+    padding: 6px 7px;
+  
+    color: gray;
+    margin-top: 12px;
+    border: 1px solid #393939;
+  }
+  ._SeoSubmitbutton {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  ._SeoSubmitbutton > button {
+    font-size: 18px;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 7px 60px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  ._SeoSubmitbutton>button:hover {
+    color: #ef4c23;
+    background-color: white;
+    transition: 0.2s linear;
+   
+  }
+  ._Seochkpricing {
+    text-align: center;
+    background-color: #ef4c23;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 60px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  ._Seochkpricing:hover {
+    color: #ef4c23;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s linear;
+  }
+  

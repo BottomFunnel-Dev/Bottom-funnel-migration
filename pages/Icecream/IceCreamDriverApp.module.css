@@ -1,0 +1,77 @@
+.icecreamdriverappmainboxes{
+    height: fit-content;
+    background-color: white;
+   margin-bottom: 5%;
+
+}
+
+.icecreamdriverappmainboxes >h2{
+ margin-left: 43.5%;
+ font-size: 30px;
+}
+
+.icecreamdriverappflexingbox{
+    height: fit-content;
+    display: flex;
+  
+}
+
+.icecreamdriverappflexingboxleftbox{
+    height: 480px;
+    width: 45%;
+ 
+    background: url("/public/Images/icecreamchanges/Ellipse 247.png");
+    background-repeat: no-repeat;
+   
+    background-size: 100% 100%;
+}
+
+.icecreamdeliveryappleftboxinsiderupperimage{
+    height: 90%;
+    width: 35%;
+  
+    margin: 5% 0% 5% 30%;
+}
+
+.icecreamdeliveryappleftboxinsiderupperimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.icecreamdriverappflexingboxrightbox{
+    height: fit-content;
+    width: 60%;
+  
+    margin: 2% 3% 0% 2%;
+   text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icecreamcustomerappmainboxes >h2{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.icecreamdriverappindivisualbox{
+    height: 200px;
+    width: 48%;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icecreamdriverappindivisualbox:hover{
+    transform: scale(1.02);
+    background-color: #f9f5f5;
+}
+
+
+.icecreamdeliveryappindivisualboxforlogo{
+padding: 5px;
+}
+
+/* .icecreamdeliveryappindivisualboxfortext{
+
+} */

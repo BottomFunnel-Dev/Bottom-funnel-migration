@@ -1,0 +1,32 @@
+.travelstart {
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: white;
+}
+.travelstartcontainer {
+  width: 90%;
+  margin: auto;
+  height: 160px;
+  background-color: #b8f8ff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.sztravelstartbtn {
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  background-color: #ef4c23;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+}
+
+.sztravelstartbtn:hover {
+  background-color: white;
+  color: #ef4c23;
+}

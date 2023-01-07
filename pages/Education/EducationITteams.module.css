@@ -1,0 +1,116 @@
+.educationitteamsmainboxes{
+    height: fit-content;
+
+    background-color: #f5f5f5;
+}
+
+.educationitsupporttextandborder{
+    border-top: 3px solid #ef4c23;
+    width: 70%;
+    background-color: #ef4c23;
+}
+
+.educationitteamsboxfortext{
+width: 90%;
+margin: 5%;
+text-align: justify;
+}
+
+.educationitteamsboxfortext>p{
+    font-size: 17px;
+}
+
+
+
+.educationitsupportmappingboxmain{
+    height: fit-content;
+    width: 95%;
+  margin-left: 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.educationitsupportmappingboxmain>div:nth-child(even) .imageboxforeducationitsupportmapper{
+   
+   margin-top: 15%;
+}
+
+.educationitsupportindivisuallybox{
+    height: 500px;
+    width: 40%;
+
+ 
+    text-align: justify;
+}
+
+.educationitsupportindivisuallybox>div>p{
+    font-size: 17px;
+}
+
+.educationitsupportindivisuallybox:nth-child(2n){
+    margin-left: 15%;
+}
+
+
+
+.imageboxforeducationitsupportmapper{
+    height: 70%;
+    width: 100%;
+
+    
+}
+
+.imageboxforeducationitsupportmapper:nth-child(2n){
+    margin-top: 10%;
+   
+}
+
+.imageboxforeducationitsupportmapper >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.educationitsupportboxnextflexbox{
+    height: 500px;
+
+    display: flex;
+    margin-top: 10%;
+}
+
+.educationitsupportboxnextflexboxleft{
+    height: fit-content;
+    width: 44%;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.educationitsupportboxnextflexboxleft>p{
+    font-size: 17px;
+}
+
+.educationitsupportboxnextflexboxright{
+    height: 100%;
+    width: 44%;
+    margin-left: 2%;
+
+}
+
+.educationitsupportboxnextflexboxright >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 50px;
+}
+
+.educationitsupportlowerspeciallinefromrightside{
+    width: 80%;
+   border: 2px solid #ef4c23;
+   width: 80%;
+   margin-left: 20%;
+   background-color: #ef4c23;
+
+}

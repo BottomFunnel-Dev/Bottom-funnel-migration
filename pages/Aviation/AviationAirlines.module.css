@@ -1,0 +1,131 @@
+.aviationairlinesmainboxes{
+    height: 120vh;
+border: 1px solid #F5F5F5;
+    position: relative;
+    background-color: #F5F5F5;
+}
+
+.aviationairlinesupperboxamazing{
+    height: 10%;
+    width: 80%;
+    border-radius: 20px;
+  display: flex;
+    position: absolute;
+    top: -5.3%;
+    z-index: 1;
+    background-color: white;
+    left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+   
+}
+
+.aviationupperbox1{
+    height: 93%;
+    width: 45%;
+   
+    margin: 1%;
+    text-align: center;
+    border-right: 1px solid;
+
+}
+
+.aviationupperbox1 >h1{
+   font-size: 40px;
+}
+
+.aviationupperbox2 >h1{
+    font-size: 40px;
+}
+
+
+.aviationupperbox2{
+    height: 93%;
+    width: 45%;
+   
+    margin: 1%;
+    text-align: center;
+ 
+
+}
+
+
+.avitaionairlinesagaintextonlytext{
+    height: 80%;
+    width: 95%;
+padding: 10px;
+margin: auto;
+margin-top: 6%;
+text-align: center;
+}
+
+.avitaionairlinesagaintextonlytext >p{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.coloredspecial{
+    color: #ef4c23;
+}
+
+.datamappingindivisalboxairlineaviation{
+    height: 85%;
+    width: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aviationairlinesdatamappingboxes{
+    width: 42%;
+    margin-top: 2%;
+   margin-left: 5%;
+   border-radius: 10px;
+    height: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    background-color: white;
+  padding: 10px;
+}
+.aviationairlinesdatamappingboxes:hover{
+    transform: scale(1.02);
+}
+
+.logoboxairlinesaviations{
+    height: 30%;
+    width: 20%;
+
+   position: absolute;
+   left: 2%;
+   top: 2%;
+}
+
+.logoboxairlinesaviations >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.aviationairlinesmappertextboxes{
+  height: 65%;
+  width: 90%;
+  left: 5%;
+padding: 10px;
+  position: absolute;
+  top: 35%;
+  text-align: left;
+}
+
+.aviationairlinesmappertextboxes >h4{
+    font-weight: 700;
+}
+
+.aviationairlinesmappertextboxes{
+    text-align: justify;
+}
+
+.specialcolor{
+    color: #ef4c23;
+}

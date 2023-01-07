@@ -1,0 +1,49 @@
+.appbuildersolutionbannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+
+    background: url("/Images/Appbuildersolutions/Bannersbackgrounds/Component 97.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    background-position: top;
+    background-color: white;
+}
+
+.appbuildersolutionboxfortextenter{
+    height: fit-content;
+    width: 45%;
+    margin-left: 5%;
+
+    color:white;
+    margin-top: 20%;
+   
+}
+
+.appbuildersolutionboxfortextenter>h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.appbuildersolutionbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 250px;
+  
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3380f2;
+ 
+  margin-top: 5%;
+}
+
+.appbuildersolutionbannerbutton:hover {
+
+    background-color:#3380f2;
+    color:  white;
+
+}

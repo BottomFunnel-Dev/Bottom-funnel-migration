@@ -1,0 +1,247 @@
+.socialmediasolutionmaindiv {
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.socialmediasolutiontextboxinupper {
+  height: 15%;
+  width: 100%;
+
+  text-align: center;
+}
+
+.socialmediaspecialimagelongerforsolution {
+  height: 5%;
+  width: 90%;
+}
+
+.socialmediaspecialimagelongerforsolution > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.socialmediahavingflexboxformobiletypeimage {
+  height: 80%;
+  width: 80%;
+  margin: 1% 5% 0% 8%;
+
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.socialmediasolutionmobileboxone {
+  height: 40%;
+  width: 47%;
+}
+
+.socialmediasolutionmobileboxtwo {
+  height: 40%;
+  width: 47%;
+
+  margin-left: 6%;
+}
+
+.socialmediasolutionmobileboxthree {
+  height: 40%;
+  width: 47%;
+}
+
+.socialmediasolutionmobileboxfour {
+  height: 40%;
+  width: 47%;
+
+  margin-left: 6%;
+}
+
+.socialmediasolutionmobilebox {
+  position: absolute;
+  height: 50%;
+  width: 20%;
+}
+
+.socialmediasolutionmobilebox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediasolutiontextbox {
+  position: absolute;
+  height: fit-content;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  left: 16%;
+  top: 22%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.socialmediasolutiontextbox:hover {
+  transform: scale(1.02);
+}
+
+.socialmediasolutionlogobox {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+
+  left: 36%;
+  top: 12%;
+}
+
+.socialmediasolutionlogobox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediamobilesolutionboxone {
+  position: absolute;
+  height: 50%;
+  width: 20%;
+
+  right: 0;
+  z-index: 1;
+}
+
+.socialmediamobilesolutionboxone > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediatextsolutionboxone {
+  position: absolute;
+  height: fit-content;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  right: 15%;
+  top: 23%;
+  border-radius: 10px;
+  z-index: 0;
+  padding: 10px;
+}
+
+.socialmediatextsolutionboxone:hover {
+  transform: scale(1.02);
+  background-color: #eef1ff;
+}
+
+.socialmedialogosolutionboxone {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+
+  right: 36%;
+  top: 13%;
+}
+
+.socialmedialogosolutionboxone > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediasolutionflexboximagethree {
+  position: absolute;
+  height: 50%;
+  width: 20%;
+  bottom: -10%;
+}
+
+.socialmediasolutionflexboximagethree > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediasolutionflexboxtextthree {
+  position: absolute;
+  height: fit-content;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  left: 16%;
+  top: 70%;
+  padding: 10px;
+}
+
+.socialmediasolutionflexboxtextthree:hover {
+  transform: scale(1.02);
+  background-color: #eef1ff;
+}
+
+.socialmediasolutionflexboxlogothree {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+
+  left: 38%;
+  top: 60%;
+}
+
+.socialmediasolutionflexboxlogothree > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.socialmediasolutionflexboximagefour {
+  position: absolute;
+  height: 50%;
+  width: 20%;
+  bottom: -10%;
+  right: 0;
+}
+
+.socialmediasolutionflexboximagefour > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediasolutionflexboxtextfour {
+  position: absolute;
+  height: fit-content;
+  width: 25%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 70%;
+  right: 16%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.socialmediasolutionflexboxtextfour:hover {
+  transform: scale(1.02);
+  background-color: #eef1ff;
+}
+
+.socialmediasolutionflexboxlogofour {
+  position: absolute;
+  height: 10%;
+  width: 7%;
+
+  top: 60%;
+  right: 35%;
+}
+
+.socialmediasolutionflexboxlogofour > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.socialmediaouterliftimagelinewise {
+  height: 5%;
+  width: 90%;
+
+  margin-top: 4%;
+  position: absolute;
+  right: 0;
+}
+
+.socialmediaouterliftimagelinewise > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

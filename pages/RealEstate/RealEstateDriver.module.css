@@ -1,0 +1,75 @@
+.realestatedriverboxmain{
+    height: fit-content;
+background-color: white;
+    display: flex;
+
+}
+
+.realestatedriverleftbox{
+    width: 55%;
+ 
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.realstatedriverappleftboxsometextupper{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 2%;
+  
+}
+.realestatedrivermappingmainbox{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.realestatedrivermappingmainbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+   
+}
+
+.realstatemapperdriverindivisuallybox{
+    width: 48%;
+    height: 150px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.realstatemapperdriverindivisuallybox:hover{
+    transform: scale(1.02);
+    background-color: #F5F5F5;
+}
+
+
+.realestatedriverrightbox{
+    height: 550px;
+    width: 45%;
+  
+   
+    margin-left: 3%;
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 146.png");
+    background-repeat: no-repeat;
+    background-size: 85% 60%;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.realestatedriverapprightboxformobile{
+    height: 85%;
+    width: 40%;
+  
+    margin: 2% 0% 3% 25%;
+}
+
+.realestatedriverapprightboxformobile >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

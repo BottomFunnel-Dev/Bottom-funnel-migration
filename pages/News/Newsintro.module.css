@@ -1,0 +1,28 @@
+.newsintromainboxes{
+    height: 100vh;
+    border: 0.01px solid white;
+
+    background: url("/Images/News/Bannerbackground/Component 156.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.newsintroinsidersometext{
+    height: fit-content;
+    width: 40%;
+
+    margin-top: 17%;
+    margin-left: 5%;
+    color: white;
+  
+}
+
+.newsintroinsidersometext>h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.newsintroinsidersometext >p{
+    text-align: justify;
+}

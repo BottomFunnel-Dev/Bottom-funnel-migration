@@ -1,0 +1,81 @@
+.realstatesolutionmainboxes{
+    height: fit-content;
+padding-top: 5%;
+
+    background-color: white;
+   
+}
+
+.realestatesolutionsometetxboxupper{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+ 
+}
+.mainrealestatesolutionflexingwithupertextbox{
+    height: fit-content;
+    width: 100%;
+    margin-top: 5%;
+
+}
+.realestateuppertextingbox{
+    height: fit-content;
+    
+   
+
+}
+.realestateuppertextingbox>h1{
+    margin-left: 5%;
+
+
+}
+
+.exclusivefeaturerealestateflexindih4{
+    padding-top: 5%;
+}
+
+
+.exuclusivefeaturedatamappingrealestatesolution{
+    height: 350px;
+    width: 100%;
+   
+   
+    margin-top: 1%;
+    display: flex;
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 141.png");
+}
+
+.exclusivefeaturerealestateflexindi{
+    height: 80%;
+    width: 25%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0.5%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2%;
+    background-color: white;
+}
+
+.exclusivefeaturerealestateflexindi:hover{
+    transform: scale(1.02);
+}
+
+.indivisualtextforsolutionrealestate{
+    text-align: left;
+    margin-top: 10%;
+}
+
+.exuclusivefeaturedatamappingrealestatesolution >svg{
+    margin-top: 8%;
+}
+
+.exuclusivefeaturedatamappingrealestatesolution >svg:hover{
+    transform: scale(2);
+}
+
+.indivisualimageforsolutionrealestate{
+    height: 40%;
+    width: 100%;
+    
+    margin-top: 10%;
+}

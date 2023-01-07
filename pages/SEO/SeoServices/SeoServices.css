@@ -1,0 +1,105 @@
+._Seoservicesmaindiv {
+  width: 100%;
+  padding: 45px;
+}
+._Seoservicesmaindiv > h2 {
+  text-align: center;
+  color: #ef4c23;
+}
+._SeoServicesheading {
+  /* width:50%; */
+  /* border:1px solid green; */
+  font-size: 40px;
+  color: #00800075;
+  text-align: center;
+  margin-left: 32%;
+  font-weight: 600;
+  color: #ef4c23;
+}
+._Seoupperdiv {
+  background-color: #ef4c23;
+}
+._Seoservicesslider {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 30px;
+}
+._SeoServicesnames {
+  width: 30%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgb(0 0 0 / 15%);
+  text-align: center;
+  /* color: #ef4c23; */
+  box-sizing: border-box;
+  position: relative;
+}
+._SeoServicesnames:hover {
+  transform: scale(1.02);
+  transition: all 0.3s Linear;
+}
+._SeoServicesnames {
+  width: 30%;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgb(0 0 0 / 15%);
+  text-align: center;
+  /* color: #ef4c23; */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.frontServiceText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  width: 100%;
+  height: 60%;
+  transition: opacity 0.2s linear;
+}
+.seoServicesIcon {
+  font-size: 55px;
+  margin: 10px;
+  color: #ef4c23;
+}
+
+.hiddenSeo {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 60%;
+  padding: 20px;
+  transition: opacity 0.2s linear;
+}
+.hiddenSeo>p{
+  text-align: justify;
+  line-height: 20px;
+  
+}
+
+.pointTrigger {
+  width: 40px;
+  height: 40px;
+  /* background-color: green; */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.pluscircle {
+  font-size: 40px;
+  color: #ef4c23;
+}
+
+.pluscircle-active{
+  font-size: 40px;
+  color: green;
+}

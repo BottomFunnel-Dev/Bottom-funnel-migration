@@ -1,0 +1,89 @@
+.icecreamadminpannelmainboxes{
+    height: fit-content;
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.icecreamadminpannelmainboxsometextupper{
+    height: fit-content;
+  
+    margin-left: 4%;
+
+}
+
+.icecreamadminpannelmainboxsometextupper>h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.icecreamadminpannelmainflexboxclass{
+    height: 500px;
+  
+    display: flex;
+   
+}
+
+.icecreamadminpannelleftbox{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+  
+    margin-left: 3%;
+    margin-top: 2%;
+
+}
+
+.icecreamadminpannelmapperboxindivisyal{
+    height: 180px;
+    width: 48%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.icecreamadminpannelmapperboxindivisyal:hover{
+    transform: scale(1.02);
+    
+    background-color: #f9f5f5;
+}
+
+.icecreamadminpannelrightbox{
+    width: 45%;
+  margin-left: 1%;
+margin-top: -2%;
+   background-color: #Ffe7e8;
+}
+
+.icecreamadminpannelrightboxinnerimage{
+    height: 80%;
+    width: 80%;
+
+    margin: 8% 3% 3% 10%;
+}
+
+.icecreamadminpannelrightboxinnerimage >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.icecreamadminpannelmapperboxindivisyalicon{
+    height: 30%;
+    width: 25%;
+  
+}
+
+.icecreamadminpannelmapperboxindivisyaltxt >h4{
+    font-size: 20px
+}
+
+.icecreamadminpannelmapperboxindivisyalicon >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}

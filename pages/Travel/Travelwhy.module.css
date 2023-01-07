@@ -1,0 +1,64 @@
+.sztravelwhysection{
+    width: 100%;
+    background-color: white;
+    height: 600px;
+ 
+}
+.sztravelsubdiv{
+    width: 90%;
+    margin: auto;
+    height: 550px;  
+    display: flex;
+}
+.sztravelchooseimages{
+    width: 50%;
+     height: 550px;  
+    /* background-color: black; */
+}
+.sztravelchooseimages>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+ .sztravelchooseright{
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 20px;
+}
+.travelboxes{
+    width: 80%;
+    height: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 20px 60px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: left;
+    padding: 5px 5px;
+    display: flex;
+}
+.sztravelcustomer{
+    padding: 3px 2px;
+}
+.travelboxes:hover{
+    transform: scale(1.02);
+}
+
+.sztravelcustomer>h3{
+  
+  font-size: 20px;
+}
+ .travelchooseheading{
+    width: 80%;
+    margin:0px 70px;
+ }
+.travelchooseicons{
+    width: 20%;
+    height: 50px;
+    margin:5px 0px;
+}
+.travelchooseicons>img{
+    width: 100%;
+    height: 100%;
+   
+    object-fit: contain;
+}

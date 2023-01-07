@@ -1,0 +1,48 @@
+.meatdeliverylowerbannermainboxes{
+    height: 320px;
+margin-bottom: 5%;
+  
+ background: url("/Images/meatdelieveryapp/Rectangle 18123.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+}
+
+.meatdeliverylowerbannertextbox{
+    height: fit-content;
+    
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.meatdeliverylowerbannertextbox>h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+
+.meatdeliverylowerbanner{
+    padding: 20px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #EF4C23;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+  position: absolute;
+  left: 20%;
+margin-top: 5%;
+
+}
+
+.meatdeliverylowerbanner:hover{
+    background-color:white;
+    color:  #EF4C23;
+
+}
