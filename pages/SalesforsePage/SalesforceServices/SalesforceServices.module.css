@@ -1,0 +1,61 @@
+.SalesforceServicesContainer {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.SalesforceServicesContainer > h1 {
+  font-size: 32px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.SalesforceServicesContainer > p {
+  font-size: 16px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.SalesforceServicesMain {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SalesforceServicesVector {
+  width: 40%;
+}
+
+.SalesforceServicesVector > img {
+  width: 100%;
+}
+
+.SalesforceServicesContent {
+  width: 55%;
+  height: 600px;
+  position: relative;
+}
+
+.SalesforceServicesHrLine {
+  width: 20%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SalesforceServicesHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.SalesforceServicesHrLine > span {
+  width: 42%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

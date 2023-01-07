@@ -1,11 +1,10 @@
 import React from "react";
 
-import { VRBanner } from "./VRBanner/VRBanner";
-import { VRMidBanner } from "./VRMidBanner/VRMidBanner";
-import { VRServices } from "./VRServices/VRServices";
-import { VRwhyBF } from "./VRwhyBF/VRwhyBF";
-import { VRSlider } from "./VRSlider/VRSlider";
-import { VRForm } from "./VRForm/VRForm";
+import { AnalysisSwBanner } from "./AnalysisSwBanner/AnalysisSwBanner";
+import { AnalysisCoreTask } from "./AnalysisCoreTask/AnalysisCoreTask";
+import { AnalysisOffer } from "./AnalysisOffer/AnalysisOffer";
+import { AnalysisMidBanner } from "./AnalysisMidBanner/AnalysisMidBanner";
+import { AnalysisWhyBF } from "./AnalysisWhyBF/AnalysisWhyBF";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,15 +17,14 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function VirtualReality() {
+export default function ImageAnalysisSoftware() {
   return (
     <div>
-      <VRBanner />
-      <VRServices />
-      <VRMidBanner />
-      <VRwhyBF />
-      <VRSlider />
-      <VRForm />
+      <AnalysisSwBanner />
+      <AnalysisCoreTask />
+      <AnalysisOffer />
+      <AnalysisMidBanner />
+      <AnalysisWhyBF />
 
       <StoriesSection />
       <Industries />

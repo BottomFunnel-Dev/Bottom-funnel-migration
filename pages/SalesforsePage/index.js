@@ -1,11 +1,13 @@
 import React from "react";
+import styles from "./SalesforsePage.module.css"
 
-import { VRBanner } from "./VRBanner/VRBanner";
-import { VRMidBanner } from "./VRMidBanner/VRMidBanner";
-import { VRServices } from "./VRServices/VRServices";
-import { VRwhyBF } from "./VRwhyBF/VRwhyBF";
-import { VRSlider } from "./VRSlider/VRSlider";
-import { VRForm } from "./VRForm/VRForm";
+import { SaleforceBanner } from "./SaleforceBanner/SaleforceBanner"
+import { SalesforceOffers } from "./SalesforceOffers/SalesforceOffers";
+import { SalesforceServices } from "./SalesforceServices/SalesforceServices";
+import { SalesforceProcess } from "./SalesforceProcess/SalesforceProcess";
+import { SalesforceMidBanner } from "./SalesforceMidBanner/SalesforceMidBanner";
+import { SalesforceWhyBF } from "./SalesforceWhyBF/SalesforceWhyBF";
+import { CustomWebForm } from "../CustomisedWebPage/CustomWebForm/CustomWebForm";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,16 +20,17 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function VirtualReality() {
+export default function SalesForcePage () {
   return (
-    <div>
-      <VRBanner />
-      <VRServices />
-      <VRMidBanner />
-      <VRwhyBF />
-      <VRSlider />
-      <VRForm />
-
+    <div className={styles.SalesforsePageContainer}>
+      <SaleforceBanner />
+      <SalesforceServices />
+      <SalesforceOffers />
+      <SalesforceProcess />
+      <SalesforceMidBanner />
+      <SalesforceWhyBF />
+      <CustomWebForm />
+      
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}
@@ -40,4 +43,4 @@ export default function VirtualReality() {
       {/* <MainFooter /> */}
     </div>
   );
-}
+};

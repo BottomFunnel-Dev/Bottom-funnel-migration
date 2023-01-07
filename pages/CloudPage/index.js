@@ -1,5 +1,14 @@
 import React from "react";
 import styles from "./CloudPage.module.css";
+import { CloudBanner } from "./CloudBanner/CloudBanner";
+import { CloudUnique } from "./CloudUnique/CloudUnique";
+import { CloudStats } from "./CloudStats/CloudStats";
+import { CloudOffers } from "./CloudOffers/CloudOffers";
+import { CloudWorkWithUs } from "./CloudWorkWithUs/CloudWorkWithUs";
+import { CloudSolutions } from "./CloudSolutions/CloudSolutions";
+import { CloudWhyBF } from "./CloudWhyBF/CloudWhyBF";
+import { CustomWebForm } from "../CustomisedWebPage/CustomWebForm/CustomWebForm";
+
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -11,36 +20,27 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-import { CloudBanner } from "./CloudBanner/CloudBanner";
-import { CloudUnique } from "./CloudUnique/CloudUnique";
-import { CloudStats } from "./CloudStats/CloudStats";
-import { CloudOffers } from "./CloudOffers/CloudOffers";
-import { CloudWorkWithUs } from "./CloudWorkWithUs/CloudWorkWithUs";
-import { CloudSolutions } from "./CloudSolutions/CloudSolutions";
-import { CloudWhyBF } from "./CloudWhyBF/CloudWhyBF";
-import { CustomWebForm } from "../CustomisedWebPage/CustomWebForm/CustomWebForm";
-
 export default function CloudPage () {
   return (
     <div className={styles.CloudPageContainer}>
       <CloudBanner />
-      <CloudUnique />
+      {/* <CloudUnique /> */}
       <CloudStats />
       <CloudOffers />
       <CloudWorkWithUs />
-      {/* <CloudSolutions /> */}
+      <CloudSolutions />
       <CloudWhyBF />
-      {/* <CustomWebForm /> */}
+      <CustomWebForm />
       
-      {/* <StoriesSection /> */}
-      {/* <Industries /> */}
+      <StoriesSection />
+      <Industries />
       {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   );

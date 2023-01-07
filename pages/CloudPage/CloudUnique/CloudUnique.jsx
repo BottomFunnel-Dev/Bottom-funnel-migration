@@ -22,9 +22,7 @@ export const CloudUnique = () => {
             <li>Designing a pragmatic cloud strategy.</li>
             <li>Defining the right cloud services to use.</li>
             <li>Efficient cloud-native development.</li>
-            <li>
-              Smooth migration of legacy infrastructures to cloud, and more.
-            </li>
+            <li>Smooth migration of legacy infrastructures to cloud, and more.</li>
           </ul>
         </p>
       </div>

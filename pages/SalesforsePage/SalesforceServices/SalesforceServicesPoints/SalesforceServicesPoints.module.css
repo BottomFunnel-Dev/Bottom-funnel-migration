@@ -1,0 +1,72 @@
+.SalesforceServicesPointsContainer {
+  background-color: white;
+  width: 85%;
+  height: 90%;
+
+  position: absolute;
+  top: 1.5px;
+  right: 6%;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.SalesforceServicesPointsContainer > div {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.SalesforceServicesPointsContent {
+  width: 85%;
+}
+
+.SalesforceServicesPointsContent > h2 {
+  font-size: 22px;
+  margin: 1% auto;
+}
+
+.SalesforceServicesPointsContent > p {
+  font-size: 16px;
+  text-align: justify;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.SalesforceServicesPointsMain {
+  width: 10%;
+  height: 70px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SalesforceServicesPointsMain > h3 {
+  font-size: 30px;
+  margin: 0;
+
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  z-index: 1;
+}
+
+.SalesforceServicesPointsMain > span {
+  width: 25px;
+  height: 25px;
+  background: #aaccde;
+  border-radius: 2px;
+
+  position: absolute;
+  top: 25%;
+  right: 12%;
+  z-index: 0;
+  transform: rotate(45deg);
+}

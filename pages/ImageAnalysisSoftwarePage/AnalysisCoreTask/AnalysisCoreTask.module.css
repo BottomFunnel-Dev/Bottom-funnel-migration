@@ -1,0 +1,108 @@
+.AnalysisCoreTaskContainer {
+  margin: 2% auto;
+  overflow: hidden;
+}
+
+.AnalysisCoreTaskContainer > h1 {
+  font-size: 32px;
+  width: 90%;
+  margin: 1% auto;
+}
+
+.AnalysisCoreTaskContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.AnalysisCoreTaskMain {
+  width: 95%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AnalysisCoreTaskCards {
+  width: 55%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.AnalysisCoreTaskCards > div {
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.AnalysisCoreTaskCards > div > p {
+  width: 75%;
+  text-align: justify;
+  font-size: 16px;
+  padding: 1%;
+  margin: 0;
+  border-left: 2px solid #d9d9d9;
+}
+
+.AnalysisCoreTaskCards > div > div {
+  width: 20%;
+  text-align: center;
+  padding: 1%;
+}
+
+.AnalysisCoreTaskCards > div > div > h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.AnalysisCoreTaskCards > div > div > div {
+  height: 50px;
+  width: fit-content;
+  margin: auto;
+  background: white;
+  padding: 2%;
+  margin-top: -25%;
+}
+
+.AnalysisCoreTaskCards > div > div > div > img {
+  height: 100%;
+}
+
+.AnalysisCoreTaskImage {
+  width: 40%;
+  padding: 0;
+  text-align: left;
+}
+
+.AnalysisCoreTaskImage > img {
+  width: 100%;
+}
+
+.AnalysisCoreTaskHrLine {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AnalysisCoreTaskHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.AnalysisCoreTaskHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

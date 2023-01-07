@@ -30,7 +30,7 @@ export default function CryptoDevPage() {
       <CryptoDevApproach />
       <CryptoDevService />
       <CryptoDevWhyBF />
-      {/* <CryptoDevSlider /> */}
+      <CryptoDevSlider />
       <CustomWebForm />
 
       <StoriesSection />

@@ -1,0 +1,552 @@
+/* this css file is for the cryptodevpage slider file */
+.CryptoDevSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.CryptoDevSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.CryptoDevSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.CryptoDevSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevSliderHrLine > div {
+  border: 2px solid #bf42b9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CryptoDevSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #bf42b9;
+  color: #bf42b9;
+}
+
+.CryptoDevSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.CryptoDevSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CryptoDevSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* this css is for the business intelligence(BI page) slider */
+.BISliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.BISliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.BISliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.BISliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BISliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.BISliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.BISlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BISlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.BISlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.BISliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.BISliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BISliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.BISliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.BISliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* /this css file is for the enterprise solutions(EnterpriseWebPage) slider file */
+.EnterpriseSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.EnterpriseSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.EnterpriseSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.EnterpriseSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EnterpriseSliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.EnterpriseSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.EnterpriseSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EnterpriseSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.EnterpriseSlider-slide > img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.EnterpriseSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.EnterpriseSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EnterpriseSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.EnterpriseSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.EnterpriseSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* This css file is for the virtual reality(VRPage) slider comps */
+.VRSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.VRSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.VRSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.VRSliderHrLine > div {
+  border: 2px solid #bf42b9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.VRSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #bf42b9;
+  color: #bf42b9;
+}
+
+.VRSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.VRSlider-slide > img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.VRSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.VRSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VRSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.VRSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.VRSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+/* this is the css file code for the custom-web-solutions
+(CustomWebSlider) */
+
+.CustomWebSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.CustomWebSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.CustomWebSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.CustomWebSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomWebSliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CustomWebSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.CustomWebSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomWebSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.CustomWebSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CustomWebSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.CustomWebSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CustomWebSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.CustomWebSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.CustomWebSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
