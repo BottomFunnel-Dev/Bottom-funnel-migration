@@ -1210,7 +1210,7 @@ export const reactjsData = {
 
 export const angularjsData = {
   title:
-    "Best angolarjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
+    "Best angularjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
@@ -3136,7 +3136,7 @@ export const wordpressData = {
     "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/wpSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/wpSkillsPhotos/banner.webp",
     title: "Wordpress Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3144,7 +3144,7 @@ export const wordpressData = {
   isDes: true,
   desData: {
     title: "Wordpress",
-    image: "/Images/wpSkillsPhotos/wordpress-logo.png",
+    image: "/Images/skillsPhotos/wpSkillsPhotos/wordpress-logo.webp",
     description:
       "Wordpress is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3154,7 +3154,7 @@ export const wordpressData = {
     cardsData: [
       {
         img: {
-          src: "/Images/wpSkillsPhotos/analysis.png",
+          src: "/Images/skillsPhotos/wpSkillsPhotos/analysis.webp",
           alt: "Improved SEO performance logo",
         },
         title: "Improved SEO performance",
@@ -3164,7 +3164,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "/Images/wpSkillsPhotos/uiux-pen.png",
+          src: "/Images/skillsPhotos/wpSkillsPhotos/uiux-pen.webp",
           alt: "Better user experience logo",
         },
         title: "Better user experience",
@@ -3173,7 +3173,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "/Images/wpSkillsPhotos/setting-tasks.png",
+          src: "/Images/skillsPhotos/wpSkillsPhotos/setting-tasks.webp",
           alt: "Flexible logo",
         },
         title: "Flexible",
@@ -3182,7 +3182,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "/Images/wpSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/wpSkillsPhotos/open-source.webp",
           alt: "Open source logo",
         },
         title: "Open source",
@@ -3191,7 +3191,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "/Images/wpSkillsPhotos/support.png",
+          src: "/Images/skillsPhotos/wpSkillsPhotos/support.webp",
           alt: "Excellent support logo",
         },
         title: "Excellent support",
@@ -3200,7 +3200,7 @@ export const wordpressData = {
       },
       {
         img: {
-          src: "/Images/wpSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/wpSkillsPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -3212,7 +3212,7 @@ export const wordpressData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For wordpress",
-    image: "/Images/wpSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/wpSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3226,66 +3226,47 @@ export const wordpressData = {
   BookCallData: {
     title: "Need our wordpress developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "Benefits of using wordpress for website development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "WordPress is more than just a blogging platform. It's a full-featured content management system, much more than just a website.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
+          alt: "Hosting doesn't have to be a hassle logo",
         },
-        title: "Easy complex component handling",
+        title: "Hosting doesn't have to be a hassle",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/dotnetphotos/custom-website.webp",
+          alt: "Wide variety of themes logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Wide variety of themes",
       },
     ],
   },
 };
 
 export const wixData = {
-  title: "Best wix developers in the market | Bottom Funnel",
+  title:
+    "Best wix developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/wixSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/wixSkillsPhotos/banner.webp",
     title: "Wix Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3293,7 +3274,7 @@ export const wixData = {
   isDes: true,
   desData: {
     title: "Wix",
-    image: "/Images/wixSkillsPhotos/wix-logo.png",
+    image: "/Images/skillsPhotos/wixSkillsPhotos/wix-logo.webp",
     description:
       "Wix is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -3303,7 +3284,7 @@ export const wixData = {
     cardsData: [
       {
         img: {
-          src: "/Images/wixSkillsPhotos/indicator.png",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/indicator.webp",
           alt: "Intuitive drag and drop interface logo",
         },
         title: "Intuitive drag and drop interface",
@@ -3313,7 +3294,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "/Images/wixSkillsPhotos/graph.png",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/graph.webp",
           alt: "Better user experience logo",
         },
         title: "Better user experience",
@@ -3322,7 +3303,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "/Images/wixSkillsPhotos/database.png",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/database.webp",
           alt: "Massive template collection logo",
         },
         title: "Massive template collection",
@@ -3331,7 +3312,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "/Images/wixSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -3340,7 +3321,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "/Images/wixSkillsPhotos/support.png",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/support.webp",
           alt: "Excellent support logo",
         },
         title: "Excellent support",
@@ -3349,7 +3330,7 @@ export const wixData = {
       },
       {
         img: {
-          src: "/Images/wixSkillsPhotos/setting-tasks.png",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/setting-tasks.webp",
           alt: "Flexible logo",
         },
         title: "Flexible",
@@ -3361,7 +3342,7 @@ export const wixData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For redis",
-    image: "/Images/wixSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/wixSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -3375,54 +3356,55 @@ export const wixData = {
   BookCallData: {
     title: "Need our Redis developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using wix in website development",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Wix is a free and easy-to-use website builder. Wix's simple technology and unique built-in features let you create professional-looking websites that look great on any screen.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/dotnetphotos/simple.webp",
+          alt: "Simplet to use logo",
         },
-        title: "Open-source",
+        title: "Simplet to use",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "Open source logo",
         },
-        title: "Easy complex component handling",
+        title: "Open source",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
+          alt: "No knowledge of coding required logo",
         },
-        title: "Time-Saving Process",
+        title: "No knowledge of coding required",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
+          src: "/Images/skillsPhotos/nodejsphotos/mean-2.webp",
+          alt: "Wix offers a complete package logo",
         },
-        title: "Effective Framework",
+        title: "Wix offers a complete package",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
+          src: "/Images/skillsPhotos/wixSkillsPhotos/support.webp",
+          alt: "staff of experts to assist you logo",
         },
-        title: "Reusable code",
+        title: "Staff of experts to assist you",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
+          alt: "personalised SEO approach logo",
         },
-        title: "Enables Testing Now and Then",
+        title: "Personalised SEO approach",
       },
     ],
   },
