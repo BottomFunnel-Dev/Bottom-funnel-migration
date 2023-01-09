@@ -1,0 +1,33 @@
+._Getintouchcarddiv{
+    width:100%;
+    background-color: #EF4C23;
+    display: flex;
+}
+._Getintouchtext{
+    width:60%;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+    padding:35px;
+    font-weight: 500;
+}
+._Getintouchcard{
+    width:280px;
+    border: 2px solid white;
+    color:#EF4C23;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-weight: 700;
+    height:40px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white; 
+    margin:auto;
+    cursor: pointer;
+    padding: 5px;
+}._Getintouchcard:hover{
+    background-color: #EF4C23;
+    color:white;
+    transition: 0.2s linear;
+}

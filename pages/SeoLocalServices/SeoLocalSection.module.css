@@ -1,0 +1,162 @@
+._SeoLocalMain1 {
+  height: auto;
+  width: 100%;
+  background: url("/Images/seopages/seo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom;
+  background-origin: border-box;
+  position: relative;
+  margin-top: 100px;
+
+}
+
+.localgifDenote {
+  width: 365px;
+  height: 430px;
+  position: absolute;
+  top: 26%;
+  right: 32%;
+}
+.localgifDenote > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+._SeoLocalupperdiv {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 87vh;
+}
+._SeoLocaltext {
+  /* border:1px solid pink; */
+  width: 40%;
+  color: black;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 13%;
+  margin-left: 5%;
+  /* text-align: center; */
+}
+._SeoLocalparagraph {
+  /* border:1px solid white; */
+  color: gray;
+  font-weight: 400;
+  width: 100%;
+  /* color: white; */
+  line-height: 1.5;
+  font-size: 16px;
+}
+._SeoLocalheading {
+  /* border:1px solid red; */
+  margin-bottom: 10px;
+  /* color:white; */
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  /* text-align: left; */
+}
+/* ._SeoLocalheading ~ div{
+font-size: 25px;
+} */
+._SeoLocalform {
+  /* border:1px solid red; */
+  width: 42%;
+  height: 100%;
+}
+._SeoLocalformcontent {
+  border: 1px solid white;
+  width: 500px;
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
+  margin: auto;
+  margin-top: 100px;
+}
+._SeoLocalformheading {
+  /* border: 1px solid red; */
+  /* border-radius: 35px; */
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  color: #605d5d;
+}
+
+._SeoLocalRatings {
+  border: 1px solid green;
+}
+._SeoLocalenterform {
+  /* border:1px solid red; */
+  width: 80%;
+  height: 480px;
+  margin: auto;
+  margin-top: 20px;
+}
+._seoLocalforminput {
+  border: 1px solid #ef4c23;
+  font-size: 19px;
+  border-radius: 12px;
+  margin-top: 17px;
+  /* outline: #EF4C23; */
+  padding: 7px;
+  width: 100%;
+  color: gray;
+  font-weight: 400;
+}
+._seoLocalforminput ~ label {
+  color: #ef4c23;
+  font-size: 19px;
+  font-weight: 400;
+  /* border:1px solid rebeccapurple; */
+  display: inline-block;
+  margin-top: 12px;
+  padding: 3px;
+}
+.SeoLocalforminput:hover {
+  outline-color: #ef4c23;
+}
+
+._SeoLocalSubmitbutton {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+._SeoLocalSubmitbutton > button {
+  font-size: 18px;
+  /* border: 2px solid black; */
+  background-color: #ef4c23;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 2%; */
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 10px 60px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+._SeoLocalSubmitbutton > button:hover {
+  color: #ef4c23;
+  background-color: white;
+  transition: 0.2s linear;
+}
+
+._SeoLocalPricing >button{
+    padding: 10px 60px;
+    border-radius: 25px;
+    background-color: #ef4c23;
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+._SeoLocalPricing>button:hover {
+    color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}

@@ -44,25 +44,25 @@ export const TrendingWhyChoose = () => {
             <h1>Why Choose Bottom Funnel ? </h1>
             <p>We at Bottom Funnel provide be spoke mobility solutions as one of the leading mobile application development company in UK & India. Whether you are looking for a multi-platform mobile app development company or a professional and be spoke mobile application creation service, you have come to the right place.you can rely on our talented team of mobile app developers to help you achieve your business goals and convey your message directly to your customers.We offer our customers a transformative digital experience with our web and mobile app development services.</p>
             <div className={styles.trendingtechnologywhychoosemainboxesmapperspecialbox}>
-                <div className={styles.trendingtexhwhychooseflexbox}>{trendingwhychoosedata.map((e) => {
-                    return (
-                        <div className={styles.indivisuallytrendingwhychooseus}>
-                            <div className={styles.numberandhtxtindtrentech}>
+                <div className={styles.trendingtexhwhychooseflexbox}>
+                    {trendingwhychoosedata.map((e) => {
+                        return (
+                            <div className={styles.indivisuallytrendingwhychooseus}>
+                                <div className={styles.numberandhtxtindtrentech}>
 
-                                <div className={styles.numberindtrentech}>
-                                    <h1>{e.no}.</h1>
-                                </div>
+                                    <div className={styles.numberindtrentech}>
+                                        <h1>{e.no}.</h1>
+                                    </div>
 
-                                <div className={styles.textindtrentech}>
-                                    <h4>{e.htxt}</h4>
-                                    <p>{e.stxt}</p>
+                                    <div className={styles.textindtrentech}>
+                                        <h4>{e.htxt}</h4>
+                                    </div>
                                 </div>
+                                <p>{e.stxt}</p>
+
                             </div>
-                            
-
-                        </div>
-                    )
-                })}</div>
+                        )
+                    })}</div>
 
             </div>
 

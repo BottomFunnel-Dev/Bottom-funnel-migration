@@ -24,15 +24,15 @@ export default function TrendingTech () {
       <TrendingTechnologyLowerBanner />
       <TrendingWhyChoose />
 
-      {/* <StoriesSection /> */}
-      {/* <Industries /> */}
+      <StoriesSection />
+      <Industries />
       {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   );

@@ -1,14 +1,16 @@
 import React from "react";
-import "./EnquiryNow.css";
+import styles from "./EnquiryNow.module.css";
 import Enq from "../../ImageSection/EnquiryNow.jpg";
+// import Enq from "../../ImageSection/EnquiryNow.jpg";
 
 export default function EnquiryNow() {
   return (
-    <div className="_EnquiryNowMaindiv">
-      <div className="_EnquiryNow">
-        <img src={Enq} alt="enq.img" />
+    <div className={styles._EnquiryNowMaindiv}>
+      <div className={styles._EnquiryNow}>
+        <img src="../../ImageSection/EnquiryNow.jpg" alt="enq.img" />
+        {/* <img src={Enq} alt="enq.img" /> */}
       </div>
-      <div className="_EnquiryNow">
+      <div className={styles._EnquiryNow}>
         <h3>
           We help your business to be discovered by the people and not just
           spiders

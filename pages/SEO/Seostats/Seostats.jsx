@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Seostats.css";
+import styles from "./Seostats.module.css";
 import { useInView } from "react-intersection-observer";
 
 export default function Seostats() {
@@ -35,18 +35,18 @@ export default function Seostats() {
   // console.log(inView)
 
   return (
-    <div ref={ref} className="_Seostats" inView={inView}>
-      <div className="_Seostats1">
+    <div ref={ref} className={styles._Seostats} inView={inView}>
+      <div className={styles._Seostats1}>
         <span> {p}+</span>
         <br />
         Professional SEO Experts
       </div>
-      <div className="_Seostats1">
+      <div className={styles._Seostats1}>
         <span>${num}+</span>
         <br />
         Million Media Spend Managed
       </div>
-      <div className="_Seostats2">
+      <div className={styles._Seostats2}>
         <span> {g}+</span>
         <br />
         Global clients

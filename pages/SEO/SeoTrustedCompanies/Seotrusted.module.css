@@ -3,6 +3,7 @@
   padding: 50px 0;
   background-color: white;
 }
+
 .SeoTrustedCarousel {
   width: 68%;
   text-align: center;
@@ -20,20 +21,22 @@
   background-color: #ef4c23;
   position: relative;
 }
+
 .globalbrands {
   width: 100%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 20%;
   left: 50%;
 }
+
 .Seobrandimg {
   /* border: 1px solid black; */
   height: 100px;
   width: 147px;
   position: relative;
-  
 }
+
 .Seobrandimg > img {
   width: 80%;
   height: 70%;
@@ -44,15 +47,12 @@
   top: 50%;
   left: 50%;
 }
-._Seobrandimg > img:hover {
 
-  filter:none;
- 
+.Seobrandimg > img:hover {
+  filter: none;
 }
 
-
-.mainlogoDiv{
-  /* width: 200px; */
+.mainlogoDiv {
   height: 100px;
   /* background-color: green; */
 }

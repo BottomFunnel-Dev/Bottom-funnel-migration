@@ -1,63 +1,66 @@
-.trendingtechnologywhychoosemainboxes {
-  height: fit-content;
-  margin-bottom: 3%;
-  margin-top: 5%;
-  text-align: center;
+.trendingtechnologywhychoosemainboxes{
+    height: fit-content;
+   margin-bottom: 3%;
+    margin-top: 5%;
+    text-align: center;
 }
 
-.trendingtechnologywhychoosemainboxes > p {
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: justify;
-  /* border: 2px solid red; */
+.trendingtechnologywhychoosemainboxes >p{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
 
-.trendingtechnologywhychoosemainboxesmapperspecialbox {
-  background: url("/public/Images/TrendingTechnologies/Banners\ &\ backgounds/Component 159.png");
-  height: 600px;
-
+.trendingtechnologywhychoosemainboxesmapperspecialbox{
+  
+background: url("/public/Images/TrendingTechnologies/Banners\ &\ backgounds/Component 159.png");
+    height: 600px;
+ 
   background-size: 100% 100%;
   position: relative;
 }
 
-.trendingtexhwhychooseflexbox {
-  height: 90%;
-  width: 60%;
-
-  margin-left: 17%;
-  margin-top: 2%;
-  display: flex;
-  flex-wrap: wrap;
+.trendingtexhwhychooseflexbox{
+    height: 90%;
+    width: 60%;
+   
+    margin-left: 17%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.indivisuallytrendingwhychooseus {
-  width: 38%;
-  height: fit-content;
-  border: 2px solid #ef4c23;
+.indivisuallytrendingwhychooseus{
+    width: 40%;
+    height: 180px;
+   border: 2px solid #ef4c23;
   margin: 1%;
   background-color: white;
   text-align: justify;
-
+  padding: 5px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.indivisuallytrendingwhychooseus:nth-child(2n-1) {
-  margin-left: 1%;
+.indivisuallytrendingwhychooseus:nth-child(2n-1){
+    margin-left: 1%;
 }
 
-.indivisuallytrendingwhychooseus:nth-child(2n) {
-  margin-left: 17%;
+.indivisuallytrendingwhychooseus:nth-child(2n){
+    margin-left: 17%;
 }
 
-.numberandhtxtindtrentech {
-  display: flex;
+.numberandhtxtindtrentech{
+    display: flex;
 }
 
-.textindtrentech {
-  margin-left: 2%;
+
+.textindtrentech{
+    margin-left: 2%;
+    margin-top: 3%;
 }
 
-.indivisuallytrendingwhychooseus:nth-col(odd) {
+
+.indivisuallytrendingwhychooseus:nth-col(odd){
   background-color: #ef4c23;
 }

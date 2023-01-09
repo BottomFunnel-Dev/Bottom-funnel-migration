@@ -1,0 +1,44 @@
+._SeoPPCReviewsmaindiv {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* border:1px solid green; */
+    margin-top: 70px;
+}
+._SeoPPCReviews1 {
+    width: 50%;
+    padding: 15px;
+   border-bottom: 2px solid #EF4C23;
+}
+._SeoPPCReviews1>p {
+    padding: 15px 5px;
+    color:gray;
+    font-weight: 500;
+}
+._SeoPPCReviews2 {
+    width: 50%;
+}
+._SeoPPCCompanyRatings {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    width: 50%;
+    align-items: center;
+}
+._SeoPPCCompanyLogo {
+    width: 22%;
+}
+._SeoPPCCompanyRatings img {
+    width: 55px;
+    height: 30px;
+    
+}
+._SeoPPCRatingsStars {
+    width: 40%;
+    background-color: blue;
+    padding: 5px;
+}
+.ratingPPCIcons{
+    font-size: 20px;
+    color: #EF4C23;
+}

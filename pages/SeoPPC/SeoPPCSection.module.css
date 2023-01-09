@@ -1,0 +1,159 @@
+._SeoPPCMain1 {
+  height: auto;
+  width: 100%;
+  background: url("/public/Images/seopages/seo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom;
+  background-origin: border-box;
+  position: relative;
+  margin-top: 120px;
+
+}
+
+.ppcgifDenote {
+  width: 325px;
+  height: 361px;
+  position: absolute;
+  top: 36%;
+  right: 29%;
+}
+.ppcgifDenote > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+._SeoPPCupperdiv {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 100%;
+  height: 87vh;
+  background: none !important;
+}
+._SeoPPCtext {
+  /* border:1px solid red; */
+  width: 35%;
+  color: black;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 13%;
+  margin-left: 5%
+  /* text-align: center; */
+}
+._SeoPPCparagraph {
+  /* border:1px solid white; */
+  color: gray;
+  font-weight: 400;
+  width: 100%;
+  color: black;
+  line-height: 1.5;
+  font-size: 16px;
+}
+._SeoPPCheading {
+  /* border:1px solid white; */
+  margin-bottom: 10px;
+  color: #393939;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  /* text-align: left; */
+}
+/* ._SeoPPCheading ~ div{
+font-size: 25px;
+} */
+._SeoPPCform {
+  /* border:1px solid red; */
+  width: 40%;
+  height: 100%;
+}
+._SeoPPCformcontent {
+  border: 1px solid white;
+  width: 475px;
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
+  margin: auto;
+  margin-top: 100px;
+}
+._SeoPPCformheading {
+  /* border: 1px solid red; */
+  /* border-radius: 35px; */
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  color: #ef4c23;
+}
+
+._SeoPPCRatings {
+  border: 1px solid green;
+}
+._SeoPPCenterform {
+  /* border:1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+._seoPPCforminput {
+  border: 1px solid #ef4c23;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-top: 17px;
+  /* outline: #EF4C23; */
+  padding: 7px;
+  width: 100%;
+  color: gray;
+  font-weight: 400;
+}
+._seoPPCforminput ~ label {
+  color: #ef4c23;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left !important;
+  /* border:1px solid rebeccapurple; */
+  display: inline-block;
+  margin-top: 12px;
+  padding: 3px;
+}
+.SeoPPCforminput:hover {
+  outline-color: #ef4c23;
+}
+
+._SeoPPCSubmitbutton {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  border: none;
+  background: none;
+}
+._SeoPPCSubmitbutton > button {
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+._SeoPPCSubmitbutton > button:hover {
+  color: #ef4c23;
+  background-color: white;
+}
+._SeoPPCPricing > button {
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+._SeoPPCPricing > button:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}

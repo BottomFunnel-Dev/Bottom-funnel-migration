@@ -1,5 +1,5 @@
 import React from "react";
-import "./SeoServices.css";
+import styles from "./SeoServices.module.css";
 import { BsSearch } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 import { ImLink } from "react-icons/im";
@@ -55,26 +55,26 @@ export default function SeoServices() {
   };
 
   return (
-    <div className="_Seoservicesmaindiv">
+    <div className={styles._Seoservicesmaindiv}>
       <h2>What We Offers in Our SEO Services</h2>
-      <div className="_Seoservicesslider">
+      <div className={styles._Seoservicesslider}>
         {arr1.map((items, i) => {
           return (
-            <div key={items} className=" _SeoServicesnames">
+            <div key={items} className={styles._SeoServicesnames}>
               <div
-                className="frontServiceText"
+                className={styles.frontServiceText}
                 style={{
                   opacity: description == items.servicename ? "0" : "1",
                 }}
               >
-                <IconContext.Provider value={{ className: "seoServicesIcon" }}>
+                <IconContext.Provider value={{ className: styles.seoServicesIcon }}>
                   {items.icons}
                 </IconContext.Provider>
                 <h5>{items.servicename}</h5>
               </div>
 
               <div
-                className="hiddenSeo"
+                className={styles.hiddenSeo}
                 style={{
                   opacity: description == items.servicename ? "1" : "0",
                 }}
@@ -86,14 +86,14 @@ export default function SeoServices() {
 
               <div
                 onClick={() => handleTrigger(items.servicename)}
-                className="pointTrigger"
+                className={styles.pointTrigger}
               >
                 <IconContext.Provider
                   value={{
                     className:
                       description == items.servicename
-                        ? "pluscircle-active"
-                        : "pluscircle",
+                        ? styles.pluscircleActive
+                        : styles.pluscircle,
                   }}
                 >
                   <AiOutlinePlusCircle />

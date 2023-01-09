@@ -86,9 +86,6 @@ export const TrendingTechnologyService = () => {
             htxt: "Metaverse Services",
             stxt: "we have on extensive experience crafting remarkable visual interfaces using style guides grid systems typography mood boards.",
         },
-
-
-
     ]
 
     return (

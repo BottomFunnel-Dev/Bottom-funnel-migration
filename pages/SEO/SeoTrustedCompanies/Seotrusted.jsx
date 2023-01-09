@@ -1,12 +1,9 @@
 import styles from "./Seotrusted.module.css";
 import React from "react";
 import Slider from "react-slick";
-import tata from "../../ImageSection/Tata.jpg";
-import hdfc from "../../ImageSection/HDFC.jpg";
-import airtel from "../../ImageSection/Airtel.jpg";
 // import { partnerData } from './SeopartnerData';
 
-export const Trusted = ({ partnerLogo}) => {
+export const Trusted = ({ partnerLogo }) => {
   const settings = {
     infinite: true,
     speed: 1000,
@@ -19,13 +16,12 @@ export const Trusted = ({ partnerLogo}) => {
     variableWidth: true,
   };
 
-
-  
   return (
     <div className={styles.SeoTrusted}>
       <div className={styles.SeoTrustedtext} style={partnerLogo.bgcolors}>
         <h2 className={styles.globalbrands}>Trusted By Global Brands</h2>
       </div>
+
       <div className={styles.SeoTrustedCarousel}>
         <Slider {...settings}>
           {partnerLogo.logo.map((item, index) => (
@@ -36,7 +32,6 @@ export const Trusted = ({ partnerLogo}) => {
             </div>
           ))}
 
-        
         </Slider>
       </div>
     </div>

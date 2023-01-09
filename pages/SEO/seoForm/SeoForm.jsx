@@ -1,32 +1,35 @@
 import React from "react";
-import "./seoForm.css";
+import styles from "./seoForm.module.css";
+
 export const SeoForm = () => {
   return (
-    <div className="_Seoform">
-      <div className="_Seoformcontent">
-        <div className="_Seoformheading">
+    <div className={styles._Seoform}>
+      <div className={styles._Seoformcontent}>
+        <div className={styles._Seoformheading}>
           Want to kickstart your first SEO Campaign? no contracts, no
           commitments
         </div>
-        <div className="_Seoenterform">
-          <input type="text" placeholder="Name" className="_seoforminput" />
+        <div className={styles._Seoenterform}>
+          <input type="text" placeholder="Name" className={styles._seoforminput} />
           <br />
           <input
             type="text"
             placeholder="Work email"
-            className="_seoforminput"
+            className={styles._seoforminput}
           />
           <br />
-          <input type="text" placeholder="Phone" className="_seoforminput" />
+          <input type="text" placeholder="Phone" className={styles._seoforminput} />
           <br />
           <label>How soon do you want to start the project ?*</label>
           <br />
-          <select name="time">
+
+          <select type="time" className={styles._seoforminput} >
             <option value="Within 8 weeks">Within 8 weeks</option>
             <option value="8 weeks">8 weeks</option>
           </select>
           <br />
-          <select name="time" label="budget">
+
+          <select name="time" label="budget"  className={styles._seoforminput} >
             <option>select your budget</option>
             <option value="1000$ to 2000$">1000$ to 2000$</option>
             <option value="2000$ to 3000$">2000$ to 3000$</option>
@@ -34,11 +37,11 @@ export const SeoForm = () => {
           <br />
           <input
             placeholder="tell your requirement"
-            className="_seoforminput"
+            className={styles._seoforminput}
             type="text"
           />
           <br />
-          <div className="_SeoSubmitbutton">
+          <div className={styles._SeoSubmitbutton}>
             <button>Submit</button>
           </div>
         </div>

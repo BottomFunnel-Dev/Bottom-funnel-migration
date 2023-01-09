@@ -1,0 +1,64 @@
+._SeoEmailblogs12{
+    /* border:1px solid fuchsia; */
+    margin-top: 50px;
+}
+._SeoEmailblogs12>h1{
+    text-align: center;
+    color: #EF4C23;
+}
+._SeoEmailblogs{
+    /* border:1px solid red; */
+    width:78%;
+    margin: auto;
+    margin-top:20px;
+    display: flex;
+    gap:5%;
+    justify-content: space-between;
+}
+
+._SeoEmailblogs>h2{
+    text-align: center;
+    color:#EF4C23;
+}
+._SeoEmailBlogsStories{
+    /* border:1px solid yellow; */
+    width:700px;
+    height:200px;
+}
+._SeoEmailBlogsStories1{
+    border:1px solid green;
+}
+._SeoEmailblogs1{
+    /* border:1px solid teal; */
+    width:20%;
+    height:250px;
+    
+}
+._SeoEmailblogsimage:hover img {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  opacity:0.8;
+}
+._SeoEmailblogsimage>img{
+    height: 100%;
+    width:100%;
+    transform: scale(1);
+    transition: 0.4s ease-in-out;
+}
+._SeoEmailblogsimage{
+height:80%;
+width:100%;
+overflow: hidden;
+}
+._SeoEmailblogsimage>img{
+    height:100%;
+    width:100%;
+    /* border:1px solid green; */
+}
+._SeoEmailblogstext{
+/* border:1px solid palevioletred; */
+height:20%;
+width:100%;
+font-size:18px;
+font-weight: 500;
+margin-top: 5px;
+}

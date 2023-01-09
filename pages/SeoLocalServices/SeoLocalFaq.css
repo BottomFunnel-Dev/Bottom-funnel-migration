@@ -1,0 +1,25 @@
+._SeoLocalFaqheading{
+    color:#EF4C23;
+    width:80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+._SeoLocalfaq1{
+    /* border:1px solid rebeccapurple; */
+    /* margin-top: 100px; */
+    width:80%;
+    margin:auto;
+    color: #EF4C23;
+    border-radius: 70px;
+    box-shadow: 3px 3px 30px rgb(0 0 0 / 15%);
+    /* background-color: white; */
+}
+._SeoLocalfaq2{
+    /* border:1px solid green; */
+    color: #EF4C23;
+}
+/* ._Seoheader{
+    border:1px solid #EF4C23
+} */

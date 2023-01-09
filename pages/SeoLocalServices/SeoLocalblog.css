@@ -1,0 +1,64 @@
+._SeoLocalblogs12{
+    /* border:1px solid fuchsia; */
+    margin-top: 50px;
+}
+._SeoLocalblogs12>h1{
+    text-align: center;
+    color: #EF4C23;
+}
+._SeoLocalblogs{
+    /* border:1px solid red; */
+    width:78%;
+    margin: auto;
+    margin-top:20px;
+    display: flex;
+    gap:5%;
+    justify-content: space-between;
+}
+
+._SeoLocalblogs>h2{
+    text-align: center;
+    color:#EF4C23;
+}
+._SeoLocalBlogsStories{
+    /* border:1px solid yellow; */
+    width:700px;
+    height:200px;
+}
+._SeoLocalBlogsStories1{
+    border:1px solid green;
+}
+._SeoLocalblogs1{
+    /* border:1px solid teal; */
+    width:20%;
+    height:250px;
+    
+}
+._SeoLocalblogsimage:hover img {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  opacity:0.8;
+}
+._SeoLocalblogsimage>img{
+    height: 100%;
+    width:100%;
+    transform: scale(1);
+    transition: 0.4s ease-in-out;
+}
+._SeoLocalblogsimage{
+height:80%;
+width:100%;
+overflow: hidden;
+}
+._SeoLocalblogsimage>img{
+    height:100%;
+    width:100%;
+    /* border:1px solid green; */
+}
+._SeoLocalblogstext{
+/* border:1px solid palevioletred; */
+height:20%;
+width:100%;
+font-size:18px;
+font-weight: 500;
+margin-top: 5px;
+}
