@@ -1,0 +1,66 @@
+.gamedevelopmentmetavercemainbox {
+  height: 100vh;
+
+  background-image: url("/Images/gamedevelopmentpage/sectionfeatures12y.png");
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.gamedevelopermetavercetxtboxes {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 10%;
+
+  margin-left: 5%;
+  color: white;
+}
+.specialcolor {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.flexinggamermetaverce {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 3%;
+}
+.flexinggamermetaverce > h6 {
+  /* margin: 0; */
+}
+
+.gamemetaverserightdivwhichinnerimage {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  margin-left: 75%;
+  top: 15%;
+  border-radius: 10px;
+}
+
+.gamemetaverserightdivwhichinnerimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.gamemetaverserightdivwhichinnerimagenext {
+  height: 30%;
+  width: 20%;
+  position: absolute;
+  left: 65%;
+  top: 25%;
+
+  border-radius: 10px;
+}
+
+.gamemetaverserightdivwhichinnerimagenext > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}

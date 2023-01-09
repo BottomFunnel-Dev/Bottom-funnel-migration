@@ -1,0 +1,103 @@
+.gamedevelopmentfeaturemainboxes {
+  height: 90vh;
+  padding: 3%;
+  background-color: #141229;
+}
+
+.gamedevelopmentfeaturetxtdiv {
+  text-align: center;
+  color: white;
+}
+
+.anaothercloror {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.gamedevelopmentanotherdivforboxesforfeatures {
+  height: 60%;
+  margin-top: 4%;
+  position: relative;
+}
+
+.gamedevelopmentfeatureinnerbox1 {
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  left: 20%;
+  border: 1px solid #3db3a2;
+  border-radius: 10px;
+  top: 5%;
+}
+
+.gamedevelopmentfeatureinnerbox1:hover {
+  transform: scale(1.02);
+}
+
+.gamedevelopmentfeatureinnerbox2 {
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  left: 45%;
+  border: 1px solid #3db3a2;
+  border-radius: 10px;
+  top: 5%;
+}
+
+.gamedevelopmentfeatureinnerbox2:hover {
+  transform: scale(1.02);
+}
+
+.gamedevelopmentfeatureinnerbox3 {
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  left: 70%;
+  top: 5%;
+  border-radius: 10px;
+  border: 1px solid #3db3a2;
+}
+
+.gamedevelopmentfeatureinnerbox3:hover {
+  transform: scale(1.02);
+}
+
+.gamedevelopmentfeatureinnerbox4 {
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  left: 30%;
+  border: 1px solid #3db3a2;
+  bottom: 15%;
+  border-radius: 10px;
+}
+
+.gamedevelopmentfeatureinnerbox4:hover {
+  transform: scale(1.02);
+}
+
+.gamedevelopmentfeatureinnerbox5 {
+  position: absolute;
+  height: 30%;
+  width: 10%;
+  left: 57%;
+  border: 1px solid #3db3a2;
+  bottom: 15%;
+  border-radius: 10px;
+}
+
+.gamedevelopmentfeatureinnerbox5:hover {
+  transform: scale(1.02);
+}
+
+.gamedeveloperinnerimageallboxes {
+  height: 70%;
+  width: 90%;
+  object-fit: contain;
+  padding: 10%;
+}
+
+.txtwhitegamedeveloperfeature {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,123 @@
+.gamewhychoosemainbox {
+  height: 100vh;
+  margin-bottom: 3%;
+  display: flex;
+  background-color: #141229;
+}
+
+.whychoosegameflexingleftboxing {
+  height: 70%;
+  width: 55%;
+
+  margin-top: 10%;
+  margin-left: 2%;
+  position: relative;
+}
+
+.whychoosegameflexingleftboxing > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.positionabsoulteboxinnerwhychoose1 {
+  position: absolute;
+  height: 30%;
+  width: 20%;
+
+  bottom: 60%;
+  left: 10%;
+}
+.positionabsoulteboxinnerwhychoose1 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.positionabsoulteboxinnerwhychoose2 {
+  position: absolute;
+  height: 30%;
+  width: 20%;
+
+  bottom: 60%;
+  left: 70%;
+}
+
+.positionabsoulteboxinnerwhychoose3 {
+  position: absolute;
+  height: 30%;
+  width: 20%;
+
+  bottom: 35%;
+  left: 40%;
+}
+
+.positionabsoulteboxinnerwhychoose4 {
+  position: absolute;
+  height: 30%;
+  width: 20%;
+
+  bottom: 10%;
+  left: 10%;
+}
+
+.positionabsoulteboxinnerwhychoose5 {
+  position: absolute;
+  height: 30%;
+  width: 20%;
+
+  bottom: 10%;
+  left: 70%;
+}
+
+.positionabsoulteboxinnerwhychoose1logo {
+  height: 60%;
+  width: 50%;
+  margin: auto;
+}
+
+.colorwhite {
+  color: white;
+  text-align: center;
+}
+
+.positionabsoulteboxinnerwhychoose2logo {
+  height: 60%;
+
+  width: 50%;
+  margin: auto;
+}
+
+.positionabsoulteboxinnerwhychoose3logo {
+  height: 60%;
+
+  width: 50%;
+  margin: auto;
+}
+
+.positionabsoulteboxinnerwhychoose4logo {
+  height: 60%;
+
+  width: 50%;
+  margin: auto;
+}
+
+.positionabsoulteboxinnerwhychoose5logo {
+  height: 60%;
+
+  width: 50%;
+  margin: auto;
+}
+
+.whychoosegamingflexboxrightdiv {
+  height: 70%;
+  margin-top: 20%;
+  margin-left: 1%;
+  width: 40%;
+  color: white;
+}
+.colorred {
+  color: #ef4c23;
+  text-decoration: none;
+}

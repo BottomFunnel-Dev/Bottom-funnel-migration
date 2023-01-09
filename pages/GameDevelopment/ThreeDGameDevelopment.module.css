@@ -1,0 +1,76 @@
+.threedgamedevelopmentmainpage {
+  height: 100vh;
+  border: 1px solid;
+  display: flex;
+  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -6%;
+}
+
+.threedflexboxleftgamedevelopment {
+  height: 100%;
+  width: 50%;
+}
+
+.threedflexboxleftdivinnerimagesection1 {
+  height: 40%;
+  width: 40%;
+
+  margin-top: 25%;
+  margin-left: 10%;
+}
+
+.threedflexboxleftdivinnerimagesection1 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.threedflexboxleftdivinnerimagesection2 {
+  height: 40%;
+  width: 40%;
+
+  margin-top: -25%;
+  margin-left: 35%;
+}
+
+.threedflexboxleftdivinnerimagesection2 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.threedflexboxrightgamedevelopment {
+  height: 80%;
+  width: 40%;
+
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.specialcolorredish {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.threedflexboxrightgamedevelopment > h2 {
+  color: white;
+}
+
+.threedflexboxrightgamedevelopment > p {
+  color: white;
+}
+
+.flexinggamermetaverce {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexinggamermetaverce > h6 {
+  color: white;
+  margin-left: 3%;
+  margin-top: 1.5%;
+}
