@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./webDevServices.module.css";
+
+
 export const WebDevServices = ({ webservicesContent }) => {
   return (
+    <div className={styles.mainboxeswebservices}>
     <div className={styles.webDevServices}>
       <div className={styles.webdevTextServices}>
         <h1>{webservicesContent.title} <span className={styles.spanText}>Services</span> Provided By Us</h1>
@@ -23,6 +26,7 @@ export const WebDevServices = ({ webservicesContent }) => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };

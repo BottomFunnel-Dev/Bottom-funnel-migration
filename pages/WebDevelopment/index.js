@@ -28,20 +28,20 @@ export default function index() {
       <WebDevServices webservicesContent={webDevServices} />
       <GetStarted />
 
-      <WebDevTechStack />
+     <WebDevTechStack />
 
       <WebDevWhy whyDevContent={mernWhyContent} />
 
-      <StoriesSection />
+     {/* <StoriesSection />
       <Industries />
       <PlanProject />
       <OndemandSection />
-      {/* <PortFolio /> */}
+      <PortFolio /> 
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      {/* <MainFooter /> */}
+       <MainFooter /> */}
     </div>
   );
 }

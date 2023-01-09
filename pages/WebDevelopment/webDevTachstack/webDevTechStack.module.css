@@ -1,3 +1,4 @@
+@media only screen and (min-width:769px){
 .webDevStack {
   width: 96%;
   height: 500px;
@@ -17,6 +18,7 @@
   justify-content: space-between;
   margin: auto;
   column-gap: 2px;
+  
 }
 .techStack {
   width: 15%;
@@ -68,4 +70,183 @@
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   /* border: 1px solid red; */
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:376px){
+  .webDevStack {
+width: 100%;
+    height: fit-content;
+    /* background-color: green; */
+    /* padding: 30px; */
+margin-top: 5%;
+
+
+  }
+  .devStackText {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .devStackText>h1{
+    font-size: 20px;
+  }
+  .devStackText>p{
+    text-align: justify;
+  }
+  .textStack {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+
+    column-gap: 2px;
+
+    
+  }
+
+  .techStack {
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+  width: fit-content;
+    /* overflow-y: scroll; */
+
+  }
+
+  
+
+  .techStack > button {
+    padding: 10px 15px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-left: 5px solid rgb(242, 238, 238);
+    box-sizing: border-box;
+    background-color: white;
+  }
+
+  .stackGrid {
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9%;
+   height: 250px;
+    padding: 20px;
+    justify-content: center;
+    /* text-align: center; */
+/* border: 1px solid green; */
+overflow-y: scroll;
+
+  }
+  
+  .stackframeworkCard {
+    width: 70px;
+    height: 80px;
+    margin: 2% 4% 0% 0%;
+  
+   
+  }
+  .stackIcon {
+    width: 70px;
+    margin: 10px auto;
+    height: 70px;
+  }
+  .stackIcon > img {
+    width: 80%;
+    height: 70%;
+    padding: 3px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid red; */
+  }
+}
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+  .webDevStack {
+    width: 96%;
+    height: 500px;
+    /* background-color: green; */
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .devStackText {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .textStack {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    column-gap: 2px;
+
+    
+  }
+  .techStack {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 10px; */
+    /* overflow-y: scroll; */
+  }
+  .techStack > button {
+    padding: 20px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-left: 5px solid rgb(242, 238, 238);
+    box-sizing: border-box;
+    background-color: white;
+   width: fit-content;
+  }
+  /* .techStack > button:hover {
+    background: #ffe2da;
+    border-left: 5px solid #ef4c23;
+    color: #ef4c23;
+  } */
+  
+  .stackGrid {
+    width: 80%;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 9%;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+     overflow-y: scroll;
+    /* overflow-x: scroll;  */
+  }
+  
+  .stackframeworkCard {
+    width: 100px;
+    height: 100px;
+   
+  }
+  .stackIcon {
+    width: 70px;
+    margin: 10px auto;
+    height: 70px;
+  }
+  .stackIcon > img {
+    width: 80%;
+    height: 80%;
+    padding: 3px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border: 1px solid red; */
+  }
 }

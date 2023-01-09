@@ -40,6 +40,7 @@ export const WebDevTechStack = () => {
                   ? {
                     background: "#ffe2da",
                     borderLeft: "5px solid #ef4c23",
+                 border:"5px solid red",
                     color: "#ef4c23",
                   }
                   : null

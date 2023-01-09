@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./ondemandSection.module.css";
 import { IconContext } from "react-icons/lib";
 import { MdOutlineMobileFriendly } from "react-icons/md";
-import { NavItem } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs";
 import Link  from "next/Link";
 
