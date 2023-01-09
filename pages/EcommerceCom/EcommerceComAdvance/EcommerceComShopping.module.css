@@ -1,0 +1,87 @@
+.eCommerceShoppingMain {
+  margin-top: 120px;
+  margin-bottom: 20px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eCommerceShoppingImagesMain {
+  position: relative;
+  width: 34%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceShoppingImagesMain > div {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceShoppingImagesMain > div:nth-child(1) > img {
+  height: 80%;
+  align-self: flex-end;
+}
+
+.eCommerceShoppingImagesMain > div:nth-child(2) > img {
+  height: 100%;
+}
+
+
+.eCommerceAdvanceCards {
+  width: 31%;
+  margin-top: 30px;
+}
+
+.eCommerceAdvanceCardsMain {
+  width: 66%;
+}
+.eCommerceAdvanceCardsMain > div {
+  width: 90%;
+  margin: auto;
+}
+
+.eCommerceAdvanceCardsMain > div > h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  color: #ef4c23;
+}
+
+.eCommerceAdvanceCardsMain > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.eCommerceAdvanceCardsLogo > img {
+  height: 100%;
+}
+
+.eCommerceAdvanceCardsLogo {
+  height: 50px;
+  margin-left: 10px;
+  z-index: 4;
+}
+
+.eCommerceAdvanceCardsContent {
+  background-color: #ffe6df;
+  height: 230px;
+  padding: 10px;
+  padding-top: 30px;
+  margin-top: -25px;
+  border-radius: 10px;
+
+  z-index: 0;
+}
+
+.eCommerceAdvanceCardsContent > p {
+  font-size: 16px;
+}

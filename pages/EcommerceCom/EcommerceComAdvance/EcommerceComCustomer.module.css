@@ -1,0 +1,107 @@
+.eCommerceAdvanceMain {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 710px;
+}
+
+.eCommerceAdvanceMain > h1 > span {
+  color: #ef4c23;
+}
+
+.eCommerceCustomerMain {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 500px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eCommerceAdvanceMain > h1 {
+  font-size: 32px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.eCommerceAdvanceCardsMain {
+  width: 66%;
+}
+.eCommerceAdvanceCardsMain > div {
+  width: 90%;
+  margin: auto;
+}
+
+.eCommerceAdvanceCardsMain > div > h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  color: #ef4c23;
+}
+
+.eCommerceAdvanceCardsMain > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.eCommerceAdvanceCards {
+  width: 31%;
+  margin-top: 30px;
+}
+
+.eCommerceAdvanceCardsLogo {
+  height: 50px;
+  margin-left: 10px;
+  z-index: 4;
+}
+
+.eCommerceAdvanceCardsContent {
+  background-color: #ffe6df;
+  height: 230px;
+  padding: 10px;
+  padding-top: 30px;
+  margin-top: -25px;
+  border-radius: 10px;
+
+  z-index: 0;
+}
+
+.eCommerceAdvanceCardsContent > p {
+  font-size: 16px;
+}
+
+.eCommerceAdvanceCardsLogo > img {
+  height: 100%;
+}
+
+.eCommerceCustomerImagesMain {
+  position: relative;
+  width: 34%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceCustomerImagesMain > div {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceCustomerImagesMain > div:nth-child(1) > img {
+  height: 30%;
+  width: 100%;
+  margin-bottom: 10%;
+  align-self: flex-end;
+}
+
+.eCommerceCustomerImagesMain > div:nth-child(2) > img {
+  height: 100%;
+}

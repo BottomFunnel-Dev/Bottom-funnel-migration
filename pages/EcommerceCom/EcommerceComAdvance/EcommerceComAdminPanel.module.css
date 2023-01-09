@@ -1,0 +1,65 @@
+.eCommerceAdminMain {
+  /* margin-bottom: 150px; */
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eCommerceAdvanceCardsMain > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.eCommerceAdvanceCards {
+  width: 31%;
+  margin-top: 30px;
+}
+
+.eCommerceAdvanceCardsLogo {
+  height: 50px;
+  margin-left: 10px;
+  z-index: 4;
+}
+
+.eCommerceAdvanceCardsContent {
+  background-color: #ffe6df;
+  height: 230px;
+  padding: 10px;
+  padding-top: 30px;
+  margin-top: -25px;
+  border-radius: 10px;
+
+  z-index: 0;
+}
+
+.eCommerceAdvanceCardsContent > p {
+  font-size: 16px;
+}
+
+.eCommerceAdminImagesMain {
+  position: relative;
+  width: 34%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.eCommerceAdminImagesMain > div {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceAdminImagesMain > div:nth-child(1) > img {
+  height: 100%;
+  margin-left: 10%;
+}
+
+.eCommerceAdminImagesMain > div:nth-child(2) > img {
+  height: 85%;
+  margin-left: -10px;
+}

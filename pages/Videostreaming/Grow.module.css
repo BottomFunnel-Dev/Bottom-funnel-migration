@@ -1,0 +1,113 @@
+.grow {
+  width: 100%;
+  height: 1600px;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+  background-color: black;
+}
+.growdiv {
+  width: 90%;
+  margin: auto;
+  /* background-color: gainsboro; */
+  height: 500px;
+  display: flex;
+}
+.growmobile {
+  width: 50%;
+  /* background-color: blue; */
+}
+.growtext {
+  width: 50%;
+  /* background-color: blueviolet; */
+  position: relative;
+  color: white;
+}
+.growmobileimage {
+  width: 40%;
+  height: 500px;
+  margin-left: 20%;
+}
+.growmobileimage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.growtext > div {
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.growtext > div > p {
+  font-size: 16px;
+}
+.szbtnget {
+  display: flex;
+}
+.szstarticon {
+  margin: 0px 10px;
+}
+.optimizetext {
+  width: 50%;
+  /* background-color: blueviolet; */
+  position: relative;
+  color: white;
+}
+.optimizetext > div {
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.optimizetext > div > p {
+  font-size: 16px;
+}
+.optimizeimage {
+  width: 50%;
+  /* background-color: blue; */
+}
+.crown {
+  width: 100%;
+  height: 500px;
+  margin-top: 5%;
+}
+.crown > img {
+  width: 100%;
+  height: 100%;
+}
+.starwars {
+  width: 50%;
+  /* background-color: blue; */
+}
+.starwarimage {
+  width: 40%;
+  height: 500px;
+  margin-left: 20%;
+}
+.starwarimage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.starwartext {
+  width: 50%;
+  /* background-color: blueviolet; */
+  position: relative;
+  color: white;
+}
+.starwartext > div {
+  width: 100%;
+  text-align: left;
+  padding: 10%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

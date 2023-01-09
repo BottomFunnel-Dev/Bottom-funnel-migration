@@ -1,0 +1,68 @@
+.servicescontainer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+  height: 550px;
+}
+.servicescontainer > div {
+  text-align: center;
+  padding: 5px;
+}
+.servicessubcontainer {
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  height: 460px;
+  display: flex;
+}
+.servicessubcontainer > div {
+  width: 40%;
+  margin: 20px;
+  /* background-color: aqua; */
+  padding: 20px;
+}
+.uploaddiv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  height: 170px;
+  padding: 10px;
+}
+.uploaddiv > p {
+  padding: 10px;
+  margin-top: -7%;
+}
+
+
+.uploadflexdiv {
+  display: flex;
+  /* background-color: aliceblue; */
+  padding: 25px 30px;
+  height: 70px;
+}
+
+.uploadimg {
+  padding: 30px 10px;
+}
+
+.monetizdiv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  height: 170px;
+}
+
+.monetizdiv > p {
+  padding: 10px;
+  margin-top: -7%;
+}
+
+.monetizflexdiv {
+  display: flex;
+  /* background-color: aliceblue; */
+  padding: 25px 30px;
+  height: 70px;
+  margin-top: 10%;
+}
+
+.monetizimg {
+  padding: 5px 10px;
+}
