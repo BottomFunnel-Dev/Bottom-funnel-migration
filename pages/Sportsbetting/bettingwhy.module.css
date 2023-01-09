@@ -1,0 +1,53 @@
+.bettingwhy {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  /* padding: 20px; */
+  /* border: 2px solid red; */
+}
+
+.bettingText {
+  width: 70%;
+  margin: auto;
+}
+.carpool-why {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.solutionsFeatures{
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5%;
+  column-gap: 2%;
+}
+
+.whyCards {
+  width: 15%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  border: 1px solid rgb(195, 193, 193);
+  /* border: 2px solid red; */
+  transform: all 0.2s linear;
+}
+
+.whyCards:hover {
+  transform: scale(1.02);
+}
+
+.whycardIcon {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+.whycardIcon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
