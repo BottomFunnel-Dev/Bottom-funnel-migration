@@ -4168,7 +4168,7 @@ export const elasticData = {
     "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/elasticSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/elasticSkillsPhotos/banner.webp",
     title: "Elasticsearch Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4176,7 +4176,7 @@ export const elasticData = {
   isDes: true,
   desData: {
     title: "Elasticsearch",
-    image: "/Images/elasticSkillsPhotos/elastic-logo.png",
+    image: "/Images/skillsPhotos/elasticSkillsPhotos/elastic-logo.webp",
     description:
       "Elasticsearch is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4186,7 +4186,7 @@ export const elasticData = {
     cardsData: [
       {
         img: {
-          src: "/Images/elasticSkillsPhotos/security.png",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/security.webp",
           alt: "Security logo",
         },
         title: "Security",
@@ -4196,7 +4196,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "/Images/elasticSkillsPhotos/management.png",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/management.webp",
           alt: "Management logo",
         },
         title: "Management",
@@ -4205,7 +4205,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "/Images/elasticSkillsPhotos/pip.png",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
           alt: "Scalability and resiliency logo",
         },
         title: "Scalability and resiliency",
@@ -4214,7 +4214,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "/Images/elasticSkillsPhotos/switch.png",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/switch.webp",
           alt: "Integrations logo",
         },
         title: "Integrations",
@@ -4223,7 +4223,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "/Images/elasticSkillsPhotos/upgrade-database.png",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/upgrade-database.webp",
           alt: "Data enrichment logo",
         },
         title: "Data enrichment",
@@ -4232,7 +4232,7 @@ export const elasticData = {
       },
       {
         img: {
-          src: "/Images/elasticSkillsPhotos/database-search.png",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/database-search.webp",
           alt: "Automatic node recovery logo",
         },
         title: "Automatic node recovery",
@@ -4244,7 +4244,7 @@ export const elasticData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Elasticsearch",
-    image: "/Images/elasticSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/elasticSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4258,54 +4258,55 @@ export const elasticData = {
   BookCallData: {
     title: "Need our elasticsearch developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using elasticsearch",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Elasticsearch is an open source, widely distributable, and easily extensible enterprise-class search engine based on Lucene and released under the terms of the Apache license.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
+          alt: "Lots of search options logo",
         },
-        title: "Easy complex component handling",
+        title: "Lots of search options",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
+          alt: "Document-oriented logo",
         },
-        title: "Time-Saving Process",
+        title: "Document-oriented",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
+          src: "/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
+          alt: "Speed logo",
         },
-        title: "Effective Framework",
+        title: "Speed",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
+          src: "/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
+          alt: "Data record logo",
         },
-        title: "Reusable code",
+        title: "Data record",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
+          src: "/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
+          alt: "Query fine tuning logo",
         },
-        title: "Enables Testing Now and Then",
+        title: "Query fine tuning",
       },
     ],
   },
@@ -4317,7 +4318,7 @@ export const sqliteData = {
     "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/sqliteSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/sqliteSkillsPhotos/banner.webp",
     title: "SQLite Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4325,7 +4326,7 @@ export const sqliteData = {
   isDes: true,
   desData: {
     title: "SQLite",
-    image: "/Images/sqliteSkillsPhotos/sqlite-logo.png",
+    image: "/Images/skillsPhotos/sqliteSkillsPhotos/sqlite-logo.webp",
     description:
       "SQLite is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4335,7 +4336,7 @@ export const sqliteData = {
     cardsData: [
       {
         img: {
-          src: "/Images/sqliteSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/open-source.webp",
           alt: "Open source logo",
         },
         title: "Open source",
@@ -4345,7 +4346,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "/Images/sqliteSkillsPhotos/free.png",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/free.webp",
           alt: "Free to use logo",
         },
         title: "Free to use",
@@ -4354,7 +4355,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "/Images/sqliteSkillsPhotos/sync.png",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/sync.webp",
           alt: "Cross-platform logo",
         },
         title: "Cross-platform",
@@ -4363,7 +4364,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "/Images/sqliteSkillsPhotos/setting-loading.png",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
           alt: "Flexible logo",
         },
         title: "Flexible",
@@ -4372,7 +4373,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "/Images/sqliteSkillsPhotos/no-user.png",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/no-user.webp",
           alt: "No licence required logo",
         },
         title: "No licence required",
@@ -4381,7 +4382,7 @@ export const sqliteData = {
       },
       {
         img: {
-          src: "/Images/sqliteSkillsPhotos/no-database.png",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/no-database.webp",
           alt: "Serverless logo",
         },
         title: "Serverless",
@@ -4393,7 +4394,7 @@ export const sqliteData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For SQLite",
-    image: "/Images/sqliteSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/sqliteSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4407,54 +4408,34 @@ export const sqliteData = {
   BookCallData: {
     title: "Need our SQLite developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using sqlite",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "SQLite is a very popular database and is successfully used in on-disk file formats for desktop applications such as version control systems, financial analysis tools, media catalogs and editing suites, CAD packages, and recording programs.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
+          alt: "Lightweight logo",
         },
-        title: "Open-source",
+        title: "Lightweight",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "Better performance logo",
         },
-        title: "Easy complex component handling",
+        title: "Better performance",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
+          alt: "No installation needed logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "No installation needed",
       },
     ],
   },
@@ -4466,7 +4447,7 @@ export const cassandraData = {
     "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/cassandraSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/cassandraSkillsPhotos/banner.webp",
     title: "Cassandra Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4474,7 +4455,7 @@ export const cassandraData = {
   isDes: true,
   desData: {
     title: "Cassandra",
-    image: "/Images/cassandraSkillsPhotos/cassandra-logo.png",
+    image: "/Images/skillsPhotos/cassandraSkillsPhotos/cassandra-logo.webp",
     description:
       "Cassandra is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
@@ -4484,7 +4465,7 @@ export const cassandraData = {
     cardsData: [
       {
         img: {
-          src: "/Images/cassandraSkillsPhotos/box-dimension.png",
+          src: "/Images/skillsPhotos/cassandraSkillsPhotos/box-dimension.webp",
           alt: "Distributed footprint logo",
         },
         title: "Distributed footprint",
@@ -4494,7 +4475,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "/Images/cassandraSkillsPhotos/qr-code.png",
+          src: "/Images/skillsPhotos/cassandraSkillsPhotos/qr-code.webp",
           alt: "Better user experience logo",
         },
         title: "Better user experience",
@@ -4503,7 +4484,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "/Images/cassandraSkillsPhotos/shut-button.png",
+          src: "/Images/skillsPhotos/cassandraSkillsPhotos/shut-button.webp",
           alt: "Fault tolerance logo",
         },
         title: "Fault tolerance",
@@ -4512,7 +4493,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "/Images/cassandraSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/cassandraSkillsPhotos/open-source.webp",
           alt: "Open source logo",
         },
         title: "Open source",
@@ -4521,7 +4502,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "/Images/cassandraSkillsPhotos/pip.png",
+          src: "/Images/skillsPhotos/cassandraSkillsPhotos/pip.webp",
           alt: "Scalability logo",
         },
         title: "Scalability",
@@ -4530,7 +4511,7 @@ export const cassandraData = {
       },
       {
         img: {
-          src: "/Images/cassandraSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/cassandraSkillsPhotos/fast-run.webp",
           alt: "Fast writes logo",
         },
         title: "Fast writes",
@@ -4542,7 +4523,7 @@ export const cassandraData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For cassandra",
-    image: "/Images/cassandraSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/cassandraSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4556,54 +4537,34 @@ export const cassandraData = {
   BookCallData: {
     title: "Need our cassandra developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using cassandra",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Cassandra enables businesses to manage large amounts of data quickly and provides users with the following benefits: It can quickly store large amounts of incoming data and handle hundreds of thousands of writes per second.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "Performance - speed logo",
         },
-        title: "Open-source",
+        title: "Performance - speed",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
+          alt: "Scalability logo",
         },
-        title: "Easy complex component handling",
+        title: "Scalability",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/nodejsphotos/clock.webp",
+          alt: "Reliability logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Reliability",
       },
     ],
   },
