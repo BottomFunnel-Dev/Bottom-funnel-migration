@@ -1,11 +1,19 @@
 import React from "react";
-import Politicalparty from "./Politicalparty";
-import Politicaltool from "./Politicaltool";
-import Politicalvolunteer from "./Politicalvolunteer";
-import Politicscontainer from "./Politicscontainer";
-import Politicsmobile from "./Politicsmobile";
-import Politicsreliable from "./Politicsreliable";
-import Politictarget from "./Politictarget";
+
+import Logisticcontainer from "./Logisticcontainer";
+import { logisticsLogo } from "../Data/SeopartnerData";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import Logictransport from "./Logictransport";
+import Logisticwhy from "./Logisticwhy";
+
+import {
+  logisticsCustomer,
+  logisticDrive,
+  logisticAdmin,
+} from "../Data/panelsData";
+import Logiccustomer from "./Logiccustomer";
+import Logicdrive from "./Logicdrive";
+import Logisticadmin from "./Logisticadmin";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,19 +26,17 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Politics () {
- 
+export default function Logistics() {
   return (
     <div>
-    
-      <Politicscontainer />
-      <Politicalparty />
-      <Politicsmobile />
-      <Politicalvolunteer />
-      <Politicaltool />
-      <Politicsreliable />
-      <Politictarget />
-     
+      <Logisticcontainer />
+      <Trusted partnerLogo={logisticsLogo} />
+      <Logictransport />
+      <Logisticwhy />
+      <Logiccustomer customerData={logisticsCustomer} />
+      <Logicdrive driveData={logisticDrive} />
+      <Logisticadmin adminData={logisticAdmin} />
+
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}

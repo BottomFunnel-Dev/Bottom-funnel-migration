@@ -1,5 +1,13 @@
 import React from "react";
 
+import { CryptoCurrencyBanner } from "./CryptoCurrencyBanner";
+import { CryptoCurrencyWork } from "./CryptoCurrencyWork";
+import { CryptoCurrencyServices } from "./CryptoCurrencyServices";
+import CryptoMining from "./CryptoMining";
+import { CryptoAdminpannel } from "./CryptoAdminpannel";
+import { CryptoLowerBanner } from "./CryptoLowerBanner";
+import { CryptoWhyChoose } from "./CryptoWhyChoose";
+
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -11,29 +19,26 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-import { CryptoCurrencyBanner } from "./CryptoCurrencyBanner";
-import { CryptoCurrencyWork } from "./CryptoCurrencyWork";
-
 export default function CryptoCurrrency() {
   return (
     <div>
       <CryptoCurrencyBanner />
       <CryptoCurrencyWork />
-      {/* <CryptoCurrencyServices /> */}
-      {/* <CryptoMining /> */}
-      {/* <CryptoAdminpannel /> */}
-      {/* <CryptoLowerBanner /> */}
-      {/* <CryptoWhyChoose /> */}
+      <CryptoCurrencyServices />
+      <CryptoMining />
+      <CryptoAdminpannel />
+      <CryptoLowerBanner />
+      <CryptoWhyChoose />
 
-      {/* <StoriesSection /> */}
-      {/* <Industries /> */}
+      <StoriesSection />
+      <Industries />
       {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   );

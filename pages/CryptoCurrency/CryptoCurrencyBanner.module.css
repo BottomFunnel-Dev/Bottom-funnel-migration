@@ -12,7 +12,6 @@
 .cryptocurrencybannermainboxinnertextdiv {
   height: 50%;
   width: 37%;
-
   margin-top: 15%;
   margin-left: 3%;
   text-align: center;
@@ -21,6 +20,7 @@
 .cryptocurrencybannermainboxinnertextdiv > h1 {
   color: white;
 }
+
 .cryptocurrencybannermainboxinnertextdiv > p {
   color: white;
   text-align: justify;

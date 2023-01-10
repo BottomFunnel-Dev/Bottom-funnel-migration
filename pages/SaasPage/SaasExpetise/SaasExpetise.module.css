@@ -1,0 +1,22 @@
+.SaasExpetiseMain {
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.SaasExpetiseMain > h1 {
+  width: 93%;
+  margin: auto;
+}
+
+.SaasExpetiseMain > div {
+  padding: 10px;
+  margin-top: 20px;
+
+  background: #c9dcff;
+}
+
+.SaasExpetiseMain > div > p {
+  width: 70%;
+  margin-left: 3%;
+}

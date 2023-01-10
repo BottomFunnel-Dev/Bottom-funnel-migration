@@ -1,11 +1,10 @@
-import React from "react";
-import Politicalparty from "./Politicalparty";
-import Politicaltool from "./Politicaltool";
-import Politicalvolunteer from "./Politicalvolunteer";
-import Politicscontainer from "./Politicscontainer";
-import Politicsmobile from "./Politicsmobile";
-import Politicsreliable from "./Politicsreliable";
-import Politictarget from "./Politictarget";
+import React from 'react'
+
+import { Saasbanner } from './Saasbanner/Saasbanner';
+import { SaasExpetise } from './SaasExpetise/SaasExpetise';
+import { SaasSuite } from './SaasSuite/SaasSuite';
+import { SaasValuable } from './SaasValuable/SaasValuable';
+import { SaasStrategy } from './SaasStrategy/SaasStrategy';
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,19 +17,16 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Politics () {
- 
+export default function SaasPage () {
   return (
     <div>
-    
-      <Politicscontainer />
-      <Politicalparty />
-      <Politicsmobile />
-      <Politicalvolunteer />
-      <Politicaltool />
-      <Politicsreliable />
-      <Politictarget />
-     
+        
+      <Saasbanner />
+      <SaasExpetise />
+      <SaasSuite />
+      <SaasValuable />
+      <SaasStrategy />
+      
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}
@@ -43,4 +39,4 @@ export default function Politics () {
       {/* <MainFooter /> */}
     </div>
   );
-}
+};

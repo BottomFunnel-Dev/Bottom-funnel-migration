@@ -1,11 +1,11 @@
 import React from "react";
-import Politicalparty from "./Politicalparty";
-import Politicaltool from "./Politicaltool";
-import Politicalvolunteer from "./Politicalvolunteer";
-import Politicscontainer from "./Politicscontainer";
-import Politicsmobile from "./Politicsmobile";
-import Politicsreliable from "./Politicsreliable";
-import Politictarget from "./Politictarget";
+import Newspublish from "./Newspublish";
+import Newstrategy from "./Newstrategy";
+import { Newsintro } from "./Newsintro";
+import { Newspaper } from "./Newspaper";
+import { Newsfeature } from "./Newsfeature";
+import { newsLogo } from "../../Data/SeopartnerData";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,19 +18,16 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Politics () {
- 
+export default function News() {
   return (
     <div>
-    
-      <Politicscontainer />
-      <Politicalparty />
-      <Politicsmobile />
-      <Politicalvolunteer />
-      <Politicaltool />
-      <Politicsreliable />
-      <Politictarget />
-     
+      <Newsintro />
+      <Trusted partnerLogo={newsLogo} />
+      <Newspaper />
+      <Newsfeature />
+      <Newspublish />
+      <Newstrategy />
+      
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}

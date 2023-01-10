@@ -1,11 +1,11 @@
 import React from "react";
-import "./Logictransport.css";
+import styles from "./Logictransport.module.css";
 
 export default function Logictransport() {
   return (
-    <div className="logistictranport ">
-      <div className="logistictranportsub">
-        <div className="sztransporty">
+    <div className={styles.logistictranport}>
+      <div className={styles.logistictranportsub}>
+        <div className={styles.sztransporty}>
           <h2>Logistics &Transport Software Devlopment Services We Offer </h2>
 
           <p>
@@ -17,12 +17,12 @@ export default function Logictransport() {
           </p>
         </div>
 
-        <div className="logistictranportdiv">
-          <div className="sztransporttop">
-            <div className="szship">
-              <div className="szshipping">
-                <div className="delivery">
-                  <img src="Images/logistic/delivery food.png" />{" "}
+        <div className={styles.logistictranportdiv}>
+          <div className={styles.sztransporttop}>
+            <div className={styles.szship}>
+              <div className={styles.szshipping}>
+                <div className={styles.delivery}>
+                  <img src="Images/logistic/delivery food.png" alt="image" />{" "}
                 </div>
                 <h5>Shipping Logistics Management Software Development </h5>
               </div>
@@ -36,10 +36,10 @@ export default function Logictransport() {
               </p>
             </div>
 
-            <div className="szship">
-              <div className="szshipping">
-                <div className="delivery">
-                  <img src="Images/logistic/sourcecode.png" />{" "}
+            <div className={styles.szship}>
+              <div className={styles.szshipping}>
+                <div className={styles.delivery}>
+                  <img src="Images/logistic/sourcecode.png" alt="image" />{" "}
                 </div>
                 <h5>Fleet Management Software Development</h5>
               </div>
@@ -53,10 +53,10 @@ export default function Logictransport() {
               </p>
             </div>
 
-            <div className="szship">
-              <div className="szshipping">
-                <div className="delivery">
-                  <img src="Images/logistic/Document Delivery.png" />{" "}
+            <div className={styles.szship}>
+              <div className={styles.szshipping}>
+                <div className={styles.delivery}>
+                  <img src="Images/logistic/Document Delivery.png" alt="image" />{" "}
                 </div>
                 <h5>Telematics Software Development</h5>
               </div>
@@ -71,11 +71,11 @@ export default function Logictransport() {
             </div>
           </div>
 
-          <div className="sztransportbottom">
-            <div className="szship">
-              <div className="szshipping">
-                <div className="delivery">
-                  <img src="Images/logistic/time 1.png" />{" "}
+          <div className={styles.sztransportbottom}>
+            <div className={styles.szship}>
+              <div className={styles.szshipping}>
+                <div className={styles.delivery}>
+                  <img src="Images/logistic/time 1.png" alt="images" />{" "}
                 </div>
                 <h5>Asset Tracking Software Development</h5>
               </div>
@@ -88,10 +88,10 @@ export default function Logictransport() {
               </p>
             </div>
 
-            <div className="szship">
-              <div className="szshipping">
-                <div className="delivery">
-                  <img src="Images/logistic/searchbrowser.png" />{" "}
+            <div className={styles.szship}>
+              <div className={styles.szshipping}>
+                <div className={styles.delivery}>
+                  <img src="Images/logistic/searchbrowser.png" alt="image" />{" "}
                 </div>
                 <h5>Transportation Management Software Development</h5>
               </div>
@@ -105,10 +105,10 @@ export default function Logictransport() {
               </p>
             </div>
 
-            <div className="szship">
-              <div className="szshipping">
-                <div className="delivery">
-                  <img src="Images/logistic/Procurement.png" />{" "}
+            <div className={styles.szship}>
+              <div className={styles.szshipping}>
+                <div className={styles.delivery}>
+                  <img src="Images/logistic/Procurement.png" alt="image" />{" "}
                 </div>
                 <h5>Logistics and Freight Management Development</h5>
               </div>

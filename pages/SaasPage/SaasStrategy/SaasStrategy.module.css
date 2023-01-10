@@ -1,0 +1,27 @@
+.SaasStrategyMain {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.SaasStrategyMain > h1 {
+  font-size: 32px;
+  margin: auto;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.SaasStrategyMain > div {
+  background-color: #c9dcff;
+  padding: 10px;
+  padding-bottom: 50px;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.SaasStrategyMain > div > p {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}

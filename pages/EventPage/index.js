@@ -1,11 +1,4 @@
-import React from "react";
-import Politicalparty from "./Politicalparty";
-import Politicaltool from "./Politicaltool";
-import Politicalvolunteer from "./Politicalvolunteer";
-import Politicscontainer from "./Politicscontainer";
-import Politicsmobile from "./Politicsmobile";
-import Politicsreliable from "./Politicsreliable";
-import Politictarget from "./Politictarget";
+import React from 'react'
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,29 +11,30 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Politics () {
- 
+import { EventsBanner } from './EventsBanner';
+
+const index = () => {
   return (
     <div>
-    
-      <Politicscontainer />
-      <Politicalparty />
-      <Politicsmobile />
-      <Politicalvolunteer />
-      <Politicaltool />
-      <Politicsreliable />
-      <Politictarget />
-     
-      <StoriesSection />
-      <Industries />
+        
+      <EventsBanner />
+      {/* <EventsDevelopment /> */}
+      {/* <EventsDevservices /> */}
+      {/* <EventsProvidedServices /> */}
+      {/* <EventsFeatures /> */}
+
+      {/* <StoriesSection /> */}
+      {/* <Industries /> */}
       {/* <PlanProject /> */}
-      <OndemandSection />
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
       {/* <MainFooter /> */}
     </div>
-  );
+  )
 }
+
+export default index

@@ -1,11 +1,16 @@
 import React from "react";
-import Politicalparty from "./Politicalparty";
-import Politicaltool from "./Politicaltool";
-import Politicalvolunteer from "./Politicalvolunteer";
-import Politicscontainer from "./Politicscontainer";
-import Politicsmobile from "./Politicsmobile";
-import Politicsreliable from "./Politicsreliable";
-import Politictarget from "./Politictarget";
+
+import {
+  wellnessPatient,
+  wellnessAdmin,
+  wellnessDoctor,
+} from "../Data/panelsData";
+
+import Wellnesscontainer from "./Wellnesscontainer";
+import WellnessPatient from "./WellnessPatient/WellnessPatient";
+import WellnessDoctor from "./WellnessDoctor/WellnessDoctor";
+import WellnessAdmin from "./WellnessAdmin/WellnessAdmin";
+import Wellnesshealthcare from "./Wellnesshealthcare";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,19 +23,15 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Politics () {
- 
+export default function Wellness() {
   return (
     <div>
-    
-      <Politicscontainer />
-      <Politicalparty />
-      <Politicsmobile />
-      <Politicalvolunteer />
-      <Politicaltool />
-      <Politicsreliable />
-      <Politictarget />
-     
+      <Wellnesscontainer />
+      <WellnessPatient customerData={wellnessPatient} />
+      <WellnessDoctor customerData={wellnessDoctor} />
+      <WellnessAdmin customerData={wellnessAdmin} />
+      <Wellnesshealthcare />
+
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}

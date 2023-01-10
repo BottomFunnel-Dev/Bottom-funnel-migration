@@ -1,11 +1,11 @@
 import React from "react";
-import "./Logisticwhy.css";
+import styles from "./Logisticwhy.module.css";
 
 export default function Logisticwhy() {
   return (
-    <div className="logistictranspotwhy ">
-      <div className="logistictranspotwhysub">
-        <div className="sztransport">
+    <div className={styles.logistictranspotwhy}>
+      <div className={styles.logistictranspotwhysub}>
+        <div className={styles.sztransport}>
           <h2>
             Why Choose Bottom Funnel As Your Logistic software Development
             Company ?{" "}
@@ -22,11 +22,11 @@ export default function Logisticwhy() {
           </p>
         </div>
 
-        <div className="logistictranspotwhydiv">
-          <div className="szagiledive">
-            <div className="szagile">
-              <div className="szprocess">
-                <img src="Images/logistic/agile.png" />{" "}
+        <div className={styles.logistictranspotwhydiv}>
+          <div className={styles.szagiledive}>
+            <div className={styles.szagile}>
+              <div className={styles.szprocess}>
+                <img src="Images/logistic/agile.png" alt="image"/>{" "}
               </div>
               <h5>Agile Development Process </h5>
             </div>
@@ -38,10 +38,10 @@ export default function Logisticwhy() {
             </p>
           </div>
 
-          <div className="szagiledive">
-            <div className="szagile">
-              <div className="szprocess">
-                <img src="Images/logistic/privatefolder.png" />{" "}
+          <div className={styles.szagiledive}>
+            <div className={styles.szagile}>
+              <div className={styles.szprocess}>
+                <img src="Images/logistic/privatefolder.png" alt="image"/>{" "}
               </div>
               <h5> Data security and protection</h5>
             </div>
@@ -53,10 +53,10 @@ export default function Logisticwhy() {
             </p>
           </div>
 
-          <div className="szagiledive">
-            <div className="szagile">
-              <div className="szprocess">
-                <img src="Images/logistic/deliverytime.png" />{" "}
+          <div className={styles.szagiledive}>
+            <div className={styles.szagile}>
+              <div className={styles.szprocess}>
+                <img src="Images/logistic/deliverytime.png" alt="image"/>{" "}
               </div>
               <h5> Round-the-clock support </h5>
             </div>
@@ -68,10 +68,10 @@ export default function Logisticwhy() {
             </p>
           </div>
 
-          <div className="szagiledive">
-            <div className="szagile">
-              <div className="szprocess">
-                <img src="Images/logistic/Quality.png" />{" "}
+          <div className={styles.szagiledive}>
+            <div className={styles.szagile}>
+              <div className={styles.szprocess}>
+                <img src="Images/logistic/Quality.png" alt="image"/>{" "}
               </div>
               <h5> Quality development </h5>
             </div>
