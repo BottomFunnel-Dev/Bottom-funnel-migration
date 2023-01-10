@@ -1,18 +1,19 @@
-.fitnessstart{
+.datingstart{
     width: 100%;
+    height:200px;
 }
-.fitnessstartcontainer{
+.datingstartcontainer{
     width: 90%;
     margin: auto;
     height:160px;
-    background-color:#E7D8FF;
+    background-color:#fe9cc0;
     text-align: center;
     padding: 20px;
     border-radius: 15px;
 
 }
 
-.szstartbtn{
+.szdatingstartbtn{
     padding: 10px 60px;
     border-radius: 25px;
     font-size: 18px;
@@ -25,7 +26,7 @@
     margin-bottom: 20px;
 }
 
-.szstartbtn:hover{
+.szdatingstartbtn:hover{
     background-color:white;
     color: #ef4c23;
 }

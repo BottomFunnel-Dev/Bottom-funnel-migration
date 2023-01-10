@@ -1,5 +1,5 @@
 import React from "react";
-import "./Brand.css";
+import styles from "./Brand.module.css";
 import Slider from "react-slick";
 
 export default function Brand() {
@@ -55,15 +55,15 @@ export default function Brand() {
   ];
 
   return (
-    <div className="fitnessMain">
+    <div className={styles.fitnessMain}>
       <h1>Create custom workout apps that are tailored to meet your specific needs</h1>
-      <div className="fitondemandHomeServices">
+      <div className={styles.fitondemandHomeServices}>
         <div>
           <Slider {...settings}>
             {homeService.map((item, i) => (
-              <div key={i} className="fithomeServices">
+              <div key={i} className={styles.fithomeServices}>
                 <div>
-                  <img src={item.serviceimage} alt="" />
+                  <img src={item.serviceimage} alt="image" />
                   <h5>{item.serviceName}</h5>
                   <p>{item.serviceDescription}</p>
                 </div>

@@ -1,24 +1,24 @@
 import React from "react";
-import "./Fitnessexercise.css";
+import styles from "./Fitnessexercise.module.css";
 
 export default function Fitnessexercise() {
   return (
-    <div className="exercisediv">
-      <div className="exercisesubdiv">
-        <div className="exercisemobile">
-          <div className="szgreenimg">
+    <div className={styles.exercisediv}>
+      <div className={styles.exercisesubdiv}>
+        <div className={styles.exercisemobile}>
+          <div className={styles.szgreenimg}>
             {" "}
-            <img src="Images/fitness/greenimg.png" />
+            <img src="Images/fitness/greenimg.png" alt="image"/>
           </div>
-          <div className="szphcase">
-            <img src="Images/fitness/phone.png" />
+          <div className={styles.szphcase}>
+            <img src="Images/fitness/phone.png" alt="image"/>
           </div>
-          <div className="szmyplan">
+          <div className={styles.szmyplan}>
             {" "}
-            <img src="Images/fitness/myplan.png" />{" "}
+            <img src="Images/fitness/myplan.png" alt="image"/>{" "}
           </div>
         </div>
-        <div className="exercisebox">
+        <div className={styles.exercisebox}>
           <div>
             <h5>Social Login</h5>
             <p>
@@ -80,8 +80,8 @@ export default function Fitnessexercise() {
 
       {/* //////////  tab section  */}
 
-      <div className="exercisesubdiv">
-        <div className="exercisebox">
+      <div className={styles.exercisesubdiv}>
+        <div className={styles.exercisebox}>
           <div>
             <h5>User Friendly Customer App</h5>
             <p>
@@ -138,52 +138,52 @@ export default function Fitnessexercise() {
           </div>
         </div>
 
-        <div className="szexercisetab">
-          <div className="bluecircle">
+        <div className={styles.szexercisetab}>
+          <div className={styles.bluecircle}>
             {" "}
-            <img src="Images/fitness/bluecircle.png" />{" "}
+            <img src="Images/fitness/bluecircle.png" alt="images"/>{" "}
           </div>
-          <div className="tabbluecase">
+          <div className={styles.tabbluecase}>
             {" "}
-            <img src="Images/fitness/teblate.png" />
+            <img src="Images/fitness/teblate.png" alt="images"/>
           </div>
-          <div className="sztabdaily">
+          <div className={styles.sztabdaily}>
             {" "}
-            <img src="Images/fitness/dailyimg.png" />{" "}
+            <img src="Images/fitness/dailyimg.png" alt="image"/>{" "}
           </div>
         </div>
       </div>
 
       {/* /////////////////analiticmobile////////////// */}
 
-      <div className="exercisesubdiv">
-        <div className="analitic ">
-          <div className="szpeachcircle">
+      <div className={styles.exercisesubdiv}>
+        <div className={styles.analitic}>
+          <div className={styles.szpeachcircle}>
             {" "}
-            <img src="Images/fitness/pechcircle.png" />{" "}
+            <img src="Images/fitness/pechcircle.png" alt="image"/>{" "}
           </div>
-          <div className="szphonefit">
+          <div className={styles.szphonefit}>
             {" "}
-            <img src="Images/fitness/phone.png" />{" "}
+            <img src="Images/fitness/phone.png" alt="image"/>{" "}
           </div>
-          <div className="szrates">
+          <div className={styles.szrates}>
             {" "}
-            <img src="Images/fitness/rates.png" />{" "}
+            <img src="Images/fitness/rates.png" alt="image"/>{" "}
           </div>
         </div>
 
-        <div className="exercisebox">
+        <div className={styles.exercisebox}>
           <div>
-           <h5>Effecient Scheduling</h5>
+            <h5>Effecient Scheduling</h5>
             <p>
-            Scheduling a workout has never been as quick, easy and convenient as it is with Effecient Scheduling. It takes the pain out of planning your fitness and health goals by providing you with an easy-to-use calendar app
+              Scheduling a workout has never been as quick, easy and convenient as it is with Effecient Scheduling. It takes the pain out of planning your fitness and health goals by providing you with an easy-to-use calendar app
             </p>
           </div>
 
           <div>
-           <h5>Live Stearming</h5>
+            <h5>Live Stearming</h5>
             <p>
-            Introducing Fitness & Health, an app that streamlines your search for everything fitness-related. With live videos from experts, tips and tricks on how to get in shape fast, healthy recipes. 
+              Introducing Fitness & Health, an app that streamlines your search for everything fitness-related. With live videos from experts, tips and tricks on how to get in shape fast, healthy recipes.
             </p>
           </div>
           <div>
@@ -191,27 +191,27 @@ export default function Fitnessexercise() {
             <h5>Manage Payments</h5>
 
             <p>
-            With Fitness and Health App Ventures, you get the best in advanced payment solutions to manage everything on your app. We understand that financial transactions are vital for any business.
+              With Fitness and Health App Ventures, you get the best in advanced payment solutions to manage everything on your app. We understand that financial transactions are vital for any business.
             </p>
           </div>
           <div>
-           <h5>Real Time Chat</h5>
+            <h5>Real Time Chat</h5>
             <p>
-            Don't let the gym get boring! With Real Time Chat, you can connect with your trainer and other members in a healthy and fun way. Learn new exercises, follow their progress, and ask any question you want.
+              Don't let the gym get boring! With Real Time Chat, you can connect with your trainer and other members in a healthy and fun way. Learn new exercises, follow their progress, and ask any question you want.
             </p>
           </div>
           <div>
-           <h5>Audio/Video Calling</h5>
+            <h5>Audio/Video Calling</h5>
             <p>
-            We offer audio/video calling technology to make your chatting experience seamless and fun. We have expert trainers that can be contacted through our app for guidance on how to improve your health and fitness.
+              We offer audio/video calling technology to make your chatting experience seamless and fun. We have expert trainers that can be contacted through our app for guidance on how to improve your health and fitness.
             </p>
           </div>
           <div>
-           <h5>Advanced Search</h5>
+            <h5>Advanced Search</h5>
             <p>
-            In your fitness and health app, there's a category called 'Advanced Search' that you can use to find relevant content in seconds. This is the new age of tech where user experience matters more than ever before.
+              In your fitness and health app, there's a category called 'Advanced Search' that you can use to find relevant content in seconds. This is the new age of tech where user experience matters more than ever before.
             </p>
-          </div>  
+          </div>
         </div>
       </div>
 
