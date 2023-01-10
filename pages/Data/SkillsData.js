@@ -4576,7 +4576,7 @@ export const flaskData = {
     "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/flaskSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/flaskSkillsPhotos/banner.webp",
     title: "Flask Development Services",
     description:
       "Delivering on your business vision with quality python development.",
@@ -4584,7 +4584,7 @@ export const flaskData = {
   isDes: true,
   desData: {
     title: "Flask",
-    image: "/Images/flaskSkillsPhotos/flask-logo.png",
+    image: "/Images/skillsPhotos/flaskSkillsPhotos/flask-logo.webp",
     description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. 
       However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, and various other features you might need for your project.`,
   },
@@ -4594,7 +4594,7 @@ export const flaskData = {
     cardsData: [
       {
         img: {
-          src: "/Images/flaskSkillsPhotos/unicode.png",
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/unicode.webp",
           alt: "Improved SEO Performance logo",
         },
         title: "Improved SEO Performance",
@@ -4603,7 +4603,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "/Images/flaskSkillsPhotos/printing.png",
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/printing.webp",
           alt: "Integrated support for unit testing logo",
         },
         title: "Integrated support for unit testing",
@@ -4611,7 +4611,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "/Images/flaskSkillsPhotos/files.png",
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/files.webp",
           alt: "Complete documentration logo",
         },
         title: "Complete documentration",
@@ -4619,7 +4619,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "/Images/flaskSkillsPhotos/cookies-guard.png",
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/cookies-guard.webp",
           alt: "Support for secure cookies logo",
         },
         title: "Support for secure cookies",
@@ -4628,7 +4628,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "/Images/flaskSkillsPhotos/bug-setting.png",
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/bug-setting.webp",
           alt: "Development server and debugger logo",
         },
         title: "Development server and debugger",
@@ -4637,7 +4637,7 @@ export const flaskData = {
       },
       {
         img: {
-          src: "/Images/flaskSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -4649,7 +4649,7 @@ export const flaskData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Flask",
-    image: "/Images/flaskSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/flaskSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4663,54 +4663,34 @@ export const flaskData = {
   BookCallData: {
     title: "Need our flask developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using flask",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Flask allows you to build web applications by providing tools, libraries, and technologies. This web application can be a web page, a wiki, or a large web-based calendar application or commercial website.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
+          alt: "Highly flexible logo",
         },
-        title: "Easy complex component handling",
+        title: "Highly flexible",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          alt: "Easy to deploy logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Easy to deploy",
       },
     ],
   },
