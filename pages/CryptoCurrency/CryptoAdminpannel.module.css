@@ -1,0 +1,70 @@
+.cryptoadminpannelmainboxing {
+  height: fit-content;
+
+  display: flex;
+}
+
+.cryptocurrencyadminleftboxing {
+  height: 70%;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.cryptoadminboxingindivisually {
+  height: 30%;
+  width: 45%;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cryptoadminboxingindivisually:hover {
+  transform: scale(1.02);
+  background-color: #fbf9c6;
+}
+
+.cryptoadminboxingindivisuallylogo {
+  height: 18%;
+  width: 15%;
+}
+
+.cryptoadminboxingindivisuallylogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.cryptoadminboxingindivisuallyfortxt {
+  height: 100%;
+  width: 100%;
+  margin-left: 1%;
+  text-align: justify;
+}
+
+.cryptocurrencyadminrightboxing {
+  width: 55%;
+  margin: 2%;
+  overflow: hidden;
+  height: 100%;
+  background-image: url("/Images/Cryptocurrencypage/bannerbackground/Rectangle4416.png");
+  background-repeat: no-repeat;
+}
+
+.cryptoadminpannelrightboxingfortab {
+  height: 80%;
+  width: 100%;
+
+  margin-left: 9%;
+  margin-top: 5%;
+}
+
+.cryptoadminpannelrightboxingfortab > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

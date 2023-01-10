@@ -7,7 +7,6 @@
 .cryptocurrencyworkborderdivboxingimg {
   height: 10%;
   width: 70%;
-
   margin-top: 2%;
   background-image: url("/Images/Cryptocurrencypage/bannerbackground/Rectangle\ 4416-1.png");
 }
@@ -20,7 +19,7 @@
 
 .cryptocurrencyworkimageboxing {
   height: 600px;
-  width: 100%;
+  width: 96%;
   padding: 1%;
 }
 
@@ -34,8 +33,7 @@
 .cryptocurrencyworklowerboxingimage {
   height: 50px;
   width: 60%;
-
   position: absolute;
   left: 40%;
-  background-image: url("/public/Images/Cryptocurrencypage/bannerbackground/Rectangle 4417.png");
+  background-image: url("/Images/Cryptocurrencypage/bannerbackground/Rectangle 4417.png");
 }

@@ -1,0 +1,44 @@
+.szdatingsolutiondiv{
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.szdatingsolutionsubdiv{
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    /* background-color: rgb(178, 191, 191); */
+    display: flex;
+   
+}
+ 
+ 
+.szdatingsolutionsubdiv>div{
+    text-align: center;
+    padding: 5px;
+    /* background-color: brown; */
+   
+}
+
+.szupdatediv{
+   width: 95%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    height: 170px;
+    padding: 30px;
+    margin:  2%;
+    /* background-color: aqua; */
+}
+ 
+.szreminderdiv{
+    width: 95%;
+    border-radius: 20px;
+    margin: 15% 2%;
+    padding: 30px;
+    height: 170px;
+    /* background-color: rgb(131, 131, 170); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+ 

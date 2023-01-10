@@ -1,0 +1,71 @@
+.logistictranport {
+  width: 100%;
+  height: 700px;
+}
+.logistictranportsub {
+  width: 100%;
+  height: 650px;
+}
+.sztransporty {
+  width: 90%;
+  margin-left: 6.5%;
+}
+.logistictranportdiv {
+  width: 100%;
+  height: 650px;
+  background: url("/Images/logistic/bigrectangle.png");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.sztransporttop {
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.sztransportbottom {
+  width: 90%;
+  margin: auto;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.szship {
+  width: 30%;
+  height: 270px;
+  border-radius: 18px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.szship > p {
+    /* border: 2px solid red; */
+    margin-top: -6%;
+}
+
+.szshipping {
+  display: flex;
+}
+
+.delivery {
+  width: 25%;
+  height: 60px;
+}
+
+.delivery > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.szshipping > h5 {
+  font-size: 17px;
+  margin-top: 1%;
+  padding: 6px;
+}

@@ -1,0 +1,11 @@
+.saasBannerMain {
+  height: fit-content;
+  margin-bottom: 1%;
+  /* border: 1px solid red; */
+}
+
+.saasBannerImage {
+  height: fit-content;
+  overflow: hidden;
+  text-align: right;
+}

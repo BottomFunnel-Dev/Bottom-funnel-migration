@@ -1,0 +1,98 @@
+.cryptowhychooseusmainboxes {
+  height: fit-content;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.scryptowhychooseustextboxes {
+  /* border: 2px solid red; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.scryptowhychooseustextboxes > p {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+
+  align-items: center;
+  text-align: center;
+}
+
+.cryptowhychooseustextboxes {
+  height: 30%;
+  width: 40%;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.cryptowhychooseusimageboxes {
+  height: 200px;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.cryptowhychooseusimageboxes > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background-color: white;
+}
+
+.cryptocurrencysatisfactionbox {
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  bottom: 45%;
+  left: 14%;
+  text-align: center;
+}
+
+.cryptocurrencydedicatedbox {
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  left: 27%;
+  text-align: center;
+}
+
+.cryptocurrencyintegritybox {
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  bottom: 45%;
+  left: 42%;
+  text-align: center;
+}
+
+.cryptocurrencyagilebox {
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  left: 55%;
+  text-align: center;
+}
+
+.cryptocurrencymodelsbox {
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  bottom: 47%;
+  left: 69%;
+  text-align: center;
+}
+
+.cryptowhychooseusloweimagefooter {
+  height: 10%;
+  width: 75%;
+  position: absolute;
+  top: 130%;
+  right: 0;
+}
+
+.cryptowhychooseusloweimagefooter > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

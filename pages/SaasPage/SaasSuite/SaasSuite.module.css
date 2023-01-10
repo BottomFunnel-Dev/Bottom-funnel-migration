@@ -1,0 +1,54 @@
+.SaasSuiteMain {
+  margin: 15px auto;
+  margin-bottom: 5%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.SaasSuiteContent {
+  width: 65%;
+  padding-left: 4%;
+}
+
+.SaasSuiteContentHeading > h1 {
+  font-size: 35px;
+}
+
+.SaasSuiteContentHeading{
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SaasSuiteContent > div {
+  padding-left: 5%;
+}
+
+.SaasSuiteContentHeading > p {
+  font-size: 16px;
+  width: 90%;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.SaasSuiteImages {
+  width: 30%;
+  text-align: right;
+}
+
+.SaasSuiteFunnelImage {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+
+.SaasSuiteFunnelImage > img {
+  width: 200%;
+  height: 100%;
+}
+
+.SaasSuiteImages > img {
+  height: 300px;
+}

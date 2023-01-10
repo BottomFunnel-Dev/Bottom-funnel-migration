@@ -1,0 +1,53 @@
+.SaasValuableMain {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SaasValuableContent {
+  width: 65%;
+}
+
+.SaasValuableContentHeading > h1 {
+  font-size: 32px;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+.SaasValuableContentHeading{
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SaasValuableContentHeading > p {
+  font-size: 16px;
+  width: 95%;
+}
+
+.SaasValuableContent > div {
+  width: 90%;
+  margin: auto;
+}
+
+.SaasValuableImages {
+  width: 30%;
+  text-align: left;
+}
+
+.SaasValuableFunnelImage {
+  width: 90%;
+  height: 680px;
+  overflow: hidden;
+  transform: rotateY(180deg);
+}
+
+.SaasValuableFunnelImage > img {
+  width: 200%;
+  height: 100%;
+}
+
+.SaasValuableImages > img {
+  height: 300px;
+}
