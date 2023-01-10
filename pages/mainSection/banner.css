@@ -1,0 +1,228 @@
+.bannerSection {
+  height: 713px;
+  transition: all 0.5s linear;
+  overflow: hidden;
+  position: relative;
+}
+.backAnimation{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 10;
+}
+.bannerSlide {
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+  width: 100%;
+  z-index: 10;
+  /* background-color: antiquewhite; */
+  /* height: 80vh; */
+}
+.slideMainDiv {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+.slideInnerContent {
+  width: 100%;
+  margin-top: 90px;
+  /* background-color: green; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  column-gap: 9%;
+}
+.slick-prev {
+  left: 2% !important;
+  z-index: 11;
+}
+
+.slick-prev:before {
+  font-size: 18px;
+  font-weight: bolder;
+  content: "<";
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 12px;
+  border-radius: 50%;
+  background: #ef4c34;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-next {
+  right: 3% !important;
+  z-index: 11;
+}
+
+.slick-next:before {
+  font-size: 18px;
+  font-weight: bolder;
+  content: ">";
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 12px;
+  border-radius: 50%;
+  background: #ef4c34;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .curveImage{
+  width: 100%;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+  
+} */
+.curveImage {
+  width: 110%;
+  height: 355px;
+  background-image: url("curve.png");
+  background-repeat: no-repeat;
+  background-size: 117%;
+  background-position: 112% 60%;
+}
+
+.textContent {
+  width: 33%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.textContent > div {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 65%;
+  color: #ef4c23;
+}
+.textContent > div > h1 {
+  font-size: 42px;
+}
+.textContent > div > p {
+  color: black;
+}
+.textContent > div > button {
+  padding: 10px 60px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  background-color: #ef4c23;
+  color: white;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+  z-index: 10;
+}
+.textContent > div > button:hover {
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+  color: #ef4c23;
+}
+
+.imageContent {
+  width: 55%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.imageInner {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+.imageInner > img {
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .bannerSection {
+    height: 560px;
+  }
+  .curveImage {
+    display: none;
+  }
+  .slideMainDiv {
+    height: 666px;
+  }
+  .slideInnerContent {
+    height: 560px;
+    flex-direction: column-reverse;
+    justify-content: unset;
+  }
+  .textContent {
+    height: 30%;
+    width: 100%;
+  }
+  .textContent > div {
+    position: static;
+    transform: none;
+    padding: 10px;
+    text-align: center;
+  }
+  .textContent > div > h1 {
+    font-size: 25px;
+    color: black;
+  }
+  .textContent > div > p {
+    font-size: 15px;
+    color: black;
+  }
+  .textContent > div > button {
+    font-size: 16px;
+    padding: 5px 30px;
+  }
+  .imageContent {
+    width: 100%;
+    height: 50%;
+    padding: 0 10px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) {
+}
+
+
+
+.popform{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop{
+  background-color: rgba(0, 0, 0, 0.901) !important ;
+}

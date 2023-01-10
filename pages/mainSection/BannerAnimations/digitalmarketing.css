@@ -1,0 +1,166 @@
+.digitalBanner{
+width: 100%;
+height: 100vh;
+position: relative;
+background: transparent;
+}
+
+
+.fbIcon {
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    width: 60px;
+    height: 60px;
+    animation-name: flutter;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes flutter {
+      0% {
+          transform: scale(1);
+        }
+        50% {
+            transform: scale(1.3);
+        }
+        100% {
+            transform: scale(1);
+        }
+  }
+  
+  .fbIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whatsappIcon {
+    position: absolute;
+    right: 40%;
+    top: 15%;
+    width: 70px;
+    height: 70px;
+    animation-name: android;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes android {
+    0% {
+      right: 40%;
+      top: 15%;
+    }
+  
+    50% {
+      right: 40%;
+      top: 25%;
+    }
+    100% {
+      right: 40%;
+      top: 15%;
+    }
+  }
+  
+  .whatsappIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .linkedinIcon {
+    position: absolute;
+    right: 22%;
+    bottom: 9%;
+    width: 60px;
+    height: 60px;
+    animation-name: ios;
+    animation-duration: 5s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes ios {
+    0% {
+        transform: scale(1);
+      }
+      50% {
+          transform: scale(1.3);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  .linkedinIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .pinterestIcon {
+    position: absolute;
+    right: 45%;
+    bottom: 4%;
+    width: 50px;
+    height: 50px;
+    animation-name: pinterest;
+    animation-duration: 5s;
+    animation-delay: 0s;
+  
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes pinterest {
+      0% {
+        right: 45%;
+        bottom: 4%;
+      }
+      50% {
+        right: 35%;
+        bottom: 4%;
+      }
+      100% {
+        right: 45%;
+        bottom: 4%;
+      }
+    }
+  
+  .pinterestIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .youtubeIcon {
+    position: absolute;
+    left: 50%;
+    bottom: 22%;
+    width: 60px;
+    height: 60px;
+    animation-name: youtube;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+  
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes youtube {
+    0% {
+        transform: scale(1);
+      }
+      50% {
+          transform: scale(1.3);
+      }
+      100% {
+          transform: scale(1);
+      }
+  }
+  
+  .youtubeIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  

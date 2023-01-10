@@ -1,0 +1,142 @@
+.heroSection {
+  background: url("/src/Components/mainSection/curve.png");
+  position: relative;
+}
+
+.bannerSlider {
+  width: 100%;
+  height: 708px;
+}
+.images {
+  height: 708px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+.images > img {
+  width: 101%;
+  height: 100%;
+  object-fit: fill;
+  border: none;
+}
+.heroCurveImage {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 350px;
+  z-index: 1;
+  background-image: url("curve.png");
+  background-repeat: no-repeat;
+  background-size: 117%;
+  background-position: 63% 75%;
+}
+.slick-prev {
+  left: 25px;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+}
+.slick-prev:before {
+  color: #ef4c23;
+  font-size: 35px;
+}
+.slick-next {
+  right: 25px;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+}
+.slick-next:before {
+  color: #ef4c23;
+  font-size: 35px;
+}
+
+.bannerText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 25%;
+  top: 45%;
+  width: 30%;
+}
+.bannerText > button {
+  color: #ef4c23;
+  padding: 5px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px;
+  border: 2px solid #ef4c23;
+  background-color: white;
+}
+.bannerText > button:hover {
+  background-color: #ef4c23;
+
+  border: 2px solid #ef4c23;
+  color: white;
+}
+.bannerText > h1 {
+  color: #ef4c23;
+}
+
+@media (max-width: 600px) {
+  .bannerSection {
+    height: 560px;
+  }
+  .heroCurveImage {
+    display: none;
+  }
+  .slideMainDiv {
+    height: 665px;
+  }
+  .slideInnerContent {
+    height: 560px;
+    flex-direction: column-reverse;
+    justify-content: unset;
+  }
+  .textContent {
+    height: 30%;
+    width: 100%;
+  }
+  .textContent > div {
+    position: static;
+    transform: none;
+    padding: 10px;
+    text-align: center;
+  }
+  .textContent > div > h1 {
+    font-size: 25px;
+    color: black;
+  }
+  .textContent > div > p {
+    font-size: 15px;
+    color: black;
+  }
+  .textContent > div > button {
+    font-size: 16px;
+    padding: 5px 30px;
+  }
+  .imageContent {
+    width: 100%;
+    height: 50%;
+    padding: 0 10px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) {
+}

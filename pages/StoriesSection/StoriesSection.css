@@ -1,0 +1,203 @@
+.storiesSection {
+  width: 100%;
+  /* height: 500px; */
+  background-color: #ef4c23;
+  padding: 20px 0;
+  position: relative;
+}
+.storiesSection > h3 {
+  color: white;
+  text-align: center;
+}
+
+.youtubeDiv {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  background-color: rgb(33, 33, 33);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  /* opacity: 99%; */
+}
+.none {
+  display: none;
+}
+.mainContentDiv {
+  height: 330px;
+  width: 20%;
+  position: relative;
+}
+.storiesBrandName {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 15px;
+  color: white;
+  opacity: 1;
+  z-index: 1;
+}
+.storiesFloating {
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0;
+  color: white;
+  z-index: 1;
+}
+.storiesContentDiv {
+  /* background-color: pink; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  transition: all 0.4s linear;
+}
+.mainContentDiv:hover .storiesContentDiv {
+  transform: scale(1.1);
+  filter: opacity(0.3);
+}
+.mainContentDiv:hover .bylineContent {
+  opacity: 1;
+  transition: all 1s linear;
+  position: absolute;
+  bottom: 0px;
+}
+.mainContentDiv:hover .storiesBrandName {
+  opacity: 0;
+  /* font-size: 50px; */
+  /* transition: all 1s linear; */
+}
+.mainContentDiv:hover .storiesFloating {
+  opacity: 1;
+  left: 15px;
+  /* font-size: 50px; */
+  transition: all 0.6s linear;
+}
+
+.playIcon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  font-size: 35px;
+  left: 50%;
+  z-index: 1;
+  color: white;
+}
+.storiesImageDiv {
+  width: 100%;
+  height: 85%;
+}
+.storiesImageDiv > img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.6);
+}
+.bylineContent {
+  width: 100%;
+  /* height: 15%; */
+  box-sizing: border-box;
+  padding: 3px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  opacity: 0;
+}
+.bylineContent > p {
+  margin: 0;
+}
+.roleFont {
+  font-size: 13px;
+}
+
+.storiesContentDiv > img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+._imagediv {
+  height: 100%;
+  width: 100%;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+._hoverdiv {
+  /* border:1px solid green; */
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 85%;
+  display: none;
+}
+._hoverdiv1 {
+  /* border:1px solid green; */
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 85%;
+  background-color: #007bff;
+  display: block;
+  opacity: 0.8;
+}
+._staticdiv {
+  /* border:1px solid darkblue; */
+  position: absolute;
+  bottom: 0px;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+  height: 14.3%;
+  background-color: #ef4c23;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 4%;
+}
+.slick-dots {
+  /* border:1px solid red; */
+  bottom: -38px !important;
+}
+
+.youtubeStory {
+  width: 850px;
+  height: 480px;
+}
+
+.testimonial {
+  width: 20%;
+  color: white;
+  margin: auto;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.rightArrow{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .mainContentDiv {
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mainContentDiv {
+    height: 380px;
+  }
+  ._staticdiv {
+    padding-top: 2%;
+  }
+}

@@ -1,0 +1,116 @@
+/* .mainSection {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color:#6b6c6d;
+} */
+
+
+.mainSection {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+  /* margin: 10px; */
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  /* background-color: #6b6c6d; */
+  background: linear-gradient(45deg, #e98167, #efb8b8ba);
+}
+
+
+
+/* ye bhi section wali hai */
+
+
+
+/* ye specific image wale ki hai */
+.sections {
+  width: 40%;
+  box-sizing: border-box;
+  flex-grow: 5;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  background: linear-gradient(45deg, rgba(255,255,255,0.9),rgba(255,255,255,0.8) );
+  backdrop-filter: blur(20px);
+  border-bottom-left-radius: 10px;
+  margin-right: 0;
+  color: black;
+}
+
+.sections {
+  width: 50%;
+  box-sizing: border-box;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:10px;
+
+}
+
+
+#sectionContent {
+  position: relative;
+  border-top-right-radius:0;
+  border-bottom-right-radius:0;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+
+}
+
+
+
+#sectionContent h1 {
+  font-size: 40px;
+  color: black;
+}
+
+#sectionContent p {
+  /* color: white; */
+  margin: 10px 0;
+  font-size: 18px;
+  color: black;
+
+}
+
+#sectionContent button {
+  background-color: #ef4c23;
+  color: white;
+  border: none;
+  padding: 15px 50px;
+  margin: 10px 0;
+  border-radius: 25px;
+  font-size: 18px;
+}
+#sectionContent button:hover {
+  color: #ef4c23;
+  background-color: white;
+  border: 1px solid #ef4c23;
+  
+}
+
+
+.hemant{
+  width: 100%;
+  height: 100vh;
+}
+.hemant img{
+  width: 100%;
+  height: 101%;
+  object-fit: contain;
+}
+
+/* slick slider css change */
+
+.slick-slide>div{
+  margin: 0 !important;
+}
+
+.slick-slide{
+  border: none !important;
+}
+.slick-list{
+  margin: 0 !important;
+}
+
+/* slick slider css change */

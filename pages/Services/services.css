@@ -1,0 +1,262 @@
+.mainService {
+  width: 100%;
+
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+.serviceIntro {
+  width: 25%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.serviceIntro > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.serviceIntro > div {
+  color: white;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  padding: 20px;
+}
+.serviceIntro > div > h3 {
+  color: white;
+}
+.serviceIntro > div > p {
+  color: white;
+  margin-bottom: 50px;
+}
+.serviceIntro > div > button {
+  color: white;
+  background-color: #ef4c23;
+  padding: 10px 60px;
+  font-weight: 600;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+  border: none;
+}
+
+.serviceIntro > div > button:hover {
+  background-color: white;
+  color: #ef4c23;
+  border: none;
+  /* transition: all 0.4s linear; */
+}
+
+.services {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 25px;
+  box-sizing: border-box;
+}
+.services > div {
+  width: 30%;
+  box-sizing: border-box;
+  border: 0.5px solid rgb(237, 236, 236);
+  height: 300px;
+  background-color: white;
+  box-shadow: 0px 0px 30px 2px rgb(236 234 234);
+  border-radius: 10px;
+  margin-top: 8px;
+}
+.services > div:hover {
+  margin-top: 0;
+  transition: all 0.2s linear;
+}
+.serviceHeading h4 {
+  color: #ef4c23;
+  width: 50%;
+}
+
+.serviceHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vectorImage {
+  width: 48%;
+  height: 90px;
+}
+.vectorImage > img {
+  width: 100%;
+
+  height: 100%;
+  object-fit: contain;
+}
+.supportableDevices {
+  width: 100%;
+  /* height: 60px; */
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 8px;
+}
+.supportableDevices li {
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+  color: #393939;
+  list-style: none;
+}
+.supportableDevices li:hover {
+  font-size: 14px;
+  color: #ef4c23;
+  
+}
+
+.iconClass {
+  margin-top: 20px;
+  font-size: 60px;
+  color: rgb(88, 86, 86);
+}
+.iconClassNone {
+  display: none;
+}
+
+.serviceHeadingPart {
+  padding: 60px 20px;
+}
+
+.serviceHeadingFullPart {
+  padding: 15px;
+  padding-bottom: 0;
+}
+.serviceHeadingFullPart > h2 {
+  font-size: 20px;
+}
+.serviceHeadingPart > h2 {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.serviceDescriptionVisible {
+  display: block;
+  padding: 0 15px;
+  transition: all 0.5s ease-in;
+}
+.serviceDescriptionVisible > p {
+  display: block;
+  margin: 15px 0;
+  font-size: 15px;
+  color: #393939;
+}
+
+.serviceDescriptionVisible p:nth-child(2):hover {
+  color: #ef4c23;
+}
+.serviceDescriptionVisible p:nth-child(2) {
+  color: #ef4c23;
+  width: 100px;
+  cursor: pointer;
+}
+.serviceDescriptionInvisible {
+  display: none;
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+  .mainService {
+    flex-direction: column;
+  }
+
+  .serviceIntro {
+    width: 95%;
+    margin: auto;
+  }
+  .serviceIntro > div {
+    width: 100%;
+    padding: 36px;
+    top: 8%;
+  }
+
+  .services{
+    width: 100%;
+    
+  }
+  .services>div{
+    width: 95%;
+    flex-direction: column;
+    
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .mainService {
+    flex-direction: column;
+  }
+
+  .serviceIntro {
+    width: 95%;
+    margin: auto;
+  }
+  .serviceIntro > div {
+    width: 100%;
+    padding: 36px;
+    top: 8%;
+  }
+
+  .services{
+    width: 100%;
+    
+  }
+  .services>div{
+    width: 95%;
+    flex-direction: column;
+    
+  }
+
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mainService {
+    flex-direction: column;
+  }
+
+  .serviceIntro {
+    width: 95%;
+    margin: auto;
+  }
+  .serviceIntro > div {
+    width: 100%;
+    padding: 36px;
+    top: 8%;
+  }
+
+  .services{
+    width: 100%;
+    
+  }
+  .services>div{
+    width: 95%;
+    flex-direction: column;
+    
+  }
+
+
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) {
+}

@@ -1,0 +1,101 @@
+.slick-slide > div {
+  margin: 0 !important;
+}
+
+.slick-slide {
+  border: none !important;
+}
+.slick-list {
+  margin: 0 !important;
+}
+
+
+
+.slideDivSection {
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  /* background-color: rgb(195, 190, 190); */
+}
+.slideDivSection > div {
+  padding: 20px;
+  width: 95%;
+  margin: auto;
+  height: 100%;
+  box-sizing: border-box;
+}
+.slideDivSection > div > img {
+  width: 60%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+  .slideDivSection > div {
+    padding: 0;
+    width: 67%;
+  }
+
+  .slideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .slideDivSection > div {
+    padding: 0;
+    width: 65%;
+  }
+
+  .slideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slideDivSection > div {
+    padding: 0;
+    width: 70%;
+  }
+
+  .slideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .slideDivSection > div {
+    padding: 0;
+    width: 55%;
+  }
+
+  .slideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* Media Query for Large screens */
+
+@media (min-width: 1281px) and (max-width: 1520px) {
+  .slideDivSection > div {
+    padding: 0;
+    width: 50%;
+  }
+
+  .slideDivSection > div > img {
+    width: 100%;
+    object-fit: contain;
+  }
+}

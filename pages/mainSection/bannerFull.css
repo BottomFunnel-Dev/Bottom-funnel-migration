@@ -1,0 +1,45 @@
+.banner-parent-div {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner-slide-background {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.banner-text-content-full {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 25%;
+  width: 35%;
+  height: fit-content;
+  /* background-color: green; */
+  color: white;
+}
+.banner-text-content-full > button {
+  padding: 8px 60px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  color: #ef4c23;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+  border: 2px solid white;
+}
+.banner-text-content-full > button:hover {
+  /* padding: 10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none; */
+  color: white;
+  border: 2px solid white;
+  background: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+}
