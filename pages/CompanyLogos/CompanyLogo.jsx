@@ -1,5 +1,5 @@
 import React from "react";
-import "./companylogo.css";
+import styles from "./companylogo.module.css";
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {
@@ -34,7 +34,7 @@ const CompanyLogo = () => {
     slidesToScroll: 1,
     arrows: false,
     infinite: true,
-    dots: true,
+    dots: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -44,7 +44,7 @@ const CompanyLogo = () => {
           slidesToShow: 5,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -65,19 +65,19 @@ const CompanyLogo = () => {
     ],
   };
   return (
-    <div>
+    <div className={styles.settinghomebannerrotationalbox}>
       <Slider {...settings}>
-        <div className="slideDivSection">
+        <div className={styles.slideDivSection}>
           <div>
             <img src="Images/companiesLogo/aws-partner.svg" alt="" />
           </div>
         </div>
-        <div className="slideDivSection">
+        <div className={styles.slideDivSection}>
           <div>
             <img src="Images/companiesLogo/sap-partner.svg" alt="" />
           </div>
         </div>
-        <div className="slideDivSection">
+        <div className={styles.slideDivSection}>
           <div>
             <img
               src="Images/companiesLogo/google-agency-dev-partner.svg"
@@ -85,17 +85,17 @@ const CompanyLogo = () => {
             />
           </div>
         </div>
-        <div className="slideDivSection">
+        <div className={styles.slideDivSection}>
           <div>
             <img src="Images/companiesLogo/cloudare-partner.svg" alt="" />
           </div>
         </div>
-        <div className="slideDivSection">
+        <div className={styles.slideDivSection}>
           <div>
             <img src="Images/companiesLogo/general-electric.svg" alt="" />
           </div>
         </div>
-        <div className="slideDivSection">
+        <div className={styles.slideDivSection}>
           <div>
             <img src="Images/companiesLogo/squareLogo.svg" alt="" />
           </div>

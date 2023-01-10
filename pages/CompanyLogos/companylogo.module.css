@@ -32,10 +32,17 @@
 
 /* Media Query for Mobile Devices */
 
-@media (max-width: 480px) {
+@media only screen and (min-width:0px) and (max-width:376px){
+ /* .settinghomebannerrotationalbox{
+  border: 50px solid black;
+ } */
+ 
   .slideDivSection > div {
     padding: 0;
     width: 67%;
+ 
+    
+  
   }
 
   .slideDivSection > div > img {

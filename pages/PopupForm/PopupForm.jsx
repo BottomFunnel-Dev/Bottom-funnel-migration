@@ -104,7 +104,7 @@ export const PopupForm = ( {formStyle}) => {
               ))}
             </select>
           </div>
-          <div id="budgetSelect" className={styles.popupselectClass}>
+          <div id={styles.budgetSelect} className={styles.popupselectClass}>
             <IconContext.Provider value={{ className: styles.popupformIcon }}>
               <BsCurrencyDollar />
             </IconContext.Provider>

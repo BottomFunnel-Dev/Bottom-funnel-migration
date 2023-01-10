@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./bannerFull.css";
+import styles from "./bannerFull.module.css";
 import Slider from "react-slick";
 import { MobileBanner } from "./BannerAnimations/MobileBanner";
 import { SoftwareBanner } from "./BannerAnimations/SoftwareBanner";
@@ -21,7 +21,7 @@ export const BannerFull = () => {
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: 700,
-    height: 550,
+   height: 550,
     bgcolor: "background.paper",
     border: "2px solid #000",
     // boxShadow: 24,
@@ -100,12 +100,12 @@ export const BannerFull = () => {
   };
 
   return (
-    <div className="banner-parent-div">
+    <div className={styles.bannerparentdivhomemodule}>
       <Slider {...settings}>
         {banner.map((item, i) => (
           <div key={i} style={{ background: "blue" }}>
             <div
-              className="banner-slide-background"
+              className={styles.bannerslidebackground}
               style={{
                 background: `url(${item.background})`,
                 backgroundRepeat: "no-repeat",
@@ -118,7 +118,7 @@ export const BannerFull = () => {
 
               {item.title === "Digital Marketing" && <DigitalMarketing />}
 
-              <div className="banner-text-content-full">
+              <div className={styles.bannertextcontentfull}>
                 <h1>{item.title}</h1>
                 <p>{item.desc}</p>
                 <button onClick={handleOpen}>Get Started</button>
@@ -126,16 +126,16 @@ export const BannerFull = () => {
                 <Modal
                   open={open}
                   onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
+                  aria-labelledby={styles.modalmodaltitle}
+                  aria-describedby={styles.modamodaldescription}
                 >
                   <Box sx={style}>
                     <Typography
-                      id="modal-modal-title"
+                      id="modalmodaltitle"
                       variant="h6"
                       component="h2"
                     >
-                      <div className="popform">
+                      <div className={styles.popform}>
                         <PopupForm />
                       </div>
                     </Typography>

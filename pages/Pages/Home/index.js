@@ -41,13 +41,13 @@ export const HomePage = () => {
           content="Bottom Funnel is a leading global mobile app development company in India, US, UAE & UK which offers innovative and customized digital on-demand solutions for cross-platform App and web Development"
         />
       </Helmet>
-      {/* <Banner /> */}
+       <Banner /> 
       <BannerFull />
       <CompanyLogo />
       <About />
       <Services />
       <Awards />
-      <StoriesSection />
+     <StoriesSection />
       <Industries />
       <OndemandSection />
       <PortFolio />
@@ -57,7 +57,7 @@ export const HomePage = () => {
       <SeoblogSection />
       <TextDropdown />
       <ContectForm />
-      <MainFooter />
+  <MainFooter />
     </div>
   );
 };

@@ -1,29 +1,29 @@
 import React from "react";
-import "./mobileBanner.css";
+import styles from "./mobileBanner.module.css";
 export const MobileBanner = () => {
   return (
-    <div className="mobilebanner">
-      <div className="androidIcon">
+    <div className={styles.mobilebanner}>
+      <div className={styles.androidIcon}>
         {" "}
         <img src="Images/banner/mobiledev/android.png" alt="" />
       </div>
-      <div className="iosIcon">
+      <div className={styles.iosIcon}>
         {" "}
         <img src="Images/banner/mobiledev/ios.png" alt="" />
       </div>
-      <div className="flutterIcon">
+      <div className={styles.flutterIcon}>
         {" "}
         <img src="Images/banner/mobiledev/flutter.png" alt="" />
       </div>
-      <div className="ionicIcon">
+      <div className={styles.ionicIcon}>
         {" "}
         <img src="Images/banner/mobiledev/ionic.png" alt="" />
       </div>
-      <div className="nativesIcon">
+      <div className={styles.nativesIcon}>
         {" "}
         <img src="Images/banner/mobiledev/native.png" alt="" />
       </div>
-      <div className="swiftIcon">
+      <div className={styles.swiftIcon}>
         {" "}
         <img src="Images/banner/mobiledev/swift.png" alt="" />
       </div>

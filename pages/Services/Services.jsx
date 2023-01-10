@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "./services.css";
+import styles from "./services.module.css";
 import { FaMobileAlt } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { Link } from "react-router-dom";
+// import {Link,  useNavigate } from "react-router";
 
-import { useNavigate } from "react-router-dom";
+
 const Services = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   let arr = [
     {
       serviceIcon: <FaMobileAlt />,
@@ -18,7 +18,7 @@ const Services = () => {
         { serName: "FLUTTER", path: "flutter" },
         { serName: "REACT NATIVE", path: "reactnative" },
       ],
-      link: "mobile-app-development",
+     Link: "mobile-app-development",
       serviceDesc:
         "Experience the power of intuitive mobile and wearables apps. We specialize in cross-platform wearable app development that can be used on any digital device.",
     },
@@ -33,7 +33,7 @@ const Services = () => {
         { serName: "PHP", path: "php-development" },
         { serName: "PYTHON", path: "python-development" },
       ],
-      link: "web-development",
+     Link: "web-development",
       serviceDesc:
         "Own your market with a mobile app from Web Development! Our team of experts will help you build your next big thing with the latest in mobile app technology.",
     },
@@ -48,7 +48,7 @@ const Services = () => {
         { serName: "LOCALSEO", path: "local-seo" },
         { serName: "GUEST POSTING", path: "seo-guest-post" },
       ],
-      link: "Digital-marketing",
+     Link: "Digital-marketing",
       serviceDesc:
         "Unleash the power of your brand with our digital marketing services. Get more customers and revenue with SEOs, social media, and email marketing from the experts.",
     },
@@ -63,7 +63,7 @@ const Services = () => {
         { serName: "VULTR", path: "" },
         { serName: "CLOUDFARE", path: "" },
       ],
-      link: "cloud",
+     Link: "cloud",
       serviceDesc:
         "We provide you a suite of cloud services for modern and data-intensive applications, with custombuilt infrastructure and leading tools & services.",
     },
@@ -78,7 +78,7 @@ const Services = () => {
         { serName: "BLOCKCHAIN", path: "block-chain" },
         { serName: "DATA SCIENCE", path: "data-science" },
       ],
-      link: "Products",
+     Link: "Products",
       serviceDesc:
         "You need software that can scale with your company's needs and work as hard as you do, it's time to let us help you with product development.",
     },
@@ -92,15 +92,15 @@ const Services = () => {
         { serName: "TABLEAU", path: "" },
         { serName: "CRM ANALYTICS", path: "" },
       ],
-      link: "salesforce",
+     Link: "salesforce",
       serviceDesc:
         "Want to grow your business with salesforce development? We're your one-stop-shop for all of your Salesforce needs! Automate and integrate your Salesforce with the help of our experts.",
     },
   ];
 
   return (
-    <div className="mainService">
-      <div className="serviceIntro">
+    <div className={styles.mainService}>
+      <div className={styles.serviceIntro}>
         <img src="Images/services/service.png" alt="" />
         <div>
           <h1>Our Services</h1>
@@ -116,18 +116,18 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="services">
+      <div className={styles.services}>
         {arr.map((item, i) => (
           <div key={i}>
-            <div className="serviceHeadingFullPart">
-              <div className="serviceHeading">
+            <div className={styles.serviceHeadingFullPart}>
+              <div className={styles.serviceHeading}>
                 <h4>{item.serviceName}</h4>
-                <div className="vectorImage">
+                <div className={styles.vectorImage}>
                   <img src={item.serviceImages} alt="" />
                 </div>
               </div>
               <div
-                className="supportableDevices"
+                className={styles.supportableDevices}
                 style={{ textDecoration: "none" }}
               >
                 {item.serviceTypes.map((element, index) => (
@@ -143,10 +143,10 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="serviceDescriptionVisible">
+            <div className={styles.serviceDescriptionVisible}>
               <p>{item.serviceDesc}</p>
               <p onClick={() => {
-                      navigate(`/${item.link}`);
+                      // navigate(`/${item.link}`);
                     }}>READ MORE</p>
             </div>
           </div>

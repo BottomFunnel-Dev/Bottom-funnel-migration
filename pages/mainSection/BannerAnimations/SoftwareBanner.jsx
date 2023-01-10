@@ -1,25 +1,25 @@
 import React from "react";
-import "./softwarebanner.css";
+import styles from "./softwarebanner.module.css";
 export const SoftwareBanner = () => {
   return (
-    <div className="softwareBanner">
-      <div className="javaIcon">
+    <div className={styles.softwareBanner}>
+      <div className={styles.javaIcon}>
         {" "}
         <img src="Images/banner/webdev/java.png" alt="" />
       </div>
-      <div className="jqueryIcon">
+      <div className={styles.jqueryIcon}>
         {" "}
         <img src="Images/banner/webdev/jquery.png" alt="" />
       </div>
-      <div className="jsIcon">
+      <div className={styles.jsIcon}>
         {" "}
         <img src="Images/banner/webdev/js.png" alt="" />
       </div>
-      <div className="nodeIcon">
+      <div className={styles.nodeIcon}>
         {" "}
         <img src="Images/banner/webdev/node.png" alt="" />
       </div>
-      <div className="reactIcon">
+      <div className={styles.reactIcon}>
         {" "}
         <img src="Images/banner/webdev/react.png" alt="" />
       </div>

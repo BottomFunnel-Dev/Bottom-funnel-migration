@@ -1,9 +1,9 @@
 import React from "react";
-import "./Awards.css";
+import styles from "./Awards.module.css";
 
 const Awards = () => {
   return (
-    <div className="awardSection">
+    <div className={styles.awardSection}>
       <div>
         <h2>The One Stop Shop For All Your Needs</h2>
         <p>
@@ -12,7 +12,7 @@ const Awards = () => {
           successful campaign.
         </p>
         <h4>AWARDS AND ACCOLADES</h4>
-        <div id="awards">
+        <div id={styles.awards}>
           <div>
             <img src="Images/appfutura.png" alt="" />
           </div>
