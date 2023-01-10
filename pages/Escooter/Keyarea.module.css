@@ -1,0 +1,27 @@
+.keyareamainboxes{
+  height: 12vh;
+
+  display: flex;
+}
+
+.keyarearightbox{
+ 
+
+ height: 5%;
+margin-left: 3%;
+  width: 44%;
+  background: url("/public/Images/Escooterchanges/BannersBackgrounds/Rectangle 4917.png");
+  background-repeat: no-repeat;
+  background-position-x: right ;
+  background-size: 100% 100%;
+  margin-top: 3%;
+}
+
+
+ .keyarealeftbox{
+  height: fit-content;
+  width: 50%;
+ 
+  margin-left: 3%;
+ }
+

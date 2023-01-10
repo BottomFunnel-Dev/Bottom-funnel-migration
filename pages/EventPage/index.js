@@ -1,5 +1,11 @@
 import React from 'react'
 
+import { EventsBanner } from './EventsBanner';
+import { EventsDevelopment } from './EventsDevelopment';
+import { EventsDevservices } from './EventsDevservices';
+import { EventsProvidedServices } from './EventsProvidedServices';
+import { EventsFeatures } from './EventsFeatures';
+
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -11,27 +17,25 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-import { EventsBanner } from './EventsBanner';
-
 const index = () => {
   return (
     <div>
         
       <EventsBanner />
-      {/* <EventsDevelopment /> */}
-      {/* <EventsDevservices /> */}
-      {/* <EventsProvidedServices /> */}
-      {/* <EventsFeatures /> */}
+      <EventsDevelopment />
+      <EventsDevservices />
+      <EventsProvidedServices />
+      <EventsFeatures />
 
-      {/* <StoriesSection /> */}
-      {/* <Industries /> */}
+      <StoriesSection />
+      <Industries />
       {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   )

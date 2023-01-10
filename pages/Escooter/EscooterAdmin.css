@@ -1,0 +1,82 @@
+.szescooteradmin{
+    width:100%;
+    /* background-color: blue; */
+    height: 600px;
+  }
+  .szescooteradminsub{
+   width: 100%;
+   height: 550px;
+   margin: auto;
+   display: flex;
+   /* background-color: tan; */
+  }
+  .szescooteradminright{
+      width: 50%;
+      height: 550px;
+      /* background-color: aqua; */
+      position: relative;
+      background: url("/public/Images/Escooter/shape.png");
+      background-repeat: no-repeat;
+      background-size: 100% 550px;
+  }
+  .szescooteradminleft{
+  width: 50%;
+  height: 550px;
+  /* background-color: red; */
+  position: relative;
+  }
+  .szescooteradminleft>div{
+    width: 80%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 60%;
+    
+  }
+  .szescooteradminleft>div>h2{
+    text-align: left;
+    padding: 10px;
+  }
+  .szescooteradminleft>div>ul>li{
+    font-size: 18px;
+    list-style-type:disc;
+    /* margin-left: 20%; */
+  }
+  .szshape{
+      width:100%;
+      height: 550px;
+      /* margin-top: 5%; */
+      position: absolute;
+      z-index: 0;
+  }
+  .szshape>img{
+      width: 100%;
+      height: 100%;
+      object-fit:fill;
+  }
+  .szscootertab{
+      width:70%;
+      margin: 5% 25%;
+      height: 450px;
+      position: absolute;
+      z-index: 1;
+  }
+  .szscootertab>img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+ .blackbluescooter{
+    width:30%;
+    margin: 35% 10%;
+    height: 250px;
+    position: absolute;
+    z-index: 2;
+ }
+  
+ .blackbluescooter>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+ }

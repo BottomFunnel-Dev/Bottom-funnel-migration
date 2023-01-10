@@ -1,0 +1,70 @@
+.foodDeliveryExluciveAppMain {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.foodDeliveryExluciveAppMain > h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.foodDeliveryExluciveAppMain > h1 > span {
+  color: #ef4c23;
+}
+
+.foodDeliveryExluciveAppMain > p {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.foodDeliveryExluciveAppContent {
+  max-width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 3%;
+  align-items: center;
+  justify-content: center;
+}
+
+.foodDeliveryExluciveAppContent > div {
+  width: 26%;
+  padding: 14px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.foodDeliveryExluciveAppContent > div:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  margin-top: 0;
+  transition: all .3s linear;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.foodText {
+  width: 100%;
+  margin: 10px 0;
+  /* padding: 10px; */
+}
+.foodText > h4 {
+  font-size: 18px;
+}
+
+.foodText > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.foodDeliveryExlcusiveAppImageDiv {
+  width: 100%;
+  height: fit-content;
+}
+
+.foodDeliveryExlcusiveAppImageDiv > img {
+  width: 100%;
+}

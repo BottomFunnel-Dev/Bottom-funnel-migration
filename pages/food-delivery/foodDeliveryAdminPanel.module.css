@@ -1,0 +1,69 @@
+.foodDeliveryAdminPanelSivMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.foodDeliveryAdminPanelDivImages {
+  width: 40%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodDeliveryAdminPanelDivImages > img {
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.foodDeliveryAdminPanelDivContent {
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+
+.foodDeliveryAdminPanelDivContent > h2 {
+  color: #ef4c23;
+  margin-bottom: 35px;
+  /* font-size: 25px; */
+}
+
+.foodDeliveryAdminPanelDivContent > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodDeliveryAdminPanelDivContent > div > div {
+  width: 45%;
+  height: 170px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: default;
+
+  border-radius: 15px;
+
+  border: 2px solid rgb(253, 242, 240);
+  box-shadow: rgba(247, 165, 151, 0.5) 0px 3px 8px;
+  margin-top: 10px;
+}
+.foodDeliveryAdminPanelDivContent > div > div:hover {
+ margin-top: 0;
+ transition: all .3s linear;
+}
+
+.foodDeliveryAdminPanelDivContent > div > div > h4,
+.foodDeliveryAdminPanelDivContent > div > div > p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

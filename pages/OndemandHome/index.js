@@ -1,8 +1,12 @@
-import React from "react";
-import { AviationAirlines } from "./AviationAirlines";
-import { AviationLetsDiscuss } from "./AviationLetsDiscuss";
-import { AvitaionBanner } from "./AvitaionBanner";
-import { AvitaionLowerBaner } from "./AvitaionLowerBaner";
+import React from 'react'
+
+import OndemandHero from './OndemandHero';
+import { homesolutionsLogo } from "../Data/SeopartnerData";
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted';
+import OndemandQuote from './OndemandQuote';
+import HomeServices from './HomeServices';
+import ExclusiveFeature from './ExclusiveFeature';
+import KeyFeatures from './KeyFeatures';
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -15,13 +19,16 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Aviation() {
+export default function OnDemandSection () {
   return (
     <div>
-      <AvitaionBanner />
-      <AviationAirlines />
-      <AviationLetsDiscuss />
-      <AvitaionLowerBaner />
+        
+      <OndemandHero />
+      <Trusted partnerLogo={homesolutionsLogo} />
+      <OndemandQuote />
+      <HomeServices />
+      <ExclusiveFeature />
+      <KeyFeatures />
       
       <StoriesSection />
       <Industries />
@@ -35,4 +42,4 @@ export default function Aviation() {
       {/* <MainFooter /> */}
     </div>
   );
-}
+};

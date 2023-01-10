@@ -1,0 +1,56 @@
+.escooterkeyareaagainmainboxes{
+    height: fit-content;
+
+    display: flex;
+}
+
+.escooterkeyarealeftbox{
+    height: fit-content;
+    width: 50%;
+  
+
+}
+
+.escooterkeyarearightbox{
+   
+    height: 500px;
+    width: 20%;
+    margin-top: 5%;
+   
+    margin-left: 10%;
+}
+
+.escooterkeyarearightbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.escooteruppertextcustomerapp{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.escooteruppertextcustomerapp>h1{
+    margin-left: 2%;
+}
+.escooterkeymappindataindivi{
+    height: fit-content;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.escooterkeymappindataindivi:hover{
+    transform: scale(1.02);
+}
+
+
+
+.colorescooty{
+    color: #32ade9;
+}

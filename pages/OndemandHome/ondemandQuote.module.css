@@ -1,0 +1,25 @@
+.quotation {
+  width: 90%;
+  padding: 20px;
+  background-color: #e1f9f6;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px auto;
+}
+.quotation>button{
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #ef4c23;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.quotation>button:hover{
+background-color: white;
+color: #ef4c23;
+
+}

@@ -1,0 +1,46 @@
+.telecomBannerOuterDiv {
+  border: 1px solid red;
+  position: relative;
+}
+
+.telecomBannerOuterDiv img {
+  width: 100%;
+  height: 100vh;
+}
+
+.telecomBannerContentDiv {
+  /* border: 2px solid white; */
+  position: absolute;
+  top: 35%;
+}
+
+.telecomBannerContentDiv h1 {
+  color: white;
+  margin-left: 3%;
+  margin-bottom: 1%;
+  font-size: 35px;
+}
+
+.telecomBannerContentDiv p {
+  width: 42%;
+  margin-left: 3%;
+  margin-top: 2%;
+  color: white;
+  font-size: 20px;
+}
+
+.telecomBannerContentDiv button {
+  border-radius: 7px;
+  margin-left: 3%;
+  width: 10%;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+.telecomBannerContentDiv button:hover{
+  background-color: #ef4c2e;
+  color: white;
+  border: 2px solid white;
+}

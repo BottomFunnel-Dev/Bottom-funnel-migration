@@ -1,0 +1,36 @@
+.exclusiveFeature {
+  width: 96%;
+  padding: 20px;
+  margin-top: 80px;
+  /* height: 500px; */
+}
+.exclusiveFeature > h1 {
+  text-align: center;
+  color: #ef4c23;
+  margin-bottom: 30px;
+}
+
+.innerFeatures {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 30px;
+}
+.innerFeatures > div {
+  width: 27%;
+  height: 300px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  border-radius: 10px;
+}
+
+.innerFeatures > div:hover {
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

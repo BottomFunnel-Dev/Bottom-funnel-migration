@@ -1,8 +1,12 @@
 import React from "react";
-import { AviationAirlines } from "./AviationAirlines";
-import { AviationLetsDiscuss } from "./AviationLetsDiscuss";
-import { AvitaionBanner } from "./AvitaionBanner";
-import { AvitaionLowerBaner } from "./AvitaionLowerBaner";
+
+import { Escootersection } from "./Escootersection";
+import Escooterstealing from "./Escooterstealing";
+import Escooterthunder from "./Escooterthunder";
+import { Keyarea } from "./Keyarea";
+import { EscooterKeyAreaAgain } from "./EscooterKeyAreaAgain";
+import { EscooterAdminpannel } from "./EscooterAdminpannel";
+import { Escooterhardware } from "./Escooterhardware";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -15,14 +19,18 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Aviation() {
+export default function Escooter ()  {
   return (
     <div>
-      <AvitaionBanner />
-      <AviationAirlines />
-      <AviationLetsDiscuss />
-      <AvitaionLowerBaner />
-      
+
+      <Escootersection />
+      <Escooterstealing />
+      <Escooterthunder />
+      <Keyarea />
+      <EscooterKeyAreaAgain />
+      <EscooterAdminpannel />
+      <Escooterhardware />
+
       <StoriesSection />
       <Industries />
       {/* <PlanProject /> */}
@@ -35,4 +43,4 @@ export default function Aviation() {
       {/* <MainFooter /> */}
     </div>
   );
-}
+};

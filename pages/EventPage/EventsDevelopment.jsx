@@ -1,9 +1,9 @@
 import React from "react";
-import "./eventsdevelopment.css";
+import styles from "./eventsdevelopment.module.css";
 export const EventsDevelopment = () => {
   return (
-    <div className="eventsdevelopment">
-      <div className="eventsdevelopmentText">
+    <div className={styles.eventsdevelopment}>
+      <div className={styles.eventsdevelopmentText}>
         <div>
           <h1>The event app development company</h1>
           <h5>Company which mobalizes all the elements of the event domain</h5>
@@ -20,8 +20,8 @@ export const EventsDevelopment = () => {
           </p>
         </div>
       </div>
-      <div className="eventsdevelopmentImage">
-        <img src="Images/Eventpage/eventservice1.png" alt="" />
+      <div className={styles.eventsdevelopmentImage}>
+        <img src="Images/Eventpage/eventservice1.png" alt="image" />
       </div>
     </div>
   );

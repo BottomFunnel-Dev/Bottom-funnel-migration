@@ -1,0 +1,95 @@
+.szescooterhardwarecontainer {
+  width: 100%;
+  height: 550px;
+  background-color: #32ade9;
+  margin-top: 5%;
+  /* background-color: aqua; */
+}
+.szescooterhardwaresub {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  /* background-color: blue; */
+  display: flex;
+}
+.szescooterhardwareleft {
+  width: 40%;
+  /* background-color: brown; */
+  position: relative;
+}
+.szescooterhardwarscooter {
+  width: 90%;
+  height: 500px;
+  background: transparent;
+}
+.szescooterhardwarscooter > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.szescooterhardwareright {
+  width: 45%;
+  /* background-color: tan; */
+  position: relative;
+  text-align: left;
+}
+.szescooterhardwareright > h1 {
+  color: white;
+  padding: 20px;
+}
+.szscootertriangle {
+  width: 100%;
+  margin-top: 20%;
+  position: absolute;
+  z-index: 0;
+  height: 300px;
+  /* background-color: rgb(20, 40, 40); */
+}
+.szscootertriangle > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.szEscooterhardwarediv {
+  /* background-color: red; */
+  width: 100%;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  z-index: 1;
+  margin-top: 10%;
+}
+
+.szhardwaregpsdiv {
+  width: 38%;
+  height: fit-content;
+  border-radius: 18px;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  margin: 20px 30px;
+  /* background-color: blue; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  text-align: left;
+}
+
+.szhardwaregpsdiv > div {
+  width: 30%;
+  height: 50px;
+  /* background-color: chartreuse; */
+}
+.szhardwaregpsdiv > p {
+  font-size: 16px;
+  /* background-color: brown; */
+  padding: 10px;
+}
+
+.szgpsimages > img {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+  margin-top: 22%;
+}

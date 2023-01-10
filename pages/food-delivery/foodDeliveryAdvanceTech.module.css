@@ -1,0 +1,107 @@
+.foodDeliveryAdvanceTechMain {
+  margin-top: 50px;
+}
+
+.foodDeliveryAdvanceTechMain > h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.foodDeliveryAdvanceTechMain > h1 > span {
+  color: #ef4c23;
+}
+
+.foodDeliveryCustomerAppMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 550px;
+  /* border: 1px solid green; */
+}
+
+.foodDeliveryCustomerAppImages {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.foodDeliveryCustomerAppImages > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.foodDeliveryCustomerAppImages > div > img {
+  position: absolute;
+  height: 100%;
+}
+
+.foodDeliveryCustomerAppImages > div:nth-child(1) > img {
+  left: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+}
+.foodDeliveryCustomerAppImages > div:nth-child(2) > img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-7deg);
+  z-index: 4;
+  height: 100%;
+  /* border: 1px solid green; */
+}
+
+.foodDeliveryCustomerAppContent {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid red; */
+  /* border: 1px solid green; */
+}
+
+.foodDeliveryCustomerAppContent > h2 {
+  color: #ef4c23;
+  margin-bottom: 35px;
+  /* font-size: 25px; */
+}
+
+.foodDeliveryCustomerAppContent > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodDeliveryCustomerAppContent > div > div {
+  width: 45%;
+  height: 170px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 20px;
+  cursor: default;
+  border-radius: 15px;
+  border: 2px solid rgb(225, 249, 246);
+  box-shadow: rgba(136, 249, 234, 0.5) 0px 3px 8px;
+  margin-top: 10px;
+}
+.foodDeliveryCustomerAppContent > div > div:hover {
+ margin-top: 0;
+ transition: all .3s linear;
+}
+
+.foodDeliveryCustomerAppContent > div > div > h4,
+.foodDeliveryCustomerAppContent > div > div > p {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

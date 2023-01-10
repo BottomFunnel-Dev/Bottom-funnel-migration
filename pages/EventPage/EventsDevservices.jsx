@@ -1,18 +1,18 @@
 import React from "react";
-import "./eventsdevservices.css";
+import styles from "./eventsdevservices.module.css";
 
 export const EventsDevservices = () => {
   return (
-    <div className="eventsdevservices">
-      <div className="eventsdevserviceImage">
-        <div className="eventsbackImage">
-          <img src="Images/Eventpage/eventserviceback.png" alt="" />
+    <div className={styles.eventsdevservices}>
+      <div className={styles.eventsdevserviceImage}>
+        <div className={styles.eventsbackImage}>
+          <img src="/Images/Eventpage/eventserviceback.png" alt="images" />
         </div>
-        <div className="eventstopImage">
-          <img src="Images/Eventpage/eventservicetop.png" alt="" />
+        <div className={styles.eventstopImage}>
+          <img src="/Images/Eventpage/eventservicetop.png" alt="images" />
         </div>
       </div>
-      <div className="eventsdevserviceText">
+      <div className={styles.eventsdevserviceText}>
         <div>
           <h1>Offering services that make events successful</h1>
           <p>

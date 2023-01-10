@@ -1,7 +1,8 @@
 .eventsdevelopment {
-  width: 100%;
+  width: 95%;
   height: 400px;
   display: flex;
+  margin: auto;
 }
 
 .eventsdevelopmentText {
@@ -18,6 +19,8 @@
   transform: translate(-50%, -50%);
   top: 64%;
   left: 50%;
+  /* border: 2px solid red; */
+  /* margin-left: 3%; */
 }
 
 .eventsdevelopmentImage {

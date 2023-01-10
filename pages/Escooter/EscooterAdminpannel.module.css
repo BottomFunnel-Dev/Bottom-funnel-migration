@@ -1,0 +1,49 @@
+.escooteradminpannelmainboxes{
+    height: fit-content;
+  
+    display: flex;
+}
+
+.escooteradminpanneluppertxt{
+    height: fit-content;
+  
+}
+
+.escooteradminpanneluppertxt >h1{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.escooteradminpannelboxleftside {
+    height: 60%;
+    width: 50%;
+  margin-left: 3%;
+    margin-top: 3%;
+}
+
+.escooteradminpannelboxleftside >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.escooteradminpannelboxrighttside{
+    height: fit-content;
+    width: 45%;
+  
+    margin-left: 10%;
+}
+
+.escooteradminpannelboxrighttsideindivboxes{
+    height: fit-content;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.escooteradminpannelboxrighttsideindivboxes:hover{
+    transform: scale(1.02);
+}

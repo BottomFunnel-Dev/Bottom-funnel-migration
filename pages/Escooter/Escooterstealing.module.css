@@ -1,0 +1,44 @@
+.escooterthundercontainer {
+  width: 100%;
+  height: 450px;
+  /* background-color: aqua; */
+  text-align: center;
+  margin-top: 5%;
+}
+.escooterthundersubdiv {
+  width: 90%;
+  margin: auto;
+  height: 360px;
+  padding: 40px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: rgb(233, 16, 16); */
+  justify-content: space-around;
+}
+
+.indivisualmappingboxescooterstealing:hover {
+  transform: scale(1.02);
+}
+
+.escooterthundersubdiv > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 26%;
+  height: 70px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+}
+.escooterthundersubdiv > div > p {
+  font-size: 18px;
+  margin: 0;
+}
+.szthunderimages {
+  width: 30%;
+  height: 50px;
+  /* background-color: aqua; */
+}
+.szthunderimages > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

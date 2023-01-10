@@ -1,0 +1,38 @@
+.foodDeliveryBookCallMain {
+  background-color: #fcdbd3;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.foodDeliveryBookCallMain > h2 {
+  font-size: 30px;
+}
+
+.foodDeliveryBookCallMain > button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #ef4c23;
+
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.foodDeliveryBookCallMain > button:hover {
+  background-color: white;
+  color: #ef4c23;
+  box-shadow: none;
+}

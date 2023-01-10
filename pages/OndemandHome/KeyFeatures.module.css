@@ -1,0 +1,236 @@
+.keyfeatures {
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 600px; */
+  /* background-color: green; */
+}
+.keyfeatures > h1 {
+  text-align: center;
+  color: #ef4c23;
+}
+
+.customerApp {
+  width: 100%;
+  height: 500px;
+  /* background-color: red; */
+  display: flex;
+}
+
+.customerImages {
+  position: relative;
+  /* background-color: pink; */
+  width: 50%;
+}
+
+.featureText {
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+.featureText > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+
+.backfeature {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 60%;
+  z-index: 0;
+}
+.backfeature > img {
+  width: 100%;
+  height: 100%;
+}
+
+.customerphone {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  z-index: 3;
+}
+.customerphone > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.adminpanel {
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  /* background-color: green; */
+}
+
+.admintext {
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+.admintext > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+.adminImage {
+  width: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+.backadmin {
+  width: 100%;
+  position: absolute;
+  top: -117px;
+  height: 250px;
+}
+.backadmin > img {
+  width: 100%;
+  height: 100%;
+}
+.backadmindown {
+  width: 100%;
+  position: absolute;
+  bottom: -133px;
+  height: 250px;
+}
+.backadmindown > img {
+  width: 100%;
+  height: 100%;
+}
+
+.adminpanelimage {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+.adminpanelimage > img {
+  width: 100%;
+  height: 100%;
+}
+
+.serviceApp {
+  width: 90%;
+  height: 500px;
+  /* background-color: green; */
+  display: flex;
+}
+
+.serviceImage {
+  width: 40%;
+  height: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.serviceapptext {
+  width: 60%;
+  /* background-color: blue; */
+  position: relative;
+}
+.serviceapptext > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+}
+
+.serviceappback {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+}
+.serviceappback > img {
+  width: 100%;
+  height: 100%;
+}
+.serviceappmobile {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+.serviceappmobile > img {
+  width: 100%;
+  height: 108%;
+  object-fit: contain;
+}
+
+.serviceproviderpanel {
+  width: 90%;
+  height: 600px;
+  /* background-color: green; */
+  display: flex;
+  padding: 30px;
+}
+
+.serviceprovidertext {
+  width: 50%;
+  /* background-color: blue; */
+  position: relative;
+}
+.serviceprovidertext > div {
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+}
+
+.serviceProviderImage {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.serviceproviderback {
+  width: 100%;
+  height: 100%;
+}
+.serviceproviderback > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.serviceprovideradminpanel {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.serviceprovideradminpanel > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.featureText > div > h2 {
+  color: #ef4c23;
+}
+.admintext > div > h2 {
+  color: #ef4c23;
+}
+.serviceapptext> div > h2 {
+  color: #ef4c23;
+}
+.serviceprovidertext> div > h2 {
+  color: #ef4c23;
+}

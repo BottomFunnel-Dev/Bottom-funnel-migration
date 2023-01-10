@@ -1,0 +1,57 @@
+.foodDeliveryBannerMain {
+  height: 700px;
+  /* border: 1px solid red; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.foodDeliveryBannerContent {
+  width: 45%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.foodDeliveryBannerContent > div {
+  width: 80%;
+}
+
+.foodDeliveryBannerContent > div > h1 {
+  font-size: 32px;
+  margin-top: -20%;
+}
+
+.foodDeliveryBannerContent > div > p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.foodDeliveryBannerContent > div > button {
+  font-size: 18px;
+  padding: 10px 60px;
+  border-radius: 25px;
+  outline: none;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #ef4c23;
+  align-self: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.foodDeliveryBannerContent > div > button:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.foodDeliveryBannerImage {
+  width: 55%;
+  height: 100%;
+  object-fit: contain;
+  text-align: right;
+}

@@ -1,0 +1,68 @@
+.foodDeliveryNeedSuccessMain {
+  padding: 5px 20px 50px;
+  background-color: #fcdbd3;
+  min-height: 400px;
+}
+
+.foodDeliveryNeedSuccessMain > h1 {
+  font-size: 32px;
+  text-align: center;
+  padding: 15px;
+}
+
+.foodDeliveryNeedSuccessMain > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foodDeliveryNeedSuccessImage {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+
+.foodDeliveryNeedSuccessImage > img {
+  width: 100%;
+}
+
+.foodDeliveryNeedSuccessImage {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.foodDeliveryNeedSuccessImage > div {
+  /* height: auto; */
+  padding: 10px 10px 10px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.foodDeliveryNeedSuccessImage > div:hover {
+  background-color: #e1f9f6;
+}
+
+.foodDeliveryNeedSuccessImage > div > h3 {
+  font-size: 18px;
+}
+
+.foodDeliveryNeedSuccessImageLogo {
+  height: 50px;
+}
+
+.foodDeliveryNeedSuccessImageLogo > img {
+  height: 100%;
+}
