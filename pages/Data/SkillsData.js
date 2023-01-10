@@ -4702,7 +4702,7 @@ export const strutsData = {
     "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/strutsSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/strutsSkillsPhotos/banner.webp",
     title: "Struts Development Services",
     description:
       "Delivering on your business vision with quality struts development.",
@@ -4710,7 +4710,7 @@ export const strutsData = {
   isDes: true,
   desData: {
     title: "Struts",
-    image: "/Images/strutsSkillsPhotos/struts-logo.png",
+    image: "/Images/skillsPhotos/strutsSkillsPhotos/struts-logo.webp",
     description: `Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project, it became a top-level Apache project in 2005. In 2015, it was renamed from Struts 1 to Struts 2 on account of several significant changes (e.g., JSF 2 support; tag libraries; and several MVC improvements). After more than 15 years, Struts is still going strong with millions of downloads every year!`,
   },
   isWhyApp: true,
@@ -4719,7 +4719,7 @@ export const strutsData = {
     cardsData: [
       {
         img: {
-          src: "/Images/strutsSkillsPhotos/price-tag.png",
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/price-tag.webp",
           alt: "Tag support logo",
         },
         title: "Tag support",
@@ -4728,7 +4728,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "/Images/strutsSkillsPhotos/database.png",
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/database.webp",
           alt: "Teplate support logo",
         },
         title: "Teplate support",
@@ -4736,7 +4736,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "/Images/strutsSkillsPhotos/coordination.png",
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/coordination.webp",
           alt: "Intigration support logo",
         },
         title: "Intigration support",
@@ -4744,7 +4744,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "/Images/strutsSkillsPhotos/ajax.png",
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/ajax.webp",
           alt: "Ajax support logo",
         },
         title: "Ajax support",
@@ -4752,7 +4752,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "/Images/strutsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/open-source.webp",
           alt: "Open Source logo",
         },
         title: "Open Source",
@@ -4760,7 +4760,7 @@ export const strutsData = {
       },
       {
         img: {
-          src: "/Images/strutsSkillsPhotos/result.png",
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/result.webp",
           alt: "Various result types logo",
         },
         title: "Various result types",
@@ -4771,7 +4771,7 @@ export const strutsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Struts",
-    image: "/Images/strutsSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/strutsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4785,54 +4785,34 @@ export const strutsData = {
   BookCallData: {
     title: "Need our struts developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Struts Services",
+    title: "benefits of using struts",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Struts is a framework based on the MVC design paradigm. The JSP Model 2 architecture is implemented in the Struts framework.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          alt: "MVC design logo",
         },
-        title: "Open-source",
+        title: "MVC design",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
+          alt: "Centralized Configuration logo",
         },
-        title: "Easy complex component handling",
+        title: "Centralized Configuration",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          alt: "Web application development easy logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Web application development easy",
       },
     ],
   },
