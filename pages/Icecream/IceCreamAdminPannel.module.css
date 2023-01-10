@@ -18,7 +18,7 @@
 
 .icecreamadminpannelmainflexboxclass{
     height: 500px;
-  
+
     display: flex;
    
 }
@@ -28,15 +28,15 @@
     display: flex;
     flex-wrap: wrap;
     width: 55%;
-  
+   
     margin-left: 3%;
-    margin-top: 2%;
+    
 
 }
 
 .icecreamadminpannelmapperboxindivisyal{
-    height: 180px;
-    width: 48%;
+    height: fit-content;
+    width: 45%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     text-align: justify;
@@ -54,7 +54,7 @@
 .icecreamadminpannelrightbox{
     width: 45%;
   margin-left: 1%;
-margin-top: -2%;
+    margin-top: 1%;
    background-color: #Ffe7e8;
 }
 
@@ -72,18 +72,18 @@ margin-top: -2%;
 }
 
 .icecreamadminpannelmapperboxindivisyalicon{
-    height: 30%;
-    width: 25%;
-  
+    height: 50px;
+    width: 50px;
+
 }
 
 .icecreamadminpannelmapperboxindivisyaltxt >h4{
     font-size: 20px
 }
 
-.icecreamadminpannelmapperboxindivisyalicon >img{
+/* .icecreamadminpannelmapperboxindivisyalicon >img{
     height: 100%;
     width: 100%;
     object-fit: contain;
-    padding: 10px;
-}
+    padding: 20px;
+} */

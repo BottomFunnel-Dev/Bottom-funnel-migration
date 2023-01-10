@@ -17,7 +17,7 @@ const icreacreamcustomerappdata = [
         image:"Images/icecreamchanges/customer app/Component 58-1.png",
         icon:"Images/icecreamchanges/icons/prototyping-8.png",
         headertext:"Easy app onboarding",
-        paragraph:"Customize this Ice Cream Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
+        paragraph:"Customize this Ice Cream Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience fit with our powerful online app builder fit with our powerful online app builder",
     },
 
     {
@@ -31,7 +31,7 @@ const icreacreamcustomerappdata = [
         image:"Images/icecreamchanges/customer app/Multiple payment option.png",
         icon:"Images/icecreamchanges/icons/prototyping-9.png",
         headertext:"Multiple Payment Option",
-        paragraph:"Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.",
+        paragraph:"Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience fit with our powerful online app builder fit with our  app.",
     },
 
     {

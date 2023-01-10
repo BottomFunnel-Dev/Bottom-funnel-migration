@@ -16,7 +16,7 @@ export const IceCreamDriverApp = () => {
           image:"Images/icecreamchanges/driver app/Profile.png",
           icon:"Images/icecreamchanges/icons/prototyping-1.png",
           headertext:" Profile Management",
-          paragraph:"Customize this Ice Cream Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
+          paragraph:"Customize this Ice Cream Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience You don’t need any design or coding experience You don’t need any design or coding experience",
       },
   
       {
@@ -30,7 +30,7 @@ export const IceCreamDriverApp = () => {
           image:"Images/icecreamchanges/driver app/Component 62.png",
           icon:"Images/icecreamchanges/icons/prototyping-4.png",
           headertext:"Daily Work Status",
-          paragraph:"Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.",
+          paragraph:"Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.You don’t need any design or coding experience You don’t.",
       },
   
       {
