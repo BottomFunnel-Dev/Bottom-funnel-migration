@@ -10,6 +10,10 @@ import Awards from "./AwardSection/Awards";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
+
+const inter = Inter({ subsets: ['latin'] })
+
 export default function Home() {
   return (
     <div>
@@ -20,4 +24,8 @@ export default function Home() {
       <Awards />
     </div>
   );
+ 
+
+   </div>
+  )
 }

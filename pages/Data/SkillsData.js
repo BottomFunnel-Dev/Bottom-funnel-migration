@@ -4823,7 +4823,7 @@ export const golangData = {
   description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
   isBanner: true,
   BannerData: {
-    image: "/Images/golangSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/golangSkillsPhotos/banner.webp",
     title: "Golang Development Services",
     description:
       "Delivering on your business vision with quality golang development.",
@@ -4831,7 +4831,7 @@ export const golangData = {
   isDes: true,
   desData: {
     title: "Golang",
-    image: "/Images/golangSkillsPhotos/golang-logo.png",
+    image: "/Images/skillsPhotos/golangSkillsPhotos/golang-logo.webp",
     description: `Golang is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C but with memory safety, garbage collection, structural typing and concurrency support. Go is often referred to as Golang because of its former domain name golang.org but its proper name is Go.`,
   },
   isWhyApp: true,
@@ -4840,7 +4840,7 @@ export const golangData = {
     cardsData: [
       {
         img: {
-          src: "/Images/golangSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/golangSkillsPhotos/open-source.webp",
           alt: "Open Source logo",
         },
         title: "Open Source",
@@ -4849,7 +4849,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "/Images/golangSkillsPhotos/sync.png",
+          src: "/Images/skillsPhotos/golangSkillsPhotos/sync.webp",
           alt: "Cross-platform development logo",
         },
         title: "Cross-platform development",
@@ -4857,7 +4857,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "/Images/golangSkillsPhotos/printing.png",
+          src: "/Images/skillsPhotos/golangSkillsPhotos/printing.webp",
           alt: "Testing capabilities logo",
         },
         title: "Testing capabilities",
@@ -4865,7 +4865,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "/Images/golangSkillsPhotos/keyboard.png",
+          src: "/Images/skillsPhotos/golangSkillsPhotos/keyboard.webp",
           alt: "Static typing logo",
         },
         title: "Static typing",
@@ -4873,7 +4873,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "/Images/golangSkillsPhotos/books.png",
+          src: "/Images/skillsPhotos/golangSkillsPhotos/books.webp",
           alt: "Powerful standard liberary logo",
         },
         title: "Powerful standard library",
@@ -4881,7 +4881,7 @@ export const golangData = {
       },
       {
         img: {
-          src: "/Images/golangSkillsPhotos/proccess.png",
+          src: "/Images/skillsPhotos/golangSkillsPhotos/proccess.webp",
           alt: "Concurrency support logo",
         },
         title: "Concurrency support",
@@ -4892,7 +4892,7 @@ export const golangData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Golang",
-    image: "/Images/golangSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/golangSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -4906,54 +4906,55 @@ export const golangData = {
   BookCallData: {
     title: "Need our golang developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Golang Services",
+    title: "benefits of using golang",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Go is a modern programming language with an open source design. It is preferred by many software developers due to its reliability. Golang allows you to create simple and efficient web products.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          alt: "Fast and efficiency logo",
         },
-        title: "Easy complex component handling",
+        title: "Fast and efficiency",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
+          alt: "Scalability logo",
         },
-        title: "Time-Saving Process",
+        title: "Scalability",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
+          alt: "Ease of learning logo",
         },
-        title: "Effective Framework",
+        title: "Ease of learning",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
+          src: "/Images/skillsPhotos/dotnetphotos/creative.webp",
+          alt: "Transparency logo",
         },
-        title: "Reusable code",
+        title: "Transparency",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
+          src: "/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
+          alt: "In-built testing logo",
         },
-        title: "Enables Testing Now and Then",
+        title: "In-built testing",
       },
     ],
   },
@@ -4965,7 +4966,7 @@ export const symfonyData = {
     "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/symfonySkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/symfonySkillsPhotos/banner.webp",
     title: "Symfony Development Services",
     description:
       "Delivering on your business vision with quality PHP web development.",
@@ -4973,7 +4974,7 @@ export const symfonyData = {
   isDes: true,
   desData: {
     title: "Symfony",
-    image: "/Images/symfonySkillsPhotos/symfony-logo.png",
+    image: "/Images/skillsPhotos/symfonySkillsPhotos/symfony-logo.webp",
     description: `There are multiple reasons why Symfony is the go-to choice for developers. Whether you're looking to build a simple solution or an enterprise-grade application, its powerful features will help you achieve your goals. In this tutorial, we'll introduce you to the basics of Symfony and give you an overview of its key features. By the end of it, you'll feel confident enough to move on to more advanced topics!`,
   },
   isWhyApp: true,
@@ -4982,7 +4983,7 @@ export const symfonyData = {
     cardsData: [
       {
         img: {
-          src: "/Images/symfonySkillsPhotos/php.png",
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/php.webp",
           alt: "Stable and Sustainable logo",
         },
         title: "Stable and Sustainable",
@@ -4991,7 +4992,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "/Images/symfonySkillsPhotos/database-checked.png",
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/database-checked.webp",
           alt: "Refined MVC Architecture logo",
         },
         title: "Refined MVC Architecture",
@@ -4999,7 +5000,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "/Images/symfonySkillsPhotos/curved.png",
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/curved.webp",
           alt: "Flexible logo",
         },
         title: "Flexible",
@@ -5007,7 +5008,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "/Images/symfonySkillsPhotos/setting.png",
+          src: "/Images/skillsphotos/symfonySkillsPhotos/setting.webp",
           alt: "Customization logo",
         },
         title: "Customization",
@@ -5015,7 +5016,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "/Images/symfonySkillsPhotos/support.png",
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/support.webp",
           alt: "Excellent support logo",
         },
         title: "Excellent support",
@@ -5023,7 +5024,7 @@ export const symfonyData = {
       },
       {
         img: {
-          src: "/Images/symfonySkillsPhotos/users.png",
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/users.webp",
           alt: "Large community logo",
         },
         title: "Large community",
@@ -5034,7 +5035,7 @@ export const symfonyData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Symfony",
-    image: "/Images/symfonySkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/symfonySkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5048,54 +5049,34 @@ export const symfonyData = {
   BookCallData: {
     title: "Need our symfony developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using symfony",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Symfony is often seen as simplifying the developer's job because it doesn't require heavy code to build a web application. Moreover, it enables faster, more stable and flexible development.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "Fast paced development logo",
         },
-        title: "Open-source",
+        title: "Fast paced development",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
+          alt: "Flexibility logo",
         },
-        title: "Easy complex component handling",
+        title: "Flexibility",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
+          alt: "Expandable framework logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Expandable framework",
       },
     ],
   },
