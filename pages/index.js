@@ -9,6 +9,8 @@ import Services from './Services/Services'
 import Awards from './AwardSection/Awards'
 
 
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,7 +21,7 @@ export default function Home() {
   <About />
  <Services />
       <Awards />
-  
+ 
 
    </div>
   )
