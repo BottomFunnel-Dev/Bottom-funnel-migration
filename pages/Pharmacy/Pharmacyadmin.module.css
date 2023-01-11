@@ -17,15 +17,17 @@
   margin-top: 2%;
   display: flex;
 }
+
 .pharmacyadminleft {
   width: 50%;
   height: 500px;
   /* padding: 10px; */
   display: flex;
-  background: url("/public/Images/pharmacy/Admin panel bg.png");
+  background: url("/Images/pharmacy/Admin panel bg.png");
   background-repeat: no-repeat;
   background-size: 100% 500px;
 }
+
 .pharmacyadminright {
   width: 45%;
   margin-left: 1%;
@@ -63,7 +65,7 @@
   font-size: 18px;
 }
 
-.pharmacy-admin-image {
+.pharmacyAdminImage {
   width: 80%;
   height: 500px;
   text-align: right;
@@ -72,7 +74,7 @@
   padding-bottom: 5px;
 }
 
-.pharmacy-admin-image > img {
+.pharmacyAdminImage > img {
   width: 100%;
   height: 100%;
   object-fit: contain;

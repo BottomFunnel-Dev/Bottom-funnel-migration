@@ -18,6 +18,7 @@ import Pharmacydelivery from "./Pharmacydelivery";
 import Pharmacysneak from "./Pharmacysneak";
 import Pharmacycustomer from "./Pharmacycustomer";
 import Pharmacydrive from "./Pharmacydrive";
+import Pharmacyadmin from "./Pharmacyadmin";
 
 export default function Pharmacy () {
   return (
@@ -28,17 +29,17 @@ export default function Pharmacy () {
       <Pharmacysneak />
       <Pharmacycustomer />
       <Pharmacydrive />
-      {/* <Pharmacyadmin /> */}
+      <Pharmacyadmin />
 
-      {/* <StoriesSection /> */}
-      {/* <Industries /> */}
+      <StoriesSection />
+      <Industries />
       {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   );
