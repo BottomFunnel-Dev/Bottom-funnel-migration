@@ -38,11 +38,16 @@
   padding: 10px;
 }
 
+.tooldeliverytextmapping > h4 {
+  /* border: 1px solid red; */
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
 .flexboxrightinnerimage2fortoolcustomer {
-  height: 130%;
+  height: 100%;
   width: auto;
   position: absolute;
-
   z-index: 1;
 }
 

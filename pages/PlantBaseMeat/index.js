@@ -1,14 +1,5 @@
 import React from "react";
 
-import TooDeliveryBanner from "./TooDeliveryBanner";
-import ToolDeliveryService from "./ToolDeliveryService";
-import ToolDeliverysneak from "./ToolDeliverysneak";
-import ToolDeliveryCustomer from "./ToolDeliveryCustomer";
-import ToolDeliveryDriver from "./ToolDeliveryDriver";
-import { ToolDeliveryAdmin } from "./ToolDeliveryAdmin";
-import ToolDeliveryLowerBanner from "./ToolDeliveryLowerBanner";
-import ToolDeliveryFooter from "./ToolDeliveryFooter";
-
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -20,17 +11,29 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function ToolDeliveryApp ()  {
+import {
+    logisticsCustomer,
+    plantBaseDriverData,
+    plantBaseMeatAdmin,
+} from "../Data/plantbasedmeat";
+import { PlantBasedMeatBanner } from "./PlantBasedMeatBanner/PlantBasedMeatBanner";
+import { ServicesWeOffer } from "./ServicesWeOffer/ServicesWeOffer";
+import PlantBaseDeliverApp from "./PlantBaseDeliverApp/PlantBaseDeliverApp";
+import PlantBaseDriverApp from "./PlantBaseDriverApp/PlantBaseDriverApp";
+import PlantBaseDeliverAdminPanel from "./PlantBaseDeliverAdminPanel/PlantBaseDeliverAdminPanel";
+import { PlantBasedGetSolution } from "./PlantBasedGetSolution/PlantBasedGetSolution";
+import { WhyChooseUs } from "./WhyChooseUs/WhyChooseUs";
+
+export default function PlantBasedMeat () {
   return (
     <div>
-      <TooDeliveryBanner/>
-      <ToolDeliveryService />
-      <ToolDeliverysneak />
-      <ToolDeliveryCustomer />
-      <ToolDeliveryDriver />
-      <ToolDeliveryAdmin />
-      <ToolDeliveryLowerBanner />
-      <ToolDeliveryFooter />
+      <PlantBasedMeatBanner />
+      <ServicesWeOffer />
+      <PlantBaseDeliverApp consumerdata={logisticsCustomer} />
+      <PlantBaseDriverApp driveData={plantBaseDriverData} />
+      <PlantBaseDeliverAdminPanel plantBasedAdminData={plantBaseMeatAdmin} />
+      <PlantBasedGetSolution />
+      <WhyChooseUs />
 
       <StoriesSection />
       <Industries />

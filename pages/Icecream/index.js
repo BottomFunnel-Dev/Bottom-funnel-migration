@@ -1,13 +1,10 @@
 import React from "react";
 
-import TooDeliveryBanner from "./TooDeliveryBanner";
-import ToolDeliveryService from "./ToolDeliveryService";
-import ToolDeliverysneak from "./ToolDeliverysneak";
-import ToolDeliveryCustomer from "./ToolDeliveryCustomer";
-import ToolDeliveryDriver from "./ToolDeliveryDriver";
-import { ToolDeliveryAdmin } from "./ToolDeliveryAdmin";
-import ToolDeliveryLowerBanner from "./ToolDeliveryLowerBanner";
-import ToolDeliveryFooter from "./ToolDeliveryFooter";
+import { IceCreamAdminPannel } from "./IceCreamAdminPannel";
+import { IcecreamBanner } from "./IcecreamBanner";
+import { IcecreamCSolution } from "./IcecreamCSolution";
+import { IcecreamCustomerApp } from "./IcecreamCustomerApp";
+import { IceCreamDriverApp } from "./IceCreamDriverApp";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -20,17 +17,14 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function ToolDeliveryApp ()  {
+export default function Icecream() {
   return (
     <div>
-      <TooDeliveryBanner/>
-      <ToolDeliveryService />
-      <ToolDeliverysneak />
-      <ToolDeliveryCustomer />
-      <ToolDeliveryDriver />
-      <ToolDeliveryAdmin />
-      <ToolDeliveryLowerBanner />
-      <ToolDeliveryFooter />
+      <IcecreamBanner />
+      <IcecreamCSolution />
+      <IcecreamCustomerApp />
+      <IceCreamAdminPannel />
+      <IceCreamDriverApp />
 
       <StoriesSection />
       <Industries />
@@ -44,4 +38,4 @@ export default function ToolDeliveryApp ()  {
       {/* <MainFooter /> */}
     </div>
   );
-};
+}

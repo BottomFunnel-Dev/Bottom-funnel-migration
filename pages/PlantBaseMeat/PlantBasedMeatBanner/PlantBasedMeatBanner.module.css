@@ -1,0 +1,46 @@
+.plantBasedBannerParentDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  /* justify-content: center; */
+}
+
+.plantBasedBannerParentDiv button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.plantBasedBannerParentDiv button:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}
+
+.plantBasedMeatBannerContentDiv {
+  /* border: 1px solid green; */
+  width: 55%;
+  margin-top: 3%;
+}
+
+.plantBasedBannerImageDiv {
+  /* border: 1px solid black; */
+  /* height: 100vh; */
+  width: 40%;
+}
+
+.plantBasedBannerImageDiv img {
+  width: 100%;
+  margin-top: 5%;
+  /* height: 100vh; */
+  /* height: 400px; */
+}

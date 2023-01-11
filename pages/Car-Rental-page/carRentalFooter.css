@@ -1,0 +1,36 @@
+.CarRentalFooterContainer {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+
+}
+
+.RGcarRentalMaindivv {
+  width: 45%;
+  
+}
+
+.RGimageNh3combo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.RGimageNh3combo > h3 {
+  width: 60%;
+}
+
+.RGimageNh3combo > img {
+  width: 15%;
+}
+
+.RGcarRentalMaindivv > p {
+  width: 90%;
+}
+
+
+    
+  
+

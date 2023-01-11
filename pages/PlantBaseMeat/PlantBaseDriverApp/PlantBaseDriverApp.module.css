@@ -1,0 +1,91 @@
+.plantBasedDriverApp {
+  width: 100%;
+  height: max-content;
+  margin: 60px 0;
+  /* background-color: cornflowerblue; */
+}
+.plantBasedDriverApp > h1 {
+  margin-left: 55%;
+}
+.plantBasedDriverAppsub {
+  width: 100%;
+  margin-top: 2%;
+  justify-content: space-between;
+  /* background-color:  chocolate; */
+  display: flex;
+  align-items: center;
+}
+.plantBasedDriverAppleft {
+  width: 50%;
+
+  /* background-color: blue; */
+  height: 500px;
+  /* background: url("/public/Images/logistic/triangle.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 670px;
+  margin-left: -4%;
+  position: relative;
+}
+/* .plantBasedDriverAppright{
+        width: 50%;
+        height: 500px;
+        background-color:  rgb(210, 30, 78)
+    } */
+
+.plantBasedDriverAppright {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.plantBasedDriverAppright > div {
+  padding: 10px 10px 10px 10px;
+  height: 250px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.plantBasedDriverAppright > div:hover {
+  background-color: #e1f9f6;
+}
+
+.plantBasedDriverAppright > div > h3 {
+  font-size: 18px;
+}
+
+/* .logistic{
+        height: 50px;
+      }
+      
+      .logistic> img {
+        height: 100%;
+      } */
+
+.logisticDriveImage {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* background-color: red; */
+}
+.logicdive {
+  width: 100%;
+  display: flex;
+
+  height: 60px;
+}
+
+.logisticDriveImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

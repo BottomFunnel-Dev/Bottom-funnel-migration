@@ -1,0 +1,69 @@
+.plantBasedDeliver {
+  width: 100%;
+  height: max-content;
+  /* background-color: aqua; */
+  margin: 60px 0;
+}
+.plantBasedDeliver > h1 {
+  margin-left: 6%;
+}
+.plantBasedDeliversub {
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.plantBasedDeliverleft {
+  width: 45%;
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.plantBasedDeliverright {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.plantBasedDeliverright > div {
+  padding: 10px 10px 10px 10px;
+  height: 270px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.plantBasedDeliverright > div:hover {
+  background-color: #e1f9f6;
+}
+.plantBasedDeliverright > div > h3 {
+  font-size: 18px;
+}
+
+.plantBasedDeliverAppCustomerImage {
+  width: 45%;
+  height: 500px;
+  text-align: right;
+  margin: auto;
+  margin-top: -10px;
+}
+
+.plantBasedDeliverAppCustomerImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,29 @@
+.RGchooseUsCompContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35vh;
+}
+
+.RGchooseUsCompLeft {
+    width: 20%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.RGchooseUsCompRight {
+    width: 75%;
+    font-size: 20px;
+
+}
+
+.RGchooseUsComphrLine {
+    width: 0.2%;
+    height: 50px;
+    background:#ef4c23;
+}
+
+.RGchooseUsCompspanTag {
+    color: red;
+}
+
