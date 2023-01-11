@@ -8,11 +8,9 @@ import About from "./AboutSection/About";
 import Services from "./Services/Services";
 import Awards from "./AwardSection/Awards";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
-
-
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -24,8 +22,4 @@ export default function Home() {
       <Awards />
     </div>
   );
- 
-
-   </div>
-  )
 }
