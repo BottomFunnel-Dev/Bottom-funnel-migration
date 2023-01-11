@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import { AlcoholBanner } from "./AlcoholBanner/AlcoholBanner";
-import { alcoholLogo } from "../Data/SeopartnerData";
-import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import { AlcoholBookCall } from "./AlcoholBookCall/AlcoholBookCall";
-import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
-import { AlcoholSolutions } from "./AlcoholSolutions/AlcoholSolutions";
+import Beautycontainer from './Beautycontainer';
+import { beautyLogo } from "../Data/SeopartnerData";
+import Trusted from '../SEO/SeoTrustedCompanies/Seotrusted';
+import Diversesection from './Diversesection';
+import Disscus from './Disscus';
+import Feature from './Feature';
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,15 +18,15 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function AlcoholDelivery() {
+export default function BeautyandCare () {
   return (
     <div>
-
-      <AlcoholBanner />
-      <Trusted partnerLogo={alcoholLogo} />
-      <AlcoholBookCall />
-      <AlcoholSuggestions />
-      <AlcoholSolutions />
+        
+      <Beautycontainer />
+      <Trusted partnerLogo={beautyLogo} />
+      <Diversesection />
+      <Disscus />
+      <Feature />
 
       <StoriesSection />
       <Industries />
@@ -40,4 +40,4 @@ export default function AlcoholDelivery() {
       {/* <MainFooter /> */}
     </div>
   );
-}
+};

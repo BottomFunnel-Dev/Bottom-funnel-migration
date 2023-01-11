@@ -11,33 +11,43 @@ import PortFolio from "../PortFolioSection/PortFolio";
 import Revamping from "../revamping/Revamping";
 import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import StoriesSection from "../StoriesSection/StoriesSection";
-import { AlcoholBanner } from "./AlcoholBanner/AlcoholBanner";
-import { AlcoholBookCall } from "./AlcoholBookCall/AlcoholBookCall";
-import "./AlcoholDeliveryPage.css";
-import { AlcoholSolutions } from "./AlcoholSolutions/AlcoholSolutions";
-import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
-import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import { alcoholLogo } from "../../Data/SeopartnerData";
+import Maketplacefooter from "./Maketplacefooter";
+import MarketPlaceAdmin from "./MarketPlaceAdmin";
+import { MarketplaceBanner } from "./MarketplaceBanner";
+import Marketplaceborder from "./Marketplaceborder";
+import MarketPlaceClients from "./MarketPlaceClients";
 
+import MarketplaceFreelancer from "./MarketplaceFreelancer";
 
-export const AlcoholDeliveryPage = () => {
+import { Helmet } from "react-helmet";
+
+export const Marketplace = () => {
   const dispatch = useDispatch();
   useEffect(function () {
     dispatch(ChnageNavbarColor({ color: "black", logo: false }));
   }, []);
 
   return (
-    <div>
-      <AlcoholBanner />
-      <Trusted partnerLogo={alcoholLogo} />
-      <AlcoholBookCall />
-      <AlcoholSuggestions />
-      <AlcoholSolutions />
-      <PortFolio />
+    <div style={{ color: "#393939" }}>
+      <Helmet>
+        <title>Marketplace app development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Boost your Marketplace business with Bottom Funnel's Marketplace app development services that offer intuitive software and app development solutions to clients around the globe"
+        />
+      </Helmet>
+      <MarketplaceBanner />
+      <MarketplaceFreelancer />
+      <MarketPlaceAdmin />
+      <MarketPlaceClients />
+      <Marketplaceborder />
+      <Maketplacefooter />
+
       <StoriesSection />
       <Industries />
       <PlanProject />
       <OndemandSection />
+      <PortFolio />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />

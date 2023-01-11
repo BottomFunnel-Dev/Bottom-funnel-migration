@@ -1,11 +1,12 @@
 import React from "react";
 
-import { AlcoholBanner } from "./AlcoholBanner/AlcoholBanner";
-import { alcoholLogo } from "../Data/SeopartnerData";
+import GroceryBanner from "./GroceryBanner";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import { AlcoholBookCall } from "./AlcoholBookCall/AlcoholBookCall";
-import { AlcoholSuggestions } from "./AlcoholSuggestions/AlcoholSuggestions";
-import { AlcoholSolutions } from "./AlcoholSolutions/AlcoholSolutions";
+import { groceryLogo } from "../Data/SeopartnerData";
+import DeliveryServices from "./DeliveryServices";
+import { GroceryCustomer } from "./GroceryCustomer";
+import { GroceryAdmin } from "./GroceryAdmin";
+import { GroceryService } from "./GroceryService";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,15 +19,15 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function AlcoholDelivery() {
+export default function Grocery() {
   return (
     <div>
-
-      <AlcoholBanner />
-      <Trusted partnerLogo={alcoholLogo} />
-      <AlcoholBookCall />
-      <AlcoholSuggestions />
-      <AlcoholSolutions />
+      <GroceryBanner />
+      <Trusted partnerLogo={groceryLogo} />
+      <DeliveryServices />
+      <GroceryCustomer />
+      <GroceryAdmin />
+      <GroceryService />
 
       <StoriesSection />
       <Industries />

@@ -1,0 +1,68 @@
+.groceryservicemainboxes {
+  height: fit-content;
+  border: 1px solid white;
+  margin-top: 5%;
+}
+
+.groceryservicemainboxes > h2 {
+  text-align: center;
+}
+
+.groceryserviceflexingbox {
+  height: fit-content;
+
+  display: flex;
+}
+
+.groceryserviceflexingboxleftbox {
+  height: 480px;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
+}
+
+.groceryseryserviceleftboxinsiderupperimage {
+  height: 90%;
+  width: 35%;
+  margin: 5% 0% 5% 30%;
+}
+
+.groceryseryserviceleftboxinsiderupperimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.groceryserviceflexingboxrightbox {
+  height: fit-content;
+  width: 60%;
+  margin-left: 1%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .icecreamcustomerappmainboxes >h2{
+    text-align: center;
+    margin-top: 3%;
+} */
+
+.groceryserviceindivisualbox {
+  height: 230px;
+  width: 42%;
+  margin: 1%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.groceryserviceindivisualbox:hover {
+  transform: scale(1.02);
+}
+
+.canabisdeliveryappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
+}

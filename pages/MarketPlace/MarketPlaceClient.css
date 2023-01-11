@@ -1,0 +1,120 @@
+.marketplaceclientmainboxing{
+    height: 550px;
+
+ margin-top: 100px;
+    width: 100%;
+   
+}
+.clientmarketplaceflexboxbig{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+ 
+}
+
+.clientmarketplaceflexleft{
+    height: 100%;
+    width: 55%;
+   
+   
+
+}
+.clientmarketplaceflexright{
+    height: 100%;
+    width: 45%;
+
+  
+
+  
+}
+
+.clientmarketplaceflexlefttxtbox{
+  
+    margin: 5%;
+    width: 80%;
+}
+
+.marketplaceclientsboxingfordoingflex{
+
+    height: 55%;
+    width: 100%;
+    margin-left:2% ;
+   }
+
+   .marketplaceclientsflexboxing{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .marketplaceclientflexboxingforimageandtxtcontain{
+    height: 50%;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+   }
+
+
+   
+   .marketplaceclientsflexboxingforimagecontain{
+    width: 15%;
+  
+    height: 50px;
+  
+    margin: auto;
+   }
+
+   .marketplaceclientflexboxingfortxtcontain{
+    width: 80%;
+ 
+    height: auto;
+   }
+
+.clientmarketplaceflexboximage1{
+
+    height: 300px;
+
+   
+}
+
+
+.clientmarketplaceflexrightinsiderimagesthreebox{
+    position: relative;
+    height: 100%;
+}
+
+.clientflexingrightdiv1forimage{
+position: absolute;
+height: 80%;
+width: 100%;
+
+top: 18%;
+
+
+}
+
+.clientflexingrightdiv2forimage{
+    position: absolute;
+    height: 102%;
+    width: 40%;
+
+    left: 30%;
+   
+}
+
+.clientflexingrightdiv3forimage{
+    position: absolute;
+    height: 40%;
+    width: 30%;
+
+    top: 58%;
+    left: 10%;
+}
+
+.marketplaceimageclientimage1{
+object-fit: cover;
+height: 100%;
+width: 100%;
+}

@@ -1,0 +1,57 @@
+.grocerycustomerappmainboxes {
+  height: fit-content;
+  border: 1px solid white;
+}
+
+.grocerycustomerappmainboxes > h1 {
+  text-align: center;
+}
+
+.grocerydeliveryappflexingbox {
+  height: fit-content;
+
+  display: flex;
+}
+
+.grocerydeliveryappflexingboxleftbox {
+  height: 480px;
+  width: 40%;
+}
+
+.grocerydeliveryappleftboxinsiderupperimage {
+  height: 90%;
+  width: 45%;
+  margin: 0% 0% 0% 10%;
+}
+
+.grocerydeliveryappleftboxinsiderupperimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.grocerydeliveryappflexingboxrightbox {
+  height: fit-content;
+  width: 60%;
+  margin-left: 1%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grocerycustomerappmainboxes > h2 {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.grocerydeliveryappindivisualbox {
+  height: 230px;
+  width: 42%;
+  margin: 1%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.grocerydeliveryappindivisualbox:hover {
+  transform: scale(1.02);
+}
