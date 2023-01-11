@@ -5083,12 +5083,13 @@ export const symfonyData = {
 };
 
 export const grailsData = {
-  title: "Best grails developers in the market | Bottom Funnel",
+  title:
+    "Best grails developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/grailsSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/grailsSkillsPhotos/banner.webp",
     title: "Grails Development Services",
     description:
       "Delivering on your business vision with quality grails development.",
@@ -5096,7 +5097,7 @@ export const grailsData = {
   isDes: true,
   desData: {
     title: "Grails",
-    image: "/Images/grailsSkillsPhotos/grails-logo.png",
+    image: "/Images/skillsPhotos/grailsSkillsPhotos/grails-logo.webp",
     description: `Grails is perfect for building high-productivity web apps that follow the 'coding by convention' paradigm. It provides a stable development environment and hides much of the configuration detail from the developer so they can focus on the code! Plus, compared to other frameworks such as Angular or React, Grails is easier to learn and use because it uses plain old JavaScript instead of its own language (Groovy).`,
   },
   isWhyApp: true,
@@ -5105,7 +5106,7 @@ export const grailsData = {
     cardsData: [
       {
         img: {
-          src: "/Images/grailsSkillsPhotos/strategy.png",
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/strategy.webp",
           alt: "Pragmatic Strategy logo",
         },
         title: "Pragmatic Strategy",
@@ -5114,7 +5115,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "/Images/grailsSkillsPhotos/printing.png",
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/printing.webp",
           alt: "Build-in testing framework logo",
         },
         title: "Build-in testing frameworkd",
@@ -5122,7 +5123,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "/Images/grailsSkillsPhotos/java.png",
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/java.webp",
           alt: "Seamless java integration logo",
         },
         title: "Seamless java integration",
@@ -5130,7 +5131,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "/Images/grailsSkillsPhotos/dns.png",
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/dns.webp",
           alt: "Dynamic doman class reloading logo",
         },
         title: "Dynamic doman class reloading",
@@ -5138,7 +5139,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "/Images/grailsSkillsPhotos/liberary.png",
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/liberary.webp",
           alt: "Plugin liberary logo",
         },
         title: "Plugin liberary",
@@ -5146,7 +5147,7 @@ export const grailsData = {
       },
       {
         img: {
-          src: "/Images/grailsSkillsPhotos/leaf.png",
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/leaf.webp",
           alt: "Spring boot foundation logo",
         },
         title: "Spring boot foundation",
@@ -5157,7 +5158,7 @@ export const grailsData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Grails",
-    image: "/Images/grailsSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/grailsSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5171,66 +5172,47 @@ export const grailsData = {
   BookCallData: {
     title: "Need our grails developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Grails Services",
+    title: "benefits of using grails",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "Grails allows you to create web applications quickly. Its scaffolding feature allows you to create new projects in minutes.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          alt: "Faster Time to Market logo",
         },
-        title: "Easy complex component handling",
+        title: "Faster Time to Market",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          alt: "Reusability logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Reusability",
       },
     ],
   },
 };
 
 export const jsfData = {
-  title: "Best jsf developers in the market | Bottom Funnel",
+  title:
+    "Best jsf developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/jsfSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/jsfSkillsPhotos/banner.webp",
     title: "JSF Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -5238,7 +5220,7 @@ export const jsfData = {
   isDes: true,
   desData: {
     title: "JSF",
-    image: "/Images/jsfSkillsPhotos/jsf-logo.png",
+    image: "/Images/skillsPhotos/jsfSkillsPhotos/jsf-logo.webp",
     description: `Jakarta Faces is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components on a page. In this tutorial, we will cover some of its more popular features, like Ajax based communication, data binding with change detection etc.`,
   },
   isWhyApp: true,
@@ -5247,7 +5229,7 @@ export const jsfData = {
     cardsData: [
       {
         img: {
-          src: "/Images/jsfSkillsPhotos/help.png",
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/help.webp",
           alt: "Default exception handling logo",
         },
         title: "Default exception handling",
@@ -5256,7 +5238,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "/Images/jsfSkillsPhotos/html.png",
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/html.webp",
           alt: "Support HTML5 logo",
         },
         title: "Support HTML5",
@@ -5264,7 +5246,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "/Images/jsfSkillsPhotos/coding.png",
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/coding.webp",
           alt: "Ease and rapid web development logo",
         },
         title: "Ease and rapid web development",
@@ -5272,7 +5254,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "/Images/jsfSkillsPhotos/security.png",
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/security.webp",
           alt: "Security logo",
         },
         title: "Security",
@@ -5280,7 +5262,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "/Images/jsfSkillsPhotos/ajax.png",
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/ajax.webp",
           alt: "Inbuilt AJAX support logo",
         },
         title: "Inbuilt AJAX support",
@@ -5288,7 +5270,7 @@ export const jsfData = {
       },
       {
         img: {
-          src: "/Images/jsfSkillsPhotos/database.png",
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/database.webp",
           alt: "Templating logo",
         },
         title: "Templating",
@@ -5299,7 +5281,7 @@ export const jsfData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For JSF",
-    image: "/Images/jsfSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/jsfSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5313,54 +5295,34 @@ export const jsfData = {
   BookCallData: {
     title: "Need our JSF developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
+    title: "benefits of using JSF",
     description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+      "JSF is becoming more and more popular as a framework for developing the user interface layer, and many architects and companies assume that Struts will become obsolete and JSF will catch up with the market. I don't know if that is true at this point.",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
           alt: "Open-source logo",
         },
         title: "Open-source",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          alt: "MVC design logo",
         },
-        title: "Easy complex component handling",
+        title: "MVC design",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          alt: "Reusable UI components logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Reusable UI components",
       },
     ],
   },
@@ -5372,7 +5334,7 @@ export const phalconData = {
     "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/phalconSkillsPhotos/banner.png",
+    image: "/Images/skillsPhotos/phalconSkillsPhotos/banner.webp",
     title: "Phalcon Development Services",
     description:
       "Delivering on your business vision with quality PHP web development.",
@@ -5380,7 +5342,7 @@ export const phalconData = {
   isDes: true,
   desData: {
     title: "Phalcon",
-    image: "/Images/phalconSkillsPhotos/phalcon-logo.png",
+    image: "/Images/skillsPhotos/phalconSkillsPhotos/phalcon-logo.webp",
     description: `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.
 
       And with over 6 million downloads already and counting, there's no doubt that people are recognizing its value and power. Why not give it a try today?`,
@@ -5391,7 +5353,7 @@ export const phalconData = {
     cardsData: [
       {
         img: {
-          src: "/Images/phalconSkillsPhotos/jcb.png",
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/jcb.webp",
           alt: "Improved SEO performance logo",
         },
         title: "Improved SEO performance",
@@ -5400,7 +5362,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "/Images/phalconSkillsPhotos/router.png",
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/router.webp",
           alt: "Security logo",
         },
         title: "Security",
@@ -5408,7 +5370,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "/Images/phalconSkillsPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -5416,7 +5378,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "/Images/phalconSkillsPhotos/open-source.png",
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/open-source.webp",
           alt: "Autoloader logo",
         },
         title: "Autoloader",
@@ -5424,7 +5386,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "/Images/phalconSkillsPhotos/user-file.png",
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/user-file.webp",
           alt: "Independent framework logo",
         },
         title: "Independent framework",
@@ -5432,7 +5394,7 @@ export const phalconData = {
       },
       {
         img: {
-          src: "/Images/phalconSkillsPhotos/php.png",
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/php.webp",
           alt: "Fastest framework for PHP logo",
         },
         title: "Fastest framework for PHP",
@@ -5444,7 +5406,7 @@ export const phalconData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Phalcon",
-    image: "/Images/phalconSkillsPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/phalconSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5458,54 +5420,33 @@ export const phalconData = {
   BookCallData: {
     title: "Need our phalcon developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable phalcon Services",
-    description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    title: "benefits of using Phalcon",
+    description: "",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          alt: "Great performance logo",
         },
-        title: "Open-source",
+        title: "Great performance",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/djangophotos/backward-compatible.webp",
+          alt: "Compatible with C language logo",
         },
-        title: "Easy complex component handling",
+        title: "Compatible with C language",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
+          alt: "Web application development logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Web application development",
       },
     ],
   },
