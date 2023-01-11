@@ -9,10 +9,13 @@ export const MobileDevMainWhyChoose = () => {
         <div className={styles.mobileDevMainWhyChooseOuterDiv}>
             <div className={styles.mobileDevMainWhyChooseHeading}>
                 <h1>Why Choose Bottom Funnel as Your Mobile Application Development Company</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque neque doloribus temporibus odit esse nisi corrupti libero sequi nulla iusto dolor earum excepturi quasi, corporis accusamus ullam. Eveniet, vero aperiam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sint quam excepturi iusto culpa quas optio aliquid suscipit minima veritatis ipsam assumenda dolor quo, facere eaque impedit accusantium natus. Voluptates.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, impedit ullam! Corrupti natus sit mollitia quis! Cupiditate modi maiores fugit? Itaque voluptate perspiciatis sunt neque delectus explicabo deleniti voluptatem recusandae?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos quo fugit voluptatibus laborum molestiae doloribus necessitatibus, a, pariatur optio expedita adipisci eaque id hic velit ullam quam ad quod iusto!
+                <p>Bottom Funnel is a mobile application development company that provides high-quality, 
+                innovative mobile apps for businesses of all sizes. We have a team of experienced app 
+                developers who are passionate about creating amazing user experiences. Our apps are designed 
+                to help businesses increase sales, improve customer engagement, and streamline operations.
+                 We offer a free consultation to discuss your needs and determine how we can help you achieve
+                  your goals. Contact us today to learn more about our services and get started on your
+                   next project!
                 </p>
             </div>
             <div className={styles.mobileDevMainWhyChooseImageContainer}>

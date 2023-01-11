@@ -1,92 +1,55 @@
-import React from "react";
-import styles from "./MobileDevMainSolutions.module.css";
+import React from 'react'
+import styles from "./MobileDevMainSolutions.module.css"
 
 export const MobileDevMainSolutions = () => {
+
+
+  const mobiledevmainsolutionsdata = [
+    {
+      img:"Images/MobileDevMain/prototyping.png",
+      htxt:"Custom Mobile App Development",
+      stxt:"There's no denying that custom mobile app development is one of the most exciting things you can do with your business. Not only does it give you a chance to create a truly unique experience for your customers, but it also allows you to tap into new markets and reach new audiences."
+    },
+
+    {
+      img:"Images/MobileDevMain/code.png",
+      htxt:"Mobile App Prototyping",
+      stxt:"Mobile app prototyping is an essential part of the app development process. It allows you to test out your ideas and see how they work in a real-world setting. Prototyping also helps you to identify any potential problems with your app before it goes live."
+    },
+
+    {
+      img:"Images/MobileDevMain/ui.png",
+      htxt:"Mobile App UI/UX Design",
+      stxt:"Mobile app UI/UX design is a hot topic in the tech world right now. With so many new apps being released every day, it's important for developers to create unique and user-friendly designs that will help their app stand out from the rest."
+    },
+
+    {
+      img:"Images/MobileDevMain/solutions.png",
+      htxt:"Mobile App Third Party Integration",
+      stxt:"The mobile app industry is booming and there is no signs of it slowing down anytime soon. With that said, more and more businesses are looking to get in on the action by creating their own mobile apps. However, many businesses don't have the in-house expertise or resources to develop a high-quality app."
+    },
+
+  ]
+
+
+
   return (
-    <>
-      <div className={styles.mobileDevMainSolutionsOuterDiv}>
-        <div className={styles.mobileDevMainSolutionsHeading}>
-          <h1>Our Top Custom Mobile App Development Solutions</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore,
-            praesentium perferendis mollitia aliquam eos sint? Nam illum vel
-            voluptates, vitae libero saepe omnis. Ducimus ad numquam aut dicta
-            aperiam harum? Lorem ipsum dolor sit, amet consectetur adipisicing
-            elit. Aliquam, ducimus repellendus in animi recusandae molestiae
-            adipisci consectetur qui id. Odit similique deleniti accusamus.
-            Voluptatum nulla amet blanditiis numquam adipisci impedit? Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit. Nam optio fuga
-            consequatur dolorum in inventore earum explicabo facilis minus
-            consequuntur quos mollitia, debitis nostrum necessitatibus
-            accusantium. Asperiores quis esse eveniet!
-          </p>
+    <div className={styles.mobiledevmainsolutionmainbox}>
+    <div className={styles.mobiledevmainsolutionmappingbox}>{mobiledevmainsolutionsdata.map((e)=>{
+      return ( 
+        <div className={styles.mobiledevmainsolutionmappingboxindivisually}>
+        <div className={styles.mobilesolutionindivisuallyimagbox}><img src={e.img} alt="image" /></div>
+        <div className={styles.mobilesolutionindivisualtxtbox}>
+        <h4>{e.htxt}</h4>
+        <p>{e.stxt}</p>
         </div>
-        <div className={styles.mobileDevMainSolutionsContent}>
-          <div className={styles.mobileDevMainSolutionsContentBox1}>
-            <img
-              className={styles.mobileDevMainSolutionsIcons}
-              src="Images/MobileDevMain/prototyping.png"
-            alt="image"/>
-            <h5 className={styles.mobileDevMainSolutionsContentHeading}>
-              Custom Mobile App Development
-            </h5>
-            <p className={styles.mobileDevMainSolutionsText}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
-            </p>
-          </div>
-
-          <div className={styles.mobileDevMainSolutionsContentBox1}>
-            <img
-              className="mobileDevMainSolutionsIcons"
-              src="Images/MobileDevMain/code.png"
-            alt="image"/>
-            <h5 className={styles.mobileDevMainSolutionsContentHeading}>
-              Custom Mobile App Development
-            </h5>
-            <p className={styles.mobileDevMainSolutionsText}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
-            </p>
-          </div>
-
-          <div className={styles.mobileDevMainSolutionsContentBox1}>
-            <img
-              className="mobileDevMainSolutionsIcons"
-              src="Images/MobileDevMain/ui.png"
-            alt="image"/>
-            <h5 className={styles.mobileDevMainSolutionsContentHeading}>
-              Custom Mobile App Development
-            </h5>
-            <p className={styles.mobileDevMainSolutionsText}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
-            </p>
-          </div>
-
-          <div className={styles.mobileDevMainSolutionsContentBox1}>
-            <img
-              className={styles.mobileDevMainSolutionsIcons}
-              src="Images/MobileDevMain/solutions.png"
-            alt="image"/>
-            <h5 className={styles.mobileDevMainSolutionsContentHeading}>
-              Custom Mobile App Development
-            </h5>
-            <p className={styles.mobileDevMainSolutionsText}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              nihil fuga blanditiis beatae incidunt! Facilis est quidem adipisci
-              unde similique aspernatur sapiente fugit, facere fugiat repellat
-              sit quisquam iusto delectus?
-            </p>
-          </div>
+        
+        
         </div>
-      </div>
-    </>
-  );
-};
+      )
+    })}</div>
+    
+    </div>
+  )
+}
+
