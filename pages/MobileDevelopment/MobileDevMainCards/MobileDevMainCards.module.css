@@ -1,78 +1,53 @@
-.mobileDevMainCardsouterDiv{
-    width: 100%;
-}
-.mobileDevMainCardsContainer{
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-.mobileDevMainCardsBox1{
-    width: 100%;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.mobileDevMainCardsContent{
-    border: 1px solid black;
-    width: 30%;
-    height: 39vh;
-    border-radius: 17px;
-    background-color: #5185C1;
-    display: flex;
-    flex-direction: column;
-}
-.mobileDevMainCardsContent1{
-    border: 1px solid black;
-    width: 30%;
-    height: 38vh;
-    border-radius: 17px;
-    background-color: #5CBAFF;
-    /* background-color: #0E7AC2; */
-    display: flex;
-    flex-direction: column;
-}
-.mobileDevMainCardsContent2{
-    border: 1px solid black;
-    width: 30%;
-    height: 38vh;
-    border-radius: 17px;
-    /* background-color: #5CBAFF; */
-    background-color: #0E7AC2;
-    display: flex;
-    flex-direction: column;
-}
-.mobileDevMainCardsContentHeading{
-    color: white;
-    margin-top: -25%;
-    text-align: center;
-    z-index: 1;
-    /* position: absolute; */
-}
-.mobileDevMainCardsContentHeading1{
-    color: #EF4C23;
-    margin-top: -25%;
-    text-align: center;
-    z-index: 1;
-    /* position: absolute; */
-}
-.mobileDevMainCardsContentImage{
-    width: 100%;
-    height: 30vh;
-    position: relative;
-    z-index: 0;
+.mobiledevmaincardsmainboxes{
+    height: fit-content;
+margin-bottom: 5%;
 }
 
-.mobileDevMainCardsContentText{
+.mobiledevmaincardsmainboxesmappingbox{
+    width: 90%;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobiledevboxindivisually{
+ width: 31%;
+ height: 350px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ margin: 1%;
+ border-radius: 10px;
+}
+
+.mobiledevboxindivisuallyimage{
     width: 100%;
-    height:10vh;
-    position:relative;
-    margin-top: 15%;
-    /* border: 2px solid red; */
-    border-radius: 0px 0px 17px 17px;
+    height: 75%;
+   border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #294361;
+
+}
+
+.mobiledevboxindivisuallyimage>img{
+    height: 100%;
+    width: 100%;
+    object-fit: 100% 100%;
+}
+
+
+.mobiledevboxindivisuallytxt{
+    width: 100%;
+    height: 26%;
+   margin-top: -4%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: black;
     color: white;
-    font-size: 12px;
-    text-align: center;
+    text-align: justify;
+   
+}
+
+.mobiledevboxindivisuallytxt>p{
+   font-size: small;
+   padding: 10px;
 }
