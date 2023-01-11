@@ -1,0 +1,38 @@
+.flowerdeliverylastdivstart {
+  height: fit-content;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flowerdeliverydisplayflex {
+  /* height: 42%; */
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  margin: 2%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.insiderdivflexboxleft {
+  height: 100%;
+  width: 60%;
+}
+
+.insiderdivflexboxleft > h5 {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.insiderdivflexboxright {
+  height: 100%;
+  width: 40%;
+}
+
+.flowerdeliverydisplayflex:hover {
+  transform: scale(1.02);
+  background-color: #fff8f9;
+}

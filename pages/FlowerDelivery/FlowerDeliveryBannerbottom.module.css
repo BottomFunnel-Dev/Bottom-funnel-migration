@@ -1,0 +1,38 @@
+.lowerbannerflower {
+  height: 250px;
+  width: 100%;
+  background-image: url("/Images/Flowerdeliverypage/Group339928.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3%;
+}
+
+.flowerdeliverybannerbuttonforlowerbanner {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 40%;
+  color: white;
+}
+
+.flowerdeliverybannerbuttonforlowerbanner:hover {
+  background-color: white;
+  color: #3380f2;
+}
+
+.lowerbannerflowertext > h2 {
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.lowerbannerflowertext {
+  width: 60%;
+  margin: auto;
+}

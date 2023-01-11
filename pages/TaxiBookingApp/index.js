@@ -1,13 +1,11 @@
 import React from "react";
 
-import Pharmacycontainer from "./Pharmacycontainer";
-import { pharmacyLogo } from "../Data/SeopartnerData";
-import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import Pharmacydelivery from "./Pharmacydelivery";
-import Pharmacysneak from "./Pharmacysneak";
-import Pharmacycustomer from "./Pharmacycustomer";
-import Pharmacydrive from "./Pharmacydrive";
-import Pharmacyadmin from "./Pharmacyadmin";
+import { TaxiBookingAdminpannel } from "./TaxiBookingAdminpannel";
+import { TaxiBookingBanner } from "./TaxiBookingBanner";
+import { TaxiBookingCustomerApp } from "./TaxiBookingCustomerApp";
+import { TaxiBookingDriver } from "./TaxiBookingDriver";
+import { TaxiBookingLowerBanner } from "./TaxiBookingLowerBanner";
+import { TaxiOccassion } from "./TaxiOccassion";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -20,16 +18,15 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Pharmacy () {
+export default function TaxiBookingApp() {
   return (
     <div>
-      <Pharmacycontainer />
-      <Trusted partnerLogo={pharmacyLogo} />
-      <Pharmacydelivery />
-      <Pharmacysneak />
-      <Pharmacycustomer />
-      <Pharmacydrive />
-      <Pharmacyadmin />
+      <TaxiBookingBanner />
+      <TaxiOccassion />
+      <TaxiBookingCustomerApp />
+      <TaxiBookingAdminpannel />
+      <TaxiBookingDriver />
+      <TaxiBookingLowerBanner />
 
       <StoriesSection />
       <Industries />
@@ -43,4 +40,4 @@ export default function Pharmacy () {
       {/* <MainFooter /> */}
     </div>
   );
-};
+}

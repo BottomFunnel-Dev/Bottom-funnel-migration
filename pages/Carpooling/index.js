@@ -1,13 +1,20 @@
 import React from "react";
 
-import Pharmacycontainer from "./Pharmacycontainer";
-import { pharmacyLogo } from "../Data/SeopartnerData";
+import { CarpoolingBanner } from "./CarpoolingBanner";
+import { carpoolingLogo } from "../Data/SeopartnerData";
+import {
+  carpoolCustomer,
+  carpoolAdmin,
+  carpoolDrive,
+} from "../Data/panelsData";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import Pharmacydelivery from "./Pharmacydelivery";
-import Pharmacysneak from "./Pharmacysneak";
-import Pharmacycustomer from "./Pharmacycustomer";
-import Pharmacydrive from "./Pharmacydrive";
-import Pharmacyadmin from "./Pharmacyadmin";
+import { CarpoolingRide } from "./CarpoolingRide";
+import { CarpoolingSolutions } from "./CarpoolingSolutions";
+import Logiccustomer from "../Logistic/Logiccustomer";
+import Logicdrive from "../Logistic/Logicdrive";
+import Logisticadmin from "../Logistic/Logisticadmin";
+import { CarpoolingAction } from "./CarpoolingAction";
+import { CarpoolingWhy } from "./CarpoolingWhy";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -20,16 +27,18 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Pharmacy () {
+export default function CarPooling() {
   return (
     <div>
-      <Pharmacycontainer />
-      <Trusted partnerLogo={pharmacyLogo} />
-      <Pharmacydelivery />
-      <Pharmacysneak />
-      <Pharmacycustomer />
-      <Pharmacydrive />
-      <Pharmacyadmin />
+      <CarpoolingBanner />
+      <Trusted partnerLogo={carpoolingLogo} />
+      <CarpoolingRide />
+      <CarpoolingSolutions />
+      <Logiccustomer customerData={carpoolCustomer} />
+      <Logicdrive driveData={carpoolDrive} />
+      <Logisticadmin adminData={carpoolAdmin} />
+      <CarpoolingAction />
+      <CarpoolingWhy />
 
       <StoriesSection />
       <Industries />
@@ -43,4 +52,4 @@ export default function Pharmacy () {
       {/* <MainFooter /> */}
     </div>
   );
-};
+}

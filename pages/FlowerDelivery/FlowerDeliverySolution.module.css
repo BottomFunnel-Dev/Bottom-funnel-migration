@@ -1,0 +1,87 @@
+.flowerdeliverysolutionmainbox {
+  height: fit-content;
+  margin-top: 50px;
+}
+
+.flowerdeliveryappsolutionboxfortext {
+  height: fit-content;
+  text-align: center;
+}
+
+.flowerdeliverysolutionbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 28%;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.flowerdeliverysolutionbutton:hover {
+  background-color: white;
+  color: #3380f2;
+}
+
+.flowerdeliverysolutionflexbox {
+  display: flex;
+}
+
+.flowerdeliverysolutionflexboxleft {
+  height: fit-content;
+  width: 45%;
+  margin-left: 5%;
+}
+
+.flexboxingmappingdivleftforserviceflower {
+  height: fit-content;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.flexboxingmappingdivleftforserviceflower:hover {
+  transform: scale(1.02);
+  background-color: #fff8f9;
+}
+
+.flowerdeliverysolutionflexboxright {
+  width: 45%;
+  position: relative;
+}
+
+.flowerdeliverysolutionflexboxrightinnerimageone {
+  position: absolute;
+  top: 60%;
+  height: fit-content;
+  width: 100%;
+  left: 10%;
+}
+
+.flowerdeliverysolutionflexboxrightinnerimageone > img {
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.flowerdeliverysolutionflexboxrightinnerimagetwo {
+  height: 80%;
+  width: 50%;
+  padding: auto;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+}
+
+.flowerdeliverysolutionflexboxrightinnerimagetwo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  z-index: 1;
+}

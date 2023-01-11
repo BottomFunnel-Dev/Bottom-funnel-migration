@@ -1,0 +1,33 @@
+.carpoolAction {
+  width: 100%;
+  height: 330px;
+  background: url("/Images/carpoolingpage/bannersbackgrounds/Component 1.png");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center;
+}
+.carpoolAction > div {
+  width: 62%;
+  margin: auto;
+  text-align: center;
+  padding: 35px;
+}
+.carpoolAction > div > h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.bottomButton {
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bottomButton:hover {
+  color: #ef4c23;
+  background-color: white;
+}

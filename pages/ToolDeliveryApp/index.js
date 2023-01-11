@@ -1,14 +1,5 @@
 import React from "react";
 
-import Pharmacycontainer from "./Pharmacycontainer";
-import { pharmacyLogo } from "../Data/SeopartnerData";
-import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import Pharmacydelivery from "./Pharmacydelivery";
-import Pharmacysneak from "./Pharmacysneak";
-import Pharmacycustomer from "./Pharmacycustomer";
-import Pharmacydrive from "./Pharmacydrive";
-import Pharmacyadmin from "./Pharmacyadmin";
-
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -20,16 +11,26 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Pharmacy () {
+import TooDeliveryBanner from "./TooDeliveryBanner";
+import ToolDeliveryService from "./ToolDeliveryService";
+import ToolDeliverysneak from "./ToolDeliverysneak";
+import ToolDeliveryCustomer from "./ToolDeliveryCustomer";
+import ToolDeliveryDriver from "./ToolDeliveryDriver";
+import { ToolDeliveryAdmin } from "./ToolDeliveryAdmin";
+import ToolDeliveryLowerBanner from "./ToolDeliveryLowerBanner";
+import ToolDeliveryFooter from "./ToolDeliveryFooter";
+
+export default function ToolDeliveryApp ()  {
   return (
     <div>
-      <Pharmacycontainer />
-      <Trusted partnerLogo={pharmacyLogo} />
-      <Pharmacydelivery />
-      <Pharmacysneak />
-      <Pharmacycustomer />
-      <Pharmacydrive />
-      <Pharmacyadmin />
+      <TooDeliveryBanner/>
+      <ToolDeliveryService />
+      <ToolDeliverysneak />
+      <ToolDeliveryCustomer />
+      <ToolDeliveryDriver />
+      <ToolDeliveryAdmin />
+      <ToolDeliveryLowerBanner />
+      <ToolDeliveryFooter />
 
       <StoriesSection />
       <Industries />

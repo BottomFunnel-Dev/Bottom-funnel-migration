@@ -1,0 +1,66 @@
+.flowerdeliverydrivermainboxing {
+  height: fit-content;
+  margin-top: 10%;
+  display: flex;
+}
+
+.flowerdeliveryflexboxleft {
+  height: fit-content;
+  width: 60%;
+  position: relative;
+}
+
+.flowerdeliveryflexboxright {
+  height: fit-content;
+  width: 35%;
+}
+
+.flowerdeliveryflexboxright > h2 {
+  margin-left: 2%;
+}
+
+.flowerdeliverydrivermappingbox {
+  height: fit-content;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.flowerdeliverydrivermappingbox:hover {
+  transform: scale(1.02);
+  background-color: #fff8f9;
+}
+
+.flowerdeliveryflexboxleftimageone {
+  position: absolute;
+  height: 400px;
+  width: 80%;
+
+  top: 250px;
+}
+
+.flowerdeliveryflexboxleftimageone > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.flowerdeliveryflexboxleftimagetwo {
+  position: absolute;
+  height: fit-content;
+  width: 33%;
+
+  left: 200px;
+  top: 30px;
+}
+
+.flowerdeliveryflexboxleftimagetwo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 5%;
+  z-index: 1;
+}

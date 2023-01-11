@@ -1,0 +1,74 @@
+.flowerdeliverybannermaindiv {
+  height: 82vh;
+
+  margin-top: 120px;
+  display: flex;
+}
+.flowerdeliverybannerleftbox {
+  height: 50%;
+  width: 35%;
+  margin-left: 5%;
+  margin-top: 12%;
+  text-align: justify;
+}
+
+.flowerdeliverybannerleftbox > h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.flowerdeliverybannerleftbox > h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.flowerdeliverybannerrightbox {
+  width: 52%;
+  margin-left: 2%;
+  position: relative;
+}
+
+.flowerdeliverybannerimageone {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 10%;
+  z-index: 0;
+}
+
+.flowerdeliverybannerimageone > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.flowerdeliverybannerimagetwo {
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  left: 25%;
+  top: 5%;
+}
+.flowerdeliverybannerimagetwo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.flowerdeliverybannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.flowerdeliverybannerbutton:hover {
+  background-color: white;
+  color: #3380f2;
+}

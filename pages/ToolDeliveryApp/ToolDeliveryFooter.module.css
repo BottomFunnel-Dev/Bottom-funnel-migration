@@ -1,0 +1,73 @@
+/* Tool Delivery Footer app */
+
+.tooldeliveryfooterapp {
+  display: flex;
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+
+  flex-wrap: wrap;
+}
+.tooldeliveryfooterbox {
+  height: 40%;
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 2%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.tooldeliveryfooterbox:hover {
+  transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
+
+.tooldeliveryfooterboxlogo {
+  height: 100%;
+  width: 35%;
+}
+
+.toollogoimg {
+  object-fit: contain;
+}
+
+.tooldeliverytextmapping {
+  margin: 5%;
+  padding: 10px;
+}
+
+.flexboxrightinnerimage2fortoolcustomer {
+  height: 130%;
+  width: auto;
+  position: absolute;
+
+  z-index: 1;
+}
+
+.flexboxforclientright {
+  height: 400px;
+  width: 750px;
+
+  margin-left: 100px;
+  position: relative;
+}
+
+.tooldeliverychangableimagediv {
+  width: 30%;
+  height: 100%;
+  margin-left: 40%;
+  margin-bottom: -15%;
+}
+
+.toolcustomerpannelleft {
+  width: 50%;
+  height: 400px;
+  /* padding: 10px; */
+  display: flex;
+  background: url("/public/Images/tooldeliveryapp/Component19.png");
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  background-position-x: right;
+}

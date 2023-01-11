@@ -1,0 +1,34 @@
+.carpoolingRide {
+  width: 100%;
+  height: 400px;
+  background: url("/Images/carpoolingpage/bannersbackgrounds/rideback.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.carpoolingRide > div {
+  width: 60%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 66%;
+  left: 36%;
+}
+.carpoolingRide > div>h1{
+ margin-bottom: 25px;
+
+}
+
+.bottomButton {
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.bottomButton:hover {
+  color: #ef4c23;
+  background-color: white;
+}

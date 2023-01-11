@@ -1,0 +1,103 @@
+ 
+    .tooldeliveryadmin{
+        width: 100%;
+        height: 600px;
+        /* background-color: aqua; */
+      }
+
+      .tooldeliveryadmin>h1{
+       margin-left: 10%;
+       color: #5CACB2;
+      }
+
+      .tooldeliveryadminsub{
+          width: 100%;
+          height: 500px;
+          justify-content: space-between;
+          margin:auto;
+          margin-top: 2%;
+          display: flex;
+      }
+      .tooladminleft{
+          width: 50%;
+          height: 500px;
+          /* padding: 10px; */
+          display: flex;
+          background: url("/public/Images/pharmacy/Admin panel bg.png");
+          background-repeat: no-repeat;
+          background-size: 100% 500px;
+      }
+      .tooldeliveryadminright {
+          width: 45%;
+          margin-left: 3%;
+          height: 85%;
+        margin-top: 3%;
+          /* background-color: aqua; */
+          display: flex;
+          flex-wrap: wrap;
+        
+        }
+        
+        .tooldeliveryadminright > div {
+           padding: 10px;
+          margin: 1%;
+          height: 200px;
+          width: 47%;
+          border-radius: 18px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          border-radius: 10px;
+          background-color:  white;
+          cursor: pointer;
+        }
+        
+      .tooldeliveryadminright> div:hover {
+          background-color: #e1f9f6;
+          transition: all 0.2s linear;
+
+          transform: translateY(-10px);
+
+        }
+        .tooldeliveryadminright> div > h3 {
+          font-size: 18px;
+        }
+        
+       
+        .tooldelivery-admin-image{
+          width: 100%;
+          height: 500px;
+          text-align: right;
+     
+          margin-left: 10%;
+          padding-bottom: 5px;
+        }
+
+        .tooldelivery-admin-image>img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+         
+        }
+
+
+        .tooldeliveryadminleft{
+          width: 50%;
+          height: 500px;
+          /* padding: 10px; */
+          display: flex;
+          background: url("/public/Images/tooldeliveryapp/Rectangle\ 4175.png");
+          background-repeat: no-repeat;
+          background-size: 100% 500px;
+         
+      }
+
+      .tools-logo{
+        height: 20%;
+        width: 20%;
+      
+      }
+
+      .tools-logo >img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }

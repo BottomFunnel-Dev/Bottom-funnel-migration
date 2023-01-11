@@ -1,0 +1,75 @@
+.tooldrive {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+.tooldrive > h1 {
+  position: absolute;
+  left: 60%;
+  top: 10%;
+}
+.tooldeliverydrivesub {
+  width: 100%;
+  height: 500px;
+  margin-top: 2%;
+  justify-content: space-between;
+
+  display: flex;
+}
+.tooldeliverydriveleft {
+  width: 50%;
+  height: 800px;
+  background: url("/Images/tooldeliveryapp/Component20.png");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  margin-left: -3%;
+  position: relative;
+}
+
+.tooldeliverydriveright {
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+.tooldeliverydriveright > div {
+  padding: 10px;
+  margin: 1%;
+  height: 180px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.tooldeliverydriveright > div:hover {
+  background-color: #e1f9f6;
+  transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+}
+
+.tooldeliverydriveright > div > h3 {
+  font-size: 18px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.tooldeliveryDriveImage {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 20%;
+  margin-left: 35%;
+}
+
+.tooldeliveryDriveImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

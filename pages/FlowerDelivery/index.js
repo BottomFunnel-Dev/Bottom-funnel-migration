@@ -1,13 +1,12 @@
 import React from "react";
 
-import Pharmacycontainer from "./Pharmacycontainer";
-import { pharmacyLogo } from "../Data/SeopartnerData";
-import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
-import Pharmacydelivery from "./Pharmacydelivery";
-import Pharmacysneak from "./Pharmacysneak";
-import Pharmacycustomer from "./Pharmacycustomer";
-import Pharmacydrive from "./Pharmacydrive";
-import Pharmacyadmin from "./Pharmacyadmin";
+import FlowerDeliveryBanner from "./FlowerDeliveryBanner";
+import { FlowerDeliveryService } from "./FlowerDeliveryService";
+import FlowerDeliverySolution from "./FlowerDeliverySolution";
+import FlowerDeliveryDriver from "./FlowerDeliveryDriver";
+import FlowerDeliveryAdmin from "./FlowerDeliveryAdmin";
+import FlowerDeliveryBannerbottom from "./FlowerDeliveryBannerbottom";
+import FlowerDeliverylast from "./FlowerDeliverylast";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -20,16 +19,16 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function Pharmacy () {
+export default function FlowerDelivery() {
   return (
     <div>
-      <Pharmacycontainer />
-      <Trusted partnerLogo={pharmacyLogo} />
-      <Pharmacydelivery />
-      <Pharmacysneak />
-      <Pharmacycustomer />
-      <Pharmacydrive />
-      <Pharmacyadmin />
+      <FlowerDeliveryBanner />
+      <FlowerDeliveryService />
+      <FlowerDeliverySolution />
+      <FlowerDeliveryDriver />
+      <FlowerDeliveryAdmin />
+      <FlowerDeliveryBannerbottom />
+      <FlowerDeliverylast />
 
       <StoriesSection />
       <Industries />
@@ -43,4 +42,4 @@ export default function Pharmacy () {
       {/* <MainFooter /> */}
     </div>
   );
-};
+}
