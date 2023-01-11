@@ -1,3 +1,6 @@
+/* for laptop and big size size of screens responsive */
+
+@media only screen and (min-width:769px){
 .mobiledevmaincardsmainboxes{
     height: fit-content;
 margin-bottom: 5%;
@@ -25,8 +28,17 @@ margin-bottom: 5%;
    border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-color: #294361;
-
+    position: relative;
 }
+
+.mobiledevboxindivisuallyimage>h4{
+position: absolute;
+top: 25%;
+left: 20%;
+color: white;
+}
+
+
 
 .mobiledevboxindivisuallyimage>img{
     height: 100%;
@@ -50,4 +62,12 @@ margin-bottom: 5%;
 .mobiledevboxindivisuallytxt>p{
    font-size: small;
    padding: 10px;
+}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+    
+
 }
