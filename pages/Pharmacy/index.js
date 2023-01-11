@@ -14,16 +14,20 @@ import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 import Pharmacycontainer from "./Pharmacycontainer";
 import { pharmacyLogo } from "../Data/SeopartnerData";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import Pharmacydelivery from "./Pharmacydelivery";
+import Pharmacysneak from "./Pharmacysneak";
+import Pharmacycustomer from "./Pharmacycustomer";
+import Pharmacydrive from "./Pharmacydrive";
 
 export default function Pharmacy () {
   return (
     <div>
       <Pharmacycontainer />
       <Trusted partnerLogo={pharmacyLogo} />
-      {/* <Pharmacydelivery /> */}
-      {/* <Pharmacysneak /> */}
-      {/* <Pharmacycustomer /> */}
-      {/* <Pharmacydrive /> */}
+      <Pharmacydelivery />
+      <Pharmacysneak />
+      <Pharmacycustomer />
+      <Pharmacydrive />
       {/* <Pharmacyadmin /> */}
 
       {/* <StoriesSection /> */}

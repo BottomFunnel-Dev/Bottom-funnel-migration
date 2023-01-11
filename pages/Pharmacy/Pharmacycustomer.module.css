@@ -3,27 +3,27 @@
   height: 600px;
   /* background-color: aqua; */
 }
+
 .pharmacycustomer > h1 {
   margin-left: 5%;
   color: #5cacb2;
 }
+
 .pharmacycustomersub {
   width: 100%;
   height: 500px;
-
   margin-top: 2%;
   display: flex;
 }
+
 .pharmacycustomerleft {
   width: 40%;
   height: 490px;
   padding: 10px;
   /* background-color: blueviolet; */
   display: flex;
-  /* background: url("/public/Images/pharmacy/rectanglebase.png");
-      background-repeat: no-repeat;
-      background-size: 100% 500px; */
 }
+
 .pharmacycustomerright {
   /* background-color: blue; */
   width: 58%;
@@ -31,11 +31,11 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 2%;
+  /* border: 1px solid red; */
 }
 
 .pharmacycustomerright > div {
   padding: 10px 10px 10px 10px;
-
   margin-left: 4%;
   height: 210px;
   width: 25%;
@@ -60,15 +60,14 @@
   font-size: 18px;
 }
 
-.pharmacy-customer-image {
+.pharmacyCustomerImage {
   width: 65%;
   height: 540px;
   text-align: right;
-
   margin: 2% 20%;
 }
 
-.pharmacy-customer-image > img {
+.pharmacyCustomerImage > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
