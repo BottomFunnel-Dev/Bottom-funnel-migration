@@ -1,0 +1,53 @@
+.szpharmacycontainer {
+  width: 100%;
+  height: 100vh;
+  /* background-color: aqua; */
+  /* margin-top: 6%; */
+}
+.szpharmacysubcontainer {
+  width: 100%;
+  height: 100%;
+  background: url("/Images/pharmacy/Banner.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: 10px ; */
+  color: white;
+  display: flex;
+}
+
+.szpharmacyleft {
+  width: 50%;
+  /* background-color: chartreuse; */
+  position: relative;
+  /* padding: 100px 30px; */
+}
+.szpharmacyleft > div {
+  width: 90%;
+  padding: 30px 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 52%;
+}
+
+.szpharmacyleft > div > p {
+  margin-top: 2%;
+  color: white;
+}
+
+.szpharmacybtn {
+  padding: 10px 60px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  margin-top: 2%;
+  background-color: #ef4c23;
+  color: white;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.szpharmacybtn:hover {
+  color: #ef4c23;
+  background-color: white;
+}

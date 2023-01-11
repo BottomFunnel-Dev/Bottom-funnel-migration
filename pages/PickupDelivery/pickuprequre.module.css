@@ -1,0 +1,11 @@
+.pickuprequire {
+  width: 96%;
+  text-align: center;
+  padding: 30px;
+  background-color: #98b6d6;
+}
+
+.pickuprequire > div {
+  width: 80%;
+  margin: auto;
+}

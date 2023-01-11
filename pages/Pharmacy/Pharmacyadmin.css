@@ -1,0 +1,79 @@
+.pharmacyadmin {
+  width: 100%;
+  height: 600px;
+  /* background-color: aqua; */
+}
+
+.pharmacyadmin > h1 {
+  margin-left: 5%;
+  color: #5cacb2;
+}
+
+.pharmacyadminsub {
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+}
+.pharmacyadminleft {
+  width: 50%;
+  height: 500px;
+  /* padding: 10px; */
+  display: flex;
+  background: url("/public/Images/pharmacy/Admin panel bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+}
+.pharmacyadminright {
+  width: 45%;
+  margin-left: 1%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pharmacyadminright > div {
+  padding: 10px 10px 10px 10px;
+  gap: 10px;
+  margin-left: 8%;
+  height: 200px;
+  width: 35%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pharmacyadminright > div:hover {
+  background-color: #e1f9f6;
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pharmacyadminright > div > h3 {
+  font-size: 18px;
+}
+
+.pharmacy-admin-image {
+  width: 80%;
+  height: 500px;
+  text-align: right;
+
+  margin-left: 10%;
+  padding-bottom: 5px;
+}
+
+.pharmacy-admin-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

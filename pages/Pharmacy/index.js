@@ -1,12 +1,5 @@
 import React from "react";
 
-import { MarketplaceBanner } from "./MarketplaceBanner";
-import MarketplaceFreelancer from "./MarketplaceFreelancer";
-import MarketPlaceAdmin from "./MarketPlaceAdmin";
-import MarketPlaceClients from "./MarketPlaceClients";
-import Marketplaceborder from "./Marketplaceborder";
-import Maketplacefooter from "./Maketplacefooter";
-
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -18,25 +11,30 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function MarketPlace () {
+import Pharmacycontainer from "./Pharmacycontainer";
+import { pharmacyLogo } from "../Data/SeopartnerData";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+
+export default function Pharmacy () {
   return (
     <div>
-      <MarketplaceBanner />
-      <MarketplaceFreelancer />
-      <MarketPlaceAdmin />
-      <MarketPlaceClients />
-      <Marketplaceborder />
-      <Maketplacefooter />
+      <Pharmacycontainer />
+      <Trusted partnerLogo={pharmacyLogo} />
+      {/* <Pharmacydelivery /> */}
+      {/* <Pharmacysneak /> */}
+      {/* <Pharmacycustomer /> */}
+      {/* <Pharmacydrive /> */}
+      {/* <Pharmacyadmin /> */}
 
-      <StoriesSection />
-      <Industries />
+      {/* <StoriesSection /> */}
+      {/* <Industries /> */}
       {/* <PlanProject /> */}
-      <OndemandSection />
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
       {/* <MainFooter /> */}
     </div>
   );

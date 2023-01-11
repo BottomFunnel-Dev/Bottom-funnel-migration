@@ -1,0 +1,14 @@
+.pickuplowerbannermainbox {
+  height: 45vh;
+  border: 0.01px solid white;
+  background: url("/Images/pickup/backgrounds/endtoendsolutionbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pickupdeliveryapplowerbannersometxt {
+  height: fit-content;
+  width: 58%;
+
+  margin: 7% 0% 0% 25%;
+}

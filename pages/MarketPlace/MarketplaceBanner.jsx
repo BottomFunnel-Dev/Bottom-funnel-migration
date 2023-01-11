@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import "./MarketPlaceBanner.css";
+import React, { useState } from "react";
+import styles from "./MarketPlaceBanner.module.css";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -12,7 +12,7 @@ export const MarketplaceBanner = () => {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
-  const handleP = ()=>{console.log("working button")}
+  // const handleP = () => { console.log("working button") }
   const style = {
     position: "absolute",
     top: "50%",
@@ -29,13 +29,14 @@ export const MarketplaceBanner = () => {
   };
 
   return (
-    <div className="marketplacebannerimage">
-      <div className="marketplacebannerimageinsideboxtext">
+    <div className={styles.marketplacebannerimage}>
+      <div className={styles.marketplacebannerimageinsideboxtext}>
         <h1>Build A Freelancer Marketplace Like Upwork & Fiverr</h1>
         <p>
-        Are you looking for a place to hire freelancers? Have you tried Upwork or Fiverr, but found them to be too time consuming and other similar sites? Let's build an online marketplace where people are looking for your type of work!{" "}
+          Are you looking for a place to hire freelancers? Have you tried Upwork or Fiverr, but found them to be too time consuming
+          and other similar sites? Let's build an online marketplace where people are looking for your type of work!{" "}
         </p>
-        <button className="marketplacebutton" onClick={handleOpen} >
+        <button className={styles.marketplacebutton} onClick={handleOpen} >
           Get Started
         </button>
 

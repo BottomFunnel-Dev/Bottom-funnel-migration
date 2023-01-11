@@ -1,0 +1,128 @@
+.pickupcustomer {
+  width: 97%;
+  height: max-content;
+  padding: 20px;
+}
+
+.pickupcustomerright {
+  width: 60%;
+  position: relative;
+  text-align: center;
+  /* border: 2px solid yellow; */
+}
+.pickupcustomerright h1{
+  /* border: 2px solid green; */
+  text-align: left;
+  margin-left: 4%;
+  color:  #5CACB2;
+}
+.pickupcustomerSols {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  /* height: 500px; */
+}
+
+.pickupcustomerImage {
+  width: 40%;
+  height: 574px;
+  position: relative;
+  /* background-color: aqua; */
+  background: url("/Images/pickup/backgrounds/customerappbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+}
+
+/* .pickupcustomer>h1{
+padding: 0 30px;
+} */
+.variableImg {
+  width: 250px;
+  /* background-color: green; */
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 43%;
+  left: 42%;
+ 
+}
+.variableImg > img {
+  width: 160%;
+  height: 122%;
+  object-fit: contain;
+}
+/* .pickupcustomerImage > img {
+  width: 0%;
+  height: 90%;
+  object-fit: contain;
+} */
+
+.pickupcustomerText {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 10px;
+  row-gap: 24px;
+  /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+}
+
+.pickupcustomercard {
+  width: 30%;
+  /* height: 250px; */
+  padding: 20px 10px;
+  border-radius: 10px;
+  text-align: left;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.pickupcustomercard:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #f2daaf;
+}
+
+.pickupcustomercard > h6 {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.pickupcustomerIcon {
+  width: 60px;
+  height: 60px;
+}
+.pickupcustomerIcon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* 
+.pickupcustomerright > button {
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pickupcustomerright > button:hover {
+  color: #ef4c23;
+  background-color: white;
+} */
+
+.dummy {
+  width: 30%;
+}

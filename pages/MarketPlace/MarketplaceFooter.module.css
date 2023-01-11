@@ -1,0 +1,62 @@
+.marketplacefooterdiv {
+  height: 400px;
+  width: 100%;
+}
+
+.marketplacefooterdivfortext {
+  height: auto;
+
+  text-align: center;
+}
+
+.marketplacefooterdivspecial {
+  height: 50%;
+  width: 75%;
+  position: relative;
+  top: 5%;
+  left: 15%;
+}
+.marketplacefooterdivspecialimageflex {
+  display: flex;
+}
+
+.marketplacefooterinnerbox {
+  display: flex;
+  position: relative;
+  height: 125px;
+  width: 220px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  left: 4%;
+  margin-top: 3%;
+  background-color: white;
+  margin: 2%;
+}
+
+.marketplacefooterinnerboximg {
+  /* padding: 10px; */
+  height: 50%;
+  margin-left: 20%;
+  margin-bottom: 0%;
+}
+
+.marketplaceinnerboxdivfooter {
+  margin-left: 20%;
+}
+
+.marketplacemaindivrightindex2 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+.marketplacefootermaindivrightindex0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.smalltxtmarketplace {
+  margin-top: 0%;
+}

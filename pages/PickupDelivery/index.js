@@ -1,11 +1,14 @@
 import React from "react";
 
-import { MarketplaceBanner } from "./MarketplaceBanner";
-import MarketplaceFreelancer from "./MarketplaceFreelancer";
-import MarketPlaceAdmin from "./MarketPlaceAdmin";
-import MarketPlaceClients from "./MarketPlaceClients";
-import Marketplaceborder from "./Marketplaceborder";
-import Maketplacefooter from "./Maketplacefooter";
+import { PickupBanner } from "./PickupBanner";
+import { pickupanddeliveryLogo } from "../Data/SeopartnerData";
+import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
+import { PickupSolutions } from "./PickupSolutions";
+import { Pickuprequire } from "./Pickuprequire";
+import { PickupCustomer } from "./PickupCustomer";
+import { Pickupdriveapp } from "./Pickupdriveapp";
+import { Pickupadmin } from "./Pickupadmin";
+import { PickupLowerBanner } from "./PickupLowerBanner";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
@@ -18,15 +21,17 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function MarketPlace () {
+export default function PickupDelivery() {
   return (
     <div>
-      <MarketplaceBanner />
-      <MarketplaceFreelancer />
-      <MarketPlaceAdmin />
-      <MarketPlaceClients />
-      <Marketplaceborder />
-      <Maketplacefooter />
+      <PickupBanner />
+      <Trusted partnerLogo={pickupanddeliveryLogo} />
+      <PickupSolutions />
+      <Pickuprequire />
+      <PickupCustomer />
+      <Pickupdriveapp />
+      <Pickupadmin />
+      <PickupLowerBanner />
 
       <StoriesSection />
       <Industries />
