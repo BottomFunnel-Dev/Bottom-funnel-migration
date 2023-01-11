@@ -5453,12 +5453,13 @@ export const phalconData = {
 };
 
 export const semanticData = {
-  title: "Best Semantic Ui developers in the market | Bottom Funnel",
+  title:
+    "Best Semantic Ui developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/semanticphotos/banner.png",
+    image: "/Images/skillsPhotos/semanticphotos/banner.webp",
     title: "Semantic Ui Development Services",
     description:
       "Delivering on your business vision with quality Semantic UI web development.",
@@ -5466,7 +5467,7 @@ export const semanticData = {
   isDes: true,
   desData: {
     title: "Semantic UI",
-    image: "/Images/semanticphotos/logo.png",
+    image: "/Images/skillsPhotos/semanticphotos/logo.webp",
     description:
       "Semantic UI is a design system that was created to make creating beautiful, user-friendly websites easier. The system offers an intuitive drag-and-drop interface that makes it easy to create fluid and organized designs. Semantic UI also includes features such as components, modules, views, routes, models and stores. This allows you to quickly build dynamic pages with complex layouts without having to worry about the code behind them.Semantic UI is free and available on both Mac and PC platforms. It can be used standalone or in conjunction with another frontend framework like Bootstrap or Foundation.",
   },
@@ -5476,7 +5477,7 @@ export const semanticData = {
     cardsData: [
       {
         img: {
-          src: "/Images/semanticphotos/Frame-5.png",
+          src: "/Images/skillsPhotos/semanticphotos/Frame-5.webp",
           alt: "Improved SEO performance logo",
         },
         title: "Lightweight and Minimal",
@@ -5486,7 +5487,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "/Images/semanticphotos/Frame-4.png",
+          src: "/Images/skillsPhotos/semanticphotos/Frame-4.webp",
           alt: "Security logo",
         },
         title: "Multiple Themes",
@@ -5495,7 +5496,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "/Images/semanticphotos/Frame-3.png",
+          src: "/Images/skillsPhotos/semanticphotos/Frame-3.webp",
           alt: "Fast performance logo",
         },
         title: "Intutive Javascript",
@@ -5504,7 +5505,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "/Images/semanticphotos/Frame-1.png",
+          src: "/Images/skillsPhotos/semanticphotos/Frame-1.webp",
           alt: "Autoloader logo",
         },
         title: "Varying Prototypes",
@@ -5513,7 +5514,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "/Images/semanticphotos/Frame-2.png",
+          src: "/Images/skillsPhotos/semanticphotos/Frame-2.webp",
           alt: "Independent framework logo",
         },
         title: "Easy to Understand",
@@ -5522,7 +5523,7 @@ export const semanticData = {
       },
       {
         img: {
-          src: "/Images/semanticphotos/fastrun.png",
+          src: "/Images/skillsPhotos/semanticphotos/fastrun.webp",
           alt: "Fastest framework for PHP logo",
         },
         title: "Fast Performance",
@@ -5534,7 +5535,7 @@ export const semanticData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel For Semantic UI",
-    image: "/Images/semanticphotos/Frame.png",
+    image: "/Images/skillsPhotos/semanticphotos/Frame.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5548,54 +5549,33 @@ export const semanticData = {
   BookCallData: {
     title: "Need our Semantic UI developers to build your application?",
     btn: "Book a call now",
+    image: "/Images/skillsPhotos/semanticphotos/minibanner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Semantic UI Services",
-    description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    title: "benefits of using semantic ui",
+    description: "",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/nodejsphotos/fast-run.webp",
+          alt: "Performance logo",
         },
-        title: "Open-source",
+        title: "Performance",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/dotnetphotos/security.webp",
+          alt: "Security logo",
         },
-        title: "Easy complex component handling",
+        title: "Security",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
+          alt: "Technical support logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Technical support",
       },
     ],
   },
@@ -5607,7 +5587,7 @@ export const GhostData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/ghostPhotos/banner.png",
+    image: "/Images/skillsPhotos/ghostPhotos/banner.webp",
     title: "Ghost Development Services",
     description:
       "Delivering on your business vision with quality ghost website builder experts.",
@@ -5615,7 +5595,7 @@ export const GhostData = {
   isDes: true,
   desData: {
     title: "Ghost",
-    image: "/Images/ghostPhotos/ghost-logo.png",
+    image: "/Images/skillsPhotos/ghostPhotos/ghost-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -5625,7 +5605,7 @@ export const GhostData = {
     cardsData: [
       {
         img: {
-          src: "/Images/ghostPhotos/leafs.png",
+          src: "/Images/skillsPhotos/ghostPhotos/leafs.webp",
           alt: "Lightweight and minimal logo",
         },
         title: "Lightweight and minimal",
@@ -5635,7 +5615,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "/Images/ghostPhotos/aritficial.png",
+          src: "/Images/skillsPhotos/ghostPhotos/aritficial.webp",
           alt: "Integrations logo",
         },
         title: "Integrations",
@@ -5644,7 +5624,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "/Images/ghostPhotos/setting.png",
+          src: "/Images/skillsPhotos/ghostPhotos/setting.webp",
           alt: "Easy to customize and themes logo",
         },
         title: "Easy to customize and themes",
@@ -5653,7 +5633,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "/Images/ghostPhotos/stars.png",
+          src: "/Images/skillsPhotos/ghostPhotos/stars.webp",
           alt: "Membership management logo",
         },
         title: "SEO friendly",
@@ -5662,7 +5642,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "/Images/ghostPhotos/document.png",
+          src: "/Images/skillsPhotos/ghostPhotos/document.webp",
           alt: "Good documentation logo",
         },
         title: "Good documentation",
@@ -5671,7 +5651,7 @@ export const GhostData = {
       },
       {
         img: {
-          src: "/Images/ghostPhotos/fast-run.png",
+          src: "/Images/skillsPhotos/ghostPhotos/fast-run.webp",
           alt: "Fast performance logo",
         },
         title: "Fast performance",
@@ -5683,7 +5663,7 @@ export const GhostData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for ghost",
-    image: "/Images/ghostPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/ghostPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5697,67 +5677,46 @@ export const GhostData = {
   BookCallData: {
     title: "Need our ghost developers to build your application?",
     btn: "Book a call now",
-    image: "/Images/ghostPhotos/mid-banner.png",
+    image: "/Images/skillsPhotos/ghostPhotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
-    description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    title: "benefits of using ghost for website building",
+    description: "",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "Fast performance logo",
         },
-        title: "Open-source",
+        title: "Fast performance",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/ghostPhotos/stars.webp",
+          alt: "SEO friendly logo",
         },
-        title: "Easy complex component handling",
+        title: "SEO friendly",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/ghostPhotos/setting.webp",
+          alt: "Easy to customise logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Easy to customise",
       },
     ],
   },
 };
 
 export const WeeblyData = {
-  title: "Weebly Web hosting services | Hire web developer | Bottom Funnel",
+  title:
+    "Weebly Web hosting services | Hire web developer | Bottom Funnel Technologies PVT. LTD.",
   description:
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/weeblyPhotos/banner.png",
+    image: "/Images/skillsPhotos/weeblyPhotos/banner.webp",
     title: "Weebly Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -5765,7 +5724,7 @@ export const WeeblyData = {
   isDes: true,
   desData: {
     title: "Weebly",
-    image: "/Images/weeblyPhotos/weebly-logo.png",
+    image: "/Images/skillsPhotos/weeblyPhotos/weebly-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -5775,7 +5734,7 @@ export const WeeblyData = {
     cardsData: [
       {
         img: {
-          src: "/Images/weeblyPhotos/setting.png",
+          src: "/Images/skillsPhotos/weeblyPhotos/setting.webp",
           alt: "Flexible logo",
         },
         title: "Flexible",
@@ -5785,7 +5744,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "/Images/weeblyPhotos/document.png",
+          src: "/Images/skillsPhotos/weeblyPhotos/document.webp",
           alt: "Smart Content logo",
         },
         title: "Smart Content",
@@ -5794,7 +5753,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "/Images/weeblyPhotos/custom.png",
+          src: "/Images/skillsPhotos/weeblyPhotos/custom.webp",
           alt: "Easy Personalization logo",
         },
         title: "Easy Personalization",
@@ -5803,7 +5762,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "/Images/weeblyPhotos/seo.png",
+          src: "/Images/skillsPhotos/weeblyPhotos/seo.webp",
           alt: "SEO is Easy logo",
         },
         title: "SEO is Easy",
@@ -5812,7 +5771,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "/Images/weeblyPhotos/secure.png",
+          src: "/Images/skillsPhotos/weeblyPhotos/secure.webp",
           alt: "High Security & Protected logo",
         },
         title: "High Security & Protected",
@@ -5821,7 +5780,7 @@ export const WeeblyData = {
       },
       {
         img: {
-          src: "/Images/weeblyPhotos/checked.png",
+          src: "/Images/skillsPhotos/weeblyPhotos/checked.webp",
           alt: "Easy to use logo",
         },
         title: "Easy to use",
@@ -5833,7 +5792,7 @@ export const WeeblyData = {
   isWhyBF: true,
   WhyBFData: {
     title: "Why Bottom Funnel for weebly",
-    image: "/Images/weeblyPhotos/big-left-image.png",
+    image: "/Images/skillsPhotos/weeblyPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
@@ -5847,55 +5806,33 @@ export const WeeblyData = {
   BookCallData: {
     title: "Need our weebly developers to build your application?",
     btn: "Book a call now",
-    image: "/Images/ghostPhotos/mid-banner.png",
+    image: "/Images/skillsPhotos/ghostPhotos/mid-banner.webp",
   },
-  isRemarkable: false,
+  isRemarkable: true,
   RemarkableData: {
-    title: "Remarkable Angularjs Services",
-    description:
-      "Empower yourself and choose the right path by availing our best Node JS Development Services by hiring the certified dotnet Experts. Our dotnet developers are a great choice for your next project because we specialize in providing custom, lightweight, scalable, and high-performance dotnet development services.",
+    title: "benefits of using weebly",
+    description: "",
     cardsData: [
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/open-source.png",
-          alt: "Open-source logo",
+          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          alt: "Easy to use logo",
         },
-        title: "Open-source",
+        title: "Easy to use",
       },
       {
         img: {
-          src: "/Images/angularjsSkillsPhotos/complex-handling.png",
-          alt: "Easy complex component handling logo",
+          src: "/Images/skillsPhotos/phpskillsphotos/support.webp",
+          alt: "User support logo",
         },
-        title: "Easy complex component handling",
+        title: "User support",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Time-Saving Process logo",
+          src: "/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
+          alt: "Maintenance logo",
         },
-        title: "Time-Saving Process",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/effective-framework.png",
-          alt: "Effective Framework logo",
-        },
-        title: "Effective Framework",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/reuseable-code.png",
-          alt: "Reusable code logo",
-        },
-        title: "Reusable code",
-      },
-      {
-        img: {
-          src: "/Images/angularjsSkillsPhotos/testing-now-then.png",
-          alt: "Enables Testing Now and Then logo",
-        },
-        title: "Enables Testing Now and Then",
+        title: "Maintenance",
       },
     ],
   },
