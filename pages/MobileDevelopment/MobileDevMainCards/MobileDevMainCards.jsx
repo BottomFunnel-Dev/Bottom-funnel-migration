@@ -227,6 +227,7 @@ export const MobileDevMainCards = () => {
         <div className={styles.mobiledevboxindivisually}>
         <div className={styles.mobiledevboxindivisuallyimage}>
         <img src={e.img} alt='' />
+        <h4>{e.htxt}</h4>
         </div>
         <div className={styles.mobiledevboxindivisuallytxt}>
         <p>{e.stxt}</p>
