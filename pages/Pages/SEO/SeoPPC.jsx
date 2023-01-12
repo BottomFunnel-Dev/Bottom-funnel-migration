@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
 import Stories from "../../StoriesSection/StoriesSection";
 import SeoPPCAgency from "../../Seo PPC/SeoPPCAgency";
 import SeoPPCblogs from "../../Seo PPC/SeoPPCblog";
@@ -25,11 +23,6 @@ import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import { dmpagesLogo } from "../../../Data/SeopartnerData";
 
 const SeoPPC = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
-  }, []);
-  
   return (
     <div>
       <SeoPPCSection />

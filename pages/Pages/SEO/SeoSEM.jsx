@@ -1,7 +1,4 @@
 import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
-import Downloadratecard from "../../Seo PPC/Downloadratecard";
 import Reviews from "../../SEO/SeoReviews/Reviews";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
 import SeoSEMAgency from "../../SeoSEM/SeoSEMAgency";
@@ -24,11 +21,7 @@ import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import { dmpagesLogo } from "../../../Data/SeopartnerData";
 
 const SeoSEM = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
-  }, []);
-  
+
   return (
     <div>
       <SeoSEMSection />

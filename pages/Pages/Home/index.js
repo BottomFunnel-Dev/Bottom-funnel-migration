@@ -16,9 +16,6 @@ import About from "../../AboutSection/About";
 import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import OndemandSection from "../../CommonComponents/OnDemandSection/OndemandSection";
 import PortFolio from "../../CommonComponents/PortFolioSection/PortFolio";
-import { ParallexSection } from "../../Parallex/ParallexSection";
-import { Helmet } from "react-helmet";
-import EnquiryNow from "../../SEO/EnquiryNow/EnquiryNow";
 import { BannerFull } from "../../mainSection/BannerFull";
 
 export const HomePage = () => {

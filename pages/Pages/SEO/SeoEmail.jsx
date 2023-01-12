@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
 import Reviews from "../../SEO/SeoReviews/Reviews";
 import Seostats from "../../SEO/Seostats/Seostats";
 import SeoEmailAgency from "../../SeoEmail/SeoEmailAgency";
@@ -15,12 +13,8 @@ import SeoEmailFaq from "../../SeoEmail/SeoEmailFaq";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
 import MainFooter from "../../FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
-import { dmpagesLogo } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../Data/SeopartnerData";
 const SeoEmail = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
-  }, []);
   return (
     <div>
       <SeoEmailSection />
