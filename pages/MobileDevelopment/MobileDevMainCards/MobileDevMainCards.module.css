@@ -68,6 +68,67 @@ color: white;
 
 @media only screen and (min-width:0px) and (max-width:376px){
 
+    .mobiledevmaincardsmainboxes{
+    height: fit-content;
+    margin-bottom: 5%;
+    }
     
+    .mobiledevmaincardsmainboxesmappingbox{
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    
+    .mobiledevboxindivisually{
+     width: 95%;
+     height: 300px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     margin: 5%;
+     margin-top: 7%;
+     border-radius: 10px;
+    }
+    
+    .mobiledevboxindivisuallyimage{
+        width: 100%;
+        height: 75%;
+       border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: #294361;
+        position: relative;
+    }
+    
+    .mobiledevboxindivisuallyimage>h4{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: white;
+    }
+    
+    .mobiledevboxindivisuallyimage>img{
+        height: 100%;
+        width: 100%;
+        object-fit: 100% 100%;
+    }
+    
+    
+    .mobiledevboxindivisuallytxt{
+        width: 100%;
+        height:fit-content;
+       margin-top: -4%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: black;
+        color: white;
+        text-align: justify;
+       
+    }
+    
+    .mobiledevboxindivisuallytxt>p{
+       font-size: small;
+       padding: 10px;
+    }
 
 }

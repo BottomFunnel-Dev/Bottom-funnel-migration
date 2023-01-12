@@ -1,6 +1,19 @@
+/* for any type of laptop and wide range of sceens */
+@media only screen and (min-width:769px){
 .mobiledevmainsolutionmainbox{
   height: fit-content;
 
+}
+.mobiledevmainsolutionuppertxtbox{
+  height: fit-content;
+
+  text-align: center;
+  margin-bottom: 3%;
+}
+.mobiledevmainsolutionuppertxtbox>p{
+  width: 80%;
+  text-align: justify;
+  margin: auto;
 }
 
 .mobiledevmainsolutionmappingbox{
@@ -16,6 +29,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 5px;
   padding: 15px;
+  border-radius: 10px;
 }
 
 .mobilesolutionindivisuallyimagbox{
@@ -32,4 +46,63 @@
 
 .mobilesolutionindivisualtxtbox>p{
   text-align: justify;
+}
+}
+
+/* for any type of mobile screens responsives */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+  .mobiledevmainsolutionmainbox{
+    height: fit-content;
+  margin-top: 10%;
+  }
+  .mobiledevmainsolutionuppertxtbox{
+    height: fit-content;
+  
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  .mobiledevmainsolutionuppertxtbox>h1{
+    font-size: 25px;
+  }
+  .mobiledevmainsolutionuppertxtbox>p{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+  }
+  
+  .mobiledevmainsolutionmappingbox{
+    width: 90%;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mobiledevmainsolutionmappingboxindivisually{
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin-left: 6%;
+   margin-top: 5%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .mobilesolutionindivisuallyimagbox{
+    height: 60px;
+    width: 20%;
+  
+    padding: 10px;
+  }
+  .mobilesolutionindivisuallyimagbox>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .mobilesolutionindivisualtxtbox>p{
+    text-align: justify;
+  }
+
 }

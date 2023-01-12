@@ -1,3 +1,5 @@
+/* for laptop and wide range of screens */
+@media only screen and (min-width:769px){
 .mobileDevMainProjectmainbox {
   /* height: 40vh; */
   width: 99.5%;
@@ -56,4 +58,71 @@
 .mobileDevMainProjectbutton:hover {
   background-color: white;
   color: #3380f2;
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+  .mobileDevMainProjectmainbox {
+    /* height: 80vh; */
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 2%;
+    position: relative;
+  }
+  
+  .mobileDevMainProjectBackImage{
+    /* border: 2px solid red; */
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .mobileDevMainProjectBackImage > img{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .mobileDevMainProjectmainboxinnertextdiv {
+    /* margin-top: 2%; */
+    margin-left: 7%;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 70%;
+    text-align: justify;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 0%;
+  }
+  
+  .mobileDevMainProjectmainboxinnertextdiv > h1 {
+    color: white;
+    font-size: 12px;
+  }
+  .mobileDevMainProjectmainboxinnertextdiv > p {
+    color: white;
+    font-size: 7px;
+    /* border: 2px solid red; */
+    /* width: 60%; */
+    /* margin: auto; */
+  }
+  
+  .mobileDevMainProjectbutton {
+    padding: 5px 5px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 12px;
+
+    color: white;
+  }
+  
+  .mobileDevMainProjectbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+
 }

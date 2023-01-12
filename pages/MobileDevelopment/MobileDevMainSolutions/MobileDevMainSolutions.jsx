@@ -35,6 +35,19 @@ export const MobileDevMainSolutions = () => {
 
   return (
     <div className={styles.mobiledevmainsolutionmainbox}>
+    <div className={styles.mobiledevmainsolutionuppertxtbox}>
+    <h1>Our Top Custom Mobile App Development Solutions</h1>
+    <p>Our top custom mobile app development solutions are
+     perfect for businesses of all sizes. From small businesses
+      to enterprise organizations, we have a solution that will 
+      fit your needs. We offer a wide range of services, including 
+      custom app development, enterprise mobility solutions, and more.
+       Our team of experienced developers can create a custom app that
+        meets your specific business needs. We also offer a variety of 
+        other services, such as enterprise mobility solutions, that can
+         help you take your business to the next level. Contact us today
+          to learn more about our top custom mobile app development solutions.</p>
+    </div>
     <div className={styles.mobiledevmainsolutionmappingbox}>{mobiledevmainsolutionsdata.map((e)=>{
       return ( 
         <div className={styles.mobiledevmainsolutionmappingboxindivisually}>

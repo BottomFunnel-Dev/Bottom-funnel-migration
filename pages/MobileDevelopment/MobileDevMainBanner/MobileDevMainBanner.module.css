@@ -1,3 +1,5 @@
+/* for any type of Laptop and big size of screens */
+@media only screen and (min-width:769px){
 .mobiledevmainbannermainboxes{
   height: 100vh;
   border: 1px solid white;
@@ -53,3 +55,135 @@
   color:  #ef4c23;
 
 }
+
+}
+
+
+/* for any type of mobile responsive */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+  .mobiledevmainbannermainboxes{
+    height:fit-content;
+  border: 1px solid white;
+  background: url("/Images/MobileDevMain/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+
+  }
+
+  .mobiledevmaininsidebannertxt{
+    height: fit-content;
+    width: 100%;
+    margin-top: 70% ;
+text-align: center;
+   
+  }
+  .mobileDevHeading{
+    color: #ef4c23;
+  }
+  
+  .mobileDevHeading{
+    font-weight: 700;
+    font-size:30px ;
+  }
+  .mobiledevmaininsidebannertxt>h1{
+    font-weight: 700;
+    font-size:25px ;
+  }
+  
+  .mobiledevmaininsidebannertxt>p{
+    text-align: justify;
+    margin: 3%;
+  }
+  .mobileDevMainbannerbutton{
+    padding: 10px 30px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+  
+  
+  }
+  
+  .mobileDevMainbannerbutton:hover {
+  
+    background-color:white;
+    color:  #ef4c23;
+  
+  }
+
+}
+
+
+/* for any type tablet responsive */
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+
+  .mobiledevmainbannermainboxes{
+    height: 60vh;
+    border: 1px solid white;
+    background: url("/Images/MobileDevMain/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  
+  .mobiledevmaininsidebannertxt{
+    height: fit-content;
+    width: 70%;
+   
+    margin-top: 14%;
+    margin-left: 5%;
+  }
+  
+  .mobileDevHeading{
+    color: #ef4c23;
+  }
+  
+  .mobileDevHeading{
+    font-weight: 700;
+    font-size:50px ;
+  }
+  
+  .mobiledevmaininsidebannertxt>h1{
+    font-weight: 700;
+    font-size:40px ;
+  }
+  
+  .mobiledevmaininsidebannertxt>p{
+    text-align: justify;
+    width: 70%;
+  }
+  
+  .mobileDevMainbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  
+  
+  }
+  
+  .mobileDevMainbannerbutton:hover {
+  
+    background-color:white;
+    color:  #ef4c23;
+  
+  }
+  
+  }
+  
+  
+  

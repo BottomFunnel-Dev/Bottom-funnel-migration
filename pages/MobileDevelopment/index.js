@@ -12,12 +12,12 @@ export default function MobileDevMain () {
   return (
     <div>
       <MobileDevMainBanner />
-      <MobileDevMainServices />
-      <MobileDevMainCards />
-      <MobileDevMainSolutions />
-      <MobileDevMainProject />
-      <MobileDevMainWhyChoose />
-  
+    <MobileDevMainServices />
+      {/*<MobileDevMainCards />
+        <MobileDevMainSolutions />
+     <MobileDevMainProject />
+     <MobileDevMainWhyChoose />
+  */}
     </div>
   );
 };
