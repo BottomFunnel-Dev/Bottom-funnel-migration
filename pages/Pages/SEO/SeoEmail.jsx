@@ -11,7 +11,7 @@ import StoriesSection from "../../StoriesSection/StoriesSection";
 import SeoEmailExperts from "../../SeoEmail/SeoEmailExperts";
 import SeoEmailFaq from "../../SeoEmail/SeoEmailFaq";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
-import MainFooter from "../../FooterSection/MainFooter";
+import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import { dmpagesLogo } from "../../Data/SeopartnerData";
 const SeoEmail = () => {
@@ -28,8 +28,7 @@ const SeoEmail = () => {
       <SeoEmailExperts/>
       <SeoEmailFaq/>
       <SeoblogSection/>
-      <MainFooter/>
-     
+      {/* <MainFooter/> */}
     </div>
   );
 };

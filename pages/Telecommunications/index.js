@@ -11,29 +11,27 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-import { TelecommunicationBanner } from "./TelecommunicationBanner/TelecommunicationBanner";
-import { OperationsSupport } from "./OperationsSupport/OperationsSupport";
+import { TelecommunicationsHeader } from "./Telecommunications-Header/TelecommunicationsHeader";
+import { TelecommunicationsCustomerApp } from "./TelecommunicationsCustomerApp/TelecommunicationsCustomerApp";
+import { TelecommunicationsFooter } from "./Telecommunications-Footer/TelecommunicationsFooter";
 
-export default function Telecommunication () {
+export default function Telecommunication() {
   return (
     <div>
+      <TelecommunicationsHeader />
+      <TelecommunicationsCustomerApp />
+      <TelecommunicationsFooter />
 
-      <TelecommunicationBanner />
-
-      {/* <OperationsSupport /> */}
-
-      {/* <BusinessSupportSystem /> */}
-
-      {/* <StoriesSection /> */}
-      {/* <Industries /> */}
+      <StoriesSection />
+      <Industries />
       {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
       {/* <MainFooter /> */}
     </div>
   );
-};
+}

@@ -10,9 +10,9 @@ import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
 import StoriesSection from "../../StoriesSection/StoriesSection";
 import ContectForm from "../../ContectForm/ContectForm";
-import MainFooter from "../../FooterSection/MainFooter";
+import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
-import { dmpagesLogo } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../Data/SeopartnerData";
 
 const SeoMain = () => {
   return (
@@ -30,7 +30,7 @@ const SeoMain = () => {
       <Downloadratecard />
       <SeoblogSection />
       <ContectForm />
-      <MainFooter />
+      {/* <MainFooter /> */}
     </div>
   );
 };

@@ -11,18 +11,18 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-import { CarServiceBanner } from "./CarServiceBanner";
-import { CarServiceSolution } from "./CarServiceSolution";
+import { TradingInvestingHeader } from "./TradingInvestingHeader";
 
-export default function CarServicesPage() {
+const index = () => {
   return (
     <div>
-      {/* <CarServiceBanner /> */}
-      {/* <CarServiceSolution /> */}
-      {/* <CarServiceAccelerate /> */}
-      {/* <CarServiceCustomerApp /> */}
-      {/* <CarServiceTechnicianApp /> */}
-      {/* <CarServiceAdminPannel /> */}
+      <TradingInvestingHeader />
+      {/* <ServicesOffer /> */}
+      {/* <WaysToGrow /> */}
+      {/* <SolutionFrame /> */}
+      {/* <SolutionFrameTwo /> */}
+      {/* <WhyChooseBF />  */}
+      {/* <TradingInvestingFooter /> */}
 
       {/* <StoriesSection /> */}
       {/* <Industries /> */}
@@ -36,4 +36,4 @@ export default function CarServicesPage() {
       {/* <MainFooter /> */}
     </div>
   );
-}
+};

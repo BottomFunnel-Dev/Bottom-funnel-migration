@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/mousewheel";
 import "swiper/css/scrollbar";
-import "./IndustriesCarousel.css";
+import "./IndustriesCarousel.module.css";
 
 // import required modules
 import { Mousewheel, Pagination, Scrollbar } from "swiper";
