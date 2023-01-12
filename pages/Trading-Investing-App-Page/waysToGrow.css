@@ -1,0 +1,52 @@
+.RG-ways-To-Grow-Container {
+    margin-bottom: 5%;
+}
+
+.RG-ways-To-Grow-Box-Holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+}
+
+.RG-ways-To-Grow-Box-Holder > div {
+    width:24%;
+    height: 310px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.RG-ways-To-Grow-Box-Holder > div:hover {
+    margin-top: 0; 
+ transform: scale(1.02);
+}
+
+
+.RG-ways-To-Grow-h1 {
+    font-weight: 400;  
+    width: fit-content;
+    padding-left: 35px;
+}
+
+#RG-ways-To-Grow-fafa-Icon {
+    margin-left: 8%;
+}
+
+.RG-ways-To-Grow-ul-Tag {
+    width: 70%;
+    height: 45%;
+}
+
+.RG-ways-To-Grow-Title-P-Tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.RG-ways-To-Grow-Title-h1-Tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+}

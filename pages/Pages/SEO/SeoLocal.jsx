@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
 import Downloadratecard from "../../SEO/Downloadcard/Downloadratecard";
 import Reviews from "../../SEO/SeoReviews/Reviews";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
@@ -17,17 +15,13 @@ import Seotrusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";
 import ContectForm from "../../ContectForm/ContectForm";
-import MainFooter from "../../FooterSection/MainFooter";
+import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import Seostats from "../../SEO/Seostats/Seostats";
 import SeoServices from "../../SEO/SeoServices/SeoServices";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
-import { dmpagesLogo } from "../../../Data/SeopartnerData";
+import { dmpagesLogo } from "../../Data/SeopartnerData";
 
 const SeoLocal = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({color: "black", logo: false}));
-  }, []);
   return (
     <div>
       <SeoLocalSection />

@@ -5837,3 +5837,599 @@ export const WeeblyData = {
     ],
   },
 };
+
+export const cubaData = {
+  title: "Cuba frameword services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/cubaSkillsPhotos/banner.webp",
+    title: "Cuba framework Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Cuba",
+    image: "/Images/skillsPhotos/cubaSkillsPhotos/cuba-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR WEEBLY WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
+          alt: "Lightweight logo",
+        },
+        title: "Lightweight",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/building.webp",
+          alt: "Enterprise apps development logo",
+        },
+        title: "Enterprise apps development",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/fast-run.webp",
+          alt: "Powerful pre-built components logo",
+        },
+        title: "Powerful pre-built components",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/leaf.webp",
+          alt: "Built to fit the user's environment logo",
+        },
+        title: "Built to fit the user's environment",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/people.webp",
+          alt: "Community support logo",
+        },
+        title: "Community support",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/advance.webp",
+          alt: "Built-in management interface logo",
+        },
+        title: "Built-in management interface",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for cuba",
+    image: "/Images/skillsPhotos/cubaSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive cuba solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our cuba developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/cubaSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using cuba",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "Quick learning curve logo",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "Flexibility logo",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "Quick swap approach logo",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const cherryData = {
+  title: "Cherrypy online services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/banner.webp",
+    title: "Cherrypy Online Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Cherrypy",
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/cherrypy-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR CHERRYPY WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/leaf.webp",
+          alt: "Lightweight and minimal logo",
+        },
+        title: "Lightweight and minimal",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/setting.webp",
+          alt: "Multiple themes logo",
+        },
+        title: "Multiple themes",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/language.webp",
+          alt: "Best use of python utilities logo",
+        },
+        title: "Best use of python utilities",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/mobile.webp",
+          alt: "Free to use logo",
+        },
+        title: "Free to use",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/document.webp",
+          alt: "Easy to understand logo",
+        },
+        title: "Easy to understand",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/fast-run.webp",
+          alt: "Fast performance logo",
+        },
+        title: "Fast performance",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for cherrypy",
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive cherrypy solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our cuba developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using cuba",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "Quick learning curve logo",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "Flexibility logo",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "Quick swap approach logo",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const echoData = {
+  title: "echo framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/echoSkillsPhotos/banner.webp",
+    title: "Echo Framework Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "echo",
+    image: "/Images/skillsPhotos/echoSkillsPhotos/echo-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR ECHO WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/echoSkillsPhotos/rocket.webp",
+          alt: "Optimized router logo",
+        },
+        title: "Optimized router",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/echoSkillsPhotos/cloud.webp",
+          alt: "Scalable logo",
+        },
+        title: "Scalable",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/echoSkillsPhotos/verified.webp",
+          alt: "Automatic TLS logo",
+        },
+        title: "Automatic TLS",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/echoSkillsPhotos/clock.webp",
+          alt: "HTTP/2 logo",
+        },
+        title: "HTTP/2",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/echoSkillsPhotos/funnel.webp",
+          alt: "Middleware logo",
+        },
+        title: "Middleware",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/echoSkillsPhotos/database.webp",
+          alt: "Data binding logo",
+        },
+        title: "Data binding",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for echo",
+    image: "/Images/skillsPhotos/echoSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive echo solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our echo developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/echoSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using echo",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "Quick learning curve logo",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "Flexibility logo",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "Quick swap approach logo",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const gitData = {
+  title: "git framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/gitSkillsPhotos/banner.webp",
+    title: "Git Backend Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "git",
+    image: "/Images/skillsPhotos/gitSkillsPhotos/git-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR GIT WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/city.webp",
+          alt: "Branch workflow logo",
+        },
+        title: "Branch workflow",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/tranfer.webp",
+          alt: "Distributed development logo",
+        },
+        title: "Distributed development",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/threads.webp",
+          alt: "Pull requests logo",
+        },
+        title: "Pull requests",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/people.webp",
+          alt: "Community logo",
+        },
+        title: "Community",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/package.webp",
+          alt: "Faster Release cycle logo",
+        },
+        title: "Faster Release cycle",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/document.webp",
+          alt: "Easy to understand logo",
+        },
+        title: "Easy to understand",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for git",
+    image: "/Images/skillsPhotos/gitSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive git solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our git developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/gitSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using git",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "Quick learning curve logo",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "Flexibility logo",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "Quick swap approach logo",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
