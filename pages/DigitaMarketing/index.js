@@ -13,9 +13,9 @@ export default function DigitalMarketing() {
       <DigitalMarketingBanner />
       <WhatDigitalMarket />
       <DigitaMarketWeOffers />
-         {/* <DigitalMarketingHiring />
-      <DigitalMarketClientsAdd />
-      <DigitalmarketWhyConsider />
+          {/*<DigitalMarketingHiring />*/}
+     <DigitalMarketClientsAdd />
+      {/* <DigitalmarketWhyConsider />
 
   */}
      

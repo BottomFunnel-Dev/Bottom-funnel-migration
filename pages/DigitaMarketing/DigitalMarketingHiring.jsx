@@ -41,6 +41,7 @@ export const DigitalMarketingHiring = () => {
       <div className={styles.digitalmarketinghiringimageboxes}>
         <img src='Images/digitalmarket/Component186.png' alt='image' />
       </div>
+      
 
       <div className={styles.digitalmarketafterimageflexingbox}>{digitalmarkethiringdata.map((e) => {
         return (

@@ -1,3 +1,6 @@
+/* for laptop and wide range of screen responsive */
+@media only screen and (min-width:769px){
+
 .digitalmarketingweoffersmainboxes{
     height: fit-content;
     /* border: 2px solid yellow; */
@@ -7,7 +10,7 @@
 }
 
 .marketplaceboxerflex{
-    height: 120px;
+    height: fit-content;
     width: 95%;
    margin: 3%;
  /* border: 2px solid green; */
@@ -98,3 +101,104 @@ border-right: 3px solid #ef4c23;
     font-weight: bold;
 }
 
+}
+
+/* for any type of mobile screens responsive */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+    .digitalmarketingweoffersmainboxes{
+        height: fit-content;
+        /* border: 2px solid yellow; */
+        margin: 2%;
+      
+    }
+
+    .weofferbesttextbox>h1{
+   font-size: 25px;
+   text-align: center;
+    }
+    
+    .digitalmarketingweoffersmainboxes{
+        height: fit-content;
+       
+    }
+    
+    .marketplaceboxerflex{
+        height: fit-content;
+        width: 95%;
+     margin-left: 2.5%;
+     margin-top: 5%;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+     
+    }
+    .marketplaceboxerflex:hover{
+        transform: scale(1.02);
+    }
+
+.marketplacenumberingbox{
+    border-bottom: 2px solid;
+    width: 20%;
+    opacity: 0.5;
+    font-weight: 700;
+    font-size:50px;
+margin-left: 40%;
+   
+}
+/* .marketplaceiconbox>img:nth-child(1){
+    margin-left: -5%;
+   
+    width: 20%;
+} */
+
+.marketplaceiconbox>img{
+    margin-top: 2%;
+}
+.marketplaceiconbox{
+ margin-left: 37%;
+
+}
+/* .marketplaceiconbox:nth-child(1){
+    margin-left:25%;
+    border: 1px solid;
+} */
+
+.marketplacetxtbox>h4{
+    text-align: center;
+  
+}
+.marketplacetxtbox{
+    padding: 10px;
+    
+}
+
+.digitalmarketingwhybutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+   background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: #ef4c23 0px 0.5px 2px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ef4c23;
+ 
+    margin-left: 10%;
+    margin-bottom: 15%;
+  
+}
+
+.digitalmarketingwhybutton:hover {
+
+    background-color:#ef4c23;
+    color:  white;
+
+}
+.marketplacetxtbox>p{
+    text-align: justify;
+}
+
+
+}

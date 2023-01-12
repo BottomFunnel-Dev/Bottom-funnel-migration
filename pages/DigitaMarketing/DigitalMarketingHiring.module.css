@@ -1,3 +1,5 @@
+/* for laptop and wide range of screen responsive */
+@media only screen and (min-width:769px){
 .digitalmarketinghiringmainbox{
     height: fit-content;
 margin-top: 100px;
@@ -48,3 +50,71 @@ font-weight: 700;
     text-align: justify;
  
 }
+
+}
+
+
+/* for any type of mobile responsive */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+    .digitalmarketinghiringmainbox{
+        height: fit-content;
+    margin-top: 100px;
+    }
+    
+    .digitalmarkethiringtextbox{
+        text-align: center;
+    
+    }
+
+    .digitalmarkethiringtextbox>h1{
+        font-size: 25px;
+    }
+
+
+    
+    .digitalmarketinghiringimageboxes{
+        height: auto;
+        width: 100%;
+     
+        margin-top: 5%;
+    }
+    
+    .digitalmarketinghiringimageboxes >img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .digitalmarketafterimageflexingbox{
+        display: flex;
+        height: fit-content;
+         
+    }
+    .digitalmarkethiringflexingtxt{
+        height: fit-content;
+        width: 20%;
+      /* border: 2px solid yellow; */
+        margin: auto;
+        margin-left: 3%;
+        margin-right: 2%;
+    
+    
+    }
+    
+    .digitalmarkethiringflexingtxt >h4{
+    
+    text-align: center;
+    font-weight: 700;
+    
+    }
+    
+    .digitalmarkethiringflexingtxt >p {
+        text-align: justify;
+     
+    }
+
+
+}
+

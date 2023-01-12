@@ -66,6 +66,7 @@ export const DigitaMarketWeOffers = () => {
             <div className={styles.digitalmarketingweoffersmainboxes}>{digitalmarketweofferdata.map((e) => {
                 return (
                     <div className={styles.marketplaceboxerflex}>
+                    
                         <div className={styles.marketplacenumberingbox}>{e.numbering}</div>
                         <div className={styles.marketplaceiconbox}>
                             <img src={e.logo} alt='icon' />
