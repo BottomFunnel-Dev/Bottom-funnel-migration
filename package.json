@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080",
     "export": "npm run build && next export && mv out _static",
     "lint": "next lint"
   },
@@ -23,6 +23,7 @@
     "react-intersection-observer": "^9.4.1",
     "react-slick": "^0.29.0",
     "react-spring": "^9.6.1",
+    "sharp": "^0.31.3",
     "slick-carousel": "^1.8.1"
   }
 }
