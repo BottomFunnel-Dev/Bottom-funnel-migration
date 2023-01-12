@@ -12,11 +12,12 @@ import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
 import { CarServiceBanner } from "./CarServiceBanner";
+import { CarServiceSolution } from "./CarServiceSolution";
 
 export default function CarServicesPage() {
   return (
     <div>
-      <CarServiceBanner />
+      {/* <CarServiceBanner /> */}
       {/* <CarServiceSolution /> */}
       {/* <CarServiceAccelerate /> */}
       {/* <CarServiceCustomerApp /> */}
