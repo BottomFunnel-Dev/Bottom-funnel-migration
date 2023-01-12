@@ -20,6 +20,9 @@
   background-size: cover;
   object-fit: cover;
 }
+
+.mobileDevMainWhyChooseImageContainer
+
 .mobileDevMainWhyChooseImage {
   width: 100%;
   position: relative;
@@ -161,8 +164,8 @@
   .mobileDevMainWhyChooseheading1 {
     color: #ef4c23;
     position: absolute;
-    margin-top: -47.5%;
-    margin-left: 27%;
+    margin-top: -45%;
+    margin-left: 25%;
     width: 8%;
     /* border: 2px solid red; */
   }
@@ -177,8 +180,8 @@
   .mobileDevMainWhyChooseheading2 {
     color: #ef4c23;
     position: absolute;
-    margin-top: -35%;
-    margin-left: 24%;
+    margin-top: -33.5%;
+    margin-left: 22.5%;
     width: 8%;
     /* border: 2px solid red; */
   }
@@ -194,7 +197,7 @@
     color: #ef4c23;
     position: absolute;
     margin-top: -22.5%;
-    margin-left: 28%;
+    margin-left: 26%;
     width: 8%;
     /* border: 2px solid red; */
   }
@@ -209,8 +212,8 @@
   .mobileDevMainWhyChooseheading4 {
     color: #ef4c23;
     position: absolute;
-    margin-top: -47.5%;
-    margin-left: 70.5%;
+    margin-top: -45.5%;
+    margin-left: 64%;
     width: 8%;
     /* border: 2px solid red; */
   }
@@ -226,7 +229,7 @@
     color: #ef4c23;
     position: absolute;
     margin-top: -36%;
-    margin-left: 74.5%;
+    margin-left: 68.5%;
     width: 9%;
     /* border: 2px solid red;*/
   }
@@ -242,7 +245,7 @@
     color: #ef4c23;
     position: absolute;
     margin-top: -22.5%;
-    margin-left: 69.8%;
+    margin-left: 65.8%;
     width: 8%;
     /* border: 2px solid red; */
   }
@@ -257,6 +260,144 @@
 
   .mobileDevMainWhyChooseImageContainer>h3{
     font-size: 10px;
+  }
+
+}
+
+/* for any type of tablet responsive */
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+
+  .mobileDevMainWhyChooseOuterDiv {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+  }
+  .mobileDevMainWhyChooseHeading {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    text-align: center;
+  }
+
+.mobileDevMainWhyChooseHeading>p{
+  text-align: justify;
+}
+
+
+  .mobileDevMainWhyChooseImageContainer {
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 50vh;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+.mobileDevMainWhyChooseImageContainer>h3{
+  font-size: 18px;
+}
+
+
+  .mobileDevMainWhyChooseImage {
+    width: 100%;
+    position: relative;
+  }
+  .mobileDevMainWhyChooseheading1 {
+    color: #ef4c23;
+    position: absolute;
+    margin-top: -49%;
+    margin-left: 28.5%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseText1 {
+    font-size: 10px;
+    color: black;
+    margin-top: -50%;
+    margin-left: 27.2%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseheading2 {
+    color: #ef4c23;
+    position: absolute;
+    margin-top: -36.5%;
+    margin-left: 24%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseText2 {
+    font-size: 10px;
+    color: black;
+    margin-top: -35%;
+    margin-left: 24.2%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseheading3 {
+    color: #ef4c23;
+    position: absolute;
+    margin-top: -24.5%;
+    margin-left: 28%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseText3 {
+    font-size: 10px;
+    color: black;
+    margin-top: 9.5%;
+    margin-left: 28.2%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseheading4 {
+    color: #ef4c23;
+    position: absolute;
+    margin-top: -49%;
+    margin-left: 70.5%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseText4 {
+    font-size: 10px;
+    color: black;
+    margin-top: -30%;
+    margin-left: 70.5%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseheading5 {
+    color: #ef4c23;
+    position: absolute;
+    margin-top: -37%;
+    margin-left: 74.5%;
+    width: 9%;
+    /* border: 2px solid red;*/
+  }
+  .mobileDevMainWhyChooseText5 {
+    font-size: 10px;
+    color: black;
+    margin-top: 9%;
+    margin-left: 74.5%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseheading6 {
+    color: #ef4c23;
+    position: absolute;
+    margin-top: -24.5%;
+    margin-left: 69.8%;
+    width: 8%;
+    /* border: 2px solid red; */
+  }
+  .mobileDevMainWhyChooseText6 {
+    font-size: 10px;
+    color: black;
+    margin-top: 8.5%;
+    margin-left: 70.5%;
+    width: 8%;
+    /* border: 2px solid red; */
   }
 
 }

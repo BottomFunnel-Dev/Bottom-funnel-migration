@@ -61,6 +61,8 @@
 }
 }
 
+/* for any type of mobile responsive */
+
 @media only screen and (min-width:0px) and (max-width:376px){
 
   .mobileDevMainProjectmainbox {
@@ -124,5 +126,77 @@
     background-color: white;
     color: #3380f2;
   }
+
+}
+
+
+/* for any type of tablet responsive */
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+
+  .mobileDevMainProjectmainbox {
+    /* height: 40vh; */
+    width: 99.5%;
+    border: 1px solid white;
+    margin-top: 2%;
+    position: relative;
+  }
+  
+  .mobileDevMainProjectBackImage{
+    /* border: 2px solid red; */
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .mobileDevMainProjectBackImage > img{
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .mobileDevMainProjectmainboxinnertextdiv {
+    /* margin-top: 5%; */
+    margin-left: 7%;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 70%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 0%;
+    text-align: justify;
+  }
+  
+  .mobileDevMainProjectmainboxinnertextdiv > h1 {
+    color: white;
+    font-size: 20px;
+  }
+  .mobileDevMainProjectmainboxinnertextdiv > p {
+    color: white;
+    font-size: 15px;
+    /* border: 2px solid red; */
+    /* width: 60%; */
+    /* margin: auto; */
+  }
+  
+  .mobileDevMainProjectbutton {
+    padding: 10px 50px;
+    border-radius: 5px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: white;
+  }
+  
+  .mobileDevMainProjectbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+
+
 
 }
