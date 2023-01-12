@@ -1,3 +1,5 @@
+/* for any type of laptop and wide range of screens */
+@media only screen and (min-width:769px){
 .digitalmarketingbannermainboxes {
   height: 100vh;
   background: url("/Images/digitalmarket/HeroSection.png");
@@ -45,3 +47,68 @@
   background-color: white;
   color: #ef4c23;
 }
+}
+
+/* for any type of mobile screen responsive  */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+.digitalmarketingbannermainboxes {
+  height: 75vh;
+  width: 100%;
+  background: url("/Images/digitalmarket/mobile responsive/Group 770921.png");
+background-position-x: 10%;
+  background-size:  contain;
+
+  background-repeat: no-repeat;
+
+
+}
+
+.digitalmarketingbannerspacefortext1 {
+  height: 45%;
+  width: 90%;
+  /* margin-left: 3%; */
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  
+}
+
+.digitalmarketingbannerspacefortext1>h1{
+  font-size: 25px;
+  text-align: center;
+}
+.digitalmarketingbannerspacefortext1 p {
+  font-size: 18px;
+  margin-top: 2%;
+  text-align: justify;
+}
+
+.digitalmarketingbannerspacefortext1 > h1 {
+  font-weight: bold;
+  /* margin-left: 5%; */
+}
+
+.digitalmarketingbannerbutton {
+  padding: 10px 30px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-left: 25%;
+}
+
+.digitalmarketingbannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+}
+
+

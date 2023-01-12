@@ -1,52 +1,129 @@
-.whatsdigitalmarketmainbox{
-    height: 500px;
+/* laptop and wide range of screen responsive */
+@media only screen and (min-width:769px){
+.whatdigitalmarketmainboxes{
+    height: fit-content;
+    margin-top: 3%;
 
     display: flex;
-    margin-top: 5%;
 }
 
-.whatsdigitalmarketleftbox{
+.whatdigitamarketleftboxes{
     width: 40%;
-
-    margin-left: 3%;
+    border-right: 1px solid;
+    height: 500px;
+    margin-left: 5%;
 }
 
-.whatsdigitalmarketrightbox{
-    width: 55%;
-    height: 100%;
- 
-    margin: 0% 3% 0% 2%;
-}
-
-.whatsdigitalmarketrightbox >h1 {
-    font-weight: bold;
-}
-
-
-.whatsdigitalmarketleftbox>img {
+.whatdigitamarketleftboxes>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
+.whatdigitalmarketrightbox{
+    width: 50%;
+    margin-left: 3%;
+    height: fit-content;
+}
 
-.innerflexboxfordigitalmarketing{
+.whatdigitalmarketrightbox>p{
+    text-align: justify;
+}
+
+.whatdigitalmarketmappingbox{
+    height: 300px;
+    width: 70%;
+
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    height: 60%;
-    width: 65%;
-   margin-top: 10%;
-    margin-left: 10%;
-    
 }
 
-.flexingsideboxmarket {
- margin-left: 10%;
+.whatdigitamarketingmappinindifortxt{
+margin-left: 5%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.whatdigitamarketingmappinindi{
+    width: 40%;
+    height: fit-content;
+
+    margin: 2%;
     display: flex;
- flex-wrap: wrap;
-
+}
 }
 
-.flexingsideboxmarket >h6 {
-    margin: 10px;
-}
+/* for mobile screen any type of responsive */
 
+@media only screen and (min-width:0px) and (max-width:376px){
+
+    .whatdigitalmarketmainboxes{
+        height: fit-content;
+        margin-top: 3%;
+    
+        display: flex;
+    }
+    
+    .whatdigitamarketleftboxes{
+        width: 35%;
+        border-right: 1px solid;
+  
+        height: 300px;
+        margin-left: 3%;
+    }
+    
+    .whatdigitamarketleftboxes>img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+  
+    }
+    .whatdigitalmarketrightbox{
+        width: 50%;
+      margin-left: 3%;
+        height: fit-content;
+    }
+
+    .whatdigitalmarketrightbox>h1{
+        font-size: 20px;
+    }
+    
+    .whatdigitalmarketrightbox>p{
+        text-align: justify;
+        margin-right: 2%;
+    }
+    
+    .whatdigitalmarketmappingbox{
+        height: 200px;
+        width: 170%;
+ 
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -70%;
+    }
+
+    .whatdigitamarketingmappinindi>div>svg{
+     
+        height: 20px;
+        width: 20px;
+    }
+    
+    .whatdigitamarketingmappinindifortxt{
+    margin-left: 5%;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    
+    .whatdigitamarketingmappinindi{
+        width: 40%;
+        height: fit-content;
+    
+        margin: 2%;
+        display: flex;
+    }
+
+
+}
