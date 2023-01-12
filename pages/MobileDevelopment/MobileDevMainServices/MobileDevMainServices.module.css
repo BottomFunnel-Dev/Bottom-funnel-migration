@@ -1,3 +1,6 @@
+/* for any type of laptop and wide range of screens */
+
+
 @media only screen and (min-width:769px){
 .mobileDevMainServicesHeading{
     /* border: 2px solid red; */
@@ -6,8 +9,13 @@
     text-align: center;
     padding: 2%;
 }
+.mobileDevMainServicesHeading>p{
+    text-align: justify;
+}
 }
 
+
+/* for any type of mobile responsive */
 
 @media only screen and (min-width:0px) and (max-width:376px){
 
@@ -26,4 +34,23 @@
     text-align: justify;
 }
 
+}
+
+
+/* for any type of tablet responsive */
+
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+
+    .mobileDevMainServicesHeading{
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding: 2%;
+    }
+
+    .mobileDevMainServicesHeading>p{
+        text-align: justify;
+    }
 }
