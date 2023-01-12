@@ -1,0 +1,59 @@
+.carservicesolutionmainboxes {
+  height: 150vh;
+}
+
+.carservicesolutioninnerboxbackground {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+
+  background: url("/public/Images/CarService/BannersBackgrounds/Rectangle12.png");
+  object-fit: contain;
+  position: relative;
+}
+
+.carservicesolutioninnerbanckgroundplainfortext {
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+}
+
+.datamaingdivcarservicesolutionforimagedivandtxt {
+  position: absolute;
+  top: 20%;
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.datamappingafterboxindivisualcarservice {
+  height: 45%;
+  width: 31%;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.datamappingafterboxindivisualcarservice:hover {
+  transform: scale(1.02);
+}
+
+.datamappingcarservicesolutionforimage {
+  height: 60%;
+  width: 100%;
+}
+
+.datamappingcarservicesolutionforimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.datamappingservicesolutionfortext > p {
+  text-align: justify;
+}

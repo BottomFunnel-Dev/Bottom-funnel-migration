@@ -1,0 +1,132 @@
+.carservicecustomerappmainboxes {
+    height: 110vh
+   
+}
+
+.carservicecustomerappuppertextbox{
+  text-align: center;  
+  margin-top: 2%;
+ height: fit-content;
+ width: 70%;
+
+ margin:auto;
+}
+
+.carservicecustomerappuppertextbox >p{
+    text-align: justify;
+
+}
+
+
+.carserviceappcustomerappboxflextype {
+    height: 80%;
+    display: flex;
+
+}
+
+.carserviceappcustomerappboxflextypeleftbox {
+    width: 55%;
+    height: 100%;
+    margin-top: 5%;
+ 
+}
+
+.carserviceappcustomerappboxflextypeleftboxinsidertext{
+    height: fit-content;
+    width: 70%;
+
+   margin: 3% 0% 0% 3%;
+}
+
+.carservicecustomermappingdatabox{
+    height: 200px;
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.carservicecustomeraftermap1box{
+    height: fit-content;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 3%;
+    margin-top: 5%;
+    display: flex;
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.carservicecustomeraftermap1box:hover{
+    transform: scale(1.02);
+   
+}
+
+
+
+.flexingcarservicecustomerforlogo{
+    height: 30%;
+    width: 20%;
+
+}
+
+.flexingcarservicecustomerforlogo >img {
+    padding: 10px;
+  
+}
+
+.carserviceboxsmalltextforcustomerapp{
+    text-align: justify;
+}
+
+
+.carserviceappcustomerappboxflextyperightbox{
+    height: 90%;
+    width: 40%;
+
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.carservicemobileforcustomerappdeliverybackgroundimages{
+    background: url("/public/Images/CarService/BannersBackgrounds/Rectangle 4722.png");
+    background-size: contain;
+   background-repeat: no-repeat;
+   position: relative;
+    height: 70%;
+    width: 100%;
+    margin-top: 30%;
+
+}
+
+.carservicecustomerapprightboxupperimage{
+    height: 120%;
+    width: 40%;
+
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+}
+
+
+.carservicecustomerapprightboxupperimage>img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+
+
+
+
+
+
+
+
+.carservicemobileforcustomerappdelivery{
+   position: absolute;
+    height: 80%;
+    width: 50%;
+
+  left: 25%;
+  top: 10%;
+}
+

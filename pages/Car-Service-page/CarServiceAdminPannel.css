@@ -1,0 +1,61 @@
+.carserviceadminpannelmainbox{
+    height: fit-content;
+    
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.carserviceadminpannelleftbox{
+
+    height: fit-content;
+    width: 58%;
+ 
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.carserviceadminmappingdatabox{
+    height: fit-content;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+}
+
+.carserviceadminmappingdatabox:hover{
+    transform: scale(1.02);
+}
+
+
+
+.carserviceadminpannellogo{
+    height: 70px;
+    width: 50%;
+ padding: 10px;
+}
+
+.carservicetextbox{
+    margin-left: 1%;
+}
+
+
+.carserviceadminpannelrightbox{
+    height: 400px;
+    width: 40%;
+    margin-left: 2%;
+   
+    background: url("/public/Images/CarService/BannersBackgrounds/Rectangle 4723.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.carserviceadminpannelrightbox >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

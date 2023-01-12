@@ -3,10 +3,10 @@ import AgricultureBanner from "./AgricultureBanner/AgricultureBanner";
 import { AgricultureSolutions } from "./AgricultureSolutions/AgricultureSolutions";
 
 import {
-    logisticsCustomer,
-    agricultureConsumerApp,
-    agricultureAdmin,
-  } from "../Data/agriculture.js";
+  logisticsCustomer,
+  agricultureConsumerApp,
+  agricultureAdmin,
+} from "../Data/agriculture.js";
 import AgricultureCustomerApp from "./AgricultureCustomerApp/AgricultureCustomerApp";
 import AgricultureConsumerApp from "./AgricultureConsumerApp/AgricultureConsumerApp";
 import AgricultureAdminPanel from "./AgricultureAdminPanel/AgricultureAdminPanel";

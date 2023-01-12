@@ -1,14 +1,5 @@
 import React from "react";
 
-import { CarRentalHeader } from "./CarRentalHeader";
-import { FeaturesComp } from "./FeaturesComp";
-import { GreyBoxComponent } from "./GreyBoxComponent";
-import { RenterAppComp } from "./RenterAppComp";
-import { AdminPannelComp } from "./AdminPannelComp";
-import { CustomerAppComp } from "./CustomerAppComp";
-import { ChooseUsComp } from "./ChooseUsComp";
-import { CarRentalFooter } from "./CarRentalFooter";
-
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
 import { Industries } from "../CommonComponents/industries/Industries";
 import PlanProject from "../CommonComponents/PlanProject/PlanProject";
@@ -20,27 +11,27 @@ import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
 import ContectForm from "../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../CommonComponents/FooterSection/MainFooter";
 
-export default function CarRentals() {
+import { CarServiceBanner } from "./CarServiceBanner";
+
+export default function CarServicesPage() {
   return (
     <div>
-      <CarRentalHeader />
-      <FeaturesComp />
-      <GreyBoxComponent />
-      <RenterAppComp />
-      <AdminPannelComp />
-      <CustomerAppComp />
-      <ChooseUsComp />
-      <CarRentalFooter />
+      <CarServiceBanner />
+      {/* <CarServiceSolution /> */}
+      {/* <CarServiceAccelerate /> */}
+      {/* <CarServiceCustomerApp /> */}
+      {/* <CarServiceTechnicianApp /> */}
+      {/* <CarServiceAdminPannel /> */}
 
-      <StoriesSection />
-      <Industries />
+      {/* <StoriesSection /> */}
+      {/* <Industries /> */}
       {/* <PlanProject /> */}
-      <OndemandSection />
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
       {/* <MainFooter /> */}
     </div>
   );
