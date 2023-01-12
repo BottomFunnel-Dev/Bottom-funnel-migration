@@ -1,0 +1,110 @@
+._maincarouseldiv{
+    /* border:1px solid gold; */    
+    box-sizing: border-box;
+    padding: 20px 0;
+    /* background-color: #ef4c23; */
+}
+._carouseldiv1{
+    /* border:1px solid red; */
+    /* background-color: green;  */
+    height:330px;
+    /* width:200px; */
+    width: 20%;
+    position: relative;
+}
+
+.contentDivOndemand{
+    background-color: #ef4c23;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    transition: all .4s linear;
+}
+.contentDivOndemand:hover{
+   transform: scale(1.1);
+}
+.imageDivPart{
+    width: 100%;
+    height: 85%;
+}
+.imageDivPart>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contentDivOndemand>h3{
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 3px;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+   
+}
+.contentDivOndemand>img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+._imagediv{
+    height:100%;
+    width:100%;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+._hoverdiv{
+    /* border:1px solid green; */
+    position: absolute;
+    top:0px;
+    width:100%;
+    height:85%;
+    display: none;
+}
+._hoverdiv1{
+    /* border:1px solid green; */
+    position: absolute;
+    top:0px;
+    width:100%;
+    height:85%;
+    background-color:#007bff;
+    display: block;
+    opacity: 0.8; 
+}
+._staticdiv{
+    /* border:1px solid darkblue; */
+    position: absolute;
+    bottom:0px;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+    width:100%;
+    height:14.3%;
+    background-color:#ef4c23; 
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4%;
+}
+.slick-dots{
+    /* border:1px solid red; */
+    bottom:-38px !important;
+}
+
+@media screen and (max-width:360px) {
+    ._carouseldiv1{height:320px;}
+}
+
+@media screen and (max-width:640px) {
+    ._carouseldiv1{height:380px;}
+    ._staticdiv{padding-top: 2%;}   
+}

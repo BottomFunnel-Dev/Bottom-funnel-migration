@@ -4,7 +4,7 @@ import Newstrategy from "./Newstrategy";
 import { Newsintro } from "./Newsintro";
 import { Newspaper } from "./Newspaper";
 import { Newsfeature } from "./Newsfeature";
-import { newsLogo } from "../../Data/SeopartnerData";
+import { newsLogo } from "../Data/SeopartnerData";
 import Trusted from "../SEO/SeoTrustedCompanies/Seotrusted";
 
 import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";

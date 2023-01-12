@@ -1,0 +1,78 @@
+.revamp {
+  text-align: center;
+  padding: 20px;
+  height: 350px;
+  color: black;
+  background: #fcdbd3;
+  position: relative;
+  /* background-color: #00800075; */
+}
+
+.textlayer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.revampback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.revampback > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 25%;
+}
+
+.revamp > h1 {
+  color: black;
+}
+.revamp >p {
+  color: black;
+}
+
+.revamp>div > button {
+  padding: 10px 60px;
+  margin-top: 45px;
+  /* margin-bottom: 10px; */
+  font-size: 18px;
+  border-radius: 25px;
+  color: white;
+  background: #ef4c23;
+  z-index: 1;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+}
+
+.revamp>div > button:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.navmotion {
+  width: 20%;
+  height: 100px;
+  margin: auto;
+  filter: invert(1);
+}
+.navmotion > img {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+.navIcon {
+  font-size: 60px;
+  color: white;
+}
+
+.buttonIcon {
+  margin-right: 5px;
+}

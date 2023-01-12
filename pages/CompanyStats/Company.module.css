@@ -1,0 +1,216 @@
+._CompanyMainDiv{   
+    /* border:1px solid green; */
+    width:100%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+    /* padding-top:2%; */
+}
+._CompanyMainDiv>div{   
+   width: 40%;
+   box-sizing: border-box;
+   /* background-color: green; */
+   /* border: 1px solid red; */
+   padding: 10px;
+
+}
+._Company{
+    font-size:20px;
+    font-family: OpenSans-Semibold;
+    margin-bottom: 1%;
+}
+._Company>h1{
+    font-size:50px;
+    color: #ef4c23;
+ 
+}
+._Provider{
+    font-size:18px;
+    font-family: OpenSans-Semibold;
+    margin-bottom: 1%;
+}
+._Provider>h2{
+    color: #ef4c23;
+}
+._detail,._information{
+    font-size: 16px;
+    line-height: 22px;
+    color: #636678;
+    /* font-family: OpenSans-Semibold; */
+    font-weight: 500;
+    box-sizing: border-box;
+}
+._CompanyStats{
+    /* border:1px solid firebrick; */
+    display: flex;
+    /* background-color: #ef4c23; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* gap:13px; */
+    row-gap: 5px;
+    justify-content: space-around;
+}
+._stats{
+    /* border:1px solid black; */
+    width: 100%;
+    height:44px;
+    border: 1px solid #ef4c23;
+    display: flex;
+    border-radius: 3px;
+    position: relative;
+
+    background:linear-gradient(to right , #ef4c23b7 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+}
+._stats:hover{
+    background-size: 200% 100%;
+    background-position:left bottom;
+}
+._stats:hover ._statstext{
+    background-size: 200% 100%;
+    background-position:left bottom;
+    color: white;
+}
+._stats1{
+    /* border:1px solid black; */
+    width: 100%;
+    height:45px;
+    display: flex;
+    border: 1px solid #ef4c23;
+    border-radius: 3px;
+    position: relative;
+    background:linear-gradient(to right , rgba(0, 100, 0, 0.853) 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+}
+._stats1:hover{
+    background-size: 180% 100%;
+    background-position:left bottom;
+}
+._stats2,._stats3{
+    /* border:1px solid black; */
+    width: 100%;
+    height:45px;
+    display: flex;
+    border: 1px solid #ef4c23;
+    border-radius: 3px;
+    position: relative;
+    background:linear-gradient(to right , #DAF9E8 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+}
+._stats2:hover ,._stats3:hover{
+    background-size: 175% 100%;
+    background-position:left bottom;
+}
+._stats4{
+    /* border:1px solid black; */
+    width: 100%;
+    height:45px;
+    display: flex;
+    position: relative;
+    border: 1px solid #ef4c23;
+    border-radius: 3px;
+
+    background:linear-gradient(to right , #E0DAF9 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+}
+._stats4:hover{
+    background-size: 190% 100%;
+    background-position:left bottom;
+}
+._stats5{
+    /* border:1px solid black; */
+    width: 100%;
+    height:45px;
+    border: .5px solid #ef4c23;
+    border-radius: 3px;
+
+    display: flex;
+    position: relative;
+    background:linear-gradient(to right ,  #F9DAF5 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease;
+}
+._stats5:hover{
+    background-size: 195% 100%;
+    background-position:left bottom;
+}
+._statsnum{
+    font-family: OpenSans-Semibold;
+    font-size: 25px;
+    position: absolute;
+    left:3%;
+}
+._statsnum h5{
+    margin: 6px 0 0 -10px;
+    font-size: 23px;
+    color: white;
+}
+._colordiv{
+    /* border:1px solid green; */
+    width:10%;
+    background-color: #ef4c23;
+    border-radius: 3px;
+    height: 43px;
+}
+._colordiv1{
+    width:10%;
+    background-color:   darkgreen;
+    border-radius: 3px;
+    height: 43px;
+}
+._colordiv2{
+    width:10%;
+    background-color: grey;
+    border-radius: 3px;
+    height: 43px;
+}
+._colordiv3{
+    width:10%;
+    background-color: rgb(52, 239, 130);
+    border-radius: 3px;
+    height: 43px;
+}
+._colordiv4{
+    width:10%;
+    background-color: darkgray;
+    border-radius: 3px;
+    height: 43px;
+}
+._colordiv5{
+    width:10%;
+    background-color: lightcoral    ;
+    border-radius: 3px;
+    height: 43px;
+}
+._statstext{
+/* border:1px solid red; */
+margin-left:20px;
+margin-top: 8px;
+font-weight: 500;
+}
+@media screen and (max-width:700px) {
+    ._CompanyMainDiv{width:100%}
+    ._stats,._stats1,._stats2,._stats3,._stats4,._stats5{width:100%}
+    ._details{
+            line-height: 28px; 
+            text-align: center;
+            padding-left: 5px;
+            }
+    ._CompanyStats{
+        margin-top: 20px;  
+    }
+    ._Company{font-size:16px}
+    ._Provider{font-size:16px}
+}

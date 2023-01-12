@@ -1,38 +1,28 @@
 import React from "react";
-import "./portSection.module.css";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/mousewheel";
-import "swiper/css/scrollbar";
-import "../Carousel/IndustriesCarousel.module.css";
+import 'swiper/css/mousewheel';
+import 'swiper/css/scrollbar';
+import styles from "./IndustriesCarousel.module.css";
 
 // import required modules
-import { Mousewheel, Pagination, Scrollbar } from "swiper";
+import { Mousewheel,Pagination ,Scrollbar} from "swiper";
 
-const PortSection = () => {
+export default function VerticalCarousel() {
+ 
   return (
-    <div className={styles.portSection}>
-      <Swiper
+      <Swiper 
         className={styles.mySwiper}
         direction={"vertical"}
-        slidesPerView={1}
-        pagination={{
-          clickable: true,
-        }}
-        sensitivity={1}
-        modules={[Mousewheel, Pagination, Scrollbar]}
+        modules={[Mousewheel,Pagination,Scrollbar]}
         scrollbar={{ draggable: true }}
-        mousewheel={{
-          //   forceToAxis: true,
-          releaseOnEdge: true,
-          touchReleaseOnEdges: true,
-        }}
-        breakpoints={{
+        
+        
+        breakpoints={{  
           500: {
             slidesPerView: 2,
           },
@@ -52,10 +42,12 @@ const PortSection = () => {
 
         <SwiperSlide>
           <div className="_c2"></div>
+      
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="_c1"></div>
+        
         </SwiperSlide>
 
         <SwiperSlide>
@@ -65,9 +57,9 @@ const PortSection = () => {
         <SwiperSlide>
           <div className="_c1"></div>
         </SwiperSlide>
-      </Swiper>
-    </div>
-  );
-};
 
-export default PortSection;
+      </Swiper>
+    
+  );
+}
+

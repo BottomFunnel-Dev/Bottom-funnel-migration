@@ -1,0 +1,37 @@
+.faqSection {
+  width: 100%;
+  padding: 45px;
+  margin: auto;
+  max-height: 450px;
+  text-align: center;
+  /* background-color: #ef4c23; */
+
+  /* margin-bottom: 150px; */
+}
+.faqSection > h2 {
+  color: #ef4c23;
+}
+
+.faqs {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.faqs > div {
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.faqs > div p {
+  color: black;
+  font-size: 14px;
+  /* font-weight: 600; */
+}
+.faqs > div::before {
+  /* background-color: green; */
+  /* width: 70%; */
+  background-color: transparent;
+}
+.customisedAcc {
+  background-color: green;
+}
