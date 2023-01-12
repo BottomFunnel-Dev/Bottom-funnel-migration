@@ -9,60 +9,67 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
-import "./MLForm.css";
+
+import styles from "./MLForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
 export const MLForm = () => {
   return (
-    <div className="MLForm-container">
-      <div className="MLForm-stats">
+    <div className={styles.MLFormContainer}>
+      <div className={styles.MLFormStats}>
         <h1>Hire Dedicated Big Data Service</h1>
         <div>
+
           <div>
             <h1>$999</h1>
             <h3>Full Time Monthly</h3>
           </div>
+
           <div>
             <h1>$10/hr</h1>
             <h3>Week Basis</h3>
           </div>
+
           <div>
             <h1>$15</h1>
             <h3>Hourly Basis</h3>
           </div>
         </div>
       </div>
-      <div className="MLForm-main">
-        <div className="MLForm-form-outer-main">
+
+      <div className={styles.MLFormMain}>
+        <div className={styles.MLFormFormOuterMain}>
           <h1>Get Started Now!</h1>
-          <div className="MLForm-form">
-            <div className="MLForm-formSection">
-              <div className="MLForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "MLForm-formIcon" }}>
+          <div className={styles.MLFormForm}>
+            <div className={styles.MLFormFormSection}>
+              <div className={styles.MLFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.MLFormFormIcon }}>
                   <BsFillPersonFill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="MLForm-inputPart"
+                  className={styles.MLFormInputPart}
                   placeholder="Name"
                 />
               </div>
-              <div className="MLForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "MLForm-formIcon" }}>
+
+              <div className={styles.MLFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.MLFormFormIcon }}>
                   <AiTwotoneMail />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="MLForm-inputPart"
+                  className={styles.MLFormInputPart}
                   placeholder="Email"
                 />
               </div>
-              <div className="MLForm-phoneClass">
-                <IconContext.Provider value={{ className: "MLForm-formIcon" }}>
+
+              <div className={styles.MLFormPhoneClass}>
+                <IconContext.Provider value={{ className: styles.MLFormFormIcon }}>
                   <BsFillTelephoneFill />
                 </IconContext.Provider>
-                <select className="MLForm-countryCode" name="" id="">
+                <select className={styles.MLFormCountryCode} name="" id="">
                   {countrycodes.map((item, i) => (
                     <option key={i} value={item.code}>
                       {item.code} {item.dial_code}
@@ -71,15 +78,17 @@ export const MLForm = () => {
                 </select>
               </div>
               <input
-                className="MLForm-phoneNumber"
+                className={styles.MLFormPhoneNumber}
                 type="number"
                 placeholder="Phone Number"
               />
-              <div className="MLForm-selectClass">
-                <IconContext.Provider value={{ className: "MLForm-formIcon" }}>
+
+              <div className={styles.MLFormSelectClass}>
+                <IconContext.Provider value={{ className: styles.MLFormFormIcon }}>
                   <CgMenuGridR />
                 </IconContext.Provider>
-                <select className="MLForm-selectPart" name="" id="">
+
+                <select className={styles.MLFormSelectPart} name="" id="">
                   <option value="Select">Interested In*</option>
                   {interested.map((item, i) => (
                     <option key={i} value={item.service}>
@@ -88,11 +97,13 @@ export const MLForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="MLForm-selectClass">
-                <IconContext.Provider value={{ className: "MLForm-formIcon" }}>
+
+              <div className={styles.MLFormSelectClass}>
+                <IconContext.Provider value={{ className: styles.MLFormFormIcon }}>
                   <BsCurrencyDollar />
                 </IconContext.Provider>
-                <select className="MLForm-selectPart" name="" id="">
+
+                <select className={styles.MLFormSelectPart} name="" id="">
                   <option value="Select">Your Budget</option>
                   {budget.map((item, i) => (
                     <option key={i} value={item.budget}>
@@ -101,25 +112,27 @@ export const MLForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="MLForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "MLForm-formIcon" }}>
+
+              <div className={styles.MLFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.MLFormFormIcon }}>
                   <RiMessage2Fill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="MLForm-inputPart"
+                  className={styles.MLFormInputPart}
                   placeholder="Skype/Whatsapp"
                 />
               </div>
-              <div className="MLForm-textareaClass">
+
+              <div className={styles.MLFormTextareaClass}>
                 <IconContext.Provider
-                  value={{ className: "MLForm-formMessageIcon" }}
+                  value={{ className: styles.MLFormFormMessageIcon }}
                 >
                   <BiMessage />
                 </IconContext.Provider>
                 <label htmlFor="textarea"> Message</label>
                 <textarea
-                  className="MLForm-messagePart"
+                  className={styles.MLFormMessagePart}
                   name="textarea"
                   id=""
                   cols="15"
@@ -127,13 +140,14 @@ export const MLForm = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="MLForm-robotCaptcha">
+
+            <div className={styles.MLFormRobotCaptcha}>
               <button>Get Started</button>
             </div>
           </div>
         </div>
 
-        <div className="MLForm-feature-main">
+        <div className={styles.MLFormFeatureMain}>
           <h1>Features</h1>
           <ul>
             <li>

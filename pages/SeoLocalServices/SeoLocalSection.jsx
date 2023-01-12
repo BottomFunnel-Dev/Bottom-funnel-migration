@@ -5,15 +5,15 @@ import styles from "./SeoLocalSection.module.css";
 
 export const SeoLocalSection = () => {
   return (
-    <div className={styles._SeoLocalMain1}>
+    <div className={styles.seoLocalMain1}>
       <div className={styles.localgifDenote}>
         <img src="Images/seopages/Comp-5.gif" alt="" />
       </div>
-      <div className={styles._SeoLocalupperdiv}>
-        <div className={styles._SeoLocaltext}>
-          <div className={styles._SeoLocalheading}>Local SEO Services Company</div>
+      <div className={styles.seoLocalupperdiv}>
+        <div className={styles.seoLocaltext}>
+          <div className={styles.seoLocalheading}>Local SEO Services Company</div>
 
-          <p className={styles._SeoLocalparagraph}>
+          <p className={styles.seoLocalparagraph}>
             Our local SEO services revolutionize your online presence so you can
             reach the right people with targeted traffic. We know how important
             it is to have a website that is search engine optimized and easy to
@@ -24,7 +24,7 @@ export const SeoLocalSection = () => {
             traffic and grow their business online.
           </p>
 
-          <div className={styles._SeoLocalPricing}>
+          <div className={styles.seoLocalPricing}>
             <button> Check Local SEO Pricing</button>
           </div>
         </div>

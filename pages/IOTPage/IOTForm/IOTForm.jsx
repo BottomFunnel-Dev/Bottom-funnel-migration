@@ -9,14 +9,15 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
-import "./IOTForm.css";
+
+import styles from "./IOTForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
 export const IOTForm = () => {
   return (
-    <div className="IOTForm-container">
-      <div className="IOTForm-stats">
+    <div className={styles.IOTFormContainer}>
+      <div className={styles.IOTFormStats}>
         <h1>Hire Dedicated Big Data Service</h1>
         <div>
           <div>
@@ -33,36 +34,39 @@ export const IOTForm = () => {
           </div>
         </div>
       </div>
-      <div className="IOTForm-main">
-        <div className="IOTForm-form-outer-main">
+
+      <div className={styles.IOTFormMain}>
+        <div className={styles.IOTFormFormOuterMain}>
           <h1>Get Started Now!</h1>
-          <div className="IOTForm-form">
-            <div className="IOTForm-formSection">
-              <div className="IOTForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "IOTForm-formIcon" }}>
+          <div className={styles.IOTFormForm}>
+            <div className={styles.IOTFormFormSection}>
+              <div className={styles.IOTFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.IOTFormFormIcon }}>
                   <BsFillPersonFill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="IOTForm-inputPart"
+                  className={styles.IOTFormInputPart}
                   placeholder="Name"
                 />
               </div>
-              <div className="IOTForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "IOTForm-formIcon" }}>
+
+              <div className={styles.IOTFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.IOTFormFormIcon }}>
                   <AiTwotoneMail />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="IOTForm-inputPart"
+                  className={styles.IOTFormInputPart}
                   placeholder="Email"
                 />
               </div>
-              <div className="IOTForm-phoneClass">
-                <IconContext.Provider value={{ className: "IOTForm-formIcon" }}>
+
+              <div className={styles.IOTForm-phoneClass}>
+                <IconContext.Provider value={{ className: styles.IOTFormFormIcon }}>
                   <BsFillTelephoneFill />
                 </IconContext.Provider>
-                <select className="IOTForm-countryCode" name="" id="">
+                <select className={styles.IOTForm-countryCode} name="" id="">
                   {countrycodes.map((item, i) => (
                     <option key={i} value={item.code}>
                       {item.code} {item.dial_code}
@@ -70,16 +74,18 @@ export const IOTForm = () => {
                   ))}
                 </select>
               </div>
+
               <input
-                className="IOTForm-phoneNumber"
+                className={styles.IOTForm-phoneNumber}
                 type="number"
                 placeholder="Phone Number"
               />
-              <div className="IOTForm-selectClass">
-                <IconContext.Provider value={{ className: "IOTForm-formIcon" }}>
+
+              <div className={styles.IOTForm-selectClass}>
+                <IconContext.Provider value={{ className: styles.IOTFormFormIcon }}>
                   <CgMenuGridR />
                 </IconContext.Provider>
-                <select className="IOTForm-selectPart" name="" id="">
+                <select className={styles.IOTForm-selectPart} name="" id="">
                   <option value="Select">Interested In*</option>
                   {interested.map((item, i) => (
                     <option key={i} value={item.service}>
@@ -88,11 +94,12 @@ export const IOTForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="IOTForm-selectClass">
-                <IconContext.Provider value={{ className: "IOTForm-formIcon" }}>
+
+              <div className={styles.IOTForm-selectClass}>
+                <IconContext.Provider value={{ className: styles.IOTFormFormIcon }}>
                   <BsCurrencyDollar />
                 </IconContext.Provider>
-                <select className="IOTForm-selectPart" name="" id="">
+                <select className={styles.IOTForm-selectPart} name="" id="">
                   <option value="Select">Your Budget</option>
                   {budget.map((item, i) => (
                     <option key={i} value={item.budget}>
@@ -101,25 +108,27 @@ export const IOTForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="IOTForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "IOTForm-formIcon" }}>
+
+              <div className={styles.IOTFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.IOTFormFormIcon }}>
                   <RiMessage2Fill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="IOTForm-inputPart"
+                  className={styles.IOTFormInputPart}
                   placeholder="Skype/Whatsapp"
                 />
               </div>
-              <div className="IOTForm-textareaClass">
+
+              <div className={styles.IOTFormTextareaClass}>
                 <IconContext.Provider
-                  value={{ className: "IOTForm-formMessageIcon" }}
+                  value={{ className: styles.IOTFormFormMessageIcon }}
                 >
                   <BiMessage />
                 </IconContext.Provider>
                 <label htmlFor="textarea"> Message</label>
                 <textarea
-                  className="IOTForm-messagePart"
+                  className={styles.IOTFormMessagePart}
                   name="textarea"
                   id=""
                   cols="15"
@@ -127,13 +136,14 @@ export const IOTForm = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="IOTForm-robotCaptcha">
+
+            <div className={styles.IOTFormRobotCaptcha}>
               <button>Get Started</button>
             </div>
           </div>
         </div>
 
-        <div className="IOTForm-feature-main">
+        <div className={styles.IOTFormFeatureMain}>
           <h1>Features</h1>
           <ul>
             <li>

@@ -1,0 +1,20 @@
+.seoEmailAgencymaindiv {
+  /* font-size: 40px; */
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  /* height:300px; */
+  /* border:1px solid red; */
+  background-color: white;
+}
+.seoEmailAgencyheader {
+  color: #ef4c23;
+}
+.seoEmailAgencyHeading {
+  color: #ef4c23;
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid rebeccapurple; */
+  text-align: center;
+  margin-top: 40px;
+}

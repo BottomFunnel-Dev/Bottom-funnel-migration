@@ -1,0 +1,50 @@
+.seoLinkEnquiryNowMaindiv{
+    /* border:1px solid green; */
+    width:100%;
+    display: flex;
+    margin-top:70px;
+}
+.seoLinkEnquiryNow{
+    /* border:1px solid red; */
+    height:450px;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;;
+}
+.seoLinkEnquiryNow>img{
+    height:100%;
+    width:100%;
+    
+}
+.seoLinkEnquiryNow>p{
+    /* border: 1px solid green; */
+   padding:26px;
+   font-size: 20px;
+   color: gray;
+   font-weight: 500;
+}
+.seoLinkEnquiryNow>h3{
+    /* border: 1px solid rebeccapurple; */
+    padding: 15px;
+    color:#EF4C23;
+}
+.seoLinkEnquiryNow>div{
+    border:1px solid #EF4C23;
+    width:25%;
+    height:55px;
+    background-color: #EF4C23;
+    border-radius: 25px;
+    margin: auto;
+    color:white;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-weight: 600;
+}
+.seoLinkEnquiryNow>div:hover{
+    color:#EF4C23;
+    background-color: white;
+    border:3px solid #EF4C23;
+    transition: 0.3s linear;
+    cursor: pointer;
+}

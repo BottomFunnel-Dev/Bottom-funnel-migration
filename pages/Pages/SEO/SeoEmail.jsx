@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
 import Reviews from "../../SEO/SeoReviews/Reviews";
 import Seostats from "../../SEO/Seostats/Seostats";
-import SeoEmailAgency from "../../SeoEmail/SeoEmailAgency";
 import SeoEmailSection from "../../SeoEmail/SeoEmailSection";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
-import SeoEmailTrusted from "../../SeoEmail/SeoEmailTrustedCompanies";
 import SeoEmailEnquiryNow from "../../SeoEmail/SeoEmailEnquiry";
-import SeoEmailServices from "../../SeoEmail/SeoEmailServices";
-import StoriesSection from "../../StoriesSection/StoriesSection";
+import StoriesSection from "../../CommonComponents/StoriesSection/StoriesSection";
 import SeoEmailExperts from "../../SeoEmail/SeoEmailExperts";
 import SeoEmailFaq from "../../SeoEmail/SeoEmailFaq";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";

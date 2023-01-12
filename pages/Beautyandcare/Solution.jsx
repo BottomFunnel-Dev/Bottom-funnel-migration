@@ -1,16 +1,16 @@
 import React from "react";
-import "./solution.css";
+import styles from "./solution.module.css";
 
 export default function Solution() {
   return (
-    <div className="solutionsection">
+    <div className={styles.solutionsection}>
       <h1>Solution for your beauty app </h1>
 
-      <div className="customer-main">
-        <div className="customer">
-          <div className="customerapp">
+      <div className={styles.customer-main}>
+        <div className={styles.customer}>
+          <div className={styles.customerapp}>
             <div>
-              <h2 className="customer-heading">Customer app</h2>
+              <h2 className={styles.customerHeading}>Customer app</h2>
               <p>
                 Improve customer service with a customer app and website that
                 provides services they can easily avail and manage on the go and
@@ -20,46 +20,49 @@ export default function Solution() {
               </p>
             </div>
           </div>
-          <div className="customerappimg">
+
+          <div className={styles.customerappimg}>
             <img
-              className="customermobile"
-              src="Images/beautycare/solutionbeauty.png"
+              className={styles.customermobile}
+              src="Images/beautycare/solutionbeauty.png" alt="image"
             />
           </div>
         </div>
 
         {/* //////////bussiness//////// */}
-        <div className="bussinescontainer">
-          <div className="bussinessleft">
-            <div className="toprectangle">
-              <img src="Images/beautycare/toprectangle.png" />
+        <div className={styles.bussinescontainer}>
+          <div className={styles.bussinessleft}>
+            <div className={styles.toprectangle}>
+              <img src="Images/beautycare/toprectangle.png" alt="image" />
             </div>
-            <div className="rectangle">
-              <img src="Images/beautycare/lastrectangle.png" />
+
+            <div className={styles.rectangle}>
+              <img src="Images/beautycare/lastrectangle.png" alt="images" />
             </div>
-            <div className="admin">
-              <img src="Images/beautycare/adiminpannel.png" />
+
+            <div className={styles.admin}>
+              <img src="Images/beautycare/adiminpannel.png" alt="image" />
             </div>
           </div>
 
-          <div className="bussinessright">
+          <div className={styles.bussinessright}>
             <div>
-            <h2 className="customer-heading">Buisnessn dashboards</h2>
-            <p>
-              We built this easy-to-use admin dashboard so that you can manage
-              everything related to your business in one place. A single
-              platform for all your beauty and salon services. From managing
-              multiple users at a single screen to generating earnings and sales
-              reports, we've thought of everything so that you don't have to!
-            </p>
+              <h2 className={styles.customerHeading}>Buisnessn dashboards</h2>
+              <p>
+                We built this easy-to-use admin dashboard so that you can manage
+                everything related to your business in one place. A single
+                platform for all your beauty and salon services. From managing
+                multiple users at a single screen to generating earnings and sales
+                reports, we've thought of everything so that you don't have to!
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="szapp">
-          <div className="szservice">
+        <div className={styles.szapp}>
+          <div className={styles.szservice}>
             <div>
-              <h2 className="customer-heading">Service professional’s app</h2>
+              <h2 className={styles.customerHeading}>Service professional’s app</h2>
               <p>
                 With service professional’s app, you can coordinate with your
                 beauticians on daily appointments, reschedule and cancel right
@@ -71,14 +74,15 @@ export default function Solution() {
             </div>
           </div>
 
-          <div className="szserviceimg">
-            <div className="szservicemobile">
-              <img src="Images/beautycare/services.png" />
+          <div className={styles.szserviceimg}>
+            <div className={styles.szservicemobile}>
+              <img src="Images/beautycare/services.png" alt="image" />
             </div>
-            <div className="boxsection"></div>
+
+            <div className={styles.boxsection}></div>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};

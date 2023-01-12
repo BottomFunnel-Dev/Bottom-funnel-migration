@@ -9,66 +9,74 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
-import "./EnterpriseForm.css";
+
+import styles from "./EnterpriseForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
 export const EnterpriseForm = () => {
   return (
-    <div className="EnterpriseForm-container">
-      <div className="EnterpriseForm-stats">
+    <div className={styles.EnterpriseFormContainer}>
+      <div className={styles.EnterpriseFormStats}>
         <h1>Hire Dedicated Big Data Service</h1>
         <div>
+
           <div>
             <h1>$999</h1>
             <h3>Full Time Monthly</h3>
           </div>
+
           <div>
             <h1>$10/hr</h1>
             <h3>Week Basis</h3>
           </div>
+
           <div>
             <h1>$15</h1>
             <h3>Hourly Basis</h3>
           </div>
+
         </div>
       </div>
-      <div className="EnterpriseForm-main">
-        <div className="EnterpriseForm-form-outer-main">
+
+      <div className={styles.EnterpriseFormMain}>
+        <div className={styles.EnterpriseFormFormOuterMain}>
           <h1>Get Started Now!</h1>
-          <div className="EnterpriseForm-form">
-            <div className="EnterpriseForm-formSection">
-              <div className="EnterpriseForm-inputWithIcon">
+          <div className={styles.EnterpriseFormForm}>
+            <div className={styles.EnterpriseFormFormSection}>
+              <div className={styles.EnterpriseFormInputWithIcon}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formIcon" }}
+                  value={{ className: styles.EnterpriseFormFormIcon }}
                 >
                   <BsFillPersonFill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="EnterpriseForm-inputPart"
+                  className={styles.EnterpriseFormInputPart}
                   placeholder="Name"
                 />
               </div>
-              <div className="EnterpriseForm-inputWithIcon">
+
+              <div className={styles.EnterpriseFormInputWithIcon}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formIcon" }}
+                  value={{ className: styles.EnterpriseFormFormIcon }}
                 >
                   <AiTwotoneMail />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="EnterpriseForm-inputPart"
+                  className={styles.EnterpriseFormInputPart}
                   placeholder="Email"
                 />
               </div>
-              <div className="EnterpriseForm-phoneClass">
+
+              <div className={styles.EnterpriseForm-phoneClass}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formIcon" }}
+                  value={{ className: styles.EnterpriseFormFormIcon }}
                 >
                   <BsFillTelephoneFill />
                 </IconContext.Provider>
-                <select className="EnterpriseForm-countryCode" name="" id="">
+                <select className={styles.EnterpriseForm-countryCode} name="" id="">
                   {countrycodes.map((item, i) => (
                     <option key={i} value={item.code}>
                       {item.code} {item.dial_code}
@@ -77,17 +85,18 @@ export const EnterpriseForm = () => {
                 </select>
               </div>
               <input
-                className="EnterpriseForm-phoneNumber"
+                className={styles.EnterpriseForm-phoneNumber}
                 type="number"
                 placeholder="Phone Number"
               />
-              <div className="EnterpriseForm-selectClass">
+
+              <div className={styles.EnterpriseFormselectClass}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formIcon" }}
+                  value={{ className: styles.EnterpriseFormFormIcon }}
                 >
                   <CgMenuGridR />
                 </IconContext.Provider>
-                <select className="EnterpriseForm-selectPart" name="" id="">
+                <select className={styles.EnterpriseFormSelectPart} name="" id="">
                   <option value="Select">Interested In*</option>
                   {interested.map((item, i) => (
                     <option key={i} value={item.service}>
@@ -96,13 +105,14 @@ export const EnterpriseForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="EnterpriseForm-selectClass">
+
+              <div className={styles.EnterpriseFormselectClass}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formIcon" }}
+                  value={{ className: styles.EnterpriseFormFormIcon }}
                 >
                   <BsCurrencyDollar />
                 </IconContext.Provider>
-                <select className="EnterpriseForm-selectPart" name="" id="">
+                <select className={styles.EnterpriseFormSelectPart} name="" id="">
                   <option value="Select">Your Budget</option>
                   {budget.map((item, i) => (
                     <option key={i} value={item.budget}>
@@ -111,27 +121,30 @@ export const EnterpriseForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="EnterpriseForm-inputWithIcon">
+
+              <div className={styles.EnterpriseFormInputWithIcon}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formIcon" }}
+                  value={{ className: styles.EnterpriseFormFormIcon }}
                 >
                   <RiMessage2Fill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="EnterpriseForm-inputPart"
+                  className={styles.EnterpriseFormInputPart}
                   placeholder="Skype/Whatsapp"
                 />
               </div>
-              <div className="EnterpriseForm-textareaClass">
+              
+              <div className={styles.EnterpriseFormTextareaClass}>
                 <IconContext.Provider
-                  value={{ className: "EnterpriseForm-formMessageIcon" }}
+                  value={{ className: styles.EnterpriseFormFormMessageIcon }}
                 >
                   <BiMessage />
                 </IconContext.Provider>
+
                 <label htmlFor="textarea"> Message</label>
                 <textarea
-                  className="EnterpriseForm-messagePart"
+                  className={styles.EnterpriseFormMessagePart}
                   name="textarea"
                   id=""
                   cols="15"
@@ -139,13 +152,14 @@ export const EnterpriseForm = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="EnterpriseForm-robotCaptcha">
+
+            <div className={styles.EnterpriseFormRobotCaptcha}>
               <button>Get Started</button>
             </div>
           </div>
         </div>
 
-        <div className="EnterpriseForm-feature-main">
+        <div className={styles.EnterpriseFormFeatureMain}>
           <h1>Features</h1>
           <ul>
             <li>

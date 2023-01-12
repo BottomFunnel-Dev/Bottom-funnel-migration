@@ -1,33 +1,34 @@
- import React from 'react'
- import "./EscooterAdmin.css"
- 
- export const EscooterAdmin = () => {
-   return (
-    <div className='szescooteradmin'>
-    <div className='szescooteradminsub'>
-    <div className='szescooteradminleft'>
-        <div>
-        <h2>Drive App</h2>
-        <ul>
-          <li>lorem Ipsum is simply dummy text of</li>  
-          <li>lorem Ipsum is simply</li>  
-          <li>lorem Ipsum is simply</li>   
-          <li>lorem Ipsum is simply</li>   
-          <li>lorem Ipsum is simply</li>   
-          <li>lorem Ipsum is simply</li> 
-           </ul> 
-        
-        </div>
-    </div>
+import React from 'react';
+import styles from "./EscooterAdmin.module.css";
 
-    <div className='szescooteradminright'>
-        {/* <div className='szshape'> <img src='Images/Escooter/shape.png'/> </div> */}
-        <div className='szscootertab'> <img src='Images/Escooter/tab.png'/> </div>
-       <div className='blackbluescooter'> <img src="Images/Escooter/blackbluescooter.png"/></div>
+export const EscooterAdmin = () => {
+  return (
+    <div className={styles.szescooteradmin}>
+      <div className={styles.szescooteradminsub}>
+        <div className={styles.szescooteradminleft}>
+          <div>
+            <h2>Drive App</h2>
+            <ul>
+              <li>lorem Ipsum is simply dummy text of</li>
+              <li>lorem Ipsum is simply</li>
+              <li>lorem Ipsum is simply</li>
+              <li>lorem Ipsum is simply</li>
+              <li>lorem Ipsum is simply</li>
+              <li>lorem Ipsum is simply</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className={styles.szescooteradminright}>
+          {/* <div className='szshape'> <img src='Images/Escooter/shape.png'/> </div> */}
+          <div className={styles.szscootertab}>
+            <img src='Images/Escooter/tab.png' alt='image' />
+          </div>
+          <div className={styles.blackbluescooter}>
+            <img src="Images/Escooter/blackbluescooter.png" alt='images' />
+          </div>
+        </div>
+      </div>
     </div>
-    
-    </div>
-</div>
-   )
- }
- 
+  );
+};

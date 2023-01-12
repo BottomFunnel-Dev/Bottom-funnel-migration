@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Carousel.css";
+
+import styles from "./Carousel.module.css";
 
 export default function MultipleItems() {
   const [show, setshow] = useState(false);
@@ -25,106 +26,109 @@ export default function MultipleItems() {
     pauseOnHover: false,
     autoplaySpeed: 1000,
     cssEase: "linear",
-    arrows: false, 
+    arrows: false,
   };
 
- 
+
   return (
-    <div className="_maincarouseldiv">
+    <div className={styles._maincarouseldiv}>
       <Slider {...settings}>
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide1}
-          // onMouseLeave={toggleSlide1}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide1}
+        // onMouseLeave={toggleSlide1}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg1.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg1.png" alt="image" />
             </div>
             <h3>Web Solutions</h3>
           </div>
         </div>
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide2}
-          // onMouseLeave={toggleSlide2}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide2}
+        // onMouseLeave={toggleSlide2}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg2.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg2.png" alt="images" />
             </div>
             <h3>Mobile App Solution</h3>
           </div>
         </div>
+
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide3}
-          // onMouseLeave={toggleSlide3}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide3}
+        // onMouseLeave={toggleSlide3}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg3.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg3.png" alt="image" />
             </div>
             <h3>Trending Technology Solution</h3>
           </div>
         </div>
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide4}
-          // onMouseLeave={toggleSlide4}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide4}
+        // onMouseLeave={toggleSlide4}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg1.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg1.png" alt="image" />
             </div>
             <h3>UI UX Designing</h3>
           </div>
         </div>
+
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide4}
-          // onMouseLeave={toggleSlide4}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide4}
+        // onMouseLeave={toggleSlide4}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg1.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg1.png" alt="image" />
             </div>
             <h3>Food Delivery App</h3>
           </div>
         </div>
+
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide4}
-          // onMouseLeave={toggleSlide4}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide4}
+        // onMouseLeave={toggleSlide4}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg1.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg1.png" alt="image" />
             </div>
             <h3>CRM Solutions</h3>
           </div>
         </div>
         <div
-          className="_carouseldiv1"
-          // onMouseEnter={toggleSlide4}
-          // onMouseLeave={toggleSlide4}
+          className={styles.carouseldiv1}
+        // onMouseEnter={toggleSlide4}
+        // onMouseLeave={toggleSlide4}
         >
-          <div className="contentDivOndemand"></div>
-          <div className="contentDivOndemand">
-            <div className="imageDivPart">
-              <img src="Images/ondemandimg1.png" alt="" />
+          <div className={styles.contentDivOndemand}></div>
+          <div className={styles.contentDivOndemand}>
+            <div className={styles.imageDivPart}>
+              <img src="Images/ondemandimg1.png" alt="image" />
             </div>
             <h3>Beauti and Salon App</h3>
           </div>
         </div>
-        
+
       </Slider>
     </div>
   );
-}
+};

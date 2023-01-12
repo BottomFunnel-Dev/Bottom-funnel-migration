@@ -1,0 +1,122 @@
+.seoEmailservicesmaindiv {
+  /* border:1px solid maroon; */
+  /* display: flex; */
+  margin-top: 70px;
+  /* background-color:#f4f4f6; */
+  /* background-color:rgb(226 226 226 / 38%); */
+}
+.seoEmailServicesheading {
+  /* width:50%; */
+  /* border:1px solid green; */
+  font-size: 40px;
+  color: #00800075;
+  text-align: center;
+  margin-left: 32%;
+  font-weight: 600;
+  color: #ef4c23;
+}
+.seoEmailupperdiv {
+  background-color: #ef4c23;
+}
+.seoEmailservicesslider {
+  /* border:1px solid blue; */
+  /* margin-top: 10px; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.seoEmailServicesnames {
+  /* border:1px solid red; */
+  width: 280px;
+  height: 200px;
+  /* background-color: rgb(226, 226, 226); */
+  border-radius: 30px;
+  box-shadow: 3px 3px 15px rgb(0 0 0 / 15%);
+  /* font-size: 30px; */
+  text-align: center;
+  color: #ef4c23;
+  box-sizing: border-box;
+  position: relative;
+  /* padding: 10px; */
+  /* margin: auto; */
+}
+
+.seoEmailServicesnames:hover {
+  background-color: white;
+  width: 310px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  /* padding: 10px; */
+}
+.seoEmailServicesnames:hover .seoEmailicons1 {
+  /* margin-top:25px; */
+  transition: 0.3s linear;
+}
+.seoEmailicons1 {
+  font-size: 80px;
+  /* border:1px solid red; */
+  padding: 15px;
+  margin-top: 18px;
+  transition-delay: 0.3s ease-in-out;
+}
+.seoEmailicons2 {
+  font-size: 80px;
+  /* border:1px solid red; */
+  padding: 15px;
+  margin-top: 18px;
+  opacity: 0;
+}
+.seoEmailuppericon {
+  /* border:1px solid teal; */
+  font-size: 24px;
+  position: absolute;
+  bottom: 4px;
+  margin-left: 45%;
+}
+.seoEmailservicedata {
+  /* border: 1px solid rebeccapurple; */
+  position: absolute;
+  /* font-size: 10px; */
+  top: 0px;
+  width: 280px;
+  height: 200px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
+  color: #ef4c23;
+  box-sizing: border-box;
+  opacity: 0;
+  transition-delay: 0.3s ease-in-out;
+}
+.seoEmailservicedata1 {
+  /* border: 1px solid rebeccapurple; */
+  position: absolute;
+  font-size: 15px;
+  top: 0px;
+  width: 280px;
+  height: 200px;
+  border-radius: 30px;
+  /* box-shadow: 3px 3px 40px rgb(0 0 0 / 15%); */
+  color: #ef4c23;
+  box-sizing: border-box;
+  padding: 25px;
+  opacity: 1;
+  transition-delay: 0.3s ease-in-out;
+  /* padding: 30px; */
+}
+.seoEmailservicedata1:hover {
+  width: 310px;
+}
+.seoEmailName {
+  font-size: 20px;
+  font-weight: 600;
+  transition-delay: 0.3s ease-in-out;
+}
+.seoEmailName2 {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0;
+}

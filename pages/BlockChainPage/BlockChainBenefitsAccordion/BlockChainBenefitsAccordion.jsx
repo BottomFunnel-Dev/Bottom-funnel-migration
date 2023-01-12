@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./BlockChainBenefitsAccordion.css";
+import styles from "./BlockChainBenefitsAccordion.module.css";
 import {
   Typography,
   Accordion,
@@ -12,9 +12,9 @@ export const BlockChainBenefitsAccordion = () => {
 
   const handleChange =
     (panel) =>
-    (event = React.SyntheticEvent, isExpanded = boolean) => {
-      setExpanded(panel);
-    };
+      (event = React.SyntheticEvent, isExpanded = boolean) => {
+        setExpanded(panel);
+      };
 
   const cardsData = [
     {
@@ -44,8 +44,8 @@ export const BlockChainBenefitsAccordion = () => {
   ];
 
   return (
-    <div className="BlockChainBenefitsAccordion-container">
-      <div className="BlockChainBenefitsAccordion-main">
+    <div className={styles.BlockChainBenefitsAccordionContainer}>
+      <div className={styles.BlockChainBenefitsAccordionMain}>
         <h1>Blockchain And Its Benefits</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -61,7 +61,8 @@ export const BlockChainBenefitsAccordion = () => {
           aspernatur aliquid reiciendis voluptates tenetur dolor totam!
         </p>
       </div>
-      <div className="BlockChainBenefitsAccordion-accordion-container">
+
+      <div className={styles.BlockChainBenefitsAccordionAccordionContainer}>
         {cardsData.map(({ title, body }, idx) => {
           return (
             <Accordion
@@ -73,10 +74,11 @@ export const BlockChainBenefitsAccordion = () => {
                 aria-controls="panel1a-content"
                 id="panel1a-header BlockChainBenefitsAccordion-accordion"
               >
-                <h3 className="BlockChainBenefitsAccordion-accordion-h3">
+                <h3 className={styles.BlockChainBenefitsAccordionAccordionH3}>
                   {title}
                 </h3>
               </AccordionSummary>
+
               <AccordionDetails
                 id="panel1a-details"
                 style={{ backgroundColor: "white", color: "#393939" }}

@@ -1,0 +1,44 @@
+.seoguestEnquiryNowMaindiv {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+}
+.seoguestEnquiryNow {
+  height: 450px;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.seoguestEnquiryNow > img {
+  height: 100%;
+  width: 100%;
+}
+.seoguestEnquiryNow > p {
+  padding: 26px;
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+}
+.seoguestEnquiryNow > h3 {
+  padding: 15px;
+  color: #ef4c23;
+}
+.seoguestEnquiryNow > div {
+  width: 25%;
+  background-color: #ef4c23;
+  border-radius: 25px;
+  margin: auto;
+  color: white;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-weight: 500;
+  border: 3px solid #ef4c23;
+}
+.seoguestEnquiryNow > div:hover {
+  color: #ef4c23;
+  background-color: white;
+  border: 3px solid #ef4c23;
+  transition: 0.3s linear;
+  cursor: pointer;
+}

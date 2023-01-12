@@ -8,7 +8,7 @@ import Reviews from "../../SEO/SeoReviews/Reviews";
 import Seostats from "../../SEO/Seostats/Seostats";
 import Trusted from "../../SEO/SeoTrustedCompanies/Seotrusted";
 import { SeoblogSection } from "../../SeoBlogs/Seoblogs";
-import StoriesSection from "../../StoriesSection/StoriesSection";
+import StoriesSection from "../../CommonComponents/StoriesSection/StoriesSection";
 import ContectForm from "../../ContectForm/ContectForm";
 import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import SeoServices from "../../SEO/SeoServices/SeoServices";

@@ -1,4 +1,4 @@
-import './SeoEmailTrustedCompanies.css';
+import styles from './SeoEmailTrustedCompanies.module.css';
 import React from "react";
 import Slider from "react-slick";
 import tata from "../ImageSection/Tata.jpg"
@@ -13,45 +13,52 @@ const SeoEmailTrusted = () => {
         slidesToShow: 5,
         slidesToScroll: 1,
         arrows: false,
-        autoplay:true,
+        autoplay: true,
         autoplaySpeed: 2500,
         variableWidth: true
     }
     return (
-    <div className='_SeoEmailTrusted'>
+        <div className={styles.seoEmailTrusted}>
 
-        <div className="_SeoEmailTrustedtext">
-            Trusted By Global Brands
+            <div className={styles.seoEmailTrustedtext}>
+                Trusted By Global Brands
+            </div>
+
+            <div className={styles.seoEmailTrustedCarousel}>
+                <Slider {...settings}>
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={tata} alt="image.jpg" />
+                    </div>
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={hdfc} alt="image.jpg" />
+                    </div>
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={airtel} alt="image.jpg" />
+                    </div>
+
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={Hindustan} alt="image.jpg" />
+                    </div>
+
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={Google} alt="image.jpg" />
+                    </div>
+
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={hdfc} alt="image.jpg" />
+                    </div>
+
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={airtel} alt="image.jpg" />
+                    </div>
+
+                    <div className={styles.seoEmailbrandimg}>
+                        <img src={Hindustan} alt="image.jpg" />
+                    </div>
+                </Slider>
+            </div>
         </div>
-        <div className='_SeoEmailTrustedCarousel'>
-            <Slider {...settings}>
-                <div className='_SeoEmailbrandimg'>
-                    <img src={tata} alt="image.jpg"/>  
-                </div>
-                <div className='_SeoEmailbrandimg'>
-                    <img src={hdfc} alt="image.jpg"/>  
-                </div>
-                <div className='_SeoEmailbrandimg'>
-                <img src={airtel} alt="image.jpg"/>  
-                </div>
-                <div className='_SeoEmailbrandimg'>
-                <img src={Hindustan} alt="image.jpg"/>  
-                </div>
-                <div  className='_SeoEmailbrandimg'>
-                <img src={Google} alt="image.jpg"/>  
-                </div>
-                <div className='_SeoEmailbrandimg'>
-                <img src={hdfc} alt="image.jpg"/>  
-                </div>
-                <div className='_SeoEmailbrandimg'>
-                <img src={airtel} alt="image.jpg"/>  
-                </div>
-                <div className='_SeoEmailbrandimg'>
-                <img src={Hindustan} alt="image.jpg"/>  
-                </div>
-            </Slider>
-        </div>
-    </div>
-    )
-}
+    );
+};
+
 export default SeoEmailTrusted;

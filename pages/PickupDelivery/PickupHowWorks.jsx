@@ -1,11 +1,11 @@
-import React from 'react'
-import "./PickupHowWorks.css"
+import React from 'react';
+import styles from "./PickupHowWorks.module.css";
 
 export const PickupHowWorks = () => {
   return (
-    <div className='pickuphowworksmainboxes'>
-    
-    
+    <div className={styles.pickuphowworksmainboxes}>
+
+
     </div>
   )
 }

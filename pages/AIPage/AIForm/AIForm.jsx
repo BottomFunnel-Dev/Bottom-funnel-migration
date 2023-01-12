@@ -9,14 +9,15 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
-import "./AIForm.css";
+
+import styles from "./AIForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
 export const AIForm = () => {
   return (
-    <div className="AIForm-container">
-      <div className="AIForm-stats">
+    <div className={styles.AIFormContainer}>
+      <div className={styles.AIFormStats}>
         <h1>Hire Dedicated Big Data Service</h1>
         <div>
           <div>
@@ -33,36 +34,39 @@ export const AIForm = () => {
           </div>
         </div>
       </div>
-      <div className="AIForm-main">
-        <div className="AIForm-form-outer-main">
+
+      <div className={styles.AIFormMain}>
+        <div className={styles.AIFormFormOuterMain}>
           <h1>Get Started Now!</h1>
-          <div className="AIForm-form">
-            <div className="AIForm-formSection">
-              <div className="AIForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "AIForm-formIcon" }}>
+          <div className={styles.AIFormForm}>
+            <div className={styles.AIFormFormSection}>
+              <div className={styles.AIFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
                   <BsFillPersonFill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="AIForm-inputPart"
+                  className={styles.AIFormInputPart}
                   placeholder="Name"
                 />
               </div>
-              <div className="AIForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "AIForm-formIcon" }}>
+
+              <div className={styles.AIFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
                   <AiTwotoneMail />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="AIForm-inputPart"
+                  className={styles.AIFormInputPart}
                   placeholder="Email"
                 />
               </div>
-              <div className="AIForm-phoneClass">
-                <IconContext.Provider value={{ className: "AIForm-formIcon" }}>
+
+              <div className={styles.AIFormPhoneClass}>
+                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
                   <BsFillTelephoneFill />
                 </IconContext.Provider>
-                <select className="AIForm-countryCode" name="" id="">
+                <select className={styles.AIFormCountryCode} name="" id="">
                   {countrycodes.map((item, i) => (
                     <option key={i} value={item.code}>
                       {item.code} {item.dial_code}
@@ -70,16 +74,18 @@ export const AIForm = () => {
                   ))}
                 </select>
               </div>
+
               <input
-                className="AIForm-phoneNumber"
+                className={styles.AIFormPhoneNumber}
                 type="number"
                 placeholder="Phone Number"
               />
-              <div className="AIForm-selectClass">
-                <IconContext.Provider value={{ className: "AIForm-formIcon" }}>
+
+              <div className={styles.AIFormSelectClass}>
+                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
                   <CgMenuGridR />
                 </IconContext.Provider>
-                <select className="AIForm-selectPart" name="" id="">
+                <select className={styles.AIFormSelectPart} name="" id="">
                   <option value="Select">Interested In*</option>
                   {interested.map((item, i) => (
                     <option key={i} value={item.service}>
@@ -88,11 +94,13 @@ export const AIForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="AIForm-selectClass">
-                <IconContext.Provider value={{ className: "AIForm-formIcon" }}>
+
+              <div className={styles.AIFormSelectClass}>
+                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
                   <BsCurrencyDollar />
                 </IconContext.Provider>
-                <select className="AIForm-selectPart" name="" id="">
+
+                <select className={styles.AIFormSelectPart} name="" id="">
                   <option value="Select">Your Budget</option>
                   {budget.map((item, i) => (
                     <option key={i} value={item.budget}>
@@ -101,25 +109,27 @@ export const AIForm = () => {
                   ))}
                 </select>
               </div>
-              <div className="AIForm-inputWithIcon">
-                <IconContext.Provider value={{ className: "AIForm-formIcon" }}>
+
+              <div className={styles.AIFormInputWithIcon}>
+                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
                   <RiMessage2Fill />
                 </IconContext.Provider>
                 <input
                   type="text"
-                  className="AIForm-inputPart"
+                  className={styles.AIFormInputPart}
                   placeholder="Skype/Whatsapp"
                 />
               </div>
-              <div className="AIForm-textareaClass">
+
+              <div className={styles.AIFormTextareaClass}>
                 <IconContext.Provider
-                  value={{ className: "AIForm-formMessageIcon" }}
+                  value={{ className: styles.AIFormFormMessageIcon }}
                 >
                   <BiMessage />
                 </IconContext.Provider>
                 <label htmlFor="textarea"> Message</label>
                 <textarea
-                  className="AIForm-messagePart"
+                  className={styles.AIFormMessagePart}
                   name="textarea"
                   id=""
                   cols="15"
@@ -127,13 +137,14 @@ export const AIForm = () => {
                 ></textarea>
               </div>
             </div>
-            <div className="AIForm-robotCaptcha">
+
+            <div className={styles.AIFormRobotCaptcha}>
               <button>Get Started</button>
             </div>
           </div>
         </div>
 
-        <div className="AIForm-feature-main">
+        <div className={styles.AIFormFeatureMain}>
           <h1>Features</h1>
           <ul>
             <li>

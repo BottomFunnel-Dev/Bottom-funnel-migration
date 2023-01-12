@@ -1,0 +1,35 @@
+.Downloadratecarddiv {
+  width: 100%;
+  background-color: #fcdbd3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.downloadText {
+  width: 60%;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding: 35px;
+  font-weight: 500;
+}
+.downloadText > h5 {
+  color: black;
+  text-align: left;
+}
+
+.buttonSection > button {
+  padding: 10px 60px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buttonSection > button:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}

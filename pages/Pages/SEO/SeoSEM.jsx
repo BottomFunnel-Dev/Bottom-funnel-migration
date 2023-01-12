@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Reviews from "../../SEO/SeoReviews/Reviews";
-import StoriesSection from "../../StoriesSection/StoriesSection";
+import StoriesSection from "../../CommonComponents/StoriesSection/StoriesSection";
 import ContectForm from "../../CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import Seostats from "../../SEO/Seostats/Seostats";

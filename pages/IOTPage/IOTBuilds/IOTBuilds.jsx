@@ -1,16 +1,17 @@
 import React from "react";
-import "./IOTBuilds.css";
+import styles from "./IOTBuilds.module.css";
 
 export const IOTBuilds = () => {
   return (
-    <div className="IOTBuilds-container">
+    <div className={styles.IOTBuildsContainer}>
       <h1>Build Your Business with our</h1>
-      <div className="IOTServices-hr-line">
+      <div className={styles.IOTServicesHrLine}>
         <span></span>
         <div></div>
         <span></span>
       </div>
-      <div className="IOTBuilds-main">
+
+      <div className={styles.IOTBuildsMain}>
         <div>
           <h3>IOT Consultancy</h3>
         </div>

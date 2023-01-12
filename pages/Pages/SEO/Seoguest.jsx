@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { SeoblogSection } from "../../CommonComponents/SeoBlogs/Seoblogs";
-import Seostats from "../../SEO/Seo PPC/Seostats";
+import Seostats from "../../SEO/Seostats/Seostats";
 import SeoguestEnquiryNow from "../../Seoguest/SeoguestEnquiry";
 import SeoguestSection from "../../Seoguest/SeoguestSection";
-import StoriesSection from "../../StoriesSection/StoriesSection";
+import StoriesSection from "../../CommonComponents/StoriesSection/StoriesSection";
 import Reviews from "../../SEO/SeoReviews/Reviews";
 import Seoexperts from "../../SEO/Seo experts/Seoexperts";
 import Seofaq from "../../SEO/SeoFaq/Seofaq";

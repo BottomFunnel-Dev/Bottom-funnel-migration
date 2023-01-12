@@ -1,14 +1,15 @@
 import React from "react";
-import "./SeoLinkEnquiry.css";
+import styles from "./SeoLinkEnquiry.module.css";
 import Enq from "../ImageSection/EnquiryNow.jpg";
 
 export default function SeoLinkEnquiryNow() {
   return (
-    <div className="_SeoLinkEnquiryNowMaindiv">
-      <div className="_SeoLinkEnquiryNow">
+    <div className={styles.seoLinkEnquiryNowMaindiv}>
+      <div className={styles.seoLinkEnquiryNow}>
         <img src={Enq} alt="enq.img" />
       </div>
-      <div className="_SeoLinkEnquiryNow">
+
+      <div className={styles.seoLinkEnquiryNow}>
         <h3>
           We help your business to be discovered by the people and not just
           spiders

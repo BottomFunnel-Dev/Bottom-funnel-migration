@@ -1,6 +1,6 @@
 import React from "react";
 // Import Swiper React components
-import './verticalSlider.css'
+import styles from './verticalSlider.module.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -15,10 +15,10 @@ import { Mousewheel, Pagination, Scrollbar } from "swiper";
 
 const VerticalSilder = () => {
   return (
-    <div className="hemantslider">
-      <Swiper 
-       direction={"vertical"}
-      
+    <div className={styles.hemantslider}>
+      <Swiper
+        direction={"vertical"}
+
       >
         <SwiperSlide>
           <h1>hello hemant you are here for once</h1>

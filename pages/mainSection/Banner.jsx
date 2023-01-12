@@ -1,8 +1,6 @@
 import React from "react";
-import "./banner.css";
+import styles from "./banner.module.css";
 import Slider from "react-slick";
-import { useState } from "react";
-import { ParallexSection } from "../Parallex/ParallexSection";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
@@ -74,47 +72,47 @@ const Banner = () => {
   const banner = [
     {
       title: "Mobile App Development",
-      bannerImage: "Images/banner/app dev.gif",
+      bannerImage: "/Images/banner/app dev.gif",
       desc: "Connect to your customers in real time with the latest in mobile app development.",
-      backgorund: "Images/banner/mobilefull.png",
+      backgorund: "/Images/banner/mobilefull.png",
     },
     {
       title: "Custom Software Development",
-      bannerImage: "Images/banner/customsde.gif",
+      bannerImage: "/Images/banner/customsde.gif",
       desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
-      backgorund: "Images/banner/mobilefull.png",
+      backgorund: "/Images/banner/mobilefull.png",
     },
     {
       title: "Digital Marketing",
-      bannerImage: "Images/banner/digitalmarketing.gif",
+      bannerImage: "/Images/banner/digitalmarketing.gif",
       desc: "Break through the noise and grow your business with the power of digital marketing",
-      backgorund: "Images/banner/mobilefull.png",
+      backgorund: "/Images/banner/mobilefull.png",
     },
     {
       title: "Web Development",
-      bannerImage: "Images/banner/web dev.gif",
+      bannerImage: "/Images/banner/web dev.gif",
       desc: "Developing websites that develop your business",
-      backgorund: "Images/banner/mobilefull.png",
+      backgorund: "/Images/banner/mobilefull.png",
     },
     {
       title: "Software Product Development",
-      bannerImage: "Images/banner/app dev.gif",
+      bannerImage: "/Images/banner/app dev.gif",
       desc: "Don’t settle for anything less, get the finest software product for you company.",
-      backgorund: "Images/banner/mobilefull.png",
+      backgorund: "/Images/banner/mobilefull.png",
     },
   ];
 
   return (
-    <div className="bannerSection">
-      <div className="bannerSlide">
+    <div className={styles.bannerSection}>
+      <div className={styles.bannerSlide}>
         {/* <div className="backAnimation">
           <ParallexSection />
         </div> */}
         <Slider {...settings}>
           {banner.map((item, i) => (
-            <div key={i} className="slideMainDiv">
-              <div className="slideInnerContent">
-                <div className="textContent">
+            <div key={i} className={styles.slideMainDiv}>
+              <div className={styles.slideInnerContent}>
+                <div className={styles.textContent}>
                   <div>
                     <h1>{item.title}</h1>
                     <p>{item.desc}</p>
@@ -132,7 +130,7 @@ const Banner = () => {
                           variant="h6"
                           component="h2"
                         >
-                          <div className="popform">
+                          <div className={styles.popform}>
                             <PopupForm />
                           </div>
                         </Typography>
@@ -141,9 +139,9 @@ const Banner = () => {
                   </div>
                 </div>
 
-                <div className="imageContent">
-                  <div className="imageInner">
-                    <img src={item.bannerImage} alt="" />
+                <div className={styles.imageContent}>
+                  <div className={styles.imageInner}>
+                    <img src={item.bannerImage} alt="images" />
                   </div>
                 </div>
               </div>

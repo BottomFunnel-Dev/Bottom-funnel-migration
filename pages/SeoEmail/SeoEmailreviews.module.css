@@ -1,0 +1,43 @@
+.seoEmailReviewsmaindiv {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  /* border:1px solid green; */
+  margin-top: 70px;
+}
+.seoEmailReviews1 {
+  width: 50%;
+  padding: 15px;
+  border-bottom: 2px solid #ef4c23;
+}
+.seoEmailReviews1 > p {
+  padding: 15px 5px;
+  color: gray;
+  font-weight: 500;
+}
+.seoEmailReviews2 {
+  width: 50%;
+}
+.seoEmailCompanyRatings {
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  width: 50%;
+  align-items: center;
+}
+.seoEmailCompanyLogo {
+  width: 22%;
+}
+.seoEmailCompanyRatings img {
+  width: 55px;
+  height: 30px;
+}
+.seoEmailRatingsStars {
+  width: 40%;
+  background-color: blue;
+  padding: 5px;
+}
+.ratingEmailIcons {
+  font-size: 20px;
+  color: #ef4c23;
+}

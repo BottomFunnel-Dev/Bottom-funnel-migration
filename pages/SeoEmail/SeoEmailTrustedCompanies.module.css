@@ -1,0 +1,34 @@
+.seoEmailTrusted {
+  margin-top: 70px;
+  display: flex;
+  /* gap:4px; */
+}
+.seoEmailTrustedCarousel {
+  /* border:2px solid forestgreen; */
+  width: 68%;
+  text-align: center;
+  margin: auto;
+}
+/* .seoTrustedCarousel:hover{
+    background-color: #F5831F;
+} */
+.seoEmailTrustedtext {
+  /* border: 1px solid navy; */
+  width: 30%;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 25px;
+  font-weight: 600;
+  background-color: #ef4c23;
+}
+.seoEmailbrandimg {
+  /* border: 1px solid black; */
+  height: 100px;
+  width: 50px;
+}
+.seoEmailbrandimg > img {
+  width: 100%;
+  height: 100%;
+}
