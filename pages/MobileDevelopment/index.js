@@ -14,10 +14,10 @@ export default function MobileDevMain () {
       <MobileDevMainBanner />
     <MobileDevMainServices />
       <MobileDevMainCards />
-        {/*<MobileDevMainSolutions />
-     <MobileDevMainProject />
-     <MobileDevMainWhyChoose />
-  */}
+      <MobileDevMainSolutions />
+      <MobileDevMainProject />
+   <MobileDevMainWhyChoose />
+
     </div>
   );
 };

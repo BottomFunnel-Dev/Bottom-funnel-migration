@@ -1,6 +1,3 @@
-
-// 5E81FF
-
 import React from "react";
 import styles from "./MobileDevMainProject.module.css";
 
