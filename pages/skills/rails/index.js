@@ -4,7 +4,7 @@ import { SkillsComBookCall } from "../../Global/SkillsCom/SkillsComBookCall";
 import { SkillsComRemarkable } from "../../Global/SkillsCom/SkillsComRemarkable";
 import { SkillsComDes } from "../../Global/SkillsCom/SkillsComDes";
 
-import { angularjsData } from "../../Data/SkillsData";
+import { railsData } from "../../Data/SkillsData";
 import { SkillsComWhyApp } from "../../Global/SkillsCom/SkillsComWhyApp";
 import { SkillsComWhyBF } from "../../Global/SkillsCom/SkillsComWhyBF";
 import Head from "next/head";
@@ -25,7 +25,7 @@ function SkillsRails() {
     BookCallData,
     isRemarkable,
     RemarkableData,
-  } = angularjsData;
+  } = railsData;
 
   return (
     <div style={{ color: "#393939" }}>
