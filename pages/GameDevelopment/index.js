@@ -38,14 +38,7 @@ export default function GameDevelopment() {
       <div className={styles.bannerBottomSpace}></div>
       <GameWhyChoose />
 
-      <OndemandSection />
-      <Industries />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      {/* <MainFooter /> */}
+ 
     </div>
   );
 };

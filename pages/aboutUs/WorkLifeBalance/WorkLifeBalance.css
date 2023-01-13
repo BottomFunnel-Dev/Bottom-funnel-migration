@@ -1,0 +1,76 @@
+.WorkLifeBalance-main {
+  background: black;
+  color: #f4f4f4;
+
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.WorkLifeBalance-main > p {
+  font-size: 16px;
+  width: 70%;
+  margin: 2% auto 2% auto;
+}
+
+.WorkLifeBalance-heading {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+.WorkLifeBalance-heading > div > h1 {
+  font-size: 32px;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.WorkLifeBalance-heading > div > div {
+  background: #ef4c23;
+  width: 100px;
+  height: 10px;
+  transform: skew(25deg);
+}
+
+.WorkLifeBalance-heading > h1 {
+  font-size: 35px;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+}
+
+.WorkLifeBalance-cards {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.WorkLifeBalance-cards > div {
+  height: 100px;
+  width: 13%;
+
+  display: flex;
+  gap: 3%;
+  justify-content: space-evenly;
+}
+
+.WorkLifeBalance-cards > div > h1 {
+  font-size: 35px;
+  width: fit-content;
+  height: fit-content;
+  align-self: flex-start;
+  margin: 0px;
+  color: #6c757d;
+}
+
+.WorkLifeBalance-cards > div > h2 {
+  font-size: 20px;
+  align-self: flex-end;
+  text-align: left;
+}

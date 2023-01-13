@@ -2,25 +2,24 @@
     height: fit-content;
    background-color: white;
     display: flex;
+  
 
 }
 
 .taxibookingappadminpannelleftbox{
     height: 500px;
     width: 50%;
-
-   
-    background: url("/public/Images/Taxibooking/Bannersbackgrounds/Rectangle 4864.png");
+     background: url("/Images/Taxibooking/Bannersbackgrounds/Rectangle 4864.png");
     background-repeat: no-repeat;
+    margin-top: 5%;
 }
 
 .taxibookingadminpannelleftboximagesize{
     height: fit-content;
     width: 95%;
- margin-top: -4%;
-   margin-left: 3%;
+    margin-top: -4%;   
+     margin-left: 3%;
 
-  
 }
 
 .taxibookingadminpannelleftboximagesize >img{
@@ -30,12 +29,12 @@
 }
 
 .taxibookingappadminpannelrightbox{
-    height: 200px;
+    height: fit-content;
     width: 58%;
-
     display: flex;
     flex-wrap: wrap;
     margin-left: 2%;
+ 
   
 }
 .taxibookingappadminpannelindivilogo{
@@ -55,7 +54,7 @@
 
 .taxibookingappadminpannelindivi{
     height: fit-content;
-    width: 47%;
+    width: 43%;
     margin: 1%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;

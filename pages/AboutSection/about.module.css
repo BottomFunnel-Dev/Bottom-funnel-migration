@@ -179,7 +179,7 @@ text-align: center;
   #aboutStats3{
     position: absolute;
     top: 10%;
-    right: -0.001%;
+  right: 2%;
   }
   .aboutStats>h1{
    font-size: 20px;

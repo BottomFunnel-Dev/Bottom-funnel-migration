@@ -16,7 +16,7 @@ export const TaxiBookingCustomerApp = () => {
             images:"Images/Taxibooking/Customerscreens/Component 117.png",
             icon:"Images/Taxibooking/icons/Group 340238.png",
             htxt:"Easy To Choose Your Ride",
-            stxt:"We always strive to deliver futuristic solutions that will help you take your business further from the existing ones. ",
+            stxt:"We always strive to deliver futuristic solutions that will help you take your business further from the existing ones business further from the existing ones . ",
         },
   
         

@@ -69,8 +69,8 @@
   .bannertextcontentfull {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 40%;
-    left: 45%;
+    top: 45%;
+    left: 40%;
     width: 70%;
     height: fit-content;
     /* background-color: green; */
@@ -78,7 +78,7 @@
   }
 
 .bannertextcontentfull>h1{
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .bannertextcontentfull>p{

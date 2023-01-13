@@ -1,28 +1,26 @@
 .taxibookingcustomerappmainboxes{
     height: fit-content;
-
     display: flex;
- background-color: white;
+    background-color: white;
 }
 
 .taxibookingappcustomerappleftbox{
     height: fit-content;
     width: 55%;
- 
     display: flex;
     flex-wrap: wrap;
     margin-left: 5%;
     margin-top: 1%;
+    
   
 }
 
 .taxibookingappcustomerapprightbox{
     height: 600px;
     width: 45%;
- 
-    background: url("/public/Images/Taxibooking/Bannersbackgrounds/Ellipse 248.png");
+    background: url("/Images/Taxibooking/Bannersbackgrounds/Ellipse 248.png");
     background-repeat: no-repeat;
-    background-size: 90% 95%;
+    background-size: 80% 95%;
     background-position-x: right;
   
 }
@@ -41,8 +39,8 @@
 }
 
 .taxibookingflexingboxesindi{
-    height: 200px;
-    width: 48%;
+height: fit-content;
+    width: 45%;
 padding: 10px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    margin: 1%;
@@ -56,7 +54,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .taxibookingflexingboxesindiforlogo{
-    height: 30%;
+    height: 25%;
     width: 20%;
 
 }
@@ -64,7 +62,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     height: 100%;
     width: 100%;
     object-fit: contain;
-    padding: 5px;
+    padding: 10px;
 }
 
 .customerapptaxibookingboxfortxt >h1{

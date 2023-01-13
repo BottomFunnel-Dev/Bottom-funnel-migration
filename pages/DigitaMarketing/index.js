@@ -13,7 +13,7 @@ export default function DigitalMarketing() {
       <DigitalMarketingBanner />
       <WhatDigitalMarket />
       <DigitaMarketWeOffers />
-          <DigitalMarketingHiring />
+         {/* <DigitalMarketingHiring />*/}
      <DigitalMarketClientsAdd />
      <DigitalmarketWhyConsider />
 

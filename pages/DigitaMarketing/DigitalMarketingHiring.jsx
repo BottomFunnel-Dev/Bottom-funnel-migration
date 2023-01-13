@@ -41,13 +41,16 @@ export const DigitalMarketingHiring = () => {
       <div className={styles.digitalmarketinghiringimageboxes}>
         <img src='Images/digitalmarket/Component186.png' alt='image' />
       </div>
-      
-
+      <div className={styles.digitalmarketinghiringimageboxesmob}>
+        <img src='Images/digitalmarket/mobile responsive/Group 770882.png' alt='image' />
+      </div>
+  
       <div className={styles.digitalmarketafterimageflexingbox}>{digitalmarkethiringdata.map((e) => {
         return (
           <div className={styles.digitalmarkethiringflexingtxt}>
             <h4>{e.htxt}</h4>
             <p>{e.stxt}</p>
+        
           </div>
         )
       })}

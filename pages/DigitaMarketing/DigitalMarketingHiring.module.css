@@ -50,6 +50,9 @@ font-weight: 700;
     text-align: justify;
  
 }
+.digitalmarketinghiringimageboxesmob{
+    display: none;
+}
 
 }
 
@@ -75,30 +78,54 @@ font-weight: 700;
 
     
     .digitalmarketinghiringimageboxes{
-        height: auto;
+        height: 450px;
         width: 100%;
-     
+     border: 1px solid;
         margin-top: 5%;
+        display: none;
+      
+     
     }
+
+.digitalmarketinghiringimageboxesmob{
+    display: block;
+    height: 50vh;
+    width: 20%;
+    border: 1px solid;
+}
+.digitalmarketinghiringimageboxesmob>img{
+    height: 100%;
+    border: 1px solid;
+}
+
+
+
+
     
     .digitalmarketinghiringimageboxes >img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
+       
     }
     
     .digitalmarketafterimageflexingbox{
-        display: flex;
+      width: 70%;
         height: fit-content;
+     position: relative;
+     border: 5px solid red;
+     margin-left: 20%;
+     margin-top: -120%;
          
     }
     .digitalmarkethiringflexingtxt{
         height: fit-content;
-        width: 20%;
-      /* border: 2px solid yellow; */
+        width: 100%;
+      border: 2px solid yellow;
         margin: auto;
-        margin-left: 3%;
-        margin-right: 2%;
+      
+     
+   
+       
+
     
     
     }
