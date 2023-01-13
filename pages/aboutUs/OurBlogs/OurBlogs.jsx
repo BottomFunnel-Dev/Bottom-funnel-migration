@@ -1,5 +1,5 @@
 import React from "react";
-import "./OurBlogs.css";
+import styles from "./OurBlogs.module.css";
 
 export const OurBlogs = () => {
   const cardsData = [
@@ -23,7 +23,7 @@ export const OurBlogs = () => {
     },
   ];
   return (
-    <div className="OurBlogs-container">
+    <div className={styles.OurBlogscontainer}>
       <h1>
         Our Latest <span>Blog</span> Posts
       </h1>
@@ -33,16 +33,16 @@ export const OurBlogs = () => {
         from food to fashion and music, in addition to useful travel tips for
         travelers.
       </p>
-      <div className="OurBlogs-main">
+      <div className={styles.OurBlogsmain}>
         {cardsData.map(({ title, body, image, date }, idx) => {
           return (
-            <div className="OurBlogs-cards-main" key={idx}>
-              <div className="OurBlogs-cards-image">
+            <div className={styles.OurBlogscardsmain} key={idx}>
+              <div className={styles.OurBlogscardsimage}>
                 <img src={image} alt={title} />
               </div>
               <h2>{title}</h2>
               <p>{body}</p>
-              <div className="OurBlogs-card-date-more">
+              <div className={styles.OurBlogscarddatemore}>
                 <p>{date}</p>
                 <p style={{ color: "#ef4c23" }}>Read More</p>
               </div>

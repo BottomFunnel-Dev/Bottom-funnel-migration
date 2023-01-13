@@ -1,5 +1,5 @@
 import React from "react";
-import "./OurProcessPush.css";
+import styles from "./OurProcessPush.module.css";
 
 export const OurProcessPush = () => {
   const cardsData = [
@@ -18,12 +18,12 @@ export const OurProcessPush = () => {
   ];
 
   return (
-    <div className="OurProcessPush-main">
+    <div className={styles.OurProcessPushmain}>
       <p>PUSH YOUR BUSINESS WITH US!</p>
       <h1>
         We Help You With Our <span>Best In Class</span>
       </h1>
-      <p>
+      <p className={styles.innovatoraboutusptag}>
         Bottom Funnel is an innovator in the industry and has been a pioneer in
         developing cutting-edge technologies. With its expertise and knowledge,
         it can give you the best possible solutions for your business needs.

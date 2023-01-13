@@ -1,10 +1,10 @@
 import React from "react";
-import "./OurAchievements.css";
+import styles from "./OurAchievements.module.css";
 
 export const OurAchievements = () => {
   return (
-    <div className="OurAchievements-main">
-      <div className="OurAchievements-content">
+    <div className={styles.OurAchievementsmain}>
+      <div className={styles.OurAchievementscontent}>
         <h1>
           Our <span>Achievements</span>
         </h1>
@@ -26,7 +26,7 @@ export const OurAchievements = () => {
         </p>
         <button>Read More</button>
       </div>
-      <div className="OurAchievements-image">
+      <div className={styles.OurAchievementsimage}>
         <img
           src="Images/aboutusImage/our-achievements.jpg"
           alt="Our Achievement"

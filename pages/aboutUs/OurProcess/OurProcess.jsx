@@ -1,12 +1,13 @@
 import React from "react";
-import "./OurProcess.css";
+import styles from "./OurProcess.module.css";
 import { OurProcessPush } from "./OurProcessPush/OurProcessPush";
+
 
 export const OurProcess = () => {
   return (
-    <div className="about-us-ourprocess">
-      <div className="OurProcess-aboutUs-main">
-        <div className="OurProcess-aboutUs-content">
+    <div className={styles.aboutusourprocess}>
+      <div className={styles.OurProcessaboutUsmain}>
+        <div className={styles.OurProcessaboutUscontent}>
           <p>WHO WE ARE</p>
           <h1>
             About <span>Us</span>
@@ -26,7 +27,7 @@ export const OurProcess = () => {
           </p>
           <button>Read More</button>
         </div>
-        <div className="OurProcess-aboutUs-image">
+        <div className={styles.OurProcessaboutUsimage}>
           <img src="Images/aboutusImage/meeting.jpg" alt="about us main div" />
         </div>
       </div>

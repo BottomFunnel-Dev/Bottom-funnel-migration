@@ -32,16 +32,17 @@ export default function Agriculture() {
       <AgricultureConsumerApp driveData={agricultureConsumerApp} />
       <AgricultureAdminPanel plantBasedAdminData={agricultureAdmin} />
 
-      {/* Other react required components */}
+      {/* Other react required components 
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio /> */}
-      {/* <PlanProject /> */}
+      <PortFolio /> 
+        <PlanProject /> 
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      {/* <MainFooter /> */}
+     <MainFooter /> 
+    */}
     </div>
   );
 }

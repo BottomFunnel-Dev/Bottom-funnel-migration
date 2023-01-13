@@ -1,5 +1,5 @@
 import React from "react";
-import "./WorkLifeBalance.css";
+import styles from "./WorkLifeBalance.module.css";
 
 export const WorkLifeBalance = () => {
   const cardsData = [
@@ -12,8 +12,8 @@ export const WorkLifeBalance = () => {
     "Best & Global Opportunities",
   ];
   return (
-    <div className="WorkLifeBalance-main">
-      <div className="WorkLifeBalance-heading">
+    <div className={styles.WorkLifeBalancemain}>
+      <div className={styles.WorkLifeBalanceheading}>
         <div>
           <h1>Work</h1>
           <div></div>
@@ -27,7 +27,7 @@ export const WorkLifeBalance = () => {
         many of us find ourselves saying yes to those crazy late nights and
         weekend projects.
       </p>
-      <div className="WorkLifeBalance-cards">
+      <div className={styles.WorkLifeBalancecards}>
         {cardsData.map((elem, idx) => {
           return (
             <div>

@@ -1,16 +1,17 @@
 import React from "react";
-import "./AboutusBanner.css";
+import styles from "./AboutusBanner.module.css";
 
 export const AboutusBanner = () => {
   return (
-    <div className="about-us-Banner">
-      <div className="about-us-banner-image">
+    <div className={styles.aboutusBanner}>
+      <div className={styles.aboutusbannerimage}>
         <img src="/Images/aboutusImage/banner.jpg" alt="About us banner" />
+      
       </div>
-      <div className="about-us-banner-content">
+  <div className={styles.aboutusbannercontent}>
         <h1>
           Build Your Brands presence With{" "}
-          <span className="about-us-animated-title">BOTTOM FUNNEL</span>
+          <span className={styles.aboutusanimatedtitle}>BOTTOM FUNNEL</span>
         </h1>
         <hr />
         <p>
@@ -19,7 +20,7 @@ export const AboutusBanner = () => {
           unparalleled value to our partners, through our experience and
           expertise in the field.
         </p>
-        <button>Get Started</button>
+  <button>Get Started</button>
       </div>
     </div>
   );
