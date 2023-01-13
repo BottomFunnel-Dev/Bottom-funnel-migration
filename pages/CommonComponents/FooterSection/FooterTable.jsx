@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./footertable.module.css";
-import { useNavigate } from "react-router-dom";
-
+// import { useNavigate } from "react-router-dom";
+import Link from "next/link";
 
 const FooterTable = () => {
   const navigate = useNavigate();
@@ -9,7 +9,10 @@ const FooterTable = () => {
   return (
     <div className={styles.footerTable}>
       <div className={styles.innerTable}>
-        <p onClick={() => navigate("/about-us")}>About</p>
+        <Link href={"/about-us"}>
+        <p >About</p>
+        </Link>
+        
         <p onClick={() => navigate("/about-us")}>About Us</p>
         <p onClick={() => navigate("/about-us")}>Our Team</p>
         <p onClick={() => navigate("/")}>Career</p>
