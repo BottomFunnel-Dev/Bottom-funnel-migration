@@ -230,5 +230,121 @@
     }
   }
   
+}
+
+
+
+/* for any type of tablet screen responsive */
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+
+  .aboutusBanner {
+    height: 70vh;
+    padding: 10px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+  
+  }
+  
+  .aboutusbannercontent {
+    width: 45%;
+    height: fit-content;
+  }
+  
+  .aboutusbannercontent > h1 {
+    text-transform: uppercase;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 40px;
+  }
+  
+  .aboutusbannercontent > p {
+    margin: auto;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .aboutusbannercontent > hr {
+    background-color: #393939;
+    height: 1px;
+    border-radius: 2px;
+    width: 65%;
+    margin: 0px;
+  }
+  
+  .aboutusbannercontent > button {
+    background-color: #ef4c23;
+    color: white;
+    margin-top: 2%;
+    padding: 10px 60px;
+    cursor: pointer;
+  
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+    border: 1px solid #ef4c23;
+    outline: none;
+    border-radius: 100px;
+  }
+  
+  .aboutusbannercontent > button:hover {
+    color: #ef4c23;
+    background: white;
+  }
+  
+  .aboutusbannerimage {
+    width: 45%;
+    height: 300px;
+    text-align: right;
+    
+  }
+  
+  .aboutusbannerimage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .aboutusanimatedtitle {
+    font-size: 40px;
+    position: relative;
+    color: #ef4c23;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .aboutusanimatedtitle::after {
+    content: "|";
+    position: absolute;
+    font-size: 40px;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-color: #f4f4f4;
+    color: #393939;
+    animation: animateTitle 10s linear infinite, caret 1s infinite;
+  }
+  
+  @keyframes animateTitle {
+    0% {
+      width: 100%;
+    }
+  
+    50% {
+      width: 0%;
+    }
+  
+    100% {
+      width: 100%;
+    }
+  }
+
+
 
 }
