@@ -110,7 +110,7 @@ export const BannerFull = () => {
                 background: `url(${item.background})`,
                 backgroundRepeat: "no-repeat",
                 // backgroundPosition: "center",
-                backgroundSize: "100% 80%",
+                backgroundSize: "100% 100%",
               }}
             >
               {item.title === "Mobile App Development" && <MobileBanner />}
