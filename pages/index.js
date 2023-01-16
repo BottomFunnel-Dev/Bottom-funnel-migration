@@ -2,12 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-import { BannerFull } from "./mainSection/BannerFull";
-import CompanyLogo from "./CompanyLogos/CompanyLogo";
-import About from "./AboutSection/About";
-import Services from "./Services/Services";
-import Awards from "./AwardSection/Awards";
-import MainFooter from "./CommonComponents/FooterSection/MainFooter";
+import { BannerFull } from "./../components/mainSection/BannerFull";
+import CompanyLogo from "./../components/CompanyLogos/CompanyLogo";
+import About from "./../components/AboutSection/About";
+import Services from "./../components/Services/Services";
+import Awards from "./../components/AwardSection/Awards";
+import MainFooter from "./../components/CommonComponents/FooterSection/MainFooter";
 
 // const inter = Inter({ subsets: ["latin"] });
 

@@ -1,4 +1,4 @@
-.ContactUSForm-main {
+.ContactUSFormmain {
   width: 80%;
   height: fit-content;
   margin: 3% auto;
@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 
-.ContactUSForm-content {
+.ContactUSFormcontent {
   width: 40%;
   height: fit-content;
   padding: 1%;
@@ -21,7 +21,7 @@
   border-right: 2px solid #ef4c23;
 }
 
-.ContactUSForm-content > h1 {
+.ContactUSFormcontent > h1 {
   font-size: 30px;
   width: 80%;
   margin: auto;
@@ -31,19 +31,19 @@
   padding: 2%;
 }
 
-.ContactUSForm-content > h1:hover {
+.ContactUSFormcontent > h1:hover {
   color: #ef4c23;
   background: white;
 }
 
-.ContactUSForm-content > p {
+.ContactUSFormcontent > p {
   font-size: 16px;
   color: #495057;
   width: 80%;
   margin: 2% auto 2% auto;
 }
 
-.ContactUSForm-info {
+.ContactUSForminfo {
   width: 80%;
   margin: 2% auto;
 
@@ -53,18 +53,18 @@
   justify-content: space-between;
 }
 
-.ContactUSForm-content > h2 {
+.ContactUSFormcontent > h2 {
   width: 70%;
   margin: 1% auto 2% auto;
   font-size: 20px;
   cursor: pointer;
 }
 
-.ContactUSForm-content > h2:hover {
+.ContactUSFormcontent > h2:hover {
   color: #ef4c23;
 }
 
-.ContactUSForm-info > h2 {
+.ContactUSForminfo > h2 {
   width: 45%;
   margin-bottom: 2%;
   margin-top: 1%;
@@ -73,11 +73,11 @@
   cursor: pointer;
 }
 
-.ContactUSForm-info > h2:hover {
+.ContactUSForminfo > h2:hover {
   color: #ef4c23;
 }
 
-.ContactUSForm-social {
+.ContactUSFormsocial {
   width: 80%;
   margin: 3% auto 3% auto;
 
@@ -87,30 +87,30 @@
   justify-content: flex-start;
 }
 
-.ContactUSForm-social > a > svg {
+.ContactUSFormsocial > a > svg {
   width: 25px;
   height: 25px;
   color: #393939;
 }
 
-.ContactUSForm-social > a:hover svg {
+.ContactUSFormsocial > a:hover svg {
   color: #ef4c23;
 }
 
-.ContactUSForm-form-outer-main {
+.ContactUSFormformoutermain {
   width: 50%;
   height: fit-content;
   padding: 3%;
 }
 
-.ContactUSForm-form-outer-main > h1 {
+.ContactUSFormformoutermain > h1 {
   margin-bottom: 4%;
   font-size: 35px;
   color: #ef4c23;
   text-align: center;
 }
 
-.ContactUSForm-formSection {
+.ContactUSFormformSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -119,7 +119,7 @@
   color: #393939;
 }
 
-.ContactUSForm-inputWithIcon {
+.ContactUSForminputWithIcon {
   box-sizing: border-box;
   width: 47%;
   display: flex;
@@ -128,7 +128,7 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-.ContactUSForm-inputPart {
+.ContactUSForminputPart {
   box-sizing: border-box;
   border: none;
   color: #393939;
@@ -140,13 +140,13 @@
   padding: 10px 0;
 }
 
-.ContactUSForm-inputPart::placeholder {
+.ContactUSForminputPart::placeholder {
   color: #393939;
 
   font-weight: 600;
 }
 
-.ContactUSForm-phoneNumber {
+.ContactUSFormphoneNumber {
   width: 30%;
   box-sizing: border-box;
   box-sizing: border-box;
@@ -162,13 +162,13 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-.ContactUSForm-phoneNumber::placeholder {
+.ContactUSFormphoneNumber::placeholder {
   color: #393939;
 
   font-weight: 600;
 }
 
-.ContactUSForm-messagePart {
+.ContactUSFormmessagePart {
   width: 100%;
   box-sizing: border-box;
   border: none;
@@ -183,12 +183,12 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-.ContactUSForm-messagePart::placeholder {
+.ContactUSFormmessagePart::placeholder {
   font-weight: 600;
   color: #393939;
 }
 
-.ContactUSForm-phoneClass {
+.ContactUSFormphoneClass {
   width: 15%;
   font-size: 12px;
   box-sizing: border-box;
@@ -197,7 +197,7 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-.ContactUSForm-countryCode {
+.ContactUSFormcountryCode {
   width: 90%;
   box-sizing: border-box;
   font-size: 14px;
@@ -210,11 +210,11 @@
   border: none;
 }
 
-.ContactUSForm-countryCode > option {
+.ContactUSFormcountryCode > option {
   color: #393939;
 }
 
-.ContactUSForm-selectClass {
+.ContactUSFormselectClass {
   width: 47%;
   box-sizing: border-box;
   display: flex;
@@ -223,7 +223,7 @@
   color: #393939;
 }
 
-.ContactUSForm-selectPart {
+.ContactUSFormselectPart {
   width: 90%;
   box-sizing: border-box;
   font-size: 16px;
@@ -235,32 +235,32 @@
   color: #393939;
 }
 
-.ContactUSForm-selectPart > option {
+.ContactUSFormselectPart > option {
   color: #393939;
 }
 
-.ContactUSForm-textareaClass {
+.ContactUSFormtextareaClass {
   width: 100%;
   color: #393939;
 }
 
-.ContactUSForm-formMessageIcon {
+.ContactUSFormformMessageIcon {
   margin-right: 5px;
   color: #393939;
 }
 
-.ContactUSForm-textareaClass > label {
+.ContactUSFormtextareaClass > label {
   color: #393939;
 
   font-weight: 600;
 }
 
-.ContactUSForm-robotCaptcha {
+.ContactUSFormrobotCaptcha {
   display: flex;
   justify-content: center;
 }
 
-.ContactUSForm-robotCaptcha button {
+.ContactUSFormrobotCaptcha button {
   padding: 10px 60px;
   font-size: 18px;
   color: white;
@@ -273,7 +273,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.ContactUSForm-robotCaptcha button:hover {
+.ContactUSFormrobotCaptcha button:hover {
   color: #ef4c23;
   background-color: white;
 }

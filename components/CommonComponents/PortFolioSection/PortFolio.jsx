@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { BsGlobe, BsApple, BsArrowRight } from "react-icons/bs";
 import { AiFillAndroid } from "react-icons/ai";
 import { IconContext } from "react-icons";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const PortFolio = () => {
   const [imageIndex, setImageIndex] = useState(0);

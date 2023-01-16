@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsPlayCircle, BsArrowRight } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
-import { useTransition, animated } from "react-spring";
 import { useState } from "react";
 import YoutubeLink from "./YoutubeLink";
 

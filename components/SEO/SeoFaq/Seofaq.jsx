@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./Seofaq.module.css";
-import Accordion from 'react-bootstrap/Accordion';
+// import Accordion from 'react-bootstrap/Accordion';
 
 export default function Seofaq() {
 
   return (
     <div className={styles.seofaqs}>
       <h2 className={styles._SeoFaqheading}>Frequently Asked Questions</h2>
-      <Accordion flush className={styles._Seofaq1}>
+      {/* <Accordion flush className={styles._Seofaq1}>
         <Accordion.Item eventKey="0">
           <Accordion.Header className={styles._Seoheader}>
             <p className={styles._Seofaq2}>What is SEO?</p></Accordion.Header>
@@ -63,7 +63,7 @@ export default function Seofaq() {
             This means that your content is written by experienced professionals who understand how to market it correctly for search engines. Additionally, you are always kept up to date with changes in Google's ranking methodology so that you can make the most effective use of your time and resources. And if anything ever goes wrong, we're here to help!
           </Accordion.Body>
         </Accordion.Item>
-      </Accordion>
+      </Accordion> */}
     </div>
   )
 }
