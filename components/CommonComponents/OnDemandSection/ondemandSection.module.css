@@ -57,7 +57,8 @@
   position: absolute;
   top: 0;
   color: white;
-  padding: 20px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 .solText > h4 {
   color: white;

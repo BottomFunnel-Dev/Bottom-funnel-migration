@@ -86,7 +86,7 @@ const OndemandSection = () => {
       description:
         "Step-up your game, reach your target audience and maximise your ROI with our unique ondemand digital marketing solutions.",
       actionArrow: <BsArrowRight />,
-      linkk:"/digitalmarketing"
+      link:"/digitalmarketing"
     },
     {
       solutionName: "Pharmacy Delivery App",
@@ -115,7 +115,7 @@ const OndemandSection = () => {
       <div className={styles.mainOndemand}>
         {ondemandSol.map((item, index) => (
           <div key={index} className={styles.ondemandInner}>
-            <Link href={`${item.link}`}>
+         
               <img className={styles.solImage} src={item.bg} alt="image" />
               <div className={styles.solText}>
                 <div className={styles.solLogos}>
@@ -129,11 +129,11 @@ const OndemandSection = () => {
 
                 <h4>{item.solutionName}</h4>
                 <p>{item.description}</p>
-                <IconContext.Provider value={{ className: styles.arrowIcon }}>
+               <Link href={`${item.link}`} key={index} > <IconContext.Provider value={{ className: styles.arrowIcon }}>
                   {item.actionArrow}
-                </IconContext.Provider>
+                </IconContext.Provider></Link>
               </div>
-            </Link>
+          
           </div>
         ))}
       </div>
