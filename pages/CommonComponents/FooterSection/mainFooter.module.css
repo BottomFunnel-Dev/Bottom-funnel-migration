@@ -4,13 +4,14 @@
   background: #302f2f;
   padding: 15px;
   display: flex;
+  box-sizing: border-box;
 }
 .mainFooterSection li {
   list-style: none;
 }
 
 .leftFooter {
-  width: 57%;
+  width: 60%;
 }
 .startWith > h3 {
   color: #ef4c23;
@@ -41,6 +42,7 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .moreServ {
@@ -53,10 +55,11 @@
   margin: 15px auto;
   cursor: pointer;
   border: 1px solid white;
+  box-sizing: border-box;
 }
 
 .rightFooter {
-  width: 43%;
+  width: 40%;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -138,13 +141,14 @@
   object-fit: cover;
 }
 .footerLogo {
-  width: 100%;
+  width: 95%;
   /* height: 100px; */
   justify-content: space-between;
   border-radius: 10px;
-  padding: 20px;
+  padding: 6px;
   display: flex;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .footerLogo > div > img {
@@ -155,7 +159,7 @@
 .footerAddress {
   position: relative;
   height: fit-content;
-  width: 45%;
+  width: 50%;
 }
 .logoBottom {
   width: 45%;
@@ -163,7 +167,7 @@
 }
 .taglinefooter {
   position: absolute;
-  top: 93px;
+  top: 105px;
   width: 100%;
   left: 50px;
   color: white;
@@ -206,7 +210,7 @@
 }
 
 .socialIcons {
-  font-size: 35px;
+  font-size: 25px;
   border: 1px solid white;
   padding: 6px;
   color: #ef4c23;
@@ -214,7 +218,7 @@
   background-color: white;
 }
 .socialIcons:hover {
-  font-size: 35px;
+  font-size: 25px;
   /* border: 1px solid white; */
   padding: 6px;
   color: white;

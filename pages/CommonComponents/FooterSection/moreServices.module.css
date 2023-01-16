@@ -13,13 +13,17 @@
     color: white;
     
 }
-.innerTable p:nth-child(1) {
-    margin: 10px 0;
-    font-weight: 700;
-    font-size: 18px;
-}
-.innerTable>p{
+
+.innerTable p{
     margin: 0;
     font-size: 14px;
     color: white;
 }
+
+.link_css{
+    color: red ;
+    font-size: 18px !important;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+  
+  }

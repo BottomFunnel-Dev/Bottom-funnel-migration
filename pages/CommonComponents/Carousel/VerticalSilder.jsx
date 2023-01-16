@@ -1,22 +1,22 @@
 import React from "react";
 // Import Swiper React components
 import styles from './verticalSlider.module.css';
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/mousewheel";
-import "swiper/css/scrollbar";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import "swiper/css/mousewheel";
+// import "swiper/css/scrollbar";
 import "./IndustriesCarousel.module.css";
 
 // import required modules
-import { Mousewheel, Pagination, Scrollbar } from "swiper";
+// import { Mousewheel, Pagination, Scrollbar } from "swiper";
 
 const VerticalSilder = () => {
   return (
     <div className={styles.hemantslider}>
-      <Swiper
+      {/* <Swiper
         direction={"vertical"}
 
       >
@@ -29,7 +29,7 @@ const VerticalSilder = () => {
         <SwiperSlide>
           <h1>hello hemant you are here for thrice</h1>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 };

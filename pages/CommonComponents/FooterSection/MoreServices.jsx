@@ -1,13 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+import Link from "next/link";
 import styles from "./moreServices.module.css";
 const MoreServices = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div className={styles.footerTable}>
       <div className={styles.innerTable}>
-        <p>Trending Technologies</p>
+        <p className = {styles.link_css}>Trending Technologies</p>
         <p>Big data services</p>
         <p>Blockchain services</p>
         <p>Machine Learning</p>
@@ -25,50 +26,83 @@ const MoreServices = () => {
       </div>
 
       <div className={styles.innerTable}>
-        <p>On Demand Solutions</p>
-        <p onClick={() => navigate("/food-delivery")}>Food Delivery App</p>
-        <p onClick={() => navigate("/ondemandHomeServices")}>
-          On demand home solution
-        </p>
-        <p onClick={() => navigate("/alcohol")}>Alcohol Delivery App</p>
+        <p className = {styles.link_css}>On Demand Solutions</p>
+        <Link href={"/food-delivery"}>
+          <p>Food Delivery App</p>
+        </Link>
+        <Link href={"/ondemandHomeServices"}>
+          <p>On Demand Home Solution</p>
+        </Link>
+        <Link href={"/alcohol"}>
+          <p>Alcohol Delivery App</p>
+        </Link>
+
         <p>laundry Delivery App</p>
-        <p onClick={() => navigate("/grocery")}>Grocery Delivery App</p>
-        <p onClick={() => navigate("/beautycareapp")}>Beauty & Salon App</p>
-        <p onClick={() => navigate("/cannabis")}>Cannabis Delivery App</p>
+        <Link href={"/grocery"}>
+          <p>Grocery Delivery App</p>
+        </Link>
+        <Link href={"/beautycareapp"}>
+          <p>Beauty & Salon App</p>
+        </Link>
+        <Link href={"/cannabis"}>
+          <p>Cannabis Delivery App</p>
+        </Link>
         <p>Marketplace app</p>
         <p>Pickup & delivery</p>
         <p>Pharmacy Delivery App</p>
         <p>Flower Delivery App</p>
         <p>Carpooling App</p>
         <p>Taxi Booking App</p>
-        <p onClick={() => navigate("/taxi-booking")}>Tool Delivery App</p>
-        <p onClick={() => navigate("/Icecream")}>Icecream Delivery App </p>
+        <Link href={"/taxi-booking"}>
+          <p>Tool Delivery App</p>
+        </Link>
+        <Link href={"/Icecream"}>
+          <p>Icecream Delivery App </p>
+        </Link>
       </div>
 
       <div className={styles.innerTable}>
-        <p>Industry We Serve</p>
-        <p onClick={() => navigate("/education")}>Education</p>
-        <p onClick={() => navigate("/gameDevelopment")}>Gaming</p>
-        <p onClick={() => navigate("/ecommerce")}>E-Commerce</p>
-        <p onClick={() => navigate("/videostreaming")}>Video Streaming</p>
+        <p className = {styles.link_css}>Industry We Serve</p>
+        <Link href={"/education"}>
+          <p>Education</p>
+        </Link>
+        <Link href={"/gameDevelopment"}>
+          <p>Gaming</p>
+        </Link>
+        <Link href={"/ecommerce"}>
+          <p>E-Commerce</p>
+        </Link>
+        <Link href={"/videostreaming"}>
+          <p>Video Streaming</p>
+        </Link>
         <p>Sports Betting</p>
         <p>IoT Development</p>
-        <p onClick={() => navigate("/fitness")}>Fitness</p>
-        <p onClick={() => navigate("/dating")}>Dating</p>
+        <Link href={"/fitness"}>
+          <p>Fitness</p>
+        </Link>
+        <Link href={"/dating"}>
+          <p>Dating</p>
+        </Link>
         <p>Cryptocurrency</p>
         <p>Social media</p>
-        <p onClick={() => navigate("/Logistics")}>Logistics</p>
+        <Link href={"/Logistics"}>
+          <p>Logistics</p>
+        </Link>
         <p>Ploitics</p>
         <p>Wellness</p>
         <p>News</p>
         <p>Saas</p>
         <p>Events</p>
-        <p onClick={() => navigate("/eScooter")}>eScooter</p>
-        <p onClick={() => navigate("/travel")}>Travel</p>
+        <Link href={"/eScooter"}>
+          <p>eScooter</p>
+        </Link>
+        <Link href={"/travel"}>
+          <p>Travel</p>
+        </Link>
       </div>
 
       <div className={styles.innerTable}>
-        <p>Products</p>
+        <p className = {styles.link_css}>Products</p>
         <p>Bottom Funnel Omnichannel</p>
         <p>Bottom Funnel Support Desk</p>
         <p>Bottom Funnel Contact Center</p>

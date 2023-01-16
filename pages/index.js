@@ -7,6 +7,7 @@ import CompanyLogo from "./CompanyLogos/CompanyLogo";
 import About from "./AboutSection/About";
 import Services from "./Services/Services";
 import Awards from "./AwardSection/Awards";
+import MainFooter from "./CommonComponents/FooterSection/MainFooter";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <Services />
       <Awards />
+      <MainFooter/>
     </div>
   );
 }
