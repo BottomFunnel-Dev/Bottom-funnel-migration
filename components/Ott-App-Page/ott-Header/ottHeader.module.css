@@ -91,16 +91,16 @@
 .ottHeaderRightImagesDiv > .ottHeaderRightImg2 {
   width: 30%;
   position: absolute;
-  bottom: 0;
-  left: 40%;
+  bottom: 4%;
+  left: 35%;
   z-index: 1;
 }
 
 .ottHeaderRightImagesDiv > .ottHeaderRightImg3 {
   width: 33%;
   position: absolute;
-  bottom: 0;
-  right: 0%;
+  bottom: 4%;
+  right: 4%;
 }
 
 /* service component */
@@ -141,21 +141,34 @@
 .ottServicesBoxesDiv {
   width: 30%;
   gap: 20px;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.ottServicesBoxesDiv:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .ottServicesDivForFlexIconHead {
   display: flex;
   width: 90%;
   justify-content: space-between;
   text-align: center;
+  align-items: center;
 }
 
 .ottServicesDivForFlexIconHead > div > img {
   width: 70%;
+  margin-top: 10%;
 }
 
-.ottServicesDivForFlexIconHead > div > h3 {
-  font-size: 20px;
+.ottServicesDivForFlexIconHead > h3 {
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  margin: 2% auto;
+  /* border: 1px solid red; */
 }
 
 .ottServicesLoremPara {
@@ -178,7 +191,7 @@
   text-align: center;
   width: fit-content;
   height: fit-content;
-  margin: 2% auto;
+  margin: 1.5% auto;
   background: #ef4c23;
   cursor: pointer;
   border-radius: 7px;

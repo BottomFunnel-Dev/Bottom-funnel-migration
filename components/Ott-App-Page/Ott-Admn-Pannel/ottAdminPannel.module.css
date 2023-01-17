@@ -56,6 +56,17 @@
   background-color: #ffebef;
 }
 
+.ottAdminPannelLeftDivForCards > h3 {
+  color: red;
+  margin: 0% auto;
+}
+
+.ottAdminPannelLeftDivForCards > p {
+  font-size: 18px;
+  margin: 2% auto;
+  /* border: 1px solid green; */
+}
+
 .ottAdminPannelLeftDivHeading {
   color: white;
   text-align: center;
@@ -65,13 +76,4 @@
 .ottAdminPannelLeftDivHeading > p {
   font-size: 18px;
   /* border: 1px solid red; */
-}
-
-.ottAdminPannelLeftDivForCards > h3 {
-  color: red;
-}
-
-.ottAdminPannelLeftDivForCards > p {
-  font-size: 18px;
-  /* border: 1px solid green; */
 }

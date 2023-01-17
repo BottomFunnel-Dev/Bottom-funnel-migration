@@ -19,11 +19,16 @@
 
 .ottFooterCardsDiv {
   width: 30%;
-  height: fit-content;
+  height: 130px;
   color: white;
-  /* border: 1px solid red; */
+  border: 1px solid white;
+  border-radius: 7px;
   flex-direction: row;
   margin: auto;
+}
+
+.ottFooterCardsDiv:hover {
+  box-shadow: #cccaca59 0 5px 15px;
 }
 
 .ottFooterImgParaCombo {
@@ -34,8 +39,11 @@
 
 .ottFooterParaDiv {
   width: 75%;
+  margin-left: 5%;
 }
+
 .ottFooterImgParaCombo > img {
   width: 7%;
   height: 30px;
+  margin-left: 5%;
 }

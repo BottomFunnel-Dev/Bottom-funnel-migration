@@ -74,9 +74,11 @@
 
 .ottAppRightDivForCards > h3 {
   color: red;
+  margin-top: 0%;
 }
 
 .ottAppRightDivForCards > p {
   font-size: 18px;
+  margin: -5% auto;
   /* border: 1px solid green; */
 }

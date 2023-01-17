@@ -64,26 +64,27 @@
 .ottFeturesBannelTextButtonDiv {
   position: absolute;
   color: black;
-  top: 15%;
-  left: 30%;
+  top: 18%;
+  left: 8%;
 }
 
 .ottFeturesBannelTextButtonDiv > h2 {
-  width: 70%;
+  width: 100%;
+  margin-top: 1%;
   /* border: 1px solid red; */
   text-align: center;
 }
 
 .ottFeturesBannelTextButtonDiv > button {
   position: absolute;
-  left: 22%;
+  left: 45%;
   font-size: 18px;
   font-weight: 600;
   padding: 8px 50px;
   text-align: center;
   width: fit-content;
   height: fit-content;
-  margin: 2% auto;
+  margin: 1% auto;
   background: #ef4c23;
   cursor: pointer;
   border-radius: 15px;

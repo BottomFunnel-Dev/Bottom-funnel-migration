@@ -53,7 +53,10 @@ export const OttSolutions = () => {
 
           <div className={styles.ottAppRightDivHeading}>
             <h1>User Experience App</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum autem in veniam nemo, minima quisquam ipsa esse nesciunt, nulla vero inventore quas hic modi ratione assumenda adipisci soluta eaque veritatis.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum autem in veniam nemo, minima quisquam ipsa esse nesciunt,
+              nulla vero inventore quas hic modi ratione assumenda adipisci soluta eaque veritatis.
+            </p>
           </div>
 
           {OttSolutionsData.map((e) => {
