@@ -6880,3 +6880,450 @@ export const railsData = {
     ],
   },
 };
+
+export const gorillaData = {
+  title: "gorilla framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/gorillaSkillsPhotos/banner.webp",
+    title: "Gorilla Framework Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Gorilla",
+    image: "/Images/skillsPhotos/gorillaSkillsPhotos/gorilla-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR GORILLA WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/router.webp",
+          alt: "Development of routers logo",
+        },
+        title: "Development of routers",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/www.webp",
+          alt: "Authenticated URLs logo",
+        },
+        title: "Authenticated URLs",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/internet.webp",
+          alt: "Assistance with the middleware logo",
+        },
+        title: "Assistance with the middleware",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/document.webp",
+          alt: "Requests logo",
+        },
+        title: "Requests",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/right.webp",
+          alt: "Simple and productive logo",
+        },
+        title: "Simple and productive",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/checked.webp",
+          alt: "Easy to use logo",
+        },
+        title: "Easy to use",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for gorilla",
+    image: "/Images/skillsPhotos/gorillaSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive rails solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our gorilla developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using gorilla",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
+          alt: "Fast processing logo",
+        },
+        title: "Fast processing",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
+          alt: "Customizable logo",
+        },
+        title: "Customizable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
+          alt: "Multi work adoptivity logo",
+        },
+        title: "Multi work adoptivity",
+      },
+    ],
+  },
+};
+
+export const hanamiData = {
+  title: "hanami framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/hanamiSkillsPhotos/banner.webp",
+    title: "Hanami Framework Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Hanami",
+    image: "/Images/skillsPhotos/hanamiSkillsPhotos/hanami-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR HANAMI WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/hanamiSkillsPhotos/thinking.webp",
+          alt: "Multi tasking logo",
+        },
+        title: "Multi tasking",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hanamiSkillsPhotos/speed.webp",
+          alt: "Fast response times logo",
+        },
+        title: "Fast response times",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hanamiSkillsPhotos/secure.webp",
+          alt: "Secure by default logo",
+        },
+        title: "Secure by default",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hanamiSkillsPhotos/computer-leaf.webp",
+          alt: "Full-featured, but lightweight logo",
+        },
+        title: "Full-featured, but lightweight",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hanamiSkillsPhotos/right.webp",
+          alt: "Simple and productive logo",
+        },
+        title: "Simple and productive",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hanamiSkillsPhotos/checked.webp",
+          alt: "Easy to use logo",
+        },
+        title: "Easy to use",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for hanami",
+    image: "/Images/skillsPhotos/hanamiSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive hanami solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our hanami developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using hanami",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
+          alt: "Fast processing logo",
+        },
+        title: "Fast processing",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
+          alt: "Customizable logo",
+        },
+        title: "Customizable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
+          alt: "Multi work adoptivity logo",
+        },
+        title: "Multi work adoptivity",
+      },
+    ],
+  },
+};
+
+export const irisData = {
+  title: "iris framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/irisSkillsPhotos/banner.webp",
+    title: "Iris Framework Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Iris",
+    image: "/Images/skillsPhotos/irisSkillsPhotos/iris-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR IRIS WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/right.webp",
+          alt: "Simplicity logo",
+        },
+        title: "Simplicity",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/cloud.webp",
+          alt: "Open source logo",
+        },
+        title: "Open source",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/fast-run.webp",
+          alt: "Focus on performance logo",
+        },
+        title: "Focus on performance",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/analysis.webp",
+          alt: "Targeting Vision logo",
+        },
+        title: "Targeting Vision",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/grid.webp",
+          alt: "Multiple templates logo",
+        },
+        title: "Multiple templates",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/center.webp",
+          alt: "Smart compressions logo",
+        },
+        title: "Smart Compressions",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for iris",
+    image: "/Images/skillsPhotos/irisSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive iris solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our iris developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using iris",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/meter.webp",
+          alt: "Fast processing logo",
+        },
+        title: "Fast processing",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/setting.webp",
+          alt: "Customizable logo",
+        },
+        title: "Customizable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/recycle.webp",
+          alt: "Multi work adaptivity logo",
+        },
+        title: "Multi work adaptivity",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/currency.webp",
+          alt: "Affordable logo",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/versatile.webp",
+          alt: "Versatile logo",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/irisSkillsPhotos/automated.webp",
+          alt: "Secure & up-to-date logo",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
