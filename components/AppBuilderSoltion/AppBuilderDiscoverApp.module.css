@@ -1,120 +1,103 @@
-.appbuilderdiscoverappmainboxes{
-    height: fit-content;
-   
-    display: flex;
-    background: url("/Images/Appbuildersolutions/Bannersbackgrounds/Rectangle\ 4741.png");
-    padding-top: 5%;
-    position: relative;
-
-   
+.appbuilderdiscoverappmainboxes {
+  height: fit-content;
+  display: flex;
+  background: url("/Images/Appbuildersolutions/Bannersbackgrounds/Rectangle\ 4741.png");
+  padding-top: 5%;
+  position: relative;
 }
 
-.appbuilderdiscoverleftbox{
-    height: 100%;
-margin: 3% 1% 3% 3%;
-    width: 40%;
-
+.appbuilderdiscoverleftbox {
+  height: 100%;
+  margin: 3% 1% 3% 3%;
+  width: 40%;
 }
 
-.appbuilderdiscoverleftbox >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.appbuilderdiscoverleftbox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-
-.appbuilderdiscoverrightbox{
-    height: 100%;
-    width: 58%;
+.appbuilderdiscoverrightbox {
+  height: 100%;
+  width: 58%;
   padding: 50px;
-    margin-left: 10%;
-    text-align: justify;
+  margin-left: 10%;
+  text-align: justify;
 }
 
-.appbuilderdiscoverrightbox>h1{
-    font-size: 40px;
+.appbuilderdiscoverrightbox > h1 {
+  font-size: 40px;
 }
 
-
-.appbuildermappingdatasome{
-    height: fit-content;
-    width: 90%;
-    margin-top: 5%;
-
-
+.appbuildermappingdatasome {
+  height: fit-content;
+  width: 90%;
+  margin-top: 5%;
 }
 
-.xttmapperdatafromappbuilder{
-    height:90px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    margin: 2%;
-    background-color: white;
-    display: flex;
-    border-radius: 10px;
-
-
-   
+.xttmapperdatafromappbuilder {
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  margin: 2%;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
 }
 
-.xttmapperdatafromappbuilder:hover{
-    transform: scale(1.02);
-    background-color: #cbbaf7;
+.xttmapperdatafromappbuilder:hover {
+  transform: scale(1.02);
+  background-color: #cbbaf7;
 }
 
-
-.leftboxfortextappbuilder{
-    margin-left:3%;
-    
+.leftboxfortextappbuilder {
+  margin-left: 3%;
+  margin-top: 0%;
 }
 
-.svgimages{
-    color: #3380f2;
+.leftboxfortextappbuilder > h5 {
+  /* border: 1px solid red; */
+  margin-top: 0%;
 }
 
-.lowerbuttonandsomeiconsappbuilderdiscover{
-    height: 15%;
-    width: 80%;
-   
-
-
-    justify-content: center;
+.svgimages {
+  color: #3380f2;
 }
 
+.lowerbuttonandsomeiconsappbuilderdiscover {
+  height: 15%;
+  width: 80%;
+  justify-content: center;
+}
 
-.appbuilderdiscoversomeimageandbutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 180px;
-    background-color: #A481FF;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 13px;
-    font-weight: 600;
-    color: white;
-    margin-left: 3%;
-    margin-top: 2%;
-  
-  
+.appbuilderdiscoversomeimageandbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 180px;
+  background-color: #a481ff;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  margin-left: 3%;
+  margin-top: 2%;
 }
 
 .appbuilderdiscoversomeimageandbutton:hover {
-
-    background-color:white;
-    color:  #A481FF;
-
+  background-color: white;
+  color: #a481ff;
 }
 
-.playstoreboxforappbuilderdiscover{
-    height: 5%;
-    width: 50%;
-   
-  
+.playstoreboxforappbuilderdiscover {
+  height: 5%;
+  width: 50%;
 }
 
-.playstoreboxforappbuilderdiscover>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.playstoreboxforappbuilderdiscover > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

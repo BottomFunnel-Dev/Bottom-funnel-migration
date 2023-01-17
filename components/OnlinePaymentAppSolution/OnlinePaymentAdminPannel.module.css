@@ -1,87 +1,81 @@
-.onlinepaymentadminpannelmainbox{
-    height: fit-content;
+.onlinepaymentadminpannelmainbox {
+  height: fit-content;
   background-color: white;
-    display: flex;
+  display: flex;
 }
-.onlinepaymentadminpannelleftbox{
-    width: 40%;
-    height: 60%;
-  
-    margin: 0% 0% 0% 10%;
-    position: relative;
-}
-
-.onlinepaymentadminpanneltxtbox{
-    height: fit-content;
-  
+.onlinepaymentadminpannelleftbox {
+  width: 40%;
+  height: 60%;
+  margin: 0% 0% 0% 10%;
+  position: relative;
 }
 
-.onlinepaymentadminpanneltxtbox>h1{
-    font-size: 35px;
+.onlinepaymentadminpanneltxtbox {
+  height: fit-content;
 }
 
-.specialcolor{
-    color: #ef4c23;
+.onlinepaymentadminpanneltxtbox > h1 {
+  font-size: 35px;
 }
 
-.onlinepaymentadminmappingdata{
-    height: 80%;
-    width: 100%;
-
- margin-top: 10%;
+.specialcolor {
+  color: #ef4c23;
 }
 
-.onlinepaymentadminpannelaftermapping{
-    height: fit-content;
-    display: flex;
-    margin: 1%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 10px;
-    border-radius: 10px;
-    
+.onlinepaymentadminmappingdata {
+  height: 80%;
+  width: 100%;
+  margin-top: 10%;
 }
 
-
-.onlinepaymentadminpannelaftermapping:hover{
-    transform: scale(1.02);
-    background-color: #CDFCF6;
+.onlinepaymentadminpannelaftermapping {
+  height: fit-content;
+  display: flex;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.onlinepaymentadminpannelmappertxtallign{
-    margin-left: 2%;
-    margin-top: 1%;
- font-size: 18px;
+.onlinepaymentadminpannelaftermapping:hover {
+  transform: scale(1.02);
+  background-color: #cdfcf6;
 }
 
-
-
-
-
-.onlinepaymentadminpannelaftermapping >svg{
-    color: #CDFCF6;
-    margin-top: 1%;
-
+.onlinepaymentadminpannelmappertxtallign {
+  height: fit-content;
 }
 
-.onlinepaymentadminpannelrightbox{
-    height: 400px;
-    width: 50%;
-
-    background: url("/public/Images/onlinepaymentpage/Vector.png");
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: contain;
+.onlinepaymentadminpannelmappertxtallign > h4 {
+  margin-top: 4%;
+  padding-top: 7px;
+  padding-left: 10px;
+  /* margin-left: 2%; */
 }
 
-.onlinepaymentadminpannelrightboxchangerimages{
-    height: 80%;
-    width: 100%;
-
-   margin-top: 5%;
+.onlinepaymentadminpannelaftermapping > svg {
+  color: #cdfcf6;
+  margin-top: 3%;
+  /* margin-left: 3%; */
 }
 
-.onlinepaymentadminpannelrightboxchangerimages >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.onlinepaymentadminpannelrightbox {
+  height: 400px;
+  width: 50%;
+  background: url("/Images/onlinepaymentpage/Vector.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+}
+
+.onlinepaymentadminpannelrightboxchangerimages {
+  height: 80%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.onlinepaymentadminpannelrightboxchangerimages > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

@@ -1,0 +1,75 @@
+.aicontenthumanmainboxes {
+  height: 100vh;
+}
+
+.aicontenthumantextbox {
+  height: 20%;
+  width: 60%;
+  margin: 3% 0% 2% 20%;
+  text-align: center;
+}
+
+.aicontenthumanbannerimageandtextbox {
+  height: 70%;
+  position: relative;
+}
+
+.aicontentinnerbanneronlybox {
+  height: 70%;
+  margin-top: 5%;
+  background: url("/Images/AiContentsolution/bannersBackgrounds/Rectangle 4786.png");
+  background-size: cover;
+}
+
+.aicontentdatamappermainboxmapping {
+  height: 100%;
+  position: absolute;
+  width: 80%;
+  top: -15%;
+  left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aicontentdataboxesindividually {
+  height: 45%;
+  width: 28%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.aicontentdataboxesindividually:hover {
+  transform: scale(1.02);
+}
+
+.aicontenthumanlogobox {
+  height: 30%;
+  width: 30%;
+
+  margin: auto;
+}
+
+.aicontenthumanlogobox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.aicontenthumantextboxinner {
+  height: 70%;
+  width: 100%;
+}
+
+.aicontenthumantextboxinner > h4 {
+  text-align: center;
+  margin-top: 0%;
+}
+
+.aicontenthumantextboxinner > p {
+  text-align: justify;
+  margin-top: -5%;
+}
+

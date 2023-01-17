@@ -1,0 +1,41 @@
+.ottFooterHeading {
+  color: white;
+  text-align: center;
+}
+
+.ottFooterHeading > p {
+  width: 25%;
+  margin: auto;
+}
+
+.ottFooterMain {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+  height: 300px;
+  width: 90%;
+  margin: auto 10%;
+}
+
+.ottFooterCardsDiv {
+  width: 30%;
+  height: fit-content;
+  color: white;
+  /* border: 1px solid red; */
+  flex-direction: row;
+  margin: auto;
+}
+
+.ottFooterImgParaCombo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ottFooterParaDiv {
+  width: 75%;
+}
+.ottFooterImgParaCombo > img {
+  width: 7%;
+  height: 30px;
+}

@@ -1,0 +1,44 @@
+.aicontentbannermainboxes {
+  height: 100vh;
+  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.png");
+  background-size: cover;
+  position: relative;
+}
+
+.aicontentbannerboxfortext {
+  height: 40%;
+  width: 44%;
+  position: absolute;
+  top: 37%;
+  left: 5%;
+  color: white;
+}
+
+.aicontentbannerboxfortext > h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.aicontentbannerboxfortext > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.aicontentbannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 250px;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5%;
+}
+
+.aicontentbannerbutton:hover {
+  background-color: white;
+  color: #3380f2;
+}

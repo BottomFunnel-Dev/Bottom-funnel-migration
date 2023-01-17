@@ -1,0 +1,86 @@
+.onePlatformParentDiv {
+  /* border: 1px solid red; */
+  width: 93%;
+  margin: auto;
+  margin-top: 3%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.onePlatformParentDiv h1 {
+  margin-left: 2%;
+}
+
+.onePlatformContentMainDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.onePlatformContentInnerDiv1 {
+  border-top: 2px solid black;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.onePlatformContentInnerDiv1 h2 {
+  margin-top: 3%;
+}
+
+.onePlatformContentInnerDiv2 {
+  border-top: 2px solid black;
+  width: 30%;
+  margin-top: 1%;
+}
+
+.onePlatformContentInnerDiv2 h2 {
+  margin-top: 3%;
+}
+
+.onePlatformContentInnerDiv3 {
+  border-top: 2px solid black;
+  width: 30%;
+  margin-top: 1%;
+}
+
+.onePlatformContentInnerDiv3 h2 {
+  margin-top: 3%;
+}
+
+.onePlatformButtonDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.onePlatformButton1 {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  width: 10%;
+  height: 40px;
+}
+
+.onePlatformButton1:hover {
+  background-color: white;
+  color: black;
+}
+
+.onePlatformButton2 {
+  margin-left: 3%;
+  border: none;
+  outline: none;
+  width: 10%;
+  color: #ef4c23;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.onePlatformButton2:hover {
+  background-color: #ef4c23;
+  color: white;
+}

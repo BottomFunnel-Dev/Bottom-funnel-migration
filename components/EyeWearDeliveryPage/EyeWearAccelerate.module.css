@@ -1,0 +1,37 @@
+.eyewearacceleratemainbox {
+  height: 450px;
+  background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Group 340082.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+}
+
+.eyewearacceleratemainbox > h1 {
+  text-align: center;
+}
+
+.eyewearacceleratetextbox {
+  height: 200px;
+  margin-top: 12%;
+  margin-left: 3%;
+  width: 70%;
+  color: white;
+}
+
+.Eyewearacceleratebannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: auto;
+  height: auto;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 1%;
+}
+
+.Eyewearacceleratebannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}

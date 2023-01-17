@@ -1,0 +1,52 @@
+.aihowdoesworksmainboxes {
+  height: fit-content;
+  display: flex;
+}
+
+.howdoesitworksleftboxes {
+  height: 60%;
+  width: 40%;
+  margin-left: 5%;
+  border-right: 2px solid;
+}
+
+.howdoesitworksrightboxes {
+  height: 60%;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.aihowdoesitworksleftboxtxt {
+  height: 30%;
+  width: 60%;
+}
+
+.aihowdoesitworksleftboximagebox {
+  height: 70%;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.aihowdoesitworksleftboximagebox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.howdoesitworksrightboxesinnertxt {
+  height: fit-content;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+
+.howdoesitworksrightboxesinnertxt > h3 {
+  margin-top: 0%;
+  font-weight: 600;
+}
+
+.howdoesitworksrightboxesinnertxt > p {
+  text-align: justify;
+  margin-top: -4%;
+}

@@ -1,0 +1,56 @@
+.eyeweardeliveryadminpannelmainbox {
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+}
+
+.eyeweardeliveryadminpannelleftbox {
+  height: fit-content;
+  width: 65%;
+}
+
+.eyeweardeliveryadminpannelrightbox {
+  height: 50%;
+  width: 45%;
+  position: relative;
+  margin-top: 10%;
+}
+
+.eyeweardeliveryadminpannelrightbox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.eyeweardeliveryadmintextboxleftside {
+  height: fit-content;
+  width: 55%;
+  position: absolute;
+  text-align: justify;
+  left: 3%;
+}
+
+.eyeweardeliveryadminpannelwheremap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eyewearmappingdataboxadminpannel {
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: fit-content;
+  border-radius: 10px;
+  margin: 3%;
+  display: flex;
+  padding: 10px;
+}
+
+.eyewearmappingdataboxadminpannel:hover {
+  transform: scale(1.02);
+  background-color: #ffebef;
+}
+
+.eyeadminlogo {
+  margin: 1%;
+  padding: 10px;
+}

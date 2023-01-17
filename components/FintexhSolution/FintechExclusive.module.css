@@ -1,0 +1,54 @@
+.fintechsolutionexclusivemainboxes {
+  height: fit-content;
+  border: 1px solid white;
+  position: relative;
+}
+
+.fintechsolutionexclusivetextboxheader {
+  height: fit-content;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  display: flex;
+  right: 3%;
+}
+
+.fintechexclusiveleftboxfortext {
+  width: 25%;
+  border-right: 2px solid #ef4c23;
+}
+
+.specialtextcolored {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.fintechexclusiverightboxfortext {
+  margin-left: 1%;
+}
+
+.flexingboxoffintechexclusive {
+  height: 60%;
+  width: 94%;
+  margin: 10% 3% 0% 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fintechsolutionsflexingboxaftermapping {
+  height: 180px;
+  width: 28%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.fintechsolutionsflexingboxaftermapping:hover {
+  transform: scale(1.02);
+}
+
+.fintechsolutionsflexingboxaftermapping > p {
+  /* border: 1px solid red; */
+  margin-top: 0%;
+}

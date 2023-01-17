@@ -1,0 +1,146 @@
+.createWebsiteParentDiv {
+  /* border: 1px solid black; */
+  /* width: 95%; */
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.createWebsiteContentMainDiv {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-left: 2%;
+}
+
+.createWebsiteContentMainDiv h1 {
+  margin-top: 3%;
+  font-size: 35px;
+  margin-left: 3%;
+}
+
+.createWebsiteContentMainDiv p {
+  margin-top: 3%;
+  /* font-size: 16px; */
+  margin-left: 3%;
+}
+
+.createWebsiteImageMainDiv {
+  /* border: 1px solid gold; */
+  width: 50%;
+}
+
+.createWebsiteImageDivBackImage {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+
+.createWebsiteImageDivBackImage img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.createWebsiteImageDivTopImage {
+  /* border: 1px solid red; */
+  position: absolute;
+  z-index: 2;
+  top: 8%;
+  left: 4%;
+}
+
+.createWebsiteImageDivTopImage img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.createWebsiteOptionsDiv {
+  /* border: 1px solid black; */
+  margin-top: 6%;
+  margin-left: 4%;
+}
+
+.createWebsiteOptionInnerDiv1 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.createWebsiteFitnessButton {
+  width: 30%;
+  height: 40px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.createWebsiteFitnessButton:hover {
+  background-color: #ef4c23;
+  color: white;
+}
+
+.createWebsiteChatAppButton {
+  margin-left: 3%;
+  width: 30%;
+  border: 1px solid lightgray;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.createWebsiteChatAppButton:hover {
+  background-color: #ef4c23;
+  color: white;
+}
+
+.createWebsiteOptionInnerDiv2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.createWebsiteFoodAppButton {
+  width: 30%;
+  height: 40px;
+  border: 1px solid lightgray;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.createWebsiteFoodAppButton:hover {
+  background-color: #ef4c23;
+  color: white;
+}
+
+.createWebsiteEcommerceButton {
+  margin-left: 3%;
+  width: 30%;
+  border: 1px solid lightgray;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.createWebsiteEcommerceButton:hover {
+  background-color: #ef4c23;
+  color: white;
+}
+
+.createWebsiteMoreButton {
+  margin-left: 3%;
+  width: 30%;
+  border: 1px solid lightgray;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.createWebsiteMoreButton:hover {
+  background-color: #ef4c23;
+  color: white;
+}

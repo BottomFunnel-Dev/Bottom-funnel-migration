@@ -9,9 +9,9 @@ const OndemandSection = () => {
   const ondemandSol = [
     {
       solutionName: "Mobile App Solution",
-      bg: "Images/ondemand/mobile.png",
-      logoImgageOrange: "Images/ondemand/mobileAppOrange.png",
-      logoImgageWhite: "Images/ondemand/mobileAppWhite.png",
+      bg: "/Images/ondemand/mobile.png",
+      logoImgageOrange: "/Images/ondemand/mobileAppOrange.png",
+      logoImgageWhite: "/Images/ondemand/mobileAppWhite.png",
       description:
         "Our mobility solutions allow people to connect and share information from the most remote of places, even if they're on the move.",
       actionArrow: <BsArrowRight />,
@@ -21,8 +21,8 @@ const OndemandSection = () => {
       solutionName: "Software Solutions",
       bg: "Images/ondemand/webdev.png",
 
-      logoImgageOrange: "Images/ondemand/softwareSolutionsOrange.png",
-      logoImgageWhite: "Images/ondemand/softwareSolutionsWhite.png",
+      logoImgageOrange: "/Images/ondemand/softwareSolutionsOrange.png",
+      logoImgageWhite: "/Images/ondemand/softwareSolutionsWhite.png",
       description:
         "our software solutions allow us to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <BsArrowRight />,

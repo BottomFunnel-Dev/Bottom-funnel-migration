@@ -1,0 +1,76 @@
+.aicontenttextonlymainboxes {
+  height: fit-content;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.aicontenttextbox1 {
+  height: fit-content;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+
+.aicontenttextbox1:hover {
+  transform: scale(1.02);
+  background-color: #f5e3c8;
+}
+
+.aicontentbox1fortext1 {
+  height: fit-content;
+  width: 80%;
+  padding: 15px;
+  margin-top: 3%;
+}
+
+.aicontentbox1fortext1 > h3 {
+    margin-top: 0%;
+}
+
+.aicontentbox1fortext2 {
+  height: fit-content;
+  width: 70%;
+  padding: 15px;
+  margin-top: 5%;
+}
+
+.aicontentbox1forimage1 {
+  height: 100%;
+  width: 30%;
+}
+
+.aicontentbox1forimage1 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.aicontenttextbox2 {
+  height: 30%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+
+.aicontenttextbox2:hover {
+  transform: scale(1.02);
+  background-color: #f5e3c8;
+}
+
+.aicontentbox1forimage2 {
+  width: 30%;
+  height: 100%;
+}
+
+.aicontentbox1forimage2 > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
+}

@@ -1,0 +1,45 @@
+.RGtradingInvestingMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6% 0 5% 0;
+}
+
+.RGtradingInvestingLeftContainer {
+    justify-content: center;
+    width: 50%;
+}
+
+.RGtradingInvestingRightContainer {
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.RGtradingInvestingLeftContainer > h1 {
+    font-size: 40px;
+}
+
+.RGtradingInvestingLeftContainer > p {
+    font-size: 18px;
+}
+
+.RGTIbtn {
+    background: black;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid white;
+  }
+  
+  .RGTIbtn:hover {
+    color: black;
+    background-color: white;
+  }
+
