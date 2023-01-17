@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "./ottapp.module.css";
+import React from 'react';
 
-import { OttHeader } from "../../components/Ott-App-Page/ott-Header/OttHeader";
-import { OttSolutions } from "../../components/Ott-App-Page/Ott-Solution-Card-Comp/OttSolutions";
-import { OttAdminPannel } from "../../components/Ott-App-Page/Ott-Admn-Pannel/OttAdminPannel";
-import { OttFeatures } from "../../components/Ott-App-Page/Ott-Features/OttFeatures";
-import { OttFooter } from "../../components/Ott-App-Page/Ott-Footer/OttFooter";
+import { SportsBanner } from '../../components/Sportsbetting/SportsBanner';
+import { sportsBettingLogo } from "../../components/Data/SeopartnerData";
+import Trusted from '../../components/SEO/SeoTrustedCompanies/Seotrusted';
+import { SportsPanels } from "../../components/Sportsbetting/SportsPanels";
+import { BettingSpecial } from '../../components/Sportsbetting/BettingSpecial';
+import { Bettingwhy } from '../../components/Sportsbetting/Bettingwhy';
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -16,20 +16,20 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 
-export default function OTTPage() {
+export default function SportsBetting () {
   return (
-    <div className={styles.ottMain}>
-      <OttHeader />
-      <OttSolutions />
-      <OttAdminPannel />
-      <OttFeatures />
-      <OttFooter />
+    <div>
+      <SportsBanner />
+      <Trusted partnerLogo={sportsBettingLogo} />
+      <SportsPanels />
+      <BettingSpecial />
+      <Bettingwhy />
 
-      {/* Other react required components  */}
       <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <Industries /> */}
       <PlanProject />
+      <OndemandSection />
+      {/* <PortFolio /> */}
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
@@ -37,4 +37,4 @@ export default function OTTPage() {
       <MainFooter />
     </div>
   );
-}
+};

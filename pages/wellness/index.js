@@ -1,11 +1,16 @@
 import React from "react";
-import styles from "./ottapp.module.css";
 
-import { OttHeader } from "../../components/Ott-App-Page/ott-Header/OttHeader";
-import { OttSolutions } from "../../components/Ott-App-Page/Ott-Solution-Card-Comp/OttSolutions";
-import { OttAdminPannel } from "../../components/Ott-App-Page/Ott-Admn-Pannel/OttAdminPannel";
-import { OttFeatures } from "../../components/Ott-App-Page/Ott-Features/OttFeatures";
-import { OttFooter } from "../../components/Ott-App-Page/Ott-Footer/OttFooter";
+import {
+  wellnessPatient,
+  wellnessAdmin,
+  wellnessDoctor,
+} from "../../components/Data/panelsData";
+
+import Wellnesscontainer from "../../components/Wellness/Wellnesscontainer";
+import WellnessPatient from "../../components/Wellness/WellnessPatient/WellnessPatient";
+import WellnessDoctor from "../../components/Wellness/WellnessDoctor/WellnessDoctor";
+import WellnessAdmin from "../../components/Wellness/WellnessAdmin/WellnessAdmin";
+import Wellnesshealthcare from "../../components/Wellness/Wellnesshealthcare";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -16,20 +21,20 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 
-export default function OTTPage() {
+export default function Wellness() {
   return (
-    <div className={styles.ottMain}>
-      <OttHeader />
-      <OttSolutions />
-      <OttAdminPannel />
-      <OttFeatures />
-      <OttFooter />
+    <div>
+      <Wellnesscontainer />
+      <WellnessPatient customerData={wellnessPatient} />
+      <WellnessDoctor customerData={wellnessDoctor} />
+      <WellnessAdmin customerData={wellnessAdmin} />
+      <Wellnesshealthcare />
 
-      {/* Other react required components  */}
       <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <Industries /> */}
       <PlanProject />
+      <OndemandSection />
+      {/* <PortFolio /> */}
       <SeoblogSection />
       <Revamping />
       <TextDropdown />

@@ -7,6 +7,7 @@
 }
 
 .datingfeaturessubdiv {
+  /* border: 1px solid red; */
   width: 90%;
   margin: auto;
   height: 450px;
@@ -20,6 +21,7 @@
 }
 
 .datingfeaturessubdiv {
+  /* border: 1px solid red; */
   width: 90%;
   /* background-color: white; */
   margin: auto;
@@ -28,10 +30,16 @@
 }
 
 .updatediv {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
   height: 170px;
   padding: 30px;
+  /* border: 1px solid red; */
+}
+
+.updatediv:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* transform: scale(1.1); */
+  transition: ease-out;
 }
 
 .updateflexdiv {

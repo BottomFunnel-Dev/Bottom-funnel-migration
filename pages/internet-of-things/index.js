@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "./ottapp.module.css";
 
-import { OttHeader } from "../../components/Ott-App-Page/ott-Header/OttHeader";
-import { OttSolutions } from "../../components/Ott-App-Page/Ott-Solution-Card-Comp/OttSolutions";
-import { OttAdminPannel } from "../../components/Ott-App-Page/Ott-Admn-Pannel/OttAdminPannel";
-import { OttFeatures } from "../../components/Ott-App-Page/Ott-Features/OttFeatures";
-import { OttFooter } from "../../components/Ott-App-Page/Ott-Footer/OttFooter";
+import { IOTBanner } from "../../components/IOTPage/IOTBanner/IOTBanner";
+import { IOTServices } from "../../components/IOTPage/IOTServices/IOTServices";
+import { IOTMidBanner } from "../../components/IOTPage/IOTMidBanner/IOTMidBanner";
+import { IOTwhyBF } from "../../components/IOTPage/IOTwhyBF/IOTwhyBF";
+import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -16,20 +15,20 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 
-export default function OTTPage() {
+export default function IOTDevelopment() {
   return (
-    <div className={styles.ottMain}>
-      <OttHeader />
-      <OttSolutions />
-      <OttAdminPannel />
-      <OttFeatures />
-      <OttFooter />
+    <div>
+      <IOTBanner />
+      <IOTServices />
+      <IOTMidBanner />
+      <IOTwhyBF />
+      <CustomWebForm />
 
-      {/* Other react required components  */}
       <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <Industries /> */}
       <PlanProject />
+      <OndemandSection />
+      {/* <PortFolio /> */}
       <SeoblogSection />
       <Revamping />
       <TextDropdown />

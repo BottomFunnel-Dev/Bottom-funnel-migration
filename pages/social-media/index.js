@@ -1,11 +1,10 @@
 import React from "react";
-import styles from "./ottapp.module.css";
-
-import { OttHeader } from "../../components/Ott-App-Page/ott-Header/OttHeader";
-import { OttSolutions } from "../../components/Ott-App-Page/Ott-Solution-Card-Comp/OttSolutions";
-import { OttAdminPannel } from "../../components/Ott-App-Page/Ott-Admn-Pannel/OttAdminPannel";
-import { OttFeatures } from "../../components/Ott-App-Page/Ott-Features/OttFeatures";
-import { OttFooter } from "../../components/Ott-App-Page/Ott-Footer/OttFooter";
+import { SocialMediaAdminPannel } from "../../components/SocialMedia/SocialMediaAdminPannel";
+import { SocialMediaApproch } from "../../components/SocialMedia/SocialMediaApproch";
+import { SocialMediaBanner } from "../../components/SocialMedia/SocialMediaBanner";
+import { SocialMedialLowerBanner } from "../../components/SocialMedia/SocialMedialLowerBanner";
+import { SocialMediaSolution } from "../../components/SocialMedia/SocialMediaSolution";
+import { SocialMediaSuggestion } from "../../components/SocialMedia/SocialMediaSuggestion";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -16,20 +15,21 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 
-export default function OTTPage() {
+export default function SocialMedia() {
   return (
-    <div className={styles.ottMain}>
-      <OttHeader />
-      <OttSolutions />
-      <OttAdminPannel />
-      <OttFeatures />
-      <OttFooter />
+    <div>
+      <SocialMediaBanner />
+      <SocialMediaSuggestion />
+      <SocialMediaApproch />
+      <SocialMediaSolution />
+      <SocialMediaAdminPannel />
+      <SocialMedialLowerBanner />
 
-      {/* Other react required components  */}
       <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <Industries /> */}
       <PlanProject />
+      <OndemandSection />
+      {/* <PortFolio /> */}
       <SeoblogSection />
       <Revamping />
       <TextDropdown />

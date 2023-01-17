@@ -1,11 +1,9 @@
 import React from "react";
-import styles from "./ottapp.module.css";
-
-import { OttHeader } from "../../components/Ott-App-Page/ott-Header/OttHeader";
-import { OttSolutions } from "../../components/Ott-App-Page/Ott-Solution-Card-Comp/OttSolutions";
-import { OttAdminPannel } from "../../components/Ott-App-Page/Ott-Admn-Pannel/OttAdminPannel";
-import { OttFeatures } from "../../components/Ott-App-Page/Ott-Features/OttFeatures";
-import { OttFooter } from "../../components/Ott-App-Page/Ott-Footer/OttFooter";
+import { EducationAdministration } from "../../components/Education/EducationAdministration";
+import { EducationBanner } from "../../components/Education/EducationBanner";
+import { EducationGroupwise } from "../../components/Education/EducationGroupwise";
+import { EducationITteams } from "../../components/Education/EducationITteams";
+import { EducationSupport } from "../../components/Education/EducationSupport";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -16,15 +14,15 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 
-export default function OTTPage() {
+export default function Education() {
   return (
-    <div className={styles.ottMain}>
-      <OttHeader />
-      <OttSolutions />
-      <OttAdminPannel />
-      <OttFeatures />
-      <OttFooter />
-
+    <div>
+      <EducationBanner />
+      <EducationSupport />
+      <EducationITteams />
+      <EducationAdministration />
+      <EducationGroupwise />
+      
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
