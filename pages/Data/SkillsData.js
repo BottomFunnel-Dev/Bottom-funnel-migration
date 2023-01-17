@@ -22,7 +22,7 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/fast-run.webp",
-          alt: "The fast suit logo",
+          alt: "nodejsphotos/fast-run.webp",
         },
         title: "The fast suit",
         description: `Node.js is fast, agile, and lightweight--and it allows for lightning-fast development of web applications. Node.js offers developers the ability to use JavaScript into native machine code, making it more efficient and faster. Now you can power your next big idea with a scalable solution that's ready for any challenge!`,
@@ -30,7 +30,7 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/clock.webp",
-          alt: "Real time web application logo",
+          alt: "nodejsphotos/clock.webp",
         },
         title: "Real time web application",
         description: `Node.js is an incredibly popular platform for developing real-time web applications. It's easy to scale and reliable, which makes it perfect for handling high traffic volumes. But Node isn't just for large businesses - even if you're on a budget or want to learn more about it, Node is perfect for you! Node.js so that your next app can be as scalable and reliable as possible!`,
@@ -38,7 +38,7 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
-          alt: "Extreme data streaming agilty logo",
+          alt: "nodejsphotos/extreme-data.webp",
         },
         title: "Extreme data streaming agilty",
         description: `BottomFunnel's powerful node.js based streaming platform lets you write readable and writable streams of data, making it ideal for any application where unstructured or structured data needs to be streamed in real-time. The scalability and availability of the cloud-based system allows you to process large volumes of data without having to worry about hardware or software constraints.`,
@@ -46,7 +46,7 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/data.webp",
-          alt: "Single code based logo",
+          alt: "nodejsphotos/data.webp",
         },
         title: "Single code based",
         description: `Node.js is rapidly gaining popularity because it promises to make your apps scalable and simple at heart. The ability to quickly deploy new features while maintaining existing functionality makes Node.js more attractive in today's world where speed and agility are key requirements for success in any industry or business endeavor`,
@@ -54,7 +54,7 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/dynamic.webp",
-          alt: "Rich ecosystem logo",
+          alt: "nodejsphotos/dynamic.webp",
         },
         title: "Rich ecosystem",
         description: `Node.js is quickly becoming the de-facto standard for building scalable and performant web applications, and Node Package Manager is by far the most popular way to develop with it. But what if you want to build an app that's more creative or requires faster development?`,
@@ -62,7 +62,7 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/community.webp",
-          alt: "Community driven logo",
+          alt: "nodejsphotos/community.webp",
         },
         title: "Community driven",
         description: `Node.js is a powerful and versatile server-side framework that allows developers to build scalable and lightning-fast applications. It is gaining popularity on the global scale because of its unique features and high scalability, which makes it a perfect choice for all types of projects.`,
@@ -96,42 +96,42 @@ export const nodejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/bar-chart.webp",
-          alt: "Business application development logo",
+          alt: "nodejsphotos/bar-chart.webp",
         },
         title: "Business application development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/nodejs.webp",
-          alt: "Advance Node.js Programming logo",
+          alt: "nodejsphotos/nodejs.webp",
         },
         title: "Advance Node.js Programming",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/crm.webp",
-          alt: "CRM or Backend System for Data Management logo",
+          alt: "nodejsphotos/crm.webp",
         },
         title: "CRM or Backend System for Data Management",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/mean-2.webp",
-          alt: "MEAN stack development logo",
+          alt: "nodejsphotos/mean-2.webp",
         },
         title: "MEAN stack development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/collab.webp",
-          alt: "Custom Collaborative Tools logo",
+          alt: "nodejsphotos/collab.webp",
         },
         title: "Custom Collaborative Tools",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/iot-3.webp",
-          alt: "Internet of Things logo",
+          alt: "nodejsphotos/iot-3.webp",
         },
         title: "Internet of Things(IOT)",
       },
@@ -164,7 +164,7 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/open-source.webp",
-          alt: "Open Source logo",
+          alt: "phpskillsphotos/open-source.webp",
         },
         title: "Open Source",
         description: `PHP is an open source server-side programming language. You can access the source code without any copyright problem. Also, you can build upon it to create new applications and services.
@@ -174,7 +174,7 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/scalable.webp",
-          alt: "Dynamic & Flexible logo",
+          alt: "phpskillsphotos/scalable.webp",
         },
         title: "Dynamic & Flexible",
         description: `PHP generates dynamic content for webpages and is easy to use and versatile enough to handle a wide range of tasks. With PHP, you can create an app or website in minutes without writing any code. That's why so many people are switching over from other languages like Python, Ruby, and more!`,
@@ -182,7 +182,7 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/dynamic2.webp",
-          alt: "Scalable & Web documented logo",
+          alt: "phpskillsphotos/dynamic2.webp",
         },
         title: "Scalable & Web documented",
         description: `PHP is an easy choice for developers who want to build scalable, web-documented applications. Maybe you're new to PHP and want to try it out before committing resources to a project, or maybe you're scaling your site and want something reliable. Whatever your reason, BottomFunnel is the perfect solution.`,
@@ -190,7 +190,7 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
-          alt: "Effective Frameworks logo",
+          alt: "phpskillsphotos/frameworks.webp",
         },
         title: "Effective Frameworks",
         description: `PHP development is one of the most effective frameworks you can use for developing robust web applications. Its scalable frameworks help developers create robust web applications faster and with less effort. With PHP, you have everything you need to build a powerful website or app.`,
@@ -198,7 +198,7 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/hosting.webp",
-          alt: "Better hosting options logo",
+          alt: "phpskillsphotos/hosting.webp",
         },
         title: "Better hosting options",
         description: `Performance and security are key factors that influence web hosting capability. BottomFunnel offers the best hosting options for PHP development because it provides faster site loads, more reliable performance, scalability, security, and other features that can meet any demand of a modern website.`,
@@ -206,7 +206,7 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/support.webp",
-          alt: "Easy Support & Updates logo",
+          alt: "phpskillsphotos/support.webp",
         },
         title: "Easy Support & Updates",
         description: `One of the biggest advantages of using PHP is that it is easy to install and use. Want to develop a website in PHP? It's as simple as visiting your favorite web browser, opening a URL and enjoying. Updates are released regularly, bug fixes are made quickly, and many more features are added to make your life easier.`,
@@ -240,42 +240,42 @@ export const phpData = {
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/cms.webp",
-          alt: "CMS Development logo",
+          alt: "phpskillsphotos/cms.webp",
         },
         title: "CMS Development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/custom.webp",
-          alt: "Custom Applications logo",
+          alt: "phpskillsphotos/custom.webp",
         },
         title: "Custom Applications",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/CLOUD.webp",
-          alt: "Programming Interface Integration logo",
+          alt: "phpskillsphotos/CLOUD.webp",
         },
         title: "Programming Interface Integration",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
-          alt: "PHP Web Portals logo",
+          alt: "phpskillsphotos/php-web-portals.webp",
         },
         title: "PHP Web Portals",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/clound-solutions.webp",
-          alt: "Cloud Solutions logo",
+          alt: "phpskillsphotos/clound-solutions.webp",
         },
         title: "Cloud Solutions",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/community-driven.webp",
-          alt: "Community driven logo",
+          alt: "phpskillsphotos/community-driven.webp",
         },
         title: "Community driven",
       },
@@ -309,7 +309,7 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/simple.webp",
-          alt: "B2B and B2C web portal development logo",
+          alt: "dotnetphotos/simple.webp",
         },
         title: "B2B and B2C web portal development",
 
@@ -319,7 +319,7 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/xml.webp",
-          alt: "XML web application development logo",
+          alt: "dotnetphotos/xml.webp",
         },
         title: "XML web application development",
         description:
@@ -328,7 +328,7 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/framework.webp",
-          alt: "CMS web application development logo",
+          alt: "dotnetphotos/framework.webp",
         },
         title: "CMS web application development",
         description:
@@ -337,7 +337,7 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/e-commerce.webp",
-          alt: "E-commerce web application development logo",
+          alt: "dotnetphotos/e-commerce.webp",
         },
         title: "E-commerce web application development",
         description:
@@ -346,7 +346,7 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/shopping-cart.webp",
-          alt: "Shopping cart web application development logo",
+          alt: "dotnetphotos/shopping-cart.webp",
         },
         title: "Shopping cart web application development",
         description:
@@ -355,7 +355,7 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/custom-website.webp",
-          alt: "MS-SQL customised web development logo",
+          alt: "dotnetphotos/custom-website.webp",
         },
         title: "MS-SQL customised web development",
         description:
@@ -391,42 +391,42 @@ export const DotnetData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/agile-software.webp",
-          alt: "Excellent performance logo",
+          alt: "dotnetphotos/agile-software.webp",
         },
         title: "Excellent performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/creative.webp",
-          alt: "Platform independent logo",
+          alt: "dotnetphotos/creative.webp",
         },
         title: "Platform independent",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/trusted.webp",
-          alt: "Excellent user interface logo",
+          alt: "dotnetphotos/trusted.webp",
         },
         title: "Excellent user interface",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/custom-software.webp",
-          alt: "Object oriented logo",
+          alt: "dotnetphotos/custom-software.webp",
         },
         title: "Object oriented",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/techie.webp",
-          alt: "Cross platform design logo",
+          alt: "dotnetphotos/techie.webp",
         },
         title: "Cross platform design",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/security.webp",
-          alt: "Easy maintenance logo",
+          alt: "dotnetphotos/security.webp",
         },
         title: "Easy maintenance",
       },
@@ -459,7 +459,7 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/bundled-features.webp",
-          alt: "Bundled Features logo",
+          alt: "larvelskillsphotos/bundled-features.webp",
         },
         title: "Bundled Features",
 
@@ -468,7 +468,7 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
-          alt: "Automated Testing logo",
+          alt: "larvelskillsphotos/automated-test.webp",
         },
         title: "Automated Testing",
         description: `BottomFunnel is an easy-to-install package that will make sure your application runs error-free and cache-free while testing. It configures the session and cache to the array driver, making sure that no data is persisted in memory. This saves you from potential issues, including leaks or errors.`,
@@ -476,7 +476,7 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/reuseable-code.webp",
-          alt: "Reusable code logo",
+          alt: "larvelskillsphotos/reuseable-code.webp",
         },
         title: "Reusable code",
         description: `BottomFunnel is one such company that uses Laravel to create customized software for its clients. With a rich history of working with large companies, it's no surprise they've mastered Laravel. They're experts in Laravel, providing high-quality, reusable code so you can get the most out of your app development project.`,
@@ -484,7 +484,7 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
-          alt: "Agile development logo",
+          alt: "larvelskillsphotos/agile-dev.webp",
         },
         title: "Agile development",
         description: `Laravel is perfectly fitting when it comes to agile web development. It brings the flexibility of using the agile development method to web application developers, enabling them to constantly improve quality in sprints with short-term deliverables, making the web application adaptable to any changes you suggest.`,
@@ -492,7 +492,7 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/ajax.webp",
-          alt: "AJAX-enabled widgets logo",
+          alt: "larvelskillsphotos/ajax.webp",
         },
         title: "AJAX-enabled widgets",
         description: `Laravel is the go-to choice for web developers who want to work with a framework that offers them the flexibility of using agile development method. It also enables them to constantly improve quality in sprints with short-term deliverables, making their web application adaptable to any changes they suggest.`,
@@ -500,7 +500,7 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/build-tools.webp",
-          alt: "Build in tools logo",
+          alt: "larvelskillsphotos/build-tools.webp",
         },
         title: "Build in tools",
         description: `With Laravel, you can add new features and updates whenever you like by just updating your app's code on your local machine. On top of that, Laravel provides advanced tools like caching and authentication so that your site remains fast and secure even after multiple updates.`,
@@ -535,42 +535,42 @@ export const laravelData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/latest-php-support.webp",
-          alt: "Latest PHP support logo",
+          alt: "larvelskillsphotos/latest-php-support.webp",
         },
         title: "Latest PHP support",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/new-components.webp",
-          alt: "New UI components logo",
+          alt: "larvelskillsphotos/new-components.webp",
         },
         title: "New UI components",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/database-migrations.webp",
-          alt: "Database Migrations logo",
+          alt: "larvelskillsphotos/database-migrations.webp",
         },
         title: "Database Migrations",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/microframework.webp",
-          alt: "Microframework logo",
+          alt: "larvelskillsphotos/microframework.webp",
         },
         title: "Microframework",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "Easy to develop logo",
+          alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy to develop",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
-          alt: "Intact security logo",
+          alt: "larvelskillsphotos/automated-test.webp",
         },
         title: "Intact security",
       },
@@ -603,7 +603,7 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/remark-speed.webp",
-          alt: "Django application development logo",
+          alt: "djangoPhotos/remark-speed.webp",
         },
         title: "Django application development",
 
@@ -612,7 +612,7 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/complete-load.webp",
-          alt: "Django website Development  logo",
+          alt: "djangoPhotos/complete-load.webp",
         },
         title: "Django website Development ",
         description: `Django is one of the most versatile web development frameworks out there, and it offers an incredible amount of flexibility when it comes to creating complex sites. That's why BottomFunnel uses it to build responsive, engaging websites for our clients. Whether you're looking for an ecommerce site or a relationship management system!`,
@@ -620,7 +620,7 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/exception-secure.webp",
-          alt: "Django Web Interface Design logo",
+          alt: "djangoPhotos/exception-secure.webp",
         },
         title: "Django Web Interface Design",
         description: `BottomFunnel lets you create backend as well as frontend codes with a single framework of Django. With our customized Django interface design services, by developers, we'll help you create interactive and attractive webpage interfaces through our cutting-edge frameworks and software.`,
@@ -628,7 +628,7 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/wealthy-feature.webp",
-          alt: "Django Template Design logo",
+          alt: "djangoPhotos/wealthy-feature.webp",
         },
         title: "Django Template Design",
         description: `BottomFunnel is a top company in the world of web development. We have built our reputation on delivering high-quality work and providing clients with the best possible service. We understand the importance of building solid foundations, so we always start by laying down a strong foundation for your website with Django.`,
@@ -636,7 +636,7 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/very-scalable.webp",
-          alt: "Django REST framework logo",
+          alt: "djangoPhotos/very-scalable.webp",
         },
         title: "Django REST framework",
         description: `Django REST framework is here to help! With Django REST framework, you can build efficient, scalable APIs that are easy to use. Our talented team of web developers will work with you to create a custom API that fits your unique business needs. We'll deliver quality code that works across many different platforms and devices.`,
@@ -644,7 +644,7 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/very-scalable.webp",
-          alt: "Django Support and Maintenance logo",
+          alt: "djangoPhotos/very-scalable.webp",
         },
         title: "Django Support and Maintenance",
         description: `Django is a powerful and flexible web application framework, but it can be tricky to work with because of its large community and growing feature set. That's where Bottom Funnel comes in! We know Django inside out, so we're confident our Django web application developers can make your website run smoothly without any issues.`,
@@ -678,42 +678,42 @@ export const djangoData = {
       {
         img: {
           src: "/Images/skillsPhotos/djangophotos/backward-compatible.webp",
-          alt: "Backward compatible logo",
+          alt: "djangophotos/backward-compatible.webp",
         },
         title: "Backward compatible",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/community-driven.webp",
-          alt: "Community driven logo",
+          alt: "djangoPhotos/community-driven.webp",
         },
         title: "Community driven",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/rest-framework.webp",
-          alt: "REST framework logo",
+          alt: "djangoPhotos/rest-framework.webp",
         },
         title: "REST framework",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/infastructure.webp",
-          alt: "Infrastructure logo",
+          alt: "djangoPhotos/infastructure.webp",
         },
         title: "Infrastructure",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/versatile.webp",
-          alt: "Versatile logo",
+          alt: "djangoPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/sercure-update.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "djangoPhotos/sercure-update.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -748,7 +748,7 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/compatible.webp",
-          alt: "Compatible logo",
+          alt: "cakephpPhotos/compatible.webp",
         },
         title: "Compatible",
         description: `The framework is compatible with different versions of PHP as well as with popular website directories, so you can start building your site right away. And since the platform is built on WordPress, it's easy to install and uses the same tools and SEO strategies that you're already familiar with.`,
@@ -756,7 +756,7 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/code-reuse.webp",
-          alt: "Code reusability logo",
+          alt: "cakephpPhotos/code-reuse.webp",
         },
         title: "Code reusability",
         description: `Coding from scratch isn't required as code-written can be used multiple times in the project reducing time and effort. Bottom Funnel is an extremely user-friendly UI kit for developers that allows you to build any kind of app in minutes. It's responsive, retina ready, and has a mobile menu which enables users to access your site on the go.`,
@@ -764,7 +764,7 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/facile-database.webp",
-          alt: "Facile database management logo",
+          alt: "cakephpPhotos/facile-database.webp",
         },
         title: "Facile database management",
         description: `You do know how to handle the database in a smart way, but is CakePHP web development helping you extract maximum value from your databases? Not only does it provide strong support for handling databases, but it also ensures that you're using them efficiently.`,
@@ -772,7 +772,7 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/custom-element.webp",
-          alt: "Customizable elements logo",
+          alt: "cakephpPhotos/custom-element.webp",
         },
         title: "Customizable elements",
         description: `CakePhp makes it easy to build websites by providing pre-built elements that can be easily modified to suit your needs. This framework is also very customizable. On top of that, CakePhp is very user-friendly, which helps you understand how the different elements work and function on a website.`,
@@ -780,7 +780,7 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "MVC pattern logo",
+          alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC pattern",
         description: `Getting large apps up and running can be challenging, especially when you are new to the field. Thankfully, CakePHP helps bridge that gap with its MVC pattern. This makes it easy to understand how your application should be structured so that it can run smoothly without any hiccups.`,
@@ -788,7 +788,7 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
-          alt: "Easy debugging logo",
+          alt: "cakephpPhotos/easy-debug.webp",
         },
         title: "Easy debugging",
         description: `Debugging of applications is simple as you don't have to get into details of the code all over again. With BottomFunnel, you can catch bugs in your apps within minutes, and save time and money.`,
@@ -822,42 +822,42 @@ export const cakePHPData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/built-feature.webp",
-          alt: "In-built features logo",
+          alt: "cakephpPhotos/built-feature.webp",
         },
         title: "In-built features",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/model-view.webp",
-          alt: "Model-view-control model logo",
+          alt: "cakephpPhotos/model-view.webp",
         },
         title: "Model-view-control model",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/enables-test.webp",
-          alt: "Enables testing now and team logo",
+          alt: "cakephpPhotos/enables-test.webp",
         },
         title: "Enables testing now and team",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/content-framework.webp",
-          alt: "Content-accommodating framework logo",
+          alt: "cakephpPhotos/content-framework.webp",
         },
         title: "Content-accommodating framework",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/crud-scaffolding.webp",
-          alt: "CRUD scaffolding logo",
+          alt: "cakephpPhotos/crud-scaffolding.webp",
         },
         title: "CRUD scaffolding",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/lang-compat.webp",
-          alt: "Language compatibility logo",
+          alt: "cakephpPhotos/lang-compat.webp",
         },
         title: "Language compatibility",
       },
@@ -891,7 +891,7 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/framework-footprint.webp",
-          alt: "Framework with right footprint logo",
+          alt: "codeigniterPhotos/framework-footprint.webp",
         },
         title: "Framework with right footprint",
 
@@ -901,7 +901,7 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
-          alt: "Simplified solutions logo",
+          alt: "codeigniterPhotos/simply-sol.webp",
         },
         title: "Simplified solutions",
         description:
@@ -910,7 +910,7 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/restriction-coding.webp",
-          alt: "no restrictions on coding logo",
+          alt: "codeigniterPhotos/restriction-coding.webp",
         },
         title: "no restrictions on coding",
         description:
@@ -919,7 +919,7 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/custom-element.webp",
-          alt: "Accepts Third-party Scripts logo",
+          alt: "cakephpPhotos/custom-element.webp",
         },
         title: "Accepts Third-party Scripts",
         description:
@@ -928,7 +928,7 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "MVC approach logo",
+          alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC approach",
         description:
@@ -937,7 +937,7 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/easy-debug.webp",
-          alt: "Documentation logo",
+          alt: "cakephpPhotos/easy-debug.webp",
         },
         title: "Documentation",
         description:
@@ -973,42 +973,42 @@ export const codeigniterData = {
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/customWeb.webp",
-          alt: "Custom web development logo",
+          alt: "codeigniterPhotos/customWeb.webp",
         },
         title: "Custom web development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/appDev.webp",
-          alt: "Application development logo",
+          alt: "codeigniterPhotos/appDev.webp",
         },
         title: "Application development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/api.webp",
-          alt: "API & liberary development logo",
+          alt: "codeigniterPhotos/api.webp",
         },
         title: "API & liberary development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
-          alt: "Portal design & development logo",
+          alt: "codeigniterPhotos/portal-design.webp",
         },
         title: "Portal design & development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/integration.webp",
-          alt: "Customization and integration logo",
+          alt: "codeigniterPhotos/integration.webp",
         },
         title: "Customization and integration",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
-          alt: "Maintenance & support logo",
+          alt: "codeigniterPhotos/maintenance.webp",
         },
         title: "Maintenance & support",
       },
@@ -1040,7 +1040,7 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/better-user.webp",
-          alt: "Better User Experience logo",
+          alt: "reactjsSkillsPhotos/better-user.webp",
         },
         title: "Portal Development",
 
@@ -1049,7 +1049,7 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/easy-jsx.webp",
-          alt: "Easy to Write With JSX logo",
+          alt: "reactjsSkillsPhotos/easy-jsx.webp",
         },
         title: "Interactive ReactJS UI Development",
         description: `Our React.js web application development services specialize in creating interactive UI
@@ -1059,7 +1059,7 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/big-timesaver.webp",
-          alt: "A Big Timesaver logo",
+          alt: "reactjsSkillsPhotos/big-timesaver.webp",
         },
         title: "React.js migration service",
         description: `We are proficient in creating responsive and adaptive designs for your React.js web application, which means you will get an app that looks good on all devices, from smartphones to tablets. We use the latest technologies to ensure that your UI runs smoothly on all browsers without any issues or errors.`,
@@ -1067,7 +1067,7 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
-          alt: "Performance Leveraging Ecosystem logo",
+          alt: "reactjsSkillsPhotos/performance-ecosystem.webp",
         },
         title: "Custom React.Js Development",
         description: `BottomFunnel is a world-class ReactJS development company that specializes in crafting engaging, user-friendly websites. We understand the importance of making your website easy to navigate, and we use the latest techniques to make your site look great.`,
@@ -1075,7 +1075,7 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
-          alt: "Great Developer Tools logo",
+          alt: "reactjsSkillsPhotos/great-developer.webp",
         },
         title: "Ajax Development",
         description: `BottomFunnel is your partner in creating ajax-powered websites. We have years of experience developing Ajax applications and know how to make them user-friendly and efficient. Our react.js developers can design, develop, and deploy ajax applications that can improve your workflow and make your life easier.`,
@@ -1083,7 +1083,7 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/easy-understand.webp",
-          alt: "Easy-to-Understand logo",
+          alt: "reactjsSkillsPhotos/easy-understand.webp",
         },
         title: "E-commerce Development",
         description: `Our react.js web application development services for developing an e-commerce website
@@ -1122,42 +1122,42 @@ export const reactjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/portal-devleopment.webp",
-          alt: "Portal Development logo",
+          alt: "reactjsSkillsPhotos/portal-devleopment.webp",
         },
         title: "Portal Development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-ui-devleopment.webp",
-          alt: "Ineractive ReactJS UI Development logo",
+          alt: "reactjsSkillsPhotos/reactjs-ui-devleopment.webp",
         },
         title: "Ineractive ReactJS UI Development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
-          alt: "ReactJs Migrations Service logo",
+          alt: "reactjsSkillsPhotos/reactjs-migration.webp",
         },
         title: "Enables testing now and team",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/custom-reactjs.webp",
-          alt: "Custom ReactJs Development logo",
+          alt: "reactjsSkillsPhotos/custom-reactjs.webp",
         },
         title: "Custom ReactJs Development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/ajax-development.webp",
-          alt: "Ajax Development logo",
+          alt: "reactjsSkillsPhotos/ajax-development.webp",
         },
         title: "Ajax Development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/internet-commerce.webp",
-          alt: "Internet/E-commerce Development logo",
+          alt: "reactjsSkillsPhotos/internet-commerce.webp",
         },
         title: "Internet/E-commerce Development",
       },
@@ -1190,7 +1190,7 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/two-way-bind.webp",
-          alt: "Two-Way Data Binding logo",
+          alt: "angularjsSkillsPhotos/two-way-bind.webp",
         },
         title: "Custom AngularJS Development",
 
@@ -1199,7 +1199,7 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
-          alt: "Trouble-Free Testing logo",
+          alt: "angularjsSkillsPhotos/trouble-free.webp",
         },
         title: "Portal development",
         description: `Our angular.js portal development services will provide you a web app portal that is easy to use, visually appealing, function smoothly and innovative by utilizing the most up-to-date tools and technologies.`,
@@ -1207,7 +1207,7 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/complete-client-solution.webp",
-          alt: "A Complete Client-Side Solution logo",
+          alt: "angularjsSkillsPhotos/complete-client-solution.webp",
         },
         title: `Single page application development`,
         description: `Our SPA developers are experts in Angular.js and know exactly how to create quality SPA's that seamlessly integrate with your site's architecture. We offer a range of services that will help you get your SPA up and running quickly, including project management.`,
@@ -1215,7 +1215,7 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
-          alt: "Captivating Support Services logo",
+          alt: "angularjsSkillsPhotos/captivating-support.webp",
         },
         title: "Angular.js support and maintenance",
         description: `With our AngularJS support and maintenance services, you can easily clear out outdated coding and improve user experience with the latest tools and technology. We ensure constant quality and timely services so that you never face any inconvenience.`,
@@ -1223,7 +1223,7 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/features-excited.webp",
-          alt: "Features to Get Excited About logo",
+          alt: "angularjsSkillsPhotos/features-excited.webp",
         },
         title: "UI/UX Development",
         description: `Their angular.js UI/UX development services offer an appealing user interface and user experience with customizable and responsive designs which are user feedback integrated to enhance the visuals of the web application!.`,
@@ -1231,7 +1231,7 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "Great MVC Support logo",
+          alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "Integrating API Services",
         description: `Hire our angular.js developers to develop and integrate APIs for your business. Our
@@ -1269,42 +1269,42 @@ export const angularjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
-          alt: "Easy complex component handling logo",
+          alt: "angularjsSkillsPhotos/complex-handling.webp",
         },
         title: "Easy complex component handling",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/time-saving.webp",
-          alt: "Time-Saving Process logo",
+          alt: "angularjsSkillsPhotos/time-saving.webp",
         },
         title: "Time-Saving Process",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
-          alt: "Effective Framework logo",
+          alt: "angularjsSkillsPhotos/effective-framework.webp",
         },
         title: "Effective Framework",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
-          alt: "Reusable code logo",
+          alt: "angularjsSkillsPhotos/reuseable-code.webp",
         },
         title: "Reusable code",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/testing-now-then.webp",
-          alt: "Enables Testing Now and Then logo",
+          alt: "angularjsSkillsPhotos/testing-now-then.webp",
         },
         title: "Enables Testing Now and Then",
       },
@@ -1337,7 +1337,7 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/straight-forward.webp",
-          alt: "Vue.js Custom App Development logo",
+          alt: "vuejsSkillsPhotos/straight-forward.webp",
         },
         title: "Vue.js Custom App Development",
 
@@ -1347,7 +1347,7 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy-understand.webp",
-          alt: "Single Page App Development logo",
+          alt: "vuejsSkillsPhotos/easy-understand.webp",
         },
         title: "Single Page App Development",
         description:
@@ -1356,7 +1356,7 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/two-communication.webp",
-          alt: "Third-Party Integration logo",
+          alt: "vuejsSkillsPhotos/two-communication.webp",
         },
         title: "Third-Party Integration",
         description:
@@ -1365,7 +1365,7 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/adaptablity.webp",
-          alt: "Migration & Integration Services logo",
+          alt: "vuejsSkillsPhotos/adaptablity.webp",
         },
         title: "Migration & Integration Services",
         description:
@@ -1374,7 +1374,7 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/extra-tool.webp",
-          alt: "Vue.js Component Development logo",
+          alt: "vuejsSkillsPhotos/extra-tool.webp",
         },
         title: "Vue.js Component Development",
         description:
@@ -1383,7 +1383,7 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/small.webp",
-          alt: "Vue.js Support & Maintenance logo",
+          alt: "vuejsSkillsPhotos/small.webp",
         },
         title: "Vue.js Support & Maintenance",
         description:
@@ -1419,42 +1419,42 @@ export const vuejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
-          alt: "Simplicity logo",
+          alt: "vuejsSkillsPhotos/easy.webp",
         },
         title: "Simplicity",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/architecture.webp",
-          alt: "Component-based architecture logo",
+          alt: "vuejsSkillsPhotos/architecture.webp",
         },
         title: "Component-based architecture",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/reusability.webp",
-          alt: "Reusability logo",
+          alt: "vuejsSkillsPhotos/reusability.webp",
         },
         title: "Reusability",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
-          alt: "High performance logo",
+          alt: "vuejsSkillsPhotos/speedometer.webp",
         },
         title: "High performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/documentation.webp",
-          alt: "Documentation logo",
+          alt: "vuejsSkillsPhotos/documentation.webp",
         },
         title: "Documentation",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
-          alt: "Cross-platform logo",
+          alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Cross-platform",
       },
@@ -1487,7 +1487,7 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
-          alt: "Easy Development logo",
+          alt: "springbootSkillsPhotos/easy-development.webp",
         },
         title: "Easy Development",
 
@@ -1496,7 +1496,7 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
-          alt: "No war files develoyment logo",
+          alt: "springbootSkillsPhotos/war-files.webp",
         },
         title: "No war files develoyment",
         description: `Spring Boot is the most preferred option. Its lightweight structure makes it easier to understand and use while its dependency injection feature helps in promoting code-reuse and higher level of abstraction. BottomFunnel is here with an easy solution for this problem by explaining how JAR files are different from WAR files.`,
@@ -1504,7 +1504,7 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
-          alt: "No XML configuration logo",
+          alt: "springbootSkillsPhotos/xml-logo.webp",
         },
         title: "No XML configuration",
         description: `Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.`,
@@ -1512,7 +1512,7 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
-          alt: "Standalone Applications logo",
+          alt: "springbootSkillsPhotos/stand-application.webp",
         },
         title: "Standalone Applications",
         description: `SaaS projects rely on automation to save time and resources, but not everyone has the expertise or background to write code. That's why we've made it easy for project developers to use annotations or XML configurations. BottomFunnel gives you the best of both worlds--the convenience of using annotations without sacrificing control over your project.`,
@@ -1520,7 +1520,7 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
-          alt: "Simple setup and management logo",
+          alt: "springbootSkillsPhotos/simple-setup.webp",
         },
         title: "Simple setup and management",
         description: `Spring Boot apps are secure by default because they use basic HTTP authentication and HTTPS transport to protect your data from unauthorized access. Plus, the rich set of endpoints available will let you develop a secure Spring Boot application in no time.`,
@@ -1528,7 +1528,7 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
-          alt: "Easy to start logo",
+          alt: "springbootSkillsPhotos/easy-start.webp",
         },
         title: "Easy to start",
         description: `Spring boot is one of the best ways to get started with a new web project. By using Spring Boot, you can take advantage of the many benefits offered by this framework, such as auto-configuration and code sharing. The starter pack helps you quickly assemble everything you need so that your website can be up and running in no time at all.`,
@@ -1563,21 +1563,21 @@ export const springBootData = {
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
-          alt: "Java Developer logo",
+          alt: "springbootSkillsPhotos/java.webp",
         },
         title: "Java Developer",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
-          alt: "Application Developer logo",
+          alt: "springbootSkillsPhotos/software-application.webp",
         },
         title: "Application Developer",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
-          alt: "Software Engineer logo",
+          alt: "springbootSkillsPhotos/cpu.webp",
         },
         title: "Software Engineer",
       },
@@ -1610,7 +1610,7 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
-          alt: "Open source and Lightweight logo",
+          alt: "hibernateSkillsPhotos/open-source.webp",
         },
         title: "Open source and Lightweight",
 
@@ -1619,7 +1619,7 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
-          alt: "Fast Performance logo",
+          alt: "hibernateSkillsPhotos/fast-performance.webp",
         },
         title: "Fast Performance",
         description: `Hibernate has always been known for its performance but this release takes it to another level by making use of leading-edge improvements in memory management and caching. You'll notice a dramatic improvement in application performance as well as reduced resource usage – all without incurring any extra development complexity or maintenance cost."`,
@@ -1627,7 +1627,7 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
-          alt: "Database Independent Query logo",
+          alt: "hibernateSkillsPhotos/Frame-5.webp",
         },
         title: "Database Independent Query",
         description: `With Hibernate, we don't have to write database-specific queries anymore. Before Hibernate, if the database is changed for the project, we need to change the SQL query as well which leads to the maintenance problem. BottomFunnel gives us convenient and uniform way to generate database independent queries which makes our life easier `,
@@ -1635,7 +1635,7 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
-          alt: "Automatic Table Creation logo",
+          alt: "hibernateSkillsPhotos/automatic-table.webp",
         },
         title: "Automatic Table Creation",
         description: `Creating tables in database can be a tedious task, especially when you have to do it every time you start working with a new database. With Hibernate Framework, this task becomes extremely easy and convenient. The framework provides the facility to create the tables of your database automatically, saving on valuable time.`,
@@ -1643,7 +1643,7 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
-          alt: "Simplifies Complex Join logo",
+          alt: "hibernateSkillsPhotos/simplifies.webp",
         },
         title: "Simplifies Complex Join",
         description: `Hibernate framework support Auto DDL operations so you can create tables with ease and get started with your data-driven business savvy today. Add in our simple yet powerful database management system, and you've got everything you need to manage your database confidently.`,
@@ -1651,7 +1651,7 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
-          alt: "Provides Query Statistics logo",
+          alt: "hibernateSkillsPhotos/query-static.webp",
         },
         title: "Provides Query Statistics",
         description: `Data consistency is important in any application, and Hibernate makes sure your data stays up-to-date by mapping changes to the database automatically. Best of all, all of this happens behind the scenes so you don't have to worry about it at all. You'll be able to focus on what matters most - building your app!`,
@@ -1686,42 +1686,42 @@ export const hiberateData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
-          alt: "High performance logo",
+          alt: "vuejsSkillsPhotos/speedometer.webp",
         },
         title: "High performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
-          alt: "Java Developer logo",
+          alt: "springbootSkillsPhotos/java.webp",
         },
         title: "Java Developer",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
-          alt: "Simplicity logo",
+          alt: "vuejsSkillsPhotos/easy.webp",
         },
         title: "Simplicity",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
-          alt: "Database Independent logo",
+          alt: "hibernateSkillsPhotos/database.webp",
         },
         title: "Database Independent",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
-          alt: "Easy complex component handling logo",
+          alt: "angularjsSkillsPhotos/complex-handling.webp",
         },
         title: "Easy complex component handling",
       },
@@ -1754,7 +1754,7 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/patent-adds.webp",
-          alt: "Patent add-ons logo",
+          alt: "emberjSkillsPhotos/patent-adds.webp",
         },
         title: "Patent add-ons",
 
@@ -1764,7 +1764,7 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/ember-cli.webp",
-          alt: "Ember CLI logo",
+          alt: "emberjSkillsPhotos/ember-cli.webp",
         },
         title: "Ember CLI",
         description:
@@ -1773,7 +1773,7 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/convention.webp",
-          alt: "Convention over configuration logo",
+          alt: "emberjSkillsPhotos/convention.webp",
         },
         title: "Convention over configuration",
         description:
@@ -1782,7 +1782,7 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/stability-sans.webp",
-          alt: "Stability sans stagnation logo",
+          alt: "emberjSkillsPhotos/stability-sans.webp",
         },
         title: "Stability sans stagnation",
         description:
@@ -1791,7 +1791,7 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/community.webp",
-          alt: "Community logo",
+          alt: "emberjSkillsPhotos/community.webp",
         },
         title: "Community",
         description:
@@ -1800,7 +1800,7 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/ember-oct.webp",
-          alt: "Ember Octane logo",
+          alt: "emberjSkillsPhotos/ember-oct.webp",
         },
         title: "Ember Octane",
         description:
@@ -1836,42 +1836,42 @@ export const emberjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/practice.webp",
-          alt: "Built-in Best Practices logo",
+          alt: "emberjSkillsPhotos/practice.webp",
         },
         title: "Built-in Best Practices",
       },
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/blockchain.webp",
-          alt: "Integrates With Large Teams logo",
+          alt: "emberjSkillsPhotos/blockchain.webp",
         },
         title: "Integrates With Large Teams",
       },
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/future.webp",
-          alt: "Future of the Web logo",
+          alt: "emberjSkillsPhotos/future.webp",
         },
         title: "Future of the Web",
       },
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/features.webp",
-          alt: "Amazing Features logo",
+          alt: "emberjSkillsPhotos/features.webp",
         },
         title: "Amazing Features",
       },
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
-          alt: "Giant Ecosystem logo",
+          alt: "emberjSkillsPhotos/computer.webp",
         },
         title: "Giant Ecosystem",
       },
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/stability.webp",
-          alt: "Stability logo",
+          alt: "emberjSkillsPhotos/stability.webp",
         },
         title: "Stability",
       },
@@ -1904,7 +1904,7 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/easy-understand.webp",
-          alt: "Easy to understand logo",
+          alt: "jquerySkillsPhotos/easy-understand.webp",
         },
         title: "Easy to understand",
 
@@ -1914,7 +1914,7 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/speed-thing.webp",
-          alt: "Speed thing up logo",
+          alt: "jquerySkillsPhotos/speed-thing.webp",
         },
         title: "Speed thing up",
         description:
@@ -1923,7 +1923,7 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/lot-plugins.webp",
-          alt: "Lots of plugins logo",
+          alt: "jquerySkillsPhotos/lot-plugins.webp",
         },
         title: "Lots of plugins",
         description:
@@ -1932,7 +1932,7 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/community.webp",
-          alt: "Community logo",
+          alt: "jquerySkillsPhotos/community.webp",
         },
         title: "Community",
         description:
@@ -1941,7 +1941,7 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
-          alt: "Animation becomes easy logo",
+          alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "Animation becomes easy",
         description:
@@ -1950,7 +1950,7 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/extension.webp",
-          alt: "Extension logo",
+          alt: "jquerySkillsPhotos/extension.webp",
         },
         title: "Extension",
         description:
@@ -1986,42 +1986,42 @@ export const jqueryData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
-          alt: "jQuery is widely used logo",
+          alt: "angularjsSkillsPhotos/effective-framework.webp",
         },
         title: "jQuery is widely used",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
-          alt: "Promotes simplicity logo",
+          alt: "codeigniterPhotos/simply-sol.webp",
         },
         title: "Promotes simplicity",
       },
       {
         img: {
           src: "/Images/skillsPhotos/emberjSkillsPhotos/computer.webp",
-          alt: "Cross-browser compatibility logo",
+          alt: "emberjSkillsPhotos/computer.webp",
         },
         title: "Cross-browser compatibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsPhotos/easy-develop.webp",
-          alt: "Clean and beautiful syntax logo",
+          alt: "larvelskillsPhotos/easy-develop.webp",
         },
         title: "Clean and beautiful syntax",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source library logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source library",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
-          alt: "Highly extensible logo",
+          alt: "springbootSkillsPhotos/software-application.webp",
         },
         title: "Highly extensible",
       },
@@ -2055,7 +2055,7 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
-          alt: "Improved SEO Performance logo",
+          alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "Improved SEO Performance",
 
@@ -2065,7 +2065,7 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-lock.webp",
-          alt: "Security logo",
+          alt: "nextjsSkillsPhotos/computer-lock.webp",
         },
         title: "Security",
         description:
@@ -2074,7 +2074,7 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
-          alt: "Flexible logo",
+          alt: "nextjsSkillsPhotos/setting-task.webp",
         },
         title: "Flexible",
         description:
@@ -2083,7 +2083,7 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/loading.webp",
-          alt: "Quick loading logo",
+          alt: "nextjsSkillsPhotos/loading.webp",
         },
         title: "Quick loading",
         description:
@@ -2092,7 +2092,7 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/support.webp",
-          alt: "Excellent Support logo",
+          alt: "nextjsSkillsPhotos/support.webp",
         },
         title: "Excellent Support",
         description:
@@ -2101,7 +2101,7 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -2137,21 +2137,21 @@ export const nextjsData = {
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/reactjs-migration.webp",
-          alt: "Server-Side Rendering logo",
+          alt: "reactjsSkillsPhotos/reactjs-migration.webp",
         },
         title: "Server-Side Rendering",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSKillsPhotos/performance-ecosystem.webp",
-          alt: "Improved SEO logo",
+          alt: "reactjsSKillsPhotos/performance-ecosystem.webp",
         },
         title: "Improved SEO",
       },
       {
         img: {
           src: "/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
-          alt: "Better performance logo",
+          alt: "hibernateSkillsPhotos/fast-performance.webp",
         },
         title: "Better performance",
       },
@@ -2185,7 +2185,7 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
 
@@ -2195,7 +2195,7 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/frames.webp",
-          alt: "MV structure and abstract code logo",
+          alt: "backbonejsSkillsPhotos/frames.webp",
         },
         title: "MV structure and abstract code",
         description:
@@ -2204,7 +2204,7 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
-          alt: "Lots of small libraries logo",
+          alt: "backbonejsSkillsPhotos/database-docs.webp",
         },
         title: "Lots of small libraries",
         description:
@@ -2213,7 +2213,7 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/chatting.webp",
-          alt: "Event-driven communication logo",
+          alt: "backbonejsSkillsPhotos/chatting.webp",
         },
         title: "Event-driven communication",
         description:
@@ -2222,7 +2222,7 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/api-cloud.webp",
-          alt: "API and documentation logo",
+          alt: "backbonejsSkillsPhotos/api-cloud.webp",
         },
         title: "API and documentation",
         description:
@@ -2231,7 +2231,7 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/coding-screen.webp",
-          alt: "Conventions for coding style logo",
+          alt: "backbonejsSkillsPhotos/coding-screen.webp",
         },
         title: "Conventions for coding style",
         description:
@@ -2267,21 +2267,21 @@ export const backbonejsData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "MVP Design logo",
+          alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVP Design",
       },
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/chatting.webp",
-          alt: "Event-driven logo",
+          alt: "backbonejsSkillsPhotos/chatting.webp",
         },
         title: "Event-driven",
       },
@@ -2315,7 +2315,7 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "svelteSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
 
@@ -2325,7 +2325,7 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
-          alt: "All in one logo",
+          alt: "svelteSkillsPhotos/settings-loading.webp",
         },
         title: "All in one",
         description:
@@ -2334,7 +2334,7 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/fast-run.webp",
-          alt: "Fast logo",
+          alt: "svelteSkillsPhotos/fast-run.webp",
         },
         title: "Fast",
         description:
@@ -2343,7 +2343,7 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
-          alt: "Easy to learn logo",
+          alt: "svelteSkillsPhotos/settings-loading.webp",
         },
         title: "Easy to learn",
         description:
@@ -2352,7 +2352,7 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/documents.webp",
-          alt: "stable logo",
+          alt: "svelteSkillsPhotos/documents.webp",
         },
         title: "stable",
         description:
@@ -2361,7 +2361,7 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/loading.webp",
-          alt: "Reusable components logo",
+          alt: "svelteSkillsPhotos/loading.webp",
         },
         title: "Reusable components",
         description:
@@ -2397,42 +2397,42 @@ export const svelteData = {
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
-          alt: "Easy to learn logo",
+          alt: "vuejsSkillsPhotos/easy.webp",
         },
         title: "Easy to learn",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/collab.webp",
-          alt: "No virtual DOM logo",
+          alt: "nodejsphotos/collab.webp",
         },
         title: "No virtual DOM",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
-          alt: "Cross-platform logo",
+          alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Cross-platform",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/setting-task.webp",
-          alt: "Client and server-side rendering logo",
+          alt: "nextjsSkillsPhotos/setting-task.webp",
         },
         title: "Client and server-side rendering",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
-          alt: "SEO support logo",
+          alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "SEO support",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Fast rendering logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast rendering",
       },
@@ -2465,7 +2465,7 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/docs-security.webp",
-          alt: "Increse data security logo",
+          alt: "mssqlSKillsPhotos/docs-security.webp",
         },
         title: "Increse data security",
 
@@ -2475,7 +2475,7 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/computer-ai.webp",
-          alt: "Ease of configuration logo",
+          alt: "mssqlSKillsPhotos/computer-ai.webp",
         },
         title: "Ease of configuration",
         description:
@@ -2484,7 +2484,7 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/database.webp",
-          alt: "Optimized data storage logo",
+          alt: "mssqlSKillsPhotos/database.webp",
         },
         title: "Optimized data storage",
         description:
@@ -2493,7 +2493,7 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/setting-docs-loading.webp",
-          alt: "Data recovery support logo",
+          alt: "mssqlSKillsPhotos/setting-docs-loading.webp",
         },
         title: "Data recovery support",
         description:
@@ -2502,7 +2502,7 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
-          alt: "Intelligent database logo",
+          alt: "mssqlSKillsPhotos/sql-server.webp",
         },
         title: "Intelligent database",
         description:
@@ -2511,7 +2511,7 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "mssqlSKillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -2547,21 +2547,21 @@ export const msSQLData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Fast query processing logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast query processing",
       },
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
-          alt: "No Coding Skills logo",
+          alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "No Coding Skills",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/scalable.webp",
-          alt: "Standardized Language logo",
+          alt: "phpskillsphotos/scalable.webp",
         },
         title: "Standardized Language",
       },
@@ -2594,7 +2594,7 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/user-cloud.webp",
-          alt: "Cloud based logo",
+          alt: "mongodbSkillsPhotos/user-cloud.webp",
         },
         title: "Cloud based",
 
@@ -2604,7 +2604,7 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
-          alt: "Flexible document schemas logo",
+          alt: "mongodbSkillsPhotos/docs-checked.webp",
         },
         title: "Flexible document schemas",
         description:
@@ -2613,7 +2613,7 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/desktop-setting.webp",
-          alt: "Widely supported and code native access logo",
+          alt: "mongodbSkillsPhotos/desktop-setting.webp",
         },
         title: "Widely supported and code native access",
         description:
@@ -2622,7 +2622,7 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/mobile-smile.webp",
-          alt: "Change-friendly design logo",
+          alt: "mongodbSkillsPhotos/mobile-smile.webp",
         },
         title: "Change-friendly design",
         description:
@@ -2631,7 +2631,7 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/setting-clock.webp",
-          alt: "High performance logo",
+          alt: "mongodbSkillsPhotos/setting-clock.webp",
         },
         title: "High performance",
         description:
@@ -2640,7 +2640,7 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
-          alt: "Powerful querying and analytics logo",
+          alt: "mongodbSkillsPhotos/analysis.webp",
         },
         title: "Powerful querying and analytics",
         description:
@@ -2676,21 +2676,21 @@ export const mongodbData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/hosting.webp",
-          alt: "Document Oriented Storage logo",
+          alt: "phpskillsphotos/hosting.webp",
         },
         title: "Document Oriented Storage",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/frameworks.webp",
-          alt: "Rich queries logo",
+          alt: "phpskillsphotos/frameworks.webp",
         },
         title: "Rich queries",
       },
@@ -2723,7 +2723,7 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/security.webp",
-          alt: "Data security logo",
+          alt: "mysqlSkillsPhotos/security.webp",
         },
         title: "Data security",
 
@@ -2733,7 +2733,7 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
-          alt: "On demand scalibility logo",
+          alt: "mysqlSkillsPhotos/user-database.webp",
         },
         title: "On demand scalibility",
         description:
@@ -2742,7 +2742,7 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/setting-clock.webp",
-          alt: "High performance logo",
+          alt: "mysqlSkillsPhotos/setting-clock.webp",
         },
         title: "High performance",
         description:
@@ -2751,7 +2751,7 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/databasae-clock.webp",
-          alt: "Round-the-clock Uptime logo",
+          alt: "mysqlSkillsPhotos/databasae-clock.webp",
         },
         title: "Round-the-clock Uptime",
         description:
@@ -2760,7 +2760,7 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/docs-left-right.webp",
-          alt: "Comprehensive transactions support logo",
+          alt: "mysqlSkillsPhotos/docs-left-right.webp",
         },
         title: "Comprehensive transactions support",
         description:
@@ -2769,7 +2769,7 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/setting-loading.webp",
-          alt: "Complete Workflow Control logo",
+          alt: "mysqlSkillsPhotos/setting-loading.webp",
         },
         title: "Complete Workflow Control",
         description:
@@ -2805,21 +2805,21 @@ export const mysqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
-          alt: "High Performance logo",
+          alt: "vuejsSkillsPhotos/speedometer.webp",
         },
         title: "High Performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
-          alt: "Scalability of Demand logo",
+          alt: "mysqlSkillsPhotos/user-database.webp",
         },
         title: "Scalability of Demand",
       },
@@ -2853,7 +2853,7 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/postgresqlSkillsPhotos/dumble.webp",
-          alt: "Robust feature set logo",
+          alt: "postgresqlSkillsPhotos/dumble.webp",
         },
         title: "Data types and Data Integrity",
 
@@ -2863,7 +2863,7 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/postgresqlSkillsPhotos/oops.webp",
-          alt: "Object-oriented database features logo",
+          alt: "postgresqlSkillsPhotos/oops.webp",
         },
         title: "Performance",
         description:
@@ -2872,7 +2872,7 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/postgresqlSkillsPhotos/sql-docs.webp",
-          alt: "SQL standards conformance logo",
+          alt: "postgresqlSkillsPhotos/sql-docs.webp",
         },
         title: "Disaster Recovery & Reliability",
         description:
@@ -2881,7 +2881,7 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/postgresqlSkillsPhotos/recycle.webp",
-          alt: "ACID compliance logo",
+          alt: "postgresqlSkillsPhotos/recycle.webp",
         },
         title: "Extensibility",
         description:
@@ -2890,7 +2890,7 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/postgresqlSkillsPhotos/user-database.webp",
-          alt: "Diverse indexing techniques logo",
+          alt: "postgresqlSkillsPhotos/user-database.webp",
         },
         title: "Internationalization & Text Search",
         description:
@@ -2899,7 +2899,7 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/postgresqlSkillsPhotos/light-setting.webp",
-          alt: "Diverse indexing techniques logo",
+          alt: "postgresqlSkillsPhotos/light-setting.webp",
         },
         title: "Support of non-relational data",
         description:
@@ -2935,21 +2935,21 @@ export const postgresqlData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangoPhotos/community-driven.webp",
-          alt: "Community-driven logo",
+          alt: "djangoPhotos/community-driven.webp",
         },
         title: "Community-driven",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/security.webp",
-          alt: "Security logo",
+          alt: "dotnetphotos/security.webp",
         },
         title: "Security",
       },
@@ -2983,7 +2983,7 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/setting-up.webp",
-          alt: "Performace logo",
+          alt: "redisSkillsPhotos/setting-up.webp",
         },
         title: "Performace",
 
@@ -2993,7 +2993,7 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/structure.webp",
-          alt: "Flexible data structure logo",
+          alt: "redisSkillsPhotos/structure.webp",
         },
         title: "Flexible data structure",
         description:
@@ -3002,7 +3002,7 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/docs-rotate.webp",
-          alt: "Replication and persistence logo",
+          alt: "redisSkillsPhotos/docs-rotate.webp",
         },
         title: "Replication and persistence",
         description:
@@ -3011,7 +3011,7 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/cloud-clock.webp",
-          alt: "High availability and scalability logo",
+          alt: "redisSkillsPhotos/cloud-clock.webp",
         },
         title: "High availability and scalability",
         description:
@@ -3020,7 +3020,7 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/docs-left-right.webp",
-          alt: "Support transactions logo",
+          alt: "redisSkillsPhotos/docs-left-right.webp",
         },
         title: "Support transactions",
         description:
@@ -3029,7 +3029,7 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "redisSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -3065,21 +3065,21 @@ export const redisData = {
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/caching.webp",
-          alt: "Caching logo",
+          alt: "redisSkillsPhotos/caching.webp",
         },
         title: "Caching",
       },
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
-          alt: "Performance logo",
+          alt: "redisSkillsPhotos/fast-run.webp",
         },
         title: "Performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
-          alt: "Data Structures logo",
+          alt: "mssqlSKillsPhotos/sql-server.webp",
         },
         title: "Data Structures",
       },
@@ -3112,7 +3112,7 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/wpSkillsPhotos/analysis.webp",
-          alt: "Improved SEO performance logo",
+          alt: "wpSkillsPhotos/analysis.webp",
         },
         title: "Improved SEO performance",
 
@@ -3122,7 +3122,7 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/wpSkillsPhotos/uiux-pen.webp",
-          alt: "Better user experience logo",
+          alt: "wpSkillsPhotos/uiux-pen.webp",
         },
         title: "Better user experience",
         description:
@@ -3131,7 +3131,7 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/wpSkillsPhotos/setting-tasks.webp",
-          alt: "Flexible logo",
+          alt: "wpSkillsPhotos/setting-tasks.webp",
         },
         title: "Flexible",
         description:
@@ -3140,7 +3140,7 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/wpSkillsPhotos/open-source.webp",
-          alt: "Open source logo",
+          alt: "wpSkillsPhotos/open-source.webp",
         },
         title: "Open source",
         description:
@@ -3149,7 +3149,7 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/wpSkillsPhotos/support.webp",
-          alt: "Excellent support logo",
+          alt: "wpSkillsPhotos/support.webp",
         },
         title: "Excellent support",
         description:
@@ -3158,7 +3158,7 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/wpSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "wpSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -3194,21 +3194,21 @@ export const wordpressData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/extreme-data.webp",
-          alt: "Hosting doesn't have to be a hassle logo",
+          alt: "nodejsphotos/extreme-data.webp",
         },
         title: "Hosting doesn't have to be a hassle",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/custom-website.webp",
-          alt: "Wide variety of themes logo",
+          alt: "dotnetphotos/custom-website.webp",
         },
         title: "Wide variety of themes",
       },
@@ -3242,7 +3242,7 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/indicator.webp",
-          alt: "Intuitive drag and drop interface logo",
+          alt: "wixSkillsPhotos/indicator.webp",
         },
         title: "Intuitive drag and drop interface",
 
@@ -3252,7 +3252,7 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/graph.webp",
-          alt: "Better user experience logo",
+          alt: "wixSkillsPhotos/graph.webp",
         },
         title: "Better user experience",
         description:
@@ -3261,7 +3261,7 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/database.webp",
-          alt: "Massive template collection logo",
+          alt: "wixSkillsPhotos/database.webp",
         },
         title: "Massive template collection",
         description:
@@ -3270,7 +3270,7 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "wixSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -3279,7 +3279,7 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/support.webp",
-          alt: "Excellent support logo",
+          alt: "wixSkillsPhotos/support.webp",
         },
         title: "Excellent support",
         description:
@@ -3288,7 +3288,7 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/setting-tasks.webp",
-          alt: "Flexible logo",
+          alt: "wixSkillsPhotos/setting-tasks.webp",
         },
         title: "Flexible",
         description:
@@ -3324,42 +3324,42 @@ export const wixData = {
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/simple.webp",
-          alt: "Simplet to use logo",
+          alt: "dotnetphotos/simple.webp",
         },
         title: "Simplet to use",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
-          alt: "No knowledge of coding required logo",
+          alt: "springbootSkillsPhotos/easy-development.webp",
         },
         title: "No knowledge of coding required",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/mean-2.webp",
-          alt: "Wix offers a complete package logo",
+          alt: "nodejsphotos/mean-2.webp",
         },
         title: "Wix offers a complete package",
       },
       {
         img: {
           src: "/Images/skillsPhotos/wixSkillsPhotos/support.webp",
-          alt: "staff of experts to assist you logo",
+          alt: "wixSkillsPhotos/support.webp",
         },
         title: "Staff of experts to assist you",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
-          alt: "personalised SEO approach logo",
+          alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "Personalised SEO approach",
       },
@@ -3392,7 +3392,7 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/joomlaSkillsPhotos/drone-setting.webp",
-          alt: "Free to use logo",
+          alt: "joomlaSkillsPhotos/drone-setting.webp",
         },
         title: "Free to use",
 
@@ -3402,7 +3402,7 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/joomlaSkillsPhotos/ecomeerce-desktop.webp",
-          alt: "Suitable for e-commerce logo",
+          alt: "joomlaSkillsPhotos/ecomeerce-desktop.webp",
         },
         title: "Suitable for e-commerce",
         description:
@@ -3411,7 +3411,7 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/joomlaSkillsPhotos/php-icon.webp",
-          alt: "Support PHP scripting logo",
+          alt: "joomlaSkillsPhotos/php-icon.webp",
         },
         title: "Support PHP scripting",
         description:
@@ -3420,7 +3420,7 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/joomlaSkillsPhotos/community.webp",
-          alt: "Active forum community logo",
+          alt: "joomlaSkillsPhotos/community.webp",
         },
         title: "Active forum community",
         description:
@@ -3429,7 +3429,7 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/joomlaSkillsPhotos/cache-database.webp",
-          alt: "Build-in caching logo",
+          alt: "joomlaSkillsPhotos/cache-database.webp",
         },
         title: "Build-in caching",
         description:
@@ -3438,7 +3438,7 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/joomlaSkillsPhotos/languages.webp",
-          alt: "Support multiple language logo",
+          alt: "joomlaSkillsPhotos/languages.webp",
         },
         title: "Support multiple language",
         description:
@@ -3474,21 +3474,21 @@ export const joomlaData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/mean-2.webp",
-          alt: "Multiple joomla templates logo",
+          alt: "nodejsphotos/mean-2.webp",
         },
         title: "Multiple joomla templates",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Safe, fast and easy to use logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Safe, fast and easy to use",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/performance-ecosystem.webp",
-          alt: "Build-in SEO functionality logo",
+          alt: "reactjsSkillsPhotos/performance-ecosystem.webp",
         },
         title: "Build-in SEO functionality",
       },
@@ -3521,7 +3521,7 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/hubSkillsPhotos/drone-setting.webp",
-          alt: "Combined publishing logo",
+          alt: "hubSkillsPhotos/drone-setting.webp",
         },
         title: "Combined publishing",
 
@@ -3531,7 +3531,7 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/hubSkillsPhotos/newsletter.webp",
-          alt: "Smart content logo",
+          alt: "hubSkillsPhotos/newsletter.webp",
         },
         title: "Smart content",
         description:
@@ -3540,7 +3540,7 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/hubSkillsPhotos/settings.webp",
-          alt: "Personalization without CMS logo",
+          alt: "hubSkillsPhotos/settings.webp",
         },
         title: "Personalization without CMS",
         description:
@@ -3549,7 +3549,7 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/hubSkillsPhotos/light.webp",
-          alt: "Google AMP support logo",
+          alt: "hubSkillsPhotos/light.webp",
         },
         title: "Google AMP support",
         description:
@@ -3558,7 +3558,7 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/hubSkillsPhotos/security.webp",
-          alt: "Security through obscurity logo",
+          alt: "hubSkillsPhotos/security.webp",
         },
         title: "Security through obscurity",
         description:
@@ -3567,7 +3567,7 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/hubSkillsPhotos/checked-setting.webp",
-          alt: "Easy to use logo",
+          alt: "hubSkillsPhotos/checked-setting.webp",
         },
         title: "Easy to use",
         description:
@@ -3603,21 +3603,21 @@ export const hubspotData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/simple.webp",
-          alt: "Social media integration logo",
+          alt: "dotnetphotos/simple.webp",
         },
         title: "Social media integration",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/collab.webp",
-          alt: "Website integration logo",
+          alt: "nodejsphotos/collab.webp",
         },
         title: "Website integration",
       },
@@ -3626,13 +3626,13 @@ export const hubspotData = {
 };
 
 export const wooecommerceData = {
-  title: "Best woo-ecommerce developers in the market | Bottom Funnel",
+  title: "Best woocommerce developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced woo-ecommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a globally dominant company having highly experienced woocommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
     image: "/Images/skillsPhotos/woocommerceSkillsPhotos/banner.webp",
-    title: "Woo commerce Development Services",
+    title: "Woocommerce Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -3641,16 +3641,16 @@ export const wooecommerceData = {
     title: "Woo commerce",
     image: "/Images/skillsPhotos/woocommerceSkillsPhotos/woocommerce-logo.webp",
     description:
-      "Woo commerce is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
+      "Woocommerce is a free, cross-platform, open-source developer platform that has been designed to support many different types of application development needs. This system uses various languages, editors and libraries which can be used for web, mobile, desktop games and other projects too. The .NET framework has been developed based on certain guidelines to create applications ranging from small scale website creation all the way up to large enterprise level client programmes",
   },
   isWhyApp: true,
   WhyAppData: {
-    title: "POPULAR WOO COMMERCE WEB DEVELOPMENT SERVICES",
+    title: "POPULAR WOOCOMMERCE WEB DEVELOPMENT SERVICES",
     cardsData: [
       {
         img: {
           src: "/Images/skillsPhotos/woocommerceSkillsPhotos/dollar-secure.webp",
-          alt: "Secure payment logo",
+          alt: "woocommerceSkillsPhotos/dollar-secure.webp",
         },
         title: "Secure payment",
 
@@ -3660,7 +3660,7 @@ export const wooecommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/woocommerceSkillsPhotos/folder-setting.webp",
-          alt: "Customization logo",
+          alt: "woocommerceSkillsPhotos/folder-setting.webp",
         },
         title: "Customization",
         description:
@@ -3669,7 +3669,7 @@ export const wooecommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/woocommerceSkillsPhotos/open-source.webp",
-          alt: "Open source logo",
+          alt: "woocommerceSkillsPhotos/open-source.webp",
         },
         title: "Open source",
         description:
@@ -3678,7 +3678,7 @@ export const wooecommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/woocommerceSkillsPhotos/analysis.webp",
-          alt: "Improved SEO performance logo",
+          alt: "woocommerceSkillsPhotos/analysis.webp",
         },
         title: "Improved SEO performance",
         description:
@@ -3687,7 +3687,7 @@ export const wooecommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/woocommerceSkillsPhotos/support.webp",
-          alt: "excellent support logo",
+          alt: "woocommerceSkillsPhotos/support.webp",
         },
         title: "excellent support",
         description:
@@ -3696,7 +3696,7 @@ export const wooecommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/woocommerceSkillsPhotos/setting-loading.webp",
-          alt: "Flexible logo",
+          alt: "woocommerceSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
         description:
@@ -3732,21 +3732,21 @@ export const wooecommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "Easy & Effective Design logo",
+          alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy & Effective Design",
       },
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
-          alt: "No coding skill required logo",
+          alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "No coding skill required",
       },
@@ -3779,7 +3779,7 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/drupalSkillsPhotos/router.webp",
-          alt: "Marketing automation logo",
+          alt: "drupalSkillsPhotos/router.webp",
         },
         title: "Marketing automation",
 
@@ -3789,7 +3789,7 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/drupalSkillsPhotos/hide-eye.webp",
-          alt: "Strong Security logo",
+          alt: "drupalSkillsPhotos/hide-eye.webp",
         },
         title: "Strong Security",
         description:
@@ -3798,7 +3798,7 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/drupalSkillsPhotos/database.webp",
-          alt: "Massive template collection logo",
+          alt: "drupalSkillsPhotos/database.webp",
         },
         title: "Massive template collection",
         description:
@@ -3807,7 +3807,7 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/drupalSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "drupalSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -3816,7 +3816,7 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/drupalSkillsPhotos/support.webp",
-          alt: "Excellent support logo",
+          alt: "drupalSkillsPhotos/support.webp",
         },
         title: "Excellent support",
         description:
@@ -3825,7 +3825,7 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/drupalSkillsPhotos/setting-loading.webp",
-          alt: "Flexible logo",
+          alt: "drupalSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
         description:
@@ -3861,21 +3861,21 @@ export const drupalData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source & free to use logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source & free to use",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
-          alt: "Advanced Development Methods logo",
+          alt: "springbootSkillsPhotos/easy-development.webp",
         },
         title: "Advanced Development Methods",
       },
       {
         img: {
-          src: "/Images/angularjsSKillsPhotos/time-saving.png",
-          alt: "Mobile-first features logo",
+          src: "/Images/skillsPhotos/angularjsSKillsPhotos/time-saving.webp",
+          alt: "angularjsSKillsPhotos/time-saving.webp",
         },
         title: "Mobile-first features",
       },
@@ -3908,7 +3908,7 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/bigcommerceSkillsPhotos/analysis.webp",
-          alt: "Improved SEO performance logo",
+          alt: "bigcommerceSkillsPhotos/analysis.webp",
         },
         title: "Improved SEO performance",
 
@@ -3918,7 +3918,7 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/bigcommerceSkillsPhotos/uiux-layout.webp",
-          alt: "Better user experience logo",
+          alt: "bigcommerceSkillsPhotos/uiux-layout.webp",
         },
         title: "Better user experience",
         description:
@@ -3927,7 +3927,7 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/bigcommerceSkillsPhotos/thumbs-up.webp",
-          alt: "Rating & Reviews logo",
+          alt: "bigcommerceSkillsPhotos/thumbs-up.webp",
         },
         title: "Rating & Reviews",
         description:
@@ -3936,7 +3936,7 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/bigcommerceSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "bigcommerceSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -3945,7 +3945,7 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/bigcommerceSkillsPhotos/support.webp",
-          alt: "Excellent support logo",
+          alt: "bigcommerceSkillsPhotos/support.webp",
         },
         title: "Excellent support",
         description:
@@ -3954,7 +3954,7 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/bigcommerceSkillsPhotos/setting-loading.webp",
-          alt: "Flexible logo",
+          alt: "bigcommerceSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
         description:
@@ -3990,42 +3990,42 @@ export const bigcommerceData = {
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/portal-design.webp",
-          alt: "Best At Design logo",
+          alt: "codeigniterPhotos/portal-design.webp",
         },
         title: "Best At Design",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/simply-sol.webp",
-          alt: "Smart Solutions logo",
+          alt: "codeigniterPhotos/simply-sol.webp",
         },
         title: "Smart Solutions",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/security.webp",
-          alt: "Security At Its Best logo",
+          alt: "dotnetphotos/security.webp",
         },
         title: "Security At Its Best",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/support.webp",
-          alt: "Great Support logo",
+          alt: "phpskillsphotos/support.webp",
         },
         title: "Great Support",
       },
       {
         img: {
           src: "/Images/skillsPhotos/reactjsSkillsPhotos/great-developer.webp",
-          alt: "Mobile Friendly logo",
+          alt: "reactjsSkillsPhotos/great-developer.webp",
         },
         title: "Mobile Friendly",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/collab.webp",
-          alt: "Easily Manage Returns logo",
+          alt: "nodejsphotos/collab.webp",
         },
         title: "Easily Manage Returns",
       },
@@ -4058,7 +4058,7 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/ibmSkillsPhotos/graph.webp",
-          alt: "Industry-leading performance logo",
+          alt: "ibmSkillsPhotos/graph.webp",
         },
         title: "Industry-leading performance",
 
@@ -4068,7 +4068,7 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/ibmSkillsPhotos/security.webp",
-          alt: "Advance protection logo",
+          alt: "ibmSkillsPhotos/security.webp",
         },
         title: "Advance protection",
         description:
@@ -4077,7 +4077,7 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/ibmSkillsPhotos/loading-24.webp",
-          alt: "Continuous availability logo",
+          alt: "ibmSkillsPhotos/loading-24.webp",
         },
         title: "Continuous availability",
         description:
@@ -4086,7 +4086,7 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/ibmSkillsPhotos/pip.webp",
-          alt: "Scaling logo",
+          alt: "ibmSkillsPhotos/pip.webp",
         },
         title: "Scaling",
         description:
@@ -4095,7 +4095,7 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/ibmSkillsPhotos/frames.webp",
-          alt: "Multiple data types logo",
+          alt: "ibmSkillsPhotos/frames.webp",
         },
         title: "Multiple data types",
         description:
@@ -4104,7 +4104,7 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/ibmSkillsPhotos/user-building.webp",
-          alt: "Automated administration logo",
+          alt: "ibmSkillsPhotos/user-building.webp",
         },
         title: "Automated administration",
         description:
@@ -4140,21 +4140,21 @@ export const ibmData = {
       {
         img: {
           src: "/Images/skillsPhotos/mssqlSKillsPhotos/sql-server.webp",
-          alt: "Powerfull SQL logo",
+          alt: "mssqlSKillsPhotos/sql-server.webp",
         },
         title: "Powerfull SQL",
       },
       {
         img: {
           src: "/Images/skillsPhotos/vuejsSkillsPhotos/cross-platform.webp",
-          alt: "Multiple platform support logo",
+          alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Multiple platform support",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/computer-research.webp",
-          alt: "IBM Support logo",
+          alt: "nextjsSkillsPhotos/computer-research.webp",
         },
         title: "IBM Support",
       },
@@ -4187,7 +4187,7 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/security.webp",
-          alt: "Security logo",
+          alt: "elasticSkillsPhotos/security.webp",
         },
         title: "Security",
 
@@ -4197,7 +4197,7 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/management.webp",
-          alt: "Management logo",
+          alt: "elasticSkillsPhotos/management.webp",
         },
         title: "Management",
         description:
@@ -4206,7 +4206,7 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
-          alt: "Scalability and resiliency logo",
+          alt: "elasticSkillsPhotos/pip.webp",
         },
         title: "Scalability and resiliency",
         description:
@@ -4215,7 +4215,7 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/switch.webp",
-          alt: "Integrations logo",
+          alt: "elasticSkillsPhotos/switch.webp",
         },
         title: "Integrations",
         description:
@@ -4224,7 +4224,7 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/upgrade-database.webp",
-          alt: "Data enrichment logo",
+          alt: "elasticSkillsPhotos/upgrade-database.webp",
         },
         title: "Data enrichment",
         description:
@@ -4233,7 +4233,7 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/database-search.webp",
-          alt: "Automatic node recovery logo",
+          alt: "elasticSkillsPhotos/database-search.webp",
         },
         title: "Automatic node recovery",
         description:
@@ -4269,42 +4269,42 @@ export const elasticData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/php-web-portals.webp",
-          alt: "Lots of search options logo",
+          alt: "phpskillsphotos/php-web-portals.webp",
         },
         title: "Lots of search options",
       },
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/docs-checked.webp",
-          alt: "Document-oriented logo",
+          alt: "mongodbSkillsPhotos/docs-checked.webp",
         },
         title: "Document-oriented",
       },
       {
         img: {
           src: "/Images/skillsPhotos/redisSkillsPhotos/fast-run.webp",
-          alt: "Speed logo",
+          alt: "redisSkillsPhotos/fast-run.webp",
         },
         title: "Speed",
       },
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/database-docs.webp",
-          alt: "Data record logo",
+          alt: "backbonejsSkillsPhotos/database-docs.webp",
         },
         title: "Data record",
       },
       {
         img: {
           src: "/Images/skillsPhotos/mongodbSkillsPhotos/analysis.webp",
-          alt: "Query fine tuning logo",
+          alt: "mongodbSkillsPhotos/analysis.webp",
         },
         title: "Query fine tuning",
       },
@@ -4337,7 +4337,7 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/open-source.webp",
-          alt: "Open source logo",
+          alt: "sqliteSkillsPhotos/open-source.webp",
         },
         title: "Open source",
 
@@ -4347,7 +4347,7 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/free.webp",
-          alt: "Free to use logo",
+          alt: "sqliteSkillsPhotos/free.webp",
         },
         title: "Free to use",
         description:
@@ -4356,7 +4356,7 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/sync.webp",
-          alt: "Cross-platform logo",
+          alt: "sqliteSkillsPhotos/sync.webp",
         },
         title: "Cross-platform",
         description:
@@ -4365,7 +4365,7 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
-          alt: "Flexible logo",
+          alt: "sqliteSkillsPhotos/setting-loading.webp",
         },
         title: "Flexible",
         description:
@@ -4374,7 +4374,7 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/no-user.webp",
-          alt: "No licence required logo",
+          alt: "sqliteSkillsPhotos/no-user.webp",
         },
         title: "No licence required",
         description:
@@ -4383,7 +4383,7 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/no-database.webp",
-          alt: "Serverless logo",
+          alt: "sqliteSkillsPhotos/no-database.webp",
         },
         title: "Serverless",
         description:
@@ -4419,21 +4419,21 @@ export const sqliteData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Better performance logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Better performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/jquerySkillsPhotos/cross-support.webp",
-          alt: "No installation needed logo",
+          alt: "jquerySkillsPhotos/cross-support.webp",
         },
         title: "No installation needed",
       },
@@ -4466,7 +4466,7 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/cassandraSkillsPhotos/box-dimension.webp",
-          alt: "Distributed footprint logo",
+          alt: "cassandraSkillsPhotos/box-dimension.webp",
         },
         title: "Distributed footprint",
 
@@ -4476,7 +4476,7 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/cassandraSkillsPhotos/qr-code.webp",
-          alt: "Better user experience logo",
+          alt: "cassandraSkillsPhotos/qr-code.webp",
         },
         title: "Better user experience",
         description:
@@ -4485,7 +4485,7 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/cassandraSkillsPhotos/shut-button.webp",
-          alt: "Fault tolerance logo",
+          alt: "cassandraSkillsPhotos/shut-button.webp",
         },
         title: "Fault tolerance",
         description:
@@ -4494,7 +4494,7 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/cassandraSkillsPhotos/open-source.webp",
-          alt: "Open source logo",
+          alt: "cassandraSkillsPhotos/open-source.webp",
         },
         title: "Open source",
         description:
@@ -4503,7 +4503,7 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/cassandraSkillsPhotos/pip.webp",
-          alt: "Scalability logo",
+          alt: "cassandraSkillsPhotos/pip.webp",
         },
         title: "Scalability",
         description:
@@ -4512,7 +4512,7 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/cassandraSkillsPhotos/fast-run.webp",
-          alt: "Fast writes logo",
+          alt: "cassandraSkillsPhotos/fast-run.webp",
         },
         title: "Fast writes",
         description:
@@ -4548,21 +4548,21 @@ export const cassandraData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Performance - speed logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Performance - speed",
       },
       {
         img: {
           src: "/Images/skillsPhotos/elasticSkillsPhotos/pip.webp",
-          alt: "Scalability logo",
+          alt: "elasticSkillsPhotos/pip.webp",
         },
         title: "Scalability",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/clock.webp",
-          alt: "Reliability logo",
+          alt: "nodejsphotos/clock.webp",
         },
         title: "Reliability",
       },
@@ -4595,7 +4595,7 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/flaskSkillsPhotos/unicode.webp",
-          alt: "Improved SEO Performance logo",
+          alt: "flaskSkillsPhotos/unicode.webp",
         },
         title: "Improved SEO Performance",
 
@@ -4604,7 +4604,7 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/flaskSkillsPhotos/printing.webp",
-          alt: "Integrated support for unit testing logo",
+          alt: "flaskSkillsPhotos/printing.webp",
         },
         title: "Integrated support for unit testing",
         description: `Flask is one such project that has gained immense popularity over time because it provides everything expected out of a modern web framework. It has features like authentication, CSRF protection, internationalization support, etc.`,
@@ -4612,7 +4612,7 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/flaskSkillsPhotos/files.webp",
-          alt: "Complete documentration logo",
+          alt: "flaskSkillsPhotos/files.webp",
         },
         title: "Complete documentration",
         description: `Flask is the first choice for many developers because of its ease of use and flexibility. With BottomFunnel you can quickly choose the components that are best suited for your next project. And since Flask comes with a variety of extensions, developing your app has never been this easy!`,
@@ -4620,7 +4620,7 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/flaskSkillsPhotos/cookies-guard.webp",
-          alt: "Support for secure cookies logo",
+          alt: "flaskSkillsPhotos/cookies-guard.webp",
         },
         title: "Support for secure cookies",
         description:
@@ -4629,7 +4629,7 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/flaskSkillsPhotos/bug-setting.webp",
-          alt: "Development server and debugger logo",
+          alt: "flaskSkillsPhotos/bug-setting.webp",
         },
         title: "Development server and debugger",
         description:
@@ -4638,7 +4638,7 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/flaskSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "flaskSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -4674,21 +4674,21 @@ export const flaskData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
-          alt: "Highly flexible logo",
+          alt: "sqliteSkillsPhotos/setting-loading.webp",
         },
         title: "Highly flexible",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "Easy to deploy logo",
+          alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy to deploy",
       },
@@ -4720,7 +4720,7 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/strutsSkillsPhotos/price-tag.webp",
-          alt: "Tag support logo",
+          alt: "strutsSkillsPhotos/price-tag.webp",
         },
         title: "Tag support",
 
@@ -4729,7 +4729,7 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/strutsSkillsPhotos/database.webp",
-          alt: "Teplate support logo",
+          alt: "strutsSkillsPhotos/database.webp",
         },
         title: "Teplate support",
         description: `There are many reasons why you should use a MVC framework for your next project. But if you're already an expert in struts, then you know how powerful it is. BottomFunnel is one of the best struts frameworks available today that takes care of every important aspect of building a website from database to server to front-end views.`,
@@ -4737,7 +4737,7 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/strutsSkillsPhotos/coordination.webp",
-          alt: "Intigration support logo",
+          alt: "strutsSkillsPhotos/coordination.webp",
         },
         title: "Intigration support",
         description: `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
@@ -4745,7 +4745,7 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/strutsSkillsPhotos/ajax.webp",
-          alt: "Ajax support logo",
+          alt: "strutsSkillsPhotos/ajax.webp",
         },
         title: "Ajax support",
         description: `Struts is a powerful framework designed to encourage good design practices and modeling. It's built upon time-proven design patterns, so you know it will work for your application. Struts comes with out of the box support for MVC and RESTful APIs, so you can get started quickly.`,
@@ -4753,7 +4753,7 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/strutsSkillsPhotos/open-source.webp",
-          alt: "Open Source logo",
+          alt: "strutsSkillsPhotos/open-source.webp",
         },
         title: "Open Source",
         description: `Easy-to-use struts framework that adapts web applications to it in no time. It comes with tons of features that help you build a robust and responsive website. Plus, it is flexible and extensible so that you can easily modify or replace its components with your requirements. Try it out today!`,
@@ -4761,7 +4761,7 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/strutsSkillsPhotos/result.webp",
-          alt: "Various result types logo",
+          alt: "strutsSkillsPhotos/result.webp",
         },
         title: "Various result types",
         description: `Creating forms for capturing input from data into JavaBean objects is simple with BottomFunnel. The processing of Data into Action forms is easy and requires minimum effort, yet it delivers accurate output.`,
@@ -4796,21 +4796,21 @@ export const strutsData = {
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "MVC design logo",
+          alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC design",
       },
       {
         img: {
           src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
-          alt: "Centralized Configuration logo",
+          alt: "springbootSkillsPhotos/easy-start.webp",
         },
         title: "Centralized Configuration",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "Web application development easy logo",
+          alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Web application development easy",
       },
@@ -4841,7 +4841,7 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/golangSkillsPhotos/open-source.webp",
-          alt: "Open Source logo",
+          alt: "golangSkillsPhotos/open-source.webp",
         },
         title: "Open Source",
 
@@ -4850,7 +4850,7 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/golangSkillsPhotos/sync.webp",
-          alt: "Cross-platform development logo",
+          alt: "golangSkillsPhotos/sync.webp",
         },
         title: "Cross-platform development",
         description: `Golang is quickly becoming a top contender in the language world because of its speed, reliability, and most importantly, its ability to scale. No matter how big or small your project is, Golang has you covered.And when you're new to a language like Golang and its basics are still a bit foggy for you.`,
@@ -4858,7 +4858,7 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/golangSkillsPhotos/printing.webp",
-          alt: "Testing capabilities logo",
+          alt: "golangSkillsPhotos/printing.webp",
         },
         title: "Testing capabilities",
         description: `Golang's distributed memory architecture and simple syntax make it easy for developers to understand and use, while its powerful tooling ensures that applications run efficiently. And since Golang is an open source project, there are plenty of resources available online if you want to learn more.`,
@@ -4866,7 +4866,7 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/golangSkillsPhotos/keyboard.webp",
-          alt: "Static typing logo",
+          alt: "golangSkillsPhotos/keyboard.webp",
         },
         title: "Static typing",
         description: `Golang has been growing in popularity over the last few years and it seems like everyone's talking about it now! So why not give it a try and see how different it can make your application development process!`,
@@ -4874,7 +4874,7 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/golangSkillsPhotos/books.webp",
-          alt: "Powerful standard liberary logo",
+          alt: "golangSkillsPhotos/books.webp",
         },
         title: "Powerful standard library",
         description: `Golang is a programming language that provides software bundles and packages that make it easy for engineers to manage their I/O, cryptography, web servers and more. As the popularity of Golang increases, so does its library. TravelFlap is a golang package used to create automated web applications with ease.`,
@@ -4882,7 +4882,7 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/golangSkillsPhotos/proccess.webp",
-          alt: "Concurrency support logo",
+          alt: "golangSkillsPhotos/proccess.webp",
         },
         title: "Concurrency support",
         description: `Golang is a programming language that has taken the world by storm. It offers exceptional performance, scalability, and lightweight nature. It is perfect for building large-scale applications or scaling existing ones. In this post, we are going to explore how you can make use of GoDoc tool in Golang for documentation creation using Golang.`,
@@ -4917,42 +4917,42 @@ export const golangData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
-          alt: "Fast and efficiency logo",
+          alt: "nextjsSKillsPhotos/fast-run.webp",
         },
         title: "Fast and efficiency",
       },
       {
         img: {
           src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
-          alt: "Scalability logo",
+          alt: "mysqlSkillsPhotos/user-database.webp",
         },
         title: "Scalability",
       },
       {
         img: {
           src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
-          alt: "Ease of learning logo",
+          alt: "svelteSkillsPhotos/settings-loading.webp",
         },
         title: "Ease of learning",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/creative.webp",
-          alt: "Transparency logo",
+          alt: "dotnetphotos/creative.webp",
         },
         title: "Transparency",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
-          alt: "In-built testing logo",
+          alt: "larvelskillsphotos/automated-test.webp",
         },
         title: "In-built testing",
       },
@@ -4984,7 +4984,7 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsPhotos/symfonySkillsPhotos/php.webp",
-          alt: "Stable and Sustainable logo",
+          alt: "symfonySkillsPhotos/php.webp",
         },
         title: "Stable and Sustainable",
 
@@ -4993,7 +4993,7 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsPhotos/symfonySkillsPhotos/database-checked.webp",
-          alt: "Refined MVC Architecture logo",
+          alt: "symfonySkillsPhotos/database-checked.webp",
         },
         title: "Refined MVC Architecture",
         description: `The Symfony framework is the perfect solution for you - it has all the features and tools you need to develop a professional-grade website. With MVC architecture in place, your project will have an organized structure and be easy to work on. And because Symfony is built on top of Laravel, you also get access to all of Laravel's powerful tools and libraries.`,
@@ -5001,7 +5001,7 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsPhotos/symfonySkillsPhotos/curved.webp",
-          alt: "Flexible logo",
+          alt: "symfonySkillsPhotos/curved.webp",
         },
         title: "Flexible",
         description: `The world is going digital as we speak and Symfony has gone a great way in making coding easier for every developer. The framework ensures that your application is structured well, thus enabling you to focus on the real business logic. With its clean architecture, it also helps you write sustainable code that is easy to manage.`,
@@ -5009,7 +5009,7 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsphotos/symfonySkillsPhotos/setting.webp",
-          alt: "Customization logo",
+          alt: "symfonySkillsPhotos/setting.webp",
         },
         title: "Customization",
         description: `Symfony framework packs in an array of exclusive custom features to offer businesses and developers a more effective way to build their online presence. With it, they can enhance their site's usability and make it easier for users to navigate around it.`,
@@ -5017,7 +5017,7 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsPhotos/symfonySkillsPhotos/support.webp",
-          alt: "Excellent support logo",
+          alt: "symfonySkillsPhotos/support.webp",
         },
         title: "Excellent support",
         description: `Using Symfony as the core of its web development, the Symfony framework makes sure that your project follows a systematic approach. This means that you will have a clear idea about how everything is connected and where each part fits into the overall picture!`,
@@ -5025,7 +5025,7 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsPhotos/symfonySkillsPhotos/users.webp",
-          alt: "Large community logo",
+          alt: "symfonySkillsPhotos/users.webp",
         },
         title: "Large community",
         description: `Symfony is one of the most talked-about frameworks today. It has thousands of contributors, a passionate group of over 600,000 developers from more than 120 countries, and its official website declares that 3000+ people contributed to Symfony's success.`,
@@ -5060,21 +5060,21 @@ export const symfonyData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Fast paced development logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast paced development",
       },
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
-          alt: "Flexibility logo",
+          alt: "larvelskillsphotos/agile-dev.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
-          alt: "Expandable framework logo",
+          alt: "angularjsSkillsPhotos/effective-framework.webp",
         },
         title: "Expandable framework",
       },
@@ -5107,7 +5107,7 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/grailsSkillsPhotos/strategy.webp",
-          alt: "Pragmatic Strategy logo",
+          alt: "grailsSkillsPhotos/strategy.webp",
         },
         title: "Pragmatic Strategy",
 
@@ -5116,7 +5116,7 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/grailsSkillsPhotos/printing.webp",
-          alt: "Build-in testing framework logo",
+          alt: "grailsSkillsPhotos/printing.webp",
         },
         title: "Build-in testing frameworkd",
         description: `The Grails community provides extensive assistance and support for both novice and advanced programmers. Almost, all questions and queries get answered by the active Grail community. This is how we develop software at Hoodline, so we know a thing or two about making Development Efficient!`,
@@ -5124,7 +5124,7 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/grailsSkillsPhotos/java.webp",
-          alt: "Seamless java integration logo",
+          alt: "grailsSkillsPhotos/java.webp",
         },
         title: "Seamless java integration",
         description: `Grails is a web application framework that supports scaffolding of CRUD (Create, Read, Update and Delete) functionality. Why is this so important? Well, it's because the more user-friendly your website or app is, the higher chances of gaining traffic and thus growing your business.`,
@@ -5132,7 +5132,7 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/grailsSkillsPhotos/dns.webp",
-          alt: "Dynamic doman class reloading logo",
+          alt: "grailsSkillsPhotos/dns.webp",
         },
         title: "Dynamic doman class reloading",
         description: `Grails is very much in demand these days as it offers 700+ plugins that have been collaboratively developed by the core development team and enthusiastic Grail users. These plugins improve the integration for software developers and provide them with all the tools they need to build complex apps quickly and easily. `,
@@ -5140,7 +5140,7 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/grailsSkillsPhotos/liberary.webp",
-          alt: "Plugin liberary logo",
+          alt: "grailsSkillsPhotos/liberary.webp",
         },
         title: "Plugin liberary",
         description: `Grails plugin that makes internationalization (i18n) simpler. It provides a way to automatically convert existing software into another language via locale files. This saves time and money by avoiding the costs of rewriting the software on an already-maintained platform.`,
@@ -5148,7 +5148,7 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/grailsSkillsPhotos/leaf.webp",
-          alt: "Spring boot foundation logo",
+          alt: "grailsSkillsPhotos/leaf.webp",
         },
         title: "Spring boot foundation",
         description: `With Grails, developers find it relatively easy to commence working on a new project. They are familiar with the Java language, and they know how to work with a modular approach. Grails web application framework brings a whole new level of excitement to web-oriented application development.`,
@@ -5183,21 +5183,21 @@ export const grailsData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
-          alt: "Faster Time to Market logo",
+          alt: "nextjsSKillsPhotos/fast-run.webp",
         },
         title: "Faster Time to Market",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
-          alt: "Reusability logo",
+          alt: "angularjsSkillsPhotos/reuseable-code.webp",
         },
         title: "Reusability",
       },
@@ -5230,7 +5230,7 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/jsfSkillsPhotos/help.webp",
-          alt: "Default exception handling logo",
+          alt: "jsfSkillsPhotos/help.webp",
         },
         title: "Default exception handling",
 
@@ -5239,7 +5239,7 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/jsfSkillsPhotos/html.webp",
-          alt: "Support HTML5 logo",
+          alt: "jsfSkillsPhotos/html.webp",
         },
         title: "Support HTML5",
         description: `With JSF2.2, you can now easily add these features with ease. By including attributes of HTML5 to your components, you will be able to take full advantage of all its awesome capabilities. For example, using video and audio tags, and CSS3 animations, etc.`,
@@ -5247,7 +5247,7 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/jsfSkillsPhotos/coding.webp",
-          alt: "Ease and rapid web development logo",
+          alt: "jsfSkillsPhotos/coding.webp",
         },
         title: "Ease and rapid web development",
         description: `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
@@ -5255,7 +5255,7 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/jsfSkillsPhotos/security.webp",
-          alt: "Security logo",
+          alt: "jsfSkillsPhotos/security.webp",
         },
         title: "Security",
         description: `Expression Languages have been making waves in the web development world over the past few years. Here's a brief explanation of what they are, why you should consider using them and how they can help improve your projects.`,
@@ -5263,7 +5263,7 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/jsfSkillsPhotos/ajax.webp",
-          alt: "Inbuilt AJAX support logo",
+          alt: "jsfSkillsPhotos/ajax.webp",
         },
         title: "Inbuilt AJAX support",
         description: `Ajax is an HTML5 technique where data is exchanged between the client and server using HTTP XML messages. With this rapid approach, it becomes possible for your website to load data faster without compromising on the response time.`,
@@ -5271,7 +5271,7 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/jsfSkillsPhotos/database.webp",
-          alt: "Templating logo",
+          alt: "jsfSkillsPhotos/database.webp",
         },
         title: "Templating",
         description: `While annotating a to-do list on your browser, you'll think that it's not possible to do it any other way. But with BottomFunnel, you can now validate tasks using annotations in your Managed Bean rather than through HTML page.`,
@@ -5306,21 +5306,21 @@ export const jsfData = {
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "Open-source logo",
+          alt: "angularjsSkillsPhotos/open-source.webp",
         },
         title: "Open-source",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "MVC design logo",
+          alt: "cakephpPhotos/mvc-pattern.webp",
         },
         title: "MVC design",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
-          alt: "Reusable UI components logo",
+          alt: "angularjsSkillsPhotos/reuseable-code.webp",
         },
         title: "Reusable UI components",
       },
@@ -5354,7 +5354,7 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/phalconSkillsPhotos/jcb.webp",
-          alt: "Improved SEO performance logo",
+          alt: "phalconSkillsPhotos/jcb.webp",
         },
         title: "Improved SEO performance",
 
@@ -5363,7 +5363,7 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/phalconSkillsPhotos/router.webp",
-          alt: "Security logo",
+          alt: "phalconSkillsPhotos/router.webp",
         },
         title: "Security",
         description: `Phalcon puts all its effort into making your site run as smoothly as possible so you can focus on the business at hand instead of worrying about technicalities. With its innovative architecture, advanced caching techniques, fault-tolerance strategies, and much more; it will surely provide your website with the performance you need!`,
@@ -5371,7 +5371,7 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/phalconSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "phalconSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description: `With Phalcon, you'll enjoy lightning-fast speed and blazing-fast memory efficiency - making your app responsive and agile. Plus, the unique architecture of this framework means that it always stays in memory - so you can get access to its full functionality whenever you need it.`,
@@ -5379,7 +5379,7 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/phalconSkillsPhotos/open-source.webp",
-          alt: "Autoloader logo",
+          alt: "phalconSkillsPhotos/open-source.webp",
         },
         title: "Autoloader",
         description: `Whether you're new to phalcon or an experienced user looking for ways to improve your application's performance, we have something for you. From getting started with routing and views through tips on implementing authentication and caching.`,
@@ -5387,7 +5387,7 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/phalconSkillsPhotos/user-file.webp",
-          alt: "Independent framework logo",
+          alt: "phalconSkillsPhotos/user-file.webp",
         },
         title: "Independent framework",
         description: `Phalcon is one of the most popular and widely used MVC frameworks in the world. This makes it perfect for large-scale enterprise applications that need stability and scalability. With support for both relational and non-relational databases, Phalcon excels in whatever field you're working on.`,
@@ -5395,7 +5395,7 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/phalconSkillsPhotos/php.webp",
-          alt: "Fastest framework for PHP logo",
+          alt: "phalconSkillsPhotos/php.webp",
         },
         title: "Fastest framework for PHP",
         description: `Phalcon is a lightweight but an advanced framework that is suitable for a wide range of applications. It offers support for MVC, SPA, RPC and numerous other types of architectures.
@@ -5430,21 +5430,21 @@ export const phalconData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
-          alt: "Great performance logo",
+          alt: "nextjsSKillsPhotos/fast-run.webp",
         },
         title: "Great performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/djangophotos/backward-compatible.webp",
-          alt: "Compatible with C language logo",
+          alt: "djangophotos/backward-compatible.webp",
         },
         title: "Compatible with C language",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
-          alt: "Web application development logo",
+          alt: "angularjsSkillsPhotos/trouble-free.webp",
         },
         title: "Web application development",
       },
@@ -5478,7 +5478,7 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/semanticphotos/Frame-5.webp",
-          alt: "Improved SEO performance logo",
+          alt: "semanticphotos/Frame-5.webp",
         },
         title: "Lightweight and Minimal",
 
@@ -5488,7 +5488,7 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/semanticphotos/Frame-4.webp",
-          alt: "Security logo",
+          alt: "semanticphotos/Frame-4.webp",
         },
         title: "Multiple Themes",
         description:
@@ -5497,7 +5497,7 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/semanticphotos/Frame-3.webp",
-          alt: "Fast performance logo",
+          alt: "semanticphotos/Frame-3.webp",
         },
         title: "Intutive Javascript",
         description:
@@ -5506,7 +5506,7 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/semanticphotos/Frame-1.webp",
-          alt: "Autoloader logo",
+          alt: "semanticphotos/Frame-1.webp",
         },
         title: "Varying Prototypes",
         description:
@@ -5515,7 +5515,7 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/semanticphotos/Frame-2.webp",
-          alt: "Independent framework logo",
+          alt: "semanticphotos/Frame-2.webp",
         },
         title: "Easy to Understand",
         description:
@@ -5524,7 +5524,7 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/semanticphotos/fastrun.webp",
-          alt: "Fastest framework for PHP logo",
+          alt: "semanticphotos/fastrun.webp",
         },
         title: "Fast Performance",
         description:
@@ -5542,7 +5542,7 @@ export const semanticData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive phalcon solutions.",
+      "Offers variety of exclusive semantic ui solutions.",
     ],
   },
   isBookCall: true,
@@ -5559,21 +5559,21 @@ export const semanticData = {
       {
         img: {
           src: "/Images/skillsPhotos/nodejsphotos/fast-run.webp",
-          alt: "Performance logo",
+          alt: "nodejsphotos/fast-run.webp",
         },
         title: "Performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/dotnetphotos/security.webp",
-          alt: "Security logo",
+          alt: "dotnetphotos/security.webp",
         },
         title: "Security",
       },
       {
         img: {
           src: "/Images/skillsPhotos/angularjsSkillsPhotos/captivating-support.webp",
-          alt: "Technical support logo",
+          alt: "angularjsSkillsPhotos/captivating-support.webp",
         },
         title: "Technical support",
       },
@@ -5606,7 +5606,7 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/leafs.webp",
-          alt: "Lightweight and minimal logo",
+          alt: "ghostPhotos/leafs.webp",
         },
         title: "Lightweight and minimal",
 
@@ -5616,7 +5616,7 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/aritficial.webp",
-          alt: "Integrations logo",
+          alt: "ghostPhotos/aritficial.webp",
         },
         title: "Integrations",
         description:
@@ -5625,7 +5625,7 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/setting.webp",
-          alt: "Easy to customize and themes logo",
+          alt: "ghostPhotos/setting.webp",
         },
         title: "Easy to customize and themes",
         description:
@@ -5634,7 +5634,7 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/stars.webp",
-          alt: "Membership management logo",
+          alt: "ghostPhotos/stars.webp",
         },
         title: "SEO friendly",
         description:
@@ -5643,7 +5643,7 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/document.webp",
-          alt: "Good documentation logo",
+          alt: "ghostPhotos/document.webp",
         },
         title: "Good documentation",
         description:
@@ -5652,7 +5652,7 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "ghostPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -5687,21 +5687,21 @@ export const GhostData = {
       {
         img: {
           src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
       },
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/stars.webp",
-          alt: "SEO friendly logo",
+          alt: "ghostPhotos/stars.webp",
         },
         title: "SEO friendly",
       },
       {
         img: {
           src: "/Images/skillsPhotos/ghostPhotos/setting.webp",
-          alt: "Easy to customise logo",
+          alt: "ghostPhotos/setting.webp",
         },
         title: "Easy to customise",
       },
@@ -5735,7 +5735,7 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/weeblyPhotos/setting.webp",
-          alt: "Flexible logo",
+          alt: "weeblyPhotos/setting.webp",
         },
         title: "Flexible",
 
@@ -5745,7 +5745,7 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/weeblyPhotos/document.webp",
-          alt: "Smart Content logo",
+          alt: "weeblyPhotos/document.webp",
         },
         title: "Smart Content",
         description:
@@ -5754,7 +5754,7 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/weeblyPhotos/custom.webp",
-          alt: "Easy Personalization logo",
+          alt: "weeblyPhotos/custom.webp",
         },
         title: "Easy Personalization",
         description:
@@ -5763,7 +5763,7 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/weeblyPhotos/seo.webp",
-          alt: "SEO is Easy logo",
+          alt: "weeblyPhotos/seo.webp",
         },
         title: "SEO is Easy",
         description:
@@ -5772,7 +5772,7 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/weeblyPhotos/secure.webp",
-          alt: "High Security & Protected logo",
+          alt: "weeblyPhotos/secure.webp",
         },
         title: "High Security & Protected",
         description:
@@ -5781,7 +5781,7 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/weeblyPhotos/checked.webp",
-          alt: "Easy to use logo",
+          alt: "weeblyPhotos/checked.webp",
         },
         title: "Easy to use",
         description:
@@ -5816,21 +5816,21 @@ export const WeeblyData = {
       {
         img: {
           src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "Easy to use logo",
+          alt: "larvelskillsphotos/easy-develop.webp",
         },
         title: "Easy to use",
       },
       {
         img: {
           src: "/Images/skillsPhotos/phpskillsphotos/support.webp",
-          alt: "User support logo",
+          alt: "phpskillsphotos/support.webp",
         },
         title: "User support",
       },
       {
         img: {
           src: "/Images/skillsPhotos/codeigniterPhotos/maintenance.webp",
-          alt: "Maintenance logo",
+          alt: "codeigniterPhotos/maintenance.webp",
         },
         title: "Maintenance",
       },
@@ -5863,7 +5863,7 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/backbonejsSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "backbonejsSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
 
@@ -5873,7 +5873,7 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/building.webp",
-          alt: "Enterprise apps development logo",
+          alt: "cubaSkillsPhotos/building.webp",
         },
         title: "Enterprise apps development",
         description:
@@ -5882,7 +5882,7 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/fast-run.webp",
-          alt: "Powerful pre-built components logo",
+          alt: "cubaSkillsPhotos/fast-run.webp",
         },
         title: "Powerful pre-built components",
         description:
@@ -5891,7 +5891,7 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/leaf.webp",
-          alt: "Built to fit the user's environment logo",
+          alt: "cubaSkillsPhotos/leaf.webp",
         },
         title: "Built to fit the user's environment",
         description:
@@ -5900,7 +5900,7 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/people.webp",
-          alt: "Community support logo",
+          alt: "cubaSkillsPhotos/people.webp",
         },
         title: "Community support",
         description:
@@ -5909,7 +5909,7 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/advance.webp",
-          alt: "Built-in management interface logo",
+          alt: "cubaSkillsPhotos/advance.webp",
         },
         title: "Built-in management interface",
         description:
@@ -5944,42 +5944,42 @@ export const cubaData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6012,7 +6012,7 @@ export const cherryData = {
       {
         img: {
           src: "/Images/skillsPhotos/cherrypySkillsPhotos/leaf.webp",
-          alt: "Lightweight and minimal logo",
+          alt: "cherrypySkillsPhotos/leaf.webp",
         },
         title: "Lightweight and minimal",
 
@@ -6022,7 +6022,7 @@ export const cherryData = {
       {
         img: {
           src: "/Images/skillsPhotos/cherrypySkillsPhotos/setting.webp",
-          alt: "Multiple themes logo",
+          alt: "cherrypySkillsPhotos/setting.webp",
         },
         title: "Multiple themes",
         description:
@@ -6031,7 +6031,7 @@ export const cherryData = {
       {
         img: {
           src: "/Images/skillsPhotos/cherrypySkillsPhotos/language.webp",
-          alt: "Best use of python utilities logo",
+          alt: "cherrypySkillsPhotos/language.webp",
         },
         title: "Best use of python utilities",
         description:
@@ -6040,7 +6040,7 @@ export const cherryData = {
       {
         img: {
           src: "/Images/skillsPhotos/cherrypySkillsPhotos/mobile.webp",
-          alt: "Free to use logo",
+          alt: "cherrypySkillsPhotos/mobile.webp",
         },
         title: "Free to use",
         description:
@@ -6049,7 +6049,7 @@ export const cherryData = {
       {
         img: {
           src: "/Images/skillsPhotos/cherrypySkillsPhotos/document.webp",
-          alt: "Easy to understand logo",
+          alt: "cherrypySkillsPhotos/document.webp",
         },
         title: "Easy to understand",
         description:
@@ -6058,7 +6058,7 @@ export const cherryData = {
       {
         img: {
           src: "/Images/skillsPhotos/cherrypySkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "cherrypySkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -6081,54 +6081,54 @@ export const cherryData = {
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our cuba developers to build your application?",
+    title: "Need our cherrypy developers to build your application?",
     btn: "Book a call now",
     image: "/Images/skillsPhotos/cherrypySkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
-    title: "benefits of using cuba",
+    title: "benefits of using cherrypy",
     description: "",
     cardsData: [
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6161,7 +6161,7 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/echoSkillsPhotos/rocket.webp",
-          alt: "Optimized router logo",
+          alt: "echoSkillsPhotos/rocket.webp",
         },
         title: "Optimized router",
 
@@ -6171,7 +6171,7 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/echoSkillsPhotos/cloud.webp",
-          alt: "Scalable logo",
+          alt: "echoSkillsPhotos/cloud.webp",
         },
         title: "Scalable",
         description:
@@ -6180,7 +6180,7 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/echoSkillsPhotos/verified.webp",
-          alt: "Automatic TLS logo",
+          alt: "echoSkillsPhotos/verified.webp",
         },
         title: "Automatic TLS",
         description:
@@ -6189,7 +6189,7 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/echoSkillsPhotos/clock.webp",
-          alt: "HTTP/2 logo",
+          alt: "echoSkillsPhotos/clock.webp",
         },
         title: "HTTP/2",
         description:
@@ -6198,7 +6198,7 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/echoSkillsPhotos/funnel.webp",
-          alt: "Middleware logo",
+          alt: "echoSkillsPhotos/funnel.webp",
         },
         title: "Middleware",
         description:
@@ -6207,7 +6207,7 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/echoSkillsPhotos/database.webp",
-          alt: "Data binding logo",
+          alt: "echoSkillsPhotos/database.webp",
         },
         title: "Data binding",
         description:
@@ -6242,42 +6242,42 @@ export const echoData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6310,7 +6310,7 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/gitSkillsPhotos/city.webp",
-          alt: "Branch workflow logo",
+          alt: "gitSkillsPhotos/city.webp",
         },
         title: "Branch workflow",
 
@@ -6320,7 +6320,7 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/gitSkillsPhotos/tranfer.webp",
-          alt: "Distributed development logo",
+          alt: "gitSkillsPhotos/tranfer.webp",
         },
         title: "Distributed development",
         description:
@@ -6329,7 +6329,7 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/gitSkillsPhotos/threads.webp",
-          alt: "Pull requests logo",
+          alt: "gitSkillsPhotos/threads.webp",
         },
         title: "Pull requests",
         description:
@@ -6338,7 +6338,7 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/gitSkillsPhotos/people.webp",
-          alt: "Community logo",
+          alt: "gitSkillsPhotos/people.webp",
         },
         title: "Community",
         description:
@@ -6347,7 +6347,7 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/gitSkillsPhotos/package.webp",
-          alt: "Faster Release cycle logo",
+          alt: "gitSkillsPhotos/package.webp",
         },
         title: "Faster Release cycle",
         description:
@@ -6356,7 +6356,7 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/gitSkillsPhotos/document.webp",
-          alt: "Easy to understand logo",
+          alt: "gitSkillsPhotos/document.webp",
         },
         title: "Easy to understand",
         description:
@@ -6391,42 +6391,42 @@ export const gitData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6459,7 +6459,7 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/zendSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "zendSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
 
@@ -6469,7 +6469,7 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/zendSkillsPhotos/document.webp",
-          alt: "Simplicity logo",
+          alt: "zendSkillsPhotos/document.webp",
         },
         title: "Simplicity",
         description:
@@ -6478,7 +6478,7 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/zendSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "zendSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -6487,7 +6487,7 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/zendSkillsPhotos/community.webp",
-          alt: "Open source logo",
+          alt: "zendSkillsPhotos/community.webp",
         },
         title: "Open source",
         description:
@@ -6496,7 +6496,7 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/zendSkillsPhotos/people.webp",
-          alt: "Community support logo",
+          alt: "zendSkillsPhotos/people.webp",
         },
         title: "Community support",
         description:
@@ -6505,7 +6505,7 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/zendSkillsPhotos/vector.webp",
-          alt: "Flexibility logo",
+          alt: "zendSkillsPhotos/vector.webp",
         },
         title: "Flexibility",
         description:
@@ -6540,42 +6540,42 @@ export const zendData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6608,7 +6608,7 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/yiiSkillsPhotos/leaf.webp",
-          alt: "Lightweight logo",
+          alt: "yiiSkillsPhotos/leaf.webp",
         },
         title: "Lightweight",
 
@@ -6618,7 +6618,7 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/yiiSkillsPhotos/meter.webp",
-          alt: "High-performance logo",
+          alt: "yiiSkillsPhotos/meter.webp",
         },
         title: "High-performance",
         description:
@@ -6627,7 +6627,7 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/yiiSkillsPhotos/community.webp",
-          alt: "Expert Contributors logo",
+          alt: "yiiSkillsphotos/community.webp",
         },
         title: "Expert Contributors",
         description:
@@ -6636,7 +6636,7 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/yiiSkillsPhotos/hand.webp",
-          alt: "Highly extensible logo",
+          alt: "yiiSkillsPhotos/hand.webp",
         },
         title: "Highly extensible",
         description:
@@ -6645,7 +6645,7 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/yiiSkillsPhotos/clock.webp",
-          alt: "Rapid development logo",
+          alt: "yiiSkillsPhotos/clock.webp",
         },
         title: "Rapid development",
         description:
@@ -6654,7 +6654,7 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/yiiSkillsPhotos/fast-run.webp",
-          alt: "Fast performance logo",
+          alt: "yiiSkillsPhotos/fast-run.webp",
         },
         title: "Fast performance",
         description:
@@ -6689,42 +6689,42 @@ export const yiiData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/anagle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6757,7 +6757,7 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/railsSkillsPhotos/currency.webp",
-          alt: "Cost-effective logo",
+          alt: "railsSkillsPhotos/currency.webp",
         },
         title: "Cost-effective",
 
@@ -6767,7 +6767,7 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/railsSkillsPhotos/cloud.webp",
-          alt: "Built on MVC logo",
+          alt: "railsSkillsPhotos/cloud/webp",
         },
         title: "Built on MVC",
         description:
@@ -6776,7 +6776,7 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/railsSkillsPhotos/fast-run.webp",
-          alt: "Focus on performance logo",
+          alt: "railsSkillsPhotos/fast-run.webp",
         },
         title: "Focus on performance",
         description:
@@ -6785,7 +6785,7 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/railsSkillsPhotos/analysis.webp",
-          alt: "Easy to manage changes logo",
+          alt: "railsSkillsPhotos/analysis.webp",
         },
         title: "Easy to manage changes",
         description:
@@ -6794,7 +6794,7 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/railsSkillsPhotos/secure.webp",
-          alt: "Secure logo",
+          alt: "railsSkillsPhotos/secure.webp",
         },
         title: "Secure",
         description:
@@ -6803,7 +6803,7 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/railsSkillsPhotos/community.webp",
-          alt: "Large community logo",
+          alt: "railsSkillsPhotos/community.webp",
         },
         title: "Large community",
         description:
@@ -6838,42 +6838,42 @@ export const railsData = {
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "Quick learning curve logo",
+          alt: "cubaSkillsPhotos/angle.webp",
         },
         title: "Quick learning curve",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "Flexibility logo",
+          alt: "cubaSkillsPhotos/community.webp",
         },
         title: "Flexibility",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "Quick swap approach logo",
+          alt: "cubaSkillsPhotos/recycle.webp",
         },
         title: "Quick swap approach",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "cubaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "Versatile logo",
+          alt: "cubaSkillsPhotos/center.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "cubaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -6906,7 +6906,7 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/router.webp",
-          alt: "Development of routers logo",
+          alt: "gorillaSkillsPhotos/router.webp",
         },
         title: "Development of routers",
 
@@ -6916,7 +6916,7 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/www.webp",
-          alt: "Authenticated URLs logo",
+          alt: "gorillaSkillsPhotos/www.webp",
         },
         title: "Authenticated URLs",
         description:
@@ -6925,7 +6925,7 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/internet.webp",
-          alt: "Assistance with the middleware logo",
+          alt: "gorillaSkillsPhotos/internet.webp",
         },
         title: "Assistance with the middleware",
         description:
@@ -6934,7 +6934,7 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/document.webp",
-          alt: "Requests logo",
+          alt: "gorillaSkillsPhotos/document.webp",
         },
         title: "Requests",
         description:
@@ -6943,7 +6943,7 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/right.webp",
-          alt: "Simple and productive logo",
+          alt: "gorillaSkillsPhotos/right.webp",
         },
         title: "Simple and productive",
         description:
@@ -6952,7 +6952,7 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/checked.webp",
-          alt: "Easy to use logo",
+          alt: "gorillaSkillsPhotos/checked.webp",
         },
         title: "Easy to use",
         description:
@@ -6970,7 +6970,7 @@ export const gorillaData = {
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive rails solutions.",
+      "Offers variety of exclusive gorilla solutions.",
     ],
   },
   isBookCall: true,
@@ -6987,42 +6987,42 @@ export const gorillaData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "gorillaSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
-          alt: "Versatile logo",
+          alt: "gorillaSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "gorillaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
-          alt: "Fast processing logo",
+          alt: "gorillaSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
-          alt: "Customizable logo",
+          alt: "gorillaSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
-          alt: "Multi work adoptivity logo",
+          alt: "gorillaSkillsPhotos/recycle.webp",
         },
         title: "Multi work adoptivity",
       },
@@ -7055,7 +7055,7 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/hanamiSkillsPhotos/thinking.webp",
-          alt: "Multi tasking logo",
+          alt: "hanamiSkillsPhotos/thinking.webp",
         },
         title: "Multi tasking",
 
@@ -7065,7 +7065,7 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/hanamiSkillsPhotos/speed.webp",
-          alt: "Fast response times logo",
+          alt: "hanamiSkillsPhotos/speed.webp",
         },
         title: "Fast response times",
         description:
@@ -7074,7 +7074,7 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/hanamiSkillsPhotos/secure.webp",
-          alt: "Secure by default logo",
+          alt: "hanamiSkillsPhotos/secure.webp",
         },
         title: "Secure by default",
         description:
@@ -7083,7 +7083,7 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/hanamiSkillsPhotos/computer-leaf.webp",
-          alt: "Full-featured, but lightweight logo",
+          alt: "hanamiSkillsPhotos/computer-leaf.webp",
         },
         title: "Full-featured, but lightweight",
         description:
@@ -7092,7 +7092,7 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/hanamiSkillsPhotos/right.webp",
-          alt: "Simple and productive logo",
+          alt: "hanamiSkillsPhotos/right.webp",
         },
         title: "Simple and productive",
         description:
@@ -7101,7 +7101,7 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/hanamiSkillsPhotos/checked.webp",
-          alt: "Easy to use logo",
+          alt: "hanamiSkillsPhotos/checked.webp",
         },
         title: "Easy to use",
         description:
@@ -7136,42 +7136,42 @@ export const hanamiData = {
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "gorillaSkillsPhotos/currency/webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/versatile.webp",
-          alt: "Versatile logo",
+          alt: "gorillaSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "GorillaSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/meter.webp",
-          alt: "Fast processing logo",
+          alt: "gorillaSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/setting.webp",
-          alt: "Customizable logo",
+          alt: "gorillaSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/gorillaSkillsPhotos/recycle.webp",
-          alt: "Multi work adoptivity logo",
+          alt: "gorillaSkillsPhotos/recycle.webp",
         },
         title: "Multi work adoptivity",
       },
@@ -7204,7 +7204,7 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/right.webp",
-          alt: "Simplicity logo",
+          alt: "irisSkillsPhotos/right.webp",
         },
         title: "Simplicity",
 
@@ -7214,7 +7214,7 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/cloud.webp",
-          alt: "Open source logo",
+          alt: "irisSkillsPhotos/cloud.webp",
         },
         title: "Open source",
         description:
@@ -7223,7 +7223,7 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/fast-run.webp",
-          alt: "Focus on performance logo",
+          alt: "irisSkillsPhotos/fast-run.webp",
         },
         title: "Focus on performance",
         description:
@@ -7232,7 +7232,7 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/analysis.webp",
-          alt: "Targeting Vision logo",
+          alt: "irisSkillsPhotos/analysis.webp",
         },
         title: "Targeting Vision",
         description:
@@ -7241,7 +7241,7 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/grid.webp",
-          alt: "Multiple templates logo",
+          alt: "irisSkillsPhotos/grid.webp",
         },
         title: "Multiple templates",
         description:
@@ -7250,7 +7250,7 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/center.webp",
-          alt: "Smart compressions logo",
+          alt: "irisSkillsPhotos/center.webp",
         },
         title: "Smart Compressions",
         description:
@@ -7285,42 +7285,42 @@ export const irisData = {
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/meter.webp",
-          alt: "Fast processing logo",
+          alt: "irisSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/setting.webp",
-          alt: "Customizable logo",
+          alt: "irisSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/recycle.webp",
-          alt: "Multi work adaptivity logo",
+          alt: "irisSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",
       },
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "irisSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/versatile.webp",
-          alt: "Versatile logo",
+          alt: "irisSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/irisSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "irisSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
@@ -7353,7 +7353,7 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          alt: "padrinoSkillsPhotos/computer-leaf.webp",
         },
         title: "Lightweight",
 
@@ -7363,7 +7363,7 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/cloud.webp",
-          alt: "Open source logo",
+          alt: "padrinoSkillsPhotos/cloud.webp",
         },
         title: "Open source",
         description:
@@ -7372,7 +7372,7 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/analysis.webp",
-          alt: "Drop in Admin logo",
+          alt: "padrinoSkillsPhotos/analysis.webp",
         },
         title: "Drop in Admin",
         description:
@@ -7381,7 +7381,7 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/checked.webp",
-          alt: "Comprehensive logo",
+          alt: "padrinoSkillsPhotos/checked.webp",
         },
         title: "Comprehensive",
         description:
@@ -7390,7 +7390,7 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/loop.webp",
-          alt: "Agnostic logo",
+          alt: "padrinoSkillsPhotos/loop.webp",
         },
         title: "Agnostic",
         description:
@@ -7399,7 +7399,7 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/hat.webp",
-          alt: "Sinatra Core logo",
+          alt: "padrinoSkillsPhotos/hat.webp",
         },
         title: "Sinatra Core",
         description:
@@ -7434,42 +7434,42 @@ export const padrinoData = {
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
+          alt: "padrinoSkillsPhotos/currency.webp",
         },
         title: "Affordable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/versatile.webp",
-          alt: "Versatile logo",
+          alt: "padrinoSkillsPhotos/versatile.webp",
         },
         title: "Versatile",
       },
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
+          alt: "padrinoSkillsPhotos/automated.webp",
         },
         title: "Secure & up-to-date",
       },
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/meter.webp",
-          alt: "Fast processing logo",
+          alt: "padrinoSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/setting.webp",
-          alt: "Customizable logo",
+          alt: "padrinoSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
           src: "/Images/skillsPhotos/padrinoSkillsPhotos/recycle.webp",
-          alt: "Multi work adaptivity logo",
+          alt: "padrinoSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",
       },
@@ -7491,7 +7491,7 @@ export const revelData = {
   isDes: true,
   desData: {
     title: "Revel",
-    image: "/Images/skillsPhotos/revelSkillsPhotos/padrino-logo.webp",
+    image: "/Images/skillsPhotos/revelSkillsPhotos/revel-logo.webp",
     description:
       "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
   },
@@ -7501,56 +7501,56 @@ export const revelData = {
     cardsData: [
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/computer-leaf.webp",
-          alt: "Lightweight logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/golang.webp",
+          alt: "revelSkillsPhotos/golang.webp",
         },
-        title: "Lightweight",
+        title: "Go compatible",
 
         description:
           "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/cloud.webp",
-          alt: "Open source logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/analysis.webp",
+          alt: "revelSkillsPhotos/analysis.webp",
         },
-        title: "Open source",
+        title: "High-productivity",
         description:
           "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/analysis.webp",
-          alt: "Drop in Admin logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/layer.webp",
+          alt: "revelSkillsPhotos/layer.webp",
         },
-        title: "Drop in Admin",
+        title: "Full-stack",
         description:
           "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/checked.webp",
-          alt: "Comprehensive logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/speed.webp",
+          alt: "revelSkillsPhotos/speed.webp",
         },
-        title: "Comprehensive",
+        title: "High performance",
         description:
           "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/loop.webp",
-          alt: "Agnostic logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/cloud.webp",
+          alt: "revelSkillsPhotos/cloud.webp",
         },
-        title: "Agnostic",
+        title: "Open source",
         description:
           "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/hat.webp",
-          alt: "Sinatra Core logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/right.webp",
+          alt: "revelSkillsPhotos/right.webp",
         },
-        title: "Sinatra Core",
+        title: "Simple",
         description:
           "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
       },
@@ -7558,67 +7558,365 @@ export const revelData = {
   },
   isWhyBF: true,
   WhyBFData: {
-    title: "Why Bottom Funnel for padrino",
-    image: "/Images/skillsPhotos/padrinoSkillsPhotos/big-left-image.webp",
+    title: "Why Bottom Funnel for revel",
+    image: "/Images/skillsPhotos/revelSkillsPhotos/big-left-image.webp",
     bulletPointData: [
       "We use an agile approach.",
       "Provides integrity and transparency.",
       "Commitments with NDA agreements.",
       "Flexible engagement models.",
       "Experienced and talented team of developers.",
-      "Offers variety of exclusive padrino solutions.",
+      "Offers variety of exclusive revel solutions.",
     ],
   },
   isBookCall: true,
   BookCallData: {
-    title: "Need our padrino developers to build your application?",
+    title: "Need our revel developers to build your application?",
     btn: "Book a call now",
     image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
   },
   isRemarkable: true,
   RemarkableData: {
-    title: "benefits of using padrino",
+    title: "benefits of using revel",
     description: "",
     cardsData: [
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/currency.webp",
-          alt: "Affordable logo",
-        },
-        title: "Affordable",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/versatile.webp",
-          alt: "Versatile logo",
-        },
-        title: "Versatile",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/automated.webp",
-          alt: "Secure & up-to-date logo",
-        },
-        title: "Secure & up-to-date",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/meter.webp",
-          alt: "Fast processing logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/meter.webp",
+          alt: "revelSkillsPhotos/meter.webp",
         },
         title: "Fast processing",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/setting.webp",
-          alt: "Customizable logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/setting.webp",
+          alt: "revelSkillsPhotos/setting.webp",
         },
         title: "Customizable",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/padrinoSkillsPhotos/recycle.webp",
-          alt: "Multi work adaptivity logo",
+          src: "/Images/skillsPhotos/revelSkillsPhotos/recycle.webp",
+          alt: "revelSkillsPhotos/recycle.webp",
+        },
+        title: "Multi work adaptivity",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/revelSkillsPhotos/currency.webp",
+          alt: "revelSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/revelSkillsPhotos/versatile.webp",
+          alt: "revelSkillsPhotos/versatile.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/revelSkillsPhotos/automated.webp",
+          alt: "revelSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const rodaData = {
+  title: "roda framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/rodaSkillsPhotos/banner.webp",
+    title: "Roda Framework Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Roda",
+    image: "/Images/skillsPhotos/rodaSkillsPhotos/roda-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR RODA WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/right.webp",
+          alt: "rodaSkillsPhotos/right.webp",
+        },
+        title: "Simplicity",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/cloud.webp",
+          alt: "rodaSkillsPhotos/cloud.webp",
+        },
+        title: "Scalable",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/storage.webp",
+          alt: "rodaSkillsPhotos/storage.webp",
+        },
+        title: "Format migration",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/grid.webp",
+          alt: "rodaSkillsPhotos/grid.webp",
+        },
+        title: "Multiple formats",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/chain.webp",
+          alt: "rodaSkillsPhotos/chain.webp",
+        },
+        title: "Vendor independent",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/setting.webp",
+          alt: "rodaSkillsPhotos/setting.webp",
+        },
+        title: "Advanced access control",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for roda",
+    image: "/Images/skillsPhotos/rodaSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive roda solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our roda developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using roda",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/angle.webp",
+          alt: "rodaSkillsPhotos/angle.webp",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/community.webp",
+          alt: "rodaSkillsPhotos/community.webp",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/recycle.webp",
+          alt: "rodaSkillsPhotos/recycle.webp",
+        },
+        title: "Quick swqp approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/currency.webp",
+          alt: "rodaSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/versatile.webp",
+          alt: "rodaSkillsPhotos/versatile.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/rodaSkillsPhotos/automated.webp",
+          alt: "rodaSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const sinatraData = {
+  title: "sinatra framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    image: "/Images/skillsPhotos/sinatraSkillsPhotos/banner.webp",
+    title: "Sinatra Framework Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Sinatra",
+    image: "/Images/skillsPhotos/sinatraSkillsPhotos/sinatra-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR SINATRA WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/pip.webp",
+          alt: "sinatraSkillsPhotos/pip.webp",
+        },
+        title: "Small and focused",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/document.webp",
+          alt: "sinatraSkillsPhotos/document.webp",
+        },
+        title: "Easy to learn",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/checked.webp",
+          alt: "sinatraSkillsPhotos/checked.webp",
+        },
+        title: "Easy to use",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/speed.webp",
+          alt: "sinatraSkillsPhotos/speed.webp",
+        },
+        title: "High performance",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/cloud.webp",
+          alt: "sinatraSkillsPhotos/cloud.webp",
+        },
+        title: "Open source",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/diamond.webp",
+          alt: "sinatraSkillsPhotos/diamond.webp",
+        },
+        title: "Works with many ruby libraries",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for sinatra",
+    image: "/Images/skillsPhotos/sinatraSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive sinatra solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our sinatra developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using sinatra",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/currency.webp",
+          alt: "sinatraSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/versatile.webp",
+          alt: "sinatraSkillsPhotos/versatile.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/automated.webp",
+          alt: "sinatraSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/meter.webp",
+          alt: "sinatraSkillsPhotos/meter.webp",
+        },
+        title: "Fast processing",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/setting.webp",
+          alt: "sinatraSkillsPhotos/setting.webp",
+        },
+        title: "Customizable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sinatraSkillsPhotos/recycle.webp",
+          alt: "sinatraSkillsPhotos/recycle.webp",
         },
         title: "Multi work adaptivity",
       },
