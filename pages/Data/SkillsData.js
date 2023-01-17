@@ -7501,38 +7501,38 @@ export const revelData = {
     cardsData: [
       {
         img: {
-          src: "/Images/skillsPhotos/revelSkillsPhotos/golang.webp",
-          alt: "Go compatible logo",
+          src: "/Images/skillsPhotos/padrinoSkillsPhotos/computer-leaf.webp",
+          alt: "Lightweight logo",
         },
-        title: "Go compatible",
+        title: "Lightweight",
 
         description:
           "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/revelSkillsPhotos/analysis.webp",
-          alt: "High-productivity logo",
+          src: "/Images/skillsPhotos/padrinoSkillsPhotos/cloud.webp",
+          alt: "Open source logo",
         },
-        title: "High-productivity",
+        title: "Open source",
         description:
           "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/revelSkillsPhotos/layers.webp",
-          alt: "Full-stack logo",
+          src: "/Images/skillsPhotos/padrinoSkillsPhotos/analysis.webp",
+          alt: "Drop in Admin logo",
         },
-        title: "Full-stack",
+        title: "Drop in Admin",
         description:
           "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
       },
       {
         img: {
-          src: "/Images/skillsPhotos/revelSkillsPhotos/speed.webp",
-          alt: "High performance logo",
+          src: "/Images/skillsPhotos/padrinoSkillsPhotos/checked.webp",
+          alt: "Comprehensive logo",
         },
-        title: "High performance",
+        title: "Comprehensive",
         description:
           "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
       },
