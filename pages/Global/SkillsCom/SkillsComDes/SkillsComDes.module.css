@@ -18,11 +18,20 @@
 
 .skillsdesimage {
   height: 100%;
+  max-width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   object-fit: contain;
+}
+.skillsdesimage > img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .skillsdescontent {
   padding: 0;
+  width: fit-content;
 }
 
 .skillsdescontenth1 {

@@ -10,7 +10,7 @@ export const SkillsComWhyBF = ({ data }) => {
       <h1>{title}</h1>
       <div className={styles.skillswhycontent}>
         <div className={styles.skillsbulletspointsimage}>
-          <img src={image} alt="nodejs big logo" />
+          <img src={image} alt="big-left-image.webp" />
         </div>
         <div className={styles.skillsbulletspointsmain}>
           <div className={styles.skillsbulletspoints}>
