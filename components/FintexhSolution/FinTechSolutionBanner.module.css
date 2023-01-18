@@ -1,0 +1,36 @@
+.fintechsolutionbannermainbox {
+  height: 100vh;
+  background: url("/Images/fintechsolutionpage/Frame93.png");
+  background-size: cover;
+  margin-top: 100px;
+  position: relative;
+}
+
+.fintechsolutionbannertextboxes {
+  height: 300px;
+
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  text-align: justify;
+}
+
+.fintechsolutionbannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5%;
+}
+
+.fintechsolutionbannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}

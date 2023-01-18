@@ -1,0 +1,33 @@
+.tradingInvestingFooterContainer {
+  background: url(/Images/Trading-investing-App/banners-backgrounds/Component114.png);
+  position: relative;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: 100% 100%;
+}
+
+.tradingInvestingFooterTextBtnDiv {
+  position: absolute;
+  top: 35%;
+  width: 60%;
+  color: white;
+  margin-left: 3%;
+}
+
+.tradingInvestingFooterTextBtnDiv > button {
+  background: white;
+  color: rgb(34, 34, 125);
+  padding: 10px 50px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid white;
+  margin-top: 20px;
+}
+
+.tradingInvestingFooterTextBtnDiv > button:hover {
+  color: black;
+  background-color: white;
+}

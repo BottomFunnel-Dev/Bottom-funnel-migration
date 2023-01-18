@@ -1,0 +1,72 @@
+.onlinepmobilebrowsermainboxes {
+  height: fit-content;
+  padding-top: 3%;
+  display: flex;
+  background-color: white;
+}
+
+.onlinepmobilebrowserleftbox {
+  height: 420px;
+  width: 50%;
+  background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.onlinepmobilebrowserrightbox {
+  width: 45%;
+  height: fit-content;
+}
+.onlinepmobilebrowserrightboxheadertext {
+  height: fit-content;
+}
+
+.onlinepmobilebrowserrightboxmappingtxt {
+  height: 300px;
+
+  margin-top: 10%;
+}
+
+.onlinepmobilebrowseraftermappingdata {
+  display: flex;
+  height: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  margin: 2%;
+  height: fit-content;
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+
+.onlinepmobilebrowseraftermappingdata:hover {
+  transform: scale(1.02);
+  background-color: #cdfcf6;
+}
+
+.onlinepmobilebrowseraftermappingxtt {
+  margin-left: 2%;
+  margin-top: 1%;
+  font-size: 18px;
+}
+
+.onlinepmobilebrowseraftermappingxtt > h4 {
+    margin-top: 4%;
+}
+
+.onlinepmobilebrowseraftermappingdata > svg {
+  margin-top: 4%;
+  color: #cdfcf6;
+  padding-left: 5px;
+}
+
+.onlinemobilepbrowserleftboxoutermobilebox {
+  height: 100%;
+  width: 30%;
+  margin: 0% 0% 2% 20%;
+}
+
+.onlinemobilepbrowserleftboxoutermobilebox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,69 @@
+.productsnavbar {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+
+  transition: top 100ms ease-in-out;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.deskLogo {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.deskLogo > img {
+  width: 14%;
+}
+.deskLogo > h5 {
+  width: 75%;
+  margin: 0;
+}
+
+.deskList {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.deskList > button {
+  padding: 5px 35px;
+  border-radius: 20px;
+  border: none;
+  /* font-size: 18px; */
+  font-weight: 600;
+  background-color: #ef4c23;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.deskList > button:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.deskList li {
+  list-style: none;
+  font-weight: 500;
+  padding: 13px 5px;
+}
+
+.navbarSection.active .deskList > li {
+  color: black;
+}
+
+.deskList > li:hover {
+  color: #ef4c23 !important;
+  text-decoration: underline;
+  text-decoration-color: #ef4c23;
+  text-underline-offset: 10px;
+  cursor: pointer;
+}
+
+.deskdownIcon {
+  width: 15px;
+  margin-left: 2px;
+}

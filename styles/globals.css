@@ -35,11 +35,16 @@ h4 {
 
 h5 {
   font-size: 18px;
+  margin: 0;
 }
 h6 {
   font-size: 16px;
 }
 
+a{
+  text-decoration: none;
+  
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #393939;

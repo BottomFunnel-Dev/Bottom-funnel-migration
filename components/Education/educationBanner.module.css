@@ -1,0 +1,48 @@
+.educationbannermainboxes {
+  height: 90vh;
+  width: 90%;
+  /* border: 1px solid #d7dcdd; */
+  background-image: url("/Images/Education/bannerbackground/Group\ 770626.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 60% 80%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.educationbannertextboxes {
+  height: fit-content;
+  width: 35%;
+  margin-top: 18%;
+}
+
+.educationbannertextboxes > h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.educationbannertextboxes > p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.educationbuttonbanner {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5%;
+}
+
+.educationbuttonbanner:hover {
+  background-color: white;
+  color: #ef4c23;
+}

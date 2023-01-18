@@ -1,0 +1,156 @@
+.skillswhymain {
+  margin: 50px auto;
+}
+
+.skillswhymain > h1 {
+  color: #ef4c23;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.skillswhycontent {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skillsbulletspointsimage {
+  width: 30%;
+  padding: 0 20px 0 20px;
+}
+
+.skillsbulletspointsimage > img {
+  width: 100%;
+}
+
+.skillsbulletspointsmain {
+  width: 55%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.skillsbulletspoints {
+  width: 80%;
+  margin: auto;
+}
+
+.skillsbulletspoints > p {
+  font-size: 20px;
+
+  cursor: pointer;
+
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.skillsbulletspoints > p:hover {
+  color: #ef4c23;
+  margin-left: 10%;
+  transform: scale(120%);
+  transition: all 0.5s linear;
+}
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 480px) {
+  .skillswhymain {
+    width: 98%;
+  }
+
+  .skillswhymain > h1 {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .skillswhycontent {
+    width: 100%;
+  }
+
+  .skillsbulletspointsmain {
+    width: 69%;
+  }
+
+  .skillsbulletspoints {
+    width: 90%;
+  }
+
+  .skillsbulletspoints > p {
+    font-size: 10px;
+    gap: 5px;
+    margin-bottom: 2%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .skillswhymain {
+    width: 95%;
+  }
+
+  .skillswhymain > h1 {
+    font-size: 25px;
+    width: 95%;
+    margin-bottom: 2%;
+  }
+
+  .skillswhycontent {
+    width: 100%;
+  }
+
+  .skillsbulletspointsmain {
+    width: 69%;
+  }
+
+  .skillsbulletspoints {
+    width: 85%;
+  }
+
+  .skillsbulletspoints > p {
+    font-size: 14px;
+    gap: 5px;
+    margin-bottom: 2%;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skillswhymain {
+    width: 95%;
+  }
+
+  .skillswhymain > h1 {
+    font-size: 25px;
+    width: 95%;
+    margin-bottom: 2%;
+  }
+
+  .skillswhycontent {
+    width: 100%;
+  }
+
+  .skillsbulletspointsmain {
+    width: 50%;
+  }
+
+  .skillsbulletspoints {
+    width: 80%;
+  }
+
+  .skillsbulletspoints > p {
+    font-size: 16px;
+    gap: 5px;
+    margin-bottom: 2%;
+  }
+}

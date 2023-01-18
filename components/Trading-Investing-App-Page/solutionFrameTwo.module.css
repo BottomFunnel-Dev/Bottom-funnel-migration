@@ -1,0 +1,77 @@
+.solutionFrameTwoMainContainer {
+  position: relative;
+  height: fit-content;
+  background-image: url(/Images/Trading-investing-App/banners-backgrounds/Rectangle.png);
+  /* border: 1px solid blue; */
+  padding: 50px 0 50px 0;
+}
+
+.solutionFrameTwoSubContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.solutionFrameTwoSubContainer {
+  width: 36%;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  height: fit-content;
+  top: 5%;
+  right: 0;
+}
+
+.solutionFrameTwoRightContentHolder {
+  width: 40%;
+  position: relative;
+  /* border: 1px solid green;  */
+}
+
+.solutionFrameTwoRightImageHolderDiv > img {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.solutionFrameTwoLeftContentHolder {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-around;
+  width: 35%;
+  /* padding: 2%; */
+  align-items: center;
+  /* border: 2px solid green; */
+  margin-bottom: 50px;
+}
+
+.solutionFrameTwoLeftDivBoxes {
+  height: 170px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  /* padding: 30px; */
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.solutionFrameTwoLeftDivBoxes:hover {
+  transform: scale(1.02);
+  background-color: #ffebef;
+}
+
+.solutionFrameTwoIcons {
+  width: 38%;
+  margin-bottom: 5%;
+}
+
+.solutionFrameBoxText {
+  font-size: 18px;
+}

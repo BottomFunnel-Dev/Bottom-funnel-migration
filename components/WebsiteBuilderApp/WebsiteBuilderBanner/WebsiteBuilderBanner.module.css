@@ -1,0 +1,86 @@
+/* .websiteBuilderBannerParentDiv{
+    border: 1px solid red;
+    margin-top: 10%;
+} */
+
+.websiteBuilderBannerImageDiv {
+  /* border: 1px solid black; */
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+  /* height: 400px; */
+}
+
+.websiteBuilderBannerImageDiv img {
+  /* height: 100vh; */
+  width: 100%;
+  height: 100vh;
+  /* object-fit: cover; */
+}
+
+.websiteBuilderBannerTopComp {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.websiteBuilderBannerTopImageComp {
+  /* border: 2px solid gold; */
+  position: absolute;
+  top: 15%;
+  right: 4%;
+}
+.websiteBuilderBannerTopImageComp img {
+  /* height: 100vh; */
+
+  height: 600px;
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+.websiteBuilderBannerContentDiv {
+  /* border: 2px solid red; */
+  position: absolute;
+  z-index: 2;
+  top: 35%;
+  left: 5%;
+  width: 45%;
+}
+
+.websiteBuilderBannerContentDiv h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.websiteBuilderBannerContentDiv p {
+  color: white;
+  margin-top: 3%;
+  /* font-size: 21px; */
+}
+
+.websiteBuilderBannerContentDiv button {
+  /* border-radius: 7px;
+  border: 1px solid white;
+  width: 22%;
+  height: 40px;
+  margin-top: 3%;
+  font-weight: 600; */
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.websiteBuilderBannerContentDiv button:hover {
+  /* background-color: #ef4c23;
+  color: white;
+  border: 1px solid #ef4c23; */
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}

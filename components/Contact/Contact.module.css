@@ -1,0 +1,83 @@
+.ContactAboveNavbarMain {
+  height: 30px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  align-items: center;
+  transition: opacity .4s linear .3s;
+}
+
+.ContactAboveNavbarMain > div {
+  width: 80%;
+  margin: auto;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContactAboveNavbarMain > div > div {
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ContactAboveNavbarMain > div > div > span {
+  width: fit-content;
+  height: fit-content;
+
+  cursor: pointer;
+
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-self: center;
+}
+
+.ContactAboveNavbarMain > div > div > span > img {
+  height: 14px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.ContactAboveNavbarMain > div > div > span > a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+
+  font-size: 14px;
+}
+
+.ContactAboveNavbarMain > div > span {
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContactAboveNavbarMain > div > span > svg {
+  cursor: pointer;
+}
+
+.ContactAboveNavbarMain > div > span > a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}

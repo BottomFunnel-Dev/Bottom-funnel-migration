@@ -1,0 +1,62 @@
+.rGWaysToGrowContainer {
+  margin-bottom: 5%;
+}
+
+.rGWaysToGrowBoxHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 90%;
+}
+
+.rGWaysToGrowBoxHolder > div {
+  width: 24%;
+  height: 310px;
+  /* border: 2px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.rGWaysToGrowBoxHolder > div:hover {
+  margin-top: 0;
+  transform: scale(1.02);
+}
+
+.rGWaysToGrowH1 {
+  font-weight: 200;
+  width: fit-content;
+  /* padding-left: 35px; */
+  /* border: 1px solid red; */
+}
+
+.RGaysToGrowH1 {
+  /* border: 1px solid red; */
+  font-weight: 600;
+  font-size: 31px;
+  padding-left: 30px;
+}
+
+#rGWaysToGrowFafaIcon {
+  margin-left: 8%;
+  margin-top: 0%;
+  /* border: 1px solid red; */
+}
+
+.rGWaysToGrowUlTag {
+  width: 70%;
+  height: 45%;
+}
+
+.rGWaysToGrowTitlePTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.rGWaysToGrowTitleH1Tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}

@@ -1,0 +1,97 @@
+.solutionFrameMainContainer {
+  position: relative;
+  height: fit-content;
+  background-image: url("/Images/Trading-investing-App/banners-backgrounds/Rectangle.png");
+  /* border: 2px solid green; */
+  padding-bottom: 3%;
+}
+
+.solutionFrameSubContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+}
+.solutionFrameMainHeading {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.solutionFrameContentBoxHeading {
+  width: 36%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  top: 15%;
+
+  /* border: 2px solid blue; */
+}
+.solutionFrameRightContentHolder {
+  height: 500px;
+  width: 45%;
+  background: url("/Images/Trading-investing-App/banners-backgrounds/Rectangle-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: right;
+  /* border: 1px solid green; */
+}
+
+.solutionFrameRightImageHolderDiv {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 4%;
+  right: 9%;
+}
+
+.solutionFrameRightImageHolderDiv > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.solutionFrameLeftContentHolder {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-around;
+  /* border: 1px solid blue; */
+  width: 35%;
+  /* padding: 2%; */
+  align-items: center;
+  margin-top: 5%;
+
+  /*               */
+}
+
+.solutionFrameLeftDivBoxes {
+  height: 170px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.solutionFrameLeftDivBoxes:hover {
+  transform: scale(1.02);
+  background-color: #ffebef;
+}
+
+.solutionFrameIcons {
+  width: 40%;
+}
+
+.solutionFrameBoxText {
+  font-size: 18px;
+}

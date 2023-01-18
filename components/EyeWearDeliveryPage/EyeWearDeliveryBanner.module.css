@@ -1,0 +1,43 @@
+.eyeweardeliverybannermainboxes {
+  height: 100vh;
+  margin-top: 20px;
+  background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Group.png");
+  background-size: contain;
+  position: relative;
+}
+
+.eyewearbannersometextboxes {
+  height: 50%;
+  width: 40%;
+  left: 2%;
+  position: absolute;
+  top: 45%;
+}
+
+.colored {
+  color: #ef4c23;
+}
+
+.eyewearbannersometextboxes > p {
+  text-align: justify;
+}
+
+.Eyeweardeliverybannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: auto;
+  height: auto;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 1%;
+}
+
+.Eyeweardeliverybannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}

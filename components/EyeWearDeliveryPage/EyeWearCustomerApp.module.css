@@ -1,0 +1,77 @@
+.eyewearcustomerappmainboxes {
+  height: 100vh;
+}
+
+.eyewearcustomerappuppertextbox {
+  text-align: center;
+  margin-top: 2%;
+  height: fit-content;
+}
+
+.eyewearappcustomerappboxflextype {
+  height: 80%;
+  display: flex;
+}
+
+.eyewearappcustomerappboxflextypeleftbox {
+  width: 60%;
+  height: 100%;
+}
+
+.eyewearappcustomerappboxflextypeleftboxinsidertext {
+  height: fit-content;
+  width: 70%;
+  margin: 3% 0% 0% 3%;
+}
+
+.eyewearcustomermappingdatabox {
+  /* height: 400px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.eyewearcustomeraftermap1box {
+  /* border: 2px solid red; */
+  height: fit-content;
+  width: 42%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 3%;
+  margin-top: 5%;
+  display: flex;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+.eyewearcustomeraftermap1box:hover {
+  transform: scale(1.02);
+  background-color: #ffebef;
+}
+
+.flexingeyewearcustomerforlogo {
+  height: 50%;
+  width: 30%;
+  padding: 5px;
+}
+
+.eyewearappcustomerappboxflextyperightbox {
+  height: 100%;
+  width: 40%;
+  margin-top: 5%;
+  background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Ellipse\ 240.png");
+  background-size: contain;
+  position: relative;
+}
+
+.eyewearmobileforcustomerappdelivery {
+  position: absolute;
+  height: 80%;
+  width: 50%;
+  left: 25%;
+  top: 10%;
+}
+
+.eyewearmobileforcustomerappdelivery > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,65 @@
+.productDeskMainDiv {
+  display: flex;
+  background-color: white;
+  width: 14%;
+  height: fit-content;
+  position: fixed;
+  top: 50px;
+  left: 29%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 100000000;
+  /* border: 2px solid; */
+  /* text-align: center; */
+}
+.productDeskListItems {
+  width: 38%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  justify-content: center;
+}
+
+.productDeskListItems > p {
+  margin: 0;
+  width: 49%;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.productlinkP h6 {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1%;
+  /* border: 2px solid red; */
+}
+.productDeskData {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  /* border: 2px solid ; */
+}
+.productDeskData .productlinkP > h6 {
+  font-size: 13px;
+  margin: 2% 0;
+}
+.productDeskData .productlinkP > p {
+  font-size: 10px;
+  margin: 2% 0;
+}
+.productDeskData > img {
+  height: 40px;
+}
+.productDeskData:hover {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  background-color: lightgray;
+  border-left: 2px solid #ef4c23;
+}
+.productDeskData:last-child {
+  border-bottom: none;
+}
+
+.productlinkP > :hover {
+  color: #393939;
+}

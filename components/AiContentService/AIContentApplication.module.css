@@ -1,0 +1,29 @@
+.aicontentapplicationmaiboxes{
+    height: 20vh;
+    border: 1px solid white;
+    position: relative;
+}
+
+.aicontentapplicationsmalltypebanner{
+    height: 30%;
+    width: 80%;
+
+    position: absolute;
+    top: 2%;
+    
+}
+
+.aicontentapplicationsmalltypebanner >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aicontentbannertextboxesupper{
+    height: fit-content;
+
+    margin-top: 5%;
+ text-align: center;
+
+}
+

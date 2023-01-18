@@ -1,0 +1,67 @@
+.meatdeliverypartnerappmainboxes {
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  margin-top: 4%;
+  /* border: 2px solid red; */
+}
+
+.meatdeliverypartnerleftbox {
+  height: 500px;
+  width: 45%;
+  background: url("/Images/meatdelieveryapp/partner-bkgd-rectangle.png");
+  background-repeat: no-repeat;
+  background-position-y: 75%;
+  /* border: 1px solid red; */
+  margin-top: 4%;
+}
+
+.meatdeliverypartnerleftboxmobilebox {
+  height: 85%;
+  width: 35%;
+  margin: 0% 0% 0% 25%;
+}
+
+.meatdeliverypartnerleftboxmobilebox > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.meatdeliverypartnerrightbox {
+  height: 70%;
+  width: 60%;
+  margin-top: 1%;
+}
+
+.meatdeliverypartnerboxfortextright {
+  height: fit-content;
+  margin-left: 3.5%;
+}
+
+.meatdeliverypartnerappmaiingbox {
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.meatdeliveryflexingboxindivisually {
+  height: 40%;
+  width: 42%;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.meatdeliveryflexingboxindivisually:hover {
+  transform: scale(1.02);
+  background-color: #f6deb8;
+}
+
+.specialcolor {
+  color: #ef4c23;
+  font-size: 30px;
+}

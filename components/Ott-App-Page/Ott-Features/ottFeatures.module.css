@@ -1,0 +1,99 @@
+.ottFeaturesHeading {
+  color: white;
+  text-align: center;
+}
+
+.ottFeaturesHeading > p {
+  width: 25%;
+  margin: auto;
+}
+
+.ottFeaturesMain {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+  height: 300px;
+  width: 90%;
+  margin: auto 10%;
+}
+
+.ottFeaturesCardsDiv {
+  width: 29%;
+  height: 120px;
+  color: white;
+  border: 1px solid white;
+  flex-direction: row;
+  border-radius: 7px;
+  margin: auto;
+}
+
+.ottFeaturesCardsDiv:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ottFeaturesImgParaCombo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.ottFeaturesImgParaCombo > img {
+  width: 7%;
+  height: 30px;
+  margin-left: 4%;
+}
+
+.ottFeaturesParaDiv {
+  width: 75%;
+  margin-left: 4%;
+}
+
+.ottFeaturesBanner {
+  /* border: 5px solid red; */
+  margin-top: 50px;
+  height: 220px;
+  position: relative;
+}
+
+.ottFeaturesBanner > img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.ottFeturesBannelTextButtonDiv {
+  position: absolute;
+  color: black;
+  top: 18%;
+  left: 8%;
+}
+
+.ottFeturesBannelTextButtonDiv > h2 {
+  width: 100%;
+  margin-top: 1%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.ottFeturesBannelTextButtonDiv > button {
+  position: absolute;
+  left: 45%;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 50px;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  margin: 1% auto;
+  background: #ef4c23;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+  border: 2px solid #ef4c23;
+  color: white;
+}
+
+.ottFeturesBannelTextButtonDiv > button:hover {
+  color: #ef4c23;
+  background-color: white;
+}

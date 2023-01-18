@@ -1,0 +1,86 @@
+.fintechsolutiondriverappmainbox {
+  height: 100vh;
+  margin-top: 5%;
+  position: relative;
+}
+
+.fintechdriverappboxfortext {
+  position: absolute;
+  height: fit-content;
+  right: 15%;
+  width: 40%;
+  top: 10%;
+}
+
+.fintedriverappfelxingboxupper {
+  display: flex;
+}
+
+.fintedriverappfelxingboxupperleft {
+  height: 500px;
+  width: 40%;
+  margin-top: 15%;
+  margin-left: 3%;
+  background: url("/Images/fintechsolutionpage/Vector-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fintechdriverappleftsectionformobile {
+  position: absolute;
+  height: 90%;
+  width: 40%;
+  top: -10%;
+  left: 22%;
+}
+
+.fintechdriverappleftsectionformobile > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.fintechdriverappflexright {
+  height: fit-content;
+  width: 60%;
+  margin-top: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fintechdriverappboxesaftermapping {
+  height: fit-content;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.fintechdriverappboxesaftermapping:hover {
+  transform: scale(1.02);
+}
+
+.logofintechdriverapp {
+  margin: 2%;
+}
+
+.specialtxtdriver {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+/* .txtdriverappfintech {
+  border: 1px solid red;
+} */
+
+.txtdriverappfintech > h4 {
+  margin-top: 1%;
+}
+
+.txtdriverappfintech > p {
+  margin-top: -7%;
+}

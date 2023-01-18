@@ -1,0 +1,47 @@
+.deskStarted {
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/Images/BottomFunnelDeskPhotos/mid-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 5% 0;
+  text-align: center;
+  color: white;
+}
+
+.getStartedbtn {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin: 1%;
+  border-radius: 15px;
+  background-color: #ef4c23;
+  border: 2px solid #ef4c23;
+  color: white;
+  cursor: pointer;
+}
+
+.getStartedbtn:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.demobtn {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 2%;
+  margin: 1%;
+  border-radius: 15px;
+  background: none;
+  color: white;
+  border: 2px solid #ef4c23;
+  cursor: pointer;
+}
+
+.demobtn:hover {
+  color: white;
+  background-color: #ef4c23;
+}

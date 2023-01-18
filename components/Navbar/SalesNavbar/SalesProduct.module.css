@@ -1,0 +1,68 @@
+.saleProductMainDiv {
+  display: flex;
+  background-color: white;
+  width: 12%;
+  height: fit-content;
+  position: fixed;
+  top: 40px;
+  left: 29%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 100000000;
+  /* border: 2px solid; */
+  /* text-align: center; */
+}
+.saleProductListItems {
+  width: 38%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  justify-content: center;
+}
+
+.saleProductListItems > p {
+  margin: 0;
+  width: 49%;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.productlinkP h6 {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1%;
+  /* border: 2px solid red; */
+}
+.saleProductData {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  /* border: 2px solid ; */
+}
+.saleProductData .productlinkP > h6 {
+  font-size: 12px;
+  margin: 2% 0;
+  font-weight: 600;
+}
+.saleProductData .productlinkP > p {
+  font-size: 11px;
+  margin: 2% 0;
+  font-weight: 400;
+}
+.saleProductData > img {
+  height: 30px;
+  margin-top: 2%
+}
+.saleProductData:hover {
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  background-color: lightgray;
+  border-left: 2px solid #ef4c23;
+}
+.saleProductData:last-child {
+  border-bottom: none;
+}
+
+.productlinkP > :hover {
+  color: #393939;
+}

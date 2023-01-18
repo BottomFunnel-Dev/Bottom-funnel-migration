@@ -1,0 +1,79 @@
+.ottAdminPannelContainer {
+  display: flex;
+  /* border: 1px solid green; */
+}
+
+.ottAdminPannelRightDiv {
+  height: 600px;
+  width: 60%;
+  /* border: 1px solid green; */
+  background: url("/Images/ott-app/Rectangle182362.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.ottAdminPannelRightDivFrameForImages {
+  width: 90%;
+  height: 500px;
+  /* border: 1px solid green; */
+}
+
+.ottAdminPannelRightDivFrameForImages > img {
+  width: 100%;
+  height: 380px;
+}
+
+.ottAdminPannelLeftDiv {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-around;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+  /* border: 1px solid green; */
+  margin-bottom: 100px;
+}
+
+.ottAdminPannelLeftDivForCards {
+  height: fit-content;
+  width: 35%;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.ottAdminPannelLeftDivForCards:hover {
+  transform: scale(1.02);
+  background-color: #ffebef;
+}
+
+.ottAdminPannelLeftDivForCards > h3 {
+  color: red;
+  margin: 0% auto;
+}
+
+.ottAdminPannelLeftDivForCards > p {
+  font-size: 18px;
+  margin: 2% auto;
+  /* border: 1px solid green; */
+}
+
+.ottAdminPannelLeftDivHeading {
+  color: white;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.ottAdminPannelLeftDivHeading > p {
+  font-size: 18px;
+  /* border: 1px solid red; */
+}

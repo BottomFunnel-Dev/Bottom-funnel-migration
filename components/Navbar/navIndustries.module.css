@@ -1,0 +1,57 @@
+.industryDropdown {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 0 30px;
+}
+
+.industryContent {
+  width: 50%;
+  height: 100%;
+}
+
+.industryContent > h4 {
+  color: #ef4c23;
+}
+
+.listItems {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.listItems > p {
+  margin: 0;
+  padding: 5px 5px;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+.solutionVisible {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100000000;
+
+  height: 445px;
+  position: fixed;
+  background-color: white;
+  /* border-top: 1px solid black; */
+
+  top: 78px;
+}
+
+.serviceVisible {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 440px;
+  /* position: fixed; */
+  box-sizing: border-box;
+  /* top: 78px; */
+  padding: 0 5px;
+  /* border-top: 1px solid black; */
+  /* z-index: 100000000; */
+  justify-content: center;
+}

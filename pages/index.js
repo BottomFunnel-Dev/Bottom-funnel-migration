@@ -1,25 +1,24 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import { BannerFull } from "./mainSection/BannerFull";
-import CompanyLogo from "./CompanyLogos/CompanyLogo";
-import About from "./AboutSection/About";
-import Services from "./Services/Services";
-import Awards from "./AwardSection/Awards";
-
-// const inter = Inter({ subsets: ["latin"] });
-
-// const inter = Inter({ subsets: ['latin'] })
+import About from "../components/AboutSection/About";
+import Awards from "../components/AwardSection/Awards";
+import CompanyLogo from "../components/CompanyLogos/CompanyLogo";
+import { BannerFull } from "../components/mainSection/BannerFull";
+import Navbar from "../components/Navbar/Navbar";
+import Services from "../components/Services/Services";
 
 export default function Home() {
   return (
-    <div>
+    <>
+      <Navbar />
       <BannerFull />
       <CompanyLogo />
+
       <About />
       <Services />
       <Awards />
-    </div>
+    
+      {/* <StoriesSection />
+      <Industries />
+      <OndemandSection /> */}
+    </>
   );
 }

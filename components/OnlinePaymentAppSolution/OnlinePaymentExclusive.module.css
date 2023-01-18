@@ -1,0 +1,51 @@
+.onlinepaymentexclusivemainboxes {
+  height: fit-content;
+  background-color: white;
+}
+
+.onlinepaymentexclusivemainboxes > h1 {
+  margin-left: 6%;
+}
+
+.onlinepaymentexclusivemappingbox {
+  height: fit-content;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.specialcolor {
+  color: #ef4c23;
+}
+
+.onlinepaymenth4typetext > h4 {
+  font-size: 20px;
+}
+
+.onlinepaymentexclusivemappingboxindivisually {
+  width: 29%;
+  margin: 1%;
+  transition: 0.2s ease-in-out;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.onlinepaymentexclusivemappingboxindivisually:hover {
+  transform: scale(1.02);
+  background-color: #ceb8f3;
+}
+
+.onlinepaymentexclusivemappingboxindivisuallyforlogo {
+  height: 30%;
+  width: 30%;
+  padding: 10px;
+}
+
+.onlinepaymentexclusivemappingboxindivisuallyforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
