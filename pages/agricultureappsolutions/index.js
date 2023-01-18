@@ -11,19 +11,20 @@ import AgricultureCustomerApp from "../../components/Agriculture/AgricultureCust
 import AgricultureConsumerApp from "../../components/Agriculture/AgricultureConsumerApp/AgricultureConsumerApp";
 import AgricultureAdminPanel from "../../components/Agriculture/AgricultureAdminPanel/AgricultureAdminPanel";
 
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
-// import PortFolio from "../../components/CommonComponents/PortFolioSection/PortFolio";
-// import PlanProject from "../CommonComponents/PlanProject/PlanProject";
-import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
-import Revamping from "../../components/CommonComponents/revamping/Revamping";
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
+import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
+import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
+import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
+import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
+import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
-// import MainFooter from "../CommonComponents/FooterSection/MainFooter";
+import Navbar from "../../components/Navbar/Navbar";
+
 export default function AgriculturePage() {
   return (
     <div>
+      <Navbar />
       <AgricultureBanner />
 
       <AgricultureSolutions />
