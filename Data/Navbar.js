@@ -71,17 +71,17 @@ export const webservice = [
   {
     dropContent: "MERN Stack Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "mern-stack",
+    path: "mernstack-development",
   },
   {
     dropContent: "MEAN Stack Development",
     navIcons: "Images/navbar/services/angular.png",
-    path: "mean-stack-development",
+    path: "meanstack-development",
   },
   {
     dropContent: "ASP.NET Development",
     navIcons: "Images/navbar/services/aspnet.png",
-    path: "asp-net-development",
+    path: "asp.net-development",
   },
   {
     dropContent: "Java Development",
@@ -298,7 +298,7 @@ export const industries = [
   {
     dropContent: "Game Development",
     navIcons: "Images/navbar/industriesImage/gamedev.png",
-    path: "gameDevelopment",
+    path: "game-development",
   },
   {
     dropContent: "E-commerce",
@@ -338,12 +338,12 @@ export const industries = [
   {
     dropContent: "Social Media",
     navIcons: "Images/navbar/industriesImage/social media.png",
-    path: "Social-Media",
+    path: "social-media",
   },
   {
     dropContent: "Logistics",
     navIcons: "Images/navbar/industriesImage/logistics.png",
-    path: "Logistics",
+    path: "logistics",
   },
   {
     dropContent: "Politics",
@@ -373,7 +373,7 @@ export const industries = [
   {
     dropContent: "eScooter",
     navIcons: "Images/navbar/industriesImage/escooter.png",
-    path: "eScooter",
+    path: "e-scooter",
   },
   {
     dropContent: "Travel",
@@ -383,7 +383,7 @@ export const industries = [
   {
     dropContent: "Aviation",
     navIcons: "Images/navbar/industriesImage/avaitions.png",
-    path: "Aviation",
+    path: "aviation",
   },
   {
     dropContent: "Telecommunication",
@@ -396,22 +396,22 @@ export const ondemand = [
   {
     dropContent: "Food Delivery App",
     navIcons: "Images/navbar/industriesImage/fooddeliveryimage.png",
-    path: "food-delivery",
+    path: "food-delivery-app",
   },
   {
     dropContent: "On Demand Home Services",
     navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png",
-    path: "ondemandHomeServices",
+    path: "ondemand-homeservice",
   },
   {
     dropContent: "Alcohol Delivery App",
     navIcons: "Images/navbar/industriesImage/alcohol.png",
-    path: "alcohol",
+    path: "alcoholdeliveryapp",
   },
   {
     dropContent: "Laundry Delivery",
     navIcons: "Images/navbar/industriesImage/laundry.png",
-    path: "laundry",
+    path: "laundary-delivery",
   },
   {
     dropContent: "Grocery Delivery App",
@@ -422,7 +422,7 @@ export const ondemand = [
   {
     dropContent: "Beauty & Salon App",
     navIcons: "Images/navbar/industriesImage/beauty.png",
-    path: "beautycareapp",
+    path: "beauty-and-salon",
   },
   {
     dropContent: "Cannabis Delivery App",
@@ -437,7 +437,7 @@ export const ondemand = [
   {
     dropContent: "Pickup & Delivery",
     navIcons: "Images/navbar/industriesImage/pickup.png",
-    path: "pickup&delivery",
+    path: "pickup-and-delivery",
   },
   {
     dropContent: "Pharmacy Delivery App",
@@ -447,12 +447,12 @@ export const ondemand = [
   {
     dropContent: "Flower Delivery App",
     navIcons: "Images/navbar/industriesImage/flowerdelivery.png",
-    path: "flower-delivery",
+    path: "flower-delivery-app",
   },
   {
     dropContent: "Carpooling Apps",
     navIcons: "Images/navbar/industriesImage/carpooling.png",
-    path: "carpooling",
+    path: "carpooling-apps",
   },
   {
     dropContent: "Taxi Booking App",
@@ -462,27 +462,27 @@ export const ondemand = [
   {
     dropContent: "Tool Delivery App",
     navIcons: "Images/navbar/industriesImage/tool.png",
-    path: "tool-delivery",
+    path: "tool-delivery-app",
   },
   {
     dropContent: "Icecream Delivery App",
     navIcons: "Images/navbar/industriesImage/icecream.png",
-    path: "Icecream",
+    path: "icecream-deliveryapp",
   },
   {
     dropContent: "Plant Based Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/plantmeat.png",
-    path: "plant-based-meat-delivery-app",
+    path: "plantbased-meatdelivery",
   },
   {
     dropContent: "Car Rental Delivery App",
     navIcons: "Images/navbar/industriesImage/carrental.png",
-    path: "car-rentals",
+    path: "car-rentals-app",
   },
   {
     dropContent: "Agriculture App Solutions",
     navIcons: "Images/navbar/industriesImage/agriculture.png",
-    path: "agriculture-solution-app",
+    path: "agricultureappsolutions",
   },
   {
     dropContent: "Car Service App Solutions",
@@ -492,38 +492,38 @@ export const ondemand = [
   {
     dropContent: "Trading App Solutions",
     navIcons: "Images/navbar/industriesImage/trading.png",
-    path: "trading-investing",
+    path: "trading-app-solutions",
   },
 
   {
     dropContent: "RealState Apps Solutions",
     navIcons: "Images/navbar/industriesImage/realestate.png",
-    path: "real-Estate",
+    path: "realestate",
   },
   {
     dropContent: "Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/meat.png",
-    path: "meat-delivery-app",
+    path: "meatdeliveryapp",
   },
   {
     dropContent: "Eyewear Delivery App ",
     navIcons: "Images/navbar/industriesImage/eyewear.png",
-    path: "Eyewear-Delivery-App",
+    path: "eyeweardeliverapp",
   },
   {
     dropContent: "Baby & KidsWear App ",
     navIcons: "Images/navbar/industriesImage/baby-wear.png",
-    path: "kids-wear",
+    path: "baby-and-kidswear",
   },
   {
     dropContent: "Online Payment App ",
     navIcons: "Images/navbar/industriesImage/online-payemnt.png",
-    path: "online-paymentapp-solution",
+    path: "onlinepaymentsapp",
   },
   {
     dropContent: "Fintech App Solutions",
     navIcons: "Images/navbar/industriesImage/fintech.png",
-    path: "Fintech-solution",
+    path: "fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
@@ -533,17 +533,17 @@ export const ondemand = [
   {
     dropContent: "App Builder Solutions",
     navIcons: "Images/navbar/industriesImage/app-builder.png",
-    path: "app-builder-solutions",
+    path: "app-builder-solution",
   },
   {
     dropContent: "AI Content App Solutions",
     navIcons: "Images/navbar/industriesImage/ai-ont.png",
-    path: "Ai-content",
+    path: "ai-services",
   },
   {
     dropContent: "OTT App Solutions",
     navIcons: "Images/navbar/industriesImage/ott.png",
-    path: "ott",
+    path: "ott-app-solutions",
   },
 ];
 
