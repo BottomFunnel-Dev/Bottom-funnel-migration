@@ -4,7 +4,7 @@ import { IconContext } from "react-icons/lib";
 import { BsArrowRight } from "react-icons/bs";
 // import { Link } from "react-router-dom";
 import Link from "next/link";
-export const Industries = () => {
+const Industries = () => {
   const industries = [
     {
       industryName: "Education",
@@ -115,3 +115,5 @@ export const Industries = () => {
     </div >
   );
 };
+
+export  default Industries;

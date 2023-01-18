@@ -12,7 +12,7 @@ import AgricultureConsumerApp from "../../components/Agriculture/AgricultureCons
 import AgricultureAdminPanel from "../../components/Agriculture/AgricultureAdminPanel/AgricultureAdminPanel";
 
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-// import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
+import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 // import PortFolio from "../../components/CommonComponents/PortFolioSection/PortFolio";
 // import PlanProject from "../CommonComponents/PlanProject/PlanProject";
 import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
@@ -34,7 +34,7 @@ export default function AgriculturePage() {
 
       {/* Other react required components  */}
       <StoriesSection />
-      {/* <OndemandSection /> */}
+      <OndemandSection />
       {/* <PortFolio />  */}
         {/* <PlanProject />  */}
       <SeoblogSection />

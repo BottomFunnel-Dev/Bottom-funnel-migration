@@ -146,7 +146,7 @@ const StoriesSection = () => {
       <Slider {...settings}>
         {arr.map((item, i) => (
           <div key={i} className={styles.mainContentDiv}>
-            <IconContext.Provider value={{ className: "playIcon" }}>
+            <IconContext.Provider value={{ className: styles.playIcon }}>
               <BsPlayCircle />
             </IconContext.Provider>
             <p className={styles.storiesBrandName}>{item.BrandName}</p>
@@ -166,7 +166,7 @@ const StoriesSection = () => {
       {/* <div onClick={handleModalOut} className={toggle?"youtubeDiv":"none"}>
               {toggle && <YoutubeLink embedId={videoString} />}
             </div> */}
-      <p className={styles.testimonial}>View more testimonials <IconContext.Provider value={{ className: "rightArrow" }}>
+      <p className={styles.testimonial}>View more testimonials <IconContext.Provider value={{ className: styles.rightArrow }}>
         <BsArrowRight />
       </IconContext.Provider></p>
 
