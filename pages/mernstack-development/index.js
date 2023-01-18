@@ -1,15 +1,14 @@
 import React from "react";
-import AgricultureBanner from "../../components/Agriculture/AgricultureBanner/AgricultureBanner";
-import { AgricultureSolutions } from "../../components/Agriculture/AgricultureSolutions/AgricultureSolutions";
-
-import {
-  logisticsCustomer,
-  agricultureConsumerApp,
-  agricultureAdmin,
-} from "../../components/Data/agriculture.js";
-import AgricultureCustomerApp from "../../components/Agriculture/AgricultureCustomerApp/AgricultureCustomerApp";
-import AgricultureConsumerApp from "../../components/Agriculture/AgricultureConsumerApp/AgricultureConsumerApp";
-import AgricultureAdminPanel from "../../components/Agriculture/AgricultureAdminPanel/AgricultureAdminPanel";
+import { mernbanner } from "../../components/Data/webdevPageData/TechBannerData";
+import { Mernbanner } from "../../components/MernPage/Mernbanner";
+import { MernIntro } from "../../components/MernPage/MernIntro";
+import { whatData } from "../../components/Data/webdevPageData/TechWhatData";
+import { MernPoluparServices } from "../../components/MernPage/MernPoluparServices";
+import { mernservices } from "../../components/Data/webdevPageData/Popularservices";
+import { TechGetStarted } from "../../components/MernPage/TechGetStarted";
+import { letstart } from "../../components/Data/webdevPageData/LetStart";
+import { WhyBottom } from "../../components/MernPage/WhyBottom";
+import { mernWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -21,17 +20,15 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function AgriculturePage() {
+export default function MernPageWebDevelopment() {
   return (
     <div>
       <Navbar />
-      <AgricultureBanner />
-
-      <AgricultureSolutions />
-
-      <AgricultureCustomerApp agricultureCustomerApp={logisticsCustomer} />
-      <AgricultureConsumerApp driveData={agricultureConsumerApp} />
-      <AgricultureAdminPanel plantBasedAdminData={agricultureAdmin} />
+      <Mernbanner bannerdata={mernbanner} />
+      <MernIntro techIntro={whatData} />
+      <MernPoluparServices popularservice={mernservices} />
+      <TechGetStarted calltoAction={letstart} />
+      {/* <WhyBottom whyContent={mernWhyContent} /> */}
 
       {/* Other react required components  */}
       <StoriesSection />

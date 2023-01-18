@@ -71,17 +71,17 @@ export const webservice = [
   {
     dropContent: "MERN Stack Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "mern-stack",
+    path: "mernstack-development",
   },
   {
     dropContent: "MEAN Stack Development",
     navIcons: "Images/navbar/services/angular.png",
-    path: "mean-stack-development",
+    path: "meanstack-development",
   },
   {
     dropContent: "ASP.NET Development",
     navIcons: "Images/navbar/services/aspnet.png",
-    path: "asp-net-development",
+    path: "asp.net-development",
   },
   {
     dropContent: "Java Development",
@@ -513,17 +513,17 @@ export const ondemand = [
   {
     dropContent: "Baby & KidsWear App ",
     navIcons: "Images/navbar/industriesImage/baby-wear.png",
-    path: "kids-wear",
+    path: "baby-and-kidswear",
   },
   {
     dropContent: "Online Payment App ",
     navIcons: "Images/navbar/industriesImage/online-payemnt.png",
-    path: "online-paymentapp-solution",
+    path: "onlinepaymentsapp",
   },
   {
     dropContent: "Fintech App Solutions",
     navIcons: "Images/navbar/industriesImage/fintech.png",
-    path: "Fintech-solution",
+    path: "fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
@@ -533,17 +533,17 @@ export const ondemand = [
   {
     dropContent: "App Builder Solutions",
     navIcons: "Images/navbar/industriesImage/app-builder.png",
-    path: "app-builder-solutions",
+    path: "app-builder-solution",
   },
   {
     dropContent: "AI Content App Solutions",
     navIcons: "Images/navbar/industriesImage/ai-ont.png",
-    path: "Ai-content",
+    path: "ai-services",
   },
   {
     dropContent: "OTT App Solutions",
     navIcons: "Images/navbar/industriesImage/ott.png",
-    path: "ott",
+    path: "ott-app-solutions",
   },
 ];
 
