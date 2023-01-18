@@ -1,0 +1,72 @@
+.eliteservice {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  height: fit-content;
+  padding: 2%;
+}
+
+.eliteservice > h1 {
+  width: 100%;
+  margin: 1% auto;
+  font-size: 40px;
+}
+
+.eliteservice > p {
+  width: 100%;
+  font-size: 25px;
+  margin: auto;
+  font-weight: 500;
+  color: #393939;
+}
+
+.funnelEliteService {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+
+.fieldEliteService {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contentSide {
+  width: 50%;
+  text-align: left;
+  padding: 3% 3%;
+}
+
+.contentSide > p {
+  font-size: 20px;
+}
+
+.contentSide > button {
+  background-color: #ef4c23;
+  padding: 5px 20px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+.contentSide > h5 {
+  color: #ef4c23;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gifSide {
+  width: 50%;
+  padding: 2%;
+}
+
+.gifSide > img {
+  width: 100%;
+  border-radius: 5px;
+}

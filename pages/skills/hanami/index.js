@@ -1,13 +1,13 @@
 import React from "react";
-import { SkillsComBanner } from "../../Global/SkillsCom/SkillsComBanner";
-import { SkillsComBookCall } from "../../Global/SkillsCom/SkillsComBookCall";
-import { SkillsComRemarkable } from "../../Global/SkillsCom/SkillsComRemarkable";
-import { SkillsComDes } from "../../Global/SkillsCom/SkillsComDes";
-
-import { hanamiData } from "../../Data/SkillsData";
-import { SkillsComWhyApp } from "../../Global/SkillsCom/SkillsComWhyApp";
-import { SkillsComWhyBF } from "../../Global/SkillsCom/SkillsComWhyBF";
 import Head from "next/head";
+
+import { SkillsComBanner } from "../../../components/SkillsCom/SkillsComBanner";
+import { SkillsComBookCall } from "../../../components/SkillsCom/SkillsComBookCall";
+import { SkillsComRemarkable } from "../../../components/SkillsCom/SkillsComRemarkable";
+import { SkillsComDes } from "../../../components/SkillsCom/SkillsComDes";
+import { SkillsComWhyApp } from "../../../components/SkillsCom/SkillsComWhyApp";
+import { SkillsComWhyBF } from "../../../components/SkillsCom/SkillsComWhyBF";
+import { hanamiData } from "../../../components/Data/SkillsData";
 
 function Skillshanami() {
   const {

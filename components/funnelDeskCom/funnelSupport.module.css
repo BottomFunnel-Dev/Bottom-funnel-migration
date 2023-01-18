@@ -1,0 +1,30 @@
+.supportDesk {
+  width: 90%;
+  /* background-color: green; */
+  margin: auto;
+  height: fit-content;
+  text-align: center;
+  padding: 2% 1%;
+}
+.supportDesk > h1 {
+  width: 100%;
+  /* background-color: green; */
+  margin: 1% auto;
+  font-size: 40px;
+}
+.supportDesk > p {
+  width: 95%;
+  font-size: 25px;
+  margin: auto;
+  font-weight: 500;
+  color: #393939;
+}
+
+.deskImage {
+  width: 84%;
+  height: 300px;
+  margin: 3% auto;
+}
+.deskImage > img {
+  width: 100%;
+}
