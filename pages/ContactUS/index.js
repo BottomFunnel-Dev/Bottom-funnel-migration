@@ -6,7 +6,7 @@ import { ContactUSForm } from "./ContactUSForm/ContactUSForm";
 
 
 
-export const ContactUS = () => {
+export default function ContactUS  () {
 
 
   return (

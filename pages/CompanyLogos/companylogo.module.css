@@ -32,7 +32,7 @@
 
 /* Media Query for Mobile Devices */
 
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width:0px) and (max-width:480px){
  /* .settinghomebannerrotationalbox{
   border: 50px solid black;
  } */
@@ -53,7 +53,7 @@
 
 /* Media Query for low resolution  Tablets, Ipads */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media only screen and ( min-width:481px) and (max-width:900px){
   .slideDivSection > div {
     padding: 0;
     width: 65%;

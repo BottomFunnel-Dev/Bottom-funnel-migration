@@ -9,23 +9,23 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
-import "./ContactUSForm.css";
+import styles from "./ContactUSForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
 export const ContactUSForm = () => {
   return (
-    <div className="ContactUSForm-main">
-      <div className="ContactUSForm-content">
+    <div className={styles.ContactUSFormmain}>
+      <div className={styles.ContactUSFormcontent}>
         <h1>Apply for a Job</h1>
         <p>Contact Numbers :-</p>
-        <div className="ContactUSForm-info">
+        <div className={styles.ContactUSForminfo}>
           <h2>+91 8209366227</h2>
           <h2>+971 58 597 8776</h2>
           <h2>+1 9176726964</h2>
         </div>
         <p>Email id :-</p>
-        <div className="ContactUSForm-info">
+        <div className={styles.ContactUSForminfo}>
           <h2>hr@bottomfunnel.net</h2>
           <h2>info@bottomfunnel.net</h2>
         </div>
@@ -33,7 +33,7 @@ export const ContactUSForm = () => {
         <h2>
           Office 422, 4th floor, JTM Mall, jagatpura, Jaipur, Rajasthan 302017
         </h2>
-        <div className="ContactUSForm-social">
+        <div className={styles.ContactUSFormsocial}>
           <a href="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,11 +86,11 @@ export const ContactUSForm = () => {
           </a>
         </div>
       </div>
-      <div className="ContactUSForm-form-outer-main">
+      <div className={styles.ContactUSFormformoutermain}>
         <h1>Contact Us</h1>
-        <div className="ContactUSForm-form">
-          <div className="ContactUSForm-formSection">
-            <div className="ContactUSForm-inputWithIcon">
+        <div className={styles.ContactUSFormform}>
+          <div className={styles.ContactUSFormformSection}>
+            <div className={styles.ContactUSForminputWithIcon}>
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formIcon" }}
               >
@@ -98,11 +98,11 @@ export const ContactUSForm = () => {
               </IconContext.Provider>
               <input
                 type="text"
-                className="ContactUSForm-inputPart"
+                className={styles.ContactUSForminputPart}
                 placeholder="Name"
               />
             </div>
-            <div className="ContactUSForm-inputWithIcon">
+            <div className={styles.ContactUSForminputWithIcon}>
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formIcon" }}
               >
@@ -110,17 +110,17 @@ export const ContactUSForm = () => {
               </IconContext.Provider>
               <input
                 type="text"
-                className="ContactUSForm-inputPart"
+                className={styles.ContactUSForminputPart}
                 placeholder="Email"
               />
             </div>
-            <div className="ContactUSForm-phoneClass">
+            <div className={styles.ContactUSFormphoneClass}>
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formIcon" }}
               >
                 <BsFillTelephoneFill />
               </IconContext.Provider>
-              <select className="ContactUSForm-countryCode" name="" id="">
+              <select className={styles.ContactUSFormcountryCode} name="" id="">
                 {countrycodes.map((item, i) => (
                   <option key={i} value={item.code}>
                     {item.code} {item.dial_code}
@@ -129,17 +129,17 @@ export const ContactUSForm = () => {
               </select>
             </div>
             <input
-              className="ContactUSForm-phoneNumber"
+              className={styles.ContactUSFormphoneNumber}
               type="number"
               placeholder="Phone Number"
             />
-            <div className="ContactUSForm-selectClass">
+            <div className={styles.ContactUSFormselectClass}>
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formIcon" }}
               >
                 <CgMenuGridR />
               </IconContext.Provider>
-              <select className="ContactUSForm-selectPart" name="" id="">
+              <select className={styles.ContactUSFormselectPart} name="" id="">
                 <option value="Select">Interested In*</option>
                 {interested.map((item, i) => (
                   <option key={i} value={item.service}>
@@ -148,13 +148,13 @@ export const ContactUSForm = () => {
                 ))}
               </select>
             </div>
-            <div className="ContactUSForm-selectClass">
+            <div className={styles.ContactUSFormselectClass}>
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formIcon" }}
               >
                 <BsCurrencyDollar />
               </IconContext.Provider>
-              <select className="ContactUSForm-selectPart" name="" id="">
+              <select className={styles.ContactUSFormselectPart} name="" id="">
                 <option value="Select">Your Budget</option>
                 {budget.map((item, i) => (
                   <option key={i} value={item.budget}>
@@ -163,7 +163,7 @@ export const ContactUSForm = () => {
                 ))}
               </select>
             </div>
-            <div className="ContactUSForm-inputWithIcon">
+            <div className={styles.ContactUSForminputWithIcon}>
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formIcon" }}
               >
@@ -171,11 +171,11 @@ export const ContactUSForm = () => {
               </IconContext.Provider>
               <input
                 type="text"
-                className="ContactUSForm-inputPart"
+                className={styles.ContactUSForminputPart}
                 placeholder="Skype/Whatsapp"
               />
             </div>
-            <div className="ContactUSForm-textareaClass">
+            <div className="ContactUSFormtextareaClass">
               <IconContext.Provider
                 value={{ className: "ContactUSForm-formMessageIcon" }}
               >
@@ -183,7 +183,7 @@ export const ContactUSForm = () => {
               </IconContext.Provider>
               <label htmlFor="textarea"> Message</label>
               <textarea
-                className="ContactUSForm-messagePart"
+                className={styles.ContactUSFormmessagePart}
                 name="textarea"
                 id=""
                 cols="15"
@@ -191,7 +191,7 @@ export const ContactUSForm = () => {
               ></textarea>
             </div>
           </div>
-          <div className="ContactUSForm-robotCaptcha">
+          <div className={styles.ContactUSFormrobotCaptcha}>
             <button>Get Started</button>
           </div>
         </div>

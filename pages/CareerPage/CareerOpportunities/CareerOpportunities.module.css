@@ -1,0 +1,33 @@
+/* for any type of laptop and wide range of screens */
+
+@media only screen and (min-width:900px){
+.CareerOpportunitiescontainer > h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+}
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+  .CareerOpportunitiescontainer > h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+  }
+}
+
+
+/* for any type of tablet screen responsive */
+
+@media only screen and ( min-width:481px) and (max-width:900px){
+
+  .CareerOpportunitiescontainer > h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+  
+  }
+
+}

@@ -1,0 +1,46 @@
+.digitaltransformationgotaquestionbanner{
+    height: 30vh;
+    border: 1px solid white;
+    margin-top: 3%;
+    background: url("/public/Images/digitaltransformation/Frame 64.png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+    
+}
+
+.digitaltransformationleftboxgotaquestiontype{
+    width: 40%;
+
+    margin: 3% 0% 3% 3%;
+}
+
+
+.digitaltransformationrightboxgotaquestiontype{
+    width: 20%;
+    margin: 5% 0% 3% 30%;
+   
+}
+
+
+
+.digitaltransformationquestionbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3380f2;
+  
+}
+
+.digitaltransformationquestionbannerbutton:hover {
+
+    background-color:#3380f2;
+    color:  white;
+
+}

@@ -8,8 +8,8 @@ export const Mernbanner = ({ bannerdata }) => {
       style={{
         background: `url(${bannerdata.background})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: "contain",
+        backgroundPosition: "right",
       }}
     >
       <div className={styles.mernbannercontent}>
@@ -20,13 +20,7 @@ export const Mernbanner = ({ bannerdata }) => {
         </button>
       </div>
 
-      <div className={styles.bannerIcons}>
-        {bannerdata.icons.map((item, index) => (
-          <div key={index} className={styles.mernskills}>
-            <img src={item.img} alt="" />
-          </div>
-        ))}
-      </div>
+  
     </div>
   );
 };

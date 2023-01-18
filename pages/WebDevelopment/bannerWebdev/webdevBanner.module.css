@@ -1,12 +1,12 @@
 /* for Large Screen */
 
-@media only screen and (min-width:769px){
+@media only screen and (min-width:900px){
 .webDevBanner {
   width: 100%;
   height: 100vh;
   position: relative;
   
-  color: white;
+  /* color: white; */
 }
 .webDebText {
   width: 40%;
@@ -47,27 +47,28 @@
 }
 /* Mobile screens banner */
 
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width:0px) and (max-width:480px){
 .webDevBanner{
   width: 100%;
   height: 40vh;
   position: relative;
-  color: white;
+  /* color: white; */
 }
 .webDebText {
-  width: 90%;
+  width: 50%;
 padding: 5px;
   height: fit-content;
   position: absolute;
   transform: translate(-25%, -50%);
-  top: 50%;
-  left: 25%;
+  top: 40%;
+  left: 15%;
  right: 10%;
- /* border: 1px solid red; */
+
+ margin-top: 10%;
 }
 .webDebText>h1{
   font-weight: 700;
-font-size: 30px;
+font-size: 20px;
 }
 .webDebText>p{
   font-size: 10px;
@@ -92,24 +93,29 @@ font-size: 30px;
 
   }
 
-@media only screen and ( min-width:377px) and (max-width:769px){
+
+/* for any type of tablet screens responsive */
+
+
+@media only screen and ( min-width:481px) and (max-width:900px){
 
   .webDevBanner {
     width: 100%;
     height: 45vh;
     position: relative;
-    color: white;
+ 
 
   }
   .webDebText {
-    width: 85%;
+    width: 50%;
     padding: 20px;
-    height: 400px;
+    height: fit-content;
     position: absolute;
     transform: translate(-20%, -50%);
-    top: 60%;
-    left: 25%;
+    top: 50%;
+    left: 10%;
     right: 5%;
+    
   }
   
   .webDebText > h1 {

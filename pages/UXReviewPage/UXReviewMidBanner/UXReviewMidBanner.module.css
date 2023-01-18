@@ -1,0 +1,40 @@
+.UXReviewMidBannermain {
+  padding: 3% 3% 10px;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/Images/UXReviewPhotos/mid-banner.png");
+  background-size: 110% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  text-align: center;
+}
+
+.UXReviewMidBannermain > h1 {
+  font-size: 32px;
+}
+
+.UXReviewMidBannermain > p {
+  font-size: 16px;
+}
+
+.UXReviewMidBannermain > button {
+  font-size: 18px;
+  font-weight: 600;
+
+  padding: 10px 50px;
+  margin: 2% auto;
+  cursor: pointer;
+
+  border: 2px solid white;
+  background: white;
+  color: #ef4c23;
+  outline: 0;
+  border-radius: 40px;
+}
+
+.UXReviewMidBannermain > button:hover {
+  background-color: #ef4c23;
+  color: white;
+}
