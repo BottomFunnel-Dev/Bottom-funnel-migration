@@ -1,3 +1,5 @@
+/* for any type of laptop and wide range of screens */
+@media only screen and (min-width:769px){
 .icecreamadminpannelmainboxes{
     height: fit-content;
     background-color: white;
@@ -87,3 +89,51 @@
     object-fit: contain;
     padding: 20px;
 } */
+
+}
+
+
+/* for any type of mobile screens responsive */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+    .icecreamadminpannelmainboxes{
+        height: fit-content;
+        background-color: white;
+        padding-bottom: 5%;
+    }
+    
+    .icecreamadminpannelmainboxsometextupper{
+        height: fit-content;
+        margin-left: 4%;
+       
+    }
+    
+    .icecreamadminpannelmainboxsometextupper>h2{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .icecreamadminpannelmainflexboxclass{
+        height: 500px;
+    
+        /* display: flex; */
+       
+    }
+
+    
+    .icecreamadminpannelmapperboxindivisyal{
+        height: fit-content;
+        width: 45%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 1%;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 10px;
+    
+    }
+    
+ 
+
+
+}

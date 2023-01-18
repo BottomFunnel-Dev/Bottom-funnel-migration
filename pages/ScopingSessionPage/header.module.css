@@ -1,0 +1,46 @@
+.RGmainContaier {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+
+}
+
+.RGheaderText {
+  width: 40%;
+  padding-left: 2%;
+  font-size: 16px;
+ 
+}
+
+.RGimageDiv {
+  width: 50%;
+}
+
+.RGheaderTitle {
+  font-size: 40px;
+  color: #ef4c23;
+}
+
+.RGheaderButton {
+  background: #ef4c23;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+}
+
+.RGheaderButton:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.RGheadertext {
+  font-size: 20px;
+}

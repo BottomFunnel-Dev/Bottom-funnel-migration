@@ -9,9 +9,10 @@ export const TechGetStarted = ({ calltoAction }) => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%",
         backgroundPosition: "center",
+       
       }}
     >
-      <div>
+      <div className={styles.techgetptagstarted}>
       <p>{calltoAction.description}</p>
       <button>{calltoAction.buttonText}</button>
       </div>

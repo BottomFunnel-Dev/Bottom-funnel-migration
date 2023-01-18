@@ -1,0 +1,39 @@
+.webDevBanner {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin-top: 120px;
+  color: white;
+}
+.webDebText {
+  width: 40%;
+  padding: 20px;
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 25%;
+}
+
+.webDebText > h1 {
+  width: 75%;
+  font-weight: 700;
+  line-height: 50px;
+}
+.webDebText > p {
+  margin-bottom: 30px;
+}
+
+.webDevButton {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ef4c23;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+.webDevButton:hover {
+  color: white;
+  background-color: #ef4c23;
+}

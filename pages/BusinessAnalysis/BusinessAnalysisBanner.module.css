@@ -1,0 +1,63 @@
+.businessanalysisbannermainbox{
+    height: 100vh;
+  
+ margin-top: 120px;
+    display: flex;
+}
+
+
+.businessanalysisbannerleftbox{
+    height: fit-content;
+    width: 35%;
+    margin-top: 15%;
+margin-left: 3%;
+  
+}
+
+.businessanalysisbannerrightbox{
+    height: 90%;
+    width: 65%;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+.businessanalysisbannerrightbox >img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+
+
+.specialcolor{
+    color: #ef4c23;
+    text-decoration: none;
+
+}
+
+.businessanalysisbannerleftbox >h1 {
+    font-size: 40px;
+    text-align: justify;
+}
+
+.businessanalysisbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5%;
+  
+}
+
+.businessanalysisbannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}

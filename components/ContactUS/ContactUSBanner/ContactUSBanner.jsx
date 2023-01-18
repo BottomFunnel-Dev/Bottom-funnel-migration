@@ -3,7 +3,7 @@ import styles from "./ContactUSBanner.module.css";
 
 export const ContactUSBanner = () => {
   return (
-    <div className={styles.ContactUSBanner-main}>
+    <div className={styles.ContactUSBannermain}>
       <div className={styles.ContactUsBannerimage}>
         <img src="Images/ContactUS/banner.png" alt="Contact us banner" />
       </div>

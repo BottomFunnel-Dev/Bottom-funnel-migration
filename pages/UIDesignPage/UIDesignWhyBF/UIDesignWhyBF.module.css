@@ -1,0 +1,67 @@
+.UIDesignWhyBFcontainer {
+  width: 90%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.UIDesignWhyBFcontainer > h1 {
+  font-size: 32px;
+}
+
+.UIDesignWhyBFcontainer > h1 > span,
+.UIDesignWhyBFmain > ul > li > span {
+  color: #ef4c23;
+}
+
+.UIDesignWhyBFcontainer > p {
+  width: 80%;
+  margin: 2% auto;
+}
+
+.UIDesignWhyBFmain {
+  width: 90%;
+  margin: 2% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.UIDesignWhyBF  main > ul {
+  width: 45%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.UIDesignWhyBFmain > ul > li {
+  margin-bottom: 2%;
+}
+
+.UIDesignWhyBFimages {
+  position: relative;
+  width: 45%;
+   height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.UIDesignWhyBFimages > img {
+  height: 45%;
+  position: absolute;
+}
+
+.UIDesignWhyBFimages > img:nth-child(1) {
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.UIDesignWhyBFimages > img:nth-child(2) {
+  z-index: 1;
+  right: 0;
+}
+
+.UIDesignWhyBFimages > img:nth-child(3) {
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+}
