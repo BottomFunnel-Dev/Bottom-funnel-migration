@@ -3,7 +3,7 @@ import styles from "./ondemandSection.module.css";
 import { IconContext } from "react-icons/lib";
 import { MdOutlineMobileFriendly } from "react-icons/md";
 import { BsArrowRight } from "react-icons/bs";
-// import Link  from "next/Link";
+import Link  from "next/Link";
 
 const OndemandSection = () => {
   const ondemandSol = [
