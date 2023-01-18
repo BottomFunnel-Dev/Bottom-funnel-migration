@@ -2,7 +2,7 @@ import React from "react";
 import navstyle from "./navbar.module.css";
 import whowe from "./whoWeAre.module.css";
 // import { useNavigate } from "next/link";
-import { company, whyBottom, process } from "../../data/Navbar";
+import { company, whyBottom, process } from "../../Data/Navbar";
 import Link from "next/link";
 export const WhoWeAre = ({
   homeHoverIn,
