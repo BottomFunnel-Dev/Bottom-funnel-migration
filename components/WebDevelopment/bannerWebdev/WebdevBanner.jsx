@@ -6,9 +6,9 @@ export const WebdevBanner = ({ bannerContent }) => {
       style={{
        
         background: `url(${bannerContent.background})`,
-        backgroundPosition: "right",
+        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "50% 90%",
+        backgroundSize: "100% 100%",
       }}
     >
       <div className={styles.webDebText}>

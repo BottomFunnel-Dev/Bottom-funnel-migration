@@ -1,5 +1,3 @@
-/* for any type of laptop and big size of screens responsive */
-@media only screen and (min-width:900px){
 .mernintro {
   width: 100%;
   /* background-color: green; */
@@ -35,7 +33,6 @@
     border-radius: 10px;
   display: flex;
   align-items: top;
-  
 }
 
 .stackImage {
@@ -50,133 +47,4 @@
 .stackContent {
   width: 70%;
   height: 100%;
-}
-}
-
-/* for any type of mobile screen responsive */
-
-@media only screen and (min-width:0px) and (max-width:480px){
-
-  .mernintro {
-    width: 100%;
-    /* background-color: green; */
-  }
-  
-  .stackintro {
-    width: 90%;
-    margin: auto;
-    padding: 20px;
-
-  }
-  
-  .mainstackDiv {
-    width: 100%;
-    margin: auto;
-    background-color: #D6F8FF;
-    
-  }
-  .stackflex {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 15px;
-    padding: 15px;
-    justify-content: center;
-    margin: auto;
-    background-color: white;
-  
-  }
-  
-  .stackCard {
-      width: 100%;
-      height: max-content;
-      padding: 10px;
-      border-radius: 10px;
-    display: flex;
-    align-items: top;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-.stackContent>p{
-  text-align: justify;
-padding: 10px;
-}
-
-
-  .stackImage {
-    width: 25%;
-    height: 100%;
-
-  }
-  .stackImage > img {
-    width: 100%;
-    height: 100%;
-    object-fit: content;
-  }
-  .stackContent {
-    width: 70%;
-    height: 100%;
-  }
-
-}
-
-/* for any type of tablet screen resposnive */
-
-@media only screen and ( min-width:481px) and (max-width:900px){
-.mernintro {
-  width: 100%;
-  /* background-color: green; */
-}
-
-.stackintro {
-  width: 90%;
-  margin: auto;
-  padding: 20px;
-}
-
-.mainstackDiv {
-  width: 100%;
-  margin: auto;
-  background-color: #D6F8FF;
-}
-.stackflex {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 15px;
-  row-gap: 15px;
-  padding: 15px;
-  justify-content: center;
-  margin: auto;
-  background-color: white;
-
-}
-
-.stackCard {
-    width: 40%;
-    height: max-content;
-    padding: 10px;
-    border-radius: 10px;
-  display: flex;
-  align-items: top;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.stackImage {
-  width: 30%;
-  height: 100%;
-}
-.stackImage > img {
-  width: 100%;
-  height: 100%;
-  object-fit: content;
-}
-.stackContent {
-  width: 70%;
-  height: 100%;
-}
-
-
-
 }

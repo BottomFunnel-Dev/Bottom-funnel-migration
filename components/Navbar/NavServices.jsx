@@ -42,15 +42,15 @@ console.log(discoverContent)
     <div
       onMouseEnter={serHoverIn}
       onMouseLeave={serHoverOut}
-      className={navstyle.solutionVisible}
+      className={navservice.servicesolutionVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
 
     >
-      <div className={navstyle.sideNav}>
+      <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (
           <div
             key={item.sidename}
-            className={sidetoggle === item.sidename ? navstyle.activetoggle : ""}
+            className={sidetoggle === item.sidename ? navservice.activetoggle : ""}
             onMouseEnter={() => {
               handleSide(item.sidename);
             }}
@@ -60,9 +60,9 @@ console.log(discoverContent)
         ))}
       </div>
       {sidetoggle === "Technologies" && (
-        <div className={navstyle.dropdownSection}>
-          <div className={navstyle.serviceDropdownContent}>
-            <Link href="web-development" className={navstyle.noStyle}>
+        <div className={navservice.servicedropdownSection}>
+          <div className={navservice.serviceDropdownContent}>
+            <Link href="web-development" className={navservice.servicenoStyle}>
               <h5
                 onClick={() => {
                   serHoverOut();
@@ -97,9 +97,9 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div className={navstyle.serviceDropdownContent}>
+          <div className={navservice.serviceDropdownContent}>
             {/* <h5
-              className="noStyle"
+              clnavservice"servicenoStyle"
               onClick={() => {
                 navigate(`/mobile-app-development`);
                 serHoverOut();
@@ -107,7 +107,7 @@ console.log(discoverContent)
             >
               Mobile App Development
             </h5> */}
-            <Link href="mobile-app-development" className={navstyle.noStyle}>
+            <Link href="mobile-app-development" className={navservice.servicenoStyle}>
               <h5
                 onClick={() => {
                   serHoverOut();
@@ -142,8 +142,8 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div className={navstyle.serviceDropdownContent}>
-            <Link href="Digital-marketing" className={navstyle.noStyle}>
+          <div className={navservice.serviceDropdownContent}>
+            <Link href="Digital-marketing" className={navservice.servicenoStyle}>
               <h5
                 onClick={() => {
                   serHoverOut();
@@ -183,8 +183,8 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div id={navstyle.serviceDropContent} className={navstyle.serviceDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+          <div id={navservice.serviceDropContent} className={navservice.serviceDropdownContent}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5 style={{margin:0}}>Trending Technologies</h5>
             </Link>
             <div className={navstyle.trendListItems}>
@@ -281,9 +281,9 @@ console.log(discoverContent)
         </div>
       )}
       {sidetoggle === "Skills" && (
-        <div className={navstyle.dropdownSection}>
+        <div className={navservice.servicedropdownSection}>
           <div className={navstyle.backendDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>Backend</h5>
             </Link>
             <div className={navstyle.backendlistItems}>
@@ -311,7 +311,7 @@ console.log(discoverContent)
             </div>
           </div>
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>Frontend</h5>
             </Link>
             <div className={navstyle.listItems}>
@@ -340,7 +340,7 @@ console.log(discoverContent)
           </div>
 
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>Mobile</h5>
             </Link>
             <div className={navstyle.listItems}>
@@ -368,7 +368,7 @@ console.log(discoverContent)
             </div>
           </div>
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>DataBase</h5>
             </Link>
             <div className={navstyle.listItems}>
@@ -396,7 +396,7 @@ console.log(discoverContent)
             </div>
           </div>
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>CMS Frameworks</h5>
             </Link>
             <div className={navstyle.listItems}>

@@ -16,7 +16,7 @@ export const IcecreamCSolution = () => {
               <div className={styles.szicesolution}><img src="Images/Icecream/Location.png"/> </div>
                 <h5>Real-Time Tracking</h5>
                </div>
-               <p >Track your drivers in real-time, analyze their performance, and improve your business processes to streamline deliveries using a robust admin panel.</p>
+               <p>Track your drivers in real-time, analyze their performance, and improve your business processes to streamline deliveries using a robust admin panel.</p>
           </div>
               <div  className={styles.szicebox}>
               <div className={styles.szgreybg}> 

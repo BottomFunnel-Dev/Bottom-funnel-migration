@@ -168,9 +168,8 @@ text-align: center;
    
   #aboutStats1{
     position: absolute;
-    /* bottom: 0%; */
+    bottom: 0%;
     left: 1%;
-   
   }
   #aboutStats2{
     position: absolute;
@@ -206,8 +205,6 @@ text-align: center;
    font-size: 14px;
    font-weight: 500;
   }
-
-
 
 }
 

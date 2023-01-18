@@ -1,4 +1,16 @@
 import React from "react";
+
+import StoriesSection from "../CommonComponents/StoriesSection/StoriesSection";
+import { Industries } from "../CommonComponents/industries/Industries";
+import PlanProject from "../CommonComponents/PlanProject/PlanProject";
+import OndemandSection from "../CommonComponents/OnDemandSection/OndemandSection";
+import PortFolio from "../CommonComponents/PortFolioSection/PortFolio";
+import { SeoblogSection } from "../CommonComponents/SeoBlogs/Seoblogs";
+import Revamping from "../CommonComponents/revamping/Revamping";
+import { TextDropdown } from "../CommonComponents/faqSection/Faqs";
+import ContectForm from "../CommonComponents/ContectForm/ContectForm";
+import MainFooter from "../CommonComponents/FooterSection/MainFooter";
+
 import { TrendingTechnologyBanner } from "./TrendingTechnologyBanner";
 import { TrendingTechnologyService } from "./TrendingTechnologyService";
 import { TrendingTechnologyLowerBanner } from "./TrendingTechnologyLowerBanner";
@@ -8,24 +20,20 @@ export default function TrendingTech () {
   return (
     <div>
       <TrendingTechnologyBanner />
-     <TrendingTechnologyService />
+      <TrendingTechnologyService />
       <TrendingTechnologyLowerBanner />
-        <TrendingWhyChoose />
- 
- 
+      <TrendingWhyChoose />
 
-      {/*<StoriesSection />
+      <StoriesSection />
       <Industries />
-     <PlanProject />
+      {/* <PlanProject /> */}
       <OndemandSection />
-       <PortFolio />
+      {/* <PortFolio /> */}
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
-    <MainFooter /> */}
-
-
+      {/* <MainFooter /> */}
     </div>
   );
 };

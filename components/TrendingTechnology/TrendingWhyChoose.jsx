@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 import styles from "./TrendingWhyChoose.module.css";
 
-
 export const TrendingWhyChoose = () => {
-
-        const trendingwhychoosedata = [
+    const trendingwhychoosedata = [
         {
             no: 1,
             htxt: "cost savings",
@@ -41,29 +39,33 @@ export const TrendingWhyChoose = () => {
             stxt: "Xamarin the cross-platform framework helps Xamarin's developers keep the insights track of the app's exceptions and crashes resulting in the application's performance improvisation.",
         },
     ]
-  return (
+    return (
+        <div className={styles.trendingtechnologywhychoosemainboxes}>
+            <h1>Why Choose Bottom Funnel ? </h1>
+            <p>We at Bottom Funnel provide be spoke mobility solutions as one of the leading mobile application development company in UK & India. Whether you are looking for a multi-platform mobile app development company or a professional and be spoke mobile application creation service, you have come to the right place.you can rely on our talented team of mobile app developers to help you achieve your business goals and convey your message directly to your customers.We offer our customers a transformative digital experience with our web and mobile app development services.</p>
+            <div className={styles.trendingtechnologywhychoosemainboxesmapperspecialbox}>
+                <div className={styles.trendingtexhwhychooseflexbox}>
+                    {trendingwhychoosedata.map((e) => {
+                        return (
+                            <div className={styles.indivisuallytrendingwhychooseus}>
+                                <div className={styles.numberandhtxtindtrentech}>
 
-<div className={styles.trendingwhychooseushedingbox}><h1>Why Choose Bottom Funnel ?</h1>
-<p>We at Bottom Funnel provide be spoke mobility solutions as one of the leading mobile application development company in UK & India. Whether you are looking for a multi-platform mobile app development company or a professional and be spoke mobile application creation service, you have come to the right place.you can rely on our talented team of mobile app developers to help you achieve your business goals and convey your message directly to your customers.We offer our customers a transformative digital experience with our web and mobile app development services.</p>
+                                    <div className={styles.numberindtrentech}>
+                                        <h1>{e.no}.</h1>
+                                    </div>
 
+                                    <div className={styles.textindtrentech}>
+                                        <h4>{e.htxt}</h4>
+                                    </div>
+                                </div>
+                                <p>{e.stxt}</p>
 
+                            </div>
+                        )
+                    })}</div>
 
-    <div className={styles.trendingwhychoosemainboxes}>
-
-    <div className={styles.trendingwhychoosedatamappingdata}>{trendingwhychoosedata.map((e)=>{
-        return (
-            <div className={styles.trendingwhychoosedatamappingdataindi}>
-            <div className={styles.trendingtechwhychooseindflexboxuppertxt}>
-            <div className={styles.trendingtechwhychooseindflexboxuppertxtno}>{e.no}</div>
-            <div className={styles.trendingtechwhychooseindflexboxuppertxtheading}>{e.htxt}</div>
             </div>
-            <p className={styles.trendingwhychooseptag}>{e.stxt}</p>
-            </div>
-        )
-    })}</div>
-    
-    
-    </div>
-    </div>
-  )
+
+        </div>
+    )
 }

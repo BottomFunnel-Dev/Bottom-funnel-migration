@@ -1,4 +1,4 @@
-@media only screen and (min-width:900px){
+@media only screen and (min-width:769px){
 .spanText {
   color: #ef4c23;
 }
@@ -91,7 +91,7 @@
 
 /* For Mobile screen Only any type of mobile */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:376px){
 .spanText {
   color: #ef4c23;
 
@@ -192,7 +192,7 @@ padding: 2%;
 }
 
 /* For tablet screens */
-@media only screen and ( min-width:481px) and (max-width:900px){
+@media only screen and ( min-width:377px) and (max-width:769px){
   .spanText {
     color: #ef4c23;
   }

@@ -28,7 +28,6 @@ export const Techstackintro = ({ techContent }) => {
                     background: "#ffe2da",
                     borderLeft: "5px solid #ef4c23",
                     color: "#ef4c23",
-              
                   }
                   : {}
               }

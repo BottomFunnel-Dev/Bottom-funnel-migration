@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react'
-import Slider from "react-slick";
 import styles from "./IceCreamAdminPannel.module.css"
 
 export const IceCreamAdminPannel = () => {
@@ -47,19 +46,8 @@ export const IceCreamAdminPannel = () => {
         },
     ]
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        adaptiveHeight: true
-
-    };
 
   return (
-
-
-
     <div className={styles.icecreamadminpannelmainboxes}>
     <div className={styles.icecreamadminpannelmainboxsometextupper}>
     <h2>Admin Pannel</h2>
@@ -67,10 +55,6 @@ export const IceCreamAdminPannel = () => {
     <div className={styles.icecreamadminpannelmainflexboxclass}>
     <div className={styles.icecreamadminpannelleftbox}>{icecreamadmindata.map((e)=>{
         return (
-
-
-            <Slider{...settings}>
-
             <div className={styles.icecreamadminpannelmapperboxindivisyal}
             key={e.htxt} onMouseEnter={() => {
             
@@ -85,16 +69,9 @@ export const IceCreamAdminPannel = () => {
             <h4>{e.headertext}</h4>
             <p>{e.paragraph}</p>
             </div>
-          
             </div>
-            </Slider>
         )
-        
-    })}
-    
-
-    </div>
-    
+    })}</div>
     <div className={styles.icecreamadminpannelrightbox}>
     <div className={styles.icecreamadminpannelrightboxinnerimage}>
     <img src={imageChange} alt='' />

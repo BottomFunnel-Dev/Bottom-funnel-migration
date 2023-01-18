@@ -86,7 +86,7 @@ export const webservice = [
   {
     dropContent: "Java Development",
     navIcons: "Images/navbar/services/javaimage.png",
-    path: "java-development",
+    path: "Java-development",
   },
   {
     dropContent: "Python Development",
@@ -114,12 +114,12 @@ export const appservice = [
   {
     dropContent: "Andriod App Development",
     navIcons: "Images/navbar/services/andriod.png",
-    path: "android-development",
+    path: "android",
   },
   {
     dropContent: "IOS App Development",
     navIcons: "Images/navbar/services/iosimage.png",
-    path: "ios-development",
+    path: "ios",
   },
   {
     dropContent: "Kotlin App Development",
@@ -129,27 +129,27 @@ export const appservice = [
   {
     dropContent: "Flutter App Development",
     navIcons: "Images/navbar/services/flutter.png",
-    path: "flutter-development",
+    path: "flutter",
   },
   {
     dropContent: "React Native App Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "reactnative-development",
+    path: "reactnative",
   },
   {
     dropContent: "Xamarian App Development",
     navIcons: "Images/navbar/services/xamarian.png",
-    path: "xamarin-development",
+    path: "Xamarin-Development",
   },
   {
     dropContent: "Ionic App Development",
     navIcons: "Images/navbar/services/ionic.png",
-    path: "ionic-development",
+    path: "ionic",
   },
   {
     dropContent: "Wearable App Development",
     navIcons: "Images/navbar/services/wearable.png",
-    path: "wearableapp-development",
+    path: "wearable-app-development",
   },
   {
     dropContent: "Mobile UI UX ",
@@ -162,7 +162,7 @@ export const digitalmarket = [
   {
     dropContent: "SEO Services",
     navIcons: "Images/navbar/services/seo.png",
-    path: "seo-services",
+    path: "seo",
   },
   {
     dropContent: "Local SEO Services",
@@ -192,7 +192,7 @@ export const digitalmarket = [
   {
     dropContent: "Email Marketing Services",
     navIcons: "Images/navbar/services/email.png",
-    path: "seoemail-services",
+    path: "emailservices",
   },
 ];
 
@@ -582,13 +582,13 @@ export const backend = [
   {
     dropContent: "CakePHP",
     navIcons: "Images/navbar/skills/cakephp.png",
-    path: "skills/cakePhp",
+    path: "cakephp",
   },
 
   {
     dropContent: "CodeIgniter",
     navIcons: "Images/navbar/skills/codeigniter.png",
-    path: "skills/codeigniter",
+    path: "codeigniter",
   },
   {
     dropContent: "Flask",
@@ -643,7 +643,7 @@ export const backend = [
   {
     dropContent: "Cherrpy",
     navIcons: "Images/navbar/skills/cherrpy.png",
-    path: "skills/cherrypy",
+    path: "",
   },
 ];
 
@@ -656,7 +656,7 @@ export const frontend = [
   {
     dropContent: "Angular",
     navIcons: "Images/navbar/skills/angular.png",
-    path: "skills/angularjs",
+    path: "angular",
   },
   {
     dropContent: "Vue.js",
@@ -681,7 +681,7 @@ export const frontend = [
   {
     dropContent: "Backbone.js",
     navIcons: "Images/navbar/skills/backbone js.png",
-    path: "skills/backbonejs",
+    path: "backbonejs",
   },
   {
     dropContent: "Svelte",
@@ -787,7 +787,7 @@ export const database = [
   {
     dropContent: "Cassandra",
     navIcons: "Images/navbar/skills/cassandra.png",
-    path: "skills/cassandra",
+    path: "Cassandra",
   },
 ];
 
@@ -825,7 +825,7 @@ export const cms = [
   {
     dropContent: "Big Commerce",
     navIcons: "Images/navbar/skills/bigcommerce.png",
-    path: "skills/bigcommerce",
+    path: "bigcommerce",
   },
   {
     dropContent: "Ghost website builder",
@@ -1104,8 +1104,10 @@ export const productSolution = [
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
     productText2: "Travel & Hospitality",
-    path: "RetailEcommerce",
+    path:"RetailEcommerce"
   },
+
+  
 ];
 
 export const productDesk = [
@@ -1114,7 +1116,7 @@ export const productDesk = [
     productText1: "A comprehensive helpdesk for exceptional customer service",
     productText2: "SMB",
     navIcons: "Images/Logos/funnel-desk/support-desk.png",
-    path: "funnel-desk",
+    path:"funnel-desk"
   },
   {
     dropContent: "Contact Center",
@@ -1122,7 +1124,7 @@ export const productDesk = [
       "A reliable and smart call center solution for effortless experience",
     productText2: "Field Service",
     navIcons: "Images/Logos/funnel-desk/contact-center.png",
-    path: "",
+    path:""
   },
   {
     dropContent: "Omnichannel Suite",
@@ -1142,193 +1144,194 @@ export const productDesk = [
 export const productFeatures = [
   {
     dropContent: "Ticketing",
-    path: "ticketing",
+    path:"ticketing",
   },
   {
     dropContent: "Collaboration",
-    path: "Collaboration",
+    path:"Collaboration",
   },
   {
     dropContent: "Automations",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Help Widget",
-    path: "helpDesk",
+    path:"helpDesk",
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Security",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Integration",
-    path: "",
+    path:"",
   },
 ];
 
 export const productResources = [
   {
     dropContent: "Remote Support",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Customer Stories",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Resource Library",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Webinars",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Videos",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Free Tools",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Academy",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Blog",
-    path: "",
+    path:"",
   },
   {
-    dropContent: "What's new",
-    path: "",
-  },
+    dropContent:"What's new",
+    path:"",
+  }
 ];
 
 export const salesProduct = [
   {
     dropContent: "Bottom Funnel Sales",
-    productText1: "Sales CRM",
+    productText1:"Sales CRM",
     navIcons: "Images/navbar/product/bottomFunnnelSales.png",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Bottom Funnel Suite",
-    productText1: "Sales & Markeing CRM",
+    productText1:"Sales & Markeing CRM",
     navIcons: "Images/navbar/product/Sales.png",
-    path: "",
+    path:"",
   },
 ];
 
 export const salesFeatures = [
   {
     dropContent: "Contact Management",
-    path: "ContactManagement",
+    path:"ContactManagement",
   },
   {
     dropContent: "Cloud Telephony",
-    path: "cloudTelephony",
+    path:"cloudTelephony",
   },
   {
     dropContent: "CPQ",
-    path: "cpq",
+    path:"cpq",
   },
   {
     dropContent: "Deal Management",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Email Integration",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Olly AI",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Mobile",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Sales Reports",
-    path: "",
+    path:"",
   },
 ];
 
 export const salesResources = [
   {
     dropContent: "Case Study",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Product Tour",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Blog",
-    path: "",
+    path:"",
   },
   {
     dropContent: "What's new",
-    path: "",
+    path:"",
   },
 ];
 
 export const salesIndustries = [
   {
     dropContent: "Real Estate",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Manufacturing",
-    path: "manufacturing",
+    path:"manufacturing",
   },
   {
     dropContent: "SAAS",
-    path: "saaSHomePage",
+    path:"saaSHomePage",
   },
   {
     dropContent: "Hospitality",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Insurance",
-    path: "insuranceSales",
+    path:"insuranceSales",
   },
   {
     dropContent: "Logistics",
-    path: "Logistics",
+    path:"Logistics",
   },
   {
     dropContent: "Agency",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Retail",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Finance",
-    path: "",
+    path:"",
   },
   {
     dropContent: "HealthCare",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Education",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Travel Agency",
-    path: "",
+    path:"",
   },
   {
     dropContent: "Law Firm",
-    path: "",
+    path:"",
   },
 ];
+

@@ -1,5 +1,7 @@
 /* for laptop and higher screen */
-@media only screen and (min-width:900px){
+@media only screen and (min-width:769px){
+
+
 .getStarted {
   width: 99%;
   height: 120px;
@@ -8,7 +10,6 @@
   background-size: 100%;
   background-repeat: no-repeat;
   border: 0.3px solid #ef4c23;
-  margin: auto;
 }
 
 .getText {
@@ -51,7 +52,7 @@
 
 
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:376px){
   .getStarted {
     width: 100%;
     height: 120px;
@@ -106,7 +107,7 @@ text-align: justify;
   }
 
 
-  @media only screen and ( min-width:481px) and (max-width:900px){
+  @media only screen and ( min-width:377px) and (max-width:769px){
 
     .getStarted {
       width: 100%;
@@ -116,7 +117,6 @@ text-align: justify;
       background-size: 100% 100%;
       background-repeat: no-repeat;
       border: 0.3px solid #ef4c23;
-      margin-top: 5%;
     }
     
     .getText {
