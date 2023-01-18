@@ -129,7 +129,7 @@ export const appservice = [
   {
     dropContent: "Flutter App Development",
     navIcons: "Images/navbar/services/flutter.png",
-    path: "flutter",
+    path: "flutter-development",
   },
   {
     dropContent: "React Native App Development",
