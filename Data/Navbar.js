@@ -134,22 +134,22 @@ export const appservice = [
   {
     dropContent: "React Native App Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "reactnative",
+    path: "reactnative-development",
   },
   {
     dropContent: "Xamarian App Development",
     navIcons: "Images/navbar/services/xamarian.png",
-    path: "Xamarin-Development",
+    path: "xamarin-development",
   },
   {
     dropContent: "Ionic App Development",
     navIcons: "Images/navbar/services/ionic.png",
-    path: "ionic",
+    path: "ionic-development",
   },
   {
     dropContent: "Wearable App Development",
     navIcons: "Images/navbar/services/wearable.png",
-    path: "wearable-app-development",
+    path: "wearableapp-development",
   },
   {
     dropContent: "Mobile UI UX ",
@@ -162,7 +162,7 @@ export const digitalmarket = [
   {
     dropContent: "SEO Services",
     navIcons: "Images/navbar/services/seo.png",
-    path: "seo",
+    path: "seo-services",
   },
   {
     dropContent: "Local SEO Services",
@@ -192,7 +192,7 @@ export const digitalmarket = [
   {
     dropContent: "Email Marketing Services",
     navIcons: "Images/navbar/services/email.png",
-    path: "emailservices",
+    path: "seoemail-services",
   },
 ];
 
