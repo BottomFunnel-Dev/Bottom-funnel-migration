@@ -1,11 +1,11 @@
 import React from "react";
 
-import { OnlinePaymentAppSolutionBanner } from "../../components/OnlinePaymentAppSolution/OnlinePaymentAppSolutionBanner";
-import { OnlinePaymentExclusive } from "../../components/OnlinePaymentAppSolution/OnlinePaymentExclusive";
-import { OnlinePaymentApplications } from "../../components/OnlinePaymentAppSolution/OnlinePaymentApplications";
-import { OnlinePaymentAdminPannel } from "../../components/OnlinePaymentAppSolution/OnlinePaymentAdminPannel";
-import { OnlinePMobileBrowser } from "../../components/OnlinePaymentAppSolution/OnlinePMobileBrowser";
-import { OnlinePaymentWhyChoose } from "../../components/OnlinePaymentAppSolution/OnlinePaymentWhyChoose";
+import { EyeWearDeliveryBanner } from "../../components/EyeWearDeliveryPage/EyeWearDeliveryBanner";
+import { EyeWearDevelopmentSolution } from "../../components/EyeWearDeliveryPage/EyeWearDevelopmentSolution";
+import { EyeWearAccelerate } from "../../components/EyeWearDeliveryPage/EyeWearAccelerate";
+import { EyeWearCustomerApp } from "../../components/EyeWearDeliveryPage/EyeWearCustomerApp";
+import { EyeWearDeliveryDriverApp } from "../../components/EyeWearDeliveryPage/EyeWearDeliveryDriverApp";
+import { EyeWearDeliveryAdmin } from "../../components/EyeWearDeliveryPage/EyeWearDeliveryAdmin";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -15,16 +15,18 @@ import StoriesSection from "../../components/CommonComponents/StoriesSection/Sto
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
+import Navbar from "../../components/Navbar/Navbar";
 
-export default function OnlinePaymentApplication() {
+export default function EyewearDeliverPage() {
   return (
     <div>
-      <OnlinePaymentAppSolutionBanner />
-      <OnlinePaymentExclusive />
-      <OnlinePaymentApplications />
-      <OnlinePaymentAdminPannel />
-      <OnlinePMobileBrowser />
-      <OnlinePaymentWhyChoose />
+      <Navbar />
+      <EyeWearDeliveryBanner />
+      <EyeWearDevelopmentSolution />
+      <EyeWearAccelerate />
+      <EyeWearCustomerApp />
+      <EyeWearDeliveryDriverApp />
+      <EyeWearDeliveryAdmin />
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
@@ -37,4 +39,4 @@ export default function OnlinePaymentApplication() {
       <MainFooter />
     </div>
   );
-};
+}

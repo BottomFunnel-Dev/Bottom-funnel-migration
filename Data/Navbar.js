@@ -298,7 +298,7 @@ export const industries = [
   {
     dropContent: "Game Development",
     navIcons: "Images/navbar/industriesImage/gamedev.png",
-    path: "gameDevelopment",
+    path: "game-development",
   },
   {
     dropContent: "E-commerce",
@@ -338,12 +338,12 @@ export const industries = [
   {
     dropContent: "Social Media",
     navIcons: "Images/navbar/industriesImage/social media.png",
-    path: "Social-Media",
+    path: "social-media",
   },
   {
     dropContent: "Logistics",
     navIcons: "Images/navbar/industriesImage/logistics.png",
-    path: "Logistics",
+    path: "logistics",
   },
   {
     dropContent: "Politics",
@@ -373,7 +373,7 @@ export const industries = [
   {
     dropContent: "eScooter",
     navIcons: "Images/navbar/industriesImage/escooter.png",
-    path: "eScooter",
+    path: "e-scooter",
   },
   {
     dropContent: "Travel",
@@ -383,7 +383,7 @@ export const industries = [
   {
     dropContent: "Aviation",
     navIcons: "Images/navbar/industriesImage/avaitions.png",
-    path: "Aviation",
+    path: "aviation",
   },
   {
     dropContent: "Telecommunication",
