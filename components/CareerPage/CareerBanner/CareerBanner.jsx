@@ -1,13 +1,14 @@
 import React from "react";
-import "./CareerBanner.css";
+import career from "./CareerBanner.module.css";
 
 export const CareerBanner = () => {
   return (
-    <div className="Career-banner-main">
-      <div className="Career-Banner-image">
-        <img src="Images/careerPhotos/banner.png" alt="Career banner" />
+    <div className={career.careerBannerMain}>
+      <div className={career.careerBannerImage}>
+        <img src="/Images/careerPhotos/banner.png" alt="Career banner" />
       </div>
-      <div className="Career-banner-content">
+
+      <div className={career.careerBannerContent}>
         <h1>
           Work With the best In <span>Bottom Funnel</span>
         </h1>

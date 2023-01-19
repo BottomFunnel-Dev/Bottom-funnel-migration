@@ -1,12 +1,4 @@
-import React from 'react';
-import styles from "./VettingPage.module.css";
-
-import { VettingBanner } from '../../components/VettingPage/VettingBanner/VettingBanner';
-import { VettingProcess } from '../../components/VettingPage/VettingProcess/VettingProcess';
-import { VettingTalent } from '../../components/VettingPage/VettingTalent/VettingTalent';
-import { VettingHiring } from '../../components/VettingPage/VettingHiring/VettingHiring';
-import { VettingGrow } from '../../components/VettingPage/VettingGrow/VettingGrow';
-import { VettingRoles } from '../../components/VettingPage/VettingRoles/VettingRoles';
+import React from "react";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -18,17 +10,19 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function Vetting () {
+import { CareerBanner } from "../../components/CareerPage/CareerBanner/CareerBanner";
+import { CareerMain } from "../../components/CareerPage/CareerMain/CareerMain";
+import { CareerReferral } from "../../components/CareerPage/CareerReferral/CareerReferral";
+
+const index = () => {
   return (
-    <div className={styles.vettingPageContainer}>
-    <Navbar />
-      <VettingBanner />
-      <VettingProcess />
-      <VettingTalent />
-      <VettingHiring />
-      <VettingGrow />
-      <VettingRoles />
-      
+    <div style={{ color: "#393939" }}>
+      <Navbar />
+      <CareerBanner />
+      <CareerMain />
+      <CareerReferral />
+      {/* <CarrerMidBanner /> */}
+
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
@@ -42,3 +36,5 @@ export default function Vetting () {
     </div>
   );
 };
+
+export default index;

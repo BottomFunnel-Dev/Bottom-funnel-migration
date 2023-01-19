@@ -1,12 +1,12 @@
 import React from "react";
 import { CareerOpportunities } from "../CareerOpportunities/CareerOpportunities";
-import "./CareerMain.css";
+import career from "./CareerMain.module.css";
 
 export const CareerMain = () => {
   return (
-    <div className="CareerMain-container">
-      <div className="CareerMain-background-blackcolor"></div>
-      <div className="CareerMain-content">
+    <div className={career.careerMainContainer}>
+      <div className={career.careerMainBackgroundBlackcolor}></div>
+      <div className={career.careerMainContent}>
         <CareerOpportunities />
       </div>
     </div>

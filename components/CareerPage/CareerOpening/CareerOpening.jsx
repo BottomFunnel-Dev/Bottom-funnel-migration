@@ -1,5 +1,5 @@
 import React from "react";
-import "./CareerOpening.css";
+import career from "./CareerOpening.module.css";
 
 export const CareerOpening = () => {
   const OpeningData = [
@@ -16,8 +16,8 @@ export const CareerOpening = () => {
   ];
 
   return (
-    <div className="CareerOpening-container">
-      <div className="CareerOpenging-searchbar">
+    <div className={career.careerOpeningContainer}>
+      <div className={career.careerOpengingSearchbar}>
         <input type="text" placeholder="Find your role" />
         <button>
           <svg
@@ -30,7 +30,8 @@ export const CareerOpening = () => {
           </svg>
         </button>
       </div>
-      <div className="CareerOpening-filter-button">
+
+      <div className={career.careerOpeningFilterButton}>
         <h2>Showing 10 openings</h2>
         <button>
           <p>Filters</p>
@@ -47,7 +48,8 @@ export const CareerOpening = () => {
           </svg>
         </button>
       </div>
-      <div className="CareerOpenging-main">
+
+      <div className={career.careerOpengingMain}>
         {OpeningData.map((elem) => (
           <div key={elem}>
             <h2>{elem}</h2>

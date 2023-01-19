@@ -1,26 +1,26 @@
-.CareerReason-container {
+.careerReasonContainer {
   width: 100%;
   padding: 1% 0;
   background: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.CareerReason-container > span {
+.careerReasonContainer > span {
   font-size: 12px;
   padding-left: 2%;
 }
 
-.CareerReason-container > h1 {
+.careerReasonContainer > h1 {
   font-size: 35px;
   width: 96%;
   margin: 0 auto;
 }
 
-.CareerReason-container > h1 > span {
+.careerReasonContainer > h1 > span {
   color: #ef4c23;
 }
 
-.CareerReason-container > div {
+.careerReasonContainer > div {
   width: 95%;
   margin: 2% auto;
   display: flex;
@@ -28,16 +28,16 @@
   justify-content: space-evenly;
 }
 
-.CareerReason-content {
+.careerReasonContent {
   width: 55%;
 }
 
-.CareerReason-content > p {
+.careerReasonContent > p {
   font-size: 16px;
   text-align: justify;
 }
 
-.CareerReason-content > button {
+.careerReasonContent > button {
   font-size: 18px;
   font-weight: 600;
   width: fit-content;
@@ -54,15 +54,15 @@
   color: white;
 }
 
-.CareerReason-content > button:hover {
+.careerReasonContent > button:hover {
   color: #ef4c23;
   background-color: white;
 }
 
-.CareerReason-image {
+.careerReasonImage {
   width: 35%;
 }
 
-.CareerReason-image > img {
+.careerReasonImage > img {
   width: 100%;
 }

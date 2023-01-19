@@ -1,9 +1,9 @@
 import React from "react";
-import "./CarrerMidBanner.css";
+import career from "./CarrerMidBanner.module.css";
 
 export const CarrerMidBanner = () => {
   return (
-    <div className="CarrerMidBanner-container">
+    <div className={career.carrerMidBannerContainer}>
       <h1>
         Join Our <span>Team</span>
       </h1>

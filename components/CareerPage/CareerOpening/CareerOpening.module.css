@@ -1,10 +1,10 @@
-.CareerOpening-container {
+.careerOpeningContainer {
   background: white;
   padding-top: 2%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.CareerOpenging-searchbar {
+.careerOpengingSearchbar {
   border: 1px solid #bbbbbb;
   border-radius: 5px;
   width: 95%;
@@ -15,7 +15,7 @@
   padding: 0.5%;
 }
 
-.CareerOpenging-searchbar > input {
+.careerOpengingSearchbar > input {
   font-size: 18px;
   font-weight: 600;
   color: #393939;
@@ -26,11 +26,11 @@
   outline: none;
 }
 
-.CareerOpenging-searchbar > input::placeholder {
+.careerOpengingSearchbar > input::placeholder {
   color: #393939;
 }
 
-.CareerOpenging-searchbar > button {
+.careerOpengingSearchbar > button {
   color: #393939;
   background: transparent;
   width: 5%;
@@ -44,23 +44,23 @@
   justify-content: center;
 }
 
-.CareerOpenging-searchbar > button > svg {
+.careerOpengingSearchbar > button > svg {
   width: 20px;
   height: 20px;
 }
 
-.CareerOpening-filter-button {
+.careerOpeningFilterButton {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.CareerOpening-filter-button > h2 {
+.careerOpeningFilterButton > h2 {
   font-size: 20px;
   width: 80%;
 }
 
-.CareerOpening-filter-button > button {
+.careerOpeningFilterButton > button {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,46 +72,46 @@
   border: 2px solid #d9d9d9;
 }
 
-.CareerOpening-filter-button > button > p {
+.careerOpeningFilterButton > button > p {
   font-size: 18px;
   margin: 0;
 }
 
-.CareerOpening-filter-button > button > svg {
+.careerOpeningFilterButton > button > svg {
   width: 20px;
   height: 20px;
   transform: rotate(90deg);
   transition: transform 200ms linear;
 }
 
-.CareerOpening-filter-button > button:hover svg {
+.careerOpeningFilterButton > button:hover svg {
   transform: rotate(0deg);
 }
 
-.CareerOpenging-main {
+.careerOpengingMain {
   height: 105vh;
   padding: 0 1% 0 1%;
   overflow-y: scroll;
 }
 
-.CareerOpenging-main::-webkit-scrollbar {
+.careerOpengingMain::-webkit-scrollbar {
   width: 15px;
 }
 
-.CareerOpenging-main::-webkit-scrollbar-thumb {
+.careerOpengingMain::-webkit-scrollbar-thumb {
   background: #d9d9d9;
   border-radius: 30px;
 }
 
-.CareerOpenging-main::-webkit-scrollbar-thumb:hover {
+.careerOpengingMain::-webkit-scrollbar-thumb:hover {
   background: #393939;
 }
 
-.CareerOpenging-main::-webkit-scrollbar-track {
+.careerOpengingMain::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
-.CareerOpenging-main > div {
+.careerOpengingMain > div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,21 +119,21 @@
   border-bottom: 1px solid #d9d9d9;
 }
 
-.CareerOpenging-main > div > h2 {
+.careerOpengingMain > div > h2 {
   font-size: 25px;
   width: 90%;
 }
 
-.CareerOpenging-main > div > svg {
+.careerOpengingMain > div > svg {
   width: 25px;
   height: 25px;
   visibility: hidden;
 }
 
-.CareerOpenging-main > div:hover {
+.careerOpengingMain > div:hover {
   background: #f5f5f5;
 }
 
-.CareerOpenging-main > div:hover svg {
+.careerOpengingMain > div:hover svg {
   visibility: visible;
 }
