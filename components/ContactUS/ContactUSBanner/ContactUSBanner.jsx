@@ -3,9 +3,9 @@ import styles from "./ContactUSBanner.module.css";
 
 export const ContactUSBanner = () => {
   return (
-    <div className={styles.ContactUSBanner-main}>
+    <div className={styles.contactUSBannerMain}>
       <div className={styles.ContactUsBannerimage}>
-        <img src="Images/ContactUS/banner.png" alt="Contact us banner" />
+        <img src="/Images/ContactUS/banner.png" alt="Contact us banner" />
       </div>
       <div className={styles.ContactUsBannerContent}>
         <h1>
