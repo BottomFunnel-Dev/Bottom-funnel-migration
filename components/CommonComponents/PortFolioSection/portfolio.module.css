@@ -2,6 +2,7 @@
   width: 100%;
   height: 800px;
   /* background-color: violet; */
+  box-sizing: border-box;
 }
 .portfolioSection > h1 {
   color: #ef4c23;
@@ -16,11 +17,12 @@
   /* height: 800px; */
   border: 2px solid black;
   position: relative;
+  box-sizing: border-box;
 }
 .activeMainSlide {
   width: 100%;
   height: 706px;
-
+box-sizing: border-box;
   /* height: 800px; */
   /* background-color: green; */
   /* border: 2px solid black; */
@@ -35,6 +37,7 @@
   /* background-color: aquamarine; */
   position: absolute;
   border-radius: 15px;
+  box-sizing: border-box;
   /* opacity: 0%; */
 }
 .mainSlide div:nth-child(1) > img {
@@ -49,6 +52,7 @@
   top: 49%;
   opacity: 100%;
   transition: 4s;
+  box-sizing: border-box;
 }
 
 .mainSlide div:nth-child(2) {
@@ -59,6 +63,7 @@
   top: 59.5%;
   right: -53%;
   height: 74%;
+  box-sizing: border-box;
 }
 .mainSlide div:nth-child(2) > img {
   width: 100%;
@@ -70,6 +75,7 @@
   transition: 3s;
   height: 74%;
   top: 49.5%;
+  box-sizing: border-box;
 }
 
 .portfolioText {
@@ -79,6 +85,7 @@
   top: 70px;
   left: 30px;
   border-radius: 10px;
+  box-sizing: border-box;
   /* background-color: blueviolet; */
   padding: 10px;
   color: white;
@@ -96,6 +103,7 @@
   /* background-color: red; */
   position: absolute;
   bottom: 0;
+  box-sizing: border-box;
 }
 .bottomfunnelBranding > img {
   width: 100%;
@@ -107,6 +115,7 @@
   width: 100%;
   /* background-color: green; */
   height: 100px;
+  box-sizing: border-box;
   /* text-align: center; */
 }
 
@@ -115,6 +124,7 @@
   width: 100%;
   margin-top: 10px;
   height: 100%;
+  box-sizing: border-box;
 }
 .techstack > p {
   margin: 5px;
@@ -125,6 +135,7 @@
   display: flex;
   column-gap: 10px;
   align-items: center;
+  box-sizing: border-box;
 }
 .appstore > span {
   width: 21%;
@@ -152,6 +163,7 @@
   bottom: 25px;
   font-family: cursive;
   left: 68px;
+  box-sizing: border-box;
 }
 
 .casestudy {
@@ -165,6 +177,7 @@
   padding: 10px 60px;
   border-radius: 25px;
   font-weight: 600;
+  box-sizing: border-box;
 }
 .casestudyIcon {
   font-size: 30px;

@@ -19,7 +19,7 @@ const PortFolio = () => {
     pauseOnHover: false,
     // swipeToSlide:true,
     vertical: true,
-    autoplay: true,
+    // autoplay: true,
 
     // cssEase: "linear",
     arrows: false,

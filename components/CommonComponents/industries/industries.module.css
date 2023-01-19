@@ -1,5 +1,6 @@
 .industries {
   width: 100%;
+  box-sizing: border-box;
 }
 
 .industriesService {
@@ -12,10 +13,14 @@
     rgba(255, 255, 255, 0.8)
   );
   backdrop-filter: blur(20px);
+  box-sizing: border-box;
+
 }
 .industriesService > div {
   width: 50%;
   padding: 40px;
+  box-sizing: border-box;
+
 }
 
 .logoImage {
@@ -23,6 +28,8 @@
   /* height: 200px; */
   position: relative;
   /* transition: all .8s ease-in; */
+  box-sizing: border-box;
+
 }
 .logoImage > img {
   width: 30%;
@@ -46,6 +53,8 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  box-sizing: border-box;
+
   justify-content: space-evenly;
   row-gap: 45px;
   /* background: #ef4c23; */
@@ -58,6 +67,7 @@
     rgba(255, 255, 255, 0.9),
     rgba(255, 255, 255, 0.8)
   );
+  box-sizing: border-box;
 
   width: 19%;
   height: 360px;
@@ -78,11 +88,15 @@
 .providedServices > .maincontentdiv > .industriesPTag {
   margin: 0;
   margin-bottom: 45px;
+  box-sizing: border-box;
+
 }
 .providedServices > .maincontentdiv > .industriesHeadingTag {
   color: #ef4c23 !important;
   margin-top: 60px;
   border: 1px solid red;
+  box-sizing: border-box;
+
 }
 
 .industryImage {
@@ -92,6 +106,8 @@
   position: absolute;
   top: -30px;
   right: 25px;
+  box-sizing: border-box;
+
 }
 .industryImage > img {
   width: 100%;

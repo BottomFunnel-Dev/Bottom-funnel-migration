@@ -2,12 +2,14 @@
   /* padding: 30px; */
   width: 100%;
   margin: 20px auto;
+  box-sizing: border-box;
 }
 ._Seoblogs12 > h2 {
   text-align: center;
   color:#ef4c23 ;
   margin: 0;
   padding: 30px;
+  box-sizing: border-box;
 }
 ._Seoblogs {
   width: 100%;
@@ -16,6 +18,7 @@
   align-items: center;
   gap: 1.5%;
   justify-content: center;
+  box-sizing: border-box;
   /* padding: 10px; */
   /* justify-content: space-between; */
 }
@@ -26,6 +29,7 @@
 }
 ._SeoBlogsStories {
   width: 700px;
+  box-sizing: border-box;
 }
 
 ._Seoblogs1 {
@@ -35,10 +39,12 @@
   width: 23%;
   box-shadow: 0px 0px 30px 2px rgb(236 234 234);
   box-sizing: border-box;
+  box-sizing: border-box;
 }
 ._Seoblogs1:hover {
   transition: all .3s linear;
   transform: scale(1.02);
+  box-sizing: border-box;
   /* box-shadow: 0px 1px 1px 1px rgb(210, 207, 207); */
   box-shadow: 1px 1px 30px 2px rgb(236 234 234);
 }
@@ -57,6 +63,7 @@
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 ._Seoblogstext {
@@ -65,7 +72,7 @@
 ._Seoblogstext p:nth-child(1) {
  font-weight: 500;
  color: #393939;
-
+box-sizing: border-box;
  margin: 0;
  margin-bottom: 10px;
 
