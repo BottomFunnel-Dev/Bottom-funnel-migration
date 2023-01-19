@@ -162,7 +162,7 @@ export const digitalmarket = [
   {
     dropContent: "SEO Services",
     navIcons: "Images/navbar/services/seo.png",
-    path: "seo",
+    path: "seo-services",
   },
   {
     dropContent: "Local SEO Services",
@@ -192,7 +192,7 @@ export const digitalmarket = [
   {
     dropContent: "Email Marketing Services",
     navIcons: "Images/navbar/services/email.png",
-    path: "emailservices",
+    path: "seo-emailservices",
   },
 ];
 
@@ -215,7 +215,7 @@ export const trendingTech = [
   {
     dropContent: "Artificial Intelligence",
     navIcons: "Images/navbar/services/ai.png",
-    path: "artificial-inteligence",
+    path: "artificial-intelligence",
   },
   {
     dropContent: "Data Science",
@@ -225,7 +225,7 @@ export const trendingTech = [
   {
     dropContent: "Crypto currency Development",
     navIcons: "Images/navbar/services/crypto.png",
-    path: "Crypto-Development",
+    path: "crypto-development",
   },
   {
     dropContent: "Customised Web Development",
@@ -245,7 +245,7 @@ export const trendingTech = [
   {
     dropContent: "NFT Development",
     navIcons: "Images/navbar/services/nft.png",
-    path: "NFT-Development",
+    path: "nft-development",
   },
   {
     dropContent: "IoT Development",
@@ -270,7 +270,7 @@ export const trendingTech = [
   {
     dropContent: "Business Intelligence",
     navIcons: "Images/navbar/services/bi.png",
-    path: "Business-intelligence",
+    path: "business-intelligence",
   },
   {
     dropContent: "Cloud",
