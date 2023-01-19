@@ -18,9 +18,9 @@ export default function AgencyHomePage() {
      <AgencyNeedCrm/>
      <Discover/>
      <AutomateTask/>
-    <Performing/>
+     <Performing/>
 
-     <EstateAgency/>
+        <EstateAgency/>
         <SalesWorldwide/>
         <MakeYourDeal/>
   

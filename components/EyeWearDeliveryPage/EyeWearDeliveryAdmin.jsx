@@ -12,21 +12,21 @@ export const EyeWearDeliveryAdmin = () => {
     {
       img: "/Images/EyewearDeliveryapp/Adminpanelscreens/dashboard.png",
       logo: "/Images/EyewearDeliveryapp/icons/prototyping.png",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "The dashboard for an admin panel can vary depending on the system you're using, but typically includes things like an overview of recent activity, a list of pending tasks or requests.",
       htxt: "Dashboard"
     },
 
     {
       img: "/Images/EyewearDeliveryapp/Adminpanelscreens/reports&analytics.png",
       logo: "/Images/EyewearDeliveryapp/icons/prototyping-9.png",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "By using the reports and analytics features in the admin app, you can see how your app is being used, what areas need improvement, and where users are struggling.      ",
       htxt: "Reports & Analytics"
     },
 
     {
       img: "/Images/EyewearDeliveryapp/Adminpanelscreens/notification&alerts.png",
       logo: "/Images/EyewearDeliveryapp/icons/prototyping-11.png",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "Notifications and alerts are a vital part of any admin app. They keep users informed of new developments, changes in status, and any other important information.",
       htxt: "Notifications & Alerts"
     },
 
@@ -34,7 +34,7 @@ export const EyeWearDeliveryAdmin = () => {
     {
       img: "/Images/EyewearDeliveryapp/Adminpanelscreens/paymentmanagement.png",
       logo: "/Images/EyewearDeliveryapp/icons/prototyping-10.png",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "you will need to integrate the payment provider into your app. This usually involves getting an API key from the provider and using it in your code.",
       htxt: "payments Management"
     },
   ]
@@ -44,7 +44,7 @@ export const EyeWearDeliveryAdmin = () => {
       <div className={styles.eyeweardeliveryadminpannelleftbox}>
         <div className={styles.eyeweardeliveryadmintextboxleftside}>
           <h1>Admin Pannel</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p> */}
           <div className={styles.eyeweardeliveryadminpannelwheremap}>
             {eyeweardeliveryadmindata.map((e) => {
               return (

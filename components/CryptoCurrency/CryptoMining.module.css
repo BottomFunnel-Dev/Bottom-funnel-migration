@@ -67,13 +67,14 @@
 }
 
 .cryptominingrightboxmapping {
-  height: fit-content;
+  height: auto;
   width: 45%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   display: flex;
   padding: 10px;
   border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
 .cryptominingrightboxmapping:hover {
@@ -84,7 +85,7 @@
 .cryptominingrightboxmappinglogo {
   width: 15%;
   height: 30%;
-
+  /* border: 2px solid red; */
   padding: 5px;
 }
 
@@ -92,11 +93,19 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
-}
+  }
 
 .cryptominingrightboxmappingtxt {
   width: 90%;
-
-  text-align: justify;
-  height: 100%;
+  /* border: 2px solid green; */
+  padding: 10px;
+}
+.cryptominingrightboxmappingtxt>h4{
+  /* border: 2px solid red; */
+  margin-top: 1%;
+}
+.cryptominingrightboxmappingtxt>p{
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 14px;
 }

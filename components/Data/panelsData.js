@@ -763,7 +763,7 @@ export const datingCustomer = {
         alt: "Register image",
       },
       title: "Simple and Secure Login",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: "A simple and secure login system is essential for any online business.We provides a hassle-free way for customers to log in, while ensuring that their information is safe and secure. By using our App, businesses can give their customers the peace of mind that their personal data is protected.",
     },
     {
       img: {
@@ -771,7 +771,7 @@ export const datingCustomer = {
         alt: "Schedule",
       },
       title: "User-friendly Interface",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "The user-friendly interface is one of the most important aspects of a successful website or application. It is the first thing that users see and interact with, and it should be designed with their needs in mind. A user-friendly interface is easy to use and navigate, and it contains all the information that users need to know.",
     },
     {
       img: {
@@ -779,7 +779,7 @@ export const datingCustomer = {
         alt: "Multiple Payment Option image",
       },
       title: "Add your Interest",
-      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+      para: "When it comes to dating, everyone has different interests and preferences. Some people like to go on dates that are more casual, while others prefer something more formal. And now, with our new dating app, people can add their interests directly into the app!",
     },
 
     {
@@ -788,10 +788,82 @@ export const datingCustomer = {
         alt: "Track Order image",
       },
       title: "Easy to Search",
-      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+      para: "When it comes to finding a potential partner, dating apps have made things easier than ever. With just a few taps on your smartphone, you can have access to thousands of potential matches. And thanks to advanced search features, it’s easy to narrow down your options and find someone who meets your specific criteria.",
     },
   ],
   sectionTitle: "Customer App",
+
+};
+
+export const datingAdmin = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/DatingAppDev/Admin/Dashboard Management.png",
+        alt: "Dashboard Management",
+      },
+      title: "Dashboard Management",
+      para: "We provide best in class solutions to help you grow your business online. From analytics to marketing, we have it all covered. With our team of experts, we can create an e-commerce app that will boost your sales and profits.",
+    },
+    {
+      img: {
+        src: "Images/DatingAppDev/Admin/Manage Users.png",
+        alt: "Manage Users",
+      },
+      title: "Manage Users",
+      para: "Using our user-friendly interface, you will be able to analyze everything about your app right on your fingertips. Data will be updated automatically every day with real time information about user engagement,transactions,etc.",
+    },
+    {
+      img: {
+        src: "Images/DatingAppDev/Admin/Manage Categories.png",
+        alt: "Manage Categories",
+      },
+      title: "Manage Categories",
+      para: "When you're managing a large catalog of products,efficiency is key.From setting up product categories to installing integration, we'll do everything we can to ensure your website runs smoothly and efficiently.",
+    },
+  ],
+  sectionTitle: "Admin App",
+
+  // background: "Images/DatingAppDev/Customer/Four.png",
+};
+
+export const datingService = {
+  customerdata: [
+    {
+      img: {
+        src: "Images/DatingAppDev/Service/One.png",
+        alt: "Schedule Your Date",
+      },
+      title: "Schedule Your Date",
+      para: "In contrast, manual order tracking systems rely on human input and are typically seen in smaller or mid-sized businesses that handle fewer orders each day.",
+    },
+    {
+      img: {
+        src: "Images/DatingAppDev/Service/Two.png",
+        alt: "Live Chat",
+      },
+      title: "Live Chat",
+      para: "Don't let the gym get boring with Real Time Chat, you can connect with your trainer and other members in a healthy and fun way. Learn new excercises,follow their progress, and ask any question you want.",
+    },
+    {
+      img: {
+        src: "Images/DatingAppDev/Service/Three.png",
+        alt: "Simplicity In Searching",
+      },
+      title: "Simplicity In Searching",
+      para: "An alternative is to ask whether we can search through the dynamics of natural behaviors to find explicit evidence that these behaviors are simpler than they might have been.",
+    },
+
+    {
+      img: {
+        src: "Images/DatingAppDev/Service/Four.png",
+        alt: "Help Center",
+      },
+      title: "Help Center",
+      para: "A Help Center, where customers can find answers to their questions and solutins to their problems. Designed to reslove many common queries that are brand  receives, a Help Center should make it simple for customers to find the answers they're looking for.",
+    },
+  ],
+  sectionTitle: "Service Provider",
 
   // background: "Images/DatingAppDev/Customer/Four.png",
 };

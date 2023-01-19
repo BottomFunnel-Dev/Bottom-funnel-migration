@@ -8,8 +8,8 @@ import Datingfeatures from "../../components/Dating/Datingfeatures";
 
 import {
   datingCustomer,
-  logisticDrive,
-  logisticAdmin,
+  datingAdmin,
+  datingService,
 } from "../../components/Data/panelsData";
 
 import Customerapp from "../../components/Dating/Customerapp";
@@ -36,8 +36,8 @@ export default function Dating() {
       <Datingbrands />
       <Datingfeatures />
       <Customerapp customerData={datingCustomer} />
-      <Adminpannel customerData={datingCustomer} />
-      <Datingmobile customerData={datingCustomer} />
+      <Adminpannel customerData={datingAdmin} />
+      <Datingmobile customerData={datingService}/>
       {/* <Solutiondating /> */}
       <Datingstart />
       <DatingWhy />

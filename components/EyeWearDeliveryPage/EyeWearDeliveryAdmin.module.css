@@ -13,7 +13,8 @@
   height: 50%;
   width: 45%;
   position: relative;
-  margin-top: 10%;
+  margin-top: 8%;
+  /* border: 2px solid red; */
 }
 
 .eyeweardeliveryadminpannelrightbox > img {
@@ -29,10 +30,14 @@
   text-align: justify;
   left: 3%;
 }
-
+.eyeweardeliveryadmintextboxleftside>h1{
+  /* border: 2px solid red; */
+  margin-left: 3%;
+}
 .eyeweardeliveryadminpannelwheremap {
   display: flex;
   flex-wrap: wrap;
+  /* border: 2px solid red; */
 }
 
 .eyewearmappingdataboxadminpannel {
@@ -43,14 +48,29 @@
   margin: 3%;
   display: flex;
   padding: 10px;
+  /* border: 2px solid red; */
 }
-
+.eyewearmappingdataboxadminpannel>div>p{
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 14px;
+}
+.eyewearmappingdataboxadminpannel>div>h4{
+ /* border: 2px solid red; */
+ margin-top: 1%;
+}
 .eyewearmappingdataboxadminpannel:hover {
   transform: scale(1.02);
   background-color: #ffebef;
 }
 
 .eyeadminlogo {
-  margin: 1%;
-  padding: 10px;
+  /* margin: 1%; */
+  padding:10px;
+  /* border: 2px solid red; */
+}
+.eyeadminlogo>img{
+  /* border: 2px solid gold; */
+  height: 40px;
+  width: 40px;
 }

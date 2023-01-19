@@ -28,29 +28,44 @@
   /* height: 400px; */
   display: flex;
   flex-wrap: wrap;
+  /* border: 2px solid red; */
 }
 
 .eyewearcustomeraftermap1box {
   /* border: 2px solid red; */
-  height: fit-content;
+  height:auto;
   width: 42%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-left: 3%;
-  margin-top: 5%;
+  margin-top: 3%;
   display: flex;
   padding: 13px;
   border-radius: 10px;
 }
-
+.eyewearcustomeraftermap1box>div>h4{
+  /* border: 2px solid red;   */
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.eyewearcustomeraftermap1box>div>p{
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 14px;
+}
 .eyewearcustomeraftermap1box:hover {
   transform: scale(1.02);
   background-color: #ffebef;
 }
 
 .flexingeyewearcustomerforlogo {
-  height: 50%;
   width: 30%;
   padding: 5px;
+  /* border: 2px solid red; */
+}
+.flexingeyewearcustomerforlogo>img{
+  /* border: 2px solid red; */
+  width: 40px;
+  height: 40px;
 }
 
 .eyewearappcustomerappboxflextyperightbox {

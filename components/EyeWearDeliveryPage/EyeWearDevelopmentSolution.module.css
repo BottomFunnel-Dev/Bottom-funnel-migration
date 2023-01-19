@@ -26,12 +26,13 @@
 }
 .eyeweardeliveryserviceboxesmap {
   padding: 1%;
-  height: fit-content;
+  height: auto;
   width: 28%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1% 1% 1% 2%;
   background-color: white;
   border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
 .eyeweardeliveryserviceboxesmap:hover {

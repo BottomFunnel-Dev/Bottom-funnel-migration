@@ -39,13 +39,14 @@
 
 .datingAdminright > div {
   padding: 10px 10px 10px 10px;
-  height: 270px;
+  /* height: 270px; */
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   background-color: white;
   cursor: pointer;
+  /* border: 2px solid red; */
 }
 
 .datingAdminright > div:hover {
@@ -63,15 +64,18 @@
 }
 
 .datingAdminImage {
-  width: 45%;
-  height: 500px;
+  /* width: 45%; */
+  /* height: 500px; */
   text-align: right;
   margin: auto;
-  margin-top: -10px;
+  margin-left: 5%;
+  /* margin-top: -10px; */
+  /* border: 2px solid red; */
 }
 
 .datingAdminImage > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  /* border: 2px solid gold; */
 }

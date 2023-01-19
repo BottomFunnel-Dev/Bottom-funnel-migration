@@ -27,9 +27,7 @@ export default function DatingWhy() {
           <div>
             <h2>Why Choose Us</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere exercitationem pariatur incidunt consectetur ipsam
-              tempore, quam porro obcaecati, nesciunt natus praesentium provident error consequuntur esse expedita nam tempora.
-              Voluptates, similique.
+               Bottom funnel is the most popular choice for dating app solutions because it is a cost-effective solution that has been tested on many different platforms and will work with any platform you choose. Bottom funnel is a web application that uses a simple drag-and-drop process to create your custom dating site. You can then add all of the features you want, such as photo galleries, blogs, message boards, and more!
             </p>
           </div>
 
