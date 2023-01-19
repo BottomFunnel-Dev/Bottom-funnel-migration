@@ -1,0 +1,41 @@
+.helpdekbannermainboxes {
+  height: 100vh;
+  border: 1px solid white;
+  background-position-y: bottom;
+  background: url("/Images/helpdesk/Frame-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+}
+
+.helpdeskbannersometextbox {
+  height: fit-content;
+  width: 37%;
+
+  margin-left: 60%;
+  margin-top: 20%;
+}
+
+.helpdeskbannersometextbox > p {
+  border-top: 2px solid;
+  margin-top: 2%;
+}
+
+.helpdeskbannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 5%;
+}
+
+.helpdeskbannerbutton:hover {
+  background-color: white;
+  color: #ef4c23;
+}

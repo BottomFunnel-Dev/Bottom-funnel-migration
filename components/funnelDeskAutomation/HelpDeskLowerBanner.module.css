@@ -1,0 +1,41 @@
+.helpdesklowerbannermainbox {
+  height: 30vh;
+
+  border: 1px solid white;
+  background: url("/Images/helpdesk/Component 69.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.helpdesklowerbannertextbox {
+  height: fit-content;
+  width: 50%;
+
+  color: white;
+  margin: 2% 25% 0% 25%;
+  text-align: center;
+}
+
+.helpdesklowerbannersomebutton {
+  display: flex;
+  margin-left: 15%;
+}
+
+.button1helpdest {
+  padding: 10px 30px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 2%;
+}
+
+.button1helpdest:hover {
+  background-color: white;
+  color: #ef4c23;
+}
