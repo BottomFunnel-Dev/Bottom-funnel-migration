@@ -833,8 +833,6 @@
   transition: 0.2s linear;
 }
 
-
-
 /* This css is for the our-clients page slider section*/
 .clientSliderSliderDiv {
   position: relative;
@@ -907,4 +905,101 @@
 
 .clientSliderSliderArrow:hover {
   background-color: #d6d5d5;
+}
+
+/* this css is for the press and media file slider comps */
+.newsEventSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.newsEventSliderSliderDiv > h1 {
+  font-size: 32px;
+  margin-bottom: 1%;
+}
+
+.NewsEventSlider-slide {
+  width: 670px;
+  height: 300px;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+  text-align: center;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NewsEventSlider-slide-active {
+  width: 670px;
+  transform: scale(0.8);
+}
+
+.NewsEventSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.NewsEventSlider-slide > h2 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 0%;
+}
+
+.newsEventSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.newsEventSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsEventSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.newsEventSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.newsEventSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+.NewsEventSlider-slide:hover h2 {
+  color: #ef4c23;
 }

@@ -1,17 +1,6 @@
 import React from "react";
 
-import { ClientBanner } from "../../components/OurClient/ClientBanner/ClientBanner";
-import { ClientSlider } from "../../components/OurClient/ClientSlider/ClientSlider";
-import { OurClientbrand } from "../../components/OurClient/OurClientbrand/OurClientbrand";
-
-import {
-  branddata,
-  startupdata,
-  enterprisedata,
-  imageData,
-} from "../../Data/OurClient";
-
-import { TextDropdown } from "../../components/CommonComponents/faqction/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
 import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
@@ -21,15 +10,20 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function OurClients() {
+import { NewsEventBanner } from "../../components/PressAndMedia/NewsEventBanner/NewsEventBanner";
+import { NewsEventSection } from "../../components/PressAndMedia/NewsEventSection/NewsEventSection";
+import { MediaSection } from "../../components/PressAndMedia/MediaSection/MediaSection";
+import { NewsEventSlider } from "../../components/PressAndMedia/NewsEventSlider/NewsEventSlider";
+
+
+export default function PressMedia () {
   return (
     <div>
       <Navbar />
-      <ClientBanner />
-      <ClientSlider data={imageData} />
-      <OurClientbrand data={branddata} />
-      <OurClientbrand data={startupdata} />
-      <OurClientbrand data={enterprisedata} />
+      <NewsEventBanner />
+      <NewsEventSection />
+      <MediaSection />
+      {/* <NewsEventSlider /> */}
 
       {/* Other react required components  */}
       <StoriesSection />
@@ -43,4 +37,4 @@ export default function OurClients() {
       <MainFooter />
     </div>
   );
-}
+};

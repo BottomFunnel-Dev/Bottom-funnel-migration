@@ -1,0 +1,73 @@
+.newsEventCardsMain {
+  width: 47%;
+  margin-bottom: 2%;
+  padding: 1%;
+  height: 200px;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.newsEventCardsImage {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsEventCardsImage > img {
+  width: 70%;
+}
+
+.newsEventCardsContent {
+  width: 65%;
+  height: fit-content;
+  text-align: left;
+}
+
+.newsEventCardsContent > h2 {
+  font-size: 25px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.newsEventCardsContent > p {
+  font-size: 16px;
+  text-align: justify;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.newsEventCardsContent > button {
+  margin-top: 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px;
+}
+
+.newsEventCardsMain:hover {
+  transform: scale(101%) translateY(-3%);
+}
+
+.newsEventCardsMain:hover .newsEventCardsContent > h2,
+.newsEventCardsMain:hover .newsEventCardsContent > button {
+  color: #ef3c23;
+}

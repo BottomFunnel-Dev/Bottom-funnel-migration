@@ -1,17 +1,9 @@
 import React from "react";
 
-import { ClientBanner } from "../../components/OurClient/ClientBanner/ClientBanner";
-import { ClientSlider } from "../../components/OurClient/ClientSlider/ClientSlider";
-import { OurClientbrand } from "../../components/OurClient/OurClientbrand/OurClientbrand";
+import { AwardsBanner } from "../../components/AwardsPage/AwardsBanner/AwardsBanner";
+import { AwardsSection } from "../../components/AwardsPage/AwardsSection/AwardsSection";
 
-import {
-  branddata,
-  startupdata,
-  enterprisedata,
-  imageData,
-} from "../../Data/OurClient";
-
-import { TextDropdown } from "../../components/CommonComponents/faqction/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
 import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
@@ -21,15 +13,12 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function OurClients() {
+export default function Awards  () {
   return (
     <div>
       <Navbar />
-      <ClientBanner />
-      <ClientSlider data={imageData} />
-      <OurClientbrand data={branddata} />
-      <OurClientbrand data={startupdata} />
-      <OurClientbrand data={enterprisedata} />
+      <AwardsBanner />
+      <AwardsSection />
 
       {/* Other react required components  */}
       <StoriesSection />
@@ -43,4 +32,4 @@ export default function OurClients() {
       <MainFooter />
     </div>
   );
-}
+};
