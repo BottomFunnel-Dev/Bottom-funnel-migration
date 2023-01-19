@@ -654,6 +654,51 @@ export const backend = [
     navIcons: "Images/navbar/skills/cuba.png",
     path: "skills/cuba",
   },
+  {
+    dropContent: "Echoo",
+    navIcons: "Images/navbar/skills/echoo.png",
+    path: "skills/echoo",
+  },
+  {
+    dropContent: "Gorilla",
+    navIcons: "Images/navbar/skills/gorilla.png",
+    path: "skills/gorilla",
+  },
+  {
+    dropContent: "Hanami",
+    navIcons: "Images/navbar/skills/hanami.png",
+    path: "skills/hanami",
+  },
+  {
+    dropContent: "Iris",
+    navIcons: "Images/navbar/skills/iris.png",
+    path: "skills/iris",
+  },
+  {
+    dropContent: "Padrino",
+    navIcons: "Images/navbar/skills/padrino.png",
+    path: "skills/padrino",
+  },
+  {
+    dropContent: "Rails",
+    navIcons: "Images/navbar/skills/rails.png",
+    path: "skills/rails",
+  },
+  {
+    dropContent: "Revel",
+    navIcons: "Images/navbar/skills/revel.png",
+    path: "skills/revel",
+  },
+  {
+    dropContent: "Roda",
+    navIcons: "Images/navbar/skills/roda.png",
+    path: "skills/roda",
+  },
+  {
+    dropContent: "Sintara",
+    navIcons: "Images/navbar/skills/sinatra.png",
+    path: "skills/sintara",
+  },
 ];
 
 export const frontend = [
