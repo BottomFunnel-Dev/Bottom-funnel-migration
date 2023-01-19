@@ -80,7 +80,7 @@ typings/
 
 # Next.js build output
 .next
-build
+# build
 
 # Nuxt.js build / generate output
 .nuxt
