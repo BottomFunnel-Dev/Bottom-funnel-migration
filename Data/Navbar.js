@@ -86,7 +86,7 @@ export const webservice = [
   {
     dropContent: "Java Development",
     navIcons: "Images/navbar/services/javaimage.png",
-    path: "Java-development",
+    path: "java-development",
   },
   {
     dropContent: "Python Development",
@@ -114,12 +114,12 @@ export const appservice = [
   {
     dropContent: "Andriod App Development",
     navIcons: "Images/navbar/services/andriod.png",
-    path: "android",
+    path: "android-development",
   },
   {
     dropContent: "IOS App Development",
     navIcons: "Images/navbar/services/iosimage.png",
-    path: "ios",
+    path: "ios-development",
   },
   {
     dropContent: "Kotlin App Development",
@@ -129,17 +129,17 @@ export const appservice = [
   {
     dropContent: "Flutter App Development",
     navIcons: "Images/navbar/services/flutter.png",
-    path: "flutter",
+    path: "flutter-development",
   },
   {
     dropContent: "React Native App Development",
     navIcons: "Images/navbar/services/react.png",
-    path: "reactnative",
+    path: "reactnative-development",
   },
   {
     dropContent: "Xamarian App Development",
     navIcons: "Images/navbar/services/xamarian.png",
-    path: "Xamarin-Development",
+    path: "xamarin-development",
   },
   {
     dropContent: "Ionic App Development",
