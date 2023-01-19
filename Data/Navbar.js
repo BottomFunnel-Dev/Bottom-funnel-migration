@@ -655,9 +655,9 @@ export const backend = [
     path: "skills/cuba",
   },
   {
-    dropContent: "Echoo",
+    dropContent: "Echo",
     navIcons: "Images/navbar/skills/echoo.png",
-    path: "skills/echoo",
+    path: "skills/echo",
   },
   {
     dropContent: "Gorilla",
@@ -697,7 +697,7 @@ export const backend = [
   {
     dropContent: "Sintara",
     navIcons: "Images/navbar/skills/sinatra.png",
-    path: "skills/sintara",
+    path: "skills/sinatra",
   },
 ];
 
