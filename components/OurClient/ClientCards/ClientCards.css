@@ -1,0 +1,79 @@
+.OurClientCards-flip-card {
+  background-color: transparent;
+  width: 20%;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.OurClientCards-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+.OurClientCards-flip-card:focus {
+  outline: 0;
+}
+
+.OurClientCards-flip-card:hover .OurClientCards-flip-card-inner,
+.OurClientCards-flip-card:focus .OurClientCards-flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.OurClientCards-flip-card-front,
+.OurClientCards-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.OurClientCards-flip-card-front {
+  color: black;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurClientCards-flip-card-back {
+  background: linear-gradient(to Right Bottom, #ef4c23, #ff5c00);
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.OurClientCards-flip-card-back > p {
+  width: 80%;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.OurClientCards-flip-card-front > h2 {
+  font-size: 25px;
+  color: white;
+}
+
+.OurClientCards-image {
+  background: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OurClientCards-image > img {
+  width: 100%;
+}

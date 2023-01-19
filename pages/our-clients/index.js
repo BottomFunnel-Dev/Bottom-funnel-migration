@@ -1,9 +1,10 @@
 import React from "react";
-
-import { CareerBanner } from "../../components/CareerPage/CareerBanner/CareerBanner";
-import { CareerMain } from "../../components/CareerPage/CareerMain/CareerMain";
-import { CareerReferral } from "../../components/CareerPage/CareerReferral/CareerReferral";
-import { CarrerMidBanner } from "../../components/CareerPage/CarrerMidBanner/CarrerMidBanner";
+import {
+  branddata,
+  startupdata,
+  enterprisedata,
+  imageData,
+} from "../../Data/OurClient";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -15,14 +16,18 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-const index = () => {
+import { ClientBanner } from "../../components/OurClient/ClientBanner/ClientBanner";
+import { ClientSlider } from "../../components/OurClient/ClientSlider/ClientSlider";
+
+export default function OurClients() {
   return (
-    <div style={{ color: "#393939" }}>
+    <div>
       <Navbar />
-      <CareerBanner />
-      <CareerMain />
-      <CareerReferral />
-      <CarrerMidBanner />
+      <ClientBanner />
+      <ClientSlider data={imageData} />
+      {/* <OurClientbrand data={branddata} /> */}
+      {/* <OurClientbrand data={startupdata} /> */}
+      {/* <OurClientbrand data={enterprisedata} /> */}
 
       {/* Other react required components  */}
       <StoriesSection />
@@ -36,6 +41,4 @@ const index = () => {
       <MainFooter />
     </div>
   );
-};
-
-export default index;
+}

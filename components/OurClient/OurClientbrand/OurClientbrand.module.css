@@ -1,0 +1,59 @@
+.OurClientbrand-main {
+  margin-bottom: 4%;
+  margin-top: 5%;
+}
+
+.OurClientbrand-heading {
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+.OurClientbrand-heading > h2 {
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 2%;
+}
+
+.OurClientbrand-heading > hr {
+  background: #393939;
+  width: 5%;
+  margin: 0px;
+  height: 1px;
+}
+
+.OurClientbrand-content {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.OurClientBrand-view-button {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.OurClientBrand-view-button > p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.OurClientBrand-view-button > div {
+  height: 30px;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.OurClientBrand-view-button > div > img {
+  height: 100%;
+}
