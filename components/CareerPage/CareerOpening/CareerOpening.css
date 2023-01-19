@@ -1,0 +1,139 @@
+.CareerOpening-container {
+  background: white;
+  padding-top: 2%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.CareerOpenging-searchbar {
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  width: 95%;
+  margin: 1% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5%;
+}
+
+.CareerOpenging-searchbar > input {
+  font-size: 18px;
+  font-weight: 600;
+  color: #393939;
+  padding: 5px;
+  width: 95%;
+
+  border: none;
+  outline: none;
+}
+
+.CareerOpenging-searchbar > input::placeholder {
+  color: #393939;
+}
+
+.CareerOpenging-searchbar > button {
+  color: #393939;
+  background: transparent;
+  width: 5%;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CareerOpenging-searchbar > button > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.CareerOpening-filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.CareerOpening-filter-button > h2 {
+  font-size: 20px;
+  width: 80%;
+}
+
+.CareerOpening-filter-button > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 10%;
+  padding: 5px 10px;
+
+  background: none;
+  border: 2px solid #d9d9d9;
+}
+
+.CareerOpening-filter-button > button > p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.CareerOpening-filter-button > button > svg {
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+  transition: transform 200ms linear;
+}
+
+.CareerOpening-filter-button > button:hover svg {
+  transform: rotate(0deg);
+}
+
+.CareerOpenging-main {
+  height: 105vh;
+  padding: 0 1% 0 1%;
+  overflow-y: scroll;
+}
+
+.CareerOpenging-main::-webkit-scrollbar {
+  width: 15px;
+}
+
+.CareerOpenging-main::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 30px;
+}
+
+.CareerOpenging-main::-webkit-scrollbar-thumb:hover {
+  background: #393939;
+}
+
+.CareerOpenging-main::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.CareerOpenging-main > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.CareerOpenging-main > div > h2 {
+  font-size: 25px;
+  width: 90%;
+}
+
+.CareerOpenging-main > div > svg {
+  width: 25px;
+  height: 25px;
+  visibility: hidden;
+}
+
+.CareerOpenging-main > div:hover {
+  background: #f5f5f5;
+}
+
+.CareerOpenging-main > div:hover svg {
+  visibility: visible;
+}

@@ -1,3 +1,5 @@
+
+@media only screen and (min-width:900px){
 .kotlinSolutionsMainDiv {
   width: 100%;
   /* border: 2px solid black; */
@@ -60,7 +62,7 @@
 }
 
 .kotlinSolutionsBoxIcon {
-  /* border: 1px solid lightgray; */
+  /* border: 1px solid green; */
   width: 30%;
   padding-left: 6px;
   border-radius: 5px;
@@ -92,4 +94,204 @@
   width: 100%;
   margin-top: 3%;
   font-size: 13px;
+}
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .kotlinSolutionsMainDiv {
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .kotlinSolutionsheading {
+    color: black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+  }
+  .kotlinSolutionsDescription {
+    color: black;
+    font-size: 25px;
+    /* border: 2px solid green; */
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 80%;
+  }
+  .kotlinSolutionsContainerDiv {
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .kotlinSolutionsBox {
+    /* border: 2px solid red; */
+    width: 97%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .kotlinSolutionsContainerBoxes {
+    /* width: 25%; */
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-left: 2%;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  
+  .kotlinSolutionsContainerBoxes:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: #f08029;
+    color: white; */
+  }
+  
+  .kotlinSolutionsBoxIcon {
+    /* border: 1px solid green; */
+    width: 30%;
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-top: 2%;
+    object-fit: cover;
+    background-size: cover;
+    color: white;
+  }
+  
+  .kotlinSolutionsBoxIcon:hover {
+    filter: invert(0.5) !important;
+  }
+  
+  .KotlinSolutionImage {
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+    padding: 2%;
+  }
+  .kotlinSolutionsBoxHeading {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 3%; */
+    /* font-weight: 500; */
+  }
+  
+  .kotlinSolutionsBoxContent {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 3%; */
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:900px){
+  .kotlinSolutionsMainDiv {
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .kotlinSolutionsheading {
+    color: black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+  }
+  .kotlinSolutionsDescription {
+    color: black;
+    font-size: 25px;
+    /* border: 2px solid green; */
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 80%;
+  }
+  .kotlinSolutionsContainerDiv {
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .kotlinSolutionsBox {
+    /* border: 2px solid red; */
+    width: 97%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .kotlinSolutionsContainerBoxes {
+    /* width: 25%; */
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-left: 2%;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  
+  .kotlinSolutionsContainerBoxes:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: #f08029;
+    color: white; */
+  }
+  
+  .kotlinSolutionsBoxIcon {
+    /* border: 1px solid green; */
+    width: 30%;
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-top: 2%;
+    object-fit: cover;
+    background-size: cover;
+    color: white;
+  }
+  
+  .kotlinSolutionsBoxIcon:hover {
+    filter: invert(0.5) !important;
+  }
+  
+  .KotlinSolutionImage {
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+    padding: 2%;
+  }
+  .kotlinSolutionsBoxHeading {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 3%; */
+    /* font-weight: 500; */
+  }
+  
+  .kotlinSolutionsBoxContent {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 3%; */
+    font-size: 14px;
+  }
+
 }

@@ -1,0 +1,54 @@
+.vettingGrowContainer {
+  width: 90%;
+  margin: 4% auto 5%;
+}
+
+.vettingGrowContainer > h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.vettingGrowContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.vettingGrowContainer > div {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.vettingGrowContainer > div > p {
+  width: 55%;
+  font-size: 16px;
+  margin: 1% auto;
+}
+
+.vettingGrowMain {
+  width: 40%;
+}
+
+.vettingGrowMain > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vettingGrowMain > div > h2 {
+  font-size: 23px;
+  width: 50%;
+  padding: 1%;
+  margin: 1% auto;
+}
+
+.vettingGrowMain > div > h2:nth-child(1) {
+  background: #ef4c23;
+  color: white;
+}
+
+.vettingGrowMain > div > h2:nth-child(2) {
+  text-align: right;
+  background: white;
+}

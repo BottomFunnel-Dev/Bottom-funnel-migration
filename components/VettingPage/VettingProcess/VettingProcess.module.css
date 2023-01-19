@@ -1,0 +1,53 @@
+.vettingProcessContainer {
+  height: fit-content;
+  background-color: black;
+  border: 1px solid transparent;
+  border-bottom: 8px solid #ef4c23;
+  margin-bottom: 3%;
+  padding-bottom: 6%;
+}
+
+.vettingProcessContainer > div {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  margin-top: -8%;
+  text-align: center;
+
+  position: relative;
+  z-index: 1;
+  border: 8px solid #ef4c23;
+}
+
+.vettingProcessContainer > div > h1 {
+  font-size: 35px;
+  margin-top: 3%;
+}
+
+.vettingProcessContainer > div > h1 > span {
+  color: #ef4c23;
+}
+
+.vettingProcessContainer > div > h2 {
+  font-size: 25px;
+}
+
+.vettingProcessContainer > div > p {
+  font-size: 16px;
+  width: 90%;
+  margin: 2% auto;
+}
+
+.vettingProcessContainer > div > div {
+  width: 60%;
+  margin: auto;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vettingProcessContainer > div > div > img {
+  width: 100%;
+}

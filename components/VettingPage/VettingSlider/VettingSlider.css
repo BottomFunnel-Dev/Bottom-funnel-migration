@@ -1,0 +1,84 @@
+.VettingSlider-sliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.VettingSlider-sliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.VettingSlider-sliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.VettingSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VettingSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.VettingSlider-slide > img {
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.VettingSlider-slider-prev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.VettingSlider-slider-arrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VettingSlider-slider-prev {
+  left: 0%;
+  top: 50%;
+}
+
+.VettingSlider-slider-next {
+  right: 0%;
+  top: 50%;
+}
+
+.VettingSlider-slider-arrow:hover {
+  background-color: #d6d5d5;
+}
