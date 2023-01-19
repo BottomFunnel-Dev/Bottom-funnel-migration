@@ -1,5 +1,6 @@
 import About from "../components/AboutSection/About";
 import Awards from "../components/AwardSection/Awards";
+import StoriesSection from "../components/CommonComponents/StoriesSection/StoriesSection";
 import CompanyLogo from "../components/CompanyLogos/CompanyLogo";
 import { BannerFull } from "../components/mainSection/BannerFull";
 import Navbar from "../components/Navbar/Navbar";
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Services />
       <Awards />
+      <StoriesSection/>
     
       {/* <StoriesSection />
       <Industries />

@@ -4,6 +4,7 @@
   background-color: #ef4c23;
   padding: 20px 0;
   position: relative;
+  box-sizing: border-box;
 }
 .storiesSection > h3 {
   color: white;
@@ -181,6 +182,9 @@
   text-decoration: underline;
   text-align: center;
   cursor: pointer;
+  display: flex;
+    align-items: flex-end;
+    column-gap: 4px;
 }
 
 .rightArrow{

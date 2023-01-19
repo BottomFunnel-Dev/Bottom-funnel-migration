@@ -891,6 +891,11 @@ export const cms = [
     navIcons: "Images/navbar/skills/weebly.png",
     path: "skills/weebly",
   },
+  // {
+  //   dropContent: "Shopify",
+  //   navIcons: "Images/navbar/skills/shopify.png",
+  //   path: "skills/shopify",
+  // },
 ];
 
 export const discoverContent = [
