@@ -1,11 +1,11 @@
-.OurClientCards-flip-card {
+.ourClientCardsFlipCard {
   background-color: transparent;
   width: 20%;
   height: 300px;
   perspective: 1000px;
 }
 
-.OurClientCards-flip-card-inner {
+.ourClientCardsFlipCardInner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -17,23 +17,23 @@
   -moz-backface-visibility: hidden;
 }
 
-.OurClientCards-flip-card:focus {
+.ourClientCardsFlipCard:focus {
   outline: 0;
 }
 
-.OurClientCards-flip-card:hover .OurClientCards-flip-card-inner,
-.OurClientCards-flip-card:focus .OurClientCards-flip-card-inner {
+.ourClientCardsFlipCard:hover .ourClientCardsFlipCardInner,
+.ourClientCardsFlipCard:focus .ourClientCardsFlipCardInner {
   transform: rotateY(180deg);
 }
 
-.OurClientCards-flip-card-front,
-.OurClientCards-flip-card-back {
+.ourClientCardsFlipCardFront,
+.ourClientCardsFlipCardBack {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-.OurClientCards-flip-card-front {
+.ourClientCardsFlipCardFront {
   color: black;
   z-index: 2;
   display: flex;
@@ -42,7 +42,7 @@
   align-items: center;
 }
 
-.OurClientCards-flip-card-back {
+.ourClientCardsFlipCardBack {
   background: linear-gradient(to Right Bottom, #ef4c23, #ff5c00);
   color: white;
   transform: rotateY(180deg);
@@ -52,18 +52,18 @@
   align-items: center;
 }
 
-.OurClientCards-flip-card-back > p {
+.ourClientCardsFlipCardBack > p {
   width: 80%;
   font-size: 16px;
   text-align: justify;
 }
 
-.OurClientCards-flip-card-front > h2 {
+.ourClientCardsFlipCardFront > h2 {
   font-size: 25px;
   color: white;
 }
 
-.OurClientCards-image {
+.ourClientCardsImage {
   background: white;
   height: 150px;
   width: 150px;
@@ -74,6 +74,6 @@
   justify-content: center;
 }
 
-.OurClientCards-image > img {
+.ourClientCardsImage > img {
   width: 100%;
 }

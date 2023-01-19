@@ -1,29 +1,29 @@
-.OurClientbrand-main {
+.ourClientbrandMain {
   margin-bottom: 4%;
   margin-top: 5%;
 }
 
-.OurClientbrand-heading {
+.ourClientbrandHeading {
   display: flex;
   gap: 1%;
   align-items: center;
   justify-content: center;
 }
 
-.OurClientbrand-heading > h2 {
+.ourClientbrandHeading > h2 {
   font-size: 30px;
   margin: 0px;
   margin-bottom: 2%;
 }
 
-.OurClientbrand-heading > hr {
+.ourClientbrandHeading > hr {
   background: #393939;
   width: 5%;
   margin: 0px;
   height: 1px;
 }
 
-.OurClientbrand-content {
+.ourClientbrandContent {
   width: 90%;
   margin: auto;
   display: flex;

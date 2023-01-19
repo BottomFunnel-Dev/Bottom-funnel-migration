@@ -1,4 +1,9 @@
 import React from "react";
+
+import { ClientBanner } from "../../components/OurClient/ClientBanner/ClientBanner";
+import { ClientSlider } from "../../components/OurClient/ClientSlider/ClientSlider";
+import { OurClientbrand } from "../../components/OurClient/OurClientbrand/OurClientbrand";
+
 import {
   branddata,
   startupdata,
@@ -16,18 +21,15 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-import { ClientBanner } from "../../components/OurClient/ClientBanner/ClientBanner";
-import { ClientSlider } from "../../components/OurClient/ClientSlider/ClientSlider";
-
 export default function OurClients() {
   return (
     <div>
       <Navbar />
       <ClientBanner />
       <ClientSlider data={imageData} />
-      {/* <OurClientbrand data={branddata} /> */}
-      {/* <OurClientbrand data={startupdata} /> */}
-      {/* <OurClientbrand data={enterprisedata} /> */}
+      <OurClientbrand data={branddata} />
+      <OurClientbrand data={startupdata} />
+      <OurClientbrand data={enterprisedata} />
 
       {/* Other react required components  */}
       <StoriesSection />

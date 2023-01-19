@@ -1,20 +1,20 @@
 import React from "react";
-import "./ClientCards.css";
+import clients from "./ClientCards.module.css";
 
 export const ClientCards = ({ data }) => {
   return (
-    <div className="OurClientCards-flip-card" tabIndex="0">
-      <div className="OurClientCards-flip-card-inner">
+    <div className={clients.ourClientCardsFlipCard} tabIndex="0">
+      <div className={clients.ourClientCardsFlipCardInner}>
         <div
           style={{ background: data.theme }}
-          className="OurClientCards-flip-card-front"
+          className={clients.ourClientCardsFlipCardFront}
         >
-          <div className="OurClientCards-image">
+          <div className={clients.ourClientCardsImage}>
             <img src={data.image} alt={data.name} />
           </div>
           <h2>{data.name}</h2>
         </div>
-        <div className="OurClientCards-flip-card-back">
+        <div className={clients.ourClientCardsFlipCardBack}>
           <p>{data.body}</p>
         </div>
       </div>
