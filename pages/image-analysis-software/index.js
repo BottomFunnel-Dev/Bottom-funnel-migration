@@ -1,13 +1,10 @@
 import React from "react";
-import styles from "./CloudPage.module.css";
-import { CloudBanner } from "../../components/CloudPage/CloudBanner/CloudBanner";
-import { CloudUnique } from "../../components/CloudPage/CloudUnique/CloudUnique";
-import { CloudStats } from "../../components/CloudPage/CloudStats/CloudStats";
-import { CloudOffers } from "../../components/CloudPage/CloudOffers/CloudOffers";
-import { CloudWorkWithUs } from "../../components/CloudPage/CloudWorkWithUs/CloudWorkWithUs";
-import { CloudSolutions } from "../../components/CloudPage/CloudSolutions/CloudSolutions";
-import { CloudWhyBF } from "../../components/CloudPage/CloudWhyBF/CloudWhyBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
+
+import { AnalysisSwBanner } from "../../components/ImageAnalysisSoftwarePage/AnalysisSwBanner/AnalysisSwBanner";
+import { AnalysisCoreTask } from "../../components/ImageAnalysisSoftwarePage/AnalysisCoreTask/AnalysisCoreTask";
+import { AnalysisOffer } from "../../components/ImageAnalysisSoftwarePage/AnalysisOffer/AnalysisOffer";
+import { AnalysisMidBanner } from "../../components/ImageAnalysisSoftwarePage/AnalysisMidBanner/AnalysisMidBanner";
+import { AnalysisWhyBF } from "../../components/ImageAnalysisSoftwarePage/AnalysisWhyBF/AnalysisWhyBF";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -19,24 +16,21 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function CloudPage () {
+export default function ImageAnalysisSoftware() {
   return (
-    <div className={styles.CloudPageContainer}>
+    <div>
       <Navbar />
-      <CloudBanner />
-      <CloudUnique />
-      <CloudStats />
-      <CloudOffers />
-      <CloudWorkWithUs />
-      <CloudSolutions />
-      <CloudWhyBF />
-      <CustomWebForm />
-      
+      <AnalysisSwBanner />
+      <AnalysisCoreTask />
+      <AnalysisOffer />
+      <AnalysisMidBanner />
+      <AnalysisWhyBF />
+
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
       {/* <PortFolio />  */}
-      <PlanProject /> 
+      <PlanProject />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
@@ -44,4 +38,4 @@ export default function CloudPage () {
       <MainFooter />
     </div>
   );
-};
+}

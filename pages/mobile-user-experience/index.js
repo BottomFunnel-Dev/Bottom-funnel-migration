@@ -1,13 +1,11 @@
 import React from "react";
-import styles from "./CloudPage.module.css";
-import { CloudBanner } from "../../components/CloudPage/CloudBanner/CloudBanner";
-import { CloudUnique } from "../../components/CloudPage/CloudUnique/CloudUnique";
-import { CloudStats } from "../../components/CloudPage/CloudStats/CloudStats";
-import { CloudOffers } from "../../components/CloudPage/CloudOffers/CloudOffers";
-import { CloudWorkWithUs } from "../../components/CloudPage/CloudWorkWithUs/CloudWorkWithUs";
-import { CloudSolutions } from "../../components/CloudPage/CloudSolutions/CloudSolutions";
-import { CloudWhyBF } from "../../components/CloudPage/CloudWhyBF/CloudWhyBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
+import { MobileKickStart } from "../../components/MobileUiUxDesign/MobileKickStart";
+import { MobileUiUxBanner } from "../../components/MobileUiUxDesign/MobileUiUxBanner";
+import { MobileUiUxToNotched } from "../../components/MobileUiUxDesign/MobileUiUxToNotched";
+import { MobileUXReactNative } from "../../components/MobileUiUxDesign/MobileUXReactNative";
+import { MobileUxUiB2cSolution } from "../../components/MobileUiUxDesign/MobileUxUiB2cSolution";
+import { MobileUxUiDesignPartner } from "../../components/MobileUiUxDesign/MobileUxUiDesignPartner";
+import { MobileUXUIServiceOffer } from "../../components/MobileUiUxDesign/MobileUXUIServiceOffer";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -19,24 +17,23 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function CloudPage () {
+export default function MobileUiUxDesign() {
   return (
-    <div className={styles.CloudPageContainer}>
+    <div>
       <Navbar />
-      <CloudBanner />
-      <CloudUnique />
-      <CloudStats />
-      <CloudOffers />
-      <CloudWorkWithUs />
-      <CloudSolutions />
-      <CloudWhyBF />
-      <CustomWebForm />
-      
+      <MobileUiUxBanner />
+      <MobileUiUxToNotched />
+      <MobileUXUIServiceOffer />
+      <MobileUxUiB2cSolution />
+      <MobileUxUiDesignPartner />
+      <MobileKickStart />
+      <MobileUXReactNative />
+
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
       {/* <PortFolio />  */}
-      <PlanProject /> 
+      <PlanProject />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
@@ -44,4 +41,4 @@ export default function CloudPage () {
       <MainFooter />
     </div>
   );
-};
+}
