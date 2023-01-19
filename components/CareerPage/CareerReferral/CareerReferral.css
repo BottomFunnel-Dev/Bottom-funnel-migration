@@ -1,0 +1,47 @@
+.CareerReferral-container {
+  background: #f5f5f5;
+  padding: 3%;
+}
+
+.CareerReferral-container > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.CareerReferral-container > p {
+  font-size: 16px;
+  width: 80%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.CareerReferral-container > div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.CareerReferral-container > div > div {
+  width: 45%;
+}
+
+.CareerReferral-container > div > div > h2 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.CareerReferral-container > div > div > ul > li {
+  font-size: 16px;
+  margin-bottom: 2%;
+}
+
+.CareerReferral-container > div > span {
+  width: 3px;
+  height: 150px;
+  background: #ef4c23;
+  color: #ef4c23;
+  border-radius: 3px;
+  align-self: center;
+}

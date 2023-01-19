@@ -1,0 +1,45 @@
+.CarrerMidBanner-container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/public/Images/careerPhotos/mid-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f5f5f5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2%;
+}
+
+.CarrerMidBanner-container > h1 {
+  font-size: 35px;
+}
+
+.CarrerMidBanner-container > p {
+  font-size: 16px;
+  width: 70%;
+  text-align: center;
+}
+
+.CarrerMidBanner-container > button {
+  color: #f5f5f5;
+  background: #ef4c23;
+  margin: 2% auto;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+  padding: 10px 50px;
+  border: 2px solid #ef4c23;
+  outline: none;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CarrerMidBanner-container > button:hover {
+  color: #ef4c23;
+  background: #f5f5f5;
+}

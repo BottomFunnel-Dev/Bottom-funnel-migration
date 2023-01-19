@@ -1,0 +1,68 @@
+.CareerReason-container {
+  width: 100%;
+  padding: 1% 0;
+  background: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.CareerReason-container > span {
+  font-size: 12px;
+  padding-left: 2%;
+}
+
+.CareerReason-container > h1 {
+  font-size: 35px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.CareerReason-container > h1 > span {
+  color: #ef4c23;
+}
+
+.CareerReason-container > div {
+  width: 95%;
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.CareerReason-content {
+  width: 55%;
+}
+
+.CareerReason-content > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.CareerReason-content > button {
+  font-size: 18px;
+  font-weight: 600;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+
+  padding: 10px 50px;
+  border-radius: 50px;
+  border: 2px solid #ef4c23;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  background-color: #ef4c23;
+  color: white;
+}
+
+.CareerReason-content > button:hover {
+  color: #ef4c23;
+  background-color: white;
+}
+
+.CareerReason-image {
+  width: 35%;
+}
+
+.CareerReason-image > img {
+  width: 100%;
+}
