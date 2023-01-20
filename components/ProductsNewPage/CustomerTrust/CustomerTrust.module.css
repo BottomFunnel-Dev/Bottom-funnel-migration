@@ -1,0 +1,32 @@
+.productsCustomerTrustParentDiv {
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.productsCustomerTrustParentDiv p {
+  /* border: 1px solid black; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 63%;
+  margin: auto;
+}
+
+.productsPartnersImagesDiv {
+  border-bottom: 3px solid red;
+  /* border-radius: 5px; */
+  padding-bottom: 2%;
+  /* height: 0px; */
+  margin: auto;
+  width: 90%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1%;
+}

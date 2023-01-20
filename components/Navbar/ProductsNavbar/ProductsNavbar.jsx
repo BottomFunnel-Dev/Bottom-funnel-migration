@@ -107,8 +107,8 @@ export const ProductsNavbar = ({ scroll }) => {
           Desk Products
           <img
             className={prodnav.deskdownIcon}
-            src="Images/Logos/downarrow.png"
-            alt=""
+            src="/Images/Logos/downarrow.png"
+            alt="image"
           />
         </li>
 
@@ -120,8 +120,8 @@ export const ProductsNavbar = ({ scroll }) => {
           Features{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="Images/Logos/downarrow.png"
-            alt=""
+            src="/Images/Logos/downarrow.png"
+            alt="image"
           />
         </li>
 
@@ -151,7 +151,7 @@ export const ProductsNavbar = ({ scroll }) => {
           Solutions{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="Images/Logos/downarrow.png"
+            src="/Images/Logos/downarrow.png"
             alt="image"
           />
         </li>
@@ -164,8 +164,8 @@ export const ProductsNavbar = ({ scroll }) => {
           Resources{" "}
           <img
             className={prodnav.deskdownIcon}
-            src="Images/Logos/downarrow.png"
-            alt=""
+            src="/Images/Logos/downarrow.png"
+            alt="image"
           />
         </li>
         <li>Sign In</li>
