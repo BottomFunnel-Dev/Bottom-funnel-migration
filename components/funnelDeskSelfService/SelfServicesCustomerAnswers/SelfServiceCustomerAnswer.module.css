@@ -1,0 +1,41 @@
+.selfServicesCustomerAnswerInnerDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  /* height: 40px; */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 3%;
+  gap: 5%;
+}
+
+.selfServicesCustomerAnswerContentDiv {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+.selfServicesCustomerAnswerContentDiv > p {
+  width: 85%;
+}
+
+.selfServicesCustomerAnswerImageDiv > img {
+  width: 90%;
+  margin-left: 4%;
+  object-fit: cover;
+}
+
+.selfServicesCustomerAnswerContentDiv > button {
+  outline: none;
+  border: none;
+  width: 20%;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.selfServicesCustomerAnswerContentDiv > button:hover {
+  background-color: #ef4c23;
+  color: white;
+}

@@ -1,0 +1,48 @@
+.retailinsightsmainbox {
+  height: fit-content;
+  margin-bottom: 3%;
+}
+
+.retailinsightsupperboximageandtextflexbox {
+  display: flex;
+}
+
+.retailinsightsupperboxtextleft {
+  height: 400px;
+  width: 50%;
+  background: url("/Images/Retail&ecommerce/Rectangle\ 5086.png");
+  background-repeat: no-repeat;
+}
+
+.retailinsightsupperboxtextleftouterbox {
+  margin-left: 4%;
+  margin-top: 4%;
+  width: 98%;
+  height: 95%;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.retailinsightsupperboximageright {
+  width: 55%;
+  margin-left: -1%;
+  height: 378px;
+  margin-top: 1.5%;
+  background-color: #f5f5f5;
+}
+
+.retailshopupperboximageright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.retailinsightsupperboxtextsvgallfilethere {
+  margin-left: 3%;
+  position: absolute;
+  margin-top: 7%;
+}
+
+.retailinsightsupperboxtextsvgallfilethere > h6 {
+  margin-top: 5%;
+}
