@@ -9,8 +9,6 @@
   margin: 0 !important;
 }
 
-
-
 .slideDivSection {
   width: 200px;
   height: 100px;
@@ -32,17 +30,14 @@
 
 /* Media Query for Mobile Devices */
 
-@media only screen and (min-width:0px) and (max-width:376px){
- /* .settinghomebannerrotationalbox{
+@media only screen and (min-width: 0px) and (max-width: 376px) {
+  /* .settinghomebannerrotationalbox{
   border: 50px solid black;
  } */
- 
+
   .slideDivSection > div {
     padding: 0;
     width: 67%;
- 
-    
-  
   }
 
   .slideDivSection > div > img {

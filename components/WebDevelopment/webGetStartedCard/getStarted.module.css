@@ -1,7 +1,3 @@
-/* for laptop and higher screen */
-@media only screen and (min-width:769px){
-
-
 .getStarted {
   width: 99%;
   height: 120px;
@@ -10,6 +6,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   border: 0.3px solid #ef4c23;
+  margin: 2% 0 0;
 }
 
 .getText {
@@ -33,26 +30,24 @@
 
 .getText > button {
   position: absolute;
-  transform: translate(-50%, 50%);
-  top: 7%;
-  right: -2%;
+  transform: translate(8%, -50%);
+  top: 50%;
+  right: 8%;
   padding: 10px 30px;
   font-weight: 600;
   font-size: 18px;
   border: none;
   background-color: white;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .getText > button:hover {
   background-color: #982508;
   color: white;
 }
-}
 
-
-
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .getStarted {
     width: 100%;
     height: 120px;
@@ -62,14 +57,12 @@
     background-repeat: no-repeat;
     border: 0.3px solid #ef4c23;
     margin-top: 5%;
-   
   }
   .getText {
     width: 80%;
     height: 100%;
-text-align: justify;
+    text-align: justify;
     position: relative;
-    
   }
   /* .getText>p{
     font-size: 15px;
@@ -85,8 +78,8 @@ text-align: justify;
     display: flex;
     justify-content: space-between;
   }
-  
-   .getText > button {
+
+  .getText > button {
     position: absolute;
     transform: translate(-50%, 50%);
     top: 22%;
@@ -97,63 +90,59 @@ text-align: justify;
     border: none;
     background-color: white;
     border-radius: 10px;
-   
   }
-  
+
   .getText > button:hover {
     background-color: #982508;
     color: white;
-  } 
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+  .getStarted {
+    width: 100%;
+    height: 120px;
+    background: url("/Images/webdevmain/getstartedBanner.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0.3px solid #ef4c23;
   }
 
-
-  @media only screen and ( min-width:377px) and (max-width:769px){
-
-    .getStarted {
-      width: 100%;
-      height: 120px;
-      background: url("/Images/webdevmain/getstartedBanner.png");
-      background-position: center;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      border: 0.3px solid #ef4c23;
-    }
-    
-    .getText {
-      width: 80%;
-      height: 100%;
-      margin: auto;
-      position: relative;
-    }
-    
-    .getText > p {
-      width: 53%;
-      position: absolute;
-      transform: translate(-50%, -50%);
-      top: 50%;
-      left: 20%;
-      margin: auto;
-      /* background-color: green; */
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    .getText > button {
-      position: absolute;
-      transform: translate(-50%, 50%);
-      top: 9%;
-      right: -15%;
-      padding: 10px 30px;
-      font-weight: 600;
-      font-size: 18px;
-      border: none;
-      background-color: white;
-      border-radius: 10px;
-    }
-    
-    .getText > button:hover {
-      background-color: #ef4c23;
-      color: white;
-    }
-
+  .getText {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: relative;
   }
+
+  .getText > p {
+    width: 53%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 20%;
+    margin: auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .getText > button {
+    position: absolute;
+    transform: translate(-50%, 50%);
+    top: 9%;
+    right: -15%;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .getText > button:hover {
+    background-color: #ef4c23;
+    color: white;
+  }
+}

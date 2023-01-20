@@ -1,12 +1,10 @@
-/* for laptop and any type of wide screen use responsive only */
-@media only screen and (min-width:769px){
 .newAbout {
   width: 100%;
   height: 600px;
   background-image: url("/Images/about/newcurve.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position:bottom;
+  background-position: bottom;
   background-origin: border-box;
   position: relative;
 }
@@ -28,88 +26,75 @@
   width: 870px;
 }
 .aboutContent > p {
- color: #6f6e6d;
+  color: #6f6e6d;
   font-size: 16px;
 }
 
-.aboutStats{
+.aboutStats {
   text-align: center;
   border-radius: 25px;
-  
 }
-.aboutStats>img{
- width: 50px;
-  
-  
+.aboutStats > img {
+  width: 50px;
 }
-#aboutStats1>img{
- width: 50px;
- margin-right: 10px;
- 
-  
+#aboutStats1 > img {
+  width: 50px;
+  margin-right: 10px;
 }
-#aboutStats2>img{
- width: 50px;
- margin-right: 23px;
- 
-  
+#aboutStats2 > img {
+  width: 50px;
+  margin-right: 23px;
 }
-#aboutStats2>p{
- margin-right: 23px;
- 
-  
+#aboutStats2 > p {
+  margin-right: 23px;
 }
 
- 
-#aboutStats1{
+#aboutStats1 {
   position: absolute;
   bottom: 0%;
   left: 13%;
 }
-#aboutStats2{
+#aboutStats2 {
   position: absolute;
-  bottom: 16%;
+  bottom: 22%;
   left: 44%;
 }
-#aboutStats3{
+#aboutStats3 {
   position: absolute;
   top: 10%;
   right: 8%;
 }
-.aboutStats>h1{
- font-size: 60px;
- color: #ef4c23;
-text-align: center;
+.aboutStats > h1 {
+  font-size: 60px;
+  color: #ef4c23;
+  text-align: center;
+  margin: 3% 0;
 }
-.aboutStats>p{
- font-size: 18px;
- font-weight: 500;
- color: #6f6e6d;
+.aboutStats > p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6f6e6d;
 }
-#aboutStats2>h1{
- font-size: 90px;
- color: #ef4c23;
-text-align: center;
+#aboutStats2 > h1 {
+  font-size: 90px;
+  color: #ef4c23;
+  text-align: center;
 }
-#aboutStats2>p{
- font-size: 18px;
- font-weight: 500;
+#aboutStats2 > p {
+  font-size: 18px;
+  font-weight: 500;
 }
-}
-
 
 /* for mobile responsive */
 
-
-@media only screen and (min-width:0px) and (max-width:376px){
-
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .newAbout {
     width: 100%;
     height: 400px;
     background-image: url("/Images/about/newcurve.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position:bottom;
+    background-position: bottom;
     background-origin: border-box;
     position: relative;
   }
@@ -118,7 +103,7 @@ text-align: center;
     height: 50%;
     object-fit: contain;
   }
-  
+
   .aboutContent {
     width: 50%;
     padding: 20px;
@@ -131,96 +116,81 @@ text-align: center;
     width: fit-content;
   }
   .aboutContent > p {
-   color: #6f6e6d;
+    color: #6f6e6d;
     font-size: 12px;
     width: 100%;
     text-align: justify;
   }
-  
-  .aboutStats{
+
+  .aboutStats {
     text-align: center;
     border-radius: 25px;
-    
   }
-  .aboutStats>img{
-   width: 50px;
-    
-    
+  .aboutStats > img {
+    width: 50px;
   }
-  #aboutStats1>img{
-   width: 50px;
-   margin-right: 10px;
-   
-    
+  #aboutStats1 > img {
+    width: 50px;
+    margin-right: 10px;
   }
-  #aboutStats2>img{
-   width: 50px;
-   margin-right: 23px;
-   
-    
+  #aboutStats2 > img {
+    width: 50px;
+    margin-right: 23px;
   }
-  #aboutStats2>p{
-   margin-right: 14px;
-   
-    
+  #aboutStats2 > p {
+    margin-right: 14px;
   }
-  
-   
-  #aboutStats1{
+
+  #aboutStats1 {
     position: absolute;
     bottom: 0%;
     left: 1%;
   }
-  #aboutStats2{
+  #aboutStats2 {
     position: absolute;
     bottom: 15%;
     left: 44%;
   }
-  #aboutStats3{
+  #aboutStats3 {
     position: absolute;
     top: 10%;
-  right: 2%;
+    right: 2%;
   }
-  .aboutStats>h1{
-   font-size: 20px;
-   color: #ef4c23;
-  text-align: center;
-  z-index: -1;
-  top: 5%;
+  .aboutStats > h1 {
+    font-size: 20px;
+    color: #ef4c23;
+    text-align: center;
+    z-index: -1;
+    top: 5%;
   }
-  .aboutStats>p{
-   font-size: 14px;
-  
-   font-weight: 500;
-   color: #6f6e6d;
-   position: absolute;
-   margin-top: -20%;
-  }
-  #aboutStats2>h1{
-   font-size: 40px;
-   color: #ef4c23;
-  text-align: center;
-  }
-  #aboutStats2>p{
-   font-size: 14px;
-   font-weight: 500;
-  }
+  .aboutStats > p {
+    font-size: 14px;
 
+    font-weight: 500;
+    color: #6f6e6d;
+    position: absolute;
+    margin-top: -20%;
+  }
+  #aboutStats2 > h1 {
+    font-size: 40px;
+    color: #ef4c23;
+    text-align: center;
+  }
+  #aboutStats2 > p {
+    font-size: 14px;
+    font-weight: 500;
+  }
 }
 
-
 /* for any type of tab responsive */
-
-
-@media only screen and ( min-width:377px) and (max-width:769px){
-
+@media only screen and (min-width: 481px) and (max-width: 900px) {
   .newAbout {
     width: 100%;
     height: 400px;
     background-image: url("/Images/about/newcurve.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position:bottom;
+    background-position: bottom;
     background-origin: border-box;
     position: relative;
   }
@@ -229,7 +199,7 @@ text-align: center;
     height: 70%;
     object-fit: contain;
   }
-  
+
   .aboutContent {
     width: 50%;
     padding: 20px;
@@ -242,85 +212,68 @@ text-align: center;
     width: fit-content;
   }
   .aboutContent > p {
-   color: #6f6e6d;
+    color: #6f6e6d;
     font-size: 12px;
     width: 100%;
     text-align: justify;
   }
-  
-  .aboutStats{
+
+  .aboutStats {
     text-align: center;
     border-radius: 25px;
+  }
+  .aboutStats > img {
+    width: 50px;
+  }
+  #aboutStats1 > img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  #aboutStats2 > img {
+    width: 50px;
+    margin-right: 23px;
+  }
+  #aboutStats2 > p {
+    margin-right: 14px;
+  }
 
-    
-  }
-  .aboutStats>img{
-   width: 50px;
-    
-    
-  }
-  #aboutStats1>img{
-   width: 50px;
-   margin-right: 10px;
-
-   
-    
-  }
-  #aboutStats2>img{
-   width: 50px;
-   margin-right: 23px;
-   
-    
-  }
-  #aboutStats2>p{
-   margin-right: 14px;
-   
-    
-  }
-  
-   
-  #aboutStats1{
+  #aboutStats1 {
     position: absolute;
     bottom: 3%;
     left: 15%;
-       
-  
   }
-  #aboutStats2{
+  #aboutStats2 {
     position: absolute;
     bottom: 15%;
     left: 44%;
   }
-  #aboutStats3{
+  #aboutStats3 {
     position: absolute;
     top: 10%;
-   right: 15%;
- 
+    right: 15%;
   }
-  .aboutStats>h1{
-   font-size: 20px;
-   color: #ef4c23;
-  text-align: center;
-  z-index: -1;
-  top: 5%;
+  .aboutStats > h1 {
+    font-size: 20px;
+    color: #ef4c23;
+    text-align: center;
+    z-index: -1;
+    top: 5%;
+  }
+  .aboutStats > p {
+    font-size: 14px;
 
+    font-weight: 500;
+    color: #6f6e6d;
+    position: absolute;
+    margin-top: -20%;
   }
-  .aboutStats>p{
-   font-size: 14px;
-  
-   font-weight: 500;
-   color: #6f6e6d;
-   position: absolute;
-   margin-top: -20%;
+  #aboutStats2 > h1 {
+    font-size: 40px;
+    color: #ef4c23;
+    text-align: center;
   }
-  #aboutStats2>h1{
-   font-size: 40px;
-   color: #ef4c23;
-  text-align: center;
+  #aboutStats2 > p {
+    font-size: 14px;
+    font-weight: 500;
   }
-  #aboutStats2>p{
-   font-size: 14px;
-   font-weight: 500;
-  }
-
 }

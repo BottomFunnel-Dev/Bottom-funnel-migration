@@ -15,7 +15,7 @@ export const WhyTechStack = ({ techData }) => {
           <div
             className={styles.whyTechFeaturesCardBox}
             key={index}
-            style={index % 2 === 1 ? { background: "#e9deca" } : {}}
+            style={index % 2 === 1 ? { background: "#e9deca" } : null}
           >
             <h5>{item.title}</h5>
             <p>{item.description}</p>

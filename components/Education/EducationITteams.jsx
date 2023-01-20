@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from "./EducationITteams.module.css"
+import React from 'react';
+import styles from "./EducationITteams.module.css";
 
 export const EducationITteams = () => {
 
@@ -39,7 +39,8 @@ export const EducationITteams = () => {
                     return (
                         <div className={styles.educationitsupportindivisuallybox}>
 
-                            <div> <h2>{e.htxt}</h2>
+                            <div>
+                                <h2>{e.htxt}</h2>
                                 <p>{e.stxt}</p>
                             </div>
 

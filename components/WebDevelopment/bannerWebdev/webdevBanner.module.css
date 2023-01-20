@@ -1,35 +1,130 @@
 /* for Large Screen */
 
-@media only screen and (min-width:900px){
+@media only screen and (min-width:769px){
+.webDevBanner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  
+  color: white;
+}
+.webDebText {
+  width: 40%;
+  padding: 20px;
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 25%;
+}
+
+.webDebText > h1 {
+  width: 75%;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.webDebText>h1>span{
+  color: #ef4c23;
+}
+.webDebText > p {
+  margin-bottom: 30px;
+}
+
+.webDevButton {
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ef4c23;
+  /* background-color: blue; */
+  border: 1px solid #ef4c23;
+  border-radius: 50px;
+}
+.webDevButton:hover {
+  color: white;
+  background-color: #ef4c23;
+}
+}
+/* Mobile screens banner */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+.webDevBanner{
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  color: white;
+}
+.webDebText {
+  width: 90%;
+padding: 5px;
+  height: fit-content;
+  position: absolute;
+  transform: translate(-25%, -50%);
+  top: 50%;
+  left: 25%;
+ right: 10%;
+ /* border: 1px solid red; */
+}
+.webDebText>h1{
+  font-weight: 700;
+font-size: 30px;
+}
+.webDebText>p{
+  font-size: 10px;
+  text-align: justify;
+}
+.orange{
+  color: #ef4c23;
+}
+.webDevButton {
+  padding: 10px 30px;
+  font-size: 7px;
+  font-weight: 600;
+  color: #ef4c23;
+  /* background-color: blue; */
+  border: 1px solid #ef4c23;
+  border-radius: 50px;
+}
+.webDevButton:hover {
+  color: white;
+  background-color: #ef4c23;
+}
+
+  }
+
+@media only screen and ( min-width:377px) and (max-width:769px){
+
   .webDevBanner {
     width: 100%;
-    height: 100vh;
+    height: 45vh;
     position: relative;
-    
-    /* color: white; */
+    color: white;
+
   }
   .webDebText {
-    width: 40%;
+    width: 85%;
     padding: 20px;
     height: 400px;
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
+    transform: translate(-20%, -50%);
+    top: 60%;
     left: 25%;
-    /* color: white; */
+    right: 5%;
   }
   
   .webDebText > h1 {
-    width: 75%;
+    width: 100%;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
   }
   
   .webDebText>h1>span{
     color: #ef4c23;
+   
   }
   .webDebText > p {
     margin-bottom: 30px;
+    text-align: justify;
   }
   
   .webDevButton {
@@ -45,112 +140,6 @@
     color: white;
     background-color: #ef4c23;
   }
-  }
-  /* Mobile screens banner */
-  
-  @media only screen and (min-width:0px) and (max-width:480px){
-  .webDevBanner{
-    width: 100%;
-    height: 40vh;
-    position: relative;
-    background-size: 100% 100% !important;
-    /* color: white; */
-  }
-  .webDebText {
-    width: 45%;
-  padding: 5px;
-    height: fit-content;
-    position: absolute;
-    transform: translate(-25%, -50%);
-    top: 40%;
-    left: 15%;
-   right: 10%;
-  
-   margin-top: 10%;
-  }
-  .webDebText>h1{
-    font-weight: 700;
-  font-size: 20px;
-  }
-  .webDebText>p{
-    font-size: 10px;
-    text-align: justify;
-    width: 80%;
-  }
-  .orange{
-    color: #ef4c23;
-  }
-  .webDevButton {
-    padding: 10px 30px;
-    font-size: 7px;
-    font-weight: 600;
-    color: #ef4c23;
-    /* background-color: blue; */
-    border: 1px solid #ef4c23;
-    border-radius: 50px;
-  }
-  .webDevButton:hover {
-    color: white;
-    background-color: #ef4c23;
-  }
-  
-    }
-  
-  
-  /* for any type of tablet screens responsive */
-  
-  
-  @media only screen and ( min-width:481px) and (max-width:900px){
-  
-    .webDevBanner {
-      width: 100%;
-      height: 45vh;
-      position: relative;
-      background-size: 100% 100% !important;
-   
-  
-    }
-    .webDebText {
-      width: 45%;
-      padding: 20px;
-      height: fit-content;
-      position: absolute;
-      transform: translate(-20%, -50%);
-      top: 50%;
-      left: 12%;
-      right: 5%;
-      /* color: white; */
-    }
     
-    .webDebText > h1 {
-      width: 100%;
-      font-weight: 700;
-      line-height: 40px;
     }
-    
-    .webDebText>h1>span{
-      color: #ef4c23;
-     
-    }
-    .webDebText > p {
-      margin-bottom: 30px;
-      text-align: justify;
-    }
-    
-    .webDevButton {
-      padding: 10px 30px;
-      font-size: 18px;
-      font-weight: 600;
-      color: #ef4c23;
-      /* background-color: blue; */
-      border: 1px solid #ef4c23;
-      border-radius: 50px;
-    }
-    .webDevButton:hover {
-      color: white;
-      background-color: #ef4c23;
-    }
-      
-      }
-  
-  
+

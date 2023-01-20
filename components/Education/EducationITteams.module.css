@@ -15,15 +15,24 @@
   text-align: justify;
 }
 
+.educationitteamsboxfortext > h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 0%;
+}
+
 .educationitteamsboxfortext > p {
-  font-size: 17px;
+  font-size: 16px;
+  /* font-weight: 500; */
+  line-height: 24px;
+  margin-top: 0.5%;
 }
 
 .educationitsupportmappingboxmain {
   height: fit-content;
   width: 95%;
   margin-left: 5%;
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -41,8 +50,17 @@
   text-align: justify;
 }
 
+.educationitsupportindivisuallybox > div > h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 0%;
+}
+
 .educationitsupportindivisuallybox > div > p {
   font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .educationitsupportindivisuallybox:nth-child(2n) {
@@ -77,6 +95,13 @@
   width: 44%;
   margin-left: 5%;
   margin-top: 5%;
+}
+
+.educationitsupportboxnextflexboxleft > h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 0%;
 }
 
 .educationitsupportboxnextflexboxleft > p {

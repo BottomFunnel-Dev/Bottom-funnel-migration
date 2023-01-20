@@ -1,10 +1,8 @@
 /* For Laptop Screen and wide range of screens */
 
-@media only screen and (min-width:769px){
 .bannerparentdivhomemodule {
   width: 100%;
   height: 100vh;
- 
 }
 
 .bannerslidebackground {
@@ -28,6 +26,7 @@
   font-weight: 600;
   font-size: 18px;
   border: none;
+  cursor: pointer;
 
   color: #ef4c23;
   background-color: white;
@@ -48,24 +47,21 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   outline: none;
 }
-}
 
 /* For only any type of mobile screen responsive */
 
-
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .bannerparentdivhomemodule {
     width: 100%;
     height: 52vh;
- 
   }
-  
+
   .bannerslidebackground {
     width: 100%;
     position: relative;
     height: 50vh;
   }
-  
+
   .bannertextcontentfull {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -77,21 +73,20 @@
     color: white;
   }
 
-.bannertextcontentfull>h1{
-  font-size: 20px;
-}
+  .bannertextcontentfull > h1 {
+    font-size: 20px;
+  }
 
-.bannertextcontentfull>p{
-  text-align: justify;
-}
-
+  .bannertextcontentfull > p {
+    text-align: justify;
+  }
 
   .bannertextcontentfull > button {
     padding: 8px 20px;
     font-weight: 600;
     font-size: 12px;
     border: none;
-  
+
     color: #ef4c23;
     background-color: white;
     border-radius: 10px;
@@ -111,27 +106,22 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     outline: none;
   }
-
 }
-
 
 /* For any type of tab screen responsive */
 
-
-@media only screen and ( min-width:377px) and (max-width:769px){
-
-   .bannerparentdivhomemodule {
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+  .bannerparentdivhomemodule {
     width: 100%;
     height: 52vh;
- 
   }
-  
+
   .bannerslidebackground {
     width: 100%;
     position: relative;
     height: 50vh;
   }
-  
+
   .bannertextcontentfull {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -143,21 +133,20 @@
     color: white;
   }
 
-.bannertextcontentfull>h1{
-  font-size: 30px;
-}
+  .bannertextcontentfull > h1 {
+    font-size: 30px;
+  }
 
-.bannertextcontentfull>p{
-  text-align: justify;
-}
-
+  .bannertextcontentfull > p {
+    text-align: justify;
+  }
 
   .bannertextcontentfull > button {
     padding: 8px 20px;
     font-weight: 600;
     font-size: 12px;
     border: none;
-  
+
     color: #ef4c23;
     background-color: white;
     border-radius: 10px;
@@ -177,6 +166,4 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     outline: none;
   }
-
-
 }
