@@ -11,7 +11,7 @@ import {
   imageData,
 } from "../../Data/OurClient";
 
-import { TextDropdown } from "../../components/CommonComponents/faqction/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
 import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
