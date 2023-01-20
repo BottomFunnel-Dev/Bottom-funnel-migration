@@ -1,7 +1,8 @@
 .educationbannermainboxes {
   height: 90vh;
   width: 90%;
-  /* border: 1px solid #d7dcdd; */
+  /* border: 2px solid red; */
+  border: 1px solid transparent;
   background-image: url("/Images/Education/bannerbackground/Group\ 770626.png");
   background-repeat: no-repeat;
   background-position-x: right;
@@ -19,13 +20,15 @@
 }
 
 .educationbannertextboxes > h1 {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 40px;
 }
 
 .educationbannertextboxes > p {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -4%;
 }
 
 .educationbuttonbanner {
