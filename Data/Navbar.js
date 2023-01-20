@@ -551,58 +551,58 @@ export const backend = [
   {
     dropContent: "Node.js",
     navIcons: "/Images/navbar/skills/nodejs.png",
-    path: "skills/nodejs",
+    path: "nodejs",
   },
   {
     dropContent: ".NET",
     navIcons: "/Images/navbar/skills/-net.png",
-    path: "skills/dotnet",
+    path: "dotnet",
   },
   {
     dropContent: "PHP",
     navIcons: "/Images/navbar/skills/php.png",
-    path: "skills/php",
+    path: "php",
   },
   {
     dropContent: "Laravel",
     navIcons: "/Images/navbar/skills/laravel.png",
-    path: "skills/laravel",
+    path: "laravel",
   },
   {
     dropContent: "SpringBoot",
     navIcons: "/Images/navbar/skills/springboot.png",
-    path: "skills/springboot",
+    path: "springboot",
   },
   {
     dropContent: "Hibernate",
     navIcons: "/Images/navbar/skills/hibernate.png",
-    path: "skills/hibernate",
+    path: "hibernate",
   },
   {
     dropContent: "Django",
     navIcons: "/Images/navbar/skills/django.png",
-    path: "skills/django",
+    path: "django",
   },
   {
     dropContent: "CakePHP",
     navIcons: "/Images/navbar/skills/cakephp.png",
-    path: "skills/cakephp",
+    path: "cakephp",
   },
 
   {
     dropContent: "CodeIgniter",
     navIcons: "/Images/navbar/skills/codeigniter.png",
-    path: "skills/codeigniter",
+    path: "codeigniter",
   },
   {
     dropContent: "Flask",
     navIcons: "/Images/navbar/skills/flask.png",
-    path: "skills/flask",
+    path: "flask",
   },
   {
     dropContent: "Golang",
     navIcons: "/Images/navbar/skills/golang.png",
-    path: "skills/golang",
+    path: "golang",
   },
   {
     dropContent: "Struts",
@@ -612,92 +612,92 @@ export const backend = [
   {
     dropContent: "Symfony",
     navIcons: "/Images/navbar/skills/symfony.png",
-    path: "skills/symfony",
+    path: "symfony",
   },
   {
     dropContent: "Phalcon",
     navIcons: "/Images/navbar/skills/phalcon.png",
-    path: "skills/phalcon",
+    path: "phalcon",
   },
   {
     dropContent: "JSF",
     navIcons: "/Images/navbar/skills/jsf.png",
-    path: "skills/jsf",
+    path: "jsf",
   },
   {
     dropContent: "Grails",
     navIcons: "/Images/navbar/skills/grails.png",
-    path: "skills/grails",
+    path: "grails",
   },
   {
     dropContent: "Yii",
     navIcons: "/Images/navbar/skills/yii.png",
-    path: "skills/yii",
+    path: "yii",
   },
   {
     dropContent: "Zend",
     navIcons: "/Images/navbar/skills/Zend.png",
-    path: "skills/zend",
+    path: "zend",
   },
   {
     dropContent: "Git",
     navIcons: "/Images/navbar/skills/Git.png",
-    path: "skills/git",
+    path: "git",
   },
   {
     dropContent: "Cherrpy",
     navIcons: "/Images/navbar/skills/cherrpy.png",
-    path: "skills/cherrypy",
+    path: "cherrypy",
   },
   {
     dropContent: "Cuba",
     navIcons: "/Images/navbar/skills/cuba.png",
-    path: "skills/cuba",
+    path: "cuba",
   },
   {
     dropContent: "Echo",
     navIcons: "/Images/navbar/skills/echoo.png",
-    path: "skills/echo",
+    path: "echo",
   },
   {
     dropContent: "Gorilla",
     navIcons: "/Images/navbar/skills/gorilla.png",
-    path: "skills/gorilla",
+    path: "gorilla",
   },
   {
     dropContent: "Hanami",
     navIcons: "/Images/navbar/skills/hanami.png",
-    path: "skills/hanami",
+    path: "hanami",
   },
   {
     dropContent: "Iris",
     navIcons: "/Images/navbar/skills/iris.png",
-    path: "skills/iris",
+    path: "iris",
   },
   {
     dropContent: "Padrino",
     navIcons: "/Images/navbar/skills/padrino.png",
-    path: "skills/padrino",
+    path: "padrino",
   },
   {
     dropContent: "Rails",
     navIcons: "/Images/navbar/skills/rails.png",
-    path: "skills/rails",
+    path: "rails",
   },
   {
     dropContent: "Revel",
     navIcons: "/Images/navbar/skills/revel.png",
-    path: "skills/revel",
+    path: "revel",
   },
   {
     dropContent: "Roda",
     navIcons: "/Images/navbar/skills/roda.png",
-    path: "skills/roda",
+    path: "roda",
   },
   {
     dropContent: "Sintara",
     navIcons: "/Images/navbar/skills/sinatra.png",
-    path: "skills/sinatra",
+    path: "sinatra",
   },
 ];
 
@@ -705,37 +705,37 @@ export const frontend = [
   {
     dropContent: "React.js",
     navIcons: "/Images/navbar/skills/react.png",
-    path: "skills/reactjs",
+    path: "reactjs",
   },
   {
     dropContent: "Angular",
     navIcons: "/Images/navbar/skills/angular.png",
-    path: "skills/angularjs",
+    path: "angularjs",
   },
   {
     dropContent: "Vue.js",
     navIcons: "/Images/navbar/skills/vue js.png",
-    path: "skills/vuejs",
+    path: "vuejs",
   },
   {
     dropContent: "Ember.js",
     navIcons: "/Images/navbar/skills/emberjs.png",
-    path: "skills/emberjs",
+    path: "emberjs",
   },
   {
     dropContent: "jQuery",
     navIcons: "/Images/navbar/skills/jquery.png",
-    path: "skills/jquery",
+    path: "jquery",
   },
   {
     dropContent: "Next.js",
     navIcons: "/Images/navbar/skills/next js.png",
-    path: "skills/nextjs",
+    path: "nextjs",
   },
   {
     dropContent: "Backbone.js",
     navIcons: "/Images/navbar/skills/backbone js.png",
-    path: "skills/backbonejs",
+    path: "backbonejs",
   },
   {
     dropContent: "Svelte",
@@ -745,7 +745,7 @@ export const frontend = [
   {
     dropContent: "Semantic UI",
     navIcons: "/Images/navbar/skills/semantic.png",
-    path: "skills/semantic",
+    path: "semantic",
   },
 ];
 
@@ -801,47 +801,47 @@ export const database = [
   {
     dropContent: "MySQL",
     navIcons: "/Images/navbar/skills/mysqlimage.png",
-    path: "skills/mysql",
+    path: "mysql",
   },
   {
     dropContent: "Microsoft SQL Server",
     navIcons: "/Images/navbar/skills/microsoftsql.png",
-    path: "skills/microsoftsql",
+    path: "microsoftsql",
   },
   {
     dropContent: "PostgreSQL",
     navIcons: "/Images/navbar/skills/postgreSQL.png",
-    path: "skills/postgresql",
+    path: "postgresql",
   },
   {
     dropContent: "MongoDB",
     navIcons: "/Images/navbar/skills/mongodb.png",
-    path: "skills/mongodb",
+    path: "mongodb",
   },
   {
     dropContent: "Redis",
     navIcons: "/Images/navbar/skills/redis.png",
-    path: "skills/redis",
+    path: "redis",
   },
   {
     dropContent: "IBM db2",
     navIcons: "/Images/navbar/skills/ibmdb2.png",
-    path: "skills/ibmdb",
+    path: "ibmdb",
   },
   {
     dropContent: "Elacticsearch",
     navIcons: "/Images/navbar/skills/elasticsearch.png",
-    path: "skills/elasticsearch",
+    path: "elasticsearch",
   },
   {
     dropContent: "SQLite",
     navIcons: "/Images/navbar/skills/sqlite.png",
-    path: "skills/sqlite",
+    path: "sqlite",
   },
   {
     dropContent: "Cassandra",
     navIcons: "/Images/navbar/skills/cassandra.png",
-    path: "skills/cassandra",
+    path: "cassandra",
   },
 ];
 
@@ -849,53 +849,48 @@ export const cms = [
   {
     dropContent: "Wordpress",
     navIcons: "/Images/navbar/skills/wordpress.png",
-    path: "skills/wordpress",
+    path: "wordpress",
   },
   {
     dropContent: "Hubspot CMS Hub",
     navIcons: "/Images/navbar/skills/hubspot.png",
-    path: "skills/hubspot",
+    path: "hubspot",
   },
   {
     dropContent: "Joomla",
     navIcons: "/Images/navbar/skills/joomla.png",
-    path: "skills/joomla",
+    path: "joomla",
   },
   {
     dropContent: "WooCommerce",
     navIcons: "/Images/navbar/skills/woo.png",
-    path: "skills/woocommerce",
+    path: "woocommerce",
   },
   {
     dropContent: "Drupal",
     navIcons: "/Images/navbar/skills/drupal.png",
-    path: "skills/drupal",
+    path: "drupal",
   },
   {
     dropContent: "Wix",
     navIcons: "/Images/navbar/skills/wix.png",
-    path: "skills/wix",
+    path: "wix",
   },
   {
     dropContent: "Big Commerce",
     navIcons: "/Images/navbar/skills/bigcommerce.png",
-    path: "skills/bigcommerce",
+    path: "bigcommerce",
   },
   {
     dropContent: "Ghost website builder",
     navIcons: "/Images/navbar/skills/ghost.png",
-    path: "skills/ghost",
+    path: "ghost",
   },
   {
     dropContent: "Weebly",
     navIcons: "/Images/navbar/skills/weebly.png",
-    path: "skills/weebly",
+    path: "weebly",
   },
-  // {
-  //   dropContent: "Shopify",
-  //   navIcons: "/Images/navbar/skills/shopify.png",
-  //   path: "skills/shopify",
-  // },
 ];
 
 export const discoverContent = [
