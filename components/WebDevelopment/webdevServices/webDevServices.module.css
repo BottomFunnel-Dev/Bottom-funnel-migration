@@ -1,9 +1,5 @@
-/* for Laptop Screens */
-@media only screen and (min-width:769px){
 .webDevServices {
   width: 100%;
-  /* height: 500px; */
-  /* background-color: green; */
 }
 
 .webdevTextServices {
@@ -13,7 +9,8 @@
 }
 
 .devServicesFlex {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -29,7 +26,6 @@
 
 .devServiceCard {
   width: 20%;
-  /* border: 1px solid black ; */
   padding: 1%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
@@ -40,7 +36,6 @@
   /* margin-top: 0; */
   transition: all 0.2s linear;
   transform: scale(1.1);
-  /* transform: translateY(-15px); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -52,6 +47,7 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .devServiceIcon > img {
   width: 100%;
   height: 100%;
@@ -61,158 +57,127 @@
 .devServiceText > p {
   text-align: justify;
 }
-}
-
 
 /* For Mobile screens */
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .webDevServices {
     width: 100%;
-   background-color: #fff5f2;
+    background-color: #fff5f2;
     margin-top: -4%;
     position: relative;
-   
   }
   .webdevTextServices {
     width: 90%;
     margin: 15px auto;
     text-align: center;
   }
-.webdevTextServices>p{
-  text-align: justify;
-
-}
-.webdevTextServices>h1{
- 
-  font-size: 25px;
-
-}
-.devServicesFlex {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  /* align-items: stretch; */
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 35px;
-  row-gap: 35px;
-  padding: 30px 0;
-
-
-}
-
-.devServiceCard {
-  width: 100%;
- height: fit-content;
-  /* border: 1px solid black ; */
-  padding: 1%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
-  background-color: white;
-  height: fit-content;
-
-
-}
-.devServiceIcon {
-  width: 60px;
-  height: 60px;
-  /* margin-bottom: 10px; */
-  /* padding: 5px;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-
-}
-.devServiceText{
-
-height: fit-content;
-text-align: justify;
-padding: 2px;
-
-}
+  .webdevTextServices > p {
+    text-align: justify;
+  }
+  .webdevTextServices > h1 {
+    font-size: 25px;
+  }
+  .devServicesFlex {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 35px;
+    padding: 30px 0;
   }
 
-  @media only screen and ( min-width:377px) and (max-width:769px){
-    .webDevServices {
-      width: 100%;
-      /* height: 500px; */
-      /* background-color: green; */
-    }
-    
-    .webdevTextServices {
-      width: 80%;
-      margin: 15px auto;
-      text-align: center;
-    }
+  .devServiceCard {
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: white;
+    height: fit-content;
+  }
+  .devServiceIcon {
+    width: 60px;
+    height: 60px;
+  }
+  .devServiceText {
+    height: fit-content;
+    text-align: justify;
+    padding: 2px;
+  }
+}
 
-    .webdevTextServices>p{
-      text-align: justify;
-    }
-    
-    .devServicesFlex {
-      width: 100%;
-      display: flex;
-      align-items: stretch;
-      justify-content: center;
-      flex-wrap: wrap;
-      column-gap: 35px;
-      row-gap: 35px;
-      padding: 30px 0;
-    }
-    
-    .spanText {
-      color: #ef4c23;
-    }
-    
-    .devServiceCard {
-      width: 40%;
-      /* border: 1px solid black ; */
-      padding: 2%;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      border-radius: 10px;
-      /* border: 5px solid green; */
-      height: 350px;
-    
-    }
-
-    .devServiceCard:nth-child(2){
-      width: 40%;
-      /* border: 1px solid black ; */
-      padding: 2%;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      border-radius: 10px;
-      /* border: 5px solid green; */
-      height: 385px;
-      margin-top: -2.5%;
-      margin-left: 2%;
-    }
-    
-    .devServiceCard:hover {
-      cursor: pointer;
-      /* margin-top: 0; */
-      transition: all 0.2s linear;
-      transform: scale(1.1);
-      /* transform: translateY(-15px); */
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    
-    .devServiceIcon {
-      width: 50px;
-      height: 50px;
-      margin-bottom: 10px;
-      padding: 5px;
-      border-radius: 5px;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    }
-    .devServiceIcon > img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-    
-    .devServiceText > p {
-      text-align: justify;
-    }
-
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .webDevServices {
+    width: 100%;
   }
 
+  .webdevTextServices {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+  }
 
+  .webdevTextServices > p {
+    text-align: justify;
+  }
+
+  .devServicesFlex {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 35px;
+    padding: 30px 0;
+  }
+
+  .spanText {
+    color: #ef4c23;
+  }
+
+  .devServiceCard {
+    width: 40%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height: 350px;
+  }
+
+  .devServiceCard:nth-child(2) {
+    width: 40%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height: 385px;
+    margin-top: -2.5%;
+    margin-left: 2%;
+  }
+
+  .devServiceCard:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .devServiceIcon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .devServiceIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .devServiceText > p {
+    text-align: justify;
+  }
+}

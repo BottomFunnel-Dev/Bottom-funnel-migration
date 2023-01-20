@@ -41,9 +41,8 @@ h6 {
   font-size: 16px;
 }
 
-a{
+a {
   text-decoration: none;
-  
 }
 @media (prefers-color-scheme: light) {
   :root {

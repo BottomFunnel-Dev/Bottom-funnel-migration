@@ -21,7 +21,9 @@
   font-size: 18px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
+
 .mernButton:hover {
   background-color: #0fb2e8;
   color: white;

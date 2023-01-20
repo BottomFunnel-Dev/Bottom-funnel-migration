@@ -23,7 +23,7 @@ import Navbar from "../../components/Navbar/Navbar";
 
 export default function PhP() {
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
       <Navbar />
       <WebdevBanner bannerContent={phpBanner} />
       <Techstackintro techContent={phpstackIntro} />

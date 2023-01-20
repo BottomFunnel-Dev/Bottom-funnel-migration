@@ -12,8 +12,9 @@
 .mainstackDiv {
   width: 100%;
   margin: auto;
-  background-color: #D6F8FF;
+  background-color: #d6f8ff;
 }
+
 .stackflex {
   width: 80%;
   display: flex;
@@ -27,10 +28,10 @@
 }
 
 .stackCard {
-    width: 45%;
-    height: max-content;
-    padding: 10px;
-    border-radius: 10px;
+  width: 45%;
+  height: max-content;
+  padding: 10px;
+  border-radius: 10px;
   display: flex;
   align-items: top;
 }
@@ -39,11 +40,13 @@
   width: 30%;
   height: 100%;
 }
+
 .stackImage > img {
   width: 100%;
   height: 100%;
   object-fit: content;
 }
+
 .stackContent {
   width: 70%;
   height: 100%;

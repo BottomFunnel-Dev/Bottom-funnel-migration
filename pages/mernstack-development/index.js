@@ -22,7 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 
 export default function MernPageWebDevelopment() {
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
       <Navbar />
       <Mernbanner bannerdata={mernbanner} />
       <MernIntro techIntro={whatData} />

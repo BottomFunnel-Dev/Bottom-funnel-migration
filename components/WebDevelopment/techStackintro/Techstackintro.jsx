@@ -25,11 +25,11 @@ export const Techstackintro = ({ techContent }) => {
               style={
                 index === stack
                   ? {
-                    background: "#ffe2da",
-                    borderLeft: "5px solid #ef4c23",
-                    color: "#ef4c23",
-                  }
-                  : {}
+                      background: "#ffe2da",
+                      borderLeft: "5px solid #ef4c23",
+                      color: "#ef4c23",
+                    }
+                  : null
               }
               onMouseEnter={() => {
                 handleStack(index);
@@ -54,8 +54,6 @@ export const Techstackintro = ({ techContent }) => {
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   );
