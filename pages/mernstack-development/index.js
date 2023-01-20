@@ -19,16 +19,35 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function MernPageWebDevelopment() {
   return (
     <div>
+
+    <Head>
+    <title>Mern Development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="In today's world, companies are moving 
+      from traditional ways of doing things to online 
+      marketing. Mern is here to help them with that! 
+      We offer app development services for custom web 
+      application development and business Web Application
+       Development. Our team is comprised of talented
+        professionals who have years of experience in
+         web development."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <Mernbanner bannerdata={mernbanner} />
       <MernIntro techIntro={whatData} />
       <MernPoluparServices popularservice={mernservices} />
       <TechGetStarted calltoAction={letstart} />
-      {/* <WhyBottom whyContent={mernWhyContent} /> */}
+     <WhyBottom whyContent={mernWhyContent} /> 
 
       {/* Other react required components  */}
       <StoriesSection />
@@ -40,6 +59,8 @@ export default function MernPageWebDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

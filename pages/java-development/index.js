@@ -20,10 +20,29 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function JavaDevPage() {
   return (
     <div>
+
+    <Head>
+    <title>Java Development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="You have a great idea for a web app, 
+      but you don't know where to begin. There's so 
+      much information out there about app development, 
+      but it's all confusing. You don't want to spend 
+      money on an app that isn't going to give you the
+       results you're looking for, and you also don't want
+        to waste time on something that won't be useful in 
+        the long run."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <WebdevBanner bannerContent={javaBanner} />
       <Techstackintro techContent={javastackIntro} />
@@ -42,6 +61,8 @@ export default function JavaDevPage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

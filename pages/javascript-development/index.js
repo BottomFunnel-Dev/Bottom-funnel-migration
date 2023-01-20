@@ -20,10 +20,32 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function JavascriptPage() {
   return (
     <div>
+    <Head>
+    <title>Javascript Development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="Are you ready to make a difference? 
+      Then we are the right fit for you. We have been 
+      offering cutting-edge web application services
+       for years, and we have never failed to deliver.
+        Our experts are adept at piecing together the best 
+        systems possible so that your app will run smoothly 
+        at all times. That being said, our team works tirelessly 
+        to ensure that your app is up-to-date and secure - every 
+        step of the way!"
+    />
+  </Head>
+
+
+  <main>
+
+
+
       <Navbar />
       <WebdevBanner bannerContent={javascriptBanner} />
       <Techstackintro techContent={javascriptstackIntro} />
@@ -42,6 +64,8 @@ export default function JavascriptPage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

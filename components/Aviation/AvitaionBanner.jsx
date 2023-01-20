@@ -6,9 +6,7 @@ export const AvitaionBanner = () => {
     <div className={styles.aviationbannermaiboxes}>
     <div className={styles.aviationbannertextboxes}>
     <h1>Aviation Softwere Development Services</h1>
-    </div>
-     <div className={styles.aviationboxsmalltextbox}>
-     <p>Let us be your trusted technology partner and help you solve complex challenges in your Aviation business.</p>
+   <p>Let us be your trusted technology partner and help you solve complex challenges in your Aviation business.</p>
     
     <button className={styles.aviationbannerbutton}>Book a free Cunsulatncy</button>
      </div>

@@ -20,10 +20,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function PythonDevelopment() {
   return (
     <div>
+
+    <Head>
+    <title>PythonDevelopment | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="Python Development is the answer. We are a team of
+       talented developers who love what they do. We understand the 
+       importance of quality software development, and we strive to 
+       deliver it on time."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <WebdevBanner bannerContent={pythonBanner} />
       <Techstackintro techContent={pythonstackIntro} />
@@ -42,6 +57,8 @@ export default function PythonDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

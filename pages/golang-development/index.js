@@ -20,10 +20,26 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function GolangPages() {
   return (
     <div>
+
+    <Head>
+    <title>Golang Development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="You can't improve what you don't know, and that's 
+      why we're here. With years of experience in Golang development
+      , we can help you create the next great web app. Not only are
+       we experts in building quality code, but also in marketing
+        your application to maximize its potential."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <WebdevBanner bannerContent={golangBanner} />
       <Techstackintro techContent={golangstackIntro} />
@@ -42,6 +58,9 @@ export default function GolangPages() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
+
     </div>
   );
 }

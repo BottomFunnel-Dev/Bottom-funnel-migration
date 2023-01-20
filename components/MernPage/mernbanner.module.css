@@ -1,53 +1,212 @@
-.mernBanner {
-  /* margin-top: 90px; */
-  height: 100vh;
-  position: relative;
-}
-
-.mernbannercontent {
-  width: 35%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 23%;
-  /* background-color: red; */
-  padding: 30px;
+/* for any type of laptop and big size screen responsive */
+@media only screen and (min-width:900px){
+  .mernBanner {
+    /* margin-top: 90px; */
+    height: 100vh;
+    position: relative;
+  }
+  
+  .mernbannercontent {
+    width: 35%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 23%;
+    /* background-color: red; */
+    padding: 30px;
+    /* color: white; */
+  }
+  
+  .mernButton {
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+  }
+  .mernButton:hover {
+    background-color: #0fb2e8;
+    /* color: white; */
+  }
+  
+  .bannerIcons {
+    width: 150px;
+    height: 400px;
+    /* background-color: green; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  
+  .mernskills {
+    width: 70px;
+    height: 70px;
+  }
+  .mernskills > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  }
+  
+  /* for any type of mobile screen responsive */
+  
+  @media only screen and (min-width:0px) and (max-width:480px){
+  
+  .mernBanner {
+    /* margin-top: 90px; */
+    height: 40vh;
+  background-position-y: top !important ; 
+  background-size: 90% 100% !important;
+  
+  }
+  
+  .mernbannercontent {
+    width: 40%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+  
+    /* left: 50%; */
+  
+    padding: 10px;
+    /* color: white; */
+  }
+  
+  .mernbannercontent>h1{
+    font-size: 15px;
+    background-color: white;
+  
+  }
+  
+  .mernbannercontent>p{
+    font-size: 12px;
+    text-align: justify;
+  }
+  /* 
+  .mernButton {
+    font-weight: 600;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0fb2e8;
+  }
+  .mernButton:hover {
+    background-color: #0fb2e8;
+    color: white;
+  } */
+  
+  .mernButton{
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: fit-content;
+  background-color: #3380f2;
   color: white;
-}
-
-.mernButton {
-  font-weight: 600;
-  padding: 10px 30px;
-  font-size: 18px;
   border: none;
-  border-radius: 10px;
-}
-.mernButton:hover {
-  background-color: #0fb2e8;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 10px;
+  font-weight: 600;
+  }
+  
+  
+  .mernButton:hover{
+    background-color:white;
+    color:  #3380f2;
+  }
+  
+  
+  
+  
+  
+  .mernskills {
+    width: 70px;
+    height: 70px;
+  }
+  .mernskills > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  }
+  
+  /* for any type of tablat screen responsive */
+  
+  @media only screen and ( min-width:481px) and (max-width:900px){
+  .mernBanner {
+    /* margin-top: 90px; */
+    height: 50vh;
+    position: relative;
+  background-size: 90% 100% !important;
+  background-position-y: top !important;
+  
+  }
+  
+  .mernbannercontent {
+    width: 35%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 23%;
+    /* background-color: red; */
+    padding: 30px;
+    /* color: white; */
+  }
+  
+  .mernButton{
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #3380f2;
   color: white;
-}
-
-.bannerIcons {
-  width: 150px;
-  height: 400px;
-  /* background-color: green; */
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 15px;
-  justify-content: center;
-}
-
-.mernskills {
-  width: 70px;
-  height: 70px;
-}
-.mernskills > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  }
+  
+  
+  .mernButton:hover{
+    background-color:white;
+    color:  #3380f2;
+  }
+  
+  
+  .bannerIcons {
+    width: 150px;
+    height: 400px;
+    /* background-color: green; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  
+  .mernskills {
+    width: 70px;
+    height: 70px;
+  }
+  .mernskills > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  
+  
+  }
+  
+  

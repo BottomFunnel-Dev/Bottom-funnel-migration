@@ -1,0 +1,66 @@
+.consultingQuestionParentDiv {
+  /* border: 1px solid red; */
+  position: relative;
+  margin-top: 4%;
+}
+
+/* .consultingQuestionBackImage {
+  position: absolute;
+} */
+
+.consultingQuestionBackImage > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.consultingQuestionContentMainDiv {
+  /* border: 2px solid red; */
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  top: 0;
+}
+
+.consultingQuestionContentTextDiv {
+  /* border: 2px solid gold; */
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+.consultingQuestionContentTextDiv > div {
+  border: 2px solid #ef4c23;
+  background-color: #ef4c23;
+  width: 50%;
+}
+
+.consultingQuestionContentTextDiv > p {
+  margin-top: 1%;
+}
+
+.consultingQuestionContentButtonDiv {
+  /* border: 2px solid black; */
+  width: 40%;
+  text-align: center;
+  margin-top: 4%;
+}
+
+.consultingQuestionContentButtonDiv button {
+  padding: 10px 50px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.consultingQuestionContentButtonDiv button:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}

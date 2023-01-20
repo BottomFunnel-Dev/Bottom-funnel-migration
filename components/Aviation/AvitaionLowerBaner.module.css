@@ -1,18 +1,19 @@
 .lowerbanneraviation{
-    height: 250px;
-   
-
+    height: 300px;
     background: url("/Images/aviation/Component 142.png");
    position: relative;
+   background-repeat: no-repeat;
+   margin-bottom: 3%;
 }
 
 .lowerbannertextandbutton{
-    height: 100%;
-    border: 1px solid white;
-  
+    position: absolute;
+    height: fit-content;
+    border: 1px solid transparent;
+    margin-top: 2%;
     text-align: center;
     color: white;
-  padding: 5%;
+
 }
 
 
@@ -28,7 +29,7 @@
     font-size: 18px;
     font-weight: 600;
     color: #ef4c23;
-    margin-top: 2%;
+
   
 }
 

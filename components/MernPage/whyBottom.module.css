@@ -1,76 +1,255 @@
-.whybottom {
-  width: 100%;
-  height: 700px;
-  /* background-color: green; */
-  padding: 30px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.whyreasons {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: auto;
-  column-gap: 20px;
-  row-gap: 20px;
-  padding: 30px 0;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 55%;
-  left: 50%;
-  z-index: 1;
-}
-
-.whyfeatureCard {
-  width: 49%;
-  height: 250px;
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
-  text-align: left;
-}
-
-.whyfeatureImage {
-  width: 50px;
-  height: 50px;
-}
-.whyfeatureImage > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.whyfeatureContent {
-  width: 100%;
-}
-
-.backelement {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  top: -58px;
-  right: -35px;
-  z-index: -1;
-  /* background-color: antiquewhite; */
-}
-.backelement > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.backelementbottom {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  bottom: -170px;
-  left: -50px;
-  z-index: -2;
-  /* background-color: antiquewhite; */
-}
-.backelementbottom > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
+/* for any type of laptop and wide range of screens responsive */
+@media only screen and (min-width:900px){
+  .whybottom {
+    width: 96%;
+    height: 700px;
+    /* background-color: green; */
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .whyreasons {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    z-index: 1;
+  }
+  
+  .whyfeatureCard {
+    width: 45%;
+    height: 280px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .whyfeatureImage {
+    width: 50px;
+    height: 50px;
+  }
+  .whyfeatureImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whyfeatureContent {
+    width: 100%;
+  
+  }
+  
+  .backelement {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: -58px;
+    right: -35px;
+    z-index: -1;
+    /* background-color: antiquewhite; */
+  }
+  .backelement > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .backelementbottom {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    bottom: -170px;
+    left: -50px;
+    z-index: -2;
+    /* background-color: antiquewhite; */
+  }
+  .backelementbottom > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  }
+  
+  /* for any type of mobile screen responsive */
+  @media only screen and (min-width:0px) and (max-width:480px){
+  .whybottom {
+    width: 85%;
+    height: 100vh;
+    /* background-color: green; */
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    overflow: scroll;
+    margin: auto;
+  
+  
+  }
+  
+  /* .whyreasons {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 30px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    z-index: 1;
+    border: 10px solid red;
+  } */
+  
+  .whyfeatureCard {
+    width: 90%;
+    height: max-content;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    text-align: left;
+   
+  }
+  
+  .whyfeatureImage {
+    width: 50px;
+    height: 50px;
+  
+  }
+  .whyfeatureImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .whyfeatureContent {
+    width: 100%;
+  
+  }
+  
+  .backelement {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: -58px;
+    right: -35px;
+    z-index: -1;
+    /* background-color: antiquewhite; */
+  }
+  /* .backelement > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  } */
+  .backelementbottom {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: -370px;
+    left: -50px;
+    z-index: -2;
+    /* background-color: antiquewhite; */
+  }
+  /* .backelementbottom > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  } */
+  }
+  
+  /* for any type of tablet screen responsive */
+  
+  @media only screen and ( min-width:481px) and (max-width:900px){
+    .whybottom {
+      width: 90%;
+      height: 700px;
+      /* background-color: green; */
+      padding: 30px;
+      text-align: center;
+      position: relative;
+      overflow: scroll;
+     
+    }
+    
+    .whyreasons {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: auto;
+      column-gap: 20px;
+      row-gap: 20px;
+      padding: 30px 0;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 85%;
+      left: 50%;
+      z-index: 1;
+    }
+    
+    .whyfeatureCard {
+      width: 40%;
+      height: 400px;
+      padding: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+      text-align: left;
+     
+      
+    }
+    
+    .whyfeatureImage {
+      width: 50px;
+      height: 50px;
+    }
+    .whyfeatureImage > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .whyfeatureContent {
+      width: 100%;
+    
+    }
+    
+    .backelement {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: -58px;
+      right: -35px;
+      z-index: -1;
+      /* background-color: antiquewhite; */
+    }
+    .backelement > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .backelementbottom {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      bottom: -170px;
+      left: -50px;
+      z-index: -2;
+      /* background-color: antiquewhite; */
+    }
+    .backelementbottom > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  
+  
+  
+  }

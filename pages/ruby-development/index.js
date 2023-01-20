@@ -20,10 +20,33 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function RubyRails() {
   return (
     <div>
+
+    <Head>
+    <title>Ruby Development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="We know that your time is valuable and 
+      you have a very keen interest in finding a company
+       that can deliver quality work for reasonable prices.
+        When you look for Ruby development, you are looking 
+        for the best web application development company in town. 
+        We are more than happy to be able to help individuals,
+         businesses, and startups with their app needs. Our team 
+         of seasoned developers is ready to take on any project – big
+          or small! We will provide the best possible solutions while
+           keeping your budget in mind. Contact us today so we can get 
+           started working on your project!"
+    />
+  </Head>
+
+
+  <main>
+
       <Navbar />
       <WebdevBanner bannerContent={rubyBanner} />
       <Techstackintro techContent={rubystackIntro} />
@@ -42,6 +65,8 @@ export default function RubyRails() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }
