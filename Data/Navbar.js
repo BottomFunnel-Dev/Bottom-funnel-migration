@@ -40,7 +40,7 @@ export const whyBottom = [
   {
     dropContent: "Press and Media",
     navIcons: "Images/navbar/aboutImage/pressandmedia.png",
-    path: "PressAndMedia",
+    path: "press-and-media",
   },
 ];
 
@@ -48,7 +48,7 @@ export const process = [
   {
     dropContent: "Our Development Process",
     navIcons: "Images/navbar/aboutImage/ourdevelopmentprocess.png",
-    path: "Our-development",
+    path: "our-development",
   },
   {
     dropContent: "Engagement Models",
