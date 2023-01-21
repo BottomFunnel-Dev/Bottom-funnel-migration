@@ -45,7 +45,7 @@ export default function BigDataService() {
      <BigDataServiceBF />
    {  /*  <CustomWebForm /> */ }
       
-      {/* Other react required components 
+      {/* Other react required components */ }
       <StoriesSection />
       <OndemandSection />
       {/* <PortFolio />  */ }
