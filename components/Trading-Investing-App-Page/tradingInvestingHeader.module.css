@@ -8,6 +8,8 @@
 .RGtradingInvestingLeftContainer {
     justify-content: center;
     width: 50%;
+   
+    text-align: justify;
 }
 
 .RGtradingInvestingRightContainer {

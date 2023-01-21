@@ -1,66 +1,255 @@
-.trendingtechnologywhychoosemainboxes{
-    height: fit-content;
-   margin-bottom: 3%;
+@media only screen and (min-width: 1200px){
+.trendingwhychoosemainboxes{
+    height: 100vh;
     margin-top: 5%;
-    text-align: center;
-}
-
-.trendingtechnologywhychoosemainboxes >p{
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: justify;
-}
-
-.trendingtechnologywhychoosemainboxesmapperspecialbox{
-  
-background: url("/public/Images/TrendingTechnologies/Banners\ &\ backgounds/Component 159.png");
-    height: 600px;
- 
+    margin-bottom: 2%;
+    background: url("/Images/TrendingTechnologies/Banners\ &\ backgounds/Component 159.png");
   background-size: 100% 100%;
-  position: relative;
+  background-repeat: no-repeat;
+position: relative;
+   
 }
 
-.trendingtexhwhychooseflexbox{
-    height: 90%;
-    width: 60%;
-   
-    margin-left: 17%;
-    margin-top: 2%;
+.trendingwhychoosedatamappingdata{
+    height: fit-content;
+    width: 92%;
+  margin-left: 5%;
+  margin-top: 3%;
+  position: absolute;
     display: flex;
     flex-wrap: wrap;
+
 }
 
-.indivisuallytrendingwhychooseus{
-    width: 40%;
-    height: 180px;
-   border: 2px solid #ef4c23;
-  margin: 1%;
+.trendingwhychoosedatamappingdataindi{
+    width: 25%;
+    margin: 1%;
+    height: 30%;
   background-color: white;
-  text-align: justify;
-  padding: 5px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    
 }
 
-.indivisuallytrendingwhychooseus:nth-child(2n-1){
-    margin-left: 1%;
+.trendingwhychoosedatamappingdataindi:nth-child(2n){
+margin-left: 30%;
+
+
 }
 
-.indivisuallytrendingwhychooseus:nth-child(2n){
-    margin-left: 17%;
+.trendingwhychoosedatamappingdataindi:nth-child(1), .trendingwhychoosedatamappingdataindi:nth-child(5){
+
+    margin-left: 7%;
 }
 
-.numberandhtxtindtrentech{
+
+.trendingwhychoosedatamappingdataindi:nth-child(3){
+
+    margin-left: -2%;
+}
+
+.trendingwhychoosedatamappingdataindi:nth-child(4){
+
+    margin-left: 47%;
+}
+
+.trendingtechwhychooseindflexboxuppertxt{
     display: flex;
+    
+}
+
+.trendingtechwhychooseindflexboxuppertxtheading{
+    margin-left: 1%;
+  margin-top: 2%;
+  font-size: 25px;
+
+}
+
+.trendingtechwhychooseindflexboxuppertxtno{
+font-weight: 600;
+font-size: 45px;
+
+}
+.trendingwhychooseushedingbox >h1 ,.trendingwhychooseushedingbox>p{
+  width: 90%;
+  margin: auto;
+ text-align: justify;
+  margin-top: 1%;
+  
+}
+
 }
 
 
-.textindtrentech{
-    margin-left: 2%;
-    margin-top: 3%;
+
+
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .trendingwhychoosemainboxes{
+    height: 140vh;
+
+  
+   
+}
+
+.trendingwhychoosedatamappingdata{
+    height: fit-content;
+    width: 95%;
+  margin-left: 2%;
+
+  position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.trendingwhychoosedatamappingdataindi{
+    width: 40%;
+    margin: 1%;
+    max-height: max-content;
+  background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ef4c23;
+    
+}
+
+.trendingwhychoosemainboxes>h1{
+  text-align: center;
+}
+
+.trendingwhychoosemainboxes>p{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
 }
 
 
-.indivisuallytrendingwhychooseus:nth-col(odd){
-  background-color: #ef4c23;
+
+
+.trendingtechwhychooseindflexboxuppertxt{
+    display: flex;
+    
 }
+
+.trendingtechwhychooseindflexboxuppertxtheading{
+    margin-left: 5%;
+  margin-top: 2%;
+  font-size: 20px;
+
+}
+
+.trendingtechwhychooseindflexboxuppertxtno{
+font-weight: 600;
+font-size: 25px;
+
+}
+.trendingwhychooseptag{
+
+ text-align: justify;
+}
+
+.trendingwhychooseushedingbox >h1 ,.trendingwhychooseushedingbox>p{
+  width: 90%;
+  margin: auto;
+ 
+  margin-top: 1%;
+  
+}
+.trendingwhychooseushedingbox>p{
+  text-align: justify;
+
+}
+
+}
+
+
+
+/* for any type of tablet screen responsive */
+
+
+@media only screen and ( min-width:481px) and (max-width:900px){
+
+  .trendingwhychoosemainboxes{
+    height: 100vh;
+  
+  
+   
+}
+
+.trendingwhychoosedatamappingdata{
+    height: fit-content;
+    width: 95%;
+margin-left: 5%;
+
+  position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.trendingwhychoosedatamappingdataindi{
+    width: 42%;
+    margin: 1%;
+    height: 200px;
+  background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ef4c23;
+    
+}
+
+.trendingwhychoosemainboxes>h1{
+  text-align: center;
+}
+
+.trendingwhychoosemainboxes>p{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+
+
+
+
+.trendingtechwhychooseindflexboxuppertxt{
+    display: flex;
+    
+}
+
+.trendingtechwhychooseindflexboxuppertxtheading{
+    margin-left: 5%;
+  margin-top: 2%;
+  font-size: 20px;
+
+}
+
+.trendingtechwhychooseindflexboxuppertxtno{
+font-weight: 600;
+font-size: 25px;
+
+}
+.trendingwhychooseptag{
+
+ text-align: justify;
+}
+ 
+.trendingwhychooseushedingbox >h1 ,.trendingwhychooseushedingbox>p{
+  width: 90%;
+  margin: auto;
+ 
+  margin-top: 1%;
+  
+}
+.trendingwhychooseushedingbox>p{
+  text-align: justify;
+
+}
+  
+  }
