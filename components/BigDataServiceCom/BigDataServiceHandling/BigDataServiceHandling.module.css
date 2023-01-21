@@ -10,3 +10,54 @@
 
   text-align: center;
 }
+
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .BigDataServiceHandlingMain {
+    padding: 5% 3% 5% 3%;
+  
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("/Images/BigDataServicePhotos/mid-banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  
+    
+  }
+  
+.BigDataServiceHandlingMain>p{
+  text-align: justify;
+}
+
+.BigDataServiceHandlingMain>h1{
+  font-size: 25px;
+}
+  }
+
+  /* for any type of tablet responsive */
+
+  @media only screen and ( min-width:481px) and (max-width:900px){
+
+    .BigDataServiceHandlingMain {
+  padding: 5% 3% 5% 3%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/Images/BigDataServicePhotos/mid-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+  text-align: center;
+}
+
+.BigDataServiceHandlingMain>p{
+  text-align: justify;
+}
+
+
+}
