@@ -1,5 +1,5 @@
 .EcommerceBookCallMain {
-  height: 400px;
+  padding: 5% 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,8 +9,9 @@
 .EcommerceBookCallMain > div {
   background-color: #fcdbd3;
   text-align: center;
-  padding: 60px 100px;
+  padding: 5% 2%;
   border-radius: 20px;
+  height: fit-content;
 }
 
 .EcommerceBookCallMain > div > h1 {
@@ -34,5 +35,16 @@
 .EcommerceBookCallMain > div > button:hover {
   background-color: white;
   color: #ef4c23;
-  /* box-shadow: none; */
+}
+
+/* media query for mobiles and tablets devices */
+@media (max-width: 1024px) {
+  .EcommerceBookCallMain > div > h1 {
+    font-size: 32px;
+  }
+
+  .EcommerceBookCallMain > div > button {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
 }
