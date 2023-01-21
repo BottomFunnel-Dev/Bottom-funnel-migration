@@ -1,11 +1,12 @@
 .videocontainer {
   background-color: black;
   width: 100%;
-  height: 100vh;
+  height: 97vh;
   color: white;
   padding-top: 10vh;
   background-color: black;
 }
+
 .videosub {
   width: 90%;
   margin: auto;
@@ -13,12 +14,14 @@
   height: 550px;
   padding: 40px 20px;
 }
+
 .videoleft {
   width: 50%;
   position: relative;
   /* background-color: blueviolet; */
   /* padding: 2px 30px; */
 }
+
 .videopara {
   width: 100%;
   padding: 30px 20px;
@@ -27,11 +30,13 @@
   top: 70%;
   left: 50%;
 }
+
 .videoimages {
   width: 50%;
   /* background-color: blue; */
   position: relative;
 }
+
 .trailbtn {
   padding: 10px 60px;
   font-weight: 600;
@@ -42,10 +47,12 @@
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .trailbtn:hover {
   background-color: white;
   color: #ef4c23;
 }
+
 .videomac {
   width: 90%;
   height: 370px;
@@ -53,11 +60,13 @@
   position: absolute;
   z-index: 0;
 }
+
 .videomac > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 .videomobile {
   width: 51%;
   height: 360px;
@@ -65,11 +74,13 @@
   position: absolute;
   z-index: 1;
 }
+
 .videomobile > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 .videobottomdiv {
   width: 90%;
   height: 100px;
@@ -80,10 +91,12 @@
 }
 
 .szbottomimages {
-  margin: 45px 35px;
+  margin: 0px 35px;
   width: 20%;
   height: 30px;
+  /* border: 1px solid red; */
 }
+
 .szbottomimages > img {
   width: 100%;
   height: 100%;

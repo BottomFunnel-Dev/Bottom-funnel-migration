@@ -40,6 +40,7 @@ export const EcommerceComSolutions = () => {
         <h1>{featureCardsData.title}</h1>
         <p>{featureCardsData.description}</p>
       </div>
+
       <div className={styles.eCommerceFeatsolCardsMain}>
         {featureCardsData.CardsData.map(({ title, image, desc }, idx) => {
           return (
@@ -50,6 +51,7 @@ export const EcommerceComSolutions = () => {
           );
         })}
       </div>
+      
     </div>
   );
 };

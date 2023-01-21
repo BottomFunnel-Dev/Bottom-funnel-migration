@@ -4,10 +4,12 @@
   height: 600px;
   /* border: 2px solid black; */
 }
+
 .szvideofeature > div {
   text-align: center;
   padding: 20px;
 }
+
 .szfeaturesubcontainer {
   width: 90%;
   background-color: white;
@@ -16,22 +18,26 @@
   display: flex;
   /* border: 2px solid yellow; */
 }
+
 .updatediv {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
   height: 170px;
-  width: 95%;
+  width: 87%;
   padding: 10px;
   /* border: 2px solid green; */
 }
+
 .updatediv:hover {
   transform: scale(1.02);
   transition: all 0.3s linear;
 }
+
 .updatediv > p {
   padding: 10px;
-  margin-top: -6.5%;
+  margin-top: -12%;
 }
+
 .updateflexdiv {
   display: flex;
   /* background-color: aliceblue; */
@@ -39,7 +45,7 @@
   height: 70px;
 }
 
-.updateflexdiv > h4{
+.updateflexdiv > h4 {
   /* border: 1px solid red; */
   margin-top: 0%;
 }
@@ -48,7 +54,6 @@
   padding: 0px 10px;
 }
 
-
 .reminderdiv {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
@@ -56,14 +61,17 @@
   height: 170px;
   /* border: 2px solid red; */
 }
+
 .reminderdiv:hover {
   transform: scale(1.02);
   transition: all 0.3s linear;
 }
+
 .reminderdiv > p {
   padding: 10px;
   margin-top: -10%;
 }
+
 .reminderflexdiv {
   display: flex;
   /* background-color: aliceblue; */
@@ -72,7 +80,7 @@
   margin-top: 10%;
 }
 
-.reminderflexdiv > h4{
+.reminderflexdiv > h4 {
   margin-top: 1%;
 }
 
