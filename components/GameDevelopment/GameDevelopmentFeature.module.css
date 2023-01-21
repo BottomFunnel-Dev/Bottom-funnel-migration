@@ -1,5 +1,5 @@
 .gamedevelopmentfeaturemainboxes {
-  height: 90vh;
+  height: 80vh;
   padding: 3%;
   background-color: #141229;
 }
@@ -100,4 +100,5 @@
 .txtwhitegamedeveloperfeature {
   color: white;
   text-align: center;
+  margin-top: 0%;
 }

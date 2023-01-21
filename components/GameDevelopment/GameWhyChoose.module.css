@@ -80,6 +80,7 @@
 .colorwhite {
   color: white;
   text-align: center;
+  margin-top: 0%;
 }
 
 .positionabsoulteboxinnerwhychoose2logo {
@@ -117,6 +118,14 @@
   width: 40%;
   color: white;
 }
+
+.whychoosegamingflexboxrightdiv > h2 {
+  font-size: 30px;
+  line-height: 38.4px;
+  vertical-align: baseline;
+  font-weight: 500;
+}
+
 .colorred {
   color: #ef4c23;
   text-decoration: none;

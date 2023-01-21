@@ -1,6 +1,5 @@
 .Web3Developmentmainbox {
   height: 100vh;
-
   display: flex;
   background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-3.png");
   background-size: cover;
@@ -10,10 +9,14 @@
 .web3developmentleftboxing {
   height: 70%;
   width: 40%;
-
   margin-top: 10%;
   margin-left: 5%;
   color: white;
+}
+
+.specialcolorredish > a {
+  color: #ef4c23;
+  border: 1px solid red;
 }
 
 .web3developmentflexingboxrightdiv {
