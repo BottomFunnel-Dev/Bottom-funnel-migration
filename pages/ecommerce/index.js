@@ -20,7 +20,7 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function Ecommerce () {
+export default function Ecommerce() {
   return (
     <div>
       <Navbar />
@@ -28,11 +28,11 @@ export default function Ecommerce () {
       <Trusted partnerLogo={EcommerceLogo} />
       <EcommerceComFeatures />
       <EcommerceComCustomer />
-      {/* <EcommerceComAdminPanel /> */}
+      <EcommerceComAdminPanel />
       <EcommerceComShopping />
       <EcommerceBookCall />
       <EcommerceComSolutions />
-      
+
       <StoriesSection />
       {/* <Industries /> */}
       <PlanProject />
@@ -45,4 +45,4 @@ export default function Ecommerce () {
       <MainFooter />
     </div>
   );
-};
+}

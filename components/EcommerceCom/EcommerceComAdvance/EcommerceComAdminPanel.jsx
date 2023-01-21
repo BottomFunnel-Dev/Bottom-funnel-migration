@@ -71,17 +71,17 @@ export const EcommerceComAdminPanel = () => {
 
   return (
     <div className={styles.eCommerceAdminMain}>
-      <div className={styles.eCommerceAdvanceCardsMain}>
+      <div className={styles.eCommerceAdminCardsMain}>
         <div>
           <h2>Admin panel</h2>
           <div>
             {adminPanelData.cardsData.map(({ description, image, title }) => {
               return (
-                <div className={styles.eCommerceAdvanceCards}>
-                  <div className={styles.eCommerceAdvanceCardsLogo}>
+                <div className={styles.eCommerceAdminPanelCards} key={title}>
+                  <div className={styles.eCommerceAdminPanelCardsLogo}>
                     <img src={image.src} alt={image.alt} />
                   </div>
-                  <div className={styles.eCommerceAdvanceCardsContent}>
+                  <div className={styles.eCommerceAdminPanelCardsContent}>
                     <h5>{title}</h5>
                     <p>{description}</p>
                   </div>

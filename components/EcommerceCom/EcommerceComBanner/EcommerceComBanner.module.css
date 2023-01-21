@@ -46,3 +46,37 @@
 .eCommerceBannerImage > img {
   width: 100%;
 }
+
+/* media query for mobiles and tablets devices */
+@media (max-width: 1024px) {
+  .eCommerceBannerMain {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .eCommerceBannerContent {
+    width: 90%;
+    height: fit-content;
+  }
+
+  .eCommerceBannerContent > h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .eCommerceBannerContent > p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .eCommerceBannerContent > button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .eCommerceBannerImage {
+    width: 95%;
+    height: fit-content;
+  }
+}

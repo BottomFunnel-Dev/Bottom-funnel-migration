@@ -38,25 +38,26 @@ export default function BigDataService() {
 
 
   <main>
-      <Navbar />
+        <Navbar />
       <BigDataServiceBanner />
-      <BigDataServicePopular />
-      <BigDataServiceHandling />
-      <BigDataServiceBF />
-      {/* <CustomWebForm /> */}
+     <BigDataServicePopular />
+     <BigDataServiceHandling />
+     <BigDataServiceBF />
+   {  /*  <CustomWebForm /> */ }
       
-      {/* Other react required components  */}
+      {/* Other react required components */ }
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio />  */}
-      {/* <PlanProject />  */}
+      {/* <PortFolio />  */ }
+      {/* <PlanProject />  */ }
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-
+   
       </main>
+      
     </div>
   );
 };
