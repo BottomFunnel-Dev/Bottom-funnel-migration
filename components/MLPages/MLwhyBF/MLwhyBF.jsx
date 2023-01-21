@@ -53,6 +53,7 @@ export const MLwhyBF = () => {
           <div></div>
           <span></span>
         </div>
+        </div>
         <div className={styles.MLwhyBFCardsContainer}>
           {cardsData.map(({ title, image, body }) => {
             return (
@@ -66,7 +67,7 @@ export const MLwhyBF = () => {
             );
           })}
         </div>
-      </div>
+    
     </div>
   );
 };
