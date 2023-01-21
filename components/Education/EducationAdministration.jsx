@@ -44,7 +44,8 @@ export const EducationAdministration = () => {
                     return (
                         <div className={styles.educationadminstrationindivisuallybox}>
 
-                            <div> <h2>{e.htxt}</h2>
+                            <div>
+                                <h2>{e.htxt}</h2>
                                 <p>{e.stxt}</p>
                             </div>
 
@@ -59,14 +60,20 @@ export const EducationAdministration = () => {
             <div className={styles.educationadministrationboxnextflexbox}>
                 <div className={styles.educationadminboxnextflexboxleft}>
                     <h2>Collaborate effortlessly</h2>
-                    <p>Administrative teams have dependencies on different departments at their school or university to complete tasks. As an example, teams responsible for admissions coordinate between prospective students and teaching staff to finalize applications. They typically follow-up with teaching staff and applicants on different email threads or chat windows before making updates on yet another system. With Freshdesk, teams can collaborate effortlessly with different departments they need help from while never losing sight of their task.</p>
-
+                    <p>
+                        Administrative teams have dependencies on different departments at their school or university to complete tasks.
+                        As an example, teams responsible for admissions coordinate between prospective students and teaching staff to
+                        finalize applications. They typically follow-up with teaching staff and applicants on different email threads or
+                        chat windows before making updates on yet another system. With Freshdesk, teams can collaborate effortlessly with
+                        different departments they need help from while never losing sight of their task.
+                    </p>
                 </div>
+
                 <div className={styles.educationadministartionboxnextflexboxright}>
-                    <img src='Images/education/vectors/Frame.png' alt='images' />
+                    <img src='/Images/education/vectors/Frame.png' alt='images' />
                 </div>
             </div>
 
         </div>
-    )
-}
+    );
+};
