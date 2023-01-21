@@ -20,10 +20,32 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AspNet() {
   return (
     <div>
+
+    
+    <Head>
+    <title>Asp.net Development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="The Best Web Application Development
+       Company offers app development services for
+        custom web app development and business Web 
+        App Development. The team of well-versed
+         individuals provides end-to-end services 
+         that are exactly tailored to your needs. 
+         They follow the latest trends and update
+          their skills with regular training so
+           that they stay up to date with the 
+           changing technologies."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <WebdevBanner bannerContent={aspnetBanner} />
       <Techstackintro techContent={aspstackIntro} />
@@ -42,6 +64,8 @@ export default function AspNet() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

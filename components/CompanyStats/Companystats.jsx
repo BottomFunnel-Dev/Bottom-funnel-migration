@@ -1,6 +1,6 @@
 import React from "react";
 // import { useState } from "react";
-import "./Company.module.css";
+import styles from "./Company.module.css";
 
 export const Companystats = () => {
   return (

@@ -1,0 +1,43 @@
+.CollaborationAboutContainer {
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.CollaborationAboutContent {
+  width: 45%;
+}
+
+.CollaborationAboutContent > h1 {
+  font-size: 32px;
+}
+
+.CollaborationAboutContent > p {
+  font-size: 18px;
+}
+
+.CollaborationAboutImages {
+  position: relative;
+  width: 35%;
+  height: 360px;
+}
+
+.CollaborationAboutImages > img {
+  width: 97%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.CollaborationAboutImages > div {
+  background: #ef4c23;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+
+  width: 95%;
+  height: 95%;
+}

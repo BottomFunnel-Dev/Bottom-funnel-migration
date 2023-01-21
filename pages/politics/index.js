@@ -16,10 +16,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
+
 
 export default function Politics() {
   return (
     <div>
+      <Head>
+        <title>Politics Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a reliable and affordable politics web app 
+          development company that can take on your project 
+          wholeheartedly? Check out our website and see for 
+          yourself how we can help!"
+        />
+      </Head>
+      <main>
       <Navbar />
       <Politicscontainer />
       <Politicalparty />
@@ -39,6 +52,7 @@ export default function Politics() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

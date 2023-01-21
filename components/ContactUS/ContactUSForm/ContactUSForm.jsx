@@ -9,41 +9,25 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { CgMenuGridR } from "react-icons/cg";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
 
-import styles from "./ContactUSForm.module.css";
-=======
-import contact from  "./ContactUSForm.module.css";
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+import contact from "./ContactUSForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
 export const ContactUSForm = () => {
   return (
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-    <div className={styles.contactUSFormmain}>
-      <div className={styles.ContactUSFormContent}>
+    <div className={contact.ContactUSFormain}>
+      <div className={contact.ContactUSFormcontent}>
         <h1>Apply for a Job</h1>
         <p>Contact Numbers :-</p>
-        <div className={styles.contactUSFormInfo}>
-=======
-    <div className="ContactUSFormain">
-      <div className="ContactUSFormcontent">
-        <h1>Apply for a Job</h1>
-        <p>Contact Numbers :-</p>
-        <div className="ContactUSForminfo">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+        <div className={contact.ContactUSForminfo}>
           <h2>+91 8209366227</h2>
           <h2>+971 58 597 8776</h2>
           <h2>+1 9176726964</h2>
         </div>
 
         <p>Email id :-</p>
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-        <div className={styles.contactUSFormInfo}>
-=======
-        <div className="ContactUSForminfo">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+        <div className={contact.ContactUSForminfo}>
           <h2>hr@bottomfunnel.net</h2>
           <h2>info@bottomfunnel.net</h2>
         </div>
@@ -52,12 +36,8 @@ export const ContactUSForm = () => {
         <h2>
           Office 422, 4th floor, JTM Mall, jagatpura, Jaipur, Rajasthan 302017
         </h2>
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
 
-        <div className={styles.ContactUSFormSocial}>
-=======
-        <div className="ContactUSFormsocial">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+        <div className={contact.ContactUSFormsocial}>
           <a href="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -114,76 +94,44 @@ export const ContactUSForm = () => {
           </a>
         </div>
       </div>
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
 
-      <div className={styles.contactUSFormFormOuterMain}>
+      <div className={contact.ContactUSFormformoutermain}>
         <h1>Contact Us</h1>
-        <div className={styles.contactUSFormForm}>
-          <div className={styles.contactUSFormFormSection}>
-            <div className={styles.contactUSFormInputWithIcon}>
+        <div className={contact.ContactUSFormform}>
+          <div className={contact.ContactUSFormformSection}>
+            <div className={contact.ContactUSForminputWithIcon}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormIcon }}
-=======
-      <div className="ContactUSFormformoutermain">
-        <h1>Contact Us</h1>
-        <div className="ContactUSFormform">
-          <div className="ContactUSFormformSection">
-            <div className="ContactUSForminputWithIcon">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformIcon" }}
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+                value={{ className: contact.ContactUSFormformIcon }}
               >
                 <BsFillPersonFill />
               </IconContext.Provider>
               <input
                 type="text"
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-                className={styles.contactUSFormInputPart}
+                className={contact.ContactUSForminputPart}
                 placeholder="Name"
               />
             </div>
-            <div className={styles.contactUSFormInputWithIcon}>
+
+            <div className={contact.ContactUSForminputWithIcon}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormIcon }}
-=======
-                className="ContactUSForminputPart"
-                placeholder="Name"
-              />
-            </div>
-            <div className="ContactUSForminputWithIcon">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformIcon" }}
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+                value={{ className: contact.ContactUSFormformIcon }}
               >
                 <AiTwotoneMail />
               </IconContext.Provider>
               <input
                 type="text"
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-                className={styles.contactUSFormInputPart}
+                className={contact.ContactUSForminputPart}
                 placeholder="Email"
               />
             </div>
-            <div className={styles.contactUSFormPhoneClass}>
+
+            <div className={contact.ContactUSFormphoneClass}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormIcon }}
+                value={{ className: contact.ContactUSFormformIcon }}
               >
                 <BsFillTelephoneFill />
               </IconContext.Provider>
-              <select className={styles.contactUSFormCountryCode} name="" id="">
-=======
-                className="ContactUSForminputPart"
-                placeholder="Email"
-              />
-            </div>
-            <div className="ContactUSFormphoneClass">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformIcon" }}
-              >
-                <BsFillTelephoneFill />
-              </IconContext.Provider>
-              <select className="ContactUSFormcountryCode" name="" id="">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+              <select className={contact.ContactUSFormcountryCode} name="" id="">
                 {countrycodes.map((item, i) => (
                   <option key={i} value={item.code}>
                     {item.code} {item.dial_code}
@@ -193,31 +141,17 @@ export const ContactUSForm = () => {
             </div>
 
             <input
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-              className={styles.contactUSFormPhoneNumber}
+              className={contact.ContactUSFormphoneNumber}
               type="number"
               placeholder="Phone Number"
             />
-            <div className={styles.contactUSFormSelectClass}>
+            <div className={contact.ContactUSFormselectClass}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormIcon }}
+                value={{ className: contact.ContactUSFormformIcon }}
               >
                 <CgMenuGridR />
               </IconContext.Provider>
-              <select className={styles.contactUSFormSelectPart} name="" id="">
-=======
-              className="ContactUSFormphoneNumber"
-              type="number"
-              placeholder="Phone Number"
-            />
-            <div className="ContactUSFormselectClass">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformIcon" }}
-              >
-                <CgMenuGridR />
-              </IconContext.Provider>
-              <select className="ContactUSFormselectPart" name="" id="">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+              <select className={contact.ContactUSFormselectPart} name="" id="">
                 <option value="Select">Interested In*</option>
                 {interested.map((item, i) => (
                   <option key={i} value={item.service}>
@@ -226,24 +160,13 @@ export const ContactUSForm = () => {
                 ))}
               </select>
             </div>
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-            <div className={styles.contactUSFormSelectClass}>
+            <div className={contact.ContactUSFormselectClass}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormIcon }}
+                value={{ className: contact.ContactUSFormformIcon }}
               >
                 <BsCurrencyDollar />
               </IconContext.Provider>
-
-              <select className={styles.contactUSFormSelectPart} name="" id="">
-=======
-            <div className="ContactUSFormselectClass">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformIcon" }}
-              >
-                <BsCurrencyDollar />
-              </IconContext.Provider>
-              <select className="ContactUSFormselectPart" name="" id="">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+              <select className={contact.ContactUSFormselectPart} name="" id="">
                 <option value="Select">Your Budget</option>
                 {budget.map((item, i) => (
                   <option key={i} value={item.budget}>
@@ -252,49 +175,28 @@ export const ContactUSForm = () => {
                 ))}
               </select>
             </div>
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
 
-            <div className={styles.contactUSFormInputWithIcon}>
+            <div className={contact.ContactUSForminputWithIcon}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormIcon }}
-=======
-            <div className="ContactUSForminputWithIcon">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformIcon" }}
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+                value={{ className: contact.ContactUSFormformIcon }}
               >
                 <RiMessage2Fill />
               </IconContext.Provider>
               <input
                 type="text"
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-                className={styles.contactUSFormInputPart}
+                className={contact.ContactUSForminputPart}
                 placeholder="Skype/Whatsapp"
               />
             </div>
-
-            <div className={styles.contactUSFormTextareaClass}>
+            <div className={contact.ContactUSFormtextareaClass}>
               <IconContext.Provider
-                value={{ className: styles.contactUSFormFormMessageIcon }}
-=======
-                className="ContactUSForminputPart"
-                placeholder="Skype/Whatsapp"
-              />
-            </div>
-            <div className="ContactUSFormtextareaClass">
-              <IconContext.Provider
-                value={{ className: "ContactUSFormformMessageIcon" }}
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+                value={{ className: contact.ContactUSFormformMessageIcon }}
               >
                 <BiMessage />
               </IconContext.Provider>
               <label htmlFor="textarea"> Message</label>
               <textarea
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-                className={styles.contactUSFormMessagePart}
-=======
-                className="ContactUSFormmessagePart"
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+                className={contact.ContactUSFormmessagePart}
                 name="textarea"
                 id=""
                 cols="15"
@@ -304,12 +206,7 @@ export const ContactUSForm = () => {
             </div>
 
           </div>
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.jsx
-
-          <div className={styles.contactUSFormRobotCaptcha}>
-=======
-          <div className="ContactUSFormrobotCaptcha">
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.jsx
+          <div className={contact.ContactUSFormrobotCaptcha}>
             <button>Get Started</button>
           </div>
         </div>

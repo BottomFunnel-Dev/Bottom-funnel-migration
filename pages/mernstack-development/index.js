@@ -19,6 +19,7 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function MernPageWebDevelopment() {
   return (
@@ -28,7 +29,7 @@ export default function MernPageWebDevelopment() {
       <MernIntro techIntro={whatData} />
       <MernPoluparServices popularservice={mernservices} />
       <TechGetStarted calltoAction={letstart} />
-      {/* <WhyBottom whyContent={mernWhyContent} /> */}
+     <WhyBottom whyContent={mernWhyContent} /> 
 
       {/* Other react required components  */}
       <StoriesSection />

@@ -15,10 +15,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SocialMedia() {
   return (
     <div>
+      <Head>
+        <title>Social Media Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to know the best way to connect with your target audience
+          on social media? Check out our social media web app 
+         development services and see for yourself how we can help 
+         you achieve your goals!"
+        />
+      </Head>
+      <main>
       <Navbar />
       <SocialMediaBanner />
       <SocialMediaSuggestion />
@@ -37,6 +49,7 @@ export default function SocialMedia() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

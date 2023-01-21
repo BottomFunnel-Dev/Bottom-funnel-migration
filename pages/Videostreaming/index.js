@@ -16,10 +16,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function VideoStreaming() {
   return (
     <div>
+      <Head>
+        <title>Video Stream App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you interested in learning more about video stream web 
+          app development? Read on to learn more about our innovative 
+          solutions that will help you stream your videos in the best 
+          possible way!"
+        />
+      </Head>
+      <main>
       <Navbar />
       <Videostreamingcontainer />
       <Trusted partnerLogo={videostreamLogo} />
@@ -37,6 +49,7 @@ export default function VideoStreaming() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

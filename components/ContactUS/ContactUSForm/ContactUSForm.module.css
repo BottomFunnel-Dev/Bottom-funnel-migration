@@ -1,8 +1,4 @@
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormmain {
-=======
 .ContactUSFormmain {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 80%;
   height: fit-content;
   margin: 3% auto;
@@ -17,11 +13,7 @@
   justify-content: space-between;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormContent {
-=======
 .ContactUSFormcontent {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 40%;
   height: fit-content;
   padding: 1%;
@@ -29,11 +21,7 @@
   border-right: 2px solid #ef4c23;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormContent > h1 {
-=======
 .ContactUSFormcontent > h1 {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   font-size: 30px;
   width: 80%;
   margin: auto;
@@ -43,31 +31,19 @@
   padding: 2%;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormContent > h1:hover {
-=======
 .ContactUSFormcontent > h1:hover {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   color: #ef4c23;
   background: white;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormContent > p {
-=======
 .ContactUSFormcontent > p {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   font-size: 16px;
   color: #495057;
   width: 80%;
   margin: 2% auto 2% auto;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormInfo {
-=======
 .ContactUSForminfo {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 80%;
   margin: 2% auto;
 
@@ -77,30 +53,18 @@
   justify-content: space-between;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormContent > h2 {
-=======
 .ContactUSFormcontent > h2 {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 70%;
   margin: 1% auto 2% auto;
   font-size: 20px;
   cursor: pointer;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormContent > h2:hover {
-  color: #ef4c23;
-}
-
-.contactUSFormInfo > h2 {
-=======
 .ContactUSFormcontent > h2:hover {
   color: #ef4c23;
 }
 
 .ContactUSForminfo > h2 {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 45%;
   margin-bottom: 2%;
   margin-top: 1%;
@@ -109,19 +73,11 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormInfo > h2:hover {
-  color: #ef4c23;
-}
-
-.ContactUSFormSocial {
-=======
 .ContactUSForminfo > h2:hover {
   color: #ef4c23;
 }
 
 .ContactUSFormsocial {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 80%;
   margin: 3% auto 3% auto;
 
@@ -131,50 +87,30 @@
   justify-content: flex-start;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormSocial > a > svg {
-=======
 .ContactUSFormsocial > a > svg {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 25px;
   height: 25px;
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.ContactUSFormSocial > a:hover svg {
-  color: #ef4c23;
-}
-
-.contactUSFormFormOuterMain {
-=======
 .ContactUSFormsocial > a:hover svg {
   color: #ef4c23;
 }
 
 .ContactUSFormformoutermain {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 50%;
   height: fit-content;
   padding: 3%;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormFormOuterMain > h1 {
-=======
 .ContactUSFormformoutermain > h1 {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   margin-bottom: 4%;
   font-size: 35px;
   color: #ef4c23;
   text-align: center;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormFormSection {
-=======
 .ContactUSFormformSection {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -183,11 +119,7 @@
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormInputWithIcon {
-=======
 .ContactUSForminputWithIcon {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   box-sizing: border-box;
   width: 47%;
   display: flex;
@@ -196,11 +128,7 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormInputPart {
-=======
 .ContactUSForminputPart {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   box-sizing: border-box;
   border: none;
   color: #393939;
@@ -212,21 +140,13 @@
   padding: 10px 0;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormInputPart::placeholder {
-=======
 .ContactUSForminputPart::placeholder {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   color: #393939;
 
   font-weight: 600;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormPhoneNumber {
-=======
 .ContactUSFormphoneNumber {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 30%;
   box-sizing: border-box;
   box-sizing: border-box;
@@ -242,21 +162,13 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormPhoneNumber::placeholder {
-=======
 .ContactUSFormphoneNumber::placeholder {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   color: #393939;
 
   font-weight: 600;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormMessagePart {
-=======
 .ContactUSFormmessagePart {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 100%;
   box-sizing: border-box;
   border: none;
@@ -271,20 +183,12 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormMessagePart::placeholder {
-=======
 .ContactUSFormmessagePart::placeholder {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   font-weight: 600;
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormPhoneClass {
-=======
 .ContactUSFormphoneClass {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 15%;
   font-size: 12px;
   box-sizing: border-box;
@@ -293,11 +197,7 @@
   border-bottom: 2px solid #d0d0d0;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormCountryCode {
-=======
 .ContactUSFormcountryCode {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 90%;
   box-sizing: border-box;
   font-size: 14px;
@@ -310,19 +210,11 @@
   border: none;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormCountryCode > option {
-  color: #393939;
-}
-
-.contactUSFormSelectClass {
-=======
 .ContactUSFormcountryCode > option {
   color: #393939;
 }
 
 .ContactUSFormselectClass {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 47%;
   box-sizing: border-box;
   display: flex;
@@ -331,11 +223,7 @@
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormSelectPart {
-=======
 .ContactUSFormselectPart {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 90%;
   box-sizing: border-box;
   font-size: 16px;
@@ -347,56 +235,32 @@
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormSelectPart > option {
-  color: #393939;
-}
-
-.contactUSFormTextareaClass {
-=======
 .ContactUSFormselectPart > option {
   color: #393939;
 }
 
 .ContactUSFormtextareaClass {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   width: 100%;
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormFormMessageIcon {
-=======
 .ContactUSFormformMessageIcon {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   margin-right: 5px;
   color: #393939;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormTextareaClass > label {
-=======
 .ContactUSFormtextareaClass > label {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   color: #393939;
 
   font-weight: 600;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormRobotCaptcha {
-=======
 .ContactUSFormrobotCaptcha {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   display: flex;
   justify-content: center;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormRobotCaptcha button {
-=======
 .ContactUSFormrobotCaptcha button {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   padding: 10px 60px;
   font-size: 18px;
   color: white;
@@ -409,11 +273,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-<<<<<<< HEAD:pages/ContactUS/ContactUSForm/ContactUSForm.module.css
-.contactUSFormRobotCaptcha button:hover {
-=======
 .ContactUSFormrobotCaptcha button:hover {
->>>>>>> 9d3c93b68125efdf3f86f9543183944c50a7cea3:components/ContactUS/ContactUSForm/ContactUSForm.module.css
   color: #ef4c23;
   background-color: white;
 }

@@ -3,9 +3,9 @@
     width:100%;
     margin: auto;
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
     justify-content: space-around;
-    
+    box-sizing: border-box;
     /* padding-top:2%; */
 }
 ._CompanyMainDiv>div{   
@@ -14,6 +14,7 @@
    /* background-color: green; */
    /* border: 1px solid red; */
    padding: 10px;
+   box-sizing: border-box;
 
 }
 ._Company{

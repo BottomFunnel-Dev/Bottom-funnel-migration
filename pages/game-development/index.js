@@ -19,10 +19,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function GameDevelopment() {
   return (
     <div>
+        <Head>
+        <title>Game Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to develop a game but don't know where to start? 
+          Our team of experts can help you develop a web app that is based 
+          on your own game concept. We have years of experience in the 
+          industry and will take care of everything from design to 
+          development to launch."
+        />
+      </Head>
+      <main>
       <Navbar />
       <GameDevelopmentBanner />
       <div className={styles.bannerBottomSpace}></div>
@@ -48,6 +61,7 @@ export default function GameDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

@@ -1,6 +1,30 @@
+
+@media only screen and (min-width:900px){
 .kotlinPartnerMainDiv {
   /* border: 2px solid red; */
   width: 75%;
   padding: 3%;
   margin: 2%;
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:480px){
+  .kotlinPartnerMainDiv {
+    /* border: 2px solid red; */
+    /* width: 75%; */
+    padding: 3%;
+    margin: 2%;
+    text-align: center
+    ;
+  }
+}
+@media only screen and (min-width:480px) and (max-width:900px){
+  .kotlinPartnerMainDiv {
+    /* border: 2px solid red; */
+    /* width: 75%; */
+    padding: 3%;
+    margin: 2%;
+    text-align: center
+    ;
+  }
 }

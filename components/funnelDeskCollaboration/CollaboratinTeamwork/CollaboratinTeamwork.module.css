@@ -1,0 +1,40 @@
+.CollaboratinTeamworkContainer {
+  margin-bottom: 5%;
+}
+
+.CollaboratinTeamworkContainer hr {
+  background-color: #ef4c23;
+  height: 20px;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.CollaboratinTeamworkContainer > div {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.CollaboratinTeamworkContent {
+  width: 55%;
+}
+
+.CollaboratinTeamworkContent > h1 {
+  font-size: 32px;
+}
+
+.CollaboratinTeamworkContent > p {
+  font-size: 20px;
+}
+
+.CollaboratinTeamworkImage {
+  width: 25%;
+}
+
+.CollaboratinTeamworkImage > img {
+  width: 100%;
+  transform: scale(1.7);
+}

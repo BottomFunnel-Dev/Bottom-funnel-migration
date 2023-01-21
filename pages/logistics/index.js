@@ -24,10 +24,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Logistics() {
   return (
     <div>
+      <Head>
+        <title>Logistics Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Do you need a Logistics web app solution? We can help! Our
+          team of experts can develop a web app that meets all your 
+         needs. From design to implementation, we take care of
+          everything."
+        />
+      </Head>
+      <main>
       <Navbar />
       <Logisticcontainer />
       <Trusted partnerLogo={logisticsLogo} />
@@ -47,6 +59,7 @@ export default function Logistics() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

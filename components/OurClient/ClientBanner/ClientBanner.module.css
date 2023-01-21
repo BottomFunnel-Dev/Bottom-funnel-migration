@@ -1,0 +1,56 @@
+.ourClientBannerMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #f1f1f1;
+  color: #393939;
+}
+
+.ourClientBannerContent {
+  width: 40%;
+  text-align: left;
+}
+
+.ourClientBannerContent > h1 {
+  font-size: 60px;
+  margin: auto;
+  background: linear-gradient(to right, #ef4c23, #ff5c00);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.ourClientBannerContent > p {
+  font-size: 18px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.ourClientBannerContent > button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to Right Bottom, #ef4c23, #ff5c00);
+  padding: 10px 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.ourClientBannerContent > button:hover {
+  color: #ef4c23;
+  background: white;
+  border: 2px solid #ef4c23;
+}
+
+.ourClientBannerImage {
+  width: fit-content;
+  height: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.ourClientBannerImage > img {
+  height: 95%;
+}

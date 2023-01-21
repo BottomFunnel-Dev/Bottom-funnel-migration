@@ -13,10 +13,26 @@ import StoriesSection from "../../components/CommonComponents/StoriesSection/Sto
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
+import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Education() {
   return (
+
+    
     <div>
+      <Head>
+        <title>Education Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you in need of an education web app that can help increase 
+          student engagement and retention? Our team of experts can 
+          help design and build a web app that meets your specific needs 
+          and requirements."
+        />
+      </Head>
+      <main>
+      <Navbar />
       <EducationBanner />
       <EducationSupport />
       <EducationITteams />
@@ -33,6 +49,7 @@ export default function Education() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

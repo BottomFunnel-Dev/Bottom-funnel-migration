@@ -1,22 +1,22 @@
 export const company = [
   {
     dropContent: "About Us",
-    navIcons: "Images/navbar/aboutImage/aboutus.png",
+    navIcons: "/Images/navbar/aboutImage/aboutus.png",
     path: "about-us",
   },
   {
     dropContent: "Our Team",
-    navIcons: "Images/navbar/aboutImage/ourteam.png",
+    navIcons: "/Images/navbar/aboutImage/ourteam.png",
     path: "",
   },
   {
     dropContent: "Career ",
-    navIcons: "Images/navbar/aboutImage/career.png",
+    navIcons: "/Images/navbar/aboutImage/career.png",
     path: "career",
   },
   {
     dropContent: "Contact Us",
-    navIcons: "Images/navbar/aboutImage/contactus.png",
+    navIcons: "/Images/navbar/aboutImage/contactus.png",
     path: "contact-us",
   },
 ];
@@ -24,40 +24,40 @@ export const company = [
 export const whyBottom = [
   {
     dropContent: "Vetting Process",
-    navIcons: "Images/navbar/aboutImage/vetting.png",
+    navIcons: "/Images/navbar/aboutImage/vetting.png",
     path: "vetting-process",
   },
   {
     dropContent: "Our Clients",
-    navIcons: "Images/navbar/aboutImage/ourclients.png",
+    navIcons: "/Images/navbar/aboutImage/ourclients.png",
     path: "our-clients",
   },
   {
     dropContent: "Awards and Memberships",
-    navIcons: "Images/navbar/aboutImage/awards.png",
+    navIcons: "/Images/navbar/aboutImage/awards.png",
     path: "awards",
   },
   {
     dropContent: "Press and Media",
-    navIcons: "Images/navbar/aboutImage/pressandmedia.png",
-    path: "PressAndMedia",
+    navIcons: "/Images/navbar/aboutImage/pressandmedia.png",
+    path: "press-and-media",
   },
 ];
 
 export const process = [
   {
     dropContent: "Our Development Process",
-    navIcons: "Images/navbar/aboutImage/ourdevelopmentprocess.png",
-    path: "Our-development",
+    navIcons: "/Images/navbar/aboutImage/ourdevelopmentprocess.png",
+    path: "our-development",
   },
   {
     dropContent: "Engagement Models",
-    navIcons: "Images/navbar/aboutImage/engagementmodels.png",
+    navIcons: "/Images/navbar/aboutImage/engagementmodels.png",
     path: "engagement",
   },
   {
     dropContent: "Our Partners",
-    navIcons: "Images/navbar/aboutImage/ourpartners.png",
+    navIcons: "/Images/navbar/aboutImage/ourpartners.png",
     path: "",
   },
 ];
@@ -65,47 +65,47 @@ export const process = [
 export const webservice = [
   {
     dropContent: "PHP Development",
-    navIcons: "Images/navbar/services/php.png",
+    navIcons: "/Images/navbar/services/php.png",
     path: "php-development",
   },
   {
     dropContent: "MERN Stack Development",
-    navIcons: "Images/navbar/services/react.png",
+    navIcons: "/Images/navbar/services/react.png",
     path: "mernstack-development",
   },
   {
     dropContent: "MEAN Stack Development",
-    navIcons: "Images/navbar/services/angular.png",
+    navIcons: "/Images/navbar/services/angular.png",
     path: "meanstack-development",
   },
   {
     dropContent: "ASP.NET Development",
     navIcons: "Images/navbar/services/aspnet.png",
-    path: "asp.net-development",
+    path: "asp-net-development",
   },
   {
     dropContent: "Java Development",
-    navIcons: "Images/navbar/services/javaimage.png",
-    path: "Java-development",
+    navIcons: "/Images/navbar/services/javaimage.png",
+    path: "java-development",
   },
   {
     dropContent: "Python Development",
-    navIcons: "Images/navbar/services/python.png",
+    navIcons: "/Images/navbar/services/python.png",
     path: "python-development",
   },
   {
     dropContent: "Ruby on Rails Development",
-    navIcons: "Images/navbar/services/ruby.png",
+    navIcons: "/Images/navbar/services/ruby.png",
     path: "ruby-development",
   },
   {
     dropContent: "Golang Development",
-    navIcons: "Images/navbar/services/golangimage.png",
+    navIcons: "/Images/navbar/services/golangimage.png",
     path: "golang-development",
   },
   {
     dropContent: "Javascript Development",
-    navIcons: "Images/navbar/services/javascriptimage.png",
+    navIcons: "/Images/navbar/services/javascriptimage.png",
     path: "javascript-development",
   },
 ];
@@ -113,47 +113,47 @@ export const webservice = [
 export const appservice = [
   {
     dropContent: "Andriod App Development",
-    navIcons: "Images/navbar/services/andriod.png",
-    path: "android",
+    navIcons: "/Images/navbar/services/andriod.png",
+    path: "android-development",
   },
   {
     dropContent: "IOS App Development",
-    navIcons: "Images/navbar/services/iosimage.png",
-    path: "ios",
+    navIcons: "/Images/navbar/services/iosimage.png",
+    path: "ios-development",
   },
   {
     dropContent: "Kotlin App Development",
-    navIcons: "Images/navbar/services/kotlinimage.png",
+    navIcons: "/Images/navbar/services/kotlinimage.png",
     path: "kotlin-development",
   },
   {
     dropContent: "Flutter App Development",
-    navIcons: "Images/navbar/services/flutter.png",
-    path: "flutter",
+    navIcons: "/Images/navbar/services/flutter.png",
+    path: "flutter-development",
   },
   {
     dropContent: "React Native App Development",
-    navIcons: "Images/navbar/services/react.png",
-    path: "reactnative",
+    navIcons: "/Images/navbar/services/react.png",
+    path: "reactnative-development",
   },
   {
     dropContent: "Xamarian App Development",
-    navIcons: "Images/navbar/services/xamarian.png",
-    path: "Xamarin-Development",
+    navIcons: "/Images/navbar/services/xamarian.png",
+    path: "xamarin-development",
   },
   {
     dropContent: "Ionic App Development",
-    navIcons: "Images/navbar/services/ionic.png",
+    navIcons: "/Images/navbar/services/ionic.png",
     path: "ionic",
   },
   {
     dropContent: "Wearable App Development",
-    navIcons: "Images/navbar/services/wearable.png",
+    navIcons: "/Images/navbar/services/wearable.png",
     path: "wearable-app-development",
   },
   {
     dropContent: "Mobile UI UX ",
-    navIcons: "Images/navbar/services/mobileuxui.png",
+    navIcons: "/Images/navbar/services/mobileuxui.png",
     path: "mobile-user-experience",
   },
 ];
@@ -161,130 +161,130 @@ export const appservice = [
 export const digitalmarket = [
   {
     dropContent: "SEO Services",
-    navIcons: "Images/navbar/services/seo.png",
-    path: "seo",
+    navIcons: "/Images/navbar/services/seo.png",
+    path: "seo-services",
   },
   {
     dropContent: "Local SEO Services",
-    navIcons: "Images/navbar/services/localseo.png",
+    navIcons: "/Images/navbar/services/localseo.png",
     path: "local-seo",
   },
   {
     dropContent: "SEM Services",
-    navIcons: "Images/navbar/services/sem.png",
+    navIcons: "/Images/navbar/services/sem.png",
     path: "seo-sem",
   },
   {
     dropContent: "PPC Management Services",
-    navIcons: "Images/navbar/services/ppc.png",
+    navIcons: "/Images/navbar/services/ppc.png",
     path: "seo-ppc",
   },
   {
     dropContent: "Guest Posting Services",
-    navIcons: "Images/navbar/services/guest.png",
+    navIcons: "/Images/navbar/services/guest.png",
     path: "seo-guest-post",
   },
   {
     dropContent: "Link Building Services",
-    navIcons: "Images/navbar/services/link.png",
+    navIcons: "/Images/navbar/services/link.png",
     path: "seo-link-building",
   },
   {
     dropContent: "Email Marketing Services",
-    navIcons: "Images/navbar/services/email.png",
-    path: "emailservices",
+    navIcons: "/Images/navbar/services/email.png",
+    path: "seo-emailservices",
   },
 ];
 
 export const trendingTech = [
   {
     dropContent: "Big Data Services",
-    navIcons: "Images/navbar/services/bigdata.png",
+    navIcons: "/Images/navbar/services/bigdata.png",
     path: "bigdata-services",
   },
   {
     dropContent: "Blockchain Services",
-    navIcons: "Images/navbar/services/blockchain.png",
+    navIcons: "/Images/navbar/services/blockchain.png",
     path: "block-chain",
   },
   {
     dropContent: "Machine Learning",
-    navIcons: "Images/navbar/services/machinelearning.png",
+    navIcons: "/Images/navbar/services/machinelearning.png",
     path: "machine-learning",
   },
   {
     dropContent: "Artificial Intelligence",
-    navIcons: "Images/navbar/services/ai.png",
-    path: "artificial-inteligence",
+    navIcons: "/Images/navbar/services/ai.png",
+    path: "artificial-intelligence",
   },
   {
     dropContent: "Data Science",
-    navIcons: "Images/navbar/services/datascience.png",
+    navIcons: "/Images/navbar/services/datascience.png",
     path: "data-science",
   },
   {
     dropContent: "Crypto currency Development",
-    navIcons: "Images/navbar/services/crypto.png",
-    path: "Crypto-Development",
+    navIcons: "/Images/navbar/services/crypto.png",
+    path: "crypto-development",
   },
   {
     dropContent: "Customised Web Development",
-    navIcons: "Images/navbar/services/customizedwebdev.png",
+    navIcons: "/Images/navbar/services/customizedwebdev.png",
     path: "custom-web-solutions",
   },
   {
     dropContent: "Virtual Reality Development",
-    navIcons: "Images/navbar/services/vr.png",
+    navIcons: "/Images/navbar/services/vr.png",
     path: "virtual-reality",
   },
   {
     dropContent: "Augmented Reality",
-    navIcons: "Images/navbar/services/ar.png",
+    navIcons: "/Images/navbar/services/ar.png",
     path: "",
   },
   {
     dropContent: "NFT Development",
-    navIcons: "Images/navbar/services/nft.png",
-    path: "NFT-Development",
+    navIcons: "/Images/navbar/services/nft.png",
+    path: "nft-development",
   },
   {
     dropContent: "IoT Development",
-    navIcons: "Images/navbar/services/iot.png",
+    navIcons: "/Images/navbar/services/iot.png",
     path: "internet-of-things",
   },
   {
     dropContent: "StartUp Solutions",
-    navIcons: "Images/navbar/services/startup.png",
+    navIcons: "/Images/navbar/services/startup.png",
     path: "startup-solutions",
   },
   {
     dropContent: "Enterprise Solutions",
-    navIcons: "Images/navbar/services/enterprise.png",
+    navIcons: "/Images/navbar/services/enterprise.png",
     path: "enterprise-solutions",
   },
   {
     dropContent: "Metaverse Services",
-    navIcons: "Images/navbar/services/guest.png",
+    navIcons: "/Images/navbar/services/guest.png",
     path: "metaverse",
   },
   {
     dropContent: "Business Intelligence",
-    navIcons: "Images/navbar/services/bi.png",
-    path: "Business-intelligence",
+    navIcons: "/Images/navbar/services/bi.png",
+    path: "business-intelligence",
   },
   {
     dropContent: "Cloud",
-    navIcons: "Images/navbar/services/cloud.png",
+    navIcons: "/Images/navbar/services/cloud.png",
     path: "cloud",
   },
   {
     dropContent: "Salesforce",
-    navIcons: "Images/navbar/services/salesforce.png",
+    navIcons: "/Images/navbar/services/salesforce.png",
     path: "salesforce",
   },
   {
     dropContent: "Image analysis software",
-    navIcons: "Images/navbar/services/iasoft.png",
+    navIcons: "/Images/navbar/services/iasoft.png",
     path: "image-analysis-software",
   },
 ];
@@ -292,102 +292,102 @@ export const trendingTech = [
 export const industries = [
   {
     dropContent: "Education",
-    navIcons: "Images/navbar/industriesImage/education.png",
+    navIcons: "/Images/navbar/industriesImage/education.png",
     path: "education",
   },
   {
     dropContent: "Game Development",
     navIcons: "Images/navbar/industriesImage/gamedev.png",
-    path: "game-development",
+    path: "gameDevelopment",
   },
   {
     dropContent: "E-commerce",
-    navIcons: "Images/navbar/industriesImage/ecommerceimage.png",
+    navIcons: "/Images/navbar/industriesImage/ecommerceimage.png",
     path: "ecommerce",
   },
   {
     dropContent: "Video Streaming",
-    navIcons: "Images/navbar/industriesImage/videostreaming.png",
+    navIcons: "/Images/navbar/industriesImage/videostreaming.png",
     path: "videostreaming",
   },
   {
     dropContent: "Sports Betting",
-    navIcons: "Images/navbar/industriesImage/sportsbetting.png",
+    navIcons: "/Images/navbar/industriesImage/sportsbetting.png",
     path: "sports-betting",
   },
   {
     dropContent: "IOT Development",
-    navIcons: "Images/navbar/industriesImage/iot.png",
+    navIcons: "/Images/navbar/industriesImage/iot.png",
     path: "internet-of-things",
   },
   {
     dropContent: "Fitness",
-    navIcons: "Images/navbar/industriesImage/fitness.png",
+    navIcons: "/Images/navbar/industriesImage/fitness.png",
     path: "fitness",
   },
   {
     dropContent: "Dating",
-    navIcons: "Images/navbar/industriesImage/dateing.png",
+    navIcons: "/Images/navbar/industriesImage/dateing.png",
     path: "dating",
   },
   {
     dropContent: "Cryptocurrency",
-    navIcons: "Images/navbar/industriesImage/crypto.png",
+    navIcons: "/Images/navbar/industriesImage/crypto.png",
     path: "cryptocurrency",
   },
   {
     dropContent: "Social Media",
     navIcons: "Images/navbar/industriesImage/social media.png",
-    path: "social-media",
+    path: "Social-Media",
   },
   {
     dropContent: "Logistics",
     navIcons: "Images/navbar/industriesImage/logistics.png",
-    path: "logistics",
+    path: "Logistics",
   },
   {
     dropContent: "Politics",
-    navIcons: "Images/navbar/industriesImage/politics.png",
+    navIcons: "/Images/navbar/industriesImage/politics.png",
     path: "politics",
   },
   {
     dropContent: "Wellness",
-    navIcons: "Images/navbar/industriesImage/wellness.png",
+    navIcons: "/Images/navbar/industriesImage/wellness.png",
     path: "wellness",
   },
   {
     dropContent: "News",
-    navIcons: "Images/navbar/industriesImage/news.png",
+    navIcons: "/Images/navbar/industriesImage/news.png",
     path: "news",
   },
   {
     dropContent: "SaaS",
-    navIcons: "Images/navbar/industriesImage/saas.png",
+    navIcons: "/Images/navbar/industriesImage/saas.png",
     path: "saas",
   },
   {
     dropContent: "Events",
-    navIcons: "Images/navbar/industriesImage/events.png",
+    navIcons: "/Images/navbar/industriesImage/events.png",
     path: "events",
   },
   {
     dropContent: "eScooter",
     navIcons: "Images/navbar/industriesImage/escooter.png",
-    path: "e-scooter",
+    path: "eScooter",
   },
   {
     dropContent: "Travel",
-    navIcons: "Images/navbar/industriesImage/travel.png",
+    navIcons: "/Images/navbar/industriesImage/travel.png",
     path: "travel",
   },
   {
     dropContent: "Aviation",
     navIcons: "Images/navbar/industriesImage/avaitions.png",
-    path: "aviation",
+    path: "Aviation",
   },
   {
     dropContent: "Telecommunication",
-    navIcons: "Images/navbar/industriesImage/telecom.png",
+    navIcons: "/Images/navbar/industriesImage/telecom.png",
     path: "telecommunication",
   },
 ];
@@ -396,349 +396,403 @@ export const ondemand = [
   {
     dropContent: "Food Delivery App",
     navIcons: "Images/navbar/industriesImage/fooddeliveryimage.png",
-    path: "food-delivery-app",
+    path: "food-delivery",
   },
   {
     dropContent: "On Demand Home Services",
     navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png",
-    path: "ondemand-homeservice",
+    path: "ondemandHomeServices",
   },
   {
     dropContent: "Alcohol Delivery App",
     navIcons: "Images/navbar/industriesImage/alcohol.png",
-    path: "alcoholdeliveryapp",
+    path: "alcohol",
   },
   {
     dropContent: "Laundry Delivery",
     navIcons: "Images/navbar/industriesImage/laundry.png",
-    path: "laundary-delivery",
+    path: "laundry",
   },
   {
     dropContent: "Grocery Delivery App",
-    navIcons: "Images/navbar/industriesImage/grocery.png",
+    navIcons: "/Images/navbar/industriesImage/grocery.png",
     path: "grocery",
   },
 
   {
     dropContent: "Beauty & Salon App",
     navIcons: "Images/navbar/industriesImage/beauty.png",
-    path: "beauty-and-salon",
+    path: "beautycareapp",
   },
   {
     dropContent: "Cannabis Delivery App",
-    navIcons: "Images/navbar/industriesImage/cannabies.png",
+    navIcons: "/Images/navbar/industriesImage/cannabies.png",
     path: "cannabis",
   },
   {
     dropContent: "Marketplace Apps",
-    navIcons: "Images/navbar/industriesImage/marketplace.png",
+    navIcons: "/Images/navbar/industriesImage/marketplace.png",
     path: "marketplace",
   },
   {
     dropContent: "Pickup & Delivery",
     navIcons: "Images/navbar/industriesImage/pickup.png",
-    path: "pickup-and-delivery",
+    path: "pickup&delivery",
   },
   {
     dropContent: "Pharmacy Delivery App",
-    navIcons: "Images/navbar/industriesImage/pharmacy.png",
+    navIcons: "/Images/navbar/industriesImage/pharmacy.png",
     path: "pharmacy",
   },
   {
     dropContent: "Flower Delivery App",
     navIcons: "Images/navbar/industriesImage/flowerdelivery.png",
-    path: "flower-delivery-app",
+    path: "flower-delivery",
   },
   {
     dropContent: "Carpooling Apps",
     navIcons: "Images/navbar/industriesImage/carpooling.png",
-    path: "carpooling-apps",
+    path: "carpooling",
   },
   {
     dropContent: "Taxi Booking App",
-    navIcons: "Images/navbar/industriesImage/taxibooking.png",
+    navIcons: "/Images/navbar/industriesImage/taxibooking.png",
     path: "taxi-booking",
   },
   {
     dropContent: "Tool Delivery App",
     navIcons: "Images/navbar/industriesImage/tool.png",
-    path: "tool-delivery-app",
+    path: "tool-delivery",
   },
   {
     dropContent: "Icecream Delivery App",
     navIcons: "Images/navbar/industriesImage/icecream.png",
-    path: "icecream-deliveryapp",
+    path: "Icecream",
   },
   {
     dropContent: "Plant Based Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/plantmeat.png",
-    path: "plantbased-meatdelivery",
+    path: "plant-based-meat-delivery-app",
   },
   {
     dropContent: "Car Rental Delivery App",
     navIcons: "Images/navbar/industriesImage/carrental.png",
-    path: "car-rentals-app",
+    path: "car-rentals",
   },
   {
     dropContent: "Agriculture App Solutions",
     navIcons: "Images/navbar/industriesImage/agriculture.png",
-    path: "agricultureappsolutions",
+    path: "agriculture-solution-app",
   },
   {
     dropContent: "Car Service App Solutions",
-    navIcons: "Images/navbar/industriesImage/carrepair.png",
+    navIcons: "/Images/navbar/industriesImage/carrepair.png",
     path: "Car-services",
   },
   {
     dropContent: "Trading App Solutions",
     navIcons: "Images/navbar/industriesImage/trading.png",
-    path: "trading-app-solutions",
+    path: "trading-investing",
   },
 
   {
     dropContent: "RealState Apps Solutions",
     navIcons: "Images/navbar/industriesImage/realestate.png",
-    path: "realestate",
+    path: "real-Estate",
   },
   {
     dropContent: "Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/meat.png",
-    path: "meatdeliveryapp",
+    path: "meat-delivery-app",
   },
   {
     dropContent: "Eyewear Delivery App ",
     navIcons: "Images/navbar/industriesImage/eyewear.png",
-    path: "eyeweardeliverapp",
+    path: "Eyewear-Delivery-App",
   },
   {
     dropContent: "Baby & KidsWear App ",
     navIcons: "Images/navbar/industriesImage/baby-wear.png",
-    path: "baby-and-kidswear",
+    path: "kids-wear",
   },
   {
     dropContent: "Online Payment App ",
     navIcons: "Images/navbar/industriesImage/online-payemnt.png",
-    path: "onlinepaymentsapp",
+    path: "online-paymentapp-solution",
   },
   {
     dropContent: "Fintech App Solutions",
     navIcons: "Images/navbar/industriesImage/fintech.png",
-    path: "fintech-solution",
+    path: "Fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
-    navIcons: "Images/navbar/industriesImage/website-builder.png",
+    navIcons: "/Images/navbar/industriesImage/website-builder.png",
     path: "website-builder-app",
   },
   {
     dropContent: "App Builder Solutions",
     navIcons: "Images/navbar/industriesImage/app-builder.png",
-    path: "app-builder-solution",
+    path: "app-builder-solutions",
   },
   {
     dropContent: "AI Content App Solutions",
     navIcons: "Images/navbar/industriesImage/ai-ont.png",
-    path: "ai-services",
+    path: "Ai-content",
   },
   {
     dropContent: "OTT App Solutions",
     navIcons: "Images/navbar/industriesImage/ott.png",
-    path: "ott-app-solutions",
+    path: "ott",
   },
 ];
 
 export const backend = [
   {
     dropContent: "Node.js",
-    navIcons: "Images/navbar/skills/nodejs.png",
+    navIcons: "/Images/navbar/skills/nodejs.png",
     path: "nodejs",
   },
   {
     dropContent: ".NET",
-    navIcons: "Images/navbar/skills/-net.png",
+    navIcons: "/Images/navbar/skills/-net.png",
     path: "dotnet",
   },
-  { dropContent: "PHP", navIcons: "Images/navbar/skills/php.png", path: "php" },
+  {
+    dropContent: "PHP",
+    navIcons: "/Images/navbar/skills/php.png",
+    path: "php",
+  },
   {
     dropContent: "Laravel",
-    navIcons: "Images/navbar/skills/laravel.png",
+    navIcons: "/Images/navbar/skills/laravel.png",
     path: "laravel",
   },
   {
     dropContent: "SpringBoot",
-    navIcons: "Images/navbar/skills/springboot.png",
+    navIcons: "/Images/navbar/skills/springboot.png",
     path: "springboot",
   },
   {
     dropContent: "Hibernate",
-    navIcons: "Images/navbar/skills/hibernate.png",
+    navIcons: "/Images/navbar/skills/hibernate.png",
     path: "hibernate",
   },
   {
     dropContent: "Django",
-    navIcons: "Images/navbar/skills/django.png",
+    navIcons: "/Images/navbar/skills/django.png",
     path: "django",
   },
   {
     dropContent: "CakePHP",
-    navIcons: "Images/navbar/skills/cakephp.png",
+    navIcons: "/Images/navbar/skills/cakephp.png",
     path: "cakephp",
   },
 
   {
     dropContent: "CodeIgniter",
-    navIcons: "Images/navbar/skills/codeigniter.png",
+    navIcons: "/Images/navbar/skills/codeigniter.png",
     path: "codeigniter",
   },
   {
     dropContent: "Flask",
-    navIcons: "Images/navbar/skills/flask.png",
+    navIcons: "/Images/navbar/skills/flask.png",
     path: "flask",
   },
   {
     dropContent: "Golang",
-    navIcons: "Images/navbar/skills/golang.png",
+    navIcons: "/Images/navbar/skills/golang.png",
     path: "golang",
   },
   {
     dropContent: "Struts",
-    navIcons: "Images/navbar/skills/struts.png",
+    navIcons: "/Images/navbar/skills/struts.png",
     path: "struts",
   },
   {
     dropContent: "Symfony",
-    navIcons: "Images/navbar/skills/symfony.png",
+    navIcons: "/Images/navbar/skills/symfony.png",
     path: "symfony",
   },
   {
     dropContent: "Phalcon",
-    navIcons: "Images/navbar/skills/phalcon.png",
+    navIcons: "/Images/navbar/skills/phalcon.png",
     path: "phalcon",
   },
   {
     dropContent: "JSF",
-    navIcons: "Images/navbar/skills/jsf.png",
+    navIcons: "/Images/navbar/skills/jsf.png",
     path: "jsf",
   },
   {
     dropContent: "Grails",
-    navIcons: "Images/navbar/skills/grails.png",
+    navIcons: "/Images/navbar/skills/grails.png",
     path: "grails",
   },
   {
     dropContent: "Yii",
-    navIcons: "Images/navbar/skills/yii.png",
-    path: "",
+    navIcons: "/Images/navbar/skills/yii.png",
+    path: "yii",
   },
   {
     dropContent: "Zend",
-    navIcons: "Images/navbar/skills/Zend.png",
-    path: "",
+    navIcons: "/Images/navbar/skills/Zend.png",
+    path: "zend",
   },
   {
     dropContent: "Git",
-    navIcons: "Images/navbar/skills/Git.png",
-    path: "",
+    navIcons: "/Images/navbar/skills/Git.png",
+    path: "git",
   },
   {
     dropContent: "Cherrpy",
-    navIcons: "Images/navbar/skills/cherrpy.png",
-    path: "",
+    navIcons: "/Images/navbar/skills/cherrpy.png",
+    path: "cherrypy",
+  },
+  {
+    dropContent: "Cuba",
+    navIcons: "/Images/navbar/skills/cuba.png",
+    path: "cuba",
+  },
+  {
+    dropContent: "Echo",
+    navIcons: "/Images/navbar/skills/echoo.png",
+    path: "echo",
+  },
+  {
+    dropContent: "Gorilla",
+    navIcons: "/Images/navbar/skills/gorilla.png",
+    path: "gorilla",
+  },
+  {
+    dropContent: "Hanami",
+    navIcons: "/Images/navbar/skills/hanami.png",
+    path: "hanami",
+  },
+  {
+    dropContent: "Iris",
+    navIcons: "/Images/navbar/skills/iris.png",
+    path: "iris",
+  },
+  {
+    dropContent: "Padrino",
+    navIcons: "/Images/navbar/skills/padrino.png",
+    path: "padrino",
+  },
+  {
+    dropContent: "Rails",
+    navIcons: "/Images/navbar/skills/rails.png",
+    path: "rails",
+  },
+  {
+    dropContent: "Revel",
+    navIcons: "/Images/navbar/skills/revel.png",
+    path: "revel",
+  },
+  {
+    dropContent: "Roda",
+    navIcons: "/Images/navbar/skills/roda.png",
+    path: "roda",
+  },
+  {
+    dropContent: "Sintara",
+    navIcons: "/Images/navbar/skills/sinatra.png",
+    path: "sinatra",
   },
 ];
 
 export const frontend = [
   {
     dropContent: "React.js",
-    navIcons: "Images/navbar/skills/react.png",
+    navIcons: "/Images/navbar/skills/react.png",
     path: "reactjs",
   },
   {
     dropContent: "Angular",
-    navIcons: "Images/navbar/skills/angular.png",
-    path: "angular",
+    navIcons: "/Images/navbar/skills/angular.png",
+    path: "angularjs",
   },
   {
     dropContent: "Vue.js",
-    navIcons: "Images/navbar/skills/vue js.png",
+    navIcons: "/Images/navbar/skills/vue js.png",
     path: "vuejs",
   },
   {
     dropContent: "Ember.js",
-    navIcons: "Images/navbar/skills/emberjs.png",
+    navIcons: "/Images/navbar/skills/emberjs.png",
     path: "emberjs",
   },
   {
     dropContent: "jQuery",
-    navIcons: "Images/navbar/skills/jquery.png",
+    navIcons: "/Images/navbar/skills/jquery.png",
     path: "jquery",
   },
   {
     dropContent: "Next.js",
-    navIcons: "Images/navbar/skills/next js.png",
+    navIcons: "/Images/navbar/skills/next js.png",
     path: "nextjs",
   },
   {
     dropContent: "Backbone.js",
-    navIcons: "Images/navbar/skills/backbone js.png",
+    navIcons: "/Images/navbar/skills/backbone js.png",
     path: "backbonejs",
   },
   {
     dropContent: "Svelte",
-    navIcons: "Images/navbar/skills/svelte.png",
+    navIcons: "/Images/navbar/skills/svelte.png",
     path: "svelte",
   },
   {
     dropContent: "Semantic UI",
-    navIcons: "Images/navbar/skills/semantic.png",
-    path: "semanticui",
+    navIcons: "/Images/navbar/skills/semantic.png",
+    path: "semantic",
   },
 ];
 
 export const mobile = [
   {
     dropContent: "IOS",
-    navIcons: "Images/navbar/skills/iosimage.png",
+    navIcons: "/Images/navbar/skills/iosimage.png",
     path: "ios",
   },
   {
     dropContent: "Android",
-    navIcons: "Images/navbar/skills/android.png",
+    navIcons: "/Images/navbar/skills/android.png",
     path: "android",
   },
   {
     dropContent: "React Native",
-    navIcons: "Images/navbar/skills/react.png",
+    navIcons: "/Images/navbar/skills/react.png",
     path: "reactNative",
   },
   {
     dropContent: "Ionic",
-    navIcons: "Images/navbar/skills/ionic.png",
+    navIcons: "/Images/navbar/skills/ionic.png",
     path: "ionic",
   },
   {
     dropContent: "Java",
-    navIcons: "Images/navbar/skills/javaimage.png",
+    navIcons: "/Images/navbar/skills/javaimage.png",
     path: "",
   },
   {
     dropContent: "Flutter",
-    navIcons: "Images/navbar/skills/flutter.png",
+    navIcons: "/Images/navbar/skills/flutter.png",
     path: "flutter",
   },
   {
     dropContent: "Xamarin",
-    navIcons: "Images/navbar/skills/xamarian.png",
+    navIcons: "/Images/navbar/skills/xamarian.png",
     path: "",
   },
   {
     dropContent: "Swift",
-    navIcons: "Images/navbar/skills/swift.png",
+    navIcons: "/Images/navbar/skills/swift.png",
     path: "",
   },
   {
     dropContent: "Kotlin",
-    navIcons: "Images/navbar/skills/kotlinimage.png",
+    navIcons: "/Images/navbar/skills/kotlinimage.png",
     path: "",
   },
 ];
@@ -746,95 +800,95 @@ export const mobile = [
 export const database = [
   {
     dropContent: "MySQL",
-    navIcons: "Images/navbar/skills/mysqlimage.png",
-    path: "mySQL",
+    navIcons: "/Images/navbar/skills/mysqlimage.png",
+    path: "mysql",
   },
   {
     dropContent: "Microsoft SQL Server",
-    navIcons: "Images/navbar/skills/microsoftsql.png",
-    path: "microsoftSQL",
+    navIcons: "/Images/navbar/skills/microsoftsql.png",
+    path: "microsoftsql",
   },
   {
     dropContent: "PostgreSQL",
-    navIcons: "Images/navbar/skills/postgreSQL.png",
-    path: "postgreSQL",
+    navIcons: "/Images/navbar/skills/postgreSQL.png",
+    path: "postgresql",
   },
   {
     dropContent: "MongoDB",
-    navIcons: "Images/navbar/skills/mongodb.png",
+    navIcons: "/Images/navbar/skills/mongodb.png",
     path: "mongodb",
   },
   {
     dropContent: "Redis",
-    navIcons: "Images/navbar/skills/redis.png",
+    navIcons: "/Images/navbar/skills/redis.png",
     path: "redis",
   },
   {
     dropContent: "IBM db2",
-    navIcons: "Images/navbar/skills/ibmdb2.png",
-    path: "ibm-db",
+    navIcons: "/Images/navbar/skills/ibmdb2.png",
+    path: "ibmdb",
   },
   {
     dropContent: "Elacticsearch",
-    navIcons: "Images/navbar/skills/elasticsearch.png",
+    navIcons: "/Images/navbar/skills/elasticsearch.png",
     path: "elasticsearch",
   },
   {
     dropContent: "SQLite",
-    navIcons: "Images/navbar/skills/sqlite.png",
-    path: "SQLite",
+    navIcons: "/Images/navbar/skills/sqlite.png",
+    path: "sqlite",
   },
   {
     dropContent: "Cassandra",
-    navIcons: "Images/navbar/skills/cassandra.png",
-    path: "Cassandra",
+    navIcons: "/Images/navbar/skills/cassandra.png",
+    path: "cassandra",
   },
 ];
 
 export const cms = [
   {
     dropContent: "Wordpress",
-    navIcons: "Images/navbar/skills/wordpress.png",
+    navIcons: "/Images/navbar/skills/wordpress.png",
     path: "wordpress",
   },
   {
     dropContent: "Hubspot CMS Hub",
-    navIcons: "Images/navbar/skills/hubspot.png",
+    navIcons: "/Images/navbar/skills/hubspot.png",
     path: "hubspot",
   },
   {
     dropContent: "Joomla",
-    navIcons: "Images/navbar/skills/joomla.png",
+    navIcons: "/Images/navbar/skills/joomla.png",
     path: "joomla",
   },
   {
     dropContent: "WooCommerce",
-    navIcons: "Images/navbar/skills/woo.png",
-    path: "woo-commerce",
+    navIcons: "/Images/navbar/skills/woo.png",
+    path: "woocommerce",
   },
   {
     dropContent: "Drupal",
-    navIcons: "Images/navbar/skills/drupal.png",
+    navIcons: "/Images/navbar/skills/drupal.png",
     path: "drupal",
   },
   {
     dropContent: "Wix",
-    navIcons: "Images/navbar/skills/wix.png",
+    navIcons: "/Images/navbar/skills/wix.png",
     path: "wix",
   },
   {
     dropContent: "Big Commerce",
-    navIcons: "Images/navbar/skills/bigcommerce.png",
+    navIcons: "/Images/navbar/skills/bigcommerce.png",
     path: "bigcommerce",
   },
   {
     dropContent: "Ghost website builder",
-    navIcons: "Images/navbar/skills/ghost.png",
+    navIcons: "/Images/navbar/skills/ghost.png",
     path: "ghost",
   },
   {
     dropContent: "Weebly",
-    navIcons: "Images/navbar/skills/weebly.png",
+    navIcons: "/Images/navbar/skills/weebly.png",
     path: "weebly",
   },
 ];
@@ -843,19 +897,19 @@ export const discoverContent = [
   {
     title: "Scoping sessions",
     description: `Enlighten our tech experts about your breakthrough idea in an intensive session. We characterise your product idea and define the Scope of work.`,
-    cardImg: "Images/navbar/discovericons/training.png",
+    cardImg: "/Images/navbar/discovericons/training.png",
     path: "Scoping-session",
   },
   {
     title: "Business analysis",
     description: `We elicit business needs, study the competitive landscape, perform strategic analysis, and provide bespoke solutions.`,
-    cardImg: "Images/navbar/discovericons/line-chart.png",
+    cardImg: "/Images/navbar/discovericons/line-chart.png",
     path: "Business-Anylysis",
   },
   {
     title: "Product discovery workshop & design sprints",
     description: `Define your product strategy, prioritize features and visualize the end results with our strategic Discovery workshops. Validate assumptions with real users and find answers to most pressing concerns with Design Sprint.`,
-    cardImg: "Images/navbar/discovericons/product.png",
+    cardImg: "/Images/navbar/discovericons/product.png",
   },
 ];
 
@@ -863,12 +917,12 @@ export const discoverRightContent = [
   {
     title: "Full cycle product development",
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "Images/navbar/discovericons/lifecycle.png",
+    cardImg: "/Images/navbar/discovericons/lifecycle.png",
   },
   {
     title: "Innovation Lab",
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "Images/navbar/discovericons/graduation-cap.png",
+    cardImg: "/Images/navbar/discovericons/graduation-cap.png",
   },
 ];
 
@@ -876,19 +930,19 @@ export const designContent = [
   {
     title: "User Experience Design",
     description: `Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful.`,
-    cardImg: "Images/navbar/designicons/user-interface.png",
+    cardImg: "/Images/navbar/designicons/user-interface.png",
     path: "user-experience",
   },
   {
     title: "User Interface Design",
     description: `We enhance usability and craft designs that are unconventional and intuitively guides users into a splendid visual journey.`,
-    cardImg: "Images/navbar/designicons/vector.png",
+    cardImg: "/Images/navbar/designicons/vector.png",
     path: "user-interface",
   },
   {
     title: "User Experience Review",
     description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
-    cardImg: "Images/navbar/designicons/writing.png",
+    cardImg: "/Images/navbar/designicons/writing.png",
     path: "UX-Review",
   },
 ];
@@ -897,13 +951,13 @@ export const designRightContent = [
   {
     title: "Full cycle product development",
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "Images/navbar/discovericons/lifecycle.png",
+    cardImg: "/Images/navbar/discovericons/lifecycle.png",
     path: "Full-Cycle-Poduct-Design",
   },
   {
     title: "Innovation Lab",
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "Images/navbar/discovericons/graduation-cap.png",
+    cardImg: "/Images/navbar/discovericons/graduation-cap.png",
   },
 ];
 
@@ -911,19 +965,19 @@ export const scaleContent = [
   {
     title: "IT Consulting Services",
     description: `Our IT consulting services provide you the gears necessary for overcoming technological challenges.`,
-    cardImg: "Images/navbar/scaleicons/technical-support.png",
+    cardImg: "/Images/navbar/scaleicons/technical-support.png",
     path: "IT-consulting",
   },
   {
     title: "Digital Transformation",
     description: `We help you digitally transform and scale your business through the power of technology and innovation.`,
-    cardImg: "Images/navbar/scaleicons/digitalization.png",
+    cardImg: "/Images/navbar/scaleicons/digitalization.png",
     path: "Digital-transformation",
   },
   {
     title: `Product Launch and Growth Hacking`,
     description: `We outline low-budget innovative strategies, identify channels for rapid customer acquisition and scale businesses to new heights.`,
-    cardImg: "Images/navbar/scaleicons/arrow-up.png",
+    cardImg: "/Images/navbar/scaleicons/arrow-up.png",
   },
 ];
 
@@ -931,33 +985,33 @@ export const scaleRightContent = [
   {
     title: "Full cycle product development",
     description: ` We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "Images/card/anywhate",
+    cardImg: "/Images/card/anywhate",
   },
   {
     title: "Innovation Lab",
     description: ` We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "Images/card/anywhate",
+    cardImg: "/Images/card/anywhate",
   },
 ];
 
 export const product1 = [
   {
     dropContent: "Bottom Funnel Support Desk",
-    navIcons: "Images/navbar/product/desk.png",
+    navIcons: "/Images/navbar/product/desk.png",
     path: "funnel-desk",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Chat",
-    navIcons: "Images/navbar/product/Chat.png",
+    navIcons: "/Images/navbar/product/Chat.png",
     path: "Chat",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#a1ffca",
   },
   {
     dropContent: "Bottom Funnel Marketer",
-    navIcons: "Images/navbar/product/Market.png",
+    navIcons: "/Images/navbar/product/Market.png",
     path: "Marketer",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#ffcf9c",
@@ -965,14 +1019,14 @@ export const product1 = [
 
   {
     dropContent: "Bottom Funnel sales",
-    navIcons: "Images/navbar/product/bottomFunnnelSales.png",
+    navIcons: "/Images/navbar/product/bottomFunnnelSales.png",
     path: "sales",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#ffaf9a",
   },
   {
     dropContent: "Bottom Funnel Service",
-    navIcons: "Images/navbar/product/Service.png",
+    navIcons: "/Images/navbar/product/Service.png",
     path: "Service",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#e1e1e1",
@@ -982,7 +1036,7 @@ export const product1 = [
 export const product2 = [
   {
     dropContent: "Bottom Funnel Omnichannel",
-    navIcons: "Images/navbar/product/omnichannel.png",
+    navIcons: "/Images/navbar/product/omnichannel.png",
     path: "Omnichannel",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
@@ -990,21 +1044,21 @@ export const product2 = [
 
   {
     dropContent: "Bottom Funnel Customer Success",
-    navIcons: "Images/navbar/product/success.png",
+    navIcons: "/Images/navbar/product/success.png",
     path: "Team",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel Contact Center",
-    navIcons: "Images/navbar/product/contact.png",
+    navIcons: "/Images/navbar/product/contact.png",
     path: "ContactManagement",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
   },
   {
     dropContent: "Bottom Funnel CRM Suite",
-    navIcons: "Images/navbar/product/Sales.png",
+    navIcons: "/Images/navbar/product/Sales.png",
     path: "Team",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#ffaf9a",
@@ -1014,37 +1068,37 @@ export const product2 = [
 export const product3 = [
   {
     dropContent: "Analytics",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "android",
   },
   {
     dropContent: "Neo Admin Center",
-    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
     path: "ios",
   },
   {
     dropContent: "Collaboration",
-    navIcons: "Images/navbar/product/bottomfunnelsales.png",
+    navIcons: "/Images/navbar/product/bottomfunnelsales.png",
     path: "kotlin-development",
   },
   {
     dropContent: "Events and Notification",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "flutter",
   },
   {
     dropContent: "Unified Customer Record",
-    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
     path: "reactnative",
   },
   {
     dropContent: "Messaging Channels",
-    navIcons: "Images/navbar/product/bottomfunnelcustomersuccess.png",
+    navIcons: "/Images/navbar/product/bottomfunnelcustomersuccess.png",
     path: "Xamarin-Development",
   },
   {
     dropContent: "Custom Objects",
-    navIcons: "Images/navbar/product/bottomfunnelmarketer.png",
+    navIcons: "/Images/navbar/product/bottomfunnelmarketer.png",
     path: "ionic",
   },
 ];
@@ -1052,37 +1106,37 @@ export const product3 = [
 export const product4 = [
   {
     dropContent: "MarketPlace",
-    navIcons: "Images/navbar/product/MarketPlace.png",
+    navIcons: "/Images/navbar/product/MarketPlace.png",
     path: "MarketPlace",
   },
   {
     dropContent: "Developer Portal",
-    navIcons: "Images/navbar/product/dveloper.png",
+    navIcons: "/Images/navbar/product/dveloper.png",
     path: "Portal",
   },
   {
     dropContent: "Customer Spotlight",
-    navIcons: "Images/navbar/product/customer.png",
+    navIcons: "/Images/navbar/product/customer.png",
     path: "Spotlight",
   },
   {
     dropContent: "Customer Service",
-    navIcons: "Images/navbar/product/Customerservice.png",
+    navIcons: "/Images/navbar/product/Customerservice.png",
     path: "Service",
   },
   {
     dropContent: "IT Enterprises",
-    navIcons: "Images/navbar/product/IT.png",
+    navIcons: "/Images/navbar/product/IT.png",
     path: "Enterprises",
   },
   {
     dropContent: "Engagement",
-    navIcons: "Images/navbar/product/users.png",
+    navIcons: "/Images/navbar/product/users.png",
     path: "Conversational",
   },
   {
     dropContent: "Olly AI",
-    navIcons: "Images/navbar/product/olly.png",
+    navIcons: "/Images/navbar/product/olly.png",
     path: "olly",
   },
 ];
@@ -1104,10 +1158,8 @@ export const productSolution = [
     dropContent: "By Industry",
     productText1: "Retail & E-commerce",
     productText2: "Travel & Hospitality",
-    path:"RetailEcommerce"
+    path: "RetailEcommerce",
   },
-
-  
 ];
 
 export const productDesk = [
@@ -1115,223 +1167,222 @@ export const productDesk = [
     dropContent: "Support Desk",
     productText1: "A comprehensive helpdesk for exceptional customer service",
     productText2: "SMB",
-    navIcons: "Images/Logos/funnel-desk/support-desk.png",
-    path:"funnel-desk"
+    navIcons: "/Images/Logos/funnel-desk/support-desk.png",
+    path: "funnel-desk",
   },
   {
     dropContent: "Contact Center",
     productText1:
       "A reliable and smart call center solution for effortless experience",
     productText2: "Field Service",
-    navIcons: "Images/Logos/funnel-desk/contact-center.png",
-    path:""
+    navIcons: "/Images/Logos/funnel-desk/contact-center.png",
+    path: "",
   },
   {
     dropContent: "Omnichannel Suite",
     productText1: "Delight your customers with effortless omnichannel service",
     productText2: "Travel & Hospitality",
-    navIcons: "Images/Logos/funnel-desk/omnichannel.png",
+    navIcons: "/Images/Logos/funnel-desk/omnichannel.png",
   },
   {
     dropContent: "Customer Sucess",
     productText1:
       "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
     productText2: "Travel & Hospitality",
-    navIcons: "Images/Logos/funnel-desk/customer-sucess.png",
+    navIcons: "/Images/Logos/funnel-desk/customer-sucess.png",
   },
 ];
 
 export const productFeatures = [
   {
     dropContent: "Ticketing",
-    path:"ticketing",
+    path: "ticketing",
   },
   {
     dropContent: "Collaboration",
-    path:"Collaboration",
+    path: "Collaboration",
   },
   {
     dropContent: "Automations",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Help Widget",
-    path:"helpDesk",
+    path: "helpDesk",
   },
   {
     dropContent: "Reporting & Analytics",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Security",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Integration",
-    path:"",
+    path: "",
   },
 ];
 
 export const productResources = [
   {
     dropContent: "Remote Support",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Customer Stories",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Resource Library",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Webinars",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Videos",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Free Tools",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Academy",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Blog",
-    path:"",
+    path: "",
   },
   {
-    dropContent:"What's new",
-    path:"",
-  }
+    dropContent: "What's new",
+    path: "",
+  },
 ];
 
 export const salesProduct = [
   {
     dropContent: "Bottom Funnel Sales",
-    productText1:"Sales CRM",
-    navIcons: "Images/navbar/product/bottomFunnnelSales.png",
-    path:"",
+    productText1: "Sales CRM",
+    navIcons: "/Images/navbar/product/bottomFunnnelSales.png",
+    path: "",
   },
   {
     dropContent: "Bottom Funnel Suite",
-    productText1:"Sales & Markeing CRM",
-    navIcons: "Images/navbar/product/Sales.png",
-    path:"",
+    productText1: "Sales & Markeing CRM",
+    navIcons: "/Images/navbar/product/Sales.png",
+    path: "",
   },
 ];
 
 export const salesFeatures = [
   {
     dropContent: "Contact Management",
-    path:"ContactManagement",
+    path: "ContactManagement",
   },
   {
     dropContent: "Cloud Telephony",
-    path:"cloudTelephony",
+    path: "cloudTelephony",
   },
   {
     dropContent: "CPQ",
-    path:"cpq",
+    path: "cpq",
   },
   {
     dropContent: "Deal Management",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Email Integration",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Olly AI",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Mobile",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Sales Reports",
-    path:"",
+    path: "",
   },
 ];
 
 export const salesResources = [
   {
     dropContent: "Case Study",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Product Tour",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Blog",
-    path:"",
+    path: "",
   },
   {
     dropContent: "What's new",
-    path:"",
+    path: "",
   },
 ];
 
 export const salesIndustries = [
   {
     dropContent: "Real Estate",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Manufacturing",
-    path:"manufacturing",
+    path: "manufacturing",
   },
   {
     dropContent: "SAAS",
-    path:"saaSHomePage",
+    path: "saaSHomePage",
   },
   {
     dropContent: "Hospitality",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Insurance",
-    path:"insuranceSales",
+    path: "insuranceSales",
   },
   {
     dropContent: "Logistics",
-    path:"Logistics",
+    path: "Logistics",
   },
   {
     dropContent: "Agency",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Retail",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Finance",
-    path:"",
+    path: "",
   },
   {
     dropContent: "HealthCare",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Education",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Travel Agency",
-    path:"",
+    path: "",
   },
   {
     dropContent: "Law Firm",
-    path:"",
+    path: "",
   },
 ];
-

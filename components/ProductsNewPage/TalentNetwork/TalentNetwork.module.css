@@ -1,0 +1,91 @@
+.productsTalentNetworkParentDiv {
+  /* border: 1px solid red; */
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.productsTalentNetworkHeadingDiv {
+  /* border: 1px solid black; */
+  /* align-items: center; */
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  /* margin-top: 3%; */
+  margin-bottom: 2%;
+}
+
+.productsTalentNetworkHeadingDiv > h1 > span {
+  color: #ef4c23;
+}
+
+/* .plantBasedServicesBackImageDiv {
+      border: 1px solid red;
+    } */
+
+.plantBasedServicesBackImageDiv img {
+  width: 100%;
+}
+
+.productsTalentNetworkContentDiv {
+  /* border: 2px solid black; */
+  /* background-color: #ef4c23; */
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2%;
+  justify-content: center;
+  row-gap: 40px;
+  column-gap: 40px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.productsTalentNetworkContentDiv > div {
+  width: 82%;
+  height: 78px;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  /* margin-top: 4%; */
+  /* margin-bottom: 2%; */
+  /* padding: 1.5%; */
+  gap: 4%;
+  /* column-gap: 5%; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.productsTalentNetworkContentDiv > div > div {
+  background-color: #393939;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 20%;
+  padding: 1.5%;
+  color: white;
+}
+
+.productsTalentNetworkContentDiv > div > div > h4 {
+  padding-top: 3%;
+}
+
+.productsTalentNetworkContentDiv > div > p {
+  /* border-right:1px solid green; */
+  padding-top: 2%;
+  text-align: center;
+}
+
+.productsTalentNetworkContentDiv > div > div > h4 {
+  /* height: 65%; */
+  /* background-color: #393939; */
+  width: 100%;
+  object-fit: cover;
+}
+
+.productsTalentNetworkContentButton {
+  color: #ef4c23;
+}

@@ -21,10 +21,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Wellness() {
   return (
     <div>
+      <Head>
+        <title>Wellness Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Oking to build a wellness web app? Look no further than our team
+          of wellness web app development experts. Our team can help 
+         you build a successful wellness web app that helps you stay on
+          track with your health and fitness goals."
+        />
+      </Head>
+      <main>
       <Navbar />
       <Wellnesscontainer />
       <WellnessPatient customerData={wellnessPatient} />
@@ -42,6 +54,7 @@ export default function Wellness() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

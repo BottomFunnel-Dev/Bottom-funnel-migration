@@ -1,79 +1,78 @@
-.educationgroupwisemainboxes{
-    height: fit-content;
-    margin-bottom: 3%;
-    background-color: #f5f5f5;
+.educationgroupwisemainboxes {
+  height: fit-content;
+  margin-bottom: 3%;
+  background-color: #f5f5f5;
 }
 
-.educationgroupwisebordertopbox{
-    width: 80%;
-    border: 2px solid #ef4c23;
-    background-color: #ef4c23;
+.educationgroupwisebordertopbox {
+  width: 80%;
+  border: 2px solid #ef4c23;
+  background-color: #ef4c23;
 }
 
-.educationgroupwiseuppertextbox{
-    height: fit-content;
-    width: 90%;
-    margin: 5%;
+.educationgroupwiseuppertextbox {
+  height: fit-content;
+  width: 90%;
+  margin: 5%;
 }
 
-.educationgroupwiseflexonebox{
-    display: flex;
-    width: 100%;
-    margin-top: 5%;
+.educationgroupwiseflexonebox {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
 }
 
-.educationgroupwiseflexoneboxleft{
-    width: 45%;
+.educationgroupwiseflexoneboxleft {
+  width: 45%;
 
-    height: fit-content;
+  height: fit-content;
 }
 
-.educationgroupwiseflexoneboxright{
-    width: 45%;
-    margin-left: 5%;
+.educationgroupwiseflexoneboxright {
+  width: 45%;
+  margin-left: 5%;
 
-    height: fit-content;
+  height: fit-content;
 }
 
-.educationgroupwiseflexoneboxright >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.educationgroupwiseflexoneboxright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.educationgroupwiserightsideborder{
-    border: 2px solid #ef4c23;
-    background-color: #ef4c23;
-    width: 80%;
-    margin-left: 20%;
+.educationgroupwiserightsideborder {
+  border: 2px solid #ef4c23;
+  background-color: #ef4c23;
+  width: 80%;
+  margin-left: 19.5%;
 }
 
-.educationgroupimageboxflexside{
-    display: flex;
+.educationgroupimageboxflexside {
+  display: flex;
 }
 
-.educationgroupimageboxflexsideleft{
-    width: 45%;
-
-    height: 400px;
-    margin-top: 5%;
+.educationgroupimageboxflexsideleft {
+  width: 45%;
+  height: 400px;
+  margin-top: 5%;
 }
 
-.educationgroupimageboxflexsideright{
-    width: 45%;
- margin-top: 5%;
-    height: 400px;
-    margin-left: 5%;
+.educationgroupimageboxflexsideright {
+  width: 45%;
+  margin-top: 5%;
+  height: 400px;
+  margin-left: 5%;
 }
 
-.educationgroupimageboxflexsideleft >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.educationgroupimageboxflexsideleft > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.educationgroupimageboxflexsideright >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.educationgroupimageboxflexsideright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

@@ -19,10 +19,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Fintess ()  {
   return (
     <div>
+      <Head>
+        <title>Fitness Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a Fitness web app development company that 
+          can help you design and develop a top-notch fitness web app? 
+          Look no further! Here at our company, we understand the 
+          importance of providing users with a quality and innovative 
+          fitness web app."
+        />
+      </Head>
+      <main>
       <Navbar />
       <Fitnesscontainer />
       <Trusted partnerLogo={fitnessLogo} />
@@ -43,6 +56,7 @@ export default function Fintess ()  {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

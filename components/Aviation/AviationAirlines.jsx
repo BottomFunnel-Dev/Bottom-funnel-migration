@@ -51,8 +51,12 @@ export const AviationAirlines = () => {
 
 <div className={styles.avitaionairlinesagaintextonlytext}>
 <h1><span className={styles.specialcolor}>Airline Software</span> Development Service We Offer</h1>
-<p>Being one of the pioneering aviation consulting firms, we offer the best-in-class aviation software development services that ensure complete efficiency and precision in your business operations
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra lectus ut dui accumsan, vitae tincidunt enim tempus. Vivamus
+<p>One of the largest aviation software development 
+services in India, we offer comprehensive services that 
+ensure complete efficiency and precision in your operations. 
+From developing custom-built solutions to maintaining existing 
+systems, our team of experts has you covered from start to finish.
+
 </p>
 <div className={styles.datamappingindivisalboxairlineaviation}>{aviationairlinesdata.map((e)=>{
     return(

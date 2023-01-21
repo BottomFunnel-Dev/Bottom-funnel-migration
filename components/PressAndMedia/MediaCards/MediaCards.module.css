@@ -1,0 +1,47 @@
+.mediaCardsContainer {
+  width: 30%;
+  padding: 1%;
+  cursor: pointer;
+  transition: transform 0.5s linear;
+
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+}
+
+.mediaCardsContainer > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mediaCardsContainer > div > p {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.mediaCardsContainer > div > div {
+  height: 80px;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediaCardsContainer > div > div > img {
+  width: 80%;
+}
+
+.mediaCardsContainer > h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.mediaCardsContainer:hover {
+  transform: scale(102%) translateY(-4%);
+}
+
+.mediaCardsContainer:hover {
+  color: #ef4c23;
+}

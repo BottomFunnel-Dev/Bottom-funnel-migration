@@ -1,0 +1,22 @@
+.ourWholeDevContainer {
+  width: 90%;
+  margin: 3% auto;
+}
+
+.ourWholeDevContainer > h1 {
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  margin: 2% auto;
+}
+
+.ourWholeDevContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.ourWholeDevContainer > p {
+  width: 95%;
+  margin: 1% auto;
+  font-size: 17px;
+  text-align: center;
+}

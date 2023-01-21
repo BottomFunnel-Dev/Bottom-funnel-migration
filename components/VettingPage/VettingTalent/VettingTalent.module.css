@@ -1,0 +1,71 @@
+.vettingTalentContainer {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.vettingTalentContainer > h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.vettingTalentContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.vettingTalentMain {
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vettingTalentContent {
+  width: 56%;
+}
+
+.vettingTalentContent > div {
+  width: 100%;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.vettingTalentCardContent {
+  width: 93%;
+}
+
+.vettingTalentCardContent > h2 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+.vettingTalentCardContent > p {
+  font-size: 16px;
+  margin: 2% auto;
+  margin-bottom: 0;
+}
+
+.vettingTalentDots {
+  width: 5%;
+  height: fit-content;
+}
+
+.vettingTalentDots > img {
+  width: 100%;
+}
+
+.vettingTalentimage {
+  width: 40%;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid #ef4c23;
+}
+
+.vettingTalentimage > img {
+  width: 100%;
+}

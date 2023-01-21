@@ -5,8 +5,8 @@ export const WebDevWhy = ({ whyDevContent }) => {
     <div className={styles.webDevWhy}>
       <div className={styles.devWhyText}>
         <h1>
-          Why Consider <span className={styles.spanText}>Bottom Funnel</span> For Web
-          Development
+          Why Consider <span className={styles.spanText}>Bottom Funnel</span>{" "}
+          For Web Development
         </h1>
         <p>{whyDevContent.intro}</p>
       </div>

@@ -5,7 +5,6 @@ export const EcommerceComFeatures = () => {
   var featureCardsData = {
     title: "Features",
     description: `Do you want to conquer the ecommerce market? Then, you have to have a complete suite of features that make your website more user-friendly and appealing.
-
       Ecommerce web development provides everything you need in one place. Our advanced features will help your customers find what they're looking for easily, while our convenient admin panel makes it easy for you to manage everything.`,
     CardsData: [
       {

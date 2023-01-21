@@ -73,7 +73,7 @@ console.log(discoverContent)
               </h5>
             </Link>
 
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {webservice.map((item, i) => (
                 <div
                   key={i}
@@ -81,16 +81,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -118,7 +118,7 @@ console.log(discoverContent)
               </h5>
             </Link>
 
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {appservice.map((item, i) => (
                 <div
                   key={i}
@@ -126,16 +126,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -153,7 +153,7 @@ console.log(discoverContent)
                 Digital Marketing
               </h5>
             </Link>
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {digitalmarket.map((item, l) => (
                 // <Link
                 //   to={item.path}
@@ -166,16 +166,16 @@ console.log(discoverContent)
                     serHoverOut();
                   }}
                   key={l}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -187,7 +187,7 @@ console.log(discoverContent)
             <Link href={""} className={navservice.servicenoStyle}>
               <h5 style={{margin:0}}>Trending Technologies</h5>
             </Link>
-            <div className={navstyle.trendListItems}>
+            <div className={navservice.servicetrendListItems}>
               {trendingTech.map((item, m) => (
                 <div
                   key={m}
@@ -195,16 +195,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.trendImageIconDivSection}
+                  className={navservice.servicetrendImageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -214,10 +214,13 @@ console.log(discoverContent)
         </div>
       )}
 
+
+
+
       {sidetoggle === "Discover" && (
-        <div className={navstyle.discoverDropdown}>
-          <div className={navstyle.discoverleft}>
-            <div className={navstyle.discoverlefttop}>
+        <div className={navservice.servicediscoverDropdown}>
+          <div className={navservice.servicediscoverleft}>
+            <div className={navservice.servicediscoverlefttop}>
               {discoverContent.map((item, index) => (
                 <ImageCard
                   key={index}
@@ -226,7 +229,7 @@ console.log(discoverContent)
                 />
               ))}
             </div>
-            <div className={navstyle.discoverleftbottom}>
+            <div className={navservice.servicediscoverleftbottom}>
               <h3>
                 Learn more About{" "}
                 <span>
@@ -235,11 +238,11 @@ console.log(discoverContent)
               </h3>
             </div>
           </div>
-          <div className={navstyle.discoverright}>
+          <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
                 <ImageCard cardContent={item} closeDisplay={serHoverOut} />
-                <h5 className={navstyle.knowmore}>
+                <h5 className={navservice.serviceknowmore}>
                   Know More <BsArrowRight />
                 </h5>
               </div>
@@ -248,9 +251,9 @@ console.log(discoverContent)
         </div>
       )}
       {sidetoggle === "Design" && (
-        <div className={navstyle.discoverDropdown}>
-          <div className={navstyle.discoverleft}>
-            <div className={navstyle.discoverlefttop}>
+        <div className={navservice.servicediscoverDropdown}>
+          <div className={navservice.servicediscoverleft}>
+            <div className={navservice.servicediscoverlefttop}>
               {designContent.map((item, index) => (
                 <ImageCard
                   key={index}
@@ -259,7 +262,7 @@ console.log(discoverContent)
                 />
               ))}
             </div>
-            <div className={navstyle.discoverleftbottom}>
+            <div className={navservice.servicediscoverleftbottom}>
               <h3>
                 Learn more About{" "}
                 <span>
@@ -268,11 +271,11 @@ console.log(discoverContent)
               </h3>
             </div>
           </div>
-          <div className={navstyle.discoverright}>
+          <div className={navservice.servicediscoverright}>
             {designRightContent.map((item, index) => (
               <div key={index}>
                 <ImageCard cardContent={item} closeDisplay={serHoverOut} />
-                <h5 className={navstyle.knowmore}>
+                <h5 className={navservice.serviceknowmore}>
                   Know More <BsArrowRight />
                 </h5>
               </div>
@@ -281,12 +284,12 @@ console.log(discoverContent)
         </div>
       )}
       {sidetoggle === "Skills" && (
-        <div className={navservice.servicedropdownSection}>
+        <div className={navstyle.dropdownSection}>
           <div className={navstyle.backendDropdownContent}>
-            <Link href={""} className={navservice.servicenoStyle}>
+            <Link href={""} className={navstyle.noStyle}>
               <h5>Backend</h5>
             </Link>
-            <div className={navstyle.backendlistItems}>
+            <div className={navservice.servicebackendlistItems}>
               {backend.map((item, i) => (
                 <div
                   key={i}
@@ -294,16 +297,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.backendimageIconDivSection}
+                  className={navservice.servicebackendimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -311,10 +314,10 @@ console.log(discoverContent)
             </div>
           </div>
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navservice.servicenoStyle}>
+            <Link href={""} className={navstyle.noStyle}>
               <h5>Frontend</h5>
             </Link>
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {frontend.map((item, j) => (
                 <div
                   key={j}
@@ -322,16 +325,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -340,10 +343,10 @@ console.log(discoverContent)
           </div>
 
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navservice.servicenoStyle}>
+            <Link href={""} className={navstyle.noStyle}>
               <h5>Mobile</h5>
             </Link>
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {mobile.map((item, j) => (
                 <div
                   key={j}
@@ -351,16 +354,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -368,10 +371,10 @@ console.log(discoverContent)
             </div>
           </div>
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navservice.servicenoStyle}>
+            <Link href={""} className={navstyle.noStyle}>
               <h5>DataBase</h5>
             </Link>
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {database.map((item, j) => (
                 <div
                   key={j}
@@ -379,16 +382,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -396,10 +399,10 @@ console.log(discoverContent)
             </div>
           </div>
           <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navservice.servicenoStyle}>
+            <Link href={""} className={navstyle.noStyle}>
               <h5>CMS Frameworks</h5>
             </Link>
-            <div className={navstyle.listItems}>
+            <div className={navservice.servicelistItems}>
               {cms.map((item, j) => (
                 <div
                   key={j}
@@ -407,16 +410,16 @@ console.log(discoverContent)
                     // navigate(`/${item.path}`);
                     serHoverOut();
                   }}
-                  className={navstyle.imageIconDivSection}
+                  className={navservice.serviceimageIconDivSection}
                 >
                   <div>
                     <img
-                      className={navstyle.iconDivSection}
+                      className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navstyle.linkP}>
+                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -426,9 +429,9 @@ console.log(discoverContent)
         </div>
       )}
       {sidetoggle === "Scale" && (
-        <div className={navstyle.discoverDropdown}>
-          <div className={navstyle.discoverleft}>
-            <div className={navstyle.discoverlefttop}>
+        <div className={navservice.servicediscoverDropdown}>
+          <div className={navservice.servicediscoverleft}>
+            <div className={navservice.servicediscoverlefttop}>
               {scaleContent.map((item, index) => (
                 <ImageCard
                   key={index}
@@ -437,7 +440,7 @@ console.log(discoverContent)
                 />
               ))}
             </div>
-            <div className={navstyle.discoverleftbottom}>
+            <div className={navservice.servicediscoverleftbottom}>
               <h3>
                 Learn more About{" "}
                 <span>
@@ -446,11 +449,11 @@ console.log(discoverContent)
               </h3>
             </div>
           </div>
-          <div className={navstyle.discoverright}>
+          <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
                 <ImageCard cardContent={item} closeDisplay={serHoverOut} />
-                <h5 className={navstyle.knowmore}>
+                <h5 className={navservice.serviceknowmore}>
                   Know More
                   <BsArrowRight />{" "}
                 </h5>

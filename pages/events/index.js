@@ -15,10 +15,21 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 const index = () => {
   return (
     <div>
+      <Head>
+        <title>Events Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Wondering how to develop a web app for events? Here, we will be
+          discussing the different steps involved in making an event web app
+          and the pros and cons of each option."
+        />
+      </Head>
+      <main>
       <Navbar />
       <EventsBanner />
       <EventsDevelopment />
@@ -36,6 +47,7 @@ const index = () => {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   )
 }

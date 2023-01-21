@@ -1,0 +1,40 @@
+.simplifiedTickettingContainer {
+  margin-bottom: 5%;
+}
+
+.simplifiedTickettingContainer hr {
+  background-color: #ef4c23;
+  height: 20px;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.simplifiedTickettingContainer > div {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.simplifiedTickettingContent {
+  width: 55%;
+}
+
+.simplifiedTickettingContent > h1 {
+  font-size: 32px;
+}
+
+.simplifiedTickettingContent > p {
+  font-size: 20px;
+}
+
+.simplifiedTickettingImage {
+  width: 25%;
+}
+
+.simplifiedTickettingImage > img {
+  width: 100%;
+  transform: scale(1.7);
+}

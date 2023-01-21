@@ -195,24 +195,28 @@ padding: 2%;
 @media only screen and ( min-width:377px) and (max-width:769px){
   .spanText {
     color: #ef4c23;
-  }
   
+  }
+
   .webDevWhy {
-    width: 100%;
+    width: 95%;
     /* height: 500px; */
     /* padding: 60px 20px; */
+  padding: 2%;
+    /* margin-top: 10%; */
   }
-  
+
   .devWhyText {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
+    
   }
 
   .devWhyText>p{
     text-align: justify;
   }
-  
+
   .whyDevreasons {
     width: 90%;
     display: flex;
@@ -222,18 +226,19 @@ padding: 2%;
     column-gap: 45px;
     row-gap: 45px;
     padding: 30px 0;
-  }
   
+  }
+
   .whyfeatureCard {
-    width: 40%;
-    height: 380px;
+    width: 80%;
+    height: fit-content;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
     text-align: left;
-    /* border: 1px solid green; */
+    text-align: justify;
   }
-  
+
   .whyfeatureCard:hover {
     cursor: pointer;
     /* margin-top: 0; */

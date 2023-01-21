@@ -1,0 +1,29 @@
+.ClientTrust-main {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ClientTrust-main > h2 {
+  font-size: 25px;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.ClientTrust-main > button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 30px;
+
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #ef4c34;
+  color: white;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ClientTrust-main > button:hover {
+  background-color: white;
+  color: #ef4c34;
+}

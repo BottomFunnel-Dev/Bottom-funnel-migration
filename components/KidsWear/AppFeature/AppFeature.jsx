@@ -13,7 +13,7 @@ export const AppFeature = () => {
           </h1> */}
 
           <div className={styles.appFeatureInnerMaindivBox}>
-            <div className={styles.appFeatureInnerMainDivboxContain}  style={{border:"2px solid green",width:"40%"}}>
+            <div className={styles.appFeatureInnerMaindivBoxcontain}>
               <div>
                 <img src="/Images/kidswearappservice/_Group_.png" alt="image" />
               </div>
@@ -24,7 +24,7 @@ export const AppFeature = () => {
               </p>
             </div>
 
-            <div className={styles.appFeatureInnerMainDivboxContain} >
+            <div className={styles.appFeatureInnerMaindivBoxcontain} >
               <div>
                 <img src="/Images/kidswearappservice/Tracking delivery.png" alt="image" />
               </div>
@@ -34,7 +34,7 @@ export const AppFeature = () => {
           </div>
 
           <div className={styles.appFeatureInnerMaindivBox}>
-            <div className={styles.appFeatureInnerMainDivboxContain} >
+            <div className={styles.appFeatureInnerMaindivBoxcontain} >
               <div>
                 <img src="/Images/kidswearappservice/Vector.png" alt="image" />
               </div>
@@ -42,7 +42,7 @@ export const AppFeature = () => {
               <p>With advanced search filter, users will be able to find their products and service in a more efficient way.</p>
             </div>
 
-            <div className={styles.appFeatureInnerMainDivboxContain} >
+            <div className={styles.appFeatureInnerMaindivBoxcontain} >
               <div>
                 <img src="/Images/kidswearappservice/Group.png" alt="image" />
               </div>

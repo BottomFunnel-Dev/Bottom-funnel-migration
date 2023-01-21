@@ -1,82 +1,78 @@
-.educationadminsmainboxes{
-    height: fit-content;
-
+.educationadminsmainboxes {
+  height: fit-content;
 }
 
-
-
-.educationadministartionboxfortext{
-    height: fit-content;
-
-    margin-top: 3%;
-    margin-left: 5%;
-    width: 90%;
+.educationadministartionboxfortext {
+  height: fit-content;
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 90%;
 }
 
-.educationadministrationmappingboxmain{
-    height: fit-content;
-    width: 100%;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
+.educationadministartionboxfortext > h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 0%;
 }
 
-.educationadminstrationindivisuallybox{
-    height: 500px;
-    width: 40%;
-
-    margin: 5%;
-    text-align: justify;
+.educationadministartionboxfortext > p {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 17px;
 }
 
-.imageboxforeducationadministrationmapper{
-    height: 70%;
-    width: 100%;
-
-    
+.educationadministrationmappingboxmain {
+  height: fit-content;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.imageboxforeducationadministrationmapper >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 10px;
+.educationadminstrationindivisuallybox {
+  height: 500px;
+  width: 40%;
+  margin: 5%;
+  text-align: justify;
 }
 
-.educationadministrationboxnextflexbox{
-    height: 500px;
-
-    display: flex;
-    margin-top: 3%;
+.imageboxforeducationadministrationmapper {
+  height: 70%;
+  width: 100%;
 }
 
-.educationadminboxnextflexboxleft{
-    height: fit-content;
-    width: 44%;
-    margin-left: 5%;
-    margin-top: 5%;
-    text-align: justify;
-
+.imageboxforeducationadministrationmapper > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 10px;
 }
 
-.educationadministartionboxnextflexboxright{
-    height: 100%;
-    width: 40%;
-    margin-left: 2%;
-    margin-right: 5%;
-
+.educationadministrationboxnextflexbox {
+  height: 500px;
+  display: flex;
+  margin-top: 3%;
 }
 
-.educationadministartionboxnextflexboxright >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 30px;
+.educationadminboxnextflexboxleft {
+  height: fit-content;
+  width: 44%;
+  margin-left: 5%;
+  margin-top: 5%;
+  text-align: justify;
 }
 
+.educationadministartionboxnextflexboxright {
+  height: 100%;
+  width: 40%;
+  margin-left: 2%;
+  margin-right: 5%;
+}
 
-
-
-
-
+.educationadministartionboxnextflexboxright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 30px;
+}

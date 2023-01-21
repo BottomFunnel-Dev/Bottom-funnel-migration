@@ -42,6 +42,7 @@
 .eCommerceAdvanceCardsMain {
   width: 66%;
 }
+
 .eCommerceAdvanceCardsMain > div {
   width: 90%;
   margin: auto;
@@ -51,6 +52,9 @@
   font-size: 28px;
   text-align: center;
   margin: auto;
+  margin-bottom: 0%;
+  font-weight: 500;
+  line-height: 33.6px;
   color: #ef4c23;
 }
 

@@ -1,0 +1,47 @@
+.engageCards {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.engageCards > h1 {
+  width: 75%;
+  margin: auto;
+}
+
+.engagecardClass {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  column-gap: 20px;
+  padding: 30px;
+}
+
+.engageCardInner {
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.engageCardInner > h5 {
+  margin: 12% auto;
+  color: #ef4c23;
+}
+
+.engageIcon {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.engageIcon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

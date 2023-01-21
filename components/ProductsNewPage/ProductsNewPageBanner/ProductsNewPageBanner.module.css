@@ -1,0 +1,161 @@
+.productsBannerBannerParentDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding-left: 5%;
+  /* justify-content: center; */
+}
+
+.productsBannerButtonsDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.productsBannerTrialsButton {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.productsBannerTrialsButton:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}
+
+.productsBannerWatchVideoButton {
+  border: 1px solid gray;
+  padding: 10px 40px;
+  border-radius: 10px;
+  /* background-color: #ef4c23; */
+  border: none;
+  color: #393939;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 3%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.productsBannerWatchVideoButton:hover {
+  color: #ef4c23;
+  /* border: 1px solid #ef4c23; */
+  background-color: white;
+}
+
+.productsBannerMeatBannerContentDiv {
+  /* border: 1px solid green; */
+  width: 55%;
+  margin-top: 3%;
+}
+
+.productsBannerBannerImageDiv {
+  /* border: 1px solid black; */
+  /* height: 100vh; */
+  width: 42%;
+  position: relative;
+}
+
+.productsBannerBannerImageDiv img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 5%;
+  margin-right: 5%;
+  /* height: 100vh; */
+  /* height: 400px; */
+}
+
+.productBannerPlayIcon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 48%;
+  font-size: 65px;
+  left: 50%;
+  z-index: 1;
+  color: white;
+}
+
+.productPageBannerContent {
+  width: 76%;
+  height: fit-content;
+}
+
+.productPageBannerContent > h1 {
+  text-transform: uppercase;
+  margin: auto;
+  margin-bottom: 2%;
+  font-size: 40px;
+}
+
+.productPageBannerContent > span{
+  background-color: white;
+}
+
+.productPageBannerContent > p {
+  margin: auto;
+  text-align: justify;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.productPageBannerContent > hr {
+  background-color: #393939;
+  height: 1px;
+  border-radius: 2px;
+  width: 65%;
+  margin: 0px;
+}
+
+.productPage-banner-image {
+  width: 40%;
+  height: fit-content;
+  text-align: right;
+}
+
+.productPage-banner-image > img {
+  width: 80%;
+}
+
+.productPageAnimatedTitle {
+  font-size: 40px;
+  position: relative;
+  color: #ef4c23;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.productPageAnimatedTitle::after {
+  content: "|";
+  position: absolute;
+  font-size: 40px;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  color: #393939;
+  animation: animateTitle 10s linear infinite, caret 1s infinite;
+}
+
+@keyframes animateTitle {
+  0% {
+    width: 100%;
+  }
+
+  50% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

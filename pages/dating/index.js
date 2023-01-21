@@ -28,10 +28,21 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Dating() {
   return (
     <div>
+     <Head>
+        <title>Dating Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a dating web app development company that 
+          can help you build the perfect dating web app for your needs? 
+          Look no further than our team of experts!"
+        />
+      </Head>
+      <main>
       <Navbar />
       <Datingcontainer />
       <Trusted partnerLogo={datingLogo} />
@@ -54,6 +65,7 @@ export default function Dating() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

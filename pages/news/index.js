@@ -16,10 +16,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
+
 
 export default function News() {
   return (
     <div>
+      <Head>
+        <title>News Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="A top news web app development company that can help you 
+          create a news web app that is both user-friendly and informative? 
+          Read on to find out more about our team, services, and portfolio."
+        />
+      </Head>
+      <main>
       <Navbar />
       <Newsintro />
       <Trusted partnerLogo={newsLogo} />
@@ -38,6 +50,7 @@ export default function News() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

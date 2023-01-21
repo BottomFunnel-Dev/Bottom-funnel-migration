@@ -16,7 +16,7 @@ import { SeoblogSection } from "../SeoBlogs/Seoblogs";
 import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 export const KidsWear = () => {
   const dispatch = useDispatch();
@@ -26,13 +26,14 @@ export const KidsWear = () => {
 
   return (
     <div style={{ color: "#393939" }}>
-      <Helmet>
+      <Head>
         <title>Baby & Kidswear app development | Bottom Funnel</title>
         <meta
           name="description"
           content="We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services."
         />
-      </Helmet>
+      </Head>
+      <main>
       <KidsWearBanner />
       <ExclusiveFeature />
       <AppFeature />
@@ -47,6 +48,7 @@ export const KidsWear = () => {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

@@ -16,10 +16,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SportsBetting () {
   return (
     <div>
+      <Head>
+        <title>Sports Betting App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Do you want to bet on sports but don't know where to start? 
+          Look no further! We have the perfect sports betting web page for 
+          you that will guide you through the process of creating your very 
+          own sports betting web app."
+        />
+      </Head>
+      <main>
       <Navbar />
       <SportsBanner />
       <Trusted partnerLogo={sportsBettingLogo} />
@@ -37,6 +49,7 @@ export default function SportsBetting () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

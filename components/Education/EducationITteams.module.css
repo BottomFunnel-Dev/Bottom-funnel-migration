@@ -1,116 +1,131 @@
-.educationitteamsmainboxes{
-    height: fit-content;
-
-    background-color: #f5f5f5;
+.educationitteamsmainboxes {
+  height: fit-content;
+  background-color: #f5f5f5;
 }
 
-.educationitsupporttextandborder{
-    border-top: 3px solid #ef4c23;
-    width: 70%;
-    background-color: #ef4c23;
+.educationitsupporttextandborder {
+  border-top: 3px solid #ef4c23;
+  width: 70%;
+  background-color: #ef4c23;
 }
 
-.educationitteamsboxfortext{
-width: 90%;
-margin: 5%;
-text-align: justify;
+.educationitteamsboxfortext {
+  width: 90%;
+  margin: 5%;
+  text-align: justify;
 }
 
-.educationitteamsboxfortext>p{
-    font-size: 17px;
+.educationitteamsboxfortext > h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 0%;
 }
 
+.educationitteamsboxfortext > p {
+  font-size: 16px;
+  /* font-weight: 500; */
+  line-height: 24px;
+  margin-top: 0.5%;
+}
 
-
-.educationitsupportmappingboxmain{
-    height: fit-content;
-    width: 95%;
+.educationitsupportmappingboxmain {
+  height: fit-content;
+  width: 95%;
   margin-left: 5%;
-
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.educationitsupportmappingboxmain>div:nth-child(even) .imageboxforeducationitsupportmapper{
-   
-   margin-top: 15%;
+.educationitsupportmappingboxmain
+  > div:nth-child(even)
+  .imageboxforeducationitsupportmapper {
+  margin-top: 15%;
 }
 
-.educationitsupportindivisuallybox{
-    height: 500px;
-    width: 40%;
+.educationitsupportindivisuallybox {
+  height: 500px;
+  width: 40%;
 
- 
-    text-align: justify;
+  text-align: justify;
 }
 
-.educationitsupportindivisuallybox>div>p{
-    font-size: 17px;
+.educationitsupportindivisuallybox > div > h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 0%;
 }
 
-.educationitsupportindivisuallybox:nth-child(2n){
-    margin-left: 15%;
+.educationitsupportindivisuallybox > div > p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-
-
-.imageboxforeducationitsupportmapper{
-    height: 70%;
-    width: 100%;
-
-    
+.educationitsupportindivisuallybox:nth-child(2n) {
+  margin-left: 15%;
 }
 
-.imageboxforeducationitsupportmapper:nth-child(2n){
-    margin-top: 10%;
-   
+.imageboxforeducationitsupportmapper {
+  height: 70%;
+  width: 100%;
 }
 
-.imageboxforeducationitsupportmapper >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 5px;
+.imageboxforeducationitsupportmapper:nth-child(2n) {
+  margin-top: 10%;
 }
 
-.educationitsupportboxnextflexbox{
-    height: 500px;
-
-    display: flex;
-    margin-top: 10%;
+.imageboxforeducationitsupportmapper > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }
 
-.educationitsupportboxnextflexboxleft{
-    height: fit-content;
-    width: 44%;
-    margin-left: 5%;
-    margin-top: 5%;
+.educationitsupportboxnextflexbox {
+  height: 500px;
 
+  display: flex;
+  margin-top: 10%;
 }
 
-.educationitsupportboxnextflexboxleft>p{
-    font-size: 17px;
+.educationitsupportboxnextflexboxleft {
+  height: fit-content;
+  width: 44%;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
-.educationitsupportboxnextflexboxright{
-    height: 100%;
-    width: 44%;
-    margin-left: 2%;
-
+.educationitsupportboxnextflexboxleft > h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 0%;
 }
 
-.educationitsupportboxnextflexboxright >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 50px;
+.educationitsupportboxnextflexboxleft > p {
+  font-size: 17px;
 }
 
-.educationitsupportlowerspeciallinefromrightside{
-    width: 80%;
-   border: 2px solid #ef4c23;
-   width: 80%;
-   margin-left: 20%;
-   background-color: #ef4c23;
+.educationitsupportboxnextflexboxright {
+  height: 100%;
+  width: 44%;
+  /* margin-left: 2%; */
+  /* border: 2px solid black; */
+}
 
+.educationitsupportboxnextflexboxright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 50px;
+}
+
+.educationitsupportlowerspeciallinefromrightside {
+  width: 80%;
+  /* border: 2px solid #ef4c23; */
+  width: 80%;
+  margin-left: 20%;
+  background-color: #ef4c23;
 }

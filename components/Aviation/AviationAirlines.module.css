@@ -1,41 +1,50 @@
 .aviationairlinesmainboxes{
-    height: 150vh;
-    border: 1px solid #F5F5F5;
+    max-height: max-content;
+border: 1px solid #F5F5F5;
     position: relative;
     background-color: #F5F5F5;
+ 
 }
 
 .aviationairlinesupperboxamazing{
-    height: 10%;
+    height: 12%;
     width: 80%;
     border-radius: 20px;
-    display: flex;
+  display: flex;
     position: absolute;
     top: -5.3%;
     z-index: 1;
     background-color: white;
     left: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
    
 }
 
 .aviationupperbox1{
-    height: 93%;
+    height: 100%;
     width: 45%;
-   
-    margin: 1%;
     text-align: center;
     border-right: 1px solid;
+  
 
+}
+
+.aviationupperbox1>p{
+    margin-top: -2%;
 }
 
 .aviationupperbox1 >h1{
    font-size: 40px;
+   margin-top: -1%;
 }
 
 .aviationupperbox2 >h1{
     font-size: 40px;
+    margin-top: -3%;
+}
+
+.aviationupperbox2>p{
+    margin-top: -2%;
 }
 
 
@@ -46,13 +55,12 @@
     margin: 1%;
     text-align: center;
  
-
 }
 
 
 .avitaionairlinesagaintextonlytext{
-    height: 80%;
-    width: 95%;
+height: 80%;
+width: 95%;
 padding: 10px;
 margin: auto;
 margin-top: 6%;
@@ -63,7 +71,6 @@ text-align: center;
     text-align: left;
     width: 90%;
     margin: auto;
-    /* border: 2px solid red; */
 }
 
 .coloredspecial{
@@ -71,62 +78,54 @@ text-align: center;
 }
 
 .datamappingindivisalboxairlineaviation{
-    height: 85%;
-    width: 100%;
-    /* border: 2px solid blue; */
+   max-height: max-content;
+    width: 95%;
+  margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
 
 .aviationairlinesdatamappingboxes{
-    width: 42%;
-    height: 200px;
-    margin-top: 2%;
-    margin-left: 5%;
-    border-radius: 10px;
-    height: auto;
+    width: 45%;
+    /* margin-top: 2%;
+   margin-left: 5%; */
+   margin: 1%;
+   border-radius: 10px;
+    max-height: max-content;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    position: relative;
+    /* position: relative; */
     background-color: white;
-    padding: 10px;
-    /* border: 2px solid black; */
+  padding: 10px;
 }
 .aviationairlinesdatamappingboxes:hover{
     transform: scale(1.02);
 }
 
 .logoboxairlinesaviations{
-    height: 20%;
-    width: 20%;
-    /* border: 2px solid red; */
-    /* position: absolute; */
-    left: 2%;
-    /* top: 2%; */
+    height: 12%;
+    width: 12%;
 }
 
 .logoboxairlinesaviations >img {
-    width: 75px;
-    height: 80px;
-    /* border: 2px solid gold; */
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
 }
 
-.aviationairlinesmappertextboxes{
-  height: 65%;
+/* .aviationairlinesmappertextboxes{
+max-height: max-content;
   width: 90%;
   left: 5%;
-  padding: 10px;
+padding: 10px;
   position: absolute;
   top: 35%;
   text-align: left;
-}
-.aviationairlinesmappertextboxes>p{
-    /* border: 2px solid red; */
-    margin-top: 1%;
-}
+ 
+} */
+
 .aviationairlinesmappertextboxes >h4{
     font-weight: 700;
-    /* border: 2px solid red; */
-    margin-top:1%;
 }
 
 .aviationairlinesmappertextboxes{
