@@ -43,7 +43,7 @@ export const BigDataServiceBF = () => {
           <div></div>
           <span></span>
         </div>
-        <p>
+        <p className={styles.bigdataserviceparagraphbottomservicebfmain}>
           Bottom Funnel is here to help. We offer big data as a service so that
           you can process, manage and analyze large volumes of data in order to
           generate insights that will help your organization improve business

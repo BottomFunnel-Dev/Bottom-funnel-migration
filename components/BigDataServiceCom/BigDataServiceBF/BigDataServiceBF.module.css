@@ -1,7 +1,8 @@
 .BigDataServiceBFContainer {
   margin: auto;
-  height: 105vh;
+max-height: max-content;
   position: relative;
+
 }
 
 .BigDataServiceBFBackgroundRectangle {
@@ -16,10 +17,24 @@
   justify-content: space-between;
 }
 
+.BigDataServiceBFMain>h1{
+  width: 85%;
+  margin:auto;
+}
+
+.bigdataserviceparagraphbottomservicebfmain{
+  width: 85%;
+  margin:auto;
+  margin-bottom: 2%;
+}
+
+
+
 .BigDataServiceBFBackgroundRectangle > img:nth-child(1) {
   align-self: flex-end;
   height: 57%;
   width: 40%;
+  
 }
 
 .BigDataServiceBFBackgroundRectangle > img:nth-child(2) {
