@@ -16,6 +16,7 @@ import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
 import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
 import { SalesNavbar } from "./SalesNavbar/SalesNavbar";
+import DropdownResp from "./responsiveDropdown/DropdownResp";
 
 const Navbar = () => {
   // const navigate = useNavigate();
@@ -25,6 +26,7 @@ const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const [product, setProduct] = useState(false);
   const [navbar, setNabvar] = useState(false);
+  const [mobres, setMobres] = useState(false)
   // const [scrollVal, setScrollVal] = useState()
 
   const navredux = useSelector((state) => state.navbar);
@@ -126,14 +128,19 @@ const Navbar = () => {
     console.log(productMount.salesnavMount);
   }, [productMount]);
 
+
+  const handleMob =  ()=>{
+    mobres? setMobres(false):setMobres(true)
+    console.log("working tree", mobres)
+  }
   return (
     <div>
-      {!(productMount.navMount || productMount.salesnavMount) && (
+      {/* {!(productMount.navMount || productMount.salesnavMount) && (
         <ContactMain
           bgcolor={navbar ? "white" : "transparent"}
           textcolor={!navbar ? navredux.color : "black"}
         />
-      )}
+      )} */}
       {/* 
       {productMount.navMount && <ProductsNavbar scroll={scroll}/>}
       {productMount.salesnavMount && <SalesNavbar scroll={scroll}/>} */}
@@ -167,17 +174,17 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <input id={navstyle.checkbox} type="checkbox" />
+        {/* <input id={navstyle.checkbox} type="checkbox" /> */}
         <div id={navstyle.bar}>
           <label htmlFor="checkbox">
             <IconContext.Provider value={{ className: navstyle.bars }}>
-              <AiOutlineMenu />
+              <AiOutlineMenu  onClick={handleMob}/>
             </IconContext.Provider>
           </label>
         </div>
 
-        <div className={navstyle.dropdownBar}>
-          <div>
+      {!mobres &&   <div className={ navstyle.dropdownBar}>
+          <div className={navstyle.mobLists}>
             <li
               onMouseEnter={homeHoverIn}
               onMouseLeave={homeHoverOut}
@@ -249,7 +256,12 @@ const Navbar = () => {
           >
             Apply as a Talent
           </button>
-        </div>
+        </div>}
+
+        {mobres && <DropdownResp  homeHoverIn={homeHoverIn}
+          homeHoverOut={homeHoverOut}
+          scroll={scroll}
+          productMount={productMount} />}
       </nav>
 
       {/* about drop down section code start */}

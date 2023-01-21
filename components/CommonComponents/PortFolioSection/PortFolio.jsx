@@ -19,7 +19,7 @@ const PortFolio = () => {
     pauseOnHover: false,
     // swipeToSlide:true,
     vertical: true,
-    // autoplay: true,
+    autoplay: true,
 
     // cssEase: "linear",
     arrows: false,
@@ -228,7 +228,7 @@ const PortFolio = () => {
           <div
             key={i}
             className={
-              i === imageIndex ? [styles.mainSlide,styles.activeMainSlide] : styles.mainSlide
+              i === imageIndex ? `${styles.mainSlide} ${styles.activeMainSlide}` : styles.mainSlide
             }
           >
             <div className={styles.leftAnime}>

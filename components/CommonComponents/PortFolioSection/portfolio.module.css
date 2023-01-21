@@ -1,13 +1,14 @@
 .portfolioSection {
   width: 100%;
   height: 800px;
+  overflow: hidden;
   /* background-color: violet; */
-  box-sizing: border-box;
 }
 .portfolioSection > h1 {
   color: #ef4c23;
   text-align: center;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .mainSlide {
@@ -17,16 +18,16 @@
   /* height: 800px; */
   border: 2px solid black;
   position: relative;
-  box-sizing: border-box;
+  overflow: hidden;
 }
 .activeMainSlide {
   width: 100%;
   height: 706px;
-box-sizing: border-box;
-  /* height: 800px; */
-  /* background-color: green; */
-  /* border: 2px solid black; */
+  /* margin-top: 4%; */
+  margin: 0 !important;
+  overflow: hidden;
   position: relative;
+  box-sizing: border-box;
 }
 .mainSlide div:nth-child(1) {
   width: 75%;
@@ -37,7 +38,6 @@ box-sizing: border-box;
   /* background-color: aquamarine; */
   position: absolute;
   border-radius: 15px;
-  box-sizing: border-box;
   /* opacity: 0%; */
 }
 .mainSlide div:nth-child(1) > img {
@@ -49,10 +49,9 @@ box-sizing: border-box;
 .activeMainSlide div:nth-child(1) {
   /* background-color: blue; */
   left: 38%;
-  top: 49%;
+  top: 50%;
   opacity: 100%;
   transition: 4s;
-  box-sizing: border-box;
 }
 
 .mainSlide div:nth-child(2) {
@@ -63,7 +62,6 @@ box-sizing: border-box;
   top: 59.5%;
   right: -53%;
   height: 74%;
-  box-sizing: border-box;
 }
 .mainSlide div:nth-child(2) > img {
   width: 100%;
@@ -75,7 +73,6 @@ box-sizing: border-box;
   transition: 3s;
   height: 74%;
   top: 49.5%;
-  box-sizing: border-box;
 }
 
 .portfolioText {
@@ -85,13 +82,17 @@ box-sizing: border-box;
   top: 70px;
   left: 30px;
   border-radius: 10px;
-  box-sizing: border-box;
   /* background-color: blueviolet; */
   padding: 10px;
   color: white;
 }
 .portfolioText > h1 {
   color: white;
+  margin: 0;
+}
+.portfolioText > h6 {
+  color: white;
+  margin: 0;
 }
 .portfolioText > p {
   font-size: 15px;
@@ -103,7 +104,6 @@ box-sizing: border-box;
   /* background-color: red; */
   position: absolute;
   bottom: 0;
-  box-sizing: border-box;
 }
 .bottomfunnelBranding > img {
   width: 100%;
@@ -115,7 +115,6 @@ box-sizing: border-box;
   width: 100%;
   /* background-color: green; */
   height: 100px;
-  box-sizing: border-box;
   /* text-align: center; */
 }
 
@@ -124,7 +123,6 @@ box-sizing: border-box;
   width: 100%;
   margin-top: 10px;
   height: 100%;
-  box-sizing: border-box;
 }
 .techstack > p {
   margin: 5px;
@@ -135,7 +133,6 @@ box-sizing: border-box;
   display: flex;
   column-gap: 10px;
   align-items: center;
-  box-sizing: border-box;
 }
 .appstore > span {
   width: 21%;
@@ -163,7 +160,6 @@ box-sizing: border-box;
   bottom: 25px;
   font-family: cursive;
   left: 68px;
-  box-sizing: border-box;
 }
 
 .casestudy {
@@ -177,7 +173,6 @@ box-sizing: border-box;
   padding: 10px 60px;
   border-radius: 25px;
   font-weight: 600;
-  box-sizing: border-box;
 }
 .casestudyIcon {
   font-size: 30px;
