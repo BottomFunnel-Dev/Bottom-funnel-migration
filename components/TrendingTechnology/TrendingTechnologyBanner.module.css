@@ -61,7 +61,7 @@
        position: absolute;
         margin-top: 40%;
         margin-left: 5%;
-      
+    
         text-align: justify;
     }
     
@@ -89,8 +89,8 @@
         font-size: 14px;
         font-weight: 600;
         color: white;
-      margin-top: 65%;
-      margin-left: 17%;
+      margin-top: 70%;
+      margin-left: 20%;
     }
     
     .trendingtechnologybannerbutton:hover {
@@ -117,7 +117,7 @@
 .trendingtechnologiesbannersometextbox{
     height: fit-content;
     width: 70%;
-   
+  
     margin-top: 7%;
     margin-left: 5%;
     color: white;
