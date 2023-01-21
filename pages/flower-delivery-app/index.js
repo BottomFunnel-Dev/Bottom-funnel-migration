@@ -26,20 +26,20 @@ export default function FlowerDelivery() {
       <FlowerDeliveryService />
       <FlowerDeliverySolution />
       <FlowerDeliveryDriver />
-      <FlowerDeliveryAdmin />
-      <FlowerDeliveryBannerbottom />
-      <FlowerDeliverylast />
+      {/* <FlowerDeliveryAdmin /> */}
+      {/* <FlowerDeliveryBannerbottom /> */}
+      {/* <FlowerDeliverylast /> */}
 
-      <StoriesSection />
+      {/* <StoriesSection /> */}
       {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
+      {/* <PlanProject /> */}
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
+      {/* <MainFooter /> */}
     </div>
   );
 }

@@ -36,3 +36,13 @@
   width: 60%;
   margin: auto;
 }
+
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+@media (max-width: 480px) {
+  .lowerbannerflower{
+    border: 2px solid red;
+  }
+}

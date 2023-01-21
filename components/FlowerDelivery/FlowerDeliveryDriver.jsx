@@ -45,11 +45,9 @@ const FlowerDeliveryDriver = () => {
       </div>
 
       <div className={styles.flowerdeliveryflexboxright}>
-
         <h2>Driver Applications</h2>
         {flowerdeliverydriverdata.map((e) => {
           return (
-
             <div className={styles.flowerdeliverydrivermappingbox}
               key={e.htxt} onMouseEnter={() => {
                 handleImageChange(e.img)
@@ -59,11 +57,10 @@ const FlowerDeliveryDriver = () => {
               <p>{e.stxt}</p>
             </div>
           )
-
         })}
       </div>
     </div>
   );
 };
 
-export default FlowerDeliveryDriver
+export default FlowerDeliveryDriver;

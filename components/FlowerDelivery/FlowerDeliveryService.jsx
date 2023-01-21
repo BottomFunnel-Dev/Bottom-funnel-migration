@@ -39,8 +39,8 @@ export const FlowerDeliveryService = () => {
 
     {
       icon: "/Images/Flowerdeliverypage/76301.png",
-      htxt: "Promote Your Buisness Effectively",
-      stxt: "Provide your customer loyalty bonuses, introduce referrals and do a lot more to promote your business using all-in-one robust admin panel. from bottom funnel"
+      htxt: "Promote Your Business",
+      stxt: "Provide your customer loyalty bonuses, introduce referrals and do a lot more to promote your business using all-in-one robust admin panel of bottom funnel"
     },
   ]
 

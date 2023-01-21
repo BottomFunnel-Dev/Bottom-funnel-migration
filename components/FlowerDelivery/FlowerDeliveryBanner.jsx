@@ -5,9 +5,13 @@ const FlowerDeliveryBanner = () => {
   return (
     <div className={styles.flowerdeliverybannermaindiv}>
       <div className={styles.flowerdeliverybannerleftbox}>
-        <h1>On-Demand</h1>
-        <h2>Flower Delivery Application Solutions</h2>
-        <p>Get your florist delivery business online with a flower delivery app development solution to provide superior service experience to customers</p>
+        <h1>
+          <span> On-Demand </span>Flower Delivery App 
+        </h1>
+        <p>
+          Get your florist delivery business online with a flower delivery app development solution to provide superior
+          service experience to customers
+        </p>
         <button className={styles.flowerdeliverybannerbutton}>Get Started</button>
       </div>
 
