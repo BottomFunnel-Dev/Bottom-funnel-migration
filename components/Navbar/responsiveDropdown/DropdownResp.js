@@ -6,10 +6,18 @@ import {
   Typography,
 } from "@mui/material";
 import { WhoWeAre } from "../WhoWeAre";
+import { NavServices } from "../NavServices";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 import dropdown from "./dropdownResp.module.css";
-export default function DropdownResp( {homeHoverIn,homeHoverOut,scroll,productMount}) {
+export default function DropdownResp({
+  homeHoverIn,
+  homeHoverOut,
+  serHoverIn,
+  serHoverOut,
+  scroll,
+  productMount,
+}) {
   return (
     <div className={dropdown.dropdown_css}>
       <Accordion>
@@ -20,7 +28,7 @@ export default function DropdownResp( {homeHoverIn,homeHoverOut,scroll,productMo
         >
           <Typography>About</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails  className={dropdown.accord}>
           <Typography>
             <WhoWeAre
               homeHoverIn={homeHoverIn}
@@ -41,8 +49,12 @@ export default function DropdownResp( {homeHoverIn,homeHoverOut,scroll,productMo
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            <NavServices
+              serHoverIn={serHoverIn}
+              serHoverOut={serHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
           </Typography>
         </AccordionDetails>
       </Accordion>
