@@ -23,9 +23,9 @@
 
 
 .laundryadmindatamappingindi{
-width: 47%;
-height: 170px;
-
+width: 44%;
+/* height: 170px; */
+/* border: 2px solid red; */
 margin: 1%;
 border-radius: 10px;
 padding: 10px;
@@ -40,7 +40,6 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 .laundryadminrightbox{
     width: 40%;
-   
     height: 450px;
     margin-top: 5%;
     margin-left: 3%;
@@ -51,4 +50,13 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 100%;
     object-fit: 100% 100%;
 }
-    
+
+.laundryadmindatamappingindi>h4{
+    /* border: 2px solid red; */
+    margin-top: 1%;
+}
+.laundryadmindatamappingindi>p{
+    /* border: 2px solid red; */
+    font-size: 14px;
+    margin-top: 1%;
+}

@@ -12,7 +12,7 @@ export const FintechCustomerApp = () => {
       img: "",
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-1.png",
       htxt: "Profile Management",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "It helps users manage their profiles and driving information. It allows users to view and update their personal information, as well as track their driving history.",
 
     },
 
@@ -20,7 +20,7 @@ export const FintechCustomerApp = () => {
       img: "",
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-8.png",
       htxt: "Earning Analytics",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "Earning analytics is a feature in the driver's app that allows you to see how much money you've earned over a certain period of time. This is a great feature for drivers who want to see how their earnings are progressing.",
 
     },
 
@@ -28,7 +28,7 @@ export const FintechCustomerApp = () => {
       img: "",
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-6.png",
       htxt: "Daily Report's Dashboard",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "User want to be able to see their daily reports in one place. The Daily Report's Dashboard for our app gives you all the information you need to see how well you're doing.",
 
     },
 
@@ -36,7 +36,7 @@ export const FintechCustomerApp = () => {
       img: "",
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-7.png",
       htxt: "Alerts Settings",
-      stxt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum",
+      stxt: "It is important to be aware of your surroundings at all times. That's why the alerts settings on this app are so important. By customizing the tone and volume of the alerts, you can ensure that you're always getting the information you need.",
     },
 
   ]
@@ -47,9 +47,6 @@ export const FintechCustomerApp = () => {
         <h1>
           <span className={styles.specialtxt}>Customer</span> App
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum
-        </p>
       </div>
 
       <div className={styles.fintecustomerappfelxingboxupper}>

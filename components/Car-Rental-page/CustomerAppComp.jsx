@@ -63,7 +63,3 @@ export const CustomerAppComp = () => {
         </div>
     );
 };
-
-
-
-

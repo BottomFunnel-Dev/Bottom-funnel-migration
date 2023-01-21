@@ -53,12 +53,13 @@
 }
 
 .canabisdriverappindivisualbox{
-    height: 230px;
-    width: 48%;
+    height: 200px;
+    width: 45%;
     margin: 1%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
+    /* border: 2px solid red; */
 }
 
 .canabisdriverappindivisualbox:hover{
@@ -67,9 +68,8 @@
 
 
 .canabisdeliveryappindivisualboxforlogo{
-height: 25%;
-width: 20%;
-
+ height: 25%;
+ width: 20%;
 }
 
 .canabisdeliveryappindivisualboxforlogo >img {
@@ -77,4 +77,8 @@ width: 20%;
     width: 100%;
     object-fit: contain;
     padding: 5px;
+}
+.icecreamdeliveryappindivisualboxfortext>p{
+    /* border: 2px solid red; */
+    font-size: 14px;
 }

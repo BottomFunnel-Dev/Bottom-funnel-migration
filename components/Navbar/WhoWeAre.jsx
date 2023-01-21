@@ -1,8 +1,7 @@
 import React from "react";
-import navstyle from "./navbar.module.css";
 import whowe from "./whoWeAre.module.css";
 // import { useNavigate } from "next/link";
-import { company, whyBottom, process } from "../../data/Navbar";
+import { company, whyBottom, process } from "../../Data/Navbar";
 import Link from "next/link";
 export const WhoWeAre = ({
   homeHoverIn,
@@ -18,12 +17,12 @@ export const WhoWeAre = ({
       className={whowe.aboutNavVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
-      <div className={navstyle.aboutDropdownSection}>
-        <div className={navstyle.aboutDropdownContent}>
-          <Link href={"/"} className={navstyle.noStyle}>
+      <div className={whowe.aboutDropdownSection}>
+        <div className={whowe.aboutDropdownContent}>
+          <Link href={"/"} className={whowe.noStyle}>
             <h5 style={{margin:"10px"}}>Company</h5>
           </Link>
-          <div className={navstyle.listItems}>
+          <div className={whowe.listItems}>
             {company.map((item, i) => (
               <div
                 key={i}
@@ -31,11 +30,11 @@ export const WhoWeAre = ({
                   // navigate(`/${item.path}`);
                   homeHoverOut();
                 }}
-                className={navstyle.imageIconDivSection}
+                className={whowe.aboutimageIconDivSection}
               >
                 <div>
                   <img
-                    className={navstyle.iconDivSection}
+                    className={whowe.iconDivSection}
                     src={item.navIcons}
                     alt=""
                   />
@@ -43,7 +42,7 @@ export const WhoWeAre = ({
                 <Link
                   onClick={homeHoverOut}
                   href={item.path}
-                  className={navstyle.linkP}
+                  className={whowe.aboutlinkP}
                 >
                   <p>{item.dropContent}</p>
                 </Link>
@@ -51,11 +50,11 @@ export const WhoWeAre = ({
             ))}
           </div>
         </div>
-        <div className={navstyle.aboutDropdownContent}>
-          <Link href={""} className={navstyle.noStyle}>
+        <div className={whowe.aboutDropdownContent}>
+          <Link href={""} className={whowe.noStyle}>
             <h5 style={{margin:"10px"}}>Why Bottom Funnel</h5>
           </Link>
-          <div className={navstyle.listItems}>
+          <div className={whowe.listItems}>
             {whyBottom.map((item, i) => (
               <div
                 key={i}
@@ -63,11 +62,11 @@ export const WhoWeAre = ({
                   // navigate(`/${item.path}`);
                   homeHoverOut();
                 }}
-                className={navstyle.imageIconDivSection}
+                className={whowe.aboutimageIconDivSection}
               >
                 <div>
                   <img
-                    className={navstyle.iconDivSection}
+                    className={whowe.iconDivSection}
                     src={item.navIcons}
                     alt=""
                   />
@@ -75,7 +74,7 @@ export const WhoWeAre = ({
                 <Link
                   onClick={homeHoverOut}
                   href={item.path}
-                  className={navstyle.linkP}
+                  className={whowe.aboutlinkP}
                 >
                   <p>{item.dropContent}</p>
                 </Link>
@@ -83,11 +82,11 @@ export const WhoWeAre = ({
             ))}
           </div>
         </div>
-        <div className={navstyle.aboutDropdownContent}>
-          <Link href={""} className={navstyle.noStyle}>
+        <div className={whowe.aboutDropdownContent}>
+          <Link href={""} className={whowe.noStyle}>
             <h5 style={{margin:"10px"}}>Our Process</h5>
           </Link>
-          <div className={navstyle.listItems}>
+          <div className={whowe.listItems}>
             {process.map((item, i) => (
               <div
                 key={i}
@@ -95,11 +94,11 @@ export const WhoWeAre = ({
                   // navigate(`/${item.path}`);
                   homeHoverOut();
                 }}
-                className={navstyle.imageIconDivSection}
+                className={whowe.aboutimageIconDivSection}
               >
                 <div>
                   <img
-                    className={navstyle.iconDivSection}
+                    className={whowe.iconDivSection}
                     src={item.navIcons}
                     alt=""
                   />
@@ -107,7 +106,7 @@ export const WhoWeAre = ({
                 <Link
                   onClick={homeHoverOut}
                   href={item.path}
-                  className={navstyle.linkP}
+                  className={whowe.aboutlinkP}
                 >
                   <p>{item.dropContent}</p>
                 </Link>

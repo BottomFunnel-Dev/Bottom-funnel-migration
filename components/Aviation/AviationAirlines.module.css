@@ -1,6 +1,6 @@
 .aviationairlinesmainboxes{
-    height: 120vh;
-border: 1px solid #F5F5F5;
+    height: 150vh;
+    border: 1px solid #F5F5F5;
     position: relative;
     background-color: #F5F5F5;
 }
@@ -9,7 +9,7 @@ border: 1px solid #F5F5F5;
     height: 10%;
     width: 80%;
     border-radius: 20px;
-  display: flex;
+    display: flex;
     position: absolute;
     top: -5.3%;
     z-index: 1;
@@ -63,6 +63,7 @@ text-align: center;
     text-align: left;
     width: 90%;
     margin: auto;
+    /* border: 2px solid red; */
 }
 
 .coloredspecial{
@@ -72,54 +73,60 @@ text-align: center;
 .datamappingindivisalboxairlineaviation{
     height: 85%;
     width: 100%;
-  
+    /* border: 2px solid blue; */
     display: flex;
     flex-wrap: wrap;
 }
 
 .aviationairlinesdatamappingboxes{
     width: 42%;
+    height: 200px;
     margin-top: 2%;
-   margin-left: 5%;
-   border-radius: 10px;
-    height: 40%;
+    margin-left: 5%;
+    border-radius: 10px;
+    height: auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
     background-color: white;
-  padding: 10px;
+    padding: 10px;
+    /* border: 2px solid black; */
 }
 .aviationairlinesdatamappingboxes:hover{
     transform: scale(1.02);
 }
 
 .logoboxairlinesaviations{
-    height: 30%;
+    height: 20%;
     width: 20%;
-
-   position: absolute;
-   left: 2%;
-   top: 2%;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    left: 2%;
+    /* top: 2%; */
 }
 
 .logoboxairlinesaviations >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 10px;
+    width: 75px;
+    height: 80px;
+    /* border: 2px solid gold; */
 }
 
 .aviationairlinesmappertextboxes{
   height: 65%;
   width: 90%;
   left: 5%;
-padding: 10px;
+  padding: 10px;
   position: absolute;
   top: 35%;
   text-align: left;
 }
-
+.aviationairlinesmappertextboxes>p{
+    /* border: 2px solid red; */
+    margin-top: 1%;
+}
 .aviationairlinesmappertextboxes >h4{
     font-weight: 700;
+    /* border: 2px solid red; */
+    margin-top:1%;
 }
 
 .aviationairlinesmappertextboxes{

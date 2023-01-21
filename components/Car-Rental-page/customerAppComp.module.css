@@ -9,7 +9,7 @@
 .RGCustomerAppTextDiv{
     position: absolute;
     height: fit-content;
-   right: 0;
+    right: 20%;
    bottom: 100%;
    width: 36%;
 }
@@ -23,7 +23,7 @@
 
 
 .RGCustomerAppMobileLeftDiv{
-    height: 600px;
+    height:450px;
     width: 40%;
     /* border: 2px solid red; */
     margin-left: 3%;
@@ -76,7 +76,9 @@
     transform: scale(1.02);
     background-color: #ffebef;
 }
-
+.RGCustomerAppMobileRightDivBoxex>div>p{
+    font-size: 14px;
+}
 .RGCustomerSpan {
     color: #ef4c23;
 }

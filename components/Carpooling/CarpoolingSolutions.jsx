@@ -5,25 +5,25 @@ export const CarpoolingSolutions = () => {
     {
       cardtitle: "Entrepreneurs",
       CardDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, ",
+        "Entrepreneurs are a special breed of people. They see opportunity where others see only problems. They're willing to take risks where others play it safe. And they have the courage to stand up and be counted when others are content to stay in the background.",
       cardIcon: "/Images/carpoolingpage/icons/Component 5.png",
     },
     {
       cardtitle: "Enterprises",
       CardDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium,",
+        "Enterprises are businesses that are characterized by high levels of risk and uncertainty. They are typically large, complex organizations with a variety of stakeholders. Enterprises are often in industries that are undergoing rapid change, such as technology or finance.",
       cardIcon: "/Images/carpoolingpage/icons/Component 4.png",
     },
     {
       cardtitle: "Car/ Taxi Pooling",
       CardDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, ",
+        "Have you ever been stuck in traffic and wished there was a way to avoid it? Well, there is! Car pooling, also known as ride sharing, is when a group of people travel together in one vehicle. Not only does this reduce the number of cars on the road.",
       cardIcon: "/Images/carpoolingpage/icons/Component 3.png",
     },
     {
       cardtitle: "Real-Time Tracking",
       CardDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. At id, libero amet voluptate dolore natus totam minima saepe ut nemo officia autem corporis alias expedita a accusantium, ",
+        "Real-time tracking is an exciting new technology that allows you to track the movements of people or objects in real time. This means that you can see where they are and what they are doing at any given moment.",
       cardIcon: "/Images/carpoolingpage/icons/Component 2.png",
     },
   ];
@@ -33,10 +33,7 @@ export const CarpoolingSolutions = () => {
       <div className={styles.carpoolSolutionIntro}>
         <h1>Rideshare & Carpoooling App Development Solutions We Provide</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nisi quod
-          reiciendis totam minima pariatur. Maxime saepe officiis optio laborum
-          quod quibusdam, qui libero, eaque assumenda, voluptatem eveniet a
-          fuga?
+          Looking for a way to reduce your commute costs and help the environment? Check out the rideshare and carpooling app development solutions we provide! Our team can help you create a custom app that makes it easy for people in your area to find each other and share rides. Plus, our apps are designed to be user-friendly and efficient, so you'll be saving time and money in no time!
         </p>
       </div>
 

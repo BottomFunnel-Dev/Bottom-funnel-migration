@@ -6,14 +6,14 @@ export const AppFeature = () => {
     <div>
       <div className={styles.appFeatureMaindiv}>
         <div className={styles.appFeatureInnermaindiv1}>
-          <h1>Customer </h1>
-          <h1>
+          <h1>Customer App</h1>
+          {/* <h1>
             <span style={{ color: "orangered" }}>App</span>
             Features
-          </h1>
+          </h1> */}
 
           <div className={styles.appFeatureInnerMaindivBox}>
-            <div className={styles.appFeatureInnerMainDivboxContain1} >
+            <div className={styles.appFeatureInnerMainDivboxContain}  style={{border:"2px solid green",width:"40%"}}>
               <div>
                 <img src="/Images/kidswearappservice/_Group_.png" alt="image" />
               </div>

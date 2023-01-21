@@ -8,9 +8,10 @@
 .RGadminPannelTextDiv{
     position: absolute;
     height: fit-content;
-   right: 40%;
-   bottom: 100%;
-   width: 36%;
+    left: 4%;
+    bottom: 100%;
+    width: 36%;
+    /* border: 2px solid red; */
 }
 
 
@@ -61,7 +62,7 @@
 }
 
 .RGadminPannelLeftDivBoxex{
-    height: fit-content;
+    height: 200px;
     width:40%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: 1px solid #ec8b73;
@@ -70,7 +71,10 @@
     border-radius: 4px;
     text-align: justify;
 }
-
+.RGadminPannelLeftDivBoxex>div>p{
+    /* border: 2px solid red; */
+    font-size: 14px;
+}
 .RGadminPannelLeftDivBoxex:hover {
     transform: scale(1.02);
     background-color: #ffebef;

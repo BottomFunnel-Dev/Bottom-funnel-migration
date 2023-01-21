@@ -5,15 +5,15 @@ const initialStore = {
   logo: true,
 };
 
-export const NavbarReducer = (store = initialStore, { type, payload }) => {
+export default function NavbarReducer(store = initialStore, { type, payload }) {
   switch (type) {
     case CHANGE_COLOR:
       return {
         color: payload.color,
-       logo: payload.logo
+        logo: payload.logo,
       };
 
     default:
       return store;
   }
-};
+}

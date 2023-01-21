@@ -62,7 +62,7 @@ return (
           <div className={styles.cannabieasadminpannelmapperboxindivisyalicon}>
           <img src={e.icon} alt="" />
           </div>
-          <div className={styles.icecreamadminpannelmapperboxindivisyaltxt}>
+          <div className={styles.canabisadminpannelmapperboxindivisyaltxt}>
           <h4>{e.headertext}</h4>
           <p>{e.paragraph}</p>
           </div>

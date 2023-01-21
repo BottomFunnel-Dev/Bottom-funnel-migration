@@ -503,10 +503,6 @@
   padding: 10px 30px;
 }
 
-.serviceDropdownContent {
-  height: 100%;
-  width: 20%;
-}
 
 .skillDropdownContent {
   height: 100%;
@@ -520,6 +516,10 @@
 
 #serviceDropContent {
   width: 40%;
+}
+.serviceDropdownContent {
+  height: 100%;
+  width: 20%;
 }
 
 .serviceDropdownContent > h4 {

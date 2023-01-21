@@ -1,5 +1,5 @@
 .appFeatureMaindiv {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex-direction: row;
   margin-top: 4%;
@@ -9,7 +9,7 @@
   margin-left: 20%;
 }
 .AppFeature-innermaindiv1 {
-  /* border: 2px solid yellow ; */
+  border: 2px solid yellow;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -21,7 +21,7 @@
 .appFeatureInnerMaindivBox {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid blue; */
+  border: 2px solid blue;
   margin-top: 4%;
   justify-content: center;
 }
@@ -31,8 +31,8 @@
   text-align: left;
   padding-left: 2%;
   padding-top: 2%;
-  /* border: 2px solid red; */
-  width: 30%;
+  border: 2px solid gold;
+  width: 20%;
   margin-left: 2%;
   /* margin-top: 2%; */
 }
@@ -55,7 +55,7 @@
   text-align: left;
   padding-left: 2%;
   padding-top: 2%;
-  /* border: 2px solid red; */
+  border: 2px solid darkmagenta;
   width: 30%;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   margin-left: 2%;
@@ -65,32 +65,32 @@
   margin-top: 4%;
 }
 .appFeatureInnermaindiv2 {
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
   width: 50%;
   margin-top: 3%;
 }
 .appFeatureInnermaindiv2 img {
   width: 100%;
   height: 80%;
-  /* border: 2px solid green; */
+  border: 2px solid green;
   margin-top: 18%;
   /* margin-right: 10%; */
 }
 .appFeatureInnermaindiv21 {
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
   width: 50%;
   margin-top: 3%;
 }
 .appFeatureInnermaindiv21 img {
   width: 100%;
   height: 100%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   margin-top: 3%;
   /* margin-right: 10%; */
 }
 
 .appFeatureMaindivadmin {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   display: flex;
   flex-direction: row;
   margin-top: 4%;
@@ -100,7 +100,7 @@
   margin-left: 20%;
 }
 .AppFeature-innermaindiv1admin {
-  /* border: 2px solid pink ; */
+  border: 2px solid pink ;
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -110,7 +110,7 @@
 .appFeatureInnerMaindivBoxadmin {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid black; */
+  border: 2px solid black;
   margin-top: 4%;
   justify-content: center;
 }
@@ -120,7 +120,7 @@
   text-align: left;
   padding-left: 2%;
   padding-top: 2%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   width: 30%;
   margin-left: 2%;
   /* margin-top: 2%; */
@@ -142,7 +142,7 @@
   text-align: left;
   padding-left: 2%;
   padding-top: 2%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   width: 30%;
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   margin-left: 2%;
@@ -152,7 +152,7 @@
   margin-top: 4%;
 }
 .appFeatureInnermaindiv2admin {
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
   width: 50%;
   /* justify-content: baseline; */
   /* position: absolute; */

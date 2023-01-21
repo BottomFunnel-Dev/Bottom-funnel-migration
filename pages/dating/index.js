@@ -27,10 +27,12 @@ import StoriesSection from "../../components/CommonComponents/StoriesSection/Sto
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function Dating() {
   return (
     <div>
+      <Navbar />
       <Datingcontainer />
       <Trusted partnerLogo={datingLogo} />
       <Datingbrands />

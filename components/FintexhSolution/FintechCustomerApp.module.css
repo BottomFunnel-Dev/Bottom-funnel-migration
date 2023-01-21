@@ -1,15 +1,17 @@
 .fintechsolutioncustomerappmainbox {
   height: 100vh;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   position: relative;
+  /* border: 2px solid red; */
 }
 
 .fintechcustomerappboxfortext {
   position: absolute;
   height: fit-content;
-  right: 15%;
+  right: 17%;
   width: 40%;
   top: 10%;
+  /* border: 2px solid green; */
 }
 
 .fintecustomerappfelxingboxupper {
@@ -18,10 +20,10 @@
 
 .fintecustomerappfelxingboxupperleft {
   height: 500px;
-  margin-left: -8%;
+  /* margin-left: -8%; */
   width: 50%;
-  margin-top: 10%;
-
+  margin-top:8%;
+  /* border: 2px solid red; */
   background: url("/Images/fintechsolutionpage/Component187.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -33,25 +35,28 @@
   height: 90%;
   width: 40%;
   top: 5%;
-  left: 25%;
+  left: 20%;
+  /* border: 2px solid red; */
 }
 
 .fintechcustomerappleftsectionformobile > img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  /* border: 2px solid red; */
 }
 
 .fintechcustomerappflexright {
   height: 400px;
   width: 70%;
-  margin-top: 15%;
+  margin-top: 12%;
   display: flex;
   flex-wrap: wrap;
+  /* border: 2px solid gold; */
 }
 
 .fintechcustomerappboxesaftermapping {
-  height: fit-content;
+  height: auto;
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
@@ -59,6 +64,7 @@
   padding: 10px;
   border-radius: 10px;
   text-align: justify;
+  /* border: 2px solid red; */
 }
 
 .fintechcustomerappboxesaftermapping:hover {
@@ -67,9 +73,14 @@
 
 .logofintechcustomerapp {
   margin: 2%;
-  margin-top: 4%;
+  /* margin-top: 4%; */
+  /* border: 2px solid red; */
 }
-
+.logofintechcustomerapp>img{
+  /* border: 2px solid red; */
+  width: 40px;
+  height: 40px;
+}
 .specialtxt {
   color: #ef4c23;
   text-decoration: none;
@@ -81,8 +92,11 @@
 
 .txtcustomerappfintech > h4 {
   margin-top: 2%;
+  /* border: 2px solid red; */
 }
 
 .txtcustomerappfintech > p {
-  margin-top: -6%;
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 14px;
 }

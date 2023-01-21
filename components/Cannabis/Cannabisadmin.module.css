@@ -1,20 +1,16 @@
 .cannabiesadminpannelmainboxes{
     height: fit-content;
-
 }
 
 .cannbiesadminpannelmainboxsometextupper{
     height: fit-content;
-  margin-top: 10%;
+    margin-top: 10%;
     margin-left: 4%;
-
 }
 
 .cannabiesadminpannelmainflexboxclass{
     height: fit-content;
-  
     display: flex;
-   
 }
 
 .cannabieasadminpannelleftbox{
@@ -22,20 +18,20 @@
     display: flex;
     flex-wrap: wrap;
     width: 55%;
-  
+    /* border: 2px solid red; */
     margin-left: 3%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
 }
 
 .cannabiesadminpannelmapperboxindivisyal{
-    height: fit-content;
-    width: 48%;
+    height:200px;
+    width: 44%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     text-align: justify;
     padding: 10px;
     border-radius: 10px;
-
+    /* border: 2px solid red; */
 }
 
 .cannabiesadminpannelmapperboxindivisyal:hover{
@@ -44,10 +40,10 @@
 
 .cannabiesamadminpannelrightbox{
     width: 45%;
-  margin-left: 1%;
-
- height: 460px;
- background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png");
+    margin-left: 1%;
+    /* border: 2px solid red; */
+    height: 460px;
+    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png");
 }
 
 .cannbiesamadminpannelrightboxinnerimage{
@@ -74,4 +70,9 @@
     width: 100%;
     object-fit: contain;
     padding: 10px;
+}
+.canabisadminpannelmapperboxindivisyaltxt>p{
+    /* border: 2px solid red; */
+    /* margin-top: 1%; */
+    font-size: 14px;
 }

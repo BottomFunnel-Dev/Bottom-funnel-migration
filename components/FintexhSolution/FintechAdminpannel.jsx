@@ -39,7 +39,7 @@ export const FintechAdminpannel = () => {
       <div className={styles.fintechsolutionadminpannelmainbox}>
          <div className={styles.fintechsolutionadminpannelleftbox}>
             <div className={styles.fintechsolutionadminpannelleftboxfortext}>
-               <h1>Admin Pannel</h1>
+               <h1>Admin Panel</h1>
                <p>
                   Making the admin's work easy is a lot of fun. Meet Fintech, which is all about making everyone around you comfortable and relaxed.
                </p>

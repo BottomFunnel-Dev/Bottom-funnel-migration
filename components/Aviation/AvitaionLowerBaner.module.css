@@ -1,20 +1,17 @@
 .lowerbanneraviation{
-    height: 250px;
-   
-
+    height: auto;
+    /* border: 2px solid red; */
     background: url("/Images/aviation/Component 142.png");
-   position: relative;
+    position: relative;
 }
 
 .lowerbannertextandbutton{
     height: 100%;
     border: 1px solid white;
-  
     text-align: center;
     color: white;
-  padding: 5%;
+    padding: 5%;
 }
-
 
 .aviationlowerbannerbutton{
     padding: 10px 50px;
@@ -29,12 +26,10 @@
     font-weight: 600;
     color: #ef4c23;
     margin-top: 2%;
-  
+    /* border: 2px solid red; */
 }
 
 .aviationlowerbannerbutton:hover {
-
     background-color:#ef4c23;
     color:  white;
-
 }

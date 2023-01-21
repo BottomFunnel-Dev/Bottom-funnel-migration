@@ -1,6 +1,6 @@
 .cannbiescustomerappmainboxes{
     height: fit-content;
-
+    /* border: 2px solid red; */
    
 }
 
@@ -18,7 +18,7 @@
 .cannabiesdeliveryappflexingboxleftbox{
     height: 480px;
     width: 45%;
- 
+    /* border: 2px solid red; */
     background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4861.png");
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -28,9 +28,8 @@
 .cannabiesdeliveryappleftboxinsiderupperimage{
     height: 90%;
     width: 35%;
-  
+    /* border: 2px solid red; */
     margin: 5% 0% 0% 10%;
- 
 }
 
 .cannabiesdeliveryappleftboxinsiderupperimage >img{
@@ -44,9 +43,10 @@
     width: 60%;
     margin-left: 1%;
     margin-right: 3%;
-   text-align: justify;
+    text-align: justify;
     display: flex;
     flex-wrap: wrap;
+    /* border: 2px solid red; */
 }
 .cannbiescustomerappmainboxes >h2{
     text-align: center;
@@ -55,18 +55,21 @@
 
 .cannabiesdeliveryappindivisualbox{
     height: 230px;
-    width: 48%;
+    width: 45%;
     margin: 1%;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
-  
+    /* border: 2px solid red; */
 }
 
 .cannabiesdeliveryappindivisualbox:hover{
     transform: scale(1.02);
 }
-
+.icecreamdeliveryappindivisualboxfortext>p{
+    /* border: 2px solid red; */
+    font-size: 14px;
+}
 
 .cannbiesdeliveryappindivisualboxforlogo{
 height: 25%;

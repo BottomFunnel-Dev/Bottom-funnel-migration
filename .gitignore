@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# Build
+build
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -77,6 +80,7 @@ typings/
 
 # Next.js build output
 .next
+build
 
 # Nuxt.js build / generate output
 .nuxt
