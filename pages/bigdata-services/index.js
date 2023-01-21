@@ -15,10 +15,29 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function BigDataService() {
   return (
     <div>
+
+
+    <Head>
+    <title>BigData Services | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="In this article,
+       we will discuss the various 
+       types of big data services tha
+       t are currently available in the market.
+        You will get to know about the benefits 
+        and features of these services, and which 
+        one is best for your business."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <BigDataServiceBanner />
       <BigDataServicePopular />
@@ -36,6 +55,8 @@ export default function BigDataService() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

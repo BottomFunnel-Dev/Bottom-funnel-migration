@@ -4,17 +4,17 @@ import styles from "./EcommerceComCustomer.module.css";
 export const EcommerceComCustomer = () => {
   let customerAppData = {
     backgroundImage: {
-      src: "Images/EcommercePhotos/background-orange.png",
+      src: "/Images/EcommercePhotos/background-orange.png",
       alt: "Shopping mobile app background image",
     },
     mainImage: {
-      src: "Images/EcommercePhotos/customer-app.png",
+      src: "/Images/EcommercePhotos/customer-app.png",
       alt: "Shopping mobile app main image",
     },
     cardsData: [
       {
         image: {
-          src: "Images/EcommercePhotos/one.png",
+          src: "/Images/EcommercePhotos/one.png",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -23,7 +23,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/two.png",
+          src: "/Images/EcommercePhotos/two.png",
           alt: "user-friendly interface logo",
         },
         description:
@@ -32,7 +32,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/three.png",
+          src: "/Images/EcommercePhotos/three.png",
           alt: "Order food and track their service logo",
         },
         description:
@@ -41,7 +41,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/four.png",
+          src: "/Images/EcommercePhotos/four.png",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -50,7 +50,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/five.png",
+          src: "/Images/EcommercePhotos/five.png",
           alt: "Dummy text logo",
         },
         description:
@@ -59,7 +59,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/six.png",
+          src: "/Images/EcommercePhotos/six.png",
           alt: "Dummy text logo",
         },
         description:
@@ -74,6 +74,7 @@ export const EcommerceComCustomer = () => {
       <h1>
         SOLUTIONS FOR YOUR <span> E-COMMERCE APP </span>
       </h1>
+
       <div className={styles.eCommerceCustomerMain}>
         <div className={styles.eCommerceCustomerImagesMain}>
           <div>
@@ -83,6 +84,7 @@ export const EcommerceComCustomer = () => {
               style={{ zIndex: "1" }}
             />
           </div>
+
           <div>
             <img
               src={customerAppData.mainImage.src}
@@ -102,6 +104,7 @@ export const EcommerceComCustomer = () => {
                     <div className={styles.eCommerceAdvanceCardsLogo}>
                       <img src={image.src} alt={image.alt} />
                     </div>
+                    
                     <div className={styles.eCommerceAdvanceCardsContent}>
                       <h5>{title}</h5>
                       <p>{description}</p>

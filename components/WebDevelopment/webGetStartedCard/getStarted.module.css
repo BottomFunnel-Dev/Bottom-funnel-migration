@@ -30,9 +30,9 @@
 
 .getText > button {
   position: absolute;
-  transform: translate(8%, -50%);
+  transform: translate(9%, -50%);
   top: 50%;
-  right: 8%;
+  right: 9%;
   padding: 10px 30px;
   font-weight: 600;
   font-size: 18px;

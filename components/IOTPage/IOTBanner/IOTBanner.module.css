@@ -1,12 +1,10 @@
 .IOTBannerMain {
   height: 100vh;
   padding-left: 5%;
-
   background: url("/Images/IOTPhotos/banner.png");
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,11 +12,10 @@
 
 .IOTBannerMain > h1 {
   font-size: 40px;
-  width: 65%;
+  width: 70%;
   margin-bottom: 1%;
   margin-top: 1%;
   margin-bottom: 1%;
-
   color: whitesmoke;
 }
 
@@ -27,17 +24,15 @@
   width: 70%;
   margin-bottom: 1%;
   margin-top: 1%;
-
   color: whitesmoke;
 }
 
 .IOTBannerMain > button {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   height: fit-content;
   width: fit-content;
   margin-top: 1%;
-
   background-color: white;
   color: #ed0926;
   padding: 10px 50px;
@@ -45,7 +40,6 @@
   outline: none;
   border: none;
   cursor: pointer;
-
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -58,7 +52,6 @@
   width: 30%;
   margin-top: 1%;
   margin-bottom: 1%;
-
   display: flex;
   align-items: center;
   justify-content: space-between;

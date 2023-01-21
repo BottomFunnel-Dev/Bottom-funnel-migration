@@ -5,6 +5,7 @@
   margin: auto;
   margin-top: 5%;
   height: fit-content;
+
 }
 .rGWhyChooseBFRightMainDiv {
   width: 45%;
@@ -37,8 +38,9 @@
 
 .rGWhyChooseBfLoremPara {
   text-align: left;
-  width: 50%;
-  margin-left: 36%;
+  width: 60%;
+  margin-left: 30%;
+  text-align: justify;
 }
 
 .rGWhyChooseBFRightHRLine {

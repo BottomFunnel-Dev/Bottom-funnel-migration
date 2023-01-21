@@ -24,7 +24,7 @@ export const MernPoluparServices = ({ popularservice }) => {
               style={
                 toggle === index
                   ? {
-                      background: "#34b0ca",
+                      background: "#ef4c23",
                       borderRadius: "5px",
                       color: "white",
                     }
@@ -35,7 +35,6 @@ export const MernPoluparServices = ({ popularservice }) => {
             </div>
           ))}
         </div>
-
         <div className={styles.serviceDescription}>
           <div className={styles.descriptionImage}>
             <img src={popularservice.services[toggle].stackimg} alt="image" />

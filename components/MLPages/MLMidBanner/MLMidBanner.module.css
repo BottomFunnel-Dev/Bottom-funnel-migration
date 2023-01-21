@@ -7,4 +7,9 @@
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+
+}
+
+.MLMidBannermain>p{
+  text-align: justify;
 }

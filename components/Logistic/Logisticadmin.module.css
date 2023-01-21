@@ -4,9 +4,11 @@
   margin: 60px 0;
   /* background-color: aqua; */
 }
+
 .logicadmin > h1 {
   margin-left: 5%;
 }
+
 .logicadminsub {
   width: 100%;
   justify-content: space-between;
@@ -16,6 +18,7 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
 .logicadminleft {
   width: 45%;
   height: 500px;
@@ -26,6 +29,7 @@
   background-size: 100% 500px;
   position: relative;
 }
+
 .logicadminright {
   width: 45%;
   height: 100%;
@@ -59,6 +63,8 @@
 
 .logicadminright > div > h3 {
   font-size: 18px;
+  margin-top: 0%;
+  margin-bottom: 3%;
 }
 
 .logisticAdminImage {

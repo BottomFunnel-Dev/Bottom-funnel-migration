@@ -3,7 +3,7 @@ import styles from "./MLMidBanner.module.css";
 
 export const MLMidBanner = () => {
   return (
-    <div className="MLMidBannermain">
+    <div className={styles.MLMidBannermain}>
       <h1>Machine Learning Services</h1>
       <p>
         All the things we love about AI, in one machine that's smart enough to

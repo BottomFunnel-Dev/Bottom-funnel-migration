@@ -6,7 +6,11 @@ const Web3Development = () => {
     <div className={styles.Web3Developmentmainbox}>
 
       <div className={styles.web3developmentleftboxing}>
-        <h2><a className={styles.specialcolorredish}>Web 3</a> game Development</h2>
+        
+        <h2>
+          <a className={styles.specialcolorredish}>Web 3</a> game Development
+        </h2>
+
         <p>
           Web 3.0 is the future of gaming and it's already starting to change the way we think about games.
           Web 3.0 is a term that refers to the emergence of new protocols, systems, and applications that use

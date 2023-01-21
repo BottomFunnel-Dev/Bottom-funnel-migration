@@ -23,13 +23,13 @@ import Head from "next/head";
 
 export default function MernPageWebDevelopment() {
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
       <Navbar />
       <Mernbanner bannerdata={mernbanner} />
       <MernIntro techIntro={whatData} />
       <MernPoluparServices popularservice={mernservices} />
       <TechGetStarted calltoAction={letstart} />
-     <WhyBottom whyContent={mernWhyContent} /> 
+      <WhyBottom whyContent={mernWhyContent} />
 
       {/* Other react required components  */}
       <StoriesSection />

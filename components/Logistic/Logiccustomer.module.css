@@ -59,6 +59,8 @@
 }
 .logiccustomerright > div > h3 {
   font-size: 18px;
+  /* border: 1px solid red; */
+  margin-top: 0%;
 }
 
 .logisticCustomerImage {

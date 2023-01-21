@@ -24,7 +24,7 @@ export default function Education() {
       <EducationITteams />
       <EducationAdministration />
       <EducationGroupwise />
-      
+
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />

@@ -3,8 +3,8 @@ export const mernbanner = {
   description:
     "MERN Stack Development services by Bottom Funnel will give you the edge in every aspect of web development. We are a team of experts with vast experience and expertise, and we understand the needs of businesses. With us, you can be sure that your website is built on a solid framework for future growth.",
   buttonStyle: {
-    color: "#0FB2E8",
-    backgroundColor: "white",
+    color: "#fff",
+    backgroundColor: "#ef4c23",
   },
   icons: [
     {
@@ -87,7 +87,8 @@ export const javascriptBanner = {
     "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
 };
 export const meanBanner = {
-  background: "Images/webdevmain/webdevnewbanners/MeanStackdevelopementbanner.png",
+  background:
+    "Images/webdevmain/webdevnewbanners/MeanStackdevelopementbanner.png",
   title: {
     orange: "Best Mean",
     normal: "Development Around the Globe",

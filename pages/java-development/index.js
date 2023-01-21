@@ -25,12 +25,11 @@ import Head from "next/head";
 export default function JavaDevPage() {
   return (
     <div>
-
-    <Head>
-    <title>Java Development | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="You have a great idea for a web app, 
+      <Head>
+        <title>Java Development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="You have a great idea for a web app, 
       but you don't know where to begin. There's so 
       much information out there about app development, 
       but it's all confusing. You don't want to spend 
@@ -38,30 +37,28 @@ export default function JavaDevPage() {
        results you're looking for, and you also don't want
         to waste time on something that won't be useful in 
         the long run."
-    />
-  </Head>
+        />
+      </Head>
 
+      <main>
+        <Navbar />
+        <WebdevBanner paraColor={"#393939"} bannerContent={javaBanner} />
+        <Techstackintro techContent={javastackIntro} />
+        <WebDevServices webservicesContent={javawebDevServices} />
+        <WhyTechStack techData={whyJava} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={javaWhyContent} />
 
-  <main>
-      <Navbar />
-      <WebdevBanner bannerContent={javaBanner} />
-      <Techstackintro techContent={javastackIntro} />
-      <WebDevServices webservicesContent={javawebDevServices} />
-      <WhyTechStack techData={whyJava} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={javaWhyContent} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

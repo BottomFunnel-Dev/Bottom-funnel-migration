@@ -25,39 +25,36 @@ import Head from "next/head";
 export default function PythonDevelopment() {
   return (
     <div>
-
-    <Head>
-    <title>PythonDevelopment | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="Python Development is the answer. We are a team of
+      <Head>
+        <title>PythonDevelopment | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Python Development is the answer. We are a team of
        talented developers who love what they do. We understand the 
        importance of quality software development, and we strive to 
        deliver it on time."
-    />
-  </Head>
+        />
+      </Head>
 
+      <main>
+        <Navbar />
+        <WebdevBanner paraColor={"#393939"} bannerContent={pythonBanner} />
+        <Techstackintro techContent={pythonstackIntro} />
+        <WebDevServices webservicesContent={pythonwebDevServices} />
+        <WhyTechStack techData={whyPython} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={pythonWhyContent} />
 
-  <main>
-      <Navbar />
-      <WebdevBanner bannerContent={pythonBanner} />
-      <Techstackintro techContent={pythonstackIntro} />
-      <WebDevServices webservicesContent={pythonwebDevServices} />
-      <WhyTechStack techData={whyPython} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={pythonWhyContent} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

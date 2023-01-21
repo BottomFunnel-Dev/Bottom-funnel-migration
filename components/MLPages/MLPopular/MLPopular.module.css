@@ -88,7 +88,7 @@
   width: 100%;
 }
 
-.MLPopular-Button {
+.MLPopularButton {
   width: 600px;
   height: fit-content;
   margin: auto;
@@ -112,6 +112,7 @@
   color: white;
   margin-top: 0px;
   margin-bottom: 0px;
+
 }
 
 .MLPopularButton > div {

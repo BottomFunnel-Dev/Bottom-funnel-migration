@@ -17,8 +17,9 @@
 }
 
 .educationadministartionboxfortext > p {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 17px;
 }
 
 .educationadministrationmappingboxmain {
@@ -74,4 +75,81 @@
   width: 100%;
   object-fit: contain;
   padding: 30px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 1024px) {
+  .educationadministartionboxfortext {
+    margin: 2% auto;
+    width: 95%;
+  }
+
+  .educationadministartionboxfortext > h1 {
+    font-size: 32px;
+  }
+
+  .educationadministartionboxfortext > p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .educationadministrationmappingboxmain {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .educationadminstrationindivisuallybox {
+    height: fit-content;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .educationadminstrationindivisuallybox > div > h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .imageboxforeducationadministrationmapper {
+    height: fit-content;
+    width: 70%;
+    margin: auto;
+  }
+
+  .imageboxforeducationadministrationmapper > img {
+    padding: 0;
+  }
+
+  .educationadministrationboxnextflexbox {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+
+  .educationadminboxnextflexboxleft {
+    width: 90%;
+    margin: 0;
+  }
+
+  .educationadminboxnextflexboxleft > h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .educationadminboxnextflexboxleft > p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .educationadministartionboxnextflexboxright {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .educationadministartionboxnextflexboxright > img {
+    padding: 0;
+  }
 }

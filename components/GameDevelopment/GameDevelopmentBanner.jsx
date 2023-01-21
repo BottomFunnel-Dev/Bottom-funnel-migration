@@ -32,7 +32,10 @@ const GameDevelopmentBanner = () => {
       <div className={styles.gamedeveloperbackgroundimagetxtdiv}>
         <h1>Game Development Application</h1>
         <p>
-          A game development application is a program that allows users to create and publish games, interactive applications, and other digital content. Applications typically allow users to design their own levels, characters, and worlds; build attractors or user interfaces; add sound effects and music; and publish their creations online for others to download. Some applications also offer marketing tools for promoting the games they have developed.
+          A game development application is a program that allows users to create and publish games, interactive applications, and other 
+          digital content. Applications typically allow users to design their own levels, characters, and worlds; build attractors or user 
+          interfaces; add sound effects and music; and publish their creations online for others to download. Some applications also offer 
+          marketing tools for promoting the games they have developed.
         </p>
 
         <button className={styles.gamedevelopmentbutton} onClick={handleOpen}>Get Started</button>

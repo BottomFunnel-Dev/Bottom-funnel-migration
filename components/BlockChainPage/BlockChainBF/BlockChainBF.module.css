@@ -43,30 +43,32 @@
   background-color: #f5f5f5;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  max-height: max-content;
+  /* justify-content: space-between; */
 
   width: 85%;
-  height: 300px;
+  height: 400px;
   margin: auto;
   border-radius: 5px;
 }
 
-.BlockChainBF-Cards-summary {
+.BlockChainBFCardssummary {
   width: 45%;
   height: 90%;
   padding: 2% 2%;
 }
 
-.BlockChainBF-Cards-summary > h1 {
+.BlockChainBFCardssummary > h1 {
   font-size: 32px;
   margin-top: 0;
 }
 
-.BlockChainBF-Cards-summary > h1 > span {
+.BlockChainBFCardssummary > h1 > span {
   color: #ef4c23;
 }
 
-.BlockChainBF-Cards-summary > p {
+.BlockChainBFCardssummary > p {
   font-size: 16px;
   text-align: justify;
 }
@@ -100,3 +102,4 @@
   padding: 3% 2%;
   height: 90%;
 }
+

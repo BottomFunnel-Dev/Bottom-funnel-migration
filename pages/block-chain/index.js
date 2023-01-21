@@ -15,15 +15,33 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 const index = () => {
   return (
     <div>
+
+    <Head>
+    <title>BlockChainServices | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="Are you looking for
+       a reliable and secure blockchain 
+       solution? Look no further than 
+       BlockChainServices. We offer our 
+       clients a wide range of efficient
+        and reliable BlockChain Solutions 
+        to meet their specific needs."
+    />
+  </Head>
+
+
+  <main>
       <Navbar />
       <BlockChainBanner />
       <BlockChainOffer />
       <BlockChainServices />
-      <BlockChainBF />
+   {  /*  <BlockChainBF /> */}
       <CustomWebForm />
       
       {/* Other react required components  */}
@@ -36,6 +54,8 @@ const index = () => {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

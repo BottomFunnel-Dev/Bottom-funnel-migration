@@ -13,10 +13,12 @@
   /* border: 2px solid green; */
 }
 .solutionFrameMainHeading {
+
   width: 45%;
   text-align: center;
   margin: auto;
   color: white;
+
 }
 .solutionFrameContentBoxHeading {
   width: 36%;
