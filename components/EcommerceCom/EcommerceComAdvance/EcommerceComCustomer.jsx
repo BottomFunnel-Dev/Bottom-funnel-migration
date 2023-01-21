@@ -19,7 +19,7 @@ export const EcommerceComCustomer = () => {
         },
         description:
           "Sorting and filtering products in Ecommerce can be time-consuming. That's why we've created Ecommerce Filtering & Sorting, an efficient solution that makes it easier than ever to find the right products.",
-          title:"Product Filtering & Sorting"
+        title: "Product Filtering & Sorting",
       },
       {
         image: {
@@ -28,7 +28,7 @@ export const EcommerceComCustomer = () => {
         },
         description:
           "With shipment tracking in Ecommerce apps, you can now do just that! With the latest technology and best-in-class services, we can help you track packages on your website or mobile app.",
-          title:"Shipment Tracking"
+        title: "Shipment Tracking",
       },
       {
         image: {
@@ -37,7 +37,7 @@ export const EcommerceComCustomer = () => {
         },
         description:
           "With our e-commerce web app, you can offer your customers a wide range of payment methods right on your website. Our friendly support team is always available to help you make the most out of your online store.",
-          title:"Multiple Payment Options"
+        title: "Multiple Payment Options",
       },
       {
         image: {
@@ -46,7 +46,7 @@ export const EcommerceComCustomer = () => {
         },
         description:
           "Push notification is easy to integrate and will help turn visitors into buyers. Make sure that all visitors are informed about new products and promotions available at the store they like most.",
-          title:"Push Notification"
+        title: "Push Notification",
       },
       {
         image: {
@@ -55,7 +55,7 @@ export const EcommerceComCustomer = () => {
         },
         description:
           "With our simple registration process, you can create an account in no time and start engaging with your users. We offer end-to-end solutions that ensure a smooth user experience.",
-          title:"Simple Registration Process"
+        title: "Simple Registration Process",
       },
       {
         image: {
@@ -64,13 +64,13 @@ export const EcommerceComCustomer = () => {
         },
         description:
           "We understand how important it is for you to have an easy-to-navigate ecommerce website, that is why we offers comprehensive solutions for both beginners and professional web developers.",
-          title:"Super Navigation"
+        title: "Super Navigation",
       },
     ],
   };
 
   return (
-    <div className={styles.eCommerceAdvanceMain}>
+    <div className={styles.eCommerceCustomerAppMain}>
       <h1>
         SOLUTIONS FOR YOUR <span> E-COMMERCE APP </span>
       </h1>
@@ -94,24 +94,26 @@ export const EcommerceComCustomer = () => {
           </div>
         </div>
 
-        <div className={styles.eCommerceAdvanceCardsMain}>
+        <div className={styles.eCommerceCustomerAppCardsMain}>
           <div>
             <h2>Customer app</h2>
             <div>
-              {customerAppData.cardsData.map(({ description, image,title }, idx) => {
-                return (
-                  <div className={styles.eCommerceAdvanceCards} key={idx}>
-                    <div className={styles.eCommerceAdvanceCardsLogo}>
-                      <img src={image.src} alt={image.alt} />
+              {customerAppData.cardsData.map(
+                ({ description, image, title }, idx) => {
+                  return (
+                    <div className={styles.eCommerceCustomerAppCards} key={idx}>
+                      <div className={styles.eCommerceCustomerAppCardsLogo}>
+                        <img src={image.src} alt={image.alt} />
+                      </div>
+
+                      <div className={styles.eCommerceCustomerAppCardsContent}>
+                        <h5>{title}</h5>
+                        <p>{description}</p>
+                      </div>
                     </div>
-                    
-                    <div className={styles.eCommerceAdvanceCardsContent}>
-                      <h5>{title}</h5>
-                      <p>{description}</p>
-                    </div>
-                  </div>
-                );
-              })}
+                  );
+                },
+              )}
             </div>
           </div>
         </div>

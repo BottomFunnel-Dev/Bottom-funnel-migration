@@ -15,9 +15,7 @@ export const Mernbanner = ({ bannerdata }) => {
       <div className={styles.mernbannercontent}>
         <h1>{bannerdata.title}</h1>
         <p>{bannerdata.description}</p>
-        <button className={styles.mernButton} style={bannerdata.buttonStyle}>
-          Request A Quote
-        </button>
+        <button className={styles.mernButton}>Request A Quote</button>
       </div>
 
       <div className={styles.bannerIcons}>

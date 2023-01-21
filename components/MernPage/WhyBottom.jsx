@@ -11,7 +11,6 @@ export const WhyBottom = ({ whyContent }) => {
       <div className={styles.backelementbottom}>
         <img src="Images/mern/circle.png" alt="images" />
       </div>
-
       <div className={styles.whyreasons}>
         {whyContent.feature.map((item, index) => (
           <div key={index} className={styles.whyfeatureCard}>

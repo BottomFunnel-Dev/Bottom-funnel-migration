@@ -1,7 +1,6 @@
 .eCommerceShoppingMain {
-  margin-top: 120px;
-  margin-bottom: 20px;
-  height: 500px;
+  margin: 3% 0;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,7 +9,7 @@
 .eCommerceShoppingImagesMain {
   position: relative;
   width: 34%;
-  height: 100%;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,51 +32,50 @@
   height: 100%;
 }
 
-
-.eCommerceAdvanceCards {
+.eCommerceVendorPanelCards {
   width: 31%;
-  margin-top: 30px;
 }
 
-.eCommerceAdvanceCardsMain {
+.eCommerceVendorPanelCardsMain {
   width: 66%;
 }
 
-.eCommerceAdvanceCardsMain > div {
+.eCommerceVendorPanelCardsMain > div {
   width: 90%;
   margin: auto;
 }
 
-.eCommerceAdvanceCardsMain > div > h2 {
+.eCommerceVendorPanelCardsMain > div > h2 {
   font-size: 28px;
   text-align: center;
   margin: auto;
-  margin-bottom: 0%;
+  margin-bottom: 2%;
+  margin-top: 0;
   font-weight: 500;
-  line-height: 33.6px;
   color: #ef4c23;
 }
 
-.eCommerceAdvanceCardsMain > div > div {
+.eCommerceVendorPanelCardsMain > div > div {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-evenly;
+  row-gap: 30px;
 }
 
-.eCommerceAdvanceCardsLogo > img {
+.eCommerceVendorPanelCardsLogo > img {
   height: 100%;
 }
 
-.eCommerceAdvanceCardsLogo {
+.eCommerceVendorPanelCardsLogo {
   height: 50px;
   margin-left: 10px;
   z-index: 4;
 }
 
-.eCommerceAdvanceCardsContent {
+.eCommerceVendorPanelCardsContent {
   background-color: #ffe6df;
-  height: 230px;
+  height: 80%;
   padding: 10px;
   padding-top: 30px;
   margin-top: -25px;
@@ -86,6 +84,42 @@
   z-index: 0;
 }
 
-.eCommerceAdvanceCardsContent > p {
+.eCommerceVendorPanelCardsContent > p {
   font-size: 16px;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .eCommerceVendorPanelMain > h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .eCommerceShoppingMain {
+    flex-direction: column;
+  }
+
+  .eCommerceShoppingImagesMain {
+    width: 100%;
+  }
+
+  .eCommerceVendorPanelCardsMain {
+    width: 95%;
+  }
+
+  .eCommerceVendorPanelCards {
+    width: 45%;
+  }
+
+  .eCommerceVendorPanelCardsContent {
+    height: 85%;
+  }
+
+  .eCommerceVendorPanelCardsContent h5 {
+    font-size: 16px;
+  }
+
+  .eCommerceVendorPanelCardsContent p {
+    font-size: 14px;
+  }
 }

@@ -63,3 +63,10 @@
   object-fit: cover;
   z-index: 1;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .gamedevelopmentmetavercemainbox {
+    border: 1px solid red;
+  }
+}

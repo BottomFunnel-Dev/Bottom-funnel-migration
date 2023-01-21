@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./whytechstack.module.css";
+
 export const WhyTechStack = ({ techData }) => {
   return (
     <div className={styles.whytechData}>
@@ -9,7 +10,6 @@ export const WhyTechStack = ({ techData }) => {
         </h1>
         <p>{techData.desc}</p>
       </div>
-
       <div className={styles.whyTechFeaturesCard}>
         {techData.cardData.map((item, index) => (
           <div

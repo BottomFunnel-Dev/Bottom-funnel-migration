@@ -25,42 +25,38 @@ import Head from "next/head";
 export default function GolangPages() {
   return (
     <div>
-
-    <Head>
-    <title>Golang Development | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="You can't improve what you don't know, and that's 
+      <Head>
+        <title>Golang Development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="You can't improve what you don't know, and that's 
       why we're here. With years of experience in Golang development
       , we can help you create the next great web app. Not only are
        we experts in building quality code, but also in marketing
         your application to maximize its potential."
-    />
-  </Head>
+        />
+      </Head>
 
+      <main>
+        <Navbar />
+        <WebdevBanner paraColor={"#393939"} bannerContent={golangBanner} />
+        <Techstackintro techContent={golangstackIntro} />
+        <WebDevServices webservicesContent={golangwebDevServices} />
+        <WhyTechStack techData={whyGolang} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={golangWhyContent} />
 
-  <main>
-      <Navbar />
-      <WebdevBanner bannerContent={golangBanner} />
-      <Techstackintro techContent={golangstackIntro} />
-      <WebDevServices webservicesContent={golangwebDevServices} />
-      <WhyTechStack techData={whyGolang} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={golangWhyContent} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
-
     </div>
   );
 }

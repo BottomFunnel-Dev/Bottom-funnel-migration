@@ -26,16 +26,12 @@ export default function Logicdrive({ driveData }) {
         <div className={styles.logicdriveright}>
           {driveData.driverdata.map(({ title, icon, para }, idx) => {
             return (
-              <div
-                key={title}
-                onMouseOver={() => setActive(idx)}
-                className={`logistic-box-${idx}`}
-              >
+              <div key={title} onMouseOver={() => setActive(idx)}v className={`logistic-box-${idx}`}>
                 <div className={styles.logisticLogo}>
                   <img src={icon.src} alt={icon.alt} />
                 </div>
-                <h3>{title}</h3>
 
+                <h3>{title}</h3>
                 <p>{para}</p>
               </div>
             );
@@ -44,4 +40,4 @@ export default function Logicdrive({ driveData }) {
       </div>
     </div>
   );
-}
+};

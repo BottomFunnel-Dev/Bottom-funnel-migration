@@ -7,8 +7,12 @@ export const TradingInvestingHeader = () => {
       <div className={styles.RGtradingInvestingLeftContainer}>
         <h1>Trading & Investing App</h1>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste sed aperiam repellendus ullam quisquam facilis.
-          Non eveniet, dicta at recusandae itaque voluptatem inventore veritatis quae, voluptatum minima, similique aliquid beatae?
+        Get a solution to build your own app from 
+        scratch using trading and investing as the
+         main feature. We offer both the Android and 
+         iOS versions of our software, so you can deploy 
+         it across all your devices. With our easy-to-use 
+         interface, you'll be up and running in no time!
         </p>
         <button className={styles.RGTIbtn}>Get started</button>
       </div>

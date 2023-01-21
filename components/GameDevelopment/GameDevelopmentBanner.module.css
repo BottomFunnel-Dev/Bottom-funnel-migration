@@ -16,8 +16,6 @@
   color: white;
 }
 
-
-
 .gamedeveloperbackgroundimagetxtdiv > p {
   text-align: justify;
 }
@@ -38,4 +36,33 @@
 .gamedevelopmentbutton:hover {
   background-color: white;
   color: #3380f2;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .gamedevelopmentbannermainboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+
+  .gamedeveloperbackgroundimagetxtdiv {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .gamedeveloperbackgroundimagetxtdiv > h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .gamedeveloperbackgroundimagetxtdiv > p {
+    font-size: 14px;
+  }
+
+  .gamedevelopmentbutton {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }

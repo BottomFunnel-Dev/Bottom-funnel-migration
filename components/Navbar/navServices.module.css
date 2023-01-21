@@ -74,7 +74,6 @@
   text-decoration: none;
   color: #ef4c23;
   cursor: pointer;
-  
 }
 
 .servicenoStyle:hover {
@@ -97,7 +96,6 @@
   color: #ef4c23;
   cursor: pointer;
 }
-
 
 .serviceimageIconDivSection {
   width: 100%;
@@ -164,7 +162,6 @@
   color: #ef4c23;
 }
 
-
 .nav .servicetrendListItems {
   width: 100%;
   height: 100%;
@@ -173,7 +170,6 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
-
 
 .servicetrendListItems > p {
   margin: 0;
@@ -267,8 +263,8 @@
   padding: 15px 93px;
   /* background-color: aquamarine; */
 }
-.servicediscoverleftbottom >h3{
- margin: 0;
+.servicediscoverleftbottom > h3 {
+  margin: 0;
   /* background-color: aquamarine; */
 }
 .servicediscoverleftbottom span {
@@ -301,7 +297,6 @@
   height: 100%;
   width: 38%;
 }
-
 
 .servicebackendimageIconDivSection {
   width: 33%;
@@ -344,4 +339,126 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .servicesolutionVisible {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100000000;
+
+    height: 445px;
+    flex-direction: column;
+    position: static;
+    background-color: white;
+  }
+
+  .servicesideNav {
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #ef4c23;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    row-gap: 20px;
+  }
+
+  .servicediscoverDropdown {
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .servicediscoverleft {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .servicediscoverlefttop {
+    width: 100%;
+    /* height: 100%; */
+    padding: 20px 0;
+    border-bottom: 0.5px solid #e0dada;
+  }
+
+  .servicediscoverleftbottom {
+    width: 100%;
+    height: 15%;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    /* background-color: aquamarine; */
+  }
+  .servicediscoverleftbottom >h3{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .servicediscoverright {
+    width: 100%;
+    /* height: 100%; */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff6f4;
+  }
+
+
+
+  .servicedropdownSection {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    padding: 0;
+  }
+  
+  .serviceDropdownContent {
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .serviceDropdownContent {
+    height: fit-content;
+    width: 100%;
+  }
+
+  #serviceDropContent {
+    width: 100%;
+  }
+
+  .servicetrendListItems {
+    width: 100%;
+    height: fit-content;
+
+  }
+
+  .serviceimageIconDivSection {
+   
+    column-gap: 10px;
+  
+  }
+  .servicebackendDropdownContent {
+    height: 100%;
+    width: 100%;
+    padding: 10px 0 ;
+  }
+
+
+  .serviceskillDropdownContent {
+    height: 100%;
+    width: 50%;
+  }
+
+  
 }

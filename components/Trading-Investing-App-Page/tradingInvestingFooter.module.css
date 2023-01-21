@@ -2,13 +2,14 @@
   background: url(/Images/Trading-investing-App/banners-backgrounds/Component114.png);
   position: relative;
   background-repeat: no-repeat;
+  width: 100%;
   height: 750px;
   background-size: 100% 100%;
 }
 
 .tradingInvestingFooterTextBtnDiv {
   position: absolute;
-  top: 35%;
+  top: 25%;
   width: 60%;
   color: white;
   margin-left: 3%;

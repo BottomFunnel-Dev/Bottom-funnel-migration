@@ -1,3 +1,6 @@
+/* for any type of laptop and wide range of screens */
+
+@media only screen and (min-width:900px){
 .trendingtechnologiesbannermainboxes{
     height: 100vh;
     border: 1px solid white;
@@ -34,5 +37,117 @@
 
     background-color:white;
     color:  #3380f2;
+
+}
+
+}
+
+/* for any type of mobile screens responsive */
+@media only screen and (min-width:0px) and (max-width:480px){
+
+    .trendingtechnologiesbannermainboxes{
+        height: 55vh;
+        border: 1px solid white;
+        background: url("/Images/TrendingTechnologies/Banners\ &\ backgounds/Group 770575 1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+      
+    }
+    
+    .trendingtechnologiesbannersometextbox{
+        height: fit-content;
+        width: 90%;
+       position: absolute;
+        margin-top: 40%;
+        margin-left: 5%;
+    
+        text-align: justify;
+    }
+    
+    .trendingtechnologiesbannersometextbox>h1{
+        font-size: 30px;
+        margin-top: -15%;
+        color: white;
+    }
+
+    .trendingtechnologiesbannersometextbox>p{
+       position: absolute;
+        margin-top: 15%;
+    }
+
+
+
+    .trendingtechnologybannerbutton{
+        padding: 10px 50px;
+        border-radius: 100px;
+        width: fit-content;
+        background-color: #ef4c23;
+        border: none;
+        outline: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+      margin-top: 70%;
+      margin-left: 20%;
+    }
+    
+    .trendingtechnologybannerbutton:hover {
+    
+        background-color:white;
+        color:  #ef4c23;
+    
+    }
+
+}
+
+/* for any type of tablet screen responsive */
+
+@media only screen and ( min-width:481px) and (max-width:900px){
+
+    .trendingtechnologiesbannermainboxes{
+    height: 40vh;
+    border: 1px solid white;
+    background: url("/Images/TrendingTechnologies/Banners\ &\ backgounds/Group 770575 1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.trendingtechnologiesbannersometextbox{
+    height: fit-content;
+    width: 70%;
+  
+    margin-top: 7%;
+    margin-left: 5%;
+    color: white;
+    text-align: justify;
+}
+.trendingtechnologiesbannersometextbox>p{
+
+    width: 80%;
+}
+
+.trendingtechnologybannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 2%;
+}
+
+.trendingtechnologybannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}
+
 
 }

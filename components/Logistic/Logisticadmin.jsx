@@ -10,28 +10,25 @@ export default function Logisticadmin({ adminData }) {
         <div className={styles.logicadminright}>
           {adminData.admindata.map(({ title, icon, para }, idx) => {
             return (
-              <div
-                key={title}
-                onMouseOver={() => setActive(idx)}
-                className={`logistic-box-${idx}`}
-              >
+              <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`} >
                 <div className={styles.logisticLogo}>
                   <img src={icon.src} alt={icon.alt} />
                 </div>
-                <h3>{title}</h3>
 
+                <h3>{title}</h3>
                 <p>{para}</p>
               </div>
             );
           })}
         </div>
+
         <div
           className={styles.logicadminleft}
-         style={{
+          style={{
             background: `url(${adminData.background})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
-            backgroundPosition:"center",
+            backgroundPosition: "center",
           }}
         >
           <div className={styles.logisticAdminImage}>
@@ -44,4 +41,4 @@ export default function Logisticadmin({ adminData }) {
       </div>
     </div>
   );
-}
+};

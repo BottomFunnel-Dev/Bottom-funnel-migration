@@ -184,7 +184,7 @@ console.log(discoverContent)
             </div>
           </div>
           <div id={navservice.serviceDropContent} className={navservice.serviceDropdownContent}>
-            <Link href={""} className={navservice.servicenoStyle}>
+            <Link href="trending-technology" className={navservice.servicenoStyle}>
               <h5 style={{margin:0}}>Trending Technologies</h5>
             </Link>
             <div className={navservice.servicetrendListItems}>

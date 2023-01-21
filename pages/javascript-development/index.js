@@ -25,11 +25,11 @@ import Head from "next/head";
 export default function JavascriptPage() {
   return (
     <div>
-    <Head>
-    <title>Javascript Development | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="Are you ready to make a difference? 
+      <Head>
+        <title>Javascript Development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you ready to make a difference? 
       Then we are the right fit for you. We have been 
       offering cutting-edge web application services
        for years, and we have never failed to deliver.
@@ -38,33 +38,28 @@ export default function JavascriptPage() {
         at all times. That being said, our team works tirelessly 
         to ensure that your app is up-to-date and secure - every 
         step of the way!"
-    />
-  </Head>
+        />
+      </Head>
 
+      <main>
+        <Navbar />
+        <WebdevBanner paraColor={"#393939"} bannerContent={javascriptBanner} />
+        <Techstackintro techContent={javascriptstackIntro} />
+        <WebDevServices webservicesContent={javascriptwebDevServices} />
+        <WhyTechStack techData={whyJavascript} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={javascriptWhyContent} />
 
-  <main>
-
-
-
-      <Navbar />
-      <WebdevBanner bannerContent={javascriptBanner} />
-      <Techstackintro techContent={javascriptstackIntro} />
-      <WebDevServices webservicesContent={javascriptwebDevServices} />
-      <WhyTechStack techData={whyJavascript} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={javascriptWhyContent} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

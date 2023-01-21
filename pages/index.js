@@ -28,13 +28,15 @@ export default function Home() {
       <StoriesSection />
       <Industries />
       <OndemandSection />
+      <PortFolio/>
       <PlanProject />
       <Companystats />
-      <Revamping />
       <SeoblogSection />
+      <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
     
     </>
   );

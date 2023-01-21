@@ -25,13 +25,11 @@ import Head from "next/head";
 export default function AspNet() {
   return (
     <div>
-
-    
-    <Head>
-    <title>Asp.net Development | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="The Best Web Application Development
+      <Head>
+        <title>Asp.net Development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="The Best Web Application Development
        Company offers app development services for
         custom web app development and business Web 
         App Development. The team of well-versed
@@ -41,30 +39,28 @@ export default function AspNet() {
           their skills with regular training so
            that they stay up to date with the 
            changing technologies."
-    />
-  </Head>
+        />
+      </Head>
 
+      <main>
+        <Navbar />
+        <WebdevBanner paraColor={"#393939"} bannerContent={aspnetBanner} />
+        <Techstackintro techContent={aspstackIntro} />
+        <WebDevServices webservicesContent={aspnetwebDevServices} />
+        <WhyTechStack techData={whyAspnet} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={aspnetWhyContent} />
 
-  <main>
-      <Navbar />
-      <WebdevBanner bannerContent={aspnetBanner} />
-      <Techstackintro techContent={aspstackIntro} />
-      <WebDevServices webservicesContent={aspnetwebDevServices} />
-      <WhyTechStack techData={whyAspnet} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={aspnetWhyContent} />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      {/* <PlanProject />  */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        {/* <PlanProject />  */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
