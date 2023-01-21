@@ -1,13 +1,6 @@
 import React from "react";
 import Head from "next/head";
 
-import { SkillsComBanner } from "../../../components/SkillsCom/SkillsComBanner";
-import { SkillsComBookCall } from "../../../components/SkillsCom/SkillsComBookCall";
-import { SkillsComRemarkable } from "../../../components/SkillsCom/SkillsComRemarkable";
-import { SkillsComDes } from "../../../components/SkillsCom/SkillsComDes";
-import { SkillsComWhyApp } from "../../../components/SkillsCom/SkillsComWhyApp";
-import { SkillsComWhyBF } from "../../../components/SkillsCom/SkillsComWhyBF";
-import { shopifyData } from "../../../components/Data/SkillsData"; 
 
 import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
 import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
