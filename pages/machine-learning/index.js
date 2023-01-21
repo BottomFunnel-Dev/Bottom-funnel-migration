@@ -26,7 +26,7 @@ export default function MachineLearning() {
       <MLMidBanner />
       <MLApproach />
       <MLwhyBF />
-      {/* <CustomWebForm /> */}
+      <CustomWebForm />
       
 
         {/* Other react required components   */}
