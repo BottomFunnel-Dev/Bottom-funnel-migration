@@ -5,64 +5,54 @@
 }
 
 .mernbannercontent {
-  width: 35%;
+  width: 38%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
-  left: 23%;
+  top: 55%;
+  left: 24%;
   /* background-color: red; */
   padding: 30px;
-  color: white;
+  color: #393939;
 }
 
 .mernButton {
   font-weight: 600;
   padding: 10px 30px;
   font-size: 18px;
-  border: none;
-  border-radius: 10px;
-}
-.mernButton:hover {
-  background-color: #0fb2e8;
-  color: white;
-  border: none;
+  border: 2px solid #ef4c23;
   outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  }
-  
-  
-  .mernButton:hover{
-    background-color:white;
-    color:  #3380f2;
-  }
-  
-  
-  .bannerIcons {
-    width: 150px;
-    height: 400px;
-    /* background-color: green; */
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 15px;
-    justify-content: center;
-  }
-  
-  .mernskills {
-    width: 70px;
-    height: 70px;
-  }
-  .mernskills > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
-  
-  
+  border-radius: 10px;
+  color: white;
+  background-color: #ef4c23;
+  cursor: pointer;
+}
+
+.mernButton:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.bannerIcons {
+  width: 150px;
+  height: 400px;
+  /* background-color: green; */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+  justify-content: center;
+}
+
+.mernskills {
+  width: 70px;
+  height: 70px;
+}
+.mernskills > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

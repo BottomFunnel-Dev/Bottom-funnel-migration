@@ -7,7 +7,6 @@ export const MernIntro = ({ techIntro }) => {
         <h1>{techIntro.title}</h1>
         <p>{techIntro.intro}</p>
       </div>
-
       <div className={styles.mainstackDiv}>
         <div className={styles.stackflex}>
           {techIntro.techStack.map((item, index) => (

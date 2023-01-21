@@ -1,0 +1,33 @@
+.MakeYourDeal-div{
+    border: 2px solid #f2f2f2;
+    height: 40vh;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+    background-color: #f2f2f2;
+}
+.MakeYourDeal-innerdiv{
+    /* border: 2px solid pink; */
+    margin-top: 4%;
+    /* margin-bottom: 4%; */
+    /* margin-top: 2%; */
+}
+.MakeYourDeal-innerdiv h4{
+    font-weight: 400;
+    margin-top: 1%;
+}
+.MakeYourDeal-button{
+    border: none;
+    width: 140px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    color: white;
+    font-size: 18px;
+    margin-top: 2%;
+}
+.MakeYourDeal-button:hover{
+    background-color: white;
+    color: #ef4c23;
+    border: 1px solid  #ef4c23;
+}

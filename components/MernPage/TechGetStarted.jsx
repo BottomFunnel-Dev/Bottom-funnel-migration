@@ -5,7 +5,7 @@ export const TechGetStarted = ({ calltoAction }) => {
     <div
       className={styles.techgetstarted}
       style={{
-        background: `linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${calltoAction.background})`,
+        background: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${calltoAction.background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%",
         backgroundPosition: "center",

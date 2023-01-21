@@ -25,12 +25,11 @@ import Head from "next/head";
 export default function RubyRails() {
   return (
     <div>
-
-    <Head>
-    <title>Ruby Development | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="We know that your time is valuable and 
+      <Head>
+        <title>Ruby Development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="We know that your time is valuable and 
       you have a very keen interest in finding a company
        that can deliver quality work for reasonable prices.
         When you look for Ruby development, you are looking 
@@ -41,31 +40,28 @@ export default function RubyRails() {
           or small! We will provide the best possible solutions while
            keeping your budget in mind. Contact us today so we can get 
            started working on your project!"
-    />
-  </Head>
+        />
+      </Head>
 
+      <main>
+        <Navbar />
+        <WebdevBanner paraColor={"#393939"} bannerContent={rubyBanner} />
+        <Techstackintro techContent={rubystackIntro} />
+        <WebDevServices webservicesContent={rubywebDevServices} />
+        <WhyTechStack techData={whyRuby} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={rubyWhyContent} />
 
-  <main>
-
-      <Navbar />
-      <WebdevBanner bannerContent={rubyBanner} />
-      <Techstackintro techContent={rubystackIntro} />
-      <WebDevServices webservicesContent={rubywebDevServices} />
-      <WhyTechStack techData={whyRuby} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={rubyWhyContent} />
-      
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
