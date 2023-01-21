@@ -6,31 +6,34 @@ export const BettingSpecial = () => {
       title: "Singles",
       description:
         "The singles betting application is based on low risk, gain more model. Users can bet with real money or virtual currency.",
-      img: "Images/sportsbettingpage/banners/football.png",
+      img: "/Images/sportsbettingpage/banners/football.png",
     },
     {
       title: "Head to Head",
       description:
         "In this betting type, a user bet on the outcome of the game allowing them to win if their team will or lose.",
-      img: "Images/sportsbettingpage/banners/kickboxing.png",
+      img: "/Images/sportsbettingpage/banners/kickboxing.png",
     },
     {
       title: "Totals",
       description:
         "Casinos are based on “Totals” betting application type in which a user bet on the outcome of “X” number.",
-      img: "Images/sportsbettingpage/banners/casino.png",
+      img: "/Images/sportsbettingpage/banners/casino.png",
     },
     {
       title: "Multiples",
       description:
         "This type of betting game application works on high risk, high reward models.",
-      img: "Images/sportsbettingpage/banners/cricket.png",
+      img: "/Images/sportsbettingpage/banners/cricket.png",
     },
   ];
 
   return (
     <div className={styles.bettingSpecial}>
-      <h1>We Specialize in Creating All Types of Betting Applications</h1>
+      <h1>
+        We Specialize in Creating All Types of Betting Applications
+      </h1>
+      
       <div className={styles.specialApps}>
         {apps.map((item, index) => (
           <div className={styles.specialCard}>
@@ -43,7 +46,6 @@ export const BettingSpecial = () => {
               <p>{item.description}</p>
             </div>
           </div>
-
         ))}
       </div>
     </div>
