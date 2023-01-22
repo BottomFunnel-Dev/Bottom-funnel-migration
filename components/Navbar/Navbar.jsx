@@ -135,12 +135,12 @@ const Navbar = () => {
   }
   return (
     <div>
-      {/* {!(productMount.navMount || productMount.salesnavMount) && (
+      {!(productMount.navMount || productMount.salesnavMount) && (
         <ContactMain
           bgcolor={navbar ? "white" : "transparent"}
           textcolor={!navbar ? navredux.color : "black"}
         />
-      )} */}
+      )}
       {/* 
       {productMount.navMount && <ProductsNavbar scroll={scroll}/>}
       {productMount.salesnavMount && <SalesNavbar scroll={scroll}/>} */}

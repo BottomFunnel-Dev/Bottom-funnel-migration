@@ -2,12 +2,20 @@ import React from "react";
 import Head from "next/head";
 
 
-import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
-import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
-import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable";
-import { SkillsComDes } from "../../components/SkillsCom/SkillsComDes";
-import { SkillsComWhyApp } from "../../components/SkillsCom/SkillsComWhyApp";
-import { SkillsComWhyBF } from "../../components/SkillsCom/SkillsComWhyBF";
+// import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
+import {SkillsComBanner} from "../../components/SkillsCom/SkillsComBanner/index"
+
+// import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
+import {SkillsComBookCall} from "../../components/SkillsCom/SkillsComBookCall/index"
+// import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable";
+import {SkillsComRemarkable} from "../../components/SkillsCom/SkillsComRemarkable/index"
+// import { SkillsComDes } from "../../components/SkillsCom/SkillsComDes";
+import {SkillsComDes} from "../../components/SkillsCom/SkillsComDes/index"
+// import { SkillsComWhyApp } from "../../components/SkillsCom/SkillsComWhyApp";
+import {SkillsComWhyApp} from "../../components/SkillsCom/SkillsComWhyApp/index"
+// import { SkillsComWhyBF } from "../../components/SkillsCom/SkillsComWhyBF";
+import {SkillsComWhyBF} from "../../components/SkillsCom/SkillsComWhyBF/index"
+
 import { cakePHPData } from "../../components/Data/SkillsData";
 
 function SkillsShopify() {
@@ -26,7 +34,7 @@ function SkillsShopify() {
     BookCallData,
     isRemarkable,
     RemarkableData,
-  } = shopifyData;
+  } = cakePHPData;
 
   return (
     <div style={{ color: "#393939" }}>
