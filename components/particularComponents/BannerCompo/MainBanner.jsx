@@ -10,6 +10,7 @@ export const MainBanner = ({ bannerData }) => {
           <button>Get Started </button>
         </div>
       </div>
+      
       <div className={styles.mainbannerImageContainer}>
         <img src={bannerData.heroImage} alt="images" />
       </div>
