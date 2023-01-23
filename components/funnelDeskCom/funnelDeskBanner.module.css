@@ -1,47 +1,43 @@
 .funnelSupport {
   width: 100%;
   height: 100vh;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   overflow: hidden;
   background-color: #fafafa;
 }
 
 .bannerBackImgLeft {
-  position: absolute;
-  top: 20%;
-  width: 30%;
-  height: 80%;
-  left: -40%;
+  width: 20%;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .bannerBackImgLeft > img {
-  height: 85%;
-  object-fit: contain;
-  background-position: center;
+  width: 350%;
 }
 
 .bannerBackImgRight {
-  position: absolute;
-  top: 20%;
-  width: 30%;
-  height: 80%;
-  right: -40%;
-  transform: scaleX(-1);
+  width: 20%;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transform: rotateY(180deg);
 }
 
 .bannerBackImgRight > img {
-  height: 85%;
-  object-fit: contain;
-  background-position: center;
+  width: 350%;
 }
 
 .mainContentBanner {
   width: 80%;
   height: 500px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,27 +45,30 @@
 }
 
 .imagePart {
-  width: 30%;
+  width: 40%;
   background-color: #ef4c23;
-  height: 400px;
+  height: fit-content;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
 .imagePart > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  width: 90%;
 }
 
 .contentPart {
   width: 60%;
-  /* background-color: goldenrod; */
-  height: 100%;
+  height: fit-content;
   padding: 3%;
-  margin-top: 7%;
 }
+
 .contentPart > h1 {
-  font-size: 45px;
+  font-size: 40px;
+  margin-top: 0;
 }
+
 .contentPart > p {
   font-size: 20px;
 }
@@ -78,36 +77,35 @@
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 2%;
-  margin: 1%;
+  margin: 1% 2% 0;
   border-radius: 15px;
   background-color: #ef4c23;
-  /* border: 2px solid #ef4c23; */
   border: none;
   color: white;
-  margin-top: 5%;
+  cursor: pointer;
 }
+
 .freetrial:hover {
   background-color: white;
-  /* border: 2px solid white; */
   color: #ef4c23;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .demostart:hover {
   background-color: #ef4c23;
-  /* border: 2px solid white; */
   color: white;
 }
+
 .demostart {
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 2%;
-  margin: 1%;
+  margin: 1% 2% 0;
+  cursor: pointer;
   border-radius: 15px;
   background-color: white;
+  color: #ef4c23;
   /* border: 2px solid #ef4c23; */
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-top: 5%;
 }
