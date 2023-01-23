@@ -26,9 +26,9 @@ export default function FlowerDelivery() {
       <FlowerDeliveryService />
       <FlowerDeliverySolution />
       <FlowerDeliveryDriver />
-      {/* <FlowerDeliveryAdmin /> */}
+      <FlowerDeliveryAdmin />
       {/* <FlowerDeliveryBannerbottom /> */}
-      {/* <FlowerDeliverylast /> */}
+      <FlowerDeliverylast />
 
       {/* <StoriesSection /> */}
       {/* <Industries /> */}

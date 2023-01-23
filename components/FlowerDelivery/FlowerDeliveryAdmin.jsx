@@ -58,6 +58,7 @@ const FlowerDeliveryAdmin = () => {
         <div className={styles.flowerdeliveryadminrightboxforimageone}>
           <img src='/Images/Flowerdeliverypage/Rectangle4190.png' alt='image1' />
         </div>
+
         <div className={styles.flowerdeliveryadminrightboxforimagetwo}>
           <img src={imageChange} alt='image2' />
         </div>

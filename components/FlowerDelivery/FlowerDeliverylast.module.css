@@ -36,3 +36,107 @@
   transform: scale(1.02);
   background-color: #fff8f9;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .flowerdeliverylastdivstart {
+    /* border: 2px solid red;  */
+    height: fit-content;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .flowerdeliverydisplayflex {
+    border: 1px solid black;
+    height: 140px;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin: 2%;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .insiderdivflexboxleft {
+    height: 100%;
+    width: 60%;
+  }
+
+  .insiderdivflexboxleft > h5 {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-weight: 500;
+  }
+
+  .insiderdivflexboxleft > p {
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }
+
+  .insiderdivflexboxright {
+    height: 100%;
+    width: 40%;
+  }
+
+  .flowerdeliverydisplayflex:hover {
+    transform: scale(1.02);
+    background-color: #fff8f9;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .flowerdeliverylastdivstart {
+    /* border: 2px solid red;  */
+    height: fit-content;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .flowerdeliverydisplayflex {
+    /* border: 1px solid black; */
+    height: 150px;
+    /* height: 42%; */
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    margin: 2%;
+    display: flex;
+    border-radius: 10px;
+  }
+
+  .insiderdivflexboxleft {
+    height: 100%;
+    width: 60%;
+  }
+
+  .insiderdivflexboxleft > h5 {
+    margin-bottom: 0%;
+    margin-top: 5%;
+  }
+
+  .insiderdivflexboxright {
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid red; */
+  }
+
+  /* .insiderdivflexboxright > img {
+    border: 1px solid red;
+    width: 50%;
+  } */
+
+  .flowerdeliverydisplayflex:hover {
+    transform: scale(1.02);
+    background-color: #fff8f9;
+  }
+}

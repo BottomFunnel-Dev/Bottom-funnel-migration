@@ -32,23 +32,23 @@ export default function VideoStreaming() {
         />
       </Head>
       <main>
-      <Navbar />
-      <Videostreamingcontainer />
-      <Trusted partnerLogo={videostreamLogo} />
-      <Services />
-      <Grow />
-      <Featuressection />
+        <Navbar />
+        <Videostreamingcontainer />
+        <Trusted partnerLogo={videostreamLogo} />
+        <Services />
+        <Grow />
+        <Featuressection />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

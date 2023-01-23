@@ -1,5 +1,6 @@
 import React from "react";
 
+import Navbar from "../../components/Navbar/Navbar";
 import { DeskStarted } from "../../components/funnelDeskCom/DeskStarted";
 import { EliteLast } from "../../components/funnelDeskCom/EliteLast";
 import { EliteServices } from "../../components/funnelDeskCom/EliteServices";
@@ -10,12 +11,13 @@ import { IndustryExperts } from "../../components/funnelDeskCom/IndustryExperts"
 export default function FunnelDesk() {
   return (
     <div>
+      {/* <Navbar /> */}
       <FunnelDeskBanner />
-      <FunnelSupport />
-      <EliteServices />
-      <EliteLast />
-      <IndustryExperts />
-      <DeskStarted />
+      {/* <FunnelSupport /> */}
+      {/* <EliteServices /> */}
+      {/* <EliteLast /> */}
+      {/* <IndustryExperts /> */}
+      {/* <DeskStarted /> */}
     </div>
   );
 }

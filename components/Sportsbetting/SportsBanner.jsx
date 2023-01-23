@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./sportsBanner.module.css";
+
 export const SportsBanner = () => {
   return (
     <div className={styles.sportsbanner}>
@@ -17,10 +18,13 @@ export const SportsBanner = () => {
           <button className={styles.bottomButton}>Get Started</button>
         </div>
       </div>
-      
+
       <div className={styles.bettingSectionright}>
         <div className={styles.bettingImage}>
-          <img src="/Images/sportsbettingpage/banners/bannerimg.png" alt="image" />
+          <img
+            src="/Images/sportsbettingpage/banners/bannerimg.png"
+            alt="image"
+          />
         </div>
       </div>
     </div>
