@@ -38,3 +38,42 @@
   width: 100%;
   transform: scale(1.7);
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .CollaboratinTeamworkContainer > div {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .CollaboratinTeamworkContainer hr {
+    display: none;
+  }
+
+  .CollaboratinTeamworkContent {
+    width: 95%;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+  .CollaboratinTeamworkContent > h1 {
+    font-size: 25px;
+  }
+
+  .CollaboratinTeamworkContent > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .CollaboratinTeamworkImage {
+    width: 100%;
+    margin: 3% auto;
+    text-align: center;
+    border-top: 10px solid #ef4c23;
+    border-bottom: 10px solid #ef4c23;
+  }
+
+  .CollaboratinTeamworkImage > img {
+    width: 40%;
+  }
+}

@@ -24,19 +24,23 @@ export const CollaborationOffers = () => {
       image: "point-4.webp",
     },
   ];
+
   return (
     <div className={styles.CollaborationOffersContainer}>
       <h1>Our Collaboration tools offer</h1>
       <div className={styles.CollaborationOffersMain}>
         {cardsData.map(({ title, body, image }) => (
-          <div>
+          <div key={title}>
             <div className={styles.CollaborationOffersContent}>
               <h2>{title}</h2>
               <p>{body}</p>
             </div>
             <span></span>
             <div className={styles.CollaborationOffersImage}>
-              <img src={`/Images/collaborationPhotos/${image}`} alt={image} />
+              <img
+                src={`/Images/collaborationPhotos/${image}`}
+                alt={`collaborationPhotos/${image}`}
+              />
             </div>
           </div>
         ))}

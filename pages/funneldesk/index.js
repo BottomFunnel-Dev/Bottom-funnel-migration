@@ -10,8 +10,8 @@ import { IndustryExperts } from "../../components/funnelDeskCom/IndustryExperts"
 
 export default function FunnelDesk() {
   return (
-    <div>
-      {/* <Navbar /> */}
+    <div style={{ color: "#393939" }}>
+      <Navbar />
       <FunnelDeskBanner />
       <FunnelSupport />
       <EliteServices />

@@ -56,3 +56,41 @@
 .CollaborationOffersImage > img {
   width: 100%;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .CollaborationOffersContainer > h1 {
+    font-size: 25px;
+  }
+
+  .CollaborationOffersMain > div {
+    flex-direction: column;
+  }
+
+  .CollaborationOffersMain > div > span {
+    display: none;
+  }
+
+  .CollaborationOffersMain > div:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .CollaborationOffersContent {
+    width: 100%;
+    text-align: center;
+  }
+
+  .CollaborationOffersContent > h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .CollaborationOffersContent > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .CollaborationOffersImage {
+    width: 80%;
+  }
+}

@@ -41,3 +41,46 @@
   width: 95%;
   height: 95%;
 }
+
+/* media query for mobile and tablet devices */
+
+@media (max-width: 1024px) {
+  .CollaborationAboutContainer {
+    flex-direction: column-reverse;
+  }
+
+  .CollaborationAboutContent {
+    width: 90%;
+    text-align: center;
+  }
+
+  .CollaborationAboutContent > h1 {
+    font-size: 25px;
+  }
+
+  .CollaborationAboutContent > p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  .CollaborationAboutImages {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .CollaborationAboutImages > div {
+    display: none;
+  }
+
+  .CollaborationAboutImages > img {
+    width: fit-content;
+    position: static;
+    width: 50%;
+    border-right: 8px solid #ef4c23;
+    border-bottom: 8px solid #ef4c23;
+  }
+}

@@ -54,3 +54,41 @@
   background: white;
   color: #ef4c23;
 }
+
+/* media query for mobile and tablet responsive */
+@media (max-width: 1024px) {
+  .CollaborationBannerContainer {
+    flex-direction: column;
+    height: fit-content;
+    padding: 40px 0 25px;
+  }
+
+  .CollaborationBannerContent {
+    width: 95%;
+    text-align: center;
+  }
+
+  .CollaborationBannerContent > hr {
+    margin: 2% auto;
+  }
+
+  .CollaborationBannerContent > h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 3%;
+  }
+
+  .CollaborationBannerContent > p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .CollaborationBannerContent > button {
+    font-size: 14px;
+    padding: 5px 25px;
+  }
+
+  .CollaborationBannerImage {
+    width: 70%;
+  }
+}

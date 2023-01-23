@@ -998,7 +998,7 @@ export const product1 = [
   {
     dropContent: "Bottom Funnel Support Desk",
     navIcons: "/Images/navbar/product/desk.png",
-    path: "funnel-desk",
+    path: "funneldesk",
     title: "Delight Your Customer With Effortless Omnichannel Service",
     productHover: "#d6ffe8",
   },
