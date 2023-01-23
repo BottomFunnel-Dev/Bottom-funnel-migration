@@ -13,11 +13,11 @@ export default function FunnelDesk() {
     <div>
       {/* <Navbar /> */}
       <FunnelDeskBanner />
-      {/* <FunnelSupport /> */}
-      {/* <EliteServices /> */}
-      {/* <EliteLast /> */}
-      {/* <IndustryExperts /> */}
-      {/* <DeskStarted /> */}
+      <FunnelSupport />
+      <EliteServices />
+      <EliteLast />
+      <IndustryExperts />
+      <DeskStarted />
     </div>
   );
 }

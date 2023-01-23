@@ -1,17 +1,17 @@
 .supportDesk {
   width: 90%;
-  /* background-color: green; */
-  margin: auto;
+  margin: 2% auto;
   height: fit-content;
   text-align: center;
   padding: 2% 1%;
 }
+
 .supportDesk > h1 {
   width: 100%;
-  /* background-color: green; */
   margin: 1% auto;
   font-size: 40px;
 }
+
 .supportDesk > p {
   width: 95%;
   font-size: 25px;
@@ -22,9 +22,40 @@
 
 .deskImage {
   width: 84%;
-  height: 300px;
-  margin: 3% auto;
+  height: fit-content;
+  margin: 5% auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .deskImage > img {
-  width: 100%;
+  width: 30%;
+}
+
+/* media query for mobile and tablet devices */
+
+@media (max-width: 1024px) {
+  .supportDesk {
+    width: 90%;
+  }
+
+  .supportDesk > h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 0;
+  }
+  .supportDesk > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .deskImage {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+  }
+
+  .deskImage > img {
+    width: 50%;
+  }
 }

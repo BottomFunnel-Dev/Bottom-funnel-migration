@@ -3,3 +3,11 @@
   margin: auto;
   text-align: center;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .industryExperts > h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

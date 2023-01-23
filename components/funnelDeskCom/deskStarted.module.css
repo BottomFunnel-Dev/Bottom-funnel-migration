@@ -8,6 +8,7 @@
   padding: 5% 0;
   text-align: center;
   color: white;
+  margin: 3% auto 0;
 }
 
 .getStartedbtn {
@@ -44,4 +45,17 @@
 .demobtn:hover {
   color: white;
   background-color: #ef4c23;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .deskStarted > h1 {
+    font-size: 20px;
+  }
+
+  .getStartedbtn,
+  .demobtn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
 }

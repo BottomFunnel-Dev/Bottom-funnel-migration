@@ -105,7 +105,55 @@
   border-radius: 15px;
   background-color: white;
   color: #ef4c23;
-  /* border: 2px solid #ef4c23; */
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .funnelSupport {
+    height: 585px;
+    align-items: flex-start;
+    margin-top: 90px;
+  }
+
+  .mainContentBanner {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .imagePart {
+    width: 45%;
+    height: fit-content;
+  }
+
+  .contentPart {
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .contentPart > h1 {
+    font-size: 32px;
+  }
+
+  .contentPart > p {
+    font-size: 15px;
+  }
+
+  .freetrial,
+  .demostart {
+    font-size: 12px;
+    padding: 10px 30px;
+    margin: 0;
+  }
+
+  .demostart {
+    margin-top: 10px;
+  }
+
+  .bannerBackImgLeft,
+  .bannerBackImgRight {
+    margin-top: 3%;
+  }
 }

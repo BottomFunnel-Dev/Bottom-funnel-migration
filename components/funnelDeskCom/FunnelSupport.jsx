@@ -15,7 +15,18 @@ export const FunnelSupport = () => {
       </p>
 
       <div className={styles.deskImage}>
-        <img src="Images/BottomFunnelDeskPhotos/points.png" alt="" />
+        <img
+          src="/Images/BottomFunnelDeskPhotos/point-1.png"
+          alt="BottomFunnelDeskPhotos/point-1.png"
+        />
+        <img
+          src="/Images/BottomFunnelDeskPhotos/point-2.png"
+          alt="BottomFunnelDeskPhotos/point-2.png"
+        />
+        <img
+          src="/Images/BottomFunnelDeskPhotos/point-3.png"
+          alt="BottomFunnelDeskPhotos/point-3.png"
+        />
       </div>
     </div>
   );
