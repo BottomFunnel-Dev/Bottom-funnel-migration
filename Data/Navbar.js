@@ -308,7 +308,7 @@ export const industries = [
   {
     dropContent: "Video Streaming",
     navIcons: "/Images/navbar/industriesImage/videostreaming.png",
-    path: "videostreaming",
+    path: "Videostreaming",
   },
   {
     dropContent: "Sports Betting",

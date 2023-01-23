@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { SportsBanner } from '../../components/Sportsbetting/SportsBanner';
+import { SportsBanner } from "../../components/Sportsbetting/SportsBanner";
 import { sportsBettingLogo } from "../../components/Data/SeopartnerData";
-import Trusted from '../../components/SEO/SeoTrustedCompanies/Seotrusted';
+import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
 import { SportsPanels } from "../../components/Sportsbetting/SportsPanels";
-import { BettingSpecial } from '../../components/Sportsbetting/BettingSpecial';
-import { Bettingwhy } from '../../components/Sportsbetting/Bettingwhy';
+import { BettingSpecial } from "../../components/Sportsbetting/BettingSpecial";
+import { Bettingwhy } from "../../components/Sportsbetting/Bettingwhy";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -18,7 +18,7 @@ import MainFooter from "../../components/CommonComponents/FooterSection/MainFoot
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
-export default function SportsBetting () {
+export default function SportsBetting() {
   return (
     <div>
       <Head>
@@ -32,24 +32,24 @@ export default function SportsBetting () {
         />
       </Head>
       <main>
-      <Navbar />
-      <SportsBanner />
-      <Trusted partnerLogo={sportsBettingLogo} />
-      <SportsPanels />
-      <BettingSpecial />
-      <Bettingwhy />
+        <Navbar />
+        <SportsBanner />
+        <Trusted partnerLogo={sportsBettingLogo} />
+        <SportsPanels />
+        <BettingSpecial />
+        <Bettingwhy />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
-};
+}
