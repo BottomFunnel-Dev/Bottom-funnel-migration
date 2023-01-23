@@ -10,11 +10,15 @@ import { NavServices } from "../NavServices";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 import dropdown from "./dropdownResp.module.css";
+import { NavIndustries } from "../NavIndustries";
+import { Products } from "../Products";
 export default function DropdownResp({
   homeHoverIn,
   homeHoverOut,
   serHoverIn,
   serHoverOut,
+  solHoverIn,
+  solHoverOut,
   scroll,
   productMount,
 }) {
@@ -28,7 +32,7 @@ export default function DropdownResp({
         >
           <Typography>About</Typography>
         </AccordionSummary>
-        <AccordionDetails  className={dropdown.accord}>
+        <AccordionDetails className={dropdown.accord}>
           <Typography>
             <WhoWeAre
               homeHoverIn={homeHoverIn}
@@ -64,15 +68,48 @@ export default function DropdownResp({
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>Solutions</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            <NavIndustries
+              solHoverIn={solHoverIn}
+              solHoverOut={solHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
           </Typography>
         </AccordionDetails>
       </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Products</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <Products
+              serHoverIn={serHoverIn}
+              serHoverOut={serHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+
+      <div className={dropdown.otherNav}>
+      <div>PRICING</div>
+      <div>PORTFOLIO</div>
+      <div>BLOG</div>
+     <button>Hire A Talent</button>
+     <button>Apply as a Talent</button>
+
+      </div>
     </div>
   );
 }

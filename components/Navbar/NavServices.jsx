@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import navstyle from  "./navbar.module.css";
+// import navstyle from  "./navbar.module.css";
 import navservice from './navServices.module.css'
 import  Link  from "next/link";
 import {
@@ -284,9 +284,9 @@ console.log(discoverContent)
         </div>
       )}
       {sidetoggle === "Skills" && (
-        <div className={navstyle.dropdownSection}>
-          <div className={navstyle.backendDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+        <div className={navservice.servicedropdownSection}>
+          <div className={navservice.servicebackendDropdownContent}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>Backend</h5>
             </Link>
             <div className={navservice.servicebackendlistItems}>
@@ -313,8 +313,8 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+          <div className={navservice.serviceskillDropdownContent}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>Frontend</h5>
             </Link>
             <div className={navservice.servicelistItems}>
@@ -342,8 +342,8 @@ console.log(discoverContent)
             </div>
           </div>
 
-          <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+          <div className={navservice.serviceskillDropdownContent}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>Mobile</h5>
             </Link>
             <div className={navservice.servicelistItems}>
@@ -370,8 +370,8 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+          <div className={navservice.serviceskillDropdownContent}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>DataBase</h5>
             </Link>
             <div className={navservice.servicelistItems}>
@@ -398,8 +398,8 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div className={navstyle.skillDropdownContent}>
-            <Link href={""} className={navstyle.noStyle}>
+          <div className={navservice.serviceskillDropdownContent}>
+            <Link href={""} className={navservice.servicenoStyle}>
               <h5>CMS Frameworks</h5>
             </Link>
             <div className={navservice.servicelistItems}>

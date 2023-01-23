@@ -619,12 +619,12 @@
   height: 98%;
   box-sizing: border-box;
 }
+.industryContent > h4 {
+  color: #ef4c23;
+}
 
 #ondemandsol {
   width: 50%;
-}
-.industryContent > h4 {
-  color: #ef4c23;
 }
 
 .industryListItems {
