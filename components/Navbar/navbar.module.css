@@ -749,6 +749,7 @@
     justify-content: space-between;
     padding: 0 20px;
     height: 60px;
+    top: 0 !important;
   }
 
   .logoSection {

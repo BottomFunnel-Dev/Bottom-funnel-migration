@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <BannerFull />
+      {/* <BannerFull />
       <CompanyLogo />
       <About />
       <Services />
@@ -35,7 +35,7 @@ export default function Home() {
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <MainFooter />
+      <MainFooter /> */}
     </>
   );
 }

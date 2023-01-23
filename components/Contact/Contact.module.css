@@ -81,3 +81,12 @@
   height: fit-content;
   cursor: pointer;
 }
+
+
+@media (max-width: 480px) {
+  .ContactAboveNavbarMain {
+    display: none;
+  }
+
+}
+

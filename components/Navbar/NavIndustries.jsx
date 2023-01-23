@@ -74,7 +74,7 @@ export const NavIndustries = ({
               </div>
               <Link
                 onClick={solHoverOut}
-                href={item.path}
+                href={`https://service.bottomfunnel.net/ ${item.path}`}
                 className={industry.industrylinkP}
               >
                 <p>{item.dropContent}</p>
