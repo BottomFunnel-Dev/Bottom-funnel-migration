@@ -51,7 +51,7 @@ export const NavIndustries = ({
       </div>
 
 
-
+      
       <div id={industry.ondemandsol} className={industry.indindustryContent}>
         <Link href={""} className={industry.industrynoStyle}>
           <h5>On Demand Solutions</h5>
@@ -61,6 +61,7 @@ export const NavIndustries = ({
             <div
               key={i}
               onClick={() => {
+                // navigate(`/${item.path}`);
                 solHoverOut();
               }}
               className={industry.industryimageIconDivSection}
@@ -74,7 +75,7 @@ export const NavIndustries = ({
               </div>
               <Link
                 onClick={solHoverOut}
-                href={`https://service.bottomfunnel.net/ ${item.path}`}
+                href={item.path}
                 className={industry.industrylinkP}
               >
                 <p>{item.dropContent}</p>

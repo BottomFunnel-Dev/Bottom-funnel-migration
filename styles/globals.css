@@ -19,26 +19,17 @@ ul {
 
 p {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-top: 1%;
-  vertical-align: baseline;
+
 }
 
 h1 {
   font-size: 40px;
-  font-weight: 500;
-  line-height: 48px;
-  margin-bottom: 0%;
-  vertical-align: baseline;
+
 }
 
 h2 {
   font-size: 35px;
-  font-weight: 500px;
-  line-height: 38px;
-  margin-bottom: 0%;
-  vertical-align: baseline;
+
 }
 
 h3 {
@@ -47,9 +38,7 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-weight: 500;
-  line-height: 28.8px;
-  vertical-align: baseline;
+
 }
 
 h5 {

@@ -66,41 +66,43 @@ const CompanyLogo = () => {
   };
   return (
     <div className={styles.settinghomebannerrotationalbox}>
-      <Slider {...settings}>
-        <div className={styles.slideDivSection}>
-          <div>
-            <img src="Images/companiesLogo/aws-partner.svg" alt="" />
+      <div className={styles.mainslide}>
+        <Slider {...settings}>
+          <div className={styles.slideDivSection}>
+            <div>
+              <img src="Images/companiesLogo/aws-partner.svg" alt="" />
+            </div>
           </div>
-        </div>
-        <div className={styles.slideDivSection}>
-          <div>
-            <img src="Images/companiesLogo/sap-partner.svg" alt="" />
+          <div className={styles.slideDivSection}>
+            <div>
+              <img src="Images/companiesLogo/sap-partner.svg" alt="" />
+            </div>
           </div>
-        </div>
-        <div className={styles.slideDivSection}>
-          <div>
-            <img
-              src="Images/companiesLogo/google-agency-dev-partner.svg"
-              alt=""
-            />
+          <div className={styles.slideDivSection}>
+            <div>
+              <img
+                src="Images/companiesLogo/google-agency-dev-partner.svg"
+                alt=""
+              />
+            </div>
           </div>
-        </div>
-        <div className={styles.slideDivSection}>
-          <div>
-            <img src="Images/companiesLogo/cloudare-partner.svg" alt="" />
+          <div className={styles.slideDivSection}>
+            <div>
+              <img src="Images/companiesLogo/cloudare-partner.svg" alt="" />
+            </div>
           </div>
-        </div>
-        <div className={styles.slideDivSection}>
-          <div>
-            <img src="Images/companiesLogo/general-electric.svg" alt="" />
+          <div className={styles.slideDivSection}>
+            <div>
+              <img src="Images/companiesLogo/general-electric.svg" alt="" />
+            </div>
           </div>
-        </div>
-        <div className={styles.slideDivSection}>
-          <div>
-            <img src="Images/companiesLogo/squareLogo.svg" alt="" />
+          <div className={styles.slideDivSection}>
+            <div>
+              <img src="Images/companiesLogo/squareLogo.svg" alt="" />
+            </div>
           </div>
-        </div>
-      </Slider>
+        </Slider>
+      </div>
     </div>
   );
 };

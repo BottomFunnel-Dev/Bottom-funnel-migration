@@ -1,4 +1,3 @@
-
 .mainService {
   width: 95%;
 
@@ -58,7 +57,6 @@
   justify-content: space-evenly;
   row-gap: 25px;
   box-sizing: border-box;
-
 }
 .services > div {
   width: 30%;
@@ -77,7 +75,7 @@
 .serviceHeading h4 {
   color: #ef4c23;
   width: 50%;
-  margin: 0 ;
+  margin: 0;
 }
 
 .serviceHeading {
@@ -115,7 +113,6 @@
 .supportableDevices li:hover {
   font-size: 14px;
   color: #ef4c23;
-  
 }
 
 .iconClass {
@@ -167,18 +164,13 @@
   display: none;
 }
 
-
-
 /* Media Query for Mobile Devices */
 
-@media only screen and (min-width:0px) and (max-width:400px){
-
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .mainService {
     width: 100%;
-  
-    /* display: flex; */
-margin-top: 10%;
-
+    flex-direction: column;
+    box-sizing: border-box;
   }
   .serviceIntro {
     width: 100%;
@@ -218,33 +210,30 @@ margin-top: 10%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     outline: none;
     border: none;
-  
   }
-  
+
   .serviceIntro > div > button:hover {
     background-color: white;
     color: #ef4c23;
     border: none;
     /* transition: all 0.4s linear; */
   }
-  
-/* Boxing in mobile screen */
+
+  /* Boxing in mobile screen */
 
   .services {
     width: 100%;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 25px;
     box-sizing: border-box;
-  
   }
   .services > div {
-    width: 45%;
+    width: 100%;
     box-sizing: border-box;
-    border: 0.5px solid rgb(237, 236, 236);
-    height: 600px;
+    border: none;
+    /* height: 600px; */
     background-color: white;
     box-shadow: 0px 0px 30px 2px rgb(236 234 234);
     border-radius: 10px;
@@ -260,26 +249,23 @@ margin-top: 10%;
     color: #ef4c23;
     width: 50%;
   }
-  
+
   .serviceHeading {
- 
     align-items: center;
     justify-content: space-between;
   }
   .vectorImage {
     width: 80%;
     height: 80px;
-  
   }
   .vectorImage > img {
     width: 100%;
-  
+
     height: 100%;
     object-fit: contain;
   }
   .supportableDevices {
     width: 100%;
-    /* height: 60px; */
     display: flex;
     flex-wrap: wrap;
     column-gap: 10px;
@@ -297,9 +283,8 @@ margin-top: 10%;
   .supportableDevices li:hover {
     font-size: 14px;
     color: #ef4c23;
-    
   }
-  
+
   .iconClass {
     margin-top: 20px;
     font-size: 60px;
@@ -308,16 +293,14 @@ margin-top: 10%;
   .iconClassNone {
     display: none;
   }
-  
+
   .serviceHeadingPart {
     padding: 60px 20px;
   }
-  
-  .serviceHeadingFullPart {
 
+  .serviceHeadingFullPart {
     padding: 15px;
     padding-bottom: 0;
-   
   }
   .serviceHeadingFullPart > h2 {
     font-size: 20px;
@@ -326,7 +309,7 @@ margin-top: 10%;
     font-size: 25px;
     margin-top: 15px;
   }
-  
+
   .serviceDescriptionVisible {
     display: block;
     padding: 0 15px;
@@ -338,7 +321,7 @@ margin-top: 10%;
     font-size: 15px;
     color: #393939;
   }
-  
+
   .serviceDescriptionVisible p:nth-child(2):hover {
     color: #ef4c23;
   }
@@ -353,12 +336,11 @@ margin-top: 10%;
 }
 
 /* for any type of tab responsive */
-@media only screen and ( min-width:401px) and (max-width:769px){
+/* @media only screen and ( min-width:401px) and (max-width:769px){
 
     .mainService {
     width: 100%;
 
-    /* display: flex; */
     margin-top: 10%;
 
   }
@@ -415,130 +397,10 @@ margin-top: 10%;
     background-color: white;
     color: #ef4c23;
     border: none;
-    /* transition: all 0.4s linear; */
   }
   
 
 
-  .services {
-    width: 100%;
+  
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    row-gap: 25px;
-    box-sizing: border-box;
-  
-  }
-  .services > div {
-    width: 45%;
-    box-sizing: border-box;
-    border: 0.5px solid rgb(237, 236, 236);
-    height: 600px;
-    background-color: white;
-    box-shadow: 0px 0px 30px 2px rgb(236 234 234);
-    border-radius: 10px;
-    margin-top: 8px;
-    text-align: left;
-    padding: 10px;
-  }
-  .services > div:hover {
-    margin-top: 0;
-    transition: all 0.2s linear;
-  }
-  .serviceHeading h4 {
-    color: #ef4c23;
-    width: 100%;
-  }
-  
-  .serviceHeading {
- 
-    align-items: center;
-    justify-content: space-between;
-  }
-  .vectorImage {
-    width: 80%;
-    height: 80px;
-  
-  }
-  .vectorImage > img {
-    width: 100%;
-  
-    height: 100%;
-    object-fit: contain;
-  }
-  .supportableDevices {
-    width: 100%;
-    /* height: 60px; */
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 8px;
-  }
-  .supportableDevices li {
-    font-size: 13px;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
-    cursor: pointer;
-    color: #393939;
-    list-style: none;
-  }
-  .supportableDevices li:hover {
-    font-size: 14px;
-    color: #ef4c23;
-    
-  }
-  
-  .iconClass {
-    margin-top: 20px;
-    font-size: 60px;
-    color: rgb(88, 86, 86);
-  }
-  .iconClassNone {
-    display: none;
-  }
-  
-  .serviceHeadingPart {
-    padding: 60px 20px;
-  }
-  
-  .serviceHeadingFullPart {
-
-    padding: 15px;
-    padding-bottom: 0;
-   
-  }
-  .serviceHeadingFullPart > h2 {
-    font-size: 20px;
-  }
-  .serviceHeadingPart > h2 {
-    font-size: 25px;
-    margin-top: 15px;
-  }
-  
-  .serviceDescriptionVisible {
-    display: block;
-    padding: 0 15px;
-    transition: all 0.5s ease-in;
-  }
-  .serviceDescriptionVisible > p {
-    display: block;
-    margin: 15px 0;
-    font-size: 15px;
-    color: #393939;
-  }
-  
-  .serviceDescriptionVisible p:nth-child(2):hover {
-    color: #ef4c23;
-  }
-  .serviceDescriptionVisible p:nth-child(2) {
-    color: #ef4c23;
-    width: 100px;
-    cursor: pointer;
-  }
-  .serviceDescriptionInvisible {
-    display: none;
-  }
-
-}
+} */
