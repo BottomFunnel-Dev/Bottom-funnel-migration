@@ -31,6 +31,7 @@ export default function AboutUS() {
         />
       </Helmet>
   */}
+
       <Navbar />
       <AboutusBanner />
       <OurProcess />

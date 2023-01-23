@@ -74,53 +74,27 @@
   .flowerdeliverydrivermainboxing {
     /* border: 1px solid black; */
     height: fit-content;
-    margin-top: 10%;
-    /* flex-direction: column; */
+    /* margin-top: 10%; */
     flex-direction: column-reverse;
     text-align: center;
+    /* border: 2px solid red; */
   }
 
   .flowerdeliveryflexboxleft {
-    height: fit-content;
-    width: 60%;
+    height: 400px;
+    width: 70%;
     position: relative;
-  }
-
-  .flowerdeliveryflexboxright {
     /* border: 1px solid red; */
-    height: fit-content;
-    width: 100%;
-    margin-left: 5%;
-    text-align: center;
-  }
-
-  .flowerdeliveryflexboxright > h2 {
-    margin-left: 2%;
-    font-weight: 500;
-  }
-
-  .flowerdeliverydrivermappingbox {
-    height: fit-content;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 10px;
-    margin: 2%;
-    border-radius: 10px;
-  }
-
-  .flowerdeliverydrivermappingbox:hover {
-    transform: scale(1.02);
-    background-color: #fff8f9;
   }
 
   .flowerdeliveryflexboxleftimageone {
     /* border: 1px solid red; */
     position: absolute;
-    left: 40%;
+    left: 30%;
     /* top: 20%; */
     width: 100%;
     /* height: 100%; */
-    top: 50px;
+    top: 60px;
   }
 
   .flowerdeliveryflexboxleftimageone > img {
@@ -135,7 +109,7 @@
     position: absolute;
     height: fit-content;
     width: 80%;
-    left: 50%;
+    left: 40%;
     /* bottom: 50px; */
   }
 
@@ -145,6 +119,44 @@
     object-fit: contain;
     /* padding: 5%; */
     z-index: 1;
+  }
+
+  .flowerdeliveryflexboxright {
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 100%;
+    margin-left: 2%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .flowerdeliveryflexboxright > h2 {
+    margin-left: 2%;
+    font-weight: 500;
+  }
+
+  .flowerdeliverydrivermappingbox {
+    height: 150px;
+    /* border: 1px solid red; */
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* padding: 10px; */
+    margin: 2%;
+    border-radius: 10px;
+  }
+
+  .flowerdeliverydrivermappingbox:hover {
+    transform: scale(1.02);
+    background-color: #fff8f9;
+  }
+
+  .flowerdeliverydrivermappingbox > h4 {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+
+  .flowerdeliverydrivermappingbox > p {
+    margin-top: 0%;
   }
 }
 
@@ -159,9 +171,45 @@
   }
 
   .flowerdeliveryflexboxleft {
-    height: fit-content;
+    height: 900px;
     width: 60%;
     position: relative;
+    /* border: 1px solid red; */
+  }
+
+  .flowerdeliveryflexboxleftimageone {
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 40%;
+    /* top: 20%; */
+    width: 100%;
+    height: 800px;
+    top: 50px;
+  }
+
+  .flowerdeliveryflexboxleftimageone > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 0;
+    /* border: 1px solid red; */
+  }
+
+  .flowerdeliveryflexboxleftimagetwo {
+    position: absolute;
+    height: fit-content;
+    width: 80%;
+    left: 50%;
+    /* bottom: 50px; */
+  }
+
+  .flowerdeliveryflexboxleftimagetwo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* padding: 5%; */
+    z-index: 1;
   }
 
   .flowerdeliveryflexboxright {
@@ -178,8 +226,10 @@
   }
 
   .flowerdeliverydrivermappingbox {
-    height: fit-content;
-    width: 100%;
+    /* height: fit-content; */
+    /* border: 2px solid red; */
+    height: 180px;
+    width: 95%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;
     margin: 2%;
@@ -189,39 +239,5 @@
   .flowerdeliverydrivermappingbox:hover {
     transform: scale(1.02);
     background-color: #fff8f9;
-  }
-
-  .flowerdeliveryflexboxleftimageone {
-    /* border: 1px solid red; */
-    position: absolute;
-    left: 40%;
-    /* top: 20%; */
-    width: 100%;
-    /* height: 100%; */
-    top: 50px;
-  }
-
-  .flowerdeliveryflexboxleftimageone > img {
-    height: 80%;
-    width: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-    z-index: 0;
-  }
-
-  .flowerdeliveryflexboxleftimagetwo {
-    position: absolute;
-    height: fit-content;
-    width: 80%;
-    left: 50%;
-    /* bottom: 50px; */
-  }
-
-  .flowerdeliveryflexboxleftimagetwo > img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    /* padding: 5%; */
-    z-index: 1;
   }
 }

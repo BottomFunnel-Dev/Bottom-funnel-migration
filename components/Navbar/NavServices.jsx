@@ -97,6 +97,7 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
+
           <div className={navservice.serviceDropdownContent}>
             {/* <h5
               clnavservice"servicenoStyle"
@@ -142,6 +143,7 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
+
           <div className={navservice.serviceDropdownContent}>
             <Link href="Digital-marketing" className={navservice.servicenoStyle}>
               <h5
@@ -271,6 +273,7 @@ console.log(discoverContent)
               </h3>
             </div>
           </div>
+
           <div className={navservice.servicediscoverright}>
             {designRightContent.map((item, index) => (
               <div key={index}>
