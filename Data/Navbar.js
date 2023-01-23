@@ -447,12 +447,12 @@ export const ondemand = [
   {
     dropContent: "Flower Delivery App",
     navIcons: "Images/navbar/industriesImage/flowerdelivery.png",
-    path: "flower-delivery",
+    path: "flower-delivery-app",
   },
   {
     dropContent: "Carpooling Apps",
     navIcons: "Images/navbar/industriesImage/carpooling.png",
-    path: "carpooling",
+    path: "carpooling-apps",
   },
   {
     dropContent: "Taxi Booking App",

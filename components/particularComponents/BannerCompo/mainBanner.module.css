@@ -64,7 +64,7 @@
 
 @media (max-width: 480px) {
   .mainBanner {
-    width: 100%;
+    /* width: 100%; */
     height: 85vh;
     flex-direction: column-reverse;
     margin-top: 60px;
@@ -80,7 +80,7 @@
   }
 
   .mainbannerTextcontainer > div {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     /* padding: 50px 0px; */
     text-align: left;
@@ -88,6 +88,13 @@
     transform: translate(-50%, -50%);
     top: 45%;
     /* left: 65%; */
+  }
+
+  .mainbannerTextcontainer > div > h1 {
+    border: 1px solid red;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
   }
 
   .mainbannerTextcontainer > div > button {
