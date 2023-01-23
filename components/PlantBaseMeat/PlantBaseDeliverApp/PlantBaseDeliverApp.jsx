@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./PlantBaseDeliverApp.module.css";
 
-export default function PlantBaseDeliverApp({ consumerdata }) {
+export default function                                                 PlantBaseDeliverApp({ consumerdata }) {
   const [active, setActive] = useState(0);
   return (
     <div className={styles.plantBasedDeliver}>
@@ -15,6 +15,7 @@ export default function PlantBaseDeliverApp({ consumerdata }) {
                 onMouseOver={() => setActive(idx)}
                 className={`plantBasedDeliverApp-box-${idx}`}
               >
+                
                 <div className={styles.plantBasedDeliverAppLogo}>
                   <img src={icon.src} alt={icon.alt} />
                 </div>
@@ -25,8 +26,7 @@ export default function PlantBaseDeliverApp({ consumerdata }) {
           })}
         </div>
 
-        <div
-          className={styles.plantBasedDeliverleft}
+        <div className={styles.plantBasedDeliverleft}
           style={{
             background: `url(${consumerdata.background})`,
             backgroundRepeat: "no-repeat",
@@ -34,6 +34,7 @@ export default function PlantBaseDeliverApp({ consumerdata }) {
             backgroundPosition: "center",
           }}
         >
+
           <div className={styles.plantBasedDeliverAppCustomerImage}>
             <img
               src={consumerdata.consumerdata[active].img.src}

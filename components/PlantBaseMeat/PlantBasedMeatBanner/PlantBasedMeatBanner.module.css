@@ -44,3 +44,83 @@
   /* height: 100vh; */
   /* height: 400px; */
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .plantBasedBannerParentDiv {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* justify-content: space-between; */
+    /* padding-left: 5%; */
+    /* justify-content: center; */
+  }
+
+  .plantBasedBannerParentDiv button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    /* border: 2px solid black; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .plantBasedBannerParentDiv button:hover {
+    color: #ef4c23;
+    /* border: 1px solid #ef4c23; */
+    background-color: white;
+  }
+
+  .plantBasedMeatBannerContentDiv {
+    /* border: 1px solid green; */
+    width: 50%;
+    margin-top: 3%;
+  }
+
+  .plantBasedMeatBannerContentDiv > h1 {
+    /* border: 1px solid red; */
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    gap: 0%;
+  }
+
+  .plantBasedMeatBannerContentDiv > h1 > span {
+    color: #ef4c23;
+  }
+
+  .plantBasedMeatBannerContentDiv > p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .plantBasedBannerImageDiv {
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    width: 60%;
+  }
+
+  .plantBasedBannerImageDiv img {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin-top: 5%; */
+    height: 400px;
+    object-fit: contain;
+    /* height: 100vh; */
+  }
+}
+
+/* @media (min-width: 481px) and (max-width: 1024px) {
+
+} */

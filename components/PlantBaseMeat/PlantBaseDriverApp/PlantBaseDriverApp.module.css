@@ -4,9 +4,11 @@
   margin: 60px 0;
   /* background-color: cornflowerblue; */
 }
+
 .plantBasedDriverApp > h1 {
   margin-left: 55%;
 }
+
 .plantBasedDriverAppsub {
   width: 100%;
   margin-top: 2%;
@@ -15,9 +17,9 @@
   display: flex;
   align-items: center;
 }
+
 .plantBasedDriverAppleft {
   width: 50%;
-
   /* background-color: blue; */
   height: 500px;
   /* background: url("/public/Images/logistic/triangle.png"); */
@@ -26,11 +28,6 @@
   margin-left: -4%;
   position: relative;
 }
-/* .plantBasedDriverAppright{
-        width: 50%;
-        height: 500px;
-        background-color:  rgb(210, 30, 78)
-    } */
 
 .plantBasedDriverAppright {
   width: 45%;
@@ -59,14 +56,6 @@
   font-size: 18px;
 }
 
-/* .logistic{
-        height: 50px;
-      }
-      
-      .logistic> img {
-        height: 100%;
-      } */
-
 .logisticDriveImage {
   width: 50%;
   height: 500px;
@@ -77,10 +66,10 @@
   left: 50%;
   /* background-color: red; */
 }
+
 .logicdive {
   width: 100%;
   display: flex;
-
   height: 60px;
 }
 
@@ -88,4 +77,279 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .plantBasedDriverApp {
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+    /* background-color: cornflowerblue; */
+  }
+
+  .plantBasedDriverApp > h1 {
+    margin-left: 55%;
+  }
+
+  .plantBasedDriverAppsub {
+    width: 100%;
+    margin-top: 2%;
+    justify-content: space-between;
+    /* background-color:  chocolate; */
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .plantBasedDriverAppleft {
+    width: 50%;
+    /* background-color: blue; */
+    height: 500px;
+    /* background: url("/public/Images/logistic/triangle.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 670px;
+    /* margin-left: -4%; */
+    position: relative;
+  }
+
+  .plantBasedDriverAppright {
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .plantBasedDriverAppright > div {
+    /* border: 1px solid black; */
+    padding: 10px 10px 10px 10px;
+    height: 210px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 5%;
+  }
+
+  .plantBasedDriverAppright > div:hover {
+    background-color: #e1f9f6;
+  }
+
+  .plantBasedDriverAppright > div > h3 {
+    font-size: 18px;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+
+  .logisticDriveImage {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    /* background-color: red; */
+  }
+
+  .logicdive {
+    width: 100%;
+    display: flex;
+    height: 60px;
+  }
+
+  .logisticDriveImage {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .logisticDriveImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .plantBasedDriverApp {
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+    /* background-color: cornflowerblue; */
+  }
+
+  .plantBasedDriverApp > h1 {
+    margin-left: 55%;
+  }
+
+  .plantBasedDriverAppsub {
+    width: 100%;
+    margin-top: 2%;
+    justify-content: space-between;
+    /* background-color:  chocolate; */
+    display: flex;
+    align-items: center;
+  }
+
+  .plantBasedDriverAppleft {
+    width: 50%;
+    /* border: 1px solid red; */
+    /* background-color: blue; */
+    height: 500px;
+    /* background: url("/public/Images/logistic/triangle.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 670px;
+    margin-left: -4%;
+    position: relative;
+  }
+
+  .plantBasedDriverAppright {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .plantBasedDriverAppright > div {
+    padding: 10px 10px 10px 10px;
+    height: 250px;
+    width: 45%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .plantBasedDriverAppright > div:hover {
+    background-color: #e1f9f6;
+  }
+
+  .plantBasedDriverAppright > div > h3 {
+    font-size: 18px;
+  }
+
+  .logisticDriveImage {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    /* background-color: red; */
+  }
+
+  .logicdive {
+    width: 100%;
+    display: flex;
+    height: 60px;
+  }
+
+  .logisticDriveImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .plantBasedDriverApp {
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+    /* background-color: cornflowerblue; */
+  }
+
+  .plantBasedDriverApp > h1 {
+    margin-left: 55%;
+  }
+
+  .plantBasedDriverAppsub {
+    width: 100%;
+    margin-top: 2%;
+    justify-content: space-between;
+    /* background-color:  chocolate; */
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .plantBasedDriverAppleft {
+    width: 50%;
+    /* background-color: blue; */
+    height: 500px;
+    /* background: url("/public/Images/logistic/triangle.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 670px;
+    /* margin-left: -4%; */
+    position: relative;
+  }
+
+  .plantBasedDriverAppright {
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .plantBasedDriverAppright > div {
+    /* border: 1px solid black; */
+    padding: 10px 10px 10px 10px;
+    height: 170px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .plantBasedDriverAppright > div:hover {
+    background-color: #e1f9f6;
+  }
+
+  .plantBasedDriverAppright > div > h3 {
+    font-size: 18px;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+
+  .logisticDriveImage {
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    /* background-color: red; */
+  }
+
+  .logicdive {
+    width: 100%;
+    display: flex;
+    height: 60px;
+  }
+
+  .logisticDriveImage {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .logisticDriveImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }

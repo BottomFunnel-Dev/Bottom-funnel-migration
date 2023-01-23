@@ -25,8 +25,8 @@ export default function PlantBaseDeliverAdminPanel({ plantBasedAdminData }) {
                         );
                     })}
                 </div>
-                <div
-                    className={styles.plantBasedAdminPanelleft}
+
+                <div className={styles.plantBasedAdminPanelleft}
                     style={{
                         background: `url(${plantBasedAdminData.background})`,
                         backgroundRepeat: "no-repeat",

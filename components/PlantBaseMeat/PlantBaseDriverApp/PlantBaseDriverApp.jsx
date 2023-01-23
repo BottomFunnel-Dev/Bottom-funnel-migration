@@ -7,8 +7,7 @@ export default function PlantBaseDriverApp({ driveData }) {
         <div className={styles.plantBasedDriverApp}>
             {/* <h1>{driveData.sectionTitle}</h1> */}
             <div className={styles.plantBasedDriverAppsub}>
-                <div
-                    className={styles.plantBasedDriverAppleft}
+                <div className={styles.plantBasedDriverAppleft}
                     style={{
                         background: `url(${driveData.background})`,
                         backgroundRepeat: "no-repeat",
@@ -35,8 +34,8 @@ export default function PlantBaseDriverApp({ driveData }) {
                                 <div className={styles.logisticLogo}>
                                     <img src={icon.src} alt={icon.alt} />
                                 </div>
+                                
                                 <h3>{title}</h3>
-
                                 <p>{para}</p>
                             </div>
                         );

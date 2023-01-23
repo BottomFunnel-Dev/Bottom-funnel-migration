@@ -7,12 +7,13 @@ export const PlantBasedGetSolution = () => {
         <div className={styles.plantBasedGetSolutionParentDiv}>
 
             <div className={styles.plantBasedGetSolutionBackImageDiv}>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/GetSolutionBackgroundImage.png' alt='image' />
+                <img src='/Images/PlantBasedMeat/banners & backgrounds/MobileScreenMidBanner.png' alt='image' />
             </div>
 
             <div className={styles.plantsBasedGetSolutionMainContentDiv}>
                 <div className={styles.plantBasedGetSolutionSubContentDiv}>
-                    <h3> Get a complete Solution with advance & flawless features with our
+                    <h3> 
+                        Get a complete Solution with advance & flawless features with our
                         Plant Based Meat Delivery app Development Company
                     </h3>
 
@@ -23,9 +24,10 @@ export const PlantBasedGetSolution = () => {
 
                     <button> Get Started </button>
                 </div>
-                <div className={styles.plantBasedGetSolutionInnerImageDiv}>
+
+                {/* <div className={styles.plantBasedGetSolutionInnerImageDiv}>
                     <img src='/Images/PlantBasedMeat/banners & backgrounds/GetSolutionMobileImage.png' alt='image' />
-                </div>
+                </div> */}
             </div>
         </div>
     );

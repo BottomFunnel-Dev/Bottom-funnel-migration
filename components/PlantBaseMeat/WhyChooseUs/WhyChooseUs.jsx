@@ -11,12 +11,14 @@ export const WhyChooseUs = () => {
                             <div className={styles.whyChooseUsPlantMeatExpertiseIcon}>
                                 <img src='/Images/PlantBasedMeat/icons/customize.png' alt='image' />
                             </div>
+
                             <div className={styles.whyChooseUsPlantMeatExpertiseIconHeading}>
                                 <h4> 100% Customization </h4>
                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
                             </div>
                         </div>
-                        <div className={styles.whyChooseUsPlantMeatExpertiseContainerDiv}>
+
+                        {/* <div className={styles.whyChooseUsPlantMeatExpertiseContainerDiv}>
                             <div className={styles.whyChooseUsPlantMeatExpertiseIcon}>
                                 <img src='/Images/PlantBasedMeat/icons/expand-arrows.png' alt='image' />
                             </div>
@@ -24,8 +26,9 @@ export const WhyChooseUs = () => {
                                 <h4> Higly Scalable </h4>
                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
+{/* 
                     <div className={styles.whyChooseUsPlantMeatExpertiseIconOuterBox}>
                         <div className={styles.whyChooseUsPlantMeatExpertiseContainerDiv}>
                             <div className={styles.whyChooseUsPlantMeatExpertiseIcon}>
@@ -36,6 +39,7 @@ export const WhyChooseUs = () => {
                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
                             </div>
                         </div>
+
                         <div className={styles.whyChooseUsPlantMeatExpertiseContainerDiv}>
                             <div className={styles.whyChooseUsPlantMeatExpertiseIcon}>
                                 <img src='/Images/PlantBasedMeat/icons/web.png' alt='images' />
@@ -45,10 +49,10 @@ export const WhyChooseUs = () => {
                                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, officiis perferendis aperiam voluptas. </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className={styles.whyChooseUsPlantMeatExpertiseContent}>
+                {/* <div className={styles.whyChooseUsPlantMeatExpertiseContent}>
                     <h1 className={styles.whyChooseUsPlantMeatExpertiseContentHeading}> Why choose BottomFunnel For Your Plant Based
                         Delivery App
                     </h1>
@@ -57,7 +61,7 @@ export const WhyChooseUs = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui ut id suscipit, harum rerum, consectetur delectus, et a dolorem voluptate repellendus quae est consequuntur porro praesentium pariatur sit provident dicta!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus cum, inventore recusandae necessitatibus, iusto nobis, vitae veritatis ipsa et laboriosam dolore magni! Rerum unde odit perspiciatis mollitia ea consectetur quasi!
                     </p>
-                </div>
+                </div> */}
             </div>
         </>
     );

@@ -33,7 +33,7 @@ export default function PlantBasedMeat () {
       <PlantBaseDriverApp driveData={plantBaseDriverData} />
       <PlantBaseDeliverAdminPanel plantBasedAdminData={plantBaseMeatAdmin} />
       <PlantBasedGetSolution />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
 
       <StoriesSection />
       {/* <Industries /> */}

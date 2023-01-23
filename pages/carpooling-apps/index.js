@@ -32,25 +32,25 @@ export default function CarPooling() {
       
       <Navbar />
       <CarpoolingBanner />
-      <Trusted partnerLogo={carpoolingLogo} />
-      <CarpoolingRide />
-      <CarpoolingSolutions />
-      <Logiccustomer customerData={carpoolCustomer} />
-      <Logicdrive driveData={carpoolDrive} />
-      <Logisticadmin adminData={carpoolAdmin} />
-      <CarpoolingAction />
-      <CarpoolingWhy />
+      {/* <Trusted partnerLogo={carpoolingLogo} /> */}
+      {/* <CarpoolingRide /> */}
+      {/* <CarpoolingSolutions /> */}
+      {/* <Logiccustomer customerData={carpoolCustomer} /> */}
+      {/* <Logicdrive driveData={carpoolDrive} /> */}
+      {/* <Logisticadmin adminData={carpoolAdmin} /> */}
+      {/* <CarpoolingAction /> */}
+      {/* <CarpoolingWhy /> */}
 
-      <StoriesSection />
+      {/* <StoriesSection /> */}
       {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
+      {/* <PlanProject /> */}
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
+      {/* <MainFooter /> */}
     </div>
   );
 }

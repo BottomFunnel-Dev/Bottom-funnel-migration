@@ -64,3 +64,188 @@
   width: 70%;
   margin-left: 10%;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .plantBasedGetSolutionParentDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+  }
+
+  .plantBasedGetSolutionBackImageDiv {
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    width: 100%;
+    height: 300px;
+  }
+
+  .plantBasedGetSolutionBackImageDiv img {
+    /* border: 1px solid red; */
+    width: 100%;
+    object-fit: cover;
+    margin-left: 1%;
+    /* margin-top: 4%; */
+  }
+
+  .plantsBasedGetSolutionMainContentDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    position: relative;
+    margin-top: 15%;
+    display: flex;
+    margin-left: 0%;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+  }
+
+  .plantBasedGetSolutionSubContentDiv {
+    /* border: 1px solid gold; */
+    position: absolute;
+    width: 80%;
+    color: white;
+    top: 20%;
+    left: -2%;
+    margin-left: 5%;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > h3 {
+    /* border: 1px solid red; */
+    font-size: 12px;
+    width: 73%;
+    margin-top: 0%;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > p {
+    /* border: 1px solid red; */
+    width: 75%;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > button {
+    /* border: 1px solid black; */
+    background-color: white;
+    color: blue;
+    border-radius: 7px;
+    width: 50%;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > button:hover {
+    background-color: darkblue;
+    color: white;
+  }
+
+  /* .plantBasedGetSolutionInnerImageDiv {
+    border: 1px solid blue;
+    width: 35%;
+  } */
+
+  .plantBasedGetSolutionInnerImageDiv > img {
+    width: 70%;
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .plantBasedGetSolutionParentDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
+    height: 650px;
+  }
+
+  .plantBasedGetSolutionBackImageDiv {
+    /* border: 1px solid black; */
+    /* position: absolute; */
+    width: 100%;
+    /* height: 500px; */
+  }
+
+  .plantBasedGetSolutionBackImageDiv img {
+    /* border: 1px solid red; */
+    width: 100%;
+    object-fit: cover;
+    margin-left: 1%;
+    /* margin-top: 4%; */
+  }
+
+  .plantsBasedGetSolutionMainContentDiv {
+    /* border: 1px solid red; */
+    width: 100%;
+    position: relative;
+    margin-top: 15%;
+    display: flex;
+    margin-left: 0%;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+  }
+
+  .plantBasedGetSolutionSubContentDiv {
+    /* border: 1px solid gold; */
+    position: absolute;
+    width: 80%;
+    color: white;
+    top: 20%;
+    left: 0%;
+    margin-left: 5%;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > h3 {
+    /* border: 1px solid red; */
+    font-size: 23px;
+    width: 73%;
+    line-height: 35px;
+    margin-top: 0%;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > p {
+    /* border: 1px solid red; */
+    width: 75%;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > button {
+    /* border: 1px solid black; */
+    background-color: white;
+    color: blue;
+    border-radius: 7px;
+    width: 40%;
+    height: 40px;
+    border: none;
+    font-size: 23px;
+    font-weight: 600;
+  }
+
+  .plantBasedGetSolutionSubContentDiv > button:hover {
+    background-color: darkblue;
+    color: white;
+  }
+
+  /* .plantBasedGetSolutionInnerImageDiv {
+    border: 1px solid blue;
+    width: 35%;
+  } */
+
+  .plantBasedGetSolutionInnerImageDiv > img {
+    width: 70%;
+    margin-left: 10%;
+  }
+}

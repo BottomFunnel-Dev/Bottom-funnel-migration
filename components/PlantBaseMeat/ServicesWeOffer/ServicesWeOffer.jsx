@@ -55,6 +55,7 @@ export const ServicesWeOffer = () => {
                         <div>
                             <img src={image} alt={title} />
                         </div>
+                        
                         <h3>{title}</h3>
                         <p>{body}</p>
                     </div>
