@@ -31,7 +31,15 @@ export default function SocialMedia() {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <SocialMediaBanner />
       <SocialMediaSuggestion />
       <SocialMediaApproch />

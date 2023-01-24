@@ -21,7 +21,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Vetting () {
   return (
     <div className={styles.vettingPageContainer}>
-    <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <VettingBanner />
       <VettingProcess />
       <VettingTalent />

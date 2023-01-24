@@ -20,7 +20,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Travel() {
   return (
     <div>
-      <Navbar />
+  <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <Travelcontainer />
       <TravelBrands />
       <Travelfeature />

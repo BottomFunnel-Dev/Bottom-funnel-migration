@@ -44,7 +44,15 @@ export default function RubyRails() {
       </Head>
 
       <main>
-        <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
         <WebdevBanner paraColor={"#393939"} bannerContent={rubyBanner} />
         <Techstackintro techContent={rubystackIntro} />
         <WebDevServices webservicesContent={rubywebDevServices} />

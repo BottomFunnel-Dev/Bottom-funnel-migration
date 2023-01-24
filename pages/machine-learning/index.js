@@ -36,7 +36,15 @@ export default function MachineLearning() {
         />
       </Head>
         <main>
-       <Navbar />
+        <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
          <MLBanner />
          <MLPopular />
         <MLMidBanner />

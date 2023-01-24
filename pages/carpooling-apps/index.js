@@ -30,7 +30,15 @@ export default function CarPooling() {
   return (
     <div>
       
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <CarpoolingBanner />
       {/* <Trusted partnerLogo={carpoolingLogo} /> */}
       <CarpoolingRide />

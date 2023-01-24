@@ -18,7 +18,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Kidswear () {
   return (
     <div>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <KidsWearBanner />
       <ExclusiveFeature />
       <AppFeature />

@@ -31,7 +31,15 @@ export default function SaasPage() {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <Saasbanner />
       <SaasExpetise />
       <SaasSuite />

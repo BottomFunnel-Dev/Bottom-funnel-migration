@@ -28,9 +28,9 @@ export const Laundryapppagelowerfooter = () => {
     <h1>Why Choose Bottom Funnel As Your Laundry App Development Company ?</h1>
     <p>Our custom-built dry-cleaning app development services will help you deliver premium service for your customers and achieve the target ROI.</p>
     </div>
-    <div className={styles.laundrylowerbannermapperbox}>{Laundrywhydata.map((e)=>{
+    <div className={styles.laundrylowerbannermapperbox}>{Laundrywhydata.map((e,i)=>{
       return (
-        <div className={styles.laundryfooterbanmappeindi}>
+        <div key={i} className={styles.laundryfooterbanmappeindi}>
 <div className={styles.cardiconlaundry}><img src={e.cardIcon} alt="images" /></div>
 <div className={styles.cardtitlelaundry}><h3>{e.cardtitle}</h3></div>
 

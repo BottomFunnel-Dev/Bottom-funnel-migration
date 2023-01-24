@@ -32,7 +32,15 @@ export default function News() {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <Newsintro />
       <Trusted partnerLogo={newsLogo} />
       <Newspaper />

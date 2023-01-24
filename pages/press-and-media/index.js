@@ -18,7 +18,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function PressMedia () {
   return (
     <div>
-      <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <NewsEventBanner />
       <NewsEventSection />
       <MediaSection />

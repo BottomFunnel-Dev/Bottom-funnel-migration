@@ -19,7 +19,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function AppBuilderSolution () {
   return (
     <div>
-      <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <AppBuilderSolutionBanner />
       <AppBuilderDiscoverApp />
       <AppBuilderWhyShuld />

@@ -22,7 +22,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function DataScience () {
   return (
     <div>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <DataScienceBanner />
       <DataScienceUnique />
       <DataScienceServices />

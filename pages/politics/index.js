@@ -33,7 +33,15 @@ export default function Politics() {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <Politicscontainer />
       <Politicalparty />
       <Politicsmobile />
