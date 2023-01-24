@@ -56,3 +56,68 @@
   height: 100px;
   /* background-color: green; */
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .SeoTrusted {
+    display: flex;
+    padding: 50px 0;
+    background-color: white;
+  }
+
+  .SeoTrustedCarousel {
+    width: 68%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .SeoTrustedtext {
+    width: 30%;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+    font-weight: 600;
+    background-color: #ef4c23;
+    position: relative;
+  }
+
+  .globalbrands {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+  }
+
+  .Seobrandimg {
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 147px;
+    position: relative;
+  }
+
+  .Seobrandimg > img {
+    width: 80%;
+    height: 70%;
+    object-fit: contain;
+    filter: grayscale(1);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  .Seobrandimg > img:hover {
+    filter: none;
+  }
+
+  .mainlogoDiv {
+    height: 100px;
+    /* background-color: green; */
+  }
+}

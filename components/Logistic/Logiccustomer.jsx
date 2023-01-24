@@ -6,6 +6,7 @@ export default function Logiccustomer({ customerData }) {
   return (
     <div className={styles.logiccustomer}>
       <h1>{customerData.sectionTitle}</h1>
+      
       <div className={styles.logiccustomersub}>
         <div className={styles.logiccustomerright}>
           {customerData.customerdata.map(({ title, icon, para }, idx) => {
@@ -22,8 +23,7 @@ export default function Logiccustomer({ customerData }) {
           })}
         </div>
 
-        <div
-          className={styles.logiccustomerleft}
+        <div className={styles.logiccustomerleft}
           style={{
             background: `url(${customerData.background})`,
             backgroundRepeat: "no-repeat",

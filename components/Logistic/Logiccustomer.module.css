@@ -76,3 +76,196 @@
   height: 100%;
   object-fit: contain;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .logiccustomer {
+    width: 100%;
+    height: max-content;
+    /* background-color: aqua; */
+    margin: 60px 0;
+  }
+
+  .logiccustomer > h1 {
+    margin-left: 25%;
+    /* margin-bottom: 5%; */
+    font-size: 30px;
+  }
+
+  .logiccustomersub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .logiccustomerleft {
+    /* border: 1px solid red; */
+    margin-top: 30%;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    flex-direction: column-reverse;
+    /* background: url("/public/Images/logistic/rectanglebase.png"); */
+    /* background-position: center; */
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .logiccustomerright {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 8%;
+    justify-content: center;
+  }
+
+  .logiccustomerright > div {
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+    width: 95%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .logiccustomerright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .logiccustomerright > div > h3 {
+    font-size: 18px;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+
+  .logisticCustomerImage {
+    /* border: 1px solid red; */
+    width: 65%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    /* margin-top: -10px; */
+  }
+
+  .logisticCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .logiccustomer {
+    width: 100%;
+    height: max-content;
+    /* background-color: aqua; */
+    margin: 60px 0;
+  }
+
+  .logiccustomer > h1 {
+    margin-left: 35%;
+    /* margin-bottom: 5%; */
+    font-size: 40px;
+  }
+
+  .logiccustomersub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .logiccustomerleft {
+    /* border: 1px solid red; */
+    margin-top: 30%;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    flex-direction: column-reverse;
+    /* background: url("/public/Images/logistic/rectanglebase.png"); */
+    /* background-position: center; */
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .logiccustomerright {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 8%;
+    justify-content: center;
+  }
+
+  .logiccustomerright > div {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+    width: 95%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .logiccustomerright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .logiccustomerright > div > h3 {
+    font-size: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+
+  .logisticCustomerImage {
+    /* border: 1px solid red; */
+    width: 65%;
+    height: 400px;
+    text-align: right;
+    margin: auto;
+    /* margin-top: -10px; */
+  }
+
+  .logisticCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 15%;
+    /* border: 1px solid red; */
+  }
+}

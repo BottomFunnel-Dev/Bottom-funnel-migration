@@ -22,8 +22,7 @@ export default function Logisticadmin({ adminData }) {
           })}
         </div>
 
-        <div
-          className={styles.logicadminleft}
+        <div className={styles.logicadminleft}
           style={{
             background: `url(${adminData.background})`,
             backgroundRepeat: "no-repeat",
