@@ -344,6 +344,9 @@ box-sizing: border-box;
     background-color: #fcdbd3;
     box-sizing: border-box;
   }
+  .mainLeadform{
+    height: fit-content;
+  }
 .formHeader > h2 {
   font-size: 25px;
 }
