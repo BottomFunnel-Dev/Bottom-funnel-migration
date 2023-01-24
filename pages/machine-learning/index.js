@@ -36,7 +36,7 @@ export default function MachineLearning() {
         />
       </Head>
         <main>
-
+       <Navbar />
          <MLBanner />
          <MLPopular />
         <MLMidBanner />
