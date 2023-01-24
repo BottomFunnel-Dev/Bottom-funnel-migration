@@ -47,5 +47,28 @@
 
 }
 
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .planProject{
+        padding: 0px;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        height: fit-content; 
+        box-sizing: border-box;       
+    }
+    .planProject>div{
+        padding: 10px;     
+    }
+    .planProject>div>h1{
+       font-size: 24px;    
+    }
+    .planProject>div>button{
+       margin: 0;  
+       font-size: 16px;  
+       padding: 8px 20px;
+       margin-bottom: 10px;
+    }
 
+
+}
 

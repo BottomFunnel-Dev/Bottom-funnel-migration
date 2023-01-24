@@ -7,14 +7,14 @@ import { ProductResources } from "./ProductResources";
 import { ProductFeature } from "./ProductFeature";
 import { ProductDesk } from "./ProductDesk";
 
-export const ProductsNavbar = ({ scroll }) => {
+export const ProductsNavbar = ({navproductredux ,scroll }) => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
   const [productresource, setproductResource] = useState(false);
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
-  const navproductredux = useSelector((state) => state.navbar);
+  // const navproductredux = useSelector((state) => state.navbar);
 
   const skillProductHoverIn = () => {
     setproductNabvar(true);

@@ -19,7 +19,16 @@ import Services from "../components/Services/Services";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
+
       <BannerFull />
       <CompanyLogo />
       <About />
@@ -28,7 +37,7 @@ export default function Home() {
       <StoriesSection />
       <Industries />
       <OndemandSection />
-      <PortFolio/>
+      {/* <PortFolio/> */}
       <PlanProject />
       <Companystats />
       <SeoblogSection />

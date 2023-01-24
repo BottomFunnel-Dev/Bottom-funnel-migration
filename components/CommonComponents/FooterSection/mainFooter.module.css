@@ -184,6 +184,7 @@
   flex-wrap: wrap;
   color: white;
   font-weight: 500;
+  align-items: center;
 }
 .footerMapContactSection li:nth-child(2) {
   border-left: 1px solid white;
@@ -271,3 +272,87 @@
   cursor: pointer;
   padding-left: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .mainFooterSection {
+    width: 100%;
+    flex-direction: column-reverse;
+    height: fit-content;
+  }
+
+  .rightFooter {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerLogo {
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.leftFooter {
+  width: 100%;
+}
+.startWith {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+.startWith>h3 {
+font-size: 16px;
+}
+.startWith>button {
+font-size: 15px;
+border-radius: 10px;
+width: 45%;
+padding: 8px 0;
+}
+
+.footerServices {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.logoBottom {
+  width: 100%;
+  position: relative;
+}
+.footerLogo > div > img {
+  width: 60%;
+  height: 75%;
+  object-fit: contain;
+}
+
+.taglinefooter {
+  position: absolute;
+  top: 30px;
+  width: 55%;
+  left: 73px;
+  color: white;
+}
+
+.footerAddress {
+  position: relative;
+  height: fit-content;
+  width: 68%;
+}
+
+.footerMapContactSection {
+ 
+}
+}
+
+
+

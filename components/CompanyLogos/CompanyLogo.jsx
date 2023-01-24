@@ -56,7 +56,7 @@ const CompanyLogo = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 480,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
