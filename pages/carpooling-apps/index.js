@@ -33,13 +33,13 @@ export default function CarPooling() {
       <Navbar />
       <CarpoolingBanner />
       {/* <Trusted partnerLogo={carpoolingLogo} /> */}
-      {/* <CarpoolingRide /> */}
-      {/* <CarpoolingSolutions /> */}
-      {/* <Logiccustomer customerData={carpoolCustomer} /> */}
-      {/* <Logicdrive driveData={carpoolDrive} /> */}
-      {/* <Logisticadmin adminData={carpoolAdmin} /> */}
-      {/* <CarpoolingAction /> */}
-      {/* <CarpoolingWhy /> */}
+      <CarpoolingRide />
+      <CarpoolingSolutions />
+      <Logiccustomer customerData={carpoolCustomer} />
+      <Logicdrive driveData={carpoolDrive} />
+      <Logisticadmin adminData={carpoolAdmin} />
+      <CarpoolingAction />
+      <CarpoolingWhy />
 
       {/* <StoriesSection /> */}
       {/* <Industries /> */}

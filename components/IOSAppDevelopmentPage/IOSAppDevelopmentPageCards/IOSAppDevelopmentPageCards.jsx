@@ -7,8 +7,8 @@ export const IOSAppDevelopmentPageCards = () => {
             <div className={styles.IOSAppDevelopmentPageCardsMainDiv}>
                 <div className={styles.IOSAppDevelopmentPageCardsInnerMainDiv}>
                     <div className={styles.IOSAppDevelopmentPageCardsInnerMainDivcontain}>
-                        <h1>IOS Application Development  </h1>
-                        <h1>Service</h1>
+                        <h1>IOS Application Development Service </h1>
+                        
                         <p>
                             Are you searching for an iPhone applications development company which could help you expand your reach to more than a billion users of Apple products?
                             Digiteum team could be the one you are looking for. Over a decade in custom iOS app development, we have built dozens of applications for different Apple devices.
@@ -22,7 +22,7 @@ export const IOSAppDevelopmentPageCards = () => {
                     </div>
                 </div>
 
-                <div className={styles.IOSAppDevelopmentPageCardsInnerMainDiv2}>
+                 <div className={styles.IOSAppDevelopmentPageCardsInnerMainDiv2}>
                     <div className={styles.innermaindiv2}>
                         <div className={styles.innermaindiv2box}>
                             <div className={styles.mainbox}>
@@ -86,8 +86,8 @@ export const IOSAppDevelopmentPageCards = () => {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div className={styles.IOSAppDevelopmentPageCardsInnerMainDiv3} >
+                </div> 
+                 <div className={styles.IOSAppDevelopmentPageCardsInnerMainDiv3} >
                     <div className={styles.innermaindiv3Contain} >
                         <h1> We Offer Custom Android App Development across all platforms </h1>
                         <p>
@@ -99,9 +99,9 @@ export const IOSAppDevelopmentPageCards = () => {
                     <div className={styles.innermaindiv3Image} >
                         <img src='/Images/iosappdevelopmentphotos/Group 340002.png' alt='image' className={styles.innermaindiv3Imagemain} />
                     </div>
-                </div>
+                </div> 
 
-                <div className={styles.iosCardsInnermaindiv4} >
+                 <div className={styles.iosCardsInnermaindiv4} >
                     <div className={styles.iosinnermaindiv41stdiv} >
                         <div className={styles.iosinnermaindiv41stdivbox} >
                             <div className={styles.ios1stdivbox} >
@@ -160,8 +160,8 @@ export const IOSAppDevelopmentPageCards = () => {
                     </div>
 
                     <div className={styles.iosinnermaindiv42nddiv} > 
-                        <h1>user-Centric Mobile App   </h1>
-                        <h1>Development Solutions</h1>
+                        <h1>User-Centric Mobile App Development Solutions  </h1>
+                       
                         <p>
                             Our cost-effective iOS app development services are distinguished by the sacrosanct operational methodologies
                             we follow while designing your business app. The entire process of iOS mobile app development begins with platform
@@ -170,14 +170,14 @@ export const IOSAppDevelopmentPageCards = () => {
                             with seamless functionality. And this is how every iOS mobile application project starts at Trank Technologies.
                         </p>
                     </div>
-                </div>
+                </div> 
 
 
                 <div className={styles.IOSAppDevelopmentPageCardsInnermaindiv5}>
-                    <h2>Convert Your Ideas Into Steadfast Reality With Bottom funnel The world-class mobile app development company</h2>
-                    <div className={styles.innermaindiv5BoxDiv}>
-                        <div className={styles.innermaindiv4Boxdiv1stColum} >
-                            <div className={styles.innermaindiv4Row}>
+                     <h2>Convert Your Ideas Into Steadfast Reality With Bottom funnel The world-class mobile app development company</h2> 
+                     <div className={styles.innermaindiv5BoxDiv}> 
+                        <div className={styles.innermaindiv4Boxdiv1stColum} > 
+                             <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg} >
                                     <img src='Images/iosappdevelopmentphotos/1lightbulb.png' alt='logo'></img></div>
                                 <h4> Custom App Development </h4>
@@ -187,7 +187,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                     application platform that you can navigate and manage hassle-free. These top iOS developers also take care of the interface management
                                     to make sure that your users can operate your iOS app effortlessly.
                                 </p>
-                            </div>
+                            </div> 
                             <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1best-employee.png' alt='logo'></img></div>
@@ -198,8 +198,8 @@ export const IOSAppDevelopmentPageCards = () => {
                                     business application through effective planning. We have certified iPhone app developers who can craft the perfect resurgence
                                     for your online brand and make your services stand apart in the assiduous competition out there.
                                 </p>
-                            </div>
-                            <div className={styles.innermaindiv4Row}>
+                            </div> 
+                             <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1security.png' alt='logo'></img></div>
                                 <h4> Hybrid iOS App Design & Development </h4>
@@ -209,10 +209,10 @@ export const IOSAppDevelopmentPageCards = () => {
                                     our iOS app designers build a customized layout for your mobile app. Before boarding on the core development part, we formulate
                                     a strategy roadmap and suggest the best iOS frameworks through concise consulting.
                                 </p>
-                            </div>
-                        </div>
-                        <div className={styles.innermaindiv4Boxdiv1stColum} >
-                            <div className={styles.innermaindiv4Row}>
+                            </div> 
+                         </div> 
+                        {/* <div className={styles.innermaindiv4Boxdiv1stColum} > 
+                             <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1agile-team.png' alt='logo'></img></div>
                                 <h4> Enterprise iOS App Custom Integration </h4>
@@ -224,7 +224,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                 </p>
                             </div>
 
-                            <div className={styles.innermaindiv4Row}>
+                             <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1worldwide.png' alt='logo'></img></div>
                                 <h4> iOS App Migration & Upgradation </h4>
@@ -234,8 +234,8 @@ export const IOSAppDevelopmentPageCards = () => {
                                     our users. Therefore, we have added this aspect of mobile application up-gradation in our big bucket of tailor-made services.
                                     Our ardent iPhone app developers are always happy to help with app data migration and similar projects.
                                 </p>
-                            </div>
-                            {/* <div className='{styles.innermaindiv4Row}'>
+                            </div> 
+                             <div className='{styles.innermaindiv4Row}'>
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1worldwide.png' alt='logo' ></img></div>
                                 <h4> Maintenance & Support </h4>
@@ -244,12 +244,12 @@ export const IOSAppDevelopmentPageCards = () => {
                                     be there to help you. Our full-stack iOS app development services encompass every vital practice from research and conceptualization
                                      to development and maintenance. Our team of iOS developers is always available to provide on-demand technical support for our clients.
                                 </p>
-                            </div> */}
-                        </div>
+                            </div> 
+                         </div>  */}
 
-                    </div>
-                </div>
-            </div>
+                    </div> 
+                 </div> 
+             </div>
         </div>
     )
 }

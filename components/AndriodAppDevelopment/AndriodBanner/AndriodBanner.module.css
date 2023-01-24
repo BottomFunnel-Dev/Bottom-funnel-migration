@@ -1,6 +1,9 @@
+
+
+
 .andriodAppDevbannermainbox {
     height: 100vh;
-    width: 99.7%;
+    width: 100%;
     border: 1px solid white;
     /* margin-top: 120px; */
     background-image: url("/Images/AndriodDevImages/bannerAdriod.png");
@@ -11,37 +14,102 @@
   
   .andriodAppDevbannermainboxinnertextdiv {
     /* height: 50%; */
-    width: 37%;
-    margin-top: 16%;
-    margin-left: 4%;
+    width: 40%;
+   margin-top: 12%;
+   margin-left: 4%;
     text-align: left;
     /* border: 2px solid red; */
   }
   
   .andriodAppDevbannermainboxinnertextdiv > h1 {
     color: white;
+    font-size: 40px;
+    font-weight: 600;
   }
+
+    .andriodAppDevbannermainboxinnertextdiv > h1> span {
+        color: #ef4c23;
+    }
   .andriodAppDevbannermainboxinnertextdiv > p {
     color: white;
     margin-top: 2%;
+    font-size: 16px;
+    text-align: justify;
   }
   
   .andriodAppDevbannerbutton {
     padding: 10px 50px;
     border-radius: 10px;
     width: 220px;
-    background-color: #3380F2;
+    background-color: #ef4c23;
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: white;
-    margin-top: 1%;
+    margin-top: 2%;
   }
   
   .andriodAppDevbannerbutton:hover {
     background-color: white;
-    color: #3380f2;
+    color: #ef4c23;
+  }
+
+
+@media only screen and ( min-width:0px) and (max-width:1024px){
+  .andriodAppDevbannermainbox {
+    height:fit-content;
+    width: 100%;
+    /* border: 2px solid red; */
+    /* margin-top: 120px; */
+    background-image: url("/Images/AndriodDevImages/bannerAdriod.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+  }
+  .andriodAppDevbannermainboxinnertextdiv {
+    /* height: 50%; */
+    width: 50%;
+   margin-top: 6%;
+   margin-left: 4%;
+    text-align: left;
+    padding-bottom: 50px;
+    /* border: 2px solid red; */
   }
   
+  .andriodAppDevbannermainboxinnertextdiv > h1 {
+    color: white;
+    font-size: 25px;
+  }
+  .andriodAppDevbannermainboxinnertextdiv > h1> span {
+    color: #ef4c23;
+}
+.andriodAppDevbannermainboxinnertextdiv > p {
+color: white;
+margin-top: 2%;
+font-size: 14px;
+text-align: justify;
+}
+
+.andriodAppDevbannerbutton {
+padding: 10px 50px;
+border-radius: 10px;
+width: 220px;
+background-color: #ef4c23;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 12px;
+font-weight: 600;
+color: white;
+margin-top: 2%;
+}
+
+.andriodAppDevbannerbutton:hover {
+background-color: white;
+color: #ef4c23;
+}
+
+}

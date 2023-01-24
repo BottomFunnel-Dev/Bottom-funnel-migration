@@ -1,3 +1,6 @@
+
+
+
 .andriodServicesMainDiv {
   width: 100%;
   /* border: 2px solid black; */
@@ -5,18 +8,17 @@
   flex-direction: column;
 }
 .andriodServicesheading {
-  color: black;
+  
   width: 90%;
-  margin-left: 3%;
-  margin-top: 2%;
+ margin: auto;
   /* border: 2px solid red; */
 }
 .andriodServicesContainerDiv {
   /* border: 2px solid black; */
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-top: 1%;
-  border-radius: 5px;
+
+  border-radius: 10px;
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
@@ -34,8 +36,9 @@
   border-radius: 5px;
   /* border: 2px solid red; */
   background-color: white;
+
   margin-left: 3%;
-  padding: 15px;
+  padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   flex-direction: column;
@@ -53,30 +56,131 @@
 }
 
 .andriodServiceBoxIcon {
-  border: 1px solid lightgray;
-  width: 25%;
-  height: 65px;
-  padding-left: 6px;
-  border-radius: 5px;
-  margin-top: 3%;
+  /* border: 1px solid lightgray; */
+  width: 60px;
+  height: 60px;
   object-fit: cover;
   background-size: cover;
 }
 .andriodServiceBoxHeading {
   /* border: 2px solid red; */
   width: 100%;
-  margin-top: 3%;
-  font-weight: 500;
+  margin: 0%;
+  font-weight: 600;
+}
+.andriodServiceBoxHeading  h6{
+  margin: 2%;
 }
 .andriodServiceBoxContent {
   /* border: 2px solid red; */
   width: 100%;
-  margin-top: 3%;
+
   font-size: 13px;
+}
+.andriodServiceBoxContent p{
+  margin: 1;
 }
 .andriodServiceImage {
   /* border: 2px solid red; */
   width: 60px;
   height: 60px;
-  padding: 7%;
+  
 }
+
+
+@media only screen and ( min-width:0px) and (max-width:1024px){
+  .andriodServicesMainDiv {
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .andriodServicesheading {
+  
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+    text-align: center;
+  }
+  .andriodServicesheading p{
+    /* border: 2px solid red; */
+    text-align: justify;
+  }
+  .andriodServicesContainerDiv {
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: auto;
+    
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  .andriodServiceBox {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .andriodServicesContainerBoxes {
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    /* border: 2px solid yellow; */
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     justify-content: center;
+    margin-top: 2%;
+  }
+  .andriodServicesContainerBoxes:hover {
+    cursor: pointer;
+   
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f08034;
+    color: white;
+  }
+  .andriodServiceBoxIcon {
+    /* border: 1px solid lightgray; */
+    width: 25%;
+    height: 65px;
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-top: 3%;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .andriodServiceBoxHeading {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 3%; */
+    font-weight: 500;
+  }
+  .andriodServiceBoxHeading h6 {
+    margin: 1;
+  }
+  .andriodServiceBoxContent {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 3%; */
+    font-size: 13px;
+  }
+  .andriodServiceBoxContent p{
+    margin: 2;
+  }
+  .andriodServiceImage {
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+    padding: 7%;
+  }
+
+}
+
+
+

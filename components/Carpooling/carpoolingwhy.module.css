@@ -6,11 +6,11 @@
   margin-bottom: 20px;
 }
 
-.solutionsFeatures{
+.solutionsFeatures {
   /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   gap: 3%;
 }
@@ -46,4 +46,115 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .carpoolingwhy {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+  }
+
+  .solutionsFeatures {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .carpoolWhy {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .carpoolWhy > h1 {
+    border: 1px solid red;
+  }
+
+  .whyCards {
+    width: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border: 1px solid rgb(195, 193, 193);
+    transform: all 0.2s linear;
+  }
+
+  .whyCards:hover {
+    transform: scale(1.02);
+  }
+
+  .whycardIcon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+
+  .whycardIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .carpoolingwhy {
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: green; */
+    /* padding: 30px; */
+    margin-bottom: 20px;
+  }
+
+  .solutionsFeatures {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .carpoolWhy {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .whyCards {
+    width: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border: 1px solid rgb(195, 193, 193);
+    transform: all 0.2s linear;
+  }
+
+  .whyCards:hover {
+    transform: scale(1.02);
+  }
+
+  .whycardIcon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+
+  .whycardIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }

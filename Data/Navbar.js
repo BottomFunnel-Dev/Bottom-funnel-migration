@@ -396,22 +396,22 @@ export const ondemand = [
   {
     dropContent: "Food Delivery App",
     navIcons: "Images/navbar/industriesImage/fooddeliveryimage.png",
-    path: "food-delivery",
+    path: "food-delivery-app",
   },
   {
     dropContent: "On Demand Home Services",
     navIcons: "Images/navbar/industriesImage/ondemandhomeservices.png",
-    path: "ondemandHomeServices",
+    path: "ondemand-homeservice",
   },
   {
     dropContent: "Alcohol Delivery App",
     navIcons: "Images/navbar/industriesImage/alcohol.png",
-    path: "alcohol",
+    path: "alcoholdeliveryapp",
   },
   {
     dropContent: "Laundry Delivery",
     navIcons: "Images/navbar/industriesImage/laundry.png",
-    path: "laundry",
+    path: "laundary-delivery",
   },
   {
     dropContent: "Grocery Delivery App",
@@ -422,7 +422,7 @@ export const ondemand = [
   {
     dropContent: "Beauty & Salon App",
     navIcons: "Images/navbar/industriesImage/beauty.png",
-    path: "beautycareapp",
+    path: "beauty-and-salon",
   },
   {
     dropContent: "Cannabis Delivery App",
@@ -437,7 +437,7 @@ export const ondemand = [
   {
     dropContent: "Pickup & Delivery",
     navIcons: "Images/navbar/industriesImage/pickup.png",
-    path: "pickup&delivery",
+    path: "pickup-and-delivery",
   },
   {
     dropContent: "Pharmacy Delivery App",
@@ -447,12 +447,12 @@ export const ondemand = [
   {
     dropContent: "Flower Delivery App",
     navIcons: "Images/navbar/industriesImage/flowerdelivery.png",
-    path: "flower-delivery",
+    path: "flower-delivery-app",
   },
   {
     dropContent: "Carpooling Apps",
     navIcons: "Images/navbar/industriesImage/carpooling.png",
-    path: "carpooling",
+    path: "carpooling-apps",
   },
   {
     dropContent: "Taxi Booking App",

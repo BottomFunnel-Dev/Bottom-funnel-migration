@@ -15,27 +15,47 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 const index = () => {
   return (
     <div>
+
+    
+    <Head>
+     <title>Artificial intelligence Tools | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for tools that can help
+           you with your Artificial Intelligence Projects?
+            If so, you're in the right place! Here, we will
+             be discussing some of the best AI tools that 
+             are currently available in the market today."
+        />
+      </Head>
+        <main>
       <Navbar />
       <AiContentBanner />
-      <AiContentHuman />
-      <AiHowDoesWorks />
-      <AIContentApplication />
+     <AiContentHuman />
+       {/*  <AiHowDoesWorks />
+     {/*<AIContentApplication />
       <AiContentTextOnly />
 
-      {/* Other react required components  */}
+      {/* Other react required components  
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <PortFolio />  
       <PlanProject />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+  */}
+
+      </main>
+
     </div>
   );
 };

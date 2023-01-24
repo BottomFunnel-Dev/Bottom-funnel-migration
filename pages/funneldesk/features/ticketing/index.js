@@ -7,7 +7,7 @@ import { TickettingStartTrials } from "../../../../components/funnelDeksTicketin
 
 export default function funnelDeskTicketing() {
   return (
-    <div>
+    <div style={{ color: "#393939" }}>
       <TicketingBanner />
       <SimplifiedTicketting />
       <TickettingInbox />

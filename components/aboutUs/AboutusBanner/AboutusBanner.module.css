@@ -1,5 +1,6 @@
 /* for any type of laptp and wide range of screens */
-@media only screen and (min-width:769px){
+
+@media only screen and (min-width:900px){
 .aboutusBanner {
   height: 100vh;
   padding: 10px;
@@ -8,6 +9,7 @@
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 0px;
+
 }
 
 .aboutusbannercontent {
@@ -107,7 +109,7 @@
 
 /* for any type of mobile responsive */
 
-@media only screen and (min-width:0px) and (max-width:376px){
+@media only screen and (min-width:0px) and (max-width:480px){
 
   .aboutusBanner {
     /* height: 100vh;
@@ -118,7 +120,7 @@
     justify-content: space-evenly;
     margin-bottom: 0px; */
     height: 80vh;
-  
+  margin-bottom: 5%;
 
   }
   

@@ -4,27 +4,16 @@ import styles from "./TicketingServices.module.css";
 export const TicketingServices = () => {
   return (
     <div className={styles.ticketingServicesMainDiv}>
-      <div className={styles.ticketServiceHeading}>
-        <h1>Our Ticketing Service Offers</h1>
-      </div>
-      <div className={styles.ticketingServicesImageContainer}>
-        <div className={styles.ticketingServicesImageContainer1}>
-          <img src="/Images/ticketingPhotos/Tickets-2.png" />
-        </div>
-        <div className={styles.ticketingServicesImageContainer2}>
-          <img src="/Images/ticketingPhotos/Tickets-3.png" />
-        </div>
-      </div>
-      <div className={styles.ticketingServicesHeadingContainer}>
-        <div className={styles.ticketingServicesHeading1}>
+      <h1>Our Ticketing Service Offers</h1>
+      <div className={styles.TicketingServicesContainer}>
+        <div>
+          <div className={styles.TicketingServicesImages}>
+            <img
+              src="/Images/ticketingPhotos/Tickets-2.png"
+              alt="ticketingPhotos/Tickets-2.png"
+            />
+          </div>
           <h1>Collaborative Ticketing</h1>
-        </div>
-        <div className={styles.ticketingServicesHeading2}>
-          <h1>SLA Management</h1>
-        </div>
-      </div>
-      <div className={styles.ticketServiceContent}>
-        <div className={styles.ticketServiceContent1}>
           <p>
             Help Your Team to Collaborate Effectively to provide better Support
             experience.
@@ -45,7 +34,18 @@ export const TicketingServices = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.ticketServiceContent2}>
+        <div>
+          <span className={styles.TicketingServicesMidLineUpper}></span>
+          <span className={styles.TicketingServicesMidLineLower}></span>
+        </div>
+        <div>
+          <div className={styles.TicketingServicesImages}>
+            <img
+              src="/Images/ticketingPhotos/Tickets-3.png"
+              alt="ticketingPhotos/Tickets-3.png"
+            />
+          </div>
+          <h1>SLA Management</h1>
           <p>
             A service level agreement accross your freshDesk sets performance
             threshold that can be managed and optimizedover time.
@@ -66,25 +66,15 @@ export const TicketingServices = () => {
           </ul>
         </div>
       </div>
-
-      <div className={styles.ticketingServicesImageContainer}>
-        <div className={styles.ticketingServicesImageContainer1}>
-          <img src="/Images/ticketingPhotos/Tickets.png" />
-        </div>
-        <div className={styles.ticketingServicesImageContainer2}>
-          <img src="/Images/ticketingPhotos/Tickets-1.png" />
-        </div>
-      </div>
-      <div className={styles.ticketingServicesHeadingContainer}>
-        <div className={styles.ticketingServicesHeading1}>
+      <div className={styles.TicketingServicesContainer}>
+        <div>
+          <div className={styles.TicketingServicesImages}>
+            <img
+              src="/Images/ticketingPhotos/Tickets.png"
+              alt="ticketingPhotos/Tickets.png"
+            />
+          </div>
           <h1>Field Service Ticketing</h1>
-        </div>
-        <div className={styles.ticketingServicesHeading2}>
-          <h1>Contextual Ticketing with Custom Objects</h1>
-        </div>
-      </div>
-      <div className={styles.ticketServiceContent}>
-        <div className={styles.ticketServiceContent1}>
           <p>
             Create service task for customer tickets that require field visits.
           </p>
@@ -104,7 +94,18 @@ export const TicketingServices = () => {
             </li>
           </ul>
         </div>
-        <div className={styles.ticketServiceContent2}>
+        <div>
+          <span className={styles.TicketingServicesMidLineUpper}></span>
+          <span className={styles.TicketingServicesMidLineLower}></span>
+        </div>
+        <div>
+          <div className={styles.TicketingServicesImages}>
+            <img
+              src="/Images/ticketingPhotos/Tickets-1.png"
+              alt="ticketingPhotos/Tickets-1.png"
+            />
+          </div>
+          <h1>Contextual Ticketing with Custom Objects</h1>
           <p>
             Bring in all the business-critical information unique to your
             organization right inside your freshDesk.
@@ -116,7 +117,8 @@ export const TicketingServices = () => {
             </li>
             <li>
               Associates these objects with other custom or standard objects,
-              bring in complete context without switching multiple tabs or tools
+              bring in complete context without switching multiple tabs or
+              tools.
             </li>
             <li>
               Empower your agents by making this data available to them right on
@@ -124,7 +126,7 @@ export const TicketingServices = () => {
             </li>
             <li>
               Use a rich variety of filters to slice and dice your custom and
-              standard objects
+              standard objects.
             </li>
           </ul>
         </div>
