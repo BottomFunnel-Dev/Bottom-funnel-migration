@@ -103,7 +103,7 @@ const Industries = () => {
               <div className={styles.industryImage}>
                 <img src={item.industryImage} alt="image" />
               </div>
-              <h5 className={styles.industriesHeadingTag} style={{ color: "#ef4c23", marginTop: "90px" }}>{item.industryName}</h5>
+              <h5 className={styles.industriesHeadingTag} style={{ color: "#ef4c23" }}>{item.industryName}</h5>
               <p className={styles.industriesPTag} style={{ color: "#393939" }}>{item.description}</p>
 
               <IconContext.Provider value={{ className: styles.industrySectionIcon }}>

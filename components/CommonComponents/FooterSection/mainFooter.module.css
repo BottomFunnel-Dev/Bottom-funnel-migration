@@ -184,6 +184,7 @@
   flex-wrap: wrap;
   color: white;
   font-weight: 500;
+  align-items: center;
 }
 .footerMapContactSection li:nth-child(2) {
   border-left: 1px solid white;

@@ -7,3 +7,9 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+// rewrites() {
+//   return {
+      
+//   }
+// }

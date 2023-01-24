@@ -27,3 +27,22 @@
     margin-bottom: 10px !important;
   
   }
+
+
+  @media screen and (max-width: 480px) {
+    .footerTable {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 10px;
+      column-gap: 2%;
+      justify-content: center;
+    }
+  
+    .innerTable {
+      width: 47%;
+      box-sizing: border-box;
+     
+    }
+  
+  }

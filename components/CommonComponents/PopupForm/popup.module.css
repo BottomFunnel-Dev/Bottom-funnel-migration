@@ -36,7 +36,7 @@
   
   .addressSection {
     width: 40%;
-    /* padding: 20px; */
+    padding: 20px;
     position: relative;
   }
   .addressSection > img {
@@ -119,6 +119,7 @@
     width: 100%;
     
     padding: 20px;
+    box-sizing: border-box;
   }
   
   .popupformSection {
