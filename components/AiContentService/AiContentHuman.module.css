@@ -1,5 +1,5 @@
 .aicontenthumanmainboxes {
-  height: max-content;
+  height: 100vh;
 }
 
 .aicontenthumantextbox {
@@ -77,96 +77,6 @@
 
 @media only screen and (min-width:0px) and (max-width:480px){
 
-  .aicontenthumanmainboxes {
-    height: 270vh;
-
-  }
-  
-  .aicontenthumantextbox {
-    height: fit-content;
-    width: 80%;
-    margin: auto;
-
-    text-align: center;
-  
-  }
-  
-.aicontenthumantextbox>h1{
- font-size: 25px;
-}
-
-
-
-
-   .aicontenthumanbannerimageandtextbox {
-    height: 70%;
-    position: relative;
-    margin-top: 40%;
-   
-  } 
-  
-  .aicontentinnerbanneronlybox {
-    height: 210vh;
-    width: 100%;
-    margin-top: 5%;
-    background: url("/Images/AiContentsolution/bannersBackgrounds/Rectangle 4786.png");
-    background-size: 100% 100%;
-  }
-  
-  .aicontentdatamappermainboxmapping {
-    height: 100%;
-    /* position: absolute; */
-    width: 80%;
-    /* top: -15%; */
-    /* left: 10%; */
-    display: flex;
-    flex-wrap: wrap;
-
-    margin-top: 35%;
-  }
-  
-  .aicontentdataboxesindividually {
-    max-height: max-content;
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 2%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-
-
-  }
-  
-  .aicontentdataboxesindividually:hover {
-    transform: scale(1.02);
-  }
-  
-  .aicontenthumanlogobox {
-    height: 30%;
-    width: 30%;
-  
-    margin: auto;
-  }
-  
-  .aicontenthumanlogobox > img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
-  
-  .aicontenthumantextboxinner {
-    height: 70%;
-    width: 100%;
-  }
-  
-  .aicontenthumantextboxinner > h4 {
-    text-align: center;
-    margin-top: 0%;
-  }
-  
-  .aicontenthumantextboxinner > p {
-    text-align: justify;
-    margin-top: -5%;
-  }
+ 
 
 }

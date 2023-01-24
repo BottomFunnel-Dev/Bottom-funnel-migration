@@ -49,10 +49,10 @@ const index = () => {
      {/*<AIContentApplication />
       <AiContentTextOnly />
 
-      {/* Other react required components  
+      {/* Other react required components   */}
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio />  
+      {/* <PortFolio />   */}
       <PlanProject />
       <SeoblogSection />
       <Revamping />
@@ -60,7 +60,7 @@ const index = () => {
       <ContectForm />
       <MainFooter />
 
-  */}
+
 
       </main>
 
