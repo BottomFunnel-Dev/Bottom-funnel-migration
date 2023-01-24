@@ -27,7 +27,15 @@ export default function UIDesignPage  ()  {
 
   return (
     <div className={styles.UIDesignPagecontainer}>
-      <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <UIDesingBanner />
       <UIDesignEmotions />
       <UIDesignWhyBF />

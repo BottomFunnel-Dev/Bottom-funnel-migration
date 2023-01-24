@@ -31,7 +31,15 @@ export default function IOTDevelopment() {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <IOTBanner />
       <IOTServices />
       <IOTMidBanner />

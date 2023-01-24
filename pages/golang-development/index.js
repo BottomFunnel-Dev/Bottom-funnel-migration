@@ -38,7 +38,15 @@ export default function GolangPages() {
       </Head>
 
       <main>
-        <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
         <WebdevBanner paraColor={"#393939"} bannerContent={golangBanner} />
         <Techstackintro techContent={golangstackIntro} />
         <WebDevServices webservicesContent={golangwebDevServices} />

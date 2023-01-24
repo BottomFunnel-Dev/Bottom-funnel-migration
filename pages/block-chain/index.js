@@ -37,7 +37,15 @@ const index = () => {
 
 
   <main>
-      <Navbar />
+  <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <BlockChainBanner />
       <BlockChainOffer />
       <BlockChainServices />

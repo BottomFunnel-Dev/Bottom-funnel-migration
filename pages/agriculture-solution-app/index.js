@@ -24,7 +24,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function AgriculturePage() {
   return (
     <div>
-      <Navbar
+<Navbar
         productMount={{
           navMount: false,
         }}
@@ -33,7 +33,6 @@ export default function AgriculturePage() {
           logo: true,
         }}
       />
-      
       <AgricultureBanner />
 
       <AgricultureSolutions />

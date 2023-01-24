@@ -15,7 +15,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function IOSAppDevelopment() {
   return (
     <div>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <IOSAppDevelopmentPageBanner />
       <IOSAppDevelopmentPageCards />
 

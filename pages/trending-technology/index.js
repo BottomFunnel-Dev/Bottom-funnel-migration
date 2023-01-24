@@ -17,7 +17,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function TrendingTech () {
   return (
     <div>
-    <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <TrendingTechnologyBanner />
       <TrendingTechnologyService />
       <TrendingTechnologyLowerBanner />

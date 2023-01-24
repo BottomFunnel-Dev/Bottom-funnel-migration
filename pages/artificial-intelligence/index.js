@@ -34,12 +34,20 @@ const index = () => {
         />
       </Head>
         <main>
-      
-          <AiContentBanner />
-      {/*   <AiContentHuman /> 
-       <AiHowDoesWorks />
-         <AIContentApplication />*/}
-         <AiContentTextOnly /> 
+        <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
+      <AiContentBanner />
+     <AiContentHuman />
+       {/*  <AiHowDoesWorks />
+     {/*<AIContentApplication />
+      <AiContentTextOnly />
 
       {/* Other react required components   */}
       <StoriesSection />

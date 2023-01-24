@@ -21,7 +21,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function RealEstate() {
   return (
     <div>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <RealEstateBanner />
       <RealEstateNextBanner />
       <RealEstateSolution />
