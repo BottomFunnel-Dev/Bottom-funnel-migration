@@ -21,25 +21,26 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function MachineLearning() {
   return (
     <div>
-      <MLBanner />
-      <MLPopular />
-      <MLMidBanner />
-      <MLApproach />
-      <MLwhyBF />
-      <CustomWebForm />
-      
+         <MLBanner />
+         <MLPopular />
+        <MLMidBanner />
+        <MLApproach />
+        <MLwhyBF />
+        <CustomWebForm />
+        
 
-        {/* Other react required components   */}
+        {/* Other react required components    */}
         <StoriesSection />
         <OndemandSection />
-        {/* <PortFolio />    */}
-        {/* <PlanProject />   */}
+        {/* <PortFolio />     */}
+        {/* <PlanProject />    */}
           <SeoblogSection />
          <Revamping />
         <TextDropdown />
         <ContectForm />
         <MainFooter />
-    
+   
+
     </div>
   );
 }
