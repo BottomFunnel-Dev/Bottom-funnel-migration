@@ -54,3 +54,40 @@
   background: white;
   color: #ef4c23;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .ticketingBannerContainer {
+    flex-direction: column;
+    height: fit-content;
+    padding: 3% 0;
+  }
+
+  .ticketingBannerImage {
+    width: 80%;
+  }
+
+  .ticketingBannerContent {
+    width: 95%;
+    text-align: center;
+  }
+
+  .ticketingBannerContent > hr {
+    margin: 2% auto;
+  }
+
+  .ticketingBannerContent > h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .ticketingBannerContent > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .ticketingBannerContent > button {
+    font-size: 13px;
+    padding: 8px 20px;
+  }
+}

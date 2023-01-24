@@ -38,3 +38,47 @@
   width: 100%;
   transform: scale(1.7);
 }
+
+/* media query for mobile and tablet responsive */
+@media (max-width: 1024px) {
+  .simplifiedTickettingContainer hr {
+    display: none;
+    visibility: hidden;
+  }
+
+  .simplifiedTickettingContainer div {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .simplifiedTickettingContent {
+    width: 95%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .simplifiedTickettingContent > h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .simplifiedTickettingContent > p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .simplifiedTickettingImage {
+    width: 100%;
+    border-top: 8px solid #ef4c23;
+    border-bottom: 8px solid #ef4c23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+
+  .simplifiedTickettingImage > img {
+    width: 50%;
+    transform: scale(1.3);
+  }
+}
