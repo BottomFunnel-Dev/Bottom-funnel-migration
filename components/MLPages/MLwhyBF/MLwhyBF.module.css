@@ -1,3 +1,5 @@
+@media only screen and (min-width:901px){
+
 .MLwhyBFContainer {
   margin: auto;
   max-height: max-content;
@@ -76,6 +78,7 @@
   font-size: 16px;
   text-align: justify;
   margin-top: 3%;
+}
 }
 
 
@@ -180,3 +183,90 @@
   }
   
 }
+
+@media only screen and ( min-width:481px) and (max-width:900px){
+  .MLwhyBFContainer {
+    margin: auto;
+    max-height: max-content;
+    /* height: 135vh; */
+    position: relative;
+  
+  }
+  
+  .MLwhyBFBackgroundRectangle {
+    position: absolute;
+    height: 93%;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .MLwhyBFBackgroundRectangle > img:nth-child(1) {
+    align-self: flex-start;
+    height: 44%;
+    width: 40%;
+  }
+  
+  .MLwhyBFBackgroundRectangle > img:nth-child(2) {
+    align-self: flex-end;
+    height: 50%;
+    width: 40%;
+  }
+  
+  .MLwhyBFMain {
+    width: 90%;
+    margin: auto;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    z-index: 1;
+  }
+  
+  .MLwhyBFCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 95%;
+   margin: auto;
+  }
+  
+  .MLwhyBFCardsMain {
+    background-color: #f5f5f5;
+    width: 45%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 1%;
+ 
+    max-height: max-content;
+  }
+  
+  .MLwhyBFCardsMain > div {
+    height: 70px;
+    width: fit-content;
+  }
+  
+  .MLwhyBFCardsMain > div > img {
+    height: 100%;
+  }
+  
+  .MLwhyBFCardsMain > h3 {
+    font-size: 18px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .MLwhyBFCardsMain > p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 3%;
+  }
+
+
+  
+  }
