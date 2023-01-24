@@ -37,8 +37,8 @@ export default function AboutUS() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <AboutusBanner />

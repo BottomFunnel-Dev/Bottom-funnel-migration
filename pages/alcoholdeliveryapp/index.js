@@ -25,8 +25,8 @@ export default function AlcoholDelivery() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <AlcoholBanner />
