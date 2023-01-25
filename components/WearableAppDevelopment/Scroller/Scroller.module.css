@@ -2,10 +2,10 @@
     /* border: 2px solid red; */
     width: 100%;
     height: 100vh;
-    background-image: url("/public/Images/wearable/Rectangle 4559-1.png");
+    background-image: url("/Images/wearable/bgscroller.png");
     display: flex;
     flex-direction: row;
-    background-color: #98CEE7;
+    /* background-color: #98CEE7; */
     margin-top: 5%;
 }
 .ScrollerContent{
@@ -45,7 +45,7 @@
     margin: auto;
     /* border: 2px solid red; */
     background-color: white;
-    background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.png");
+    /* background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.png"); */
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -112,3 +112,129 @@ font-size: 16px;
     font-size: 18px;
     }
     
+    @media only screen and (min-width:0px) and (max-width:480px){
+        .ScrollerMainDiv{
+            /* border: 2px solid red; */
+            width: 100%;
+            height: fit-content;
+            background-image: url("/Images/wearable/bgscroller.png");
+            display: flex;
+            flex-direction:column;
+            /* background-color: #98CEE7; */
+            margin-top: 5%;
+        }
+        .ScrollerContent{
+            width: 100%;
+            margin: auto;
+            justify-content: center;
+            /* height: 50vh; */
+            /* margin-top: 8%; */
+            /* margin-left: 5%; */
+            /* border: 2px solid red; */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .ScrollerContent h1{
+            font-size: 32px;
+            font-weight: 500;
+        }
+        .ScrollerContent p{
+            color: white;
+            font-size: 16px;
+            margin-top: 5%;
+            text-align: justify;
+        }
+        .ScrollerContentScroller{
+            width: 90%;
+            /* height: 90vh; */
+            /* border: 2px solid black;  */
+            margin: auto; 
+            object-fit: cover;
+            background-size: cover;
+            background-color: white;
+            border-radius: 10px ;
+            margin-top: 3%;
+        }
+        .ScrollerContentScrollerDiv{
+            width: 95%;
+            height: 80vh;
+            margin: auto;
+            /* border: 2px solid red; */
+            background-color: white;
+            /* background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.png"); */
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+        }
+        .ScrollerContentScrollerDivContainer{
+            border: 1px solid lightgray;
+            /* height: 500px; */
+            width: 95%;
+            margin-top: 6%;
+            margin-left: 2%;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding-left: 3%;
+            padding-top: 2%;
+        
+        }
+        .ScrollerContentData{
+            /* border: 2px solid red; */
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+        }
+        .ScrollerContentIcon{
+            width: 50px;
+            height: 50px;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* height: 10vh; */
+            /* border: 2px solid red; */
+        }
+          
+        .ScrollerContentIcon h1{
+            font-size: 40px;
+            width: 50px;
+            height: 50px;
+            font-weight: 800;
+            color: #3280f2;
+            /* border: 2px solid yellow; */
+            margin-top: -15%;
+        }
+        
+        
+        .ScrollerContentHeading{
+            /* width: 70%; */
+            /* height: 10vh; */
+            /* border: 2px solid blue; */
+           
+            /* margin-left: 5%; */
+            font-size: 22px;
+            font-weight: 600;
+            padding-top: 2%;
+        }
+        .ScrollerContentDataText{
+            /* border: 2px solid green; */
+            /* width: 70%; */
+            height: 23vh;
+            /* margin-left: 16%; */
+        }
+        .ScrollerContentDataText p{
+        margin: 0%;
+        margin-left: 4%;
+        font-size: 16px;
+        
+        }
+        
+        .ScrollerContentDataText  li{
+            font-weight: bold;
+            font-size: 18px;
+            }
+            
+    }

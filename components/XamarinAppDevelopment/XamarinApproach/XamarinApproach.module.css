@@ -117,3 +117,126 @@
   width: 20%;
   text-align: left;
 }
+
+@media only screen and ( min-width:0px) and (max-width:1020px){
+  .xamarinApproachMainDiv {
+    border: 2px solid red;
+    width: 100%;
+    /* height: 200vh; */
+  }
+  .xamarinApproachHeadingDiv {
+    border: 2px solid red;
+    width: 100%;
+    /* height: 30vh; */
+    margin-top: 2%;
+    text-align: center;
+  }
+  .xamarinApproachHeadingDivText {
+    margin-left: 2%;
+  }
+  .xamarinApproachContentText {
+    /* font-size: 20px; */
+    margin-top: 1%;
+    margin-left: 2%;
+  }
+  .xamarinApproachContentDiv {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 130vh;
+    object-fit: cover;
+    background-size: cover;
+    text-align: center;
+    margin-top: 3%;
+  }
+  .xamarinApproachImage {
+    width: 85%;
+    position: relative;
+    z-index: 0;
+    display: none;
+    /* border: 2px solid green; */
+  }
+  .xamarinNativeUser {
+    z-index: 1;
+    position: absolute;
+    margin-top: -55.2%;
+    margin-left: 20%;
+  }
+  .xamarinNativeUserText {
+    z-index: 1;
+    position: absolute;
+    margin-top: -52%;
+    margin-left: 20%;
+    width: 20%;
+    text-align: left;
+  }
+  .xamarinIntegration {
+    z-index: 1;
+    position: absolute;
+    margin-top: -55.2%;
+    margin-left: 60%;
+  }
+  .xamarinIntegrationText {
+    z-index: 1;
+    position: absolute;
+    margin-top: -52%;
+    margin-left: 60%;
+    width: 20%;
+    text-align: left;
+  }
+  .xamarinCompiled {
+    z-index: 1;
+    position: absolute;
+    margin-top: -35.4%;
+    margin-left: 13%;
+  }
+  .xamarinCompiledText {
+    z-index: 1;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 13%;
+    width: 20%;
+    text-align: left;
+  }
+  .xamarinComponent {
+    z-index: 1;
+    position: absolute;
+    margin-top: -35.4%;
+    margin-left: 67%;
+  }
+  .xamarinComponentText {
+    z-index: 1;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 67%;
+    width: 20%;
+    text-align: left;
+  }
+  .xamarinLogic {
+    z-index: 1;
+    position: absolute;
+    margin-top: -15.6%;
+    margin-left: 21%;
+  }
+  .xamarinLogicText {
+    z-index: 1;
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 21%;
+    width: 20%;
+    text-align: left;
+  }
+  .xamarinPerformance {
+    z-index: 1;
+    position: absolute;
+    margin-top: -15.7%;
+    margin-left: 61%;
+  }
+  .xamarinPerformanceText {
+    z-index: 1;
+    position: absolute;
+    margin-top: -12%;
+    margin-left: 61%;
+    width: 20%;
+    text-align: left;
+  }
+}

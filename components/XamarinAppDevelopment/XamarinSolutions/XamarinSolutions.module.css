@@ -69,3 +69,84 @@
     top: 75%;
     left: 68%;
 }
+
+@media only screen and ( min-width:0px) and (max-width:1020px){
+    .xamarinSolutionsMainDiv{
+        border: 2px solid red;
+        width: 100%;
+        height: fit-content;
+        background-color: #F5F5F5;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .xamarinSolutionsHeading{
+        border: 2px solid red;
+        width: 90%;
+        margin: auto;
+    }
+    .xamarinSolutionsImage{
+        border: 2px solid red;
+        width: 100%;
+        height: 50vh;
+        margin: auto;
+        position: relative;
+    }
+    .xamarinSolutionsImage>img{
+        width: 100%;
+        height:fit-content;
+    }
+    .xamarinSolutions1{
+        position: absolute;
+        border: 2px solid red;
+        width: 0%;
+        top: 18%;
+        left: 4.5%;
+    }
+    .xamarinSolutions1text{
+        position: absolute;
+        top:6%;
+        left: 15%;
+        font-size: 2px;
+    }
+
+    .xamarinSolutions1text h6 {
+        font-size: 5px;
+    }
+    .xamarinSolutions2{
+        position: absolute;
+        border: 2px solid red;
+        width: 4%;
+        top: 68%;
+        left: 3.5%;
+    }
+    .xamarinSolutions2text{
+        position: absolute;
+        top: 75%;
+        left: 13.5%;
+    }
+    .xamarinSolutions3{
+        position: absolute;
+        /* border: 2px solid red; */
+        width: 4%;
+        top: 23.5%;
+        left: 91.8%;
+    }
+    .xamarinSolutions3text{
+        position: absolute;
+        top: 30%;
+        left: 66.5%;
+    }
+    .xamarinSolutions4{
+        position: absolute;
+        /* border: 2px solid red; */
+        width: 4.5%;
+        top: 67.5%;
+        left: 92.5%;
+    }
+    .xamarinSolutions4text{
+        position: absolute;
+        top: 75%;
+        left: 68%;
+    }
+
+}

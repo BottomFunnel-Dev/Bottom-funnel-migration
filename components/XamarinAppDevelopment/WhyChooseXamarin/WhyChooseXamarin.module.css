@@ -24,3 +24,34 @@
   width: 100%;
   height: 100%;
 }
+
+@media only screen and ( min-width:0px) and (max-width:1020px){
+  .whyChooseMainDiv {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .whyChooseContentText {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 5%; */
+    /* margin-top: 8%; */
+  }
+  
+  .whyChooseContentImage {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: fit-content;
+    object-fit: cover;
+    background-size: cover;
+    margin-left: 3%;
+  }
+  .whyChooseContentImage img {
+    width: 100%;
+    height: 100%;
+  }
+}

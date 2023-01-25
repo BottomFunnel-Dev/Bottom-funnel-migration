@@ -61,3 +61,75 @@
 .wearablebannermainboxImage img {
   width: 100%;
 }
+
+@media only screen and (min-width:0px) and (max-width:1020px){
+  .wearablebannermainbox {
+    height:fit-content ;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    /* border: 2px solid yellow; */
+  }
+  
+  .wearablebannermainboxinnertextdiv {
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+ 
+    align-items: center;
+    /* border: 2px solid red; */
+  margin-left: 3%;
+    margin-top: 5%;
+   
+    /* padding-top: 10.5%; */
+    /* text-align: center; */
+  }
+  .wearablebannermainboxImage {
+    /* border: 2px solid red; */
+    width: 80%;
+     margin: auto;
+    margin-top: 6%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wearablebannermainboxinnertextdiv > h1 {
+    color: black;
+    font-size: 40px;
+    /* margin-left: %; */
+    /* font-weight: 600; */
+  }
+  .wearablebannermainboxinnertextdiv > p {
+    color: black;
+    margin-top: 7%;
+    font-size: 18px;
+    text-align: justify;
+    /* font-weight: 500; */
+  }
+  
+  .wearablebannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+    /* border: 2px solid green; */
+  }
+  
+  .wearablebannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  .wearablebannermainboxImage img {
+    width: 100%;
+  }
+}

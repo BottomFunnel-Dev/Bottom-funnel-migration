@@ -183,3 +183,195 @@ font-size: 30px;
     font-size: 18px;
     margin-top: 1%;
 }
+
+@media only screen and (min-width:0px) and (max-width:480px){
+    .reactnativePageCardsInnermaindiv4{
+        display: flex;
+        flex-direction: column-reverse;
+        border: 2px solid blue;
+        /* height: 0vh; */
+    
+    
+    }
+    .rnativeinnermaindiv41stdiv{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid yellow;
+         /* margin-left: 1%; */
+        width: 100%;
+        /* margin-top: 3%; */
+    }
+    .rnativeinnermaindiv41stdivbox{
+        display: flex;
+        flex-direction: column-reverse;
+        border: 2px solid green ;
+        /* margin-top: 7%; */
+        /* width: 100%; */
+        /* margin-left: 12%; */
+    
+    }
+    .rnativeinnermaindiv41stdivbox h3{
+        font-size: 18px;
+        margin-left: 10%;
+    }
+    .rnativeinnermaindiv41stdivbox p{
+        font-size: 14px;
+       /* margin-top: 10%; */
+       margin-left: 10%;
+    }
+    .rn1stdivbox{
+        border: 2px solid red;
+        /* display: flex; */
+        /* flex-direction: row; */
+        margin-left: 5%;
+        margin-top: 3%;
+        /* width: 45%; */
+    }
+    .rnativeinnermaindiv42nddiv{
+        border-left: 2px solid red;
+       width: 100%;
+       /* margin-left: 2%; */
+       /* margin-top: 4%; */
+       /* padding-left: 3%; */
+    
+    }
+    .rnativeinnermaindiv42nddiv h1{
+        font-size: 30px;
+    
+    }
+    .rnativeinnermaindiv42nddiv p{
+        font-size: 16px;
+        margin-top: 3%;
+    
+    }
+    .rnlogo{
+        border: 2px solid pink ;
+        width: 62%;
+        height: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .rnlogoimg{
+        width: 90%;
+        height: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .nativeinnermaindiv5Boxdiv{
+        border: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        background-image:url("/public/Images/reactnativephotos/Rectangle 2.png") ;
+        /* width: 95%; */
+        /* margin-left: 4%; */
+        /* margin-right: 4%; */
+        margin-top: 2%;
+        /* margin-bottom: 4%; */
+        border-radius: 5px;
+        /* column-gap: 2%; */
+    }
+    
+    .nativeinnermaindiv4BoxdivFirststColum{
+        display: flex;
+        flex-direction: column-reverse;
+        border: 2px solid black;
+        width: 97%;
+        height: 40vh;
+        /* row-gap: 2%; */
+        /* padding-left: 4%; */
+        /* padding-right: 4%; */
+        /* padding-bottom: 4%; */
+        /* padding-top: 4%; */
+    }
+    .reactnativeinnermaindiv4Row{
+        justify-content: left;
+        text-align: left;
+        border: 2px solid red;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-left: 3%;
+        
+        margin-top: 2%;
+        padding-top: 1%;
+        padding-left: 1%;
+        border-radius: 10px;
+       
+    
+    }
+    .reactnativePageCardsInnermaindiv5{
+    border: 2px solid greenyellow;
+    
+    /* margin-top: 4%; */
+    
+    }
+    .reactnativeinnermaindiv4Row h4{
+        margin-top: 4%;
+        font-size: 25px;
+    }
+    .reactnativeinnermaindiv4Row p{
+        margin-top: 1%;
+        font-size: 15px;
+    }
+    .reactnativePageCardsInnermaindiv5 h2{
+    font-size: 30px;
+    
+    }
+    .innermaindiv2box h3{
+        margin-top: 3%;
+    }
+    
+    .nativereactheading{
+        border: 2px solid red;
+        justify-content: left;
+        text-align: left;
+        width: 90%;
+        margin-left: 3%;
+    }
+    .nativereactheading p{
+        margin-top: 1%;
+        font-size: 16px;
+        }
+    
+    .rnimag{
+        border: 2px solid green;
+        width:90% ;
+    }
+    
+    .rndivbox{
+        border: 2px solid yellow;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .middlebannerdiv{
+        border: 2px solid red;
+        background-image: url("/public/Images/ReactNativeDevelopement/aerial-view-business-team 2.png");
+        color: white;
+        margin-top: 3%;
+        height: 100vh;
+        object-fit: cover;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        padding-top: 5%;
+    
+    
+    }
+    
+    .middlebannerdiv h2{
+        font-size: 35px;
+    }
+    .middlebannerdiv p{
+        font-size: 18px;
+        margin-top: 1%;
+    }
+
+  
+
+    
+}

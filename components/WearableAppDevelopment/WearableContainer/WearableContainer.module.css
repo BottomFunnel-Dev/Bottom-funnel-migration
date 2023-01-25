@@ -63,6 +63,10 @@
   padding-right: 1%;
   /* text-align: left; */
 }
+.wearableserviceInnerCard:hover{
+  background-color: #f3ded4;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
 
 .wearableserviceInnerCard p {
   font-size: 14px;
@@ -89,4 +93,121 @@
 .wearablebannerbutton:hover {
   background-color: white;
   color: #3380f2;
+}
+.wearablegenerationdivimage{
+  display: none;
+}
+
+@media only screen and (min-width:0px) and (max-width:1020px){
+  .wearablecompanydiv {
+    /* border: 2px solid blue; */
+    width: 100%;
+    margin-left:3% ;
+    margin-top: 5%;
+    text-align: center;
+    
+  }
+  
+  .wearablecompanydiv h1 {
+    font-size: 40px;
+     text-align: center;
+    /* text-decoration: underline; */
+  }
+  
+  .wearablecompanydiv p {
+    font-size: 16px;
+    margin-top: 1%;
+    /* border: 2px solid yellow; */
+    width: 98%;
+    margin: auto;
+    text-align: justify;
+
+  }
+  .wearablegenerationdiv {
+    /* border: 2px solid green; */
+    width: 100%;
+    margin-left: 3%;
+    margin-top: 4%;
+    text-align: center;
+  }
+  .wearablegenerationdiv h1 {
+    font-size: 40px;
+  }
+  .wearablegenerationdiv p {
+    font-size: 15px;
+    margin-top: 1%;
+    text-align: justify;
+  }
+  
+  .wearableservice {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 100%;
+  }
+  .wearableservice h4 {
+    font-size: 35px;
+  }
+  
+  .wearableservicecard {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 2.5%;
+  }
+  
+  .wearableserviceInnerCard {
+    /* border: 2px solid gold; */
+    margin-left: 2%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 30vh;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* text-align: left; */
+  }
+  .wearableserviceInnerCard:hover{
+  background-color: #f3ded4;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .wearableserviceInnerCard p {
+    font-size: 14px;
+  }
+  
+  .wearableserviceInnerCard h5 {
+    font-size: 20px;
+  }
+  .wearablegenerationdivimage{
+    display: block;
+  }
+  
+  
+  .wearablebannerbutton1 {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .wearablebannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  
 }

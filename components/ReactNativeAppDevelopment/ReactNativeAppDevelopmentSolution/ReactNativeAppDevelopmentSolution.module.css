@@ -95,3 +95,109 @@
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@media only screen and (min-width:0px) and (max-width:480px){
+    .reactnativeMainDiv{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: #98CEE7;
+        margin-top: 5%;
+    }
+    .reactnativeContent{
+        width: 90%;
+        margin: auto;
+        /* height: 50vh; */
+        /* margin-top: 8%; */
+        /* margin-left: 3%; */
+        /* border: 2px solid blue; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .reactnativeContent h5{
+        font-size: 32px;
+        /* font-weight: 500; */
+    }
+    .reactnativeContent p{
+        color: white;
+        font-size: 16px;
+        margin-top: 3%;
+    }
+    .reactnativeContentScroller{
+        width: 90%;
+        margin: auto;
+        /* height: 90vh; */
+        /* border: 2px solid black;  */
+        /* margin-top: 3%; */
+        /* margin-left: 2%;   */
+        object-fit: cover;
+        
+        background-size: cover;
+        background-color: white;
+        /* margin-bottom: 3%; */
+    }
+    .reactnativeContentScrollerDiv{
+        width: 95%;
+        height: 85vh;
+        margin: auto;
+        /* border: 2px solid red; */
+        background-color: white;
+        /* background-image: url("/public/Images/ReactNativeDevelopement/React-icon 3.png"); */
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .reactnativeContentScrollerDivContainer{
+        /* border: 2px solid black; */
+       
+        width: 90%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        justify-content: left;
+        text-align: left;
+        padding-left: 2%;
+        padding-top: 2%;
+    }
+    .reactnativeContentData{
+        /* border: 2px solid red; */
+        width: 100%;
+       
+       
+    }
+    .reactnativeContentIcon{
+        width: 25%;
+        height: 10vh;
+        /* border: 2px solid yellow; */
+        
+    }
+    .reactnativeContentHeading{
+       
+        /* border: 2px solid cornflowerblue; */
+        margin-top: 0%;
+       
+    }
+    .reactnativeContentDataText{
+        /* border: 2px solid violet; */
+        width: 70%;
+        /* height: 15vh; */
+        margin-left: 16%;
+    }
+    .nativeimg{
+        width: 90%;
+        margin-top: 5%;
+        justify-content: center;
+        /* text-align: center; */
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
+
+    }
+    
+}

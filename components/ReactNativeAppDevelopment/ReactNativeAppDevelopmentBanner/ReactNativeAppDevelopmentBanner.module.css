@@ -49,3 +49,64 @@
   background-color: white;
   color: #3380f2;
 }
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .ReactNativeAppDevelopmentbannermainbox {
+    height: 100vh;
+    width: 100%;
+    /* border: 3px solid white; */
+    /* margin-top: 120px; */
+    background-image: url("/Images/ReactNativeDevelopement/Component 68 1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: top;
+    margin-top: 0px;
+    /* opacity: 70%; */
+    /* backface-visibility: (2,4,5); */
+    /* filter: brightness(.3); */
+  }
+  
+  .ReactNativeAppDevelopmentbannermainboxinnertextdiv {
+    height: 50%;
+    width: 80%;
+    /* border: 2px solid red; */
+    /* margin-top: 12%; */
+    /* margin-left: 3%; */
+    text-align: center;
+  }
+  
+  .ReactNativeAppDevelopmentbannermainboxinnertextdiv > h1 {
+    /* color: black; */
+    font-size: 30px;
+    /* font-weight: 600; */
+  }
+  .ReactNativeAppDevelopmentbannermainboxinnertextdiv > p {
+    /* color: white; */
+    margin-top: 7%;
+    font-size: 16px;
+    /* font-weight: 500; */
+  }
+  
+  .ReactNativeAppDevelopmentbannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 22px;
+  }
+  
+  .ReactNativeAppDevelopmentbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+}
+
+
+
+

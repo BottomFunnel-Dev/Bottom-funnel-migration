@@ -42,3 +42,53 @@
   background-color: white;
   color: #3380f2;
 }
+
+@media only screen and ( min-width:0px) and (max-width:1020px){
+  .xamarinDevelopersmainbox {
+    height: 10vh;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 2%;
+    background-image: url("/Images/Xamarin/Group 340012 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .xamarinDevelopersmainboxinnertextdiv {
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .xamarinDevelopersmainboxinnertextdiv > h1 {
+    color: white;
+    font-size: 20px;
+  }
+  .xamarinDevelopersmainboxinnertextdiv > p {
+    color: white;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+  }
+  
+  .xamarinDevelopersbutton {
+    padding: 10px 50px;
+    border-radius: 5px;
+    width: 190px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0%;
+    color: white;
+  }
+  
+  .xamarinDevelopersbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+
+}
+
