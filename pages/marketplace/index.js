@@ -17,7 +17,7 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function MarketPlace () {
+export default function MarketPlace() {
   return (
     <div>
       <Navbar />
@@ -28,16 +28,16 @@ export default function MarketPlace () {
       <Marketplaceborder />
       <Maketplacefooter />
 
-      <StoriesSection />
+      {/* <StoriesSection /> */}
       {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
+      {/* <PlanProject /> */}
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
+      {/* <MainFooter /> */}
     </div>
   );
-};
+}

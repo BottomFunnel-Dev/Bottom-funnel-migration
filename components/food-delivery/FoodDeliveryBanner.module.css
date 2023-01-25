@@ -10,7 +10,7 @@
 
 .foodDeliveryBannerContent {
   width: 45%;
-
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,3 +55,15 @@
   object-fit: contain;
   text-align: right;
 }
+
+/* @media (min-width: 481px) and (max-width: 1024px) {
+  
+  .foodDeliveryBannerMain{
+    border: 1px solid blue;
+    
+  }
+  .foodDeliveryBannerContent{
+    border: 1px solid red;
+    width: 45%;
+  }
+} */
