@@ -29,18 +29,17 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CarPooling() {
   return (
     <div>
-      
       <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
       <CarpoolingBanner />
-      {/* <Trusted partnerLogo={carpoolingLogo} /> */}
+      <Trusted partnerLogo={carpoolingLogo} />
       <CarpoolingRide />
       <CarpoolingSolutions />
       <Logiccustomer customerData={carpoolCustomer} />
@@ -49,16 +48,16 @@ export default function CarPooling() {
       <CarpoolingAction />
       <CarpoolingWhy />
 
-      {/* <StoriesSection /> */}
+      <StoriesSection />
       {/* <Industries /> */}
-      {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <PlanProject />
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
-      {/* <MainFooter /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 }

@@ -17,35 +17,36 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function MarketPlace () {
+export default function MarketPlace() {
   return (
     <div>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
-      <MarketplaceBanner />
-      <MarketplaceFreelancer />
-      <MarketPlaceAdmin />
-      <MarketPlaceClients />
-      <Marketplaceborder />
-      <Maketplacefooter />
 
-      <StoriesSection />
+      <MarketplaceBanner />
+      {/* <MarketplaceFreelancer /> */}
+      {/* <MarketPlaceAdmin /> */}
+      {/* <MarketPlaceClients /> */}
+      {/* <Marketplaceborder /> */}
+      {/* <Maketplacefooter /> */}
+
+      {/* <StoriesSection /> */}
       {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
+      {/* <PlanProject /> */}
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
+      {/* <MainFooter /> */}
     </div>
   );
-};
+}
