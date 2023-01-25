@@ -20,15 +20,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function MobileUiUxDesign() {
   return (
     <div>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <MobileUiUxBanner />
       <MobileUiUxToNotched />
       <MobileUXUIServiceOffer />

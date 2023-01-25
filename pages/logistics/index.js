@@ -40,15 +40,7 @@ export default function Logistics() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <Logisticcontainer />
       <Trusted partnerLogo={logisticsLogo} />
       <Logictransport />

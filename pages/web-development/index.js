@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function index() {
   return (
     <div>
-   <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <WebdevBanner bannerContent={webDevMain} />
       <WebDevServices webservicesContent={webDevServices} />
       <GetStarted />

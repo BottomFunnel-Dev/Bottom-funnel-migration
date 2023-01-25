@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function ToolDeliveryApp() {
   return (
     <div>
-   <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <TooDeliveryBanner />
       <ToolDeliveryService />
       <ToolDeliverysneak />

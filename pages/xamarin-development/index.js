@@ -21,15 +21,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function XamarinAppDevelopment() {
   return (
     <div>
-   <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <XamarinAppDevelopmentBanner />
       <XamarinMobileDevelopment />
       <XamarinSolutions />

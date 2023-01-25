@@ -27,21 +27,19 @@ const StoriesSection = () => {
     arrows: false,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 700,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 500,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
-          draggable: true,
-          touchMove:true,
         },
       },
     ],

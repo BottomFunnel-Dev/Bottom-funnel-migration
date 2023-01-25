@@ -23,15 +23,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CustomisedWebDevelopment () {
   return (
     <div className={styles.CustomisedWebPageContainer}>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <CustomisedWebBanner />
       <CustomisedWebUnique />
       <CustomisedWebServices />

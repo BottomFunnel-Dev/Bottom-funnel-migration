@@ -17,15 +17,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function ContactUs() {
   return (
     <div className={styles.ContactUScontainer}>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <ContactUSBanner />
       {/* --------------- Contact form from home page and other pages will come here ----------- */}
       <ContactUSForm />

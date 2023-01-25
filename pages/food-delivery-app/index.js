@@ -23,7 +23,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function FoodDelivery() {
   return (
     <div>
-      <Navbar
+<Navbar
         productMount={{
           navMount: false,
         }}

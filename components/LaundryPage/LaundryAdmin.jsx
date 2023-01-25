@@ -47,10 +47,10 @@ const LaundryAdmin = () => {
 <h1>Admin Pannel</h1>
 <p>By using it, providers can view their statistics and know how many users they have, their earnings, and their commissions.</p>
 
-<div className={styles.laundryadminmappingbox}>{LaundryAdminrData.map((e,i)=>{
+<div className={styles.laundryadminmappingbox}>{LaundryAdminrData.map((e)=>{
     return (
         <div className={styles.laundryadmindatamappingindi} 
-        key={i} onMouseEnter={() => {
+        key={e.Htxt} onMouseEnter={() => {
             
       handleImageChange(e.tablet)
        }}

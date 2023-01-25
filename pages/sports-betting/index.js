@@ -32,15 +32,7 @@ export default function SportsBetting() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar />
         <SportsBanner />
         <Trusted partnerLogo={sportsBettingLogo} />
         <SportsPanels />

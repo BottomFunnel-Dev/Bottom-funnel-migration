@@ -1,20 +1,19 @@
 .IOSAppDevelopmentbannermainbox {
   height: 100vh;
-  width: 100%;
-  border: 1px solid transparent;
+  width: 99.6%;
+  border: 3px solid white;
   background-image: url("/Images/iosappdevelopmentphotos/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 }
 
 .IOSAppDevelopmentbannermainboxinnertextdiv {
-  /* height: 50%; */
-  width: 40%;
-  /* border: 2px solid black; */
-  margin-top: 17%;
-  margin-left: 4%;
+  height: 50%;
+  width: 37%;
+
+  margin-top: 18%;
+  margin-left: 3%;
   /* text-align: center; */
 }
 
@@ -22,10 +21,6 @@
   color: white;
   font-size: 40px;
   font-weight: 600;
-}
-
-.IOSAppDevelopmentbannermainboxinnertextdiv > h1 > span{
-  color: #6568e1;
 }
 .IOSAppDevelopmentbannermainboxinnertextdiv > p {
   color: white;
@@ -52,68 +47,3 @@
   background-color: white;
   color: #3380f2;
 }
-
-
-@media only screen and ( min-width:0px) and (max-width:1024px){
- 
-  .IOSAppDevelopmentbannermainbox {
-    height: fit-content;
-    width: 100%;
-    border: 1px solid transparent;
-    background-image: url("/Images/iosappdevelopmentphotos/banner.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    
-  }
-  
-  .IOSAppDevelopmentbannermainboxinnertextdiv {
-    /* height: 50%; */
-    width: 40%;
-    /* border: 2px solid black; */
-    margin-top: 9%;
-    margin-left: 2%;
-    padding-bottom: 20px;
-    /* padding-bottom: 30px; */
-    /* text-align: center; */
-  }
-  
-  .IOSAppDevelopmentbannermainboxinnertextdiv > h1 {
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-  }
-  
-  .IOSAppDevelopmentbannermainboxinnertextdiv > h1 > span{
-    color: #6568e1;
-  }
-  .IOSAppDevelopmentbannermainboxinnertextdiv > p {
-    color: white;
-    margin-top: 0%;
-    font-size: 14px;
-    /* font-weight: 500; */
-  }
-  
-  .IOSAppDevelopmentbannerbutton {
-    padding: 10px 50px;
-    border-radius: 10px;
-    width: 180px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    margin-top: 22px;
-  }
-  
-  .IOSAppDevelopmentbannerbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-  
-  
-  
-}
-

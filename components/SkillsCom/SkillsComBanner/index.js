@@ -7,15 +7,7 @@ export const SkillsComBanner = ({ data }) => {
 
   return (
     <>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <div
         className={styles.skillsbannermain}
         style={{

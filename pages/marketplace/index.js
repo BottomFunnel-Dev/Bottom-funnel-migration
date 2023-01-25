@@ -20,22 +20,13 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function MarketPlace() {
   return (
     <div>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-
+      <Navbar />
       <MarketplaceBanner />
-      {/* <MarketplaceFreelancer /> */}
-      {/* <MarketPlaceAdmin /> */}
-      {/* <MarketPlaceClients /> */}
-      {/* <Marketplaceborder /> */}
-      {/* <Maketplacefooter /> */}
+      <MarketplaceFreelancer />
+      <MarketPlaceAdmin />
+      <MarketPlaceClients />
+      <Marketplaceborder />
+      <Maketplacefooter />
 
       {/* <StoriesSection /> */}
       {/* <Industries /> */}

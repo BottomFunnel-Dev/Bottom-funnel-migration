@@ -37,15 +37,7 @@ export default function PythonDevelopment() {
       </Head>
 
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar />
         <WebdevBanner paraColor={"#393939"} bannerContent={pythonBanner} />
         <Techstackintro techContent={pythonstackIntro} />
         <WebDevServices webservicesContent={pythonwebDevServices} />

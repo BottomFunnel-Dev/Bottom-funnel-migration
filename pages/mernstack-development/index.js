@@ -24,15 +24,7 @@ import Head from "next/head";
 export default function MernPageWebDevelopment() {
   return (
     <div style={{ color: "#393939" }}>
-   <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <Mernbanner bannerdata={mernbanner} />
       <MernIntro techIntro={whatData} />
       <MernPoluparServices popularservice={mernservices} />

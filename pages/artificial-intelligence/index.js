@@ -34,25 +34,17 @@ const index = () => {
         />
       </Head>
         <main>
-        <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <AiContentBanner />
      <AiContentHuman />
        {/*  <AiHowDoesWorks />
      {/*<AIContentApplication />
       <AiContentTextOnly />
 
-      {/* Other react required components   */}
+      {/* Other react required components  
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio />   */}
+      {/* <PortFolio />  
       <PlanProject />
       <SeoblogSection />
       <Revamping />
@@ -60,7 +52,7 @@ const index = () => {
       <ContectForm />
       <MainFooter />
 
-
+  */}
 
       </main>
 

@@ -6,7 +6,7 @@ export const IOSAppDevelopmentPageBanner = () => {
     <div>
       <div className={styles.IOSAppDevelopmentbannermainbox}>
         <div className={styles.IOSAppDevelopmentbannermainboxinnertextdiv}>
-          <h1><span>IOS App</span> Development Services</h1>
+          <h1>IOS App Development Services</h1>
           <p>
             We deliver iOS apps keeping in mind both the business side and the end-users. Hire iOS software developers now.
           </p>

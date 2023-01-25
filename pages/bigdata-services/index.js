@@ -38,15 +38,7 @@ export default function BigDataService() {
 
 
   <main>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar />
       <BigDataServiceBanner />
      <BigDataServicePopular />
      <BigDataServiceHandling />

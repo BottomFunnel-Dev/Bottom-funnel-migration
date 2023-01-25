@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function SalesForcePage() {
   return (
     <div className={styles.SalesforsePageContainer}>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <SaleforceBanner />
       <SalesforceServices />
       <SalesforceOffers />

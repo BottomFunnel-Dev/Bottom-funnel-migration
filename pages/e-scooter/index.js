@@ -21,15 +21,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Escooter() {
   return (
     <div>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <Escootersection />
       <Escooterstealing />
       <Escooterthunder />

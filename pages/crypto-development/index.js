@@ -23,15 +23,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CryptoDevPage() {
   return (
     <div className={styles.CryptoDevPageContainer}>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <CryptoDevBanner />
       <CryptoDevcurrency />
       <CryptoDevBenefit />

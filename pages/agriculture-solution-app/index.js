@@ -29,8 +29,8 @@ export default function AgriculturePage() {
           navMount: false,
         }}
         navredux={{
-          color: "black",
-          logo: false,
+          color: "white",
+          logo: true,
         }}
       />
       

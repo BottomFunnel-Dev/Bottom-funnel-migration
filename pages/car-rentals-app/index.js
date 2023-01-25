@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CarRentals() {
   return (
     <div>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <CarRentalHeader />
       <FeaturesComp />
       <GreyBoxComponent />

@@ -26,15 +26,7 @@ export default function UXDesignPage  ()  {
 
   return (
     <div className={styles.UXDesignPagecontainer}>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <UXDesingBanner />
       <UXDesignEmotions />
       <UXDesignServices />
