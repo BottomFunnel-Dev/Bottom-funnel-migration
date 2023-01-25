@@ -32,15 +32,7 @@ export default function AboutUS() {
       </Helmet>
   */}
 
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <AboutusBanner />
       <OurProcess />
       <OurAchievements />

@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CloudPage () {
   return (
     <div className={styles.CloudPageContainer}>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <CloudBanner />
       <CloudUnique />
       <CloudStats />

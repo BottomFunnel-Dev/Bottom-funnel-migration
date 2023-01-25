@@ -20,15 +20,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function FintechSolutions() {
   return (
     <div>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <FinTechSolutionBanner />
       <FintechExclusive />
       <FintechCustomerApp />

@@ -26,15 +26,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function PlantBasedMeat () {
   return (
     <div>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <PlantBasedMeatBanner />
       <ServicesWeOffer />
       <PlantBaseDeliverApp consumerdata={logisticsCustomer} />

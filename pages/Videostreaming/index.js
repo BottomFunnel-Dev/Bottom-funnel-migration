@@ -32,15 +32,7 @@ export default function VideoStreaming() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar />
         <Videostreamingcontainer />
         <Trusted partnerLogo={videostreamLogo} />
         <Services />

@@ -34,15 +34,7 @@ export default function GameDevelopment() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <GameDevelopmentBanner />
       <GameDevelopmentFeature />
       <GameMetaverce />

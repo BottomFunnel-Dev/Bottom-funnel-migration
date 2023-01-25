@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function LaundryPage() {
   return (
     <div>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <LaundryPageBanner />
       <LaudryApplication />
       <LaundryCustomer />

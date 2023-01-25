@@ -23,15 +23,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function PickupDelivery() {
   return (
     <div>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <PickupBanner />
       <Trusted partnerLogo={pickupanddeliveryLogo} />
       <PickupSolutions />

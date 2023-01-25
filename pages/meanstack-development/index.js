@@ -41,15 +41,7 @@ export default function MeanPage() {
   </Head>
 
   <main>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <WebdevBanner bannerContent={meanBanner} />
       <Techstackintro techContent={meanstackIntro} />
       <WebDevServices webservicesContent={meanDevServices} />

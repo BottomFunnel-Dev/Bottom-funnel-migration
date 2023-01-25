@@ -20,15 +20,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function TaxiBookingApp() {
   return (
     <div>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <TaxiBookingBanner />
       <TaxiOccassion />
       <TaxiBookingCustomerApp />

@@ -22,15 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function StartupSolutions () {
   return (
     <div className={styles.StartupSolutionsMain}>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <StartupSolutionsBanner />
       <StartupSolPartner />
       <StartupSolOffer />

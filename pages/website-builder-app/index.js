@@ -19,15 +19,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function WebsiteBuilderApp() {
   return (
     <div>
-   <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <WebisteBuilderBanner />
       <WebsiteBuilderOnePlatform />
       <WebsiteBuiulderMiddleComp />

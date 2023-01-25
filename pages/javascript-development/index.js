@@ -42,15 +42,7 @@ export default function JavascriptPage() {
       </Head>
 
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar />
         <WebdevBanner paraColor={"#393939"} bannerContent={javascriptBanner} />
         <Techstackintro techContent={javascriptstackIntro} />
         <WebDevServices webservicesContent={javascriptwebDevServices} />

@@ -43,15 +43,7 @@ export default function Dating() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <Datingcontainer />
       <Trusted partnerLogo={datingLogo} />
       <Datingbrands />

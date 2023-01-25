@@ -21,15 +21,7 @@ export default function DigitalTransformation ()  {
 
   return (
     <div style={{ color: "#393939" }}>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+      <Navbar />
       <DigitalTransformationBanner />
       <DigitalTransformationWhy />
       <DigitalTransformationOurService />
