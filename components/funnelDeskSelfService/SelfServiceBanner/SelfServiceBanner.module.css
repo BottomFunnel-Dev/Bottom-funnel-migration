@@ -1,13 +1,10 @@
 .selfServicesBannerParentDiv {
-  /* border: 1px solid red; */
-  display: flex;
   height: 100vh;
+  padding-left: 5%;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 5%;
-  height: 100vh;
-  /* justify-content: center; */
 }
 
 .selfServicesBannerParentDiv button {
@@ -23,19 +20,15 @@
 
 .selfServicesBannerParentDiv button:hover {
   color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
   background-color: white;
 }
 
 .selfServicesBannerContentDiv {
-  /* border: 1px solid green; */
   width: 50%;
   margin-top: 3%;
 }
 
 .selfServicesBannerImageDiv {
-  /* border: 1px solid black; */
-  /* height: 100vh; */
   width: 40%;
   margin-right: 3%;
 }
@@ -45,6 +38,45 @@
   height: 100vh;
   object-fit: contain;
   margin-top: 13%;
-  /* height: 100vh; */
-  /* height: 400px; */
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .selfServicesBannerParentDiv {
+    flex-direction: column-reverse;
+    padding: 20px 0;
+    height: fit-content;
+  }
+
+  .selfServicesBannerParentDiv button {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .selfServicesBannerContentDiv {
+    width: 95%;
+    text-align: center;
+    margin: 2% 0;
+  }
+
+  .selfServicesBannerContentDiv>h1 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .selfServicesBannerContentDiv>p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .selfServicesBannerImageDiv {
+    margin: 0;
+    width: 90%;
+  }
+
+  .selfServicesBannerImageDiv img {
+    margin: 0;
+    height: fit-content;
+    margin: 0;
+  }
 }
