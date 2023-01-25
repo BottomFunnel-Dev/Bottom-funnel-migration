@@ -24,8 +24,8 @@ export default function AppBuilderSolution () {
           navMount: false,
         }}
         navredux={{
-          color: "black",
-          logo: false,
+          color: "white",
+          logo: true,
         }}
       />
       <AppBuilderSolutionBanner />
