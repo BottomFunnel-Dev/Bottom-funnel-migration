@@ -7,20 +7,11 @@ import { EliteServices } from "../../components/funnelDeskCom/EliteServices";
 import { FunnelDeskBanner } from "../../components/funnelDeskCom/FunnelDeskBanner";
 import { FunnelSupport } from "../../components/funnelDeskCom/FunnelSupport";
 import { IndustryExperts } from "../../components/funnelDeskCom/IndustryExperts";
-import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
-import { useSelector } from "react-redux";
+
 export default function FunnelDesk() {
-  const productMount = useSelector((state) => state.mountNav);
-console.log("from product",productMount)
   return (
     <div style={{ color: "#393939" }}>
-      <Navbar productMount={{
-          navMount: true,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}/>
+      <Navbar />
       <FunnelDeskBanner />
       <FunnelSupport />
       <EliteServices />

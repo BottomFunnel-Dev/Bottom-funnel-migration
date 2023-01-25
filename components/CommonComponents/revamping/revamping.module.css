@@ -37,11 +37,11 @@
 .revamp > h1 {
   color: black;
 }
-.revamp > p {
+.revamp >p {
   color: black;
 }
 
-.revamp > div > button {
+.revamp>div > button {
   padding: 10px 60px;
   margin-top: 45px;
   /* margin-bottom: 10px; */
@@ -55,7 +55,7 @@
   font-weight: 600;
 }
 
-.revamp > div > button:hover {
+.revamp>div > button:hover {
   background-color: white;
   color: #ef4c23;
 }
@@ -78,34 +78,4 @@
 
 .buttonIcon {
   margin-right: 5px;
-}
-
-@media screen and (max-width: 480px) {
-  .revamp {
-    width: 95%;
-    margin: auto;
-    height: 240px;
-  }
-
-  .navmotion {
-    display: none;
-  }
-
-  .textlayer > h1 {
-    font-size: 25px;
-  }
-
-  .revamp > div > button {
-    padding: 8px 30px;
-    margin-top: 20px;
-    /* margin-bottom: 10px; */
-    font-size: 18px;
-    border-radius: 25px;
-    color: white;
-    background: #ef4c23;
-    z-index: 1;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-weight: 600;
-  }
 }

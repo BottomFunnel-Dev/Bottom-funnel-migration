@@ -19,17 +19,17 @@
 }
 ._Company{
     font-size:20px;
-    /* font-family: OpenSans-Semibold; */
+    font-family: OpenSans-Semibold;
     margin-bottom: 1%;
 }
 ._Company>h1{
-    /* font-size:50px; */
+    font-size:50px;
     color: #ef4c23;
  
 }
 ._Provider{
     font-size:18px;
-    /* font-family: OpenSans-Semibold; */
+    font-family: OpenSans-Semibold;
     margin-bottom: 1%;
 }
 ._Provider>h2{
@@ -40,7 +40,7 @@
     line-height: 22px;
     color: #636678;
     /* font-family: OpenSans-Semibold; */
-    /* font-weight: 500; */
+    font-weight: 500;
     box-sizing: border-box;
 }
 ._CompanyStats{
@@ -148,7 +148,7 @@
     background-position:left bottom;
 }
 ._statsnum{
-    /* font-family: OpenSans-Semibold; */
+    font-family: OpenSans-Semibold;
     font-size: 25px;
     position: absolute;
     left:3%;
@@ -201,22 +201,8 @@ margin-left:20px;
 margin-top: 8px;
 font-weight: 500;
 }
-@media screen and (max-width:480px) {
-    ._CompanyMainDiv{
-        width:100%;
-        flex-direction: column;
-    }
-    ._CompanyMainDiv>div{
-        width:100%;
-        flex-direction: column;
-        padding: 15px;
-    }
-
-    ._Company>h1{
-        font-size:30px;
-        color: #ef4c23;
-     
-    }
+@media screen and (max-width:700px) {
+    ._CompanyMainDiv{width:100%}
     ._stats,._stats1,._stats2,._stats3,._stats4,._stats5{width:100%}
     ._details{
             line-height: 28px; 
@@ -225,10 +211,6 @@ font-weight: 500;
             }
     ._CompanyStats{
         margin-top: 20px;  
-    }
-
-    ._Provider>h2{
-        font-size: 20px;
     }
     ._Company{font-size:16px}
     ._Provider{font-size:16px}
