@@ -24,7 +24,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function AgriculturePage() {
   return (
     <div>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
       <AgricultureBanner />
 
       <AgricultureSolutions />
@@ -37,7 +45,7 @@ export default function AgriculturePage() {
       <StoriesSection />
       <OndemandSection />
       {/* <PortFolio />  */}
-      {/* <PlanProject />  */}
+      <PlanProject /> 
       <SeoblogSection />
       <Revamping />
       <TextDropdown />

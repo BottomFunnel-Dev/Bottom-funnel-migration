@@ -30,7 +30,15 @@ const index = () => {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <EventsBanner />
       <EventsDevelopment />
       <EventsDevservices />

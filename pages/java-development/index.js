@@ -41,7 +41,15 @@ export default function JavaDevPage() {
       </Head>
 
       <main>
-        <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
         <WebdevBanner paraColor={"#393939"} bannerContent={javaBanner} />
         <Techstackintro techContent={javastackIntro} />
         <WebDevServices webservicesContent={javawebDevServices} />

@@ -30,9 +30,17 @@ export default function CarPooling() {
   return (
     <div>
       
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <CarpoolingBanner />
-      {/* <Trusted partnerLogo={carpoolingLogo} /> */}
+      <Trusted partnerLogo={carpoolingLogo} />
       <CarpoolingRide />
       <CarpoolingSolutions />
       <Logiccustomer customerData={carpoolCustomer} />
@@ -41,16 +49,16 @@ export default function CarPooling() {
       <CarpoolingAction />
       <CarpoolingWhy />
 
-      {/* <StoriesSection /> */}
+      <StoriesSection />
       {/* <Industries /> */}
-      {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <PlanProject />
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
-      {/* <MainFooter /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 }

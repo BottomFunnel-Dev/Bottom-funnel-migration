@@ -36,7 +36,15 @@ export default function Fintess ()  {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <Fitnesscontainer />
       <Trusted partnerLogo={fitnessLogo} />
       <Brand />

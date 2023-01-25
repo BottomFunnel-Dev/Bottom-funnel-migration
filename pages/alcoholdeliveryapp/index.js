@@ -20,7 +20,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function AlcoholDelivery() {
   return (
     <div>
-      <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
       <AlcoholBanner />
       <Trusted partnerLogo={alcoholLogo} />
       <AlcoholBookCall />

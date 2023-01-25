@@ -10,8 +10,7 @@ export default function AgricultureAdminPanel({ plantBasedAdminData }) {
                 <div className={styles.plantBasedAdminPanelright}>
                     {plantBasedAdminData.plantBasedAdminData.map(({ title, icon, para }, idx) => {
                         return (
-                            <div
-                                key={title}
+                            <div key={title}
                                 onMouseOver={() => setActive(idx)}
                                 className={`styles.logistic-box-${idx}`}
                             >
@@ -25,8 +24,8 @@ export default function AgricultureAdminPanel({ plantBasedAdminData }) {
                         );
                     })}
                 </div>
-                <div
-                    className={styles.plantBasedAdminPanelleft}
+
+                <div className={styles.plantBasedAdminPanelleft}
                     style={{
                         background: `url(${plantBasedAdminData.background})`,
                         backgroundRepeat: "no-repeat",

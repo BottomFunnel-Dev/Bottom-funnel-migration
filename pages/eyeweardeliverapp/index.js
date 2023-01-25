@@ -20,7 +20,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function EyewearDeliverPage() {
   return (
     <div>
-      <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <EyeWearDeliveryBanner />
       <EyeWearDevelopmentSolution />
       <EyeWearAccelerate />

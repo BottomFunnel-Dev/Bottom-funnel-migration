@@ -23,20 +23,15 @@ import Head from "next/head";
 export default function DataScience () {
   return (
     <div>
-
-     <Head>
-     <title>Data Science | Bottom Funnel</title>
-        <meta
-          name="description"
-          content="Are you looking for tools that can help
-           you with your Artificial Intelligence Projects?
-            If so, you're in the right place! Here, we will
-             be discussing some of the best AI tools that 
-             are currently available in the market today."
-        />
-      </Head>
-        <main>
-  <Navbar/>
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <DataScienceBanner />
        <DataScienceUnique />
          <DataScienceServices />
@@ -57,7 +52,7 @@ export default function DataScience () {
       <ContectForm />
       <MainFooter />
 
-      </main>
+ 
     </div>
   );
 };

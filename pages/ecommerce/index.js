@@ -23,7 +23,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Ecommerce() {
   return (
     <div>
-      <Navbar />
+ <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <EcommerceComBanner />
       <Trusted partnerLogo={EcommerceLogo} />
       <EcommerceComFeatures />

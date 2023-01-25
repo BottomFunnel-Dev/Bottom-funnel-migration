@@ -37,7 +37,15 @@ export default function Wellness() {
         />
       </Head>
       <main>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <Wellnesscontainer />
       <WellnessPatient customerData={wellnessPatient} />
       <WellnessDoctor customerData={wellnessDoctor} />

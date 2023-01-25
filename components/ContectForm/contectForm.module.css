@@ -334,3 +334,50 @@ box-sizing: border-box;
   color: #ef4c23;
   background-color: white;
 }
+
+
+
+@media screen and (max-width: 480px) {
+  .backgroundDiv {
+    width: 100%;
+    height: fit-content;
+    background-color: #fcdbd3;
+    box-sizing: border-box;
+  }
+  .mainLeadform{
+    height: fit-content;
+  }
+.formHeader > h2 {
+  font-size: 25px;
+}
+.formHeader > h5 {
+  margin-bottom: 8px;
+}
+
+.contectSection {
+  width: 100%;
+  position: static;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transform: none;
+}
+
+.addressSection {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.contactFormCss {
+  width: 100%;
+
+}
+
+.mailAddress {
+  width: 80%;
+ 
+}
+
+}

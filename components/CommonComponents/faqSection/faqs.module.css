@@ -35,3 +35,17 @@
 .customisedAcc {
   background-color: green;
 }
+
+
+@media screen and (max-width: 480px) {
+
+  .faqs {
+    width: 95%;
+    margin: auto;
+    padding: 0px;
+  }
+  .faqSection > h2 {
+    color: #ef4c23;
+    font-size: 25px;
+  }
+}

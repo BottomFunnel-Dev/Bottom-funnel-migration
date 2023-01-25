@@ -12,6 +12,7 @@
   row-gap: 12px;
   /* padding: 40px 4px; */
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .ondemandInner {
@@ -127,3 +128,32 @@
     color: black;
 }
 
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+  .ondemandSection > h1 {
+  font-size: 30px;
+  padding: 0;
+  }
+
+  .ondemandInner {
+    width: 90%;
+    height: 300px;
+    /* box-shadow: 0px 0px 30px 2px rgb(236 234 234); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 8px;
+    overflow: hidden;
+  }
+
+  .arrowIcon {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 8px;
+    right: 21px;
+  }
+
+}

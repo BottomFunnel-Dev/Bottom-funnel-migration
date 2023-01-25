@@ -18,7 +18,15 @@ import { EngagementQuery } from "../../components/EngagementPage/EngagementQuery
 export default function  EngagementModel () {
   return (
     <div>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <EngagementBanner />
       <EngagementProcess />
       <EngagementRanges />

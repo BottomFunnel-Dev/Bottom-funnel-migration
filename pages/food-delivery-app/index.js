@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import { FoodDeliveryBanner } from '../../components/food-delivery/FoodDeliveryBanner';
+import { FoodDeliveryBanner } from "../../components/food-delivery/FoodDeliveryBanner";
 import { fooddeliveryLogo } from "../../components/Data/SeopartnerData";
-import Trusted from '../../components/SEO/SeoTrustedCompanies/Seotrusted';
-import { FoodDeliveryBookCall } from '../../components/food-delivery/FoodDeliveryBookCall';
-import { FoodDeliveryExluciveApp } from '../../components/food-delivery/FoodDeliveryExluciveApp';
-import { FoodDeliveryAdvanceTech } from '../../components/food-delivery/foodDeliveryAdvanceTech';
-import { FoodDeliveryAdminPanel } from '../../components/food-delivery/foodDeliveryAdminPanel';
-import { FoodDeliveryPartnerApp } from '../../components/food-delivery/FoodDeliveryPartnerApp';
-import { FoodDeliveryNeedSuccess } from '../../components/food-delivery/FoodDeliveryNeedSuccess';
+import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
+import { FoodDeliveryBookCall } from "../../components/food-delivery/FoodDeliveryBookCall";
+import { FoodDeliveryExluciveApp } from "../../components/food-delivery/FoodDeliveryExluciveApp";
+import { FoodDeliveryAdvanceTech } from "../../components/food-delivery/foodDeliveryAdvanceTech";
+import { FoodDeliveryAdminPanel } from "../../components/food-delivery/foodDeliveryAdminPanel";
+import { FoodDeliveryPartnerApp } from "../../components/food-delivery/FoodDeliveryPartnerApp";
+import { FoodDeliveryNeedSuccess } from "../../components/food-delivery/FoodDeliveryNeedSuccess";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -20,10 +20,18 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function FoodDelivery () {
+export default function FoodDelivery() {
   return (
     <div>
-      <Navbar /> 
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       {<FoodDeliveryBanner />}
       <Trusted partnerLogo={fooddeliveryLogo} />
       {<FoodDeliveryBookCall />}
@@ -32,7 +40,7 @@ export default function FoodDelivery () {
       {<FoodDeliveryAdminPanel />}
       {<FoodDeliveryPartnerApp />}
       {<FoodDeliveryNeedSuccess />}
-      
+
       <StoriesSection />
       {/* <Industries /> */}
       <PlanProject />
@@ -45,4 +53,4 @@ export default function FoodDelivery () {
       <MainFooter />
     </div>
   );
-};
+}

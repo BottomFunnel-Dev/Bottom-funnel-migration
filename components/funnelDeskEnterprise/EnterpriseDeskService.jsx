@@ -75,14 +75,16 @@ export const EnterpriseDeskService = () => {
             conversational Al and chatbots. Improve your agent onboarding and
             efficiency, and keep the team productive with agent-assist bots.
           </p>
-          <li>
-            Reduce ticket volumes and deliver 24/7 support with Freddy, our Al
-            engine
-          </li>
-          <li>
-            Provide proactive support by detecting online frustration signals
-          </li>
-          <li>Configure and operationalize bots quickly, without coding</li>
+          <ul>
+            <li>
+              Reduce ticket volumes and deliver 24/7 support with Freddy, our Al
+              engine
+            </li>
+            <li>
+              Provide proactive support by detecting online frustration signals
+            </li>
+            <li>Configure and operationalize bots quickly, without coding</li>
+          </ul>
           <h5>
             Learn More
             <IconContext.Provider value={{ className: styles.dropright }}>
@@ -106,22 +108,24 @@ export const EnterpriseDeskService = () => {
             customer satisfaction and loyalty with a set of features that drives
             efficiency across the team.
           </p>
-          <li>
-            Monitor support operations with metrics on real-time dashboards
-          </li>
-          <li>Forecast ticket trends and plan staffing levels effectively</li>
-          <li>
-            Reduce the impact of setting and workflow changes by testing in your
-            own private Sandbox environment
-          </li>
-          <li>
-            Measure SLAS and CSAT scores to enable data-driven decisions that
-            enhance the customer experience
-          </li>
-          <li>
-            Get complete visibility into all changes made on your Freshdesk with
-            audit logs
-          </li>
+          <ul>
+            <li>
+              Monitor support operations with metrics on real-time dashboards
+            </li>
+            <li>Forecast ticket trends and plan staffing levels effectively</li>
+            <li>
+              Reduce the impact of setting and workflow changes by testing in
+              your own private Sandbox environment
+            </li>
+            <li>
+              Measure SLAS and CSAT scores to enable data-driven decisions that
+              enhance the customer experience
+            </li>
+            <li>
+              Get complete visibility into all changes made on your Freshdesk
+              with audit logs
+            </li>
+          </ul>
           <h5>
             Learn More
             <IconContext.Provider value={{ className: styles.dropright }}>
@@ -147,18 +151,20 @@ export const EnterpriseDeskService = () => {
             support. Deliver personalized service without making customers
             repeat themselves.
           </p>
-          <li>
-            Maintain a unified view of the customer with all the context hom
-            past interaction history across channels
-          </li>
-          <li>
-            Identify and prioritize premium clients by routing them to priority
-            queues
-          </li>
-          <li>
-            Leverage rich customer context with Custom Objects to reduce
-            resolution time and improve team efficiency
-          </li>
+          <ul>
+            <li>
+              Maintain a unified view of the customer with all the context hom
+              past interaction history across channels
+            </li>
+            <li>
+              Identify and prioritize premium clients by routing them to
+              priority queues
+            </li>
+            <li>
+              Leverage rich customer context with Custom Objects to reduce
+              resolution time and improve team efficiency
+            </li>
+          </ul>
           <h5>
             Learn More
             <IconContext.Provider value={{ className: styles.dropright }}>
@@ -182,11 +188,13 @@ export const EnterpriseDeskService = () => {
             support 42 languages to meet the needs of customers all around the
             globe.
           </p>
-          <li>Multilingual customer self-service</li>
-          <li>Multilingual email and agent notifications</li>
-          <li>Localization of ticket fields</li>
-          <li>Multilingual customer satisfaction surveys</li>
-          <li>Live translations on chat</li>
+          <ul>
+            <li>Multilingual customer self-service</li>
+            <li>Multilingual email and agent notifications</li>
+            <li>Localization of ticket fields</li>
+            <li>Multilingual customer satisfaction surveys</li>
+            <li>Live translations on chat</li>
+          </ul>
           <h5>
             Learn More
             <IconContext.Provider value={{ className: styles.dropright }}>

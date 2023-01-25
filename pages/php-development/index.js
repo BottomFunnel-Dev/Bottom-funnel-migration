@@ -24,7 +24,15 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function PhP() {
   return (
     <div style={{ color: "#393939" }}>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <WebdevBanner bannerContent={phpBanner} />
       <Techstackintro techContent={phpstackIntro} />
       <WebDevServices webservicesContent={phpDevServices} />

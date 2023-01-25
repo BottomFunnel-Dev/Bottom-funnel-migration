@@ -34,7 +34,7 @@ const index = () => {
         />
       </Head>
         <main>
-           <Navbar />
+      
           <AiContentBanner />
       {/*   <AiContentHuman /> 
        <AiHowDoesWorks />

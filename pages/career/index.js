@@ -18,7 +18,15 @@ import Navbar from "../../components/Navbar/Navbar";
 const index = () => {
   return (
     <div style={{ color: "#393939" }}>
-      <Navbar />
+<Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <CareerBanner />
       <CareerMain />
       <CareerReferral />

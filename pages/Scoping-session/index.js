@@ -24,7 +24,15 @@ export default function Scoping() {
     return (
         <div>
             <Header/>
-            <Navbar/>
+            <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
             <MiddleText/>
             <MidImages/>
             <RoundIconsText/>

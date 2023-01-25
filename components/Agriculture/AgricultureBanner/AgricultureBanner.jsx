@@ -19,6 +19,7 @@ const AgricultureBanner = () => {
 
                 <button> Get Started </button>
             </div>
+            
             <div className={styles.agricultureBannerImageDiv}>
                 <img src='/Images/Agriculture/AgricultureBanner.png' alt='image' />
             </div>
