@@ -18,21 +18,35 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function DataScience () {
   return (
     <div>
-      <Navbar />
+
+     <Head>
+     <title>Data Science | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for tools that can help
+           you with your Artificial Intelligence Projects?
+            If so, you're in the right place! Here, we will
+             be discussing some of the best AI tools that 
+             are currently available in the market today."
+        />
+      </Head>
+        <main>
+  <Navbar/>
       <DataScienceBanner />
-      <DataScienceUnique />
-      <DataScienceServices />
-      <DataScienceMidBanner />
-      <DataScienceBF />
-      <DataScienceMethods />
-      <DataScienceSlider />
-      <CustomWebForm />
+       <DataScienceUnique />
+         <DataScienceServices />
+         <DataScienceMidBanner />
+          <DataScienceBF />
+           <DataScienceMethods />
+         <DataScienceSlider />
+        <CustomWebForm />
       
-      {/* Other react required components  */}
+     {/* Other react required components */}
       <StoriesSection />
       <OndemandSection />
       {/* <PortFolio />  */}
@@ -42,6 +56,8 @@ export default function DataScience () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

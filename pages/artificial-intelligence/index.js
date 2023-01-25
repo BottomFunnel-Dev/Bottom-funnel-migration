@@ -23,18 +23,18 @@ const index = () => {
 
     
     <Head>
-     <title>Artificial intelligence Tools | Bottom Funnel</title>
+     <title>Data Science Services | Bottom Funnel</title>
         <meta
           name="description"
-          content="Are you looking for tools that can help
-           you with your Artificial Intelligence Projects?
-            If so, you're in the right place! Here, we will
-             be discussing some of the best AI tools that 
-             are currently available in the market today."
+          content="Are you interested in working 
+          in the exciting world of data science?
+           Check out this article to find out what
+            it is all about and how you can get
+             started!"
         />
       </Head>
         <main>
-      
+           <Navbar />
           <AiContentBanner />
       {/*   <AiContentHuman /> 
        <AiHowDoesWorks />

@@ -35,7 +35,7 @@ export const CryptoDevBenefit = () => {
       </div>
       <div className={styles.CryptoDevBenefitMain}>
         {cardsData.map(({ title, image, body }) => (
-          <div key={title}>
+          <div className={styles.cryptodevbannerfitindiboxes} key={title}>
             <div>
               <img src={image} alt={title} />
             </div>

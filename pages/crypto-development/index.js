@@ -23,26 +23,27 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CryptoDevPage() {
   return (
     <div className={styles.CryptoDevPageContainer}>
-      <Navbar />
+   
       <CryptoDevBanner />
       <CryptoDevcurrency />
       <CryptoDevBenefit />
-      <CryptoDevApproach />
-      <CryptoDevService />
-      <CryptoDevWhyBF />
+     <CryptoDevApproach />
+        <CryptoDevService />
+       {/* <CryptoDevWhyBF />
       <CryptoDevSlider />
       <CustomWebForm />
 
-      {/* Other react required components  */}
+      {/* Other react required components  
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <PortFolio /> 
       <PlanProject /> 
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+       */}
     </div>
   );
 };

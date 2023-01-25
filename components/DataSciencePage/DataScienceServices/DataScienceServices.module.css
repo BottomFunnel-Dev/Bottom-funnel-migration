@@ -1,3 +1,5 @@
+/* for any type of laptop and big screen responsive */
+@media only screen and (min-width:901px){
 .DataScienceServicesContainer {
   background: #f5f5f5;
   padding: 2%;
@@ -38,4 +40,102 @@
 
 .DataScienceServicesMain > div > ul > li {
   font-size: 16px;
+}
+}
+
+/* for any type of mobile screen responsible */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .DataScienceServicesContainer {
+    background: #f5f5f5;
+    padding: 2%;
+  }
+  
+  .DataScienceServicesHeading {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .DataScienceServicesHeading > h1 {
+    font-size: 32px;
+    margin: 1% auto;
+  }
+  
+  .DataScienceServicesMain {
+    width: 90%;
+    margin: 1% auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .DataScienceServicesMain > div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  
+  .DataScienceServicesMain > div > img {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+  
+  .DataScienceServicesMain > div > ul {
+    padding-left: 20%;
+  }
+  
+  .DataScienceServicesMain > div > ul > li {
+    font-size: 16px;
+  }
+}
+
+/* for any type of tablet screen responsive */
+
+@media only screen and ( min-width:481px) and (max-width:900px){
+
+  .DataScienceServicesContainer {
+  background: #f5f5f5;
+  padding: 2%;
+}
+
+.DataScienceServicesHeading {
+  width: 90%;
+  margin: auto;
+}
+
+.DataScienceServicesHeading > h1 {
+  font-size: 32px;
+  margin: 1% auto;
+}
+
+.DataScienceServicesMain {
+  width: 90%;
+  margin: 1% auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.DataScienceServicesMain > div {
+  width: 45%;
+  margin-bottom: 2%;
+}
+
+.DataScienceServicesMain > div > img {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.DataScienceServicesMain > div > ul {
+  padding-left: 20%;
+}
+
+.DataScienceServicesMain > div > ul > li {
+  font-size: 16px;
+}
+
+
+
 }

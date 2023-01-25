@@ -36,6 +36,7 @@ export const DataScienceBF = () => {
   ];
 
   return (
+    <div className={styles.datasciencebfmainboxes}>
     <div className={styles.DataScienceBFContainer}>
       <div className={styles.DataScienceBFBackgroundRectangle}>
         <img
@@ -70,6 +71,7 @@ export const DataScienceBF = () => {
           })}
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import styles from "./DataScienceMidBanner.module.css";
 
 export const DataScienceMidBanner = () => {
   return (
+    <div className={styles.datasciencemainboxes}>
     <div className={styles.DataScienceMidBannerMain}>
       <h1>Data Science Services</h1>
       <p>
@@ -18,6 +19,7 @@ export const DataScienceMidBanner = () => {
         available day and night if you have questions or concerns about your
         project or business growth plans. We look forward to working with you!
       </p>
+    </div>
     </div>
   );
 };
