@@ -39,9 +39,10 @@ export const HelpWidget = () => {
           laoreet felis ultrices in. Suspendisse in molestie mauris. Nam leo
           risus, ullamcorper nec molestie at, sagittis sed metus. Praesent
           laoreet ac nisi nec pulvinar. Sed turpis ligula, congue ac enim quis,
-          hendrerit mollis enim. Vestibulum sed sagittis metus.
+          hendrerit mollis enim. Vestibulum sed sagittis metus.{" "}
         </p>
       </div>
+
       <div className={styles.helpwidgetdatamappingbeforebox}>
         <h2>A fully customizable widget to support your customers</h2>
         <p>
@@ -52,10 +53,7 @@ export const HelpWidget = () => {
         <div className={styles.helpwidgetmappingdataafterbox}>
           {helpwidgetdata.map((e) => {
             return (
-              <div
-                key={e.htxt}
-                className={styles.helpwidgetmaperboxindivisually}
-              >
+              <div className={styles.helpwidgetmaperboxindivisually}>
                 <div className={styles.helpwidgetmaperboxindivisuallyimage}>
                   <img src={e.image} alt={e.htxt} />
                 </div>
@@ -68,6 +66,7 @@ export const HelpWidget = () => {
           })}
         </div>
       </div>
+
       <div className={styles.helpwidgetsipportdeskbox}>
         <div className={styles.helpwidgetsipportdeskboxleft}>
           <h2>Get the complete Supportdesk feature list</h2>

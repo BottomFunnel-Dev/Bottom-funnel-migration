@@ -1,31 +1,30 @@
 .helpdekbannermainboxes {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.helpDeskBannerImage {
-  width: 45%;
-}
-
-.helpDeskBannerImage>img {
-  width: 100%;
+  border: 1px solid white;
+  background-position-y: bottom;
+  background: url("/Images/helpdesk/Frame-1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
 }
 
 .helpdeskbannersometextbox {
   height: fit-content;
-  width: 45%;
+  width: 37%;
+
+  margin-left: 60%;
+  margin-top: 20%;
 }
 
-.helpdeskbannersometextbox>p {
+.helpdeskbannersometextbox > p {
   border-top: 2px solid;
-  margin: 2% 0;
+  margin-top: 2%;
 }
 
 .helpdeskbannerbutton {
   padding: 10px 50px;
   border-radius: 100px;
+  width: 220px;
   background-color: #ef4c23;
   border: none;
   outline: none;
@@ -33,46 +32,10 @@
   font-size: 18px;
   font-weight: 600;
   color: white;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .helpdeskbannerbutton:hover {
   background-color: white;
   color: #ef4c23;
-}
-
-/* media query for mobile and tablet devices */
-@media (max-width: 1024px) {
-  .helpdekbannermainboxes {
-    flex-direction: column;
-    height: fit-content;
-    padding: 5% 0;
-  }
-
-  .helpDeskBannerImage {
-    width: 90%;
-  }
-
-  .helpdeskbannersometextbox {
-    width: 95%;
-    text-align: center;
-  }
-
-  .helpdeskbannersometextbox>h1 {
-    font-size: 32px;
-    line-height: 35px;
-    margin-top: 0;
-  }
-
-  .helpdeskbannersometextbox>p {
-    font-size: 14px;
-    padding-top: 2%;
-    line-height: 20px;
-  }
-
-  .helpdeskbannerbutton {
-    font-size: 12px;
-    padding: 8px 20px;
-    width: fit-content;
-  }
 }
