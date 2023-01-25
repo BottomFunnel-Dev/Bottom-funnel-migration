@@ -35,25 +35,25 @@ export const BannerFull = () => {
       title: "Mobile App Development",
       bannerImage: "Images/banner/app dev.gif",
       desc: "Connect to your customers in real time with the latest in mobile app development.",
-      background: "Images/banner/mobilefull.png",
+      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/mobilefull.png",
     },
     {
       title: "Software Product Development",
       bannerImage: "Images/banner/customsde.gif",
       desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
-      background: "Images/banner/softwarefull.png",
+      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/softwarefull.png",
     },
     {
       title: "Digital Marketing",
       bannerImage: "Images/banner/digitalmarketing.gif",
       desc: "Break through the noise and grow your business with the power of digital marketing",
-      background: "Images/banner/dmfull.png",
+      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/dmfull.png",
     },
     {
       title: "Web Development",
       bannerImage: "Images/banner/web dev.gif",
       desc: "Developing websites that develop your business",
-      background: "Images/banner/webdevfull.png",
+      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/webdevfull.png",
     },
   ];
 
