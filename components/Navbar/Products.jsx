@@ -40,7 +40,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               >
                 <div>
                   <img
-                    // className={prods.productLogoImages}
+                    className={prods.productLogoImages}
                     src={item.navIcons}
                     alt=""
                     // style={{ width: "90px", height: "60px" }}
@@ -146,7 +146,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     className={prods.iconDivSection}
                     src={item.navIcons}
                     alt=""
-                    style={{ width: "40px" }}
+                    style={{ width: "30px"}}
                   />
                 </div>
                 <Link
@@ -174,7 +174,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               // navigate(`web-development`);
               serHoverOut();
             }}
-            style={{ color: "#ef4c23" }}
+            style={{ color: "#ef4c23" ,paddingLeft:"35px"}}
           >
             Features
           </h5>
@@ -239,7 +239,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
             <h5> Bottom Funnel Neo</h5>
           </div>
           <p style={{ marginLeft: "5%" }}>
-            Leverage a flexible, end-to-end, AI-powered enterprise platform to
+            Leverage a flexible, end-to-end, AI-powered enterprise platform tou
             unify customer experiences
           </p>
           <div
