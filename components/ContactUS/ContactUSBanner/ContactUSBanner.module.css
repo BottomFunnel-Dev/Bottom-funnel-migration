@@ -1,8 +1,9 @@
-.ContactUSBannermain {
+.contactUsBannermain {
+  /* border: 2px solid red; */
   height: 90vh;
   background: #f5f5f5;
-
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -11,6 +12,7 @@
   width: 35%;
   height: 60%;
   text-align: center;
+  /* border: 1px solid rebeccapurple; */
 }
 
 .ContactUsBannerimage > img {
@@ -18,13 +20,15 @@
 }
 
 .ContactUsBannerContent {
-  width: 50%;
+  width: 60%;
+  /* border: 1px solid red; */
 }
 
 .ContactUsBannerContent > h1 {
-  font-size: 50px;
+  font-size: 35px;
   margin-bottom: 2%;
   margin-top: 2%;
+  width: 70%;
 }
 
 .ContactUsBannerContent > div {
@@ -45,7 +49,6 @@
   background: #ef4c23;
   color: white;
   cursor: pointer;
-
   margin-top: 2%;
   padding: 10px 50px;
 
@@ -60,7 +63,7 @@
   background: white;
 }
 
-.ContactUsBanneranimated-title {
+.ContactUsBanneranimatedtitle {
   font-size: 40px;
   position: relative;
   color: #ef4c23;
@@ -70,13 +73,15 @@
 }
 
 .ContactUsBanneranimatedtitle::after {
+  /* border: 1px solid red; */
   content: "|";
   position: absolute;
-  font-size: 40px;
+  font-size: 43px;
+  top: 11%;
   right: 0;
   bottom: 0;
-  width: 70%;
-  height: 100%;
+  width: 50%;
+  height: 70%;
   background-color: #f5f5f5;
   color: #393939;
   animation: animateTitle 10s linear infinite, caret 1s infinite;

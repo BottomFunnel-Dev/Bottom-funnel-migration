@@ -18,50 +18,43 @@ ul {
 
 p {
   font-size: 16px;
-
 }
 
 h1 {
   font-size: 35px;
-font-weight: 600;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 30px;
-font-weight: 600;
-
-
+  font-weight: 600;
 }
 
 h3 {
   font-size: 25px;
-font-weight: 600;
-
+  font-weight: 600;
 }
 
 h4 {
   font-size: 20px;
-font-weight: 600;
-
-
+  font-weight: 600;
 }
 
 h5 {
   font-size: 18px;
   margin: 0;
-font-weight: 600;
-
+  font-weight: 600;
 }
 
 h6 {
   font-size: 16px;
-font-weight: 600;
-
+  font-weight: 600;
 }
 
 a {
   text-decoration: none;
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #393939;
@@ -69,11 +62,11 @@ a {
   }
 }
 
-.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+/* .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
   background-color: rgba(0, 0, 0, 0.901) !important ;
 }
 
 .css-919eu4 {
   background-color: rgb(13 12 12 / 88%) !important;
   -webkit-tap-highlight-color: #1a1818ea !important;
-}
+} */

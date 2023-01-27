@@ -1,59 +1,54 @@
-.realestatebannermainbox{
-    height: 100vh;
-
-    background: url("/Images/RealEstate/Backgrounds/Group 1000002336.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.realestatebannermainbox {
+  height: 95vh;
+  background: url("/Images/RealEstate/ReslEstateNewBanner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 2.5%; 
 }
 
-.realestatebannersometextandimages{
-    display: flex;
-    width: 100%;
+.realestatebannersometextandimages {
+  display: flex;
+  width: 100%;
 }
 
-.realestatebannersometext{
-    width:35%;
-   
-    height: fit-content;
-    margin: 15% 0% 0% 3%;
-    color: white;
-}
-.realestatebannersometext>h1{
-    font-weight: 700;
-    font-size: 50px;
+.realestatebannersometext {
+  width: 35%;
+  height: fit-content;
+  margin: 15% 0% 0% 3%;
+  color: black;
 }
 
-.realestatebannersomeimages{
-    width: 18%;
-    height: 400px;
-   
-    margin-left:3%;
-    margin-top: 10%;
+.realestatebannersometext > h1 {
+  font-weight: 700;
+  font-size: 40px;
 }
 
-.realestatebannersomeimages >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.realestatebannersomeimages {
+  width: 18%;
+  height: 400px;
+  margin-left: 3%;
+  margin-top: 10%;
 }
 
-
-.textboxinsidetextrealestatebox{
-    width: 100%;
-   
-    height: 200px;
-margin-top: 10%;
-display: flex;
+.realestatebannersomeimages > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.txtinsidetxtrealstateindi{
-    width: 30%;
-   
-    height: fit-content;
-    margin: 2%;
+.textboxinsidetextrealestatebox {
+  width: 100%;
+  height: 200px;
+  margin-top: 10%;
+  display: flex;
 }
 
-.txtinsidetxtrealstateindi >h1{
-    color: #ef4c23;
+.txtinsidetxtrealstateindi {
+  width: 30%;
+  height: fit-content;
+  margin: 2%;
 }
 
+.txtinsidetxtrealstateindi > h1 {
+  color: #ef4c23;
+}
