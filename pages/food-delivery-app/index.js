@@ -19,11 +19,12 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function FoodDelivery() {
   return (
     <div>
-      <Navbar
+<Navbar
         productMount={{
           navMount: false,
         }}

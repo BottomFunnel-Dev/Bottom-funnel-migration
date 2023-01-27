@@ -37,10 +37,10 @@
   /* top: 78px; */
 }
 .viewAllButton {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   cursor: pointer;
   /* text-decoration: underline; */
-  margin: 15% auto;
+  margin: 5% auto;
   background-color: white;
   width: 52%;
   color: #ef4c23;
@@ -61,7 +61,8 @@
   box-sizing: border-box;
   border-left: 3px solid white;
   column-gap: 8px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  /* border: 2px solid red; */
 /* justify-content: center; */
 }
 /* .productimageIconDivSection:hover{
@@ -122,9 +123,12 @@
 }
 
 .productLogoImages {
-  margin-top: -30%;
-  /* border: 2px solid yellow; */
+  /* margin-top: -30%; */
+  /* border: 2px solid red; */
+  width: 10px;
+  height: 10px;
 }
+
 .productSaasRow > p:hover {
   background-color: transparent;
 }

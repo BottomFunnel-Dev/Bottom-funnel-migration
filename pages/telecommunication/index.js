@@ -13,10 +13,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Telecommunication() {
   return (
     <div>
+
+    <Head>
+      <title>Telecommunication Web App development | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a reliable and cost-effective telecommunication 
+        web app development company? Look no further than ours! We 
+        offer a wide range of innovative and cost-effective solutions that 
+        will help you get your business online."
+      />
+   </Head>
+
 <Navbar
         productMount={{
           navMount: false,

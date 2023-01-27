@@ -16,10 +16,22 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Travel() {
   return (
-    <div>
+    <div>      
+    <Head>
+      <title>Travel Web App development | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a travel web app development company that 
+        can help you develop a customised and safe travel web app? Look 
+        no further than VinCard! We offer top-notch web app development 
+        services that are tailor-made for the travel industry."
+      />
+   </Head>
+
   <Navbar
         productMount={{
           navMount: false,
