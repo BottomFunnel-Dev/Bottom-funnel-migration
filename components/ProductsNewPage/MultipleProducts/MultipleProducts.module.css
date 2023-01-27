@@ -160,3 +160,21 @@
 /* .solbotm1 > div > p {
   padding: 20px;
 } */
+
+/* ------------------------Hovering Effect of Boxes----------------------------- */
+
+.funnelDesk:hover{
+  background-color: #d6ffe8;
+}
+.team:hover{
+  background-color: #ffaf9a;
+}
+.market:hover{
+  background-color: #ffcf9c;
+}
+.service:hover{
+  background-color: #e1e1e1;
+}
+.chat:hover{
+  background-color: #a1ffca;
+}

@@ -25,16 +25,14 @@ export default function MultipleProducts() {
 
                 <div className={styles.solright}>
                     <div className={styles.soltop}>
-                        <div>
+                        <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/desk.png" alt='image'/>
                             </div>
-
                             <p> Bottomfunnel Desk </p>
-
                         </div>
 
-                        <div>
+                        <div className={styles.team}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/teams.png" alt='image'/>
                             </div>
@@ -42,7 +40,7 @@ export default function MultipleProducts() {
                             <p> Bottomfunnel Team </p>
                         </div>
 
-                        <div>
+                        <div className={styles.service}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/service.png" alt='image' />
                             </div>
@@ -53,7 +51,7 @@ export default function MultipleProducts() {
 
 
                     <div className={styles.solbotm}>
-                        <div>
+                        <div className={styles.market}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/marketer.png" alt='image'/>
                             </div>
@@ -61,7 +59,7 @@ export default function MultipleProducts() {
                             <p> Bottomfunnel Marketer </p>
                         </div>
 
-                        <div>
+                        <div className={styles.team}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/sales.png" alt='image'/>
                             </div>
@@ -69,7 +67,7 @@ export default function MultipleProducts() {
                             <p> Bottomfunnel Sales </p>
                         </div>
 
-                        <div>
+                        <div className={styles.chat}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/chat.png" alt='image'/>
                             </div>
@@ -79,7 +77,7 @@ export default function MultipleProducts() {
                     </div>
 
                     <div className={styles.solbotm1}>
-                        <div>
+                        <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/omnichannel.png" alt='image'/>
                             </div>
@@ -87,7 +85,7 @@ export default function MultipleProducts() {
                             <p> Bottomfunnel Omnichannel </p>
                         </div>
 
-                        <div>
+                        <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/contact.png" alt='image'/>
                             </div>
@@ -95,7 +93,7 @@ export default function MultipleProducts() {
                             <p> Bottomfunnel ContactCenter </p>
                         </div>
 
-                        <div>
+                        <div className={styles.funnelDesk}>
                             <div className={styles.multipleProductsai}>
                                 <img src="/Images/ProductsPage/ProductsLogo/customer sucess.png" alt='image'/>
                             </div>

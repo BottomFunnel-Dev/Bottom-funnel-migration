@@ -1,5 +1,5 @@
 import React from "react";
-import { ProductsNewPageBanner } from '../../components/ProductsNewPage/ProductsNewPageBanner/ProductsNewPageBanner';
+import { ProductsNewPageBanner } from "../../components/ProductsNewPage/ProductsNewPageBanner/ProductsNewPageBanner";
 import { SimpleAndEasy } from "../../components/ProductsNewPage/SimpleAndEasy/SimpleAndEasy";
 import { TalentProfiles } from "../../components/ProductsNewPage/TalentProfiles/TalentProfiles";
 import { GetStarted } from "../../components/ProductsNewPage/GetStarted/GetStarted";
@@ -21,7 +21,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Products() {
   return (
     <div>
-   <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -30,6 +30,7 @@ export default function Products() {
           logo: true,
         }}
       />
+
       <ProductsNewPageBanner />
       <MultipleProducts />
       <TalentNetwork />
@@ -46,7 +47,7 @@ export default function Products() {
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <ProductsFooter/>
+      <ProductsFooter />
     </div>
   );
 }
