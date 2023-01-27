@@ -54,7 +54,7 @@ export const CustomWebWhyBF = () => {
         </div>
         <div className={styles.CustomWebWhyBFImage}>
           <img
-            src="Images/customWebPhotos/whyBF.png"
+            src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/whyBF.png"
             alt="Vector big size image"
           />
         </div>
