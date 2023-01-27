@@ -60,3 +60,176 @@
 .smalltxtmarketplace {
   margin-top: 0%;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .marketplacefooterdiv {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 100%;
+  }
+
+  .marketplacefooterdivfortext {
+    height: auto;
+    text-align: center;
+    width: 95%;
+  }
+
+  .marketplacefooterdivfortext > h2 {
+    font-size: 17px;
+    font-size: 600;
+  }
+
+  .marketplacefooterdivspecial {
+    /* border: 1px solid rebeccapurple; */
+    height: 40%;
+    width: 95%;
+    position: relative;
+    top: 1%;
+    left: 0%;
+  }
+
+  .marketplacefooterdivspecialimageflex {
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .marketplacefooterinnerbox {
+    /* border: 1px solid red; */
+    display: flex;
+    /* position: relative; */
+    height: 90px;
+    width: 130%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* left: 4%; */
+    margin-top: 3%;
+    background-color: white;
+    /* margin: 2%; */
+  }
+
+  .marketplacefooterinnerboximg {
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+    height: 50%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceinnerboxdivfooter {
+    /* margin-left: 2%; */
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+  }
+
+  .marketplacefootermaindivrightindex0 {
+    position: absolute;
+    display: none;
+    left: 0%;
+    top: 0px;
+    z-index: 0;
+    width: 50%;
+  }
+
+  .marketplacemaindivrightindex2 {
+    position: absolute;
+    display: none;
+    width: 50%;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+  }
+
+  .smalltxtmarketplace {
+    margin-top: 0%;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .marketplacefooterdiv {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  .marketplacefooterdivfortext {
+    height: auto;
+    text-align: center;
+    width: 95%;
+  }
+
+  .marketplacefooterdivfortext > h2 {
+    font-size: 17px;
+    font-size: 600;
+  }
+
+  .marketplacefooterdivspecial {
+    /* border: 1px solid rebeccapurple; */
+    height: 40%;
+    width: 95%;
+    position: relative;
+    top: 1%;
+    left: 0%;
+  }
+
+  .marketplacefooterdivspecialimageflex {
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .marketplacefooterinnerbox {
+    /* border: 1px solid red; */
+    display: flex;
+    /* position: relative; */
+    height: 90px;
+    width: 130%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* left: 4%; */
+    margin-top: 3%;
+    background-color: white;
+    /* margin: 2%; */
+  }
+
+  .marketplacefooterinnerboximg {
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+    height: 50%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceinnerboxdivfooter {
+    /* margin-left: 2%; */
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+  }
+
+  .marketplacefootermaindivrightindex0 {
+    position: absolute;
+    display: none;
+    left: 0%;
+    top: 0px;
+    z-index: 0;
+    width: 50%;
+  }
+
+  .marketplacemaindivrightindex2 {
+    position: absolute;
+    display: none;
+    width: 50%;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+  }
+
+  .smalltxtmarketplace {
+    margin-top: 0%;
+    font-size: 12px;
+  }
+}

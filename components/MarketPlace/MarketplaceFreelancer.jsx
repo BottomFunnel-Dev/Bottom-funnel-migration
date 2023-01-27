@@ -56,7 +56,7 @@ const MarketplaceFreelancer = () => {
 
                 <div className={styles.freelancermarketboxrightflexing}>
                     <div className={styles.freelancertextboxrightdiv}>
-                        <h2>Freelancer Website & App</h2>
+                        <h2> Freelancer Website & App </h2>
                         <h6>
                             Our Freelancer Marketplace (community) was designed to bring together freelancers and businesses
                             for a better way to connect
@@ -85,6 +85,7 @@ const MarketplaceFreelancer = () => {
                                         <div className={styles.frelancerinsiderlogo}>
                                             <img className={styles.imagelogofree} src={e.img} alt="image" />
                                         </div>
+
                                         <div className={styles.frelancerinsidertxt}>
                                             <h5>{e.Htxt}</h5>
                                             <p>{e.stxt}</p>
@@ -92,13 +93,9 @@ const MarketplaceFreelancer = () => {
                                     </div>
                                 )
                             })}
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     );

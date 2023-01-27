@@ -35,6 +35,7 @@ export default function Pharmacycontainer() {
             <h1>Launch an On-Demand</h1>
             <h1>Pharmacy Delivery App</h1>
             <p>And 4X Your Sales of Medicines.</p>
+            
             <button className={styles.szpharmacybtn} onClick={handleOpen}>Get Started</button>
 
             <Modal

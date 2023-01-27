@@ -48,7 +48,7 @@ export const MarketplaceBanner = () => {
         >
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
-              <div className="popform">
+              <div className={styles.popform}>
                 <PopupForm />
               </div>
             </Typography>

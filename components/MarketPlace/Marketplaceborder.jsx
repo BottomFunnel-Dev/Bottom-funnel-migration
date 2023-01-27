@@ -15,11 +15,8 @@ const Marketplaceborder = () => {
           <h2>We Can Turn Your Vision into an Interactive & fully Functional app like fiverr</h2>
 
           <button className={styles.marketplacebutton}>Get Started</button>
-
         </div>
-
       </div>
-
     </div>
   );
 };

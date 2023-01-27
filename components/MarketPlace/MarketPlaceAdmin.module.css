@@ -73,14 +73,14 @@
   height: auto;
 }
 
-.marketplaceadminflexboxingfortxtcontain > h5{
-    /* border: 1px solid red; */
-    margin-top: 2%;
+.marketplaceadminflexboxingfortxtcontain > h5 {
+  /* border: 1px solid red; */
+  margin-top: 2%;
 }
 
-.marketplaceadminflexboxingfortxtcontain > p{
-    /* border: 1px solid red; */
-    margin-top: -8%;
+.marketplaceadminflexboxingfortxtcontain > p {
+  /* border: 1px solid red; */
+  margin-top: -8%;
 }
 
 .marketplaceadminlogo {
@@ -89,4 +89,226 @@
   width: 100%;
   /* border: 1px solid red; */
   margin-top: 0%;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .marketplaceadminmainbox {
+    height: fit-content;
+    width: 100%;
+    /* margin-top: 5%; */
+  }
+
+  .marketplaceflexboxforadmin {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .marketplaceadminbackgroundimagebanner {
+    width: 95%;
+    /* height: 100%; */
+    padding: 2%;
+    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+    background-repeat: no-repeat;
+    /* background-size: 120%; */
+    background-position: center;
+  }
+
+  .marketplaceadminchangableimagecontent {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 10%;
+    height: 90%;
+    margin-top: 1%;
+  }
+
+  .imageboxmarketplaceadmin {
+    object-fit: contain;
+    height: 100%;
+    width: 90%;
+  }
+
+  .marketplaceadminbackgroundimagebannertextbox {
+    width: 95%;
+    height: 30%;
+    /* margin-left: 5%; */
+    /* border: 1px solid gold; */
+    /* margin-top: 2%; */
+  }
+
+  .marketplaceadminbackgroundimagebannertextbox > h2 {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceadminbackgroundimagebannertextbox > p {
+    font-size: 15px;
+  }
+
+  .marketplaceadminboxingfordoingflex {
+    height: 55%;
+    width: 100%;
+    margin-left: 2%;
+    /* border: 1px solid red; */
+  }
+
+  .marketplaceadminflexboxing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .marketplaceadminflexboxingforimageandtxtcontain {
+    /* height: 50%; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    /* padding: 15px; */
+  }
+
+  .marketplaceadminflexboxingforimagecontain {
+    width: 15%;
+    height: 50px;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+
+  .marketplaceadminflexboxingfortxtcontain {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+  }
+
+  .marketplaceadminflexboxingfortxtcontain > h5 {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+  }
+
+  .marketplaceadminflexboxingfortxtcontain > p {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+  }
+
+  .marketplaceadminlogo {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .marketplaceadminmainbox {
+    height: fit-content;
+    width: 100%;
+    margin-top: 18%;
+  }
+
+  .marketplaceflexboxforadmin {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .marketplaceadminbackgroundimagebanner {
+    width: 95%;
+    /* height: 100%; */
+    padding: 2%;
+    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+    background-repeat: no-repeat;
+    /* background-size: 120%; */
+    background-position: center;
+  }
+
+  .marketplaceadminchangableimagecontent {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 10%;
+    height: 90%;
+    margin-top: 1%;
+  }
+
+  .imageboxmarketplaceadmin {
+    object-fit: contain;
+    height: 100%;
+    width: 90%;
+  }
+
+  .marketplaceadminbackgroundimagebannertextbox {
+    width: 95%;
+    height: 30%;
+    /* margin-left: 5%; */
+    /* border: 1px solid gold; */
+    /* margin-top: 2%; */
+  }
+
+  .marketplaceadminbackgroundimagebannertextbox > h2 {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceadminbackgroundimagebannertextbox > p {
+    font-size: 15px;
+  }
+
+  .marketplaceadminboxingfordoingflex {
+    height: 55%;
+    width: 100%;
+    margin-left: 2%;
+    /* border: 1px solid red; */
+  }
+
+  .marketplaceadminflexboxing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .marketplaceadminflexboxingforimageandtxtcontain {
+    /* height: 50%; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    /* padding: 15px; */
+  }
+
+  .marketplaceadminflexboxingforimagecontain {
+    width: 15%;
+    height: 50px;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+
+  .marketplaceadminflexboxingfortxtcontain {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+  }
+
+  .marketplaceadminflexboxingfortxtcontain > h5 {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+  }
+
+  .marketplaceadminflexboxingfortxtcontain > p {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+  }
+
+  .marketplaceadminlogo {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
 }

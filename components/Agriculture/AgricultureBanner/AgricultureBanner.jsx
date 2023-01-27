@@ -21,7 +21,7 @@ const AgricultureBanner = () => {
             </div>
             
             <div className={styles.agricultureBannerImageDiv}>
-                <img src='/Images/Agriculture/AgricultureBanner.png' alt='image' />
+                <img src='/Images/Agriculture/AgricultureNewBanner.png' alt='image' />
             </div>
 
         </div>

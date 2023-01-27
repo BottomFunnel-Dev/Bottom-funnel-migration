@@ -36,16 +36,17 @@
 }
 
 .imageContainer {
-  width: 75%;
-  height: 100%;
-  background: url("/Images/ondemandHome/back.png");
+  width: 70%;
+  /* border: 1px solid red; */
+  height: 95%;
+  /* background: url("/Images/ondemandHome/back.png"); */
   background-repeat: no-repeat;
 }
 
 .imageContainer > img {
-  margin-top: 45px;
+  /* margin-top: 45px; */
   margin-left: 30px;
   width: 95%;
-  height: 95%;
+  height: 100%;
   object-fit: contain;
 }

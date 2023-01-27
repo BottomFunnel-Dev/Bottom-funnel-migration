@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ondemandHero.module.css";
+
 const OndemandHero = () => {
   return (
     <div className={styles.ondemandHero}>
@@ -14,8 +15,9 @@ const OndemandHero = () => {
           <button>Get Started </button>
         </div>
       </div>
+
       <div className={styles.imageContainer}>
-        <img src="Images/ondemandHome/mobileimage.png" alt="images" />
+        <img src="Images/ondemandHome/OnDemandServicesBNewBanner.png" alt="images" />
       </div>
     </div>
   );

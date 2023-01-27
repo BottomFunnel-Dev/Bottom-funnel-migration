@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-import OndemandHero from '../../components/OndemandHome/OndemandHero';
+import OndemandHero from "../../components/OndemandHome/OndemandHero";
 import { homesolutionsLogo } from "../../components/Data/SeopartnerData";
-import Trusted from '../../components/SEO/SeoTrustedCompanies/Seotrusted';
-import OndemandQuote from '../../components/OndemandHome/OndemandQuote';
-import HomeServices from '../../components/OndemandHome/HomeServices';
-import ExclusiveFeature from '../../components/OndemandHome/ExclusiveFeature';
-import KeyFeatures from '../../components/OndemandHome/KeyFeatures';
+import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
+import OndemandQuote from "../../components/OndemandHome/OndemandQuote";
+import HomeServices from "../../components/OndemandHome/HomeServices";
+import ExclusiveFeature from "../../components/OndemandHome/ExclusiveFeature";
+import KeyFeatures from "../../components/OndemandHome/KeyFeatures";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -18,15 +18,15 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function OnDemandSection () {
+export default function OnDemandSection() {
   return (
     <div>
- <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
@@ -36,7 +36,7 @@ export default function OnDemandSection () {
       <HomeServices />
       <ExclusiveFeature />
       <KeyFeatures />
-      
+
       <StoriesSection />
       {/* <Industries /> */}
       <PlanProject />
@@ -49,4 +49,4 @@ export default function OnDemandSection () {
       <MainFooter />
     </div>
   );
-};
+}

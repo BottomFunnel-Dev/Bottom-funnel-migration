@@ -20,32 +20,32 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function MarketPlace() {
   return (
     <div>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
       <MarketplaceBanner />
       <MarketplaceFreelancer />
       <MarketPlaceAdmin />
-      <MarketPlaceClients />
+      {/* <MarketPlaceClients /> */}
       <Marketplaceborder />
       <Maketplacefooter />
 
-      {/* <StoriesSection /> */}
+      <StoriesSection />
       {/* <Industries /> */}
-      {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <PlanProject />
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
-      {/* <MainFooter /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 }

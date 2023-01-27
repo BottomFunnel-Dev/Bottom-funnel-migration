@@ -50,10 +50,17 @@
 }
 
 .foodDeliveryBannerImage {
-  width: 55%;
+  width: 65%;
   height: 100%;
   object-fit: contain;
   text-align: right;
+}
+
+.foodDeliveryBannerImage > img {
+  /* border: 1px solid red; */
+  height: 620px;
+  width: 90%;
+  object-fit: contain;
 }
 
 /* @media (min-width: 481px) and (max-width: 1024px) {

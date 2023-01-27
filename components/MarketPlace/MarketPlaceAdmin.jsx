@@ -48,24 +48,24 @@ const MarketPlaceAdmin = () => {
               Allowing them to connect quickly, easily, and transparently.
             </p>
           </div>
+          
           <div className={styles.marketplaceadminboxingfordoingflex}>
             <div className={styles.marketplaceadminflexboxing}>
               {marketplaceAdminrData.map((el) => {
                 return (
-                  <div
-                    className={styles.marketplaceadminflexboxingforimageandtxtcontain}
+                  <div className={styles.marketplaceadminflexboxingforimageandtxtcontain}
                     key={el.Htxt}
                     onMouseEnter={() => {
                       handleImageChange(el.tablet);
                     }}
                   >
                     <div className={styles.marketplaceadminflexboxingforimagecontain}>
-                      <img
-                        className={styles.marketplaceadminlogo}
+                      <img className={styles.marketplaceadminlogo}
                         src={el.img}
                         alt="image"
                       />
                     </div>
+
                     <div className={styles.marketplaceadminflexboxingfortxtcontain}>
                       <h5>{el.Htxt}</h5>
                       <p>{el.stxt}</p>
@@ -78,8 +78,7 @@ const MarketPlaceAdmin = () => {
         </div>
 
         <div className={styles.marketplaceadminchangableimagecontent}>
-          <img
-            className={styles.imageboxmarketplaceadmin}
+          <img className={styles.imageboxmarketplaceadmin}
             src={imageChange}
             alt="marketplacebanner"
           />

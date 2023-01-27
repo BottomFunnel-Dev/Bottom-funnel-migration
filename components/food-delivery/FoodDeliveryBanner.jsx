@@ -17,7 +17,7 @@ export const FoodDeliveryBanner = () => {
       <div className={styles.foodDeliveryBannerImage}>
         <img
           height="100%"
-          src="Images/foodDeliveryphotos/bannerNew.png"
+          src="Images/foodDeliveryphotos/FoodDeliveryNewBanner.png"
           alt="Food Delivery Banner image"
         />
       </div>

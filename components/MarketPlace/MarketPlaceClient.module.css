@@ -56,9 +56,9 @@
 }
 
 .marketplaceclientflexboxingfortxtcontain > h5 {
-    /* border: 1px solid black; */
-    margin-top: 2%;
-    margin-bottom: 0%;
+  /* border: 1px solid black; */
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
 
 .clientmarketplaceflexboximage1 {
@@ -96,4 +96,278 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .marketplaceclientmainboxing {
+    /* border: 1px solid red; */
+    height: 1100px;
+    margin-top: 100px;
+    width: 95%;
+  }
+
+  .clientmarketplaceflexboxbig {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexleft {
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexright {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox {
+    margin: 5%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox > h2 {
+    font-size: 30px;
+    margin-bottom: 0%;
+    font-weight: 700;
+  }
+
+  .clientmarketplaceflexlefttxtbox > p {
+    font-size: 15px;
+    margin-top: 2%;
+    width: 90%;
+  }
+
+  .marketplaceclientsboxingfordoingflex {
+    height: 100%;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .marketplaceclientsflexboxing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .marketplaceclientflexboxingforimageandtxtcontain {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: fit-content; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+  }
+
+  .marketplaceclientsflexboxingforimagecontain {
+    /* border: 1px solid rebeccapurple; */
+    width: 20%;
+    height: 50px;
+    margin: auto;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > h5 {
+    /* border: 1px solid black; */
+    /* margin-top: 2%; */
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > p {
+    margin-top: 2%;
+    font-size: 13px;
+    font-size: 400;
+  }
+
+  .clientmarketplaceflexboximage1 {
+    height: 300px;
+  }
+
+  .clientmarketplaceflexrightinsiderimagesthreebox {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .clientflexingrightdiv1forimage {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    top: 0%;
+  }
+
+  .clientflexingrightdiv2forimage {
+    /* border: 1px solid firebrick; */
+    position: absolute;
+    height: 40%;
+    width: 60%;
+    object-fit: contain;
+    /* left: 30%; */
+  }
+
+  .clientflexingrightdiv3forimage {
+    position: absolute;
+    height: 20%;
+    width: 50%;
+    top: 20%;
+    left: -2%;
+    /* border: 1px solid rebeccapurple; */
+  }
+
+  .marketplaceimageclientimage1 {
+    /* border: 1px solid rebeccapurple; */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .marketplaceclientmainboxing {
+    height: 700px;
+    margin-top: 100px;
+    width: 95%;
+  }
+
+  .clientmarketplaceflexboxbig {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexleft {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexright {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox {
+    margin: 5%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox > h2 {
+    font-size: 30px;
+    margin-bottom: 0%;
+    font-weight: 700;
+  }
+
+  .clientmarketplaceflexlefttxtbox > p {
+    font-size: 15px;
+    margin-top: 2%;
+    width: 90%;
+  }
+
+  .marketplaceclientsboxingfordoingflex {
+    height: 100%;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .marketplaceclientsflexboxing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .marketplaceclientflexboxingforimageandtxtcontain {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: fit-content; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+  }
+
+  .marketplaceclientsflexboxingforimagecontain {
+    /* border: 1px solid rebeccapurple; */
+    width: 20%;
+    height: 50px;
+    margin: auto;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: auto;
+    /* border: 1px solid red; */
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > h5 {
+    /* border: 1px solid black; */
+    /* margin-top: 2%; */
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > p {
+    margin-top: 2%;
+    font-size: 13px;
+    font-size: 400;
+  }
+
+  .clientmarketplaceflexboximage1 {
+    height: 300px;
+  }
+
+  .clientmarketplaceflexrightinsiderimagesthreebox {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .clientflexingrightdiv1forimage {
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    /* top: -5%; */
+  }
+
+  .clientflexingrightdiv2forimage {
+    /* border: 1px solid firebrick; */
+    position: absolute;
+    height: 65%;
+    width: 50%;
+    object-fit: contain;
+    /* left: 30%; */
+  }
+
+  .clientflexingrightdiv3forimage {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    top: 25%;
+    /* border: 1px solid rebeccapurple; */
+    /* left: 10%; */
+  }
+
+  .marketplaceimageclientimage1 {
+    /* border: 1px solid rebeccapurple; */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }

@@ -57,7 +57,6 @@ const MarketPlaceClients = () => {
                             {marketplaceclientdata.map((el) => {
                                 return (
                                     <div className={styles.marketplaceclientflexboxingforimageandtxtcontain}
-
                                         key={el.Htxt} onMouseEnter={() => {
                                             console.log(el);
                                             handleImageChange(el.Cphone)

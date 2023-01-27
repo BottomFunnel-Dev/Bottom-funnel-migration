@@ -8,14 +8,17 @@ const Maketplacefooter = () => {
         <div className={styles.marketplacefooterdivfortext}>
           <h2>Why Choose Bottom Funnel As Your Sports Betting App Development Company?</h2>
         </div>
+
         <div className={styles.marketplacefooterdivspecial}>
           <img className={styles.marketplacefootermaindivrightindex0} src='/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png' alt='rightflexboximageindex0' />
           <img className={styles.marketplacemaindivrightindex2} src='/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png' alt='rightflexboximageindex0' />
+
           <div className={styles.marketplacefooterdivspecialimageflex}>
+            
             <div className={styles.marketplacefooterinnerbox}>
               <div className={styles.marketplaceinnerboxdivfooter}>
                 <img className={styles.marketplacefooterinnerboximg} src='/Images/Marketplaceapp/icons/sett.png' alt='image1' />
-                <h6 className={styles.smalltxtmarketplace}>100% Customization</h6>
+                <h6 className={styles.smalltxtmarketplace}> Full Customization</h6>
               </div>
             </div>
 
