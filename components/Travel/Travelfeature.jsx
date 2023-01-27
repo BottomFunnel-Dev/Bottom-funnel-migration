@@ -4,27 +4,27 @@ import styles from "./Travelfeature.module.css";
 export default function Travelfeature() {
   const travelfeature = [
     {
-      img: "Images/Travel/gps.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/gps.png",
       p: "GPS based location services",
     },
     {
-      img: "Images/Travel/hotdeals.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/hotdeals.png",
       p: "Hot deals",
     },
     {
-      img: "Images/Travel/currency.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/currency.png",
       p: "Currency Exchange",
     },
     {
-      img: "Images/Travel/guide.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/guide.png",
       p: "Complete travel guide",
     },
     {
-      img: "Images/Travel/admin.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/admin.png",
       p: "Easy to use admin control panel",
     },
     {
-      img: "Images/Travel/secure.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/secure.png",
       p: "Secure payment",
     },
   ];

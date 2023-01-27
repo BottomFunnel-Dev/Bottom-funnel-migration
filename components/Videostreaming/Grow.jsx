@@ -9,7 +9,7 @@ export default function Grow() {
 
         <div className={styles.growmobile}>
           <div className={styles.growmobileimage}>
-            <img src="Images/Videostreaming/newmoviesimage.png" alt='image' />
+            <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/newmoviesimage.png" alt='image' />
           </div>
         </div>
 
@@ -24,7 +24,7 @@ export default function Grow() {
             <div className={styles.szbtnget}>
               <p>Get Started </p>
               <div className={styles.szstarticon}>
-                <img src="Images/Videostreaming/Arrow.png" alt='image' />
+                <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/Arrow.png" alt='image' />
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Grow() {
             <div className={styles.szbtnget}>
               <p>Get Started </p>
               <div className={styles.szstarticon}>
-                <img src="Images/Videostreaming/Arrow.png" alt='image' />
+                <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/Arrow.png" alt='image' />
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Grow() {
 
         <div className={styles.optimizeimage}>
           <div className={styles.crown}>
-            <img src="Images/Videostreaming/tvapp.png" alt='image' />
+            <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/tvapp.png" alt='image' />
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function Grow() {
       <div className={styles.growdiv}>
         <div className={styles.starwars}>
           <div className={styles.starwarimage}>
-            <img src="Images/Videostreaming/starwars.png" alt='image' />
+            <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/starwars.png" alt='image' />
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export default function Grow() {
             <div className={styles.szbtnget}>
               <p>Get Started </p>
               <div className={styles.szstarticon}>
-                <img src="Images/Videostreaming/Arrow.png" alt="image" />
+                <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/Arrow.png" alt="image" />
               </div>
             </div>
           </div>

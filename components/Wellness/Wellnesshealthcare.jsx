@@ -7,7 +7,7 @@ export default function Wellnesshealthcare() {
       <div className={styles.Wellnesshealthcaresub}>
         <div className={styles.Wellnesshealthcareleft}>
           <div className={styles.wellnessimage}>
-            <img src="/Images/Wellness/healthphone.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Wellness/healthphone.png" alt="image" />
           </div>
         </div>
         <div className={styles.Wellnesshealthcareright}>

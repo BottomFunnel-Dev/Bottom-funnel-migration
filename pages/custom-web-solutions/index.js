@@ -32,25 +32,26 @@ export default function CustomisedWebDevelopment () {
           logo: true,
         }}
       />
-      <CustomisedWebBanner />
-      <CustomisedWebUnique />
-      <CustomisedWebServices />
-      <CustomWebSolutions />
-      <CustomWebMidBanner />
-      <CustomWebWhyBF />
-      <CustomWebSlider />
+        <CustomisedWebBanner />
+         <CustomisedWebUnique />
+          <CustomisedWebServices />
+         <CustomWebSolutions />
+         <CustomWebMidBanner />
+        <CustomWebWhyBF />
+       {/* <CustomWebSlider />
       <CustomWebForm />
-      
-      {/* Other react required components  */}
+      */}
+      {/* Other react required components  
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio />  */}
+      {/* <PortFolio />  
       <PlanProject /> 
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+    */}
     </div>
   );
 };

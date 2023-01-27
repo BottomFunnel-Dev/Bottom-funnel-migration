@@ -20,7 +20,7 @@ export default function Travelcontainer() {
         </div>
         <div className={styles.sztravelright}>
           <div className={styles.travelgirl}>
-            <img src="Images/Travel/travelgirl.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/travelgirl.png" />
           </div>
         </div>
       </div>

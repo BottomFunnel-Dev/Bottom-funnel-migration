@@ -10,7 +10,7 @@ export const SocialMediaSolution = () => {
       </div>
       <div className={styles.socialmediaspecialimagelongerforsolution}>
         <img
-          src="Images/socialmedia/bannesbackground/Rectangle4383.png"
+          src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Rectangle4383.png"
           alt="imagelonger"
         />
       </div>
@@ -18,7 +18,7 @@ export const SocialMediaSolution = () => {
         <div className={styles.socialmediasolutionmobileboxone}>
           <div className={styles.socialmediasolutionmobilebox}>
             <img
-              src="Images/socialmedia/userappscreens/Inappchat.png"
+              src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/userappscreens/Inappchat.png"
               alt="mobile"
             />
           </div>
@@ -31,7 +31,7 @@ export const SocialMediaSolution = () => {
           </div>
           <div className={styles.socialmediasolutionlogobox}>
             <img
-              src="Images/socialmedia/icons/social-media-snapchat-original-latest-logo-free-vector.png"
+              src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Icons/social-media-snapchat-original-latest-logo-free-vector.png"
               alt="image"
             />
           </div>
@@ -40,7 +40,7 @@ export const SocialMediaSolution = () => {
         <div className={styles.socialmediasolutionmobileboxtwo}>
           <div className={styles.socialmediamobilesolutionboxone}>
             <img
-              src="Images/socialmedia/userappscreens/Feed.png"
+              src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/userappscreens/Feed.png"
               alt="mobile"
             />
           </div>
@@ -52,14 +52,14 @@ export const SocialMediaSolution = () => {
             </p>
           </div>
           <div className={styles.socialmedialogosolutionboxone}>
-            <img src="Images/socialmedia/icons/unnamed.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Icons/unnamed.png" alt="image" />
           </div>
         </div>
 
         <div className={styles.socialmediasolutionmobileboxthree}>
           <div className={styles.socialmediasolutionflexboximagethree}>
             <img
-              src="Images/socialmedia/userappscreens/socialgroups.png"
+              src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/userappscreens/socialgroups.png"
               alt="mobile"
             />
           </div>
@@ -71,14 +71,14 @@ export const SocialMediaSolution = () => {
             </p>
           </div>
           <div className={styles.socialmediasolutionflexboxlogothree}>
-            <img src="Images/socialmedia/icons/logo.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Icons/logo.png" alt="image" />
           </div>
         </div>
 
         <div className={styles.socialmediasolutionmobileboxfour}>
           <div className={styles.socialmediasolutionflexboximagefour}>
             <img
-              src="Images/socialmedia/userappscreens/socialgroups.png"
+              src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/userappscreens/socialgroups.png"
               alt="mobile"
             />
           </div>
@@ -90,13 +90,13 @@ export const SocialMediaSolution = () => {
             </p>
           </div>
           <div className={styles.socialmediasolutionflexboxlogofour}>
-            <img src="Images/socialmedia/icons/unnamed (1).png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Icons/unnamed (1).png" alt="image" />
           </div>
         </div>
       </div>
       <div className={styles.socialmediaouterliftimagelinewise}>
         <img
-          src="Images/socialmedia/bannesbackground/Rectangle4383.png"
+          src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Rectangle4383.png"
           alt=""
         />
       </div>

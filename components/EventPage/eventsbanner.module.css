@@ -2,7 +2,7 @@
     width: 100%;
     height: 85vh;
     display: flex;
-    background: url('/Images/Eventpage/banner.png');
+    background: url('https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/banner.png');
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: cover;

@@ -6,43 +6,43 @@ export const CustomWebSolutions = () => {
     {
       title: "Cloud-based Dev",
       body: "Accelerate your development process by maximizing your use of cloud services.",
-      image: "Images/customWebPhotos/cloud-computing.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/cloud-computing.png",
     },
     {
       title: "Full-cycle Development",
       body: "It includes project planning, requirements analysis, system design, implementation, testing and deployment.",
-      image: "Images/customWebPhotos/app-development.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/app-development.png",
     },
     {
       title: "Consolidation & Integration",
       body: "We combine potential tools, innovative technology and quality design.",
-      image: "Images/customWebPhotos/integration.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/integration.png",
     },
     {
       title: "Agile & Adaptive",
       body: "We are one of the leading web development agencies and have a proven track record with agile models.",
-      image: "Images/customWebPhotos/agile.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/agile.png",
     },
     {
       title: "Maintenance & Support",
       body: "After your site is up and running, we are here when you need us.",
-      image: "Images/customWebPhotos/maintenance.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/maintenance.png",
     },
     {
       title: "Quality Assurance",
       body: "Quality is of the utmost importance to us. Every website we develop goes through a rigorous error correction process.",
-      image: "Images/customWebPhotos/badge.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/badge.png",
     },
   ];
   return (
     <div className={styles.CustomWebSolutionsContainer}>
       <div className={styles.CustomWebSolutionsBackgroundRectangle}>
         <img
-          src="Images/MLPhotos/rectangle-top.png"
+          src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/MLPhotos/rectangle-top.png"
           alt="Background image rectangle top"
         />
         <img
-          src="Images/MLPhotos/rectangle-bottom.png"
+          src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/MLPhotos/rectangle-bottom.png"
           alt="Background image rectangle left bottom"
         />
       </div>

@@ -7,7 +7,7 @@ export default function Politictarget() {
         <div className={styles.sztargeting}>
           <div className={styles.sztargeting}>
             <div className={styles.sztargetingimage}>
-              <img src="Images/Politics/target.png" />
+              <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/target.png" />
             </div>
             <div className={styles.targetinghead}>
               {" "}
@@ -30,7 +30,7 @@ export default function Politictarget() {
         <div className={styles.sztargeting}>
           <div className={styles.sztargeting}>
             <div className={styles.sztargetingimage}>
-              <img src="Images/Politics/search.png" />
+              <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/search.png" />
             </div>
             <div className={styles.targetinghead}>
               {" "}

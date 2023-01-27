@@ -4,19 +4,19 @@ export const Bettingwhy = () => {
   const bettingwhydata = [
     {
       cardtitle: "100% Customzation",
-      cardIcon: "/Images/carpoolingpage/icons/Component 6.png",
+      cardIcon: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/Component 6.png",
     },
     {
       cardtitle: "Highly Scalable",
-      cardIcon: "/Images/carpoolingpage/icons/Component 7.png",
+      cardIcon: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/Component 7.png",
     },
     {
       cardtitle: "Dedicated Support",
-      cardIcon: "/Images/carpoolingpage/icons/Component 8.png",
+      cardIcon: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/Component 8.png",
     },
     {
       cardtitle: "Global Solution",
-      cardIcon: "/Images/carpoolingpage/icons/Component 9.png",
+      cardIcon: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/Component 9.png",
     },
   ];
 

@@ -15,7 +15,7 @@ export const AviationLetsDiscuss = () => {
     </div>
     <div className={styles.letsdiscussalternateboxhavetoflex}>
     <div className={styles.innerboxforimageletsdiscuss}>
-    <img src='Images/aviation/airport-terminal.png' alt='images' />
+    <img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/airport-terminal.png' alt='images' />
     
     </div>
     <div className={styles.innerboxfortextletsdiscuss}>
@@ -35,7 +35,7 @@ aviation software development services.Being an aviation service company, we off
 demand forecasting and predictive maintainance which are all tied to automation.</p>
 </div>
 <div className={styles.innerboxforimageletsdiscuss2}>
-<img src='Images/aviation/andres-dallimonti-kjqTlMHLci4-unsplash.png' alt='images' />
+<img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/andres-dallimonti-kjqTlMHLci4-unsplash.png' alt='images' />
 
 </div>
 
@@ -45,7 +45,7 @@ demand forecasting and predictive maintainance which are all tied to automation.
 <div className={styles.letsdiscussalternateboxhavetoflex}>
 <div className={styles.innerboxforimageletsdiscuss}>
 
-<img src='Images/aviation/william-topa-7_4bU5tHRLQ-unsplash.png' alt='images' />
+<img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/william-topa-7_4bU5tHRLQ-unsplash.png' alt='images' />
 
 </div>
 <div className={styles.innerboxfortextletsdiscuss}>
@@ -70,7 +70,7 @@ Federal Aviation Administration(FAA), Temporary flight Restrictions (TFR), Advis
 
 </div>
 <div className={styles.innerboxforimageletsdiscuss2}>
-<img src='Images/aviation/claudio-schwarz-fyeOxvYvIyY-unsplash.png' alt='images' />
+<img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/claudio-schwarz-fyeOxvYvIyY-unsplash.png' alt='images' />
 </div>
 
 </div>
@@ -78,7 +78,7 @@ Federal Aviation Administration(FAA), Temporary flight Restrictions (TFR), Advis
 
 <div className={styles.letsdiscussalternateboxhavetoflex}>
 <div className={styles.innerboxforimageletsdiscuss}>
-<img src='Images/aviation/bao-menglong--FhoJYnw-cg-unsplash.png' alt='images' />
+<img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/bao-menglong--FhoJYnw-cg-unsplash.png' alt='images' />
 
 </div>
 <div className={styles.innerboxfortextletsdiscuss}>
@@ -102,7 +102,7 @@ This includes leveraging the latest populated software that will actually lessen
 
 </div>
 <div className={styles.innerboxforimageletsdiscuss2}>
-<img src='Images/aviation/ashim-d-silva-pGcqw1ARGyg-unsplash.png' alt='images' />
+<img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/ashim-d-silva-pGcqw1ARGyg-unsplash.png' alt='images' />
 
 </div>
 

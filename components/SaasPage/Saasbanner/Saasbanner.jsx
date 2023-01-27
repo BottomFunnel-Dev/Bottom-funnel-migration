@@ -9,7 +9,8 @@ export const Saasbanner = () => {
         <div className={styles.saasBannerImage}>
           <img
             width="100%"
-            src="Images/saasPhotos/banner.png"
+            src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com
+            Images/saasPhotos/banner.png"
             alt="Saas Banner image"
           />
         </div>

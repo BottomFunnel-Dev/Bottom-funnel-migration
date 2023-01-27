@@ -1,9 +1,11 @@
+/* for any type laptop screen responsible */
+@media only screen and (min-width:901px){
 .CustomisedWebBannerMain {
   height: 100vh;
   padding-left: 5%;
 
   background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/Images/customWebPhotos/banner.png");
+    url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/banner.png");
   background-size: 110%;
   background-position: top;
   background-repeat: no-repeat;
@@ -81,4 +83,99 @@
   height: 2px;
   background-color: #fff;
   color: #fff;
+}
+}
+
+/* for any type of mobile screen responsible */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+.CustomisedWebBannerMain {
+  height: 100vh;
+  padding-left: 5%;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/banner.png");
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.CustomisedWebBannerMain > h1 {
+  font-size: 25px;
+  width: 90%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+text-align: center;
+  color: #f5f5f5;
+}
+
+.CustomisedWebBannerMain > h1 > span {
+  color: #ef4c23;
+}
+
+.CustomisedWebBannerMain > p {
+  font-size: 18px;
+  width: 90%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+text-align: justify;
+  color: #f5f5f5;
+}
+
+.CustomisedWebBannerMain > button {
+  font-size: 20px;
+  font-weight: 600;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 1%;
+
+  background-color: #f5f5f5;
+  color: #ef4c23;
+  padding: 10px 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CustomisedWebBannerMain > button:hover {
+  color: #f5f5f5;
+  background-color: #ef4c23;
+}
+
+.CustomisedWebBannerHrLine {
+  width: 90%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomisedWebBannerHrLine > div {
+  border: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CustomisedWebBannerHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #fff;
+  color: #fff;
+}
+
+
+
+
 }

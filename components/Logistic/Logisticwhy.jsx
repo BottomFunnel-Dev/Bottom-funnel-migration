@@ -26,7 +26,7 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/agile.png" alt="image"/>{" "}
+                <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/agile.png" alt="image"/>{" "}
               </div>
               <h5>Agile Development Process </h5>
             </div>
@@ -41,7 +41,7 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/privatefolder.png" alt="image"/>{" "}
+                <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/privatefolder.png" alt="image"/>{" "}
               </div>
               <h5> Data security and protection</h5>
             </div>
@@ -56,7 +56,7 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/deliverytime.png" alt="image"/>{" "}
+                <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/deliverytime.png" alt="image"/>{" "}
               </div>
               <h5> Round-the-clock support </h5>
             </div>
@@ -71,7 +71,7 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/Quality.png" alt="image"/>{" "}
+                <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Quality.png" alt="image"/>{" "}
               </div>
               <h5> Quality development </h5>
             </div>

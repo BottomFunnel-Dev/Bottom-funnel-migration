@@ -17,7 +17,7 @@ export const EcommerceComBanner = () => {
       </div>
       <div className={styles.eCommerceBannerImage}>
         <img
-          src="Images/EcommercePhotos/banner.png"
+          src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/banner.png"
           alt="e-commerce banner image"
         />
       </div>

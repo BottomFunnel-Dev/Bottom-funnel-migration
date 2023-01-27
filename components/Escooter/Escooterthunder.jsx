@@ -4,19 +4,19 @@ import styles from "./Escooterthunder.module.css";
 export default function Escooterthunder() {
   const thunderblue = [
     {
-      img: "/Images/Escooter/traffic.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/traffic.png",
       p: "Turns your vision into reality"
     },
     {
-      img: "/Images/Escooter/takecare.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/takecare.png",
       p: "Take care of the minutest details"
     },
     {
-      img: "/Images/Escooter/setting.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/setting.png",
       p: "Keeps up with the latest tech and trends"
     },
     {
-      img: "/Images/Escooter/Builds.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Builds.png",
       p: "Builds an efficient UI for a user-Frienly app"
     },
   ]

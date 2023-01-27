@@ -46,7 +46,7 @@ export const EducationSupport = () => {
 
         <div className={styles.educationsupportleftboxingflexforimage}>
           <img
-            src="/Images/Education/vectors/vector studying.png"
+            src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Education/vectors/vector studying.png"
             alt="image"
           />
         </div>

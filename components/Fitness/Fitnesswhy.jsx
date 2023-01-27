@@ -5,22 +5,22 @@ export default function Fitnesswhy() {
 
   const whychoose = [
     {
-      img: "/Images/education/security.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/education/security.png",
       p: "On Time Delivery"
     },
     {
-      img: "Images/education/customer.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/education/customer.png",
       p: "24*7 Supports"
 
     },
 
     {
-      img: "Images/education/arrow.png ",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/education/arrow.png ",
       p: "Flexibility"
 
     },
     {
-      img: "Images/education/teaching.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/education/teaching.png",
       p: "Customer Satisfaction"
     }
   ]

@@ -17,7 +17,7 @@ export const BannerContent = () => {
       </div>
       <div className={styles.saasBannerContentImage}>
         <img
-          src="Images/saasPhotos/saas-vector.jpeg"
+          src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/saasPhotos/saas-vector.jpeg"
           alt="Saas App Development"
         />
       </div>

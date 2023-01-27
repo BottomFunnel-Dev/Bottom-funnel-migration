@@ -21,7 +21,7 @@ export const EventsDevelopment = () => {
         </div>
       </div>
       <div className={styles.eventsdevelopmentImage}>
-        <img src="Images/Eventpage/eventservice1.png" alt="image" />
+        <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/eventservice1.png" alt="image" />
       </div>
     </div>
   );

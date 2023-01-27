@@ -8,7 +8,7 @@ export const SeoblogSection = () => {
       <div className={styles._Seoblogs}>
         <div className={styles._Seoblogs1}>
           <div className={styles._Seoblogsimage}>
-            <img src="Images/blogSection/stories1.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/blogSection/stories1.png" alt="image" />
           </div>
           <div className={styles._Seoblogstext}>
             <p>How much does it cost to develop a mobile application</p>
@@ -17,7 +17,7 @@ export const SeoblogSection = () => {
         </div>
         <div className={styles._Seoblogs1}>
           <div className={styles._Seoblogsimage}>
-            <img src="Images/blogSection/stories2.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/blogSection/stories2.png" alt="image" />
           </div>
           <div className={styles._Seoblogstext}>
             <p>How much does it cost to web development services</p>
@@ -26,7 +26,7 @@ export const SeoblogSection = () => {
         </div>
         <div className={styles._Seoblogs1}>
           <div className={styles._Seoblogsimage}>
-            <img src="Images/blogSection/stories5.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/blogSection/stories5.png" alt="image" />
           </div>
           <div className={styles._Seoblogstext}>
             <p>Grab world best digital marketers for all your marketing needs</p>
@@ -35,7 +35,7 @@ export const SeoblogSection = () => {
         </div>
         <div className={styles._Seoblogs1}>
           <div className={styles._Seoblogsimage}>
-            <img src="Images/blogSection/stories4.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/blogSection/stories4.png" alt="image" />
           </div>
           <div className={styles._Seoblogstext}>
             <p>How much does it cost for UI UX designers for any technical product.</p>

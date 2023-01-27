@@ -5,36 +5,36 @@ import styles from "./SocialMediaAdminPannel.module.css";
 export const SocialMediaAdminPannel = () => {
   const socialmediadminpanneldata = [
     {
-      logo: "Images/socialmedia/bannesbackground/Component41.png",
-      image: "Images/socialmedia/Adminpanelscreens/dashboard.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Component41.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Adminpanelscreens/dashboard.png",
       htxt: "Dashboard",
       stxt: "Dashboards are an effective way of visualize and understanding data from dashboard.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/Group339972.png",
-      image: "Images/socialmedia/Adminpanelscreens/Profile.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Group339972.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Adminpanelscreens/Profile.png",
       htxt: "Profile Management",
       stxt: "It is used to create business profile, maintain it and manage users and groups.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/Component43.png",
-      image: "Images/socialmedia/Adminpanelscreens/Reorts.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Component43.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Adminpanelscreens/Reorts.png",
       htxt: "Reports",
       stxt: "Reporting is a crucial part in any business, and we realize that.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/icon.png",
-      image: "Images/socialmedia/Adminpanelscreens/Inshigts.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/icon.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Adminpanelscreens/Inshigts.png",
       htxt: "Insights",
       stxt: "Social media is changing the way we think about marketing.",
     },
   ];
 
   const [imageChange, setImageChange] = useState(
-    "Images/socialmedia/Adminpanelscreens/dashboard.png",
+    "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/Adminpanelscreens/dashboard.png",
   );
 
   const handleImageChange = (imagepath) => {

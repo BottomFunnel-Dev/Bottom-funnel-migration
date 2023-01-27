@@ -22,7 +22,7 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/delivery food.png" alt="image" />{" "}
+                  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/delivery food.png" alt="image" />{" "}
                 </div>
                 <h5>Shipping Logistics Management Software Development </h5>
               </div>
@@ -39,7 +39,7 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/sourcecode.png" alt="image" />{" "}
+                  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/sourcecode.png" alt="image" />{" "}
                 </div>
                 <h5>Fleet Management Software Development</h5>
               </div>
@@ -56,7 +56,7 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/Document Delivery.png" alt="image" />{" "}
+                  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Document Delivery.png" alt="image" />{" "}
                 </div>
                 <h5>Telematics Software Development</h5>
               </div>
@@ -75,7 +75,7 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/time 1.png" alt="images" />{" "}
+                  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/time 1.png" alt="images" />{" "}
                 </div>
                 <h5>Asset Tracking Software Development</h5>
               </div>
@@ -91,7 +91,7 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/searchbrowser.png" alt="image" />{" "}
+                  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/searchbrowser.png" alt="image" />{" "}
                 </div>
                 <h5>Transportation Management Software Development</h5>
               </div>
@@ -108,7 +108,7 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/Procurement.png" alt="image" />{" "}
+                  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Procurement.png" alt="image" />{" "}
                 </div>
                 <h5>Logistics and Freight Management Development</h5>
               </div>

@@ -20,7 +20,7 @@ export const GameDevelopmentFeature = () => {
         <div className={styles.gamedevelopmentfeatureinnerbox1}>
           <img
             className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/level 1.png"
+            src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/level 1.png"
             alt="images"
           />
           <h4 className={styles.txtwhitegamedeveloperfeature}>
@@ -31,7 +31,7 @@ export const GameDevelopmentFeature = () => {
         <div className={styles.gamedevelopmentfeatureinnerbox2}>
           <img
             className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/Component 124.png"
+            src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Component 124.png"
             alt="images"
           />
           <h4 className={styles.txtwhitegamedeveloperfeature}>
@@ -42,7 +42,7 @@ export const GameDevelopmentFeature = () => {
         <div className={styles.gamedevelopmentfeatureinnerbox3}>
           <img
             className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/character-design 1.png"
+            src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/character-design 1.png"
             alt="images"
           />
           <h4 className={styles.txtwhitegamedeveloperfeature}>
@@ -53,7 +53,7 @@ export const GameDevelopmentFeature = () => {
         <div className={styles.gamedevelopmentfeatureinnerbox4}>
           <img
             className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/gameplay 1.png"
+            src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/gameplay 1.png"
             alt="images"
           />
           <h4 className={styles.txtwhitegamedeveloperfeature}>Gameplay</h4>
@@ -62,7 +62,7 @@ export const GameDevelopmentFeature = () => {
         <div className={styles.gamedevelopmentfeatureinnerbox5}>
           <img
             className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/game 4.png"
+            src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/game 4.png"
             alt="images"
           />
           <h4 className={styles.txtwhitegamedeveloperfeature}>

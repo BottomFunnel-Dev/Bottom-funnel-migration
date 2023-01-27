@@ -22,7 +22,7 @@ export const SportsBanner = () => {
       <div className={styles.bettingSectionright}>
         <div className={styles.bettingImage}>
           <img
-            src="/Images/sportsbettingpage/banners/bannerimg.png"
+            src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/banners/bannerimg.png"
             alt="image"
           />
         </div>

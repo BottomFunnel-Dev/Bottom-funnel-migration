@@ -4,34 +4,34 @@ import styles from "./Escooterstealing.module.css";
 export default function Escooterstealing() {
   const thunder = [
     {
-      img: "/Images/Escooter/eco friendly.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/eco friendly.png",
       p: "Environment-Friendly"
     },
 
 
     {
-      img: "/Images/Escooter/cost.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/cost.png",
       p: "Inexpensive"
     },
     {
-      img: "/Images/Escooter/Sustainability.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Sustainability.png",
       p: "A Sustainable subtitute"
     },
     {
-      img: "/Images/Escooter/traffic.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/traffic.png",
       p: " Keep from traffic congetion"
     },
 
     {
-      img: "/Images/Escooter/Kick Scooter.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Kick Scooter.png",
       p: "Easy maintenance"
     },
     {
-      img: "/Images/Escooter/Parking.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Parking.png",
       p: " Easy Parking "
     },
     {
-      img: "/Images/Escooter/Happy.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Happy.png",
       p: "Fun to ride"
     },
 

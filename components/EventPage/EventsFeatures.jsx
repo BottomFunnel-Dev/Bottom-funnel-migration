@@ -3,43 +3,43 @@ import styles from "./eventsFeatures.module.css";
 export const EventsFeatures = () => {
   const features = [
     {
-      featureIcons: "/Images/Eventpage/target.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target.png",
       featureName: "Event creation",
     },
     {
-      featureIcons: "/Images/Eventpage/target-1.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-1.png",
       featureName: "Event search",
     },
     {
-      featureIcons: "/Images/Eventpage/target-2.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-2.png",
       featureName: "Event calender",
     },
     {
-      featureIcons: "/Images/Eventpage/target-3.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-3.png",
       featureName: "Ticket booking",
     },
     {
-      featureIcons: "/Images/Eventpage/target-4.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-4.png",
       featureName: "GPS",
     },
     {
-      featureIcons: "/Images/Eventpage/target-5.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-5.png",
       featureName: "Push notification",
     },
     {
-      featureIcons: "/Images/Eventpage/target-6.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-6.png",
       featureName: "Chatbot",
     },
     {
-      featureIcons: "/Images/Eventpage/target-7.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-7.png",
       featureName: "In-app payment",
     },
     {
-      featureIcons: "/Images/Eventpage/target-8.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-8.png",
       featureName: "In-app analysis",
     },
     {
-      featureIcons: "/Images/Eventpage/target-9.png",
+      featureIcons: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Eventpage/target-9.png",
       featureName: "Photo sharing",
     },
   ];

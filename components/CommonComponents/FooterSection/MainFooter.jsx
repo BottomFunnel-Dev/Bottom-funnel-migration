@@ -91,12 +91,12 @@ const MainFooter = () => {
             </OverlayTrigger>
           ))}
 
-          <img src="Images/footer/gg.gif" alt="image" />
+          <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/footer/gg.gif" alt="image" />
         </div>
 
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-            <img src="Images/footer/whitelogobottom.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/footer/whitelogobottom.png" alt="image" />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
 

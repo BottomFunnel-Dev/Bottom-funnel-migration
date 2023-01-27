@@ -5,27 +5,27 @@ export default function FitnessFeature() {
 
    const fitnessfeature = [
       {
-         img: "Images/fitness/advanced.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/advanced.png",
          p: "Advanced Search"
       },
       {
-         img: "Images/fitness/easy.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/easy.png",
          p: "Easy Payment"
       },
       {
-         img: "Images/fitness/video.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/video.png",
          p: "Video Calling"
       },
       {
-         img: "Images/fitness/ratings.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/ratings.png",
          p: "Ratings"
       },
       {
-         img: "Images/fitness/treaking.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/treaking.png",
          p: "Performence Tracking"
       },
       {
-         img: "Images/fitness/live.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/live.png",
          p: "Live Training"
       },
    ]

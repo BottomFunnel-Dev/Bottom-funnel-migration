@@ -5,26 +5,26 @@ export const AviationAirlines = () => {
 
     const aviationairlinesdata =[
         {
-            logo:"Images/aviation/Frame-1.png" , 
+            logo:"https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/Frame-1.png" , 
             htxt:"Crew Management Software",
             stxt:"As a leading aviation consulting company, our team also builds avaition softwere solutions specifically designed for improvising your crew management process,ensuring that all your team members are on the right track.If You are struggling with aircraft scheduling, crew tracking,or managing passenger logistics,crew management softwere can help you affress such ussues,thus allowing you to manage your entire crew effectively.",
         },
 
         {
-            logo:"Images/aviation/Frame-3.png" , 
+            logo:"https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/Frame-3.png" , 
             htxt:"Airplane Parking Reservation System",
             stxt:"our expert group of aviation consultants assists you in designing a robust cistom-made airplane parking reservation system.The Softwere Solution Offers special billing and costing processes for arriving at the appropriate airplane parking charges.Also the  airplane parking reservation modulehandles information like service class, accessible seats,piolet details,fuel costs,and others.",
         },
 
         {
-            logo:"Images/aviation/Frame.png" , 
+            logo:"https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/Frame.png" , 
             htxt:"Airline Ticketing Services",
             stxt:"With the airline ticketing software solution, you can offer your customers robust and sustainable airline ticketing scheduling system and assists in managing tasks such as boarding pass printing, online payments and online tickting softwere solution,our experts utilize tools like c#, Xcode,NET,SQL,Server,etc",
         },
 
 
         {
-            logo:"Images/aviation/Frame-2.png" , 
+            logo:"https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/aviation/Frame-2.png" , 
             htxt:"Avionics RiskManagement",
             stxt:"Our Experts can help you integrates a risk management system into your airline management softwere development lifecycle.The system allowsyou to identify potential hazards and implement a control risk management workflow that eliminates mistales or manual errors at the earliest.With an avionics risk management system you can considerably reduce the effortsto comply with risk-related requirements of aviation regulations.",
         },

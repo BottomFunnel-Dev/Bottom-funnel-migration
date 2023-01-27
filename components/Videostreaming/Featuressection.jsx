@@ -16,7 +16,7 @@ export default function Featuressection() {
             <div className={styles.updatesubdiv}>
               <div className={styles.updateflexdiv}>
                 <div className={styles.updateimg}>
-                  <img src="/Images/Videostreaming/update.png" alt='image' />
+                  <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/update.png" alt='image' />
                 </div>
                 <h4>Update On Time</h4>
               </div>
@@ -35,7 +35,7 @@ export default function Featuressection() {
             <div className={styles.remindersubdiv}>
               <div className={styles.reminderflexdiv}>
                 <div className={styles.uploadimg}>
-                  <img src="/Images/Videostreaming/reminder.png" alt='image' />
+                  <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/reminder.png" alt='image' />
                 </div>
                 <h4>Reminders</h4>
               </div>
@@ -53,7 +53,7 @@ export default function Featuressection() {
             <div className={styles.updatesubdiv}>
               <div className={styles.updateflexdiv}>
                 <div className={styles.updateimg}>
-                  <img src="/Images/Videostreaming/integration.png" alt='image' />
+                  <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/integration.png" alt='image' />
                 </div>
                 <h4> Social media Integration </h4>
               </div>
@@ -69,7 +69,7 @@ export default function Featuressection() {
             <div className={styles.remindersubdiv}>
               <div className={styles.reminderflexdiv}>
                 <div className={styles.uploadimg}>
-                  <img src="/Images/Videostreaming/notification.png" alt='image' />
+                  <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/notification.png" alt='image' />
                 </div>
                 <h4>Push Notification</h4>
               </div>
@@ -87,7 +87,7 @@ export default function Featuressection() {
             <div className={styles.updatesubdiv}>
               <div className={styles.updateflexdiv}>
                 <div className={styles.updateimg}>
-                  <img src="/Images/Videostreaming/rating.png" alt='image' />
+                  <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/rating.png" alt='image' />
                 </div>
                 <h4>Ratings</h4>
               </div>
@@ -102,7 +102,7 @@ export default function Featuressection() {
             <div className={styles.remindersubdiv}>
               <div className={styles.reminderflexdiv}>
                 <div className={styles.uploadimg}>
-                  <img src="/Images/Videostreaming/chatting.png" alt='image' />
+                  <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/chatting.png" alt='image' />
                 </div>
                 <h4>Live Chatting</h4>
               </div>

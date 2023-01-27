@@ -13,7 +13,7 @@ export default function Wellnesscontainer() {
           </div>
         </div>
         <div className={styles.szwellnessright}>
-          <img src="/Images/WellnessDevApp/Banners/banner1.png" alt='image' />
+          <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/Banners/banner1.png" alt='image' />
         </div>
       </div>
     </div>

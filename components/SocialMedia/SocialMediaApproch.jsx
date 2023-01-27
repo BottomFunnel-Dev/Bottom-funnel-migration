@@ -10,7 +10,7 @@ export const SocialMediaApproch = () => {
     <h1>OUR SOCIAL MEDIA DEVELOPMENT APPROCH</h1>
     </div>
 <div className={styles.socialmediaimageboxesforapproch}>
-<img src='Images/socialmedia/bannesbackground/Frame.png' alt='image' />
+<img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Frame.png' alt='image' />
 </div>
 
     

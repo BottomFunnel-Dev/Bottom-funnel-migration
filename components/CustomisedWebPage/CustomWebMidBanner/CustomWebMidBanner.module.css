@@ -1,8 +1,11 @@
+/* for any type of laptop and wide range of screen responsible */
+
+@media only screen and (min-width:901px){
 .CustomWebMidBannerMain {
   padding: 5% 3% 5% 3%;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/Images/customWebPhotos/mid-banner.png");
+    url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/mid-banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,4 +22,33 @@
 
 .CustomWebMidBannerMain > p {
   font-size: 18px;
+}
+}
+
+/* for any type of mobile sceeen responsible */
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .CustomWebMidBannerMain {
+  padding: 5% 3% 5% 3%;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/customWebPhotos/mid-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.CustomWebMidBannerMain > h1 {
+  font-size: 25px;
+}
+
+.CustomWebMidBannerMain > p {
+  font-size: 18px;
+  text-align: justify;
+}
+
 }

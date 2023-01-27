@@ -7,13 +7,13 @@ export default function TravelFlight() {
       <div className={styles.szflightcontainer}>
         <div className={styles.szflightleft}>
           <div className={styles.szbgflight}>
-            <img src="Images/Travel/bgflifgt1.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/bgflifgt1.png" />
           </div>
           <div className={styles.sztravelphone}>
-            <img src="Images/Travel/phone.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/phone.png" />
           </div>
           <div className={styles.discovermobilescreen}>
-            <img src="Images/Travel/discovermobileimage.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/discovermobileimage.png" />
           </div>
         </div>
         <div className={styles.szflightright}>
@@ -81,13 +81,13 @@ export default function TravelFlight() {
         </div>
         <div className={styles.szflightlaptopleft}>
           <div className={styles.szbgflight2}>
-            <img src="Images/Travel/bgflight2.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/bgflight2.png" />
           </div>
           <div className={styles.macbook}>
-            <img src="Images/Travel/macbook.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/macbook.png" />
           </div>
           <div className={styles.szlaptopscreen}>
-            <img src="Images/Travel/flightlaptopscreen.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/flightlaptopscreen.png" />
           </div>
         </div>
       </div>
@@ -98,15 +98,15 @@ export default function TravelFlight() {
         <div className={styles.szflightmobileleft}>
           <div className={styles.bgcircle}>
             {" "}
-            <img src="Images/Travel/bgflight3.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/bgflight3.png" />
           </div>
           <div className={styles.sztravelmobilecase}>
             {" "}
-            <img src="Images/Travel/travelmobilecase.png" />{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/travelmobilecase.png" />{" "}
           </div>
           <div className={styles.sztravelexplore}>
             {" "}
-            <img src="Images/Travel/exploremobileimage.png" />{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/exploremobileimage.png" />{" "}
           </div>
         </div>
         <div className={styles.szflightmobileright}>

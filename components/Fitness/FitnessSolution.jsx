@@ -6,27 +6,27 @@ export default function FitnessSolution() {
    const fitnesssolution = [
 
       {
-         img: "Images/fitness/wearable.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/wearable.png",
          p: "Wearable Apps"
       },
       {
-         img: "Images/fitness/gym.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/gym.png",
          p: "Gym App"
       },
       {
-         img: "Images/fitness/tracker.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/tracker.png",
          p: "Activity Traking app"
       },
       {
-         img: "Images/fitness/yoga.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/yoga.png",
          p: "Yoga App"
       },
       {
-         img: "Images/fitness/partner.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/partner.png",
          p: "Gym Partner App"
       },
       {
-         img: "Images/fitness/diet.png",
+         img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/diet.png",
          p: "Diet Planning App"
       },
 

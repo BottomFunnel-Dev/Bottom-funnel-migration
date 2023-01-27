@@ -2,11 +2,11 @@ export const logisticsCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/logistic/Register screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Register screen.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/inspect.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/inspect.png",
         alt: " Register logo",
       },
       title: "Registration",
@@ -14,11 +14,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Schedule trip screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Schedule trip screen.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/Location.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Location.png",
         alt: "Schedule logo",
       },
       title: "Schedule Trip",
@@ -26,11 +26,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Payment option screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Payment option screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/Card Payment.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Card Payment.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
@@ -39,11 +39,11 @@ export const logisticsCustomer = {
 
     {
       img: {
-        src: "Images/logistic/track order screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/track order screen.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Track Order.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Track Order.png",
         alt: "Track Order logo",
       },
       title: "Track Order",
@@ -52,18 +52,18 @@ export const logisticsCustomer = {
   ],
   sectionTitle: "Customer App",
 
-  background: "/public/Images/logistic/rectanglebase.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/rectanglebase.png",
 };
 
 export const logisticDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/logistic/shipment request screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/shipment request screen.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/boxside.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/boxside.png",
         alt: " Register logo",
       },
       title: "Receive Shipment Request",
@@ -72,11 +72,11 @@ export const logisticDrive = {
 
     {
       img: {
-        src: "Images/logistic/request screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/request screen.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/inspect.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/inspect.png",
         alt: "Schedule logo",
       },
       title: "Accept/Reject Request",
@@ -84,11 +84,11 @@ export const logisticDrive = {
     },
     {
       img: {
-        src: "Images/logistic/notification screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/notification screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/notification1.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/notification1.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Notification",
@@ -96,11 +96,11 @@ export const logisticDrive = {
     },
     {
       img: {
-        src: "Images/logistic/Navigation screen.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Navigation screen.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Near Me.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Near Me.png",
         alt: "Track Order logo",
       },
       title: "Navigation",
@@ -108,7 +108,7 @@ export const logisticDrive = {
     },
   ],
   sectionTitle: "Drive App",
-  background: "/public/Images/logistic/triangle.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/triangle.png",
   
 };
 
@@ -116,11 +116,11 @@ export const logisticAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/logistic/Dashboard.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Dashboard.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/Dashboard Layout.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Dashboard Layout.png",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -128,11 +128,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/assets.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/assets.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/Dividends.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Dividends.png",
         alt: "Schedule logo",
       },
       title: "Assets",
@@ -140,11 +140,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/history.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/history.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/Order History.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Order History.png",
         alt: "Multiple Payment Option logo",
       },
       title: "History",
@@ -152,11 +152,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/tracking (2).png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/tracking (2).png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Tracking.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/Tracking.png",
         alt: "Track Order logo",
       },
       title: "Tracking",
@@ -165,17 +165,17 @@ export const logisticAdmin = {
   ],
 
   sectionTitle: "Admin Panel",
-  background: "/public/Images/logistic/plane\ triangle.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/plane\ triangle.png",
 };
 export const carpoolCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Quick bookings.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/customerapp/Quick bookings.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Flexible & Quick Bookings",
@@ -183,11 +183,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Fare estimate.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/customerapp/Fare estimate.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Fare Estimates",
@@ -195,11 +195,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Pool options.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/customerapp/Pool options.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Pool Options",
@@ -207,11 +207,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Time tracking.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/customerapp/Time tracking.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Real-Time Tracking",
@@ -221,18 +221,18 @@ export const carpoolCustomer = {
   ],
 
   sectionTitle: "Customer App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const carpoolDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/real time requests.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/driverapp/real time requests.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Real-time Requests",
@@ -240,11 +240,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Trip details.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/driverapp/Trip details.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Trip Detail",
@@ -252,11 +252,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Rating & review.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/driverapp/Rating & review.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Rating & Review",
@@ -264,11 +264,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Wallet details.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/driverapp/Wallet details.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Wallet Details",
@@ -278,18 +278,18 @@ export const carpoolDrive = {
   ],
 
   sectionTitle: "Driver App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/group9.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/bannersbackgrounds/group9.png",
 };
 
 export const carpoolAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Dashboard.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/adminpanel/Dashboard.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -297,11 +297,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Reports & analytics.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/adminpanel/Reports & analytics.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Reports and Analytics",
@@ -309,11 +309,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/adminpanel/Promos & reffrels.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Manage Promos & Referals",
@@ -321,11 +321,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Driver management.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/adminpanel/Driver management.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Driver Management",
@@ -335,7 +335,7 @@ export const carpoolAdmin = {
   ],
 
   sectionTitle: "Admin App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 
@@ -345,11 +345,11 @@ export const bettingCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/gamemanagement.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/userapp/gamemanagement.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: " Register logo",
       },
       title: "Game management",
@@ -357,11 +357,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/paymentmanagement.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/userapp/paymentmanagement.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Schedule logo",
       },
       title: "Payment Management",
@@ -369,11 +369,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/livefeed.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/userapp/livefeed.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Live Feed",
@@ -381,11 +381,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/bethistory.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/userapp/bethistory.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Track Order logo",
       },
       title: "Bet History",
@@ -395,18 +395,18 @@ export const bettingCustomer = {
   ],
 
   sectionTitle: "User App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 export const bettingDrive = { 
   driverdata: [
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/registeryourself.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/bookpanel/registeryourself.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: " Register logo",
       },
       title: "Register YourSelf",
@@ -414,11 +414,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src:"Images/sportsbettingpage/bookpanel/usermanagement.png",
+        src:"https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/bookpanel/usermanagement.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Schedule logo",
       },
       title: "User Management",
@@ -426,11 +426,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/Notification.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/bookpanel/Notification.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Send Notification",
@@ -438,11 +438,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/schedulebet.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/bookpanel/schedulebet.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Track Order logo",
       },
       title: "Calenders,Days and Schedules",
@@ -452,18 +452,18 @@ export const bettingDrive = {
   ],
 
   sectionTitle: "Books Panel",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 export const bettingAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/gamemanagement.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/adminpanel/gamemanagement.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: " Register logo",
       },
       title: "Game Management",
@@ -471,11 +471,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/paymentmanagement.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/adminpanel/paymentmanagement.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Schedule logo",
       },
       title: "Payment Management",
@@ -483,11 +483,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/marketingmanagement.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/adminpanel/marketingmanagement.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Marketing Management",
@@ -495,11 +495,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/advancedashboard.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/adminpanel/advancedashboard.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/icons/component27.png",
         alt: "Track Order logo",
       },
       title: "Advance Dashboard",
@@ -509,14 +509,14 @@ export const bettingAdmin = {
   ],
 
   sectionTitle: "Admin App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
 export const alcoholCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/one.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/CustomerApp/one.png",
         alt: "accessable",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -524,7 +524,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/CustomerApp/Two.png",
         alt: "Friendly",
       },
       title: "User-friendly interface",
@@ -532,7 +532,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/CustomerApp/Three.png",
         alt: "OrderFood",
       },
       title: "Order food and Track their service",
@@ -541,7 +541,7 @@ export const alcoholCustomer = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/CustomerApp/Four.png",
         alt: "Favorites",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -556,7 +556,7 @@ export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/one.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/AdminPannel/one.png",
         alt: "Manage",
       },
       title: "Manage everything in one place",
@@ -564,7 +564,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/AdminPannel/Two.png",
         alt: "Info",
       },
       title: "Gather information about customer preferences",
@@ -572,7 +572,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/AdminPannel/Three.png",
         alt: "OrderFood",
       },
       title: "Generate profit reports and draw insights",
@@ -581,7 +581,7 @@ export const alcoholAdmin = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/AdminPannel/Four.png",
         alt: "features",
       },
       title: "Various CRM features",
@@ -596,7 +596,7 @@ export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/one.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/PartnerApp/one.png",
         alt: "Discounts",
       },
       title: "Manage Offers & Discounts",
@@ -604,7 +604,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/PartnerApp/Two.png",
         alt: "Menu",
       },
       title: "Menu category and Order Management",
@@ -612,7 +612,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/PartnerApp/Three.png",
         alt: "Chat",
       },
       title: "Chat Support",
@@ -621,7 +621,7 @@ export const alcoholPartner = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/AlcoholDelivery/PartnerApp/Four.png",
         alt: "Notification",
       },
       title: "Custom Alerts",
@@ -636,7 +636,7 @@ export const wellnessPatient = {
   customerdata: [
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/Four.jpg",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/PatientScreens/Four.jpg",
         alt: "FindDoctor",
       },
       title: "Find a Doctor",
@@ -644,7 +644,7 @@ export const wellnessPatient = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/Three.jpg",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/PatientScreens/Three.jpg",
         alt: "Appointments",
       },
       title: "Easy Appointments",
@@ -652,7 +652,7 @@ export const wellnessPatient = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/Two.jpg",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/PatientScreens/Two.jpg",
         alt: "Doctor's Details",
       },
       title: "Doctor's Details",
@@ -661,7 +661,7 @@ export const wellnessPatient = {
 
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/One.jpg",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/PatientScreens/One.jpg",
         alt: "LiveChat",
       },
       title: "In App live Chat",
@@ -670,14 +670,14 @@ export const wellnessPatient = {
   ],
   sectionTitle: "Patient App",
 
-  background: "/Images/WellnessDevApp/Banners/banner2.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/Banners/banner2.png",
 };
 
 export const wellnessAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/AdminScreens/Four.png",
         alt: "FindDoctor",
       },
       title: "Driver's Profile",
@@ -685,7 +685,7 @@ export const wellnessAdmin = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/AdminScreens/Three.png",
         alt: "Appointments",
       },
       title: "Daily Earnings and Reports",
@@ -693,7 +693,7 @@ export const wellnessAdmin = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/AdminScreens/Two.png",
         alt: "Doctor's Details",
       },
       title: "Cutomer Order Details",
@@ -702,7 +702,7 @@ export const wellnessAdmin = {
 
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/One.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/AdminScreens/One.png",
         alt: "LiveChat",
       },
       title: "Track Order",
@@ -711,14 +711,14 @@ export const wellnessAdmin = {
   ],
   sectionTitle: "Admin Panel",
 
-  background: "/Images/WellnessDevApp/Banners/banner2.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/Banners/banner2.png",
 };
 
 export const wellnessDoctor = {
   customerdata: [
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/DoctorScreens/Four.png",
         alt: "DoctorProfile",
       },
       title: "Doctor's Profile",
@@ -726,7 +726,7 @@ export const wellnessDoctor = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/DoctorScreens/Three.png",
         alt: "Appointments",
       },
       title: "Appointments Management",
@@ -734,7 +734,7 @@ export const wellnessDoctor = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/DoctorScreens/Two.png",
         alt: "PatientRecord",
       },
       title: "Patient Record",
@@ -743,7 +743,7 @@ export const wellnessDoctor = {
 
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/One.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/DoctorScreens/One.png",
         alt: "Prescription",
       },
       title: "Prescription",
@@ -752,14 +752,14 @@ export const wellnessDoctor = {
   ],
   sectionTitle: "Admin Panel",
 
-  background: "/Images/WellnessDevApp/Banners/banner2.png",
+  background: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/WellnessDevApp/Banners/banner2.png",
 };
 
 export const datingCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/DatingAppDev/Customer/One.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Customer/One.png",
         alt: "Register image",
       },
       title: "Simple and Secure Login",
@@ -767,7 +767,7 @@ export const datingCustomer = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Customer/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Customer/Two.png",
         alt: "Schedule",
       },
       title: "User-friendly Interface",
@@ -775,7 +775,7 @@ export const datingCustomer = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Customer/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Customer/Three.png",
         alt: "Multiple Payment Option image",
       },
       title: "Add your Interest",
@@ -784,7 +784,7 @@ export const datingCustomer = {
 
     {
       img: {
-        src: "Images/DatingAppDev/Customer/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Customer/Four.png",
         alt: "Track Order image",
       },
       title: "Easy to Search",
@@ -799,7 +799,7 @@ export const datingAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/DatingAppDev/Admin/Dashboard Management.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Admin/Dashboard Management.png",
         alt: "Dashboard Management",
       },
       title: "Dashboard Management",
@@ -807,7 +807,7 @@ export const datingAdmin = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Admin/Manage Users.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Admin/Manage Users.png",
         alt: "Manage Users",
       },
       title: "Manage Users",
@@ -815,7 +815,7 @@ export const datingAdmin = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Admin/Manage Categories.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Admin/Manage Categories.png",
         alt: "Manage Categories",
       },
       title: "Manage Categories",
@@ -831,7 +831,7 @@ export const datingService = {
   customerdata: [
     {
       img: {
-        src: "Images/DatingAppDev/Service/One.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Service/One.png",
         alt: "Schedule Your Date",
       },
       title: "Schedule Your Date",
@@ -839,7 +839,7 @@ export const datingService = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Service/Two.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Service/Two.png",
         alt: "Live Chat",
       },
       title: "Live Chat",
@@ -847,7 +847,7 @@ export const datingService = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Service/Three.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Service/Three.png",
         alt: "Simplicity In Searching",
       },
       title: "Simplicity In Searching",
@@ -856,7 +856,7 @@ export const datingService = {
 
     {
       img: {
-        src: "Images/DatingAppDev/Service/Four.png",
+        src: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/DatingAppDev/Service/Four.png",
         alt: "Help Center",
       },
       title: "Help Center",

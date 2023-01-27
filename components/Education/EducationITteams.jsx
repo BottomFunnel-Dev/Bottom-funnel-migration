@@ -67,7 +67,7 @@ export const EducationITteams = () => {
         </div>
 
         <div className={styles.educationitsupportboxnextflexboxright}>
-          <img src="/Images/education/vectors/Group 770593.png" alt="images" />
+          <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/education/vectors/Group 770593.png" alt="images" />
         </div>
       </div>
 

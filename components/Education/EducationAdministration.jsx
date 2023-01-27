@@ -6,13 +6,13 @@ export const EducationAdministration = () => {
     {
       htxt: "Work more efficiently",
       stxt: "Administrative teams at educational institutions are often required to perform repetitive tasks. With Freshdesk, emails can be sent in bulk and records can be updated with a single click enabling teams to get minutes of work done in seconds.",
-      img: "/Images/education/vectors/Group 770616.png",
+      img: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/education/vectors/Group 770616.png",
     },
 
     {
       htxt: "Save time from repetitive work",
       stxt: "Freshdesk's powerful automations can scan through every single task at hand and have it triaged, categorized and updated. A person’s efforts will be required only in tasks that engage their skill.",
-      img: "/Images/education/vectors/Group 770606.png",
+      img: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/education/vectors/Group 770606.png",
     },
   ];
 

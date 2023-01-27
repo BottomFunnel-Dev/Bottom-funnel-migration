@@ -7,11 +7,11 @@ export const MobileGameDevelopment = () => {
 
       <div className={styles.mobiledevelopmentflexboxingleft}>
         <div className={styles.mobiledevelopmentflexingimageonebox}>
-          <img src='images/gamedevelopmentpage/Rectangle 18507.png' alt='image1' />
+          <img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18507.png' alt='image1' />
         </div>
 
         <div className={styles.mobiledevelopmentflexingimagetwobox}>
-          <img src='images/gamedevelopmentpage/Rectangle 18508.png' alt='image1' />
+          <img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18508.png' alt='image1' />
         </div>
 
       </div>

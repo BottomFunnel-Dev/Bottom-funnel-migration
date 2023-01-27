@@ -17,7 +17,7 @@ export const EducationBanner = () => {
       </div>
       <div className={styles.educationbannermainImages}>
         <img
-          src="/Images/Education/bannerbackground/Group 770626.png"
+          src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Education/bannerbackground/Group 770626.png"
           alt="/bannerbackground/Group\ 770626.png"
         />
       </div>

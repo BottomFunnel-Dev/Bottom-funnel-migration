@@ -4,25 +4,25 @@ import styles from "./SocialMediaSuggestion.module.css";
 export const SocialMediaSuggestion = () => {
   const socialmediasuggestiondata = [
     {
-      logo: "Images/socialmedia/bannesbackground/Socialtreecuate2.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Socialtreecuate2.png",
       htxt: "Social networks",
       stxt: "With brand new features and updates every now and then, this app keeps getting better and better. It is finally catching up with its competitors in terms of user experience and reliability. Takes texting to a whole new level with Social networks.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/6240060 2.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/6240060 2.png",
       htxt: "Media Sharing Networks",
       stxt: "Media sharing networks give you an easy way to share your favorite photos and videos from your smartphone or tablet. You can also find a group of people who love the same things as you do and create a tribe of like-minded individuals for life long friendship.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/8454 3.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/8454 3.png",
       htxt: "Discussion Forums",
       stxt: "The world is changing at a rapid pace and so are the ways we use technology to interact with it. Today, news and information come in a form of a social media post or an update from your preferred messaging app. You'll find something that interests you on this forum.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/8454 4.png",
+      logo: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/8454 4.png",
       htxt: "eCommerce Networks",
       stxt: "Online shopping can be a fun and exciting experience, but it can also be confusing. That's why it's important to use services like eCommerce Networks that help you find the best products and services online. Our team is to help you find products that are right for you.",
     },

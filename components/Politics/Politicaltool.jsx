@@ -25,28 +25,28 @@ export default function Politicaltool() {
         <div className={styles.szpoliticalimagesdiv}>
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/cross.png" />
+              <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/cross.png" />
             </div>
             <p>Cross-plateform solution</p>
           </div>
 
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/blockchain.png" />
+              <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/blockchain.png" />
             </div>
             <p>Blockchain</p>
           </div>
 
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/IoT.png" />
+              <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/IoT.png" />
             </div>
             <p>IoT</p>
           </div>
 
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/artificial-intelligence.png" />
+              <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/artificial-intelligence.png" />
             </div>
             <p>Arificial Intelligence</p>
           </div>

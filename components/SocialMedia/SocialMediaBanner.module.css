@@ -1,8 +1,8 @@
 .socialmediabannermainbox{
     height: 100vh;
-    background-image: url("/Images/socialmedia/bannesbackground/Group\ 339981.png");
+    background-image: url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/socialmedia/bannesbackground/Group%20339981.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: white;
     position: relative;
 }
@@ -12,7 +12,7 @@
     width: 40%;
  
     position: absolute;
-    margin-top: 18%;
+    margin-top: 10%;
     margin-left: 5%;
 }
 

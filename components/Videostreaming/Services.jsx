@@ -15,7 +15,7 @@ export default function Services() {
                         <div className={styles.uploadsubdiv}>
                             <div className={styles.uploadflexdiv}>
                                 <div className={styles.uploadimg}>
-                                    <img src="/Images/Videostreaming/upload.png" alt='image' />
+                                    <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/upload.png" alt='image' />
                                 </div>
                                 <h4>Upload & Organize</h4>
                             </div>
@@ -31,7 +31,7 @@ export default function Services() {
                         <div className={styles.monetizsubdiv}>
                             <div className={styles.monetizflexdiv}>
                                 <div className={styles.uploadimg}>
-                                    <img src="/Images/Videostreaming/monetization.png" alt='image' />
+                                    <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/monetization.png" alt='image' />
                                 </div>
                                 <h4>Monetization</h4>
                             </div>
@@ -46,7 +46,7 @@ export default function Services() {
                         <div className={styles.uploadsubdiv}>
                             <div className={styles.uploadflexdiv}>
                                 <div className={styles.uploadimg}>
-                                    <img src="/Images/Videostreaming/stream.png" alt='image' />
+                                    <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/stream.png" alt='image' />
                                 </div>
                                 <h4>Stream On-Demand</h4>
                             </div>
@@ -62,7 +62,7 @@ export default function Services() {
                         <div className={styles.monetizsubdiv}>
                             <div className={styles.monetizflexdiv}>
                                 <div className={styles.uploadimg}>
-                                    <img src="/Images/Videostreaming/analytics.png" alt='image' />
+                                    <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/analytics.png" alt='image' />
                                 </div>
                                 <h4>Analytics</h4>
                             </div>
@@ -77,7 +77,7 @@ export default function Services() {
                         <div className={styles.uploadsubdiv}>
                             <div className={styles.uploadflexdiv}>
                                 <div className={styles.uploadimg}>
-                                    <img src="/Images/Videostreaming/live.png" alt='image' />
+                                    <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/live.png" alt='image' />
                                 </div>
                                 <h4>Streamm Live</h4>
                             </div>
@@ -93,7 +93,7 @@ export default function Services() {
                         <div className={styles.monetizsubdiv}>
                             <div className={styles.monetizflexdiv}>
                                 <div className={styles.uploadimg}>
-                                    <img src="/Images/Videostreaming/devices.png" alt='image' />
+                                    <img src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Videostreaming/devices.png" alt='image' />
                                 </div>
                                 <h4>For all devices</h4>
                             </div>

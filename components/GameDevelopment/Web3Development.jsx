@@ -56,11 +56,11 @@ const Web3Development = () => {
       <div className={styles.web3developmentflexingboxrightdiv}>
 
         <div className={styles.web3develomentgameboxingimageinnerbox1}>
-          <img src='Images/gamedevelopmentpage/Rectangle 18509.png' alt='imageone' />
+          <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18509.png' alt='imageone' />
         </div>
 
         <div className={styles.web3develomentgameboxingimageinnerbox2}>
-          <img src='Images/gamedevelopmentpage/Rectangle 18510.png' alt='imageone' />
+          <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18510.png' alt='imageone' />
         </div>
       </div>
 

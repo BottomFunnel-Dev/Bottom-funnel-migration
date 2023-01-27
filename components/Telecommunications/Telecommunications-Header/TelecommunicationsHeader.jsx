@@ -14,7 +14,7 @@ export const TelecommunicationsHeader = () => {
 
       <div className={styles.telecommunicationsHeaderRightDivForImg}>
         <div className={styles.telecommunicationsHeaderRightImg}>
-          <img src="/Images/Telecommunication/Background/Frame1.png" alt="images" />
+          <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Telecommunication/Background/Frame1.png" alt="images" />
         </div>
       </div>
     </div>

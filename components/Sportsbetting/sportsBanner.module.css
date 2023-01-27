@@ -1,10 +1,10 @@
 .sportsbanner {
   width: 100%;
-  margin-top: 120px;
+
   height: 640px;
   background-color: green;
   display: flex;
-  background: url("/Images/sportsbettingpage/banners/bannerback.png");
+  background: url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/sportsbettingpage/banners/bannerback.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -14,7 +14,7 @@
   width: 50%;
   /* background-color: red; */
   position: relative;
-  border: 1px solid red;
+  border: 1px solid transparent;
 }
 .bettingContent {
   width: 80%;

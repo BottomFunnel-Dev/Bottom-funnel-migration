@@ -6,7 +6,7 @@ export default function Travelwhy() {
         <div className={styles.sztravelwhysection}>
             <div className={styles.sztravelsubdiv}>
                 <div className={styles.sztravelchooseimages}>
-                    <img src="Images/Travel/travelpeople.png" />
+                    <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/travelpeople.png" />
                 </div>
                 <div className={styles.sztravelchooseright}>
                   <div className={styles.travelchooseheading}>
@@ -16,7 +16,7 @@ export default function Travelwhy() {
                      
                     <div className={styles.travelboxes}>
                         <div className={styles.travelchooseicons}>
-                            <img src="Images/Travel/ontimedelivery.png" />
+                            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/ontimedelivery.png" />
                         </div>
                         <div className={styles.sztravelcustomer}> 
                         <h3>On time Delivery</h3>
@@ -24,7 +24,7 @@ export default function Travelwhy() {
                         </div>
                         </div>
                     <div  className={styles.travelboxes}>
-                        <div className={styles.travelchooseicons}>  <img src="Images/Travel/customerservice.png" /></div>
+                        <div className={styles.travelchooseicons}>  <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/customerservice.png" /></div>
                         <div className={styles.sztravelcustomer}> 
                         <h3>24/7 Support</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
@@ -32,14 +32,14 @@ export default function Travelwhy() {
                     </div>
                     <div  className={styles.travelboxes}>
 
-                        <div className={styles.travelchooseicons}><img src="Images/Travel/flexibility.png" /></div>
+                        <div className={styles.travelchooseicons}><img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/flexibility.png" /></div>
                         <div className={styles.sztravelcustomer}> 
                         <h3>Flexibility </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                         </div>
                     </div>
                     <div  className={styles.travelboxes}>
-                        <div className={styles.travelchooseicons}><img src="Images/Travel/rating.png" /></div>
+                        <div className={styles.travelchooseicons}><img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/rating.png" /></div>
                             <div className={styles.sztravelcustomer}> 
                         <h3> Customer Satisfaction  </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>

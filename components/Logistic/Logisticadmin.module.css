@@ -24,7 +24,7 @@
   height: 500px;
   /* padding: 10px; */
   display: flex;
-  /* background: url("/public/Images/logistic/plane\ triangle.png"); */
+  /* background: url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/public/Images/logistic/plane\ triangle.png"); */
   background-repeat: no-repeat;
   background-size: 100% 500px;
   position: relative;
@@ -121,7 +121,7 @@
     /* padding: 10px; */
     /* display: flex; */
     flex-direction: column-reverse;
-    /* background: url("/public/Images/logistic/plane\ triangle.png"); */
+    /* background: url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/public/Images/logistic/plane\ triangle.png"); */
     background-repeat: no-repeat;
     background-size: 100% 500px;
     position: relative;

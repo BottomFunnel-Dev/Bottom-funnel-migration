@@ -31,7 +31,7 @@ export const EducationGroupwise = () => {
             </p>
             <div className={styles.educationgroupimageboxflexsideleft}>
               <img
-                src="/Images/Education/vectors/Group 770618.png"
+                src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/Education/vectors/Group 770618.png"
                 alt="images"
               />
             </div>

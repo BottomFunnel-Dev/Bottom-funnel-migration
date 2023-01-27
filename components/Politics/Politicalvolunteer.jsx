@@ -7,7 +7,7 @@ export default function Politicalvolunteer() {
       <div className={styles.volunteersub}>
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/hand.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/hand.png" />
           </div>
           <div className={styles.volunteerhead}>
             <div>
@@ -26,7 +26,7 @@ export default function Politicalvolunteer() {
 
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/customer-engagement.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/customer-engagement.png" />
           </div>
           <div className={styles.volunteerhead}>
             <div>
@@ -47,7 +47,7 @@ export default function Politicalvolunteer() {
 
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/transparency.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/transparency.png" />
           </div>
           <div className={styles.volunteerhead}>
             <div>
@@ -67,7 +67,7 @@ export default function Politicalvolunteer() {
 
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/reputation.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/reputation.png" />
           </div>
           <div className={styles.volunteerhead}>
             <div>

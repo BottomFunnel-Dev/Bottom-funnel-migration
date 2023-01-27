@@ -8,7 +8,7 @@ export const CryptoCurrencyWork = () => {
         <h3>How Do Cryptocurrencies Work ?</h3>
       </div>
       <div className={styles.cryptocurrencyworkimageboxing}>
-        <img src='Images/Cryptocurrencypage/Bitcoin 2.png' alt='working chart' />
+        <img src='https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Cryptocurrencypage/Bitcoin 2.png' alt='working chart' />
       </div>
 
       <div className={styles.cryptocurrencyworklowerboxingimage}>

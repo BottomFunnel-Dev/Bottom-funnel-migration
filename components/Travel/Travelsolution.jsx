@@ -4,27 +4,27 @@ import styles from "./Travelsolution.module.css";
 export default function Travelsolution() {
   const travelsolution = [
     {
-      img: "Images/Travel/carbooking.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/carbooking.png",
       p: "Car Booking Solution ",
     },
     {
-      img: "Images/Travel/booking.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/booking.png",
       p: "Hotel Booking Solution",
     },
     {
-      img: "Images/Travel/diverse.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/diverse.png",
       p: "Diverse Booking Solution",
     },
     {
-      img: "Images/Travel/crm solution.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/crm solution.png",
       p: "CRM Solutions ",
     },
     {
-      img: "Images/Travel/travelsolution.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/travelsolution.png",
       p: "Travel Planning Solution.png",
     },
     {
-      img: "Images/Travel/travelportal.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Travel/travelportal.png",
       p: "Travel Portal Development",
     },
   ];

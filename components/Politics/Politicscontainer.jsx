@@ -19,7 +19,7 @@ export default function Politicscontainer() {
         </div>
         <div className={styles.politicsright}>
           <div className={styles.politicsimage}>
-            <img src="Images/Politics/politics.png" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Politics/politics.png" />
           </div>
         </div>
       </div>

@@ -32,26 +32,26 @@ export default function CryptoDevPage() {
           logo: true,
         }}
       />
-      <CryptoDevBanner />
-      <CryptoDevcurrency />
-      <CryptoDevBenefit />
-     <CryptoDevApproach />
+       <CryptoDevBanner />
+        <CryptoDevcurrency />
+       <CryptoDevBenefit />
+      <CryptoDevApproach />
         <CryptoDevService />
-       {/* <CryptoDevWhyBF />
+     <CryptoDevWhyBF />
       <CryptoDevSlider />
       <CustomWebForm />
 
-      {/* Other react required components  
+      {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
-      {/* <PortFolio /> 
+      {/* <PortFolio /> */}
       <PlanProject /> 
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-       */}
+      
     </div>
   );
 };

@@ -1,7 +1,7 @@
 .IOTBannerMain {
   height: 100vh;
   padding-left: 5%;
-  background: url("/Images/IOTPhotos/banner.png");
+  background: url("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/IOTPhotos/banner.png");
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;

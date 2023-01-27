@@ -4,17 +4,17 @@ import styles from "./EcommerceComCustomer.module.css";
 export const EcommerceComCustomer = () => {
   let customerAppData = {
     backgroundImage: {
-      src: "/Images/EcommercePhotos/background-orange.png",
+      src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/background-orange.png",
       alt: "Shopping mobile app background image",
     },
     mainImage: {
-      src: "/Images/EcommercePhotos/customer-app.png",
+      src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/customer-app.png",
       alt: "Shopping mobile app main image",
     },
     cardsData: [
       {
         image: {
-          src: "/Images/EcommercePhotos/one.png",
+          src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/one.png",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -23,7 +23,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/two.png",
+          src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/two.png",
           alt: "user-friendly interface logo",
         },
         description:
@@ -32,7 +32,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/three.png",
+          src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/three.png",
           alt: "Order food and track their service logo",
         },
         description:
@@ -41,7 +41,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/four.png",
+          src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/four.png",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -50,7 +50,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/five.png",
+          src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/five.png",
           alt: "Dummy text logo",
         },
         description:
@@ -59,7 +59,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/six.png",
+          src: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/EcommercePhotos/six.png",
           alt: "Dummy text logo",
         },
         description:

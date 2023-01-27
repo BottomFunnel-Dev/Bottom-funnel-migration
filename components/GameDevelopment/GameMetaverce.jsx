@@ -65,14 +65,14 @@ export const GameMetaverce = () => {
 
       <div className={styles.gamemetaverserightdivwhichinnerimage}>
         <img
-          src="Images/gamedevelopmentpage/Rectangle 18503.png"
+          src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18503.png"
           alt="imagegameer"
         />
       </div>
 
       <div className={styles.gamemetaverserightdivwhichinnerimagenext}>
         <img
-          src="Images/gamedevelopmentpage/Rectangle 18504.png"
+          src="https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18504.png"
           alt="imagegameer"
         />
       </div>

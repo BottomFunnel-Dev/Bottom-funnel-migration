@@ -7,39 +7,39 @@ export const GameWhyChoose = () => {
 
       <div className={styles.whychoosegameflexingleftboxing}>
 
-        <img src='/Images/gamedevelopmentpage/Mask group.png' alt='image' />
+        <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Mask group.png' alt='image' />
 
         <div className={styles.positionabsoulteboxinnerwhychoose1}>
           <div className={styles.positionabsoulteboxinnerwhychoose1logo}>
-            <img src='/Images/gamedevelopmentpage/Agile Iteration.png' alt='image' />
+            <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Agile Iteration.png' alt='image' />
           </div>
           <h4 className={styles.colorwhite}>Agile</h4>
         </div>
 
         <div className={styles.positionabsoulteboxinnerwhychoose2}>
           <div className={styles.positionabsoulteboxinnerwhychoose2logo}>
-            <img src='/Images/gamedevelopmentpage/Vector.png' alt='image' />
+            <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Vector.png' alt='image' />
           </div>
           <h4 className={styles.colorwhite}>Customer Satisfaction</h4>
         </div>
 
         <div className={styles.positionabsoulteboxinnerwhychoose3}>
           <div className={styles.positionabsoulteboxinnerwhychoose3logo}>
-            <img src='/Images/gamedevelopmentpage/Team.png' alt='image' />
+            <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Team.png' alt='image' />
           </div>
           <h4 className={styles.colorwhite}>Experience and Talanted Team</h4>
         </div>
 
         <div className={styles.positionabsoulteboxinnerwhychoose4}>
           <div className={styles.positionabsoulteboxinnerwhychoose4logo}>
-            <img src='/Images/gamedevelopmentpage/Curved Arrow.png' alt='image' />
+            <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Curved Arrow.png' alt='image' />
           </div>
           <h4 className={styles.colorwhite}>Flexible Engagement</h4>
         </div>
 
         <div className={styles.positionabsoulteboxinnerwhychoose5}>
           <div className={styles.positionabsoulteboxinnerwhychoose5logo}>
-            <img src='/Images/gamedevelopmentpage/support.png' alt='image' />
+            <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/support.png' alt='image' />
           </div>
           <h4 className={styles.colorwhite}>We are always here for you</h4>
         </div>

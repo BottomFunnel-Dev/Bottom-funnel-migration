@@ -46,7 +46,6 @@ export default function SportsBetting() {
         <SportsPanels />
         <BettingSpecial />
         <Bettingwhy />
-
         <StoriesSection />
         {/* <Industries /> */}
         <PlanProject />

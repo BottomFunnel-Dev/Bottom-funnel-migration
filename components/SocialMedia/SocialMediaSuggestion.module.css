@@ -10,7 +10,7 @@
 }
 
 .socialmediaflexingbox {
-  width: 90%;
+  width: 95%;
   margin: 2% auto;
   display: flex;
   align-items: stretch;
@@ -18,7 +18,7 @@
 }
 
 .socialmediaaftermappingbox {
-  width: 23%;
+  width: 22%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 text-align: justify;
 border-radius: 10px;

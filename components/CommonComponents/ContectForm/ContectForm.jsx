@@ -35,7 +35,7 @@ const ContectForm = () => {
 
       <div className={styles.contectSection}>
         <div className={styles.addressSection}>
-          <img src="Images/services/service.png" alt="image" />
+          <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/services/service.png" alt="image" />
           <div>
             <div className={styles.mailAddress}>
               <div className={styles.iconDiv}>

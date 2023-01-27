@@ -6,7 +6,7 @@ export default function Wellnessconnect() {
       <div className={styles.szwellnessconnectsub}>
         <div className={styles.szwellnessconnectcenter}>
           <div className={styles.szwellnessconnectimage}>
-            <img src="/Images/Wellness/heart.png" alt='image' />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Wellness/heart.png" alt='image' />
           </div>
 
           <h4>Connect with us for a seamless product</h4>

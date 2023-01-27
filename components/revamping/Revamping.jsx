@@ -35,11 +35,11 @@ const Revamping = () => {
   return (
     <div className={styles.revamp}>
       <div className={styles.revampback}>
-        <img src="/Images/revamp/final2.png" alt="images" />
+        <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/revamp/final2.png" alt="images" />
       </div>
       <div className={styles.textlayer}>
         <div className={styles.navmotion}>
-          <img src="/Images/revamp/navigation.gif" alt="images" />
+          <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/revamp/navigation.gif" alt="images" />
         </div>
         <h1>Need an expert advice on your technical queries?</h1>
         <p>

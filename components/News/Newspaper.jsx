@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styles from "./Newspaper.module.css"
 export const Newspaper = () => {
 
-  const [imageChange, setImageChange] = useState("Images/News/Screens/News Detail.png")
+  const [imageChange, setImageChange] = useState("https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/News/Screens/News Detail.png")
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath)
 
@@ -11,22 +11,22 @@ export const Newspaper = () => {
   const newspaperdata = [
     {
       text: "News Details",
-      image: "Images/News/Screens/News Detail.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/News/Screens/News Detail.png",
     },
 
     {
       text: "Notifications",
-      image: "Images/News/Screens/Notification.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/News/Screens/Notification.png",
     },
 
     {
       text: "Latest Updates",
-      image: "Images/News/Screens/Home.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/News/Screens/Home.png",
     },
 
     {
       text: "Search Your Interest",
-      image: "Images/News/Screens/Search.png",
+      image: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/News/Screens/Search.png",
     },
 
   ]

@@ -6,11 +6,11 @@ export const ThreeDGameDevelopment = () => {
     <div className={styles.threedgamedevelopmentmainpage}>
       <div className={styles.threedflexboxleftgamedevelopment}>
         <div className={styles.threedflexboxleftdivinnerimagesection1}>
-          <img src='Images/gamedevelopmentpage/Rectangle 18505.png' alt='image' />
+          <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18505.png' alt='image' />
         </div>
         <div className={styles.threedflexboxleftdivinnerimagesection2}>
 
-          <img src='Images/gamedevelopmentpage/Rectangle 18506.png' alt='image' />
+          <img src='https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/gamedevelopmentpage/Rectangle 18506.png' alt='image' />
         </div>
       </div>
 

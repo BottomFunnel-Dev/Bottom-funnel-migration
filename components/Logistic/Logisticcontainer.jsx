@@ -20,7 +20,7 @@ export default function Logisticcontainer() {
         <div className={styles.szlogisticright}>
           <div className={styles.szrecpurple}>
             {" "}
-            <img src="Images/logistic/logistic.png" alt="image" />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/logistic/logistic.png" alt="image" />
           </div>
         </div>
       </div>

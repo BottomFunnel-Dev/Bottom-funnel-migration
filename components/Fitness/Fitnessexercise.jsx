@@ -8,14 +8,14 @@ export default function Fitnessexercise() {
         <div className={styles.exercisemobile}>
           <div className={styles.szgreenimg}>
             {" "}
-            <img src="Images/fitness/greenimg.png" alt="image"/>
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/greenimg.png" alt="image"/>
           </div>
           <div className={styles.szphcase}>
-            <img src="Images/fitness/phone.png" alt="image"/>
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/phone.png" alt="image"/>
           </div>
           <div className={styles.szmyplan}>
             {" "}
-            <img src="Images/fitness/myplan.png" alt="image"/>{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/myplan.png" alt="image"/>{" "}
           </div>
         </div>
         <div className={styles.exercisebox}>
@@ -141,15 +141,15 @@ export default function Fitnessexercise() {
         <div className={styles.szexercisetab}>
           <div className={styles.bluecircle}>
             {" "}
-            <img src="Images/fitness/bluecircle.png" alt="images"/>{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/bluecircle.png" alt="images"/>{" "}
           </div>
           <div className={styles.tabbluecase}>
             {" "}
-            <img src="Images/fitness/teblate.png" alt="images"/>
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/teblate.png" alt="images"/>
           </div>
           <div className={styles.sztabdaily}>
             {" "}
-            <img src="Images/fitness/dailyimg.png" alt="image"/>{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/dailyimg.png" alt="image"/>{" "}
           </div>
         </div>
       </div>
@@ -160,15 +160,15 @@ export default function Fitnessexercise() {
         <div className={styles.analitic}>
           <div className={styles.szpeachcircle}>
             {" "}
-            <img src="Images/fitness/pechcircle.png" alt="image"/>{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/pechcircle.png" alt="image"/>{" "}
           </div>
           <div className={styles.szphonefit}>
             {" "}
-            <img src="Images/fitness/phone.png" alt="image"/>{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/phone.png" alt="image"/>{" "}
           </div>
           <div className={styles.szrates}>
             {" "}
-            <img src="Images/fitness/rates.png" alt="image"/>{" "}
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/fitness/rates.png" alt="image"/>{" "}
           </div>
         </div>
 

@@ -4,19 +4,19 @@ import styles from "./Escooterhardware.module.css";
 export const Escooterhardware = () => {
   const hardware = [
     {
-      img: "/Images/Escooter/MapMarker.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/MapMarker.png",
       p: "GPS"
     },
     {
-      img: "/Images/Escooter/Recharge Battery.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Recharge Battery.png",
       p: " Battery Meter"
     },
     {
-      img: "/Images/Escooter/Gear.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Gear.png",
       p: "Maintenance sensor"
     },
     {
-      img: "/Images/Escooter/Notification.png",
+      img: "https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/Notification.png",
       p: "Alarm"
     },
   ]
@@ -25,7 +25,7 @@ export const Escooterhardware = () => {
       <div className={styles.szescooterhardwaresub}>
         <div className={styles.szescooterhardwareleft}>
           <div className={styles.szescooterhardwarscooter}>
-            <img src="/Images/Escooter/escooters.png" alt='imagescycle' />
+            <img src="https://bottom-funnel-images.sfo3.cdn.digitaloceanspaces.com/Images/Escooter/escooters.png" alt='imagescycle' />
           </div>
         </div>
         <div className={styles.szescooterhardwareright}>
