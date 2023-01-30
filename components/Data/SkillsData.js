@@ -589,7 +589,7 @@ export const djangoData = {
     "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    icon: "/Images/skillsPhotos/djangoPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
     title: "Django Development Services",
     description: `Want to build a web application quickly, cost-efficiently, and with less code? Our Django web development services can help!`,
@@ -733,7 +733,7 @@ export const cakePHPData = {
     "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    icon: "/Images/skillsPhotos/cakephpPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
     title: "Cakephp Development Services",
     description:
@@ -878,7 +878,7 @@ export const codeigniterData = {
     "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    icon: "/Images/skillsPhotos/codeigniterPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
     title: "CodeIgniter Development Services",
     description:
@@ -1018,6 +1018,402 @@ export const codeigniterData = {
           alt: "codeigniterPhotos/maintenance.webp",
         },
         title: "Maintenance & support",
+      },
+    ],
+  },
+};
+
+export const springBootData = {
+  title:
+    "Best springboot developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/springbootSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "SpringBoot Development Services",
+    description:
+      "Delivering on your business vision with quality springboot java development.",
+  },
+  isDes: true,
+  desData: {
+    title: "SpringBoot",
+    image: "/Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
+    description: `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY SPRINGBOOT FOR APPLICATION DEVELOPMENT",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
+          alt: "springbootSkillsPhotos/easy-development.webp",
+        },
+        title: "Easy Development",
+
+        description: `Spring Boot is a remarkably powerful framework that simplifies the development of web-based applications. One of its most anticipated features is implicit dependency management, which allows you to add external libraries and classes without having to manually add them to the application classpath.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
+          alt: "springbootSkillsPhotos/war-files.webp",
+        },
+        title: "No war files develoyment",
+        description: `Spring Boot is the most preferred option. Its lightweight structure makes it easier to understand and use while its dependency injection feature helps in promoting code-reuse and higher level of abstraction. BottomFunnel is here with an easy solution for this problem by explaining how JAR files are different from WAR files.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
+          alt: "springbootSkillsPhotos/xml-logo.webp",
+        },
+        title: "No XML configuration",
+        description: `Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
+          alt: "springbootSkillsPhotos/stand-application.webp",
+        },
+        title: "Standalone Applications",
+        description: `SaaS projects rely on automation to save time and resources, but not everyone has the expertise or background to write code. That's why we've made it easy for project developers to use annotations or XML configurations. BottomFunnel gives you the best of both worlds--the convenience of using annotations without sacrificing control over your project.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
+          alt: "springbootSkillsPhotos/simple-setup.webp",
+        },
+        title: "Simple setup and management",
+        description: `Spring Boot apps are secure by default because they use basic HTTP authentication and HTTPS transport to protect your data from unauthorized access. Plus, the rich set of endpoints available will let you develop a secure Spring Boot application in no time.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
+          alt: "springbootSkillsPhotos/easy-start.webp",
+        },
+        title: "Easy to start",
+        description: `Spring boot is one of the best ways to get started with a new web project. By using Spring Boot, you can take advantage of the many benefits offered by this framework, such as auto-configuration and code sharing. The starter pack helps you quickly assemble everything you need so that your website can be up and running in no time at all.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Springboot",
+    image: "/Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive springboot solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our springboot developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "Benefits Of Using sprintboot for Application Development",
+    description:
+      "There are many reasons why developers choose Spring Boot to build microservices for mobile and web applications. The following list summarizes some of the key benefits that come with migrating to Spring Boot.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          alt: "springbootSkillsPhotos/java.webp",
+        },
+        title: "Java Developer",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
+          alt: "springbootSkillsPhotos/software-application.webp",
+        },
+        title: "Application Developer",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
+          alt: "springbootSkillsPhotos/cpu.webp",
+        },
+        title: "Software Engineer",
+      },
+    ],
+  },
+};
+
+export const hiberateData = {
+  title: "Best hibernate developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/hibernateSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Hibernate Development Services",
+    description:
+      "Delivering on your business vision with quality hibernate java development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Hibernate",
+    image: "/Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
+    description: `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
+      Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY HIBERNATE FOR APPLICATION DEVELOPMNET",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
+          alt: "hibernateSkillsPhotos/open-source.webp",
+        },
+        title: "Open source and Lightweight",
+
+        description: `With Hibernate Query Language (HQL) and Criteria Queries as the primary tools for querying your data, you can write SQL-like queries against your database objects. Or if you're an object-oriented developer, then you can use BottomFunnel's own Object Query language (OQL) which is inspired by SQL!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
+          alt: "hibernateSkillsPhotos/fast-performance.webp",
+        },
+        title: "Fast Performance",
+        description: `Hibernate has always been known for its performance but this release takes it to another level by making use of leading-edge improvements in memory management and caching. You'll notice a dramatic improvement in application performance as well as reduced resource usage – all without incurring any extra development complexity or maintenance cost."`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
+          alt: "hibernateSkillsPhotos/Frame-5.webp",
+        },
+        title: "Database Independent Query",
+        description: `With Hibernate, we don't have to write database-specific queries anymore. Before Hibernate, if the database is changed for the project, we need to change the SQL query as well which leads to the maintenance problem. BottomFunnel gives us convenient and uniform way to generate database independent queries which makes our life easier `,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
+          alt: "hibernateSkillsPhotos/automatic-table.webp",
+        },
+        title: "Automatic Table Creation",
+        description: `Creating tables in database can be a tedious task, especially when you have to do it every time you start working with a new database. With Hibernate Framework, this task becomes extremely easy and convenient. The framework provides the facility to create the tables of your database automatically, saving on valuable time.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
+          alt: "hibernateSkillsPhotos/simplifies.webp",
+        },
+        title: "Simplifies Complex Join",
+        description: `Hibernate framework support Auto DDL operations so you can create tables with ease and get started with your data-driven business savvy today. Add in our simple yet powerful database management system, and you've got everything you need to manage your database confidently.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
+          alt: "hibernateSkillsPhotos/query-static.webp",
+        },
+        title: "Provides Query Statistics",
+        description: `Data consistency is important in any application, and Hibernate makes sure your data stays up-to-date by mapping changes to the database automatically. Best of all, all of this happens behind the scenes so you don't have to worry about it at all. You'll be able to focus on what matters most - building your app!`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Hibernate",
+    image: "/Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive hibernate solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our hibernate developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "Benefits of using hibernate web development",
+    description:
+      "Hibernate saves lines of code by managing the object table mapping itself and returning the results to your application in the form of Java objects. This eliminates the need for programmers to manually handle persistent data, reducing development time and maintenance costs.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          alt: "vuejsSkillsPhotos/speedometer.webp",
+        },
+        title: "High performance",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          alt: "springbootSkillsPhotos/java.webp",
+        },
+        title: "Java Developer",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          alt: "vuejsSkillsPhotos/easy.webp",
+        },
+        title: "Simplicity",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "angularjsSkillsPhotos/open-source.webp",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
+          alt: "hibernateSkillsPhotos/database.webp",
+        },
+        title: "Database Independent",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
+          alt: "angularjsSkillsPhotos/complex-handling.webp",
+        },
+        title: "Easy complex component handling",
+      },
+    ],
+  },
+};
+
+export const flaskData = {
+  title: "Best flask developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/flaskSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Flask Development Services",
+    description:
+      "Delivering on your business vision with quality python development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Flask",
+    image: "/Images/skillsPhotos/flaskSkillsPhotos/flask-logo.webp",
+    description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. 
+      However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, and various other features you might need for your project.`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY FLASK FOR APPLICATION DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/unicode.webp",
+          alt: "flaskSkillsPhotos/unicode.webp",
+        },
+        title: "Improved SEO Performance",
+
+        description: `Flask is one of the most popular frameworks for handling web traffic. It's a flexible solution that lets you scale your business as your needs grow. With Flask, you can handle a large number of requests without slowing down or sacrificing performance.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/printing.webp",
+          alt: "flaskSkillsPhotos/printing.webp",
+        },
+        title: "Integrated support for unit testing",
+        description: `Flask is one such project that has gained immense popularity over time because it provides everything expected out of a modern web framework. It has features like authentication, CSRF protection, internationalization support, etc.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/files.webp",
+          alt: "flaskSkillsPhotos/files.webp",
+        },
+        title: "Complete documentration",
+        description: `Flask is the first choice for many developers because of its ease of use and flexibility. With BottomFunnel you can quickly choose the components that are best suited for your next project. And since Flask comes with a variety of extensions, developing your app has never been this easy!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/cookies-guard.webp",
+          alt: "flaskSkillsPhotos/cookies-guard.webp",
+        },
+        title: "Support for secure cookies",
+        description:
+          "After development, the next phase in the software development life cycle is testing. Unfortunately, in most web application frameworks, you won't find the testing option.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/bug-setting.webp",
+          alt: "flaskSkillsPhotos/bug-setting.webp",
+        },
+        title: "Development server and debugger",
+        description:
+          "In the modern era, you want a web application framework to experiment with the development approach. That's where Flask can be your best bet.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/flaskSkillsPhotos/fast-run.webp",
+          alt: "flaskSkillsPhotos/fast-run.webp",
+        },
+        title: "Fast performance",
+        description:
+          "When web app developers select the framework for their project, they will think about the learning curve, whether it's steep or shallow.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Flask",
+    image: "/Images/skillsPhotos/flaskSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive flask solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our flask developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using flask",
+    description:
+      "Flask allows you to build web applications by providing tools, libraries, and technologies. This web application can be a web page, a wiki, or a large web-based calendar application or commercial website.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "angularjsSkillsPhotos/open-source.webp",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
+          alt: "sqliteSkillsPhotos/setting-loading.webp",
+        },
+        title: "Highly flexible",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          alt: "larvelskillsphotos/easy-develop.webp",
+        },
+        title: "Easy to deploy",
       },
     ],
   },
@@ -1467,275 +1863,6 @@ export const vuejsData = {
           alt: "vuejsSkillsPhotos/cross-platform.webp",
         },
         title: "Cross-platform",
-      },
-    ],
-  },
-};
-
-export const springBootData = {
-  title:
-    "Best springboot developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "SpringBoot Development Services",
-    description:
-      "Delivering on your business vision with quality springboot java development.",
-  },
-  isDes: true,
-  desData: {
-    title: "SpringBoot",
-    image: "/Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
-    description: `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY SPRINGBOOT FOR APPLICATION DEVELOPMENT",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
-          alt: "springbootSkillsPhotos/easy-development.webp",
-        },
-        title: "Easy Development",
-
-        description: `Spring Boot is a remarkably powerful framework that simplifies the development of web-based applications. One of its most anticipated features is implicit dependency management, which allows you to add external libraries and classes without having to manually add them to the application classpath.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
-          alt: "springbootSkillsPhotos/war-files.webp",
-        },
-        title: "No war files develoyment",
-        description: `Spring Boot is the most preferred option. Its lightweight structure makes it easier to understand and use while its dependency injection feature helps in promoting code-reuse and higher level of abstraction. BottomFunnel is here with an easy solution for this problem by explaining how JAR files are different from WAR files.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
-          alt: "springbootSkillsPhotos/xml-logo.webp",
-        },
-        title: "No XML configuration",
-        description: `Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
-          alt: "springbootSkillsPhotos/stand-application.webp",
-        },
-        title: "Standalone Applications",
-        description: `SaaS projects rely on automation to save time and resources, but not everyone has the expertise or background to write code. That's why we've made it easy for project developers to use annotations or XML configurations. BottomFunnel gives you the best of both worlds--the convenience of using annotations without sacrificing control over your project.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
-          alt: "springbootSkillsPhotos/simple-setup.webp",
-        },
-        title: "Simple setup and management",
-        description: `Spring Boot apps are secure by default because they use basic HTTP authentication and HTTPS transport to protect your data from unauthorized access. Plus, the rich set of endpoints available will let you develop a secure Spring Boot application in no time.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
-          alt: "springbootSkillsPhotos/easy-start.webp",
-        },
-        title: "Easy to start",
-        description: `Spring boot is one of the best ways to get started with a new web project. By using Spring Boot, you can take advantage of the many benefits offered by this framework, such as auto-configuration and code sharing. The starter pack helps you quickly assemble everything you need so that your website can be up and running in no time at all.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Springboot",
-    image: "/Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive springboot solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our springboot developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "Benefits Of Using sprintboot for Application Development",
-    description:
-      "There are many reasons why developers choose Spring Boot to build microservices for mobile and web applications. The following list summarizes some of the key benefits that come with migrating to Spring Boot.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
-          alt: "springbootSkillsPhotos/java.webp",
-        },
-        title: "Java Developer",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
-          alt: "springbootSkillsPhotos/software-application.webp",
-        },
-        title: "Application Developer",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
-          alt: "springbootSkillsPhotos/cpu.webp",
-        },
-        title: "Software Engineer",
-      },
-    ],
-  },
-};
-
-export const hiberateData = {
-  title: "Best hibernate developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Hibernate Development Services",
-    description:
-      "Delivering on your business vision with quality hibernate java development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Hibernate",
-    image: "/Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
-    description: `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
-      Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY HIBERNATE FOR APPLICATION DEVELOPMNET",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
-          alt: "hibernateSkillsPhotos/open-source.webp",
-        },
-        title: "Open source and Lightweight",
-
-        description: `With Hibernate Query Language (HQL) and Criteria Queries as the primary tools for querying your data, you can write SQL-like queries against your database objects. Or if you're an object-oriented developer, then you can use BottomFunnel's own Object Query language (OQL) which is inspired by SQL!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
-          alt: "hibernateSkillsPhotos/fast-performance.webp",
-        },
-        title: "Fast Performance",
-        description: `Hibernate has always been known for its performance but this release takes it to another level by making use of leading-edge improvements in memory management and caching. You'll notice a dramatic improvement in application performance as well as reduced resource usage – all without incurring any extra development complexity or maintenance cost."`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
-          alt: "hibernateSkillsPhotos/Frame-5.webp",
-        },
-        title: "Database Independent Query",
-        description: `With Hibernate, we don't have to write database-specific queries anymore. Before Hibernate, if the database is changed for the project, we need to change the SQL query as well which leads to the maintenance problem. BottomFunnel gives us convenient and uniform way to generate database independent queries which makes our life easier `,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
-          alt: "hibernateSkillsPhotos/automatic-table.webp",
-        },
-        title: "Automatic Table Creation",
-        description: `Creating tables in database can be a tedious task, especially when you have to do it every time you start working with a new database. With Hibernate Framework, this task becomes extremely easy and convenient. The framework provides the facility to create the tables of your database automatically, saving on valuable time.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
-          alt: "hibernateSkillsPhotos/simplifies.webp",
-        },
-        title: "Simplifies Complex Join",
-        description: `Hibernate framework support Auto DDL operations so you can create tables with ease and get started with your data-driven business savvy today. Add in our simple yet powerful database management system, and you've got everything you need to manage your database confidently.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
-          alt: "hibernateSkillsPhotos/query-static.webp",
-        },
-        title: "Provides Query Statistics",
-        description: `Data consistency is important in any application, and Hibernate makes sure your data stays up-to-date by mapping changes to the database automatically. Best of all, all of this happens behind the scenes so you don't have to worry about it at all. You'll be able to focus on what matters most - building your app!`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Hibernate",
-    image: "/Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive hibernate solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our hibernate developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "Benefits of using hibernate web development",
-    description:
-      "Hibernate saves lines of code by managing the object table mapping itself and returning the results to your application in the form of Java objects. This eliminates the need for programmers to manually handle persistent data, reducing development time and maintenance costs.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
-          alt: "vuejsSkillsPhotos/speedometer.webp",
-        },
-        title: "High performance",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
-          alt: "springbootSkillsPhotos/java.webp",
-        },
-        title: "Java Developer",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
-          alt: "vuejsSkillsPhotos/easy.webp",
-        },
-        title: "Simplicity",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "angularjsSkillsPhotos/open-source.webp",
-        },
-        title: "Open-source",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
-          alt: "hibernateSkillsPhotos/database.webp",
-        },
-        title: "Database Independent",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
-          alt: "angularjsSkillsPhotos/complex-handling.webp",
-        },
-        title: "Easy complex component handling",
       },
     ],
   },
@@ -4598,133 +4725,6 @@ export const cassandraData = {
           alt: "nodejsphotos/clock.webp",
         },
         title: "Reliability",
-      },
-    ],
-  },
-};
-
-export const flaskData = {
-  title: "Best flask developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Flask Development Services",
-    description:
-      "Delivering on your business vision with quality python development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Flask",
-    image: "/Images/skillsPhotos/flaskSkillsPhotos/flask-logo.webp",
-    description: `Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. 
-      However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, and various other features you might need for your project.`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY FLASK FOR APPLICATION DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/flaskSkillsPhotos/unicode.webp",
-          alt: "flaskSkillsPhotos/unicode.webp",
-        },
-        title: "Improved SEO Performance",
-
-        description: `Flask is one of the most popular frameworks for handling web traffic. It's a flexible solution that lets you scale your business as your needs grow. With Flask, you can handle a large number of requests without slowing down or sacrificing performance.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/flaskSkillsPhotos/printing.webp",
-          alt: "flaskSkillsPhotos/printing.webp",
-        },
-        title: "Integrated support for unit testing",
-        description: `Flask is one such project that has gained immense popularity over time because it provides everything expected out of a modern web framework. It has features like authentication, CSRF protection, internationalization support, etc.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/flaskSkillsPhotos/files.webp",
-          alt: "flaskSkillsPhotos/files.webp",
-        },
-        title: "Complete documentration",
-        description: `Flask is the first choice for many developers because of its ease of use and flexibility. With BottomFunnel you can quickly choose the components that are best suited for your next project. And since Flask comes with a variety of extensions, developing your app has never been this easy!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/flaskSkillsPhotos/cookies-guard.webp",
-          alt: "flaskSkillsPhotos/cookies-guard.webp",
-        },
-        title: "Support for secure cookies",
-        description:
-          "After development, the next phase in the software development life cycle is testing. Unfortunately, in most web application frameworks, you won't find the testing option.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/flaskSkillsPhotos/bug-setting.webp",
-          alt: "flaskSkillsPhotos/bug-setting.webp",
-        },
-        title: "Development server and debugger",
-        description:
-          "In the modern era, you want a web application framework to experiment with the development approach. That's where Flask can be your best bet.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/flaskSkillsPhotos/fast-run.webp",
-          alt: "flaskSkillsPhotos/fast-run.webp",
-        },
-        title: "Fast performance",
-        description:
-          "When web app developers select the framework for their project, they will think about the learning curve, whether it's steep or shallow.",
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Flask",
-    image: "/Images/skillsPhotos/flaskSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive flask solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our flask developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using flask",
-    description:
-      "Flask allows you to build web applications by providing tools, libraries, and technologies. This web application can be a web page, a wiki, or a large web-based calendar application or commercial website.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "angularjsSkillsPhotos/open-source.webp",
-        },
-        title: "Open-source",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/sqliteSkillsPhotos/setting-loading.webp",
-          alt: "sqliteSkillsPhotos/setting-loading.webp",
-        },
-        title: "Highly flexible",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "larvelskillsphotos/easy-develop.webp",
-        },
-        title: "Easy to deploy",
       },
     ],
   },
