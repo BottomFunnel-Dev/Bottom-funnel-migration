@@ -5,7 +5,8 @@ export const nodejsData = {
     "When it comes to node.js web development, there is no-one better than Bottom Funnel node.js developers, who develop robust applications and websites that will meet your exact needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/nodejsphotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Node.js Development Services",
     description: `Brand your new app with BottomFunnel's NodeJS development services and clients will be flocking in like moths to a flame! Our team has years of experience working with the platform, so we'll be able to help you quickly build out your application while maintaining a high level of quality throughout the process.`,
   },
@@ -146,7 +147,8 @@ export const phpData = {
     "Bottom funnel's php web development services are the best way to start your website development journey. Get in touch with the best php developers in the market to develop robust applications and websites that look great. ",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/phpskillsphotos/banner.webp",
+    icon: "/Images/skillsPhotos/phpskillsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "PHP Development Services",
     description: `It's important that you get your web presence maintained with a reliable team who can provide you with the best possible services.`,
   },
@@ -290,7 +292,8 @@ export const DotnetData = {
     "Bottom Funnel gets you the best .NET developers in the market who can develop robust applications and websites using the latest technologies like ASP.net and VB.net on an hourly, part-time and full-time contract basis.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/dotnetphotos/banner.webp",
+    icon: "/Images/skillsPhotos/dotnetphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: ".NET Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -441,7 +444,8 @@ export const laravelData = {
     "Bottom Funnel is a globally dominant company having highly experienced Laravel developers. Our Laravel development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/larvelskillsphotos/banner.webp",
+    icon: "/Images/skillsPhotos/larvelskillsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Laravel Development Services",
     description:
       "Let our Laravel developers build an expressive and elegant Laravel web application for you.",
@@ -585,7 +589,8 @@ export const djangoData = {
     "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/djangoPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Django Development Services",
     description: `Want to build a web application quickly, cost-efficiently, and with less code? Our Django web development services can help!`,
   },
@@ -728,7 +733,8 @@ export const cakePHPData = {
     "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/cakephpPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Cakephp Development Services",
     description:
       "Trust us when we say that CakePHP will be your perfect partner as you bring your vision to life!",
@@ -872,7 +878,8 @@ export const codeigniterData = {
     "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/codeigniterPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "CodeIgniter Development Services",
     description:
       "Delivering on your business vision with quality codeigniter web development.",
@@ -1023,7 +1030,8 @@ export const reactjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/reactjsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "React.js Development services",
     description: `React.js development services that will take your app from concept to production in no time.`,
   },
@@ -1172,7 +1180,8 @@ export const angularjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/angularjsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Angularjs Development Services",
     description: `Speed up your web application development with our top-notch angular.js development services.`,
   },
@@ -1319,7 +1328,8 @@ export const vuejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/vuejsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Vue.js Development Services",
     description: "Trust the experts-hire vue.js developers today.",
   },
@@ -1469,7 +1479,8 @@ export const springBootData = {
     "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/springbootSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "SpringBoot Development Services",
     description:
       "Delivering on your business vision with quality springboot java development.",
@@ -1591,7 +1602,8 @@ export const hiberateData = {
     "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/hibernateSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Hibernate Development Services",
     description:
       "Delivering on your business vision with quality hibernate java development.",
@@ -1735,7 +1747,8 @@ export const emberjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/emberjSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Emberjs Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -1885,7 +1898,8 @@ export const jqueryData = {
     "Bottom Funnel is a globally dominant company having highly experienced jquery developers. Our jquery development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/jquerySkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Jquery Development Services",
     description:
       "Delivering on your business vision with quality jquery development.",
@@ -2036,7 +2050,8 @@ export const nextjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced nextjs developers. Our nextjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/nextjsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Nextjs Development Services",
     description:
       "Delivering on your business vision with quality nextjs web development.",
@@ -2166,7 +2181,8 @@ export const backbonejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced backbonejs developers. Our backbonejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/backbonejsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Backbonejs Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -2296,7 +2312,8 @@ export const svelteData = {
     "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/svelteSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Svelte Development Services",
     description:
       "Delivering on your business vision with quality svelte development.",
@@ -2446,7 +2463,8 @@ export const msSQLData = {
     "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/mssqlSKillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "MicrosoftSQL Development Services",
     description:
       "Delivering on your business vision with quality backend development.",
@@ -2575,7 +2593,8 @@ export const mongodbData = {
     "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/mongodbSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "MongoDB Development Services",
     description:
       "MongoDB is a powerful database that's a favorite among developers. This flexible schema approach makes it popular with teams using agile methodologies.",
@@ -2704,7 +2723,8 @@ export const mysqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/mysqlSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "MySQL Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -2833,7 +2853,8 @@ export const postgresqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/postgresqlSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "PostgreSQL Development Services",
     description:
       "Do you have a lot of data and need an easy way to manage it? | PostgreSQL is the perfect choice for you.",
@@ -2964,7 +2985,8 @@ export const redisData = {
     "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/redisSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Redis Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3093,7 +3115,8 @@ export const wordpressData = {
     "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/wpSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Wordpress Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3223,7 +3246,8 @@ export const wixData = {
     "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/wixSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Wix Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3373,7 +3397,8 @@ export const joomlaData = {
     "Bottom Funnel is a globally dominant company having highly experienced joomla developers. Our joomla development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/joomlaSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Joomla Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3502,7 +3527,8 @@ export const hubspotData = {
     "Bottom Funnel is a globally dominant company having highly experienced hubspot developers. Our hubspot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/hubSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Hubspot CMS hub Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3631,7 +3657,8 @@ export const wooecommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced woocommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/woocommerceSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Woocommerce Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3760,7 +3787,8 @@ export const drupalData = {
     "Bottom Funnel is a globally dominant company having highly experienced drupal developers. Our drupal development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/drupalSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Drupal Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -3889,7 +3917,8 @@ export const bigcommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced big-commerce developers. Our big-commerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/bigcommerceSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Big commerce Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4039,7 +4068,8 @@ export const ibmData = {
     "Bottom Funnel is a globally dominant company having highly experienced IBM db2 developers. Our IBM db2 development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/ibmSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "IBM db2 Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4168,7 +4198,8 @@ export const elasticData = {
     "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/elasticSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Elasticsearch Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4318,7 +4349,8 @@ export const sqliteData = {
     "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/sqliteSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "SQLite Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4447,7 +4479,8 @@ export const cassandraData = {
     "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/cassandraSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Cassandra Development Services",
     description:
       "Delivering on your business vision with quality .NET web development.",
@@ -4576,7 +4609,8 @@ export const flaskData = {
     "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/flaskSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Flask Development Services",
     description:
       "Delivering on your business vision with quality python development.",
@@ -4702,7 +4736,8 @@ export const strutsData = {
     "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/strutsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Struts Development Services",
     description:
       "Delivering on your business vision with quality struts development.",
@@ -4823,7 +4858,8 @@ export const golangData = {
   description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/golangSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Golang Development Services",
     description:
       "Delivering on your business vision with quality golang development.",
@@ -4966,7 +5002,8 @@ export const symfonyData = {
     "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/symfonySkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Symfony Development Services",
     description:
       "Delivering on your business vision with quality PHP web development.",
@@ -5089,7 +5126,8 @@ export const grailsData = {
     "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/grailsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Grails Development Services",
     description:
       "Delivering on your business vision with quality grails development.",
@@ -5212,7 +5250,8 @@ export const jsfData = {
     "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/jsfSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "JSF Development Services",
     description:
       "Delivering on your business vision with quality javascript development.",
@@ -5334,7 +5373,8 @@ export const phalconData = {
     "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/phalconSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Phalcon Development Services",
     description:
       "Delivering on your business vision with quality PHP web development.",
@@ -5459,7 +5499,8 @@ export const semanticData = {
     "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/semanticphotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Semantic Ui Development Services",
     description:
       "Delivering on your business vision with quality Semantic UI web development.",
@@ -5587,7 +5628,8 @@ export const GhostData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/ghostPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Ghost Development Services",
     description:
       "Delivering on your business vision with quality ghost website builder experts.",
@@ -5716,7 +5758,8 @@ export const WeeblyData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/weeblyPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Weebly Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -5844,7 +5887,8 @@ export const cubaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/cubaSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Cuba framework Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -5993,7 +6037,8 @@ export const cherryData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/cherrypySkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Cherrypy Online Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6142,7 +6187,8 @@ export const echoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/echoSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Echo Framework Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6291,7 +6337,8 @@ export const gitData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/gitSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Git Backend Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6440,7 +6487,8 @@ export const zendData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/zendSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Zend Framework Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6589,7 +6637,8 @@ export const yiiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/yiiSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "yii Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6738,7 +6787,8 @@ export const railsData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/railsSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Rails Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -6887,7 +6937,8 @@ export const gorillaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/gorillaSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Gorilla Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7036,7 +7087,8 @@ export const hanamiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/hanamiSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Hanami Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7185,7 +7237,8 @@ export const irisData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/irisSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Iris Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7334,7 +7387,8 @@ export const padrinoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/padrinoSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Padrino Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7483,7 +7537,8 @@ export const revelData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/revelSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Revel Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7632,7 +7687,8 @@ export const rodaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/rodaSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Roda Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
@@ -7781,7 +7837,8 @@ export const sinatraData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    image: "/Images/skillsPhotos/sinatraSkillsPhotos/banner.webp",
+    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
     title: "Sinatra Framework Development Services",
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",

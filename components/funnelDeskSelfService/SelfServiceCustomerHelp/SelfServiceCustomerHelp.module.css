@@ -1,8 +1,6 @@
 .selfServicesCustomerHelpInnerDiv {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
-  /* height: 40px; */
   justify-content: center;
   align-items: center;
   width: 90%;
@@ -12,13 +10,32 @@
 }
 
 .selfServicesCustomerHelpContentDiv {
-  /* border: 1px solid red; */
   width: 50%;
 }
 
-
-.selfServicesCustomerHelpImageDiv > img {
+.selfServicesCustomerHelpImageDiv>img {
   width: 92%;
   object-fit: contain;
   margin-left: 6%;
+}
+
+@media (max-width: 1024px) {
+  .selfServicesCustomerHelpInnerDiv {
+    flex-direction: column-reverse;
+  }
+
+  .selfServicesCustomerHelpContentDiv {
+    width: 95%;
+    text-align: center;
+  }
+
+  .selfServicesCustomerHelpContentDiv>h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .selfServicesCustomerHelpContentDiv>p {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

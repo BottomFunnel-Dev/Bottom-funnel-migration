@@ -1,27 +1,21 @@
 .selfServicesContentParentDiv {
-  /* border: 1px solid red; */
   margin-top: 4%;
   margin-bottom: 3%;
 }
 
 .selfServicesContentHeadingDiv {
-  /* border: 1px solid black; */
-  /* align-items: center; */
   width: 100%;
   margin: auto;
   text-align: center;
   justify-content: center;
 }
 
-.selfServicesContentHeadingDiv > h1 > span {
+.selfServicesContentHeadingDiv>h1>span {
   color: #ef4c23;
 }
 
 .selfServicesContentContentDiv {
-  /* border: 2px solid black; */
-  /* background-color: #ef4c23; */
   width: 100%;
-  /* margin: auto; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -29,42 +23,30 @@
   justify-content: center;
   row-gap: 40px;
   column-gap: 40px;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 
-.selfServicesContentContentDiv > div {
+.selfServicesContentContentDiv>div {
   width: 40%;
-  /* height: 260px; */
-  /* border: 1px solid #d6d6d6; */
   border-radius: 10px;
-  /* margin-top: 4%; */
-  /* margin-bottom: 2%; */
   padding: 1%;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   background-color: white;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 
-.selfServicesContentContentDiv > div:hover {
+.selfServicesContentContentDiv>div:hover {
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-15px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #f08034; */
-  /* color: white; */
 }
 
-.selfServicesContentContentDiv > div > h3 {
+.selfServicesContentContentDiv>div>h3 {
   margin-top: 3%;
 }
 
-.selfServicesContentContentDiv > div > div > img {
-  /* height: 65%; */
+.selfServicesContentContentDiv>div>div>img {
   width: 95%;
   object-fit: cover;
   margin-bottom: 3%;
@@ -72,4 +54,30 @@
 
 .selfServicesContentContentButton {
   color: #ef4c23;
+}
+
+@media (max-width: 1024px) {
+  .selfServicesContentContentDiv {
+    flex-direction: column;
+  }
+
+  .selfServicesContentContentDiv>div {
+    width: 90%;
+    text-align: center;
+  }
+
+  .selfServicesContentContentDiv>div>h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 1%;
+  }
+
+  .selfServicesContentContentDiv>div>p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .selfServicesContentContentButton {
+    margin: 2% 0;
+  }
 }
