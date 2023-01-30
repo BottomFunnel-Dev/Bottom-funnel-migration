@@ -22,7 +22,7 @@ export const SkillsComBanner = ({ data }) => {
           background: `url(${image})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "100% 100%",
         }}
       >
         <div className={styles.skillsbannercontent}>

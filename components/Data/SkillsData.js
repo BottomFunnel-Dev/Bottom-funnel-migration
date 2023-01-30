@@ -1,3 +1,5 @@
+// Section - backend pages data
+
 export const nodejsData = {
   title:
     "Best nodejs developers in the market |Bottom Funnel Technologies Pvt. Ltd.",
@@ -1418,6 +1420,1370 @@ export const flaskData = {
     ],
   },
 };
+
+export const golangData = {
+  title: "Best golang developers in the market | Bottom Funnel",
+  description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/golangSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Golang Development Services",
+    description:
+      "Delivering on your business vision with quality golang development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Golang",
+    image: "/Images/skillsPhotos/golangSkillsPhotos/golang-logo.webp",
+    description: `Golang is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C but with memory safety, garbage collection, structural typing and concurrency support. Go is often referred to as Golang because of its former domain name golang.org but its proper name is Go.`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY GOLANG FOR APPLICATION DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/golangSkillsPhotos/open-source.webp",
+          alt: "golangSkillsPhotos/open-source.webp",
+        },
+        title: "Open Source",
+
+        description: `Golang is the latest programming language that has gained a lot of attention in recent times. It is being adopted by companies as it offers great productivity improvements over other languages and platforms. With its modern features such as pointer number-crunching, type legacy and administrators over-burdening, Golang is an apt choice to turn your application into a robust one.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/golangSkillsPhotos/sync.webp",
+          alt: "golangSkillsPhotos/sync.webp",
+        },
+        title: "Cross-platform development",
+        description: `Golang is quickly becoming a top contender in the language world because of its speed, reliability, and most importantly, its ability to scale. No matter how big or small your project is, Golang has you covered.And when you're new to a language like Golang and its basics are still a bit foggy for you.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/golangSkillsPhotos/printing.webp",
+          alt: "golangSkillsPhotos/printing.webp",
+        },
+        title: "Testing capabilities",
+        description: `Golang's distributed memory architecture and simple syntax make it easy for developers to understand and use, while its powerful tooling ensures that applications run efficiently. And since Golang is an open source project, there are plenty of resources available online if you want to learn more.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/golangSkillsPhotos/keyboard.webp",
+          alt: "golangSkillsPhotos/keyboard.webp",
+        },
+        title: "Static typing",
+        description: `Golang has been growing in popularity over the last few years and it seems like everyone's talking about it now! So why not give it a try and see how different it can make your application development process!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/golangSkillsPhotos/books.webp",
+          alt: "golangSkillsPhotos/books.webp",
+        },
+        title: "Powerful standard library",
+        description: `Golang is a programming language that provides software bundles and packages that make it easy for engineers to manage their I/O, cryptography, web servers and more. As the popularity of Golang increases, so does its library. TravelFlap is a golang package used to create automated web applications with ease.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/golangSkillsPhotos/proccess.webp",
+          alt: "golangSkillsPhotos/proccess.webp",
+        },
+        title: "Concurrency support",
+        description: `Golang is a programming language that has taken the world by storm. It offers exceptional performance, scalability, and lightweight nature. It is perfect for building large-scale applications or scaling existing ones. In this post, we are going to explore how you can make use of GoDoc tool in Golang for documentation creation using Golang.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Golang",
+    image: "/Images/skillsPhotos/golangSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive golang solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our golang developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using golang",
+    description:
+      "Go is a modern programming language with an open source design. It is preferred by many software developers due to its reliability. Golang allows you to create simple and efficient web products.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "angularjsSkillsPhotos/open-source.webp",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          alt: "nextjsSKillsPhotos/fast-run.webp",
+        },
+        title: "Fast and efficiency",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
+          alt: "mysqlSkillsPhotos/user-database.webp",
+        },
+        title: "Scalability",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
+          alt: "svelteSkillsPhotos/settings-loading.webp",
+        },
+        title: "Ease of learning",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/dotnetphotos/creative.webp",
+          alt: "dotnetphotos/creative.webp",
+        },
+        title: "Transparency",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
+          alt: "larvelskillsphotos/automated-test.webp",
+        },
+        title: "In-built testing",
+      },
+    ],
+  },
+};
+
+export const strutsData = {
+  title: "Best struts developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/strutsSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Struts Development Services",
+    description:
+      "Delivering on your business vision with quality struts development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Struts",
+    image: "/Images/skillsPhotos/strutsSkillsPhotos/struts-logo.webp",
+    description: `Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project, it became a top-level Apache project in 2005. In 2015, it was renamed from Struts 1 to Struts 2 on account of several significant changes (e.g., JSF 2 support; tag libraries; and several MVC improvements). After more than 15 years, Struts is still going strong with millions of downloads every year!`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY STRUTS FOR APPLICATION DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/price-tag.webp",
+          alt: "strutsSkillsPhotos/price-tag.webp",
+        },
+        title: "Tag support",
+
+        description: `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/database.webp",
+          alt: "strutsSkillsPhotos/database.webp",
+        },
+        title: "Teplate support",
+        description: `There are many reasons why you should use a MVC framework for your next project. But if you're already an expert in struts, then you know how powerful it is. BottomFunnel is one of the best struts frameworks available today that takes care of every important aspect of building a website from database to server to front-end views.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/coordination.webp",
+          alt: "strutsSkillsPhotos/coordination.webp",
+        },
+        title: "Intigration support",
+        description: `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/ajax.webp",
+          alt: "strutsSkillsPhotos/ajax.webp",
+        },
+        title: "Ajax support",
+        description: `Struts is a powerful framework designed to encourage good design practices and modeling. It's built upon time-proven design patterns, so you know it will work for your application. Struts comes with out of the box support for MVC and RESTful APIs, so you can get started quickly.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/open-source.webp",
+          alt: "strutsSkillsPhotos/open-source.webp",
+        },
+        title: "Open Source",
+        description: `Easy-to-use struts framework that adapts web applications to it in no time. It comes with tons of features that help you build a robust and responsive website. Plus, it is flexible and extensible so that you can easily modify or replace its components with your requirements. Try it out today!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/strutsSkillsPhotos/result.webp",
+          alt: "strutsSkillsPhotos/result.webp",
+        },
+        title: "Various result types",
+        description: `Creating forms for capturing input from data into JavaBean objects is simple with BottomFunnel. The processing of Data into Action forms is easy and requires minimum effort, yet it delivers accurate output.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Struts",
+    image: "/Images/skillsPhotos/strutsSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive struts solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our struts developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using struts",
+    description:
+      "Struts is a framework based on the MVC design paradigm. The JSP Model 2 architecture is implemented in the Struts framework.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          alt: "cakephpPhotos/mvc-pattern.webp",
+        },
+        title: "MVC design",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
+          alt: "springbootSkillsPhotos/easy-start.webp",
+        },
+        title: "Centralized Configuration",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
+          alt: "larvelskillsphotos/easy-develop.webp",
+        },
+        title: "Web application development easy",
+      },
+    ],
+  },
+};
+
+export const symfonyData = {
+  title: "Best symfony developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/symfonySkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Symfony Development Services",
+    description:
+      "Delivering on your business vision with quality PHP web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Symfony",
+    image: "/Images/skillsPhotos/symfonySkillsPhotos/symfony-logo.webp",
+    description: `There are multiple reasons why Symfony is the go-to choice for developers. Whether you're looking to build a simple solution or an enterprise-grade application, its powerful features will help you achieve your goals. In this tutorial, we'll introduce you to the basics of Symfony and give you an overview of its key features. By the end of it, you'll feel confident enough to move on to more advanced topics!`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY SYMFONY FOR APPLICATION DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/php.webp",
+          alt: "symfonySkillsPhotos/php.webp",
+        },
+        title: "Stable and Sustainable",
+
+        description: `With Symfony being one of the few commercially supported frameworks, you can rest assured that your company's product is backed by an experienced team. SensioLabs has been following Symfony development since its inception and offers up to 3-year support for all major versions. They also provide lifetime support for security-related issues, so you can be sure that your project will be secure from the start.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/database-checked.webp",
+          alt: "symfonySkillsPhotos/database-checked.webp",
+        },
+        title: "Refined MVC Architecture",
+        description: `The Symfony framework is the perfect solution for you - it has all the features and tools you need to develop a professional-grade website. With MVC architecture in place, your project will have an organized structure and be easy to work on. And because Symfony is built on top of Laravel, you also get access to all of Laravel's powerful tools and libraries.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/curved.webp",
+          alt: "symfonySkillsPhotos/curved.webp",
+        },
+        title: "Flexible",
+        description: `The world is going digital as we speak and Symfony has gone a great way in making coding easier for every developer. The framework ensures that your application is structured well, thus enabling you to focus on the real business logic. With its clean architecture, it also helps you write sustainable code that is easy to manage.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsphotos/symfonySkillsPhotos/setting.webp",
+          alt: "symfonySkillsPhotos/setting.webp",
+        },
+        title: "Customization",
+        description: `Symfony framework packs in an array of exclusive custom features to offer businesses and developers a more effective way to build their online presence. With it, they can enhance their site's usability and make it easier for users to navigate around it.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/support.webp",
+          alt: "symfonySkillsPhotos/support.webp",
+        },
+        title: "Excellent support",
+        description: `Using Symfony as the core of its web development, the Symfony framework makes sure that your project follows a systematic approach. This means that you will have a clear idea about how everything is connected and where each part fits into the overall picture!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/symfonySkillsPhotos/users.webp",
+          alt: "symfonySkillsPhotos/users.webp",
+        },
+        title: "Large community",
+        description: `Symfony is one of the most talked-about frameworks today. It has thousands of contributors, a passionate group of over 600,000 developers from more than 120 countries, and its official website declares that 3000+ people contributed to Symfony's success.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Symfony",
+    image: "/Images/skillsPhotos/symfonySkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive symfony solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our symfony developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using symfony",
+    description:
+      "Symfony is often seen as simplifying the developer's job because it doesn't require heavy code to build a web application. Moreover, it enables faster, more stable and flexible development.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
+          alt: "nextjsSkillsPhotos/fast-run.webp",
+        },
+        title: "Fast paced development",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
+          alt: "larvelskillsphotos/agile-dev.webp",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
+          alt: "angularjsSkillsPhotos/effective-framework.webp",
+        },
+        title: "Expandable framework",
+      },
+    ],
+  },
+};
+
+export const phalconData = {
+  title: "Best phalcon developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/phalconSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Phalcon Development Services",
+    description:
+      "Delivering on your business vision with quality PHP web development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Phalcon",
+    image: "/Images/skillsPhotos/phalconSkillsPhotos/phalcon-logo.webp",
+    description: `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.
+
+      And with over 6 million downloads already and counting, there's no doubt that people are recognizing its value and power. Why not give it a try today?`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY PHALCON FOR APPLICATION DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/jcb.webp",
+          alt: "phalconSkillsPhotos/jcb.webp",
+        },
+        title: "Improved SEO performance",
+
+        description: `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/router.webp",
+          alt: "phalconSkillsPhotos/router.webp",
+        },
+        title: "Security",
+        description: `Phalcon puts all its effort into making your site run as smoothly as possible so you can focus on the business at hand instead of worrying about technicalities. With its innovative architecture, advanced caching techniques, fault-tolerance strategies, and much more; it will surely provide your website with the performance you need!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/fast-run.webp",
+          alt: "phalconSkillsPhotos/fast-run.webp",
+        },
+        title: "Fast performance",
+        description: `With Phalcon, you'll enjoy lightning-fast speed and blazing-fast memory efficiency - making your app responsive and agile. Plus, the unique architecture of this framework means that it always stays in memory - so you can get access to its full functionality whenever you need it.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/open-source.webp",
+          alt: "phalconSkillsPhotos/open-source.webp",
+        },
+        title: "Autoloader",
+        description: `Whether you're new to phalcon or an experienced user looking for ways to improve your application's performance, we have something for you. From getting started with routing and views through tips on implementing authentication and caching.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/user-file.webp",
+          alt: "phalconSkillsPhotos/user-file.webp",
+        },
+        title: "Independent framework",
+        description: `Phalcon is one of the most popular and widely used MVC frameworks in the world. This makes it perfect for large-scale enterprise applications that need stability and scalability. With support for both relational and non-relational databases, Phalcon excels in whatever field you're working on.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/phalconSkillsPhotos/php.webp",
+          alt: "phalconSkillsPhotos/php.webp",
+        },
+        title: "Fastest framework for PHP",
+        description: `Phalcon is a lightweight but an advanced framework that is suitable for a wide range of applications. It offers support for MVC, SPA, RPC and numerous other types of architectures.
+          The Phalcon components are described as 'glue' components which can be used on the basis of applicability.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Phalcon",
+    image: "/Images/skillsPhotos/phalconSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive phalcon solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our phalcon developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using Phalcon",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          alt: "nextjsSKillsPhotos/fast-run.webp",
+        },
+        title: "Great performance",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/djangophotos/backward-compatible.webp",
+          alt: "djangophotos/backward-compatible.webp",
+        },
+        title: "Compatible with C language",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
+          alt: "angularjsSkillsPhotos/trouble-free.webp",
+        },
+        title: "Web application development",
+      },
+    ],
+  },
+};
+
+export const jsfData = {
+  title:
+    "Best jsf developers in the market | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/jsfSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "JSF Development Services",
+    description:
+      "Delivering on your business vision with quality javascript development.",
+  },
+  isDes: true,
+  desData: {
+    title: "JSF",
+    image: "/Images/skillsPhotos/jsfSkillsPhotos/jsf-logo.webp",
+    description: `Jakarta Faces is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components on a page. In this tutorial, we will cover some of its more popular features, like Ajax based communication, data binding with change detection etc.`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY JSF FOR APPICATIONS DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/help.webp",
+          alt: "jsfSkillsPhotos/help.webp",
+        },
+        title: "Default exception handling",
+
+        description: `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/html.webp",
+          alt: "jsfSkillsPhotos/html.webp",
+        },
+        title: "Support HTML5",
+        description: `With JSF2.2, you can now easily add these features with ease. By including attributes of HTML5 to your components, you will be able to take full advantage of all its awesome capabilities. For example, using video and audio tags, and CSS3 animations, etc.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/coding.webp",
+          alt: "jsfSkillsPhotos/coding.webp",
+        },
+        title: "Ease and rapid web development",
+        description: `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/security.webp",
+          alt: "jsfSkillsPhotos/security.webp",
+        },
+        title: "Security",
+        description: `Expression Languages have been making waves in the web development world over the past few years. Here's a brief explanation of what they are, why you should consider using them and how they can help improve your projects.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/ajax.webp",
+          alt: "jsfSkillsPhotos/ajax.webp",
+        },
+        title: "Inbuilt AJAX support",
+        description: `Ajax is an HTML5 technique where data is exchanged between the client and server using HTTP XML messages. With this rapid approach, it becomes possible for your website to load data faster without compromising on the response time.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/jsfSkillsPhotos/database.webp",
+          alt: "jsfSkillsPhotos/database.webp",
+        },
+        title: "Templating",
+        description: `While annotating a to-do list on your browser, you'll think that it's not possible to do it any other way. But with BottomFunnel, you can now validate tasks using annotations in your Managed Bean rather than through HTML page.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For JSF",
+    image: "/Images/skillsPhotos/jsfSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive JSF solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our JSF developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using JSF",
+    description:
+      "JSF is becoming more and more popular as a framework for developing the user interface layer, and many architects and companies assume that Struts will become obsolete and JSF will catch up with the market. I don't know if that is true at this point.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "angularjsSkillsPhotos/open-source.webp",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
+          alt: "cakephpPhotos/mvc-pattern.webp",
+        },
+        title: "MVC design",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          alt: "angularjsSkillsPhotos/reuseable-code.webp",
+        },
+        title: "Reusable UI components",
+      },
+    ],
+  },
+};
+
+export const grailsData = {
+  title:
+    "Best grails developers in the market | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/grailsSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Grails Development Services",
+    description:
+      "Delivering on your business vision with quality grails development.",
+  },
+  isDes: true,
+  desData: {
+    title: "Grails",
+    image: "/Images/skillsPhotos/grailsSkillsPhotos/grails-logo.webp",
+    description: `Grails is perfect for building high-productivity web apps that follow the 'coding by convention' paradigm. It provides a stable development environment and hides much of the configuration detail from the developer so they can focus on the code! Plus, compared to other frameworks such as Angular or React, Grails is easier to learn and use because it uses plain old JavaScript instead of its own language (Groovy).`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY GRAILS FOR APPLICATIONS DEVELOPMENT ?",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/strategy.webp",
+          alt: "grailsSkillsPhotos/strategy.webp",
+        },
+        title: "Pragmatic Strategy",
+
+        description: `BottomFunnel uses Groovy as its programming language, and compiles the code into Java bytecode so it can run on any Java enabled platform. This means you don't have to worry about learning new frameworks or languages when building your next amazing app.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/printing.webp",
+          alt: "grailsSkillsPhotos/printing.webp",
+        },
+        title: "Build-in testing frameworkd",
+        description: `The Grails community provides extensive assistance and support for both novice and advanced programmers. Almost, all questions and queries get answered by the active Grail community. This is how we develop software at Hoodline, so we know a thing or two about making Development Efficient!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/java.webp",
+          alt: "grailsSkillsPhotos/java.webp",
+        },
+        title: "Seamless java integration",
+        description: `Grails is a web application framework that supports scaffolding of CRUD (Create, Read, Update and Delete) functionality. Why is this so important? Well, it's because the more user-friendly your website or app is, the higher chances of gaining traffic and thus growing your business.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/dns.webp",
+          alt: "grailsSkillsPhotos/dns.webp",
+        },
+        title: "Dynamic doman class reloading",
+        description: `Grails is very much in demand these days as it offers 700+ plugins that have been collaboratively developed by the core development team and enthusiastic Grail users. These plugins improve the integration for software developers and provide them with all the tools they need to build complex apps quickly and easily. `,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/liberary.webp",
+          alt: "grailsSkillsPhotos/liberary.webp",
+        },
+        title: "Plugin liberary",
+        description: `Grails plugin that makes internationalization (i18n) simpler. It provides a way to automatically convert existing software into another language via locale files. This saves time and money by avoiding the costs of rewriting the software on an already-maintained platform.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/grailsSkillsPhotos/leaf.webp",
+          alt: "grailsSkillsPhotos/leaf.webp",
+        },
+        title: "Spring boot foundation",
+        description: `With Grails, developers find it relatively easy to commence working on a new project. They are familiar with the Java language, and they know how to work with a modular approach. Grails web application framework brings a whole new level of excitement to web-oriented application development.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Grails",
+    image: "/Images/skillsPhotos/grailsSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive grails solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our grails developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using grails",
+    description:
+      "Grails allows you to create web applications quickly. Its scaffolding feature allows you to create new projects in minutes.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "angularjsSkillsPhotos/open-source.webp",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
+          alt: "nextjsSKillsPhotos/fast-run.webp",
+        },
+        title: "Faster Time to Market",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
+          alt: "angularjsSkillsPhotos/reuseable-code.webp",
+        },
+        title: "Reusability",
+      },
+    ],
+  },
+};
+
+export const yiiData = {
+  title: "yii framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/yiiSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "yii Framework Development Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "yii",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/yii-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR ZEND WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/yiiSkillsPhotos/leaf.webp",
+          alt: "yiiSkillsPhotos/leaf.webp",
+        },
+        title: "Lightweight",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/yiiSkillsPhotos/meter.webp",
+          alt: "yiiSkillsPhotos/meter.webp",
+        },
+        title: "High-performance",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/yiiSkillsPhotos/community.webp",
+          alt: "yiiSkillsphotos/community.webp",
+        },
+        title: "Expert Contributors",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/yiiSkillsPhotos/hand.webp",
+          alt: "yiiSkillsPhotos/hand.webp",
+        },
+        title: "Highly extensible",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/yiiSkillsPhotos/clock.webp",
+          alt: "yiiSkillsPhotos/clock.webp",
+        },
+        title: "Rapid development",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/yiiSkillsPhotos/fast-run.webp",
+          alt: "yiiSkillsPhotos/fast-run.webp",
+        },
+        title: "Fast performance",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for yii",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive yii solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our yii developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using zend",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "cubaSkillsPhotos/anagle.webp",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "cubaSkillsPhotos/community.webp",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "cubaSkillsPhotos/recycle.webp",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "cubaSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "cubaSkillsPhotos/center.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "cubaSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const zendData = {
+  title: "zend framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/zendSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Zend Framework Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Zend",
+    image: "/Images/skillsPhotos/zendSkillsPhotos/zend-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR ZEND WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/zendSkillsPhotos/computer-leaf.webp",
+          alt: "zendSkillsPhotos/computer-leaf.webp",
+        },
+        title: "Lightweight",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/zendSkillsPhotos/document.webp",
+          alt: "zendSkillsPhotos/document.webp",
+        },
+        title: "Simplicity",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/zendSkillsPhotos/fast-run.webp",
+          alt: "zendSkillsPhotos/fast-run.webp",
+        },
+        title: "Fast performance",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/zendSkillsPhotos/community.webp",
+          alt: "zendSkillsPhotos/community.webp",
+        },
+        title: "Open source",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/zendSkillsPhotos/people.webp",
+          alt: "zendSkillsPhotos/people.webp",
+        },
+        title: "Community support",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/zendSkillsPhotos/vector.webp",
+          alt: "zendSkillsPhotos/vector.webp",
+        },
+        title: "Flexibility",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for zend",
+    image: "/Images/skillsPhotos/zendSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive zend solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our zend developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/zendSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using zend",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "cubaSkillsPhotos/angle.webp",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "cubaSkillsPhotos/community.webp",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "cubaSkillsPhotos/recycle.webp",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "cubaSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "cubaSkillsPhotos/center.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "cubaSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const gitData = {
+  title: "git framework services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/gitSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Git Backend Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "git",
+    image: "/Images/skillsPhotos/gitSkillsPhotos/git-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR GIT WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/city.webp",
+          alt: "gitSkillsPhotos/city.webp",
+        },
+        title: "Branch workflow",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/tranfer.webp",
+          alt: "gitSkillsPhotos/tranfer.webp",
+        },
+        title: "Distributed development",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/threads.webp",
+          alt: "gitSkillsPhotos/threads.webp",
+        },
+        title: "Pull requests",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/people.webp",
+          alt: "gitSkillsPhotos/people.webp",
+        },
+        title: "Community",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/package.webp",
+          alt: "gitSkillsPhotos/package.webp",
+        },
+        title: "Faster Release cycle",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/gitSkillsPhotos/document.webp",
+          alt: "gitSkillsPhotos/document.webp",
+        },
+        title: "Easy to understand",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for git",
+    image: "/Images/skillsPhotos/gitSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive git solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our git developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/gitSkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using git",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "cubaSkillsPhotos/angle.webp",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "cubaSkillsPhotos/community.webp",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "cubaSkillsPhotos/recycle.webp",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "cubaSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "cubaSkillsPhotos/center.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "cubaSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+export const cherryData = {
+  title: "Cherrypy online services | Bottom Funnel Technologies PVT. LTD.",
+  description:
+    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+  isBanner: true,
+  BannerData: {
+    icon: "/Images/skillsPhotos/cherrypySkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: "Cherrypy Online Services",
+    description:
+      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+  },
+  isDes: true,
+  desData: {
+    title: "Cherrypy",
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/cherrypy-logo.webp",
+    description:
+      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "POPULAR CHERRYPY WEB DEVELOPMENT SERVICES",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/leaf.webp",
+          alt: "cherrypySkillsPhotos/leaf.webp",
+        },
+        title: "Lightweight and minimal",
+
+        description:
+          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/setting.webp",
+          alt: "cherrypySkillsPhotos/setting.webp",
+        },
+        title: "Multiple themes",
+        description:
+          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/language.webp",
+          alt: "cherrypySkillsPhotos/language.webp",
+        },
+        title: "Best use of python utilities",
+        description:
+          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/mobile.webp",
+          alt: "cherrypySkillsPhotos/mobile.webp",
+        },
+        title: "Free to use",
+        description:
+          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/document.webp",
+          alt: "cherrypySkillsPhotos/document.webp",
+        },
+        title: "Easy to understand",
+        description:
+          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cherrypySkillsPhotos/fast-run.webp",
+          alt: "cherrypySkillsPhotos/fast-run.webp",
+        },
+        title: "Fast performance",
+        description:
+          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel for cherrypy",
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive cherrypy solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our cherrypy developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/cherrypySkillsPhotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "benefits of using cherrypy",
+    description: "",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
+          alt: "cubaSkillsPhotos/angle.webp",
+        },
+        title: "Quick learning curve",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
+          alt: "cubaSkillsPhotos/community.webp",
+        },
+        title: "Flexibility",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
+          alt: "cubaSkillsPhotos/recycle.webp",
+        },
+        title: "Quick swap approach",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
+          alt: "cubaSkillsPhotos/currency.webp",
+        },
+        title: "Affordable",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
+          alt: "cubaSkillsPhotos/center.webp",
+        },
+        title: "Versatile",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
+          alt: "cubaSkillsPhotos/automated.webp",
+        },
+        title: "Secure & up-to-date",
+      },
+    ],
+  },
+};
+
+// Section - Frontend pages data
 
 export const reactjsData = {
   title:
@@ -4730,768 +6096,6 @@ export const cassandraData = {
   },
 };
 
-export const strutsData = {
-  title: "Best struts developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Struts Development Services",
-    description:
-      "Delivering on your business vision with quality struts development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Struts",
-    image: "/Images/skillsPhotos/strutsSkillsPhotos/struts-logo.webp",
-    description: `Apache Struts 1 is an open-source web application framework for developing Java EE web applications. It uses and extends the Java Servlet API to encourage developers to adopt a model-view-controller(MVC) architecture. It was originally created by Craig McClanahan and donated to the Apache Foundation in May 2000. Formerly located under the Apache Jakarta Project, it became a top-level Apache project in 2005. In 2015, it was renamed from Struts 1 to Struts 2 on account of several significant changes (e.g., JSF 2 support; tag libraries; and several MVC improvements). After more than 15 years, Struts is still going strong with millions of downloads every year!`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY STRUTS FOR APPLICATION DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/strutsSkillsPhotos/price-tag.webp",
-          alt: "strutsSkillsPhotos/price-tag.webp",
-        },
-        title: "Tag support",
-
-        description: `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/strutsSkillsPhotos/database.webp",
-          alt: "strutsSkillsPhotos/database.webp",
-        },
-        title: "Teplate support",
-        description: `There are many reasons why you should use a MVC framework for your next project. But if you're already an expert in struts, then you know how powerful it is. BottomFunnel is one of the best struts frameworks available today that takes care of every important aspect of building a website from database to server to front-end views.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/strutsSkillsPhotos/coordination.webp",
-          alt: "strutsSkillsPhotos/coordination.webp",
-        },
-        title: "Intigration support",
-        description: `Struts is here to change the way you think about frameworks and code architecture. It's a powerful framework that follows modeling best practices, and it's designed from the ground up with usability in mind. That means no more headache-inducing bugs and user confusion; Struts will make your life easier every step of the way.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/strutsSkillsPhotos/ajax.webp",
-          alt: "strutsSkillsPhotos/ajax.webp",
-        },
-        title: "Ajax support",
-        description: `Struts is a powerful framework designed to encourage good design practices and modeling. It's built upon time-proven design patterns, so you know it will work for your application. Struts comes with out of the box support for MVC and RESTful APIs, so you can get started quickly.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/strutsSkillsPhotos/open-source.webp",
-          alt: "strutsSkillsPhotos/open-source.webp",
-        },
-        title: "Open Source",
-        description: `Easy-to-use struts framework that adapts web applications to it in no time. It comes with tons of features that help you build a robust and responsive website. Plus, it is flexible and extensible so that you can easily modify or replace its components with your requirements. Try it out today!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/strutsSkillsPhotos/result.webp",
-          alt: "strutsSkillsPhotos/result.webp",
-        },
-        title: "Various result types",
-        description: `Creating forms for capturing input from data into JavaBean objects is simple with BottomFunnel. The processing of Data into Action forms is easy and requires minimum effort, yet it delivers accurate output.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Struts",
-    image: "/Images/skillsPhotos/strutsSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive struts solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our struts developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using struts",
-    description:
-      "Struts is a framework based on the MVC design paradigm. The JSP Model 2 architecture is implemented in the Struts framework.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "cakephpPhotos/mvc-pattern.webp",
-        },
-        title: "MVC design",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
-          alt: "springbootSkillsPhotos/easy-start.webp",
-        },
-        title: "Centralized Configuration",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/larvelskillsphotos/easy-develop.webp",
-          alt: "larvelskillsphotos/easy-develop.webp",
-        },
-        title: "Web application development easy",
-      },
-    ],
-  },
-};
-
-export const golangData = {
-  title: "Best golang developers in the market | Bottom Funnel",
-  description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Golang Development Services",
-    description:
-      "Delivering on your business vision with quality golang development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Golang",
-    image: "/Images/skillsPhotos/golangSkillsPhotos/golang-logo.webp",
-    description: `Golang is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C but with memory safety, garbage collection, structural typing and concurrency support. Go is often referred to as Golang because of its former domain name golang.org but its proper name is Go.`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY GOLANG FOR APPLICATION DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/golangSkillsPhotos/open-source.webp",
-          alt: "golangSkillsPhotos/open-source.webp",
-        },
-        title: "Open Source",
-
-        description: `Golang is the latest programming language that has gained a lot of attention in recent times. It is being adopted by companies as it offers great productivity improvements over other languages and platforms. With its modern features such as pointer number-crunching, type legacy and administrators over-burdening, Golang is an apt choice to turn your application into a robust one.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/golangSkillsPhotos/sync.webp",
-          alt: "golangSkillsPhotos/sync.webp",
-        },
-        title: "Cross-platform development",
-        description: `Golang is quickly becoming a top contender in the language world because of its speed, reliability, and most importantly, its ability to scale. No matter how big or small your project is, Golang has you covered.And when you're new to a language like Golang and its basics are still a bit foggy for you.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/golangSkillsPhotos/printing.webp",
-          alt: "golangSkillsPhotos/printing.webp",
-        },
-        title: "Testing capabilities",
-        description: `Golang's distributed memory architecture and simple syntax make it easy for developers to understand and use, while its powerful tooling ensures that applications run efficiently. And since Golang is an open source project, there are plenty of resources available online if you want to learn more.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/golangSkillsPhotos/keyboard.webp",
-          alt: "golangSkillsPhotos/keyboard.webp",
-        },
-        title: "Static typing",
-        description: `Golang has been growing in popularity over the last few years and it seems like everyone's talking about it now! So why not give it a try and see how different it can make your application development process!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/golangSkillsPhotos/books.webp",
-          alt: "golangSkillsPhotos/books.webp",
-        },
-        title: "Powerful standard library",
-        description: `Golang is a programming language that provides software bundles and packages that make it easy for engineers to manage their I/O, cryptography, web servers and more. As the popularity of Golang increases, so does its library. TravelFlap is a golang package used to create automated web applications with ease.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/golangSkillsPhotos/proccess.webp",
-          alt: "golangSkillsPhotos/proccess.webp",
-        },
-        title: "Concurrency support",
-        description: `Golang is a programming language that has taken the world by storm. It offers exceptional performance, scalability, and lightweight nature. It is perfect for building large-scale applications or scaling existing ones. In this post, we are going to explore how you can make use of GoDoc tool in Golang for documentation creation using Golang.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Golang",
-    image: "/Images/skillsPhotos/golangSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive golang solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our golang developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using golang",
-    description:
-      "Go is a modern programming language with an open source design. It is preferred by many software developers due to its reliability. Golang allows you to create simple and efficient web products.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "angularjsSkillsPhotos/open-source.webp",
-        },
-        title: "Open-source",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
-          alt: "nextjsSKillsPhotos/fast-run.webp",
-        },
-        title: "Fast and efficiency",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/mysqlSkillsPhotos/user-database.webp",
-          alt: "mysqlSkillsPhotos/user-database.webp",
-        },
-        title: "Scalability",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/svelteSkillsPhotos/settings-loading.webp",
-          alt: "svelteSkillsPhotos/settings-loading.webp",
-        },
-        title: "Ease of learning",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/dotnetphotos/creative.webp",
-          alt: "dotnetphotos/creative.webp",
-        },
-        title: "Transparency",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/larvelskillsphotos/automated-test.webp",
-          alt: "larvelskillsphotos/automated-test.webp",
-        },
-        title: "In-built testing",
-      },
-    ],
-  },
-};
-
-export const symfonyData = {
-  title: "Best symfony developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Symfony Development Services",
-    description:
-      "Delivering on your business vision with quality PHP web development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Symfony",
-    image: "/Images/skillsPhotos/symfonySkillsPhotos/symfony-logo.webp",
-    description: `There are multiple reasons why Symfony is the go-to choice for developers. Whether you're looking to build a simple solution or an enterprise-grade application, its powerful features will help you achieve your goals. In this tutorial, we'll introduce you to the basics of Symfony and give you an overview of its key features. By the end of it, you'll feel confident enough to move on to more advanced topics!`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY SYMFONY FOR APPLICATION DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/symfonySkillsPhotos/php.webp",
-          alt: "symfonySkillsPhotos/php.webp",
-        },
-        title: "Stable and Sustainable",
-
-        description: `With Symfony being one of the few commercially supported frameworks, you can rest assured that your company's product is backed by an experienced team. SensioLabs has been following Symfony development since its inception and offers up to 3-year support for all major versions. They also provide lifetime support for security-related issues, so you can be sure that your project will be secure from the start.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/symfonySkillsPhotos/database-checked.webp",
-          alt: "symfonySkillsPhotos/database-checked.webp",
-        },
-        title: "Refined MVC Architecture",
-        description: `The Symfony framework is the perfect solution for you - it has all the features and tools you need to develop a professional-grade website. With MVC architecture in place, your project will have an organized structure and be easy to work on. And because Symfony is built on top of Laravel, you also get access to all of Laravel's powerful tools and libraries.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/symfonySkillsPhotos/curved.webp",
-          alt: "symfonySkillsPhotos/curved.webp",
-        },
-        title: "Flexible",
-        description: `The world is going digital as we speak and Symfony has gone a great way in making coding easier for every developer. The framework ensures that your application is structured well, thus enabling you to focus on the real business logic. With its clean architecture, it also helps you write sustainable code that is easy to manage.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsphotos/symfonySkillsPhotos/setting.webp",
-          alt: "symfonySkillsPhotos/setting.webp",
-        },
-        title: "Customization",
-        description: `Symfony framework packs in an array of exclusive custom features to offer businesses and developers a more effective way to build their online presence. With it, they can enhance their site's usability and make it easier for users to navigate around it.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/symfonySkillsPhotos/support.webp",
-          alt: "symfonySkillsPhotos/support.webp",
-        },
-        title: "Excellent support",
-        description: `Using Symfony as the core of its web development, the Symfony framework makes sure that your project follows a systematic approach. This means that you will have a clear idea about how everything is connected and where each part fits into the overall picture!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/symfonySkillsPhotos/users.webp",
-          alt: "symfonySkillsPhotos/users.webp",
-        },
-        title: "Large community",
-        description: `Symfony is one of the most talked-about frameworks today. It has thousands of contributors, a passionate group of over 600,000 developers from more than 120 countries, and its official website declares that 3000+ people contributed to Symfony's success.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Symfony",
-    image: "/Images/skillsPhotos/symfonySkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive symfony solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our symfony developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using symfony",
-    description:
-      "Symfony is often seen as simplifying the developer's job because it doesn't require heavy code to build a web application. Moreover, it enables faster, more stable and flexible development.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/nextjsSkillsPhotos/fast-run.webp",
-          alt: "nextjsSkillsPhotos/fast-run.webp",
-        },
-        title: "Fast paced development",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/larvelskillsphotos/agile-dev.webp",
-          alt: "larvelskillsphotos/agile-dev.webp",
-        },
-        title: "Flexibility",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/effective-framework.webp",
-          alt: "angularjsSkillsPhotos/effective-framework.webp",
-        },
-        title: "Expandable framework",
-      },
-    ],
-  },
-};
-
-export const grailsData = {
-  title:
-    "Best grails developers in the market | Bottom Funnel Technologies PVT. LTD.",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Grails Development Services",
-    description:
-      "Delivering on your business vision with quality grails development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Grails",
-    image: "/Images/skillsPhotos/grailsSkillsPhotos/grails-logo.webp",
-    description: `Grails is perfect for building high-productivity web apps that follow the 'coding by convention' paradigm. It provides a stable development environment and hides much of the configuration detail from the developer so they can focus on the code! Plus, compared to other frameworks such as Angular or React, Grails is easier to learn and use because it uses plain old JavaScript instead of its own language (Groovy).`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY GRAILS FOR APPLICATIONS DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/grailsSkillsPhotos/strategy.webp",
-          alt: "grailsSkillsPhotos/strategy.webp",
-        },
-        title: "Pragmatic Strategy",
-
-        description: `BottomFunnel uses Groovy as its programming language, and compiles the code into Java bytecode so it can run on any Java enabled platform. This means you don't have to worry about learning new frameworks or languages when building your next amazing app.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/grailsSkillsPhotos/printing.webp",
-          alt: "grailsSkillsPhotos/printing.webp",
-        },
-        title: "Build-in testing frameworkd",
-        description: `The Grails community provides extensive assistance and support for both novice and advanced programmers. Almost, all questions and queries get answered by the active Grail community. This is how we develop software at Hoodline, so we know a thing or two about making Development Efficient!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/grailsSkillsPhotos/java.webp",
-          alt: "grailsSkillsPhotos/java.webp",
-        },
-        title: "Seamless java integration",
-        description: `Grails is a web application framework that supports scaffolding of CRUD (Create, Read, Update and Delete) functionality. Why is this so important? Well, it's because the more user-friendly your website or app is, the higher chances of gaining traffic and thus growing your business.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/grailsSkillsPhotos/dns.webp",
-          alt: "grailsSkillsPhotos/dns.webp",
-        },
-        title: "Dynamic doman class reloading",
-        description: `Grails is very much in demand these days as it offers 700+ plugins that have been collaboratively developed by the core development team and enthusiastic Grail users. These plugins improve the integration for software developers and provide them with all the tools they need to build complex apps quickly and easily. `,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/grailsSkillsPhotos/liberary.webp",
-          alt: "grailsSkillsPhotos/liberary.webp",
-        },
-        title: "Plugin liberary",
-        description: `Grails plugin that makes internationalization (i18n) simpler. It provides a way to automatically convert existing software into another language via locale files. This saves time and money by avoiding the costs of rewriting the software on an already-maintained platform.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/grailsSkillsPhotos/leaf.webp",
-          alt: "grailsSkillsPhotos/leaf.webp",
-        },
-        title: "Spring boot foundation",
-        description: `With Grails, developers find it relatively easy to commence working on a new project. They are familiar with the Java language, and they know how to work with a modular approach. Grails web application framework brings a whole new level of excitement to web-oriented application development.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Grails",
-    image: "/Images/skillsPhotos/grailsSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive grails solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our grails developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using grails",
-    description:
-      "Grails allows you to create web applications quickly. Its scaffolding feature allows you to create new projects in minutes.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "angularjsSkillsPhotos/open-source.webp",
-        },
-        title: "Open-source",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
-          alt: "nextjsSKillsPhotos/fast-run.webp",
-        },
-        title: "Faster Time to Market",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
-          alt: "angularjsSkillsPhotos/reuseable-code.webp",
-        },
-        title: "Reusability",
-      },
-    ],
-  },
-};
-
-export const jsfData = {
-  title:
-    "Best jsf developers in the market | Bottom Funnel Technologies PVT. LTD.",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "JSF Development Services",
-    description:
-      "Delivering on your business vision with quality javascript development.",
-  },
-  isDes: true,
-  desData: {
-    title: "JSF",
-    image: "/Images/skillsPhotos/jsfSkillsPhotos/jsf-logo.webp",
-    description: `Jakarta Faces is a Java specification for building component-based user interfaces for web applications and was formalized as a standard through the Java Community Process. It is also an MVC web framework that simplifies the construction of user interfaces(UI) for server-based applications by using reusable UI components on a page. In this tutorial, we will cover some of its more popular features, like Ajax based communication, data binding with change detection etc.`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY JSF FOR APPICATIONS DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/jsfSkillsPhotos/help.webp",
-          alt: "jsfSkillsPhotos/help.webp",
-        },
-        title: "Default exception handling",
-
-        description: `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/jsfSkillsPhotos/html.webp",
-          alt: "jsfSkillsPhotos/html.webp",
-        },
-        title: "Support HTML5",
-        description: `With JSF2.2, you can now easily add these features with ease. By including attributes of HTML5 to your components, you will be able to take full advantage of all its awesome capabilities. For example, using video and audio tags, and CSS3 animations, etc.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/jsfSkillsPhotos/coding.webp",
-          alt: "jsfSkillsPhotos/coding.webp",
-        },
-        title: "Ease and rapid web development",
-        description: `When it comes to bug-free applications, JavaServer Faces offers a default exception handling mechanism. However, this might not be enough for you in case of complex situations where multiple pages and components need to be handled in different ways.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/jsfSkillsPhotos/security.webp",
-          alt: "jsfSkillsPhotos/security.webp",
-        },
-        title: "Security",
-        description: `Expression Languages have been making waves in the web development world over the past few years. Here's a brief explanation of what they are, why you should consider using them and how they can help improve your projects.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/jsfSkillsPhotos/ajax.webp",
-          alt: "jsfSkillsPhotos/ajax.webp",
-        },
-        title: "Inbuilt AJAX support",
-        description: `Ajax is an HTML5 technique where data is exchanged between the client and server using HTTP XML messages. With this rapid approach, it becomes possible for your website to load data faster without compromising on the response time.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/jsfSkillsPhotos/database.webp",
-          alt: "jsfSkillsPhotos/database.webp",
-        },
-        title: "Templating",
-        description: `While annotating a to-do list on your browser, you'll think that it's not possible to do it any other way. But with BottomFunnel, you can now validate tasks using annotations in your Managed Bean rather than through HTML page.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For JSF",
-    image: "/Images/skillsPhotos/jsfSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive JSF solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our JSF developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using JSF",
-    description:
-      "JSF is becoming more and more popular as a framework for developing the user interface layer, and many architects and companies assume that Struts will become obsolete and JSF will catch up with the market. I don't know if that is true at this point.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "angularjsSkillsPhotos/open-source.webp",
-        },
-        title: "Open-source",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cakephpPhotos/mvc-pattern.webp",
-          alt: "cakephpPhotos/mvc-pattern.webp",
-        },
-        title: "MVC design",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/reuseable-code.webp",
-          alt: "angularjsSkillsPhotos/reuseable-code.webp",
-        },
-        title: "Reusable UI components",
-      },
-    ],
-  },
-};
-
-export const phalconData = {
-  title: "Best phalcon developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Phalcon Development Services",
-    description:
-      "Delivering on your business vision with quality PHP web development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Phalcon",
-    image: "/Images/skillsPhotos/phalconSkillsPhotos/phalcon-logo.webp",
-    description: `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.
-
-      And with over 6 million downloads already and counting, there's no doubt that people are recognizing its value and power. Why not give it a try today?`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY PHALCON FOR APPLICATION DEVELOPMENT ?",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/phalconSkillsPhotos/jcb.webp",
-          alt: "phalconSkillsPhotos/jcb.webp",
-        },
-        title: "Improved SEO performance",
-
-        description: `Phalcon is the perfect foundation for your next big idea. Rapidly becoming the defacto standard in PHP development, this lightweight framework is ideal for building scalable, high-performant websites. With its unique architecture, Phalcon always stays resident in memory, meaning that it's always ready to provide functionality when you need it.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/phalconSkillsPhotos/router.webp",
-          alt: "phalconSkillsPhotos/router.webp",
-        },
-        title: "Security",
-        description: `Phalcon puts all its effort into making your site run as smoothly as possible so you can focus on the business at hand instead of worrying about technicalities. With its innovative architecture, advanced caching techniques, fault-tolerance strategies, and much more; it will surely provide your website with the performance you need!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/phalconSkillsPhotos/fast-run.webp",
-          alt: "phalconSkillsPhotos/fast-run.webp",
-        },
-        title: "Fast performance",
-        description: `With Phalcon, you'll enjoy lightning-fast speed and blazing-fast memory efficiency - making your app responsive and agile. Plus, the unique architecture of this framework means that it always stays in memory - so you can get access to its full functionality whenever you need it.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/phalconSkillsPhotos/open-source.webp",
-          alt: "phalconSkillsPhotos/open-source.webp",
-        },
-        title: "Autoloader",
-        description: `Whether you're new to phalcon or an experienced user looking for ways to improve your application's performance, we have something for you. From getting started with routing and views through tips on implementing authentication and caching.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/phalconSkillsPhotos/user-file.webp",
-          alt: "phalconSkillsPhotos/user-file.webp",
-        },
-        title: "Independent framework",
-        description: `Phalcon is one of the most popular and widely used MVC frameworks in the world. This makes it perfect for large-scale enterprise applications that need stability and scalability. With support for both relational and non-relational databases, Phalcon excels in whatever field you're working on.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/phalconSkillsPhotos/php.webp",
-          alt: "phalconSkillsPhotos/php.webp",
-        },
-        title: "Fastest framework for PHP",
-        description: `Phalcon is a lightweight but an advanced framework that is suitable for a wide range of applications. It offers support for MVC, SPA, RPC and numerous other types of architectures.
-          The Phalcon components are described as 'glue' components which can be used on the basis of applicability.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Phalcon",
-    image: "/Images/skillsPhotos/phalconSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive phalcon solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our phalcon developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using Phalcon",
-    description: "",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/nextjsSKillsPhotos/fast-run.webp",
-          alt: "nextjsSKillsPhotos/fast-run.webp",
-        },
-        title: "Great performance",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/djangophotos/backward-compatible.webp",
-          alt: "djangophotos/backward-compatible.webp",
-        },
-        title: "Compatible with C language",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/trouble-free.webp",
-          alt: "angularjsSkillsPhotos/trouble-free.webp",
-        },
-        title: "Web application development",
-      },
-    ],
-  },
-};
-
 export const semanticData = {
   title:
     "Best Semantic Ui developers in the market | Bottom Funnel Technologies PVT. LTD.",
@@ -6031,156 +6635,6 @@ export const cubaData = {
   },
 };
 
-export const cherryData = {
-  title: "Cherrypy online services | Bottom Funnel Technologies PVT. LTD.",
-  description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Cherrypy Online Services",
-    description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
-  },
-  isDes: true,
-  desData: {
-    title: "Cherrypy",
-    image: "/Images/skillsPhotos/cherrypySkillsPhotos/cherrypy-logo.webp",
-    description:
-      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "POPULAR CHERRYPY WEB DEVELOPMENT SERVICES",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/cherrypySkillsPhotos/leaf.webp",
-          alt: "cherrypySkillsPhotos/leaf.webp",
-        },
-        title: "Lightweight and minimal",
-
-        description:
-          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cherrypySkillsPhotos/setting.webp",
-          alt: "cherrypySkillsPhotos/setting.webp",
-        },
-        title: "Multiple themes",
-        description:
-          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cherrypySkillsPhotos/language.webp",
-          alt: "cherrypySkillsPhotos/language.webp",
-        },
-        title: "Best use of python utilities",
-        description:
-          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cherrypySkillsPhotos/mobile.webp",
-          alt: "cherrypySkillsPhotos/mobile.webp",
-        },
-        title: "Free to use",
-        description:
-          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cherrypySkillsPhotos/document.webp",
-          alt: "cherrypySkillsPhotos/document.webp",
-        },
-        title: "Easy to understand",
-        description:
-          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cherrypySkillsPhotos/fast-run.webp",
-          alt: "cherrypySkillsPhotos/fast-run.webp",
-        },
-        title: "Fast performance",
-        description:
-          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel for cherrypy",
-    image: "/Images/skillsPhotos/cherrypySkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive cherrypy solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our cherrypy developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/cherrypySkillsPhotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using cherrypy",
-    description: "",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "cubaSkillsPhotos/angle.webp",
-        },
-        title: "Quick learning curve",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "cubaSkillsPhotos/community.webp",
-        },
-        title: "Flexibility",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "cubaSkillsPhotos/recycle.webp",
-        },
-        title: "Quick swap approach",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "cubaSkillsPhotos/currency.webp",
-        },
-        title: "Affordable",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "cubaSkillsPhotos/center.webp",
-        },
-        title: "Versatile",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "cubaSkillsPhotos/automated.webp",
-        },
-        title: "Secure & up-to-date",
-      },
-    ],
-  },
-};
-
 export const echoData = {
   title: "echo framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
@@ -6289,456 +6743,6 @@ export const echoData = {
         img: {
           src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
           alt: "cubaSkillsPhotos/angle.webp",
-        },
-        title: "Quick learning curve",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "cubaSkillsPhotos/community.webp",
-        },
-        title: "Flexibility",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "cubaSkillsPhotos/recycle.webp",
-        },
-        title: "Quick swap approach",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "cubaSkillsPhotos/currency.webp",
-        },
-        title: "Affordable",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "cubaSkillsPhotos/center.webp",
-        },
-        title: "Versatile",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "cubaSkillsPhotos/automated.webp",
-        },
-        title: "Secure & up-to-date",
-      },
-    ],
-  },
-};
-
-export const gitData = {
-  title: "git framework services | Bottom Funnel Technologies PVT. LTD.",
-  description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Git Backend Services",
-    description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
-  },
-  isDes: true,
-  desData: {
-    title: "git",
-    image: "/Images/skillsPhotos/gitSkillsPhotos/git-logo.webp",
-    description:
-      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "POPULAR GIT WEB DEVELOPMENT SERVICES",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/gitSkillsPhotos/city.webp",
-          alt: "gitSkillsPhotos/city.webp",
-        },
-        title: "Branch workflow",
-
-        description:
-          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/gitSkillsPhotos/tranfer.webp",
-          alt: "gitSkillsPhotos/tranfer.webp",
-        },
-        title: "Distributed development",
-        description:
-          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/gitSkillsPhotos/threads.webp",
-          alt: "gitSkillsPhotos/threads.webp",
-        },
-        title: "Pull requests",
-        description:
-          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/gitSkillsPhotos/people.webp",
-          alt: "gitSkillsPhotos/people.webp",
-        },
-        title: "Community",
-        description:
-          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/gitSkillsPhotos/package.webp",
-          alt: "gitSkillsPhotos/package.webp",
-        },
-        title: "Faster Release cycle",
-        description:
-          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/gitSkillsPhotos/document.webp",
-          alt: "gitSkillsPhotos/document.webp",
-        },
-        title: "Easy to understand",
-        description:
-          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel for git",
-    image: "/Images/skillsPhotos/gitSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive git solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our git developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/gitSkillsPhotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using git",
-    description: "",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "cubaSkillsPhotos/angle.webp",
-        },
-        title: "Quick learning curve",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "cubaSkillsPhotos/community.webp",
-        },
-        title: "Flexibility",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "cubaSkillsPhotos/recycle.webp",
-        },
-        title: "Quick swap approach",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "cubaSkillsPhotos/currency.webp",
-        },
-        title: "Affordable",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "cubaSkillsPhotos/center.webp",
-        },
-        title: "Versatile",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "cubaSkillsPhotos/automated.webp",
-        },
-        title: "Secure & up-to-date",
-      },
-    ],
-  },
-};
-
-export const zendData = {
-  title: "zend framework services | Bottom Funnel Technologies PVT. LTD.",
-  description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Zend Framework Services",
-    description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
-  },
-  isDes: true,
-  desData: {
-    title: "Zend",
-    image: "/Images/skillsPhotos/zendSkillsPhotos/zend-logo.webp",
-    description:
-      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "POPULAR ZEND WEB DEVELOPMENT SERVICES",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/zendSkillsPhotos/computer-leaf.webp",
-          alt: "zendSkillsPhotos/computer-leaf.webp",
-        },
-        title: "Lightweight",
-
-        description:
-          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/zendSkillsPhotos/document.webp",
-          alt: "zendSkillsPhotos/document.webp",
-        },
-        title: "Simplicity",
-        description:
-          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/zendSkillsPhotos/fast-run.webp",
-          alt: "zendSkillsPhotos/fast-run.webp",
-        },
-        title: "Fast performance",
-        description:
-          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/zendSkillsPhotos/community.webp",
-          alt: "zendSkillsPhotos/community.webp",
-        },
-        title: "Open source",
-        description:
-          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/zendSkillsPhotos/people.webp",
-          alt: "zendSkillsPhotos/people.webp",
-        },
-        title: "Community support",
-        description:
-          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/zendSkillsPhotos/vector.webp",
-          alt: "zendSkillsPhotos/vector.webp",
-        },
-        title: "Flexibility",
-        description:
-          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel for zend",
-    image: "/Images/skillsPhotos/zendSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive zend solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our zend developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/zendSkillsPhotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using zend",
-    description: "",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "cubaSkillsPhotos/angle.webp",
-        },
-        title: "Quick learning curve",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/community.webp",
-          alt: "cubaSkillsPhotos/community.webp",
-        },
-        title: "Flexibility",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/recycle.webp",
-          alt: "cubaSkillsPhotos/recycle.webp",
-        },
-        title: "Quick swap approach",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/currency.webp",
-          alt: "cubaSkillsPhotos/currency.webp",
-        },
-        title: "Affordable",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/center.webp",
-          alt: "cubaSkillsPhotos/center.webp",
-        },
-        title: "Versatile",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/automated.webp",
-          alt: "cubaSkillsPhotos/automated.webp",
-        },
-        title: "Secure & up-to-date",
-      },
-    ],
-  },
-};
-
-export const yiiData = {
-  title: "yii framework services | Bottom Funnel Technologies PVT. LTD.",
-  description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "yii Framework Development Services",
-    description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
-  },
-  isDes: true,
-  desData: {
-    title: "yii",
-    image: "/Images/skillsPhotos/yiiSkillsPhotos/yii-logo.webp",
-    description:
-      "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online! And with Ghost, you'll have an easy way to publish your content on the go without sacrificing quality.",
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "POPULAR ZEND WEB DEVELOPMENT SERVICES",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/yiiSkillsPhotos/leaf.webp",
-          alt: "yiiSkillsPhotos/leaf.webp",
-        },
-        title: "Lightweight",
-
-        description:
-          "Ghost is a website builder that lets you design and develop responsive websites in any language quickly and easily. With our drag-and-drop interface, you'll be up and running in no time.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/yiiSkillsPhotos/meter.webp",
-          alt: "yiiSkillsPhotos/meter.webp",
-        },
-        title: "High-performance",
-        description:
-          "With Ghost, you can create stunning websites in no time. It offers easy-to-use tools that allow anyone to build a website in an instant.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/yiiSkillsPhotos/community.webp",
-          alt: "yiiSkillsphotos/community.webp",
-        },
-        title: "Expert Contributors",
-        description:
-          "You can now create your website in minutes with Ghost Website Builder! It comes packed with lots of features for you to use and makes it easy to customize the way you want.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/yiiSkillsPhotos/hand.webp",
-          alt: "yiiSkillsPhotos/hand.webp",
-        },
-        title: "Highly extensible",
-        description:
-          "Ghost is an excellent choice for SEO-savvy businesses. Built-in SEO options help your website rank higher in search results, while built-in security safeguards your online reputation.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/yiiSkillsPhotos/clock.webp",
-          alt: "yiiSkillsPhotos/clock.webp",
-        },
-        title: "Rapid development",
-        description:
-          "Ghost is here to help! With its comprehensive plugin, you can export your data and import it into WordPress with just a few clicks. Ghost is one such plugin that makes transferring data easy.",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/yiiSkillsPhotos/fast-run.webp",
-          alt: "yiiSkillsPhotos/fast-run.webp",
-        },
-        title: "Fast performance",
-        description:
-          "Ghost is a lightweight alternative of WordPress that focuses on blogging. It's fast, reliable, and easy to use - meaning you can focus on enjoying blogging without worrying about technicalities.",
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel for yii",
-    image: "/Images/skillsPhotos/yiiSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive yii solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our yii developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/yiiSkillsPhotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "benefits of using zend",
-    description: "",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/cubaSkillsPhotos/angle.webp",
-          alt: "cubaSkillsPhotos/anagle.webp",
         },
         title: "Quick learning curve",
       },

@@ -48,15 +48,17 @@
 }
 
 .skillsbannermain>img {
-  width: 30%;
+  max-width: 30%;
   height: fit-content;
+  max-height: 70%;
 }
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .skillsbannermain {
     margin-top: 100px;
-    height: 25vh;
+    height: fit-content;
+    padding: 20px 0;
   }
 
   .skillsbannercontent>h1 {
@@ -78,7 +80,8 @@
 @media (min-width: 481px) and (max-width: 1024px) {
   .skillsbannermain {
     margin-top: 100px;
-    height: 35vh;
+    height: fit-content;
+    padding: 20px 0;
   }
 
   .skillsbannercontent>h1 {
