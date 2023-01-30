@@ -23,7 +23,7 @@ export default function ContactUs() {
         }}
         navredux={{
           color: "black",
-          logo: true,
+          logo: false,
         }}
       />
       <ContactUSBanner />

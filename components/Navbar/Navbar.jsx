@@ -17,9 +17,10 @@ import { Products } from "./Products";
 import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
 import { SalesNavbar } from "./SalesNavbar/SalesNavbar";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
+import { useRouter } from "next/router";
 
 const Navbar = ({ navredux, productMount }) => {
-  // const navigate = useNavigate();
+  // const router.push = userouter.push();
   const [aboutH, setAboutH] = useState(false);
   const [solution, setSolution] = useState(false);
   const [service, setService] = useState(false);
@@ -28,6 +29,7 @@ const Navbar = ({ navredux, productMount }) => {
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
   // const [scrollVal, setScrollVal] = useState()
+  const router = useRouter()
 
   // const navredux = useSelector((state) => state.navbar);
   // const productMount = useSelector((state) => state.mountNav);
@@ -221,7 +223,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 onMouseEnter={productHoverIn}
                 onMouseLeave={productHoverOut}
-                onClick={() => navigate("/Products")}
+                onClick={() => router.push("/Products")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRODUCTS
@@ -230,7 +232,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 // onMouseEnter={skillHoverIn}
                 // onMouseLeave={skillHoverOut}
-                onClick={() => navigate("/pricing")}
+                onClick={() => router.push("/pricing")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRICING
@@ -255,13 +257,13 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => navigate("/hire-new-talent")}
+              // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
             <button
               className={navstyle.callToAction}
-              // onClick={() => navigate("/Apply-new-talent")}
+              // onClick={() => router.push("/Apply-new-talent")}
             >
               Apply as a Talent
             </button>

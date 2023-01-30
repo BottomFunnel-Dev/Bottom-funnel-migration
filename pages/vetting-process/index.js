@@ -26,8 +26,8 @@ export default function Vetting () {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <VettingBanner />

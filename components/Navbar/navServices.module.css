@@ -36,9 +36,8 @@
   height: 40px;
 }
 .servicesideNav > div:hover {
- color: black;
- background-color: white;
-
+  color: black;
+  background-color: white;
 }
 
 .servicesideNav > div > h6 {
@@ -370,6 +369,9 @@
     flex-direction: row;
     row-gap: 20px;
   }
+  .servicesideNav > h5 {
+    font-size: 14px;
+  }
 
   .servicediscoverDropdown {
     width: 100%;
@@ -400,7 +402,7 @@
     box-sizing: border-box;
     /* background-color: aquamarine; */
   }
-  .servicediscoverleftbottom >h3{
+  .servicediscoverleftbottom > h3 {
     font-size: 18px;
     text-align: center;
   }
@@ -412,8 +414,6 @@
     box-sizing: border-box;
     background-color: #fff6f4;
   }
-
-
 
   .servicedropdownSection {
     width: 100%;
@@ -428,7 +428,7 @@
     row-gap: 60px;
     padding: 0;
   }
-  
+
   .serviceDropdownContent {
     height: fit-content;
     width: 100%;
@@ -447,25 +447,19 @@
   .servicetrendListItems {
     width: 100%;
     height: fit-content;
-
   }
 
   .serviceimageIconDivSection {
-   
     column-gap: 10px;
-  
   }
   .servicebackendDropdownContent {
     height: 100%;
     width: 100%;
-    padding: 10px 0 ;
+    padding: 10px 0;
   }
-
 
   .serviceskillDropdownContent {
     height: 100%;
     width: 50%;
   }
-
-  
 }

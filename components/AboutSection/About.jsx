@@ -1,15 +1,17 @@
 import React from "react";
 import styles from "./about.module.css";
+
 const About = () => {
+
   return (
     <div className={styles.newAbout}>
       <div className={styles.aboutContent}>
-        <h1>The Dream Team For Your Digital Needs</h1>
+        <h1 >The Dream Team For Your Digital Needs</h1>
         <p>
           Bottom Funnel is a team of passionate people, driven by one relentless
           pursuit- to craft innovative solutions and deliver unparalleled
           results.
-        </p>
+        </p>  
       </div>
 
       <div id={styles.aboutStats1} className={styles.aboutStats}>

@@ -48,7 +48,7 @@ export const process = [
   {
     dropContent: "Our Development Process",
     navIcons: "/Images/navbar/aboutImage/ourdevelopmentprocess.png",
-    path: "our-development",
+    path: "our-development-process",
   },
   {
     dropContent: "Engagement Models",
