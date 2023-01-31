@@ -40,33 +40,33 @@ export default function Logistics() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <Logisticcontainer />
-      <Trusted partnerLogo={logisticsLogo} />
-      <Logictransport />
-      <Logisticwhy />
-      <Logiccustomer customerData={logisticsCustomer} />
-      <Logicdrive driveData={logisticDrive} />
-      <Logisticadmin adminData={logisticAdmin} />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <Logisticcontainer />
+        <Trusted partnerLogo={logisticsLogo} />
+        <Logictransport />
+        <Logisticwhy />
+        <Logiccustomer customerData={logisticsCustomer} />
+        <Logicdrive driveData={logisticDrive} />
+        <Logisticadmin adminData={logisticAdmin} />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

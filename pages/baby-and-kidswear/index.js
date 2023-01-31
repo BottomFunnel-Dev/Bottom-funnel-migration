@@ -15,15 +15,15 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function Kidswear () {
+export default function Kidswear() {
   return (
     <div>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
@@ -43,4 +43,4 @@ export default function Kidswear () {
       <MainFooter />
     </div>
   );
-};
+}

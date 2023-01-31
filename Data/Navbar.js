@@ -297,7 +297,7 @@ export const industries = [
   },
   {
     dropContent: "Game Development",
-    navIcons: "/Images/navbar/industriesImage/gamedev.png",
+    navIcons: "Images/navbar/industriesImage/gamedev.png",
     path: "/gameDevelopment",
   },
   {
@@ -308,7 +308,7 @@ export const industries = [
   {
     dropContent: "Video Streaming",
     navIcons: "/Images/navbar/industriesImage/videostreaming.png",
-    path: "/Videostreaming",
+    path: "Videostreaming",
   },
   {
     dropContent: "Sports Betting",
@@ -337,13 +337,13 @@ export const industries = [
   },
   {
     dropContent: "Social Media",
-    navIcons: "/Images/navbar/industriesImage/social media.png",
-    path: "/Social-Media",
+    navIcons: "Images/navbar/industriesImage/social media.png",
+    path: "Social-Media",
   },
   {
     dropContent: "Logistics",
-    navIcons: "/Images/navbar/industriesImage/logistics.png",
-    path: "/Logistics",
+    navIcons: "Images/navbar/industriesImage/logistics.png",
+    path: "Logistics",
   },
   {
     dropContent: "Politics",
@@ -372,8 +372,8 @@ export const industries = [
   },
   {
     dropContent: "eScooter",
-    navIcons: "/Images/navbar/industriesImage/escooter.png",
-    path: "/eScooter",
+    navIcons: "Images/navbar/industriesImage/escooter.png",
+    path: "eScooter",
   },
   {
     dropContent: "Travel",
@@ -382,8 +382,8 @@ export const industries = [
   },
   {
     dropContent: "Aviation",
-    navIcons: "/Images/navbar/industriesImage/avaitions.png",
-    path: "/Aviation",
+    navIcons: "Images/navbar/industriesImage/avaitions.png",
+    path: "Aviation",
   },
   {
     dropContent: "Telecommunication",
@@ -466,18 +466,18 @@ export const ondemand = [
   },
   {
     dropContent: "Icecream Delivery App",
-    navIcons: "/Images/navbar/industriesImage/icecream.png",
-    path: "/Icecream",
+    navIcons: "Images/navbar/industriesImage/icecream.png",
+    path: "Icecream",
   },
   {
     dropContent: "Plant Based Meat Delivery App",
-    navIcons: "/Images/navbar/industriesImage/plantmeat.png",
-    path: "/plant-based-meat-delivery-app",
+    navIcons: "Images/navbar/industriesImage/plantmeat.png",
+    path: "plant-based-meat-delivery-app",
   },
   {
     dropContent: "Car Rental Delivery App",
-    navIcons: "/Images/navbar/industriesImage/carrental.png",
-    path: "/car-rentals",
+    navIcons: "Images/navbar/industriesImage/carrental.png",
+    path: "car-rentals",
   },
   {
     dropContent: "Agriculture App Solutions",
@@ -487,12 +487,12 @@ export const ondemand = [
   {
     dropContent: "Car Service App Solutions",
     navIcons: "/Images/navbar/industriesImage/carrepair.png",
-    path: "/Car-services",
+    path: "Car-services",
   },
   {
     dropContent: "Trading App Solutions",
-    navIcons: "/Images/navbar/industriesImage/trading.png",
-    path: "/trading-investing",
+    navIcons: "Images/navbar/industriesImage/trading.png",
+    path: "trading-investing",
   },
 
   {
@@ -502,28 +502,28 @@ export const ondemand = [
   },
   {
     dropContent: "Meat Delivery App",
-    navIcons: "/Images/navbar/industriesImage/meat.png",
-    path: "/meat-delivery-app",
+    navIcons: "Images/navbar/industriesImage/meat.png",
+    path: "meat-delivery-app",
   },
   {
     dropContent: "Eyewear Delivery App ",
-    navIcons: "/Images/navbar/industriesImage/eyewear.png",
-    path: "/Eyewear-Delivery-App",
+    navIcons: "Images/navbar/industriesImage/eyewear.png",
+    path: "Eyewear-Delivery-App",
   },
   {
     dropContent: "Baby & KidsWear App ",
-    navIcons: "/Images/navbar/industriesImage/baby-wear.png",
-    path: "/kids-wear",
+    navIcons: "Images/navbar/industriesImage/baby-wear.png",
+    path: "kids-wear",
   },
   {
     dropContent: "Online Payment App ",
-    navIcons: "/Images/navbar/industriesImage/online-payemnt.png",
-    path: "/online-paymentapp-solution",
+    navIcons: "Images/navbar/industriesImage/online-payemnt.png",
+    path: "online-paymentapp-solution",
   },
   {
     dropContent: "Fintech App Solutions",
-    navIcons: "/Images/navbar/industriesImage/fintech.png",
-    path: "/Fintech-solution",
+    navIcons: "Images/navbar/industriesImage/fintech.png",
+    path: "Fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
@@ -532,18 +532,18 @@ export const ondemand = [
   },
   {
     dropContent: "App Builder Solutions",
-    navIcons: "/Images/navbar/industriesImage/app-builder.png",
-    path: "/app-builder-solutions",
+    navIcons: "Images/navbar/industriesImage/app-builder.png",
+    path: "app-builder-solutions",
   },
   {
     dropContent: "AI Content App Solutions",
-    navIcons: "/Images/navbar/industriesImage/ai-ont.png",
-    path: "/Ai-content",
+    navIcons: "Images/navbar/industriesImage/ai-ont.png",
+    path: "Ai-content",
   },
   {
     dropContent: "OTT App Solutions",
-    navIcons: "/Images/navbar/industriesImage/ott.png",
-    path: "/ott",
+    navIcons: "Images/navbar/industriesImage/ott.png",
+    path: "ott",
   },
 ];
 

@@ -20,10 +20,8 @@ import Head from "next/head";
 const index = () => {
   return (
     <div>
-
-    
-    <Head>
-     <title>Data Science Services | Bottom Funnel</title>
+      <Head>
+        <title>Data Science Services | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you interested in working 
@@ -33,29 +31,25 @@ const index = () => {
              started!"
         />
       </Head>
-        <main>
-      
-          <AiContentBanner />
-      {/*   <AiContentHuman /> 
+      <main>
+      {/* <Navbar /> */}
+        <AiContentBanner />
+        {/*   <AiContentHuman /> 
        <AiHowDoesWorks />
          <AIContentApplication />*/}
-         <AiContentTextOnly /> 
+        <AiContentTextOnly />
 
-      {/* Other react required components   */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />   */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
-
-
+        {/* Other react required components   */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />   */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
-
     </div>
   );
 };

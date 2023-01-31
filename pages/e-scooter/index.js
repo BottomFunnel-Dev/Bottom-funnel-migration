@@ -22,7 +22,6 @@ import Head from "next/head";
 export default function Escooter() {
   return (
     <div>
-
       <Head>
         <title>Escooter Web App development | Bottom Funnel</title>
         <meta
@@ -34,12 +33,12 @@ export default function Escooter() {
         />
       </Head>
 
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

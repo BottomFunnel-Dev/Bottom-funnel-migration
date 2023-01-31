@@ -16,47 +16,47 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AboutUS() {
   return (
     <div className={styles.AboutUSmain}>
-      {/*  <Helmet>
-        <title>About us | Bottom Funnel</title>
+      <Head>
+        <title> About Us | Bottom Funnel </title>
         <meta
           name="description"
-          content="Welcome to Bottom Funnel, the world's leading app development company
-          for fintech and startup companies. We pride ourselves on delivering
-          unparalleled value to our partners, through our experience and
-          expertise in the field."
+          content="Bottom funnels help you stay connected and informed about what's going on around you, so that everything
+         falls into place effortlessly. Bottom funnels are also perfect for organizing yourself & your workspace! Don't miss out
+          on this amazing organizational tool!"
         />
-      </Helmet>
-  */}
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <AboutusBanner />
+        <OurProcess />
+        <OurAchievements />
+        <WorkLifeBalance />
+        <OurBlogs />
 
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <AboutusBanner />
-      <OurProcess />
-      <OurAchievements />
-      <WorkLifeBalance />
-      <OurBlogs />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </div>
   );
 }

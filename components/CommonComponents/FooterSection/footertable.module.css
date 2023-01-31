@@ -15,24 +15,41 @@
   font-weight: 700;
   font-size: 18px;
 } */
-.innerTable  p {
+.innerTable p {
   margin: 0;
   font-size: 14px;
   color: white;
 }
+
 .innerTable > p:hover {
   color: #ef4c23;
   cursor: pointer;
 }
 
-.link_css{
-  color: red ;
+.link_css {
+  color: red;
   font-size: 18px !important;
   font-weight: 600;
   margin-bottom: 10px !important;
-
 }
 
+.link_css:hover {
+  color: #ef4c23;
+  cursor: pointer;
+}
+
+.link_inner_css {
+  color: red;
+  font-size: 14px !important;
+  font-weight: 400;
+  margin-top: 0%;
+  margin-bottom: 3px !important;
+}
+
+.link_inner_css:hover {
+  color: #ef4c23;
+  cursor: pointer;
+}
 
 @media screen and (max-width: 480px) {
   .footerTable {
@@ -47,7 +64,5 @@
   .innerTable {
     width: 47%;
     box-sizing: border-box;
-   
   }
-
 }

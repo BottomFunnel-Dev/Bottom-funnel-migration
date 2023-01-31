@@ -37,7 +37,7 @@ export default function Education() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

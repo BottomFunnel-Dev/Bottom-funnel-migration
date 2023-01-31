@@ -3,7 +3,7 @@ import Navbar from "../../Navbar/Navbar";
 import styles from "./SkillsComBanner.module.css";
 
 export const SkillsComBanner = ({ data }) => {
-  const { image, title, description, icon } = data;
+  const { image, title, description, icon, points } = data;
 
   return (
     <>
@@ -26,8 +26,15 @@ export const SkillsComBanner = ({ data }) => {
         }}
       >
         <div className={styles.skillsbannercontent}>
-          <h1>{title}</h1>
+          <h1>
+            {title[0]} <span>{title[1]}</span> {title[2]}
+          </h1>
           <p>{description}</p>
+          <ul>
+            {points.map((elem) => (
+              <li key={elem}>{elem}</li>
+            ))}
+          </ul>
           <button>Get Started</button>
         </div>
         <img src={icon} alt={icon} />

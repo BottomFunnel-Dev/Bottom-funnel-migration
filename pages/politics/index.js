@@ -38,7 +38,7 @@ export default function Politics() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

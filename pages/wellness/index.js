@@ -37,31 +37,31 @@ export default function Wellness() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <Wellnesscontainer />
-      <WellnessPatient customerData={wellnessPatient} />
-      <WellnessDoctor customerData={wellnessDoctor} />
-      <WellnessAdmin customerData={wellnessAdmin} />
-      <Wellnesshealthcare />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <Wellnesscontainer />
+        <WellnessPatient customerData={wellnessPatient} />
+        <WellnessDoctor customerData={wellnessDoctor} />
+        <WellnessAdmin customerData={wellnessAdmin} />
+        <Wellnesshealthcare />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
