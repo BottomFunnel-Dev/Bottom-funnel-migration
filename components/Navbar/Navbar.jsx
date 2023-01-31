@@ -210,7 +210,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 onMouseEnter={productHoverIn}
                 onMouseLeave={productHoverOut}
-                onClick={() => router.push("/Products")}
+                onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRODUCTS

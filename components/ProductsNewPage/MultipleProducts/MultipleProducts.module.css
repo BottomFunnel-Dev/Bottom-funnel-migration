@@ -141,7 +141,7 @@
   width: 25%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
-  height: 200px;
+  height: 100px;
   margin: 20px 25px;
   padding: 40px;
 }
@@ -163,18 +163,18 @@
 
 /* ------------------------Hovering Effect of Boxes----------------------------- */
 
-.funnelDesk:hover{
+.funnelDesk:hover {
   background-color: #d6ffe8;
 }
-.team:hover{
+.team:hover {
   background-color: #ffaf9a;
 }
-.market:hover{
+.market:hover {
   background-color: #ffcf9c;
 }
-.service:hover{
+.service:hover {
   background-color: #e1e1e1;
 }
-.chat:hover{
+.chat:hover {
   background-color: #a1ffca;
 }

@@ -26,7 +26,7 @@ export default function Products() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
