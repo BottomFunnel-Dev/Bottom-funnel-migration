@@ -5,11 +5,14 @@
     width: 99.6%;
     border: 1px solid white;
     /* margin-top: 120px; */
-    background-image: url("/Images/Kotlin/Kotlin_Icon 4.png");
+    /* background-image: url("/Images/Kotlin/Kotlin_Icon 4.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-around;
   }
+  
   
   .kotlinbannermainboxinnertextdiv {
     /* height: 50%; */

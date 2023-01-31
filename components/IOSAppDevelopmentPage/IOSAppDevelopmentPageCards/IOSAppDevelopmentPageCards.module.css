@@ -57,7 +57,7 @@ width: 60%;
   flex-direction: column;
   display: flex;
   width: 94%;
-  height: 110vh;
+  height: fit-content;
   margin-left: 3%;
   background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.png");
   padding-top: 5%;
@@ -120,7 +120,7 @@ width: 60%;
   display: flex;
   flex-direction: row;
   /* border: 2px solid green; */
-  height: 90vh;
+  height: fit-content;
   padding-top: 7%;
   background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.png");
   

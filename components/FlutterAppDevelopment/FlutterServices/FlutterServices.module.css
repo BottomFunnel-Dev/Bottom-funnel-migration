@@ -9,22 +9,26 @@
   width: 90%;
   margin-left: 3%;
   font-weight: 500;
-  margin-top: 4%;
+  margin-top: 2%;
   /* border: 2px solid red; */
 }
 .flutterServicesDescription {
   color: black;
-  font-size: 25px;
+  font-size: 16px;
+  margin-top: 0%;
   /* border: 2px solid red; */
-  margin-top: 3%;
+  /* margin-top: 3%; */
   margin-left: 3%;
   width: 80%;
+}
+.flutterServicesDescription p {
+margin: 0%;
 }
 .flutterServicesContainerDiv {
   /* border: 2px solid black; */
   width: 80%;
   margin: auto;
-  margin-top: 4%;
+  /* margin-top: 4%; */
   border-radius: 5px;
   background-color: #f9f9f9;
 }
@@ -58,7 +62,7 @@
 }
 
 .flutterServiceBoxIcon {
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   width: 30%;
   padding-left: 6px;
   border-radius: 5px;
@@ -69,12 +73,123 @@
 .flutterServiceBoxHeading {
   /* border: 2px solid red; */
   width: 100%;
-  margin-top: 3%;
+  /* height: 40px; */
+  /* margin-top: 3%; */
   font-weight: 500;
+}
+.flutterServiceBoxHeading h6{
+  margin: 0%;
+  font-size: 23px;
 }
 .flutterServiceBoxContent {
   /* border: 2px solid red; */
-  width: 100%;
-  margin-top: 3%;
+  /* width: 100%; */
+  padding: 5px 5px 5px 5px;
+  /* margin-top: 3%; */
   font-size: 13px;
 }
+.flutterServiceBoxContent p{
+  font-size: 16px;
+  text-align: justify;
+
+}
+@media only screen and (min-width:0px) and (max-width:1024px){
+  .flutterServicesMainDiv {
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  .flutterServicesheading {
+    color: black;
+    width: 95%;
+   margin: auto;
+    font-weight: 500;
+    
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .flutterServicesDescription {
+    color: black;
+    font-size: 16px;
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 95%;
+    text-align: justify;
+  }
+  .flutterServicesDescription p {
+  margin: 0%;
+  }
+  .flutterServicesContainerDiv {
+    /* border: 2px solid black; */
+    width: 100%;
+    margin: auto;
+    /* margin-top: 4%; */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .flutterServiceBox {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+  .flutterServicesContainerBoxes {
+    width: 70%;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flutterServicesContainerBoxes:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    /* transform: translateY(-15px); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .flutterServiceBoxIcon {
+    /* border: 1px solid lightgray; */
+    width: 30%;
+    padding-left: 6px;
+    border-radius: 5px;
+    margin-top: 2%;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .flutterServiceBoxHeading {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 40px; */
+    /* margin-top: 3%; */
+    font-weight: 500;
+  }
+  .flutterServiceBoxHeading h6{
+    margin: 0%;
+    font-size: 23px;
+  }
+  .flutterServiceBoxContent {
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    padding: 5px 5px 5px 5px;
+    /* margin-top: 3%; */
+    font-size: 13px;
+  }
+  .flutterServiceBoxContent p{
+    font-size: 16px;
+    text-align: justify;
+  
+  }
+}
+
+

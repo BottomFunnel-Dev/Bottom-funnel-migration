@@ -35,13 +35,14 @@ export default function FlutterAppDevelopment() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <FlutterAppDevelopmentBanner />
       <FlutterServices />
       <WhyFlutter />
+      
       <FlutterCrossPlatform />
       <FlutterAppDevelopmentDreamProject />
       <FluterDevelopmentExpertise />

@@ -3,26 +3,34 @@
     width: 99.7%;
     border: 1px solid white;
     /* margin-top: 120px; */
-    background-image: url("/Images/Xamarin/Group 340009.png");
+    background-image: url("/Images/Xamarin/Xamarian.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .xamrinIcon{
+    /* border: 2px solid yellow; */
+    margin-top: 2%;
   }
   
   .XamarinAppDevbannermainboxinnertextdiv {
     /* height: 50%; */
-    width: 37%;
+    width: 40%;
     margin-top: 20%;
-    margin-left: 3%;
+    /* margin-left: 3%; */
     text-align: left;
     /* border: 2px solid red; */
   }
   
   .XamarinAppDevbannermainboxinnertextdiv > h1 {
     color: white;
+    font-size: 40px;
   }
   .XamarinAppDevbannermainboxinnertextdiv > p {
     color: white;
+    font-size: 18px;
   }
   
   .XamarinAppDevbannerbutton {

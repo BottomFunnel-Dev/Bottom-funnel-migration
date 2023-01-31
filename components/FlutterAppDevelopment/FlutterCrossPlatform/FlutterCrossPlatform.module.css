@@ -69,3 +69,81 @@
   width: 95%;
   margin: auto;
 }
+
+@media only screen and (min-width:0px) and (max-width:1024px){
+  .flutterCrossPlatformMainDiv {
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 2%;
+  }
+  .flutterCrossPlatformHeading {
+    /* border: 2px solid red; */
+    width: 95%;
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    
+  }
+  .flutterCrossPlatformtext {
+    width: 95%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 2%;
+  }
+  .flutterCrossPlatformCardBoxDiv {
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+  .flutterCrossPlatformCardBox {
+    width: 100%;
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+  }
+  .flutterCrossPlatformCardBox1 {
+    width: 100%;
+    /* border: 2px solid gold; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+  .flutterCrossPlatformDataBoxes {
+    /* border: 2px solid red; */
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2%;
+    /* margin-left: 3%; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .flutterCrossPlatformDataBoxes:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .flutterCrossPlatformDataIcon {
+    /* border: 2px solid red; */
+    margin: auto;
+    padding: 2%;
+    object-fit: cover;
+    background-size: cover;
+  }
+  .flutterCrossPlatformDataContent {
+    /* border: 2px solid red; */
+    width: 95%;
+    margin: auto;
+  }
+}

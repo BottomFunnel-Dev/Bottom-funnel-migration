@@ -2,11 +2,18 @@
   height: 100vh;
   width: 100%;
   border: 1px solid transparent;
-  background-image: url("/Images/iosappdevelopmentphotos/banner.png");
+  background-image: url("/Images/iosappdevelopmentphotos/ios.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: space-around;
   
+}
+.IOSandroidIcon{
+  /* border: 2px solid yellow; */
+  width: 40%;
+  /* background: #6568e1; */
 }
 
 .IOSAppDevelopmentbannermainboxinnertextdiv {
@@ -29,7 +36,7 @@
 }
 .IOSAppDevelopmentbannermainboxinnertextdiv > p {
   color: white;
-  margin-top: 7%;
+  /* margin-top: 7%; */
   font-size: 18px;
   /* font-weight: 500; */
 }

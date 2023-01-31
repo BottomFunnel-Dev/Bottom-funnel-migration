@@ -1,7 +1,17 @@
 import React from 'react'
 import styles from './ReactNativeAppDevelopmentBanner.module.css';
+import * as reactAnimation from "../../../public/Animation/React json file.json";
+import Lottie from "react-lottie";
 
 export const ReactNativeAppDevelopmentBanner = () => {
+   const lottieDefaultOptions = {
+    loop: true,
+    autoplay: false,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
   return (
     <div>
       <div className={styles.ReactNativeAppDevelopmentbannermainbox}>
@@ -12,6 +22,9 @@ export const ReactNativeAppDevelopmentBanner = () => {
           <button className={styles.ReactNativeAppDevelopmentbannerbutton}>Get Started</button>
         </div>
       </div>
+       <div className={styles.reactIcon}>
+        <Lottie options={lottieDefaultOptions} width={500} height={700} />
+        </div>
     </div>
   )
 }

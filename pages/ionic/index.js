@@ -39,8 +39,8 @@ export default function IonicAppDevelopment() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <IonicAppBanner />
