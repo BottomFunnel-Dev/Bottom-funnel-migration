@@ -7,10 +7,17 @@ export const nodejsData = {
     "When it comes to node.js web development, there is no-one better than Bottom Funnel node.js developers, who develop robust applications and websites that will meet your exact needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/nodejsphotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Node.js Development Services",
-    description: `Brand your new app with BottomFunnel's NodeJS development services and clients will be flocking in like moths to a flame! Our team has years of experience working with the platform, so we'll be able to help you quickly build out your application while maintaining a high level of quality throughout the process.`,
+    title: ["Hire", "Node.js", "developer"],
+    description: `Hire dedicated Node.js developers at a risk-free 14 days trails to build a high-performing product.`,
   },
   isDes: true,
   desData: {
@@ -149,10 +156,16 @@ export const phpData = {
     "Bottom funnel's php web development services are the best way to start your website development journey. Get in touch with the best php developers in the market to develop robust applications and websites that look great. ",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+    ],
     icon: "/Images/skillsPhotos/phpskillsphotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "PHP Development Services",
-    description: `It's important that you get your web presence maintained with a reliable team who can provide you with the best possible services.`,
+    title: ["Hire", "PHP", "developer"],
+    description: `Hire dedicated PhP developers at a risk-free 14 days trial to build enterprise- grade software.`,
   },
   isDes: true,
   desData: {
@@ -294,11 +307,18 @@ export const DotnetData = {
     "Bottom Funnel gets you the best .NET developers in the market who can develop robust applications and websites using the latest technologies like ASP.net and VB.net on an hourly, part-time and full-time contract basis.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/dotnetphotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ".NET Development Services",
+    title: ["Hire", ".NET", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Hire dedicated .Net developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -446,11 +466,18 @@ export const laravelData = {
     "Bottom Funnel is a globally dominant company having highly experienced Laravel developers. Our Laravel development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/larvelskillsphotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Laravel Development Services",
+    title: ["Hire", "Laravel", "developer"],
     description:
-      "Let our Laravel developers build an expressive and elegant Laravel web application for you.",
+      "Hire dedicated Laravel developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -584,6 +611,289 @@ export const laravelData = {
   },
 };
 
+export const springBootData = {
+  title:
+    "Best springboot developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
+    icon: "/Images/skillsPhotos/springbootSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: ["Hire", "Springboot", "developer"],
+    description:
+      "Delivering on your business vision with quality springboot java development.",
+  },
+  isDes: true,
+  desData: {
+    title: "SpringBoot",
+    image: "/Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
+    description: `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY SPRINGBOOT FOR APPLICATION DEVELOPMENT",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
+          alt: "springbootSkillsPhotos/easy-development.webp",
+        },
+        title: "Easy Development",
+
+        description: `Spring Boot is a remarkably powerful framework that simplifies the development of web-based applications. One of its most anticipated features is implicit dependency management, which allows you to add external libraries and classes without having to manually add them to the application classpath.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
+          alt: "springbootSkillsPhotos/war-files.webp",
+        },
+        title: "No war files develoyment",
+        description: `Spring Boot is the most preferred option. Its lightweight structure makes it easier to understand and use while its dependency injection feature helps in promoting code-reuse and higher level of abstraction. BottomFunnel is here with an easy solution for this problem by explaining how JAR files are different from WAR files.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
+          alt: "springbootSkillsPhotos/xml-logo.webp",
+        },
+        title: "No XML configuration",
+        description: `Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
+          alt: "springbootSkillsPhotos/stand-application.webp",
+        },
+        title: "Standalone Applications",
+        description: `SaaS projects rely on automation to save time and resources, but not everyone has the expertise or background to write code. That's why we've made it easy for project developers to use annotations or XML configurations. BottomFunnel gives you the best of both worlds--the convenience of using annotations without sacrificing control over your project.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
+          alt: "springbootSkillsPhotos/simple-setup.webp",
+        },
+        title: "Simple setup and management",
+        description: `Spring Boot apps are secure by default because they use basic HTTP authentication and HTTPS transport to protect your data from unauthorized access. Plus, the rich set of endpoints available will let you develop a secure Spring Boot application in no time.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
+          alt: "springbootSkillsPhotos/easy-start.webp",
+        },
+        title: "Easy to start",
+        description: `Spring boot is one of the best ways to get started with a new web project. By using Spring Boot, you can take advantage of the many benefits offered by this framework, such as auto-configuration and code sharing. The starter pack helps you quickly assemble everything you need so that your website can be up and running in no time at all.`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Springboot",
+    image: "/Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive springboot solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our springboot developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "Benefits Of Using sprintboot for Application Development",
+    description:
+      "There are many reasons why developers choose Spring Boot to build microservices for mobile and web applications. The following list summarizes some of the key benefits that come with migrating to Spring Boot.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          alt: "springbootSkillsPhotos/java.webp",
+        },
+        title: "Java Developer",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
+          alt: "springbootSkillsPhotos/software-application.webp",
+        },
+        title: "Application Developer",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
+          alt: "springbootSkillsPhotos/cpu.webp",
+        },
+        title: "Software Engineer",
+      },
+    ],
+  },
+};
+
+export const hiberateData = {
+  title: "Best hibernate developers in the market | Bottom Funnel",
+  description:
+    "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
+  isBanner: true,
+  BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
+    icon: "/Images/skillsPhotos/hibernateSkillsPhotos/icon.webp",
+    image: "/Images/skillsPhotos/banner.webp",
+    title: ["Hire", "Hibernate", "developer"],
+    description:
+      "Hire dedicated Hibernate developers at a risk-free 14 days trial to build enterprise-grade software.",
+  },
+  isDes: true,
+  desData: {
+    title: "Hibernate",
+    image: "/Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
+    description: `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
+      Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
+  },
+  isWhyApp: true,
+  WhyAppData: {
+    title: "WHY HIBERNATE FOR APPLICATION DEVELOPMNET",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
+          alt: "hibernateSkillsPhotos/open-source.webp",
+        },
+        title: "Open source and Lightweight",
+
+        description: `With Hibernate Query Language (HQL) and Criteria Queries as the primary tools for querying your data, you can write SQL-like queries against your database objects. Or if you're an object-oriented developer, then you can use BottomFunnel's own Object Query language (OQL) which is inspired by SQL!`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
+          alt: "hibernateSkillsPhotos/fast-performance.webp",
+        },
+        title: "Fast Performance",
+        description: `Hibernate has always been known for its performance but this release takes it to another level by making use of leading-edge improvements in memory management and caching. You'll notice a dramatic improvement in application performance as well as reduced resource usage – all without incurring any extra development complexity or maintenance cost."`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
+          alt: "hibernateSkillsPhotos/Frame-5.webp",
+        },
+        title: "Database Independent Query",
+        description: `With Hibernate, we don't have to write database-specific queries anymore. Before Hibernate, if the database is changed for the project, we need to change the SQL query as well which leads to the maintenance problem. BottomFunnel gives us convenient and uniform way to generate database independent queries which makes our life easier `,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
+          alt: "hibernateSkillsPhotos/automatic-table.webp",
+        },
+        title: "Automatic Table Creation",
+        description: `Creating tables in database can be a tedious task, especially when you have to do it every time you start working with a new database. With Hibernate Framework, this task becomes extremely easy and convenient. The framework provides the facility to create the tables of your database automatically, saving on valuable time.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
+          alt: "hibernateSkillsPhotos/simplifies.webp",
+        },
+        title: "Simplifies Complex Join",
+        description: `Hibernate framework support Auto DDL operations so you can create tables with ease and get started with your data-driven business savvy today. Add in our simple yet powerful database management system, and you've got everything you need to manage your database confidently.`,
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
+          alt: "hibernateSkillsPhotos/query-static.webp",
+        },
+        title: "Provides Query Statistics",
+        description: `Data consistency is important in any application, and Hibernate makes sure your data stays up-to-date by mapping changes to the database automatically. Best of all, all of this happens behind the scenes so you don't have to worry about it at all. You'll be able to focus on what matters most - building your app!`,
+      },
+    ],
+  },
+  isWhyBF: true,
+  WhyBFData: {
+    title: "Why Bottom Funnel For Hibernate",
+    image: "/Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
+    bulletPointData: [
+      "We use an agile approach.",
+      "Provides integrity and transparency.",
+      "Commitments with NDA agreements.",
+      "Flexible engagement models.",
+      "Experienced and talented team of developers.",
+      "Offers variety of exclusive hibernate solutions.",
+    ],
+  },
+  isBookCall: true,
+  BookCallData: {
+    title: "Need our hibernate developers to build your application?",
+    btn: "Book a call now",
+    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
+  },
+  isRemarkable: true,
+  RemarkableData: {
+    title: "Benefits of using hibernate web development",
+    description:
+      "Hibernate saves lines of code by managing the object table mapping itself and returning the results to your application in the form of Java objects. This eliminates the need for programmers to manually handle persistent data, reducing development time and maintenance costs.",
+    cardsData: [
+      {
+        img: {
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
+          alt: "vuejsSkillsPhotos/speedometer.webp",
+        },
+        title: "High performance",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
+          alt: "springbootSkillsPhotos/java.webp",
+        },
+        title: "Java Developer",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
+          alt: "vuejsSkillsPhotos/easy.webp",
+        },
+        title: "Simplicity",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
+          alt: "angularjsSkillsPhotos/open-source.webp",
+        },
+        title: "Open-source",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
+          alt: "hibernateSkillsPhotos/database.webp",
+        },
+        title: "Database Independent",
+      },
+      {
+        img: {
+          src: "/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
+          alt: "angularjsSkillsPhotos/complex-handling.webp",
+        },
+        title: "Easy complex component handling",
+      },
+    ],
+  },
+};
+
 export const djangoData = {
   title:
     "Best django developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
@@ -591,10 +901,17 @@ export const djangoData = {
     "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/djangoPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Django Development Services",
-    description: `Want to build a web application quickly, cost-efficiently, and with less code? Our Django web development services can help!`,
+    title: ["Hire", "Django", "developer"],
+    description: `Hire dedicated Django developers at a risk-free 14 days trial to build enterprise-grade software.`,
   },
   isDes: true,
   desData: {
@@ -735,11 +1052,18 @@ export const cakePHPData = {
     "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Montly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/cakephpPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Cakephp Development Services",
+    title: ["Hire", "cakePhp", "developer"],
     description:
-      "Trust us when we say that CakePHP will be your perfect partner as you bring your vision to life!",
+      "Hire dedicated CakePhp developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -880,11 +1204,18 @@ export const codeigniterData = {
     "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/codeigniterPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "CodeIgniter Development Services",
+    title: ["Hire", "Codeigniter", "developer"],
     description:
-      "Delivering on your business vision with quality codeigniter web development.",
+      "Hire dedicated Codeigniter developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -1025,286 +1356,24 @@ export const codeigniterData = {
   },
 };
 
-export const springBootData = {
-  title:
-    "Best springboot developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/springbootSkillsPhotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "SpringBoot Development Services",
-    description:
-      "Delivering on your business vision with quality springboot java development.",
-  },
-  isDes: true,
-  desData: {
-    title: "SpringBoot",
-    image: "/Images/skillsPhotos/springbootSkillsPhotos/springboot-logo.webp",
-    description: `Planning to build a new project in the spring framework? Or you have an existing application and would like to upgrade it to be more robust and scalable? Then, this is the right time! Spring Boot is gaining popularity day by day. This framework helps developers develop stand-alone, production-grade micro services without requiring an entire Spring configuration setup. In today's world of huge apps, where everyone wants their own department to work independently but still share data seamlessly without any glitches, that's not just a dream anymore but reality now!`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY SPRINGBOOT FOR APPLICATION DEVELOPMENT",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-development.webp",
-          alt: "springbootSkillsPhotos/easy-development.webp",
-        },
-        title: "Easy Development",
-
-        description: `Spring Boot is a remarkably powerful framework that simplifies the development of web-based applications. One of its most anticipated features is implicit dependency management, which allows you to add external libraries and classes without having to manually add them to the application classpath.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/war-files.webp",
-          alt: "springbootSkillsPhotos/war-files.webp",
-        },
-        title: "No war files develoyment",
-        description: `Spring Boot is the most preferred option. Its lightweight structure makes it easier to understand and use while its dependency injection feature helps in promoting code-reuse and higher level of abstraction. BottomFunnel is here with an easy solution for this problem by explaining how JAR files are different from WAR files.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/xml-logo.webp",
-          alt: "springbootSkillsPhotos/xml-logo.webp",
-        },
-        title: "No XML configuration",
-        description: `Spring project developers can choose to use annotations or XML configurations. The option to avoid XML configurations appeals to a lot of software engineers who don't want to go through the extra steps required.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/stand-application.webp",
-          alt: "springbootSkillsPhotos/stand-application.webp",
-        },
-        title: "Standalone Applications",
-        description: `SaaS projects rely on automation to save time and resources, but not everyone has the expertise or background to write code. That's why we've made it easy for project developers to use annotations or XML configurations. BottomFunnel gives you the best of both worlds--the convenience of using annotations without sacrificing control over your project.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/simple-setup.webp",
-          alt: "springbootSkillsPhotos/simple-setup.webp",
-        },
-        title: "Simple setup and management",
-        description: `Spring Boot apps are secure by default because they use basic HTTP authentication and HTTPS transport to protect your data from unauthorized access. Plus, the rich set of endpoints available will let you develop a secure Spring Boot application in no time.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/easy-start.webp",
-          alt: "springbootSkillsPhotos/easy-start.webp",
-        },
-        title: "Easy to start",
-        description: `Spring boot is one of the best ways to get started with a new web project. By using Spring Boot, you can take advantage of the many benefits offered by this framework, such as auto-configuration and code sharing. The starter pack helps you quickly assemble everything you need so that your website can be up and running in no time at all.`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Springboot",
-    image: "/Images/skillsPhotos/springbootSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive springboot solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our springboot developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "Benefits Of Using sprintboot for Application Development",
-    description:
-      "There are many reasons why developers choose Spring Boot to build microservices for mobile and web applications. The following list summarizes some of the key benefits that come with migrating to Spring Boot.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
-          alt: "springbootSkillsPhotos/java.webp",
-        },
-        title: "Java Developer",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/software-application.webp",
-          alt: "springbootSkillsPhotos/software-application.webp",
-        },
-        title: "Application Developer",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/cpu.webp",
-          alt: "springbootSkillsPhotos/cpu.webp",
-        },
-        title: "Software Engineer",
-      },
-    ],
-  },
-};
-
-export const hiberateData = {
-  title: "Best hibernate developers in the market | Bottom Funnel",
-  description:
-    "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
-  isBanner: true,
-  BannerData: {
-    icon: "/Images/skillsPhotos/hibernateSkillsPhotos/icon.webp",
-    image: "/Images/skillsPhotos/banner.webp",
-    title: "Hibernate Development Services",
-    description:
-      "Delivering on your business vision with quality hibernate java development.",
-  },
-  isDes: true,
-  desData: {
-    title: "Hibernate",
-    image: "/Images/skillsPhotos/hibernateSkillsPhotos/hiberate-logo.webp",
-    description: `Hibernate is the perfect tool for developers who want a lightweight, open-source solution to manage their Java data. It implements the specifications of JPA (Java Persistence API) for data persistence, so you can rely on it to take care of your database requirements.
-      Start working with Hibernate today and enjoy the benefits of its simple, flexible approach to database interaction.`,
-  },
-  isWhyApp: true,
-  WhyAppData: {
-    title: "WHY HIBERNATE FOR APPLICATION DEVELOPMNET",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/open-source.webp",
-          alt: "hibernateSkillsPhotos/open-source.webp",
-        },
-        title: "Open source and Lightweight",
-
-        description: `With Hibernate Query Language (HQL) and Criteria Queries as the primary tools for querying your data, you can write SQL-like queries against your database objects. Or if you're an object-oriented developer, then you can use BottomFunnel's own Object Query language (OQL) which is inspired by SQL!`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/fast-performance.webp",
-          alt: "hibernateSkillsPhotos/fast-performance.webp",
-        },
-        title: "Fast Performance",
-        description: `Hibernate has always been known for its performance but this release takes it to another level by making use of leading-edge improvements in memory management and caching. You'll notice a dramatic improvement in application performance as well as reduced resource usage – all without incurring any extra development complexity or maintenance cost."`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/Frame-5.webp",
-          alt: "hibernateSkillsPhotos/Frame-5.webp",
-        },
-        title: "Database Independent Query",
-        description: `With Hibernate, we don't have to write database-specific queries anymore. Before Hibernate, if the database is changed for the project, we need to change the SQL query as well which leads to the maintenance problem. BottomFunnel gives us convenient and uniform way to generate database independent queries which makes our life easier `,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/automatic-table.webp",
-          alt: "hibernateSkillsPhotos/automatic-table.webp",
-        },
-        title: "Automatic Table Creation",
-        description: `Creating tables in database can be a tedious task, especially when you have to do it every time you start working with a new database. With Hibernate Framework, this task becomes extremely easy and convenient. The framework provides the facility to create the tables of your database automatically, saving on valuable time.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/simplifies.webp",
-          alt: "hibernateSkillsPhotos/simplifies.webp",
-        },
-        title: "Simplifies Complex Join",
-        description: `Hibernate framework support Auto DDL operations so you can create tables with ease and get started with your data-driven business savvy today. Add in our simple yet powerful database management system, and you've got everything you need to manage your database confidently.`,
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/query-static.webp",
-          alt: "hibernateSkillsPhotos/query-static.webp",
-        },
-        title: "Provides Query Statistics",
-        description: `Data consistency is important in any application, and Hibernate makes sure your data stays up-to-date by mapping changes to the database automatically. Best of all, all of this happens behind the scenes so you don't have to worry about it at all. You'll be able to focus on what matters most - building your app!`,
-      },
-    ],
-  },
-  isWhyBF: true,
-  WhyBFData: {
-    title: "Why Bottom Funnel For Hibernate",
-    image: "/Images/skillsPhotos/hibernateSkillsPhotos/big-left-image.webp",
-    bulletPointData: [
-      "We use an agile approach.",
-      "Provides integrity and transparency.",
-      "Commitments with NDA agreements.",
-      "Flexible engagement models.",
-      "Experienced and talented team of developers.",
-      "Offers variety of exclusive hibernate solutions.",
-    ],
-  },
-  isBookCall: true,
-  BookCallData: {
-    title: "Need our hibernate developers to build your application?",
-    btn: "Book a call now",
-    image: "/Images/skillsPhotos/nodejsphotos/mid-banner.webp",
-  },
-  isRemarkable: true,
-  RemarkableData: {
-    title: "Benefits of using hibernate web development",
-    description:
-      "Hibernate saves lines of code by managing the object table mapping itself and returning the results to your application in the form of Java objects. This eliminates the need for programmers to manually handle persistent data, reducing development time and maintenance costs.",
-    cardsData: [
-      {
-        img: {
-          src: "/Images/skillsPhotos/vuejsSkillsPhotos/speedometer.webp",
-          alt: "vuejsSkillsPhotos/speedometer.webp",
-        },
-        title: "High performance",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/springbootSkillsPhotos/java.webp",
-          alt: "springbootSkillsPhotos/java.webp",
-        },
-        title: "Java Developer",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/vuejsSkillsPhotos/easy.webp",
-          alt: "vuejsSkillsPhotos/easy.webp",
-        },
-        title: "Simplicity",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/open-source.webp",
-          alt: "angularjsSkillsPhotos/open-source.webp",
-        },
-        title: "Open-source",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/hibernateSkillsPhotos/database.webp",
-          alt: "hibernateSkillsPhotos/database.webp",
-        },
-        title: "Database Independent",
-      },
-      {
-        img: {
-          src: "/Images/skillsPhotos/angularjsSkillsPhotos/complex-handling.webp",
-          alt: "angularjsSkillsPhotos/complex-handling.webp",
-        },
-        title: "Easy complex component handling",
-      },
-    ],
-  },
-};
-
 export const flaskData = {
   title: "Best flask developers in the market | Bottom Funnel",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/flaskSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Flask Development Services",
+    title: ["Hire", "Flask", "developer"],
     description:
-      "Delivering on your business vision with quality python development.",
+      "Hire dedicated Flask developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -1426,11 +1495,18 @@ export const golangData = {
   description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/golangSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Golang Development Services",
+    title: ["Hire", "Golang", "developer"],
     description:
-      "Delivering on your business vision with quality golang development.",
+      "Hire dedicated Golang developers at a risk-free 14 days trial to build a high-performing product.",
   },
   isDes: true,
   desData: {
@@ -1570,11 +1646,18 @@ export const strutsData = {
     "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/strutsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Struts Development Services",
+    title: ["Hire", "Struts", "developer"],
     description:
-      "Delivering on your business vision with quality struts development.",
+      "Hire dedicated Struts developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -1693,11 +1776,18 @@ export const symfonyData = {
     "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly/reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/symfonySkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Symfony Development Services",
+    title: ["Hire", "Symfony", "developer"],
     description:
-      "Delivering on your business vision with quality PHP web development.",
+      "Hire dedicated Symfony developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -1816,11 +1906,18 @@ export const phalconData = {
     "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile defvelopment process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/phalconSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Phalcon Development Services",
+    title: ["Hire", "Phalcon", "developer"],
     description:
-      "Delivering on your business vision with quality PHP web development.",
+      "Hire dedicated Phalcon developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -1942,11 +2039,18 @@ export const jsfData = {
     "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/jsfSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "JSF Development Services",
+    title: ["Hire", "JSF", "developer"],
     description:
-      "Delivering on your business vision with quality javascript development.",
+      "Hire dedicated JSF developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -2066,11 +2170,18 @@ export const grailsData = {
     "Bottom Funnel is a globally dominant company having highly experienced grails developers. Our grails development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/grailsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Grails Development Services",
+    title: ["Hire", "Grails", "developer"],
     description:
-      "Delivering on your business vision with quality grails development.",
+      "Hire dedicated Grails developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -2189,11 +2300,18 @@ export const yiiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/yiiSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "yii Framework Development Services",
+    title: ["Hire", "Yii", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Yii developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -2339,9 +2457,10 @@ export const zendData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/zendSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Zend Framework Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -2489,9 +2608,10 @@ export const gitData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/gitSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Git Backend Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -2639,9 +2759,10 @@ export const cherryData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/cherrypySkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Cherrypy Online Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -2789,9 +2910,10 @@ export const cubaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/cubaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Cuba framework Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -2939,9 +3061,10 @@ export const echoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/echoSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Echo Framework Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3089,9 +3212,10 @@ export const gorillaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/gorillaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Gorilla Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3239,9 +3363,10 @@ export const hanamiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/hanamiSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Hanami Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3389,9 +3514,10 @@ export const irisData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/irisSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Iris Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3539,9 +3665,10 @@ export const padrinoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/padrinoSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Padrino Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3689,9 +3816,10 @@ export const railsData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/railsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Rails Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3839,9 +3967,10 @@ export const revelData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/revelSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Revel Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -3989,9 +4118,10 @@ export const rodaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/rodaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Roda Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -4139,9 +4269,10 @@ export const sinatraData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/sinatraSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Sinatra Framework Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
@@ -4292,9 +4423,10 @@ export const reactjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/reactjsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "React.js Development services",
+    title: ["Hire", "Node.js", "developer"],
     description: `React.js development services that will take your app from concept to production in no time.`,
   },
   isDes: true,
@@ -4442,9 +4574,10 @@ export const angularjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/angularjsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Angularjs Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description: `Speed up your web application development with our top-notch angular.js development services.`,
   },
   isDes: true,
@@ -4590,9 +4723,10 @@ export const vuejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/vuejsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Vue.js Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description: "Trust the experts-hire vue.js developers today.",
   },
   isDes: true,
@@ -4740,9 +4874,10 @@ export const emberjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/emberjSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Emberjs Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality javascript development.",
   },
@@ -4891,9 +5026,10 @@ export const jqueryData = {
     "Bottom Funnel is a globally dominant company having highly experienced jquery developers. Our jquery development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/jquerySkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Jquery Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality jquery development.",
   },
@@ -5043,9 +5179,10 @@ export const nextjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced nextjs developers. Our nextjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/nextjsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Nextjs Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality nextjs web development.",
   },
@@ -5174,9 +5311,10 @@ export const backbonejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced backbonejs developers. Our backbonejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/backbonejsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Backbonejs Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality javascript development.",
   },
@@ -5305,9 +5443,10 @@ export const svelteData = {
     "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/svelteSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Svelte Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality svelte development.",
   },
@@ -5457,9 +5596,10 @@ export const semanticData = {
     "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/semanticphotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Semantic Ui Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Semantic UI web development.",
   },
@@ -5588,9 +5728,10 @@ export const mysqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/mysqlSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "MySQL Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -5718,9 +5859,10 @@ export const msSQLData = {
     "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/mssqlSKillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "MicrosoftSQL Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality backend development.",
   },
@@ -5848,9 +5990,10 @@ export const postgresqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/postgresqlSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "PostgreSQL Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Do you have a lot of data and need an easy way to manage it? | PostgreSQL is the perfect choice for you.",
   },
@@ -5979,9 +6122,10 @@ export const mongodbData = {
     "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/mongodbSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "MongoDB Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "MongoDB is a powerful database that's a favorite among developers. This flexible schema approach makes it popular with teams using agile methodologies.",
   },
@@ -6110,9 +6254,10 @@ export const redisData = {
     "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/redisSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Redis Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -6240,9 +6385,10 @@ export const ibmData = {
     "Bottom Funnel is a globally dominant company having highly experienced IBM db2 developers. Our IBM db2 development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/ibmSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "IBM db2 Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -6370,9 +6516,10 @@ export const elasticData = {
     "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/elasticSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Elasticsearch Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -6521,9 +6668,10 @@ export const sqliteData = {
     "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/sqliteSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "SQLite Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -6651,9 +6799,10 @@ export const cassandraData = {
     "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/cassandraSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Cassandra Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -6783,9 +6932,10 @@ export const wordpressData = {
     "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/wpSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Wordpress Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -6913,9 +7063,10 @@ export const hubspotData = {
     "Bottom Funnel is a globally dominant company having highly experienced hubspot developers. Our hubspot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/hubSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Hubspot CMS hub Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -7043,9 +7194,10 @@ export const joomlaData = {
     "Bottom Funnel is a globally dominant company having highly experienced joomla developers. Our joomla development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/joomlaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Joomla Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -7173,9 +7325,10 @@ export const wooecommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced woocommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/woocommerceSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Woocommerce Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -7303,9 +7456,10 @@ export const drupalData = {
     "Bottom Funnel is a globally dominant company having highly experienced drupal developers. Our drupal development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/drupalSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Drupal Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -7434,9 +7588,10 @@ export const wixData = {
     "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/wixSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Wix Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -7585,9 +7740,10 @@ export const bigcommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced big-commerce developers. Our big-commerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/bigcommerceSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Big commerce Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality .NET web development.",
   },
@@ -7736,9 +7892,10 @@ export const GhostData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/ghostPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Ghost Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality ghost website builder experts.",
   },
@@ -7866,9 +8023,10 @@ export const WeeblyData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
+    points: ["point 1", "point 2", "point 3"],
     icon: "/Images/skillsPhotos/weeblyPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: "Weebly Development Services",
+    title: ["Hire", "Node.js", "developer"],
     description:
       "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
   },
