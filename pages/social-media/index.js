@@ -31,32 +31,32 @@ export default function SocialMedia() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <SocialMediaBanner />
-      <SocialMediaSuggestion />
-      <SocialMediaApproch />
-      <SocialMediaSolution />
-      <SocialMediaAdminPannel />
-      <SocialMedialLowerBanner />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <SocialMediaBanner />
+        <SocialMediaSuggestion />
+        <SocialMediaApproch />
+        <SocialMediaSolution />
+        <SocialMediaAdminPannel />
+        <SocialMedialLowerBanner />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

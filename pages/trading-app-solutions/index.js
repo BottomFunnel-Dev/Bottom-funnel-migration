@@ -26,7 +26,8 @@ export default function TradingInvestingApp() {
         <title>Trending App Solution | Bottom Funnel</title>
         <meta
           name="description"
-          content="Are you looking for a trending app solution that will help you save time and money? Look no further, as our team has got you covered. Read on to learn more about our trending app solution and how it can benefit you."
+          content="Are you looking for a trending app solution that will help you save time and money? Look no further, as
+           our team has got you covered. Read on to learn more about our trending app solution and how it can benefit you."
         />
       </Head>
 

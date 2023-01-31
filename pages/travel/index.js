@@ -20,24 +20,24 @@ import Head from "next/head";
 
 export default function Travel() {
   return (
-    <div>      
-    <Head>
-      <title>Travel Web App development | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Are you looking for a travel web app development company that 
+    <div>
+      <Head>
+        <title>Travel Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a travel web app development company that 
         can help you develop a customised and safe travel web app? Look 
         no further than VinCard! We offer top-notch web app development 
         services that are tailor-made for the travel industry."
-      />
-   </Head>
+        />
+      </Head>
 
-  <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
