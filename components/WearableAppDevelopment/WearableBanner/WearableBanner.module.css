@@ -11,8 +11,8 @@
   width: 37%;
   /* border: 2px solid red; */
 
-  margin-top: 18%;
-  margin-left: 3%;
+  margin-top: 15%;
+  margin-left: 5%;
   /* padding-top: 10.5%; */
   /* text-align: center; */
 }
@@ -32,9 +32,12 @@
   /* margin-left: %; */
   /* font-weight: 600; */
 }
+.wearablebannermainboxinnertextdiv > h1 > span{
+  color: #ef4c23;
+}
 .wearablebannermainboxinnertextdiv > p {
   color: black;
-  margin-top: 7%;
+  /* margin-top: 7%; */
   font-size: 18px;
   /* font-weight: 500; */
 }
@@ -43,26 +46,26 @@
   padding: 10px 50px;
   border-radius: 10px;
   width: 220px;
-  background-color: #3380f2;
+  background-color: #ef4c23;
   border: none;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 18px;
   font-weight: 600;
   color: white;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   /* border: 2px solid green; */
 }
 
 .wearablebannerbutton:hover {
   background-color: white;
-  color: #3380f2;
+  color: #ef4c23;
 }
 .wearablebannermainboxImage img {
   width: 100%;
 }
 
-@media only screen and (min-width:0px) and (max-width:1020px){
+@media only screen and (min-width:0px) and (max-width:1024px){
   .wearablebannermainbox {
     height:fit-content ;
     width: 100%;
@@ -70,18 +73,20 @@
     display: flex;
     flex-direction: column-reverse;
     /* border: 2px solid yellow; */
+    margin-top: 50px;
   }
   
   .wearablebannermainboxinnertextdiv {
     height: 50%;
-    width: 100%;
+    width: 95%;
     justify-content: center;
     text-align: center;
+    margin: auto;
  
     align-items: center;
     /* border: 2px solid red; */
-  margin-left: 3%;
-    margin-top: 5%;
+  /* margin-left: 0%; */
+    /* margin-top: 1%; */
    
     /* padding-top: 10.5%; */
     /* text-align: center; */
@@ -98,7 +103,7 @@
   }
   .wearablebannermainboxinnertextdiv > h1 {
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     /* margin-left: %; */
     /* font-weight: 600; */
   }
@@ -114,7 +119,7 @@
     padding: 10px 50px;
     border-radius: 10px;
     width: 220px;
-    background-color: #3380f2;
+    background-color: #ef4c23;
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -127,7 +132,7 @@
   
   .wearablebannerbutton:hover {
     background-color: white;
-    color: #3380f2;
+    color: #ef4c23;
   }
   .wearablebannermainboxImage img {
     width: 100%;

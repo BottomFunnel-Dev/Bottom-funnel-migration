@@ -20,11 +20,18 @@ export const WearableContainer = () => {
       </div>
 
       <div className={styles.wearablegenerationdiv}>
+      
+        <div className={styles.wearablegenerationdivnext}>
         <h1> Next generation of wearable services for frontline, innovative business group</h1>
+        
         <p> simply put,our core strength lie in the simplicity  Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Veritatis id dolorum ea, molestiae ipsum impedit dignissimos beatae sit
           nam assumenda error tempora nesciunt incidunt ullam vero et illo praesentium mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nam, explicabo doloribus est reiciendis facilis consectetur voluptate assumenda impedit illo pariatur,
           quam sit corporis laboriosam adipisci. Fuga repellat nobis sed.</p>
+          </div>
+          <div className={styles.wearablegenerationdivimage}>
+          <img src="/Images/wearable/wearablegadget.png" alt="image" />
+        </div>
       </div>
       <div className={styles.wearableservice}>
         <h4> Service That We Offer</h4>

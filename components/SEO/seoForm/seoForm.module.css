@@ -30,7 +30,7 @@
   background: none !important;
 }
 ._Seotext {
-  /* border:1px solid white; */
+  /* border:1px solid pink; */
   width: 40%;
   color: black;
   box-sizing: border-box;
@@ -48,7 +48,7 @@
   font-size: 16px;
 }
 ._Seoheading {
-  /* border:1px solid white; */
+  border:1px solid white;
   margin-bottom: 10px;
   color: #605d5d;
   width: 100%;
@@ -67,7 +67,7 @@
   height: 100%;
 }
 ._Seoformcontent {
-  border: 1px solid white;
+  /* border: 1px solid red; */
   width: 450px;
   background-color: white;
   border-radius: 10px;
@@ -97,7 +97,7 @@
   font-size: 15px;
   border-radius: 4px;
 
-  margin-top: 10px;
+  margin-top: 20px;
   /* outline: #EF4C23; */
   padding: 7px 10px;
   width: 100%;
@@ -135,6 +135,7 @@
   transition: 0.2s linear;
 }
 ._Seochkpricing {
+  /* border: 2px solid yellow; */
   text-align: center;
   background-color: #ef4c23;
   border-radius: 25px;

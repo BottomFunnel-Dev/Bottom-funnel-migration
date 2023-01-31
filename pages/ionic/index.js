@@ -17,10 +17,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function IonicAppDevelopment() {
   return (
-    <div>
+    <>
+      <Head>
+     
+     
+      
+     <title>Best Ionic App Development Company India | Bottom Funnel</title>
+     <meta
+       name="description"
+       content="Looking for the best Ionic app development company in India? Hire BottomFunnel's ionic developer to build feature-rich, highly functional and customized ionic applications"
+     />
+   </Head>
+    
+    <main>
 <Navbar
         productMount={{
           navMount: false,
@@ -49,6 +62,7 @@ export default function IonicAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

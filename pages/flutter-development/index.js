@@ -16,10 +16,20 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function FlutterAppDevelopment() {
   return (
-    <div>
+
+    <>
+    <Head>
+    <title>Flutter Mobile App Development Company | Bottom Funnel, Cross Platform Application Development </title>
+     <meta
+       name="description"
+       content="services for all hybrid platforms with optimum quality standards. We develop mobile Apps using the latest technologies like a flutter, kotlin, designs, and frameworks by leveraging the experience or expertise of experts."
+     />
+   </Head>
+    <main>
 <Navbar
         productMount={{
           navMount: false,
@@ -46,6 +56,7 @@ export default function FlutterAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

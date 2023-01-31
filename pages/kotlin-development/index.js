@@ -17,17 +17,29 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function KotlinAppDevelopment() {
   return (
-    <div>
+    <>
+    <Head>
+      <title>Kotlin Mobile App Development, Cross Platform Application Development Company - Bottom Funnel</title>
+     <meta
+       name="description"
+       content="Our Bottom funnel team  Kotlin Mobile App Development, Company offers Cross 
+       Platform Mobile Application development services for all hybrid platforms with optimum quality standards. 
+       We develop mobile Apps using the latest technologies,
+        designs, and frameworks by leveraging the experience or expertise of experts."
+     />
+   </Head>
+    <main>
 <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <KotlinBanner />
@@ -48,6 +60,7 @@ export default function KotlinAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }
