@@ -20,7 +20,7 @@ export const SalesIndustries = ({ saleIndIn, saleIndOut, scroll }) => {
             }}
             className={styleind.saleIndustriesData}
           >
-            <Link onClick={saleIndOut} to={item.path} className={styleind.productlinkP}>
+            <Link onClick={saleIndOut} href={item.path} className={styleind.productlinkP}>
               <p>{item.dropContent}</p>
             </Link>
           </div>

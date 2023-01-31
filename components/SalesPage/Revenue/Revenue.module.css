@@ -1,12 +1,11 @@
 .Revenuemaindiv{
     border: 2px solid #f2f2f2;
     background-color: #f2f2f2;
-    height: 55vh;
+    /* height: 55vh; */
     margin-top: 4%;
 }
 
 .Revenuediv{
-    /* border: 2px solid yellow; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +14,6 @@
     margin: auto;
 }
 .Revenueinnerdiv{
-    /* border: 2px solid yellow; */
     background-color: white;
     text-align: center;
     justify-content: center;
@@ -26,27 +24,24 @@
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-top: 2%;
+    margin-bottom: 2%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .Revenueinnerdiv:hover{
     background-color: #f9a894;
 }
 .Revenueinnerdivimage{
-    /* border: 2px solid red; */
-    height: 100px;
-    width: 140px;
-    margin-left: 30%;
-   
+    height: 80px;
+    width: 100px;
+    margin-left: 35%;
 }
 .Revenueinnerdivimage img{
     height: 100%;
     width: 100%;
- 
 }
 .Revenueinnerdiv h5{
     margin-top: 5%;
 }
 .Revenuemaindivheading{
     text-align: center;
-    margin-top: 2%;
 }

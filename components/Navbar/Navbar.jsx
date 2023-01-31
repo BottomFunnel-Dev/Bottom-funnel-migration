@@ -14,8 +14,6 @@ import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
-import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
-import { SalesNavbar } from "./SalesNavbar/SalesNavbar";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 
@@ -143,17 +141,6 @@ const Navbar = ({ navredux, productMount }) => {
           textcolor={!navbar ? navredux.color : "black"}
         />
       )}
-
-      {productMount.navMount && (
-        <ProductsNavbar
-          navproductredux={{
-            color: "black",
-            logo: false,
-          }}
-          scroll={scroll}
-        />
-      )}
-      {productMount.salesnavMount && <SalesNavbar scroll={scroll} />}
       <nav
         className={
           navbar

@@ -7,7 +7,7 @@ import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";
 import { SalesIndustries } from "./SalesIndustries";
 
-export const SalesNavbar = ({ scroll }) => {
+export const SalesNavbar = () => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
@@ -15,6 +15,8 @@ export const SalesNavbar = ({ scroll }) => {
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
   const navproductredux = useSelector((state) => state);
+  const [navbar, setNabvar] = useState(false);
+  const [scroll, setScroll] = useState(false);
 
   const skillProductHoverIn = () => {
     setproductNabvar(true);
@@ -86,6 +88,21 @@ export const SalesNavbar = ({ scroll }) => {
       setproductNabvar(false);
     }
   };
+
+  const navBackground = () => {
+    if (window.scrollY > 1) {
+      setNabvar(true);
+      setScroll(true);
+    } else {
+      setNabvar(false);
+      setScroll(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", navBackground);
+    // console.log(scrollY);
+  });
 
   return (
     <div

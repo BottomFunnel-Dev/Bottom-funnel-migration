@@ -233,7 +233,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               columnGap: "5px",
             }}
           >
-            <img height="40px" src="Images/navbar/product/Neo.png" />
+            <img height="40px" src="/Images/navbar/product/Neo.png" />
             <h5> Bottom Funnel Neo</h5>
           </div>
           <p style={{ marginLeft: "5%" }}>
@@ -249,7 +249,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               columnGap: "5px",
             }}
           >
-            <img src="Images/navbar/product/knowmore.png" />
+            <img src="/Images/navbar/product/knowmore.png" />
             <h5> Know more</h5>
           </div>
           <p>What's New?</p>

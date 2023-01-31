@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import  Link  from "next/link";
+// import  Link  from "next/Link";
 import prodnav from "./productsNavbar.module.css";
 import { useSelector } from "react-redux";
 import { ProductSolutions } from "./ProductSolutions";
@@ -7,13 +7,15 @@ import { ProductResources } from "./ProductResources";
 import { ProductFeature } from "./ProductFeature";
 import { ProductDesk } from "./ProductDesk";
 
-export const ProductsNavbar = ({navproductredux ,scroll }) => {
+export const ProductsNavbar = ({navproductredux }) => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
   const [productresource, setproductResource] = useState(false);
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
+  const [navbar, setNabvar] = useState(false);
+  const [scroll, setScroll] = useState(false);
   // const navproductredux = useSelector((state) => state.navbar);
 
   const skillProductHoverIn = () => {
@@ -87,6 +89,22 @@ export const ProductsNavbar = ({navproductredux ,scroll }) => {
     }
   };
 
+  const navBackground = () => {
+    if (window.scrollY > 1) {
+      setNabvar(true);
+      setScroll(true);
+    } else {
+      setNabvar(false);
+      setScroll(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", navBackground);
+    // console.log(scrollY);
+  });
+
+
   return (
     <div
       className={prodnav.productsnavbar}
@@ -102,7 +120,7 @@ export const ProductsNavbar = ({navproductredux ,scroll }) => {
         <li
           onMouseEnter={solDeskIn}
           onMouseLeave={solDeskOut}
-          style={{ color: productnavbar ? "black" : navproductredux.color }}
+          style={{ color: productnavbar ? "black" : navproductredux.color }}F
         >
           Desk Products
           <img

@@ -3,7 +3,7 @@ import style from "./SaleSmarter.module.css";
 
 export const SaleSmarter = () => {
   return (
-    <div>
+    <div className={style.salesOuterDiv}>
     <div className={style.SaleSmarterdivupperheading}>
         <h1>Sell Smarter and faster with Bottom Funnel Sales</h1>
         </div>

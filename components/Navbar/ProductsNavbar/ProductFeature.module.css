@@ -52,6 +52,8 @@
   /* border: 2px solid red; */
   margin: 0;
   margin-left: 6%;
+  font-size: 13px;
+  font-weight: 500;
 }
 .productFeatureData .productlinkP > p:hover{
   color: #ef4c23;
@@ -59,12 +61,14 @@
 .productFeatureData:hover {
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   background-color: lightgray;
+  border-left: 3px solid  #ef4c23;
 }
 
 .productFeatureListItems > button {
   border: 1px solid #393939;
   background: transparent;
   width: 80%;
+  height: 30px;
   margin: 2% auto;
   margin-bottom: 10%;
   border-radius: 5px;
