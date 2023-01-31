@@ -20,13 +20,13 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function FlutterAppDevelopment() {
   return (
     <div>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <FlutterAppDevelopmentBanner />

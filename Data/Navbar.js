@@ -81,7 +81,7 @@ export const webservice = [
   {
     dropContent: "ASP.NET Development",
     navIcons: "Images/navbar/services/aspnet.png",
-    path: "asp-net-development",
+    path: "asp.net-development",
   },
   {
     dropContent: "Java Development",
@@ -753,17 +753,17 @@ export const mobile = [
   {
     dropContent: "IOS",
     navIcons: "/Images/navbar/skills/iosimage.png",
-    path: "ios",
+    path: "ios-development",
   },
   {
     dropContent: "Android",
     navIcons: "/Images/navbar/skills/android.png",
-    path: "android",
+    path: "android-development",
   },
   {
     dropContent: "React Native",
     navIcons: "/Images/navbar/skills/react.png",
-    path: "reactNative",
+    path: "reactnative-development",
   },
   {
     dropContent: "Ionic",
@@ -778,12 +778,12 @@ export const mobile = [
   {
     dropContent: "Flutter",
     navIcons: "/Images/navbar/skills/flutter.png",
-    path: "flutter",
+    path: "flutter-development",
   },
   {
     dropContent: "Xamarin",
     navIcons: "/Images/navbar/skills/xamarian.png",
-    path: "",
+    path: "xamarin-development",
   },
   {
     dropContent: "Swift",
@@ -793,7 +793,7 @@ export const mobile = [
   {
     dropContent: "Kotlin",
     navIcons: "/Images/navbar/skills/kotlinimage.png",
-    path: "",
+    path: "kotlin-development",
   },
 ];
 
@@ -1168,7 +1168,7 @@ export const productDesk = [
     productText1: "A comprehensive helpdesk for exceptional customer service",
     productText2: "SMB",
     navIcons: "/Images/Logos/funnel-desk/support-desk.png",
-    path: "funnel-desk",
+    path: "funneldesk",
   },
   {
     dropContent: "Contact Center",

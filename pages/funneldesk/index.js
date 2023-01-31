@@ -11,16 +11,18 @@ import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsN
 import { useSelector } from "react-redux";
 export default function FunnelDesk() {
   const productMount = useSelector((state) => state.mountNav);
-console.log("from product",productMount)
+  console.log("from product", productMount);
   return (
     <div style={{ color: "#393939" }}>
-      <Navbar productMount={{
-          navMount: true,
+      <Navbar
+        productMount={{
+          navMount: false,
         }}
         navredux={{
           color: "black",
           logo: false,
-        }}/>
+        }}
+      />
       <FunnelDeskBanner />
       <FunnelSupport />
       <EliteServices />
