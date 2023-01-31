@@ -257,13 +257,13 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/hire-new-talent")}
+            // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/Apply-new-talent")}
+            // onClick={() => router.push("/Apply-new-talent")}
             >
               Apply as a Talent
             </button>

@@ -467,17 +467,17 @@ export const ondemand = [
   {
     dropContent: "Icecream Delivery App",
     navIcons: "Images/navbar/industriesImage/icecream.png",
-    path: "Icecream",
+    path: "icecream-deliveryapp",
   },
   {
     dropContent: "Plant Based Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/plantmeat.png",
-    path: "plant-based-meat-delivery-app",
+    path: "plant-based-meat-delivery",
   },
   {
     dropContent: "Car Rental Delivery App",
     navIcons: "Images/navbar/industriesImage/carrental.png",
-    path: "car-rentals",
+    path: "car-rentals-app",
   },
   {
     dropContent: "Agriculture App Solutions",
@@ -487,12 +487,12 @@ export const ondemand = [
   {
     dropContent: "Car Service App Solutions",
     navIcons: "/Images/navbar/industriesImage/carrepair.png",
-    path: "Car-services",
+    path: "/",
   },
   {
     dropContent: "Trading App Solutions",
     navIcons: "Images/navbar/industriesImage/trading.png",
-    path: "trading-investing",
+    path: "/",
   },
 
   {
@@ -503,27 +503,27 @@ export const ondemand = [
   {
     dropContent: "Meat Delivery App",
     navIcons: "Images/navbar/industriesImage/meat.png",
-    path: "meat-delivery-app",
+    path: "meatdeliveryapp",
   },
   {
     dropContent: "Eyewear Delivery App ",
     navIcons: "Images/navbar/industriesImage/eyewear.png",
-    path: "Eyewear-Delivery-App",
+    path: "eyeweardeliverapp",
   },
   {
     dropContent: "Baby & KidsWear App ",
     navIcons: "Images/navbar/industriesImage/baby-wear.png",
-    path: "kids-wear",
+    path: "baby-and-kidswear",
   },
   {
     dropContent: "Online Payment App ",
     navIcons: "Images/navbar/industriesImage/online-payemnt.png",
-    path: "online-paymentapp-solution",
+    path: "onlinepaymentsapp",
   },
   {
     dropContent: "Fintech App Solutions",
     navIcons: "Images/navbar/industriesImage/fintech.png",
-    path: "Fintech-solution",
+    path: "fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
@@ -533,17 +533,17 @@ export const ondemand = [
   {
     dropContent: "App Builder Solutions",
     navIcons: "Images/navbar/industriesImage/app-builder.png",
-    path: "app-builder-solutions",
+    path: "app-builder-solution",
   },
   {
     dropContent: "AI Content App Solutions",
     navIcons: "Images/navbar/industriesImage/ai-ont.png",
-    path: "Ai-content",
+    path: "artificial-intelligence",
   },
   {
     dropContent: "OTT App Solutions",
     navIcons: "Images/navbar/industriesImage/ott.png",
-    path: "ott",
+    path: "ott-app-solutions",
   },
 ];
 
