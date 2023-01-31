@@ -33,22 +33,22 @@ export default function Pharmacy() {
       />
       <Pharmacycontainer />
       <Trusted partnerLogo={pharmacyLogo} />
-      <Pharmacydelivery />
-      <Pharmacysneak />
-      <Pharmacycustomer />
-      <Pharmacydrive />
-      <Pharmacyadmin />
+      {/* <Pharmacydelivery /> */}
+      {/* <Pharmacysneak /> */}
+      {/* <Pharmacycustomer /> */}
+      {/* <Pharmacydrive /> */}
+      {/* <Pharmacyadmin /> */}
 
-      <StoriesSection />
+      {/* <StoriesSection /> */}
       {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
+      {/* <PlanProject /> */}
+      {/* <OndemandSection /> */}
       {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+      {/* <SeoblogSection /> */}
+      {/* <Revamping /> */}
+      {/* <TextDropdown /> */}
+      {/* <ContectForm /> */}
+      {/* <MainFooter /> */}
     </div>
   );
 }
