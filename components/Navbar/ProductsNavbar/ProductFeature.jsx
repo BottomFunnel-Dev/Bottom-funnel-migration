@@ -16,11 +16,13 @@ export const ProductFeature = ({ solFeaIn, solFeaOut, scroll }) => {
             key={i}
             onClick={() => {
               // navigate(`/${item.path}`);
-              solHoverOut();
+              solFeaOut();
             }}
             className={featurestyle.productFeatureData}
           >
-            <Link onClick={solFeaOut} to={item.path} className={featurestyle.productlinkP}>
+            <Link onClick={solFeaOut} 
+            href={item.path} 
+            className={featurestyle.productlinkP}>
               <p>{item.dropContent}</p>
             </Link>
           </div>

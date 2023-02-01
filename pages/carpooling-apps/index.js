@@ -29,13 +29,12 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function CarPooling() {
   return (
     <div>
-      
       <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

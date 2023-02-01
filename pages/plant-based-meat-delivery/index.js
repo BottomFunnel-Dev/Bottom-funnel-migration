@@ -1,9 +1,9 @@
 import React from "react";
 
 import {
-    logisticsCustomer,
-    plantBaseDriverData,
-    plantBaseMeatAdmin,
+  logisticsCustomer,
+  plantBaseDriverData,
+  plantBaseMeatAdmin,
 } from "../../components/Data/plantbasedmeat";
 import { PlantBasedMeatBanner } from "../../components/PlantBaseMeat/PlantBasedMeatBanner/PlantBasedMeatBanner";
 import { ServicesWeOffer } from "../../components/PlantBaseMeat/ServicesWeOffer/ServicesWeOffer";
@@ -23,15 +23,15 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 
-export default function PlantBasedMeat () {
+export default function PlantBasedMeat() {
   return (
     <div>
-  <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
@@ -55,4 +55,4 @@ export default function PlantBasedMeat () {
       <MainFooter />
     </div>
   );
-};
+}

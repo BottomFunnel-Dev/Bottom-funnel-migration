@@ -33,7 +33,7 @@ export default function Pharmacycontainer() {
         <div className={styles.szpharmacyleft}>
           <div>
             <h1>Launch an On-Demand</h1>
-            <h1>Pharmacy Delivery App</h1>
+            <h2>Pharmacy Delivery App</h2>
             <p>And 4X Your Sales of Medicines.</p>
             
             <button className={styles.szpharmacybtn} onClick={handleOpen}>Get Started</button>

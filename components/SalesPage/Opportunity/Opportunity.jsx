@@ -34,7 +34,6 @@ export const Opportunity = () => {
             </div>
             <div className={style.Opportunityimagediv}>
                 <img src="/Images/SalesPagePhotos/textimage.png" alt="image" />
-
             </div>
 
         </div>
@@ -44,9 +43,8 @@ export const Opportunity = () => {
 
         <div className={style.Opportunityinnerdiv1}>
 
-        <div className={style.Opportunityimagediv1}>
+            <div className={style.Opportunityimagediv1}>
                 <img src="/Images/SalesPagePhotos/insight2.png" alt="image" />
-
             </div>
             <div className={style.Opportunityinnerdivheading1}>
                 <h1>Have Conversation with context. </h1>

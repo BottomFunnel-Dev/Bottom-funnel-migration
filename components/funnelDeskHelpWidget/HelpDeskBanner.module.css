@@ -11,6 +11,8 @@
 
 .helpDeskBannerImage>img {
   width: 100%;
+  margin-top: 14%;
+  /* border: 2px solid red; */
 }
 
 .helpdeskbannersometextbox {

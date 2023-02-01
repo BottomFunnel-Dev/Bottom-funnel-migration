@@ -16,7 +16,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
             key={i}
             onClick={() => {
               // navigate(`/${item.path}`);
-              solHoverOut();
+              solDeskOut();
             }}
             className={deskstyle.productDeskData}
           >
@@ -24,7 +24,7 @@ export const ProductDesk = ({ solDeskIn, solDeskOut, scroll }) => {
             <Link
               onClick={solDeskOut}
               style={{ width: "75%" }}
-              to={item.path}
+              href={item.path}
               className={deskstyle.productlinkP}
             >
               <h6>{item.dropContent}</h6>

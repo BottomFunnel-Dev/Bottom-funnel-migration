@@ -22,7 +22,7 @@
   box-sizing: border-box;
 }
 
-.servicesideNav > div {
+.servicesideNav>div {
   width: 100%;
   padding: 10px 5px;
   box-sizing: border-box;
@@ -35,12 +35,13 @@
   /* margin-top: 3px; */
   height: 40px;
 }
-.servicesideNav > div:hover {
+
+.servicesideNav>div:hover {
   color: black;
   background-color: white;
 }
 
-.servicesideNav > div > h6 {
+.servicesideNav>div>h6 {
   margin: 0;
 }
 
@@ -48,7 +49,7 @@
   background-color: white;
 }
 
-.serviceactivetoggle > h6 {
+.serviceactivetoggle>h6 {
   color: black;
   font-size: 18px;
   transition: all 0.2s linear;
@@ -67,12 +68,13 @@
 #serviceDropContent {
   width: 40%;
 }
+
 .serviceDropdownContent {
   height: 100%;
   width: 20%;
 }
 
-.serviceDropdownContent > h4 {
+.serviceDropdownContent>h4 {
   color: #ef4c23;
 }
 
@@ -97,7 +99,7 @@
   /* border: 2px solid salmon; */
 }
 
-.servicelistItems > p:hover {
+.servicelistItems>p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -119,7 +121,8 @@
   border-left: 3px solid white;
 }
 
-.serviceimageIconDivSection:hover .serviceiconDivSection {
+.serviceimageIconDivSection:hover .serviceiconDivSection,
+.servicebackendimageIconDivSection:hover .serviceiconDivSection {
   border-left: 3px solid #ef4c23;
 }
 
@@ -132,19 +135,20 @@
   /* transition: all 0.3s linear; */
 }
 
-.serviceimageIconDivSection > p {
+.serviceimageIconDivSection>p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.serviceimageIconDivSection > div {
+.serviceimageIconDivSection>div {
   width: 18%;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
 }
-.serviceimageIconDivSection > div > img {
+
+.serviceimageIconDivSection>div>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -177,7 +181,7 @@
   flex-direction: column;
 }
 
-.servicetrendListItems > p {
+.servicetrendListItems>p {
   margin: 0;
   padding: 4px;
 }
@@ -219,25 +223,25 @@
   border-left: 3px solid #ef4c23;
 }
 
-.servicetrendImageIconDivSection > p {
+.servicetrendImageIconDivSection>p {
   width: 80%;
   font-size: 14px;
 
   margin: 0;
 }
 
-.servicetrendImageIconDivSection > p:hover {
+.servicetrendImageIconDivSection>p:hover {
   color: #ef4c23;
 }
 
-.servicetrendImageIconDivSection > div {
+.servicetrendImageIconDivSection>div {
   width: 18%;
   /* background-color: #fce7e2; */
   border-left: 2px solid white;
   height: 30px;
 }
 
-.servicetrendImageIconDivSection > div > img {
+.servicetrendImageIconDivSection>div>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -269,15 +273,18 @@
   padding: 15px 93px;
   /* background-color: aquamarine; */
 }
-.servicediscoverleftbottom > h3 {
+
+.servicediscoverleftbottom>h3 {
   margin: 0;
   /* background-color: aquamarine; */
 }
+
 .servicediscoverleftbottom span {
   color: #ef4c23;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
 .servicediscoverleftbottom span:hover {
   padding-left: 10px;
 }
@@ -294,6 +301,7 @@
   padding: 0 75px;
   cursor: pointer;
 }
+
 .serviceskillDropdownContent {
   height: 100%;
   width: 14%;
@@ -328,20 +336,20 @@
   /* transition: all 0.3s linear; */
 }
 
-.servicebackendimageIconDivSection > p {
+.servicebackendimageIconDivSection>p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.servicebackendimageIconDivSection > div {
+.servicebackendimageIconDivSection>div {
   width: 45px;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
 }
 
-.servicebackendimageIconDivSection > div > img {
+.servicebackendimageIconDivSection>div>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -369,7 +377,8 @@
     flex-direction: row;
     row-gap: 20px;
   }
-  .servicesideNav > h5 {
+
+  .servicesideNav>h5 {
     font-size: 14px;
   }
 
@@ -402,7 +411,8 @@
     box-sizing: border-box;
     /* background-color: aquamarine; */
   }
-  .servicediscoverleftbottom > h3 {
+
+  .servicediscoverleftbottom>h3 {
     font-size: 18px;
     text-align: center;
   }
@@ -435,6 +445,7 @@
     padding: 10px;
     box-sizing: border-box;
   }
+
   .serviceDropdownContent {
     height: fit-content;
     width: 100%;
@@ -452,6 +463,7 @@
   .serviceimageIconDivSection {
     column-gap: 10px;
   }
+
   .servicebackendDropdownContent {
     height: 100%;
     width: 100%;

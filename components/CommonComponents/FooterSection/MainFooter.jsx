@@ -19,6 +19,7 @@ import {
   FaPhoneAlt,
   FaWhatsapp,
 } from "react-icons/fa";
+
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";

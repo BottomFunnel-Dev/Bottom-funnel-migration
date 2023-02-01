@@ -14,8 +14,6 @@ import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
-import { ProductsNavbar } from "./ProductsNavbar/ProductsNavbar";
-import { SalesNavbar } from "./SalesNavbar/SalesNavbar";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 
@@ -137,17 +135,6 @@ const Navbar = ({ navredux, productMount }) => {
           textcolor={!navbar ? navredux.color : "black"}
         />
       )}
-
-      {productMount.navMount && (
-        <ProductsNavbar
-          navproductredux={{
-            color: "black",
-            logo: false,
-          }}
-          scroll={scroll}
-        />
-      )}
-      {productMount.salesnavMount && <SalesNavbar scroll={scroll} />}
       <nav
         className={
           navbar
@@ -217,7 +204,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 onMouseEnter={productHoverIn}
                 onMouseLeave={productHoverOut}
-                onClick={() => router.push("/Products")}
+                onClick={() => router.push("https://bottomfunnel.net/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PRODUCTS
@@ -251,13 +238,13 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/hire-new-talent")}
+            // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/Apply-new-talent")}
+            // onClick={() => router.push("/Apply-new-talent")}
             >
               Apply as a Talent
             </button>

@@ -32,7 +32,7 @@ export default function MarketPlace() {
       <MarketplaceBanner />
       <MarketplaceFreelancer />
       <MarketPlaceAdmin />
-      {/* <MarketPlaceClients /> */}
+      <MarketPlaceClients />
       <Marketplaceborder />
       <Maketplacefooter />
 

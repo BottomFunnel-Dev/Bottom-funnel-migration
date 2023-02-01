@@ -11,7 +11,7 @@
 }
 
 .skillsbannercontent {
-  width: 60%;
+  width: 50%;
   text-align: left;
   height: fit-content;
 }
@@ -19,12 +19,21 @@
 .skillsbannercontent>h1 {
   font-size: 40px;
   margin: 0px;
-  text-transform: capitalize;
+}
+
+.skillsbannercontent>h1>span {
+  color: #ef4c34;
 }
 
 .skillsbannercontent>p {
   font-size: 20px;
   margin: 2% auto;
+}
+
+.skillsbannercontent>ul>li {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0;
 }
 
 .skillsbannercontent>button {
@@ -37,14 +46,14 @@
   border-radius: 100px;
   cursor: pointer;
 
-  color: #f5f5f5;
-  background-color: #ef4c34;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #ef4c34;
+  background-color: transparent;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .skillsbannercontent>button:hover {
-  background-color: #f5f5f5;
-  color: #ef4c34;
+  background-color: #ef4c34;
+  color: #fff;
 }
 
 .skillsbannermain>img {

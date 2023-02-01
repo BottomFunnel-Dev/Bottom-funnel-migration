@@ -67,15 +67,17 @@
   width: 20%;
   padding: 1.5%;
   color: white;
+  text-align: center;
 }
 
 .productsTalentNetworkContentDiv > div > div > h4 {
-  padding-top: 3%;
+  margin-top: 3%;
+  
 }
 
 .productsTalentNetworkContentDiv > div > p {
   /* border-right:1px solid green; */
-  padding-top: 2%;
+  margin-top: 2%;
   text-align: center;
 }
 

@@ -24,50 +24,48 @@ import Head from "next/head";
 
 export default function MeanPage() {
   return (
-    <div>
-
-    <Head>
-    <title>Mean Development | Bottom Funnel</title>
-    <meta
-      name="description"
-      content="You are sinking and want the ocean to repeat.
+    <div style={{ color: "#393939" }}>
+      <Head>
+        <title>Mean Development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="You are sinking and want the ocean to repeat.
        But, you don't know how to swim or what is waiting for 
        you at the bottom. Or perhaps you're too lazy to learn! 
       Whatever be your reason, SmartApp is here to help you out.
        We have developed a team of experts who understand your 
        business requirements and can craft an app that's tailored
         precisely to meet those needs."
-    />
-  </Head>
+        />
+      </Head>
 
-  <main>
-  <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <WebdevBanner bannerContent={meanBanner} />
-      <Techstackintro techContent={meanstackIntro} />
-      <WebDevServices webservicesContent={meanDevServices} />
-      <WhyTechStack techData={whyMEAN} />
-      <GetStarted />
-      <WebDevWhy whyDevContent={MEANWhyContent} />
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "Black",
+            logo: false,
+          }}
+        />
+        <WebdevBanner paraColor={"#393939"} bannerContent={meanBanner} />
+        <Techstackintro techContent={meanstackIntro} />
+        <WebDevServices webservicesContent={meanDevServices} />
+        <WhyTechStack techData={whyMEAN} />
+        <GetStarted />
+        <WebDevWhy whyDevContent={MEANWhyContent} />
 
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      {/* <PlanProject />  */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        {/* <PlanProject />  */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

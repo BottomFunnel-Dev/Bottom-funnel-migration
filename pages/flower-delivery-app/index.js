@@ -21,12 +21,12 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function FlowerDelivery() {
   return (
     <div>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
@@ -38,16 +38,16 @@ export default function FlowerDelivery() {
       {/* <FlowerDeliveryBannerbottom /> */}
       <FlowerDeliverylast />
 
-      {/* <StoriesSection /> */}
+      <StoriesSection />
       {/* <Industries /> */}
-      {/* <PlanProject /> */}
-      {/* <OndemandSection /> */}
+      <PlanProject />
+      <OndemandSection />
       {/* <PortFolio /> */}
-      {/* <SeoblogSection /> */}
-      {/* <Revamping /> */}
-      {/* <TextDropdown /> */}
-      {/* <ContectForm /> */}
-      {/* <MainFooter /> */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
     </div>
   );
 }
