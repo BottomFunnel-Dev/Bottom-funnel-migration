@@ -8,7 +8,7 @@ export const AndriodBanner = () => {
   
   const lottieDefaultOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: reactAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
@@ -26,9 +26,9 @@ export const AndriodBanner = () => {
         </div>
 
         <div className={styles.androidIcon}>
-        <Lottie options={lottieDefaultOptions} width={500} height={700} />
+        <Lottie options={lottieDefaultOptions} width={400} height={500} />
         </div>
       </div>
     </>
   );
-};
+}

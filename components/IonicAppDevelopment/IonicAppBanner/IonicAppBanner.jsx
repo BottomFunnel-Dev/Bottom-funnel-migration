@@ -7,7 +7,7 @@ import Lottie from "react-lottie";
 export const IonicAppBanner = () => {
   const lottieDefaultOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: reactAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
@@ -17,9 +17,9 @@ export const IonicAppBanner = () => {
   return (
     <>
       <div className={styles.ionicAppBannermainbox}>
-        <div className={styles.ionicAppBannermainboximagein}>
+        {/* <div className={styles.ionicAppBannermainboximagein}>
           <img src="" alt="" />
-        </div>
+        </div> */}
         <div className={styles.ionicAppBannermainboxinnertextdiv}>
           <h1>Ionic App Development Services</h1>
           <p>

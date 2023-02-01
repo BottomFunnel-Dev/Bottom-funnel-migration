@@ -7,18 +7,19 @@
 .flutterServicesheading {
   color: black;
   width: 90%;
-  margin-left: 3%;
+  margin: auto;
+  /* margin-left: 3%; */
   font-weight: 500;
   margin-top: 2%;
+  text-align: center;
   /* border: 2px solid red; */
 }
 .flutterServicesDescription {
   color: black;
   font-size: 16px;
-  margin-top: 0%;
   /* border: 2px solid red; */
-  /* margin-top: 3%; */
-  margin-left: 3%;
+  margin: auto;
+  text-align: center;
   width: 80%;
 }
 .flutterServicesDescription p {
@@ -34,7 +35,7 @@ margin: 0%;
 }
 .flutterServiceBox {
   /* border: 2px solid red; */
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 4%;
   display: flex;
@@ -43,7 +44,7 @@ margin: 0%;
 .flutterServicesContainerBoxes {
   width: 30%;
   border-radius: 5px;
-  /* border: 2px solid red; */
+  border: 1px solid lightgrey;
   background-color: white;
   margin-left: 2%;
   padding-left: 10px;

@@ -7,7 +7,7 @@ import Lottie from "react-lottie";
 export const XamarinAppDevelopmentBanner = () => {
   const lottieDefaultOptions = {
     loop: true,
-    autoplay: false,
+    autoplay: true,
     animationData: reactAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"

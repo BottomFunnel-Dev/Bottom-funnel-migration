@@ -3,12 +3,13 @@
     width: 100%;
     /* height: 100vh; */
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 .xamarinMobileDevelopmentContentText{
     /* border: 2px solid red; */
     width: 60%;
     margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10%;
 }
 

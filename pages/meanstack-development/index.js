@@ -46,8 +46,8 @@ export default function MeanPage() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <WebdevBanner bannerContent={meanBanner} />

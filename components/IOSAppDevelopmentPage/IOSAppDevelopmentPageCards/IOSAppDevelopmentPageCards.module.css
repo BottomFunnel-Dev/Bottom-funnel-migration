@@ -12,8 +12,9 @@
   height: 100vh;
   background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.png");
 
-  flex-direction: row;
+  flex-direction: row-reverse;
   display: flex;
+  /* justify-content: space-between; */
   position: absolute;
   z-index: 0;
 }
@@ -22,7 +23,7 @@
   display: flex;
   flex-direction: column;
 margin: auto;
-margin-left: 4%;
+/* margin-left: %; */
 height: 450px;
 width: 60%;
   /* width: 40%; */
@@ -42,8 +43,9 @@ width: 60%;
 }
 .IOSAppDevelopmentPageCardsInnerMainDivimage {
   /* border: 2px solid  blue; */
-  margin-right: 4%;
-
+  margin-left: 4%;
+width: 25%;
+/* margin: auto; */
   margin-top: 3%;
 }
 
@@ -152,6 +154,7 @@ width: 60%;
   /* margin-right: 5%; */
   /* width: 40%; */
   margin-left: 6%;
+  margin-bottom: 2%;
 }
 .innermaindiv3Imagemain {
   height: 100%;
@@ -264,10 +267,11 @@ width: 60%;
 
 .iosinnermaindiv42nddiv {
   border-left: 2px solid gray;
-  width: 60%;
+  width: 40%;
   margin-left: 2%;
   margin-top: 4%;
   padding-left: 3%;
+  margin-bottom: 2%;
 }
 .iosinnermaindiv42nddiv h1 {
   font-size: 40px;
@@ -281,9 +285,9 @@ width: 60%;
 .iosapplogo {
   /* border: 2px solid pink ; */
   margin-top: 5%;
-  width: 70%;
+  width: 150px;
   height: 50px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 .iosapplogoimg {
   width: 100%;
@@ -322,7 +326,7 @@ width: 60%;
   flex-direction: column;
   /* border: 2px solid yellow; */
   margin-left: 1%;
-  width: 40%;
+  width: 45%;
   margin-top: 3%;
 }
 
@@ -355,6 +359,7 @@ width: 60%;
     display: flex;
      position: static;
   z-index: 0;
+  margin-top: 2%;
   
   }
   .IOSAppDevelopmentPageCardsInnerMainDivcontain {
@@ -490,6 +495,7 @@ width: 60%;
   
   width: 80%;
   margin: auto;
+  margin-bottom: 2%;
  
 }
 .innermaindiv3Image img{

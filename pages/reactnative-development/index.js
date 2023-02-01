@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ReactNativeAppDevelopmentBanner } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentBanner/ReactNativeAppDevelopmentBanner";
-import { ReactNativeAppDevelopmentContain } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentContain/ReactNativeAppDevelopmentContain";
+// import { ReactNativeAppDevelopmentContain } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentContain/ReactNativeAppDevelopmentContain";
 import { ReactNativeDevelopmentCard } from "../../components/ReactNativeAppDevelopment/ReactNativeDevelopmentCard/ReactNativeDevelopmentCard";
 import { ReactNativeAppDevelopmentSolution } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentSolution/ReactNativeAppDevelopmentSolution";
 import { Advantages } from "../../components/ReactNativeAppDevelopment/Advantages/Advantages";
@@ -38,10 +38,10 @@ export default function ReactNativeAppDevelopment() {
         }}
       />
       <ReactNativeAppDevelopmentBanner />
-      <ReactNativeAppDevelopmentContain />
+      {/* <ReactNativeAppDevelopmentContain /> */}
       <ReactNativeDevelopmentCard />
       <ReactNativeAppDevelopmentSolution />
-      {/* <Advantages /> */}
+      <Advantages />
 
       {/* Other react required components  */}
       <StoriesSection />
