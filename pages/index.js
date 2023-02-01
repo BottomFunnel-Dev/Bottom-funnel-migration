@@ -35,21 +35,20 @@ export default function Home() {
       />
 
       <BannerFull />
-      <CompanyLogo />
+      {/* <CompanyLogo />
       <About />
       <Services />
       <Awards />
       <StoriesSection />
       <Industries />
       <OndemandSection />
-      {/* <PortFolio/> */}
       <PlanProject />
       <Companystats />
       <SeoblogSection />
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <MainFooter />
+      <MainFooter /> */}
     </>
   );
 }

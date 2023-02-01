@@ -33,14 +33,12 @@ export default function DropdownResp({
           <Typography>About</Typography>
         </AccordionSummary>
         <AccordionDetails className={dropdown.accord}>
-          <Typography>
             <WhoWeAre
               homeHoverIn={homeHoverIn}
               homeHoverOut={homeHoverOut}
               scroll={scroll}
               productMount={productMount}
             />
-          </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -52,14 +50,12 @@ export default function DropdownResp({
           <Typography>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
             <NavServices
               serHoverIn={serHoverIn}
               serHoverOut={serHoverOut}
               scroll={scroll}
               productMount={productMount}
             />
-          </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -71,14 +67,12 @@ export default function DropdownResp({
           <Typography>Solutions</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
             <NavIndustries
               solHoverIn={solHoverIn}
               solHoverOut={solHoverOut}
               scroll={scroll}
               productMount={productMount}
             />
-          </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -90,14 +84,12 @@ export default function DropdownResp({
           <Typography>Products</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
             <Products
               serHoverIn={serHoverIn}
               serHoverOut={serHoverOut}
               scroll={scroll}
               productMount={productMount}
             />
-          </Typography>
         </AccordionDetails>
       </Accordion>
 

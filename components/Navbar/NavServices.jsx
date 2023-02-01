@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import navstyle from  "./navbar.module.css";
-import navservice from './navServices.module.css'
-import  Link  from "next/link";
+import navservice from "./navServices.module.css";
+import Link from "next/link";
 import {
   webservice,
   appservice,
@@ -18,17 +18,24 @@ import {
   database,
   scaleContent,
 } from "../../Data/Navbar";
-import {BsArrowRight} from "react-icons/bs"
-import  ImageCard  from "../particularComponents/ImageCardText/ImageCard";
-
-export const NavServices = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
+import { BsArrowRight } from "react-icons/bs";
+import ImageCard from "../particularComponents/ImageCardText/ImageCard";
+import { useRouter } from "next/router";
+export const NavServices = ({
+  serHoverIn,
+  serHoverOut,
+  scroll,
+  productMount,
+}) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
   const handleSide = (element) => {
     console.log(element);
     setSidetoggle(element);
   };
-console.log(discoverContent)
+
+  const router = useRouter();
+  console.log(discoverContent);
 
   const sideBar = [
     { sidename: "Discover" },
@@ -44,13 +51,14 @@ console.log(discoverContent)
       onMouseLeave={serHoverOut}
       className={navservice.servicesolutionVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
-
     >
       <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (
           <div
             key={item.sidename}
-            className={sidetoggle === item.sidename ? navservice.activetoggle : ""}
+            className={
+              sidetoggle === item.sidename ? navservice.activetoggle : ""
+            }
             onMouseEnter={() => {
               handleSide(item.sidename);
             }}
@@ -62,23 +70,25 @@ console.log(discoverContent)
       {sidetoggle === "Technologies" && (
         <div className={navservice.servicedropdownSection}>
           <div className={navservice.serviceDropdownContent}>
-            <Link href="web-development" className={navservice.servicenoStyle}>
+           
               <h5
                 onClick={() => {
+                  router.push('web-development')
                   serHoverOut();
                 }}
-                style={{margin:0}}
+                className={navservice.servicenoStyle}
+                style={{ margin: 0 }}
               >
                 Web Development
               </h5>
-            </Link>
+           
 
             <div className={navservice.servicelistItems}>
               {webservice.map((item, i) => (
                 <div
                   key={i}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
+                    router.push(`${item.path}`);
                     serHoverOut();
                   }}
                   className={navservice.serviceimageIconDivSection}
@@ -90,9 +100,7 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
-                    <p>{item.dropContent}</p>
-                  </Link>
+                  <p className={navservice.servicelinkP}>{item.dropContent}</p>
                 </div>
               ))}
             </div>
@@ -108,12 +116,15 @@ console.log(discoverContent)
             >
               Mobile App Development
             </h5> */}
-            <Link href="mobile-app-development" className={navservice.servicenoStyle}>
+            <Link
+              href="mobile-app-development"
+              className={navservice.servicenoStyle}
+            >
               <h5
                 onClick={() => {
                   serHoverOut();
                 }}
-                style={{margin:0}}
+                style={{ margin: 0 }}
               >
                 Mobile App Development
               </h5>
@@ -136,7 +147,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -145,12 +160,15 @@ console.log(discoverContent)
           </div>
 
           <div className={navservice.serviceDropdownContent}>
-            <Link href="Digital-marketing" className={navservice.servicenoStyle}>
+            <Link
+              href="Digital-marketing"
+              className={navservice.servicenoStyle}
+            >
               <h5
                 onClick={() => {
                   serHoverOut();
                 }}
-                style={{margin:0}}
+                style={{ margin: 0 }}
               >
                 Digital Marketing
               </h5>
@@ -177,7 +195,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -185,9 +207,15 @@ console.log(discoverContent)
               ))}
             </div>
           </div>
-          <div id={navservice.serviceDropContent} className={navservice.serviceDropdownContent}>
-            <Link href="trending-technology" className={navservice.servicenoStyle}>
-              <h5 style={{margin:0}}>Trending Technologies</h5>
+          <div
+            id={navservice.serviceDropContent}
+            className={navservice.serviceDropdownContent}
+          >
+            <Link
+              href="trending-technology"
+              className={navservice.servicenoStyle}
+            >
+              <h5 style={{ margin: 0 }}>Trending Technologies</h5>
             </Link>
             <div className={navservice.servicetrendListItems}>
               {trendingTech.map((item, m) => (
@@ -206,7 +234,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -215,9 +247,6 @@ console.log(discoverContent)
           </div>
         </div>
       )}
-
-
-
 
       {sidetoggle === "Discover" && (
         <div className={navservice.servicediscoverDropdown}>
@@ -309,7 +338,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -337,7 +370,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -366,7 +403,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -394,7 +435,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
@@ -422,7 +467,11 @@ console.log(discoverContent)
                       alt=""
                     />
                   </div>
-                  <Link onClick={serHoverOut} href={item.path} className={navservice.servicelinkP}>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>

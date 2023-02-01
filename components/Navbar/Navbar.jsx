@@ -28,14 +28,8 @@ const Navbar = ({ navredux, productMount }) => {
   const [product, setProduct] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
-  // const [scrollVal, setScrollVal] = useState()
   const router = useRouter()
 
-  // const navredux = useSelector((state) => state.navbar);
-  // const productMount = useSelector((state) => state.mountNav);
-  // const salesproductMount = useSelector((state) => state.salesnavMount);
-  // console.log(navredux);
-  // console.log(salesproductMount)
 
   const skillHoverIn = () => {
     setSkill(true);
