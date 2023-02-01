@@ -629,7 +629,7 @@ export const springBootData = {
     image: "/Images/skillsPhotos/banner.webp",
     title: ["Hire", "Springboot", "developer"],
     description:
-      "Delivering on your business vision with quality springboot java development.",
+      "Bottom funnel offer you to hire professional Node.js expert developers on a contract and project basis with a risk-free 14-day trial",
   },
   isDes: true,
   desData: {
@@ -3870,12 +3870,18 @@ export const railsData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 16- man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/railsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Rails", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Rails developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -4021,12 +4027,18 @@ export const revelData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/revelSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Revel", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Revel developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -4172,12 +4184,18 @@ export const rodaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/rodaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Roda", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Roda developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -4323,12 +4341,17 @@ export const sinatraData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+    ],
     icon: "/Images/skillsPhotos/sinatraSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Sinatra", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Sinatra developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -4477,11 +4500,17 @@ export const reactjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/reactjsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
-    description: `React.js development services that will take your app from concept to production in no time.`,
+    title: ["Hire", "React.js", "developer"],
+    description: `Bottom funnel offer you to hire professional Jquery expert developers on a contract and project basis with a risk-free 14-day trial.`,
   },
   isDes: true,
   desData: {
@@ -4628,11 +4657,17 @@ export const angularjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/angularjsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
-    description: `Speed up your web application development with our top-notch angular.js development services.`,
+    title: ["Hire", "Angular", "developer"],
+    description: `Bottom funnel offer you to hire professional angular expert developers on a contract and project basis with a risk-free 14-days trial.`,
   },
   isDes: true,
   desData: {
@@ -4777,11 +4812,18 @@ export const vuejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/vuejsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
-    description: "Trust the experts-hire vue.js developers today.",
+    title: ["Hire", "Vue.js", "developer"],
+    description:
+      "Bottom funnel offer you to hire professional Vue.js expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -4928,12 +4970,18 @@ export const emberjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/emberjSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Ember", "developer"],
     description:
-      "Delivering on your business vision with quality javascript development.",
+      "Bottom funnel offer you to hire professional ember expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -5080,12 +5128,18 @@ export const jqueryData = {
     "Bottom Funnel is a globally dominant company having highly experienced jquery developers. Our jquery development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/jquerySkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Jquery", "developer"],
     description:
-      "Delivering on your business vision with quality jquery development.",
+      "Bottom funnel offer you to hire professional Jquery expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -5233,12 +5287,18 @@ export const nextjsData = {
     "Bottom Funnel is a globally dominant company having highly experienced nextjs developers. Our nextjs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/nextjsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Next.js", "developer"],
     description:
-      "Delivering on your business vision with quality nextjs web development.",
+      "Bottom funnel offer you to hire professional Next.js expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -5365,12 +5425,18 @@ export const backbonejsData = {
     "Bottom Funnel is a globally dominant company having highly experienced backbonejs developers. Our backbonejs development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/backbonejsSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Backbone.js", "developer"],
     description:
-      "Delivering on your business vision with quality javascript development.",
+      "Bottom funnel offer you to hire professional Backbone.js expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -5497,12 +5563,18 @@ export const svelteData = {
     "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/svelteSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Svelte", "developer"],
     description:
-      "Delivering on your business vision with quality svelte development.",
+      "Bottom funnel offer you to hire professional Svelte expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -5650,12 +5722,18 @@ export const semanticData = {
     "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/semanticphotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Semantic UI", "developer"],
     description:
-      "Delivering on your business vision with quality Semantic UI web development.",
+      "Bottom funnel offer you to hire professional Semantic UI expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -5782,12 +5860,18 @@ export const mysqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/mysqlSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "MySQL", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional MySQL expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -5913,12 +5997,18 @@ export const msSQLData = {
     "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthy reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/mssqlSKillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Microsoft Sql", "developer"],
     description:
-      "Delivering on your business vision with quality backend development.",
+      "Bottom funnel offer you to hire professional Microsoft SQL expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -6044,12 +6134,18 @@ export const postgresqlData = {
     "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/postgresqlSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "PostgreSQL", "developer"],
     description:
-      "Do you have a lot of data and need an easy way to manage it? | PostgreSQL is the perfect choice for you.",
+      "Bottom funnel offer you to hire professional PostgreSQL expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -6171,17 +6267,24 @@ export const postgresqlData = {
 };
 
 export const mongodbData = {
-  title: "Best mongoDB developers in the market | Bottom Funnel",
+  title:
+    "Best mongoDB developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
     "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/mongodbSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "MongoDB", "developer"],
     description:
-      "MongoDB is a powerful database that's a favorite among developers. This flexible schema approach makes it popular with teams using agile methodologies.",
+      "Bottom funnel offer you to hire professinal MongoDB expert developers on a contract and project basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -6308,12 +6411,18 @@ export const redisData = {
     "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/redisSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Redis", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Redis experts developers on a contract and projects basis with a risk-free 14-days trial.",
   },
   isDes: true,
   desData: {
@@ -6439,12 +6548,18 @@ export const ibmData = {
     "Bottom Funnel is a globally dominant company having highly experienced IBM db2 developers. Our IBM db2 development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/ibmSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "IBM db2", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional IBM db2 expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -6570,12 +6685,18 @@ export const elasticData = {
     "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/elasticSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Elasticsearch", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Elasticsearch expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -6722,12 +6843,18 @@ export const sqliteData = {
     "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/sqliteSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "SQLite", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional SQLite expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -6853,12 +6980,18 @@ export const cassandraData = {
     "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/cassandraSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Cassandra", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Cassandra expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -6986,12 +7119,18 @@ export const wordpressData = {
     "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/wpSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Wordpress", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Wordpress expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7117,12 +7256,18 @@ export const hubspotData = {
     "Bottom Funnel is a globally dominant company having highly experienced hubspot developers. Our hubspot development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/hubSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Hubspot CMS hub", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Hubspot CMS hub expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7248,12 +7393,18 @@ export const joomlaData = {
     "Bottom Funnel is a globally dominant company having highly experienced joomla developers. Our joomla development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/joomlaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Joomla", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Joomla expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7379,12 +7530,18 @@ export const wooecommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced woocommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/woocommerceSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Woo commerce", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Woo commerce expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7510,12 +7667,18 @@ export const drupalData = {
     "Bottom Funnel is a globally dominant company having highly experienced drupal developers. Our drupal development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/drupalSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Drupal", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Drupal expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7642,12 +7805,18 @@ export const wixData = {
     "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/wixSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Wix", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Wix expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7794,12 +7963,18 @@ export const bigcommerceData = {
     "Bottom Funnel is a globally dominant company having highly experienced big-commerce developers. Our big-commerce development services can support you for all your different types of application development needs.",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/bigcommerceSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Big commerce", "developer"],
     description:
-      "Delivering on your business vision with quality .NET web development.",
+      "Bottom funnel offer you to hire professional Big commerce expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -7946,12 +8121,18 @@ export const GhostData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/ghostPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Ghost", "developer"],
     description:
-      "Delivering on your business vision with quality ghost website builder experts.",
+      "Bottom funnel offer you to hire professional Ghost expert developers on a contract and project basis with a risk-free 14-day trial.",
   },
   isDes: true,
   desData: {
@@ -8077,12 +8258,18 @@ export const WeeblyData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/weeblyPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Weebly", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Bottom funnel offer you to hire professional Weebly expert developers on a contract and project basis with a risk-free 14-day trial web hosting experts.",
   },
   isDes: true,
   desData: {
