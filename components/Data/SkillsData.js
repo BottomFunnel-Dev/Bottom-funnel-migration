@@ -2457,12 +2457,18 @@ export const zendData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/zendSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Zend", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Zend developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -2608,12 +2614,18 @@ export const gitData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/gitSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Git", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Git developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -2759,12 +2771,18 @@ export const cherryData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/cherrypySkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Cherrypy", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Cherrypy developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -2910,12 +2928,18 @@ export const cubaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/cubaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Cuba", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Cuba developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -3061,12 +3085,18 @@ export const echoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/echoSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Echo", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Echo developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -3212,12 +3242,18 @@ export const gorillaData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/gorillaSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Gorilla", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Gorilla developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -3363,12 +3399,18 @@ export const hanamiData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/hanamiSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Hanami", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Hanami developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -3514,12 +3556,18 @@ export const irisData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Direct access to resources",
+      "Agile development process",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/irisSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Iris", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Iris developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
@@ -3665,12 +3713,18 @@ export const padrinoData = {
     "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
   isBanner: true,
   BannerData: {
-    points: ["point 1", "point 2", "point 3"],
+    points: [
+      "Guaranteed 160 man-hours",
+      "Agile development process",
+      "Direct access to resources",
+      "Daily/Weekly/Monthly reporting",
+      "Flexible working hours",
+    ],
     icon: "/Images/skillsPhotos/padrinoSkillsPhotos/icon.webp",
     image: "/Images/skillsPhotos/banner.webp",
-    title: ["Hire", "Node.js", "developer"],
+    title: ["Hire", "Padrino", "developer"],
     description:
-      "Delivering on your business vision with quality Weebly website builder and web hosting experts.",
+      "Hire dedicated Padrino developers at a risk-free 14 days trial to build enterprise-grade software.",
   },
   isDes: true,
   desData: {
