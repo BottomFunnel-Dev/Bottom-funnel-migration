@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import "slick-carousel/slick/slick.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { store } from '../redux/store';
 import { Provider } from 'react-redux';
 export default function App({ Component, pageProps }) {
