@@ -30,11 +30,12 @@ export default function OnlinePaymentApplication() {
         }}
       />
       <OnlinePaymentAppSolutionBanner />
-      <OnlinePaymentExclusive />
+      {/* <OnlinePaymentExclusive /> */}
       <OnlinePaymentApplications />
       <OnlinePaymentAdminPannel />
       <OnlinePMobileBrowser />
       <OnlinePaymentWhyChoose />
+
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
