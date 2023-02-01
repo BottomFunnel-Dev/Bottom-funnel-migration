@@ -31,23 +31,27 @@ export const OnlinePaymentWhyChoose = () => {
     return (
         <div className={styles.onlinepaymentwhychoosemainbox}>
             <div className={styles.onlinepaymentwhychooseleftbox}>
-                <h1>Why Choose Us</h1>
-                <p>You take care of the video quality and we take care of everything else that you require</p>
+                <h1> Why Choose Us </h1>
+                <p>
+                    You take care of the video quality and we take care of everything else that you require
+                </p>
             </div>
 
-            <div className={styles.onlinepaymentwhychooserightbox}>{paymentwhychoosedata.map((e) => {
-                return (
-                    <div className={styles.onlinepaymentwhychoosemappingdata}>
-                        <div className={styles.onlinepaymentwhychooseusmappingdatalogo}>
-                            <img src={e.icon} alt="images" />
+            <div className={styles.onlinepaymentwhychooserightbox}>
+                {paymentwhychoosedata.map((e) => {
+                    return (
+                        <div className={styles.onlinepaymentwhychoosemappingdata}>
+                            <div className={styles.onlinepaymentwhychooseusmappingdatalogo}>
+                                <img src={e.icon} alt="images" />
+                            </div>
+
+                            <div className={styles.onlinepaymentwhychoosemappingdatatxt}>
+                                <h3>{e.htxt}</h3>
+                                <p>{e.stxt}</p>
+                            </div>
                         </div>
-                        <div className={styles.onlinepaymentwhychoosemappingdatatxt}>
-                            <h3>{e.htxt}</h3>
-                            <p>{e.stxt}</p>
-                        </div>
-                    </div>
-                )
-            })}
+                    )
+                })}
             </div>
         </div>
     );

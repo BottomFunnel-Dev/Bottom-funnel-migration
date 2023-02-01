@@ -24,7 +24,7 @@ export const SalesProduct = ({ saleProIn, saleProOut, scroll }) => {
             <Link
               onClick={saleProOut}
               style={{ width: "75%" }}
-              to={item.path}
+              href={item.path}
               className={prodstyle.productlinkP}
             >
               <h6>{item.dropContent}</h6>

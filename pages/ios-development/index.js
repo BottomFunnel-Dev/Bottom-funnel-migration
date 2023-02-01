@@ -32,8 +32,8 @@ export default function IOSAppDevelopment() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <IOSAppDevelopmentPageBanner />

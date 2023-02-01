@@ -43,15 +43,15 @@ export default function AspNet() {
       </Head>
 
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
         <WebdevBanner paraColor={"#393939"} bannerContent={aspnetBanner} />
         <Techstackintro techContent={aspstackIntro} />
         <WebDevServices webservicesContent={aspnetwebDevServices} />

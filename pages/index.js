@@ -15,10 +15,15 @@ import ContectForm from "../components/ContectForm/ContectForm";
 import { BannerFull } from "../components/mainSection/BannerFull";
 import Navbar from "../components/Navbar/Navbar";
 import Services from "../components/Services/Services";
-
+import { Head } from "next/document";
 export default function Home() {
   return (
     <>
+      {/* <Head>
+        <title>Bottom funnel service</title>
+        <meta name="description" content="Bottom funnel services" />
+      </Head> */}
+
       <Navbar
         productMount={{
           navMount: false,
@@ -35,9 +40,9 @@ export default function Home() {
       <Services />
       <Awards />
       <StoriesSection />
-      <Industries />
+      {/* <Industries /> */}
       <OndemandSection />
-      {/* <PortFolio/> */}
+      <PortFolio/>
       <PlanProject />
       <Companystats />
       <SeoblogSection />

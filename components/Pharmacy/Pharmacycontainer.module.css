@@ -54,3 +54,163 @@
   color: #ef4c23;
   background-color: white;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .szpharmacycontainer {
+    width: 100%;
+    height: 70vh;
+    /* background-color: aqua; */
+    margin-top: 15%;
+  }
+
+  .szpharmacysubcontainer {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 70%;
+    background: url("/Images/pharmacy/PharmacyDeliveryBanner.png");
+    background-repeat: no-repeat;
+    background-size: 90% 70%;
+    /* background-position: 10px ; */
+    color: white;
+    flex-direction: column-reverse;
+  }
+
+  .szpharmacyleft {
+    width: 90%;
+    /* background-color: chartreuse; */
+    position: relative;
+    /* padding: 100px 30px; */
+  }
+
+  .szpharmacyleft > div {
+    /* border: 1px solid rebeccapurple; */
+    color: black;
+    width: 100%;
+    /* padding: 30px 20px; */
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* top: 50%; */
+    /* left: 52%; */
+    /* z-index: 10; */
+  }
+
+  .szpharmacyleft > div > h1 {
+    /* border: 1px solid red; */
+    font-size: 30px;
+    margin-bottom: 0%;
+  }
+
+  .szpharmacyleft > div > h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .szpharmacyleft > div > p {
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+  }
+
+  .szpharmacybtn {
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 2%;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .szpharmacybtn:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .szpharmacycontainer {
+    width: 100%;
+    height: 35vh;
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+    /* margin-top: 6%; */
+  }
+  .szpharmacysubcontainer {
+    width: 100%;
+    height: 100%;
+    background: url("/Images/pharmacy/PharmacyDeliveryBanner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 7%;
+    /* background-position: 10px ; */
+    color: white;
+    display: flex;
+  }
+
+  .szpharmacyleft {
+    width: 50%;
+    /* background-color: chartreuse; */
+    position: relative;
+    /* padding: 100px 30px; */
+  }
+
+  .szpharmacyleft > div {
+    /* border: 1px solid red; */
+    color: black;
+    width: 90%;
+    padding: 30px 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 52%;
+    z-index: 10;
+    text-align: center;
+  }
+
+  .szpharmacyleft > div > h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 0%;
+  }
+
+  .szpharmacyleft > div > h2 {
+    font-size: 22px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .szpharmacyleft > div > p {
+    margin-top: 2%;
+    color: black;
+    margin-top: 3%;
+  }
+
+  .szpharmacybtn {
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 2%;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .szpharmacybtn:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+}

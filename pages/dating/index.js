@@ -33,7 +33,7 @@ import Head from "next/head";
 export default function Dating() {
   return (
     <div>
-     <Head>
+      <Head>
         <title>Dating Web App development | Bottom Funnel</title>
         <meta
           name="description"
@@ -43,36 +43,36 @@ export default function Dating() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <Datingcontainer />
-      <Trusted partnerLogo={datingLogo} />
-      <Datingbrands />
-      <Datingfeatures />
-      <Customerapp customerData={datingCustomer} />
-      <Adminpannel customerData={datingAdmin} />
-      <Datingmobile customerData={datingService}/>
-      {/* <Solutiondating /> */}
-      <Datingstart />
-      <DatingWhy />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <Datingcontainer />
+        <Trusted partnerLogo={datingLogo} />
+        <Datingbrands />
+        <Datingfeatures />
+        <Customerapp customerData={datingCustomer} />
+        <Adminpannel customerData={datingAdmin} />
+        <Datingmobile customerData={datingService} />
+        {/* <Solutiondating /> */}
+        <Datingstart />
+        <DatingWhy />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

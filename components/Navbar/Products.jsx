@@ -11,9 +11,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       <div className={prods.productDropdownSection}>
-        <div
-          className={prods.productDropdownContent}
-        >
+        <div className={prods.productDropdownContent}>
           <h5
             className={prods.noStyleMain}
             onClick={() => {
@@ -68,7 +66,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
         >
           <div
             className={prods.listItems}
-            style={{ width: "100%", margin: "11% 0" }}
+            style={{ width: "100%", margin: "13% 0" }}
           >
             {product2.map((item, i) => (
               <div
@@ -130,7 +128,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           >
             Platforms
           </h5>
-          <div className={prods.listItems}>
+          <div style={{marginTop:"6%"}} className={prods.listItems}>
             {product4.map((item, i) => (
               <div
                 key={i}
@@ -146,7 +144,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
                     className={prods.iconDivSection}
                     src={item.navIcons}
                     alt=""
-                    style={{ width: "30px"}}
+                    style={{ width: "30px" }}
                   />
                 </div>
                 <Link
@@ -174,7 +172,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               // navigate(`web-development`);
               serHoverOut();
             }}
-            style={{ color: "#ef4c23" ,paddingLeft:"35px"}}
+            style={{ color: "#ef4c23", paddingLeft: "35px" }}
           >
             Features
           </h5>
@@ -235,7 +233,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               columnGap: "5px",
             }}
           >
-            <img height="40px" src="Images/navbar/product/Neo.png" />
+            <img height="40px" src="/Images/navbar/product/Neo.png" />
             <h5> Bottom Funnel Neo</h5>
           </div>
           <p style={{ marginLeft: "5%" }}>
@@ -251,7 +249,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
               columnGap: "5px",
             }}
           >
-            <img src="Images/navbar/product/knowmore.png" />
+            <img src="/Images/navbar/product/knowmore.png" />
             <h5> Know more</h5>
           </div>
           <p>What's New?</p>

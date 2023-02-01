@@ -20,7 +20,7 @@ export const SalesFeature = ({ saleFeaIn, saleFeaOut, scroll }) => {
             }}
             className={salestyle.productFeatureData}
           >
-            <Link onClick={saleFeaOut} to={item.path} className={salestyle.productlinkP}>
+            <Link onClick={saleFeaOut} href={item.path} className={salestyle.productlinkP}>
               <p>{item.dropContent}</p>
             </Link>
           </div>

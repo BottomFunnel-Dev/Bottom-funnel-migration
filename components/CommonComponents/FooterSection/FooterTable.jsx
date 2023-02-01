@@ -14,37 +14,37 @@ const FooterTable = () => {
         </Link>
 
         <Link href={"/about-us"}>
-          <p>About Us</p>
+          <p className={styles.link_inner_css}>About Us</p>
         </Link>
         <Link href={"/about-us"}>
-          <p>Our Team</p>
+          <p className={styles.link_inner_css}>Our Team</p>
         </Link>
-        <Link href={"/"}>
-          <p>Career</p>
+        <Link href={"/career"}>
+          <p className={styles.link_inner_css}>Career</p>
         </Link>
         <Link href={"/contact-us"}>
-          <p>Contact us</p>
+          <p className={styles.link_inner_css}>Contact us</p>
         </Link>
         <Link href={"/client-reviews"}>
-          <p>Client reviews</p>
+          <p className={styles.link_inner_css}>Client reviews</p>
         </Link>
         <Link href={"/our-clients"}>
-          <p>Our Clients</p>
+          <p className={styles.link_inner_css}>Our Clients</p>
         </Link>
         <Link href={"/awards"}>
-          <p>Awards & Memberships</p>
+          <p className={styles.link_inner_css}>Awards & Memberships</p>
         </Link>
-        <Link href={"/"}>
-          <p>Press and media</p>
+        <Link href={"/press-and-media"}>
+          <p className={styles.link_inner_css}>Press and media</p>
         </Link>
-        <Link href={"/"}>
-          <p>Our Development Process</p>
+        <Link href={"/our-development-process"}>
+          <p className={styles.link_inner_css}>Our Development Process</p>
         </Link>
         <Link href={"/engagement"}>
-          <p>Engagement Modals</p>
+          <p className={styles.link_inner_css}>Engagement Modals</p>
         </Link>
         <Link href={"/"}>
-          <p>Our partners</p>
+          <p className={styles.link_inner_css}>Our partners</p>
         </Link>
       </div>
 
@@ -53,87 +53,87 @@ const FooterTable = () => {
           <p className = {styles.link_css}>Web Development</p>
         </Link>
         <Link href={"/php-development"}>
-          <p>PHP Development</p>
+          <p className={styles.link_inner_css}>PHP Development</p>
         </Link>
         <Link href={"/mern-stack"}>
-          <p>MERN Stack Development</p>
+          <p className={styles.link_inner_css}>MERN Stack Development</p>
         </Link>
         <Link href={"/mean-stack-development"}>
-          <p>MEAN Stack Development</p>
+          <p className={styles.link_inner_css}>MEAN Stack Development</p>
         </Link>
         <Link href={"/asp-net-development"}>
-          <p>ASP.NET Development</p>
+          <p className={styles.link_inner_css}>ASP.NET Development</p>
         </Link>
         <Link href={"/java-development"}>
-          <p>Java Develoment</p>
+          <p className={styles.link_inner_css}>Java Develoment</p>
         </Link>
         <Link href={"/python-development"}>
-          <p>Python Development</p>
+          <p className={styles.link_inner_css}>Python Development</p>
         </Link>
         <Link href={"/ruby-development"}>
-          <p>Ruby on Rails Development</p>
+          <p className={styles.link_inner_css}>Ruby on Rails Development</p>
         </Link>
         <Link href={"/golang-development"}>
-          <p>Golang Development</p>
+          <p className={styles.link_inner_css}>Golang Development</p>
         </Link>
         <Link href={"/javascript-development"}>
-          <p>Javascript Development</p>
+          <p className={styles.link_inner_css}>Javascript Development</p>
         </Link>
       </div>
 
       <div className={styles.innerTable}>
         <p className = {styles.link_css}>Mobile App Development</p>
         <Link href={"/android"}>
-          <p>Android App Development</p>
+          <p className={styles.link_inner_css}>Android App Development</p>
         </Link>
         <Link href={"/ios"}>
-          <p>IOS App Development</p>
+          <p className={styles.link_inner_css}>IOS App Development</p>
         </Link>
         <Link href={"/kotlin-development"}>
-          <p>Kotlin App Developement</p>
+          <p className={styles.link_inner_css}>Kotlin App Developement</p>
         </Link>
         <Link href={"/flutter"}>
-          <p>Flutter App Development</p>
+          <p className={styles.link_inner_css}>Flutter App Development</p>
         </Link>
         <Link href={"/reactNative"}>
-          <p> React Native App Development</p>
+          <p className={styles.link_inner_css}> React Native App Development</p>
         </Link>
-        <Link href={"/Xamarin-Development"}>
-          <p>Xamarin App Development</p>
+        <Link href={"/xamarin-Development"}>
+          <p className={styles.link_inner_css}>Xamarin App Development</p>
         </Link>
         <Link href={"/iconic"}>
-          <p>Ionic App Development</p>
+          <p className={styles.link_inner_css}>Ionic App Development</p>
         </Link>
         <Link href={"/wearable-app-development"}>
-          <p>Wearable App Developement</p>
+          <p className={styles.link_inner_css}>Wearable App Developement</p>
         </Link>
         <Link href={"/mobile-user-experience"}>
-          <p>Mobile UX/UI</p>
+          <p className={styles.link_inner_css}>Mobile UX/UI</p>
         </Link>
       </div>
 
       <div className={styles.innerTable}>
         <p className = {styles.link_css}> Digital Marketing Services </p>
         <Link href={"/seo"}>
-          <p>Seo Services</p>
+          <p className={styles.link_inner_css}>Seo Services</p>
         </Link>
         <Link href={"/local-seo"}>
-          <p>Local Seo Services</p>
+          <p className={styles.link_inner_css}>Local Seo Services</p>
         </Link>
         <Link href={"/seo-sem"}>
-          <p>SEM Services</p>
+          <p className={styles.link_inner_css}>SEM Services</p>
         </Link>
         <Link href={"/seo-ppc"}>
-          <p>PPC Management Services</p>
+          <p className={styles.link_inner_css}>PPC Management Services</p>
         </Link>
         <Link href={"/seo-guest-post"}>
-          <p> Guest Posting Services</p>
+          <p className={styles.link_inner_css}> Guest Posting Services</p>
         </Link>
         <Link href={"/seo-link-building"}>
-          <p> Link Building Services</p>
+          <p className={styles.link_inner_css}> Link Building Services</p>
         </Link>
         <Link href={"/emailservices"}>
-          <p>Email Marketing Services</p>
+          <p className={styles.link_inner_css}>Email Marketing Services</p>
         </Link>
       </div>
     </div>

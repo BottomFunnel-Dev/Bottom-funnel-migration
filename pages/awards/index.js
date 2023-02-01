@@ -21,8 +21,8 @@ export default function Awards  () {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <AwardsBanner />

@@ -26,7 +26,7 @@ import * as ReactAnimation from "../../public/webdevanimation/Mern.json"
 export default function MernPageWebDevelopment() {
   return (
     <div style={{ color: "#393939" }}>
-   <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}

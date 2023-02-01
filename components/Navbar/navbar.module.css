@@ -84,7 +84,7 @@
 .callToAction {
   background-color: #ef4c23;
   color: white;
-  padding: 10px 25px;
+  padding: 6px 23px;
   border-radius: 25px;
   font-weight: 600;
   margin: 0 5px;
@@ -817,27 +817,29 @@
   } */
 }
 
-/* Media Query for low resolution  Tablets, Ipads */
+/* media query for the tabs and ipad air */
 
-/* @media (min-width: 481px) and (max-width: 1024px) {
+
+/* @media (min-width: 480px) and (max-width: 1024px){
   .navbarSection {
     background: #ef4c23;
     justify-content: space-between;
     padding: 0 20px;
     height: 60px;
+    top: 0 !important;
   }
 
   .logoSection {
-    width: 145px;
+    width: 130px;
   }
 
   .dropdownBar {
-    position: fixed;
+    position: static;
     top: 60px;
-    left: -100%;
     flex-direction: column;
     width: 100%;
     background-color: green;
+    display: none;
   }
 
   .dropdownBar > div li {
@@ -868,47 +870,19 @@
     color: white;
   }
 
-  .callToAction {
-    padding: 7px !important;
-    margin: 5px !important;
-    width: 150px;
-    text-align: center;
+  .mobDown {
   }
+
+  .mobDown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    top: 60px;
+    background: green;
+    left: 0;
+  }
+  
+  
 } */
-
-/* Media Query for Tablets Ipads portrait mode */
-
-@media (min-width: 768px) and (max-width: 1024px) {
-}
-
-/* Media Query for Laptops and Desktops */
-
-/* @media (min-width: 1025px) and (max-width: 1280px) {
-  .navbarSection {
-    background: #ef4c23;
-    justify-content: space-between;
-    padding: 0 30px;
-  }
-
-  .logoSection {
-    width: 150px;
-    height: 50%;
-    margin-top: 4px;
-  }
-
-  .dropdownBar {
-    width: 78%;
-  }
-
-  .dropdownBar > div li {
-    font-size: 14px;
-  }
-
-  .callToAction {
-    padding: 5px 10px;
-    margin: 0;
-    font-size: 15px;
-  }
-} */
-
-/* Media Query for Large screens */

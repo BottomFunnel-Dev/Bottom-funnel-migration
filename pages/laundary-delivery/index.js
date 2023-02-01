@@ -27,7 +27,7 @@ export default function LaundryPage() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

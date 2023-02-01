@@ -3,7 +3,7 @@ import Navbar from "../../Navbar/Navbar";
 import styles from "./SkillsComBanner.module.css";
 
 export const SkillsComBanner = ({ data }) => {
-  const { image, title, description } = data;
+  const { image, title, description, icon, points } = data;
 
   return (
     <>
@@ -12,8 +12,8 @@ export const SkillsComBanner = ({ data }) => {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <div
@@ -22,14 +22,22 @@ export const SkillsComBanner = ({ data }) => {
           background: `url(${image})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "100% 100%",
         }}
       >
         <div className={styles.skillsbannercontent}>
-          <h1 className={styles.skillsbannercontenth1}>{title}</h1>
-          <p className={styles.skillsbannercontentp}>{description}</p>
+          <h1>
+            {title[0]} <span>{title[1]}</span> {title[2]}
+          </h1>
+          <p>{description}</p>
+          <ul>
+            {points.map((elem) => (
+              <li key={elem}>{elem}</li>
+            ))}
+          </ul>
+          <button>Get Started</button>
         </div>
-        <button className={styles.skillsbannermainbutton}>Get Started</button>
+        <img src={icon} alt={icon} />
       </div>
     </>
   );

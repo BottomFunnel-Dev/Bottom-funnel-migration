@@ -18,12 +18,12 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function MeatDelivery() {
   return (
     <div>
- <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

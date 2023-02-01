@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import { EventsBanner } from '../../components/EventPage/EventsBanner';
-import { EventsDevelopment } from '../../components/EventPage/EventsDevelopment';
-import { EventsDevservices } from '../../components/EventPage/EventsDevservices';
-import { EventsProvidedServices } from '../../components/EventPage/EventsProvidedServices';
-import { EventsFeatures } from '../../components/EventPage/EventsFeatures';
+import { EventsBanner } from "../../components/EventPage/EventsBanner";
+import { EventsDevelopment } from "../../components/EventPage/EventsDevelopment";
+import { EventsDevservices } from "../../components/EventPage/EventsDevservices";
+import { EventsProvidedServices } from "../../components/EventPage/EventsProvidedServices";
+import { EventsFeatures } from "../../components/EventPage/EventsFeatures";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -30,34 +30,34 @@ const index = () => {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <EventsBanner />
-      <EventsDevelopment />
-      <EventsDevservices />
-      <EventsProvidedServices />
-      <EventsFeatures />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <EventsBanner />
+        <EventsDevelopment />
+        <EventsDevservices />
+        <EventsProvidedServices />
+        <EventsFeatures />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;

@@ -1,7 +1,7 @@
 .marketplacebannerimage {
   background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
   height: 85vh;
-  width: 99%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
@@ -71,15 +71,15 @@
 
   .marketplacebannerimageinsideboxtext > h1 {
     font-size: 14px;
-    width: 90%;
+    width: 85%;
     font-weight: 600px;
     margin-bottom: 0%;
   }
 
   .marketplacebannerimageinsideboxtext > p {
-    font-size: 10px;
+    font-size: 9px;
     font-weight: 500;
-    width: 80%;
+    width: 70%;
     margin-top: 2%;
   }
 
@@ -104,15 +104,15 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .marketplacebannerimage {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
-    height: 40vh;
+    height: 38vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
     /* margin-top: 120px;    */
-    margin-top: 16%;
+    margin-top: 15%;
     position: relative;
   }
 

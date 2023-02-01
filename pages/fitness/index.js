@@ -41,7 +41,7 @@ export default function Fintess ()  {
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

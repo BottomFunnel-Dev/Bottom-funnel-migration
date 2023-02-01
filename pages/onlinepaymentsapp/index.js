@@ -20,21 +20,22 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function OnlinePaymentApplication() {
   return (
     <div>
- <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
       <OnlinePaymentAppSolutionBanner />
-      <OnlinePaymentExclusive />
+      {/* <OnlinePaymentExclusive /> */}
       <OnlinePaymentApplications />
       <OnlinePaymentAdminPannel />
       <OnlinePMobileBrowser />
       <OnlinePaymentWhyChoose />
+
       {/* Other react required components  */}
       <StoriesSection />
       <OndemandSection />
@@ -47,4 +48,4 @@ export default function OnlinePaymentApplication() {
       <MainFooter />
     </div>
   );
-};
+}

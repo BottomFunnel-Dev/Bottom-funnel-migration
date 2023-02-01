@@ -1,8 +1,6 @@
 .selfServicesCustomerAnswerInnerDiv {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
-  /* height: 40px; */
   justify-content: center;
   align-items: center;
   width: 90%;
@@ -13,21 +11,20 @@
 }
 
 .selfServicesCustomerAnswerContentDiv {
-  /* border: 1px solid red; */
   width: 50%;
 }
 
-.selfServicesCustomerAnswerContentDiv > p {
+.selfServicesCustomerAnswerContentDiv>p {
   width: 85%;
 }
 
-.selfServicesCustomerAnswerImageDiv > img {
+.selfServicesCustomerAnswerImageDiv>img {
   width: 90%;
   margin-left: 4%;
   object-fit: cover;
 }
 
-.selfServicesCustomerAnswerContentDiv > button {
+.selfServicesCustomerAnswerContentDiv>button {
   outline: none;
   border: none;
   width: 20%;
@@ -35,7 +32,45 @@
   border-radius: 7px;
 }
 
-.selfServicesCustomerAnswerContentDiv > button:hover {
+.selfServicesCustomerAnswerContentDiv>button:hover {
   background-color: #ef4c23;
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .selfServicesCustomerAnswerInnerDiv {
+    flex-direction: column-reverse;
+  }
+
+  .selfServicesCustomerAnswerContentDiv {
+    width: 95%;
+    text-align: center;
+  }
+
+  .selfServicesCustomerAnswerContentDiv>h1 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .selfServicesCustomerAnswerContentDiv>p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 20px;
+  }
+
+  .selfServicesCustomerAnswerContentDiv>button {
+    font-size: 12px;
+    height: fit-content;
+    width: fit-content;
+    padding: 8px 20px;
+  }
+
+  .selfServicesCustomerAnswerImageDiv {
+    width: 95%;
+  }
+
+  .selfServicesCustomerAnswerInnerDiv:last-child {
+    flex-direction: column;
+    margin-top: 20px;
+  }
 }

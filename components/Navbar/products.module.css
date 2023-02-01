@@ -40,9 +40,9 @@
   border: 2px solid red;
   cursor: pointer;
   /* text-decoration: underline; */
-  margin: 5% auto;
+  margin: 0% auto;
   background-color: white;
-  width: 52%;
+  width: 65%;
   color: #ef4c23;
   padding: 7px;
   border-radius: 5px;
@@ -61,13 +61,10 @@
   box-sizing: border-box;
   border-left: 3px solid white;
   column-gap: 8px;
-  margin-bottom: 15px;
-  /* border: 2px solid red; */
-/* justify-content: center; */
+  padding: 5px;
+
 }
-/* .productimageIconDivSection:hover{
-    border-left: 3px solid #ef4c23;
-  } */
+
 .productimageIconDivSection:hover {
   /* border-left: 3px solid #ef4c23 */
   margin-top: 0;
@@ -119,7 +116,7 @@
 
 .hoveringDiv {
   /* border: 2px solid gold; */
-  padding: 0%;
+  padding: 5%;
 }
 
 .productLogoImages {
@@ -155,7 +152,64 @@
   cursor: pointer;
 }
 
+.listItems {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 8px;
+  /* border: 2px solid salmon; */
+}
+
 @media (max-width: 480px) {
+  .productVisible {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+  
+    height: 470px;
+    position: static;
+    overflow-y: scroll;
+    
+  }
+
+  .productDropdownSection {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+  }
+
+  .productDropdownContent {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-left: 0;
+    padding-top: 0;
+  }
+
+  .viewAllButton {
+    cursor: pointer;
+    margin: 10% auto;
+    background-color: white;
+    width: 52%;
+    color: #ef4c23;
+    padding: 7px;
+    border-radius: 5px;
+    /* text-align: center; */
+    border: 1px solid #ef4c23;
+  }
+
+  .productimageIconDivSection > div {
+    width: 11%;
+  }
+
+}
+@media (min-width: 480px) and (max-width: 1024px) {
   .productVisible {
     display: flex;
     width: 100%;

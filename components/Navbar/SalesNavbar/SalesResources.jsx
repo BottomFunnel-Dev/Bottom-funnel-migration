@@ -20,7 +20,7 @@ export const SalesResources = ({ saleResIn, saleResOut, scroll }) => {
             }}
             className={stylesale.saleResourceData}
           >
-            <Link onClick={saleResOut} to={item.path} className={stylesale.productlinkP}>
+            <Link onClick={saleResOut} href={item.path} className={stylesale.productlinkP}>
               <p>{item.dropContent}</p>
             </Link>
           </div>

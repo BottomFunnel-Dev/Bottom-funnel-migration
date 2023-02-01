@@ -1,25 +1,19 @@
+.salesOuterDiv{
+    /* border: 2px solid red; */
+}
 .SaleSmarterdiv{
     /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
-    /* width: 100%; */
-    margin-top: 5%;
-    /* margin: auto; */
-
-
 }
 .SaleSmarterinnerdiv{
     /* border: 2px solid green; */
     width: 20%;
-    height: 575px;
+    height: 750px;
     text-align: center;
     margin: auto;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* margin-top: 2%; */
-
-
-
 }
 .SaleSmarterinnerdiv:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -28,11 +22,11 @@
     background-color: black;
     color: white;
     text-align: center;
- padding-top: 3%;
-    height: 50px;
+    /* padding-top: 3%; */
+    /* height: 50px; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-   
+    border: 1px solid black;
 }
 .SaleSmarterparagrafdiv{
     border-bottom: 1px solid #ef4c23;
@@ -83,7 +77,7 @@
  .SaleSmarterdivupperheading{
     /* border: 2px solid yellow; */
     text-align: center;
-    margin-top: 6%;
+    /* margin-top: 6%; */
  }
  .SaleSmartertext{
     text-decoration: underline;

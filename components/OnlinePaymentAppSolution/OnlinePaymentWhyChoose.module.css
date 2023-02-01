@@ -61,3 +61,151 @@
 .onlinepaymentwhychoosemappingdatatxt > p {
   margin-top: 1%;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .onlinepaymentwhychoosemainbox {
+    height: fit-content;
+    flex-direction: column;
+    padding-top: 3%;
+    margin-bottom: 5%;
+    background-color: white;
+  }
+
+  .onlinepaymentwhychooseleftbox {
+    height: fit-content;
+    width: 95%;
+    margin-top: 5%;
+    text-align: center;
+    /* margin-left: 3%; */
+  }
+
+  .onlinepaymentwhychooserightbox {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .onlinepaymentwhychoosemappingdata {
+    width: 95%;
+    /* height: 150px; */
+    margin: 2%;
+    /* display: flex; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* padding: 10px; */
+    border-radius: 10px;
+  }
+
+  .onlinepaymentwhychoosemappingdata:hover {
+    transform: scale(1.02);
+    /* background-color: #ceb8f3; */
+  }
+
+  .onlinepaymentwhychooseusmappingdatalogo {
+    height: 50%;
+    width: 30%;
+    margin-top: 3%;
+  }
+
+  .onlinepaymentwhychooseusmappingdatalogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+  }
+
+  .onlinepaymentwhychoosemappingdatatxt {
+    /* border: 1px solid red; */
+    margin-left: 1%;
+    text-align: justify;
+  }
+
+  .onlinepaymentwhychoosemappingdatatxt > h3 {
+    /* border: 1px solid red; */
+    font-weight: 400;
+    margin-left: 4%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .onlinepaymentwhychoosemappingdatatxt > p {
+    margin-top: 1%;
+    margin-left: 3%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .onlinepaymentwhychoosemainbox {
+    height: fit-content;
+    display: flex;
+    padding-top: 3%;
+    margin-bottom: 5%;
+    background-color: white;
+  }
+
+  .onlinepaymentwhychooseleftbox {
+    height: fit-content;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+
+  .onlinepaymentwhychooseleftbox > h1 {
+    font-size: 30px;
+  }
+
+  .onlinepaymentwhychooserightbox {
+    height: fit-content;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .onlinepaymentwhychoosemappingdata {
+    width: 46%;
+    /* height: 150px; */
+    margin: 2%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* padding: 10px; */
+    border-radius: 10px;
+  }
+
+  .onlinepaymentwhychoosemappingdata:hover {
+    transform: scale(1.02);
+    /* background-color: #ceb8f3; */
+  }
+
+  .onlinepaymentwhychooseusmappingdatalogo {
+    height: 40%;
+    width: 80%;
+  }
+
+  .onlinepaymentwhychooseusmappingdatalogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 5px;
+  }
+
+  .onlinepaymentwhychoosemappingdatatxt {
+    margin-left: 3%;
+    text-align: justify;
+  }
+
+  .onlinepaymentwhychoosemappingdatatxt > h3 {
+    /* border: 1px solid red; */
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 4%;
+  }
+
+  .onlinepaymentwhychoosemappingdatatxt > p {
+    margin-top: 1%;
+    font-size: 12px;
+  }
+}

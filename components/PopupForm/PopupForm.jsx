@@ -15,7 +15,7 @@ import { interested, budget, countrycodes } from "../ContectForm/countrycode";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export const PopupForm = ( {formStyle}) => {
+export const PopupForm = ({ formStyle }) => {
   const form = useRef();
 
   const serviceID = "service_219qjzb";
