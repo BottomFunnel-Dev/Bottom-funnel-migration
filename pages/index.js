@@ -35,12 +35,12 @@ export default function Home() {
       />
 
       <BannerFull />
-      {/* <CompanyLogo />
+      <CompanyLogo />
       <About />
       <Services />
       <Awards />
       <StoriesSection />
-      <Industries />
+      {/* <Industries /> */}
       <OndemandSection />
       <PlanProject />
       <Companystats />
@@ -48,7 +48,7 @@ export default function Home() {
       <Revamping />
       <TextDropdown />
       <ContectForm />
-      <MainFooter /> */}
+      <MainFooter />
     </>
   );
 }
