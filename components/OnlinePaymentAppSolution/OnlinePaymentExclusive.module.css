@@ -49,3 +49,143 @@
   width: 100%;
   object-fit: contain;
 }
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .onlinepaymentexclusivemainboxes {
+    /* border: 1px solid red; */
+    height: 400px;
+    background-color: white;
+    margin-top: 35%;
+  }
+
+  .onlinepaymentexclusivemainboxes > h1 {
+    margin-left: 6%;
+  }
+
+  .onlinepaymentexclusivemappingbox {
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .specialcolor {
+    color: #ef4c23;
+  }
+
+  .onlinepaymenth4typetext > h4 {
+    font-size: 20px;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisually {
+    width: 100%;
+    height: fit-content;
+    transition: 0.2s ease-in-out;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisually:hover {
+    transform: scale(1.02);
+    background-color: #ceb8f3;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisuallyforlogo {
+    height: 20%;
+    width: 20%;
+    margin-bottom: 0%;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisuallyforlogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  /* .onlinepaymenth4typetext {
+    border: 1px solid red;
+  } */
+
+  .onlinepaymenth4typetext > h4 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .onlinepaymenth4typetext > p {
+    margin-top: 1%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .onlinepaymentexclusivemainboxes {
+    /* border: 1px solid black; */
+    height: fit-content;
+    background-color: white;
+  }
+
+  .onlinepaymentexclusivemainboxes > h1 {
+    margin-left: 6%;
+  }
+
+  .onlinepaymentexclusivemappingbox {
+    /* border: 1px solid red; */
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .specialcolor {
+    color: #ef4c23;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisually {
+    /* border: 1px solid rebeccapurple; */
+    width: 40%;
+    height: 300px;
+    margin: 1%;
+    transition: 0.2s ease-in-out;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisually:hover {
+    transform: scale(1.02);
+    background-color: #ceb8f3;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisuallyforlogo {
+    height: 20%;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 0%;
+  }
+
+  .onlinepaymentexclusivemappingboxindivisuallyforlogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .onlinepaymenth4typetext > h4 {
+    font-size: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .onlinepaymenth4typetext > p {
+    margin-top: 2%;
+  }
+}

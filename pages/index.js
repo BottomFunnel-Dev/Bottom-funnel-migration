@@ -40,7 +40,7 @@ export default function Home() {
       <Services />
       <Awards />
       <StoriesSection />
-      <Industries />
+      {/* <Industries /> */}
       <OndemandSection />
       <PortFolio/>
       <PlanProject />

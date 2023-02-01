@@ -15,6 +15,7 @@ export const OnlinePaymentAdminPannel = () => {
             xtt: "Froud & Risk Management",
         },
     ]
+
     return (
         <div className={styles.onlinepaymentadminpannelmainbox}>
             <div className={styles.onlinepaymentadminpannelleftbox}>
@@ -32,7 +33,7 @@ export const OnlinePaymentAdminPannel = () => {
                             </svg>
 
                             <div className={styles.onlinepaymentadminpannelmappertxtallign}>
-                                <h4>{e.xtt}</h4>
+                                <h4> {e.xtt} </h4>
                             </div>
                         </div>
                     )

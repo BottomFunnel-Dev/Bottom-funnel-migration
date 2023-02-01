@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from "./OnlinePaymentExclusive.module.css"
+import React from 'react';
+import styles from "./OnlinePaymentExclusive.module.css";
 
 export const OnlinePaymentExclusive = () => {
 
@@ -55,8 +55,9 @@ export const OnlinePaymentExclusive = () => {
                                 <img src={e.icon} alt='icon' />
                             </div>
 
-                            <div className={styles.onlinepaymenth4typetext}><h4>{e.htxt}</h4>
-                                <p>{e.stxt}</p>
+                            <div className={styles.onlinepaymenth4typetext}>
+                                <h4> {e.htxt} </h4>
+                                <p> {e.stxt} </p>
                             </div>
                         </div>
                     )

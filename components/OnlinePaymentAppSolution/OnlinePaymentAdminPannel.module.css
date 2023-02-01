@@ -3,6 +3,7 @@
   background-color: white;
   display: flex;
 }
+
 .onlinepaymentadminpannelleftbox {
   width: 40%;
   height: 60%;
@@ -78,4 +79,187 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .onlinepaymentadminpannelmainbox {
+    height: fit-content;
+    background-color: white;
+    margin-top: 5%;
+    flex-direction: column-reverse;
+  }
+
+  .onlinepaymentadminpannelleftbox {
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+  }
+
+  .onlinepaymentadminpanneltxtbox {
+    height: fit-content;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  .onlinepaymentadminpanneltxtbox > h1 {
+    font-size: 32px;
+  }
+
+  .specialcolor {
+    color: #ef4c23;
+  }
+
+  .onlinepaymentadminmappingdata {
+    /* border: 1px solid red; */
+    height: 80%;
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .onlinepaymentadminpannelaftermapping {
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+    margin-top: 2%;
+    height: 50px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .onlinepaymentadminpannelaftermapping:hover {
+    transform: scale(1.02);
+    background-color: #cdfcf6;
+  }
+
+  .onlinepaymentadminpannelmappertxtallign {
+    height: fit-content;
+  }
+
+  .onlinepaymentadminpannelmappertxtallign > h4 {
+    margin-top: 4%;
+    padding-top: 7px;
+    padding-left: 10px;
+    /* margin-left: 2%; */
+  }
+
+  .onlinepaymentadminpannelaftermapping > svg {
+    color: #cdfcf6;
+    margin-top: 3%;
+    /* margin-left: 3%; */
+  }
+
+  .onlinepaymentadminpannelrightbox {
+    height: 300px;
+    width: 100%;
+    background: url("/Images/onlinepaymentpage/Vector.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+  }
+
+  .onlinepaymentadminpannelrightboxchangerimages {
+    height: 80%;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .onlinepaymentadminpannelrightboxchangerimages > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .onlinepaymentadminpannelmainbox {
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    margin-top: 3%;
+  }
+
+  .onlinepaymentadminpannelleftbox {
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 60%;
+    margin: 0% 5% 0% 3%;
+    position: relative;
+  }
+
+  .onlinepaymentadminpanneltxtbox {
+    height: fit-content;
+  }
+
+  .onlinepaymentadminpanneltxtbox > h1 {
+    font-size: 28px;
+  }
+
+  .specialcolor {
+    color: #ef4c23;
+  }
+
+  .onlinepaymentadminmappingdata {
+    height: 80%;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .onlinepaymentadminpannelaftermapping {
+    height: 40px;
+    display: flex;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .onlinepaymentadminpannelaftermapping:hover {
+    transform: scale(1.02);
+    background-color: #cdfcf6;
+  }
+
+  .onlinepaymentadminpannelmappertxtallign {
+    height: fit-content;
+  }
+
+  .onlinepaymentadminpannelmappertxtallign > h4 {
+    margin-top: 0%;
+    padding-top: 7px;
+    padding-left: 10px;
+    /* margin-left: 2%; */
+  }
+
+  .onlinepaymentadminpannelaftermapping > svg {
+    color: #cdfcf6;
+    margin-top: 3%;
+    /* margin-left: 3%; */
+  }
+
+  .onlinepaymentadminpannelrightbox {
+    height: 400px;
+    width: 50%;
+    background: url("/Images/onlinepaymentpage/Vector.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+  }
+
+  .onlinepaymentadminpannelrightboxchangerimages {
+    height: 80%;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .onlinepaymentadminpannelrightboxchangerimages > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
 }
