@@ -22,7 +22,7 @@ export const TopTickets = () => {
       <h1>Stay on top of your tickets</h1>
       <div>
         {cardsData.map(({ title, description, image }) => (
-          <div className={styles.topTicketsMain}>
+          <div className={styles.topTicketsMain} key={title}>
             <div>
               <h2>{title}</h2>
               <p>{description}</p>
