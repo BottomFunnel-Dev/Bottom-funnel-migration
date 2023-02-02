@@ -8,7 +8,8 @@
   background-origin: border-box;
   position: relative;
 }
-.newAbout > img {
+
+.newAbout>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -19,13 +20,15 @@
   padding: 20px;
   margin-left: 30px;
 }
-.aboutContent > h1 {
+
+.aboutContent>h1 {
   color: #ef4c23;
   font-size: 40px;
   margin: 5px;
   width: 870px;
 }
-.aboutContent > p {
+
+.aboutContent>p {
   color: #6f6e6d;
   font-size: 16px;
 }
@@ -34,18 +37,22 @@
   text-align: center;
   border-radius: 25px;
 }
-.aboutStats > img {
+
+.aboutStats>img {
   width: 50px;
 }
-#aboutStats1 > img {
+
+#aboutStats1>img {
   width: 50px;
   margin-right: 10px;
 }
-#aboutStats2 > img {
+
+#aboutStats2>img {
   width: 50px;
   margin-right: 23px;
 }
-#aboutStats2 > p {
+
+#aboutStats2>p {
   margin-right: 23px;
 }
 
@@ -54,33 +61,40 @@
   bottom: 0%;
   left: 13%;
 }
+
 #aboutStats2 {
   position: absolute;
-  bottom: 22%;
+  bottom: 16%;
   left: 44%;
 }
+
 #aboutStats3 {
   position: absolute;
   top: 10%;
   right: 8%;
 }
-.aboutStats > h1 {
+
+.aboutStats>h1 {
   font-size: 60px;
   color: #ef4c23;
   text-align: center;
-  margin: 3% 0;
+  margin: 0;
 }
-.aboutStats > p {
+
+.aboutStats>p {
   font-size: 18px;
   font-weight: 500;
   color: #6f6e6d;
+  margin: 3% 0 0;
 }
-#aboutStats2 > h1 {
+
+#aboutStats2>h1 {
   font-size: 90px;
   color: #ef4c23;
   text-align: center;
 }
-#aboutStats2 > p {
+
+#aboutStats2>p {
   font-size: 18px;
   font-weight: 500;
 }
@@ -103,18 +117,20 @@
     margin: 0;
     box-sizing: border-box;
   }
-  .aboutContent > h1 {
+
+  .aboutContent>h1 {
     color: #ef4c23;
     font-size: 20px;
     margin: 5px auto;
     width: fit-content;
   }
-  .aboutContent > p {
+
+  .aboutContent>p {
     color: #6f6e6d;
     font-size: 12px;
     width: 100%;
     text-align: center;
-    
+
 
   }
 
@@ -128,40 +144,50 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   }
-  .aboutStats > img {
+
+  .aboutStats>img {
     width: 50px;
   }
-  #aboutStats1 > img {
+
+  #aboutStats1>img {
     width: 50px;
     margin-right: 10px;
   }
-  #aboutStats2 > img {
+
+  #aboutStats2>img {
     width: 50px;
     margin-right: 23px;
   }
-  #aboutStats2 > p {
+
+  #aboutStats2>p {
     margin-right: 14px;
   }
 
   #aboutStats1 {
     position: static;
   }
-  #aboutStats1 > img {
+
+  #aboutStats1>img {
     display: none;
   }
+
   #aboutStats2 {
     position: static;
   }
-  #aboutStats2 > img {
+
+  #aboutStats2>img {
     display: none;
   }
+
   #aboutStats3 {
     position: static;
   }
-  #aboutStats3 > img {
+
+  #aboutStats3>img {
     display: none;
   }
-  .aboutStats > h1 {
+
+  .aboutStats>h1 {
     position: static;
     margin: 0;
     line-height: 20px;
@@ -169,7 +195,8 @@
     color: #ef4c23;
     text-align: center;
   }
-  .aboutStats > p {
+
+  .aboutStats>p {
     font-size: 14px;
     margin: 0;
 
@@ -177,12 +204,14 @@
     color: #6f6e6d;
     position: static;
   }
-  #aboutStats2 > h1 {
+
+  #aboutStats2>h1 {
     font-size: 20px;
     color: #ef4c23;
     text-align: center;
   }
-  #aboutStats2 > p {
+
+  #aboutStats2>p {
     font-size: 14px;
     font-weight: 500;
   }
@@ -200,7 +229,8 @@
     background-origin: border-box;
     position: relative;
   }
-  .newAbout > img {
+
+  .newAbout>img {
     width: 90%;
     height: 70%;
     object-fit: contain;
@@ -211,13 +241,15 @@
     padding: 20px;
     margin-left: 30px;
   }
-  .aboutContent > h1 {
+
+  .aboutContent>h1 {
     color: #ef4c23;
     font-size: 20px;
     margin: 5px;
     width: fit-content;
   }
-  .aboutContent > p {
+
+  .aboutContent>p {
     color: #6f6e6d;
     font-size: 12px;
     width: 100%;
@@ -228,18 +260,22 @@
     text-align: center;
     border-radius: 25px;
   }
-  .aboutStats > img {
+
+  .aboutStats>img {
     width: 50px;
   }
-  #aboutStats1 > img {
+
+  #aboutStats1>img {
     width: 50px;
     margin-right: 10px;
   }
-  #aboutStats2 > img {
+
+  #aboutStats2>img {
     width: 50px;
     margin-right: 23px;
   }
-  #aboutStats2 > p {
+
+  #aboutStats2>p {
     margin-right: 14px;
   }
 
@@ -248,24 +284,28 @@
     bottom: 3%;
     left: 15%;
   }
+
   #aboutStats2 {
     position: absolute;
     bottom: 15%;
     left: 44%;
   }
+
   #aboutStats3 {
     position: absolute;
     top: 10%;
     right: 15%;
   }
-  .aboutStats > h1 {
+
+  .aboutStats>h1 {
     font-size: 20px;
     color: #ef4c23;
     text-align: center;
     z-index: -1;
     top: 5%;
   }
-  .aboutStats > p {
+
+  .aboutStats>p {
     font-size: 14px;
 
     font-weight: 500;
@@ -273,12 +313,14 @@
     position: absolute;
     margin-top: -20%;
   }
-  #aboutStats2 > h1 {
+
+  #aboutStats2>h1 {
     font-size: 40px;
     color: #ef4c23;
     text-align: center;
   }
-  #aboutStats2 > p {
+
+  #aboutStats2>p {
     font-size: 14px;
     font-weight: 500;
   }
