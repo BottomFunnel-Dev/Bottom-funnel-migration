@@ -42,6 +42,7 @@ export default function Home() {
       <StoriesSection />
       {/* <Industries /> */}
       <OndemandSection />
+      <PortFolio/>
       <PlanProject />
       <Companystats />
       <SeoblogSection />
