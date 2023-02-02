@@ -84,7 +84,7 @@
 .callToAction {
   background-color: #ef4c23;
   color: white;
-  padding: 10px 25px;
+  padding: 6px 23px;
   border-radius: 25px;
   font-weight: 600;
   margin: 0 5px;
@@ -820,7 +820,7 @@
 /* media query for the tabs and ipad air */
 
 
-@media (min-width: 480px) and (max-width: 1024px){
+/* @media (min-width: 480px) and (max-width: 1024px){
   .navbarSection {
     background: #ef4c23;
     justify-content: space-between;
@@ -871,7 +871,6 @@
   }
 
   .mobDown {
-    /* display: none; */
   }
 
   .mobDown {
@@ -886,4 +885,4 @@
   }
   
   
-}
+} */

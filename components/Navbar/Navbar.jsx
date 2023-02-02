@@ -244,7 +244,7 @@ const Navbar = ({ navredux, productMount }) => {
             </button>
             <button
               className={navstyle.callToAction}
-            // onClick={() => router.push("/Apply-new-talent")}
+            onClick={() => router.push("/apply-as-talent")}
             >
               Apply as a Talent
             </button>
