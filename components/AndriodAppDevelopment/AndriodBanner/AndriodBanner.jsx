@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./AndriodBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/android.json";
+import * as reactAnimation from "../../../public/Animation/ios.json";
 import Lottie from "react-lottie";
 
 
 export const AndriodBanner = () => {
-  
+
   const lottieDefaultOptions = {
     loop: true,
     autoplay: true,
@@ -26,7 +26,7 @@ export const AndriodBanner = () => {
         </div>
 
         <div className={styles.androidIcon}>
-        <Lottie options={lottieDefaultOptions} width={400} height={500} />
+          <Lottie options={lottieDefaultOptions} width={400} height={500} />
         </div>
       </div>
     </>
