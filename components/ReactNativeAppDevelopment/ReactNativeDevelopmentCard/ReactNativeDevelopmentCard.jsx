@@ -41,13 +41,31 @@ export const ReactNativeDevelopmentCard = () => {
 
                 </div>
 
-                <div className={styles.newReactNativeAppDevelopmentdivdiv2Firststcontaindiv}>
+                {/* <div className={styles.newReactNativeAppDevelopmentdivdiv2Firststcontaindiv}>
                     <div className={styles.imagsectionreact}>
                         <img src="/Images/ReactNativeDevelopement/Image3.png" className={styles.imagsectionr} />
                     </div>
                     <div className={styles.stcontaindivContainreact1} >
                         <h2>Mobile App Migration</h2>
-                        <p>Mobile app migration can be a daunting task, but it's one that is essential for any business looking to stay competitive in the digital age. It's no secret that mobile devices are increasingly becoming the primary way people access information and shop online. And with more and more businesses moving their operations over to mobile apps, it’s important that your website isn’t left behind.   </p>
+                        <p>Mobile app migration can be a daunting task, but it's one that is essential for any business
+                         looking to stay competitive in the digital age. It's no secret that mobile devices are 
+                         increasingly becoming the primary way people access information and shop online. And with more
+                          and more businesses moving their operations over to mobile apps, it’s important that your website
+                           isn’t left behind.   </p>
+                    </div>
+
+                </div> */}
+                <div className={styles.newReactNativeAppDevelopmentdivdiv2Firststcontaindiv}>
+                    <div className={styles.imagsectionreact}>
+                        <img src="/Images/ReactNativeDevelopement/Image3.png" className={styles.imagsectionr1} />
+                    </div>
+                    <div className={styles.stcontaindivContainreact1} >
+                        <h2>Mobile App Migration</h2>
+                        <p>Mobile app migration can be a daunting task, but it's one that is essential for any business
+                         looking to stay competitive in the digital age. It's no secret that mobile devices are 
+                         increasingly becoming the primary way people access information and shop online. And with more
+                          and more businesses moving their operations over to mobile apps, it’s important that your website
+                           isn’t left behind.   </p>
                     </div>
 
                 </div>

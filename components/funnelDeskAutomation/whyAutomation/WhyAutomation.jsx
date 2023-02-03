@@ -41,7 +41,7 @@ export const WhyAutomation = () => {
       <h1>Why our automations are one of a kind</h1>
       <div>
         {cardsData.map(({ title, description, image }) => (
-          <div className={styles.whyAutomationMain}>
+          <div className={styles.whyAutomationMain} key={title}>
             <div>
               <Image
                 src={image}

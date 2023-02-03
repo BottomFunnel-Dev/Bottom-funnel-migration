@@ -82,6 +82,9 @@ export const WhyChooseKotlin = () => {
             maiores, quasi sequi iure vitae, dolorum aut amet tenetur! Id
             similique fugiat quia voluptatem nisi?
           </p>
+          <div className={styles.mobileappactionkotlinbuttondiv}>
+          <button className={styles.mobileappactionkotlinbutton}>Hire Kotlin developer</button>
+          </div>
         </div>
       </div>
     </>

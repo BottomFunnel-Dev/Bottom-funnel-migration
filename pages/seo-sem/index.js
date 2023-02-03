@@ -24,8 +24,8 @@ export default function SEOSEM() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <SeoSEMSection />

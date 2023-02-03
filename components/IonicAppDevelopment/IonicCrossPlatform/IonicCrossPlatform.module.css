@@ -1,10 +1,12 @@
 .ionicCrossPlatformMainDiv {
   /* border: 2px solid red; */
   width: 100%;
-  height: 100vh;
+  height: fit-content;
+  padding: 10px 5px 10px 5px ;
   display: flex;
   flex-direction: row;
   background-color: #98cee7;
+  justify-content: space-between;
   margin-top: 5%;
 }
 .ionicCrossPlatformContent {
@@ -12,17 +14,20 @@
   margin-top: 7%;
   margin-left: 5%;
   /* border: 2px solid red; */
-  color: white;
+  /* padding-top: 10px; */
+    color: white;
   display: flex;
   flex-direction: column;
 }
 
 .ionicCrossPlatformContentScroller {
-  width: 50%;
+  width: 40%;
   height: 82vh;
+  /* justify-content: space-between; */
   /* border: 2px solid black;  */
-  margin-top: 5%;
-  margin-left: 2%;
+  /* padding-top: 5px; */
+  /* margin-top: 5%; */
+  margin-right: 5%;
   object-fit: cover;
   background-size: cover;
   background-color: white;
@@ -84,4 +89,105 @@
   /* border: 2px solid red; */
   width: 70%;
   margin-left: 16%;
+}
+
+@media only screen and (min-width:0px) and (max-width:1024px){
+  .ionicCrossPlatformMainDiv {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: fit-content;
+    padding: 10px 5px 10px 5px ;
+    display: flex;
+    flex-direction: column;
+    background-color: #98cee7;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  .ionicCrossPlatformContent {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    /* text-align: justify; */
+    /* margin-top: 7%; */
+    /* margin-left: 5%; */
+    /* border: 2px solid red; */
+    /* padding-top: 10px; */
+      color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .ionicCrossPlatformContent p{
+    text-align: justify;
+  }
+  
+  .ionicCrossPlatformContentScroller {
+    width: 80%;
+    height: 82vh;
+    /* justify-content: space-between; */
+    /* border: 2px solid black;  */
+   margin: auto;
+   margin-top: 3%;
+   border-radius: 10px;
+    object-fit: cover;
+    background-size: cover;
+    background-color: white;
+  }
+  .ionicCrossPlatformContentScrollerDiv {
+    width: 90%;
+    height: 75vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: white;
+    /* background-image: url("/public/Images/IonicAppDevelopment/image-8.png"); */
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  .ionicCrossPlatformContentScrollerDivContainer {
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .ionicCrossPlatformContentScrollerDivContainer:hover {
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    /* transform: translateY(-15px); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .ionicCrossPlatformContentData {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .ionicCrossPlatformContentIcon {
+    width: 60px;
+    height: 60px;
+    /* border: 2px solid red; */
+  }
+  .ionicCrossPlatformContentIcon > img {
+    width: 60px;
+    height: 60px;
+    padding: 5%;
+  }
+  .ionicCrossPlatformContentHeading {
+    width: 70%;
+    /* border: 2px solid red; */
+    margin-left: 5%;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .ionicCrossPlatformContentDataText {
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-left: 16%;
+  }
 }

@@ -2,11 +2,21 @@
   height: 100vh;
   width: 100%;
   border: 1px solid transparent;
-  background-image: url("/Images/iosappdevelopmentphotos/banner.png");
+  background-image: url("/Images/iosappdevelopmentphotos/ios.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: space-around;
   
+}
+.IOSandroidIcon{
+  /* border: 2px solid yellow; */
+  width: 40%;
+  margin-top: 8%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background: #6568e1; */
 }
 
 .IOSAppDevelopmentbannermainboxinnertextdiv {
@@ -29,7 +39,7 @@
 }
 .IOSAppDevelopmentbannermainboxinnertextdiv > p {
   color: white;
-  margin-top: 7%;
+  /* margin-top: 7%; */
   font-size: 18px;
   /* font-weight: 500; */
 }
@@ -60,26 +70,34 @@
     height: fit-content;
     width: 100%;
     border: 1px solid transparent;
-    background-image: url("/Images/iosappdevelopmentphotos/banner.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    background-image: none;
+   
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: space-around; */
     
   }
+  .IOSandroidIcon{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    background-image: url("/Images/iosappdevelopmentphotos/ios.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    /* background: #6568e1; */
+  }
+  
   
   .IOSAppDevelopmentbannermainboxinnertextdiv {
     /* height: 50%; */
-    width: 40%;
-    /* border: 2px solid black; */
-    margin-top: 9%;
-    margin-left: 2%;
-    padding-bottom: 20px;
-    /* padding-bottom: 30px; */
-    /* text-align: center; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
   }
   
   .IOSAppDevelopmentbannermainboxinnertextdiv > h1 {
-    color: white;
+    color: black;
     font-size: 25px;
     font-weight: 600;
   }
@@ -88,7 +106,7 @@
     color: #6568e1;
   }
   .IOSAppDevelopmentbannermainboxinnertextdiv > p {
-    color: white;
+    color: black;
     margin-top: 0%;
     font-size: 14px;
     /* font-weight: 500; */

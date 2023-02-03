@@ -70,6 +70,9 @@ export const AndriodUserCentric = () => {
             implementation and data integration, we have you covered from end to
             end.
           </p>
+          <div className={styles.mobileappactionbuttondiv}>
+          <button className={styles.mobileappactionbutton}>Hire Android developer</button>
+          </div>
         </div>
       </div>
     </>

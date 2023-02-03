@@ -15,13 +15,19 @@ import ContectForm from "../components/ContectForm/ContectForm";
 import { BannerFull } from "../components/mainSection/BannerFull";
 import Navbar from "../components/Navbar/Navbar";
 import Services from "../components/Services/Services";
-import { Head } from "next/document";
+import Head from "next/head";
 export default function Home() {
   return (
-    <>
+    <div>
       {/* <Head>
-        <title>Bottom funnel service</title>
-        <meta name="description" content="Bottom funnel services" />
+        <title>bottom funnel</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+          crossorigin="anonymous"
+        />
+        <title>bottom</title>
       </Head> */}
 
       <Navbar
@@ -42,7 +48,7 @@ export default function Home() {
       <StoriesSection />
       {/* <Industries /> */}
       <OndemandSection />
-      <PortFolio/>
+      <PortFolio />
       <PlanProject />
       <Companystats />
       <SeoblogSection />
@@ -50,6 +56,6 @@ export default function Home() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </>
+    </div>
   );
 }

@@ -6,7 +6,8 @@ export default function SeoSEMEnquiryNow() {
     return (
         <div className={styles._SeoSEMEnquiryNowMaindiv}>
             <div className={styles._SeoSEMEnquiryNow}>
-                <img src={Enq} alt="enq.img" />
+                {/* <img src={Enq} alt="enq.img" /> */}
+                {/* <img src="../../ImageSection/EnquiryNow.jpg" alt="enq.img" /> */}
             </div>
             <div className={styles._SeoSEMEnquiryNow}>
                 <h3>

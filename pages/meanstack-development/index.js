@@ -39,22 +39,33 @@ export default function MeanPage() {
         />
       </Head>
 
-      <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "Black",
-            logo: false,
-          }}
-        />
-        <WebdevBanner paraColor={"#393939"} bannerContent={meanBanner} />
-        <Techstackintro techContent={meanstackIntro} />
-        <WebDevServices webservicesContent={meanDevServices} />
-        <WhyTechStack techData={whyMEAN} />
-        <GetStarted />
-        <WebDevWhy whyDevContent={MEANWhyContent} />
+  <main>
+  <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "black",
+          logo: false,
+        }}
+      />
+      <WebdevBanner bannerContent={meanBanner} />
+      <Techstackintro techContent={meanstackIntro} />
+      <WebDevServices webservicesContent={meanDevServices} />
+      <WhyTechStack techData={whyMEAN} />
+      <GetStarted />
+      <WebDevWhy whyDevContent={MEANWhyContent} />
+
+      {/* Other react required components  */}
+      <StoriesSection />
+      <OndemandSection />
+      {/* <PortFolio />  */}
+      {/* <PlanProject />  */}
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
 
         {/* Other react required components  */}
         <StoriesSection />

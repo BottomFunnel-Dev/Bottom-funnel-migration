@@ -9,6 +9,11 @@
   position: relative;
   margin-top: 120px;
 }
+.Seoheading{
+  /* border: 2px solid yellow; */
+  font-size: 40px;
+  font-weight: 600;
+}
 
 .gifDenote {
   width: 230px;

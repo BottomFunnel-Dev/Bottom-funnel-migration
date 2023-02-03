@@ -16,10 +16,19 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function MobileUiUxDesign() {
   return (
-    <div>
+    <>
+     <Head>
+     <title>UX UI App Development Company | Hire UX UI Developers | BottomFunnel</title>
+     <meta
+       name="description"
+       content="Bottom Funnel is the best web design company in India, offers professional & custom website design services including mockup design, graphic UI design e-commerce website design at competitive prices."
+     />
+   </Head>
+    <main>
   <Navbar
         productMount={{
           navMount: false,
@@ -47,6 +56,7 @@ export default function MobileUiUxDesign() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

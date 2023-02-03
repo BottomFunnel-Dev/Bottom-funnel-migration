@@ -30,7 +30,7 @@
 }
 .xamarinSolutions1text{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 15%;
 }
 .xamarinSolutions2{
@@ -42,7 +42,7 @@
 }
 .xamarinSolutions2text{
     position: absolute;
-    top: 75%;
+    top: 68%;
     left: 13.5%;
 }
 .xamarinSolutions3{
@@ -54,7 +54,7 @@
 }
 .xamarinSolutions3text{
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 66.5%;
 }
 .xamarinSolutions4{
@@ -66,8 +66,8 @@
 }
 .xamarinSolutions4text{
     position: absolute;
-    top: 75%;
-    left: 68%;
+    top: 68%;
+    left: 66%;
 }
 
 @media only screen and ( min-width:0px) and (max-width:1020px){

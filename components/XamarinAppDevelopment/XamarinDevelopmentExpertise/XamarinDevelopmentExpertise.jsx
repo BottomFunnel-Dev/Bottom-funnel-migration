@@ -41,11 +41,12 @@ export const XamarinDevelopmentExpertise = () => {
               </div>
             </div>
 
+           
             <div className={styles.xamarinDevelopmentExpertiseContainerDiv}>
               <div className={styles.xamarinDevelopmentExpertiseIcon}>
                 <img src='Images/Xamarin/icons/technical-support 1.png' alt='image' />
               </div>
-              <div className='xamarinDevelopmentExpertiseIconHeading'>
+              <div className={styles.xamarinDevelopmentExpertiseIconHeading}>
                 <h4>End-to-End Support and Maintenance</h4>
                 <p> We offers end-to-end support and maintenance for your app. So not only do they develop it for you, but also help optimise its performance and user experience. </p>
               </div>

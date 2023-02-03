@@ -14,17 +14,31 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AndroidAppDevelopment() {
   return (
-    <div>
+    <>
+     <Head>
+     
+     
+      
+     <title>Best android app development services company | Bottom Funnel</title>
+     <meta
+       name="description"
+       content="Bottom funnel, android app development, app development,  Android App UX/UI Design development,
+        bottom funnel app development services, Android App Programming,  Native & Hybrid Android App Development, 
+        App Development for Android Watch and Wearable Devices."
+     />
+   </Head>
+    <main>
  <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <AndriodBanner />
@@ -43,6 +57,7 @@ export default function AndroidAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }
