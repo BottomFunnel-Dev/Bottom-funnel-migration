@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AndriodBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/ios.json";
+import * as reactAnimation from "../../../public/Animation/android.json";
 import Lottie from "react-lottie";
 
 

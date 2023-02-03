@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './IOSAppDevelopmentPageBanner.module.css';
-import * as reactAnimation from "../../../public/Animation/ios.json";
+import * as reactAnimation from "../../../public/Animation/android.json";
 import Lottie from "react-lottie";
 
 export const IOSAppDevelopmentPageBanner = () => {
