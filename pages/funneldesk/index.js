@@ -6,11 +6,9 @@ import { EliteServices } from "../../components/funnelDeskCom/EliteServices";
 import { FunnelDeskBanner } from "../../components/funnelDeskCom/FunnelDeskBanner";
 import { FunnelSupport } from "../../components/funnelDeskCom/FunnelSupport";
 import { IndustryExperts } from "../../components/funnelDeskCom/IndustryExperts";
-import { useSelector } from "react-redux";
 import { ProductsNavbar } from "../../components/Navbar/ProductsNavbar/ProductsNavbar";
 
 export default function FunnelDesk() {
-  const productMount = useSelector((state) => state.mountNav);
 
   return (
     <div style={{ color: "#393939" }}>

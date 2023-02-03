@@ -6,14 +6,12 @@ import { Revenue } from '../../components/SalesPage/Revenue/Revenue'
 import { SaleSmarter } from '../../components/SalesPage/SaleSmarter/SaleSmarter'
 import { SalesPageBanner } from '../../components/SalesPage/SalesPageBanner/SalesPageBanner'
 import { SalesWorldwide } from '../../components/SalesPage/SalesWorldwide/SalesWorldwide'
-import { useSelector } from "react-redux";
 import { SalesNavbar } from '../../components/Navbar/SalesNavbar/SalesNavbar';
 
 export default function SalesPage() {
  
 
     return (
-      <>
       <div style={{ color: "#393939" }}>
  
       <Navbar
@@ -37,7 +35,7 @@ export default function SalesPage() {
         <SalesWorldwide/>
         <MakeYourDeal/>
       </div> 
-      </>
+      
     )
   }
 
