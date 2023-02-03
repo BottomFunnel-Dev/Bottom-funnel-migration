@@ -7,14 +7,13 @@ import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";
 import { SalesIndustries } from "./SalesIndustries";
 
-export const SalesNavbar = () => {
+export const SalesNavbar = ({navproductredux}) => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
   const [productresource, setproductResource] = useState(false);
   const [productdesk, setproductDesk] = useState(false);
   const [productnavbar, setproductNabvar] = useState(false);
-  const navproductredux = useSelector((state) => state);
   const [navbar, setNabvar] = useState(false);
   const [scroll, setScroll] = useState(false);
 
