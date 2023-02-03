@@ -85,25 +85,23 @@ export const NavServices = ({
 
             <div className={navservice.servicelistItems}>
               {webservice.map((item, i) => (
-                <Link
-                  href={`${item.path}`}
-                  // className={navservice.servicelinkP}
+                <div
                   key={i}
-                  onClick={serHoverOut}
+                  onClick={() => {
+                    router.push(`${item.path}`);
+                    serHoverOut();
+                  }}
+                  className={navservice.serviceimageIconDivSection}
                 >
-                  <div className={navservice.serviceimageIconDivSection}>
-                    <div>
-                      <img
-                        className={navservice.serviceiconDivSection}
-                        src={item.navIcons}
-                        alt=""
-                      />
-                    </div>
-                    <p className={navservice.servicelinkP}>
-                      {item.dropContent}
-                    </p>
+                  <div>
+                    <img
+                      className={navservice.serviceiconDivSection}
+                      src={item.navIcons}
+                      alt=""
+                    />
                   </div>
-                </Link>
+                  <p className={navservice.servicelinkP}>{item.dropContent}</p>
+                </div>
               ))}
             </div>
           </div>
@@ -121,22 +119,25 @@ export const NavServices = ({
             <Link
               href="mobile-app-development"
               className={navservice.servicenoStyle}
-              onClick={serHoverOut}
             >
-              <h5 style={{ margin: 0 }}>Mobile App Development</h5>
+              <h5
+                onClick={() => {
+                  serHoverOut();
+                }}
+                style={{ margin: 0 }}
+              >
+                Mobile App Development
+              </h5>
             </Link>
 
             <div className={navservice.servicelistItems}>
               {appservice.map((item, i) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={i}
-                >
                 <div
-                  
-                 
+                  key={i}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
@@ -146,9 +147,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -157,9 +163,15 @@ export const NavServices = ({
             <Link
               href="Digital-marketing"
               className={navservice.servicenoStyle}
-              onClick={serHoverOut}
             >
-              <h5 style={{ margin: 0 }}>Digital Marketing</h5>
+              <h5
+                onClick={() => {
+                  serHoverOut();
+                }}
+                style={{ margin: 0 }}
+              >
+                Digital Marketing
+              </h5>
             </Link>
             <div className={navservice.servicelistItems}>
               {digitalmarket.map((item, l) => (
@@ -168,15 +180,12 @@ export const NavServices = ({
                 //   onClick={serHoverOut}
                 //   className="servicesP"
                 // >
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={l}
-                >
                 <div
-                  
-                
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
+                  key={l}
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
@@ -186,9 +195,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
                 // </Link>
               ))}
             </div>
@@ -205,15 +219,12 @@ export const NavServices = ({
             </Link>
             <div className={navservice.servicetrendListItems}>
               {trendingTech.map((item, m) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={m}
-                >
                 <div
-                
-                
+                  key={m}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.servicetrendImageIconDivSection}
                 >
                   <div>
@@ -223,9 +234,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -307,15 +323,12 @@ export const NavServices = ({
             </Link>
             <div className={navservice.servicebackendlistItems}>
               {backend.map((item, i) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={i}
-                >
                 <div
-                
-               
+                  key={i}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.servicebackendimageIconDivSection}
                 >
                   <div>
@@ -325,9 +338,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -337,15 +355,12 @@ export const NavServices = ({
             </Link>
             <div className={navservice.servicelistItems}>
               {frontend.map((item, j) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={j}
-                >
                 <div
-              
-                 
+                  key={j}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
@@ -355,9 +370,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -368,15 +388,12 @@ export const NavServices = ({
             </Link>
             <div className={navservice.servicelistItems}>
               {mobile.map((item, j) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={j}
-                >
                 <div
-               
-                
+                  key={j}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
@@ -386,9 +403,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -398,15 +420,12 @@ export const NavServices = ({
             </Link>
             <div className={navservice.servicelistItems}>
               {database.map((item, j) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={j}
-                >
                 <div
-               
-                 
+                  key={j}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
@@ -416,9 +435,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
@@ -428,15 +452,12 @@ export const NavServices = ({
             </Link>
             <div className={navservice.servicelistItems}>
               {cms.map((item, j) => (
-                <Link
-                  onClick={serHoverOut}
-                  href={item.path}
-                  // className={navservice.servicelinkP}
-                  key={j}
-                >
                 <div
-                
-                
+                  key={j}
+                  onClick={() => {
+                    // navigate(`/${item.path}`);
+                    serHoverOut();
+                  }}
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
@@ -446,9 +467,14 @@ export const NavServices = ({
                       alt=""
                     />
                   </div>
+                  <Link
+                    onClick={serHoverOut}
+                    href={item.path}
+                    className={navservice.servicelinkP}
+                  >
                     <p>{item.dropContent}</p>
-                </div>
                   </Link>
+                </div>
               ))}
             </div>
           </div>
