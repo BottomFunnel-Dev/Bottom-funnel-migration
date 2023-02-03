@@ -73,7 +73,7 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   const serHoverOut = () => {
-    setService(false);
+    setService(true);
     if (window.scrollY == 0) {
       setNabvar(false);
     }

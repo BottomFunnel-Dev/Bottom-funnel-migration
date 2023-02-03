@@ -80,7 +80,7 @@ export const NavServices = ({
               {webservice.map((item, i) => (
                 <Link
                   href={`${item.path}`}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={i}
                   onClick={serHoverOut}
                 >
@@ -124,7 +124,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={i}
                 >
                 <div
@@ -164,7 +164,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={l}
                 >
                 <div
@@ -201,7 +201,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={m}
                 >
                 <div
@@ -303,7 +303,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={i}
                 >
                 <div
@@ -333,7 +333,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={j}
                 >
                 <div
@@ -364,7 +364,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={j}
                 >
                 <div
@@ -394,7 +394,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={j}
                 >
                 <div
@@ -424,7 +424,7 @@ export const NavServices = ({
                 <Link
                   onClick={serHoverOut}
                   href={item.path}
-                  className={navservice.servicelinkP}
+                  // className={navservice.servicelinkP}
                   key={j}
                 >
                 <div
