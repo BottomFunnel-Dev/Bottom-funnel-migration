@@ -27,6 +27,7 @@ export default function Home() {
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
           crossorigin="anonymous"
         />
+        <title>bottom</title>
       </Head>
 
       <Navbar
