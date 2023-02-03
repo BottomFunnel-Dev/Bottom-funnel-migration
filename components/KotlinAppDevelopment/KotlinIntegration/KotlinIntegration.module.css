@@ -3,7 +3,7 @@
 .KotlinIntegrationMainDiv{
     /* border: 2px solid red; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .KotlinIntegrationContainer{
     border: 3px dashed black;
@@ -26,8 +26,14 @@
     top: -6%;
     left: 32%;
     /* margin-top: -3%; */
-    padding-left: 3%;
+    /* padding-left: 3%; */
+    /* border: 2px solid yellow; */
 }
+.KotlinIntegrationHeading h2{
+    /* border: 2px solid yellow; */
+    text-align: center;
+}
+
 .KotlinIntegrationBox{
     /* border: 2px solid red; */
     width: 90%;
@@ -54,7 +60,7 @@
     margin-left: 6%;
 }
 .kotlinIntegrationOptions{
-    border: 3px solid red;
+    border: 3px solid #EF4c23;
     width: 80%;
     height: 80px;
     border-radius: 15px;
@@ -65,15 +71,15 @@
 .kotlinIntegrationIcon{
     /* border: 2px solid red; */
     width: 15%;
-    height: 78px;
+    /* height: 78px; */
     padding: 3.5%;
 }
 .kotlinIntegrationText{
     /* border: 2px solid red; */
     width: 85%;
-    height: 78px;
-    padding: 2.5%;
-    padding-top: 5%;
+    /* height: 78px; */
+    /* padding: 2.5%; */
+    /* padding-top: 5%; */
 }
 }
 

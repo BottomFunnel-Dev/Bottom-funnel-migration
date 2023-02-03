@@ -46,7 +46,7 @@
   transform: scale(1.1);
   /* transform: translateY(-15px); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: #ef4c23;
+  background-color: #f0b6a7;
   color: white;
 }
 
@@ -112,7 +112,7 @@
     transform: scale(1.1);
     /* transform: translateY(-15px); */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #ef4c23;
+    background-color: #f5bdb0;
     color: white;
   }
   

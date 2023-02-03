@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     /* border: 2px solid blue; */
-    height: 55vh;
+    height: 57vh;
 
 
 }
-.rnativeinnermaindiv4-1stdiv{
+.rnativeinnermaindiv41stdiv{
     display: flex;
     flex-direction: column;
     /* border: 2px solid yellow; */
@@ -14,7 +14,7 @@
     width: 40%;
     margin-top: 3%;
 }
-.rnativeinnermaindiv4-1stdivbox{
+.rnativeinnermaindiv41stdivbox{
     display: flex;
     flex-direction: row;
     /* border: 2px solid green ; */
@@ -23,11 +23,12 @@
     /* margin-left: 12%; */
 
 }
-.rnativeinnermaindiv4-1stdivbox h3{
+.rnativeinnermaindiv41stdivbox h3{
     font-size: 18px;
     margin-left: 10%;
+    margin-top: 0%;
 }
-.rnativeinnermaindiv4-1stdivbox p{
+.rnativeinnermaindiv41stdivbox p{
     font-size: 14px;
    /* margin-top: 10%; */
    margin-left: 10%;
@@ -40,19 +41,12 @@
     margin-top: 3%;
     /* width: 45%; */
 }
-.rnativeinnermaindiv4-2nddiv{
-    border-left: 2px solid gray;
-   width: 60%;
-   margin-left: 2%;
-   margin-top: 4%;
-   padding-left: 3%;
 
-}
-.rnativeinnermaindiv4-2nddiv h1{
+.rnativeinnermaindiv42nddiv h1{
     font-size: 40px;
 
 }
-.rnativeinnermaindiv4-2nddiv p{
+.rnativeinnermaindiv42nddiv p{
     font-size: 16px;
     margin-top: 3%;
 
@@ -67,7 +61,12 @@
     width: 90%;
     height: 100%;
 }
-
+.stylesrnativeinnermaindiv42nddiv{
+    border-left: 1px solid grey;
+    width: 60%;
+    margin: 2% 2% 2% 3%;
+    padding: 5px 5px 5px 15px;
+}
 
 
 
@@ -116,6 +115,9 @@
    
 
 }
+.reactnativeinnermaindiv4Row:hover {
+ background: skyblue;
+}
 .reactnativePageCardsInnermaindiv5{
 /* border: 2px solid greenyellow; */
 
@@ -163,7 +165,7 @@ font-size: 30px;
 
 .middlebannerdiv{
     /* border: 2px solid red; */
-    background-image: url("/public/Images/ReactNativeDevelopement/aerial-view-business-team 2.png");
+    background-image: url("/Images/ReactNativeDevelopement/aerial-view-business-team 2.png");
     color: white;
     margin-top: 3%;
     height: 40vh;
@@ -183,12 +185,25 @@ font-size: 30px;
     font-size: 18px;
     margin-top: 1%;
 }
+.ReactNativeAppDevelopmentbannerbutton{
+    border: none;
+    width: 220px;
+    font-size: 18px;
+    border-radius: 10px;
+    height: 40px;
+    background-color: #3280f2;
+    color: white;
+}
+.ReactNativeAppDevelopmentbannerbutton:hover{
+    background-color: white;
+    color: black;
+}
 
 @media only screen and (min-width:0px) and (max-width:480px){
     .reactnativePageCardsInnermaindiv4{
         display: flex;
         flex-direction: column-reverse;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         /* height: 0vh; */
     
     
@@ -196,7 +211,7 @@ font-size: 30px;
     .rnativeinnermaindiv41stdiv{
         display: flex;
         flex-direction: column;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
          /* margin-left: 1%; */
         width: 100%;
         /* margin-top: 3%; */
@@ -204,7 +219,7 @@ font-size: 30px;
     .rnativeinnermaindiv41stdivbox{
         display: flex;
         flex-direction: column-reverse;
-        border: 2px solid green ;
+        /* border: 2px solid green ; */
         /* margin-top: 7%; */
         /* width: 100%; */
         /* margin-left: 12%; */
@@ -220,7 +235,7 @@ font-size: 30px;
        margin-left: 10%;
     }
     .rn1stdivbox{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         /* display: flex; */
         /* flex-direction: row; */
         margin-left: 5%;
@@ -228,7 +243,7 @@ font-size: 30px;
         /* width: 45%; */
     }
     .rnativeinnermaindiv42nddiv{
-        border-left: 2px solid red;
+        /* border-left: 2px solid red; */
        width: 100%;
        /* margin-left: 2%; */
        /* margin-top: 4%; */

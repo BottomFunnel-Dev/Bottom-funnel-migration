@@ -22,7 +22,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function index() {
   return (
     <div>
-   <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}

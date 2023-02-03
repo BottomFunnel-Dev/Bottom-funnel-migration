@@ -21,6 +21,7 @@ export const mernbanner = {
     },
   ],
   background: "Images/mern/mernpagebanner.png",
+  
 };
 
 export const webDevMain = {
@@ -76,6 +77,8 @@ export const golangBanner = {
   },
   description:
     "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+    Lottieconfig:  "../../../public/Animation/android.json"
+    
 };
 export const javascriptBanner = {
   background: "Images/webdevmain/webdevnewbanners/javascriptbanner.png",

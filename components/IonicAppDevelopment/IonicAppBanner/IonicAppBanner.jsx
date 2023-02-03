@@ -1,11 +1,25 @@
 import React from "react";
 import styles from "./IonicAppBanner.module.css";
+import * as reactAnimation from "../../../public/Animation/ionic.json";
+import Lottie from "react-lottie";
+
 
 export const IonicAppBanner = () => {
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
 
   return (
     <>
       <div className={styles.ionicAppBannermainbox}>
+        {/* <div className={styles.ionicAppBannermainboximagein}>
+          <img src="" alt="" />
+        </div> */}
         <div className={styles.ionicAppBannermainboxinnertextdiv}>
           <h1>Ionic App Development Services</h1>
           <p>
@@ -15,6 +29,9 @@ export const IonicAppBanner = () => {
           </p>
 
           <button className={styles.ionicAppBannerbutton}>Get Started</button>
+        </div>
+        <div className={styles.ionicIcon}>
+        <Lottie options={lottieDefaultOptions} width={500} height={700} />
         </div>
       </div>
     </>

@@ -28,12 +28,14 @@ export const KotlinSolutions = () => {
 
               <div className={styles.kotlinSolutionsBoxHeading}>
                 <h6>Custom Kotlin App Development</h6>
+                <div className={styles.kotlinSolutionsBoxContent}>
                 <p>
                   We are experts in building custom-made apps for businesses.
                   With their guidance, you will be able to achieve greater
                   success and growth by creating an application that meets your
                   goals and expectations.
                 </p>
+                </div>
               </div>
 
             </div>
