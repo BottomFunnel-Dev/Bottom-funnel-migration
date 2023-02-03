@@ -11,6 +11,11 @@
   width: 75%;
   margin-left: 12%;
 }
+
+.usercentricContain>p{
+  text-align: justify;
+}
+
 .userCentricSticker {
   /* border: 2px solid green; */
   display: flex;

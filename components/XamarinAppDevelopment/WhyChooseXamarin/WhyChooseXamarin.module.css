@@ -12,6 +12,10 @@
   margin-top: 8%;
 }
 
+.whyChooseContentText p{
+  text-align: justify;
+}
+
 .whyChooseContentImage {
   /* border: 2px solid red; */
   width: 30%;

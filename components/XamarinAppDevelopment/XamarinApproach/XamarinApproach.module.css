@@ -47,6 +47,13 @@
   width: 20%;
   text-align: left;
 }
+
+.xamarinNativeUserText {
+  text-align: justify;
+}
+
+
+
 .xamarinIntegration {
   z-index: 1;
   position: absolute;

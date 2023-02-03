@@ -19,6 +19,7 @@
 .cardheading p {
   font-size: 16px;
   margin-top: 1%;
+  text-align: justify;
 }
 .headReactNativeAppDevelopment {
   /* border: 2px solid orangered; */
@@ -57,10 +58,20 @@
   padding-right: 2%;
   margin-left: 2%;
 }
-.stcontaindivContainreact p {
+
+.stcontaindivContainreact1 p{
+  text-align: justify;
+}
+
+.stcontaindivContainreact p{
+  text-align: justify;
+}
+
+
+/* .stcontaindivContainreact p {
   font-size: 18px;
   margin-top: 3%;
-}
+} */
 
 .imagsectionreact {
   /* border: 2px solid darkviolet; */

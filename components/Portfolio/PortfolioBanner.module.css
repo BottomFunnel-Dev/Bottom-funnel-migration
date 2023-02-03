@@ -1,0 +1,28 @@
+.portfoliobannermainboxes{
+    height: 100vh;
+    border: 1px solid transparent;
+background: url("/Images/portfolio/Main banner/Group 770864.png");
+}
+
+.portfoliobannerheadingtxt{
+    height: 50%;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 12% 15% 0% 15%;
+    color: white;
+    text-align: center;
+
+}
+.portfoliobannerheadingtxt>h1>span:nth-child(2){
+    color: #ef4c23;
+   
+}
+
+.portfoliobannerheadingtxt>h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.portfoliobannerheadingtxt>p{
+    text-align: center;
+}

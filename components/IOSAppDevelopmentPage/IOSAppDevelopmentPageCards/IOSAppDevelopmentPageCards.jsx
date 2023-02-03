@@ -108,7 +108,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.iosapplogo} >
                                     <img src='/Images/iosappdevelopmentphotos/analyse 1.png' alt='logo' className={styles.iosapplogoimg} />
                                 </div>
-                                <div>
+                                <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Platform Ideation </h3>
                                     <p>
                                         Our team of app designers, developers, and marketing professionals work altogether to ideate the finest
@@ -121,7 +121,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.iosapplogo}>
                                     <img src='/Images/iosappdevelopmentphotos/interest-rate 1.png' alt='logo' className={styles.iosapplogoimg}></img>
                                 </div>
-                                <div>
+                                <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Dedicated Development </h3>
                                     <p>
                                         Our frontend and backend app developers work in a concord pattern after finalizing the most suitable framework serving
@@ -136,7 +136,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.iosapplogo}>
                                     <img src='/Images/iosappdevelopmentphotos/app-development (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img>
                                 </div>
-                                <div>
+                                <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Detailed Quality Check </h3>
                                     <p>
                                         Once your app is designed and developed completely, it goes through a cycle of thorough error-proofing, testing, and quality assurance.
@@ -148,7 +148,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.iosapplogo}>
                                     <img src='/Images/iosappdevelopmentphotos/agile (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img>
                                 </div>
-                                <div>
+                                <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Detailed Quality Check </h3>
                                     <p>
                                         Once your app is designed and developed completely, it goes through a cycle of thorough error-proofing, testing, and quality assurance.
@@ -162,7 +162,9 @@ export const IOSAppDevelopmentPageCards = () => {
                     <div className={styles.iosinnermaindiv42nddiv} > 
                         <h1>User-Centric Mobile App Development Solutions  </h1>
                        
-                        <p>
+                        <p style={{
+                            textAlign:"justify"
+                        }}>
                             Our cost-effective iOS app development services are distinguished by the sacrosanct operational methodologies
                             we follow while designing your business app. The entire process of iOS mobile app development begins with platform
                             ideation and insight analysis. Our marketing strategists and iOS app developers scrutinize every possible element of
@@ -181,7 +183,9 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.div5logoimg} >
                                     <img src='Images/iosappdevelopmentphotos/1lightbulb.png' alt='logo'></img></div>
                                 <h4> Custom App Development </h4>
-                                <p>
+                                <p style={{
+                                    textAlign:"justify",
+                                }}>
                                     Our innovative iOS app development services in India solutions mainly comprise custom application design and development practices.
                                     Our developers come from an extensive programming background who can assemble a complete set of features to customize a brand-new
                                     application platform that you can navigate and manage hassle-free. These top iOS developers also take care of the interface management
@@ -192,7 +196,9 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1best-employee.png' alt='logo'></img></div>
                                 <h4> Redesign & Redevelopment </h4>
-                                <p>
+                                <p style={{
+                                    textAlign:"justify",
+                                }}>
                                     If you are planning on refurbishing your digital presence from scratch, you can rely on our app development team for redesigning
                                     and redevelopment solutions. Our business-specific iOS development services also cover improvement practices to revamp your
                                     business application through effective planning. We have certified iPhone app developers who can craft the perfect resurgence
@@ -203,7 +209,9 @@ export const IOSAppDevelopmentPageCards = () => {
                                 <div className={styles.div5logoimg}>
                                     <img src='Images/iosappdevelopmentphotos/1security.png' alt='logo'></img></div>
                                 <h4> Hybrid iOS App Design & Development </h4>
-                                <p>
+                                <p style={{
+                                    textAlign:"justify",
+                                }}>
                                     Your business doesn’t have to limit its reach especially when you have an IT partner like Trank Technologies offering top-notch
                                     solutions for your projects. Hybrid app development which is an integral part of our mobile app development comes in handy when
                                     our iOS app designers build a customized layout for your mobile app. Before boarding on the core development part, we formulate

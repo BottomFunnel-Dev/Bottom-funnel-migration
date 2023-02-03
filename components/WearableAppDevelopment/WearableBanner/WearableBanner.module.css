@@ -19,7 +19,7 @@
 .wearablebannermainboxImage {
   /* border: 2px solid red; */
   width: 35%;
-  margin-left: 10%;
+  margin-left: 20%;
   margin-top: 6%;
 
   display: flex;
@@ -38,8 +38,9 @@
 .wearablebannermainboxinnertextdiv > p {
   color: black;
   /* margin-top: 7%; */
-  font-size: 18px;
+  /* font-size: 18px; */
   /* font-weight: 500; */
+  text-align: justify;
 }
 
 .wearablebannerbutton {

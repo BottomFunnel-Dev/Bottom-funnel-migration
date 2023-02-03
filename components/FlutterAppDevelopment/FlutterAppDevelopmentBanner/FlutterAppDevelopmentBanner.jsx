@@ -24,7 +24,7 @@ export const FlutterAppDevelopmentBanner = () => {
           <button className={styles.flutterAppDevbannerbutton}>Get Started</button>
         </div>
         <div className={styles.FlutterIcon}>
-        <Lottie options={lottieDefaultOptions} width={800} height={700} />
+        <Lottie options={lottieDefaultOptions} width={780} height={700} />
         </div>
       </div>
     </>

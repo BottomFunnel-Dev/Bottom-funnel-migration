@@ -20,23 +20,33 @@ export const XamarinApproach = () => {
             Using native UI for the branding and designing of the app made sense as it adds to the user experience and gives them a better feel of quality. We incorporated all this into our xamarin application development services.
           </p>
           <h2 className={styles.xamarinIntegration}>Better User Experience</h2>
-          <p className={styles.xamarinIntegrationText}>
+          <p style={{
+            textAlign:"justify"
+          }} className={styles.xamarinIntegrationText}>
             When you opt for a cross-platform app development solution like Xamarin, your users will enjoy an enhanced user experience thanks to its highly responsive features.
           </p>
           <h2 className={styles.xamarinCompiled}>Fast Delivery</h2>
-          <p className={styles.xamarinCompiledText}>
+          <p style={{
+            textAlign:"justify"
+          }} className={styles.xamarinCompiledText}>
             Xamarin development companies ensure your project moves fast without breaking things. It can prioritize speed over everything else and build high-quality solutions for the clients at breakneck speeds.
           </p>
           <h2 className={styles.xamarinComponent}>Mature Support</h2>
-          <p className={styles.xamarinComponentText}>
+          <p style={{
+            textAlign:"justify"
+          }} className={styles.xamarinComponentText}>
             You can count on high-quality documentation and support from Microsoft’s worldwide network of engineers and developers. If you choose a different framework, you might find yourself wishing it had more advanced features
           </p>
           <h2 className={styles.xamarinLogic}>High Security</h2>
-          <p className={styles.xamarinLogicText}>
+          <p style={{
+            textAlign:"justify"
+          }} className={styles.xamarinLogicText}>
             One of Xamarin’s primary functions is to provide secure mobile app development. All apps created through their software are encrypted on a highly-secured server, making it very difficult for anyone other than users to access them.
           </p>
           <h2 className={styles.xamarinPerformance}>Monitoring Performance</h2>
-          <p className={styles.xamarinPerformanceText}>
+          <p style={{
+            textAlign:"justify"
+          }} className={styles.xamarinPerformanceText}>
             Comprehensive performance monitoring solution so that you can easily track the health of your application. Install it on your website, mobile app or desktop application and get real-time insights about its performance.
           </p>
         </div>

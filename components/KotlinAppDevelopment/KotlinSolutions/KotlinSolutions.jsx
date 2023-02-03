@@ -7,7 +7,9 @@ export const KotlinSolutions = () => {
       <div className={styles.kotlinSolutionsMainDiv}>
         <div className={styles.kotlinSolutionsheading}>
           <h1> Our Kotlin App Development Solutions </h1>
-          <p>
+          <p style={{
+            textAlign:"justify"
+          }}>
             We offer a wide range of services including app design, development
             and maintenance, so you can be sure your project will be handled
             with care from start to finish. We use latest techniques and tools
@@ -27,9 +29,12 @@ export const KotlinSolutions = () => {
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
-                <h6>Custom Kotlin App Development</h6>
+                <h5>Custom Kotlin App Development</h5>
                 <div className={styles.kotlinSolutionsBoxContent}>
-                <p>
+                <p style={{
+                  textAlign:"justify",
+                  marginTop:"1%"
+                }}>
                   We are experts in building custom-made apps for businesses.
                   With their guidance, you will be able to achieve greater
                   success and growth by creating an application that meets your
@@ -49,11 +54,14 @@ export const KotlinSolutions = () => {
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
-                <h6>Prototyping</h6>
+                <h5>Prototyping</h5>
               </div>
 
               <div className={styles.kotlinSolutionsBoxContent}>
-                <p>
+                <p style={{
+                  textAlign:"justify",
+                  marginTop:"1%"
+                }}>
                   {" "}
                   We use prototyping tools as much as possible. You see, they
                   not only save us time and money while prototyping new ideas,
@@ -72,11 +80,14 @@ export const KotlinSolutions = () => {
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
-                <h6>Kotlin UI/UX Development</h6>
+                <h5>Kotlin UI/UX Development</h5>
               </div>
 
               <div className={styles.kotlinSolutionsBoxContent}>
-                <p>
+                <p style={{
+                  textAlign:"justify",
+                  marginTop:"1%"
+                }}>
                   We have got you covered with our bottom funnel kotlin app
                   development services! We have extensive experience with UI/UX
                   design, and our team is comprised of experts who understand
@@ -94,11 +105,14 @@ export const KotlinSolutions = () => {
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
-                <h6>Kotlin Migration Solutions</h6>
+                <h5>Kotlin Migration Solutions</h5>
               </div>
               
               <div className={styles.kotlinSolutionsBoxContent}>
-                <p>
+                <p style={{
+                  textAlign:"justify",
+                  marginTop:"1%"
+                }}>
                   Make the process of switching to Kotlin smooth by using our
                   services. We offer all kind of migration solutions including
                   bottom funnel, data enhancement or changing your application's

@@ -1,0 +1,131 @@
+.yanbalmainboxes{
+    height:80vh;
+    /* border: 2px solid red; */
+    background: url("/Images/portfolio/Younity/Background/Group 770828.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  color: white;
+    display: flex;
+}
+
+.portfolioyanballeftbox{
+    width: 40%;
+    /* border: 5px solid green; */
+    margin-left: 3%;
+}
+
+
+
+.portfolioyanbalrightbox{
+    width: 60%;
+    /* border: 1px solid yellow; */
+    background: url("/Images/portfolio/Younity/Screens/Screenshot (24).png");
+    background-size: 70% 50%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y:center ;
+}
+
+.portfolioyanbelrightinnerimages{
+    height: 50%;
+    width: 30%;
+    /* border: 1px solid white; */
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.portfolioyanbelrightinnerimages>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.nextholidayrighttbox{
+    height: fit-content;
+    width: 45%;
+    margin-right: 2%;
+    
+}
+
+.portfolioyanballeftbox>p{
+    font-size: smaller;
+    text-align: justify;
+}
+
+.nextholidayrightinsideflexbox{
+    /* border: 1px solid red; */
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nextholidaywrapbox1{
+/* border: 1px solid green; */
+width: 40%;
+margin: 3%;
+padding: 5px;
+}
+
+.nextholidaywrapbox1>h5{
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.nextholidaywrapbox1>p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -0%;
+
+}
+
+.portfolioavailableonicon{
+    display: flex;
+  margin: auto;
+  width: 40%;
+
+}
+
+.porfolionextholidayicon{
+
+margin: 2% ;
+height: 20%;
+width: 20%;
+
+}
+
+.porfolionextholidayicon>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nextholidaywrapboximages{
+    width: 30%;
+
+}
+.nextholidaywrapboximages>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nextholidayviewcasebutton{
+    padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: transparent;
+  border: white;
+  outline: none;
+  box-shadow: white 0px 0px 1px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  margin-left: 50%;
+}
+
+.nextholidayviewcasebutton:hover{
+    background-color: #ef4c23;
+    color: white;
+}

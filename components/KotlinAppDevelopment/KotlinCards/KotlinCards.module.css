@@ -1,4 +1,3 @@
-
 @media only screen and (min-width:900px){
 .kotlinCardsMainDiv {
   /* border: 2px solid red; */
@@ -38,6 +37,13 @@
   margin-left: 3%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.kotlinCardSaving>p{
+  text-align: justify;
+}
+
+
+
 
 .kotlinCardSaving:hover {
   cursor: pointer;
