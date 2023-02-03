@@ -8,6 +8,7 @@
   background-origin: border-box;
   position: relative;
   margin-top: 70px;
+  /* border: 2px solid yellow; */
 }
 
 .gifDenote {
@@ -30,7 +31,7 @@
   background: none !important;
 }
 ._Seotext {
-  /* border:1px solid white; */
+  /* border:1px solid pink; */
   width: 40%;
   color: black;
   box-sizing: border-box;
@@ -48,7 +49,7 @@
   font-size: 16px;
 }
 ._Seoheading {
-  /* border:1px solid white; */
+  border:1px solid white;
   margin-bottom: 10px;
   color: #605d5d;
   width: 100%;
@@ -67,12 +68,13 @@
   height: 100%;
 }
 ._Seoformcontent {
-  border: 1px solid white;
+  border: 1px solid transparent;
   width: 450px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 3px 3px 40px rgb(0 0 0 / 15%);
   margin: auto;
+  padding-right: 20px;
   margin-top: 30px;
 }
 ._Seoformheading {
@@ -88,26 +90,49 @@
 ._Seoenterform {
   /* border:1px solid red; */
   width: 85%;
-  height: 440px;
+  height: 520px;
   margin: auto;
   margin-top: 20px;
 }
 ._seoforminput {
+  /* border: 2px solid yellow; */
   border: 1px solid #393939;
   font-size: 15px;
+  height: 30px;
+  /* margin: auto; */
   border-radius: 4px;
 
-  margin-top: 10px;
+  margin-top: 25px;
   /* outline: #EF4C23; */
   padding: 7px 10px;
   width: 100%;
   color: gray;
   font-weight: 400;
+  width: 100%;
 }
 
-.Seoforminput:hover {
+._Seoforminput:hover {
   outline-color: #ef4c23;
 }
+._seoforminput1 {
+  /* border: 2px solid yellow; */
+  border: 1px solid #393939;
+  font-size: 15px;
+  border-radius: 4px;
+  height: 45px;
+  margin-top: 25px;
+  /* outline: #EF4C23; */
+  padding: 7px 10px;
+  width: 100%;
+  color: gray;
+  font-weight: 400;
+  width: 106%;
+}
+
+._Seoforminput1:hover {
+  outline-color: #ef4c23;
+}
+
 
 ._SeoSubmitbutton {
   width: 100%;
@@ -135,6 +160,7 @@
   transition: 0.2s linear;
 }
 ._Seochkpricing {
+  /* border: 2px solid yellow; */
   text-align: center;
   background-color: #ef4c23;
   border-radius: 25px;

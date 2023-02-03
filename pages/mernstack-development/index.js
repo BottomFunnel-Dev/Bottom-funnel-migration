@@ -20,6 +20,8 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
+import * as ReactAnimation from "../../public/webdevanimation/Mern.json"
+
 
 export default function MernPageWebDevelopment() {
   return (
@@ -33,7 +35,7 @@ export default function MernPageWebDevelopment() {
           logo: false,
         }}
       />
-      <Mernbanner bannerdata={mernbanner} />
+      <Mernbanner bannerdata={mernbanner} animateData={ReactAnimation} />
       <MernIntro techIntro={whatData} />
       <MernPoluparServices popularservice={mernservices} />
       <TechGetStarted calltoAction={letstart} />

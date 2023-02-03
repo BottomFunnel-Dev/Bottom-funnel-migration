@@ -57,13 +57,15 @@ export const WearablePartner = () => {
                </div>
 
                <div className={styles.wearableinnermaindiv4Boxdiv1sColum} >
-                  <div className={styles.wearableInnerMaindiv4Row}>
-                     <div className='wearabledivbox'>
+                 
+
+<div className={styles.wearableInnerMaindiv4Row}>
+                     <div className={styles.wearabledivbox}>
                         <img src='/Images/wearable/lightbulb-7.png' alt='logo' className={styles.wearableimag} />
                      </div>
-                     <h4> Security </h4>
+                     <h4> Security</h4>
                      <p>
-                        Security is a priority for us and we make sure to offer wearable app development that is safe with two-step authentication. Our wearable app is secured with cloud access and browsers protection. This guards wearable apps against data thefts.
+                     Security is a priority for us and we make sure to offer wearable app development that is safe with two-step authentication. Our wearable app is secured with cloud access and browsers protection. This guards wearable apps against data thefts.
                      </p>
                   </div>
 
@@ -129,7 +131,7 @@ export const WearablePartner = () => {
             <p>
                We have worked with some of the best innovative ideas and brand in the world across industries
             </p>
-            <button className={styles.ReactNativeAppDevelopmentbannerbutton}>Get Started</button>
+            <button className={styles.wearableAppDevelopmentbannerbutton}>Get Started</button>
          </div>
 
 
@@ -138,7 +140,7 @@ export const WearablePartner = () => {
                <div className={styles.wearableInnerMaindiv4FirstDivBox}>
                   <div className={styles.wearable1stdivbox}>
                      <div className={styles.wearablelogo}>
-                        <img src='Images/wearable/platform 2.png' alt='logo' className={styles.wearablelogoimg} />
+                        <img src='/Images/wearable/platform 2.png' alt='logo' className={styles.wearablelogoimg} />
                      </div>
                      <div>
                         <h3> Discover </h3>
@@ -191,8 +193,8 @@ export const WearablePartner = () => {
             </div>
 
             <div className={styles.wearableinnermaindiv4SecondDiv}>
-               <h1>Wearable App Development  </h1>
-               <h1>Expertise</h1>
+               <h1>Wearable App Development Expertise </h1>
+               
                <p>
                   With every passing year, wearable technology is getting more and more ubiquitous. We have the expertise to cover the different spectrum of wearables according to your custom needs and requirements. You can trust our wearable app developers to assist you with highly functional and user-friendly applications that will give you the results you have in your mind.
                </p>

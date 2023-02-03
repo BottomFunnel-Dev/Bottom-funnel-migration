@@ -24,8 +24,8 @@ export default function SeoGuest() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <SeoguestSection />

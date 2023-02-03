@@ -128,8 +128,8 @@ export const Advantages = () => {
 
 
          <div className={styles.reactnativePageCardsInnermaindiv4}>
-            <div className='rnativeinnermaindiv4-1stdiv'>
-               <div className='rnativeinnermaindiv4-1stdivbox'>
+            <div className={styles.rnativeinnermaindiv41stdiv}>
+               <div className={styles.rnativeinnermaindiv41stdivbox}>
                   <div className={styles.rn1stdivbox}>
                      <div className={styles.rnlogo}>
                         <img src='/Images/ReactNativeDevelopement/platform 2.png' alt='logo' className={styles.rnlogoimg} />
@@ -151,7 +151,7 @@ export const Advantages = () => {
                      </div>
                   </div>
                </div>
-               <div className='rnativeinnermaindiv4-1stdivbox'>
+               <div className={styles.rnativeinnermaindiv41stdivbox}>
                   <div className={styles.rn1stdivbox}>
                      <div className={styles.rnlogo}>
                         <img src='/Images/ReactNativeDevelopement/app-development (2) 2.png' alt='logo' className={styles.rnlogoimg} />
@@ -175,7 +175,7 @@ export const Advantages = () => {
                   </div>
                </div>
             </div>
-            <div className='rnativeinnermaindiv4-2nddiv'>
+            <div className={styles.stylesrnativeinnermaindiv42nddiv}>
                <h1>React Native App Development  </h1>
                <h1>Expertise</h1>
                <p>

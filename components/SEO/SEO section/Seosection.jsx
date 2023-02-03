@@ -11,7 +11,7 @@ function Seosection() {
       </div>
       <div className={styles._Seoupperdiv}>
         <div className={styles._Seotext}>
-          <div className={styles._Seoheading}>Professional SEO Services Company</div>
+          <div className={styles.Seoheading}>Professional SEO Services Company</div>
           <p className={styles._Seoparagraph}>
             We are a team of SEOs and analysts who drive results through our
             know-how and hard work. We get the job done properly and

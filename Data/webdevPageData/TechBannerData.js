@@ -75,8 +75,11 @@ export const golangBanner = {
     normal: "Development Around the Globe",
   },
   description:
-    "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+      "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
+
+
 };
+
 export const javascriptBanner = {
   background: "Images/webdevmain/webdevnewbanners/javascriptbanner.png",
   title: {

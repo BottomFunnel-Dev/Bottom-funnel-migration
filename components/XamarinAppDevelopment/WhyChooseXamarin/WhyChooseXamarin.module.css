@@ -15,7 +15,7 @@
 .whyChooseContentImage {
   /* border: 2px solid red; */
   width: 30%;
-  height: 70vh;
+  height: fit-content;
   object-fit: cover;
   background-size: cover;
   margin-left: 3%;

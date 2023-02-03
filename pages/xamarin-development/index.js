@@ -17,17 +17,26 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function XamarinAppDevelopment() {
   return (
-    <div>
+    <>
+    <Head>
+      <title>Xamarin App Development Company | Hire Xamarin Developers | BottomFunnel</title>
+     <meta
+       name="description"
+       content="BottomFunnel is a leading Xamarin app development company. Not just developing, we transform ideas into a digital existence. Hire Xamarin app developers from us."
+     />
+   </Head>
+    <main>
    <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <XamarinAppDevelopmentBanner />
@@ -48,6 +57,7 @@ export default function XamarinAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }
