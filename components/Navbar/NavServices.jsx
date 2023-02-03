@@ -70,18 +70,18 @@ export const NavServices = ({
       {sidetoggle === "Technologies" && (
         <div className={navservice.servicedropdownSection}>
           <div className={navservice.serviceDropdownContent}>
-           
-              <h5
-                onClick={() => {
-                  router.push('web-development')
-                  serHoverOut();
-                }}
-                className={navservice.servicenoStyle}
-                style={{ margin: 0 }}
-              >
-                Web Development
-              </h5>
-           
+
+            <h5
+              onClick={() => {
+                router.push('web-development')
+                serHoverOut();
+              }}
+              className={navservice.servicenoStyle}
+              style={{ margin: 0 }}
+            >
+              Web Development
+            </h5>
+
 
             <div className={navservice.servicelistItems}>
               {webservice.map((item, i) => (
