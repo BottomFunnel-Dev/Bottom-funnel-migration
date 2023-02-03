@@ -136,7 +136,7 @@
 }
 
 .serviceimageIconDivSection>p {
-  width: 65%;
+  width: 68%;
   font-size: 14px;
   margin: 0;
 }
@@ -157,7 +157,7 @@
 .servicelinkP {
   text-decoration: none;
   /* color: black; */
-  width: 80%;
+  width: 100%;
   font-size: 14px;
 }
 

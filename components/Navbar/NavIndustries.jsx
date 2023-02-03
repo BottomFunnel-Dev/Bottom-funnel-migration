@@ -27,7 +27,7 @@ export const NavIndustries = ({
               key={i}
               onClick={() => {
                 // navigate(`/${item.path}`);
-                solHoverOut();
+                
               }}
               className={industry.industryimageIconDivSection}
             >
@@ -62,7 +62,7 @@ export const NavIndustries = ({
               key={i}
               onClick={() => {
                 // navigate(`/${item.path}`);
-                solHoverOut();
+               
               }}
               className={industry.industryimageIconDivSection}
             >
