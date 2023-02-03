@@ -19,7 +19,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <title>bottom funnel</title>
         <link
           rel="stylesheet"
@@ -28,7 +28,7 @@ export default function Home() {
           crossorigin="anonymous"
         />
         <title>bottom</title>
-      </Head>
+      </Head> */}
 
       <Navbar
         productMount={{
