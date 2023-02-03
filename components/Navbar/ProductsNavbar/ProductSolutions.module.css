@@ -1,7 +1,7 @@
 .productSolutionsMainDiv {
   display: flex;
   background-color: white;
-  width: 12%;
+  width: 14%;
   height: fit-content;
   position: fixed;
   right: 28%;
@@ -28,8 +28,9 @@
   color: black;
 }
 .productSolutionsData {
-  height: 100px;
+  height: 80px;
   padding: 10px;
+  /* border: 2px solid red; */
 }
 .productSolutionsData .productlinkP > p {
   margin: 5px 0;
@@ -65,9 +66,11 @@
   border: 1px solid #393939;
   background: transparent;
   width: 80%;
-  margin: 7% auto;
+  height: 30px;
+  margin: 2% auto;
+  margin-bottom: 10%;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 14px;
   padding: 2px 0;
   font-weight: 600;
   outline: none;

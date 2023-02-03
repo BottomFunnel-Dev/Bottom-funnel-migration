@@ -9,17 +9,12 @@ import { SalesWorldwide } from './SalesWorldwide/SalesWorldwide'
 export default function SalesPage() {
     return (
       <>
-      <SalesPageBanner/>
+        <SalesPageBanner/>
         <Revenue/>
         <SaleSmarter/>
         <Opportunity/>
-        
-      
-        < SalesWorldwide/>
-       <MakeYourDeal/> 
-        
-  
-       
+        <SalesWorldwide/>
+        <MakeYourDeal/> 
       </>
     )
   }
