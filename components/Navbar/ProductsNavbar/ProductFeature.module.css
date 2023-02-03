@@ -1,13 +1,14 @@
 .productFeatureMainDiv {
   display: flex;
   background-color: white;
-  width: 12%;
+  width: 13%;
   height: fit-content;
   position: fixed;
   top: 50px;
   left: 40%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 100000000;
+  /* border: 2px solid red; */
   /* border: 2px solid; */
   /* text-align: center; */
 }
