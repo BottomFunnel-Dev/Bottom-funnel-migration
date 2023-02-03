@@ -15,11 +15,27 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SeoGuest() {
   return (
     <div>
- <Navbar
+
+      <Head>
+        <title>SEO Guest Post | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Looking to get exposure for your website or blog by 
+          writing SEO guest posts for various search 
+          engines? Here are some top SEO guest post 
+          companies that offer reliable and budget-friendly
+          options."
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -44,6 +60,8 @@ export default function SeoGuest() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

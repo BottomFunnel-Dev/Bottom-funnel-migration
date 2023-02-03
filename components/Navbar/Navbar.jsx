@@ -298,14 +298,14 @@ const Navbar = ({ navredux, productMount }) => {
       ) : null} */}
 
       {/* product drop down section code start */}
-      {product ? (
+      {/* {product ? (
         <Products
           serHoverIn={productHoverIn}
           serHoverOut={productHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
-      ) : null}
+      ) : null} */}
     </div>
   );
 };

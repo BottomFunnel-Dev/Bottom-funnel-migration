@@ -16,11 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function () {
   return (
     <div>
-  <Navbar
+      
+      <Head>
+        <title>SEO Email Services | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Learn about our comprehensive SEO Email Service 
+           solutions and how they can help your business by
+           reading our blog today."
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -45,6 +59,8 @@ export default function () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

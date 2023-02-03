@@ -26,19 +26,13 @@ export default function AspNet() {
   return (
     <div>
       <Head>
-        <title>Asp.net Development | Bottom Funnel</title>
+        <title>ASP.NET Development | Bottom Funnel</title>
         <meta
           name="description"
-          content="The Best Web Application Development
-       Company offers app development services for
-        custom web app development and business Web 
-        App Development. The team of well-versed
-         individuals provides end-to-end services 
-         that are exactly tailored to your needs. 
-         They follow the latest trends and update
-          their skills with regular training so
-           that they stay up to date with the 
-           changing technologies."
+          content="ASP.NET is a widely used web development 
+          framework that offers many benefits to web 
+          developers. Learn about these advantages and 
+          get tips on developing ASP.NET solutions"
         />
       </Head>
 

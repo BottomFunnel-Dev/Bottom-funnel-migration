@@ -15,11 +15,26 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function DigitalMarketing() {
   return (
     <div>
-<Navbar
+
+      <Head>
+        <title>Digital Marketing | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Learn how digital marketing solutions can help you 
+          promote your business and reach your target 
+          audience. Our guide covers key topics like planning 
+          and executing a digital marketing strategy."
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -45,6 +60,7 @@ export default function DigitalMarketing() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

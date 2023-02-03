@@ -15,11 +15,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SEOPPC() {
   return (
     <div>
-   <Navbar
+      
+      <Head>
+        <title>SEO PPC | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Are you looking to get your business ahead in the 
+          competitive PPC search engine market? Our SEO 
+          PPC solutions can help. Read on to find out."
+        />
+      </Head>
+
+      <main>
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -44,6 +57,7 @@ export default function SEOPPC() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

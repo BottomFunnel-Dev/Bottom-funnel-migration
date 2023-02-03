@@ -15,11 +15,27 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SEOSEM() {
   return (
     <div>
-<Navbar
+
+       <Head>
+        <title>SEO SEM | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Want to tackle the complex and challenging field 
+          of SEO but don't know where to start? Our SEO 
+          SEM solutions can help you overcome your 
+          challenges and become a SEO SEM expert. 
+          Read on for details."
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -44,6 +60,8 @@ export default function SEOSEM() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />  
+
+      </main>
     </div>
   );
 }
