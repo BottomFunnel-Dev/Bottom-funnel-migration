@@ -1,11 +1,20 @@
 import '../styles/globals.css'
 import "slick-carousel/slick/slick.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import { useEffect } from 'react';
 
-import { store } from '../redux/store';
-import { Provider } from 'react-redux';
+import SSRProvider from 'react-bootstrap/SSRProvider';
 export default function App({ Component, pageProps }) {
-  return <Provider store={store}>
+
+  useEffect(() => {
+    import ('bootstrap/dist/js/bootstrap.js')
+}, []);
+
+
+
+
+  return <SSRProvider>
     <Component {...pageProps} />
-  </Provider>
+  </SSRProvider>
 }
   

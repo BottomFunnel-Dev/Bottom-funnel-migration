@@ -19,10 +19,7 @@ import { Head } from "next/document";
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <title>Bottom funnel service</title>
-        <meta name="description" content="Bottom funnel services" />
-      </Head> */}
+     
 
       <Navbar
         productMount={{
