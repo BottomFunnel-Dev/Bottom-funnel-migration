@@ -17,10 +17,12 @@
 }
 .wearablegenerationdiv {
   /* border: 2px solid green; */
-  width: 73%;
+  width: 90%;
   margin-left: 4%;
   margin-top: 4%;
   text-align: left;
+  display: flex;
+  flex-direction: row;
 }
 .wearablegenerationdiv h1 {
   font-size: 40px;
@@ -36,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 .wearableservice h4 {
   font-size: 35px;
@@ -48,16 +50,17 @@
   flex-direction: row;
   justify-content: center;
   width: 80%;
-  margin-left: 9%;
-  margin-top: 2.5%;
+  margin: auto;
 }
 
 .wearableserviceInnerCard {
   /* border: 2px solid gold; */
-  margin-left: 2%;
+  width: 22%;
+  margin: auto;
+  /* margin-left: 2%; */
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 30vh;
+  height: 25vh;
   padding-top: 2%;
   padding-left: 1%;
   padding-right: 1%;
@@ -70,17 +73,20 @@
 
 .wearableserviceInnerCard p {
   font-size: 14px;
+  text-align: justify;
 }
 
 .wearableserviceInnerCard h5 {
   font-size: 20px;
+  /* border: 2px solid yellow; */
+  height: 40px;
 }
 
 .wearablebannerbutton1 {
   padding: 10px 50px;
   border-radius: 10px;
   width: 220px;
-  background-color: #3380f2;
+  background-color: #ef4c23;
   border: none;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -90,18 +96,18 @@
   margin-top: 65px;
 }
 
-.wearablebannerbutton:hover {
+.wearablebannerbutton1:hover {
   background-color: white;
-  color: #3380f2;
+  color: #ef4c23;
 }
 .wearablegenerationdivimage{
-  display: none;
+  display: block;
 }
 
-@media only screen and (min-width:0px) and (max-width:1020px){
+@media only screen and (min-width:0px) and (max-width:1024px){
   .wearablecompanydiv {
     /* border: 2px solid blue; */
-    width: 100%;
+    width: 95%;
     margin-left:3% ;
     margin-top: 5%;
     text-align: center;
@@ -125,10 +131,12 @@
   }
   .wearablegenerationdiv {
     /* border: 2px solid green; */
-    width: 100%;
+    width: 95%;
     margin-left: 3%;
     margin-top: 4%;
     text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .wearablegenerationdiv h1 {
     font-size: 40px;
@@ -145,9 +153,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 5%;
-    margin-left: 3%;
-    width: 100%;
+    /* margin-top: 5%; */
   }
   .wearableservice h4 {
     font-size: 35px;
@@ -156,58 +162,62 @@
   .wearableservicecard {
     /* border: 2px solid green; */
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     width: 80%;
-    margin-left: 9%;
-    margin-top: 2.5%;
+    margin: auto;
   }
   
   .wearableserviceInnerCard {
     /* border: 2px solid gold; */
-    margin-left: 2%;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+    /* margin-left: 2%; */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 30vh;
+    height: 25vh;
     padding-top: 2%;
     padding-left: 1%;
     padding-right: 1%;
     /* text-align: left; */
   }
   .wearableserviceInnerCard:hover{
-  background-color: #f3ded4;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  }
+    background-color: #f3ded4;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
   
   .wearableserviceInnerCard p {
     font-size: 14px;
+    text-align: justify;
   }
   
   .wearableserviceInnerCard h5 {
     font-size: 20px;
+    /* border: 2px solid yellow; */
+    height: 40px;
   }
-  .wearablegenerationdivimage{
-    display: block;
-  }
-  
   
   .wearablebannerbutton1 {
     padding: 10px 50px;
     border-radius: 10px;
     width: 220px;
-    background-color: #3380f2;
+    background-color: #ef4c23;
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 18px;
     font-weight: 600;
     color: white;
-    margin-top: 10px;
+    margin-top: 65px;
   }
   
-  .wearablebannerbutton:hover {
+  .wearablebannerbutton1:hover {
     background-color: white;
-    color: #3380f2;
+    color: #ef4c23;
+  }
+  .wearablegenerationdivimage{
+    display: block;
   }
   
 }

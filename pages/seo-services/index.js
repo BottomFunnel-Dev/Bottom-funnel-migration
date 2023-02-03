@@ -41,8 +41,8 @@ export default function SEOMainPage() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <Seosection />

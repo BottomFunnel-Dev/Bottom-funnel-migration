@@ -42,4 +42,54 @@
     background-color: white;
     color: #3380f2;
   }
+  @media only screen and (min-width:0px) and (max-width:1024px){
+    .ionicProjectmainbox {
+      height: fit-content;
+      width: 99.8%;
+      margin-top: 3%;
+      border: 1px solid white;
+      /* margin-top: 2%; */
+      background-image: url("/Images/IonicAppDevelopment/IonicProject.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .ionicProjectmainboxinnertextdiv {
+      margin-top: 5%;
+      margin-bottom: 3%;
+      text-align: center;
+    }
+    
+    .ionicProjectmainboxinnertextdiv > h1 {
+      color: white;
+      font-size: 35px;
+    }
+    .ionicProjectmainboxinnertextdiv > p {
+      color: white;
+      font-size: 14px;
+      /* border: 2px solid red; */
+      width: 80%;
+      margin: auto;
+    }
+    
+    .ionicProjectbutton {
+      padding: 10px 50px;
+      border-radius: 10px;
+      width: 220px;
+      background-color: #3380f2;
+      border: none;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 2%;
+      color: white;
+    }
+    
+    .ionicProjectbutton:hover {
+      background-color: white;
+      color: #3380f2;
+    }
+  }
   

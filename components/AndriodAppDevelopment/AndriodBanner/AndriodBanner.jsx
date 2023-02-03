@@ -1,7 +1,19 @@
 import React from "react";
 import styles from "./AndriodBanner.module.css";
+import * as reactAnimation from "../../../public/Animation/android.json";
+import Lottie from "react-lottie";
+
 
 export const AndriodBanner = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
 
   return (
     <>
@@ -12,7 +24,11 @@ export const AndriodBanner = () => {
 
           <button className={styles.andriodAppDevbannerbutton}>Get Started</button>
         </div>
+
+        <div className={styles.androidIcon}>
+          <Lottie options={lottieDefaultOptions} width={400} height={500} />
+        </div>
       </div>
     </>
   );
-};
+}

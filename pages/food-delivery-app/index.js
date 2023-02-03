@@ -24,7 +24,7 @@ import Head from "next/head";
 export default function FoodDelivery() {
   return (
     <div>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -33,7 +33,7 @@ export default function FoodDelivery() {
           logo: true,
         }}
       />
-      
+
       {<FoodDeliveryBanner />}
       <Trusted partnerLogo={fooddeliveryLogo} />
       {<FoodDeliveryBookCall />}

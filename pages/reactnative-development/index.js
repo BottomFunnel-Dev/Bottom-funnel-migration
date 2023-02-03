@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ReactNativeAppDevelopmentBanner } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentBanner/ReactNativeAppDevelopmentBanner";
-import { ReactNativeAppDevelopmentContain } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentContain/ReactNativeAppDevelopmentContain";
+// import { ReactNativeAppDevelopmentContain } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentContain/ReactNativeAppDevelopmentContain";
 import { ReactNativeDevelopmentCard } from "../../components/ReactNativeAppDevelopment/ReactNativeDevelopmentCard/ReactNativeDevelopmentCard";
 import { ReactNativeAppDevelopmentSolution } from "../../components/ReactNativeAppDevelopment/ReactNativeAppDevelopmentSolution/ReactNativeAppDevelopmentSolution";
 import { Advantages } from "../../components/ReactNativeAppDevelopment/Advantages/Advantages";
@@ -15,24 +15,33 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function ReactNativeAppDevelopment() {
   return (
-    <div>
+    <>
+    <Head>
+     <title>React Native Mobile App Development Company - Bottom Funnel, Cross Platform Application Development </title>
+     <meta
+       name="description"
+       content="Bottom funnel  Mobile App Development Company is top notch mobile app development agency with highly skilled and competent professionals who work in a team and collaborate with each other to achieve exceptional results.We offer best mobile applications development services like Android and React applications, Web based apps, Games and Analytics App building."
+     />
+   </Head>
+    <main>
   <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <ReactNativeAppDevelopmentBanner />
-      <ReactNativeAppDevelopmentContain />
+      {/* <ReactNativeAppDevelopmentContain /> */}
       <ReactNativeDevelopmentCard />
       <ReactNativeAppDevelopmentSolution />
-      {/* <Advantages /> */}
+      <Advantages />
 
       {/* Other react required components  */}
       <StoriesSection />
@@ -44,6 +53,7 @@ export default function ReactNativeAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

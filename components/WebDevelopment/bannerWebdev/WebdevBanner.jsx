@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./webdevBanner.module.css";
+
 export const WebdevBanner = ({ paraColor, bannerContent }) => {
+
+ 
   return (
     <div
       className={styles.webDevBanner}
@@ -13,7 +16,8 @@ export const WebdevBanner = ({ paraColor, bannerContent }) => {
     >
       <div className={styles.webDebText}>
         <h1 style={{ color: paraColor ? paraColor : null }}>
-          <span className={styles.orange}>{bannerContent.title.orange}</span>{" "}
+          <span className={styles.orange}>
+            {bannerContent.title.orange}</span>{" "}
           {bannerContent.title.normal}
         </h1>
         <p style={{ color: paraColor ? paraColor : null }}>
@@ -22,6 +26,7 @@ export const WebdevBanner = ({ paraColor, bannerContent }) => {
 
         <button className={styles.webDevButton}>Request A Quote</button>
       </div>
+     
     </div>
   );
 };

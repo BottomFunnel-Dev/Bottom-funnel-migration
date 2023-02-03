@@ -11,11 +11,14 @@
     /* border: 2px solid red; */
     width: 48%;
     margin-left: 4%;
-    /* border-right: 1px solid black; */
+    border-right: 1px solid black;
 }
 .andriodUserCentricContent{
     /* border: 2px solid red; */
     width: 48%;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 .andriodUserCentricContentHeading{
     /* border: 2px solid red; */
@@ -61,7 +64,32 @@
     display: flex;
     flex-direction: column;
 }
+.mobileappactionbutton{
+margin-left: 300px;
+/* border: 2px solid green; */
+font-size: 18px;
+border-radius: 15px;
+width: 220px;
+height: 50px;
+font-weight: 550;
+background-color: #ef4c23;
+color: white;
+border: 1px solid lightgrey;
 
+
+}
+.mobileappactionbutton:hover{
+    background: white;
+    color: black;
+}
+.mobileappactionbuttondiv{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    /* width: 20px; */
+    /* text-align: center; */
+    
+    
+}
 
 @media only screen and ( min-width:0px) and (max-width:1024px){
     .andriodUserCentricMainDiv{
@@ -141,6 +169,32 @@
     .andriodUserCentricIconHeading h4{
     margin: 0%;
     }
+    .mobileappactionbutton{
+        margin-left: 1px;
+        /* border: 2px solid green; */
+        font-size: 18px;
+        border-radius: 15px;
+        width: 220px;
+        height: 50px;
+        font-weight: 550;
+        background-color: #ef4c23;
+        color: white;
+        border: 1px solid lightgrey;
+        
+        
+        }
+        .mobileappactionbutton:hover{
+            background: white;
+            color: black;
+        }
+        .mobileappactionbuttondiv{
+            /* border: 2px solid red; */
+            margin-top: 5%;
+            /* width: 20px; */
+            /* text-align: center; */
+            
+            
+        }
 }
 
 

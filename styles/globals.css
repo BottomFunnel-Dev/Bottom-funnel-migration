@@ -52,7 +52,7 @@ h6 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @media (prefers-color-scheme: light) {

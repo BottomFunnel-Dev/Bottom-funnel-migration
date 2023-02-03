@@ -37,8 +37,8 @@ export default function SEOPPC() {
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <SeoPPCSection />

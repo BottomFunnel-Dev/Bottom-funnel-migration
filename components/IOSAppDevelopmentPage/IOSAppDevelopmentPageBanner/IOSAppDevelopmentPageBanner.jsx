@@ -1,7 +1,18 @@
 import React from 'react'
 import styles from './IOSAppDevelopmentPageBanner.module.css';
+import * as reactAnimation from "../../../public/Animation/ios.json";
+import Lottie from "react-lottie";
 
 export const IOSAppDevelopmentPageBanner = () => {
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div>
       <div className={styles.IOSAppDevelopmentbannermainbox}>
@@ -12,6 +23,9 @@ export const IOSAppDevelopmentPageBanner = () => {
           </p>
 
           <button className={styles.IOSAppDevelopmentbannerbutton}>Get Started</button>
+        </div>
+        <div className={styles.IOSandroidIcon}>
+          <Lottie options={lottieDefaultOptions} width={400} height={500} />
         </div>
       </div>
     </div>

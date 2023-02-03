@@ -15,17 +15,29 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function WearableAppDevelopment() {
   return (
-    <div>
+    <>
+    <Head>
+     
+     
+      
+     <title>Wearable App Development Services | SmartWatch, AR/VR | BottomFunnel</title>
+     <meta
+       name="description"
+       content="BottomFunnel IT Solution offers Wearable Device App Development Services for iOS and Android. We are expertise in developing apps for smart watches, Smart Glasses and fitness bands."
+     />
+   </Head>
+    <main>
   <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
       <WearableBanner/>
@@ -44,6 +56,7 @@ export default function WearableAppDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

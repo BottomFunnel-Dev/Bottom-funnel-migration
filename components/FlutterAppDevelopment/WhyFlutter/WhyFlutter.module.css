@@ -1,7 +1,8 @@
 .whyFlutterMainDiv{
     /* border: 2px solid red; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     background-color: #98CEE7;
@@ -18,18 +19,22 @@
 }
 
 .whyFlutterContentScroller{
-    width: 50%;
+    width: 40%;
     /* border: 2px solid black;  */
     margin-top: 3%;
-    margin-left: 2%;  
+    margin-bottom: 3%;
+    margin-right: 5%;  
     object-fit: cover;
     background-size: cover;
     background-color: white;
+    border-radius: 10px;
 }
 .whyFlutterContentScrollerDiv{
-    width: 95%;
-    height: 90vh;
+    width: 90%;
+    height: 80vh;
     margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     /* border: 2px solid red; */
     background-color: white;
     background-image: url("/public/Images/FlutterDevelopment/whyFlutter.png");
@@ -40,9 +45,13 @@
 .whyFlutterContentScrollerDivContainer{
     /* border: 2px solid black; */
     width: 100%;
+    /* height: 500px; */
+    padding: 10px 5px 20px 5px;
+    border-radius: 10px;
     margin-top: 6%;
     display: flex;
     flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .whyFlutterContentData{
     /* border: 2px solid red; */
@@ -52,7 +61,7 @@
 }
 .whyFlutterContentIcon{
     width: 10%;
-    height: 10vh;
+    height: 5vh;
     /* border: 2px solid red; */
 }
 .whyFlutterContentHeading{
@@ -65,5 +74,91 @@
 .whyFlutterContentDataText{
     /* border: 2px solid red; */
     width: 70%;
-    margin-left: 16%;
+    margin-left: 15%;
+}
+
+@media only screen and (min-width:0px) and (max-width:1024px){
+    .whyFlutterMainDiv{
+        /* border: 2px solid red; */
+        width: 100%;
+        /* height: 100vh; */
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        background-color: #98CEE7;
+        margin-top: 5%;
+    }
+    .whyFlutterContent{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        /* margin-top: 7%; */
+        /* margin-left: 5%; */
+        /* border: 2px solid red; */
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .whyFlutterContent p{
+        text-align: justify;
+    }
+    
+    .whyFlutterContentScroller{
+        width: 80%;
+        /* border: 2px solid black;  */
+        /* margin-top: 3%;
+        margin-bottom: 3%;
+        margin-right: 5%;   */
+        margin: auto;
+
+        object-fit: cover;
+        background-size: cover;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .whyFlutterContentScrollerDiv{
+        width: 90%;
+        height: 80vh;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        /* border: 2px solid red; */
+        background-color: white;
+        background-image: url("/public/Images/FlutterDevelopment/whyFlutter.png");
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .whyFlutterContentScrollerDivContainer{
+        /* border: 2px solid black; */
+        width: 100%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .whyFlutterContentData{
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .whyFlutterContentIcon{
+        width: 50px;
+        height: 50px;
+        /* border: 2px solid red; */
+    }
+    .whyFlutterContentHeading{
+        width: 70%;
+        /* border: 2px solid red; */
+        margin-left: 8%;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .whyFlutterContentDataText{
+        /* border: 2px solid red; */
+        width: 70%;
+        margin-left: 25%;
+        text-align: justify;
+    }
 }

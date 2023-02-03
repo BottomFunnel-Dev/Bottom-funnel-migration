@@ -47,8 +47,9 @@ export const KotlinIntegration = () => {
                         </div>
                     </div>
                     <div className={styles.kotlinIntegrationOptionsDiv1}>
-                        <div className={styles.kotlinIntegrationOptions}>
-                            <div className="kotlinIntegrationIcon">
+                       
+                         <div className={styles.kotlinIntegrationOptions}>
+                            <div className={styles.kotlinIntegrationIcon}>
                                 <img src="Images/Kotlin/Icons/check 2.png"/>
                             </div>
                             <div className={styles.kotlinIntegrationText}>
