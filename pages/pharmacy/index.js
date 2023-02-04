@@ -24,46 +24,45 @@ export default function Pharmacy() {
   return (
     <>
       <Head>
-      <title>Pharmacy web App Development
- Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Pharmacies are an important part of our society and it is essential 
+        <title>Pharmacy web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Pharmacies are an important part of our society and it is essential 
         that they are able to interact with their customers in a convenient 
         and efficient way. Learn about the best pharmacy web app 
         development companies that can help you build the perfect 
         solution for your business."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <Pharmacycontainer />
-      <Trusted partnerLogo={pharmacyLogo} />
-      <Pharmacydelivery />
-      <Pharmacysneak />
-      <Pharmacycustomer />
-      <Pharmacydrive />
-      <Pharmacyadmin />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <Pharmacycontainer />
+        <Trusted partnerLogo={pharmacyLogo} />
+        <Pharmacydelivery />
+        <Pharmacysneak />
+        <Pharmacycustomer />
+        <Pharmacydrive />
+        <Pharmacyadmin />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </div>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

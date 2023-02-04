@@ -22,7 +22,7 @@ import Head from "next/head";
 
 export default function ToolDeliveryApp() {
   return (
-    <div>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -52,6 +52,6 @@ export default function ToolDeliveryApp() {
       <ContectForm />
       <MainFooter />
     </main>
-    </>
+   
   );
 }
