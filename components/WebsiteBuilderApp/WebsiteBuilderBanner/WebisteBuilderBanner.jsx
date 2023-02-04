@@ -1,7 +1,19 @@
 import React from 'react';
 import styles from "./WebsiteBuilderBanner.module.css";
+import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Website builder.json";
+import Lottie from "react-lottie";
 
 export const WebisteBuilderBanner = () => {
+    
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
     return (
         <div className={styles.websiteBuilderBannerParentDiv}>
             <div className={styles.websiteBuilderBannerImageDiv}>
@@ -18,7 +30,8 @@ export const WebisteBuilderBanner = () => {
                     </div>
 
                     <div className={styles.websiteBuilderBannerTopImageComp}>
-                        <img src='/Images/WebsiteBuilderApp/BannerTopImage.png' alt='image' />
+                        <Lottie options={lottieDefaultOptions} width={700} height={600} />
+                        {/* <img src='/Images/WebsiteBuilderApp/BannerTopImage.png' alt='image' /> */}
                     </div>
                 </div>
             </div>

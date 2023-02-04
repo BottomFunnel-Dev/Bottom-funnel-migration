@@ -18,11 +18,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function CloudPage () {
   return (
     <div className={styles.CloudPageContainer}>
-  <Navbar
+
+      <Head>
+        <title>Cloud Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to offer a cloud services offering? Our guide 
+          covers key areas for successful Cloud offering
+          planning, including defining your target market and 
+          designing an effective value proposition"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -50,6 +64,8 @@ export default function CloudPage () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

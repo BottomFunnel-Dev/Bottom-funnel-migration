@@ -20,6 +20,11 @@
   flex-direction: column;
 }
 
+.ionicCrossPlatformContent p{
+  text-align: justify;
+}
+
+
 .ionicCrossPlatformContentScroller {
   width: 40%;
   height: 82vh;

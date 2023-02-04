@@ -18,11 +18,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SEOMainPage() {
   return (
     <div>
-<Navbar
+      
+      <Head>
+        <title> SEO Services | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Want to improve your SEO rankings and drive more
+          traffic to your website? We've got the best SEO 
+         services solutions for you. Read on to know!."
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -49,6 +63,8 @@ export default function SEOMainPage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

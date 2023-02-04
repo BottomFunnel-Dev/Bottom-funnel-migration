@@ -25,8 +25,9 @@
 }
 .ScrollerContent p{
     color: white;
-    font-size: 16px;
+    /* font-size: 16px; */
     margin-top: 5%;
+    text-align: justify;
 }
 .ScrollerContentScroller{
     width: 45%;

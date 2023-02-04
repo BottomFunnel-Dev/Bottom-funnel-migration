@@ -1,7 +1,18 @@
 import React from 'react';
 import styles from './ottHeader.module.css';
+import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Ott.json";
+import Lottie from "react-lottie";
 
 export const OttHeader = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
 
   const ServicesData = [
     {
@@ -61,9 +72,10 @@ export const OttHeader = () => {
           <div className={styles.ottHeaderRightFrameForImage}>
 
             <div className={styles.ottHeaderRightImagesDiv}>
-              <img className={styles.ottHeaderRightImg1} src="/Images/ott-app/moneyHeist.png" alt="image" />
+              <Lottie options={lottieDefaultOptions} width={700} height={650} />
+              {/* <img className={styles.ottHeaderRightImg1} src="/Images/ott-app/moneyHeist.png" alt="image" />
               <img className={styles.ottHeaderRightImg2} src="/Images/ott-app/Group901188.png" alt="image" />
-              <img className={styles.ottHeaderRightImg3} src="/Images/ott-app/Group901187.png" alt="image" />
+              <img className={styles.ottHeaderRightImg3} src="/Images/ott-app/Group901187.png" alt="image" /> */}
             </div>
           </div>
         </div>

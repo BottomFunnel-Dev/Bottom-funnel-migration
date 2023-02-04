@@ -1,7 +1,19 @@
 import React from 'react';
 import styles from "./PlantBasedMeatBanner.module.css";
+import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Plant based meat.json";
+import Lottie from "react-lottie";
 
 export const PlantBasedMeatBanner = () => {
+    
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
     return (
         <div className={styles.plantBasedBannerParentDiv}>
             <div className={styles.plantBasedMeatBannerContentDiv}>
@@ -21,7 +33,8 @@ export const PlantBasedMeatBanner = () => {
             </div>
 
             <div className={styles.plantBasedBannerImageDiv}>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedBannerImage.png' alt='image' />
+                <Lottie options={lottieDefaultOptions} width={500} height={600} />
+                {/* <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedBannerImage.png' alt='image' /> */}
             </div>
         </div>
     );

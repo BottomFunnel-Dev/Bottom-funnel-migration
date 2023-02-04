@@ -33,6 +33,7 @@ export default function MachineLearning() {
             need to know about machine learning, 
             and how it can help you in your business
             or personal life."
+            
         />
       </Head>
         <main>

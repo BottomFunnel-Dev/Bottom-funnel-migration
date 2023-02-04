@@ -55,18 +55,18 @@
   justify-content: space-between;
 }
 
-.dropdownBar > div {
+.dropdownBar>div {
   height: fit-content;
-  width: 70%;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.dropdownBar > div li {
+.dropdownBar>div li {
   /* background-color: green; */
   /* height: 75px; */
-  width: 30%;
+  width: 7.5vw;
   text-align: center;
   padding: 29px 5px;
   /* color: black; */
@@ -74,7 +74,7 @@
   cursor: pointer;
 }
 
-.dropdownBar > div li:hover {
+.dropdownBar>div li:hover {
   text-decoration: underline;
   text-decoration-color: #ef4c23;
   text-underline-offset: 10px;
@@ -82,49 +82,54 @@
 }
 
 .callToAction {
-  background-color: #ef4c23;
-  color: white;
-  padding: 6px 23px;
+  background-color: #ffeae5;
+  color: #ef4c23;
+  padding: 6px 20px;
   border-radius: 25px;
+  font-size: 1vw;
   font-weight: 600;
-  margin: 0 5px;
-  border: none;
+  margin: 0;
+  border: 2px solid #ef4c23;
+  transition: all 200ms linear;
 }
 
 .productIcon {
   font-size: 30px;
 }
+
 .callToAction:hover {
-  color: #ef4c23 !important;
+  color: rgb(239, 76, 35) !important;
   background-color: white !important;
-  border: 1px solid white;
+  border: 2px solid white;
+  box-shadow: rgba(239, 76, 35, 0.25) 0px 54px 55px, rgba(239, 76, 35, 0.12) 0px -12px 30px, rgba(239, 76, 35, 0.12) 0px 4px 6px, rgba(239, 76, 35, 0.17) 0px 12px 13px, rgba(239, 76, 35, 0.09) 0px -3px 5px;
 }
 
-.navbarSection.active .dropdownBar > div li:nth-child(8) {
+.navbarSection.active .dropdownBar>div li:nth-child(8) {
   color: white !important;
   background-color: #ef4c23;
   border: 1px solid #ef4c23;
 }
 
-.navbarSection.active .dropdownBar > div li {
+.navbarSection.active .dropdownBar>div li {
   color: black;
 }
-.navbarSection.active .dropdownBar > div li:hover {
+
+.navbarSection.active .dropdownBar>div li:hover {
   color: #ef4c23 !important;
 }
 
-.navbarSection.active .dropdownBar > div li:nth-child(8):hover {
+.navbarSection.active .dropdownBar>div li:nth-child(8):hover {
   background-color: white !important;
   /* color: black !important; */
 }
 
-.navbarSection.active .dropdownBar > div li:nth-child(9) {
+.navbarSection.active .dropdownBar>div li:nth-child(9) {
   color: white !important;
   background-color: #ef4c23;
   border: 1px solid #ef4c23;
 }
 
-.navbarSection.active .dropdownBar > div li:nth-child(9):hover {
+.navbarSection.active .dropdownBar>div li:nth-child(9):hover {
   background-color: white !important;
   color: #ef4c23 !important;
 }
@@ -147,19 +152,19 @@
   border-radius: 50%;
 }
 
-.innerList > p {
+.innerList>p {
   font-weight: 500;
   font-size: 16px;
   margin: 0;
 }
 
-.innerList > ul {
+.innerList>ul {
   padding: 30px;
 }
 
-.innerList > ul > li {
+.innerList>ul>li {
   list-style-type: disc;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .solutionVisible {
@@ -191,7 +196,7 @@
   align-items: flex-end;
 }
 
-.solutionCat > p {
+.solutionCat>p {
   font-size: 15px;
   width: 170px;
   box-sizing: border-box;
@@ -214,7 +219,7 @@
   padding: 10px;
 }
 
-.solutionType > div {
+.solutionType>div {
   width: 20%;
   padding: 10px;
   display: flex;
@@ -222,7 +227,7 @@
   column-gap: 10px;
 }
 
-.solutionType > div > p {
+.solutionType>div>p {
   font-size: 15px;
   color: black;
   font-weight: 500;
@@ -261,7 +266,7 @@
   padding: 10px;
 }
 
-.solutionTypeIndustries > div {
+.solutionTypeIndustries>div {
   width: 20%;
   padding: 10px;
   display: flex;
@@ -270,7 +275,7 @@
   column-gap: 10px;
 }
 
-.solutionTypeIndustries > div > p {
+.solutionTypeIndustries>div>p {
   font-size: 15px;
   color: black;
   font-weight: 500;
@@ -294,7 +299,7 @@
   height: 100%;
 }
 
-.aboutDropdownContent > h4 {
+.aboutDropdownContent>h4 {
   color: #ef4c23;
   margin-left: 10px;
   font-size: 18px;
@@ -372,39 +377,39 @@
   /* transition: all 0.3s linear; */
 }
 
-.imageIconDivSection > p {
+.imageIconDivSection>p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.backendimageIconDivSection > p {
+.backendimageIconDivSection>p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.imageIconDivSection > div {
+.imageIconDivSection>div {
   width: 18%;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
 }
 
-.backendimageIconDivSection > div {
+.backendimageIconDivSection>div {
   width: 45px;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
 }
 
-.imageIconDivSection > div > img {
+.imageIconDivSection>div>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.backendimageIconDivSection > div > img {
+.backendimageIconDivSection>div>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -420,12 +425,12 @@
   color: black;
 }
 
-.servicesP > p:hover {
+.servicesP>p:hover {
   text-decoration: none;
   color: #ef4c23;
 }
 
-.listItems > p:hover {
+.listItems>p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -441,6 +446,7 @@
   text-decoration: none;
   color: #ef4c23;
 }
+
 .noStyleMain {
   text-decoration: none;
   color: #ef4c23;
@@ -461,7 +467,7 @@
   row-gap: 20px;
 }
 
-.sideNav > div {
+.sideNav>div {
   width: 100%;
   padding: 10px 5px;
   box-sizing: border-box;
@@ -479,13 +485,13 @@
   background-color: white;
 }
 
-.activetoggle > h6 {
+.activetoggle>h6 {
   color: black;
   font-size: 18px;
   transition: all 0.2s linear;
 }
 
-.sideNav > div > h6 {
+.sideNav>div>h6 {
   margin: 0;
 }
 
@@ -511,12 +517,13 @@
 #serviceDropContent {
   width: 40%;
 }
+
 .serviceDropdownContent {
   height: 100%;
   width: 20%;
 }
 
-.serviceDropdownContent > h4 {
+.serviceDropdownContent>h4 {
   color: #ef4c23;
 }
 
@@ -529,7 +536,7 @@
   flex-direction: column;
 }
 
-.trendListItems > p {
+.trendListItems>p {
   margin: 0;
   padding: 4px;
 }
@@ -562,25 +569,25 @@
   border-left: 3px solid #ef4c23;
 }
 
-.trendImageIconDivSection > p {
+.trendImageIconDivSection>p {
   width: 80%;
   font-size: 14px;
 
   margin: 0;
 }
 
-.trendImageIconDivSection > p:hover {
+.trendImageIconDivSection>p:hover {
   color: #ef4c23;
 }
 
-.trendImageIconDivSection > div {
+.trendImageIconDivSection>div {
   width: 18%;
   /* background-color: #fce7e2; */
   border-left: 2px solid white;
   height: 30px;
 }
 
-.trendImageIconDivSection > div > img {
+.trendImageIconDivSection>div>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -619,7 +626,8 @@
   height: 98%;
   box-sizing: border-box;
 }
-.industryContent > h4 {
+
+.industryContent>h4 {
   color: #ef4c23;
 }
 
@@ -636,7 +644,7 @@
   flex-direction: column;
 }
 
-.industryListItems > p {
+.industryListItems>p {
   margin: 0;
   width: 49%;
   padding: 5px 5px;
@@ -644,7 +652,7 @@
   text-decoration: none !important;
 }
 
-.industryListItems > p:hover {
+.industryListItems>p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -705,12 +713,14 @@
   display: flex;
   flex-direction: column;
 }
+
 .discoverright {
   width: 30%;
   /* height: 100%; */
   padding: 20px;
   background-color: #fff6f4;
 }
+
 .knowmore {
   color: #ef4c23;
   padding: 0 75px;
@@ -724,23 +734,45 @@
   /* background-color: pink; */
   border-bottom: 0.5px solid #e0dada;
 }
+
 .discoverleftbottom {
   width: 100%;
   height: 15%;
   padding: 15px 93px;
   /* background-color: aquamarine; */
 }
-.discoverleftbottom > h3 {
+
+.discoverleftbottom>h3 {
   margin: 0;
   /* background-color: aquamarine; */
 }
+
 .discoverleftbottom span {
   color: #ef4c23;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
 .discoverleftbottom span:hover {
   padding-left: 10px;
+}
+
+.ProductPageRouteButton {
+  background-color: #f2613d;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 25px;
+  font-size: 1vw;
+  font-weight: 600;
+  margin: 0 5px;
+  border: 2px solid #f2613d;
+  transition: all 500ms linear;
+}
+
+.ProductPageRouteButton:hover {
+  background: #ef4c23;
+  border: 2px solid #ef4c23;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 54px 55px, rgba(255, 255, 255, 0.22) 0px -12px 30px, rgba(255, 255, 255, 0.22) 0px 4px 6px, rgba(255, 255, 255, 0.27) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 
 @media (max-width: 480px) {
@@ -765,16 +797,16 @@
     display: none;
   }
 
-  .dropdownBar > div li {
+  .dropdownBar>div li {
     margin: 5px;
     padding: 2px;
   }
 
-  .dropdownBar > div li:nth-child(1) {
+  .dropdownBar>div li:nth-child(1) {
     padding: 5px;
   }
 
-  #checkbox:checked ~ .dropdownBar {
+  #checkbox:checked~.dropdownBar {
     left: 0;
   }
 
@@ -794,10 +826,6 @@
   }
 
   .mobDown {
-    /* display: none; */
-  }
-
-  .mobDown {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -807,7 +835,7 @@
     background: green;
     left: 0;
   }
-  
+
   /* .callToAction {
     padding: 7px !important;
     margin: 5px !important;

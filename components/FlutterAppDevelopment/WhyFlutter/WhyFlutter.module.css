@@ -18,6 +18,12 @@
     flex-direction: column;
 }
 
+.whyFlutterContent>p{
+    text-align: justify;
+}
+
+
+
 .whyFlutterContentScroller{
     width: 40%;
     /* border: 2px solid black;  */
@@ -75,6 +81,7 @@
     /* border: 2px solid red; */
     width: 70%;
     margin-left: 15%;
+    text-align: justify;
 }
 
 @media only screen and (min-width:0px) and (max-width:1024px){

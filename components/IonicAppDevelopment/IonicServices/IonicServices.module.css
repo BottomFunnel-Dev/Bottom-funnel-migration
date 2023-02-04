@@ -45,6 +45,10 @@
   /* margin: 2%; */
 }
 
+.ionicServicesaving >p{
+  text-align: justify;
+}
+
 @media only screen and (min-width:0px) and (max-width:1024px){
   .ionicServicesContainer {
     text-align: center;

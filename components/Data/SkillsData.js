@@ -615,7 +615,7 @@ export const springBootData = {
   title:
     "Best springboot developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced springboot developers. Our springboot development services can support you for all your different types of application development needs.",
+    "A leading springboot web development company Bottom Funnel offers customized, robust and complex springboot web application development services for your business needs",
   isBanner: true,
   BannerData: {
     points: [
@@ -745,7 +745,7 @@ export const springBootData = {
 export const hiberateData = {
   title: "Best hibernate developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced hibernate developers. Our hibernate development services can support you for all your different types of application development needs.",
+    "bottom funnel's hibernate developers provides reliable and high-quality java web application development services using hibernate framework to cater to all your stable application needs.",
   isBanner: true,
   BannerData: {
     points: [
@@ -898,7 +898,7 @@ export const djangoData = {
   title:
     "Best django developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced django developers. Our django development services can support you for all your different types of application development needs.",
+    "Bottom Funnel's Django web development services enhance your business with clean and practical web applications. Contact our Django developers now to get the most out of your business.",
   isBanner: true,
   BannerData: {
     points: [
@@ -1049,7 +1049,7 @@ export const cakePHPData = {
   title:
     "Best cakePHP developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced cakePHP developers. Our cakePHP development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a leading company for CakePHP web development services having expert CakePHP developers to help you build robust web applications rapidly at affordable prices",
   isBanner: true,
   BannerData: {
     points: [
@@ -1201,7 +1201,7 @@ export const codeigniterData = {
   title:
     "Best codeigniter developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced codeigniter developers. Our codeigniter development services can support you for all your different types of application development needs.",
+    "when it comes to codeigniter web application development services, Bottom Funnel is the most reliable company providing robust and stable codeigniter solutions.",
   isBanner: true,
   BannerData: {
     points: [
@@ -1359,7 +1359,7 @@ export const codeigniterData = {
 export const flaskData = {
   title: "Best flask developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced flask developers. Our flask development services can support you for all your different types of application development needs.",
+    "Get reliable Flask development services which can create sophisticated micro web applications for you. Bottom Funnel's expert Flask web developers can create flask applications according to your business needs.",
   isBanner: true,
   BannerData: {
     points: [
@@ -1492,7 +1492,7 @@ export const flaskData = {
 
 export const golangData = {
   title: "Best golang developers in the market | Bottom Funnel",
-  description: `This compiled language offers the stability and security of C with memory safety, garbage collection, and type safety. Structured typing makes it easy to write clear and concise code that's easy to follow and maintain. And its concurrent programming model gives you the freedom to write scalable solutions in a manner that suits your needs best.`,
+  description: "Bottom Funnel's golang web development services offers you the most suitable and innovative golang web solutions available in the market. Hire our golang developers on an hourly or full-time basis now.",
   isBanner: true,
   BannerData: {
     points: [
@@ -1643,7 +1643,7 @@ export const golangData = {
 export const strutsData = {
   title: "Best struts developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced struts developers. Our struts development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a top struts web development company, having highly skilled Struts developers to build elegant and modern applications using struts framework.",
   isBanner: true,
   BannerData: {
     points: [
@@ -1773,7 +1773,7 @@ export const strutsData = {
 export const symfonyData = {
   title: "Best symfony developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced symfony developers. Our symfony development services can support you for all your different types of application development needs.",
+    "Bottom Funnel provide top-rated symphony app development services at global level focusing on building simple, fast, and reliable apps. Contact our symphony web developers now!",
   isBanner: true,
   BannerData: {
     points: [
@@ -1903,7 +1903,7 @@ export const symfonyData = {
 export const phalconData = {
   title: "Best phalcon developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced phalcon developers. Our phalcon development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a leading global Phalcon web development company which provides innovative and agile Phalcon web solutions developed by our Phalcon web developers to provide you the best Phalcon web development services for your business.",
   isBanner: true,
   BannerData: {
     points: [
@@ -2036,7 +2036,7 @@ export const jsfData = {
   title:
     "Best jsf developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced jsf developers. Our jsf development services can support you for all your different types of application development needs.",
+    "Bottom Funnel's jsf developers provides reliable and high-quality java web application development services using jsf framework to cater to all your stable application needs.",
   isBanner: true,
   BannerData: {
     points: [
@@ -2297,7 +2297,7 @@ export const grailsData = {
 export const yiiData = {
   title: "yii framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best Yii developers? Wondering where to get your hands on top-notable Yii expertise? Look no further. We've got you covered. Read on to know",
   isBanner: true,
   BannerData: {
     points: [
@@ -2454,7 +2454,7 @@ export const yiiData = {
 export const zendData = {
   title: "zend framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best Zend developers? Our comprehensive guide is designed to help you identify reliable and competent Zend web application development companies. Read on to know.",
   isBanner: true,
   BannerData: {
     points: [
@@ -2611,7 +2611,7 @@ export const zendData = {
 export const gitData = {
   title: "git framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best Git web application development services? Look no further than Bottom Funnel. We provide top-notch consulting and services to help you succeed in the software development industry.",
   isBanner: true,
   BannerData: {
     points: [
@@ -2768,7 +2768,7 @@ export const gitData = {
 export const cherryData = {
   title: "Cherrypy online services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for top cherrypy developers? Our comprehensive list includes the best in the industry. Read on to know where to find the best cherrypy web application development companies",
   isBanner: true,
   BannerData: {
     points: [
@@ -2925,7 +2925,7 @@ export const cherryData = {
 export const cubaData = {
   title: "Cuba frameword services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best cuba developers? We've rounded up some of the top companies to hire for your web application development needs. Read on to know about their features.",
   isBanner: true,
   BannerData: {
     points: [
@@ -3082,7 +3082,7 @@ export const cubaData = {
 export const echoData = {
   title: "echo framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best echo web application development company? Look no further. Our team of experts have years of experience in this field and offer top-not educational services. Contact us today!",
   isBanner: true,
   BannerData: {
     points: [
@@ -3239,7 +3239,7 @@ export const echoData = {
 export const gorillaData = {
   title: "gorilla framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for top-noting gorilla developers? Look no further. We have the best in the business to offer you reliable and cutting-edge services. Read on to find out about them.",
   isBanner: true,
   BannerData: {
     points: [
@@ -3396,7 +3396,7 @@ export const gorillaData = {
 export const hanamiData = {
   title: "hanami framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best hanami developers? Look no further than Bottom Funnel. Our team of experienced professionals has extensive experience in providing top-noting web application development services.",
   isBanner: true,
   BannerData: {
     points: [
@@ -3553,7 +3553,7 @@ export const hanamiData = {
 export const irisData = {
   title: "iris framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best iris web application development company? Look no further. Our experience in developing top-notch web applications has led us to become the top choice for all such projects. Read on to know how",
   isBanner: true,
   BannerData: {
     points: [
@@ -3710,7 +3710,7 @@ export const irisData = {
 export const padrinoData = {
   title: "padrino framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best padrino developers? Look no further. We've rounded up some of the top firms offering top-notch services. Read on to know about them",
   isBanner: true,
   BannerData: {
     points: [
@@ -3867,7 +3867,7 @@ export const padrinoData = {
 export const railsData = {
   title: "rails framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for top-notched Rails developers? Look no further! Our team of experienced and skilled engineers deliver high-quality Rails web application development services. Contact us today!",
   isBanner: true,
   BannerData: {
     points: [
@@ -4024,7 +4024,7 @@ export const railsData = {
 export const revelData = {
   title: "revel framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for reliable Revel developers? Our team of experienced and skilled experts offer comprehensive web application development services. Read on to know.",
   isBanner: true,
   BannerData: {
     points: [
@@ -4181,7 +4181,7 @@ export const revelData = {
 export const rodaData = {
   title: "roda framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for the best roda developers? Our guide includes information on the different types of roda web application development services. Read to know which ones are best for your needs",
   isBanner: true,
   BannerData: {
     points: [
@@ -4338,7 +4338,7 @@ export const rodaData = {
 export const sinatraData = {
   title: "sinatra framework services | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel, an app that helps you build a business around your content. With modern tools like a website, newsletter, and paid subscriptions, it's the perfect way to grow your audience online",
+    "Looking for reliable Sintara web application development services? We have you covered. Read on to know about the top developers in the industry",
   isBanner: true,
   BannerData: {
     points: [
@@ -4497,7 +4497,7 @@ export const reactjsData = {
   title:
     "Best reactjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced reactjs developers. Our reactjs development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a leading global react.js web development company which provides innovative and attractive react.js web solutions developed by our react.js web developers to provide you the best react.js web development services for your business.",
   isBanner: true,
   BannerData: {
     points: [
@@ -4654,7 +4654,7 @@ export const angularjsData = {
   title:
     "Best angularjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced angolarjs developers. Our angolarjs development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a leading company for angular web development services having expert angular web developers to help you build sophisticated web applications rapidly at affordable prices",
   isBanner: true,
   BannerData: {
     points: [
@@ -4809,7 +4809,7 @@ export const vuejsData = {
   title:
     "Best vuejs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced vuejs developers. Our vuejs development services can support you for all your different types of application development needs.",
+    "Bottom Funnel provide top-rated vue.js app development services at global level focusing on building creative, attractive and sophisticated web apps. Contact our vue.js web developers now!",
   isBanner: true,
   BannerData: {
     points: [
@@ -4967,7 +4967,7 @@ export const vuejsData = {
 export const emberjsData = {
   title: "Best emberjs developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced emberjs developers. Our emberjs development services can support you for all your different types of application development needs.",
+    "Bottom Funnel's ember.js web development services enhance your business with clean and attractive web applications. Contact our ember.js developers now to get the most out of your business.",
   isBanner: true,
   BannerData: {
     points: [
@@ -5125,7 +5125,7 @@ export const emberjsData = {
 export const jqueryData = {
   title: "Best jquery developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced jquery developers. Our jquery development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a leading company for jquery web development services having expert jquery developers to help you build sophisticated web applications rapidly at affordable prices",
   isBanner: true,
   BannerData: {
     points: [
@@ -5284,7 +5284,7 @@ export const nextjsData = {
   title:
     "Best nextjs developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced nextjs developers. Our nextjs development services can support you for all your different types of application development needs.",
+    "Bottom Funnel is a leading global next.js web development company which provides stable and attractive next.js web solutions developed by our next.js web developers to provide you the best next.js web development services for your business.",
   isBanner: true,
   BannerData: {
     points: [
@@ -5422,7 +5422,7 @@ export const backbonejsData = {
   title:
     "Best backbonejs developers in the market | Bottom Funnel Technologies Pvt. Ltd",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced backbonejs developers. Our backbonejs development services can support you for all your different types of application development needs.",
+    "Bottom Funnel's backbone.js web development services enhance your business with clean and attractive web applications. Contact our backbone.js developers now to get the most out of your business.",
   isBanner: true,
   BannerData: {
     points: [
@@ -5560,7 +5560,7 @@ export const svelteData = {
   title:
     "Best svelte developers in the market | Bottom Funnel Technologies Pvt. Ltd.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced svelte developers. Our svelte development services can support you for all your different types of application development needs.",
+    "Bottom Funnel provide top-rated svelte app development services at global level focusing on building creative, attractive and sophisticated apps. Contact our svelte web developers now!",
   isBanner: true,
   BannerData: {
     points: [
@@ -5719,7 +5719,7 @@ export const semanticData = {
   title:
     "Best Semantic Ui developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced Semantic Ui developers. Our Semantic Ui development services can support you for all your different types of application development needs.",
+    "Looking for a reliable semantic web application development company? Our team of top-noting semantic developers can help you. Read on to know about their expertise",
   isBanner: true,
   BannerData: {
     points: [
@@ -5857,7 +5857,7 @@ export const semanticData = {
 export const mysqlData = {
   title: "Best mySQL developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced mySQL developers. Our mySQL development services can support you for all your different types of application development needs.",
+    "Looking for talented MySQL developers? Or want to become one yourself? Our team of expert consultants have all the knowledge and expertise you need to succeed. Let's get into it!",
   isBanner: true,
   BannerData: {
     points: [
@@ -5994,7 +5994,7 @@ export const mysqlData = {
 export const msSQLData = {
   title: "Best microsoft SQL developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced microsoft SQL developers. Our microsoft SQL development services can support you for all your different types of application development needs.",
+    "Want to become a Microsoft SQL server developer? Learn the tools and techniques needed to become an advanced SQL server expert with our comprehensive course!",
   isBanner: true,
   BannerData: {
     points: [
@@ -6131,7 +6131,7 @@ export const msSQLData = {
 export const postgresqlData = {
   title: "Best postgreSQL developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced postgreSQL developers. Our postgreSQL development services can support you for all your different types of application development needs.",
+    "Looking to become a postgreSQL developer? Wondering what it takes to become a top in the field? Our guide covers everything you need to know about becoming a postgreSQL developer for the OS X and iOS platforms",
   isBanner: true,
   BannerData: {
     points: [
@@ -6270,7 +6270,7 @@ export const mongodbData = {
   title:
     "Best mongoDB developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced mongoDB developers. Our mongoDB development services can support you for all your different types of application development needs.",
+    "Looking for experienced mongodb developers? Hire a top-notate team for your database needs. Our database experts have extensive experience with the platform and can help you with your project",
   isBanner: true,
   BannerData: {
     points: [
@@ -6408,7 +6408,7 @@ export const redisData = {
   title:
     "Best redis developers in the market | Bottom Funnel Technology PVT. LTD.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced redis developers. Our redis development services can support you for all your different types of application development needs.",
+    "Need some expert redis advice? Our community of redis developers covers topics like how to get started with Redis. Read on to know",
   isBanner: true,
   BannerData: {
     points: [
@@ -6545,7 +6545,7 @@ export const redisData = {
 export const ibmData = {
   title: "Best IBM db2 developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced IBM db2 developers. Our IBM db2 development services can support you for all your different types of application development needs.",
+    "Interested in becoming an IBM-DB developer? Join the growing community of IBMs DB experts and create cutting-edge applications for our clients using our comprehensive documentation.",
   isBanner: true,
   BannerData: {
     points: [
@@ -6682,7 +6682,7 @@ export const ibmData = {
 export const elasticData = {
   title: "Best elasticsearch developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced elasticsearch developers. Our elasticsearch development services can support you for all your different types of application development needs.",
+    "Get certified to develop with Elasticsearch, a leading open source search platform. Learn the tools and techniques needed for successful Elasticsearch development",
   isBanner: true,
   BannerData: {
     points: [
@@ -6840,7 +6840,7 @@ export const elasticData = {
 export const sqliteData = {
   title: "Best SQLite developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced SQLite developers. Our SQLite development services can support you for all your different types of application development needs.",
+    "Looking for skilled SQLite developers? Our team has over 25 years of experience in developing database applications. Contact us today!",
   isBanner: true,
   BannerData: {
     points: [
@@ -6977,7 +6977,7 @@ export const sqliteData = {
 export const cassandraData = {
   title: "Best cassandra developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced cassandra developers. Our cassandra development services can support you for all your different types of application development needs.",
+    "Looking to become aCassandra developer? Interested in working on an open-source NoSQL database? Wondering how to get started with the technology? Read on for valuable info on becoming a Cassandra developer.",
   isBanner: true,
   BannerData: {
     points: [
@@ -7116,7 +7116,7 @@ export const cassandraData = {
 export const wordpressData = {
   title: "Best wordpress developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced wordpress developers. Our wordpress development services can support you for all your different types of application development needs.",
+    "Looking for skilled professionals to create a customized WordPress app? We have the expertise and experience you need. Contact us today!",
   isBanner: true,
   BannerData: {
     points: [
@@ -7253,7 +7253,7 @@ export const wordpressData = {
 export const hubspotData = {
   title: "Best hubspot developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced hubspot developers. Our hubspot development services can support you for all your different types of application development needs.",
+    "Want to become a certified HubSpot developer? Our Learn to Develop for the Enterprise course covers everything you need to know, including certification exam",
   isBanner: true,
   BannerData: {
     points: [
@@ -7390,7 +7390,7 @@ export const hubspotData = {
 export const joomlaData = {
   title: "Best joomla developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced joomla developers. Our joomla development services can support you for all your different types of application development needs.",
+    "Looking for a Joomla developer? Our directory of qualified experts covers everything you need to know about hiring a Joomla developer. Read on to know more.",
   isBanner: true,
   BannerData: {
     points: [
@@ -7527,7 +7527,7 @@ export const joomlaData = {
 export const wooecommerceData = {
   title: "Best woocommerce developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced woocommerce developers. Our woo-ecommerce development services can support you for all your different types of application development needs.",
+    "Looking to become a Woocommerce developer? Our extensive knowledge base with tips and tricks have you covered. Read on to know how to become a",
   isBanner: true,
   BannerData: {
     points: [
@@ -7664,7 +7664,7 @@ export const wooecommerceData = {
 export const drupalData = {
   title: "Best drupal developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced drupal developers. Our drupal development services can support you for all your different types of application development needs.",
+    "Looking for experienced Drupal developers? Our team of skilled professionals has the expertise and knowledge required to develop world-class Drupal apps. Contact us today!",
   isBanner: true,
   BannerData: {
     points: [
@@ -7802,7 +7802,7 @@ export const wixData = {
   title:
     "Best wix developers in the market | Bottom Funnel Technologies PVT. LTD.",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced wix developers. Our wix development services can support you for all your different types of application development needs.",
+    "Looking for experienced Wix developers to help you develop and launch your own custom apps? We've got you covered! Read on for details.",
   isBanner: true,
   BannerData: {
     points: [
@@ -7960,7 +7960,7 @@ export const wixData = {
 export const bigcommerceData = {
   title: "Best big-commerce developers in the market | Bottom Funnel",
   description:
-    "Bottom Funnel is a globally dominant company having highly experienced big-commerce developers. Our big-commerce development services can support you for all your different types of application development needs.",
+    "Looking for BigCommerce developers? Visit Big Commerce Mac app development to hire top-notch BigCommerce experts. Read on to learn about BigCommerce",
   isBanner: true,
   BannerData: {
     points: [

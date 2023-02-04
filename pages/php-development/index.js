@@ -20,11 +20,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function PhP() {
   return (
     <div style={{ color: "#393939" }}>
-<Navbar
+      <Head>
+      <title>PHP Development | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="PHP is a widely used programming language.
+        Learn the different PHP solutions and 
+        development techniques that can help you 
+        land your next project."
+      />
+    </Head>
+    <main>
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -50,6 +62,7 @@ export default function PhP() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

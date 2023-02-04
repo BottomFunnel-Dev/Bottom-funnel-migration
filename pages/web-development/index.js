@@ -18,11 +18,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function index() {
   return (
     <div>
-      <Navbar
+    <Head>
+      <title>Web App development | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Want to build a killer website or app? Our 
+        extensive knowledge and experience in web 
+        app development can help you create 
+        top-notch solutions for your business."
+      />
+    </Head>
+    <main>
+   <Navbar
         productMount={{
           navMount: false,
         }}
@@ -49,6 +61,7 @@ export default function index() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

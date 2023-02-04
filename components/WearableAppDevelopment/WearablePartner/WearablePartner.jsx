@@ -144,7 +144,9 @@ export const WearablePartner = () => {
                      </div>
                      <div>
                         <h3> Discover </h3>
-                        <p>
+                        <p style={{
+                           textAlign:"justify"
+                        }}>
                            We start by requirement gathering, competitive analysis, finding business goals, etc., to discover your project feasibility.
                         </p>
                      </div>
@@ -156,7 +158,9 @@ export const WearablePartner = () => {
                      </div>
                      <div>
                         <h3> Wireframe/Design </h3>
-                        <p>
+                        <p style={{
+                           textAlign:"justify"
+                        }}>
                            After understanding the requirement, we create high fidelity wireframes and prototypes if applicable for your website design.
                         </p>
                      </div>
@@ -171,7 +175,10 @@ export const WearablePartner = () => {
                      </div>
                      <div>
                         <h3> Development </h3>
-                        <p>
+                        <p style={{
+                           textAlign:"justify",
+                           
+                        }}> 
                            We implement all your website pages and content in a CMS. All the webpages and other website components are developed.
                         </p>
                      </div>
@@ -183,7 +190,10 @@ export const WearablePartner = () => {
                      </div>
                      <div>
                         <h3> Deployment </h3>
-                        <p>
+                        <p style={{
+                           textAlign:"justify",
+                           
+                        }}>
                            After creating and testing the website successfully, we help you deploy your site on any desired platform and complete the setup.
                         </p>
                      </div>
@@ -195,7 +205,10 @@ export const WearablePartner = () => {
             <div className={styles.wearableinnermaindiv4SecondDiv}>
                <h1>Wearable App Development Expertise </h1>
                
-               <p>
+               <p style={{
+                  textAlign:"justify",
+                  
+               }}>
                   With every passing year, wearable technology is getting more and more ubiquitous. We have the expertise to cover the different spectrum of wearables according to your custom needs and requirements. You can trust our wearable app developers to assist you with highly functional and user-friendly applications that will give you the results you have in your mind.
                </p>
             </div>

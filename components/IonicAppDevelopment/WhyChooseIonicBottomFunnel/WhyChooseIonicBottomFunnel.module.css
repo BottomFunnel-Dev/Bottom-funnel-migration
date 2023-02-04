@@ -12,6 +12,10 @@
   /* height: 25vh; */
   /* padding: 3%; */
 }
+
+.ionicBottomFunnelHeadingContainer>p{
+  text-align: justify;
+}
 .ionicBottomFunnelContainer {
   /* border: 2px solid red; */
   width: 98%;
@@ -38,6 +42,9 @@
   padding: 1%;
   margin-left: 3%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ionicBottomFunnelDetails>p{
+  text-align: justify;
 }
 
 .ionicBottomFunnelDetails:hover {

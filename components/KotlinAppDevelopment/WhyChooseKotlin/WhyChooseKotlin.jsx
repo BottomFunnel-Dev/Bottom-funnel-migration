@@ -68,7 +68,9 @@ export const WhyChooseKotlin = () => {
           <h1 className={styles.whyChooseKotlinContentHeading}>
             Why Choose Kotlin for App Development
           </h1>
-          <p className={styles.whyChooseKotlinContentText}>
+          <p style={{
+            textAlign:"justify"
+          }} className={styles.whyChooseKotlinContentText}>
             We Offer a full range of ionic app development solutions from
             designing Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Laborum dicta inventore a quidem ipsum recusandae voluptatem,

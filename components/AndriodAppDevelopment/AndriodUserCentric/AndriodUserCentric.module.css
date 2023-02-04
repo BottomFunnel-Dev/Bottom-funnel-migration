@@ -1,5 +1,3 @@
-
-
 .andriodUserCentricMainDiv{
     /* border: 2px solid red; */
     width: 100%;
@@ -30,6 +28,7 @@
     margin-left: 5%;
     width: 80%;
     /* border: 2px solid red; */
+    text-align: justify;
 }
 .andriodUserCentricIconOuterBox{
     /* border: 2px solid red; */
@@ -64,8 +63,13 @@
     display: flex;
     flex-direction: column;
 }
+
+.andriodUserCentricIconHeading>p{
+    text-align: justify;
+}
+
 .mobileappactionbutton{
-margin-left: 300px;
+margin-left: 200px;
 /* border: 2px solid green; */
 font-size: 18px;
 border-radius: 15px;
@@ -143,6 +147,10 @@ border: 1px solid lightgrey;
         margin: auto;
 
        
+    }
+
+    .andriodUserCentricIconHeading>p{
+        text-align: justify;
     }
     
     .andriodUserCentricIcon{

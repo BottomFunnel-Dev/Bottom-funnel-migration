@@ -32,7 +32,7 @@ width: 60%;
 .IOSAppDevelopmentPageCardsInnerMainDivcontain h1 {
   font-size: 35px;
   /* border: 2px solid yellow; */
-  width: 60%;
+  width: 80%;
 }
 
 .IOSAppDevelopmentPageCardsInnerMainDivcontain p {
@@ -40,6 +40,7 @@ width: 60%;
   margin: 0%;
   /* border: 1px solid red; */
   /* margin-top: 1%; */
+  text-align: justify;
 }
 .IOSAppDevelopmentPageCardsInnerMainDivimage {
   /* border: 2px solid  blue; */
@@ -82,8 +83,14 @@ width: 25%;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
-  padding-left: 2%;
+  padding: 2%;
 }
+
+.innermaindiv2box>p{
+  text-align: justify;
+}
+
+
 
 .innermaindiv2box:hover {
   cursor: pointer;
@@ -145,6 +152,7 @@ width: 25%;
 .innermaindiv3Contain p {
   font-size: 16px;
   margin-top: 2%;
+  text-align: justify;
 }
 .innermaindiv3Image {
   border: 10px solid white;
@@ -302,6 +310,10 @@ width: 25%;
   margin-top: 3%;
   /* width: 45%; */
 }
+.iosappdevelopmentparagraph>p{
+  text-align: justify;
+}
+
 
 .iosinnermaindiv41stdivbox {
   display: flex;
@@ -458,6 +470,10 @@ width: 25%;
   height: 100%;
   color: white;
 }
+/* .paragraphiosappdevelopment{
+  text-align: justify;
+  background-color: aqua;
+} */
 
 
 
@@ -633,5 +649,8 @@ width: 25%;
   display: flex;
   flex-direction: column;
 }
+
+
+
 
 }

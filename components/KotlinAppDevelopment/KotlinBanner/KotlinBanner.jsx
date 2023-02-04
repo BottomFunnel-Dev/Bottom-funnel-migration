@@ -26,7 +26,7 @@ export const KotlinBanner = () => {
           <button className={styles.kotlinbannerbutton}>Get Started</button>
         </div>
         <div className={styles.kotlinIcon}>
-        <Lottie options={lottieDefaultOptions} width={800} height={1000} />
+        <Lottie options={lottieDefaultOptions} width={730} height={820} />
         </div>
       </div>
     </>

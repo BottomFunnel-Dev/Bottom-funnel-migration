@@ -23,14 +23,16 @@
     width: 40%;
     margin-top: 15%;
     /* justify-content: end; */
-     margin-left: -15%; 
+     /* margin-left: -15%;  */
+     margin-left: 3%;
      /* margin: auto; */
     text-align: left;
     color: white;
     /* border: 2px solid red; */
   }
   .ionicAppBannermainboxinnertextdiv p{
-    font-size: 18px;
+    /* font-size: 18px; */
+    text-align: justify;
   }
 
   

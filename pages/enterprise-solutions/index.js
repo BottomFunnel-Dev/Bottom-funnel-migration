@@ -18,11 +18,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function EnterprisePage () {
   return (
     <div>
-<Navbar
+
+      <Head>
+        <title>Enterprise Solutions development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Looking to provide your business with enterprise 
+          solutions services? Our extensive portfolio of 
+          offerings includes everything you need to grow your 
+          business. Read on for details."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -50,6 +64,8 @@ export default function EnterprisePage () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

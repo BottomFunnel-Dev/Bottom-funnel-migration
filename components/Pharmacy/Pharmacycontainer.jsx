@@ -6,8 +6,20 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/pharmacy.json";
+import Lottie from "react-lottie";
 
 export default function Pharmacycontainer() {
+  
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -35,7 +47,7 @@ export default function Pharmacycontainer() {
             <h1>Launch an On-Demand</h1>
             <h2>Pharmacy Delivery App</h2>
             <p>And 4X Your Sales of Medicines.</p>
-            
+
             <button className={styles.szpharmacybtn} onClick={handleOpen}>Get Started</button>
 
             <Modal
@@ -55,7 +67,9 @@ export default function Pharmacycontainer() {
           </div>
         </div>
 
-        <div className={styles.szpharmacyright}></div>
+        <div className={styles.pharmacyBannerAnimationDiv}>
+          <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 .pickupbannermaiboxes {
   height: 100vh;
   border: 1px solid white;
-  background: url("/Images/pickup/backgrounds/Group340276.png");
+  /* background: url("/Images/pickup/backgrounds/Group340276.png"); */
   background-repeat: no-repeat;
   background-size: 60% 100%;
   background-position-x: right;
@@ -10,9 +10,9 @@
 }
 
 .pickupbannersometextbox {
+  /* border: 1px solid rebeccapurple; */
   height: fit-content;
   width: 45%;
-
   margin-top: 20%;
   margin-left: 3%;
   padding: 5px;
@@ -34,4 +34,12 @@
 .pickupbannerbutton:hover {
   background-color: white;
   color: #ef4c23;
+}
+
+.pickupDeliveryBannerAimationDiv {
+  /* border: 1px solid black; */
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  top: 15%;
 }

@@ -25,7 +25,7 @@ export const IOSAppDevelopmentPageBanner = () => {
           <button className={styles.IOSAppDevelopmentbannerbutton}>Get Started</button>
         </div>
         <div className={styles.IOSandroidIcon}>
-        <Lottie options={lottieDefaultOptions} width={400} height={500} />
+          <Lottie options={lottieDefaultOptions} width={400} height={500} />
         </div>
       </div>
     </div>

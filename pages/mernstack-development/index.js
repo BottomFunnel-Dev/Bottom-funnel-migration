@@ -26,6 +26,17 @@ import * as ReactAnimation from "../../public/webdevanimation/Mern.json"
 export default function MernPageWebDevelopment() {
   return (
     <div style={{ color: "#393939" }}>
+      <Head>
+      <title>MERN Stack Development | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Learn about the different stages of developing 
+        a MERN Stack solution and how to prepare for 
+        launching your product or service. Our blog 
+        covers these topics"
+      />
+    </Head>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -51,6 +62,7 @@ export default function MernPageWebDevelopment() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

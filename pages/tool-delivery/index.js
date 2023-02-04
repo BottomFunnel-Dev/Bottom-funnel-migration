@@ -22,26 +22,13 @@ import Head from "next/head";
 
 export default function ToolDeliveryApp() {
   return (
-    <>
-     <Head>
-      <title>Tool Delivery web App 
-Development Company | Bottom 
-Funnel</title>
-      <meta
-        name="description"
-        content="Learn about our various Tool Delivery Web App solutions that can 
-        help you streamline your workflow and improve efficiency within 
-        your organization. Get in touch with us today to learn more!"
-      />
-   </Head>
-
-    <main>
-   <Navbar
+    <div>
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />

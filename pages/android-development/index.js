@@ -19,45 +19,44 @@ import Head from "next/head";
 export default function AndroidAppDevelopment() {
   return (
     <>
-     <Head>
-     
-     
-      
-     <title>Best android app development services company | Bottom Funnel</title>
-     <meta
-       name="description"
-       content="Bottom funnel, android app development, app development,  Android App UX/UI Design development,
+      <Head>
+        <title>
+          Best android app development services company | Bottom Funnel
+        </title>
+        <meta
+          name="description"
+          content="Bottom funnel, android app development, app development,  Android App UX/UI Design development,
         bottom funnel app development services, Android App Programming,  Native & Hybrid Android App Development, 
         App Development for Android Watch and Wearable Devices."
-     />
-   </Head>
-    <main>
- <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <AndriodBanner />
-      <AndriodServices />
-      <AndriodCustomDevelopment />
-      <AndriodUserCentric />
-      <AndriodBottomFunnel />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <AndriodBanner />
+        <AndriodServices />
+        <AndriodCustomDevelopment />
+        <AndriodUserCentric />
+        <AndriodBottomFunnel />
 
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

@@ -15,11 +15,27 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function LocalSEO() {
   return (
     <div>
-<Navbar
+
+      <Head>
+        <title> Local SEO Services | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Need some local SEO services for your business? 
+          We've got you covered. Our range of reliable and 
+          effective SEO services include organic search 
+          engine optimization, PPC campaigns, website 
+          optimization, and much more. Check them out!"
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -44,6 +60,9 @@ export default function LocalSEO() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
+
     </div>
   );
 }

@@ -18,11 +18,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function StartupSolutions () {
   return (
     <div className={styles.StartupSolutionsMain}>
-<Navbar
+      
+      <Head>
+        <title>Startup Solutions development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to start and grow your own startup? Our 
+          comprehensive startup solutions services can help 
+          you. Learn about our offerings and contact us for a 
+          consultation"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -49,6 +63,7 @@ export default function StartupSolutions () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   )
 };

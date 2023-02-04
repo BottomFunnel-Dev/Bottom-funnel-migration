@@ -1,7 +1,19 @@
-import React from 'react'
-import styles from "./RealEstateBanner.module.css"
+import React from 'react';
+import styles from "./RealEstateBanner.module.css";
+// import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Agriculture.json";
+import Lottie from "react-lottie";
 
 export const RealEstateBanner = () => {
+      
+  // const lottieDefaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: reactAnimation,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice"
+  //   }
+  // };
+
   const txtx = [
     {
       txt: "7K+",
@@ -34,13 +46,15 @@ export const RealEstateBanner = () => {
                 <h1>{e.txt}</h1>
                 <p>{e.stxt}</p>
               </div>
+
             )
           })}</div>
+
+          {/* <div className={styles.realEstateBannerAnimationDiv}>
+            <Lottie options={lottieDefaultOptions} width={700} height={700} />
+          </div> */}
         </div>
 
-          {/* <div className={styles.realestatebannersomeimages}>
-            <img src='/Images/RealEstate/ReslEstateNewBanner.png' alt='image' />
-          </div> */}
       </div>
 
     </div>

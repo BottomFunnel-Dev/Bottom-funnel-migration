@@ -1,0 +1,126 @@
+.nextholidaymainboxes{
+    /* border: 1px solid red; */
+    height: fit-content;
+     display: flex;
+     background: url("/Images/portfolio/Jambo shop/backgrounds/bg.png");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     margin-top: 0%;
+}
+
+.nextholidayleftbox{
+    height: 100%;
+    width: 55%;
+margin: 2% 2% 2% 5%;
+    background: url("/Images/portfolio/Jambo shop/Screens/Screenshot (21) 1.png");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+}
+
+.nextholidayleftboxforimages{
+    height: 85%;
+    width: 30%;
+
+    margin: 5% 0% 0% 65%;
+    
+}
+
+.nextholidayleftboxforimages>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   
+}
+
+
+.nextholidayrighttbox{
+    height: fit-content;
+    width: 45%;
+    margin-right: 2%;
+    
+}
+
+.nextholidayrighttbox>p{
+    font-size: smaller;
+}
+
+.nextholidayrightinsideflexbox{
+    /* border: 1px solid red; */
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nextholidaywrapbox1{
+/* border: 1px solid green; */
+width: 40%;
+margin: 3%;
+padding: 5px;
+}
+
+.nextholidaywrapbox1>h5{
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.nextholidaywrapbox1>p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -0%;
+    color: black;
+}
+
+.portfolioavailableonicon{
+    display: flex;
+  margin: auto;
+  width: 40%;
+
+}
+
+.porfolionextholidayicon{
+
+margin: 2% ;
+height: 20%;
+width: 20%;
+
+}
+
+.porfolionextholidayicon>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nextholidaywrapboximages{
+    width: 40%;
+    height: 5%;
+  
+
+}
+.nextholidaywrapboximages>img{
+    height: 100%;
+    width: 70%;
+    object-fit: contain;
+}
+
+.nextholidayviewcasebutton{
+    padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: transparent;
+  border: #ef4c23;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.nextholidayviewcasebutton:hover{
+    background-color: #ef4c23;
+    color: white;
+}

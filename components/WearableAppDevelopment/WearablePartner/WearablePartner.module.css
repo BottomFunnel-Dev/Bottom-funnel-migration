@@ -3,6 +3,7 @@
   flex-direction: row;
   /* border: 2px solid blue; */
   height: 60vh;
+  margin-bottom: 5%;
 }
 
 .wearableInnerMainDiv4FirstDiv {
@@ -118,13 +119,13 @@
   background-color: white;
   margin: auto;
   width: 30%;
-  height: 230px;
+  height: fit-content;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   /* margin-left: 3%; */
   /* margin-right: 3%; */
-
+padding: 10px;
    /* margin-top: 2%; */
-  padding: 5px 5px 5px 5px;
+  /* padding: 5px 5px 5px 5px; */
   /* padding-left: 1%; */
   border-radius: 10px;
   /* margin-bottom: 1%; */
@@ -147,7 +148,8 @@
 .wearableInnerMaindiv4Row p {
   margin-top: 1%;
   /* border: 2px solid red; */
-  font-size: 14px;
+  /* font-size: 14px; */
+  text-align: justify;
 }
 
 .reactnativePageCards-innermaindiv5 h2 {
@@ -164,6 +166,10 @@
   text-align: left;
   width: 70%;
   margin-left: 3%;
+}
+
+.wearableheading>p{
+  text-align: justify;
 }
 
 .wearablepath {
@@ -214,17 +220,19 @@
   background-image: url("/Images/wearable/bgimage.png");
   color: white;
   margin-top: 3%;
-  height: fit-content;
+  height: 300px;
   object-fit: cover;
   background-size: cover;
   justify-content: center;
   text-align: center;
   padding-top:10px;
   padding-bottom: 50px;
+
 }
 
 .wearablebannerdiv h2 {
   font-size: 35px;
+  margin-top: 55px;
 }
 .wearablebannerdiv p {
   font-size: 18px;

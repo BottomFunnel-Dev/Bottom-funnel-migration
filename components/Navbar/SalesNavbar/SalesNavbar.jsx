@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import { useNavigate } from "react-router-dom";
 import navsales from "./SalesNavbar.module.css";
+import { useSelector } from "react-redux";
 import { SalesProduct } from "./SalesProduct";
 import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";

@@ -26,8 +26,7 @@ const Navbar = ({ navredux, productMount }) => {
   const [product, setProduct] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
-  const router = useRouter()
-
+  const router = useRouter();
 
   const skillHoverIn = () => {
     setSkill(true);
@@ -201,22 +200,8 @@ const Navbar = ({ navredux, productMount }) => {
                 SOLUTIONS
               </li>
 
-              <li
-                onMouseEnter={productHoverIn}
-                onMouseLeave={productHoverOut}
-                onClick={() => router.push("https://bottomfunnel.net/")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                PRODUCTS
-              </li>
-
-              <li
-                // onMouseEnter={skillHoverIn}
-                // onMouseLeave={skillHoverOut}
-                onClick={() => router.push("/pricing")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                PRICING
+              <li style={{ color: navbar ? "black" : navredux.color }}>
+                INDUSTRIES
               </li>
 
               <li
@@ -224,7 +209,7 @@ const Navbar = ({ navredux, productMount }) => {
                 // onMouseLeave={blogHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                PORTFOLIO
+                WORK
               </li>
 
               <li
@@ -232,19 +217,25 @@ const Navbar = ({ navredux, productMount }) => {
                 // onMouseLeave={blogHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                BLOGS
+                RESOURCES
               </li>
             </div>
+            <button
+              onClick={() => router.push("https://www.bottomfunnel.net/")}
+              className={navstyle.ProductPageRouteButton}
+            >
+              Product
+            </button>
 
             <button
               className={navstyle.callToAction}
-            // onClick={() => router.push("/hire-new-talent")}
+              // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
             <button
               className={navstyle.callToAction}
-            onClick={() => router.push("/apply-as-talent")}
+              onClick={() => router.push("/apply-as-talent")}
             >
               Apply as a Talent
             </button>
@@ -298,14 +289,14 @@ const Navbar = ({ navredux, productMount }) => {
       ) : null} */}
 
       {/* product drop down section code start */}
-      {product ? (
+      {/* {product ? (
         <Products
           serHoverIn={productHoverIn}
           serHoverOut={productHoverOut}
           scroll={scroll}
           productMount={productMount}
         />
-      ) : null}
+      ) : null} */}
     </div>
   );
 };
