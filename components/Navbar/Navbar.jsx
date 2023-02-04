@@ -8,6 +8,7 @@ import { WhoWeAre } from "./WhoWeAre";
 
 import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 import { ContactMain } from "../Contact/Contact";
+import { Resource } from "./Resource";
 
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
@@ -16,13 +17,16 @@ import { NavIndustries } from "./NavIndustries";
 import { Products } from "./Products";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
+import { Industries } from "./Industries";
 
 const Navbar = ({ navredux, productMount }) => {
   // const router.push = userouter.push();
   const [aboutH, setAboutH] = useState(false);
   const [solution, setSolution] = useState(false);
+  const [industries, setIndustries] = useState(false);
   const [service, setService] = useState(false);
   const [scroll, setScroll] = useState(false);
+  const [resource, setResource] = useState(false);
   const [product, setProduct] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
@@ -30,7 +34,6 @@ const Navbar = ({ navredux, productMount }) => {
 
   const skillHoverIn = () => {
     setSkill(true);
-
     setNabvar(true);
   };
 
@@ -50,6 +53,18 @@ const Navbar = ({ navredux, productMount }) => {
 
   const solHoverOut = () => {
     setSolution(false);
+    if (window.scrollY == 0) {
+      setNabvar(false);
+    }
+  };
+
+  const indusHoverIn = () => {
+    setIndustries(true);
+    setNabvar(true);
+  };
+
+  const indusHoverOut = () => {
+    setIndustries(false);
     if (window.scrollY == 0) {
       setNabvar(false);
     }
@@ -100,6 +115,18 @@ const Navbar = ({ navredux, productMount }) => {
     }
   };
 
+  const resHoverIn = () => {
+    setResource(true);
+    setNabvar(true);
+  };
+
+  const resHoverOut = () => {
+    setResource(false);
+    if (window.scrollY == 0) {
+      setNabvar(false);
+    }
+  };
+
   const navBackground = () => {
     if (window.scrollY > 1) {
       setNabvar(true);
@@ -126,6 +153,7 @@ const Navbar = ({ navredux, productMount }) => {
     mobres ? setMobres(false) : setMobres(true);
     console.log("working tree", mobres);
   };
+
   return (
     <div>
       {!productMount.navMount && (
@@ -156,7 +184,7 @@ const Navbar = ({ navredux, productMount }) => {
             <img
               src={
                 navredux.logo && !navbar
-                  ? "Images/navbar/whitelogobottom.png"
+                  ? "/Images/navbar/whitelogobottom.png"
                   : "/Images/navbar/blacklogo.png"
               }
               // Images/navbar/whitelogobottom.png
@@ -201,7 +229,10 @@ const Navbar = ({ navredux, productMount }) => {
                 SOLUTIONS
               </li>
 
-              <li style={{ color: navbar ? "black" : navredux.color }}>
+              <li
+                onMouseEnter={indusHoverIn}
+                onMouseLeave={indusHoverOut}
+                style={{ color: navbar ? "black" : navredux.color }}>
                 INDUSTRIES
               </li>
 
@@ -214,11 +245,11 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                // onMouseEnter={blogHoverIn}
-                // onMouseLeave={blogHoverOut}
+                onMouseEnter={resHoverIn}
+                onMouseLeave={resHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                RESOURCES
+                Resources
               </li>
             </div>
             <button
@@ -230,7 +261,7 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/hire-new-talent")}
+            // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
@@ -285,6 +316,25 @@ const Navbar = ({ navredux, productMount }) => {
           productMount={productMount}
         />
       ) : null}
+
+      {industries ? (
+        <Industries
+          indusHoverIn={indusHoverIn}
+          indusHoverOut={indusHoverOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null}
+
+      {resource ? (
+        <Resource
+          resHoverIn={resHoverIn}
+          resHoverOut={resHoverOut}
+          scroll={scroll}
+          productMount={productMount}
+        />
+      ) : null}
+
       {/* {product ? (
         <Products productHoverIn={productHoverIn}  productHoverOut={productHoverOut} scroll={scroll}/>
       ) : null} */}

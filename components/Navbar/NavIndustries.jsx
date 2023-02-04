@@ -17,7 +17,7 @@ export const NavIndustries = ({
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       {/* <div className={industry.serviceVisible}> */}
-      <div className={industry.indindustryContent}>
+      {/* <div className={industry.indindustryContent}>
         <Link href={""} className={industry.industrynoStyle}>
           <h5>Industries We Serves</h5>
         </Link>
@@ -48,7 +48,7 @@ export const NavIndustries = ({
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
 
       
@@ -70,7 +70,7 @@ export const NavIndustries = ({
                 <img
                   className={industry.industryiconDivSection}
                   src={item.navIcons}
-                  alt=""
+                  alt="image"
                 />
               </div>
               <Link

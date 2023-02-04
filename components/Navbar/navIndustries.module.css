@@ -87,9 +87,6 @@
   top: 78px;
 }
 
-
-
-
 .industryimageIconDivSection {
   width: 100%;
   height: 38px;
@@ -159,6 +156,70 @@
   width: 50%;
 }
 
+.resourceVisible {
+  display: flex;
+  background-color: transparent;
+  width: 40%;
+  height: 350px;
+  position: fixed;
+  box-sizing: border-box;
+  top: 78px;
+  left: 47%;
+  /* padding: 0 5px; */
+
+  /* border: 2px solid red; */
+  /* border-top: 1px solid black; */
+  z-index: 100000000;
+  justify-content: center;
+}
+
+.resourceListItems {
+  width: 80%;
+  height: 98%;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.resourceListItems > div > p {
+  margin: 0;
+  width: 49%;
+  padding: 5px 5px;
+  list-style: none !important;
+  text-decoration: none !important;
+  /* border: 2px solid red; */
+}
+
+.resourceListItems > p:hover {
+  margin: 0;
+  color: #ef4c23;
+  cursor: pointer;
+}
+
+.resourcelinkP {
+  text-decoration: none;
+  /* color: black; */
+  width: 70%;
+  margin-left: 15%;
+  font-size: 14px;
+  /* border: 2px solid red; */
+}
+
+.resourcelinkP > p {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  /* border: 2px solid red; */
+}
+
+.resourcelinkP p:hover {
+  color: #ef4c23;
+}
 
 @media (max-width: 480px) {
   .industryserviceVisible {
@@ -174,7 +235,7 @@
     width: 100%;
     height: 440px;
   }
- 
+
   .indindustryContent {
     width: 100%;
     height: 440px;
@@ -188,8 +249,6 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
-
-
 }
 @media (min-width: 480px) and (max-width: 1024px) {
   .industryserviceVisible {
@@ -205,7 +264,7 @@
     width: 100%;
     height: 440px;
   }
- 
+
   .indindustryContent {
     width: 100%;
     height: 440px;
@@ -219,6 +278,4 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
-
-
 }

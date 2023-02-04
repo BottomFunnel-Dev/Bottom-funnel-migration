@@ -21,6 +21,37 @@ export const company = [
   },
 ];
 
+export const resource = [
+  {
+    dropContent: "Blog",
+    path: "/",
+  },
+  {
+    dropContent: "Academy",
+    path: "/",
+  },
+  {
+    dropContent: "Videos",
+    path: "/",
+  },
+  {
+    dropContent: "Community",
+    path: "/",
+  },
+  {
+    dropContent: "Services",
+    path: "/",
+  },
+  {
+    dropContent: "What's New",
+    path: "/",
+  },
+  {
+    dropContent: "Customers",
+    path: "/",
+  },
+];
+
 export const whyBottom = [
   {
     dropContent: "Vetting Process",

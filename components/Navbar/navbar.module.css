@@ -176,7 +176,6 @@
   position: fixed;
   background-color: white;
   /* border-top: 1px solid black; */
-
   top: 78px;
 }
 
@@ -773,6 +772,11 @@
   border: 2px solid #ef4c23;
   box-shadow: rgba(255, 255, 255, 0.35) 0px 54px 55px, rgba(255, 255, 255, 0.22) 0px -12px 30px, rgba(255, 255, 255, 0.22) 0px 4px 6px, rgba(255, 255, 255, 0.27) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
+
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
   .navbarSection {
