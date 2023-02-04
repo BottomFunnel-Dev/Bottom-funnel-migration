@@ -1,6 +1,6 @@
 .nextholidaymainboxes{
     /* border: 1px solid red; */
-    height: 80vh;
+    height: 85vh;
      display: flex;
      background: url("/Images/portfolio/Sales bot/background/Group 372.png");
      background-size: 100% 100%;
@@ -11,32 +11,16 @@
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
-margin: 2% 2% 2% 5%;
-    background: url("/Images/portfolio/Sales bot/Screens/Rectangle 1067306.png");
-    background-repeat: no-repeat;
-    background-size: 80% 65%;
+
 }
 
-.nextholidayleftboxforimages{
-    height: 90%;
-    width: 25%;
-
-    margin: 5% 0% 0% 70%;
-    
-}
-
-.nextholidayleftboxforimages>img{
-    height: 70%;
-    width: 100%;
-    object-fit: contain;
-   
-}
 
 
 .nextholidayrighttbox{
     height: fit-content;
     width: 45%;
     margin-right: 2%;
+    margin-top: 5%;
     
 }
 
@@ -96,6 +80,7 @@ width: 20%;
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
+    margin-left: 8%;
   
 
 }

@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-    height: 70vh;
+    height: 85vh;
     /* border: 2px solid red; */
     background: url("/Images/portfolio/yanbal/Background/Group\ 770953.png");
     background-repeat: no-repeat;
@@ -13,19 +13,13 @@
     width: 50%;
     /* border: 5px solid green; */
     margin-left: 3%;
+    margin-top: 5%;
 }
 
 .portfolioyanbalrightbox{
     width: 50%;
     height: 100%;
-    /* border: 1px solid yellow; */
-    /* background: url("/Images/portfolio/yanbal/Screens/Screenshot\ \(7\).png");
-    background-size: 70% 80%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y:center ; */
-    
-  
+
 }
 
 .portfolioyanbalrightboximage{
@@ -58,29 +52,30 @@
     text-align: justify;
 }
 
-.nextholidayrightinsideflexbox{
+.yanbalrightinsideflexbox{
     /* border: 1px solid red; */
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.nextholidaywrapbox1{
+.yanbalwrapbox1{
 /* border: 1px solid green; */
 width: 40%;
 margin: 3%;
 padding: 5px;
 }
 
-.nextholidaywrapbox1>h5{
+.yanbalwrapbox1>h5{
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 
 }
 
-.nextholidaywrapbox1>p{
-    font-size: 12px;
+.yanbalwrapbox1>p{
+    font-size: 17px;
     text-align: center;
     margin-top: -0%;
 
@@ -95,43 +90,53 @@ padding: 5px;
 
 .porfolionextholidayicon{
 
-margin: 2% ;
-height: 20%;
-width: 20%;
-
+margin: 5% ;
+height: 25%;
+width: 35%;
+border-right: 1px solid white;
 }
+
+.porfolionextholidayicon:last-child{
+    border-right: none;
+}
+
+
+
+
 
 .porfolionextholidayicon>img{
     height: 100%;
-    width: 100%;
+    width: 80%;
     object-fit: contain;
 }
 
-.nextholidaywrapboximages{
-    width: 30%;
+.yanbalwrapboximages{
+    width: 25%;
+ 
 
 }
-.nextholidaywrapboximages>img{
+.yanbalwrapbox1>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-.nextholidayviewcasebutton{
-    padding: 10px 50px;
+.yanbalviewcasebutton{
+    padding: 10px 20px;
   border-radius: 100px;
-  width: 220px;
+  width: 150px;
   background-color: transparent;
-  border: none;
+  border: #ef4c23;
   outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: white 0px 0px 3px;
   font-size: 14px;
   font-weight: 600;
   color: white;
-  margin-left: 50%;
+  margin-top: 5%;
+
 }
 
-.nextholidayviewcasebutton:hover{
+.yanbalviewcasebutton:hover{
     background-color: white;
-    color: #3380f2;
+    color: black;
 }

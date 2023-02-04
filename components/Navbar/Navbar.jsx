@@ -207,6 +207,7 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 // onMouseEnter={blogHoverIn}
                 // onMouseLeave={blogHoverOut}
+                onClick={() => router.push("/Portfolio")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 WORK

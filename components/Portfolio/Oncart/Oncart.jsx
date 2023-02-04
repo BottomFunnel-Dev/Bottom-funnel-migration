@@ -1,7 +1,20 @@
 import React from 'react'
 import styles from "./Oncart.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/On-Cart.json";
+import Lottie from "react-lottie";
 
 export const Oncart = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+
   return (
     <div className={styles.yanbalmainboxes}>
     <div className={styles.portfolioyanballeftbox}>
@@ -39,9 +52,11 @@ export const Oncart = () => {
     </div>
     </div>
     <div className={styles.portfolioyanbalrightbox}>
-    <div className={styles.portfolioyanbelrightinnerimages}>
-    <img src='/Images/portfolio/on cart/Screens/Screenshot_2022.png' alt='images' />
-    </div>
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={580}   />
+  
     
     
     </div>

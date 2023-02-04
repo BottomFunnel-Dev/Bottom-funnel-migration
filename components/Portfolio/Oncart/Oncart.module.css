@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-    height: fit-content;
+    height: 85vh;
     /* border: 2px solid red; */
     background: url("/Images/portfolio/on cart/background/Group 770955.png");
     background-repeat: no-repeat;
@@ -9,21 +9,18 @@
 }
 
 .portfolioyanballeftbox{
-    width: 40%;
+    width: 50%;
     /* border: 5px solid green; */
     margin-left: 3%;
+    margin-top: 5%;
 }
 
 
 
 .portfolioyanbalrightbox{
-    width: 60%;
+    width: 50%;
     /* border: 1px solid yellow; */
-    background: url("/Images/portfolio/on cart/Screens/b78697d6a062db.png");
-    background-size: 70% 60%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y:center ;
+  
 }
 
 .portfolioyanbelrightinnerimages{
@@ -103,6 +100,7 @@ width: 20%;
 
 .nextholidaywrapboximages{
     width: 30%;
+    margin-left: 8%;
 
 }
 .nextholidaywrapboximages>img{

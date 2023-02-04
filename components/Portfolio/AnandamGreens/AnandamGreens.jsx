@@ -1,11 +1,29 @@
 import React from 'react'
 import styles from "./AnandamGreens.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Anandam Greens.json";
+import Lottie from "react-lottie";
 
 export const AnandamGreens = () => {
+
+  
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+
   return (
     <div className={styles.anandamgreensmainboxes}>
     <div className={styles.portfolioanandamgreensleftbox}>
-    <img src="Images/portfolio/Anandam greens/screens/image 33.png" alt='images' />
+       <Lottie style={{
+      marginLeft:"-100%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={600}   />
+  
     </div>
 
 

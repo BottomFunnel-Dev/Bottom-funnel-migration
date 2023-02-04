@@ -1,6 +1,6 @@
 .nextholidaymainboxes{
     /* border: 1px solid red; */
-    height: 80vh;
+    height: 85vh;
      display: flex;
 
      background: url("/Images/portfolio/Next holiday/Background/Group33.png");
@@ -12,7 +12,8 @@
 .nextholidayleftbox{
     height: 100%;
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+  
 }
 
 
@@ -28,6 +29,9 @@
     height: fit-content;
     width: 45%;
     margin-right: 2%;
+    /* border: 5px solid; */
+    margin-top: 5%;
+    margin-left: 2%;
     
 }
 
@@ -51,13 +55,13 @@ padding: 5px;
 
 .nextholidaywrapbox1>h5{
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     color: black;
 }
 
 .nextholidaywrapbox1>p{
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
     margin-top: -0%;
     color: black;
@@ -65,27 +69,48 @@ padding: 5px;
 
 .portfolioavailableonicon{
     display: flex;
-  margin: auto;
-  width: 40%;
-
+  /* margin: auto; */
+  width: 90%;
+/* border: 5px solid red; */
+margin-left: 25%;
 }
 
 .porfolionextholidayicon{
 
-margin: 2% ;
-height: 20%;
-width: 20%;
+margin: 5% ;
+height: 30%;
+width: 40px;
+border-right: 1px solid black;
+
+/* border: 1px solid red; */
 
 }
+.porfolionextholidayicon:last-child{
+    border-right: none;
+   
+}
 
-.porfolionextholidayicon>img{
-    height: 100%;
-    width: 100%;
+.porfolionextholidayicon:nth-child(2){
+    margin-top: 1%;
+    margin-left: -0%;
+}
+
+.porfolionextholidayicon:nth-child(3){
+    margin-left: -2%;
+}
+
+
+
+.androidappicon>img{
+    height: 50%;
+    width: 70%;
     object-fit: contain;
+    /* border: 5px solid red; */
 }
 
 .nextholidaywrapboximages{
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
 
 }
 .nextholidaywrapboximages>img{
@@ -99,17 +124,18 @@ width: 20%;
   border-radius: 100px;
   width: 150px;
   background-color: white;
-  border: #ef4c23;
+  border: #D9242B;
   outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 20px;
   font-size: 14px;
   font-weight: 600;
-  color: #ef4c23;
-  margin-left: 25%;
+  color: #D9242B;
+  margin-left: 60%;
   margin-top: 5%;
 }
 
 .nextholidayviewcasebutton:hover{
-    background-color: #ef4c23;
+    background-color: #D9242B;
     color: white;
 }
+

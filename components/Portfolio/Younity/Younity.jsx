@@ -1,7 +1,21 @@
 import React from 'react'
 import styles from "./Younity.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Younity.json";
+import Lottie from "react-lottie";
 
 export const Younity = () => {
+
+  
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+
   return (
     <div className={styles.yanbalmainboxes}>
     <div className={styles.portfolioyanballeftbox}>
@@ -39,10 +53,12 @@ export const Younity = () => {
     </div>
     </div>
     <div className={styles.portfolioyanbalrightbox}>
-    <div className={styles.portfolioyanbelrightinnerimages}>
-    <img src='Images/portfolio/Younity/Screens/Screenshot_2022.png' alt='images' />
-    </div>
-    
+  
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={650}   />
+  
     
     </div>
     </div>

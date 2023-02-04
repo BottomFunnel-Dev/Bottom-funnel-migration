@@ -1,8 +1,17 @@
 import React from "react";
 import styles from "./webdevBanner.module.css";
+import Lottie from "react-lottie";
 
-export const WebdevBanner = ({ paraColor, bannerContent }) => {
+export const WebdevBanner = ({ paraColor, bannerContent , animateData}) => {
 
+  const lottieData = {
+    loop: true,
+    autoplay: true,
+    animationData: animateData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
  
   return (
     <div
@@ -26,6 +35,16 @@ export const WebdevBanner = ({ paraColor, bannerContent }) => {
 
         <button className={styles.webDevButton}>Request A Quote</button>
       </div>
+
+
+
+      <div className={styles.mernanimation}>
+      <Lottie style={{
+        marginTop:"10%",
+        marginLeft:"100%"
+      }} options={lottieData} height={600} width={700} />
+      </div>
+      
      
     </div>
   );

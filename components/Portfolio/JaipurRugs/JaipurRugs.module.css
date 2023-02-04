@@ -1,5 +1,5 @@
 .anandamgreensmainboxes{
-    height: 80vh;
+    height: 85vh;
     /* border: 1px solid red; */
     background: url("/Images/portfolio/jaipur rugs/background/Group 372.png");
     background-size: 100% 100%;
@@ -8,28 +8,19 @@
 }
 
 .portfolioanandamgreensleftbox{
-    height: 80%;
+    height: 100%;
     width: 50%;
     margin-left: 3%;
     margin-top: 5%;
     /* border: 1px solid green; */
-    background: url("/Images/portfolio/jaipur rugs/screen/Rectangle 1067306.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.portfoliojaipurrugsinnerimagebox{
-    height: 50%;
-    width: 30%;
-    border: 5px solid red;
+ 
 }
 
 .portfolioanandamgreensrightbox{
-    height: fit-content;
-    width: 45%;
-    margin-right: 2%;
-    margin-left: 3%;
+    width: 50%;
+    margin-top: 5%;
 }
+
 
 .portfolioanandamgreensrightbox>p{
     font-size: smaller;
@@ -88,7 +79,7 @@
     .nextholidaywrapboximages{
         width: 40%;
         height: 5%;
-      
+      margin-left: 8%;
     
     }
     .nextholidaywrapboximages>img{
@@ -104,7 +95,7 @@
       background-color: transparent;
       border: #ef4c23;
       outline: none;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      box-shadow: white 0px 0px 2px;
       font-size: 14px;
       font-weight: 600;
       color: white;

@@ -9,9 +9,10 @@
 }
 
 .portfolioyanballeftbox{
-    width: 50%;
+    width: 45%;
     /* border: 5px solid green; */
-    margin-left: 3%;
+  
+    margin: 5% 2% 0% 3%;
 }
 
 
@@ -19,11 +20,7 @@
 .portfolioyanbalrightbox{
     width: 50%;
     /* border: 1px solid yellow; */
-    background: url("/Images/portfolio/My team11/Screens/Screenshot (37) 1.png");
-    background-size: 70% 80%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y:center ;
+ 
 }
 
 .portfolioyanbelrightinnerimages{
@@ -103,6 +100,7 @@ width: 20%;
 
 .nextholidaywrapboximages{
     width: 30%;
+    margin-left: 8%;
 
 }
 .nextholidaywrapboximages>img{

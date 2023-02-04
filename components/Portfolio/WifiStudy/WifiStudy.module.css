@@ -1,43 +1,27 @@
 .yanbalmainboxes{
-    height: fit-content;
+    height: 85vh;
     /* border: 2px solid red; */
     background: url("/Images/portfolio/wifi study/background/Group 770828.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  
-    display: flex;
+  display: flex;
 }
 
 .portfolioyanballeftbox{
-    width: 40%;
+    width: 50%;
     /* border: 5px solid green; */
     margin-left: 3%;
+    margin-top: 5%;
 }
 
 
 
 .portfolioyanbalrightbox{
-    width: 60%;
+    width: 50%;
     /* border: 1px solid yellow; */
-    background: url("/Images/portfolio/wifi study/Screen/Screenshot (24).png");
-    background-size: 70% 60%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y:center ;
+
 }
 
-.portfolioyanbelrightinnerimages{
-    height: 60%;
-    width: 30%;
-    /* border: 1px solid white; */
-    margin-top: 20%;
-    margin-left: 5%;
-}
-.portfolioyanbelrightinnerimages>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
 
 
 .nextholidayrighttbox{
@@ -103,6 +87,7 @@ width: 20%;
 
 .nextholidaywrapboximages{
     width: 30%;
+    margin-left: 8%;
 
 }
 .nextholidaywrapboximages>img{

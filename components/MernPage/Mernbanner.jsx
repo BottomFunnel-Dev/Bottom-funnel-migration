@@ -17,7 +17,7 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
     <div
       className={styles.mernBanner}
       style={{
-        // background: `url(${bannerdata.background})`,
+         background: `url(${bannerdata.background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -38,7 +38,9 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
         ))}
       </div>
       <div className={styles.mernanimation}>
-            <Lottie options={lottieData} />
+            <Lottie style={{
+              marginTop:"10%"
+            }} options={lottieData} height={600} width={700} />
             </div>
     </div>
   );

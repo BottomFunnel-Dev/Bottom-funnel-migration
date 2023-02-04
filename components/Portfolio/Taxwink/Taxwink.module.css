@@ -1,6 +1,6 @@
 .nextholidaymainboxes{
     /* border: 1px solid red; */
-    height: fit-content;
+    height: 85vh;
      display: flex;
      background: url("/Images/portfolio/Tax wink/background/Component 211.png");
      background-size: 100% 100%;
@@ -12,10 +12,7 @@
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
-margin: 2% 2% 2% 5%;
-    background: url("/Images/portfolio/Tax wink/screens/Screenshot (28).png");
-    background-repeat: no-repeat;
-    background-size: 80% 80%;
+
 }
 
 .nextholidayleftboxforimages{
@@ -38,6 +35,7 @@ margin: 2% 2% 2% 5%;
     height: fit-content;
     width: 45%;
     margin-right: 2%;
+    margin-top: 5%;
     
 }
 
@@ -97,6 +95,7 @@ width: 20%;
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
+    margin-left: 8%;
   
 
 }

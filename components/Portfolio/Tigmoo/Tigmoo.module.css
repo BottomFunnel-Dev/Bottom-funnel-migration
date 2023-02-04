@@ -1,6 +1,6 @@
 .nextholidaymainboxes{
     /* border: 1px solid red; */
-    height: fit-content;
+    height: 85vh;
      display: flex;
      background: url("/Images/portfolio/Tigmo/background/Group 372.png");
      background-size: 100% 100%;
@@ -12,32 +12,17 @@
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
-margin: 2% 2% 2% 5%;
-    background: url("/Images/portfolio/Tigmo/screens/Rectangle 1067306.png");
-    background-repeat: no-repeat;
-    background-size: 80% 80%;
+
 }
 
-.nextholidayleftboxforimages{
-    height: 85%;
-    width: 30%;
 
-    margin: 5% 0% 0% 65%;
-    
-}
-
-.nextholidayleftboxforimages>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-   
-}
 
 
 .nextholidayrighttbox{
     height: fit-content;
     width: 45%;
     margin-right: 2%;
+    margin-top: 5%;
     
 }
 
@@ -97,6 +82,7 @@ width: 20%;
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
+    margin-left: 8%;
   
 }
 .nextholidaywrapboximages>img{

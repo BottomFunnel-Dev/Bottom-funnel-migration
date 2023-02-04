@@ -1,7 +1,19 @@
 import React from 'react'
 import styles from "./WifiStudy.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/WiFi Study.json";
+import Lottie from "react-lottie";
 
 export const WifiStudy = () => {
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+
   return (
     <div className={styles.yanbalmainboxes}>
     <div className={styles.portfolioyanballeftbox}>
@@ -39,10 +51,12 @@ export const WifiStudy = () => {
     </div>
     </div>
     <div className={styles.portfolioyanbalrightbox}>
-    <div className={styles.portfolioyanbelrightinnerimages}>
-    <img src='/Images/portfolio/wifi study/Screen/Group 770827 1.png' alt='images' />
-    </div>
-    
+
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={580}   />
+  
     
     </div>
     </div>

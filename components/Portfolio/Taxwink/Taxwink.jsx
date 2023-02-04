@@ -1,15 +1,31 @@
 import React from 'react'
 import styles from "./Taxwink.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/TaxWink.json";
+import Lottie from "react-lottie";
 
 export const Taxwink = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
+   
+ 
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={480} height={620}   />
+  
 
-    <div className={styles.nextholidayleftboxforimages}>
-
-    <img src="Images/portfolio/Tax wink/screens/Change This.png" alt='images' />
-    </div>
     </div>
     
     <div className={styles.nextholidayrighttbox}>

@@ -1,5 +1,5 @@
 .anandamgreensmainboxes{
-    height: 80vh;
+    height: 85vh;
     /* border: 1px solid red; */
     background: url("/Images/portfolio/Anandam greens/background/Group 770956.png");
     background-size: 100% 100%;
@@ -8,7 +8,7 @@
 }
 
 .portfolioanandamgreensleftbox{
-    height: 80%;
+    height: 100%;
     width: 50%;
     margin-left: 3%;
     margin-top: 5%;
@@ -16,17 +16,13 @@
     
 }
 
-.portfolioanandamgreensleftbox>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
+
 
 .portfolioanandamgreensrightbox{
     height: fit-content;
     width: 45%;
-    margin-right: 2%;
-    margin-left: 3%;
+ 
+    margin: 5% 2% 0% 3%;
 }
 
 .portfolioanandamgreensrightbox>p{
@@ -86,6 +82,7 @@
     .nextholidaywrapboximages{
         width: 40%;
         height: 5%;
+        margin-left: 8%;
       
     
     }

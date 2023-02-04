@@ -1,7 +1,20 @@
 import React from 'react'
 import styles from "./Myteam.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/MyTeam11.json";
+import Lottie from "react-lottie";
+
 
 export const Myteam = () => {
+  
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.yanbalmainboxes}>
     <div className={styles.portfolioyanballeftbox}>
@@ -39,9 +52,11 @@ export const Myteam = () => {
     </div>
     </div>
     <div className={styles.portfolioyanbalrightbox}>
-    <div className={styles.portfolioyanbelrightinnerimages}>
-    <img src='Images/portfolio/My team11/Screens/Screenshot_2022.png' alt='images' />
-    </div>
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={580}   />
+  
     
     
     </div>

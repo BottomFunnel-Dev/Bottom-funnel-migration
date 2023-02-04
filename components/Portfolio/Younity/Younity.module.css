@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-    height:80vh;
+    height:90vh;
     /* border: 2px solid red; */
     background: url("/Images/portfolio/Younity/Background/Group 770828.png");
     background-repeat: no-repeat;
@@ -9,34 +9,18 @@
 }
 
 .portfolioyanballeftbox{
-    width: 40%;
+    width: 50%;
     /* border: 5px solid green; */
     margin-left: 3%;
+    margin-top: 5%;
 }
 
 
 
 .portfolioyanbalrightbox{
-    width: 60%;
+    width: 50%;
     /* border: 1px solid yellow; */
-    background: url("/Images/portfolio/Younity/Screens/Screenshot (24).png");
-    background-size: 70% 50%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y:center ;
-}
 
-.portfolioyanbelrightinnerimages{
-    height: 50%;
-    width: 30%;
-    /* border: 1px solid white; */
-    margin-top: 25%;
-    margin-left: 10%;
-}
-.portfolioyanbelrightinnerimages>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
 }
 
 
@@ -103,6 +87,7 @@ width: 20%;
 
 .nextholidaywrapboximages{
     width: 30%;
+    margin-left: 8%;
 
 }
 .nextholidaywrapboximages>img{

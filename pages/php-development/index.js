@@ -21,6 +21,8 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
+import * as ReactAnimation from "../../public/webdevanimation/Mern.json"
+
 
 export default function PhP() {
   return (
@@ -45,7 +47,7 @@ export default function PhP() {
           logo: true,
         }}
       />
-      <WebdevBanner bannerContent={phpBanner} />
+      <WebdevBanner bannerContent={phpBanner}  animateData={ReactAnimation}/>
       <Techstackintro techContent={phpstackIntro} />
       <WebDevServices webservicesContent={phpDevServices} />
       <WhyTechStack techData={whyPHP} />

@@ -1,15 +1,29 @@
 import React from 'react'
 import styles from "./Tigmoo.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Tigmoo.json";
+import Lottie from "react-lottie";
 
 export const Tigmoo = () => {
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={600}   />
+  
 
-    <div className={styles.nextholidayleftboxforimages}>
 
-    <img src="Images/portfolio/Tigmo/screens/Screenshot_2022.png" alt='images' />
-    </div>
+
     </div>
     
     <div className={styles.nextholidayrighttbox}>

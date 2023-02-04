@@ -20,7 +20,7 @@ export const mernbanner = {
       img: "Images/mern/Vector-4.png",
     },
   ],
-  background: "Images/mern/mernpagebanner.png",
+  background: "Images/WebDevelopmentAnimations/Background/1.png",
   
 };
 
@@ -100,7 +100,7 @@ export const meanBanner = {
     "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
 };
 export const phpBanner = {
-  background: "Images/webdevmain/webdevnewbanners/phpbanner.png",
+  background: "Images/WebDevelopmentAnimations/Background/1.png",
   title: {
     orange: "Best PHP",
     normal: "Development Around the Globe",

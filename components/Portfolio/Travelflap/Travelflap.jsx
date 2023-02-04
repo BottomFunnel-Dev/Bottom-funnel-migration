@@ -1,15 +1,27 @@
 import React from 'react'
 import styles from "./Travelflap.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Travelflap.json";
+import Lottie from "react-lottie";
 
 export const Travelflap = () => {
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <div className={styles.nextholidayleftboxforimages}>
-
-    <img src="Images/portfolio/travel flap/Screens/Home screen.png" alt='images' />
-    </div>
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={500} height={620}   />
+  
     </div>
     
     <div className={styles.nextholidayrighttbox}>

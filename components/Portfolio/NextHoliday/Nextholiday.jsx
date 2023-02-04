@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Nextholiday.module.css"
 import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Next Holidays.json";
 import Lottie from "react-lottie";
+import { Link } from '../Link/Link';
 
 
 
@@ -21,7 +22,10 @@ export const Nextholiday = () => {
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
-    <Lottie options={lottieDefaultOptions} height={600} width={600}  />
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} height={580} width={500}  />
     </div>
     
     <div className={styles.nextholidayrighttbox}>
@@ -43,10 +47,29 @@ export const Nextholiday = () => {
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Platform icons/Frame.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Platform icons/Frame-2.png' alt='images' /></div>
+<div  className={styles.porfolionextholidayicon}>
+<Link href="https://play.google.com/store/apps/details?id=com.nextholidays.app">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Platform icons/Frame.png' alt='images' />
+</a>
+</Link>
+</div>
 
+
+<div className={styles.porfolionextholidayicon}>
+
+<img src='Images/portfolio/Platform icons/Platform icons/Frame-2.png' alt='images' />
+
+</div>
+
+
+<div className={styles.porfolionextholidayicon}>
+<Link href="https://www.nextholidays.com/">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' />
+</a>
+</Link>
+</div>
 
 </div>
 </div>

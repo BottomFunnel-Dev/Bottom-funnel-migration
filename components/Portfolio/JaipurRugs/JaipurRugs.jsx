@@ -1,16 +1,34 @@
 import React from 'react'
 import styles from "./JaipurRugs.module.css"
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Jaipur Rugs.json";
+import Lottie from "react-lottie";
 
 export const JaipurRugs = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.anandamgreensmainboxes}>
     <div className={styles.portfolioanandamgreensleftbox}>
-    <div className={styles.portfoliojaipurrugsinnerimagebox}></div>
+
+    <Lottie style={{
+      marginLeft:"-80%",
+      width:"fitContent"
+    }} options={lottieDefaultOptions} width={400} height={550}   />
+  
+
     </div>
 
 
     <div className={styles.portfolioanandamgreensrightbox}>
-    <h1>Anandam Greens</h1>
+    <h1>Jaipur Rugs</h1>
     <p>When you feel like you need a break from your hectic routine, take a trip to Portfolio bottom funnel. We've got everything you're looking for in an escape: a quiet retreat, great food, and friendly service. Our modern, rustic-style restaurant is perfect for any occasion.</p>
     <div className={styles.nextholidayrightinsideflexbox}>
   <div className={styles.nextholidaywrapbox1}>
@@ -36,7 +54,7 @@ export const JaipurRugs = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Anandam greens/logo/logo 2.png' alt='images' />
+<img src='Images/portfolio/jaipur rugs/logo/download (2) 1.png' alt='images' />
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
