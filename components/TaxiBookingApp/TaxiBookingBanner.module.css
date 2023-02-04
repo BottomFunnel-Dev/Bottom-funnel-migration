@@ -1,35 +1,34 @@
 /* for any type of laptop and wide range ofd screens responsive */
 
-@media only screen and (min-width:769px){
-.taxibookingbannermainboxes{
+.taxibookingbannermainboxes {
     height: 100vh;
     border: 1px solid white;
-    background: url("/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png");
+    /* background: url("/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png"); */
     background-repeat: no-repeat;
     background-size: 55% 100%;
     background-position-x: right;
     background-color: white;
-}
+    position: relative;
+  }
 
-.taxibookingappboxfortext{
+  .taxibookingappboxfortext {
     height: fit-content;
     width: 45%;
     margin-top: 17%;
     margin-left: 5%;
-  
-}
+  }
 
-.taxibookingappboxfortext >h1{
+  .taxibookingappboxfortext > h1 {
     font-weight: 700;
     font-size: 50px;
-}
+  }
 
-.taxibookingappboxfortext>p{
+  .taxibookingappboxfortext > p {
     font-size: 17px;
     text-align: justify;
-}
+  }
 
-.taxibookingappbannerbutton{
+  .taxibookingappbannerbutton {
     padding: 10px 50px;
     border-radius: 100px;
     width: 220px;
@@ -41,114 +40,53 @@
     font-weight: 600;
     color: white;
     margin-top: 5%;
-  
-}
+  }
 
-.taxibookingappbannerbutton:hover {
+  .taxibookingappbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
 
-    background-color:white;
-    color:  #3380f2;
-
-}
-
-.specialcolor{
+  .specialcolor {
     color: #ef4c23;
-}
+  }
 
-}
+  .taxiBookingBannerAnimationDiv{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  } 
 
-/*mobile*/
-
-
-/* @media only screen and (max-width: 600px) {
- .taxibookingbannermainboxes{
-    height: 65vh;
-    background: url("/Images/Taxibooking/Bannersbackgrounds/Group 770774 1.png");
-    background-repeat: no-repeat;
-background-size: contain;
-background-position-x: right;
-   background-color: white;
-
- }
- .taxibookingappboxfortext{
-    height: fit-content;
-    width: 90%;
-
-    margin-top: 70%;
-    margin-left: 5%;
-    
-}
-
-.taxibookingappboxfortext >h1{
-    font-weight: 800;
-    font-size: 20px;
-}
-
-.taxibookingappboxfortext>p{
-    font-size: 13px;
-
-}
-
-.taxibookingappbannerbutton{
-    padding: 10px 10px;
-    border-radius: 100px;
-    width: 120px;
-    height: fit-content;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 12px;
-    font-weight: 600;
-    color: white;
-    margin-top: 5% ;
-  margin-left: 30%;
-}
-
-.taxibookingappbannerbutton:hover {
-
-    background-color:white;
-    color:  #3380f2;
-
-}
-
-} */
-
-
-/* for any type of tablet screen responsive */
-
-@media only screen and ( min-width:377px) and (max-width:769px){
-
-    .taxibookingbannermainboxes{
-    height: 50vh;
+@media only screen and (min-width: 769px) {
+  .taxibookingbannermainboxes {
+    height: 100vh;
     border: 1px solid white;
-    background: url("/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png");
+    /* background: url("/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png"); */
     background-repeat: no-repeat;
     background-size: 55% 100%;
     background-position-x: right;
     background-color: white;
-  
-}
+  }
 
-.taxibookingappboxfortext{
+  .taxibookingappboxfortext {
     height: fit-content;
     width: 45%;
-    margin-top: 20%;
+    margin-top: 17%;
     margin-left: 5%;
-  
-}
+  }
 
-.taxibookingappboxfortext >h1{
+  .taxibookingappboxfortext > h1 {
     font-weight: 700;
-    font-size: 32px;
-}
+    font-size: 50px;
+  }
 
-.taxibookingappboxfortext>p{
+  .taxibookingappboxfortext > p {
     font-size: 17px;
     text-align: justify;
-}
+  }
 
-.taxibookingappbannerbutton{
+  .taxibookingappbannerbutton {
     padding: 10px 50px;
     border-radius: 100px;
     width: 220px;
@@ -159,21 +97,71 @@ background-position-x: right;
     font-size: 18px;
     font-weight: 600;
     color: white;
-  
-  
-}
+    margin-top: 5%;
+  }
 
-.taxibookingappbannerbutton:hover {
+  .taxibookingappbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
 
-    background-color:white;
-    color:  #3380f2;
-
-}
-
-.specialcolor{
+  .specialcolor {
     color: #ef4c23;
+  }
+
 }
 
+/*mobile*/
 
+/* for any type of tablet screen responsive */
 
+@media only screen and (min-width: 377px) and (max-width: 769px) {
+  .taxibookingbannermainboxes {
+    height: 50vh;
+    border: 1px solid white;
+    background: url("/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png");
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    background-position-x: right;
+    background-color: white;
+  }
+
+  .taxibookingappboxfortext {
+    height: fit-content;
+    width: 45%;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+
+  .taxibookingappboxfortext > h1 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .taxibookingappboxfortext > p {
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .taxibookingappbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .taxibookingappbannerbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+
+  .specialcolor {
+    color: #ef4c23;
+  }
 }

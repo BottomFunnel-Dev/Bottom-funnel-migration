@@ -20,7 +20,7 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function OTTPage() {
   return (
     <div className={styles.ottMain}>
-  <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}

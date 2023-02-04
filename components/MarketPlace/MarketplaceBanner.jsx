@@ -5,9 +5,20 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
-
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Marketplace.json";
+import Lottie from "react-lottie";
 
 export const MarketplaceBanner = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -54,6 +65,10 @@ export const MarketplaceBanner = () => {
             </Typography>
           </Box>
         </Modal>
+      </div>
+
+      <div className={styles.marketplaceBannerAnimationDiv}>
+        <Lottie options={lottieDefaultOptions} width={500} height={500} />
       </div>
     </div>
   );

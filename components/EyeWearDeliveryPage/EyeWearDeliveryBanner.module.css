@@ -1,7 +1,7 @@
 .eyeweardeliverybannermainboxes {
   height: 100vh;
   margin-top: 20px;
-  background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Group.png");
+  /* background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Group.png"); */
   background-size: contain;
   position: relative;
 }
@@ -40,4 +40,11 @@
 .Eyeweardeliverybannerbutton:hover {
   background-color: white;
   color: #ef4c23;
+}
+
+.eyeWearDeliveryBannerAnimationDiv {
+  /* border: 1px solid red; */
+  position: absolute;
+  right: 0%;
+  top: 5%;
 }

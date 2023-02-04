@@ -1,7 +1,19 @@
 import React from "react";
 import styles from "./AlcoholBanner.module.css";
+import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/alchohal delivery.json";
+import Lottie from "react-lottie";
 
 export const AlcoholBanner = () => {
+  
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.alcoholBannerMain}>
       <div className={styles.alcoholBannerContent}>
@@ -13,10 +25,7 @@ export const AlcoholBanner = () => {
         <button>GET STARTED</button>
       </div>
       <div className={styles.alcoholBannerImage}>
-        <img
-          src="/Images/alcoholPhotos/banner-background.png"
-          alt="e-commerce banner image"
-        />
+        {/* <img src="/Images/alcoholPhotos/banner-background.png" />
         <div className={styles.alcoholBannerBigMobile}>
           <img
             src="/Images/alcoholPhotos/banner-big-mobile.png"
@@ -28,7 +37,8 @@ export const AlcoholBanner = () => {
             src="/Images/alcoholPhotos/banner-small-mobile.png"
             alt="banner small mobile"
           />
-        </div>
+        </div> */}
+        <Lottie options={lottieDefaultOptions} width={500} height={500} />
       </div>
     </div>
   );
