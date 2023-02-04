@@ -25,13 +25,10 @@ const index = () => {
     <title>BlockChainServices | Bottom Funnel</title>
     <meta
       name="description"
-      content="Are you looking for
-       a reliable and secure blockchain 
-       solution? Look no further than 
-       BlockChainServices. We offer our 
-       clients a wide range of efficient
-        and reliable BlockChain Solutions 
-        to meet their specific needs."
+      content="Block Chain services offer a number of advantages 
+      to companies. Learn about the top reasons for 
+      adopting block chain technology and get information
+      on how it can help you."
     />
   </Head>
 

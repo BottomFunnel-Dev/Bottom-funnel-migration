@@ -19,11 +19,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function CustomisedWebDevelopment () {
   return (
     <div className={styles.CustomisedWebPageContainer}>
-<Navbar
+
+      <Head>
+        <title> Crypto Currency Development Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a unique web solution to meet 
+          your business needs? Custom Web Solutions 
+          provides various web development services. Read 
+          on to know more about our services."
+        />
+      </Head>
+      <main>
+      
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -51,6 +65,7 @@ export default function CustomisedWebDevelopment () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

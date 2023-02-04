@@ -16,11 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function MetaverseWebPage () {
   return (
     <div>
-    <Navbar
+
+      <Head>
+        <title>Metaverse services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Our Metaverse solutions help companies innovate 
+          and stay competitive. Our Metaverse services 
+          development includes consulting, design, and 
+          development. Read on to know more."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -46,6 +60,8 @@ export default function MetaverseWebPage () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

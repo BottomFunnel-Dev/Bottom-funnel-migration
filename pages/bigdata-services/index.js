@@ -26,13 +26,11 @@ export default function BigDataService() {
     <title>BigData Services | Bottom Funnel</title>
     <meta
       name="description"
-      content="In this article,
-       we will discuss the various 
-       types of big data services tha
-       t are currently available in the market.
-        You will get to know about the benefits 
-        and features of these services, and which 
-        one is best for your business."
+      content="Are you looking for a Big Data Company that can 
+      provide you with reliable and effective Big Data 
+      services? Look no further! Our Big Data Services 
+      include Big Data analysis, data preparation, and 
+      more!"
     />
   </Head>
 
