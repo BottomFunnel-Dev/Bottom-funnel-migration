@@ -42,20 +42,20 @@ export default function AboutUS() {
         />
         <AboutusBanner />
         <OurProcess />
-        {/* <OurAchievements /> */}
-        {/* <WorkLifeBalance /> */}
-        {/* <OurBlogs /> */}
+        <OurAchievements />
+        <WorkLifeBalance />
+        <OurBlogs />
 
         {/* Other react required components  */}
-        {/* <StoriesSection /> */}
-        {/* <OndemandSection /> */}
+        <StoriesSection />
+        <OndemandSection />
         {/* <PortFolio />  */}
-        {/* <PlanProject /> */}
-        {/* <SeoblogSection /> */}
-        {/* <Revamping /> */}
-        {/* <TextDropdown /> */}
-        {/* <ContectForm /> */}
-        {/* <MainFooter /> */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
