@@ -16,7 +16,19 @@ import Navbar from "../../components/Navbar/Navbar";
 export default function Awards  () {
   return (
     <div>
-<Navbar
+
+      <Head>
+        <title>Awards | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Get the latest information on awards for companies and 
+          individuals by visiting our website. We cover a wide range 
+          of categories, from small businesses to multinationals."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -38,6 +50,8 @@ export default function Awards  () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };
