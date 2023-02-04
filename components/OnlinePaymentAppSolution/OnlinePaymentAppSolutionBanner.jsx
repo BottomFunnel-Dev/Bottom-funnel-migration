@@ -1,7 +1,19 @@
-import React from 'react'
-import styles from "./OnlinePaymentAppSolutionBanner.module.css"
+import React from 'react';
+import styles from "./OnlinePaymentAppSolutionBanner.module.css";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/oNLINE PAYMENTY.json";
+import Lottie from "react-lottie";
 
 export const OnlinePaymentAppSolutionBanner = () => {
+  
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.onlinepaymentappsolutionbannermainboxes}>
       <div className={styles.onlonepaymentappbannerimageinsidetext}>
@@ -13,10 +25,13 @@ export const OnlinePaymentAppSolutionBanner = () => {
           target, reader/writer, P2P communications, and card emulation software development for mobile devices, payment terminals,
           and other NFC platforms.
         </p>
-        
+
         <button className={styles.onlinepaymentsolutionbutton}> Get Started </button>
       </div>
 
+      <div className={styles.onlinePaymentSolutionBannerAnimationDiv}>
+        <Lottie options={lottieDefaultOptions} width={600} height={600} />
+      </div>
     </div>
   )
 }

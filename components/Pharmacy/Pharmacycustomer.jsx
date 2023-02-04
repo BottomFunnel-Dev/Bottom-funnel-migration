@@ -102,7 +102,9 @@ export default function Pharmacycustomer() {
                 </div>
 
                 <h3>{title}</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                </p>
               </div>
 
             );
@@ -113,10 +115,7 @@ export default function Pharmacycustomer() {
         <div className={styles.pharmacycustomerleft}>
 
           <div className={styles.pharmacyCustomerImage}>
-            <img
-              src={pharmacycustomerdata[active].img.src}
-              alt={pharmacycustomerdata[active].img.alt}
-            />
+            <img src={pharmacycustomerdata[active].img.src} alt={pharmacycustomerdata[active].img.alt} />
           </div>
 
         </div>

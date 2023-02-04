@@ -1,7 +1,19 @@
 import React from 'react';
 import styles from "./FinTechSolutionBanner.module.css";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/fintech.json";
+import Lottie from "react-lottie";
 
 export const FinTechSolutionBanner = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.fintechsolutionbannermainbox}>
       <div className={styles.fintechsolutionbannertextboxes}>
@@ -12,6 +24,10 @@ export const FinTechSolutionBanner = () => {
         </p>
 
         <button className={styles.fintechsolutionbannerbutton}>Get Started</button>
+      </div>
+
+      <div className={styles.fintechSolutionBannerAnimationDiv}>
+        <Lottie options={lottieDefaultOptions} width={700} height={600} />
       </div>
     </div>
   );

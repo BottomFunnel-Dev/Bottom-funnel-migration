@@ -3,7 +3,7 @@
   width: 98%;
   border: 3px solid white;
   /* margin-top: 120px; */
-  background-image: url("/Images/kidswearappservice/Frame93.png");
+  /* background-image: url("/Images/kidswearappservice/Frame93.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -49,4 +49,10 @@
 .KidsWearbannerbutton:hover {
   background-color: white;
   color: #ef4c23;
+}
+
+.kidsWearBannerAnimationDiv {
+  position: absolute;
+  top: 17%;
+  right: 0%;
 }

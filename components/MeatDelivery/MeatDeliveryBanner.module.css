@@ -1,7 +1,121 @@
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px){
-.meatdeliverybannermainboxes{
+
+@media only screen and (min-width: 1200px) {
+  .meatdeliverybannermainboxes {
+    height: 100vh;
+    /* background: url("/Images/meatdelieveryapp/banner.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
+    background-color: white;
+  }
+
+  .meatdeliverybannerfortextboxes {
+    height: fit-content;
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
+
+  .meatdeliverybannerfortextboxes > h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  .meatdeliverybannerfortextboxes > p {
+    font-size: 25px;
+  }
+
+  .meatdeliverybanner {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5%;
+  }
+
+  .meatdeliverybanner:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  .marketplacefreelancermaindivnewbanner {
+    margin-top: 30px;
+  }
+
+  .meatDeliveryBannerAnimationDiv{
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 0%;
+    top: 10%;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .meatdeliverybannermainboxes {
+    height: 100vh;
+    background: url("/Images/meatdelieveryapp/banner.png");
+    background-size: 60% 30%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    position: relative;
+    background-color: white;
+  }
+
+  .meatdeliverybannerfortextboxes {
+    height: fit-content;
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 3%;
+    width: 60%;
+  }
+
+  .meatdeliverybannerfortextboxes > h1 {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .meatdeliverybannerfortextboxes > p {
+    font-size: 7px;
+    width: 70%;
+  }
+
+  .meatdeliverybanner {
+    padding: 5px 5px;
+    border-radius: 100px;
+    width: 40px;
+    font-size: 5px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    margin-top: 5%;
+  }
+
+  .meatdeliverybanner:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  .marketplacefreelancermaindivnewbanner {
+    margin-top: 30px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .meatdeliverybannermainboxes {
     height: 100vh;
     background: url("/Images/meatdelieveryapp/banner.png");
     background-size: contain;
@@ -10,32 +124,30 @@
     position: relative;
 
     background-color: white;
+  }
 
-} 
-
-.meatdeliverybannerfortextboxes{
+  .meatdeliverybannerfortextboxes {
     height: fit-content;
     width: 40%;
     position: absolute;
     top: 40%;
     left: 5%;
+  }
 
-} 
-
-.meatdeliverybannerfortextboxes >h1{
+  .meatdeliverybannerfortextboxes > h1 {
     font-weight: 700;
     font-size: 50px;
-}
+  }
 
-.meatdeliverybannerfortextboxes >p{
+  .meatdeliverybannerfortextboxes > p {
     font-size: 25px;
-}
+  }
 
-.meatdeliverybanner{
+  .meatdeliverybanner {
     padding: 10px 50px;
     border-radius: 100px;
     width: 220px;
-    background-color: #EF4C23;
+    background-color: #ef4c23;
     color: white;
     border: none;
     outline: none;
@@ -43,190 +155,66 @@
     font-size: 18px;
     font-weight: 600;
     margin-top: 5%;
-}
+  }
 
-.meatdeliverybanner:hover{
-    background-color:white;
-    color:  #EF4C23;
-}
-.marketplacefreelancermaindivnewbanner{
+  .meatdeliverybanner:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  .marketplacefreelancermaindivnewbanner {
     margin-top: 30px;
-}
-}
-
-
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px){
-    .meatdeliverybannermainboxes{
-        height: 100vh;
-        background: url("/Images/meatdelieveryapp/banner.png");
-        background-size: 60% 30%;
-        background-repeat: no-repeat;
-        background-position-x: right;
-       
-    position: relative;
-        background-color: white;
-    }
-
-    .meatdeliverybannerfortextboxes{
-        height: fit-content;
-        margin-top: 20%;
- position: absolute;
-      margin-left: 3%;
-    width: 60%;
-    }
-
-    .meatdeliverybannerfortextboxes >h1{
-       width: 80%;
-        font-size: 12px;
-    }
-    
-    .meatdeliverybannerfortextboxes >p{
-        font-size: 7px;
-        width: 70%;
-    }
-    
-    .meatdeliverybanner{
-        padding: 5px 5px;
-        border-radius: 100px;
-        width: 40px;
-      font-size: 5px;
-        background-color: #EF4C23;
-        color: white;
-        border: none;
-        outline: none;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-       
-
-        margin-top: 5%;
-    }
-    
-    .meatdeliverybanner:hover{
-        background-color:white;
-        color:  #EF4C23;
-    }
-    .marketplacefreelancermaindivnewbanner{
-        margin-top: 30px;
-    }
-
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-    .meatdeliverybannermainboxes{
-        height: 100vh;
-        background: url("/Images/meatdelieveryapp/banner.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-x: right;
-        position: relative;
-    
-        background-color: white;
-    }
-
-    .meatdeliverybannerfortextboxes{
-        height: fit-content;
-        width: 40%;
-        position: absolute;
-        top: 40%;
-        left: 5%;
-    
-    }
-
-    .meatdeliverybannerfortextboxes >h1{
-        font-weight: 700;
-        font-size: 50px;
-    }
-    
-    .meatdeliverybannerfortextboxes >p{
-        font-size: 25px;
-    }
-    
-    .meatdeliverybanner{
-        padding: 10px 50px;
-        border-radius: 100px;
-        width: 220px;
-        background-color: #EF4C23;
-        color: white;
-        border: none;
-        outline: none;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 5%;
-    }
-    
-    .meatdeliverybanner:hover{
-        background-color:white;
-        color:  #EF4C23;
-    }
-    .marketplacefreelancermaindivnewbanner{
-        margin-top: 30px;
-    }
-
-
-}
-
-
+  }
+} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px){
+/* @media only screen and (min-width: 768px) {
+  .meatdeliverybannermainboxes {
+    height: 100vh;
+    background: url("/Images/meatdelieveryapp/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
 
+    background-color: white;
+  }
 
-    .meatdeliverybannermainboxes{
-        height: 100vh;
-        background: url("/Images/meatdelieveryapp/banner.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-x: right;
-        position: relative;
-    
-        background-color: white;
-    }
+  .meatdeliverybannerfortextboxes {
+    height: fit-content;
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+  }
 
-    .meatdeliverybannerfortextboxes{
-        height: fit-content;
-        width: 40%;
-        position: absolute;
-        top: 40%;
-        left: 5%;
-    
-    }
+  .meatdeliverybannerfortextboxes > h1 {
+    font-weight: 700;
+    font-size: 50px;
+  }
 
-    .meatdeliverybannerfortextboxes >h1{
-        font-weight: 700;
-        font-size: 50px;
-    }
-    
-    .meatdeliverybannerfortextboxes >p{
-        font-size: 25px;
-    }
-    
-    .meatdeliverybanner{
-        padding: 10px 50px;
-        border-radius: 100px;
-        width: 220px;
-        background-color: #EF4C23;
-        color: white;
-        border: none;
-        outline: none;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        font-size: 18px;
-        font-weight: 600;
-        margin-top: 5%;
-    }
-    
-    .meatdeliverybanner:hover{
-        background-color:white;
-        color:  #EF4C23;
-    }
-    .marketplacefreelancermaindivnewbanner{
-        margin-top: 30px;
-    }
+  .meatdeliverybannerfortextboxes > p {
+    font-size: 25px;
+  }
 
-}
+  .meatdeliverybanner {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5%;
+  }
 
-
+  .meatdeliverybanner:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  .marketplacefreelancermaindivnewbanner {
+    margin-top: 30px;
+  }
+} */

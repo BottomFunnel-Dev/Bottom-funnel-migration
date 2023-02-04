@@ -1,7 +1,19 @@
 import React from "react";
 import styles from "./Beautycontainer.module.css";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/beauty and salon.json";
+import Lottie from "react-lottie";
 
 export default function Beautycontainer() {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.beautycontainer}>
       <div className={styles.beautyleft}>
@@ -12,8 +24,10 @@ export default function Beautycontainer() {
         </p>
         <button> Get Started</button>
       </div>
+
       <div className={styles.mobile}>
-        <img  src="/Images/beautycare/beautymobile.png" alt="image"/>
+        <Lottie options={lottieDefaultOptions} width={700} height={650} />
+        {/* <img src="/Images/beautycare/beautymobile.png" alt="image" /> */}
       </div>
     </div>
   );

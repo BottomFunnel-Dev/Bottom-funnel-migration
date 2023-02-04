@@ -9,6 +9,7 @@
 .realestatebannersometextandimages {
   display: flex;
   width: 100%;
+  position: relative;
 }
 
 .realestatebannersometext {
@@ -52,3 +53,11 @@
 .txtinsidetxtrealstateindi > h1 {
   color: #ef4c23;
 }
+
+.realEstateBannerAnimationDiv {
+  border: 1px solid red;
+  position: absolute;
+  right: 0%;
+  top: 15%;
+}
+
