@@ -23,13 +23,13 @@ export const SeoForm = () => {
           <label>How soon do you want to start the project ?*</label>
           <br />
 
-          <select type="time" className={styles._seoforminput1} >
+          <select type="time" className={styles._seoforminput} >
             <option value="Within 8 weeks">Within 8 weeks</option>
             <option value="8 weeks">8 weeks</option>
           </select>
           <br />
 
-          <select name="time" label="budget"  className={styles._seoforminput1} >
+          <select name="time" label="budget"  className={styles._seoforminput} >
             <option>select your budget</option>
             <option value="1000$ to 2000$">1000$ to 2000$</option>
             <option value="2000$ to 3000$">2000$ to 3000$</option>

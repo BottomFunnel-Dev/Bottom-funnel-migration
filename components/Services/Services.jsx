@@ -3,7 +3,7 @@ import styles from "./services.module.css";
 import { FaMobileAlt } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 // import {Link,  useNavigate } from "react-router";
-
+import Link from "next/link";
 
 const Services = () => {
   // const navigate = useNavigate();
@@ -11,51 +11,53 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Mobile & Wearables",
-      serviceImages: "Images/services/mobileandwearable.gif",
+      serviceImages: "/Images/services/mobileandwearable.gif",
       serviceTypes: [
-        { serName: "IOS", path: "ios" },
-        { serName: "ANDROID", path: "android" },
-        { serName: "FLUTTER", path: "flutter" },
-        { serName: "REACT NATIVE", path: "reactnative" },
+        { serName: "IOS", path: "ios-development" },
+        { serName: "ANDROID", path: "android-development" },
+        { serName: "FLUTTER", path: "flutter-development" },
+        { serName: "REACT NATIVE", path: "reactnative-development" },
       ],
-     Link: "mobile-app-development",
+      Link: "mobile-app-development",
       serviceDesc:
         "Experience the power of intuitive mobile and wearables apps. We specialize in cross-platform wearable app development that can be used on any digital device.",
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Web Development",
-      serviceImages: "Images/services/web-dev.gif",
+      serviceImages: "/Images/services/web-dev.gif",
       serviceTypes: [
-        { serName: "MERN", path: "mern-stack" },
-        { serName: "MEAN", path: "mean-stack-development" },
-        { serName: "JAVA", path: "Java-development" },
+        { serName: "MERN", path: "mernstack-development" },
+        { serName: "MEAN", path: "meanstack-development" },
+        { serName: "JAVA", path: "java-development" },
         { serName: "PHP", path: "php-development" },
         { serName: "PYTHON", path: "python-development" },
       ],
-     Link: "web-development",
+      Link: "web-development",
       serviceDesc:
-        "Own your market with a mobile app from Web Development! Our team of experts will help you build your next big thing with the latest in mobile app technology.",
+        `Own your market with a mobile app from Web Development! Our team of experts will help you build your next big thing with the
+         latest in mobile app technology.`,
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Digital Marketing",
-      serviceImages: "Images/services/digital.gif",
+      serviceImages: "/Images/services/digital.gif",
       serviceTypes: [
-        { serName: "SEO", path: "seo" },
+        { serName: "SEO", path: "seo-services" },
         { serName: "PPC", path: "seo-ppc" },
         { serName: "SEM", path: "seo-sem" },
         { serName: "LOCALSEO", path: "local-seo" },
         { serName: "GUEST POSTING", path: "seo-guest-post" },
       ],
-     Link: "Digital-marketing",
+      Link: "Digital-marketing",
       serviceDesc:
-        "Unleash the power of your brand with our digital marketing services. Get more customers and revenue with SEOs, social media, and email marketing from the experts.",
+        `Unleash the power of your brand with our digital marketing services. Get more customers and revenue with SEOs, social media,
+         and email marketing from the experts.`,
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Cloud Services",
-      serviceImages: "Images/services/cloud-new-1.gif",
+      serviceImages: "/Images/services/cloud-new-1.gif",
       serviceTypes: [
         { serName: "AWS", path: "" },
         { serName: "GCP", path: "" },
@@ -63,14 +65,15 @@ const Services = () => {
         { serName: "VULTR", path: "" },
         { serName: "CLOUDFARE", path: "" },
       ],
-     Link: "cloud",
+      Link: "cloud",
       serviceDesc:
-        "We provide you a suite of cloud services for modern and data-intensive applications, with custombuilt infrastructure and leading tools & services.",
+        `We provide you a suite of cloud services for modern and data-intensive applications, with custombuilt infrastructure and 
+        leading tools & services.`,
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Software Product Development",
-      serviceImages: "Images/services/machine-lkearning.gif",
+      serviceImages: "/Images/services/machine-lkearning.gif",
       serviceTypes: [
         { serName: "IOT", path: "internet-of-things" },
         { serName: "AI", path: "artificial-inteligence" },
@@ -78,30 +81,32 @@ const Services = () => {
         { serName: "BLOCKCHAIN", path: "block-chain" },
         { serName: "DATA SCIENCE", path: "data-science" },
       ],
-     Link: "Products",
+      Link: "Products",
       serviceDesc:
-        "You need software that can scale with your company's needs and work as hard as you do, it's time to let us help you with product development.",
+        `You need software that can scale with your company's needs and work as hard as you do, it's time to let us help you with 
+        product development.`,
     },
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Salesforce Development",
-      serviceImages: "Images/services/salesforce.gif",
+      serviceImages: "/Images/services/salesforce.gif",
       serviceTypes: [
         { serName: "QUIP", path: "" },
         { serName: "NFT CLOUD", path: "" },
         { serName: "TABLEAU", path: "" },
         { serName: "CRM ANALYTICS", path: "" },
       ],
-     Link: "salesforce",
+      Link: "salesforce",
       serviceDesc:
-        "Want to grow your business with salesforce development? We're your one-stop-shop for all of your Salesforce needs! Automate and integrate your Salesforce with the help of our experts.",
+        `Want to grow your business with salesforce development? We're your one-stop-shop for all of your Salesforce needs! Automate
+         and integrate your Salesforce with the help of our experts.`,
     },
   ];
 
   return (
     <div className={styles.mainService}>
       <div className={styles.serviceIntro}>
-        <img src="Images/services/service.png" alt="" />
+        <img src="/Images/services/service.png" alt="image" />
         <div>
           <h1>Our Services</h1>
           <p>
@@ -123,7 +128,7 @@ const Services = () => {
               <div className={styles.serviceHeading}>
                 <h4>{item.serviceName}</h4>
                 <div className={styles.vectorImage}>
-                  <img src={item.serviceImages} alt="" />
+                  <img src={item.serviceImages} alt="image" />
                 </div>
               </div>
               <div
@@ -131,14 +136,18 @@ const Services = () => {
                 style={{ textDecoration: "none" }}
               >
                 {item.serviceTypes.map((element, index) => (
-                  <li
-                    onClick={() => {
-                      navigate(`/${element.path}`);
-                    }}
-                    key={index}
-                  >
-                    {element.serName}
-                  </li>
+                  // <li
+                  //   onClick={() => {
+                  //     navigate(`/${element.path}`);
+                  //   }}
+                  //   key={index}
+                  // >
+                  <Link href={element.path}>
+                    <li>
+                      {element.serName}
+                    </li>
+                  </Link>
+
                 ))}
               </div>
             </div>
@@ -146,8 +155,8 @@ const Services = () => {
             <div className={styles.serviceDescriptionVisible}>
               <p>{item.serviceDesc}</p>
               <p onClick={() => {
-                      // navigate(`/${item.link}`);
-                    }}>READ MORE</p>
+                // navigate(`/${item.link}`);
+              }}>READ MORE</p>
             </div>
           </div>
         ))}

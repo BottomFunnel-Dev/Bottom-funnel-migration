@@ -1,6 +1,5 @@
 /* for any type of laptop and wide range of screens responsive */
 
-@media only screen and (min-width:769px){
 .WorkLifeBalancemain {
   background: black;
   color: #f4f4f4;
@@ -57,7 +56,6 @@
 .WorkLifeBalancecards > div {
   height: 100px;
   width: 13%;
-
   display: flex;
   gap: 3%;
   justify-content: space-evenly;
@@ -67,193 +65,179 @@
   font-size: 35px;
   width: fit-content;
   height: fit-content;
-  align-self: flex-start;
+  /* align-self: flex-start; */
   margin: 0px;
   color: #6c757d;
 }
 
 .WorkLifeBalancecards > div > h2 {
   font-size: 20px;
-  align-self: flex-end;
+  /* align-self: flex-end; */
   text-align: left;
-}
 }
 
 /* for any type of mobile screens responsive */
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
-@media only screen and (min-width:0px) and (max-width:376px){
+/* Media query for the Mobile Device */
 
+@media (max-width: 480px) {
   .WorkLifeBalancemain {
     background: black;
     color: #f4f4f4;
-  
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 2%;
   }
-  
-  .WorkLifeBalancemain > p {
-    font-size: 12px;
-    width: 90%;
-    margin: 2% auto 2% auto;
-    text-align: justify;
-  }
-  
-  .WorkLifeBalanceheading {
-    display: flex;
-    gap: 1%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .WorkLifeBalanceheading > div > h1 {
-    font-size: 25px;
-    margin: auto;
-    margin-bottom: 2%;
-    margin-top: 2%;
-  }
-  
-  .WorkLifeBalanceheading > div > div {
-    background: #ef4c23;
-    width: 100px;
-    height: 10px;
-    transform: skew(25deg);
-  }
-  
-  .WorkLifeBalanceheading > h1 {
-    font-size: 35px;
-    width: fit-content;
-    height: fit-content;
-    margin: 0;
-  }
-  
 
-  
-  .WorkLifeBalancecards > div {
-    /* height: 100px;
-    width: 13%;
-  
-    display: flex;
-    gap: 3%;
-    justify-content: space-evenly; */
-
-display: flex;
-width: 70%;
-
-  }
-
-  .WorkLifeBalancecards > div:nth-child(even) {
-
-margin-left: 25%;
-  }
-  
-  .WorkLifeBalancecards > div > h1 {
-    font-size: 50px;
-    width: fit-content;
-    height: fit-content;
-    
-   
-    color: #6c757d;
-   
-  }
-  
-  .WorkLifeBalancecards > div > h2 {
-    /* font-size: 20px;
-    align-self: flex-end;
-    text-align: left; */
-   
-    width: fit-content;
-    font-size: 25px;
-    margin-top: 50px;
-    margin-left: 5px;
-  }
-
-}
-
-
-/* for any type of tab responsive */
-
-@media only screen and ( min-width:377px) and (max-width:769px){
-
-  .WorkLifeBalancemain {
-    background: black;
-    color: #f4f4f4;
-  
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 2%;
-  }
-  
   .WorkLifeBalancemain > p {
     font-size: 16px;
-    width: 70%;
+    width: 100%;
     margin: 2% auto 2% auto;
   }
-  
+
   .WorkLifeBalanceheading {
     display: flex;
     gap: 1%;
     align-items: center;
     justify-content: center;
   }
-  
+
   .WorkLifeBalanceheading > div > h1 {
     font-size: 32px;
     margin: auto;
     margin-bottom: 2%;
     margin-top: 2%;
   }
-  
+
   .WorkLifeBalanceheading > div > div {
     background: #ef4c23;
     width: 100px;
     height: 10px;
     transform: skew(25deg);
   }
-  
+
   .WorkLifeBalanceheading > h1 {
     font-size: 35px;
     width: fit-content;
     height: fit-content;
     margin: 0;
   }
-  
+
   .WorkLifeBalancecards {
     width: 100%;
     margin: auto;
-  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2% !important;
+  }
+
+  .WorkLifeBalancecards > div {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* gap: 3%; */
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+  }
+
+  .WorkLifeBalancecards > div > h1 {
+    font-size: 30px;
+    /* border: 1px solid white; */
+    width: 20% !important;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px;
+    color: #6c757d;
+  }
+
+  .WorkLifeBalancecards > div > h2 {
+    font-size: 20px;
+    /* border: 1px solid red; */
+    width: 90%;
+  }
+}
+
+/* for any type of tab responsive */
+
+/* @media only screen and (min-width: 377px) and (max-width: 769px) {
+  .WorkLifeBalancemain {
+    background: black;
+    color: #f4f4f4;
+
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+  }
+
+  .WorkLifeBalancemain > p {
+    font-size: 16px;
+    width: 70%;
+    margin: 2% auto 2% auto;
+  }
+
+  .WorkLifeBalanceheading {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .WorkLifeBalanceheading > div > h1 {
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  .WorkLifeBalanceheading > div > div {
+    background: #ef4c23;
+    width: 100px;
+    height: 10px;
+    transform: skew(25deg);
+  }
+
+  .WorkLifeBalanceheading > h1 {
+    font-size: 35px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+  }
+
+  .WorkLifeBalancecards {
+    width: 100%;
+    margin: auto;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-  
+
   .WorkLifeBalancecards > div {
     height: 100px;
     width: 13%;
-  
+
     display: flex;
     gap: 3%;
     justify-content: space-evenly;
     margin-left: 1%;
   }
-  
+
   .WorkLifeBalancecards > div > h1 {
     font-size: 35px;
     width: fit-content;
     height: fit-content;
     align-self: flex-start;
-  margin-top: 50px;
+    margin-top: 50px;
     color: #6c757d;
   }
-  
+
   .WorkLifeBalancecards > div > h2 {
     font-size: 12px;
     align-self: flex-end;
     text-align: left;
-
   }
-
-
-}
+} */

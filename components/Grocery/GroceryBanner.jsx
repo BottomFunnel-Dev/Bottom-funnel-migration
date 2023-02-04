@@ -1,7 +1,19 @@
 import React from "react";
 import styles from "./groceryBanner.module.css";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Grocery.json";
+import Lottie from "react-lottie";
 
 const GroceryBanner = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.grocerybanner}>
       <div className={styles.groceryText}>
@@ -17,11 +29,14 @@ const GroceryBanner = () => {
       </div>
 
       <div className={styles.groceryImage}>
-        {/* <img src="Images/grocery/banner.png" alt="" /> */}
+        <Lottie options={lottieDefaultOptions} width={700} height={500} />
+      </div>
+      {/* <div className={styles.groceryImage}>
         <div className={styles.mainPhone}>
           <img src="Images/grocery/banner.png" alt="image" />
         </div>
         <div className={styles.groceryback}></div>
+        
         <div className={styles.zomatoimg}>
           <img src="Images/grocery/zomato.png" alt="image" />
         </div>
@@ -44,7 +59,7 @@ const GroceryBanner = () => {
         <div className={styles.jumiaimg}>
           <img src="Images/grocery/jumia.png" alt="image" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

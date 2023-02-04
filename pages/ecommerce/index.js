@@ -19,10 +19,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Ecommerce() {
   return (
     <div>
+
+      <Head>
+        <title>E-commerce Web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a reliable and affordable E-commerce Web 
+          App development company? Look no further than ours. We have 
+          the expertise and track record to help you build an successful 
+          online store."
+        />
+      </Head>
+      <main>
+
       <Navbar
         productMount={{
           navMount: false,
@@ -51,6 +65,7 @@ export default function Ecommerce() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

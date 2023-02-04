@@ -1,7 +1,19 @@
 import React from "react";
 import styles from "./ondemandHero.module.css";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/On demand home services.json";
+import Lottie from "react-lottie";
 
 const OndemandHero = () => {
+
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
     <div className={styles.ondemandHero}>
       <div className={styles.textcontainer}>
@@ -17,7 +29,8 @@ const OndemandHero = () => {
       </div>
 
       <div className={styles.imageContainer}>
-        <img src="Images/ondemandHome/OnDemandServicesBNewBanner.png" alt="images" />
+        {/* <img src="Images/ondemandHome/OnDemandServicesBNewBanner.png" alt="images" /> */}
+        <Lottie options={lottieDefaultOptions} width={750} height={550} />
       </div>
     </div>
   );

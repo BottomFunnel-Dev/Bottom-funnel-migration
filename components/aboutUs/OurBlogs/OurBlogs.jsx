@@ -33,6 +33,7 @@ export const OurBlogs = () => {
         from food to fashion and music, in addition to useful travel tips for
         travelers.
       </p>
+      
       <div className={styles.OurBlogsmain}>
         {cardsData.map(({ title, body, image, date }, idx) => {
           return (

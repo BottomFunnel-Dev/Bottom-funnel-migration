@@ -16,10 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AlcoholDelivery() {
   return (
-    <div>
+    <>
+      <Head>
+      <title>Alcohol web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="If you're looking to develop an alcohol web app and want to do it 
+        the right way, then VinCard is the company for you! We offer a 
+        wide range of liquor web app development solutions that will suit 
+        your specific needs. Keep reading to find out more!"
+      />
+   </Head>
+   
+    <main>
+    
  <Navbar
         productMount={{
           navMount: false,
@@ -45,6 +60,7 @@ export default function AlcoholDelivery() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

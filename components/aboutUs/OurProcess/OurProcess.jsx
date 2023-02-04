@@ -8,10 +8,11 @@ export const OurProcess = () => {
     <div className={styles.aboutusourprocess}>
       <div className={styles.OurProcessaboutUsmain}>
         <div className={styles.OurProcessaboutUscontent}>
-          <p>WHO WE ARE</p>
+          <p> WHO WE ARE </p>
           <h1>
             About <span>Us</span>
           </h1>
+
           <p>
             Going digital will bring higher revenues and growth. Marketing is
             all about targeting the right people with the right message, Digital
@@ -25,12 +26,14 @@ export const OurProcess = () => {
             world where they will engage with your brand on social media
             platforms like Facebook or Twitter.
           </p>
-          <button>Read More</button>
+          <button> Read More </button>
         </div>
+
         <div className={styles.OurProcessaboutUsimage}>
-          <img src="Images/aboutusImage/meeting.jpg" alt="about us main div" />
+          <img src="/Images/aboutusImage/meeting.jpg" alt="image" />
         </div>
       </div>
+
       <OurProcessPush />
     </div>
   );

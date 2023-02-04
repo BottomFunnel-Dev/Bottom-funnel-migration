@@ -1,0 +1,74 @@
+.StartHeremaindiv{
+    /* border: 2px solid green; */
+    background: url("/Images/fullappdevelopmentcyclephotos/bg2.png");
+   background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 85vh;
+margin-top: 4%;
+
+}
+.StartHeremaindivcontain{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-left: 9%;
+    /* margin-top: -1%; */
+    /* height: 80px; */
+
+    /* margin: auto; */
+    
+}
+.StartHeremaindivcontain p{
+    width: 50%;
+    /* margin-top: 0%; */
+
+}
+.StartHerelogodiv{
+    /* border: 2px solid yellow; */
+}
+.StartHerelogocontain{
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+.StartHerelogocontainimage{
+    /* border: 2px solid red; */
+
+}
+.StartHerelogoinnercontain{
+    /* border: 2px solid green; */
+    margin-left: 1%;
+}
+.StartHerelogoinnercontain h5{
+    margin: 0%;
+}
+.StartHerelogoinnercontain p{
+    margin: 0%;
+}
+.StartHerelogocontain1{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+.StartHerelogocontain2{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}
+.StartHerelogocontain3{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 10.5%;
+    margin-top: 3%;
+}

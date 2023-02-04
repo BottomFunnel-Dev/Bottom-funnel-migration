@@ -15,10 +15,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function WebsiteBuilderApp() {
   return (
     <div>
+
+      <Head>
+        <title>Website Builder App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to get started with website building without any hassle? 
+          Check out our wide range of Website Builder App solutions 
+          that are available at our disposal. We can help you build the 
+          perfect website that will help your business reach new 
+          heights!"
+        />
+      </Head>
+      <main>
+
    <Navbar
         productMount={{
           navMount: false,
@@ -45,6 +60,8 @@ export default function WebsiteBuilderApp() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

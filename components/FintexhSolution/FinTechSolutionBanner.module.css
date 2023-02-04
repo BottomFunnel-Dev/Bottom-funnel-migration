@@ -1,6 +1,6 @@
 .fintechsolutionbannermainbox {
   height: 100vh;
-  background: url("/Images/fintechsolutionpage/Frame93.png");
+  /* background: url("/Images/fintechsolutionpage/Frame93.png"); */
   background-size: cover;
   margin-top: 100px;
   position: relative;
@@ -33,4 +33,10 @@
 .fintechsolutionbannerbutton:hover {
   background-color: white;
   color: #ef4c23;
+}
+
+.fintechSolutionBannerAnimationDiv{
+  position: absolute;
+  top: 0%;
+  right: 3%;
 }

@@ -45,6 +45,12 @@
   color: #3380f2;
 }
 
+.onlinePaymentSolutionBannerAnimationDiv{
+  position: absolute;
+  top: 15%;
+  right: 0%;
+}
+
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */

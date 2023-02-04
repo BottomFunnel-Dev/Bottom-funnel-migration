@@ -9,10 +9,10 @@
 .txtooldeliverysubcontainer {
   width: 100%;
   height: 100vh;
-  background: url("/Images/tooldeliveryapp/Bannerimage1.png");
+  /* background: url("/Images/tooldeliveryapp/Bannerimage1.png"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  color: white;
+  color: black;
   display: flex;
 }
 
@@ -24,10 +24,12 @@
 .tdtooldeliverysometxtbox > h2 {
   font-size: 50px;
   font-weight: 700;
+  color: black;
 }
 
 .tdtooldeliverysometxtbox > p {
   text-align: justify;
+  color: black;
 }
 
 .tdtooldeliveryleft {
@@ -52,7 +54,7 @@
 
 .tdtooldeliveryleft > div > p {
   margin-top: 6%;
-  color: white;
+  color: black;
 }
 
 .tdtooldeliverybtn {
@@ -355,50 +357,13 @@
   z-index: 2;
 }
 
-.marketplacefooterdivspecialimageflex {
-  display: flex;
-}
-.marketplacefooterinnerbox {
-  display: flex;
-  position: relative;
-  height: 125px;
-  width: 220px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  left: 4%;
-  margin-top: 3%;
-  background-color: white;
-  margin: 2%;
-}
-.marketplacefooterinnerboximg {
-  padding: 10px;
-  height: 50%;
-  margin-left: 20%;
+.toolDeliveryAnimationDiv {
+  /* border: 1px solid red; */
+  position: absolute;
+  right: 0%;
+  top: 15%;
 }
 
-.marketplaceinnerboxdivfooter {
-  margin-left: 20%;
-}
 
-.marketplaceborderbannerdivformobile {
-  height: 300px;
-  width: 300px;
-  position: relative;
-  z-index: 0;
-}
-
-.bannerimagesmarketplace {
-  margin-left: 30px;
-}
-
-.bannerimagetextboxformarketplace {
-  position: relative;
-
-  height: 50%;
-  width: 50%;
-  margin-left: 40%;
-  z-index: 1;
-
-  color: white;
-}
 
 

@@ -16,11 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function OTTPage() {
   return (
     <div className={styles.ottMain}>
-  <Navbar
+      
+      <Head>
+        <title>OTT App Solutions Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Wondering how to develop an OTT App? Don't worry, we 
+          can help! In this blog, we will discuss the various 
+          components that make up an OTT App and the various 
+          steps involved in developing one."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -45,6 +59,7 @@ export default function OTTPage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

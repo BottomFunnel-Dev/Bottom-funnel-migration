@@ -30,7 +30,8 @@ export const OurProcessPush = () => {
         Bottom Funnel is a smart choice when you want your business to scale
         quickly and reach its full potential.
       </p>
-      <div>
+
+      <div className={styles.innovatorAboutUsMainDiv}>
         {cardsData.map(({ title, body }, idx) => {
           return (
             <div>

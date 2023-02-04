@@ -1,7 +1,7 @@
 .marketplacebannerimage {
-  background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
+  /* background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png"); */
   height: 85vh;
-  width: 100%;
+  width: 99.5%;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
@@ -14,7 +14,7 @@
   margin: auto;
   width: 40%;
   padding: 10px;
-  color: white;
+  color: black;
   position: absolute;
   top: 30%;
   left: 5%;
@@ -36,6 +36,13 @@
 .marketplacebutton:hover {
   background-color: white;
   color: #3380f2;
+}
+
+.marketplaceBannerAnimationDiv{
+  /* border: 1px solid rebeccapurple; */
+  position: absolute;
+  width: 50%;
+  right: 0%;
 }
 
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
@@ -105,7 +112,7 @@
 @media (min-width: 481px) and (max-width: 1024px) {
   .marketplacebannerimage {
     /* border: 1px solid red; */
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
+    /* background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png"); */
     height: 38vh;
     width: 100%;
     background-repeat: no-repeat;

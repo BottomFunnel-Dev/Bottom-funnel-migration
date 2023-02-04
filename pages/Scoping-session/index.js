@@ -17,20 +17,31 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
-
+import Head from "next/head";
 
 export default function Scoping() {
 
     return (
         <div>
+        <Head>
+        <title>Scoping Session | Product Idea Scope of Work | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to start your own startup but have no idea on where 
+          to begin? A Scoping Session is an important initial step to 
+          identifying and addressing key product development needs.
+           Read on to know more."
+        />
+        </Head>
+      <main>
             <Header/>
             <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
             <MiddleText/>
@@ -45,6 +56,7 @@ export default function Scoping() {
             <TextDropdown/>
             <ContectForm/>
             <MainFooter/>
+            </main>
         </div>
     );
 };

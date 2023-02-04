@@ -21,14 +21,12 @@ const index = () => {
   return (
     <div>
       <Head>
-        <title>Data Science Services | Bottom Funnel</title>
+        <title>Artificial Intelligence Services | Bottom Funnel</title>
         <meta
           name="description"
-          content="Are you interested in working 
-          in the exciting world of data science?
-           Check out this article to find out what
-            it is all about and how you can get
-             started!"
+          content="Looking to invest in artificial intelligence services? 
+          Check out our comprehensive guide on the top AI 
+          offerings and where to invest!"
         />
       </Head>
       <main>

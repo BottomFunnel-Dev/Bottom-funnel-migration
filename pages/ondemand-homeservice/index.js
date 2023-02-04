@@ -22,17 +22,17 @@ import Head from "next/head";
 export default function OnDemandSection() {
   return (
     <div>
-    <Head>
-      <title>OnDemandSection Web App development | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Are you looking for a company that can develop a web app for
+      <Head>
+        <title>OnDemandSection Web App development | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a company that can develop a web app for
         your business? Look no further than On Demand Home Services. 
         We are a professional web app development company that can
          help you design and build a top-notch web app for your business."
-      />
-   </Head>
- <Navbar
+        />
+      </Head>
+      <Navbar
         productMount={{
           navMount: false,
         }}

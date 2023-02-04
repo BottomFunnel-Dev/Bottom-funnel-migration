@@ -20,11 +20,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function OurClients() {
   return (
     <div>
-<Navbar
+      <Head>
+        <title>Our client| Bottom Funnel SDLC</title>
+        <meta
+          name="description"
+          content="Our company provides best service to our clients. Read on 
+          to know about their importance and the different techniques 
+          used"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -49,6 +61,7 @@ export default function OurClients() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

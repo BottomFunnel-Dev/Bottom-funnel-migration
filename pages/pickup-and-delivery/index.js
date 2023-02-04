@@ -19,10 +19,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function PickupDelivery() {
   return (
-    <div>
+    <>
+    <Head>
+      <title>Pickup and delivery Web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a reliable pickup and delivery web app 
+        development company? Check out our website today and learn 
+        more about our products and services. We specialize in this 
+        particular field, so you can be sure that your project will be handled 
+        with care."
+      />
+   </Head>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -51,6 +65,7 @@ export default function PickupDelivery() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

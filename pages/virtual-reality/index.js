@@ -16,11 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function VirtualReality() {
   return (
     <div>
-<Navbar
+
+      <Head>
+        <title>Virtual Reality Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Virtual reality development offers an exciting new 
+          platform for businesses to engage with their 
+          customers. Read on to learn about the advantages 
+          of offering VRS"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -46,6 +60,8 @@ export default function VirtualReality() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
+
     </div>
   );
 }

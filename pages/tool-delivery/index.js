@@ -18,16 +18,17 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function ToolDeliveryApp() {
   return (
-    <div>
-   <Navbar
+    <main>
+      <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
+          color: "black",
           logo: true,
         }}
       />
@@ -50,6 +51,7 @@ export default function ToolDeliveryApp() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+   
   );
 }

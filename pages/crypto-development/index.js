@@ -19,10 +19,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function CryptoDevPage() {
   return (
     <div className={styles.CryptoDevPageContainer}>
+      
+      <Head>
+        <title> Crypto Currency Development Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Interested in getting involved in the fast-growing 
+          world of cryptocurrency? Our team of experienced 
+          professionals offers comprehensive cryptocurrency 
+          development services. Check them out!"
+        />
+      </Head>
+      <main>
 <Navbar
         productMount={{
           navMount: false,
@@ -52,6 +65,7 @@ export default function CryptoDevPage() {
       <ContectForm />
       <MainFooter />
        */}
+       </main>
     </div>
   );
 };

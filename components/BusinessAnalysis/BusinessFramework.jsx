@@ -47,7 +47,7 @@ export const BusinessFramework = () => {
     <div className={styles.businessanalysisframeworkmainbox}>
     <div className={styles.businessanalysisframeworktxtbox}>
     <h1>Business Analysis Framework</h1>
-    <h4>The Appinventiv business framework is a collaborative and analytical process which involves discovering elicting and defining business, user,functinal,and nonfunctional requirements</h4>
+    <h4>The business framework is a collaborative and analytical process which involves discovering elicting and defining business, user,functinal,and nonfunctional requirements</h4>
   
 
     <div className={styles.businessanalysisflexingbox}>{BusinessFrameworkdata.map((e)=>{

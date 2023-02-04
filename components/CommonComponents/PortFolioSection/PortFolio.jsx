@@ -19,7 +19,7 @@ const PortFolio = () => {
     pauseOnHover: false,
     // swipeToSlide:true,
     vertical: true,
-    autoplay: true,
+    // autoplay: true,
 
     // cssEase: "linear",
     arrows: false,
@@ -39,8 +39,7 @@ const PortFolio = () => {
       backend: " Java, ASP.NET,",
       database: " CloudFront",
       website: "https://www.yanbal.com//bo/",
-      playStore:
-        "http://play.google.com/store/apps/details?id=yanbal.colombia2",
+      playStore: "http://play.google.com/store/apps/details?id=yanbal.colombia2",
     },
     {
       leftimg: "Images/portfolio/physicsfunshop.png",
@@ -53,8 +52,7 @@ const PortFolio = () => {
       backend: " Java, ASP.NET,",
       database: " CloudFront",
       website: "https://www.physicsfunshop.com/",
-      playStore:
-        "http://play.google.com/store/apps/details?id=",
+      playStore: "http://play.google.com/store/apps/details?id=",
     },
     {
       leftimg: "Images/portfolio/bbgroup.png",
@@ -200,16 +198,17 @@ const PortFolio = () => {
       rightImg: "Images/portfolio/amydus1.png",
       title: "Amydus",
       tagline: "Global E-commerce Website",
-      description:
-        "Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which offers collection in both men's and women's wear. Online plus size clothing and plus size fashion makes a fresh start with Amydus and vice versa. Now you can not only find clothing in trend but also get them in your size",
+      description: `Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which 
+      offers collection in both men's and women's wear. Online plus size clothing and plus size fashion makes a fresh start with 
+      Amydus and vice versa. Now you can not only find clothing in trend but also get them in your size`,
       frontend: "React, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
       website: "https://www.amydus.com/",
     },
     {
-      leftimg: "Images/portfolio/aanandam.png",
-      rightImg: "Images/portfolio/aanandam1.png",
+      leftimg: "/Images/portfolio/aanandam.png",
+      rightImg: "/Images/portfolio/aanandam1.png",
       title: "The Aanandam",
       tagline: "Hotel and Resorts Brand",
       description:
@@ -256,12 +255,12 @@ const PortFolio = () => {
                   <div className={styles.appstore}>
                     <span>Available On</span>
 
-                    <IconContext.Provider  value={{ className: styles.webIcon }}>
+                    <IconContext.Provider value={{ className: styles.webIcon }}>
                       <BsApple />
                     </IconContext.Provider>
 
                     <a href={item.playStore} target="_blank">
-                  
+
                       <IconContext.Provider value={{ className: styles.webIcon }}>
                         <AiFillAndroid />
                       </IconContext.Provider>

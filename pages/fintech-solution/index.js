@@ -16,10 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function FintechSolutions() {
   return (
     <div>
+
+      <Head>
+        <title>Fintech Solution App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you in need of a Fintech Solution that can improve the 
+          performance of your business? We here at our development
+           company specialize in developing such solutions. So, if 
+          you're looking for a top-notch Fintech Solution, reach out 
+          to us today!"
+        />
+      </Head>
+      <main>
+
       <Navbar
         productMount={{
           navMount: false,
@@ -46,6 +61,8 @@ export default function FintechSolutions() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

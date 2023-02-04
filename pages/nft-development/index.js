@@ -17,11 +17,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function NFTDevelopment () {
   return (
     <div>
- <Navbar
+
+      <Head>
+        <title>NFT Development Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Looking for reliable NFT development services? 
+          Our team has extensive experience in this area 
+          and offers cutting-edge solutions. Read on to know 
+          about our services"
+        />
+      </Head>
+      <main>
+      
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -48,6 +62,8 @@ export default function NFTDevelopment () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
+
     </div>
   );
 };

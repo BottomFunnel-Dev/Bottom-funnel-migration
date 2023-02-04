@@ -1,557 +1,454 @@
-
-.bannerlaundrypage{
-    position: relative;
+.bannerlaundrypage {
+  position: relative;
 }
-.bannerlaundrypagebanner{
-    height: 100%;
-    width: 100%;
-    padding: 20px;
-    object-fit: contain;
-    margin-top: 5%;
-
+.bannerlaundrypagebanner {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  object-fit: contain;
+  margin-top: 5%;
 }
-.bannertext{
+.bannertext {
   position: absolute;
-    height:45%;
-    width: 35%;
-  
-    top: 30%;
-    left: 5%;
-    margin: auto;
-    padding: 10px;
+  height: 45%;
+  width: 35%;
+
+  top: 30%;
+  left: 5%;
+  margin: auto;
+  padding: 10px;
 }
 
-.laundrypagebannerbutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: fit-content;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
+.laundrypagebannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .laundrypagebannerbutton:hover {
-
-    background-color:white;
-    color:  #3380f2;
-
+  background-color: white;
+  color: #3380f2;
 }
 
-.laundryapplicationmaindiv{
-    margin-top: 3%;
-  
+.laundryapplicationmaindiv {
+  margin-top: 3%;
 }
 
+.laundryapplicationtxtdiv {
+  height: 150px;
 
-.laundryapplicationtxtdiv{
-    height: 150px;
-   
-    text-align: center;
-    width: 70%;
-    margin-left: 190px;
+  text-align: center;
+  width: 70%;
+  margin-left: 190px;
 }
 
-.laundryapplicationtxtdiv >h5 {
-    color: green;
+.laundryapplicationtxtdiv > h5 {
+  color: green;
 }
 
-.laundryapplicationflexbox{
-    display: flex;
-    margin-left: 25%;
+.laundryapplicationflexbox {
+  display: flex;
+  margin-left: 25%;
 }
 
-.laundryflexboxno1{
-    height: fit-content;
-    width: 30%;
+.laundryflexboxno1 {
+  height: fit-content;
+  width: 30%;
   border-radius: 40px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.laundryflexboxno2{
-    height: 400px;
-    width: 350px;
+.laundryflexboxno2 {
+  height: 400px;
+  width: 350px;
 
-    margin-left: 10%;
-    border-radius: 20%;
-}
-
-.laundrypageflexboxno1imagediv{
-    height: 50%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 40px;
-   
+  margin-left: 10%;
+  border-radius: 20%;
 }
 
-.laundrypageflexboxno2imagediv{
-    height: 50%;
-   
-   
+.laundrypageflexboxno1imagediv {
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 40px;
 }
 
-.laundrypageflexboxno1imagedivimage1{
- 
-    height: 100%;
-    width: 100%;
-
-    
- 
+.laundrypageflexboxno2imagediv {
+  height: 50%;
 }
 
-.laundrypageflexboxno1imagedivimage2{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    
- 
+.laundrypageflexboxno1imagedivimage1 {
+  height: 100%;
+  width: 100%;
 }
 
+.laundrypageflexboxno1imagedivimage2 {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 
-
-.laundryflexbox1imagetxt1{
-    text-align: center;
-    padding: 10px;
+.laundryflexbox1imagetxt1 {
+  text-align: center;
+  padding: 10px;
 }
 .laundryflexbox1imagetxt {
-    padding: 10px;
+  padding: 10px;
 }
-.laundryflexbox1imagetxt2{
+.laundryflexbox1imagetxt2 {
+  text-align: justify;
+}
+.laundryflexboximageboxgreentxt {
+  text-align: center;
+  color: green;
+}
 
-text-align: justify;
-}
-.laundryflexboximageboxgreentxt{
-    text-align: center;
-    color: green;
-}
-
-.laundryflexboxno2{
-    height: fit-content;
-    width: 30%;
+.laundryflexboxno2 {
+  height: fit-content;
+  width: 30%;
   border-radius: 40px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.laundrycustomerapptxtfront{
-    text-align: center;
-    width: 47%;
-   
-    margin-left: 30%;
+.laundrycustomerapptxtfront {
+  text-align: center;
+  width: 47%;
+
+  margin-left: 30%;
 }
 
-.laundrycutomermaindiv{
-    margin-top: 5%;
+.laundrycutomermaindiv {
+  margin-top: 5%;
 }
 
-.laundrycustomerflexboxmaindiv{
-    display: flex;
-    margin-top: 5%;
-
+.laundrycustomerflexboxmaindiv {
+  display: flex;
+  margin-top: 5%;
 }
 
-.laundryflexboxleftdiv{
-    height: fit-content;
-    width: 60%;
-  
+.laundryflexboxleftdiv {
+  height: fit-content;
+  width: 60%;
+
   margin-left: 3%;
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.laundryflexboxleftdivflexbox{
-    display: flex;
-    flex-wrap: wrap;
-    width: 45%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: 200px;
-    margin: 1%;
-    border-radius: 10px;
-    padding: 10px;
-    /* border: 2px solid red; */
+.laundryflexboxleftdivflexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 200px;
+  margin: 1%;
+  border-radius: 10px;
+  padding: 10px;
+  /* border: 2px solid red; */
 }
-.laundryflexboxleftdivflexbox:hover{
-      transform: scale(1.02);
-      background-color: #efebe6;
-}
-
-
-.laundryflexboxleftdivflexboxicon{
-   height:40px;
-   width: 40px;
-   /* border: 2px solid red; */
+.laundryflexboxleftdivflexbox:hover {
+  transform: scale(1.02);
+  background-color: #efebe6;
 }
 
-.laundryflexboxleftdivflexboxicon >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 5px;
+.laundryflexboxleftdivflexboxicon {
+  height: 40px;
+  width: 40px;
+  /* border: 2px solid red; */
 }
 
-
-
-
-.laundryflexboxleftdivflexboxx{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin-top: 5%;
-    height: fit-content;
- 
-
+.laundryflexboxleftdivflexboxicon > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }
 
-.laundryflexboxleftdivinsidertxt{
-    margin-left: 2%;
-    width: 60%;
+.laundryflexboxleftdivflexboxx {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 5%;
+  height: fit-content;
 }
 
-
-.laundryflexboxrightdiv{
-    height: 650px;
-    margin-top: 3%;
-    margin-left: 5%;
-/* border: 2px solid red; */
+.laundryflexboxleftdivinsidertxt {
+  margin-left: 2%;
+  width: 60%;
 }
 
-.laundryflexboxrightdiv >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.laundryflexboxrightdiv {
+  height: 650px;
+  margin-top: 3%;
+  margin-left: 5%;
+  /* border: 2px solid red; */
 }
 
-.laundryflexboxrightdivimage{
-    position: absolute;
-    height: 150px;
-    width: 100%;
+.laundryflexboxrightdiv > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-
-
-.laundrydeliveryappflexbox{
-    margin-top: 10%;
-    display: flex;
+.laundryflexboxrightdivimage {
+  position: absolute;
+  height: 150px;
+  width: 100%;
 }
 
-.laundrydeliveryappflexboxleft{
-
-width: 40%;
-height: 500px;
-
-margin-left: 5%;
+.laundrydeliveryappflexbox {
+  margin-top: 10%;
+  display: flex;
 }
 
-.laundrydeliveryappflexboxright{
+.laundrydeliveryappflexboxleft {
+  width: 40%;
+  height: 500px;
+
+  margin-left: 5%;
+}
+
+.laundrydeliveryappflexboxright {
   width: 50%;
   height: auto;
 }
 
-
-.laundrydeliveryappflexboxleftimagesof{
-    position: relative;
-    height: 100%;
-    /* border: 2px solid red; */
+.laundrydeliveryappflexboxleftimagesof {
+  position: relative;
+  height: 100%;
+  /* border: 2px solid red; */
 }
 
-.laundrydeliveryappflexboxleftimagesof1{
-    position: absolute;
-    z-index: 0;
-    height: 100%;
-    /* border: 2px solid red; */
+.laundrydeliveryappflexboxleftimagesof1 {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  /* border: 2px solid red; */
 }
-.laundrydeliveryappflexboxleftimagesof2{
-    position: absolute;
-    z-index: 1; 
-    /* border: 2px solid red; */
-}
-
-.laundryfleximage1o1{
- position: absolute;
- /* height: 180%; */
- width: 100%;
- z-index: 0;
- right: 10%;
- /* margin-top: -200px; */
- /* border: 2px solid red; */
+.laundrydeliveryappflexboxleftimagesof2 {
+  position: absolute;
+  z-index: 1;
+  /* border: 2px solid red; */
 }
 
-.laundryfleximage1o2{
-    position: absolute;
-    height: 100%;
-    left: 20%;
-    z-index: 1;
-    top: 3%;
+.laundryfleximage1o1 {
+  position: absolute;
+  /* height: 180%; */
+  width: 100%;
+  z-index: 0;
+  right: 10%;
+  /* margin-top: -200px; */
+  /* border: 2px solid red; */
 }
 
-.laundryflexboxleftdivfordelivery{
-    height: fit-content;
-    width: 65%;
-margin-top: -100px;
+.laundryfleximage1o2 {
+  position: absolute;
+  height: 100%;
+  left: 20%;
+  z-index: 1;
+  top: 3%;
+}
+
+.laundryflexboxleftdivfordelivery {
+  height: fit-content;
+  width: 65%;
+  margin-top: -100px;
   margin-left: 5%;
-    display: flex;
-    flex-wrap: wrap;
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-
-.laundryflexboxleftdivflexboxfordelivery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 44%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    height: fit-content;
-    margin: 1%;
-    position: relative;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: justify;
-    /* border: 2px solid red; */
+.laundryflexboxleftdivflexboxfordelivery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 44%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: fit-content;
+  margin: 1%;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  /* border: 2px solid red; */
 }
 
-.laundryflexboxleftdivflexboxfordelivery:hover{
-    transform: scale(1.02);
+.laundryflexboxleftdivflexboxfordelivery:hover {
+  transform: scale(1.02);
 
-    background-color: #efebe6;
+  background-color: #efebe6;
 }
 
-
-
-
-
-.laundryflexboxleftdivflexboxxdelivery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-margin-top: 5%;
-    height: fit-content;
-
+.laundryflexboxleftdivflexboxxdelivery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 5%;
+  height: fit-content;
 }
 
-.bannerlowerlaundrypageapp{
-    height: 500px;
-    background-image: url("/Images/Laundrypage/Bannersbackgrounds/Component 45 1.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-    /* border: 2px solid red; */
+.bannerlowerlaundrypageapp {
+  height: 500px;
+  background-image: url("/Images/Laundrypage/Bannersbackgrounds/Component 45 1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  /* border: 2px solid red; */
 }
 
-.bannerlowerlaundrypageappinsiderimagetxt{
-    color: white;
-    /* border: 2px solid red; */
-    position: absolute;
-    top: 40%;
-    width: 60%;
-    left: 5%;
+.bannerlowerlaundrypageappinsiderimagetxt {
+  color: white;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 40%;
+  width: 60%;
+  left: 5%;
 }
 
-.bannerlowerlaundrypageappinsiderimagetxt >p{
-    font-size: 17px;
+.bannerlowerlaundrypageappinsiderimagetxt > p {
+  font-size: 17px;
 }
 
-
-
-.laundrydeliverymaindiv{
- height: fit-content;
-
+.laundrydeliverymaindiv {
+  height: fit-content;
 }
 
-.adminpannelLaundrydivmainbox{
-    margin-top: 10%;
-    margin-bottom: 10%;
+.adminpannelLaundrydivmainbox {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
-.marketplaceadmin2ndchildlaundrypage{
-    position: absolute;
-    width: 100%;
-    height: fit-content;
-   left: -1%;
-    top: 50%;
-    display: flex;
-    flex-wrap: wrap;
+.marketplaceadmin2ndchildlaundrypage {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  left: -1%;
+  top: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.flexboxadminagainlaundrypage{
-    display: flex;
+.flexboxadminagainlaundrypage {
+  display: flex;
   /* justify-content: space-between; */
-    align-items: center;
-    height: fit-content;
-    width: 45%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-    padding: 2%;
-    background-color: white;
-    margin: 2%;
+  align-items: center;
+  height: fit-content;
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 2%;
+  background-color: white;
+  margin: 2%;
 }
 
-.imageboxflexboxinsiderimagelaundry{
-
-width: 15%;
-margin-right: 3%;
-margin-top: -55px;
-
+.imageboxflexboxinsiderimagelaundry {
+  width: 15%;
+  margin-right: 3%;
+  margin-top: -55px;
 }
 
-.laundrypageadmindisplayfleximage2{
-
-    width: 70%;
-    position: relative;
-    z-index: 1;
+.laundrypageadmindisplayfleximage2 {
+  width: 70%;
+  position: relative;
+  z-index: 1;
   left: -15%;
-
-
- 
 }
 
-.laundrypageflexboximage2{
-    width: 130%;   
-   height: 150%;
-   position: relative;
-   top: -26%;
-   object-fit: contain;
-   z-index: 1;
-   display: block;
-   }
-
-   .laundrypagefooterdivspecial{
-
-    height: 50%;
-    width: 75%;
-    position: relative;
-    top: 5%;
-    left: 12%;
-
-   }
-
-   .laundrypagefooterinnerbox{
-    display: flex;
-    position: relative;
-    height: 125px;
-    width: 220px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    left: 3%;
-    margin-top: 3%;
-    background-color: white;
-    margin: 2%;
-    
+.laundrypageflexboximage2 {
+  width: 130%;
+  height: 150%;
+  position: relative;
+  top: -26%;
+  object-fit: contain;
+  z-index: 1;
+  display: block;
 }
 
-/* banner */
+.laundrypagefooterdivspecial {
+  height: 50%;
+  width: 75%;
+  position: relative;
+  top: 5%;
+  left: 12%;
+}
 
-.laundrypagebannercontainer{
-    width: 100%;
-    height: 100vh;
+.laundrypagefooterinnerbox {
+  display: flex;
+  position: relative;
+  height: 125px;
+  width: 220px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  left: 3%;
+  margin-top: 3%;
+  background-color: white;
+  margin: 2%;
 }
 
 
-.laundryPagebannersubcontainer{
-    width: 100%;
-    height: 100%;
-    background: url("/Images/Laundrypage/Bannersbackgrounds/Component46.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: relative;
+.solutionsFeatures {
+  display: flex;
+}
+.laundrypagefooterbanner {
+  height: fit-content;
+
+  margin-top: 5%;
 }
 
-
-
-.laundrypagebannerleft{
-    width: 45%;
-    height: fit-content;
-    margin-top: 20%;
-    position: absolute;
-    margin-left: 5%;
-    text-align: justify;
+.laundryfooterbannertxt {
+  height: fit-content;
+  margin: auto;
+  width: 70%;
 }
 
-.laundrypagebannerbutton{
-    padding:10px 60px;
-    font-weight: 600;
-    font-size: 18px;
-    border: none;
-    margin-top: 2%;
-    background-color: #3380f2;
-    color:white;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.laundrylowerbannermapperbox {
+  height: 200px;
+  width: 90%;
+  margin: 5% 5% 0% 5%;
+
+  display: flex;
 }
 
-.laundrypagebannerbutton:hover{
-     color: #3380f2;
-     background-color:white;
-}
-.solutionsFeatures{
-    display: flex;
- 
-}
-.laundrypagefooterbanner{
-    height: fit-content;
- 
-    margin-top: 5%;
+.laundryfooterbanmappeindi {
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: auto;
+  height: 150px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  justify-content: center;
 }
 
-.laundryfooterbannertxt{
-    height: fit-content;
-    margin: auto;
-    width: 70%;
+.cardiconlaundry {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+  /* border: 2px solid red; */
+  margin-top: 7%;
 }
 
-.laundrylowerbannermapperbox{
-    height: 200px;
-    width: 90%;
-margin: 5% 5% 0% 5%;
- 
-    display: flex;
+.cardiconlaundry > img {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* object-fit: contain; */
+  /* padding: 10px; */
 }
 
-.laundryfooterbanmappeindi{
-    width: 20%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: auto;
-    height: 150px;
-    border-radius: 10px;
-    /* border: 2px solid red; */
-    justify-content: center;
+.cardtitlelaundry {
+  /* margin: 5% 5% 3% 25%; */
+  /* border: 2px solid red; */
+  text-align: center;
 }
-
-.cardiconlaundry{
-    height:50px;
-    width: 50px;
-    text-align: center;
-    margin: auto;
-    /* border: 2px solid red; */
-    margin-top: 7%;
+.laundryflexboxleftdivflexboxicontxt > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
 }
-
-.cardiconlaundry >img{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    /* object-fit: contain; */
-    /* padding: 10px; */
+.laundryflexboxleftdivflexboxicontxt > p {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 14px;
 }
-
-.cardtitlelaundry{
-    /* margin: 5% 5% 3% 25%; */
-    /* border: 2px solid red; */
-    text-align: center;
-}
-.laundryflexboxleftdivflexboxicontxt>h4{
-    /* border: 2px solid red; */
-    margin-top: 1%;
-}
-.laundryflexboxleftdivflexboxicontxt>p{
-    /* border: 2px solid red; */
-    margin-top: 1%;
-    font-size: 14px;
-}
-
-
-
-
-
-  

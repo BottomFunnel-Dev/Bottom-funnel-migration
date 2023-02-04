@@ -1,7 +1,19 @@
 import React from 'react';
 import styles from "./AgricultureBanner.module.css";
+import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Agriculture.json";
+import Lottie from "react-lottie";
 
 const AgricultureBanner = () => {
+
+    const lottieDefaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: reactAnimation,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
+
     return (
         <div className={styles.agricultureBannerParentDiv}>
             <div className={styles.agricultureMeatBannerContentDiv}>
@@ -19,9 +31,10 @@ const AgricultureBanner = () => {
 
                 <button> Get Started </button>
             </div>
-            
+
             <div className={styles.agricultureBannerImageDiv}>
-                <img src='/Images/Agriculture/AgricultureNewBanner.png' alt='image' />
+                <Lottie options={lottieDefaultOptions} width={700} height={700} />
+                {/* <img src='/Images/Agriculture/AgricultureNewBanner.png' alt='image' /> */}
             </div>
 
         </div>

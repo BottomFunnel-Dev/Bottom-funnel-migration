@@ -14,20 +14,30 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
-
+import Head from "next/head";
 
 export default function BusinessAnalysis() {
 
 
     return (
         <div>
+        <Head>
+        <title>Bottom Funnel | Digital Business Analysis &amp; Project Management</title>
+        <meta
+          name="description"
+          content="The role of a business analyst is vital in any organization. 
+          Our blog will cover the various responsibilities of a BA and 
+          how to be successful in the role. Stay tuned!"
+        />
+      </Head>
+      <main>
    <Navbar
         productMount={{
           navMount: false,
         }}
         navredux={{
-          color: "white",
-          logo: true,
+          color: "black",
+          logo: false,
         }}
       />
             <BusinessAnalysisBanner/>
@@ -42,7 +52,7 @@ export default function BusinessAnalysis() {
             <TextDropdown/>
             <ContectForm/>
             <MainFooter/>
-
+        </main>
         </div>
     );
 };
