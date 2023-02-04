@@ -12,6 +12,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import dropdown from "./dropdownResp.module.css";
 import { NavIndustries } from "../NavIndustries";
 import { Products } from "../Products";
+import { Industries } from "../Industries";
 export default function DropdownResp({
   homeHoverIn,
   homeHoverOut,
@@ -19,6 +20,8 @@ export default function DropdownResp({
   serHoverOut,
   solHoverIn,
   solHoverOut,
+  indusHoverIn,
+  indusHoverOut,
   scroll,
   productMount,
 }) {
@@ -33,12 +36,12 @@ export default function DropdownResp({
           <Typography>About</Typography>
         </AccordionSummary>
         <AccordionDetails className={dropdown.accord}>
-            <WhoWeAre
-              homeHoverIn={homeHoverIn}
-              homeHoverOut={homeHoverOut}
-              scroll={scroll}
-              productMount={productMount}
-            />
+          <WhoWeAre
+            homeHoverIn={homeHoverIn}
+            homeHoverOut={homeHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -50,14 +53,33 @@ export default function DropdownResp({
           <Typography>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <NavServices
-              serHoverIn={serHoverIn}
-              serHoverOut={serHoverOut}
-              scroll={scroll}
-              productMount={productMount}
-            />
+          <NavServices
+            serHoverIn={serHoverIn}
+            serHoverOut={serHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
         </AccordionDetails>
       </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography> Industries </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Industries
+            indusHoverIn={indusHoverIn}
+            indusHoverOut={indusHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        </AccordionDetails>
+      </Accordion>
+
       <Accordion>
         <AccordionSummary
           expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
@@ -67,15 +89,15 @@ export default function DropdownResp({
           <Typography>Solutions</Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <NavIndustries
-              solHoverIn={solHoverIn}
-              solHoverOut={solHoverOut}
-              scroll={scroll}
-              productMount={productMount}
-            />
+          <NavIndustries
+            solHoverIn={solHoverIn}
+            solHoverOut={solHoverOut}
+            scroll={scroll}
+            productMount={productMount}
+          />
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      {/* <Accordion>
         <AccordionSummary
           expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
           aria-controls="panel1a-content"
@@ -91,16 +113,16 @@ export default function DropdownResp({
               productMount={productMount}
             />
         </AccordionDetails>
-      </Accordion>
-
+      </Accordion> */}
 
       <div className={dropdown.otherNav}>
-      <div>PRICING</div>
-      <div>PORTFOLIO</div>
-      <div>BLOG</div>
-     <button>Hire A Talent</button>
-     <button>Apply as a Talent</button>
+        <div>PRICING</div>
+        <div>PORTFOLIO</div>
+        <div>BLOG</div>
 
+        <button className={dropdown.ProductPageRouteButton}> Products </button>
+        <button> Hire A Talent </button>
+        <button> Apply as a Talent </button>
       </div>
     </div>
   );

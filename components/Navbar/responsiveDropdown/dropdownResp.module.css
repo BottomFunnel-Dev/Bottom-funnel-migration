@@ -10,54 +10,75 @@
   /* row-gap: 10px; */
 }
 
-.otherNav{
-    margin-top: 5%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
-}
-.otherNav>div{
- width: 95%;
- margin: auto;
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- text-align: center;
- padding: 10px;
- font-size: 18px;
- font-weight: 600;
- box-sizing: border-box;
- border-radius: 5px;
+.otherNav {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
 }
 
-.otherNav>button{
-   padding: 10px;
-   width: 95%;
-   box-sizing: border-box;
-   background-color: #ef4c23;
-   color: white;
-   font-size: 18px;
-   font-weight: 600;
-   border-radius: 5px;
-   border: none;
- box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-}
-.otherNav>button:hover{
-  
-   color: #ef4c23;
-   background-color: white;
-  
+.otherNav > div {
+  width: 95%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
+.otherNav > button {
+  padding: 10px;
+  width: 95%;
+  box-sizing: border-box;
+  background-color: #ffeae5;
+  color: #ef4c23;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ef4c23;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
+.otherNav > button:hover {
+  color: #ffffff;
+  background-color: #ef4c23;
+}
+
+.ProductPageRouteButton {
+  background-color: #f2613d !important;
+  color: #ffffff !important;
+  padding: 6px 30px;
+  border-radius: 25px;
+  font-size: 1vw;
+  font-weight: 600;
+  margin: 0 5px;
+  border: 2px solid #f2613d;
+  transition: all 500ms linear;
+}
+
+.ProductPageRouteButton:hover {
+  background: white !important; 
+  color: #ef4c23 !important;
+  border: 2px solid #ef4c23;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 54px 55px,
+    rgba(255, 255, 255, 0.22) 0px -12px 30px,
+    rgba(255, 255, 255, 0.22) 0px 4px 6px,
+    rgba(255, 255, 255, 0.27) 0px 12px 13px,
+    rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
 
 @media (max-width: 480px) {
-    .accord {
-        padding: 0 !important;
-    }
-    .css-15v22id-MuiAccordionDetails-root {
-        padding: 8px 16px 16px;
-        padding: 0 !important;
-    }
+  .accord {
+    padding: 0 !important;
+  }
+  .css-15v22id-MuiAccordionDetails-root {
+    padding: 8px 16px 16px;
+    padding: 0 !important;
+  }
 }
