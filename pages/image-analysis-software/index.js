@@ -15,11 +15,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function ImageAnalysisSoftware() {
   return (
     <div>
- <Navbar
+
+      <Head>
+        <title> Image Analysis Software Services Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for image analysis software services? 
+          Use our comprehensive list to compare the top 
+          offerings in the market today."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -44,6 +57,8 @@ export default function ImageAnalysisSoftware() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

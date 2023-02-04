@@ -23,7 +23,19 @@ import Head from "next/head";
 export default function DataScience () {
   return (
     <div>
-<Navbar
+
+      <Head>
+        <title>DataScience Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Looking to invest in artificial intelligence services? 
+          Check out our comprehensive guide on the top AI 
+          offerings and where to invest!"
+        />
+      </Head>
+      <main>
+    
+    <Navbar
         productMount={{
           navMount: false,
         }}
@@ -52,7 +64,7 @@ export default function DataScience () {
       <ContectForm />
       <MainFooter />
 
- 
+      </main>
     </div>
   );
 };

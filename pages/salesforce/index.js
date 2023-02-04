@@ -18,11 +18,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SalesForcePage() {
   return (
     <div className={styles.SalesforsePageContainer}>
-  <Navbar
+
+      <Head>
+        <title>SalesForce Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to get started with SalesForce Services? Learn 
+          about the different services offered by SalesForce 
+          and how you can use them to drive business growth."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -49,6 +62,7 @@ export default function SalesForcePage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }
