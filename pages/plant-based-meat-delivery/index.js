@@ -22,10 +22,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function PlantBasedMeat() {
   return (
-    <div>
+    <>
+     <Head>
+      <title>Plant Based Meat Delivery web 
+App Development Company | 
+Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a Plant Based Meat Delivery web App 
+        Development Company that can help you create a web App that 
+        will help you deliver Plant Based Meat? Look no further, we are 
+        experts in the field!"
+      />
+   </Head>
+
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -53,6 +68,7 @@ export default function PlantBasedMeat() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

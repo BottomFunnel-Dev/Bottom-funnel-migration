@@ -15,10 +15,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Icecream() {
   return (
-    <div>
+    <>
+    <Head>
+      <title>Icecream Web App 
+Development Company | Bottom 
+Funnel
+</title>
+      <meta
+        name="description"
+        content="Learn about our innovative Icecream Web App Development 
+        solutions that will help you drive more sales from your web app 
+        and become one of the most successful ice cream businesses 
+        out there!"
+      />
+   </Head>
+    <main >
       <Navbar
         productMount={{
           navMount: false,
@@ -44,6 +59,7 @@ export default function Icecream() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

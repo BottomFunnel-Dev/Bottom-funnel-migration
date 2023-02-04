@@ -18,10 +18,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function LaundryPage() {
   return (
-    <div>
+    <>
+      <Head>
+      <title> Laundry Web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a laundry web app development company that 
+        can help you create a tailored and effective solution for your 
+        laundry needs? Look no further than ours! Our team of 
+        experienced developers will create a web app that meets your 
+        specific needs and requirements."
+      />
+   </Head>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -49,6 +63,7 @@ export default function LaundryPage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

@@ -20,10 +20,26 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AgriculturePage() {
   return (
-    <div>
+    <>
+         <Head>
+      <title>Agriculture Solution Web App 
+Development Company | 
+Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a reliable and affordable Agriculture 
+        Solution Web App Development company? Look no further 
+        than our team of experienced developers! We have years of 
+        experience in this field and will provide you with the best 
+        possible solution at an unbeatable price."
+      />
+   </Head>
+    
+    <main>
 <Navbar
         productMount={{
           navMount: false,
@@ -51,6 +67,7 @@ export default function AgriculturePage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

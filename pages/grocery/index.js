@@ -17,10 +17,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Grocery() {
   return (
-    <div>
+
+    <>
+      <Head>
+      <title>Grocery web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Are you looking for a reliable and affordable grocery web app 
+        solution? Look no further than our team of experienced developers.
+        We offer tailor-made solutions that will help you manage your 
+        entire grocery experience from one place."
+      />
+   </Head>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -47,6 +61,7 @@ export default function Grocery() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

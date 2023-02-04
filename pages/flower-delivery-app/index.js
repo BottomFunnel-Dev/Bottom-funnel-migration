@@ -17,10 +17,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function FlowerDelivery() {
   return (
-    <div>
+    <>
+     <Head>
+      <title>FlowerDelivery Web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Want to build a flower-delivery web App but don't know where to 
+        start? Let us help you out, we are the best in this field and have 
+        years of experience in developing flower-delivery web Apps."
+      />
+   </Head>
+   
+
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -48,6 +62,7 @@ export default function FlowerDelivery() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }
