@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-.dropdownBar>div li:hover {
+.dropdownBar > div li:hover {
   text-decoration: underline;
   text-decoration-color: #ef4c23;
   text-underline-offset: 10px;
@@ -81,7 +81,8 @@
 }
 
 .callToAction {
-  background-color: #ffeae5;
+  /* background-color: #ffeae5; */
+  background-color: whitesmoke;
   color: #ef4c23;
   padding: 6px 20px;
   border-radius: 25px;
@@ -89,6 +90,7 @@
   font-weight: 600;
   margin: 0;
   border: 2px solid #ef4c23;
+  border: none;
   transition: all 200ms linear;
 }
 
@@ -758,7 +760,7 @@
 .ProductPageRouteButton {
   background-color: #f2613d;
   color: #fff;
-  padding: 6px 20px;
+  padding: 6px 30px;
   border-radius: 25px;
   font-size: 1vw;
   font-weight: 600;
@@ -768,7 +770,8 @@
 }
 
 .ProductPageRouteButton:hover {
-  background: #ef4c23;
+  background: white;
+  color: #ef4c23;
   border: 2px solid #ef4c23;
   box-shadow: rgba(255, 255, 255, 0.35) 0px 54px 55px, rgba(255, 255, 255, 0.22) 0px -12px 30px, rgba(255, 255, 255, 0.22) 0px 4px 6px, rgba(255, 255, 255, 0.27) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
