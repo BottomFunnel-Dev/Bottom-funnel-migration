@@ -26,7 +26,7 @@ export default function Beautycontainer() {
       </div>
 
       <div className={styles.mobile}>
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={700} height={650} />
         {/* <img src="/Images/beautycare/beautymobile.png" alt="image" /> */}
       </div>
     </div>

@@ -38,7 +38,7 @@ export const AlcoholBanner = () => {
             alt="banner small mobile"
           />
         </div> */}
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={700} height={600} />
       </div>
     </div>
   );

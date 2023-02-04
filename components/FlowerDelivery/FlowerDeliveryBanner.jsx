@@ -28,7 +28,7 @@ const FlowerDeliveryBanner = () => {
       </div>
 
       <div className={styles.flowerdeliverybannerrightbox}>
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={700} height={600} />
 
         {/* <div className={styles.flowerdeliverybannerimageone}>
           <img src='/Images/Flowerdeliverypage/Rectangle 1954.png' alt='image' />

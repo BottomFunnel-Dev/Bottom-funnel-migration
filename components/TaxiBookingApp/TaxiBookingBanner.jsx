@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./TaxiBookingBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Flower delivery.json";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Taxi booking.json";
 import Lottie from "react-lottie";
 
 export const TaxiBookingBanner = () => {
@@ -29,7 +29,7 @@ export const TaxiBookingBanner = () => {
       </div>
 
       <div className={styles.taxiBookingBannerAnimationDiv}>
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={700} height={700} />
       </div>
     </div>
   )

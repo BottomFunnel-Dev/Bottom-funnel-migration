@@ -28,7 +28,7 @@ export const PickupBanner = () => {
       </div>
 
       <div className={styles.pickupDeliveryBannerAimationDiv}>
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={750} height={600} />
       </div>
     </div>
   );
