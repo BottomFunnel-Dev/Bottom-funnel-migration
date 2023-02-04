@@ -19,17 +19,14 @@ import Head from "next/head";
 export default function Home() {
   return (
     <div>
-      {/* <Head>
-        <title>bottom funnel</title>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-          crossorigin="anonymous"
+      <Head>
+        <title>Bottom Funnel Global Web and App Development Company | Digital Transformation Service</title>
+        <meta
+          name="description"
+          content="Bottom Funnel makes ridiculously easy-to-use marketing, sales, support and IT solutions"
         />
-        <title>bottom</title>
-      </Head> */}
-
+      </Head>
+      <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -56,6 +53,7 @@ export default function Home() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

@@ -16,12 +16,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function ItConsultingWebsite() {
 
     return (
         <div>
-<Navbar
+      <Head>
+        <title>IT consulting | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Get the latest in IT consulting services with us. Our 
+          bottom funnel covers various areas and offers 
+          unparalleled value to our clients. Read on to know"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -47,6 +59,7 @@ export default function ItConsultingWebsite() {
             <TextDropdown/>
             <ContectForm/>
             <MainFooter/>
+            </main>
         </div>
     );
 };

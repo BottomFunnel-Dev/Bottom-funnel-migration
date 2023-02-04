@@ -20,13 +20,26 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function UXDesignPage  ()  {
 
 
   return (
     <div className={styles.UXDesignPagecontainer}>
-<Navbar
+
+      <Head>
+        <title>User Experience Review | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to write a killer User Experience Review? Our guide
+          covers everything from preparencies needed for an 
+         effective writingschedule to how to present your findings"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -51,6 +64,8 @@ export default function UXDesignPage  ()  {
       <TextDropdown/>
       <ContectForm/>
       <MainFooter/>
+
+      </main>
     </div>
   );
 };
