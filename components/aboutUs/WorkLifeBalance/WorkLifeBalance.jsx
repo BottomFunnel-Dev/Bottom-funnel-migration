@@ -27,12 +27,13 @@ export const WorkLifeBalance = () => {
         many of us find ourselves saying yes to those crazy late nights and
         weekend projects.
       </p>
+      
       <div className={styles.WorkLifeBalancecards}>
         {cardsData.map((elem, idx) => {
           return (
             <div>
-              <h1>{idx + 1}</h1>
-              <h2>{elem}</h2>
+              <h1> {idx + 1} </h1>
+              <h2> {elem} </h2>
             </div>
           );
         })}

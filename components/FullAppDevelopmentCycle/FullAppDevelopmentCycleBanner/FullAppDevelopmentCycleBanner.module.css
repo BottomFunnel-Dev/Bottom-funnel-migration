@@ -1,0 +1,46 @@
+.FullAppDevelopmentCycleBannermaindiv{
+    border: 2px solid transparent;
+    background: url("/Images/fullappdevelopmentcyclephotos/fullappbanner.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+}
+.FullAppDevelopmentCycleBannermaindivcontain{
+    /* border: 2px solid yellow; */
+    width: 90%;
+    margin: auto;
+    margin-top: 17%;
+}
+
+.FullAppDevelopmentCycleBannermaindivcontain h1{
+    width: 60%;
+
+}
+.FullAppDevelopmentCycleBannermaindivcontain h1 span{
+    color: #ef4c23;
+
+}
+.FullAppDevelopmentCycleBannermaindivcontain p{
+    width: 50%;
+    
+}
+.FullAppDevelopmentCycleBannerbutton{
+ width: 220px;
+ height: 40px;
+ border-radius: 10px;
+ background: #000;
+ color: white;
+ font-size: 18px;
+ font-weight: 600;
+ margin-left: 5%;
+
+}
+.FullAppDevelopmentCycleBannerbutton:hover{
+    background:#fff;
+    color: #000;
+    border: 1px solid black;
+}
+
+

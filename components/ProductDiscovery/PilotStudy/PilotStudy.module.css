@@ -1,0 +1,13 @@
+.PilotStudymaindiv{
+    /* border: 2px solid yellow ; */
+    width: 65%;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-align: justify;
+
+   
+}
+.PilotStudymaindiv h1 span{
+    color: #ef4c23;
+    text-decoration: underline 2px ;
+}

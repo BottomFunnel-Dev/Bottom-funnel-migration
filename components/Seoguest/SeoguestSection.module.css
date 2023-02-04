@@ -37,12 +37,12 @@
   color: black;
   box-sizing: border-box;
   margin: auto;
-  margin-top: 13%;
+  margin-top: 10%;
   margin-left: 5%;
   /* text-align: center; */
 }
 ._SeoEmailparagraph {
-  /* border:1px solid white; */
+  border:1px solid white;
   color: gray;
   font-weight: 400;
   width: 100%;
@@ -51,7 +51,7 @@
   font-size: 16px;
 }
 ._SeoEmailheading {
-  /* border:1px solid white; */
+  border:1px solid white;
   margin-bottom: 10px;
   color: #393939;
   width: 100%;
@@ -88,7 +88,7 @@
 }
 
 ._SeoEmailRatings {
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 ._SeoEmailenterform {
   /* border:1px solid red; */

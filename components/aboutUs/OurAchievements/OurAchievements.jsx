@@ -26,11 +26,9 @@ export const OurAchievements = () => {
         </p>
         <button>Read More</button>
       </div>
+      
       <div className={styles.OurAchievementsimage}>
-        <img
-          src="Images/aboutusImage/our-achievements.jpg"
-          alt="Our Achievement"
-        />
+        <img src="/Images/aboutusImage/our-achievements.jpg" alt="Our Achievement" />
       </div>
     </div>
   );

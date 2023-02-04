@@ -25,10 +25,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function CarPooling() {
   return (
-    <div>
+    <>
+      <Head>
+      <title>Carpooling Web App 
+Development Company | Bottom 
+Funnel</title>
+      <meta
+        name="description"
+        content="Want to know more about carpooling web app development? 
+        Check out our website today, where you'll find useful information 
+        on the subject, as well as helpful tips and advice on how to get 
+        started."
+      />
+   </Head>
+
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -58,6 +73,7 @@ export default function CarPooling() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

@@ -16,10 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function BeautyandCare() {
   return (
-    <div>
+    <>
+      <Head>
+      <title>Beauty and Salon Web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="When it comes to online beauty and salon services, our team of 
+        experts know just what you need! We will help you develop a web 
+        app that provides an excellent user experience, is easy to use, 
+        and meets all your business requirements. Contact us today to 
+        learn more!"
+      />
+   </Head>
+
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -45,6 +60,7 @@ export default function BeautyandCare() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

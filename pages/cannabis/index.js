@@ -16,10 +16,23 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Cannabis() {
   return (
-    <div>
+
+    <>
+     <Head>
+      <title> Cannabis web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Wondering if cannabis Web App development is the right decision 
+        for your business? Learn about the many benefits of using a 
+        cannabis web App development company such as VinCard."
+      />
+   </Head>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -46,6 +59,7 @@ export default function Cannabis() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }
