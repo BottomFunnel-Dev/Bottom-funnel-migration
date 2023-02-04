@@ -22,6 +22,7 @@ import MainFooter from "../../components/CommonComponents/FooterSection/MainFoot
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
+
 export default function MeanPage() {
   return (
     <div style={{ color: "#393939" }}>
@@ -49,7 +50,9 @@ export default function MeanPage() {
           logo: false,
         }}
       />
-      <WebdevBanner bannerContent={meanBanner} />
+    
+      <WebdevBanner bannerContent={meanBanner   } />
+    
       <Techstackintro techContent={meanstackIntro} />
       <WebDevServices webservicesContent={meanDevServices} />
       <WhyTechStack techData={whyMEAN} />
@@ -77,6 +80,7 @@ export default function MeanPage() {
         <TextDropdown />
         <ContectForm />
         <MainFooter />
+        
       </main>
     </div>
   );

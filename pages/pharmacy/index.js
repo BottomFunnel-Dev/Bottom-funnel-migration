@@ -18,10 +18,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function Pharmacy() {
   return (
-    <div>
+    <>
+      <Head>
+      <title>Pharmacy web App Development
+ Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Pharmacies are an important part of our society and it is essential 
+        that they are able to interact with their customers in a convenient 
+        and efficient way. Learn about the best pharmacy web app 
+        development companies that can help you build the perfect 
+        solution for your business."
+      />
+   </Head>
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -49,6 +63,7 @@ export default function Pharmacy() {
       {/* <TextDropdown /> */}
       {/* <ContectForm /> */}
       {/* <MainFooter /> */}
-    </div>
+    </main>
+    </>
   );
 }

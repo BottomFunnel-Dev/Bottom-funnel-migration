@@ -18,10 +18,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function ToolDeliveryApp() {
   return (
-    <div>
+    <>
+     <Head>
+      <title>Tool Delivery web App 
+Development Company | Bottom 
+Funnel</title>
+      <meta
+        name="description"
+        content="Learn about our various Tool Delivery Web App solutions that can 
+        help you streamline your workflow and improve efficiency within 
+        your organization. Get in touch with us today to learn more!"
+      />
+   </Head>
+
+    <main>
    <Navbar
         productMount={{
           navMount: false,
@@ -50,6 +64,7 @@ export default function ToolDeliveryApp() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

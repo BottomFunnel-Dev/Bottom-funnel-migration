@@ -18,10 +18,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function CarRentals() {
   return (
-    <div>
+    <>
+      <Head>
+      <title>Car Rentals Web App 
+Development Company | 
+Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Wondering how to start your own car rental web app? 
+        Don't worry, we can help! Our web app development company 
+        has years of experience in developing car rental web apps for 
+        various companies."
+      />
+   </Head>
+
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -50,6 +65,7 @@ export default function CarRentals() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }

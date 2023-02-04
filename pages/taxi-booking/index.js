@@ -16,10 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function TaxiBookingApp() {
   return (
-    <div>
+    <>
+      <Head>
+      <title>Taxi Booking web App 
+Development Company | Bottom 
+Funnel</title>
+      <meta
+        name="description"
+        content="Want to know more about our Taxi Booking web app development 
+        services? Check out our website today and learn more about the 
+        different features and benefits that we offer!"
+      />
+   </Head>
+   
+
+    <main>
       <Navbar
         productMount={{
           navMount: false,
@@ -46,6 +61,7 @@ export default function TaxiBookingApp() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    </div>
+    </main>
+    </>
   );
 }
