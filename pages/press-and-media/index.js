@@ -14,11 +14,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function PressMedia () {
   return (
     <div>
- <Navbar
+
+      <Head>
+        <title>Press and Media| Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Find the latest news and updates on the press and media
+          industry, including publications, conferences, law firms, 
+         and more. Stay updated with our daily newsletter."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -42,6 +55,8 @@ export default function PressMedia () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

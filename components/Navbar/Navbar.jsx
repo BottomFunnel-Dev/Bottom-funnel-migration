@@ -156,9 +156,10 @@ const Navbar = ({ navredux, productMount }) => {
             <img
               src={
                 navredux.logo && !navbar
-                  ? "/Images/navbar/whitelogobottom.png"
+                  ? "Images/navbar/whitelogobottom.png"
                   : "/Images/navbar/blacklogo.png"
               }
+              // Images/navbar/whitelogobottom.png
               alt="image"
             />
           </Link>

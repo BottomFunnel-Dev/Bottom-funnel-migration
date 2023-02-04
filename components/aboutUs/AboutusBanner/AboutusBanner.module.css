@@ -1,6 +1,5 @@
 /* for any type of laptp and wide range of screens */
 
-@media only screen and (min-width:900px){
 .aboutusBanner {
   height: 100vh;
   padding: 10px;
@@ -9,7 +8,6 @@
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 0px;
-
 }
 
 .aboutusbannercontent {
@@ -105,56 +103,40 @@
   }
 }
 
-}
-
 /* for any type of mobile responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
-
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   .aboutusBanner {
-    /* height: 100vh;
-    padding: 10px;
-    background: #f4f4f4;
+    height: 95vh;
+    margin-bottom: 5%;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 0px; */
-    height: 80vh;
-  margin-bottom: 5%;
-
+    flex-direction: column;
   }
-  
+
   .aboutusbannercontent {
-    /* width: 45%;
+    /* border: 1px solid red; */
+    width: 100%;
     height: fit-content;
-    border: 1px solid; */
-
     margin: auto;
     height: fit-content;
-   
   }
-  
+
   .aboutusbannercontent > h1 {
-    /* text-transform: uppercase;
-    margin: auto;
-    margin-bottom: 2%;
-    font-size: 40px; */
     text-transform: uppercase;
-   text-align: center;
+    text-align: center;
     font-size: 20px;
     margin-bottom: 2%;
+    width: 100%;
   }
-  
+
   .aboutusbannercontent > p {
-    /* margin: auto;
-    text-align: justify;
-    margin-top: 2%;
-    margin-bottom: 2%; */
-    width: 90%;
+    width: 95%;
     margin: auto;
+    font-size: 14px;
+    line-height: 18px;
     text-align: justify;
   }
-  
+
   .aboutusbannercontent > hr {
     background-color: #393939;
     height: 1px;
@@ -162,41 +144,41 @@
     width: 65%;
     margin: auto;
   }
-  
+
   .aboutusbannercontent > button {
     background-color: #ef4c23;
     color: white;
-    margin-top: 2%;
     padding: 10px 10px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   outline: none;
+    outline: none;
     border-radius: 100px;
     height: fit-content;
     width: 200px;
-    margin-left: 15%;
+    margin-top: 5%;
+    margin-left: 22%;
   }
-  
+
   .aboutusbannercontent > button:hover {
     color: #ef4c23;
     background: white;
   }
-  
+
   .aboutusbannerimage {
-    /* width: 40%;
-    height: fit-content;
-    text-align: right; */
+    /* border: 1px solid rebeccapurple; */
     width: 100%;
     height: 300px;
-
+    margin-top: 20%;
+    margin-bottom: 5%;
   }
-  
+
   .aboutusbannerimage > img {
     width: 100%;
+    object-fit: contain;
   }
-  
+
   .aboutusanimatedtitle {
     font-size: 20px;
     position: relative;
@@ -205,7 +187,7 @@
     padding: 0px;
     margin: 0px;
   }
-  
+
   .aboutusanimatedtitle::after {
     content: "|";
     position: absolute;
@@ -217,29 +199,25 @@
     color: #393939;
     animation: animateTitle 10s linear infinite, caret 1s infinite;
   }
-  
+
   @keyframes animateTitle {
     0% {
       width: 100%;
     }
-  
+
     50% {
       width: 0%;
     }
-  
+
     100% {
       width: 100%;
     }
   }
-  
 }
-
-
 
 /* for any type of tablet screen responsive */
 
-@media only screen and ( min-width:377px) and (max-width:769px){
-
+/* @media only screen and (min-width: 377px) and (max-width: 769px) {
   .aboutusBanner {
     height: 70vh;
     padding: 10px;
@@ -248,28 +226,27 @@
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 0px;
-  
   }
-  
+
   .aboutusbannercontent {
     width: 45%;
     height: fit-content;
   }
-  
+
   .aboutusbannercontent > h1 {
     text-transform: uppercase;
     margin: auto;
     margin-bottom: 2%;
     font-size: 40px;
   }
-  
+
   .aboutusbannercontent > p {
     margin: auto;
     text-align: justify;
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  
+
   .aboutusbannercontent > hr {
     background-color: #393939;
     height: 1px;
@@ -277,41 +254,40 @@
     width: 65%;
     margin: 0px;
   }
-  
+
   .aboutusbannercontent > button {
     background-color: #ef4c23;
     color: white;
     margin-top: 2%;
     padding: 10px 60px;
     cursor: pointer;
-  
+
     font-size: 18px;
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  
+
     border: 1px solid #ef4c23;
     outline: none;
     border-radius: 100px;
   }
-  
+
   .aboutusbannercontent > button:hover {
     color: #ef4c23;
     background: white;
   }
-  
+
   .aboutusbannerimage {
     width: 45%;
     height: 300px;
     text-align: right;
-    
   }
-  
+
   .aboutusbannerimage > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  
+
   .aboutusanimatedtitle {
     font-size: 40px;
     position: relative;
@@ -320,7 +296,7 @@
     padding: 0px;
     margin: 0px;
   }
-  
+
   .aboutusanimatedtitle::after {
     content: "|";
     position: absolute;
@@ -332,21 +308,18 @@
     color: #393939;
     animation: animateTitle 10s linear infinite, caret 1s infinite;
   }
-  
+
   @keyframes animateTitle {
     0% {
       width: 100%;
     }
-  
+
     50% {
       width: 0%;
     }
-  
+
     100% {
       width: 100%;
     }
   }
-
-
-
-}
+} */

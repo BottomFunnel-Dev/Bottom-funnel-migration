@@ -16,10 +16,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function EyewearDeliverPage() {
   return (
     <div>
+
+      <Head>
+        <title>Eyewear Delivery Web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Having an eyewear delivery web app is a great way to 
+          improve customer satisfaction and grow your business.
+          Our team of experts can help you design and build a custom 
+          eyewear delivery web app that meets your needs and 
+          expectations!"
+        />
+      </Head>
+      <main>
+
       <Navbar
         productMount={{
           navMount: false,
@@ -45,6 +60,8 @@ export default function EyewearDeliverPage() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

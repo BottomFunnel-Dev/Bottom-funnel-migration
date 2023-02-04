@@ -32,7 +32,7 @@ export const FoodDeliveryBanner = () => {
           src="Images/foodDeliveryphotos/FoodDeliveryNewBanner.png"
           alt="Food Delivery Banner image"
         /> */}
-        <Lottie options={lottieDefaultOptions} width={400} height={500} />
+        <Lottie options={lottieDefaultOptions} width={700} height={600} />
       </div>
     </div>
   );

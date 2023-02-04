@@ -14,11 +14,21 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 const index = () => {
   return (
     <div style={{ color: "#393939" }}>
-<Navbar
+      <Head>
+        <title>Career - Mobile App Development Company | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Bottom Funnel is one of those companies. We are working on some of the biggest names in the industry, so you can trust us when we say that our product will be in sync with changing market demands. Our team members are intelligent and fun humans who love what they do, and they will help you build better mobile apps!"
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -42,6 +52,7 @@ const index = () => {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

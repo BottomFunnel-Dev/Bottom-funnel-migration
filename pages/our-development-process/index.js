@@ -14,11 +14,20 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function OurDevelopment () {
   return (
     <div className={styles.ourDevPageContainer}>
- <Navbar
+      <Head>
+        <title>Our Development Process and Working Methodology | Bottom Funnel SDLC</title>
+        <meta
+          name="description"
+          content="Bottom Funnel has evolved from a humble beginning as an IT service provider to a leading global software company with widespread presence across the globe."
+        />
+      </Head>
+      <main>
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -42,6 +51,7 @@ export default function OurDevelopment () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 };

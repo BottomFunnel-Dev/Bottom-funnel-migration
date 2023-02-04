@@ -25,7 +25,7 @@ export const Cannabiscontainer = () => {
       </div>
 
       <div className={styles.CannabisContainerAnimationDiv}>
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={650} height={600} />
       </div>
     </div>
   )

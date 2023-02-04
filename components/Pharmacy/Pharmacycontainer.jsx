@@ -68,7 +68,7 @@ export default function Pharmacycontainer() {
         </div>
 
         <div className={styles.pharmacyBannerAnimationDiv}>
-          <Lottie options={lottieDefaultOptions} width={500} height={500} />
+          <Lottie options={lottieDefaultOptions} width={750} height={500} />
         </div>
       </div>
     </div>

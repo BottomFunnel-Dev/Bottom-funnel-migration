@@ -29,7 +29,7 @@ const GroceryBanner = () => {
       </div>
 
       <div className={styles.groceryImage}>
-        <Lottie options={lottieDefaultOptions} width={500} height={500} />
+        <Lottie options={lottieDefaultOptions} width={700} height={500} />
       </div>
       {/* <div className={styles.groceryImage}>
         <div className={styles.mainPhone}>
