@@ -15,11 +15,25 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function AppBuilderSolution () {
   return (
     <div>
- <Navbar
+
+      <Head>
+        <title>App Builder Solutions Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Wondering how to develop an app? Look no further, we can 
+          help! We specialize in providing top-notch App Builder 
+          Solutions Development services that will help you turn your
+          idea into a reality."
+        />
+      </Head>
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -44,6 +58,8 @@ export default function AppBuilderSolution () {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 };

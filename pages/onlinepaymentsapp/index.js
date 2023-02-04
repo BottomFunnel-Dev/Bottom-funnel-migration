@@ -16,10 +16,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function OnlinePaymentApplication() {
   return (
     <div>
+
+      <Head>
+        <title>Online Payment Web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for an online payment app development 
+          company that can help you develop a web-based payment 
+          solution that can be used by your customers? Look no 
+          further!"
+        />
+      </Head>
+      <main>
+
       <Navbar
         productMount={{
           navMount: false,
@@ -46,6 +60,7 @@ export default function OnlinePaymentApplication() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

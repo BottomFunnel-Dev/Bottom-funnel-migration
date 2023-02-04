@@ -17,10 +17,24 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function RealEstate() {
   return (
     <div>
+
+      <Head>
+        <title>Real Estate Web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Wondering if it's time that you started thinking about 
+          developing a Real Estate Web App? Read on to know more 
+          about the benefits of doing so, and find out who the best Real 
+          Estate Web App Development company is for you."
+        />
+      </Head>
+      <main>
+
       <Navbar
         productMount={{
           navMount: false,
@@ -49,6 +63,8 @@ export default function RealEstate() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }
