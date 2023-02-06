@@ -51,7 +51,7 @@ export const NavIndustries = ({
       </div> */}
 
 
-      
+
       <div id={industry.ondemandsol} className={industry.indindustryContent}>
         <Link href={""} className={industry.industrynoStyle}>
           <h5>On Demand Solutions</h5>
@@ -67,11 +67,7 @@ export const NavIndustries = ({
               className={industry.industryimageIconDivSection}
             >
               <div>
-                <img
-                  className={industry.industryiconDivSection}
-                  src={item.navIcons}
-                  alt="image"
-                />
+                <img className={industry.industryiconDivSection} src={item.navIcons} alt="image" />
               </div>
               <Link
                 onClick={solHoverOut}

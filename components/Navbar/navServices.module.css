@@ -3,12 +3,10 @@
   width: 100%;
   box-sizing: border-box;
   z-index: 100000000;
-
   height: fit-content;
   position: fixed;
   background-color: white;
   /* border-top: 1px solid black; */
-
   top: 78px;
 }
 

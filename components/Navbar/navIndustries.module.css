@@ -116,6 +116,7 @@
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
+  border-left: 3px solid #ef4c23;
   /* border: 1px solid red; */
   /* transition: all 0.3s linear; */
 }
@@ -145,6 +146,10 @@
   font-size: 14px;
 }
 
+/* .industrylinkP:hover{
+  border-left: 2px solid #ef4c23;
+} */
+
 .industrylinkP p {
   margin: 0;
   text-decoration: none;
@@ -154,6 +159,7 @@
 
 .industrylinkP p:hover {
   color: #ef4c23;
+  /* border-left: 2px solid #ef4c23; */
 }
 
 #ondemandsol {

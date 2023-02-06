@@ -30,7 +30,7 @@ export const OnlinePaymentAppSolutionBanner = () => {
       </div>
 
       <div className={styles.onlinePaymentSolutionBannerAnimationDiv}>
-        <Lottie options={lottieDefaultOptions} width={600} height={600} />
+        <Lottie className={styles.onlinePaymentSolutionBannerAnimation} options={lottieDefaultOptions} width={600} height={600} />
       </div>
     </div>
   )

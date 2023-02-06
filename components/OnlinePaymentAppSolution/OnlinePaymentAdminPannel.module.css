@@ -126,7 +126,7 @@
     width: 85%;
     margin: auto;
     margin-top: 2%;
-    height: 50px;
+    height: 40px;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;
@@ -143,15 +143,19 @@
   }
 
   .onlinepaymentadminpannelmappertxtallign > h4 {
-    margin-top: 4%;
-    padding-top: 7px;
-    padding-left: 10px;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+    font-size: 20px;
+    margin-top: -4%;
+    /* padding-top: 7px; */
+    /* padding-left: 10px; */
     /* margin-left: 2%; */
   }
 
   .onlinepaymentadminpannelaftermapping > svg {
     color: #cdfcf6;
-    margin-top: 3%;
+    margin-top: -1%;
+    /* margin-top: 3%; */
     /* margin-left: 3%; */
   }
 

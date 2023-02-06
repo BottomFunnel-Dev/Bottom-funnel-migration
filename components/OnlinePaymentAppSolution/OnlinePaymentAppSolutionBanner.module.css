@@ -1,12 +1,14 @@
 .onlinepaymentappsolutionbannermainboxes {
   height: 100vh;
   padding-top: 10%;
-  background: url("/Images/onlinepaymentpage/banner.png");
-  background-size: 40% 80%;
+  /* background: url("/Images/onlinepaymentpage/banner.png"); */
+  /* background-size: 40% 80%;
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: center;
+  background-position-y: center; */
   background-color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 .onlonepaymentappbannerimageinsidetext {
@@ -45,10 +47,10 @@
   color: #3380f2;
 }
 
-.onlinePaymentSolutionBannerAnimationDiv{
+.onlinePaymentSolutionBannerAnimationDiv {
   position: absolute;
   top: 15%;
-  right: 0%;
+  right: 4%;
 }
 
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
@@ -58,91 +60,33 @@
 @media (max-width: 480px) {
   .onlinepaymentappsolutionbannermainboxes {
     /* border: 1px solid red; */
-    height: 600px;
-    /* padding-top: 10%; */
-    background: url("/Images/onlinepaymentpage/banner.png");
-    background-size: 80% 60%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-color: white;
-    position: relative;
-  }
-
-  .onlonepaymentappbannerimageinsidetext {
-    /* border: 2px solid red; */
-    position: absolute;
-    height: 260px;
-    width: 100%;
-    top: 70%;
-    margin-left: 0%;
-    text-align: center;
-  }
-
-  .onlonepaymentappbannerimageinsidetext > h1 {
-    font-weight: 700;
-    font-size: 26px;
-    margin-top: 5%;
-    margin-bottom: 0%;
-  }
-
-  .onlonepaymentappbannerimageinsidetext > p {
-    font-size: 12px;
-  }
-
-  .onlinepaymentsolutionbutton {
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 220px;
-    background-color: #3380f2;
-    color: white;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 3%;
-  }
-
-  .onlinepaymentsolutionbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 1024px) {
-  .onlinepaymentappsolutionbannermainboxes {
-    /* border: 1px solid black; */
-    height: 65vh;
+    height: 100vh;
     padding-top: 10%;
-    background: url("/Images/onlinepaymentpage/banner.png");
-    background-size: 50% 60%;
+    /* background: url("/Images/onlinepaymentpage/banner.png"); */
+    /* background-size: 40% 80%;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: center;
+    background-position-y: center; */
     background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .onlonepaymentappbannerimageinsidetext {
-    /* border: 1px solid red; */
-    height: fit-content;
-    width: 45%;
+    height: 30%;
+    width: 90%;
     /* margin-top: 7%; */
     margin-left: 5%;
     text-align: justify;
   }
 
   .onlonepaymentappbannerimageinsidetext > h1 {
-    /* border: 1px solid salmon; */
-    width: 100%;
     font-weight: 700;
-    font-size: 35px;
-    gap: 0%;
-    vertical-align: baseline;
+    font-size: 25px;
   }
 
   .onlonepaymentappbannerimageinsidetext > p {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
   }
 
@@ -157,11 +101,80 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 0%;
+    margin-left: 20%;
+  }
+
+  .onlinepaymentsolutionbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+
+  .onlinePaymentSolutionBannerAnimationDiv {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+  }
+
+  .onlinePaymentSolutionBannerAnimation {
+    height: 400px !important;
+    border: 1px solid red;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .onlinepaymentappsolutionbannermainboxes {
+    height: 100vh;
+    padding-top: 10%;
+    /* background: url("/Images/onlinepaymentpage/banner.png"); */
+    /* background-size: 40% 80%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .onlonepaymentappbannerimageinsidetext {
+    height: 30%;
+    width: 45%;
+    margin-top: 7%;
+    margin-left: 5%;
+    text-align: justify;
+  }
+
+  .onlonepaymentappbannerimageinsidetext > h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .onlonepaymentappbannerimageinsidetext > p {
+    font-size: 13px;
+  }
+
+  .onlinepaymentsolutionbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #3380f2;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
     margin-top: 3%;
   }
 
   .onlinepaymentsolutionbutton:hover {
     background-color: white;
     color: #3380f2;
+  }
+
+  .onlinePaymentSolutionBannerAnimationDiv {
+    position: absolute;
+    top: 15%;
+    right: 4%;
   }
 }

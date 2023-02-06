@@ -21,9 +21,10 @@ import Head from "next/head";
 export default function OnlinePaymentApplication() {
   return (
     <div>
-
       <Head>
-        <title>Online Payment Web App Development Company | Bottom Funnel</title>
+        <title>
+          Online Payment Web App Development Company | Bottom Funnel
+        </title>
         <meta
           name="description"
           content="Are you looking for an online payment app development 
@@ -33,33 +34,32 @@ export default function OnlinePaymentApplication() {
         />
       </Head>
       <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <OnlinePaymentAppSolutionBanner />
+        {/* <OnlinePaymentExclusive /> */}
+        <OnlinePaymentApplications />
+        <OnlinePaymentAdminPannel />
+        <OnlinePMobileBrowser />
+        {/* <OnlinePaymentWhyChoose /> */}
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <OnlinePaymentAppSolutionBanner />
-      {/* <OnlinePaymentExclusive /> */}
-      <OnlinePaymentApplications />
-      <OnlinePaymentAdminPannel />
-      <OnlinePMobileBrowser />
-      <OnlinePaymentWhyChoose />
-
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        {/* Other react required components  */}
+        {/* <StoriesSection /> */}
+        {/* <OndemandSection /> */}
+        {/* <PortFolio />  */}
+        {/* <PlanProject /> */}
+        {/* <SeoblogSection /> */}
+        {/* <Revamping /> */}
+        {/* <TextDropdown /> */}
+        {/* <ContectForm /> */}
+        {/* <MainFooter /> */}
       </main>
     </div>
   );

@@ -80,7 +80,7 @@
     height: fit-content;
     flex-direction: column;
     padding-top: 5%;
-    margin-top: 25%;
+    margin-top: 35%;
     background-color: white;
   }
 
@@ -118,7 +118,7 @@
   }
 
   .onlinepaymentmobileapplicationmappingbox {
-    height: 50px;
+    height: 40px;
     width: 90%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 2%;
@@ -136,17 +136,18 @@
     /* border: 1px solid rebeccapurple; */
     height: 50px;
     width: 100%;
+    /* text-align: center; */
   }
 
   .onlinepaymentmobileapplicationtetxtupperheadline > h1 {
     /* border: 1px solid red; */
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .onlinepaymentmobileapplicationmappingbox > h4 {
     margin-left: 2%;
     font-size: 20px;
-    margin-top: 1.5%;
+    margin-top: 2%;
   }
 
   .onlinepaymentmobileapplicationmappingbox > svg {
