@@ -96,7 +96,7 @@
   height: 38px;
   column-gap: 3%;
   display: flex;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
   border-left: 3px solid white;
@@ -117,6 +117,7 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
   border-left: 3px solid #ef4c23;
+  border-radius: none;
   /* border: 1px solid red; */
   /* transition: all 0.3s linear; */
 }
