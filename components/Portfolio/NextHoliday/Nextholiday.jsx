@@ -48,7 +48,7 @@ export const Nextholiday = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>javascript, jquery, ASP.NET, amazon, cloudfare server</p>
+<p>Javascript, Jquery, ASP.NET, AWS, Cloudfare Server</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
