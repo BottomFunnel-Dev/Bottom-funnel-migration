@@ -42,29 +42,45 @@ export default function Portfolio () {
   />
     <PortfolioBanner />
     <Nextholiday />
-    <Yanbal />
+    <Ciana />
     <Jamboshop />
     <Sportasy />
-    <Taxwink />
+    <Travelflap />
+    <Oncart />
+    <SPJElectronics />
+    <Blueberry />
+    <Blueberrytravel />
+    <MukundaGeneral />
+    <AnandamGreens/>
+    <Voylla />
+    <CattleCountry />
+    <Roshiwelness />
+    <JaipurRugs />
+    <Yanbal />
+    <Physicsfunshop />
+    <Amydus />
     <Myteam />
+   <Taxwink />
+
+   
+    
     <Tigmoo />
     <Younity />
     <Salesbot />
     <WifiStudy />
-    <Travelflap />
-    <Oncart />
-    <AnandamGreens/>
-    <JaipurRugs />
-    <CattleCountry />
-    <Roshiwelness />
-    <Blueberry />
-    <Voylla />
-    <Blueberrytravel />
-    <SPJElectronics />
-    <Amydus />
-    <MukundaGeneral />
-    <Physicsfunshop />
-    <Ciana />
+  
+   
+ 
+    
+    
+    
+ 
+    
+  
+  
+   
+   
+   
     </div>
   )
 }

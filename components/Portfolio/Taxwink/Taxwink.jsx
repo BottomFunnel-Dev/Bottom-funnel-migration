@@ -35,7 +35,10 @@ export const Taxwink = () => {
     <div className={styles.nextholidayrightinsideflexbox}>
   <div className={styles.nextholidaywrapbox1}>
   <h5>Downloads</h5>
-  <p>150K+</p>
+  <p>120K
+  <span style={{
+    fontWeight:"900"
+  }}>+</span></p>
   </div>
    <div className={styles.nextholidaywrapbox1}>
    <h5>Region</h5>
@@ -43,7 +46,7 @@ export const Taxwink = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p>Javascript, Jquery, Bootstrap, Popper, Php, Apache</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
