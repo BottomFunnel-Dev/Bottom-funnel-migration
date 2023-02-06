@@ -9,11 +9,6 @@ import { FoodDeliveryAdvanceTech } from "../../components/food-delivery/foodDeli
 import { FoodDeliveryAdminPanel } from "../../components/food-delivery/foodDeliveryAdminPanel";
 import { FoodDeliveryPartnerApp } from "../../components/food-delivery/FoodDeliveryPartnerApp";
 import { FoodDeliveryNeedSuccess } from "../../components/food-delivery/FoodDeliveryNeedSuccess";
-import {
-  carpoolCustomer,
-  carpoolAdmin,
-  carpoolDrive,
-} from "../../components/Data/panelsData";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -44,7 +39,7 @@ export default function FoodDelivery() {
       {<FoodDeliveryBookCall />}
       {<FoodDeliveryExluciveApp />}
       {<FoodDeliveryAdvanceTech />}
-      {/* {<FoodDeliveryAdminPanel adminData={carpoolAdmin} />} */}
+      {<FoodDeliveryAdminPanel />}
       {<FoodDeliveryPartnerApp />}
       {<FoodDeliveryNeedSuccess />}
 

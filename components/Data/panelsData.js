@@ -109,7 +109,6 @@ export const logisticDrive = {
   ],
   sectionTitle: "Drive App",
   background: "/public/Images/logistic/triangle.png",
-  
 };
 
 export const logisticAdmin = {
@@ -165,8 +164,177 @@ export const logisticAdmin = {
   ],
 
   sectionTitle: "Admin Panel",
-  background: "/public/Images/logistic/plane\ triangle.png",
+  background: "/public/Images/logistic/plane triangle.png",
 };
+
+export const foodDeliveryCustomer = {
+  foodDeliverycustomerdata: [
+    {
+      img: {
+        src: "/Images/carpoolingpage/customerapp/Quick bookings.png",
+        alt: "Register image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: " Register logo",
+      },
+      title: "Can be easily accessed through both android/iOS",
+      para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
+    },
+    {
+      img: {
+        src: "/Images/carpoolingpage/customerapp/Fare estimate.png",
+        alt: "Schedule",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Schedule logo",
+      },
+      title: "User-friendly interface",
+      para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+    },
+    {
+      img: {
+        src: "/Images/carpoolingpage/customerapp/Pool options.png",
+        alt: "Multiple Payment Option image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Multiple Payment Option logo",
+      },
+      title: "Order food and ltrack their service",
+      para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
+    },
+    {
+      img: {
+        src: "/Images/carpoolingpage/customerapp/Time tracking.png",
+        alt: "Track Order image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Track Order logo",
+      },
+      title: "Smart search and add-to-your-favorites list",
+      para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
+    },
+  ],
+
+  sectionTitle: "Customer App",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+};
+
+export const foodDeliveryDrive = {
+  fooddeliverydrivedata: [
+    {
+      img: {
+        src: "Images/carpoolingpage/driverapp/real time requests.png",
+        alt: "Register image",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: " Register logo",
+      },
+      title: "Real-time Requests",
+      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+    },
+    {
+      img: {
+        src: "Images/carpoolingpage/driverapp/Trip details.png",
+        alt: "Schedule",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: "Schedule logo",
+      },
+      title: "Trip Detail",
+      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+    },
+    {
+      img: {
+        src: "Images/carpoolingpage/driverapp/Rating & review.png",
+        alt: "Multiple Payment Option image",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: "Multiple Payment Option logo",
+      },
+      title: "Rating & Review",
+      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+    },
+    {
+      img: {
+        src: "Images/carpoolingpage/driverapp/Wallet details.png",
+        alt: "Track Order image",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: "Track Order logo",
+      },
+      title: "Wallet Details",
+      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    },
+  ],
+
+  sectionTitle: "Driver App",
+  background: "/Images/carpoolingpage/bannersbackgrounds/group9.png",
+};
+
+export const foodDeliveryAdmin = {
+  fooddeliveryadmindata: [
+    {
+      img: {
+        src: "Images/carpoolingpage/adminpanel/Dashboard.png",
+        alt: "Register image",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: " Register logo",
+      },
+      title: "Dashboard",
+      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+    },
+    {
+      img: {
+        src: "Images/carpoolingpage/adminpanel/Reports & analytics.png",
+        alt: "Schedule",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: "Schedule logo",
+      },
+      title: "Reports and Analytics",
+      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+    },
+    {
+      img: {
+        src: "Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+        alt: "Multiple Payment Option image",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: "Multiple Payment Option logo",
+      },
+      title: "Manage Promos & Referals",
+      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+    },
+    {
+      img: {
+        src: "Images/carpoolingpage/adminpanel/Driver management.png",
+        alt: "Track Order image",
+      },
+      icon: {
+        src: "Images/carpoolingpage/icons/checkmark.png",
+        alt: "Track Order logo",
+      },
+      title: "Driver Management",
+      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+    },
+  ],
+
+  sectionTitle: "Admin App",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+};
+
 export const carpoolCustomer = {
   customerdata: [
     {
@@ -217,7 +385,6 @@ export const carpoolCustomer = {
       title: "Real-Time Tracking",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-   
   ],
 
   sectionTitle: "Customer App",
@@ -274,7 +441,6 @@ export const carpoolDrive = {
       title: "Wallet Details",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-    
   ],
 
   sectionTitle: "Driver App",
@@ -331,15 +497,11 @@ export const carpoolAdmin = {
       title: "Driver Management",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-   
   ],
 
   sectionTitle: "Admin App",
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
-
-
-
 
 export const bettingCustomer = {
   customerdata: [
@@ -391,14 +553,13 @@ export const bettingCustomer = {
       title: "Bet History",
       para: "In the application, you can see your betting history anytime. You can also see the history of all your bets, which means that you will know what to bet on and how much you have to lose in case of a loss.",
     },
-   
   ],
 
   sectionTitle: "User App",
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
-export const bettingDrive = { 
+export const bettingDrive = {
   driverdata: [
     {
       img: {
@@ -414,7 +575,7 @@ export const bettingDrive = {
     },
     {
       img: {
-        src:"Images/sportsbettingpage/bookpanel/usermanagement.png",
+        src: "Images/sportsbettingpage/bookpanel/usermanagement.png",
         alt: "Schedule",
       },
       icon: {
@@ -448,7 +609,6 @@ export const bettingDrive = {
       title: "Calenders,Days and Schedules",
       para: "Our calendars are designed to help you stay on top of your schedule. Each calendar has a different color and can be sorted by date, time or day of the week.",
     },
-    
   ],
 
   sectionTitle: "Books Panel",
@@ -505,7 +665,6 @@ export const bettingAdmin = {
       title: "Advance Dashboard",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-   
   ],
 
   sectionTitle: "Admin App",
@@ -549,7 +708,6 @@ export const alcoholCustomer = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const alcoholAdmin = {
@@ -589,7 +747,6 @@ export const alcoholAdmin = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const alcoholPartner = {
@@ -629,7 +786,6 @@ export const alcoholPartner = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const wellnessPatient = {
@@ -792,7 +948,6 @@ export const datingCustomer = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const datingAdmin = {
