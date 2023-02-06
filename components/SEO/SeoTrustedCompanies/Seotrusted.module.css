@@ -26,7 +26,8 @@
   width: 100%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 20%;
+  top: 45%;
+  font-size: 35px;
   left: 50%;
 }
 

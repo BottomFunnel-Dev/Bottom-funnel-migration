@@ -40,7 +40,7 @@ export default function OnlinePaymentApplication() {
           }}
           navredux={{
             color: "black",
-            logo: true,
+            logo: false,
           }}
         />
         <OnlinePaymentAppSolutionBanner />

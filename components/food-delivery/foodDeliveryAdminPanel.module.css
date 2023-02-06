@@ -1,69 +1,297 @@
-.foodDeliveryAdminPanelSivMain {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 450px;
-}
-
-.foodDeliveryAdminPanelDivImages {
-  width: 40%;
-  height: 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.foodDeliveryAdminPanelDivImages > img {
-  height: 100%;
+.logicadmin {
   width: 100%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: max-content;
+  margin: 60px 0;
+  /* background-color: aqua; */
 }
 
-.foodDeliveryAdminPanelDivContent {
-  width: 45%;
-  text-align: center;
-  padding: 20px;
+.logicadmin > h1 {
+  margin-left: 5%;
 }
 
-.foodDeliveryAdminPanelDivContent > h2 {
-  color: #ef4c23;
-  margin-bottom: 35px;
-  /* font-size: 25px; */
-}
-
-.foodDeliveryAdminPanelDivContent > div {
+.logicadminsub {
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
 }
 
-.foodDeliveryAdminPanelDivContent > div > div {
+.logicadminleft {
   width: 45%;
-  height: 170px;
-  padding: 10px;
-  font-size: 16px;
-  background-color: white;
+  height: 500px;
+  /* padding: 10px; */
+  display: flex;
+  /* background: url("/public/Images/logistic/plane\ triangle.png"); */
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  position: relative;
+}
+
+.logicadminright {
+  width: 45%;
+  height: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
-  margin-bottom: 20px;
-  cursor: default;
-
-  border-radius: 15px;
-
-  border: 2px solid rgb(253, 242, 240);
-  box-shadow: rgba(247, 165, 151, 0.5) 0px 3px 8px;
-  margin-top: 10px;
-}
-.foodDeliveryAdminPanelDivContent > div > div:hover {
- margin-top: 0;
- transition: all .3s linear;
+  gap: 20px;
 }
 
-.foodDeliveryAdminPanelDivContent > div > div > h4,
-.foodDeliveryAdminPanelDivContent > div > div > p {
-  font-size: 16px;
-  text-align: left;
-  margin-bottom: 5px;
-  margin-top: 5px;
+.logicadminright > div {
+  padding: 10px 10px 10px 10px;
+  height: 250px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.logicadminright > div:hover {
+  background-color: #e1f9f6;
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logicadminright > div > h3 {
+  font-size: 18px;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+.logisticAdminImage {
+  width: 80%;
+  height: 500px;
+  text-align: right;
+  padding-bottom: 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 54%;
+  left: 50%;
+}
+
+.logisticAdminImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .logicadmin {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+    margin-left: 8%;
+    /* background-color: aqua; */
+  }
+
+  .logicadmin > h1 {
+    margin-left: 5%;
+    font-size: 30px;
+    margin-left: 30%;
+  }
+
+  .logicadminsub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .logicadminleft {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 230px;
+    /* padding: 10px; */
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* background: url("/public/Images/logistic/plane\ triangle.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    position: relative;
+  }
+
+  .logicadminright {
+    /* border: 1px solid red;  */
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    margin-top: 3%;
+  }
+
+  .logicadminright > div {
+    padding: 10px 10px 10px 10px;
+    height: 180px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .logicadminright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .logicadminright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+
+  .logicadminright > div > p {
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+
+  .logisticAdminImage {
+    width: 80%;
+    height: 500px;
+    text-align: right;
+    padding-bottom: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 54%;
+    left: 50%;
+  }
+
+  .logisticAdminImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 4%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .logicadmin {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+    margin-left: 8%;
+    /* background-color: aqua; */
+  }
+
+  .logicadmin > h1 {
+    margin-left: 5%;
+    font-size: 30px;
+    margin-left: 30%;
+  }
+
+  .logicadminsub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2%;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .logicadminleft {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 500px;
+    /* padding: 10px; */
+    /* display: flex; */
+    flex-direction: column-reverse;
+    /* background: url("/public/Images/logistic/plane\ triangle.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    position: relative;
+  }
+
+  .logicadminright {
+    /* border: 1px solid red;  */
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+    /* display: flex; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    margin-top: 3%;
+  }
+
+  .logicadminright > div {
+    /* border: 1px solid red; */
+    padding: 10px 10px 10px 10px;
+    height: 160px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .logicadminright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .logicadminright > div > h3 {
+    font-size: 25px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+
+  .logicadminright > div > p {
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+
+  .logisticAdminImage {
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 500px;
+    text-align: right;
+    padding-bottom: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* top: 54%;
+    left: 50%; */
+  }
+
+  .logisticAdminImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* margin-top: 1%; */
+  }
 }

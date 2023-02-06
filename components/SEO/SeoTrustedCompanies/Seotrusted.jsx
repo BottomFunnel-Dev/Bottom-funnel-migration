@@ -19,7 +19,7 @@ export const Trusted = ({ partnerLogo }) => {
   return (
     <div className={styles.SeoTrusted}>
       <div className={styles.SeoTrustedtext} style={partnerLogo.bgcolors}>
-        <h2 className={styles.globalbrands}>Trusted By Global Brands</h2>
+        <h2 className={styles.globalbrands}> Trusted By Global Brands </h2>
       </div>
 
       <div className={styles.SeoTrustedCarousel}>

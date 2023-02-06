@@ -31,49 +31,47 @@ export default function CarPooling() {
   return (
     <>
       <Head>
-      <title>Carpooling Web App 
-Development Company | Bottom 
-Funnel</title>
-      <meta
-        name="description"
-        content="Want to know more about carpooling web app development? 
+        <title>Carpooling Web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Want to know more about carpooling web app development? 
         Check out our website today, where you'll find useful information 
         on the subject, as well as helpful tips and advice on how to get 
         started."
-      />
-   </Head>
+        />
+      </Head>
 
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <CarpoolingBanner />
-      <Trusted partnerLogo={carpoolingLogo} />
-      <CarpoolingRide />
-      <CarpoolingSolutions />
-      <Logiccustomer customerData={carpoolCustomer} />
-      <Logicdrive driveData={carpoolDrive} />
-      <Logisticadmin adminData={carpoolAdmin} />
-      <CarpoolingAction />
-      <CarpoolingWhy />
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <CarpoolingBanner />
+        <Trusted partnerLogo={carpoolingLogo} />
+        <CarpoolingRide />
+        <CarpoolingSolutions />
+        <Logiccustomer customerData={carpoolCustomer} />
+        <Logicdrive driveData={carpoolDrive} />
+        <Logisticadmin adminData={carpoolAdmin} />
+        <CarpoolingAction />
+        <CarpoolingWhy />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }
