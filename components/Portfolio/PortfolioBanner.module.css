@@ -26,3 +26,78 @@ background: url("/Images/portfolio/Main banner/Group 770864.png");
 .portfoliobannerheadingtxt>p{
     text-align: center;
 }
+
+.portfoliobannerbutton {
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 2%;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .portfoliobannerbutton:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+
+
+  /* for any type of mobile devices responsive */
+
+  @media only screen and (min-width:0px) and (max-width:600px){
+
+    .portfoliobannermainboxes{
+    height: 50vh;
+    border: 1px solid transparent;
+background: url("/Images/portfolio/Main banner/Group 770864.png");
+background-size: 100% 100%;
+}
+
+.portfoliobannerheadingtxt{
+    height: 30%;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 20% 15% 0% 5%;
+    color: white;
+    text-align: center;
+
+}
+.portfoliobannerheadingtxt>h1>span:nth-child(2){
+    color: #ef4c23;
+   
+}
+
+.portfoliobannerheadingtxt>h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.portfoliobannerheadingtxt>p{
+    text-align: justify;
+    font-weight: 14px;
+
+}
+
+.portfoliobannerbutton {
+    padding: 7px 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    margin-top: 2%;
+    background-color: #ef4c23;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .portfoliobannerbutton:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+
+
+
+  }

@@ -1,6 +1,6 @@
 .yanbalmainboxes{
     height: 85vh;
-    /* border: 2px solid red; */
+
     background: url("/Images/portfolio/yanbal/Background/Group\ 770953.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -11,7 +11,7 @@
 
 .portfolioyanballeftbox{
     width: 50%;
-    /* border: 5px solid green; */
+
     margin-left: 3%;
     margin-top: 5%;
 }
@@ -29,7 +29,7 @@
 .portfolioyanbelrightinnerimages{
     height: 80%;
     width: 35%;
-    /* border: 1px solid white; */
+  
     margin-top: 8%;
     margin-left: 2%;
 }
@@ -53,7 +53,7 @@
 }
 
 .yanbalrightinsideflexbox{
-    /* border: 1px solid red; */
+  
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -61,7 +61,7 @@
 }
 
 .yanbalwrapbox1{
-/* border: 1px solid green; */
+
 width: 40%;
 margin: 3%;
 padding: 5px;
@@ -99,16 +99,19 @@ border-right: 1px solid white;
 .porfolionextholidayicon:last-child{
     border-right: none;
 }
-
-
-
-
-
 .porfolionextholidayicon>img{
     height: 100%;
     width: 80%;
     object-fit: contain;
 }
+
+.androidappicon>img{
+        height: 100%;
+    width: 80%;
+    object-fit: contain;
+}
+
+
 
 .yanbalwrapboximages{
     width: 25%;
@@ -128,7 +131,7 @@ border-right: 1px solid white;
   background-color: transparent;
   border: #ef4c23;
   outline: none;
-  box-shadow: white 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
   font-size: 14px;
   font-weight: 600;
   color: white;
@@ -140,3 +143,58 @@ border-right: 1px solid white;
     background-color: white;
     color: black;
 }
+
+
+
+/* .yanbalmainboxes{
+    height: 85vh;
+    border: 5px solid red;
+    background: url("/Images/portfolio/yanbal/Background/Group\ 770953.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+   justify-content: space-around;
+}
+
+.yanaballeftbox{
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 50%;
+    border: 1px solid green;
+}
+
+.yanabelleftboxinnerflexbox{
+    width: 90%;
+    margin-left: 10%;
+ 
+    display: flex;
+    flex-wrap: wrap;
+ 
+    height: fit-content;
+    padding: 5px;
+  
+}
+
+.yanbalwrapbox1{
+    width: 50%;
+    margin-top: 5%;
+
+}
+
+
+
+
+
+.portfolioavailableonicon{
+    display: flex;
+}
+
+
+
+
+.yanabalrightboxes{
+
+    width: 50%;
+    border: 5px solid yellow;
+} */

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Yanbal.module.css"
 import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Yanbal.json";
 import Lottie from "react-lottie";
+import { Link } from '../Link/Link';
 
 export const Yanbal = () => {
 
@@ -23,7 +24,9 @@ export const Yanbal = () => {
     <div className={styles.yanbalrightinsideflexbox}>
   <div className={styles.yanbalwrapbox1}>
   <h5>Downloads</h5>
-  <p>150K</p>
+  <p>150K<span style={{
+    fontWeight:"900"
+  }}>+</span></p>
   </div>
    <div className={styles.yanbalwrapbox1}>
    <h5>Region</h5>
@@ -36,9 +39,28 @@ export const Yanbal = () => {
 <div className={styles.yanbalwrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' /></div>
+<div className={styles.porfolionextholidayicon}>
+<Link href="https://play.google.com/store/apps/details?id=yanbal.colombia2&pli=1">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Frame.png' alt='images' />
+</a>
+</Link>
+</div>
+
+<div className={styles.porfolionextholidayicon}>
+<Link href="https://www.yanbal.com/us/">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' />
+</a>
+</Link>
+
+
+</div>
+<div className={styles.porfolionextholidayicon}>
+
+<img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' />
+
+</div>
 
 
 </div>
@@ -54,15 +76,17 @@ marginLeft:"30%"
     </div>
     </div>
     <div className={styles.portfolioyanbalrightbox}>
-    <div className={styles.portfolioyanbalrightboximage}>
+    
         <Lottie style={{
           marginLeft:"-70%",
           width:"fitContent"
         }} options={lottieDefaultOptions} width={720} height={530}   />
-        </div>
+       
 
 
     </div>
     </div>
   )
 }
+
+

@@ -25,7 +25,7 @@ export const Sportasy = () => {
     <div className={styles.sportasyrightinsideflexbox}>
   <div className={styles.sportasywrapbox1}>
   <h5>Downloads</h5>
-  <p>150K</p>
+  <p>150K+</p>
   </div>
    <div className={styles.sportasywrapbox1}>
    <h5>Region</h5>

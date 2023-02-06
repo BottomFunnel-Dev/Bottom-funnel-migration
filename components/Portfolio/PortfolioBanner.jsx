@@ -7,8 +7,13 @@ export const PortfolioBanner = () => {
     <div class={styles.portfoliobannerheadingtxt}>
     <h1><span>Our</span> <span>Portfolio</span></h1>
     <p>We aim at delivering rich digital experience a d building meaningful relationships with our clients through outstanding designs,business centered web solutions and best customer support.</p>
-     </div>
     
+    <div>
+    <button className={styles.portfoliobannerbutton}>Get Started</button>
+    </div>
+    
+    </div>
+   
     </div>
   )
 }

@@ -22,7 +22,7 @@ export const SPJElectronics = () => {
         <div className={styles.nextholidayrightinsideflexbox}>
       <div className={styles.nextholidaywrapbox1}>
       <h5>Downloads</h5>
-      <p>150K</p>
+      <p>150K+</p>
       </div>
        <div className={styles.nextholidaywrapbox1}>
        <h5>Region</h5>

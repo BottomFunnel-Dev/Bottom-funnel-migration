@@ -72,29 +72,33 @@ padding: 5px;
 .portfolioavailableonicon{
     display: flex;
   margin: auto;
-  width: 40%;
+  width: 60%;
 
 }
 
 .porfolionextholidayicon{
 
-margin: 5% ;
-height: 25%;
-width: 30%;
-border-right: 1px solid black;
 
+    margin: 5% ;
+    height: 15%;
+    width: 20%;
+    border-right: 1px solid black;
+
+}
+
+.porfolionextholidayicon:nth-child(2){
+    width: 25%;
 }
 
 .porfolionextholidayicon:last-child{
     border-right: none;
 }
 
-.porfolionextholidayicon>img{
-    height: 100%;
-    width: 80%;
+.androidappicon>img{
+    height: 50%;
+    width: 50%;
     object-fit: contain;
 }
-
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
