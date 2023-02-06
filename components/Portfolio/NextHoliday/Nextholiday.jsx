@@ -37,7 +37,7 @@ export const Nextholiday = () => {
     <div className={styles.nextholidayrightinsideflexbox}>
   <div className={styles.nextholidaywrapbox1}>
   <h5>Downloads</h5>
-  <p>150K<span style={{
+  <p>180K<span style={{
     fontWeight:900,
 
   }}>+</span></p>
@@ -48,7 +48,7 @@ export const Nextholiday = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p>javascript, jquery, ASP.NET, amazon, cloudfare server</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
