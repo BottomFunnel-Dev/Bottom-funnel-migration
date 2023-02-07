@@ -136,12 +136,7 @@ const Services = () => {
                 style={{ textDecoration: "none" }}
               >
                 {item.serviceTypes.map((element, index) => (
-                  // <li
-                  //   onClick={() => {
-                  //     navigate(`/${element.path}`);
-                  //   }}
-                  //   key={index}
-                  // >
+                
                   <Link href={element.path} key={index}>
                     <li >
                       {element.serName}
@@ -155,7 +150,6 @@ const Services = () => {
             <div className={styles.serviceDescriptionVisible}>
               <p>{item.serviceDesc}</p>
               <p onClick={() => {
-                // navigate(`/${item.link}`);
               }}>READ MORE</p>
             </div>
           </div>
