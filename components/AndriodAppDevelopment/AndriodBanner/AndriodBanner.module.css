@@ -7,8 +7,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 80px;
   }
-  
+  .androidIcon{
+    /* border: 2px solid yellow; */
+    /* margin: 0%; */
+    height: 85%;
+    margin-top: -12%;
+  }
   .andriodAppDevbannermainboxinnertextdiv {
    
     width: 40%;

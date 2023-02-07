@@ -75,6 +75,9 @@ export const FluterDevelopmentExpertise = () => {
           <p className={styles.flutterDevelopmentExpertiseContentText}>
             We have a team of experts who are adept at developing applications for all types of devices. Our experience spans over years, so you can be sure that your app will run smoothly on all platforms and devices. Don't think we're just experts in Android apps! We also have expertise in Apple development as well! As a result, you can expect 100% perfection from us every time.
           </p>
+          <div>
+            <button className={styles.FluterDevelopmentExpertisebutton}>Hire flutter Developer</button>
+          </div>
         </div>
       </div>
     </>

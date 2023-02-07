@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AndriodBottomFunnel.module.css";
+import Image from "next/image";
 
 export const AndriodBottomFunnel = () => {
 
@@ -14,7 +15,18 @@ export const AndriodBottomFunnel = () => {
                     <div className={styles.andriodBottomFunnelServiceBox}>
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1lightbulb.png" alt="image"/>
+                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1lightbulb.png" alt="image"/>
+                                 */}
+                                  <Image
+          src={"/Images/AndriodDevImages/icons/1lightbulb.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+                                 
                             </div>
                             <div className={styles.andriodBottomFunnelBoxHeading}>
                                 <h6>Watch Your App Idea Growing</h6>
@@ -28,7 +40,17 @@ export const AndriodBottomFunnel = () => {
 
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1best-employee.png" alt="image"/>
+                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1best-employee.png" alt="image"/> */}
+                                <Image
+          src={"/Images/AndriodDevImages/icons/1best-employee.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+                            
                             </div>
                             <div className={styles.andriodBottomFunnelBoxHeading}>
                                 <h6>Dedicated and Expert Team</h6>
@@ -40,7 +62,16 @@ export const AndriodBottomFunnel = () => {
 
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1security.png" alt="image"/>
+                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1security.png" alt="image"/> */}
+                                <Image
+          src={"/Images/AndriodDevImages/icons/1security.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
                             </div>
                             <div className={styles.andriodBottomFunnelBoxHeading}>
                                 <h6>Security, Safety and Confidentiality</h6>
@@ -55,7 +86,16 @@ export const AndriodBottomFunnel = () => {
                     <div className={styles.andriodBottomFunnelServiceBox}>
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1agile-team.png" alt="image"/>
+                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1agile-team.png" alt="image"/> */}
+                            
+                                <Image
+          src={"/Images/AndriodDevImages/icons/1agile-team.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
                             </div>
                             <div className={styles.andriodBottomFunnelBoxHeading}>
                                 <h6>Agile Methodology</h6>
@@ -69,7 +109,17 @@ export const AndriodBottomFunnel = () => {
 
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1worldwide.png" alt="image"/>
+                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1worldwide.png" alt="image"/> */}
+                                <Image
+          src={"/Images/AndriodDevImages/icons/1worldwide.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                            
                             </div>
                             <div className={styles.andriodBottomFunnelBoxHeading}>
                                 <h6>Global Acceptance</h6>
@@ -81,7 +131,17 @@ export const AndriodBottomFunnel = () => {
 
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1 solution.png" alt="image"/>
+                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1 solution.png" alt="image"/> */}
+                                <Image
+          src={"/Images/AndriodDevImages/icons/1 solution.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                            
                             </div>
                             <div className={styles.andriodBottomFunnelBoxHeading}>
                                 <h6>Support And Maintenance</h6>

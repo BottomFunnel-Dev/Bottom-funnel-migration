@@ -185,6 +185,9 @@ export const Advantages = () => {
                   Incidunt, et commodi cum expedita iure possimus repudiandae? Deleniti at,
                   doloremque quo eveniet blanditiis sit mollitia iusto quis aliquid fugiat quaerat excepturi.
                </p>
+               <div>
+                  <button className={styles.stylesrnativeinnermaindiv42nddivbutton}>Hire React Native Developer</button>
+               </div>
             </div>
          </div>
       </div>

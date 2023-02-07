@@ -67,9 +67,23 @@
     margin: 2% 2% 2% 3%;
     padding: 5px 5px 5px 15px;
 }
+.stylesrnativeinnermaindiv42nddivbutton{
+    width: 220px;
+    border-radius: 10px;
+    height: 40px;
+    /* font-size: 18px; */
+    background: rgb(28, 175, 233);
+    color: white;
+    margin-left: 30%;
+    border: none;
+    margin-top:3% ;
 
-
-
+}
+.stylesrnativeinnermaindiv42nddivbutton:hover{
+    border: 1px solid rgb(28, 175, 233);
+    background-color: white;
+    color: rgb(28, 175, 233);
+}
 
 
 

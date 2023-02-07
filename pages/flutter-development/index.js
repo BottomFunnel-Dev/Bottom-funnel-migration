@@ -34,9 +34,9 @@ export default function FlutterAppDevelopment() {
         productMount={{
           navMount: false,
         }}
-        navredux={{
-          color: "black",
-          logo: false,
+        navredux={{  
+          color: "white",
+          logo: true,
         }}
       />
       <FlutterAppDevelopmentBanner />
