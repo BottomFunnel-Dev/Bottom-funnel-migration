@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Travelflap.module.css"
 import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Travelflap.json";
 import Lottie from "react-lottie";
+import { Link } from '../Link/Link';
 
 export const Travelflap = () => {
   const lottieDefaultOptions = {
@@ -30,7 +31,7 @@ export const Travelflap = () => {
     <div className={styles.nextholidayrightinsideflexbox}>
   <div className={styles.nextholidaywrapbox1}>
   <h5>Downloads</h5>
-  <p>150K</p>
+  <p>150K+</p>
   </div>
    <div className={styles.nextholidaywrapbox1}>
    <h5>Region</h5>
@@ -43,8 +44,21 @@ export const Travelflap = () => {
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' /></div>
+<div className={styles.porfolionextholidayicon}>
+
+<img src='Images/portfolio/Platform icons/Frame.png' alt='images' />
+
+</div>
+
+
+<div className={styles.porfolionextholidayicon}>
+<Link href="https://www.travelflap.com/">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' />
+</a>
+</Link>
+</div>
+
 <div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' /></div>
 
 

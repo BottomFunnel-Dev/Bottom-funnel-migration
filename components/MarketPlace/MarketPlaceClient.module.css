@@ -1,9 +1,9 @@
 .marketplaceclientmainboxing {
   height: 550px;
-
   margin-top: 100px;
   width: 100%;
 }
+
 .clientmarketplaceflexboxbig {
   display: flex;
   height: 100%;
@@ -14,6 +14,7 @@
   height: 100%;
   width: 55%;
 }
+
 .clientmarketplaceflexright {
   height: 100%;
   width: 45%;
@@ -36,17 +37,36 @@
 }
 
 .marketplaceclientflexboxingforimageandtxtcontain {
+  /* border: 1px solid red; */
   width: 40%;
+  height: 130px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 2%;
   display: flex;
   padding: 10px;
 }
 
+.marketplaceclientflexboxingforimageandtxtcontain:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+  /* transform: translateY(-5px); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .marketplaceclientsflexboxingforimagecontain {
   width: 15%;
   height: 50px;
-  margin: auto;
+  margin-top: 2%;
+  /* border: 1px solid red; */
+}
+
+.marketplaceadminlogo {
+  /* border: 1px solid red; */
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 .marketplaceclientflexboxingfortxtcontain {
@@ -56,9 +76,21 @@
 }
 
 .marketplaceclientflexboxingfortxtcontain > h5 {
-  /* border: 1px solid black; */
   margin-top: 2%;
-  margin-bottom: 0%;
+  /* border: 2px solid red; */
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+}
+
+.marketplaceclientflexboxingfortxtcontain > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }
 
 .clientmarketplaceflexboximage1 {

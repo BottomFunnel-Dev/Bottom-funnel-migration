@@ -77,7 +77,7 @@ const MarketplaceFreelancer = () => {
                                 return (
                                     <div className={styles.flexboxdivfreelancer}
                                         key={e.Htxt} onMouseEnter={() => {
-                                            console.log(e);
+                                            // console.log(e);
                                             handleImageChange(e.phone)
                                         }
                                         }
@@ -87,8 +87,8 @@ const MarketplaceFreelancer = () => {
                                         </div>
 
                                         <div className={styles.frelancerinsidertxt}>
-                                            <h5>{e.Htxt}</h5>
-                                            <p>{e.stxt}</p>
+                                            <h5> {e.Htxt} </h5>
+                                            <p> {e.stxt} </p>
                                         </div>
                                     </div>
                                 )

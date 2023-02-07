@@ -3,17 +3,18 @@ import React from "react";
 import { FoodDeliveryBanner } from "../../components/food-delivery/FoodDeliveryBanner";
 import { fooddeliveryLogo } from "../../components/Data/SeopartnerData";
 import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
+import {
+  foodDeliveryCustomer,
+  foodDeliveryDrive,
+  foodDeliveryAdmin,
+} from "../../components/Data/panelsData";
+
 import { FoodDeliveryBookCall } from "../../components/food-delivery/FoodDeliveryBookCall";
-import { FoodDeliveryExluciveApp } from "../../components/food-delivery/FoodDeliveryExluciveApp";
-import { FoodDeliveryAdvanceTech } from "../../components/food-delivery/foodDeliveryAdvanceTech";
+import  FoodDeliveryExluciveApp  from "../../components/food-delivery/FoodDeliveryExluciveApp";
+import  FoodDeliveryAdvanceTech  from "../../components/food-delivery/foodDeliveryAdvanceTech";
 import { FoodDeliveryAdminPanel } from "../../components/food-delivery/foodDeliveryAdminPanel";
 import { FoodDeliveryPartnerApp } from "../../components/food-delivery/FoodDeliveryPartnerApp";
 import { FoodDeliveryNeedSuccess } from "../../components/food-delivery/FoodDeliveryNeedSuccess";
-import {
-  carpoolCustomer,
-  carpoolAdmin,
-  carpoolDrive,
-} from "../../components/Data/panelsData";
 
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
@@ -42,9 +43,9 @@ export default function FoodDelivery() {
       {<FoodDeliveryBanner />}
       <Trusted partnerLogo={fooddeliveryLogo} />
       {<FoodDeliveryBookCall />}
-      {<FoodDeliveryExluciveApp />}
-      {<FoodDeliveryAdvanceTech />}
-      {/* {<FoodDeliveryAdminPanel adminData={carpoolAdmin} />} */}
+      {<FoodDeliveryExluciveApp foodDeliverycustomerdata = { foodDeliveryCustomer } />}
+      {<FoodDeliveryAdvanceTech fooddeliverydrivedata = { foodDeliveryDrive } />}
+      {/* {<FoodDeliveryAdminPanel fooddeliveryadmindata = { foodDeliveryAdmin } />} */}
       {<FoodDeliveryPartnerApp />}
       {<FoodDeliveryNeedSuccess />}
 

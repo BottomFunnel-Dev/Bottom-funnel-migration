@@ -22,45 +22,43 @@ export default function AlcoholDelivery() {
   return (
     <>
       <Head>
-      <title>Alcohol web App Development
- Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="If you're looking to develop an alcohol web app and want to do it 
+        <title>Alcohol web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="If you're looking to develop an alcohol web app and want to do it 
         the right way, then VinCard is the company for you! We offer a 
         wide range of liquor web app development solutions that will suit 
         your specific needs. Keep reading to find out more!"
-      />
-   </Head>
-   
-    <main>
-    
- <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-      <AlcoholBanner />
-      <Trusted partnerLogo={alcoholLogo} />
-      <AlcoholBookCall />
-      <AlcoholSuggestions />
-      <AlcoholSolutions />
+        />
+      </Head>
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <AlcoholBanner />
+        <Trusted partnerLogo={alcoholLogo} />
+        <AlcoholBookCall />
+        <AlcoholSuggestions />
+        <AlcoholSolutions />
+
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

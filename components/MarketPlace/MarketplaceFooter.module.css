@@ -32,6 +32,15 @@
   margin: 2%;
 }
 
+.marketplacefooterinnerbox:hover {
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+  /* transform: translateY(-5px); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .marketplacefooterinnerboximg {
   /* padding: 10px; */
   height: 50%;

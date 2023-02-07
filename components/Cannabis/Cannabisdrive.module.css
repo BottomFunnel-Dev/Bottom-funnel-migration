@@ -1,84 +1,97 @@
-.cannabisdriverappmainboxes{
-    height: fit-content;
-   border: 1px solid white;
-   margin-top: 5%;
-   margin-bottom: 5%;
+.cannabisdriverappmainboxes {
+  height: fit-content;
+  border: 1px solid white;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.cannabisdriverappmainboxes >h2{
-    margin-left: 44%;
+.cannabisdriverappmainboxes > h2 {
+  margin-left: 44%;
 }
 
-.canabisdriverappflexingbox{
-    height: fit-content;
- 
-    display: flex;
-  
+.canabisdriverappflexingbox {
+  height: fit-content;
+  display: flex;
 }
 
-.canabisdriverappflexingboxleftbox{
-    height: 480px;
-    width: 45%;
- 
-    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
-    background-repeat: no-repeat;
-   background-size: contain;
-   background-position-y:bottom ;
+.canabisdriverappflexingboxleftbox {
+  height: 480px;
+  width: 45%;
+
+  background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom;
 }
 
-.canabisdeliveryappleftboxinsiderupperimage{
-    height: 90%;
-    width: 35%;
-  
-    margin: 5% 0% 5% 30%;
+.canabisdeliveryappleftboxinsiderupperimage {
+  height: 50    0px;
+  width: 100%;
+  margin: 5% 0% 5% 0%;
 }
 
-.canabisdeliveryappleftboxinsiderupperimage >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.canabisdeliveryappleftboxinsiderupperimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.canabisdriverappflexingboxrightbox{
-    height: fit-content;
-    width: 60%;
-    margin-left: 1%;
-   text-align: justify;
-    display: flex;
-    flex-wrap: wrap;
-}
-.icecreamcustomerappmainboxes >h2{
-    text-align: center;
-    margin-top: 3%;
+.canabisdriverappflexingboxrightbox {
+  height: fit-content;
+  width: 60%;
+  margin-left: 1%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.canabisdriverappindivisualbox{
-    height: 200px;
-    width: 45%;
-    margin: 1%;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-    /* border: 2px solid red; */
+.icecreamcustomerappmainboxes > h2 {
+  text-align: center;
+  margin-top: 3%;
 }
 
-.canabisdriverappindivisualbox:hover{
-    transform: scale(1.02);
+.canabisdriverappindivisualbox {
+  height: 180px;
+  width: 45%;
+  margin: 1%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
-
-.canabisdeliveryappindivisualboxforlogo{
- height: 25%;
- width: 20%;
+.canabisdriverappindivisualbox:hover {
+  transform: scale(1.02);
 }
 
-.canabisdeliveryappindivisualboxforlogo >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 5px;
+.canabisdeliveryappindivisualboxforlogo {
+  height: 30%;
+  width: 10%;
 }
-.icecreamdeliveryappindivisualboxfortext>p{
-    /* border: 2px solid red; */
-    font-size: 14px;
+
+.canabisdeliveryappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.icecreamdeliveryappindivisualboxfortext > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.icecreamdeliveryappindivisualboxfortext > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

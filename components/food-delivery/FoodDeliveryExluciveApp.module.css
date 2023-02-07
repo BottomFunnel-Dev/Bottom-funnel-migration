@@ -1,70 +1,272 @@
-.foodDeliveryExluciveAppMain {
-  margin-top: 50px;
+.foodDeliveryExclusiveApp {
+  width: 100%;
+  height: max-content;
+  /* background-color: aqua; */
+  margin: 60px 0;
+}
+.foodDeliveryExclusiveApp > h1 {
+  margin-left: 6%;
+}
+.foodDeliveryExclusiveAppsub {
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.foodDeliveryExclusiveAppleft {
+  width: 45%;
+  height: 500px;
   padding: 10px;
+  display: flex;
+  /* background: url("/public/Images/logistic/rectanglebase.png"); */
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-.foodDeliveryExluciveAppMain > h1 {
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.foodDeliveryExluciveAppMain > h1 > span {
-  color: #ef4c23;
-}
-
-.foodDeliveryExluciveAppMain > p {
-  font-size: 16px;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.foodDeliveryExluciveAppContent {
-  max-width: 100%;
-  height: 600px;
+.foodDeliveryExclusiveAppright {
+  width: 45%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 3%;
-  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  gap: 20px;
   justify-content: center;
 }
 
-.foodDeliveryExluciveAppContent > div {
-  width: 26%;
-  padding: 14px;
+.foodDeliveryExclusiveAppright > div {
+  padding: 10px 10px 10px 10px;
+  height: 160px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  background-color: white;
+  cursor: pointer;
 }
 
-.foodDeliveryExluciveAppContent > div:hover {
+.foodDeliveryExclusiveAppright > div:hover {
+  background-color: #e1f9f6;
   cursor: pointer;
-  transform: scale(1.02);
-  margin-top: 0;
-  transition: all .3s linear;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.foodText {
-  width: 100%;
-  margin: 10px 0;
-  /* padding: 10px; */
-}
-.foodText > h4 {
+.foodDeliveryExclusiveAppright > div > h3 {
   font-size: 18px;
+  /* border: 1px solid red; */
+  margin-top: 0%;
 }
 
-.foodText > p {
-  font-size: 16px;
-  text-align: justify;
+.logisticCustomerImage {
+  width: 45%;
+  height: 500px;
+  text-align: right;
+  margin: auto;
+  margin-top: -10px;
 }
 
-.foodDeliveryExlcusiveAppImageDiv {
+.logisticCustomerImage > img {
   width: 100%;
-  height: fit-content;
+  height: 100%;
+  object-fit: contain;
 }
 
-.foodDeliveryExlcusiveAppImageDiv > img {
-  width: 100%;
+/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
+/* Media query for the Mobile Device */
+
+@media (max-width: 480px) {
+  .foodDeliveryExclusiveApp {
+    width: 100%;
+    height: max-content;
+    /* background-color: aqua; */
+    margin: 60px 0;
+  }
+
+  .foodDeliveryExclusiveApp > h1 {
+    margin-left: 25%;
+    /* margin-bottom: 5%; */
+    font-size: 30px;
+  }
+
+  .foodDeliveryExclusiveAppsub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .foodDeliveryExclusiveAppleft {
+    /* border: 1px solid red; */
+    margin-top: 30%;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    flex-direction: column-reverse;
+    /* background: url("/public/Images/logistic/rectanglebase.png"); */
+    /* background-position: center; */
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .foodDeliveryExclusiveAppright {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 8%;
+    justify-content: center;
+  }
+
+  .foodDeliveryExclusiveAppright > div {
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+    width: 95%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .foodDeliveryExclusiveAppright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .foodDeliveryExclusiveAppright > div > h3 {
+    font-size: 18px;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+
+  .logisticCustomerImage {
+    /* border: 1px solid red; */
+    width: 65%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    /* margin-top: -10px; */
+  }
+
+  .logisticCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 15%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .foodDeliveryExclusiveApp {
+    width: 100%;
+    height: max-content;
+    /* background-color: aqua; */
+    margin: 60px 0;
+  }
+
+  .foodDeliveryExclusiveApp > h1 {
+    margin-left: 35%;
+    /* margin-bottom: 5%; */
+    font-size: 40px;
+  }
+
+  .foodDeliveryExclusiveAppsub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .foodDeliveryExclusiveAppleft {
+    /* border: 1px solid red; */
+    margin-top: 30%;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    flex-direction: column-reverse;
+    /* background: url("/public/Images/logistic/rectanglebase.png"); */
+    /* background-position: center; */
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .foodDeliveryExclusiveAppright {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 8%;
+    justify-content: center;
+  }
+
+  .foodDeliveryExclusiveAppright > div {
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+    width: 95%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  .foodDeliveryExclusiveAppright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .foodDeliveryExclusiveAppright > div > h3 {
+    font-size: 25px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    /* border: 1px solid red; */
+    margin-top: 0%;
+  }
+
+  .logisticCustomerImage {
+    /* border: 1px solid red; */
+    width: 65%;
+    height: 400px;
+    text-align: right;
+    margin: auto;
+    /* margin-top: -10px; */
+  }
+
+  .logisticCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 15%;
+    /* border: 1px solid red; */
+  }
 }

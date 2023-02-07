@@ -109,7 +109,6 @@ export const logisticDrive = {
   ],
   sectionTitle: "Drive App",
   background: "/public/Images/logistic/triangle.png",
-  
 };
 
 export const logisticAdmin = {
@@ -165,8 +164,177 @@ export const logisticAdmin = {
   ],
 
   sectionTitle: "Admin Panel",
-  background: "/public/Images/logistic/plane\ triangle.png",
+  background: "/public/Images/logistic/plane triangle.png",
 };
+
+export const foodDeliveryCustomer = {
+  foodDeliverycustomerdata: [
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
+        alt: "Register image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: " Register logo",
+      },
+      title: "Can be easily accessed through both android/iOS",
+      para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
+        alt: "Schedule",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Schedule logo",
+      },
+      title: "User-friendly interface",
+      para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
+        alt: "Multiple Payment Option image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Multiple Payment Option logo",
+      },
+      title: "Order food and track their service",
+      para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
+        alt: "Track Order image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Track Order logo",
+      },
+      title: "Smart search and add-to-your-favorites list",
+      para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
+    },
+  ],
+
+  sectionTitle: "Customer App",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+};
+
+export const foodDeliveryDrive = {
+  fooddeliverydrivedata: [
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
+        alt: "Register image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: " Register logo",
+      },
+      title: "Can be easily accessed through both android/iOS",
+      para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
+        alt: "Schedule",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Schedule logo",
+      },
+      title: "User-friendly interface",
+      para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
+        alt: "Multiple Payment Option image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Multiple Payment Option logo",
+      },
+      title: "Order food and track their service",
+      para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
+        alt: "Track Order image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Track Order logo",
+      },
+      title: "Smart search and add-to-your-favorites list",
+      para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
+    },
+  ],
+
+  sectionTitle: "Customer App",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+};
+
+export const foodDeliveryAdmin = {
+  fooddeliveryadmindata: [
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Manage Offers & Discounts.png",
+        alt: "Register image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: " Register logo",
+      },
+      title: "Manage Offers & Discounts",
+      para: "Partners can give secial offers and discounts to increase their customer base and earn their loyalty..",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Menu Category and Order Management.png",
+        alt: "Schedule",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Schedule logo",
+      },
+      title: "Menu category and Order Managerment",
+      para: "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Chat Support.png",
+        alt: "Multiple Payment Option image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Multiple Payment Option logo",
+      },
+      title: "Chat Support",
+      para: "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
+    },
+    {
+      img: {
+        src: "/Images/foodDeliveryphotos/switchscreens/Custom Alerts.png",
+        alt: "Track Order image",
+      },
+      icon: {
+        src: "/Images/carpoolingpage/icons/checkmark.png",
+        alt: "Track Order logo",
+      },
+      title: "Custom Alerts",
+      para: "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
+    },
+  ],
+
+  sectionTitle: "Partner app",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+};
+
 export const carpoolCustomer = {
   customerdata: [
     {
@@ -217,7 +385,6 @@ export const carpoolCustomer = {
       title: "Real-Time Tracking",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-   
   ],
 
   sectionTitle: "Customer App",
@@ -274,7 +441,6 @@ export const carpoolDrive = {
       title: "Wallet Details",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-    
   ],
 
   sectionTitle: "Driver App",
@@ -331,15 +497,11 @@ export const carpoolAdmin = {
       title: "Driver Management",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-   
   ],
 
   sectionTitle: "Admin App",
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
-
-
-
 
 export const bettingCustomer = {
   customerdata: [
@@ -391,14 +553,13 @@ export const bettingCustomer = {
       title: "Bet History",
       para: "In the application, you can see your betting history anytime. You can also see the history of all your bets, which means that you will know what to bet on and how much you have to lose in case of a loss.",
     },
-   
   ],
 
   sectionTitle: "User App",
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 
-export const bettingDrive = { 
+export const bettingDrive = {
   driverdata: [
     {
       img: {
@@ -414,7 +575,7 @@ export const bettingDrive = {
     },
     {
       img: {
-        src:"Images/sportsbettingpage/bookpanel/usermanagement.png",
+        src: "Images/sportsbettingpage/bookpanel/usermanagement.png",
         alt: "Schedule",
       },
       icon: {
@@ -448,7 +609,6 @@ export const bettingDrive = {
       title: "Calenders,Days and Schedules",
       para: "Our calendars are designed to help you stay on top of your schedule. Each calendar has a different color and can be sorted by date, time or day of the week.",
     },
-    
   ],
 
   sectionTitle: "Books Panel",
@@ -505,7 +665,6 @@ export const bettingAdmin = {
       title: "Advance Dashboard",
       para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
     },
-   
   ],
 
   sectionTitle: "Admin App",
@@ -516,7 +675,7 @@ export const alcoholCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/one.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/one.png",
         alt: "accessable",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -524,7 +683,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Two.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Two.png",
         alt: "Friendly",
       },
       title: "User-friendly interface",
@@ -532,7 +691,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Three.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Three.png",
         alt: "OrderFood",
       },
       title: "Order food and Track their service",
@@ -541,7 +700,7 @@ export const alcoholCustomer = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Four.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Four.png",
         alt: "Favorites",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -549,14 +708,13 @@ export const alcoholCustomer = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/one.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/one.png",
         alt: "Manage",
       },
       title: "Manage everything in one place",
@@ -564,7 +722,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Two.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Two.png",
         alt: "Info",
       },
       title: "Gather information about customer preferences",
@@ -572,7 +730,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Three.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Three.png",
         alt: "OrderFood",
       },
       title: "Generate profit reports and draw insights",
@@ -581,7 +739,7 @@ export const alcoholAdmin = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Four.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Four.png",
         alt: "features",
       },
       title: "Various CRM features",
@@ -589,14 +747,13 @@ export const alcoholAdmin = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/one.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/one.png",
         alt: "Discounts",
       },
       title: "Manage Offers & Discounts",
@@ -604,7 +761,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Two.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Two.png",
         alt: "Menu",
       },
       title: "Menu category and Order Management",
@@ -612,7 +769,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Three.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Three.png",
         alt: "Chat",
       },
       title: "Chat Support",
@@ -621,7 +778,7 @@ export const alcoholPartner = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Four.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Four.png",
         alt: "Notification",
       },
       title: "Custom Alerts",
@@ -629,7 +786,6 @@ export const alcoholPartner = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const wellnessPatient = {
@@ -792,7 +948,6 @@ export const datingCustomer = {
     },
   ],
   sectionTitle: "Customer App",
-
 };
 
 export const datingAdmin = {

@@ -1,85 +1,99 @@
-.cannbiescustomerappmainboxes{
-    height: fit-content;
-    /* border: 2px solid red; */
-   
+.cannbiescustomerappmainboxes {
+  height: fit-content;
+  /* border: 2px solid red; */
 }
 
-.cannbiescustomerappmainboxes >h1{
-    text-align: center;
+.cannbiescustomerappmainboxes > h1 {
+  text-align: center;
 }
 
-.cannbiesdeliveryappflexingbox{
-    height: fit-content;
- margin-top: 2%;
-    display: flex;
-  
+.cannbiesdeliveryappflexingbox {
+  height: fit-content;
+  margin-top: 2%;
+  display: flex;
 }
 
-.cannabiesdeliveryappflexingboxleftbox{
-    height: 480px;
-    width: 45%;
-    /* border: 2px solid red; */
-    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4861.png");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-size: contain;
+.cannabiesdeliveryappflexingboxleftbox {
+  height: 480px;
+  width: 45%;
+  /* border: 2px solid red; */
+  background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4861.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: contain;
 }
 
-.cannabiesdeliveryappleftboxinsiderupperimage{
-    height: 90%;
-    width: 35%;
-    /* border: 2px solid red; */
-    margin: 5% 0% 0% 10%;
+.cannabiesdeliveryappleftboxinsiderupperimage {
+  height: 500px ;
+  width: 55%;
+  /* border: 2px solid red; */
+  margin: 5% 0% 0% 10%;
 }
 
-.cannabiesdeliveryappleftboxinsiderupperimage >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.cannabiesdeliveryappleftboxinsiderupperimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.cannbiesdeliveryappflexingboxrightbox{
-    height: fit-content;
-    width: 60%;
-    margin-left: 1%;
-    margin-right: 3%;
-    text-align: justify;
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 2px solid red; */
-}
-.cannbiescustomerappmainboxes >h2{
-    text-align: center;
-    margin-top: 3%;
+.cannbiesdeliveryappflexingboxrightbox {
+  height: fit-content;
+  width: 60%;
+  margin-left: 1%;
+  margin-right: 3%;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
 }
 
-.cannabiesdeliveryappindivisualbox{
-    height: 230px;
-    width: 45%;
-    margin: 1%;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-    /* border: 2px solid red; */
+.cannbiescustomerappmainboxes > h2 {
+  text-align: center;
+  margin-top: 3%;
 }
 
-.cannabiesdeliveryappindivisualbox:hover{
-    transform: scale(1.02);
-}
-.icecreamdeliveryappindivisualboxfortext>p{
-    /* border: 2px solid red; */
-    font-size: 14px;
-}
-
-.cannbiesdeliveryappindivisualboxforlogo{
-height: 25%;
-width: 18%;
-
+.cannabiesdeliveryappindivisualbox {
+  height: 185px;
+  width: 45%;
+  margin: 1%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
-.cannbiesdeliveryappindivisualboxforlogo>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 5px;
+.cannabiesdeliveryappindivisualbox:hover {
+  transform: scale(1.02);
+}
+
+.icecreamdeliveryappindivisualboxfortext > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.icecreamdeliveryappindivisualboxfortext > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.cannbiesdeliveryappindivisualboxforlogo {
+  height: 25%;
+  width: 18%;
+}
+
+.cannbiesdeliveryappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }

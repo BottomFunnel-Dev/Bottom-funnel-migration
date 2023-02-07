@@ -21,6 +21,13 @@
     margin-top: 5%;
 }
 
+.androidappicon>img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+
 
 .portfolioanandamgreensrightbox>p{
     font-size: smaller;
@@ -63,11 +70,9 @@
     }
     
     .porfolionextholidayicon{
-    
-    /* margin: 2% ; */
-    height: 20%;
-    width: 20%;
-    margin: auto;
+        margin-left: 30%;
+        height: 55%;
+        width: 50%;
     }
     
     .porfolionextholidayicon>img{
@@ -104,6 +109,6 @@
     }
     
     .nextholidayviewcasebutton:hover{
-        background-color: #ef4c23;
-        color: white;
+        background-color: white;
+        color: black;
     }
