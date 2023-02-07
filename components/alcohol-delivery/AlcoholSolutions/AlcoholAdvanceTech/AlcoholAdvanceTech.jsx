@@ -15,6 +15,7 @@ export default function AlcoholAdvanceTech({ customerData }) {
             />
           </div>
         </div>
+
         <div className={styles.alcoholcustomerright}>
           {customerData.customerdata.map(({ title, para }, idx) => {
             return (
@@ -23,8 +24,8 @@ export default function AlcoholAdvanceTech({ customerData }) {
                 onMouseOver={() => setActive(idx)}
                 className={`alcohol-box-${idx}`}
               >
-                <h3>{title}</h3>
-                <p>{para}</p>
+                <h3> {title} </h3>
+                <p> {para} </p>
               </div>
             );
           })}

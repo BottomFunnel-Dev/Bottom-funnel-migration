@@ -10,7 +10,6 @@
 
 .groceryserviceflexingbox {
   height: fit-content;
-
   display: flex;
 }
 
@@ -23,9 +22,9 @@
 }
 
 .groceryseryserviceleftboxinsiderupperimage {
-  height: 90%;
-  width: 35%;
-  margin: 5% 0% 5% 30%;
+  height: 450px;
+  width: 70%;
+  margin: 0% 0% 0% 5%;
 }
 
 .groceryseryserviceleftboxinsiderupperimage > img {
@@ -48,7 +47,7 @@
 } */
 
 .groceryserviceindivisualbox {
-  height: 230px;
+  height: 185px;
   width: 42%;
   margin: 1%;
   padding: 10px;
@@ -61,8 +60,29 @@
 }
 
 .canabisdeliveryappindivisualboxforlogo > img {
+  border: 1px solid red;
   height: 100%;
   width: 100%;
   object-fit: contain;
   padding: 5px;
+}
+
+.groceryserviceindivisualboxfortext > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.groceryserviceindivisualboxfortext > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

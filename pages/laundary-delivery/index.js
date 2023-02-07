@@ -24,46 +24,45 @@ export default function LaundryPage() {
   return (
     <>
       <Head>
-      <title> Laundry Web App Development
- Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Are you looking for a laundry web app development company that 
+        <title> Laundry Web App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Are you looking for a laundry web app development company that 
         can help you create a tailored and effective solution for your 
         laundry needs? Look no further than ours! Our team of 
         experienced developers will create a web app that meets your 
         specific needs and requirements."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <LaundryPageBanner />
-      <LaudryApplication />
-      <LaundryCustomer />
-      <LaundryDelivery />
-      <LaundryAdmin />
-      <LaundryBannerlower />
-      <Laundryapppagelowerfooter />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <LaundryPageBanner />
+        <LaudryApplication />
+        <LaundryCustomer />
+        <LaundryDelivery />
+        <LaundryAdmin />
+        <LaundryBannerlower />
+        <Laundryapppagelowerfooter />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

@@ -675,7 +675,7 @@ export const alcoholCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/one.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/one.png",
         alt: "accessable",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -683,7 +683,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Two.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Two.png",
         alt: "Friendly",
       },
       title: "User-friendly interface",
@@ -691,7 +691,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Three.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Three.png",
         alt: "OrderFood",
       },
       title: "Order food and Track their service",
@@ -700,7 +700,7 @@ export const alcoholCustomer = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/CustomerApp/Four.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Four.png",
         alt: "Favorites",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -714,7 +714,7 @@ export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/one.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/one.png",
         alt: "Manage",
       },
       title: "Manage everything in one place",
@@ -722,7 +722,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Two.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Two.png",
         alt: "Info",
       },
       title: "Gather information about customer preferences",
@@ -730,7 +730,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Three.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Three.png",
         alt: "OrderFood",
       },
       title: "Generate profit reports and draw insights",
@@ -739,7 +739,7 @@ export const alcoholAdmin = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/AdminPannel/Four.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Four.png",
         alt: "features",
       },
       title: "Various CRM features",
@@ -753,7 +753,7 @@ export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/one.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/one.png",
         alt: "Discounts",
       },
       title: "Manage Offers & Discounts",
@@ -761,7 +761,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Two.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Two.png",
         alt: "Menu",
       },
       title: "Menu category and Order Management",
@@ -769,7 +769,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Three.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Three.png",
         alt: "Chat",
       },
       title: "Chat Support",
@@ -778,7 +778,7 @@ export const alcoholPartner = {
 
     {
       img: {
-        src: "Images/AlcoholDelivery/PartnerApp/Four.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Four.png",
         alt: "Notification",
       },
       title: "Custom Alerts",
