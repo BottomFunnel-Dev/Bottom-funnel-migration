@@ -10,12 +10,14 @@
   text-align: center;
   /* border: 2px solid yellow; */
 }
-.pickupcustomerright h1{
+
+.pickupcustomerright h1 {
   /* border: 2px solid green; */
   text-align: left;
   margin-left: 4%;
-  color:  #5CACB2;
+  color: #5cacb2;
 }
+
 .pickupcustomerSols {
   width: 100%;
   display: flex;
@@ -34,29 +36,21 @@
   margin-top: 5%;
 }
 
-/* .pickupcustomer>h1{
-padding: 0 30px;
-} */
 .variableImg {
-  width: 250px;
+  width: 70%;
   /* background-color: green; */
-  height: 400px;
+  height: 480px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 43%;
-  left: 42%;
- 
+  left: 52%;
 }
+
 .variableImg > img {
-  width: 160%;
-  height: 122%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
-/* .pickupcustomerImage > img {
-  width: 0%;
-  height: 90%;
-  object-fit: contain;
-} */
 
 .pickupcustomerText {
   width: 100%;
@@ -65,10 +59,6 @@ padding: 0 30px;
   flex-wrap: wrap;
   padding: 25px 10px;
   row-gap: 24px;
-  /* position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%; */
 }
 
 .pickupcustomercard {
@@ -79,7 +69,6 @@ padding: 0 30px;
   text-align: left;
   /* border: 1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .pickupcustomercard:hover {
@@ -106,22 +95,6 @@ padding: 0 30px;
   height: 100%;
   object-fit: contain;
 }
-/* 
-.pickupcustomerright > button {
-  padding: 10px 60px;
-  border-radius: 25px;
-  background-color: #ef4c23;
-  border: none;
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.pickupcustomerright > button:hover {
-  color: #ef4c23;
-  background-color: white;
-} */
 
 .dummy {
   width: 30%;

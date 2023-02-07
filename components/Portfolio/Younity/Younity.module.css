@@ -1,116 +1,123 @@
 .yanbalmainboxes{
-    height:90vh;
-    /* border: 2px solid red; */
+    height: 85vh;
+    display: flex;
     background: url("/Images/portfolio/Younity/Background/Group 770828.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  color: white;
+    color: white;
     display: flex;
 }
 
-.portfolioyanballeftbox{
+
+.yanballeftboxes{
     width: 50%;
-    /* border: 5px solid green; */
+
+    margin-top: 5%;
     margin-left: 3%;
+}
+
+.androidappicon>img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.yanballeftboxinsiderflexbox{
+
+width: 90%;
+margin: auto;
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+padding-top: 5%;
+}
+
+.yanbalplusbold{
+    font-weight: 900;
+}
+
+.yanbalindibox{
+    width: 45%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
-
-
-.portfolioyanbalrightbox{
-    width: 50%;
-    /* border: 1px solid yellow; */
+.yanbalindibox>h5{
+    font-weight: 800;
 
 }
 
-
-.nextholidayrighttbox{
-    height: fit-content;
-    width: 45%;
-    margin-right: 2%;
-    
+.yanbalindibox p{
+    width: 60%;
 }
 
-.portfolioyanballeftbox>p{
-    font-size: smaller;
-    text-align: justify;
-}
-
-.nextholidayrightinsideflexbox{
-    /* border: 1px solid red; */
-    height: fit-content;
+.yanbaliconflexbox{
+   
+    width: 40%;
+    height: 40%;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.nextholidaywrapbox1{
-/* border: 1px solid green; */
-width: 40%;
-margin: 3%;
-padding: 5px;
-}
-
-.nextholidaywrapbox1>h5{
-    font-weight: 900;
-    font-size: 15px;
-    text-align: center;
+    margin-left: -0%;
+   
 
 }
 
-.nextholidaywrapbox1>p{
-    font-size: 12px;
-    text-align: center;
-    margin-top: -0%;
-
-}
-
-.portfolioavailableonicon{
-    display: flex;
-  margin: auto;
-  width: 40%;
-
-}
-
-.porfolionextholidayicon{
-
-margin: 2% ;
-height: 20%;
-width: 20%;
-
-}
-
-.porfolionextholidayicon>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-.nextholidaywrapboximages{
+.yanabaliconandeoid{
     width: 30%;
-    margin-left: 8%;
+    height: 80%;
+border-right: 1px solid white;
+    margin-left: 2%;
+    padding: 7px;
+}
+
+.yanabaliconandeoid:last-child{
+    border-right: none;
 
 }
-.nextholidaywrapboximages>img{
+
+
+
+.yanabaliconandeoid>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.yanballogoboxingalongflex{
+    padding: 15px;
+    width: 35%;
+}
+
+.yanballogoboxingalongflex>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-.nextholidayviewcasebutton{
+
+
+
+.yanbalrightboxes{
+    width: 50%;
+  
+}
+
+.yanabalbuttonalongflex{
     padding: 10px 50px;
   border-radius: 100px;
   width: 220px;
   background-color: transparent;
   border: white;
   outline: none;
-  box-shadow: white 0px 0px 1px;
+  box-shadow: white 0px 0px 2px;
   font-size: 14px;
   font-weight: 600;
   color: white;
-  margin-left: 50%;
+  margin-left: 35%;
+  margin-top: 8%;
 }
 
-.nextholidayviewcasebutton:hover{
-    background-color: #ef4c23;
-    color: white;
+.yanabalbuttonalongflex:hover{
+    background-color: white;
+    color: black;
 }

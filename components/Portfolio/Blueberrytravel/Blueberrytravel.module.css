@@ -1,39 +1,32 @@
-.cattlecountrymainboxes{
+.nextholidaymainboxes{
     height: 85vh;
-    /* border: 5px solid red; */
-    background: url("/Images/portfolio/blueberry travels/background/Rectangle 1067341.png");
-    background-size: 100% 100%;
-    color: white;
-    display: flex;
-    background-repeat: no-repeat;
+     display: flex;
+     background: url("/Images/portfolio/Portfolio banners/Rectangle 1067342.png");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     margin-top: -1%;
+     color: white;
 }
 
-.portfolioyanballeftbox{
-    width: 50%;
-    /* border: 5px solid green; */
-    margin-left: 3%;
-    margin-top: 5%;
+.nextholidayleftbox{
+    height: 100%;
+    width: 55%;
+
 }
 
-
-
-.portfolioyanbalrightbox{
-    width: 50%;
-    /* border: 1px solid yellow; */
-  
-}
-
-.portfolioyanbelrightinnerimages{
-    height: 60%;
+.nextholidayleftboxforimages{
+    height: 85%;
     width: 30%;
-    /* border: 1px solid white; */
-    margin-top: 20%;
-    margin-left: 5%;
+
+    margin: 5% 0% 0% 65%;
+    
 }
-.portfolioyanbelrightinnerimages>img{
+
+.nextholidayleftboxforimages>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
+   
 }
 
 
@@ -41,12 +34,11 @@
     height: fit-content;
     width: 45%;
     margin-right: 2%;
-    
+    margin-top: 5%;
 }
 
-.portfolioyanballeftbox>p{
+.nextholidayrighttbox>p{
     font-size: smaller;
-    text-align: justify;
 }
 
 .nextholidayrightinsideflexbox{
@@ -65,13 +57,13 @@ padding: 5px;
 
 .nextholidaywrapbox1>h5{
     font-weight: 900;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 
 }
 
 .nextholidaywrapbox1>p{
-    font-size: 12px;
+    font-size: 17px;
     text-align: center;
     margin-top: -0%;
 
@@ -80,52 +72,71 @@ padding: 5px;
 .portfolioavailableonicon{
     display: flex;
   margin: auto;
-  width: 40%;
+  width: 60%;
 
 }
 
 .porfolionextholidayicon{
 
-margin: 2% ;
-height: 20%;
-width: 20%;
 
+    margin: 5% ;
+    height: 15%;
+    width: 20%;
+    border-right: 1px solid white;
 
+}
+
+.porfolionextholidayicon:nth-child(2){
+    width: 25%;
+}
+
+.porfolionextholidayicon:last-child{
+    border-right: none;
+}
+
+.androidappicon>img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
 }
 
 .porfolionextholidayicon>img{
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     object-fit: contain;
 }
 
+
 .nextholidaywrapboximages{
-    width: 35%;
-    margin-left: 8%;
+    width: 40%;
+    height: 5%;
+    margin-left: 5%;
+  
 
 }
 .nextholidaywrapboximages>img{
-    height: 80%;
-    width: 100%;
+    height: 100%;
+    width: 70%;
     object-fit: contain;
 }
 
-.cattlecountrybutton{
+.nextholidayviewcasebutton{
     padding: 10px 50px;
   border-radius: 100px;
   width: 220px;
   background-color: transparent;
-  border: none;
+  border: #ef4c23;
   outline: none;
   box-shadow: white 0px 0px 3px;
   font-size: 14px;
   font-weight: 600;
   color: white;
-  margin-left: 40%;
+  margin-left: 25%;
+  margin-top: 2%;
 }
 
-.cattlecountrybutton:hover{
-    background-color: #ef4c23;
-    color: blue;
-    padding: 10px;
+.nextholidayviewcasebutton:hover{
+    background-color: white;
+    color: black;
+
 }

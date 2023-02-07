@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./companylogo.module.css";
 import Slider from "react-slick";
+import Image from "next/image";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -70,35 +71,74 @@ const CompanyLogo = () => {
         <Slider {...settings}>
           <div className={styles.slideDivSection}>
             <div>
-              <img src="Images/companiesLogo/aws-partner.svg" alt="" />
-            </div>
-          </div>
-          <div className={styles.slideDivSection}>
-            <div>
-              <img src="Images/companiesLogo/sap-partner.svg" alt="" />
-            </div>
-          </div>
-          <div className={styles.slideDivSection}>
-            <div>
-              <img
-                src="Images/companiesLogo/google-agency-dev-partner.svg"
-                alt=""
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="/Images/companiesLogo/aws-partner.svg"
+                alt="companiesLogo/aws-partner.svg"
               />
             </div>
           </div>
           <div className={styles.slideDivSection}>
             <div>
-              <img src="Images/companiesLogo/cloudare-partner.svg" alt="" />
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="/Images/companiesLogo/sap-partner.svg"
+                alt="companiesLogo/sap-partner.svg"
+              />
             </div>
           </div>
           <div className={styles.slideDivSection}>
             <div>
-              <img src="Images/companiesLogo/general-electric.svg" alt="" />
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="/Images/companiesLogo/google-agency-dev-partner.svg"
+                alt="companiesLogo/google-agency-dev-partner.svg"
+              />
             </div>
           </div>
           <div className={styles.slideDivSection}>
             <div>
-              <img src="Images/companiesLogo/squareLogo.svg" alt="" />
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="/Images/companiesLogo/cloudare-partner.svg"
+                alt="companiesLogo/cloudare-partner.svg"
+              />
+            </div>
+          </div>
+          <div className={styles.slideDivSection}>
+            <div>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="/Images/companiesLogo/general-electric.svg"
+                alt="companiesLogo/general-electric.svg"
+              />
+            </div>
+          </div>
+          <div className={styles.slideDivSection}>
+            <div>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="/Images/companiesLogo/squareLogo.svg"
+                alt="companiesLogo/squareLogo.svg"
+              />
             </div>
           </div>
         </Slider>

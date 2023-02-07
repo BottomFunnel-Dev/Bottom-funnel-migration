@@ -20,39 +20,42 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bottom Funnel Global Web and App Development Company | Digital Transformation Service</title>
+        <title>
+          Bottom Funnel Global Web and App Development Company | Digital
+          Transformation Service
+        </title>
         <meta
           name="description"
           content="Bottom Funnel makes ridiculously easy-to-use marketing, sales, support and IT solutions"
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
 
-      <BannerFull />
-      <CompanyLogo />
-      <About />
-      <Services />
-      <Awards />
-      <StoriesSection />
-      {/* <Industries /> */}
-      <OndemandSection />
-      <PortFolio />
-      <PlanProject />
-      <Companystats />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <BannerFull />
+        <CompanyLogo />
+        <About />
+        <Services />
+        <Awards />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <OndemandSection />
+        <PortFolio />
+        <PlanProject />
+        <Companystats />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

@@ -94,15 +94,23 @@
 }
 
 .vectorImage {
-  width: 48%;
-  height: 90px;
+  width: 27%;
+  /* height: 90px; */
+  animation: updownAnimation 2s linear infinite;
 }
 
-.vectorImage > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+@keyframes updownAnimation {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
+
 
 .supportableDevices {
   width: 100%;
