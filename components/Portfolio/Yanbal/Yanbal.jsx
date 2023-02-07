@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from "./Yanbal.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Yanbal.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Yanbal.json";
 import Lottie from "react-lottie";
+import { Link } from '../Link/Link';
 
 export const Yanbal = () => {
 
@@ -37,9 +38,29 @@ export const Yanbal = () => {
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
 <div className={styles.yanbaliconflexbox}>
-<div className={styles.yanabaliconandeoid}><img src='Images/portfolio/Platform icons/Frame.png' alt='images' /></div>
-<div className={styles.yanabaliconandeoid}><img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' /></div>
-<div className={styles.yanabaliconandeoid}><img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' /> </div>
+<div className={styles.yanabaliconandeoid}>
+<Link href="https://play.google.com/store/apps/details?id=yanbal.colombia2&pli=1">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Frame.png' alt='images' />
+</a>
+</Link>
+</div>
+
+
+<div className={styles.yanabaliconandeoid}>
+<Link href="https://www.yanbal.com/us/">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' />
+</a>
+</Link>
+</div>
+
+
+<div className={styles.yanabaliconandeoid}>
+
+<img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' />
+
+</div>
 </div>
 
 </div>
@@ -56,11 +77,10 @@ export const Yanbal = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    <Lottie style={{
-          marginLeft:"-70%",
-                 width:"fitContent"
-           }} options={lottieDefaultOptions} width={720} height={530}   />
-             
+    <Lottie className={styles.lottieimages} style={{
+    
+      width:"fitContent"
+    }} options={lottieDefaultOptions}   />
     
     </div>
     

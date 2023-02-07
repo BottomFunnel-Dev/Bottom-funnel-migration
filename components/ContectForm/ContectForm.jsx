@@ -37,7 +37,7 @@ const ContectForm = () => {
 
       <div className={styles.contectSection}>
         <div className={styles.addressSection}>
-          <img src="Images/services/service.png" alt="images" />
+          <img src="Images/services/service.webp" alt="images" />
           <div>
             <div className={styles.mailAddress}>
               <div className={styles.iconDiv}>

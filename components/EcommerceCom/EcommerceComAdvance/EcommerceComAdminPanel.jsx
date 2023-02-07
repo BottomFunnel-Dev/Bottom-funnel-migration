@@ -1,20 +1,21 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComAdminPanel.module.css";
 
 export const EcommerceComAdminPanel = () => {
   let adminPanelData = {
     backgroundImage: {
-      src: "Images/EcommercePhotos/background-blue.png",
+      src: "/Images/EcommercePhotos/background-blue.webp",
       alt: "admin panel background image",
     },
     mainImage: {
-      src: "Images/EcommercePhotos/admin-panel.png",
+      src: "/Images/EcommercePhotos/admin-panel.webp",
       alt: "admin panel image",
     },
     cardsData: [
       {
         image: {
-          src: "Images/EcommercePhotos/one.png",
+          src: "/Images/EcommercePhotos/one.webp",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -23,7 +24,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/two.png",
+          src: "/Images/EcommercePhotos/two.webp",
           alt: "user-friendly interface logo",
         },
         description:
@@ -32,7 +33,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/three.png",
+          src: "/Images/EcommercePhotos/three.webp",
           alt: "Order food and track their service logo",
         },
         description:
@@ -41,7 +42,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/four.png",
+          src: "/Images/EcommercePhotos/four.webp",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -50,7 +51,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/five.png",
+          src: "/Images/EcommercePhotos/five.webp",
           alt: "Dummy text logo",
         },
         description:
@@ -59,7 +60,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/six.png",
+          src: "/Images/EcommercePhotos/six.webp",
           alt: "Dummy text logo",
         },
         description:
@@ -79,7 +80,18 @@ export const EcommerceComAdminPanel = () => {
               return (
                 <div className={styles.eCommerceAdminPanelCards} key={title}>
                   <div className={styles.eCommerceAdminPanelCardsLogo}>
-                    <img src={image.src} alt={image.alt} />
+                  
+
+                    <Image
+                    src={image.src}
+                    alt={image.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "10%", height: "100%" }}
+                  />
+
+
                   </div>
                   <div className={styles.eCommerceAdminPanelCardsContent}>
                     <h5>{title}</h5>
@@ -93,18 +105,31 @@ export const EcommerceComAdminPanel = () => {
       </div>
       <div className={styles.eCommerceAdminImagesMain}>
         <div>
-          <img
-            src={adminPanelData.backgroundImage.src}
-            alt={adminPanelData.backgroundImage.alt}
-            style={{ zIndex: "1" }}
-          />
+        
+          <Image
+          src={adminPanelData.backgroundImage.src}
+          alt={adminPanelData.backgroundImage.alt}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%",  zIndex: "1" }}
+        />
+
+
+
         </div>
         <div>
-          <img
-            src={adminPanelData.mainImage.src}
-            alt={adminPanelData.mainImage.alt}
-            style={{ zIndex: "4" }}
-          />
+       
+
+          <Image
+          src={adminPanelData.mainImage.src}
+          alt={adminPanelData.mainImage.alt}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%",  zIndex: "4" }}
+        />
+
         </div>
       </div>
     </div>

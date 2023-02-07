@@ -19,6 +19,8 @@ import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 import { Industries } from "./Industries";
 
+import Image from "next/image";
+
 const Navbar = ({ navredux, productMount }) => {
   // const router.push = userouter.push();
   const [aboutH, setAboutH] = useState(false);
@@ -181,14 +183,27 @@ const Navbar = ({ navredux, productMount }) => {
       >
         <div className={navstyle.logoSection}>
           <Link href="/" className={navstyle.logoText}>
-            <img
+            {/* <img
               src={
                 navredux.logo && !navbar
-                  ? "/Images/navbar/whitelogobottom.png"
-                  : "/Images/navbar/blacklogo.png"
+                  ? "/Images/navbar/whitelogobottom.webp"
+                  : "/Images/navbar/blacklogo.webp"
               }
               // Images/navbar/whitelogobottom.png
               alt="image"
+            /> */}
+
+            <Image
+              src={
+                navredux.logo && !navbar
+                  ? "/Images/navbar/whitelogobottom.webp"
+                  : "/Images/navbar/blacklogo.webp"
+              }
+              alt={"logo"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </Link>
         </div>
@@ -232,7 +247,8 @@ const Navbar = ({ navredux, productMount }) => {
               <li
                 onMouseEnter={indusHoverIn}
                 onMouseLeave={indusHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}>
+                style={{ color: navbar ? "black" : navredux.color }}
+              >
                 INDUSTRIES
               </li>
 
@@ -250,7 +266,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={resHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                Resources
+                RESOURCES
               </li>
             </div>
 
@@ -263,7 +279,7 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-            // onClick={() => router.push("/hire-new-talent")}
+              // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>

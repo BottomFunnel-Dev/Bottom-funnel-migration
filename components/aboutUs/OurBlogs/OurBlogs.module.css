@@ -68,9 +68,9 @@
   width: 100%;
   height: fit-content;
 }
-.OurBlogscardsimage > img {
+/* .OurBlogscardsimage > img {
   width: 100%;
-}
+} */
 
 /* for any type of mobile screens responsive */
 
@@ -145,9 +145,9 @@
     height: fit-content;
   }
 
-  .OurBlogscardsimage > img {
+  /* .OurBlogscardsimage > img {
     width: 100%;
-  }
+  } */
 }
 
 /* for any type of tab responsive */

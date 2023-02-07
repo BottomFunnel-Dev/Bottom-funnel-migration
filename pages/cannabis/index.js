@@ -20,7 +20,6 @@ import Head from "next/head";
 
 export default function Cannabis() {
   return (
-
     <>
      <Head>
       <title> Cannabis web App Development Company | Bottom Funnel</title>
@@ -29,36 +28,36 @@ export default function Cannabis() {
         content="Wondering if cannabis Web App development is the right decision 
         for your business? Learn about the many benefits of using a 
         cannabis web App development company such as VinCard."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <Cannabiscontainer />
-      <Cannabissolution />
-      <Cannabisoverview />
-      <Cannabiscustomersection />
-      <Cannabisadmin />
-      <Cannabisdrive />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <Cannabiscontainer />
+        <Cannabissolution />
+        <Cannabisoverview />
+        <Cannabiscustomersection />
+        <Cannabisadmin />
+        <Cannabisdrive />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

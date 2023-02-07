@@ -1,20 +1,21 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComCustomer.module.css";
 
 export const EcommerceComCustomer = () => {
   let customerAppData = {
     backgroundImage: {
-      src: "/Images/EcommercePhotos/background-orange.png",
+      src: "/Images/EcommercePhotos/background-orange.webp",
       alt: "Shopping mobile app background image",
     },
     mainImage: {
-      src: "/Images/EcommercePhotos/customer-app.png",
+      src: "/Images/EcommercePhotos/customer-app.webp",
       alt: "Shopping mobile app main image",
     },
     cardsData: [
       {
         image: {
-          src: "/Images/EcommercePhotos/one.png",
+          src: "/Images/EcommercePhotos/one.webp",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -23,7 +24,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/two.png",
+          src: "/Images/EcommercePhotos/two.webp",
           alt: "user-friendly interface logo",
         },
         description:
@@ -32,7 +33,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/three.png",
+          src: "/Images/EcommercePhotos/three.webp",
           alt: "Order food and track their service logo",
         },
         description:
@@ -41,7 +42,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/four.png",
+          src: "/Images/EcommercePhotos/four.webp",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -50,7 +51,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/five.png",
+          src: "/Images/EcommercePhotos/five.webp",
           alt: "Dummy text logo",
         },
         description:
@@ -59,7 +60,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/six.png",
+          src: "/Images/EcommercePhotos/six.webp",
           alt: "Dummy text logo",
         },
         description:
@@ -78,19 +79,36 @@ export const EcommerceComCustomer = () => {
       <div className={styles.eCommerceCustomerMain}>
         <div className={styles.eCommerceCustomerImagesMain}>
           <div>
-            <img
-              src={customerAppData.backgroundImage.src}
-              alt={customerAppData.backgroundImage.alt}
-              style={{ zIndex: "1" }}
-            />
+        
+
+            <Image
+            src={customerAppData.backgroundImage.src}
+            alt={customerAppData.backgroundImage.alt}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" , zIndex: "1" }}
+
+          />
+
+
           </div>
 
           <div>
-            <img
-              src={customerAppData.mainImage.src}
-              alt={customerAppData.mainImage.alt}
-              style={{ zIndex: "4" }}
-            />
+       
+            <Image
+            src={customerAppData.mainImage.src}
+            alt={customerAppData.mainImage.alt}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" ,  zIndex: "4" }}
+
+          />
+
+
+
+
           </div>
         </div>
 
@@ -103,7 +121,18 @@ export const EcommerceComCustomer = () => {
                   return (
                     <div className={styles.eCommerceCustomerAppCards} key={idx}>
                       <div className={styles.eCommerceCustomerAppCardsLogo}>
-                        <img src={image.src} alt={image.alt} />
+                   
+                        <Image
+                        src={image.src}
+                        alt={image.alt}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                      />
+
+
+
                       </div>
 
                       <div className={styles.eCommerceCustomerAppCardsContent}>

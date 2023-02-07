@@ -21,7 +21,7 @@ export const BannerFull = () => {
     left: "50%",
     transform: "translate(-50%, -50%)",
     width: 700,
-   height: 550,
+    height: 550,
     bgcolor: "background.paper",
     border: "2px solid #000",
     // boxShadow: 24,
@@ -35,25 +35,25 @@ export const BannerFull = () => {
       title: "Mobile App Development",
       bannerImage: "/Images/banner/app dev.gif",
       desc: "Connect to your customers in real time with the latest in mobile app development.",
-      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/mobilefull.png",
+      background: "/Images/banner/mobilefull.webp",
     },
     {
       title: "Software Product Development",
       bannerImage: "/Images/banner/customsde.gif",
-      desc: "Turn your company’s opportunities into realities with enterprise-level custom software development.",
-      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/softwarefull.png",
+      desc: "Turn your company's opportunities into realities with enterprise-level custom software development.",
+      background: "/Images/banner/softwarefull.webp",
     },
     {
       title: "Digital Marketing",
       bannerImage: "/Images/banner/digitalmarketing.gif",
       desc: "Break through the noise and grow your business with the power of digital marketing",
-      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/dmfull.png",
+      background: "/Images/banner/dmfull.webp",
     },
     {
       title: "Web Development",
       bannerImage: "/Images/banner/web dev.gif",
       desc: "Developing websites that develop your business",
-      background: "https://bottom-funnel-images.sfo3.digitaloceanspaces.com/Images/banner/webdevfull.png",
+      background: "/Images/banner/webdevfull.webp",
     },
   ];
 
@@ -107,7 +107,7 @@ export const BannerFull = () => {
             <div
               className={styles.bannerslidebackground}
               style={{
-                background: `url(${item.background})`,
+                backgroundImage: `url(${item.background})`,
                 backgroundRepeat: "no-repeat",
                 // backgroundPosition: "center",
                 backgroundSize: "100% 100%",

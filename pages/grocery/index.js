@@ -21,7 +21,6 @@ import Head from "next/head";
 
 export default function Grocery() {
   return (
-
     <>
       <Head>
       <title>Grocery web App Development Company | Bottom Funnel</title>
@@ -31,36 +30,36 @@ export default function Grocery() {
         solution? Look no further than our team of experienced developers.
         We offer tailor-made solutions that will help you manage your 
         entire grocery experience from one place."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <GroceryBanner />
-      <Trusted partnerLogo={groceryLogo} />
-      <DeliveryServices />
-      <GroceryCustomer />
-      <GroceryAdmin />
-      <GroceryService />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <GroceryBanner />
+        <Trusted partnerLogo={groceryLogo} />
+        <DeliveryServices />
+        <GroceryCustomer />
+        <GroceryAdmin />
+        <GroceryService />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

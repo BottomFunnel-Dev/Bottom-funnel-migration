@@ -5,13 +5,11 @@
 
 .groceryadminpannelmainboxsometextupper {
   height: fit-content;
-
   margin-left: 4%;
 }
 
 .groceryadminpannelmainflexboxclass {
   height: fit-content;
-
   display: flex;
 }
 
@@ -25,12 +23,11 @@
 }
 
 .groceryadminpannelmapperboxindivisyal {
-  height: fit-content;
+  height: 170px;
   width: 42%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
-  text-align: justify;
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
 
@@ -46,9 +43,8 @@
 }
 
 .groceryamadminpannelrightboxinnerimage {
-  height: 80%;
+  height: 450px;
   width: 95%;
-
   margin: 0% 3% 3% 2%;
 }
 
@@ -56,4 +52,24 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.groceryadminpannelmapperboxindivisyal > div > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.groceryadminpannelmapperboxindivisyal > div > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

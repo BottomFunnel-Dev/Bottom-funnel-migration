@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./OurProcess.module.css";
 import { OurProcessPush } from "./OurProcessPush/OurProcessPush";
-
+import Image from "next/Image"; 
 
 export const OurProcess = () => {
   return (
@@ -30,7 +30,15 @@ export const OurProcess = () => {
         </div>
 
         <div className={styles.OurProcessaboutUsimage}>
-          <img src="/Images/aboutusImage/meeting.jpg" alt="image" />
+          {/* <img src="/Images/aboutusImage/meeting.webp" alt="image" /> */}
+          <Image
+          src={"/Images/aboutusImage/meeting.webp"}
+          alt={"meetimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         </div>
       </div>
 

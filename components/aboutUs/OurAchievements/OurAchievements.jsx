@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./OurAchievements.module.css";
+import Image from "next/Image"; 
 
 export const OurAchievements = () => {
   return (
@@ -28,7 +29,15 @@ export const OurAchievements = () => {
       </div>
       
       <div className={styles.OurAchievementsimage}>
-        <img src="/Images/aboutusImage/our-achievements.jpg" alt="Our Achievement" />
+        {/* <img src="/Images/aboutusImage/our-achievements.jpg" alt="Our Achievement" /> */}
+        <Image
+          src={"/Images/aboutusImage/our-achievements.webp" }
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );

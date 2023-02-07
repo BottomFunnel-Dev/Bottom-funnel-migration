@@ -33,38 +33,38 @@ export default function PickupDelivery() {
         more about our products and services. We specialize in this 
         particular field, so you can be sure that your project will be handled 
         with care."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <PickupBanner />
-      <Trusted partnerLogo={pickupanddeliveryLogo} />
-      <PickupSolutions />
-      <Pickuprequire />
-      <PickupCustomer />
-      <Pickupdriveapp />
-      <Pickupadmin />
-      <PickupLowerBanner />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <PickupBanner />
+        <Trusted partnerLogo={pickupanddeliveryLogo} />
+        <PickupSolutions />
+        <Pickuprequire />
+        <PickupCustomer />
+        <Pickupdriveapp />
+        <Pickupadmin />
+        <PickupLowerBanner />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

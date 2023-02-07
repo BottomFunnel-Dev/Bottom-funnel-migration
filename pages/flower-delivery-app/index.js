@@ -29,39 +29,38 @@ export default function FlowerDelivery() {
         content="Want to build a flower-delivery web App but don't know where to 
         start? Let us help you out, we are the best in this field and have 
         years of experience in developing flower-delivery web Apps."
-      />
-   </Head>
-   
+        />
+      </Head>
 
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <FlowerDeliveryBanner />
-      <FlowerDeliveryService />
-      <FlowerDeliverySolution />
-      <FlowerDeliveryDriver />
-      <FlowerDeliveryAdmin />
-      {/* <FlowerDeliveryBannerbottom /> */}
-      <FlowerDeliverylast />
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <FlowerDeliveryBanner />
+        <FlowerDeliveryService />
+        <FlowerDeliverySolution />
+        <FlowerDeliveryDriver />
+        <FlowerDeliveryAdmin />
+        {/* <FlowerDeliveryBannerbottom /> */}
+        <FlowerDeliverylast />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

@@ -1,78 +1,92 @@
-.cannabiesadminpannelmainboxes{
-    height: fit-content;
+.cannabiesadminpannelmainboxes {
+  height: fit-content;
 }
 
-.cannbiesadminpannelmainboxsometextupper{
-    height: fit-content;
-    margin-top: 10%;
-    margin-left: 4%;
+.cannbiesadminpannelmainboxsometextupper {
+  height: fit-content;
+  margin-top: 10%;
+  margin-left: 4%;
 }
 
-.cannabiesadminpannelmainflexboxclass{
-    height: fit-content;
-    display: flex;
+.cannabiesadminpannelmainflexboxclass {
+  height: fit-content;
+  display: flex;
 }
 
-.cannabieasadminpannelleftbox{
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    width: 55%;
-    /* border: 2px solid red; */
-    margin-left: 3%;
-    /* margin-top: 2%; */
+.cannabieasadminpannelleftbox {
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  /* border: 2px solid red; */
+  margin-left: 3%;
+  /* margin-top: 2%; */
 }
 
-.cannabiesadminpannelmapperboxindivisyal{
-    height:200px;
-    width: 44%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 1%;
-    text-align: justify;
-    padding: 10px;
-    border-radius: 10px;
-    /* border: 2px solid red; */
+.cannabiesadminpannelmapperboxindivisyal {
+  height: 200px;
+  width: 44%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
 }
 
-.cannabiesadminpannelmapperboxindivisyal:hover{
-    transform: scale(1.02);
+.cannabiesadminpannelmapperboxindivisyal:hover {
+  transform: scale(1.02);
 }
 
-.cannabiesamadminpannelrightbox{
-    width: 45%;
-    margin-left: 1%;
-    /* border: 2px solid red; */
-    height: 460px;
-    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png");
+.cannabiesamadminpannelrightbox {
+  width: 45%;
+  margin-left: 1%;
+  /* border: 2px solid red; */
+  height: 460px;
+  background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png");
 }
 
-.cannbiesamadminpannelrightboxinnerimage{
-    height: 80%;
-    width: 80%;
-  
-    margin: 8% 3% 3% 10%;
+.cannbiesamadminpannelrightboxinnerimage {
+  height: 450px;
+  width: 90%;
+  margin: 2% 3% 3% 5%;
 }
 
-.cannbiesamadminpannelrightboxinnerimage >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.cannbiesamadminpannelrightboxinnerimage > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.cannabieasadminpannelmapperboxindivisyalicon{
-    height: 16%;
-    width: 16%;
-    
+.cannabieasadminpannelmapperboxindivisyalicon {
+  height: 30%;
+  width: 15%;
+  /* border: 1px solid red; */
 }
 
-.cannabieasadminpannelmapperboxindivisyalicon >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 10px;
+.cannabieasadminpannelmapperboxindivisyalicon > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 10px;
 }
-.canabisadminpannelmapperboxindivisyaltxt>p{
-    /* border: 2px solid red; */
-    /* margin-top: 1%; */
-    font-size: 14px;
+
+.canabisadminpannelmapperboxindivisyaltxt > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.canabisadminpannelmapperboxindivisyaltxt > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

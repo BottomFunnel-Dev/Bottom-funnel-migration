@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .eCommerceShoppingImagesMain {
@@ -75,7 +76,7 @@
 
 .eCommerceVendorPanelCardsContent {
   background-color: #ffe6df;
-  height: 80%;
+  height: 90%;
   padding: 10px;
   padding-top: 30px;
   margin-top: -25px;

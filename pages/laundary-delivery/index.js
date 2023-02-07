@@ -32,37 +32,37 @@ export default function LaundryPage() {
         laundry needs? Look no further than ours! Our team of 
         experienced developers will create a web app that meets your 
         specific needs and requirements."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <LaundryPageBanner />
-      <LaudryApplication />
-      <LaundryCustomer />
-      <LaundryDelivery />
-      <LaundryAdmin />
-      <LaundryBannerlower />
-      <Laundryapppagelowerfooter />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <LaundryPageBanner />
+        <LaudryApplication />
+        <LaundryCustomer />
+        <LaundryDelivery />
+        <LaundryAdmin />
+        <LaundryBannerlower />
+        <Laundryapppagelowerfooter />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

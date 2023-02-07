@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState }  from "react";
 import styles from "./StoriesSection.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsPlayCircle, BsArrowRight } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
-import { useState } from "react";
 import YoutubeLink from "./YoutubeLink";
+import Image from "next/image";
 
 const StoriesSection = () => {
   const [videoString, setVideoString] = useState();
@@ -41,7 +41,7 @@ const StoriesSection = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           draggable: true,
-          touchMove:true,
+          touchMove: true,
         },
       },
     ],
@@ -50,84 +50,84 @@ const StoriesSection = () => {
   const arr = [
     {
       BrandName: "ScaleForce",
-      brandImage: "Images/storiesSection/stories1.png",
+      brandImage: "/Images/storiesSection/stories1.webp",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Incubeta",
-      brandImage: "Images/storiesSection/stories2.png",
+      brandImage: "/Images/storiesSection/stories2.webp",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Ranking Carolina",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.webp",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Studio marche",
-      brandImage: "Images/storiesSection/stories4.png",
+      brandImage: "/Images/storiesSection/stories4.webp",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "HSE",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.webp",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "National Geographic",
-      brandImage: "Images/storiesSection/stories2.png",
+      brandImage: "/Images/storiesSection/stories2.webp",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "ScaleForce",
-      brandImage: "Images/storiesSection/stories1.png",
+      brandImage: "/Images/storiesSection/stories1.webp",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Incubeta",
-      brandImage: "Images/storiesSection/stories4.png",
+      brandImage: "/Images/storiesSection/stories4.webp",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Ranking Carolina",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.webp",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Studio marche",
-      brandImage: "Images/storiesSection/stories1.png",
+      brandImage: "/Images/storiesSection/stories1.webp",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "HSE",
-      brandImage: "Images/storiesSection/stories2.png",
+      brandImage: "/Images/storiesSection/stories2.webp",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "National Geographic",
-      brandImage: "Images/storiesSection/stories5.png",
+      brandImage: "/Images/storiesSection/stories5.webp",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",
@@ -155,7 +155,15 @@ const StoriesSection = () => {
             <p className={styles.storiesFloating}>{item.BrandName}</p>
             <div className={styles.storiesContentDiv}>
               <div className={styles.storiesImageDiv}>
-                <img src={item.brandImage} alt="image" />
+                <Image
+                  src={item.brandImage}
+                  alt={"images"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+                {/* <img src={item.brandImage} alt="image" /> */}
               </div>
             </div>
             <div className={styles.bylineContent}>

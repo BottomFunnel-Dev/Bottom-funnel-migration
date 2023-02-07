@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EducationAdministration.module.css";
 
@@ -6,13 +7,13 @@ export const EducationAdministration = () => {
     {
       htxt: "Work more efficiently",
       stxt: "Administrative teams at educational institutions are often required to perform repetitive tasks. With Freshdesk, emails can be sent in bulk and records can be updated with a single click enabling teams to get minutes of work done in seconds.",
-      img: "/Images/education/vectors/Group 770616.png",
+      img: "/Images/education/vectors/Group 770616.webp",
     },
 
     {
       htxt: "Save time from repetitive work",
       stxt: "Freshdesk's powerful automations can scan through every single task at hand and have it triaged, categorized and updated. A person’s efforts will be required only in tasks that engage their skill.",
-      img: "/Images/education/vectors/Group 770606.png",
+      img: "/Images/education/vectors/Group 770606.webp",
     },
   ];
 
@@ -51,7 +52,18 @@ export const EducationAdministration = () => {
               </div>
 
               <div className={styles.imageboxforeducationadministrationmapper}>
-                <img src={e.img} alt="image" />
+             
+                <Image
+                src={e.img}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+
+
+
               </div>
             </div>
           );
@@ -75,7 +87,18 @@ export const EducationAdministration = () => {
         </div>
 
         <div className={styles.educationadministartionboxnextflexboxright}>
-          <img src="/Images/education/vectors/Frame.png" alt="images" />
+        
+
+
+          <Image
+          src={"/Images/education/vectors/Frame.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
         </div>
       </div>
     </div>

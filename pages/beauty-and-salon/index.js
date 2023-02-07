@@ -30,36 +30,36 @@ export default function BeautyandCare() {
         app that provides an excellent user experience, is easy to use, 
         and meets all your business requirements. Contact us today to 
         learn more!"
-      />
-   </Head>
+        />
+      </Head>
 
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <Beautycontainer />
-      <Trusted partnerLogo={beautyLogo} />
-      <Diversesection />
-      <Disscus />
-      <Feature />
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <Beautycontainer />
+        <Trusted partnerLogo={beautyLogo} />
+        <Diversesection />
+        <Disscus />
+        <Feature />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

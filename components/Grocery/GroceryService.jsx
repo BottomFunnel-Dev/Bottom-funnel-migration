@@ -57,8 +57,8 @@ export const GroceryService = () => {
                             >
 
                                 <div className={styles.groceryserviceindivisualboxfortext}>
-                                    <h4>{e.headertext}</h4>
-                                    <p>{e.paragraph}</p>
+                                    <h4> {e.headertext} </h4>
+                                    <p> {e.paragraph} </p>
                                 </div>
                             </div>
                         )

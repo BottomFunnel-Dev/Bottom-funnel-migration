@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import navstyle from  "./navbar.module.css";
 import navservice from "./navServices.module.css";
 import Link from "next/link";
 import {
@@ -55,7 +54,7 @@ export const NavServices = ({
       <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (
           <div
-            key={item.sidename}
+            key={index}
             className={
               sidetoggle === item.sidename ? navservice.activetoggle : ""
             }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./educationBanner.module.css";
 
@@ -16,10 +17,16 @@ export const EducationBanner = () => {
         </button>
       </div>
       <div className={styles.educationbannermainImages}>
-        <img
-          src="/Images/Education/bannerbackground/Group 770626.png"
-          alt="/bannerbackground/Group\ 770626.png"
-        />
+    
+
+        <Image
+          src={"/Images/Education/bannerbackground/Group 770626.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );

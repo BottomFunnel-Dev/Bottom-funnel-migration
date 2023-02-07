@@ -4,10 +4,9 @@ import styles from "./MarketPlaceClient.module.css";
 const MarketPlaceClients = () => {
 
     const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Clientsappscreen/detailsofposts.png");
-
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
-        console.log(imagepath)
+        // console.log(imagepath)
     }
 
     const marketplaceclientdata = [
@@ -58,7 +57,7 @@ const MarketPlaceClients = () => {
                                 return (
                                     <div className={styles.marketplaceclientflexboxingforimageandtxtcontain}
                                         key={el.Htxt} onMouseEnter={() => {
-                                            console.log(el);
+                                            // console.log(el);
                                             handleImageChange(el.Cphone)
                                         }}
 
@@ -66,10 +65,10 @@ const MarketPlaceClients = () => {
                                         <div className={styles.marketplaceclientsflexboxingforimagecontain}>
                                             <img className={styles.marketplaceadminlogo} src={el.img} alt="image" />
                                         </div>
-                                        
+
                                         <div className={styles.marketplaceclientflexboxingfortxtcontain}>
-                                            <h5>{el.Htxt}</h5>
-                                            <p>{el.stxt}</p>
+                                            <h5> {el.Htxt} </h5>
+                                            <p> {el.stxt} </p>
                                         </div>
                                     </div>
                                 )
