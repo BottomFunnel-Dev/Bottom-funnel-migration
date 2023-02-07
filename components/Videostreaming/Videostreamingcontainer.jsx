@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./streamingcontainer.module.css";
 
@@ -18,28 +19,95 @@ export default function Videostreamingcontainer() {
         </div>
         <div className={styles.videoimages}>
           <div className={styles.videomac}>
-            <img src="/Images/Videostreaming/iMac.png" alt="image" />
+         
+          <Image
+          src={"/Images/Videostreaming/iMac.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+
           </div>
           <div className={styles.videomobile}>
-            <img src="/Images/Videostreaming/Homescreen.png" alt="image" />
+         
+            <Image
+            src={"/Images/Videostreaming/Homescreen.png"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+
+
           </div>
         </div>
       </div>
       <div className={styles.videobottomdiv}>
         <div className={styles.szbottomimages}>
-          <img src="/Images/Videostreaming/tv.png" alt="image" />
+          
+          <Image
+          src={"/Images/Videostreaming/tv.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+
+
         </div>
         <div className={styles.szbottomimages}>
-          <img src="/Images/Videostreaming/androidtv.png" alt="image" />
+                
+          <Image
+          src={"/Images/Videostreaming/androidtv.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
         </div>
         <div className={styles.szbottomimages}>
-          <img src="/Images/Videostreaming/watch.png" alt="image" />{" "}
+          <Image
+          src={"/Images/Videostreaming/watch.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />{" "}
+
+
         </div>
         <div className={styles.szbottomimages}>
-          <img src="/Images/Videostreaming/iPhone.png" alt="image" />{" "}
+          <Image
+          src={"/Images/Videostreaming/iPhone.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />{" "}
+
         </div>
         <div className={styles.szbottomimages}>
-          <img src="/Images/Videostreaming/android.png" alt="image" />{" "}
+         
+         <Image
+          src={"/Images/Videostreaming/android.png"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />{" "}
+
+
         </div>
       </div>
     </div>
