@@ -142,8 +142,8 @@ const Services = () => {
                   //   }}
                   //   key={index}
                   // >
-                  <Link href={element.path}>
-                    <li>
+                  <Link href={element.path} key={index}>
+                    <li >
                       {element.serName}
                     </li>
                   </Link>
