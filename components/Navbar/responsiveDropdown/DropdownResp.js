@@ -118,9 +118,9 @@ export default function DropdownResp({
       </Accordion> */}
 
       <div className={dropdown.otherNav}>
-        <div>PRICING</div>
-        <div>PORTFOLIO</div>
-        <div>BLOG</div>
+        {/* <div>PRICING</div> */}
+        {/* <div>PORTFOLIO</div> */}
+        <div> BLOG </div>
 
         <button className={dropdown.ProductPageRouteButton}> Products </button>
         <button> Hire A Talent </button>
