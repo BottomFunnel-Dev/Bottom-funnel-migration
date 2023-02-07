@@ -266,7 +266,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={resHoverOut}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                Resources
+                RESOURCES
               </li>
             </div>
 
