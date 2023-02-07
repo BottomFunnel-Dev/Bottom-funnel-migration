@@ -115,6 +115,7 @@ const OndemandSection = () => {
       <div className={styles.mainOndemand}>
         {ondemandSol.map((item, index) => (
           <div key={index} className={styles.ondemandInner}>
+            
 
             <img className={styles.solImage} src={item.bg} alt="image" />
             <div className={styles.solText}>
