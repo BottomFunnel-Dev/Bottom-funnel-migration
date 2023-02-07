@@ -1,24 +1,25 @@
 import React from "react";
 import styles from "./OurBlogs.module.css";
+import Image from "next/Image";
 
 export const OurBlogs = () => {
   const cardsData = [
     {
       title: "How much does it cost to develop a mobile application",
       body: "The cost of developing a mobile application can vary depending on the size and scope of the project.",
-      image: "Images/aboutusImage/explaining.jpg",
+      image: "/Images/aboutusImage/explaining.webp",
       date: "Nov 21st, 2022",
     },
     {
       title: "How much does it cost to web development services",
       body: "Web development services can vary greatly in price, so it is important to do your research before making a decision.",
-      image: "Images/aboutusImage/talking.jpg",
+      image: "/Images/aboutusImage/talking.webp",
       date: "Nov 21st, 2022",
     },
     {
       title: "Grab world best digital marketers for all your marketing needs",
       body: "If you're looking for a reliable and affordable digital marketing team, then you should consider hiring world best digital marketers.",
-      image: "Images/aboutusImage/meeting.jpg",
+      image: "/Images/aboutusImage/meeting.webp",
       date: "Nov 21st, 2022",
     },
   ];
@@ -39,7 +40,15 @@ export const OurBlogs = () => {
           return (
             <div className={styles.OurBlogscardsmain} key={idx}>
               <div className={styles.OurBlogscardsimage}>
-                <img src={image} alt={title} />
+                {/* <img src={image} alt={title} /> */}
+                <Image
+                  src={image}
+                  alt={title}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <h2>{title}</h2>
               <p>{body}</p>

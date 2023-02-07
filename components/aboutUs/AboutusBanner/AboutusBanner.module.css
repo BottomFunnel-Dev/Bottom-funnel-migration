@@ -59,14 +59,15 @@
 }
 
 .aboutusbannerimage {
-  width: 40%;
+  width: 32%;
+  margin-left: 8%;
   height: fit-content;
   text-align: right;
 }
 
-.aboutusbannerimage > img {
+/* .aboutusbannerimage > img {
   width: 80%;
-}
+} */
 
 .aboutusanimatedtitle {
   font-size: 40px;

@@ -3,7 +3,7 @@
 .aboutusourprocess {
   background-color: black;
   color: #f4f4f4;
-  height: 125vh;
+  height: 135vh;
   padding: 0px;
   margin-top: 0px;
   border: 1px solid black;
@@ -75,9 +75,9 @@
   justify-content: center;
 }
 
-.OurProcessaboutUsimage > img {
+/* .OurProcessaboutUsimage > img {
   width: 100%;
-}
+} */
 
 /* this css is for the responsive of the pages f0r the mobile and web responsive */
 
