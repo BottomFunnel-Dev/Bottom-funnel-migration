@@ -1,7 +1,7 @@
 .newAbout {
   width: 100%;
   height: 600px;
-  background-image: url("/Images/about/newcurve.png");
+  background-image: url("/Images/about/newcurve.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.newAbout>img {
+.newAbout>span {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -34,20 +34,26 @@
 }
 
 .aboutStats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   text-align: center;
   border-radius: 25px;
 }
 
-.aboutStats>img {
+.aboutStats>div {
   width: 50px;
+  height: fit-content;
 }
 
-#aboutStats1>img {
+#aboutStats1>div {
   width: 50px;
   margin-right: 10px;
 }
 
-#aboutStats2>img {
+#aboutStats2>div {
   width: 50px;
   margin-right: 23px;
 }
@@ -58,13 +64,13 @@
 
 #aboutStats1 {
   position: absolute;
-  bottom: 0%;
+  bottom: 2%;
   left: 13%;
 }
 
 #aboutStats2 {
   position: absolute;
-  bottom: 16%;
+  bottom: 18%;
   left: 44%;
 }
 
@@ -135,28 +141,25 @@
   }
 
   .aboutStats {
-    text-align: center;
     border-radius: 25px;
     width: 70%;
     margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
   }
 
-  .aboutStats>img {
+  .aboutStats>div {
+    width: 50px;
+    border: 4px solid red;
+  }
+
+  #aboutStats1>div {
     width: 50px;
   }
 
-  #aboutStats1>img {
+  #aboutStats2>div {
     width: 50px;
-    margin-right: 10px;
-  }
-
-  #aboutStats2>img {
-    width: 50px;
-    margin-right: 23px;
   }
 
   #aboutStats2>p {
@@ -167,7 +170,7 @@
     position: static;
   }
 
-  #aboutStats1>img {
+  #aboutStats1>div {
     display: none;
   }
 
@@ -175,7 +178,7 @@
     position: static;
   }
 
-  #aboutStats2>img {
+  #aboutStats2>div {
     display: none;
   }
 
@@ -183,7 +186,7 @@
     position: static;
   }
 
-  #aboutStats3>img {
+  #aboutStats3>div {
     display: none;
   }
 
@@ -230,7 +233,7 @@
     position: relative;
   }
 
-  .newAbout>img {
+  .newAbout>span {
     width: 90%;
     height: 70%;
     object-fit: contain;
@@ -261,16 +264,16 @@
     border-radius: 25px;
   }
 
-  .aboutStats>img {
+  .aboutStats>div {
     width: 50px;
   }
 
-  #aboutStats1>img {
+  #aboutStats1>div {
     width: 50px;
     margin-right: 10px;
   }
 
-  #aboutStats2>img {
+  #aboutStats2>div {
     width: 50px;
     margin-right: 23px;
   }

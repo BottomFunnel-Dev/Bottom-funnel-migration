@@ -60,10 +60,7 @@ export const NavIndustries = ({
           {ondemand.map((item, i) => (
             <div
               key={i}
-              onClick={() => {
-                // navigate(`/${item.path}`);
-                solHoverOut();
-              }}
+             
               className={industry.industryimageIconDivSection}
             >
               <div>

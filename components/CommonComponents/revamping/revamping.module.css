@@ -27,21 +27,23 @@
   z-index: 0;
   box-sizing: border-box;
 }
-.revampback > img {
+
+.revampback>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 25%;
 }
 
-.revamp > h1 {
-  color: black;
-}
-.revamp > p {
+.revamp>h1 {
   color: black;
 }
 
-.revamp > div > button {
+.revamp>p {
+  color: black;
+}
+
+.revamp>div>button {
   padding: 10px 60px;
   margin-top: 45px;
   /* margin-bottom: 10px; */
@@ -55,7 +57,7 @@
   font-weight: 600;
 }
 
-.revamp > div > button:hover {
+.revamp>div>button:hover {
   background-color: white;
   color: #ef4c23;
 }
@@ -66,11 +68,13 @@
   margin: auto;
   filter: invert(1);
 }
-.navmotion > img {
+
+.navmotion>img {
   width: 30%;
   height: 100%;
   object-fit: contain;
 }
+
 .navIcon {
   font-size: 60px;
   color: white;
@@ -91,11 +95,11 @@
     display: none;
   }
 
-  .textlayer > h1 {
+  .textlayer>h1 {
     font-size: 25px;
   }
 
-  .revamp > div > button {
+  .revamp>div>button {
     padding: 8px 30px;
     margin-top: 20px;
     /* margin-bottom: 10px; */

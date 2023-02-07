@@ -29,20 +29,20 @@ const PortFolio = () => {
 
   const portfolioData = [
     {
-      leftimg: "Images/portfolio/yanbal2.png",
-      rightImg: "Images/portfolio/yanbal1.png",
+      leftimg: "#EB6D42",
+      rightImg: "Images/portfolio/yanbal1.webp",
       title: "Yanbal",
       tagline: "Global Cosmatic Brand",
       description:
         "Yanbal is a global skincare company. It is a global beauty company inspired by, and created for, women. It goods are sold on the internet and through independent style advisors. Yanbal empowers women through beauty and its business opportunity every day. It provides variety of cosmetics and skincare products for women. Yanbal's US operation sells nationwide and is headquartered in Miami, FL.",
-      frontend: " React, jquery, Mordenizr",
-      backend: " Java, ASP.NET,",
-      database: " CloudFront",
+      frontend: " javascript, jquery, Mordenizr",
+      backend: " Java",
+      database: "Microsoft",
       website: "https://www.yanbal.com//bo/",
       playStore: "http://play.google.com/store/apps/details?id=yanbal.colombia2",
     },
     {
-      leftimg: "Images/portfolio/physicsfunshop.png",
+      leftimg: "#A752ED",
       rightImg: "Images/portfolio/physicsfunshop1.png",
       title: "Physics Fun Shop",
       tagline: "Educational Brand",
@@ -55,7 +55,7 @@ const PortFolio = () => {
       playStore: "http://play.google.com/store/apps/details?id=",
     },
     {
-      leftimg: "Images/portfolio/bbgroup.png",
+      leftimg: "#1D366A",
       rightImg: "Images/portfolio/blueberrygroup.png",
       title: "BlueBerry Group",
       tagline: "Global D2C Travel Company",
@@ -69,8 +69,8 @@ const PortFolio = () => {
       website: "https://blueberrygroup.co/",
     },
     {
-      leftimg: "Images/portfolio/blueberry2.png",
-      rightImg: "Images/portfolio/blueberry1.png",
+      leftimg: "#3F86A6",
+      rightImg: "Images/portfolio/blueberry1.webp",
       title: "Blueberry Travels",
       tagline: "D2C Travel Website",
       description:
@@ -82,8 +82,8 @@ const PortFolio = () => {
     },
 
     {
-      leftimg: "Images/portfolio/jambo2.png",
-      rightImg: "Images/portfolio/jambo1.png",
+      leftimg: "#FE8805",
+      rightImg: "Images/portfolio/jambo1.webp",
       title: "Jambo Shoppe",
       tagline: "Global E-commerce Shopping Brand",
       description: `Jambo Shoppe is an e-commerce company in Kenya which houses everything you can possibly
@@ -101,7 +101,7 @@ const PortFolio = () => {
     },
 
     {
-      leftimg: "Images/portfolio/roshi.png",
+      leftimg: "#42A928",
       rightImg: "Images/portfolio/roshi1.png",
       title: "Roshi Wellness",
       tagline: "Global Herbal Products Brand",
@@ -116,7 +116,7 @@ const PortFolio = () => {
       website: "https://roshiwellness.com/",
     },
     {
-      leftimg: "Images/portfolio/nextholidays2.png",
+      leftimg: "#E54046",
       rightImg: "Images/portfolio/nextholidays1.png",
       title: "Next Holidays",
       tagline: "D2C travel Website",
@@ -132,7 +132,7 @@ const PortFolio = () => {
       website: "https://www.nextholidays.com/",
     },
     {
-      leftimg: "Images/portfolio/oncart2.png",
+      leftimg: "#FFD555",
       rightImg: "Images/portfolio/oncart1.png",
       title: "On-cart",
       tagline: "Smart Shopping App",
@@ -150,8 +150,8 @@ const PortFolio = () => {
         "http://play.google.com/store/apps/details?id=com.coffye.lijwvx",
     },
     {
-      leftimg: "Images/portfolio/travelflap.png",
-      rightImg: "Images/portfolio/travelflap1.png",
+      leftimg: "#472AF0",
+      rightImg: "Images/portfolio/travelflap1.webp",
       title: "Travelflap",
       tagline: "D2C Travel Company",
       description: `Travel Flap is a New York -based privately owned leading tourism brand with over 15 years of
@@ -164,8 +164,8 @@ const PortFolio = () => {
       website: "https://www.travelflap.com/",
     },
     {
-      leftimg: "Images/portfolio/mukunda.png",
-      rightImg: "Images/portfolio/mukunda1.png",
+      leftimg: "#84C632",
+      rightImg: "Images/portfolio/mukunda1.webp",
       title: "Mukunda",
       tagline: "Global Trading Company",
       description: `Mukunda General Trading is a well-established Company for all ICT Material, Hardware, Construction
@@ -179,7 +179,7 @@ const PortFolio = () => {
       website: "https://www.themukunda.com/",
     },
     {
-      leftimg: "Images/portfolio/spjbg.png",
+      leftimg: "#7D59A5",
       rightImg: "Images/portfolio/spj1.png",
       title: "SPJ Electronics",
       tagline: "Global Market Leader in Electrical Industry",
@@ -194,8 +194,8 @@ const PortFolio = () => {
       website: "https://spj-electronics.com/",
     },
     {
-      leftimg: "Images/portfolio/amydus2.png",
-      rightImg: "Images/portfolio/amydus1.png",
+      leftimg: "#B6967F",
+      rightImg: "Images/portfolio/amydus1.webp",
       title: "Amydus",
       tagline: "Global E-commerce Website",
       description: `Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which 
@@ -207,8 +207,8 @@ const PortFolio = () => {
       website: "https://www.amydus.com/",
     },
     {
-      leftimg: "/Images/portfolio/aanandam.png",
-      rightImg: "/Images/portfolio/aanandam1.png",
+      leftimg: "#FFC701",
+      rightImg: "/Images/portfolio/aanandam1.webp",
       title: "The Aanandam",
       tagline: "Hotel and Resorts Brand",
       description:
@@ -230,8 +230,8 @@ const PortFolio = () => {
               i === imageIndex ? `${styles.mainSlide} ${styles.activeMainSlide}` : styles.mainSlide
             }
           >
-            <div className={styles.leftAnime}>
-              <img src={item.leftimg} alt="image" />
+            <div className={styles.leftAnime} style={{background:`${item.leftimg}`}}>
+              {/* <img src={item.leftimg} alt="image" /> */}
               <span className={styles.portfolioText}>
                 <h1>{item.title}</h1>
                 <h6>{item.tagline}</h6>

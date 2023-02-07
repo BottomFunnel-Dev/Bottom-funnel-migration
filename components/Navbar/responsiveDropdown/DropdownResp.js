@@ -63,6 +63,24 @@ export default function DropdownResp({
       </Accordion>
 
       <Accordion>
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>Solutions</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <NavIndustries
+              solHoverIn={solHoverIn}
+              solHoverOut={solHoverOut}
+              scroll={scroll}
+              productMount={productMount}
+            />
+          </AccordionDetails>
+        </Accordion>
+
         <AccordionSummary
           expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
           aria-controls="panel1a-content"
@@ -70,6 +88,7 @@ export default function DropdownResp({
         >
           <Typography> Industries </Typography>
         </AccordionSummary>
+
         <AccordionDetails>
           <Industries
             indusHoverIn={indusHoverIn}
@@ -80,23 +99,6 @@ export default function DropdownResp({
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Solutions</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <NavIndustries
-            solHoverIn={solHoverIn}
-            solHoverOut={solHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        </AccordionDetails>
-      </Accordion>
       {/* <Accordion>
         <AccordionSummary
           expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
@@ -116,9 +118,9 @@ export default function DropdownResp({
       </Accordion> */}
 
       <div className={dropdown.otherNav}>
-        <div>PRICING</div>
-        <div>PORTFOLIO</div>
-        <div>BLOG</div>
+        {/* <div>PRICING</div> */}
+        {/* <div>PORTFOLIO</div> */}
+        <div> BLOG </div>
 
         <button className={dropdown.ProductPageRouteButton}> Products </button>
         <button> Hire A Talent </button>

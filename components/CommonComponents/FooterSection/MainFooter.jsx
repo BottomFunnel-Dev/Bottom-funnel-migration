@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FooterTable from "./FooterTable";
 import styles from "./mainFooter.module.css";
-
+import Image from "next/image";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
@@ -23,6 +23,9 @@ import {
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";
+import Lottie from "react-lottie";
+import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json"
+
 const MainFooter = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -42,6 +45,15 @@ const MainFooter = () => {
     p: 1,
     borderRadius: 2,
   };
+
+  const lottieOptionData = {
+    loop: true,
+    autoplay: true, 
+    animationData: footerWorldmapAnimate,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  }
 
   const [more, setMore] = useState(false);
   const address = [
@@ -92,12 +104,13 @@ const MainFooter = () => {
             </OverlayTrigger>
           ))}
 
-          <img src="Images/footer/gg.gif" alt="image" />
+          <Lottie options={lottieOptionData} style={{width: "100%", height: "100%"}} />
         </div>
 
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-            <img src="Images/footer/whitelogobottom.png" alt="image" />
+
+            <img src="Images/footer/whitelogobottom.webp" alt="image" />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EducationSupport.module.css";
 
@@ -45,10 +46,20 @@ export const EducationSupport = () => {
         </div>
 
         <div className={styles.educationsupportleftboxingflexforimage}>
-          <img
-            src="/Images/Education/vectors/vector studying.png"
-            alt="image"
-          />
+      
+
+          <Image
+          src={"/Images/Education/vectors/vector studying.webp"}
+          alt={"Images"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+
+
+
         </div>
       </div>
     </div>

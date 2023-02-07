@@ -1,129 +1,114 @@
 .yanbalmainboxes{
-    height: fit-content;
-    /* border: 2px solid red; */
+    height: 85vh;
+    display: flex;
     background: url("/Images/portfolio/My team11/backgrounds/Group 334.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-  
     display: flex;
 }
 
-.portfolioyanballeftbox{
-    width: 45%;
-    /* border: 5px solid green; */
-  
-    margin: 5% 2% 0% 3%;
-}
 
-
-
-.portfolioyanbalrightbox{
+.yanballeftboxes{
     width: 50%;
-    /* border: 1px solid yellow; */
- 
+    margin-top: 5%;
+    margin-left: 3%;
 }
 
-.portfolioyanbelrightinnerimages{
-    height: 80%;
-    width: 35%;
-    /* border: 1px solid white; */
-    margin-top: 8%;
-    margin-left: 2%;
-}
-.portfolioyanbelrightinnerimages>img{
-    height: 100%;
-    width: 100%;
+.androidappicon>img{
+    height: 90%;
+    width: 90%;
     object-fit: contain;
 }
 
+.yanballeftboxinsiderflexbox{
 
-.nextholidayrighttbox{
-    height: fit-content;
-    width: 45%;
-    margin-right: 2%;
-    
+width: 90%;
+margin: auto;
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+padding-top: 5%;
 }
 
-.portfolioyanballeftbox>p{
-    font-size: smaller;
-    text-align: justify;
-}
-
-.nextholidayrightinsideflexbox{
-    /* border: 1px solid red; */
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.nextholidaywrapbox1{
-/* border: 1px solid green; */
-width: 40%;
-margin: 3%;
-padding: 5px;
-}
-
-.nextholidaywrapbox1>h5{
+.yanbalplusbold{
     font-weight: 900;
-    font-size: 15px;
-    text-align: center;
+}
+
+.yanbalindibox{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.yanbalindibox>h5{
+    font-weight: 800;
 
 }
 
-.nextholidaywrapbox1>p{
-    font-size: 12px;
-    text-align: center;
-    margin-top: -0%;
-
+.yanbalindibox p{
+    width: 60%;
 }
 
-.portfolioavailableonicon{
+.yanbaliconflexbox{
+   
+    width: 40%;
+    height: 40%;
     display: flex;
-  margin: auto;
-  width: 40%;
+    margin-left: -0%;
+   
 
 }
 
-.porfolionextholidayicon{
-
-margin: 2% ;
-height: 20%;
-width: 20%;
-
-}
-
-.porfolionextholidayicon>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-.nextholidaywrapboximages{
+.yanabaliconandeoid{
     width: 30%;
-    margin-left: 8%;
+    height: 80%;
+border-right: 1px solid black;
+    margin-left: 2%;
+    padding: 7px;
+}
+
+.yanabaliconandeoid:last-child{
+    border-right: none;
 
 }
-.nextholidaywrapboximages>img{
+
+
+
+.yanabaliconandeoid>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
+
 }
 
-.nextholidayviewcasebutton{
+.yanballogoboxingalongflex{
+    padding: 15px;
+}
+
+
+
+
+.yanbalrightboxes{
+    width: 50%;
+  
+}
+
+.yanabalbuttonalongflex{
     padding: 10px 50px;
   border-radius: 100px;
   width: 220px;
   background-color: transparent;
-  border: none;
+  border: #ef4c23;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 14px;
   font-weight: 600;
-  color: #ef4c23;
-  margin-left: 50%;
+  color: black;
+  margin-left: 35%;
+  margin-top: 8%;
 }
 
-.nextholidayviewcasebutton:hover{
-    background-color: #ef4c23;
+.yanabalbuttonalongflex:hover{
+    background-color: black;
     color: white;
 }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EducationITteams.module.css";
 
@@ -6,13 +7,13 @@ export const EducationITteams = () => {
     {
       htxt: "Streamline customer enquiries",
       stxt: "IT teams at many schools and universities get questions and complaints from staff via email, phone and in-person. A lot of time and effort is spent keeping track of every pending request. With Freshdesk, IT teams don’t have to spend excessive time organizing their work. Customizable inbox views in Freshdesk makes it easy for every person in the team to keep .",
-      img: "/Images/education/vectors/Group 770619.png",
+      img: "/Images/education/vectors/Group 770619.webp",
     },
 
     {
       htxt: "Make self-service easily with an IT portal",
       stxt: "IT teams typically spend a lot of time in repeatedly answering simple questions. With Freshdesk, they can easily create a self-service IT portal for staff and students. Staff can get answers to their questions immediately using the portal and hence, the number of enquiries the IT team has to work with decreases.",
-      img: "/Images/education/vectors/Social.png",
+      img: "/Images/education/vectors/Social.webp",
     },
   ];
 
@@ -47,7 +48,16 @@ export const EducationITteams = () => {
               </div>
 
               <div className={styles.imageboxforeducationitsupportmapper}>
-                <img src={e.img} alt="image" />
+           
+                <Image
+          src={e.img}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
               </div>
             </div>
           );
@@ -67,7 +77,16 @@ export const EducationITteams = () => {
         </div>
 
         <div className={styles.educationitsupportboxnextflexboxright}>
-          <img src="/Images/education/vectors/Group 770593.png" alt="images" />
+        
+
+          <Image
+          src={"/Images/education/vectors/Group 770593.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         </div>
       </div>
 

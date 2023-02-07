@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Awards.module.css";
+import Image from "next/image";
 
 const Awards = () => {
   return (
@@ -11,28 +12,63 @@ const Awards = () => {
           development, Bottom Funnel's hand is always there to help you craft a
           successful campaign.
         </p>
-        <h4>AWARDS AND ACCOLADES</h4>
+
+        <h4> AWARDS AND ACCOLADES </h4>
+
         <div id={styles.awards}>
+
           <div>
-            <img src="Images/appfutura.png" alt="" />
+            <Image src={"/Images/AwardsImageMainServicePage/appfutura.webp"} alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
+
           <div>
-            <img src="Images/clutch.png" alt="" />
+            <Image src={"/Images/AwardsImageMainServicePage/clutch.webp"} alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
+
           <div>
-            <img src="Images/goodfirms.png" alt="" />
+            <Image src={"/Images/AwardsImageMainServicePage/goodfirms.webp"} alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
+
           <div>
-            <img src="Images/itfirms.png" alt="" />
+            <Image src={"/Images/AwardsImageMainServicePage/itfirms.webp"} alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
+
           <div>
-            <img src="Images/topdev.png" alt="" />
+            <Image src={"/Images/AwardsImageMainServicePage/topdev.webp"} alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
+
           <div>
-            <img src="Images/upwork.png" alt="" />
-          </div>
-          <div>
-            <img src="Images/topSoftware.png" alt="" />
+            <Image src={"/Images/AwardsImageMainServicePage/upwork.webp"} alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>

@@ -1,68 +1,89 @@
 import React from 'react'
 import styles from "./Blueberrytravel.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Blueberry Travels.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Blueberry Travels.json";
 import Lottie from "react-lottie";
-
+import { Link } from '../Link/Link';
 
 export const Blueberrytravel = () => {
-    const lottieDefaultOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: reactAnimation,
-        rendererSettings: {
-          preserveAspectRatio: "xMidYMid slice"
-        }
-      };
+ 
+  const lottieDefaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: reactAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+
   return (
+    <div className={styles.nextholidaymainboxes}>
+    <div className={styles.nextholidayleftbox}>
+
+   
+    <Lottie style={{
+      
+    }} options={lottieDefaultOptions}   />
   
-    <div className={styles.cattlecountrymainboxes}>
-    <div className={styles.portfolioyanballeftbox}>
-    <h1>Blueberry Travels</h1>
+
+    </div>
+    
+    <div className={styles.nextholidayrighttbox}>
+    <h1>Blueberry Travel</h1>
     <p>When you feel like you need a break from your hectic routine, take a trip to Portfolio bottom funnel. We've got everything you're looking for in an escape: a quiet retreat, great food, and friendly service. Our modern, rustic-style restaurant is perfect for any occasion.</p>
     <div className={styles.nextholidayrightinsideflexbox}>
   <div className={styles.nextholidaywrapbox1}>
   <h5>Downloads</h5>
-  <p>150K+</p>
+  <p>160K+</p>
   </div>
    <div className={styles.nextholidaywrapbox1}>
    <h5>Region</h5>
-   <p>Globle</p>
+   <p>Kenya</p>
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p>Javascript, Jquery, Bootstrap, Moment.js, Java, Apache, AWS</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' /></div>
-<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' /></div>
+<div className={styles.porfolionextholidayicon}>
 
+<img src='Images/portfolio/Platform icons/Frame.png' alt='images' />
+
+</div>
+
+
+<div className={styles.porfolionextholidayicon}>
+<Link href="https://www.blueberry-travel.com/">
+<a className={styles.androidappicon}>
+<img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' />
+</a>
+</Link>
+</div>
+
+
+
+<div className={styles.porfolionextholidayicon}>
+
+<img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' />
+
+</div>
 
 
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/blueberry travels/logo/download (2) 1.png' alt='images' />
+<img src='Images/portfolio/Portfolio banners/BBT_WHITE_2.png' alt='images' />
 </div>
 <div>
-    <button className={styles.cattlecountrybutton}>view case study</button>
+<button className={styles.nextholidayviewcasebutton}>view case study</button>
 </div>
     </div>
+    
     </div>
-    <div className={styles.portfolioyanbalrightbox}>
-    <Lottie style={{
-      marginLeft:"-80%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={500} height={580}   />
-  
     
     
     </div>
-    </div>
-    
-
   )
 }
-

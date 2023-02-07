@@ -9,9 +9,9 @@ const OndemandSection = () => {
   const ondemandSol = [
     {
       solutionName: "Mobile App Solution",
-      bg: "/Images/ondemand/mobile.png",
-      logoImgageOrange: "/Images/ondemand/mobileAppOrange.png",
-      logoImgageWhite: "/Images/ondemand/mobileAppWhite.png",
+      bg: "/Images/ondemand/mobile.webp",
+      logoImgageOrange: "/Images/ondemand/mobileAppOrange.webp",
+      logoImgageWhite: "/Images/ondemand/mobileAppWhite.webp",
       description:
         "Our mobility solutions allow people to connect and share information from the most remote of places, even if they're on the move.",
       actionArrow: <BsArrowRight />,
@@ -19,10 +19,10 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Software Solutions",
-      bg: "Images/ondemand/webdev.png",
+      bg: "Images/ondemand/webdev.webp",
 
-      logoImgageOrange: "/Images/ondemand/softwareSolutionsOrange.png",
-      logoImgageWhite: "/Images/ondemand/softwareSolutionsWhite.png",
+      logoImgageOrange: "/Images/ondemand/softwareSolutionsOrange.webp",
+      logoImgageWhite: "/Images/ondemand/softwareSolutionsWhite.webp",
       description:
         "our software solutions allow us to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <BsArrowRight />,
@@ -30,9 +30,9 @@ const OndemandSection = () => {
     },
     {
       solutionName: "UI UX Designs",
-      bg: "Images/ondemand/uiuxdesign.png",
-      logoImgageOrange: "Images/ondemand/uiOrange.png",
-      logoImgageWhite: "Images/ondemand/uiWhite.png",
+      bg: "Images/ondemand/uiuxdesign.webp",
+      logoImgageOrange: "Images/ondemand/uiOrange.webp",
+      logoImgageWhite: "Images/ondemand/uiWhite.webp",
       description:
         "Our UI UX designs are designed to make interacting with products easy. We reduce cognitive load by making interfaces consistent.",
       actionArrow: <BsArrowRight />,
@@ -40,9 +40,9 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Food Delivery App",
-      bg: "Images/ondemand/fooddelivery.png",
-      logoImgageOrange: "Images/ondemand/foodDeliveryOrange.png",
-      logoImgageWhite: "Images/ondemand/foodDeliveryWhite.png",
+      bg: "Images/ondemand/fooddelivery.webp",
+      logoImgageOrange: "Images/ondemand/foodDeliveryOrange.webp",
+      logoImgageWhite: "Images/ondemand/foodDeliveryWhite.webp",
       description:
         "With our branded food delivery app, your customers will be able to order and have delicious meals delivered to them at any time.",
       actionArrow: <BsArrowRight />,
@@ -50,7 +50,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Beauty & Salon App",
-      bg: "Images/ondemand/beauty.png",
+      bg: "Images/ondemand/beauty.webp",
       logoImgageOrange: "Images/ondemand/beautyOrange.png",
       logoImgageWhite: "Images/ondemand/beautyWhite.png",
       description:
@@ -60,7 +60,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Marketplace App",
-      bg: "Images/ondemand/marketplace.png",
+      bg: "Images/ondemand/marketplace.webp",
       logoImgageOrange: "Images/ondemand/marketOrange.png",
       logoImgageWhite: "Images/ondemand/marketWhite.png",
       description:
@@ -70,7 +70,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Cannabis Delivery App",
-      bg: "Images/ondemand/cannabis.png",
+      bg: "Images/ondemand/cannabis.webp",
       logoImgageOrange: "Images/ondemand/cannabisOrange.png",
       logoImgageWhite: "Images/ondemand/cannabisWhite.png",
       description:
@@ -80,7 +80,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Digital Marketing Solutions",
-      bg: "Images/ondemand/digitalmarketing.png",
+      bg: "Images/ondemand/digitalmarketing.webp",
       logoImgageOrange: "Images/ondemand/digitalOrange.png",
       logoImgageWhite: "Images/ondemand/digitalWhite.png",
       description:
@@ -90,7 +90,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Pharmacy Delivery App",
-      bg: "Images/ondemand/pharmacy.png",
+      bg: "Images/ondemand/pharmacy.webp",
       logoImgageOrange: "Images/ondemand/pharmacyorange.png",
       logoImgageWhite: "Images/ondemand/pharmacywhite.png",
       description:
@@ -100,7 +100,7 @@ const OndemandSection = () => {
     },
     {
       solutionName: "Taxi Booking App",
-      bg: "Images/ondemand/taxibooking.png",
+      bg: "Images/ondemand/taxibooking.webp",
       logoImgageOrange: "Images/ondemand/taxiorange.png",
       logoImgageWhite: "Images/ondemand/taxiwhite.png",
       description:
@@ -115,6 +115,7 @@ const OndemandSection = () => {
       <div className={styles.mainOndemand}>
         {ondemandSol.map((item, index) => (
           <div key={index} className={styles.ondemandInner}>
+            
 
             <img className={styles.solImage} src={item.bg} alt="image" />
             <div className={styles.solText}>
