@@ -4,6 +4,7 @@ import { FaMobileAlt } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 // import {Link,  useNavigate } from "react-router";
 import Link from "next/link";
+import Image from "next/image";
 
 const Services = () => {
   // const navigate = useNavigate();
@@ -11,7 +12,7 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Mobile & Wearables",
-      serviceImages: "/Images/services/mobileandwearable.gif",
+      serviceImages: "/Images/services/mobile-services.webp",
       serviceTypes: [
         { serName: "IOS", path: "ios-development" },
         { serName: "ANDROID", path: "android-development" },
@@ -25,7 +26,7 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Web Development",
-      serviceImages: "/Images/services/web-dev.gif",
+      serviceImages: "/Images/services/webdevelopment.webp",
       serviceTypes: [
         { serName: "MERN", path: "mernstack-development" },
         { serName: "MEAN", path: "meanstack-development" },
@@ -41,7 +42,7 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Digital Marketing",
-      serviceImages: "/Images/services/digital.gif",
+      serviceImages: "/Images/services/digital.webp",
       serviceTypes: [
         { serName: "SEO", path: "seo-services" },
         { serName: "PPC", path: "seo-ppc" },
@@ -57,7 +58,7 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Cloud Services",
-      serviceImages: "/Images/services/cloud-new-1.gif",
+      serviceImages: "/Images/services/cloud-service.webp",
       serviceTypes: [
         { serName: "AWS", path: "" },
         { serName: "GCP", path: "" },
@@ -73,7 +74,7 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Software Product Development",
-      serviceImages: "/Images/services/machine-lkearning.gif",
+      serviceImages: "/Images/services/machine-learning.webp",
       serviceTypes: [
         { serName: "IOT", path: "internet-of-things" },
         { serName: "AI", path: "artificial-inteligence" },
@@ -89,7 +90,7 @@ const Services = () => {
     {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Salesforce Development",
-      serviceImages: "/Images/services/salesforce.gif",
+      serviceImages: "/Images/services/salesforce.webp",
       serviceTypes: [
         { serName: "QUIP", path: "" },
         { serName: "NFT CLOUD", path: "" },
@@ -106,7 +107,7 @@ const Services = () => {
   return (
     <div className={styles.mainService}>
       <div className={styles.serviceIntro}>
-        <img src="/Images/services/service.png" alt="image" />
+        <Image width={"0"} height={"0"} sizes={"100vw"} style={{width: "100%", height:"100%"}} src="/Images/services/service.webp" alt="image" />
         <div>
           <h1>Our Services</h1>
           <p>
@@ -128,7 +129,8 @@ const Services = () => {
               <div className={styles.serviceHeading}>
                 <h4>{item.serviceName}</h4>
                 <div className={styles.vectorImage}>
-                  <img src={item.serviceImages} alt="image" />
+                  
+                  <Image width={"0"} height={"0"} sizes={"100vw"} style={{width: "100%", height:"100%"}} src={item.serviceImages} alt="image" />
                 </div>
               </div>
               <div

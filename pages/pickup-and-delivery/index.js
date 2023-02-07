@@ -24,48 +24,49 @@ import Head from "next/head";
 export default function PickupDelivery() {
   return (
     <>
-    <Head>
-      <title>Pickup and delivery Web App Development
- Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Are you looking for a reliable pickup and delivery web app 
+      <Head>
+        <title>
+          Pickup and delivery Web App Development Company | Bottom Funnel
+        </title>
+        <meta
+          name="description"
+          content="Are you looking for a reliable pickup and delivery web app 
         development company? Check out our website today and learn 
         more about our products and services. We specialize in this 
         particular field, so you can be sure that your project will be handled 
         with care."
-      />
-   </Head>
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <PickupBanner />
-      <Trusted partnerLogo={pickupanddeliveryLogo} />
-      <PickupSolutions />
-      <Pickuprequire />
-      <PickupCustomer />
-      <Pickupdriveapp />
-      <Pickupadmin />
-      <PickupLowerBanner />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <PickupBanner />
+        <Trusted partnerLogo={pickupanddeliveryLogo} />
+        <PickupSolutions />
+        <Pickuprequire />
+        <PickupCustomer />
+        <Pickupdriveapp />
+        <Pickupadmin />
+        <PickupLowerBanner />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }
