@@ -25,15 +25,16 @@
 
 import React, { useState } from "react";
 import styles from "./foodDeliveryAdvanceTech.module.css";
-export const FoodDeliveryAdvanceTech = ({ foodDeliverydriveData }) => {
+
+export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
   const [active, setActive] = useState(0);
   return (
-    <div className={styles.logicdrive}>
-      <h1>{foodDeliverydriveData.sectionTitle}</h1>
-      <div className={styles.logicdrivesub}>
-        <div className={styles.logicdriveleft}
+    <div className={styles.foodDeliveryAdvanceTech}>
+      <h1>{fooddeliverydrivedata.sectionTitle}</h1>
+      <div className={styles.foodDeliveryAdvanceTechsub}>
+        <div className={styles.foodDeliveryAdvanceTechleft}
           style={{
-            background: `url(${foodDeliverydriveData.background})`,
+            background: `url(${fooddeliverydrivedata.background})`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
             backgroundPosition: "center",
@@ -41,15 +42,15 @@ export const FoodDeliveryAdvanceTech = ({ foodDeliverydriveData }) => {
         >
 
           <div className={styles.logisticDriveImage}>
-          <img
-              src={foodDeliverydriveData.foodDeliveryDrivedata[active].img.src}
-              alt={foodDeliverydriveData.foodDeliveryDrivedata[active].img.alt}
+            <img
+              src={fooddeliverydrivedata.fooddeliverydrivedata[active].img.src}
+              alt={fooddeliverydrivedata.fooddeliverydrivedata[active].img.alt}
             />
           </div>
         </div>
 
-        <div className={styles.logicdriveright}>
-          {foodDeliverydriveData.foodDeliverydriveData.map(({ title, icon, para }, idx) => {
+        <div className={styles.foodDeliveryAdvanceTechright}>
+          {fooddeliverydrivedata.fooddeliverydrivedata.map(({ title, icon, para }, idx) => {
             return (
               <div key={title} onMouseOver={() => setActive(idx)} v className={`logistic-box-${idx}`}>
                 {/* <div className={styles.logisticLogo}>

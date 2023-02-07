@@ -171,7 +171,7 @@ export const foodDeliveryCustomer = {
   foodDeliverycustomerdata: [
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Quick bookings.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
         alt: "Register image",
       },
       icon: {
@@ -183,7 +183,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Fare estimate.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
         alt: "Schedule",
       },
       icon: {
@@ -195,19 +195,19 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Pool options.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
         src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
-      title: "Order food and ltrack their service",
+      title: "Order food and track their service",
       para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
     },
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Time tracking.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
         alt: "Track Order image",
       },
       icon: {
@@ -227,111 +227,111 @@ export const foodDeliveryDrive = {
   fooddeliverydrivedata: [
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/real time requests.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
-      title: "Real-time Requests",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      title: "Can be easily accessed through both android/iOS",
+      para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Trip details.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
-      title: "Trip Detail",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      title: "User-friendly interface",
+      para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Rating & review.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
-      title: "Rating & Review",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      title: "Order food and track their service",
+      para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Wallet details.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
-      title: "Wallet Details",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      title: "Smart search and add-to-your-favorites list",
+      para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
     },
   ],
 
-  sectionTitle: "Driver App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/group9.png",
+  sectionTitle: "Customer App",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const foodDeliveryAdmin = {
   fooddeliveryadmindata: [
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Dashboard.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Manage Offers & Discounts.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
-      title: "Dashboard",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      title: "Manage Offers & Discounts",
+      para: "Partners can give secial offers and discounts to increase their customer base and earn their loyalty..",
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Reports & analytics.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Menu Category and Order Management.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
-      title: "Reports and Analytics",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      title: "Menu category and Order Managerment",
+      para: "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Chat Support.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
-      title: "Manage Promos & Referals",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      title: "Chat Support",
+      para: "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Driver management.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Custom Alerts.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
-      title: "Driver Management",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      title: "Custom Alerts",
+      para: "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
     },
   ],
 
-  sectionTitle: "Admin App",
+  sectionTitle: "Partner app",
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
 };
 

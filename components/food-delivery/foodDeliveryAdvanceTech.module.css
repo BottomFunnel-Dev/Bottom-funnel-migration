@@ -1,15 +1,15 @@
-.logicdrive {
+.foodDeliveryAdvanceTech {
   width: 100%;
   height: max-content;
   margin: 60px 0;
   /* background-color: cornflowerblue; */
 }
 
-.logicdrive > h1 {
+.foodDeliveryAdvanceTech > h1 {
   margin-left: 55%;
 }
 
-.logicdrivesub {
+.foodDeliveryAdvanceTechsub {
   width: 100%;
   margin-top: 2%;
   justify-content: space-between;
@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-.logicdriveleft {
+.foodDeliveryAdvanceTechleft {
   width: 50%;
   height: 500px;
   /* background: url("/public/Images/logistic/triangle.png"); */
@@ -28,7 +28,7 @@
   position: relative;
 }
 
-.logicdriveright {
+.foodDeliveryAdvanceTechright {
   width: 45%;
   height: 100%;
   display: flex;
@@ -36,9 +36,9 @@
   gap: 20px;
 }
 
-.logicdriveright > div {
+.foodDeliveryAdvanceTechright > div {
   padding: 10px 10px 10px 10px;
-  height: 250px;
+  height: 160px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 
-.logicdriveright > div:hover {
+.foodDeliveryAdvanceTechright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
   /* margin-top: 0; */
@@ -57,12 +57,12 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.logicdriveright > div > h3 {
+.foodDeliveryAdvanceTechright > div > h3 {
   font-size: 18px;
   margin-top: 0%;
 }
 
-.logicdriveright > div > p {
+.foodDeliveryAdvanceTechright > div > p {
   margin-top: 0%;
   margin-top: -2%;
   /* border: 1px solid red; */
@@ -96,7 +96,7 @@
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .logicdrive {
+  .foodDeliveryAdvanceTech {
     width: 100%;
     height: max-content;
     margin: 60px 0;
@@ -104,7 +104,7 @@
     /* background-color: cornflowerblue; */
   }
 
-  .logicdrive > h1 {
+  .foodDeliveryAdvanceTech > h1 {
     /* margin-left: 50%; */
     margin-left: 35%;
     width: 60%;
@@ -113,7 +113,7 @@
     /* border: 1px solid black; */
   }
 
-  .logicdrivesub {
+  .foodDeliveryAdvanceTechsub {
     /* border: 1px solid red; */
     width: 100%;
     margin-top: 2%;
@@ -123,7 +123,7 @@
     align-items: center;
   }
 
-  .logicdriveleft {
+  .foodDeliveryAdvanceTechleft {
     margin-left: 15%;
     /* border: 1px solid red; */
     width: 50%;
@@ -134,7 +134,7 @@
     position: relative;
   }
 
-  .logicdriveright {
+  .foodDeliveryAdvanceTechright {
     /* border: 1px solid red; */
     width: 100%;
     height: 100%;
@@ -144,7 +144,7 @@
     margin-left: 10%;
   }
 
-  .logicdriveright > div {
+  .foodDeliveryAdvanceTechright > div {
     /* border: 1px solid black; */
     padding: 10px 10px 10px 10px;
     height: 170px;
@@ -156,7 +156,7 @@
     cursor: pointer;
   }
 
-  .logicdriveright > div:hover {
+  .foodDeliveryAdvanceTechright > div:hover {
     background-color: #e1f9f6;
     cursor: pointer;
     /* margin-top: 0; */
@@ -166,13 +166,13 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .logicdriveright > div > h3 {
+  .foodDeliveryAdvanceTechright > div > h3 {
     font-size: 18px;
     margin-top: 0%;
     margin-bottom: 3%;
   }
 
-  .logicdriveright > div > p {
+  .foodDeliveryAdvanceTechright > div > p {
     margin-top: 0%;
     /* border: 1px solid red; */
   }
@@ -203,7 +203,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .logicdrive {
+  .foodDeliveryAdvanceTech {
     width: 100%;
     height: max-content;
     margin: 60px 0;
@@ -211,7 +211,7 @@
     /* background-color: cornflowerblue; */
   }
 
-  .logicdrive > h1 {
+  .foodDeliveryAdvanceTech > h1 {
     /* margin-left: 50%; */
     margin-left: 35%;
     width: 60%;
@@ -220,7 +220,7 @@
     /* border: 1px solid black; */
   }
 
-  .logicdrivesub {
+  .foodDeliveryAdvanceTechsub {
     /* border: 1px solid red; */
     width: 100%;
     margin-top: 2%;
@@ -230,7 +230,7 @@
     align-items: center;
   }
 
-  .logicdriveleft {
+  .foodDeliveryAdvanceTechleft {
     margin-left: 15%;
     /* border: 1px solid red; */
     width: 50%;
@@ -241,7 +241,7 @@
     position: relative;
   }
 
-  .logicdriveright {
+  .foodDeliveryAdvanceTechright {
     /* border: 1px solid red; */
     width: 100%;
     height: 100%;
@@ -251,7 +251,7 @@
     margin-left: 10%;
   }
 
-  .logicdriveright > div {
+  .foodDeliveryAdvanceTechright > div {
     /* border: 1px solid black; */
     padding: 10px 10px 10px 10px;
     height: 170px;
@@ -263,7 +263,7 @@
     cursor: pointer;
   }
 
-  .logicdriveright > div:hover {
+  .foodDeliveryAdvanceTechright > div:hover {
     background-color: #e1f9f6;
     cursor: pointer;
     /* margin-top: 0; */
@@ -273,13 +273,13 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .logicdriveright > div > h3 {
+  .foodDeliveryAdvanceTechright > div > h3 {
     font-size: 18px;
     margin-top: 0%;
     margin-bottom: 3%;
   }
 
-  .logicdriveright > div > p {
+  .foodDeliveryAdvanceTechright > div > p {
     margin-top: 0%;
     /* border: 1px solid red; */
   }

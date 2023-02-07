@@ -1,32 +1,32 @@
-.logiccustomer {
+.foodDeliveryExclusiveApp {
   width: 100%;
   height: max-content;
   /* background-color: aqua; */
   margin: 60px 0;
 }
-.logiccustomer > h1 {
+.foodDeliveryExclusiveApp > h1 {
   margin-left: 6%;
 }
-.logiccustomersub {
+.foodDeliveryExclusiveAppsub {
   width: 100%;
   justify-content: space-between;
   margin: auto;
   display: flex;
   align-items: center;
 }
-.logiccustomerleft {
+.foodDeliveryExclusiveAppleft {
   width: 45%;
   height: 500px;
   padding: 10px;
   display: flex;
   /* background: url("/public/Images/logistic/rectanglebase.png"); */
-
   background-position: center;
   position: relative;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-.logiccustomerright {
+
+.foodDeliveryExclusiveAppright {
   width: 45%;
   height: 100%;
   display: flex;
@@ -37,9 +37,9 @@
   justify-content: center;
 }
 
-.logiccustomerright > div {
+.foodDeliveryExclusiveAppright > div {
   padding: 10px 10px 10px 10px;
-  height: 270px;
+  height: 160px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-.logiccustomerright > div:hover {
+.foodDeliveryExclusiveAppright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
   /* margin-top: 0; */
@@ -57,7 +57,8 @@
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.logiccustomerright > div > h3 {
+
+.foodDeliveryExclusiveAppright > div > h3 {
   font-size: 18px;
   /* border: 1px solid red; */
   margin-top: 0%;
@@ -82,20 +83,20 @@
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .logiccustomer {
+  .foodDeliveryExclusiveApp {
     width: 100%;
     height: max-content;
     /* background-color: aqua; */
     margin: 60px 0;
   }
 
-  .logiccustomer > h1 {
+  .foodDeliveryExclusiveApp > h1 {
     margin-left: 25%;
     /* margin-bottom: 5%; */
     font-size: 30px;
   }
 
-  .logiccustomersub {
+  .foodDeliveryExclusiveAppsub {
     width: 100%;
     justify-content: space-between;
     margin: auto;
@@ -103,7 +104,7 @@
     align-items: center;
   }
 
-  .logiccustomerleft {
+  .foodDeliveryExclusiveAppleft {
     /* border: 1px solid red; */
     margin-top: 30%;
     width: 50%;
@@ -117,7 +118,7 @@
     border-bottom-left-radius: 15px;
   }
 
-  .logiccustomerright {
+  .foodDeliveryExclusiveAppright {
     /* border: 1px solid red; */
     width: 100%;
     height: 100%;
@@ -129,7 +130,7 @@
     justify-content: center;
   }
 
-  .logiccustomerright > div {
+  .foodDeliveryExclusiveAppright > div {
     padding: 10px 10px 10px 10px;
     height: 200px;
     width: 95%;
@@ -140,7 +141,7 @@
     cursor: pointer;
   }
 
-  .logiccustomerright > div:hover {
+  .foodDeliveryExclusiveAppright > div:hover {
     background-color: #e1f9f6;
     cursor: pointer;
     /* margin-top: 0; */
@@ -150,7 +151,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .logiccustomerright > div > h3 {
+  .foodDeliveryExclusiveAppright > div > h3 {
     font-size: 18px;
     /* border: 1px solid red; */
     margin-top: 0%;
@@ -174,20 +175,20 @@
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .logiccustomer {
+  .foodDeliveryExclusiveApp {
     width: 100%;
     height: max-content;
     /* background-color: aqua; */
     margin: 60px 0;
   }
 
-  .logiccustomer > h1 {
+  .foodDeliveryExclusiveApp > h1 {
     margin-left: 35%;
     /* margin-bottom: 5%; */
     font-size: 40px;
   }
 
-  .logiccustomersub {
+  .foodDeliveryExclusiveAppsub {
     width: 100%;
     justify-content: space-between;
     margin: auto;
@@ -195,7 +196,7 @@
     align-items: center;
   }
 
-  .logiccustomerleft {
+  .foodDeliveryExclusiveAppleft {
     /* border: 1px solid red; */
     margin-top: 30%;
     width: 50%;
@@ -209,7 +210,7 @@
     border-bottom-left-radius: 15px;
   }
 
-  .logiccustomerright {
+  .foodDeliveryExclusiveAppright {
     /* border: 1px solid red; */
     width: 100%;
     height: 100%;
@@ -221,7 +222,7 @@
     justify-content: center;
   }
 
-  .logiccustomerright > div {
+  .foodDeliveryExclusiveAppright > div {
     /* border: 1px solid red; */
     margin-top: 2%;
     padding: 10px 10px 10px 10px;
@@ -234,7 +235,7 @@
     cursor: pointer;
   }
 
-  .logiccustomerright > div:hover {
+  .foodDeliveryExclusiveAppright > div:hover {
     background-color: #e1f9f6;
     cursor: pointer;
     /* margin-top: 0; */
@@ -244,7 +245,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .logiccustomerright > div > h3 {
+  .foodDeliveryExclusiveAppright > div > h3 {
     font-size: 25px;
     margin-top: 0%;
     margin-bottom: 0%;

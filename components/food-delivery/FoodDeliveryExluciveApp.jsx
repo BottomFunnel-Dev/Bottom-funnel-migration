@@ -4,11 +4,11 @@ import styles from "./FoodDeliveryExluciveApp.module.css";
 export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
   const [active, setActive] = useState(0);
   return (
-    <div className={styles.logiccustomer}>
+    <div className={styles.foodDeliveryExclusiveApp}>
       <h1>{foodDeliverycustomerdata.sectionTitle}</h1>
       
-      <div className={styles.logiccustomersub}>
-        <div className={styles.logiccustomerright}>
+      <div className={styles.foodDeliveryExclusiveAppsub}>
+        <div className={styles.foodDeliveryExclusiveAppright}>
           {foodDeliverycustomerdata.foodDeliverycustomerdata.map(({ title, icon, para }, idx) => {
             return (
               <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`} >
@@ -23,7 +23,7 @@ export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
           })}
         </div>
 
-        <div className={styles.logiccustomerleft}
+        <div className={styles.foodDeliveryExclusiveAppleft}
           style={{
             background: `url(${foodDeliverycustomerdata.background})`,
             backgroundRepeat: "no-repeat",

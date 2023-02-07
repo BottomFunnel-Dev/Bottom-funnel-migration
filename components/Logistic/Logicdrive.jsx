@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Logicdrive.module.css";
+
 export default function Logicdrive({ driveData }) {
   const [active, setActive] = useState(0);
   return (
