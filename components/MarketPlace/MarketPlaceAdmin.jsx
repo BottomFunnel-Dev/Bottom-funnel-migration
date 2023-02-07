@@ -42,13 +42,13 @@ const MarketPlaceAdmin = () => {
       <div className={styles.marketplaceflexboxforadmin}>
         <div className={styles.marketplaceadminbackgroundimagebanner}>
           <div className={styles.marketplaceadminbackgroundimagebannertextbox}>
-            <h2>Admin's Website & App</h2>
+            <h2> Admin's Website & App </h2>
             <p>
               Admin’s website and mobile app design layout, matching the entrepreneurs’ needs for a reliable attract and growth business.
               Allowing them to connect quickly, easily, and transparently.
             </p>
           </div>
-          
+
           <div className={styles.marketplaceadminboxingfordoingflex}>
             <div className={styles.marketplaceadminflexboxing}>
               {marketplaceAdminrData.map((el) => {
@@ -61,14 +61,13 @@ const MarketPlaceAdmin = () => {
                   >
                     <div className={styles.marketplaceadminflexboxingforimagecontain}>
                       <img className={styles.marketplaceadminlogo}
-                        src={el.img}
-                        alt="image"
+                        src={el.img} alt="image"
                       />
                     </div>
 
                     <div className={styles.marketplaceadminflexboxingfortxtcontain}>
-                      <h5>{el.Htxt}</h5>
-                      <p>{el.stxt}</p>
+                      <h5> {el.Htxt} </h5>
+                      <p> {el.stxt} </p>
                     </div>
                   </div>
                 );
@@ -77,7 +76,12 @@ const MarketPlaceAdmin = () => {
           </div>
         </div>
 
-        <div className={styles.marketplaceadminchangableimagecontent}>
+        <div className={styles.marketplaceadminchangableimagecontent}
+          style={{
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "contain",
+            backgroundPosition: "center",
+          }}>
           <img className={styles.imageboxmarketplaceadmin}
             src={imageChange}
             alt="marketplacebanner"

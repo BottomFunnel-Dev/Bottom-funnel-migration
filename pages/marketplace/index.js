@@ -44,10 +44,10 @@ export default function MarketPlace() {
         />
         <MarketplaceBanner />
         <MarketplaceFreelancer />
-        {/* <MarketPlaceAdmin /> */}
-        {/* <MarketPlaceClients /> */}
-        {/* <Marketplaceborder /> */}
-        {/* <Maketplacefooter /> */}
+        <MarketPlaceAdmin />
+        <MarketPlaceClients />
+        <Marketplaceborder />
+        <Maketplacefooter />
 
         <StoriesSection />
         {/* <Industries /> */}
