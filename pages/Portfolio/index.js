@@ -1,4 +1,11 @@
 import React from 'react'
+import ContectForm from '../../components/CommonComponents/ContectForm/ContectForm'
+import { TextDropdown } from '../../components/CommonComponents/faqSection/Faqs'
+import MainFooter from '../../components/CommonComponents/FooterSection/MainFooter'
+import OndemandSection from '../../components/CommonComponents/OnDemandSection/OndemandSection'
+import PlanProject from '../../components/CommonComponents/PlanProject/PlanProject'
+import { SeoblogSection } from '../../components/CommonComponents/SeoBlogs/Seoblogs'
+import StoriesSection from '../../components/CommonComponents/StoriesSection/StoriesSection'
 import Navbar from '../../components/Navbar/Navbar'
 
 import { Amydus } from '../../components/Portfolio/Amydus/Amydus'
@@ -26,6 +33,7 @@ import { Voylla } from '../../components/Portfolio/Voylla/Voylla'
 import { WifiStudy } from '../../components/Portfolio/WifiStudy/WifiStudy'
 import { Yanbal } from '../../components/Portfolio/Yanbal/Yanbal'
 import { Younity } from '../../components/Portfolio/Younity/Younity'
+import Revamping from '../../components/revamping/Revamping'
 
 export default function Portfolio () {
   return (
@@ -44,30 +52,39 @@ export default function Portfolio () {
     <Nextholiday />
     <Ciana />
     <Jamboshop />
-    <Sportasy />
-    <Travelflap />
+   <Sportasy /> 
+   <Travelflap /> 
     <Oncart />
-    <SPJElectronics />
+   <SPJElectronics /> 
     <Blueberry />
-    <Blueberrytravel />
+      <Blueberrytravel /> 
     <MukundaGeneral />
-    <AnandamGreens/>
+     <AnandamGreens/> 
     <Voylla />
-    <CattleCountry />
+    <CattleCountry /> 
     <Roshiwelness />
     <JaipurRugs />
     <Yanbal />
     <Physicsfunshop />
     <Amydus />
-    <Myteam />
    <Taxwink />
-
-   
-    
-    <Tigmoo />
+   <Myteam />
+     <Tigmoo />
     <Younity />
     <Salesbot />
     <WifiStudy />
+
+
+    <StoriesSection />
+    {/* <Industries /> */}
+    <PlanProject />
+    <OndemandSection />
+    {/* <PortFolio /> */}
+    <SeoblogSection />
+    <Revamping />
+    <TextDropdown />
+    <ContectForm />
+    <MainFooter />
   
    
  

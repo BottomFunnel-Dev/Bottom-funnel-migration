@@ -1,24 +1,27 @@
 .yanbalmainboxes{
     height: 85vh;
-    /* border: 1px solid transparent; */
     display: flex;
     background: url("/Images/portfolio/Sportasy/background/Group 770828.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
     display: flex;
 }
 
 
 .yanballeftboxes{
     width: 50%;
-    /* border: 2px solid green; */
     margin-top: 5%;
     margin-left: 3%;
 }
 
-.yanballeftboxinsiderflexbox{
+.yanballeftboxes>p{
+    font-size: 14px;
+    text-align: justify;
+}
 
+
+
+.yanballeftboxinsiderflexbox{
 width: 90%;
 margin: auto;
 height: fit-content;
@@ -28,7 +31,7 @@ padding-top: 5%;
 }
 
 .yanbalplusbold{
-    font-weight: 900;
+font-weight: 900;
 }
 
 .yanbalindibox{
@@ -62,6 +65,7 @@ padding-top: 5%;
 border-right: 1px solid black;
     margin-left: 2%;
     padding: 7px;
+   
 }
 
 .yanabaliconandeoid:last-child{
@@ -69,6 +73,11 @@ border-right: 1px solid black;
 
 }
 
+.androidappicon>img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
 
 
 .yanabaliconandeoid>img{
@@ -82,13 +91,15 @@ border-right: 1px solid black;
     padding: 15px;
 }
 
-
-
-
 .yanbalrightboxes{
     width: 50%;
-  
+    height: 100%;
+    overflow: hidden;
 }
+
+
+
+
 
 .yanabalbuttonalongflex{
     padding: 10px 50px;

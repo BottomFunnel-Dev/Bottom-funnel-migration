@@ -1,118 +1,129 @@
-.anandamgreensmainboxes{
+.yanbalmainboxes{
     height: 85vh;
-    /* border: 1px solid red; */
-    background: url("/Images/portfolio/ciana/background/Group 372.png");
+    display: flex;
+    background: url("/Images/portfolio/Portfolio banners/ciana.png");
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
-
 }
 
-.portfolioanandamgreensleftbox{
-    height: 100%;
+
+.yanballeftboxes{
     width: 50%;
+    margin-top: 5%;
     margin-left: 3%;
-    margin-top: 5%;
-    /* border: 1px solid green; */
- 
 }
 
-.portfolioanandamgreensrightbox{
-    width: 50%;
-    margin-top: 5%;
-    margin-right: 3%;
-}
-
-
-.portfolioanandamgreensrightbox>p{
-    font-size: smaller;
+.yanballeftboxes>p{
+    font-size: 14px;
     text-align: justify;
 }
 
-.nextholidayrightinsideflexbox{
-    /* border: 1px solid red; */
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
+.yanballeftboxinsiderflexbox{
+width: 90%;
+margin: auto;
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+padding-top: 5%;
 }
 
-.nextholidaywrapbox1{
-    /* border: 1px solid green; */
+.yanbalplusbold{
+font-weight: 900;
+}
+
+.yanbalindibox{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.yanbalindibox>h5{
+    font-weight: 800;
+
+}
+
+.yanbalindibox p{
+    width: 60%;
+}
+
+.yanbaliconflexbox{
+   
     width: 40%;
-    margin: 3%;
-    padding: 5px;
-    }
-    
-    .nextholidaywrapbox1>h5{
-        font-weight: 900;
-        font-size: 15px;
-        text-align: center;
-     
-    }
-    
-    .nextholidaywrapbox1>p{
-        font-size: 12px;
-        text-align: center;
-        margin-top: -0%;    
-    
-    }
-
-    .portfolioavailableonicon{
+    height: 40%;
     display: flex;
-      margin: auto;
-      width: 40%;
-    
-    }
-    
-    .porfolionextholidayicon{
-    margin-left: 30%;
-    height: 55%;
-    width: 50%;
+    margin-left: -0%;
+   
 
-        
-         }
-         
-.porfolionextholidayicon>img{
+}
+
+.yanabaliconandeoid{
+    width: 30%;
+    height: 80%;
+
+    /* margin-left: 30%; */
+    padding: 7px;
+   
+}
+
+
+
+
+.androidappicon>img{
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+
+.yanabaliconandeoid>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.yanballogoboxingalongflex{
+
+    width: 30%;
+    height: 20%;
+
+}
+
+.yanballogoboxingalongflex>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
 
-         
 
-    .androidappicon>img{
-        height: 50%;
-        width: 50%;
-        object-fit: contain;
-    }
-    .nextholidaywrapboximages{
-        width: 40%;
-        height: 5%;
-      margin-left: 8%;
-    
-    }
-    .nextholidaywrapboximages>img{
-        height: 100%;
-        width: 70%;
-        object-fit: contain;
-    }
+.yanbalrightboxes{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
 
-    .nextholidayviewcasebutton{
-        padding: 10px 50px;
-      border-radius: 100px;
-      width: 220px;
-      background-color: transparent;
-      border: #ef4c23;
-      outline: none;
-      box-shadow: black 0px 0px 2px;
-      font-size: 14px;
-      font-weight: 600;
-      color: black;
-      margin-left: 25%;
-      margin-top: 15%;
-    }
-    
-    .nextholidayviewcasebutton:hover{
-        background-color: white;
-        color: black;
-    }
+
+
+
+
+.yanabalbuttonalongflex{
+    padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: transparent;
+  border: #ef4c23;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+
+.yanabalbuttonalongflex:hover{
+    background-color: white;
+    color: black;
+}
