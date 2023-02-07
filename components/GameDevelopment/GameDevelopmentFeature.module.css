@@ -27,11 +27,13 @@
 
 .gamedevelopmentanotherdivforboxesforfeatures > div {
   width: 25%;
+  height: 10%;
   padding: 3% 1%;
   border: 1px solid #3db3a2;
   border-radius: 10px;
   text-align: center;
 }
+
 
 .gamedevelopmentanotherdivforboxesforfeatures > div:hover {
   transform: scale(1.1);

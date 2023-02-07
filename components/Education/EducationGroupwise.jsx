@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EducationGroupwise.module.css";
 
@@ -30,10 +31,20 @@ export const EducationGroupwise = () => {
               and Twitter with a single Freshdesk account.
             </p>
             <div className={styles.educationgroupimageboxflexsideleft}>
-              <img
-                src="/Images/Education/vectors/Group 770618.png"
-                alt="images"
-              />
+ 
+
+              <Image
+          src={"/Images/Education/vectors/Group 770618.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+
+
+
             </div>
           </div>
 
@@ -46,10 +57,17 @@ export const EducationGroupwise = () => {
               done faster.
             </p>
             <div className={styles.educationgroupimageboxflexsideright}>
-              <img
-                src="/Images/Education/vectors/Group 770627.png"
-                alt="images"
-              />
+           
+            <Image
+          src={"/Images/Education/vectors/Group 770627.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+
+
             </div>
           </div>
         </div>

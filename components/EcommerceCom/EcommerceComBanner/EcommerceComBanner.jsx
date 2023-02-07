@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComBanner.module.css";
 
@@ -16,10 +17,18 @@ export const EcommerceComBanner = () => {
         <button>GET STARTED</button>
       </div>
       <div className={styles.eCommerceBannerImage}>
-        <img
-          src="Images/EcommercePhotos/banner.png"
-          alt="e-commerce banner image"
-        />
+    
+        <Image
+        src={"/Images/EcommercePhotos/banner.webp"}
+        alt={"e-commerce banner image"}
+        width={"0"}
+        height={"0"}
+        sizes={"100vw"}
+        style={{ width: "100%", height: "100%" }}
+        />
+
+
+
       </div>
     </div>
   );

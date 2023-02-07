@@ -1,20 +1,21 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComShopping.module.css";
 
 export const EcommerceComShopping = () => {
   let shoppingAppData = {
     backgroundImage: {
-      src: "Images/EcommercePhotos/background-yellow.png",
+      src: "/Images/EcommercePhotos/background-yellow.webp",
       alt: "Shopping mobile app background image",
     },
     mainImage: {
-      src: "Images/EcommercePhotos/shopping-app.png",
+      src: "/Images/EcommercePhotos/shopping-app.webp",
       alt: "Shopping mobile app main image",
     },
     cardsData: [
       {
         image: {
-          src: "Images/EcommercePhotos/one.png",
+          src: "/Images/EcommercePhotos/one.webp",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -23,7 +24,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/two.png",
+          src: "/Images/EcommercePhotos/two.webp",
           alt: "user-friendly interface logo",
         },
         description:
@@ -32,7 +33,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/three.png",
+          src: "/Images/EcommercePhotos/three.webp",
           alt: "Order food and track their service logo",
         },
         description:
@@ -41,7 +42,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/four.png",
+          src: "/Images/EcommercePhotos/four.webp",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
@@ -50,7 +51,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/five.png",
+          src: "/Images/EcommercePhotos/five.webp",
           alt: "Dummy text logo",
         },
         description:
@@ -59,7 +60,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "Images/EcommercePhotos/six.png",
+          src: "/Images/EcommercePhotos/six.webp",
           alt: "Dummy text logo",
         },
         description:
@@ -73,18 +74,31 @@ export const EcommerceComShopping = () => {
     <div className={styles.eCommerceShoppingMain}>
       <div className={styles.eCommerceShoppingImagesMain}>
         <div>
-          <img
-            src={shoppingAppData.backgroundImage.src}
-            alt={shoppingAppData.backgroundImage.alt}
-            style={{ zIndex: "1" }}
-          />
+       
+
+          <Image
+          src={shoppingAppData.backgroundImage.src}
+          alt={shoppingAppData.backgroundImage.alt}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" ,  zIndex: "1"  }}
+        />
+
+
         </div>
         <div>
-          <img
-            src={shoppingAppData.mainImage.src}
-            alt={shoppingAppData.mainImage.alt}
-            style={{ zIndex: "4" }}
-          />
+      
+      <Image
+          src={shoppingAppData.mainImage.src}
+          alt={shoppingAppData.mainImage.alt}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" ,  zIndex: "4" }}
+        />
+
+
         </div>
       </div>
       <div className={styles.eCommerceVendorPanelCardsMain}>
@@ -96,7 +110,16 @@ export const EcommerceComShopping = () => {
                 return (
                   <div className={styles.eCommerceVendorPanelCards} key={idx}>
                     <div className={styles.eCommerceVendorPanelCardsLogo}>
-                      <img src={image.src} alt={image.alt} />
+                      
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "10%", height: "100%" }}
+                    />
+
                     </div>
                     <div className={styles.eCommerceVendorPanelCardsContent}>
                       <h5>{title}</h5>
