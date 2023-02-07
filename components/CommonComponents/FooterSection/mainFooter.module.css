@@ -323,7 +323,9 @@ padding: 8px 0;
 .logoBottom {
   width: 100%;
   position: relative;
+  margin-bottom: 8%;
 }
+
 .footerLogo > div > img {
   width: 60%;
   height: 75%;
