@@ -60,7 +60,7 @@
 }
 
 .canabisdeliveryappindivisualboxforlogo > img {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100%;
   width: 100%;
   object-fit: contain;

@@ -22,45 +22,44 @@ export default function MarketPlace() {
   return (
     <>
       <Head>
-      <title>MarketPlace web App Development
- Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="At our web development company, we understand that a 
+        <title> MarketPlace web App Development Company | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="At our web development company, we understand that a 
         successful marketplace requires a well-designed and user-friendly 
         web app. That's why we offer top notch marketplace web app 
         development solutions that will meet your exact requirements!"
-      />
-   </Head>
-   
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <MarketplaceBanner />
-      <MarketplaceFreelancer />
-      <MarketPlaceAdmin />
-      <MarketPlaceClients />
-      <Marketplaceborder />
-      <Maketplacefooter />
+        />
+      </Head>
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <MarketplaceBanner />
+        <MarketplaceFreelancer />
+        {/* <MarketPlaceAdmin /> */}
+        {/* <MarketPlaceClients /> */}
+        {/* <Marketplaceborder /> */}
+        {/* <Maketplacefooter /> */}
+
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

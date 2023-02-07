@@ -22,45 +22,46 @@ export default function BeautyandCare() {
   return (
     <>
       <Head>
-      <title>Beauty and Salon Web App Development
- Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="When it comes to online beauty and salon services, our team of 
+        <title>
+          Beauty and Salon Web App Development Company | Bottom Funnel
+        </title>
+        <meta
+          name="description"
+          content="When it comes to online beauty and salon services, our team of 
         experts know just what you need! We will help you develop a web 
         app that provides an excellent user experience, is easy to use, 
         and meets all your business requirements. Contact us today to 
         learn more!"
-      />
-   </Head>
+        />
+      </Head>
 
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <Beautycontainer />
-      <Trusted partnerLogo={beautyLogo} />
-      <Diversesection />
-      <Disscus />
-      <Feature />
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <Beautycontainer />
+        <Trusted partnerLogo={beautyLogo} />
+        <Diversesection />
+        <Disscus />
+        <Feature />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }
