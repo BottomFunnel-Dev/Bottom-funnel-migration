@@ -109,7 +109,7 @@ const MainFooter = () => {
 
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-            <img src="Images/footer/whitelogobottom.png" alt="image" />
+            <img src="Images/footer/whitelogobottom.webp" alt="image" />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
 
