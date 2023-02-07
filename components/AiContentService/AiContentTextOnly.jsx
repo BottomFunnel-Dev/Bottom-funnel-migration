@@ -22,7 +22,7 @@ export const AiContentTextOnly = () => {
         </div>
 
         <div className={styles.aicontentbox1forimage1}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/Wavy_Tech-07_Single-03 3.png' alt='images' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/Wavy_Tech-07_Single-03 3.webp' alt='images' />
         </div>
       </div>
 
@@ -35,13 +35,13 @@ export const AiContentTextOnly = () => {
         </div>
 
         <div className={styles.aicontentbox1forimage1}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 9.png' alt='images' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 9.webp' alt='images' />
         </div>
       </div>
 
       <div className={styles.aicontenttextbox2}>
         <div className={styles.aicontentbox1forimage2}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 11.png' alt='images' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 11.webp' alt='images' />
         </div>
 
         <div className={styles.aicontentbox1fortext2}>
@@ -54,7 +54,7 @@ export const AiContentTextOnly = () => {
 
       <div className={styles.aicontenttextbox2}>
         <div className={styles.aicontentbox1forimage2}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 13.png' alt='images' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 13.webp' alt='images' />
         </div>
 
         <div className={styles.aicontentbox1fortext2}>
@@ -75,7 +75,7 @@ export const AiContentTextOnly = () => {
         </div>
 
         <div className={styles.aicontentbox1forimage1}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 8.png' alt='inage' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 8.webp' alt='inage' />
         </div>
       </div>
 
@@ -88,13 +88,13 @@ export const AiContentTextOnly = () => {
         </div>
 
         <div className={styles.aicontentbox1forimage1}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 10.png' alt='image' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 10.webp' alt='image' />
         </div>
       </div>
 
       <div className={styles.aicontenttextbox2}>
         <div className={styles.aicontentbox1forimage2}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 12.png' alt='image' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 12.webp' alt='image' />
         </div>
 
         <div className={styles.aicontentbox1fortext2}>
@@ -108,7 +108,7 @@ export const AiContentTextOnly = () => {
 
       <div className={styles.aicontenttextbox2}>
         <div className={styles.aicontentbox1forimage2}>
-          <img src='/Images/AiContentsolution/bannersBackgrounds/image 9.png' alt='image' />
+          <img src='/Images/AiContentsolution/bannersBackgrounds/image 9.webp' alt='image' />
         </div>
 
         <div className={styles.aicontentbox1fortext2}>

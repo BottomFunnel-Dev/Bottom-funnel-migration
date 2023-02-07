@@ -22,7 +22,7 @@ export default function SeoGuest() {
     <div>
 
       <Head>
-        <title>SEO Guest Post | Bottom Funnel </title>
+        <title>Professional Guest Posting Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Looking to get exposure for your website or blog by 

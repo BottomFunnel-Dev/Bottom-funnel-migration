@@ -28,9 +28,7 @@ export default function PlantBasedMeat() {
   return (
     <>
      <Head>
-      <title>Plant Based Meat Delivery web 
-App Development Company | 
-Bottom Funnel</title>
+      <title>Plant Based Meat Delivery web and App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Are you looking for a Plant Based Meat Delivery web App 

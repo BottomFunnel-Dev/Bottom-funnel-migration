@@ -24,9 +24,7 @@ export default function CarRentals() {
   return (
     <>
       <Head>
-      <title>Car Rentals Web App 
-Development Company | 
-Bottom Funnel</title>
+      <title>Car Rentals Web App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Wondering how to start your own car rental web app? 

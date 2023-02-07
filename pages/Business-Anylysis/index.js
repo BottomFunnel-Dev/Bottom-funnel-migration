@@ -22,7 +22,7 @@ export default function BusinessAnalysis() {
     return (
         <div>
         <Head>
-        <title>Bottom Funnel | Digital Business Analysis &amp; Project Management</title>
+        <title>Bottom Funnel | Digital Business Analysis Project Management</title>
         <meta
           name="description"
           content="The role of a business analyst is vital in any organization. 

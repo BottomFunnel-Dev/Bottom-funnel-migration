@@ -21,9 +21,7 @@ export default function Icecream() {
   return (
     <>
     <Head>
-      <title>Icecream Web App 
-Development Company | Bottom 
-Funnel
+      <title>Icecream Web App Development Company | Bottom Funnel
 </title>
       <meta
         name="description"

@@ -21,10 +21,13 @@ export default function ReactNativeAppDevelopment() {
   return (
     <>
     <Head>
-     <title>React Native Mobile App Development Company - Bottom Funnel, Cross Platform Application Development </title>
+     <title>React Native App Development Company | Bottom Funnel </title>
      <meta
        name="description"
-       content="Bottom funnel  Mobile App Development Company is top notch mobile app development agency with highly skilled and competent professionals who work in a team and collaborate with each other to achieve exceptional results.We offer best mobile applications development services like Android and React applications, Web based apps, Games and Analytics App building."
+       content="Looking for a reliable React Native development 
+       company? If you're interested in learning how to 
+       design and develop mobile apps using React Native, 
+       read on."
      />
    </Head>
     <main>

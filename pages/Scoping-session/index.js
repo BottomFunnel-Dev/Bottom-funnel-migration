@@ -24,7 +24,7 @@ export default function Scoping() {
     return (
         <div>
         <Head>
-        <title>Scoping Session | Product Idea Scope of Work | Bottom Funnel</title>
+        <title>Scoping Session | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to start your own startup but have no idea on where 

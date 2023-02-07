@@ -23,7 +23,7 @@ export default function News() {
   return (
     <div>
       <Head>
-        <title>News Web App development | Bottom Funnel</title>
+        <title>News Web and App development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="A top news web app development company that can help you 

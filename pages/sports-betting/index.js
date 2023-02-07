@@ -22,7 +22,7 @@ export default function SportsBetting() {
   return (
     <div>
       <Head>
-        <title>Sports Betting App development | Bottom Funnel</title>
+        <title>Sports Betting Web and App development | Bottom Funnel</title>
         <meta
           name="description"
           content="Do you want to bet on sports but don't know where to start? 

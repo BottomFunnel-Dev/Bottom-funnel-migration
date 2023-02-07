@@ -25,9 +25,7 @@ export default function AndroidAppDevelopment() {
         </title>
         <meta
           name="description"
-          content="Bottom funnel, android app development, app development,  Android App UX/UI Design development,
-        bottom funnel app development services, Android App Programming,  Native & Hybrid Android App Development, 
-        App Development for Android Watch and Wearable Devices."
+          content="Get started with Android app development and create innovative, top-quality apps for mobile devices. Our comprehensive guide covers every aspect of developing for Android"
         />
       </Head>
       <main>

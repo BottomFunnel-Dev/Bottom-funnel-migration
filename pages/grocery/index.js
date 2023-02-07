@@ -24,8 +24,7 @@ export default function Grocery() {
 
     <>
       <Head>
-      <title>Grocery web App Development
- Company | Bottom Funnel</title>
+      <title>Grocery web App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Are you looking for a reliable and affordable grocery web app 

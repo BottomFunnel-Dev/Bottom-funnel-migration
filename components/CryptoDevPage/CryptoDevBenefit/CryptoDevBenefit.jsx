@@ -1,26 +1,27 @@
 import React from "react";
 import styles from "./CryptoDevBenefit.module.css";
+import Image from "next/image";
 
 export const CryptoDevBenefit = () => {
   const cardsData = [
     {
       title: "Reduced Transaction Charges",
-      image: "Images/CryptoDevPhotos/transaction.png",
+      image: "/Images/CryptoDevPhotos/transaction.png",
       body: "By offering low or no transaction fees when using cryptocurrencies, Bottom Funnel has simplified the process of trading and investing in crypto as a whole.",
     },
     {
       title: "Swift Transactions",
-      image: "Images/CryptoDevPhotos/invest.png",
+      image: "/Images/CryptoDevPhotos/invest.png",
       body: "With Bottom Funnel, you can now create endless transactions on instant through your crypto wallet - everywhere and always.",
     },
     {
       title: "Advanced Security",
-      image: "Images/CryptoDevPhotos/cryptographic.png",
+      image: "/Images/CryptoDevPhotos/cryptographic.png",
       body: "Bottom Funnel's goal is to provide cryptocurrency solutions for all, with zero fraud involved.",
     },
     {
       title: "Decentralization",
-      image: "Images/CryptoDevPhotos/decentralized.png",
+      image: "/Images/CryptoDevPhotos/decentralized.png",
       body: "Bottom Funnel is a new way to invest in crypto: with tokenized assets, you can be confident that your investment is protected by blockchain technology.",
     },
   ];
@@ -37,7 +38,15 @@ export const CryptoDevBenefit = () => {
         {cardsData.map(({ title, image, body }) => (
           <div className={styles.cryptodevbannerfitindiboxes} key={title}>
             <div>
-              <img src={image} alt={title} />
+              <img src={image} alt={title}/>
+            {/* <Image
+                src={image}
+                alt={title}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              /> */}
             </div>
             <h2>{title}</h2>
             <p>{body}</p>

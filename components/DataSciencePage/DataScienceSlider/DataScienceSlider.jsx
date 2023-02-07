@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import styles from "./DataScienceSlider.module.css";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
 
 export const DataScienceSlider = () => {
   const data = [
-    "Images/DataSciencePhotos/slidericons/torch.png",
-    "Images/DataSciencePhotos/slidericons/tensor.png",
-    "Images/DataSciencePhotos/slidericons/scala.png",
-    "Images/DataSciencePhotos/slidericons/python.png",
-    "Images/DataSciencePhotos/slidericons/programming.png",
-    "Images/DataSciencePhotos/slidericons/java.png",
+    "/Images/DataSciencePhotos/slidericons/torch.webp",
+    "/Images/DataSciencePhotos/slidericons/tensor.webp",
+    "/Images/DataSciencePhotos/slidericons/scala.webp",
+    "/Images/DataSciencePhotos/slidericons/python.webp",
+    "/Images/DataSciencePhotos/slidericons/programming.webp",
+    "/Images/DataSciencePhotos/slidericons/java.webp",
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -73,7 +74,14 @@ export const DataScienceSlider = () => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+              <Image
+                  src={elem}
+                  alt={"images"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
           );
         })}

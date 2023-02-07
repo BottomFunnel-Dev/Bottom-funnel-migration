@@ -25,7 +25,7 @@ export default function SalesForcePage() {
     <div className={styles.SalesforsePageContainer}>
 
       <Head>
-        <title>SalesForce Services | Bottom Funnel</title>
+        <title>SalesForce Development Service Comapany | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to get started with SalesForce Services? Learn 

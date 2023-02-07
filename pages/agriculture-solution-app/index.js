@@ -26,9 +26,7 @@ export default function AgriculturePage() {
   return (
     <>
          <Head>
-      <title>Agriculture Solution Web App 
-Development Company | 
-Bottom Funnel</title>
+      <title>Agriculture Solution Web App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Are you looking for a reliable and affordable Agriculture 

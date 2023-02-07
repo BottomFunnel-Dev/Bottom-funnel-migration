@@ -23,8 +23,7 @@ export default function Cannabis() {
 
     <>
      <Head>
-      <title> Cannabis web App Development
- Company | Bottom Funnel</title>
+      <title> Cannabis web App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Wondering if cannabis Web App development is the right decision 

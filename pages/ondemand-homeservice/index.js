@@ -23,7 +23,7 @@ export default function OnDemandSection() {
   return (
     <div>
       <Head>
-        <title>OnDemandSection Web App development | Bottom Funnel</title>
+        <title>On Demand Home Services web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a company that can develop a web app for

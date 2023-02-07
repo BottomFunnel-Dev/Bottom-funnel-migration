@@ -33,7 +33,14 @@ export const AiHowDoesWorks = () => {
                 </div>
 
                 <div className={styles.aihowdoesitworksleftboximagebox}>
-                    <img src='/Images/AiContentsolution/bannersBackgrounds/Wavy_Tech-07_Single-03 3.png' alt='images' />
+                <Image
+                    src={'/Images/AiContentsolution/bannersBackgrounds/Wavy_Tech-07_Single-03 3.webp'}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                    />
                 </div>
             </div>
 

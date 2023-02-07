@@ -24,8 +24,7 @@ export default function LaundryPage() {
   return (
     <>
       <Head>
-      <title> Laundry Web App Development
- Company | Bottom Funnel</title>
+      <title>Laundry Web and App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Are you looking for a laundry web app development company that 

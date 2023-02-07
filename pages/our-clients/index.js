@@ -26,7 +26,7 @@ export default function OurClients() {
   return (
     <div>
       <Head>
-        <title>Our client| Bottom Funnel SDLC</title>
+        <title>Our client| Bottom Funnel</title>
         <meta
           name="description"
           content="Our company provides best service to our clients. Read on 

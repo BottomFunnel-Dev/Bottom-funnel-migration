@@ -24,7 +24,7 @@ export default function MachineLearning() {
     <div>
 
     <Head>
-     <title>Machine Learning | Bottom Funnel</title>
+     <title>Machine Learning Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Have you been looking to up your
@@ -48,10 +48,10 @@ export default function MachineLearning() {
       />
          <MLBanner />
          <MLPopular />
-        <MLMidBanner />
-       <MLApproach />
-        <MLwhyBF />
-        <CustomWebForm />
+         <MLMidBanner />
+         <MLApproach />
+         <MLwhyBF />
+         <CustomWebForm />
    {/* Other react required components       */}
         <StoriesSection />
         <OndemandSection />

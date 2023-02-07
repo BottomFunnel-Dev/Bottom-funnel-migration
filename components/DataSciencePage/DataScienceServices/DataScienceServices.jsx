@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./DataScienceServices.module.css";
+import Image from "next/image";
 
 export const DataScienceServices = () => {
   const cardData = [
@@ -9,7 +10,7 @@ export const DataScienceServices = () => {
         "Outlining business objectives to meet with data science.",
         "Defining issues with the existing data science solution (if any)",
       ],
-      image: "Images/DataSciencePhotos/point-1.png",
+      image: "/Images/DataSciencePhotos/point-1.webp",
     },
     {
       title: "Data Preparation",
@@ -17,7 +18,7 @@ export const DataScienceServices = () => {
         "Determining data source for data science.",
         "Data collection, transformation and cleaning.",
       ],
-      image: "Images/DataSciencePhotos/point-2.png",
+      image: "/Images/DataSciencePhotos/point-2.webp",
     },
     {
       title: "Machine Learning (ML) Model",
@@ -25,7 +26,7 @@ export const DataScienceServices = () => {
         "Choice of the optimal data science techniques and methods.",
         "Defining the criteria for the future ML model(s) evalutation.",
       ],
-      image: "Images/DataSciencePhotos/point-3.png",
+      image: "/Images/DataSciencePhotos/point-3.webp",
     },
     {
       title: "Delivering Data Science Output",
@@ -33,12 +34,12 @@ export const DataScienceServices = () => {
         "Determining data source for data science.",
         "Data collection, transformation and cleansing.",
       ],
-      image: "Images/DataSciencePhotos/point-4.png",
+      image: "/Images/DataSciencePhotos/point-4.webp",
     },
     {
       title: "User & admin training",
       points: ["Data science support consultations."],
-      image: "Images/DataSciencePhotos/point-5.png",
+      image: "/Images/DataSciencePhotos/point-5.webp",
     },
   ];
 
@@ -55,7 +56,14 @@ export const DataScienceServices = () => {
       <div className={styles.DataScienceServicesMain}>
         {cardData.map(({ title, points, image }) => (
           <div key={title}>
-            <img src={image} alt={title} />
+            <Image
+                src={image}
+                alt={title}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             <ul>
               {points.map((elem) => (
                 <li>{elem}</li>

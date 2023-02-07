@@ -22,8 +22,7 @@ export default function MarketPlace() {
   return (
     <>
       <Head>
-      <title>MarketPlace web App Development
- Company | Bottom Funnel</title>
+      <title>MarketPlace Web and App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="At our web development company, we understand that a 

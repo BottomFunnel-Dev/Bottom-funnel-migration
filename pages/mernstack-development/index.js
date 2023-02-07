@@ -27,7 +27,7 @@ export default function MernPageWebDevelopment() {
   return (
     <div style={{ color: "#393939" }}>
       <Head>
-      <title>MERN Stack Development | Bottom Funnel</title>
+      <title>MERN Stack Development Sevices Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Learn about the different stages of developing 

@@ -25,8 +25,7 @@ export default function PickupDelivery() {
   return (
     <>
     <Head>
-      <title>Pickup and delivery Web App Development
- Company | Bottom Funnel</title>
+      <title>Pickup and delivery Web and App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Are you looking for a reliable pickup and delivery web app 

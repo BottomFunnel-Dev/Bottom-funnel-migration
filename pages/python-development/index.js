@@ -26,7 +26,7 @@ export default function PythonDevelopment() {
   return (
     <div>
       <Head>
-        <title>PythonDevelopment | Bottom Funnel</title>
+        <title>Python Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Python Development is the answer. We are a team of

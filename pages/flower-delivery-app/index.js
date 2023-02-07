@@ -23,8 +23,7 @@ export default function FlowerDelivery() {
   return (
     <>
      <Head>
-      <title>FlowerDelivery Web App Development
- Company | Bottom Funnel</title>
+      <title>Flower Delivery Web App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Want to build a flower-delivery web App but don't know where to 

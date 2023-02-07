@@ -1,6 +1,6 @@
 .aicontentbannermainboxes {
   height: 100vh;
-  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.png");
+  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
   background-size: cover;
   position: relative;
 }
@@ -49,7 +49,7 @@
 @media only screen and (min-width:0px) and (max-width:480px){
 .aicontentbannermainboxes {
   height: 100vh;
-  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.png");
+  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
   background-size: 100% 40%;
   position: relative;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ margin-left: 12%;
 
 .aicontentbannermainboxes {
   height: 50vh;
-  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.png");
+  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;

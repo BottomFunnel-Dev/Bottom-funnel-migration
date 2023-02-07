@@ -26,7 +26,7 @@ export default function RubyRails() {
   return (
     <div>
       <Head>
-        <title>Ruby Development | Bottom Funnel</title>
+        <title>Ruby Development Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Learn how easy it is to develop powerful Ruby 

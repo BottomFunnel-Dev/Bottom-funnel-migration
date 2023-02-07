@@ -23,10 +23,13 @@ export default function FlutterAppDevelopment() {
 
     <>
     <Head>
-    <title>Flutter Mobile App Development Company | Bottom Funnel, Cross Platform Application Development </title>
+    <title>Flutter App Development Company | Bottom Funnel</title>
      <meta
        name="description"
-       content="services for all hybrid platforms with optimum quality standards. We develop mobile Apps using the latest technologies like a flutter, kotlin, designs, and frameworks by leveraging the experience or expertise of experts."
+       content="Looking for top-notch flutter app development 
+       services? Our team offers comprehensive and 
+       thorough solutions. Read on to know about our 
+       offerings."
      />
    </Head>
     <main>

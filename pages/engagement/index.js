@@ -24,7 +24,7 @@ export default function  EngagementModel () {
         <title> Engagement Models - Fixed Price, Time  Material, Dedicated Resource | Bottom Funnel</title>
         <meta
           name="description"
-          content="Bottom Funnel is a modern, efficient way to meet customers' needs. We offer multiple engagement models and pricing options to meet client needs. Bottom Funnel's experienced staff understand how to design engaging websites that will keep visitors interested. Our team can also assist with marketing strategies so your business can reach the maximum number of visitors possible!"
+          content="Bottom Funnel is a modern, efficient way to meet customer's needs. We offer multiple engagement models and pricing options to meet client needs. Bottom Funnel's experienced staff understand how to design engaging websites that will keep visitors interested. Our team can also assist with marketing strategies so your business can reach the maximum number of visitors possible!"
         />
       </Head>
       <main>

@@ -1,32 +1,33 @@
 import React from "react";
 import styles from "./MLPopular.module.css";
+import Image from "next/image";
 
 export const MLPopular = () => {
   const cardsData = [
     {
       title: "Natural Language Processing",
       body: "Frustrated with websites that just don't understand you and your business? Meet Bottom Funnel - a leading provider of all-in-one semantic solutions for web apps and social platforms. We aim to deliver advanced solutions that derive semantic information from human language and speech on the web.",
-      image: "Images/MLPhotos/language.png",
+      image: "/Images/MLPhotos/language.webp",
     },
     {
       title: "Robotic Process Automation",
       body: "We are experts in machine learning and programming, and we understand the complexities involved in creating a bot that can be effective at tasks like driving sales or customer service. Not only that, our team is also capable of understanding your business needs and offering strategic solutions based on them.",
-      image: "Images/MLPhotos/rpa.png",
+      image: "/Images/MLPhotos/rpa.webp",
     },
     {
       title: "Data Mining",
       body: "Bottom Funnel is the answer to all your data analysis questions. We use statistical and mathematical techniques to develop algorithms for analyzing a variety of row data sources and helping in discovering meaningful corrections and patterns. In addition, we help you in making diversions related to your business.",
-      image: "Images/MLPhotos/mining.png",
+      image: "/Images/MLPhotos/mining.webp",
     },
     {
       title: "Enterprise Security",
       body: "We utilize the power of machine learning to analyze the huge volume of data for spotting signs and vulnerabilities of an enterprise security breach. Our advanced algorithms allow us to spot patterns and anomalies in your organization's infrastructure that will help you assess potential vulnerabilities.",
-      image: "Images/MLPhotos/security.png",
+      image: "/Images/MLPhotos/security.webp",
     },
     {
       title: "Deep Learning",
       body: "Our machine learning developers have forged strong relationships with leading universities and universities worldwide to ensure they are on pace with changing AI trends. Our team members are constantly working to improve their skills by attending conferences and workshops that focus on deep learning techniques and AI application development.",
-      image: "Images/MLPhotos/learning.png",
+      image: "/Images/MLPhotos/learning.webp",
     },
   ];
 
@@ -52,7 +53,14 @@ export const MLPopular = () => {
                 <p>{body}</p>
               </div>
               <div className={styles.MLPopularCardsImages}>
-                <img src={image} alt={title} />
+              <Image
+                src={image}
+                alt={title}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
               </div>
             </div>
           );

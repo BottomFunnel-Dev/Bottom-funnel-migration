@@ -23,7 +23,7 @@ export default function Vetting() {
   return (
     <div className={styles.vettingPageContainer}>
       <Head>
-        <title> Our vetting-process | Bottom Funnel </title>
+        <title> Our vetting-Process | Bottom Funnel </title>
         <meta
           name="description"
           content="We know you have a lot of doubts about online hiring. But we are here to change your perception about it! 

@@ -25,7 +25,7 @@ export default function SEOMainPage() {
     <div>
       
       <Head>
-        <title> SEO Services | Bottom Funnel </title>
+        <title>Professional SEO Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to improve your SEO rankings and drive more

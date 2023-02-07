@@ -20,10 +20,8 @@ import Head from "next/head";
 export default function BigDataService() {
   return (
     <div>
-
-
     <Head>
-    <title>BigData Services | Bottom Funnel</title>
+    <title>Big Data Development Services Company | Bottom Funnel</title>
     <meta
       name="description"
       content="Are you looking for a Big Data Company that can 
@@ -32,7 +30,7 @@ export default function BigDataService() {
       include Big Data analysis, data preparation, and 
       more!"
     />
-  </Head>
+    </Head>
 
 
   <main>
@@ -45,7 +43,7 @@ export default function BigDataService() {
           logo: true,
         }}
       />
-      <BigDataServiceBanner />
+     <BigDataServiceBanner />
      <BigDataServicePopular />
      <BigDataServiceHandling />
      <BigDataServiceBF />

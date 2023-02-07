@@ -28,7 +28,7 @@ export default function PhP() {
   return (
     <div style={{ color: "#393939" }}>
       <Head>
-      <title>PHP Development | Bottom Funnel</title>
+      <title>PHP Development Services Company | Bottom Funnel</title>
       <meta
         name="description"
         content="PHP is a widely used programming language.

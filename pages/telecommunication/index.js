@@ -19,7 +19,7 @@ export default function Telecommunication() {
   return (
     <div>
       <Head>
-        <title>Telecommunication Web App development | Bottom Funnel</title>
+        <title>Telecommunication Web and App Development | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a reliable and cost-effective telecommunication 
@@ -28,6 +28,8 @@ export default function Telecommunication() {
         will help you get your business online."
         />
       </Head>
+       
+       <main>
 
       <Navbar
         productMount={{
@@ -52,6 +54,8 @@ export default function Telecommunication() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }

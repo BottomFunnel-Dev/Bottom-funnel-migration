@@ -22,8 +22,7 @@ export default function BeautyandCare() {
   return (
     <>
       <Head>
-      <title>Beauty and Salon Web App Development
- Company | Bottom Funnel</title>
+      <title>Beauty and Salon Web App Developmen Company | Bottom Funnel</title>
       <meta
         name="description"
         content="When it comes to online beauty and salon services, our team of 

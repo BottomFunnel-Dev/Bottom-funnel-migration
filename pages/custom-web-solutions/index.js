@@ -26,7 +26,7 @@ export default function CustomisedWebDevelopment () {
     <div className={styles.CustomisedWebPageContainer}>
 
       <Head>
-        <title> Crypto Currency Development Services | Bottom Funnel</title>
+        <title>Custom Web Solutions Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a unique web solution to meet 

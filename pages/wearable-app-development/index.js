@@ -21,13 +21,10 @@ export default function WearableAppDevelopment() {
   return (
     <>
     <Head>
-     
-     
-      
-     <title>Wearable App Development Services | SmartWatch, AR/VR | BottomFunnel</title>
+     <title>Wearable App Development Services | Bottom Funnel</title>
      <meta
        name="description"
-       content="BottomFunnel IT Solution offers Wearable Device App Development Services for iOS and Android. We are expertise in developing apps for smart watches, Smart Glasses and fitness bands."
+       content="BottomFunnel IT Solution offers Wearable Device App Development Services for iOS and Android. We have expertise in developing apps for smart watches, Smart Glasses and fitness bands."
      />
    </Head>
     <main>

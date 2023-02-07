@@ -208,7 +208,7 @@ export const digitalmarket = [
   {
     dropContent: "PPC Management Services",
     navIcons: "/Images/navbar/services/ppc.png",
-    path: "/seo-ppc",
+    path: "/ppc-services",
   },
   {
     dropContent: "Guest Posting Services",

@@ -16,11 +16,26 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function SeoLinks() {
   return (
     <div>
-   <Navbar
+
+      <Head>
+        <title>SEO Link Building Services Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="SEO Link Building Solutions for businesses. Our
+          link building services focus on providing top-notch 
+         results to our clients. Read on to know more about 
+         these services"
+        />
+      </Head>
+
+      <main>
+
+      <Navbar
         productMount={{
           navMount: false,
         }}
@@ -45,6 +60,8 @@ export default function SeoLinks() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+
+      </main>
     </div>
   );
 }
