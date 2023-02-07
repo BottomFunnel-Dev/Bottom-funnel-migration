@@ -30,7 +30,7 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Navbar
+        {/* <Navbar
           productMount={{
             navMount: false,
           }}
@@ -38,7 +38,7 @@ export default function Home() {
             color: "white",
             logo: true,
           }}
-        />
+        /> */}
 
         <BannerFull />
         <CompanyLogo />
