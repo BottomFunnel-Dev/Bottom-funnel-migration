@@ -20,6 +20,7 @@ import {
 import { BsArrowRight } from "react-icons/bs";
 import ImageCard from "../particularComponents/ImageCardText/ImageCard";
 import { useRouter } from "next/router";
+import Image from "next/image";
 export const NavServices = ({
   serHoverIn,
   serHoverOut,
@@ -69,18 +70,18 @@ export const NavServices = ({
       {sidetoggle === "Technologies" && (
         <div className={navservice.servicedropdownSection}>
           <div className={navservice.serviceDropdownContent}>
-           
-              <h5
-                onClick={() => {
-                  router.push('web-development')
-                  serHoverOut();
-                }}
-                className={navservice.servicenoStyle}
-                style={{ margin: 0 }}
-              >
-                Web Development
-              </h5>
-           
+
+            <h5
+              onClick={() => {
+                router.push('web-development')
+                serHoverOut();
+              }}
+              className={navservice.servicenoStyle}
+              style={{ margin: 0 }}
+            >
+              Web Development
+            </h5>
+
 
             <div className={navservice.servicelistItems}>
               {webservice.map((item, i) => (
@@ -93,10 +94,13 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
                       src={item.navIcons}
-                      alt=""
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
                     />
                   </div>
                   <p className={navservice.servicelinkP}>{item.dropContent}</p>
@@ -140,11 +144,20 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img
                       className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -188,11 +201,19 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt="image"
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -227,11 +248,19 @@ export const NavServices = ({
                   className={navservice.servicetrendImageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -331,11 +360,19 @@ export const NavServices = ({
                   className={navservice.servicebackendimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -363,11 +400,19 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -396,11 +441,19 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -428,11 +481,19 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
@@ -460,11 +521,19 @@ export const NavServices = ({
                   className={navservice.serviceimageIconDivSection}
                 >
                   <div>
-                    <img
-                      className={navservice.serviceiconDivSection}
+                    <Image
+                      src={item.navIcons}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+
+                    {/* <img className={navservice.serviceiconDivSection}
                       src={item.navIcons}
                       alt=""
-                    />
+                    /> */}
                   </div>
                   <Link
                     onClick={serHoverOut}
