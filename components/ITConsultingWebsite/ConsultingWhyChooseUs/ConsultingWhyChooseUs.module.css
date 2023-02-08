@@ -3,14 +3,14 @@
   overflow: hidden;
 }
 
-.consultingServicesWhyChooosecontainer > h1 {
+.consultingServicesWhyChooosecontainer>h1 {
   font-size: 32px;
   width: 90%;
   margin: 1% auto;
   text-align: center;
 }
 
-.consultingServicesWhyChooosecontainer > h1 > span {
+.consultingServicesWhyChooosecontainer>h1>span {
   color: #ef4c23;
 }
 
@@ -18,7 +18,7 @@
   width: 95%;
   height: fit-content;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
 }
 
@@ -27,12 +27,12 @@
   height: 550px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-evenly;
   /* border: 1px solid red; */
 }
 
-.consultingServicesWhyChooosecards > div {
+.consultingServicesWhyChooosecards>div {
   /* border: 1px solid black; */
   border: 1px solid #d9d9d9;
   display: flex;
@@ -43,7 +43,7 @@
   padding: 1%;
 }
 
-.consultingServicesWhyChooosecards > div > p {
+.consultingServicesWhyChooosecards>div>p {
   width: 75%;
   text-align: justify;
   font-size: 16px;
@@ -56,7 +56,7 @@
   margin-left: 2%;
 }
 
-.consultingServicesWhyChooosecards > div > div > h2 {
+.consultingServicesWhyChooosecards>div>div>h2 {
   font-size: 25px;
   /* text-align: center; */
 }
@@ -68,7 +68,7 @@
   background: white;
 } */
 
-.consultingServicesWhyChooosecards > div > div > img {
+.consultingServicesWhyChooosecards>div>div>img {
   height: 100%;
   text-align: left;
   /* border: 1px solid red; */
@@ -80,7 +80,7 @@
   text-align: left;
 }
 
-.consultingServicesWhyChoooseimage > img {
+.consultingServicesWhyChoooseimage>img {
   width: 100%;
 }
 
@@ -94,14 +94,14 @@
   justify-content: space-evenly;
 }
 
-.consultingServicesWhyChooosehrline > div {
+.consultingServicesWhyChooosehrline>div {
   /* border: 2px solid #ef4c23; */
   width: 20px;
   height: 20px;
   border-radius: 20px;
 }
 
-.consultingServicesWhyChooosehrline > span {
+.consultingServicesWhyChooosehrline>span {
   width: 46%;
   height: 2px;
   background-color: #ef4c23;

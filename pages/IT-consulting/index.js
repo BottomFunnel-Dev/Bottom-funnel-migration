@@ -1,16 +1,16 @@
 import React from "react";
 
-import {ItConsultingWebsiteBanner} from "../../components/ITConsultingWebsite/ItConsultingWebsiteBanner/ItConsultingWebsiteBanner";
-import {ConsultingServices} from "../../components/ITConsultingWebsite/ConsultingServices/ConsultingServices";
-import {ConsultingQuestion} from "../../components/ITConsultingWebsite/ConsultingQuestion/ConsultingQuestion";
-import {ConsultingWhyChooseUs} from "../../components/ITConsultingWebsite/ConsultingWhyChooseUs/ConsultingWhyChooseUs";
-import {OurProcess} from "../../components/ITConsultingWebsite/OurProcess/OurProcess";
-import {ConsultingTechTools} from "../../components/ITConsultingWebsite/ConsultingTechTools/ConsultingTechTools";
+import { ItConsultingWebsiteBanner } from "../../components/ITConsultingWebsite/ItConsultingWebsiteBanner/ItConsultingWebsiteBanner";
+import { ConsultingServices } from "../../components/ITConsultingWebsite/ConsultingServices/ConsultingServices";
+import { ConsultingQuestion } from "../../components/ITConsultingWebsite/ConsultingQuestion/ConsultingQuestion";
+import { ConsultingWhyChooseUs } from "../../components/ITConsultingWebsite/ConsultingWhyChooseUs/ConsultingWhyChooseUs";
+import { OurProcess } from "../../components/ITConsultingWebsite/OurProcess/OurProcess";
+import { ConsultingTechTools } from "../../components/ITConsultingWebsite/ConsultingTechTools/ConsultingTechTools";
 
-import {TextDropdown} from "../../components/CommonComponents/faqSection/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import {SeoblogSection} from "../../components/CommonComponents/SeoBlogs/Seoblogs";
+import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
@@ -19,9 +19,8 @@ import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
 export default function ItConsultingWebsite() {
-
-    return (
-        <div>
+  return (
+    <div>
       <Head>
         <title>IT consulting | Bottom Funnel</title>
         <meta
@@ -32,34 +31,33 @@ export default function ItConsultingWebsite() {
         />
       </Head>
       <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <ItConsultingWebsiteBanner />
+        <ConsultingServices />
+        <ConsultingQuestion />
+        <ConsultingWhyChooseUs />
+        <OurProcess />
+        <ConsultingTechTools />
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-            <ItConsultingWebsiteBanner/>
-            <ConsultingServices/>
-            <ConsultingQuestion/>
-            <ConsultingWhyChooseUs/>
-            <OurProcess/>
-            <ConsultingTechTools/> 
-            
-            {/* Other react required components  */}
-            <StoriesSection/>
-            <OndemandSection/> 
-            {/* <PortFolio />  */}
-            <PlanProject/>
-            <SeoblogSection/>
-            <Revamping/>
-            <TextDropdown/>
-            <ContectForm/>
-            <MainFooter/>
-            </main>
-        </div>
-    );
-};
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
+    </div>
+  );
+}
