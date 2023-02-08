@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Jamboshop.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Jambo Shop.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Jambo Shop.json";
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
@@ -19,14 +19,9 @@ export const Jamboshop = () => {
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
-
-    <div className={styles.nextholidayleftboxforimages}>
-    <Lottie style={{
-      marginLeft:"-400%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={500} height={580}   />
+<Lottie  options={lottieDefaultOptions} />
   
-    </div>
+   
     </div>
     
     <div className={styles.nextholidayrighttbox}>

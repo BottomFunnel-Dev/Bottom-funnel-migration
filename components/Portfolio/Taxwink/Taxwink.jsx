@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Taxwink.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/TaxWink.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Tax Wink.json";
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
@@ -21,10 +21,7 @@ export const Taxwink = () => {
     <div className={styles.nextholidayleftbox}>
    
  
-    <Lottie style={{
-      marginLeft:"-80%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={480} height={620}   />
+    <Lottie  options={lottieDefaultOptions}   />
   
 
     </div>

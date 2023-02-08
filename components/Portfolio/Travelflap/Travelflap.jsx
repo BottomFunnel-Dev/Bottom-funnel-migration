@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Travelflap.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Travelflap.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Travel Flap.json";
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
@@ -18,10 +18,7 @@ export const Travelflap = () => {
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <Lottie style={{
-      marginLeft:"-80%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={500} height={620}   />
+    <Lottie  options={lottieDefaultOptions}    />
   
     </div>
     

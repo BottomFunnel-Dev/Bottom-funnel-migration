@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Salesbot.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Salesbot.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Salesboat.json";
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
@@ -20,10 +20,7 @@ export const Salesbot = () => {
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <Lottie style={{
-      marginLeft:"-80%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={550} height={600}   />
+    <Lottie options={lottieDefaultOptions}    />
   
     </div>
     

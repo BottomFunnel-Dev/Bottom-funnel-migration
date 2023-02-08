@@ -108,7 +108,7 @@ color: white;
 @media only screen and (min-width:0px) and (max-width:600px){
 .yanbalmainboxes{
 height: fit-content;
-background: url("/Images/portfolio/My team11/backgrounds/Group 334.png");
+background: url("/Images/portfolio/Portfolio Mobile Responsive/20.png");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 display: flex;
@@ -116,13 +116,20 @@ flex-wrap: wrap;
 flex-direction: column-reverse;
 }
 .yanballeftboxes{
-width: 100%;
+width: 95%;
 height: 50%;
 }
-.yanballeftboxes>p{
-font-size: 14px;
-text-align: justify;
-}
+.yanballeftboxes>h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  }
+  
+  .yanballeftboxes>p{
+  font-size: 14px;
+  text-align: justify;
+  margin: 2%;
+  }
 .yanballeftboxinsiderflexbox{
 width: 100%;
 margin: auto;

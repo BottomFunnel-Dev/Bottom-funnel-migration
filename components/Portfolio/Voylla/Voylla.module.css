@@ -8,13 +8,11 @@ display: flex;
 color: white;
 }
 
-
 .yanballeftboxes{
 width: 50%;
 margin-top: 5%;
 margin-left: 3%;
 }
-
 .yanballeftboxinsiderflexbox{
 width: 90%;
 margin: auto;
@@ -23,11 +21,9 @@ display: flex;
 flex-wrap: wrap;
 padding-top: 5%;
 }
-
 .yanbalplusbold{
 font-weight: 900;
 }
-
 .yanbalindibox{
 width: 45%;
 margin-left: 5%;
@@ -75,7 +71,7 @@ object-fit: contain;
 .yanbalrightboxes{
 width: 50%;
 height: 100%;
-overflow: hidden;
+
 }
 .yanabalbuttonalongflex{
 padding: 10px 50px;
@@ -104,7 +100,7 @@ color: black;
 @media only screen and (min-width:0px) and (max-width:600px){
 .yanbalmainboxes{
 height: fit-content;
-background: url("/Images/portfolio/Portfolio banners/Group 770960.png");
+background: url("/Images/portfolio/Portfolio Mobile Responsive/12.png");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 display: flex;
@@ -115,9 +111,20 @@ flex-direction: column-reverse;
 width: 95%;
 height: 50%;
 }
+.yanballeftboxes>h1{
+text-align: center;
+}
+.yanballeftboxes>h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
 .yanballeftboxes>p{
 font-size: 14px;
 text-align: justify;
+margin: 2%;
 }
 .yanballeftboxinsiderflexbox{
 width: 100%;
@@ -187,8 +194,8 @@ outline: none;
 box-shadow: white 0px 0px 5px;
 font-size: 10px;
 font-weight: 600;
-color: black;
-margin-left: 55%;
+color: white;
+margin-left: 65%;
 margin-top: 15%;
 margin-bottom: 25%;
 }
