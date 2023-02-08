@@ -20,7 +20,7 @@
   box-sizing: border-box;
 }
 
-.servicesideNav>div {
+.servicesideNav > div {
   width: 100%;
   padding: 10px 5px;
   box-sizing: border-box;
@@ -34,12 +34,12 @@
   height: 40px;
 }
 
-.servicesideNav>div:hover {
+.servicesideNav > div:hover {
   color: black;
   background-color: white;
 }
 
-.servicesideNav>div>h6 {
+.servicesideNav > div > h6 {
   margin: 0;
 }
 
@@ -47,7 +47,7 @@
   background-color: white;
 }
 
-.serviceactivetoggle>h6 {
+.serviceactivetoggle > h6 {
   color: black;
   font-size: 18px;
   transition: all 0.2s linear;
@@ -72,7 +72,7 @@
   width: 20%;
 }
 
-.serviceDropdownContent>h4 {
+.serviceDropdownContent > h4 {
   color: #ef4c23;
 }
 
@@ -97,7 +97,7 @@
   /* border: 2px solid salmon; */
 }
 
-.servicelistItems>p:hover {
+.servicelistItems > p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -133,20 +133,21 @@
   /* transition: all 0.3s linear; */
 }
 
-.serviceimageIconDivSection>p {
+.serviceimageIconDivSection > p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.serviceimageIconDivSection>div {
-  width: 18%;
+.serviceimageIconDivSection > div {
+  width: 15%;
+  /* border: 1px solid red; */
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
 }
 
-.serviceimageIconDivSection>div>img {
+.serviceimageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -179,7 +180,7 @@
   flex-direction: column;
 }
 
-.servicetrendListItems>p {
+.servicetrendListItems > p {
   margin: 0;
   padding: 4px;
 }
@@ -221,25 +222,26 @@
   border-left: 3px solid #ef4c23;
 }
 
-.servicetrendImageIconDivSection>p {
+.servicetrendImageIconDivSection > p {
   width: 80%;
   font-size: 14px;
 
   margin: 0;
 }
 
-.servicetrendImageIconDivSection>p:hover {
+.servicetrendImageIconDivSection > p:hover {
   color: #ef4c23;
 }
 
-.servicetrendImageIconDivSection>div {
-  width: 18%;
+.servicetrendImageIconDivSection > div {
+  width: 14%;
+  /* border: 1px solid red; */
   /* background-color: #fce7e2; */
   border-left: 2px solid white;
   height: 30px;
 }
 
-.servicetrendImageIconDivSection>div>img {
+.servicetrendImageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -272,7 +274,7 @@
   /* background-color: aquamarine; */
 }
 
-.servicediscoverleftbottom>h3 {
+.servicediscoverleftbottom > h3 {
   margin: 0;
   /* background-color: aquamarine; */
 }
@@ -334,20 +336,20 @@
   /* transition: all 0.3s linear; */
 }
 
-.servicebackendimageIconDivSection>p {
+.servicebackendimageIconDivSection > p {
   width: 65%;
   font-size: 14px;
   margin: 0;
 }
 
-.servicebackendimageIconDivSection>div {
+.servicebackendimageIconDivSection > div {
   width: 45px;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
 }
 
-.servicebackendimageIconDivSection>div>img {
+.servicebackendimageIconDivSection > div > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -376,7 +378,7 @@
     row-gap: 20px;
   }
 
-  .servicesideNav>h5 {
+  .servicesideNav > h5 {
     font-size: 14px;
   }
 
@@ -410,7 +412,7 @@
     /* background-color: aquamarine; */
   }
 
-  .servicediscoverleftbottom>h3 {
+  .servicediscoverleftbottom > h3 {
     font-size: 18px;
     text-align: center;
   }
@@ -573,7 +575,6 @@
   .servicetrendListItems {
     width: 100%;
     flex-wrap: wrap;
-    
   }
 
   .serviceimageIconDivSection {
@@ -590,7 +591,7 @@
     width: 50%;
   }
 
-  .servicetrendImageIconDivSection{
+  .servicetrendImageIconDivSection {
     width: 50%;
   }
 }

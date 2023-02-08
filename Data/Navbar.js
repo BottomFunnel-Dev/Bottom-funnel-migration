@@ -245,7 +245,7 @@ export const trendingTech = [
   },
   {
     dropContent: "Artificial Intelligence",
-    navIcons: "/Images/NavbarIconsSvg/Trending technologies/artificialintelligence.svg",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/artificialintellegence.svg",
     path: "/artificial-intelligence",
   },
   {
@@ -255,67 +255,67 @@ export const trendingTech = [
   },
   {
     dropContent: "Crypto currency Development",
-    navIcons: "/Images/navbar/services/crypto.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/cryptocurrency.svg",
     path: "/crypto-development",
   },
   {
     dropContent: "Customised Web Development",
-    navIcons: "/Images/navbar/services/customizedwebdev.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/customisedwebdevelopment.svg",
     path: "/custom-web-solutions",
   },
   {
     dropContent: "Virtual Reality Development",
-    navIcons: "/Images/navbar/services/vr.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/virtualreality.svg",
     path: "/virtual-reality",
   },
   {
     dropContent: "Augmented Reality",
-    navIcons: "/Images/navbar/services/ar.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/augmentedreality.svg",
     path: "",
   },
   {
     dropContent: "NFT Development",
-    navIcons: "/Images/navbar/services/nft.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/nftdevelopment.svg",
     path: "/nft-development",
   },
   {
     dropContent: "IoT Development",
-    navIcons: "/Images/navbar/services/iot.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/iotdevelopment.svg",
     path: "/internet-of-things",
   },
   {
     dropContent: "StartUp Solutions",
-    navIcons: "/Images/navbar/services/startup.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/startupsolution.svg",
     path: "/startup-solutions",
   },
   {
     dropContent: "Enterprise Solutions",
-    navIcons: "/Images/navbar/services/enterprise.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/enterprisesolutions.svg",
     path: "/enterprise-solutions",
   },
   {
     dropContent: "Metaverse Services",
-    navIcons: "/Images/navbar/services/guest.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/metaverseservices.svg",
     path: "/metaverse",
   },
   {
     dropContent: "Business Intelligence",
-    navIcons: "/Images/navbar/services/bi.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/Business intellegence.svg",
     path: "/business-intelligence",
   },
   {
     dropContent: "Cloud",
-    navIcons: "/Images/navbar/services/cloud.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/cloud.svg",
     path: "/cloud",
   },
   {
     dropContent: "Salesforce",
-    navIcons: "/Images/navbar/services/salesforce.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/salesforce.svg",
     path: "/salesforce",
   },
   {
     dropContent: "Image analysis software",
-    navIcons: "/Images/navbar/services/iasoft.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/imageanalysissoftware.svg",
     path: "/image-analysis-software",
   },
 ];
