@@ -22,10 +22,10 @@ export default function MobileUiUxDesign() {
   return (
     <>
      <Head>
-     <title>UX UI App Development Company | Hire UX UI Developers | BottomFunnel</title>
+     <title>UI UX App Development Services | Bottom Funnel</title>
      <meta
        name="description"
-       content="Bottom Funnel is the best web design company in India, offers professional & custom website design services including mockup design, graphic UI design e-commerce website design at competitive prices."
+       content="Bottom Funnel is the best web design company in India, we offers professional & custom website design services including mockup design, graphic UI design e-commerce website design at competitive prices."
      />
    </Head>
     <main>

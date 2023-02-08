@@ -6,7 +6,7 @@
   height: 100vh;
   padding-left: 5%;
 
-  background: url("/Images/MLPhotos/banner.png");
+  background: url("/Images/MLPhotos/banner.webp");
   background-size: 110%;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@
     height: 60vh;
     padding-left: 5%;
   
-    background: url("/Images/MLPhotos/banner.png");
+    background: url("/Images/MLPhotos/banner.webp");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@
   height: 70vh;
   padding-left: 5%;
 
-  background: url("/Images/MLPhotos/banner.png");
+  background: url("/Images/MLPhotos/banner.webp");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;

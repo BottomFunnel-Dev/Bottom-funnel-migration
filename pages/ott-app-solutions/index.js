@@ -23,7 +23,7 @@ export default function OTTPage() {
     <div className={styles.ottMain}>
       
       <Head>
-        <title>OTT App Solutions Company | Bottom Funnel</title>
+        <title>OTT Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Wondering how to develop an OTT App? Don't worry, we 

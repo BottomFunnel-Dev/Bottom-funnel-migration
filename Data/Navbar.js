@@ -208,7 +208,7 @@ export const digitalmarket = [
   {
     dropContent: "PPC Management Services",
     navIcons: "/Images/navbar/services/ppc.png",
-    path: "/seo-ppc",
+    path: "/ppc-services",
   },
   {
     dropContent: "Guest Posting Services",
@@ -929,18 +929,19 @@ export const discoverContent = [
     title: "Scoping sessions",
     description: `Enlighten our tech experts about your breakthrough idea in an intensive session. We characterise your product idea and define the Scope of work.`,
     cardImg: "/Images/navbar/discovericons/training.png",
-    path: "/Scoping-session",
+    path: "/scopingsession",
   },
   {
     title: "Business analysis",
     description: `We elicit business needs, study the competitive landscape, perform strategic analysis, and provide bespoke solutions.`,
     cardImg: "/Images/navbar/discovericons/line-chart.png",
-    path: "/Business-Anylysis",
+    path: "/businessanylysis",
   },
   {
     title: "Product discovery workshop & design sprints",
     description: `Define your product strategy, prioritize features and visualize the end results with our strategic Discovery workshops. Validate assumptions with real users and find answers to most pressing concerns with Design Sprint.`,
     cardImg: "/Images/navbar/discovericons/product.png",
+    path: "/productdiscovery",
   },
 ];
 
@@ -1214,7 +1215,7 @@ export const productDesk = [
     productText1: "Delight your customers with effortless omnichannel service",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/omnichannel.png",
-    path:""
+    path: "",
   },
   {
     dropContent: "Customer Sucess",
@@ -1222,7 +1223,7 @@ export const productDesk = [
       "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/customer-sucess.png",
-    path:""
+    path: "",
   },
 ];
 

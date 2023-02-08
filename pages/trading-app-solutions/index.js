@@ -23,11 +23,14 @@ export default function TradingInvestingApp() {
   return (
     <div>
       <Head>
-        <title>Trending App Solution | Bottom Funnel</title>
+        <title>Trading Investing Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
-          content="Are you looking for a trending app solution that will help you save time and money? Look no further, as
-           our team has got you covered. Read on to learn more about our trending app solution and how it can benefit you."
+          content="Are you struggling to find the right Trading Investing Web 
+          App Development Company to support your trading needs?
+           Let us help you find the perfect partner for your project. 
+          We specialize in Trading Investing Web and App Development 
+          and can help you take your business to the next level."
         />
       </Head>
 

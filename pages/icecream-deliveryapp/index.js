@@ -20,46 +20,43 @@ import Head from "next/head";
 export default function Icecream() {
   return (
     <>
-    <Head>
-      <title>Icecream Web App 
-Development Company | Bottom 
-Funnel
-</title>
-      <meta
-        name="description"
-        content="Learn about our innovative Icecream Web App Development 
+      <Head>
+        <title> Icecream Web App Development Company | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Learn about our innovative Icecream Web App Development 
         solutions that will help you drive more sales from your web app 
         and become one of the most successful ice cream businesses 
         out there!"
-      />
-   </Head>
-    <main >
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <IcecreamBanner />
-      <IcecreamCSolution />
-      <IcecreamCustomerApp />
-      <IceCreamAdminPannel />
-      <IceCreamDriverApp />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <IcecreamBanner />
+        <IcecreamCSolution />
+        <IcecreamCustomerApp />
+        <IceCreamAdminPannel />
+        <IceCreamDriverApp />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

@@ -21,11 +21,11 @@ import Head from "next/head";
 export default function Cannabis() {
   return (
     <>
-      <Head>
-        <title> Cannabis web App Development Company | Bottom Funnel</title>
-        <meta
-          name="description"
-          content="Wondering if cannabis Web App development is the right decision 
+     <Head>
+      <title> Cannabis web App Development Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="Wondering if cannabis Web App development is the right decision 
         for your business? Learn about the many benefits of using a 
         cannabis web App development company such as VinCard."
         />

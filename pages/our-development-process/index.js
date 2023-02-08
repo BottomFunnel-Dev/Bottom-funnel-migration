@@ -20,7 +20,7 @@ export default function OurDevelopment () {
   return (
     <div className={styles.ourDevPageContainer}>
       <Head>
-        <title>Our Development Process and Working Methodology | Bottom Funnel SDLC</title>
+        <title>Our Development Process and Working Methodology | Bottom Funnel</title>
         <meta
           name="description"
           content="Bottom Funnel has evolved from a humble beginning as an IT service provider to a leading global software company with widespread presence across the globe."

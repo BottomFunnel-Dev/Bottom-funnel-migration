@@ -22,7 +22,7 @@ export default function VideoStreaming() {
   return (
     <div>
       <Head>
-        <title>Video Stream App development | Bottom Funnel</title>
+        <title>Video Streaming Web and App Development | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you interested in learning more about video stream web 

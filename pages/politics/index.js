@@ -23,7 +23,7 @@ export default function Politics() {
   return (
     <div>
       <Head>
-        <title>Politics Web App development | Bottom Funnel</title>
+        <title>Politics Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a reliable and affordable politics web app 

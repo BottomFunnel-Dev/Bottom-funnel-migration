@@ -26,18 +26,13 @@ export default function JavascriptPage() {
   return (
     <div>
       <Head>
-        <title>Javascript Development | Bottom Funnel</title>
+        <title>Javascript Development Services Company | Bottom Funnel</title>
         <meta
           name="description"
-          content="Are you ready to make a difference? 
-      Then we are the right fit for you. We have been 
-      offering cutting-edge web application services
-       for years, and we have never failed to deliver.
-        Our experts are adept at piecing together the best 
-        systems possible so that your app will run smoothly 
-        at all times. That being said, our team works tirelessly 
-        to ensure that your app is up-to-date and secure - every 
-        step of the way!"
+          content="Looking for Javascript development services? Our 
+          team of top- notch experts offers comprehensive 
+          solutions for building engaging web experiences. 
+          Read on for details"
         />
       </Head>
 

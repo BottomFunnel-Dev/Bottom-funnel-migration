@@ -1,48 +1,40 @@
-.businesschallengemainbox{
+.businesschallengemainbox {
     height: fit-content;
- 
 }
 
-.specialcolor{
+.specialcolor {
     color: #ef4c23;
 }
 
-.businesschallengeonlytextbox{
-   
+.businesschallengeonlytextbox {
     width: 80%;
     margin-left: 3%;
-
     text-align: justify;
-  
 }
 
-.businessanalysisbackgroundimageboxwithitsconnt{
-    background: url("/Images/Businessanalysis/BannersBackgrounds/Component80.png");
+.businessanalysisbackgroundimageboxwithitsconnt {
+    background: url("/Images/Businessanalysis/BannersBackgrounds/Component80.webp");
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     position: relative;
 }
 
-.businessanalysistxtboxinnerbackgroundimage{
+.businessanalysistxtboxinnerbackgroundimage {
     height: fit-content;
     width: 80%;
-
     position: absolute;
     top: 20%;
     left: 3%;
     color: white;
- 
 }
 
-.businessanalysistxtboxinnerbackgroundimageforparagraph{
+.businessanalysistxtboxinnerbackgroundimageforparagraph {
     position: absolute;
     height: fit-content;
     width: 80%;
-
     left: 3%;
     top: 35%;
     color: white;
     font-size: 20px;
-
 }

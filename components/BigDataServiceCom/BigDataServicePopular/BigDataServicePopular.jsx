@@ -1,27 +1,28 @@
 import React from "react";
 import styles from "./BigDataServicePopular.module.css";
+import Image from "next/image";
 
 export const BigDataServicePopular = () => {
   const cardsData = [
     {
       title: "Data Management",
       body: "Bottom funnel is an ultimate partner to handle that data massive. We are experts in creating, managing, and migrating petabyte-scale data lakes and warehouses using the latest advances in technology. Businesses can therefore get optimized storage costs, maintainability, and retrieval. Moreover, our Engineers have hands-on experience in creating large scale distributed systems with efficient storage and retrieval mechanisms.",
-      image: "Images/BigDataServicePhotos/data-management.jpg",
+      image: "/Images/BigDataServicePhotos/data-management.webp",
     },
     {
       title: "DataOps in Big Data Services",
       body: "Big data is an absolute boon for organizations looking to gain ground on the competition. Data analytics and Big Data has become a critical component in how companies make decisions, providing insights that other can't. But as the popularity of this technology continues to grow, it's essential we bring in automation and agile development methodologies to help us optimize our data lifecycle and break down silos across various units within the company.",
-      image: "Images/BigDataServicePhotos/dataOps.jpg",
+      image: "/Images/BigDataServicePhotos/dataOps.webp",
     },
     {
       title: "BI & Analytics for Robust Analytics Solutions",
       body: "Bottom Funnel's Business Intelligence & Analytics practice is helping stakeholders to derive insights from data. Our Big Data teams help build customized dashboards, set up enterprise search, and engineer real-time visualization of data streams. We leverage popular BI tools and build custom platforms using open source technologies to maximize customization and reduce licensing costs.",
-      image: "Images/BigDataServicePhotos/robust.jpg",
+      image: "/Images/BigDataServicePhotos/robust.webp",
     },
     {
       title: "Data Science",
       body: "Bottom Funnel is a top data science firm that has the expertise, skills, and resources to help you get results quickly. We combine cutting-edge analytics with creative design thinking to create intelligent solutions that achieve your goals. So whether you're looking for insights on customer behavior or want to build a predictive model, we have the skill set you need.",
-      image: "Images/BigDataServicePhotos/data-science.jpg",
+      image: "/Images/BigDataServicePhotos/data-science.webp",
     },
   ];
 
@@ -47,11 +48,19 @@ export const BigDataServicePopular = () => {
                 <p>{body}</p>
               </div>
               <div className={styles.BigDataServicePopularCardsImages}>
-                <img
+                {/* <img
                   src={image}
                   alt={title}
                   data-src="https://via.placeholder.com/365x500.png"
-                />
+                /> */}
+                <Image
+                    src={image}
+                    alt={title}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+              />
               </div>
             </div>
           );

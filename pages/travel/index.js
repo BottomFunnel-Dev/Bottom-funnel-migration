@@ -22,7 +22,7 @@ export default function Travel() {
   return (
     <div>
       <Head>
-        <title>Travel Web App development | Bottom Funnel</title>
+        <title>Travel Web and App Development | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a travel web app development company that 

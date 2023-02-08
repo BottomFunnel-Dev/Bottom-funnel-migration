@@ -24,7 +24,7 @@ export default function NFTDevelopment () {
     <div>
 
       <Head>
-        <title>NFT Development Services | Bottom Funnel</title>
+        <title>NFT Development Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Looking for reliable NFT development services? 

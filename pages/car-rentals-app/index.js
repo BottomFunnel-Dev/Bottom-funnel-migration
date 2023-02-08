@@ -24,48 +24,47 @@ export default function CarRentals() {
   return (
     <>
       <Head>
-      <title>Car Rentals Web App 
-Development Company | 
-Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Wondering how to start your own car rental web app? 
+        <title> Car Rentals Web App Development Company | Bottom Funnel </title>
+        <meta
+          name="description"
+          content="Wondering how to start your own car rental web app? 
         Don't worry, we can help! Our web app development company 
         has years of experience in developing car rental web apps for 
         various companies."
-      />
-   </Head>
+        />
+      </Head>
 
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <CarRentalHeader />
-      <FeaturesComp />
-      <GreyBoxComponent />
-      <RenterAppComp />
-      <AdminPannelComp />
-      <CustomerAppComp />
-      <ChooseUsComp />
-      <CarRentalFooter />
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <CarRentalHeader />
+        <FeaturesComp />
+        <GreyBoxComponent />
+        <RenterAppComp />
+        <AdminPannelComp />
+        <CustomerAppComp />
+        <ChooseUsComp />
+        {/* <CarRentalFooter /> */}
+
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

@@ -22,10 +22,10 @@ export default function MarketPlace() {
   return (
     <>
       <Head>
-        <title> MarketPlace web App Development Company | Bottom Funnel </title>
-        <meta
-          name="description"
-          content="At our web development company, we understand that a 
+      <title>MarketPlace Web and App Development Company | Bottom Funnel</title>
+      <meta
+        name="description"
+        content="At our web development company, we understand that a 
         successful marketplace requires a well-designed and user-friendly 
         web app. That's why we offer top notch marketplace web app 
         development solutions that will meet your exact requirements!"

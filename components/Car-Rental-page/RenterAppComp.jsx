@@ -56,7 +56,8 @@ export const RenterAppComp = () => {
                                 handleImageChange(e.img)
                             }}
                         >
-                            <div><h4>{e.head}</h4>
+                            <div>
+                                <h4>{e.head}</h4>
                                 <p>{e.para}</p>
                             </div>
                         </div>

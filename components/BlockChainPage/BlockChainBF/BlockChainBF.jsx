@@ -6,11 +6,11 @@ export const BlockChainBF = () => {
     <div className={styles.BlockChainBFContainer}>
       <div className={styles.BlockChainBFBackgroundRectangle}>
         <img
-          src="Images/BlockChainPhotos/rectangle-right.png"
+          src="/Images/BlockChainPhotos/rectangle-right.webp"
           alt="Background image rectangle right top"
         />
         <img
-          src="Images/BlockChainPhotos/rectangle-left.png"
+          src="/Images/BlockChainPhotos/rectangle-left.webp"
           alt="Background image rectangle left bottom"
         />
       </div>
