@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./KotlinSolutions.module.css";
+import Image from "next/image";
 
 export const KotlinSolutions = () => {
   return (
@@ -22,10 +23,19 @@ export const KotlinSolutions = () => {
           <div className={styles.kotlinSolutionsBox}>
             <div className={styles.kotlinSolutionsContainerBoxes}>
               <div className={styles.kotlinSolutionsBoxIcon}>
-                <img
+              <Image
+          src={"/Images/Kotlin/Icons/platform 1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                {/* <img
                   className={styles.KotlinSolutionImage}
                   src="Images/Kotlin/Icons/platform 1.png"
-                />
+                /> */}
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
@@ -47,10 +57,18 @@ export const KotlinSolutions = () => {
 
             <div className={styles.kotlinSolutionsContainerBoxes}>
               <div className={styles.kotlinSolutionsBoxIcon}>
-                <img
+              <Image
+          src={"/Images/Kotlin/Icons/platform 1-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img
                   className={styles.KotlinSolutionImage}
                   src="Images/Kotlin/Icons/platform 1-1.png"
-                />
+                /> */}
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
@@ -73,10 +91,18 @@ export const KotlinSolutions = () => {
             </div>
             <div className={styles.kotlinSolutionsContainerBoxes}>
               <div className={styles.kotlinSolutionsBoxIcon}>
-                <img
+              <Image
+          src={"/Images/Kotlin/Icons/ux-interface 2-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img
                   className={styles.KotlinSolutionImage}
                   src="Images/Kotlin/Icons/ux-interface 2-1.png"
-                />
+                /> */}
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>
@@ -98,10 +124,18 @@ export const KotlinSolutions = () => {
 
             <div className={styles.kotlinSolutionsContainerBoxes}>
               <div className={styles.kotlinSolutionsBoxIcon}>
-                <img
+              <Image
+          src={"/Images/Kotlin/Icons/solution 2-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img
                   className={styles.KotlinSolutionImage}
                   src="Images/Kotlin/Icons/solution 2-1.png"
-                />
+                /> */}
               </div>
 
               <div className={styles.kotlinSolutionsBoxHeading}>

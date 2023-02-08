@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./WhyFlutter.module.css";
+import Image from "next/image";
 
 export const WhyFlutter = () => {
 
@@ -16,7 +17,15 @@ export const WhyFlutter = () => {
                         <div className={styles.whyFlutterContentScrollerDivContainer}>
                             <div className={styles.whyFlutterContentData}>
                                 <div className={styles.whyFlutterContentIcon}>
-                                    <img src="Images/FlutterDevelopment/Icons/bulb.png" />
+                                <Image
+          src={"/Images/FlutterDevelopment/Icons/bulb.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src="Images/FlutterDevelopment/Icons/bulb.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Custom Design and Navigation
@@ -29,7 +38,15 @@ export const WhyFlutter = () => {
                         <div className={styles.whyFlutterContentScrollerDivContainer}>
                             <div className={styles.whyFlutterContentData}>
                                 <div className={styles.whyFlutterContentIcon}>
-                                    <img src="Images/FlutterDevelopment/Icons/Rectangle 4505.png" />
+                                <Image
+          src={"/Images/FlutterDevelopment/Icons/Rectangle 4505.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4505.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Faster Development Cycle
@@ -42,7 +59,15 @@ export const WhyFlutter = () => {
                         <div className={styles.whyFlutterContentScrollerDivContainer}>
                             <div className={styles.whyFlutterContentData}>
                                 <div className={styles.whyFlutterContentIcon}>
-                                    <img src="Images/FlutterDevelopment/Icons/Rectangle 4506.png" />
+                                <Image
+          src={"/Images/FlutterDevelopment/Icons/Rectangle 4506.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4506.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Ease of Code Sharing
@@ -55,7 +80,18 @@ export const WhyFlutter = () => {
                         <div className={styles.whyFlutterContentScrollerDivContainer}>
                             <div className={styles.whyFlutterContentData}>
                                 <div className={styles.whyFlutterContentIcon}>
-                                    <img src="Images/FlutterDevelopment/Icons/Rectangle 4504-1.png" />
+                                <Image
+          src={"/Images/FlutterDevelopment/Icons/Rectangle 4504-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+
+
+                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4504-1.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Enjoyable User Experience
@@ -68,7 +104,16 @@ export const WhyFlutter = () => {
                         <div className={styles.whyFlutterContentScrollerDivContainer}>
                             <div className={styles.whyFlutterContentData}>
                                 <div className={styles.whyFlutterContentIcon}>
-                                    <img src="Images/FlutterDevelopment/Icons/Rectangle 4505-1.png" />
+                                <Image
+          src={"/Images/FlutterDevelopment/Icons/Rectangle 4505-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4505-1.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Reduced Time for Quality Assurance
@@ -81,7 +126,16 @@ export const WhyFlutter = () => {
                         <div className={styles.whyFlutterContentScrollerDivContainer}>
                             <div className={styles.whyFlutterContentData}>
                                 <div className={styles.whyFlutterContentIcon}>
-                                    <img src="Images/FlutterDevelopment/Icons/Rectangle 4506-1.png" />
+                                <Image
+          src={"/Images/FlutterDevelopment/Icons/Rectangle 4506-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4506-1.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Enhance Performance With Dart
