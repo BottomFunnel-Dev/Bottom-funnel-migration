@@ -1,85 +1,92 @@
-.RGadminPannelContainer{
-    position: relative;
-    margin-top: 10%;
-    display: flex;
-    align-items: center;
+.RGadminPannelContainer {
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
 }
 
-.RGadminPannelTextDiv{
-    position: absolute;
-    height: fit-content;
-    left: 4%;
-    bottom: 100%;
-    width: 36%;
-    /* border: 2px solid red; */
+.RGadminPannelTextDiv {
+  position: absolute;
+  height: fit-content;
+  left: 4%;
+  bottom: 100%;
+  width: 36%;
+  /* border: 2px solid red; */
 }
 
-
-/* .RGadminPannelContainer2{
-    display: flex;
-    align-items: center;
-    border: 4px solid red;
-
-} */
-
-
-.RGadminPannelMobileRightDiv{
-    height: 400px;
-    width: 50%;
-    position: relative;
-    background: url("/public/Images/Car-Rental-Page-Images/Rectangle18529.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    /* border: 2px solid red; */
+.RGadminPannelMobileRightDiv {
+  height: 400px;
+  width: 50%;
+  position: relative;
+  background: url("/public/Images/Car-Rental-Page-Images/Rectangle18529.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  /* border: 2px solid red; */
 }
 
-.RGadminPannelMobileRightDivFrameForImages{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    /* top: 9%; */
-    /* left: 15%; */
-    /* border: 2px solid red; */
+.RGadminPannelMobileRightDivFrameForImages {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* top: 9%; */
+  /* left: 15%; */
+  /* border: 2px solid red; */
 }
 
-.RGadminPannelMobileRightDivFrameForImages >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.RGadminPannelMobileRightDivFrameForImages > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
-
 
 .RGadminPannelLeftDiv {
-    display: flex;
-    flex-wrap:wrap;
-    row-gap: 20px;
-    justify-content: space-around;
-    width: 60%;
-    margin: auto;
-    padding: 2%;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  align-items: center;
 }
 
-.RGadminPannelLeftDivBoxex{
-    height: 200px;
-    width:40%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: 1px solid #ec8b73;
-    display: flex;
-    padding: 10px;
-    border-radius: 4px;
-    text-align: justify;
+.RGadminPannelLeftDivBoxex {
+  height: 170px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* border: 1px solid #ec8b73; */
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: justify;
 }
-.RGadminPannelLeftDivBoxex>div>p{
-    /* border: 2px solid red; */
-    font-size: 14px;
-}
+
 .RGadminPannelLeftDivBoxex:hover {
-    transform: scale(1.02);
-    background-color: #ffebef;
+  transform: scale(1.02);
+  background-color: #ffebef;
+}
+
+.RGadminPannelLeftDivBoxex > div > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.RGadminPannelLeftDivBoxex > div > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }
 
 .RGadminPannelSpan {
-    color: #ef4c23;
+  color: #ef4c23;
 }
