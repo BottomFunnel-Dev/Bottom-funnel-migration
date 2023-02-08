@@ -200,7 +200,8 @@ margin-top: 15%;
 margin-bottom: 25%;
 }
 .yanabalbuttonalongflex:hover{
-background-color: white;
-color: black;
-}
+    background-color: #20C39A;
+    color: white;
+    }
+    
 }
