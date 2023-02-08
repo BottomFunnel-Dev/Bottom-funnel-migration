@@ -15,4 +15,4 @@ export const FullAppDevelopmentCycleBanner = () => {
     </div>
     </div>
   )
-}
+} 
