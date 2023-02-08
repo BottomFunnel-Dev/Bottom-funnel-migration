@@ -9,18 +9,18 @@
 }
 
 .ContactUsBannerimage {
-  width: 35%;
+  width: 20%;
   height: 60%;
   text-align: center;
   /* border: 1px solid rebeccapurple; */
 }
 
-.ContactUsBannerimage > img {
+/* .ContactUsBannerimage > img {
   height: 100%;
-}
+} */
 
 .ContactUsBannerContent {
-  width: 60%;
+  width: 59%;
   /* border: 1px solid red; */
 }
 

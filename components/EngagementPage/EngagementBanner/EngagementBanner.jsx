@@ -1,14 +1,23 @@
 import React from "react";
 import styles from "./EngagementBanner.module.css";
+import Image from "next/image";
 
 export const EngagementBanner = () => {
   return (
     <div className={styles.engagementBannerContainer}>
       <div className={styles.engagementBannerImage}>
-        <img
+        {/* <img
           src="/Images/engagementPhotos/banner.png"
           alt="Engagement models banner human image"
-        />
+        /> */}
+        <Image
+            src={"/Images/engagementPhotos/banner.webp"}
+            alt={"humanimage"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            />
       </div>
 
       <div className={styles.engagementBannerMain}>

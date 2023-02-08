@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./VettingProcess.module.css";
+import Image from "next/image";
 
 export const VettingProcess = () => {
   return (
@@ -20,10 +21,18 @@ export const VettingProcess = () => {
           them.
         </p>
         <div>
-          <img
+          {/* <img
             src="/Images/VettingPhotos/flowchart.png"
             alt="vetting flow chart"
-          />
+          /> */}
+          <Image
+          src={"/Images/VettingPhotos/flowchart.webp"}
+          alt={"chartimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         </div>
       </div>
     </div>
