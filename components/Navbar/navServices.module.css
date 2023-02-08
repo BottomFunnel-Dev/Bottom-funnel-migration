@@ -140,7 +140,7 @@
 }
 
 .serviceimageIconDivSection > div {
-  width: 12%;
+  width: 30px;
   /* border: 1px solid red; */
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
@@ -343,8 +343,7 @@
 }
 
 .servicebackendimageIconDivSection > div {
-  width: 13%;
-  /* border: 1px solid red; */
+  width: 45px;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;
