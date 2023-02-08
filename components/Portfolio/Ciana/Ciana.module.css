@@ -176,11 +176,11 @@ width: 120px;
 background-color: transparent;
 border: #ef4c23;
 outline: none;
-box-shadow: white 0px 0px 5px;
+box-shadow: black 0px 0px 5px;
 font-size: 10px;
 font-weight: 600;
 color: black;
-margin-left: 45%;
+margin-left: 65%;
 margin-top: 15%;
 margin-bottom: 25%;
 }
