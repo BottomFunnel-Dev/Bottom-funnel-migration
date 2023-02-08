@@ -191,7 +191,7 @@ export const NavServices = ({
                     <img
                       className={navservice.serviceiconDivSection}
                       src={item.navIcons}
-                      alt=""
+                      alt="image"
                     />
                   </div>
                   <Link
@@ -491,6 +491,7 @@ export const NavServices = ({
                 />
               ))}
             </div>
+
             <div className={navservice.servicediscoverleftbottom}>
               <h3>
                 Learn more About{" "}
@@ -500,6 +501,7 @@ export const NavServices = ({
               </h3>
             </div>
           </div>
+
           <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
