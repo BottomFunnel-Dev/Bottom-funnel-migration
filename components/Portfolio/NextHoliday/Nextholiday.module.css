@@ -132,12 +132,12 @@ border-right: 1px solid black;
   font-weight: 600;
   color: black;
   margin-left: 25%;
-  margin-top: 8%;
+  margin-top: 0%;
 }
 
 .nextholidayviewcasebutton:hover{
-    background-color: #75AEC8;
-    color: white;
+    background-color: #DA2A31;
+    color: black;
 }
 
 
@@ -251,7 +251,7 @@ margin-left: -10%;
 margin-top: -0%;
 }
 .nextholidayviewcasebutton:hover{
-background-color: blue;
-color: white;
+    background-color: #DA2A31;
+    color: black;
 }
 }

@@ -206,7 +206,7 @@ margin-left: -10%;
 margin-top: -0%;
 }
 .nextholidayviewcasebutton:hover{
-background-color: blue;
-color: white;
-}
+    background-color: white;
+    color: black;
+    }
 }
