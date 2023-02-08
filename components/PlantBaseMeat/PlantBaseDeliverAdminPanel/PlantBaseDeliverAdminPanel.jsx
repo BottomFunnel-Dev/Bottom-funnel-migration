@@ -18,9 +18,9 @@ export default function PlantBaseDeliverAdminPanel({ plantBasedAdminData }) {
                                 <div className={styles.logisticLogo}>
                                     <img src={icon.src} alt={icon.alt} />
                                 </div>
-                                <h3>{title}</h3>
 
-                                <p>{para}</p>
+                                <h3> {title} </h3>
+                                <p> {para} </p>
                             </div>
                         );
                     })}
@@ -35,8 +35,7 @@ export default function PlantBaseDeliverAdminPanel({ plantBasedAdminData }) {
                     }}
                 >
                     <div className={styles.plantBasedAdminPanelmage}>
-                        <img
-                            src={plantBasedAdminData.plantBasedAdminData[active].img.src}
+                        <img src={plantBasedAdminData.plantBasedAdminData[active].img.src}
                             alt={plantBasedAdminData.plantBasedAdminData[active].img.alt}
                         />
                     </div>
@@ -44,5 +43,5 @@ export default function PlantBaseDeliverAdminPanel({ plantBasedAdminData }) {
             </div>
         </div>
     );
-}
+};
 

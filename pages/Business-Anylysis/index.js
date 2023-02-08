@@ -1,14 +1,14 @@
 import React from "react";
-import {BusinessAnalysisBanner} from "../../components/BusinessAnalysis/BusinessAnalysisBanner";
-import {BusinessAnalysisLowerBanner} from "../../components/BusinessAnalysis/BusinessAnalysisLowerBanner";
-import {BusinessChallenge} from "../../components/BusinessAnalysis/BusinessChallenge";
-import {BusinessFramework} from "../../components/BusinessAnalysis/BusinessFramework";
+import { BusinessAnalysisBanner } from "../../components/BusinessAnalysis/BusinessAnalysisBanner";
+import { BusinessAnalysisLowerBanner } from "../../components/BusinessAnalysis/BusinessAnalysisLowerBanner";
+import { BusinessChallenge } from "../../components/BusinessAnalysis/BusinessChallenge";
+import { BusinessFramework } from "../../components/BusinessAnalysis/BusinessFramework";
 
 
-import {TextDropdown} from "../../components/CommonComponents/faqSection/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import {SeoblogSection} from "../../components/CommonComponents/SeoBlogs/Seoblogs";
+import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
@@ -19,9 +19,9 @@ import Head from "next/head";
 export default function BusinessAnalysis() {
 
 
-    return (
-        <div>
-        <Head>
+  return (
+    <div>
+      <Head>
         <title>Bottom Funnel | Digital Business Analysis Project Management</title>
         <meta
           name="description"
@@ -31,28 +31,28 @@ export default function BusinessAnalysis() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-            <BusinessAnalysisBanner/>
-            <BusinessChallenge/>
-            <BusinessFramework/>
-            <BusinessAnalysisLowerBanner/> {/* Other react required components  */}
-            <StoriesSection/>
-            <OndemandSection/> {/* <PortFolio />  */}
-            <PlanProject/>
-            <SeoblogSection/>
-            <Revamping/>
-            <TextDropdown/>
-            <ContectForm/>
-            <MainFooter/>
-        </main>
-        </div>
-    );
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <BusinessAnalysisBanner />
+        <BusinessChallenge />
+        <BusinessFramework />
+        <BusinessAnalysisLowerBanner /> {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection /> {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
+    </div>
+  );
 };

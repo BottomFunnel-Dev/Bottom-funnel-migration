@@ -43,7 +43,7 @@
     margin-bottom: 2%;
     /* border: 2px solid red; */
     background-color: white;
-    background-image: url("/public/Images/FlutterDevelopment/whyFlutter.png");
+    background-image: url("/public/Images/FlutterDevelopment/whyFlutter.webp");
     display: flex;
     flex-direction: column;
     overflow-y: scroll;

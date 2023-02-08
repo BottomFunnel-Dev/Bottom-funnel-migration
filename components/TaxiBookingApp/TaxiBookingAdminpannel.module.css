@@ -1,83 +1,96 @@
-.taxibookingadminpannelmainboxes{
-    height: fit-content;
-   background-color: white;
-    display: flex;
-  
-
+.taxibookingadminpannelmainboxes {
+  height: fit-content;
+  background-color: white;
+  display: flex;
 }
 
-.taxibookingappadminpannelleftbox{
-    height: 500px;
-    width: 50%;
-     background: url("/Images/Taxibooking/Bannersbackgrounds/Rectangle 4864.png");
-    background-repeat: no-repeat;
-    margin-top: 5%;
+.taxibookingappadminpannelleftbox {
+  height: 500px;
+  width: 50%;
+  background: url("/Images/Taxibooking/Bannersbackgrounds/Rectangle 4864.png");
+  background-repeat: no-repeat;
+  margin-top: 5%;
 }
 
-.taxibookingadminpannelleftboximagesize{
-    height: fit-content;
-    width: 95%;
-    margin-top: -4%;   
-     margin-left: 3%;
-
+.taxibookingadminpannelleftboximagesize {
+  height: fit-content;
+  width: 95%;
+  margin-top: -4%;
+  margin-left: 3%;
 }
 
-.taxibookingadminpannelleftboximagesize >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.taxibookingadminpannelleftboximagesize > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.taxibookingappadminpannelrightbox{
-    height: fit-content;
-    width: 58%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 2%;
- 
-  
-}
-.taxibookingappadminpannelindivilogo{
-    height: 16%;
-    width: 18%;
- 
+.taxibookingappadminpannelrightbox {
+  height: fit-content;
+  width: 58%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2%;
 }
 
-.taxibookingappadminpannelindivilogo >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 10px;
+.taxibookingappadminpannelindivilogo {
+  height: 30%;
+  width: 18%;
 }
 
-
-
-.taxibookingappadminpannelindivi{
-    height: fit-content;
-    width: 43%;
-    margin: 1%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: justify;
+.taxibookingappadminpannelindivilogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.taxibookingappadminpannelindivi:hover{
-    transform: scale(1.02);
-    background-color: #efd5a7;
+.taxibookingappadminpannelindivi {
+  height: fit-content;
+  width: 43%;
+  height: 180px;
+  margin: 1%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
 }
 
-.adminpanneltaxibookingonlutxt{
-    height: fit-content;
-    width: 100%;
-background-color: white;
-
-
+.taxibookingappadminpannelindivi:hover {
+  transform: scale(1.02);
+  background-color: #efd5a7;
 }
- .adminpanneltaxibookingonlutxt>h1{
-    margin-left: 48%;
-    padding-bottom: 2%;
- }
-.specialcolor{
-    color: #ef4c23;
+
+.adminpanneltaxibookingonlutxt {
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+}
+
+.adminpanneltaxibookingonlutxt > h1 {
+  margin-left: 48%;
+  padding-bottom: 2%;
+}
+
+.taxibookingappadminpannelindivifortxt > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.taxibookingappadminpannelindivifortxt > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.specialcolor {
+  color: #ef4c23;
 }

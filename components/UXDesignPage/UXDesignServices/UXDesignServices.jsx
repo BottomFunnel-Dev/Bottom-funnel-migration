@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./UXDesignServices.module.css";
 
@@ -23,8 +24,22 @@ export const UXDesignServices = () => {
   return (
     <div className={styles.UXDesignServices}>
       <span>
-        <img src="Images/UXDesignPhotos/triangle.png" alt="triangle.png" />
-        <img src="Images/UXDesignPhotos/triangle.png" alt="triangle.png" />
+        <Image
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "20%", height: "100%" }}
+          src="/Images/UXDesignPhotos/triangle.webp"
+          alt="triangle.webp"
+        />
+        <Image
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "20%", height: "100%" }}
+          src="/Images/UXDesignPhotos/triangle.webp"
+          alt="triangle.webp"
+        />
       </span>
       <div className={styles.UXDesignServicescontainer}>
         <h1>

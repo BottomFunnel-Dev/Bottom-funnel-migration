@@ -39,7 +39,7 @@
 
 .plantBasedDriverAppright > div {
   padding: 10px 10px 10px 10px;
-  height: 250px;
+  height: 200px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -52,8 +52,35 @@
   background-color: #e1f9f6;
 }
 
+.logisticLogo {
+  height: 20%;
+  width: 15%;
+}
+
+.logisticLogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 .plantBasedDriverAppright > div > h3 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
   font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.plantBasedDriverAppright > div > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }
 
 .logisticDriveImage {

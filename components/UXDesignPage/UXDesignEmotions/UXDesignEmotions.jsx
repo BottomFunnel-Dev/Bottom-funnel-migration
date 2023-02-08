@@ -1,11 +1,12 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./UXDesignEmotions.module.css";
 
 export const UXDesignEmotions = () => {
   const cardsData = [
-    "Images/UXDesignPhotos/discover.png",
-    "Images/UXDesignPhotos/define.png",
-    "Images/UXDesignPhotos/deliver.png",
+    "/Images/UXDesignPhotos/discover.webp",
+    "/Images/UXDesignPhotos/define.webp",
+    "/Images/UXDesignPhotos/deliver.webp",
   ];
 
   return (
@@ -18,7 +19,14 @@ export const UXDesignEmotions = () => {
 
         <div className={styles.UXDesignEmotionsmain}>
           <div className={styles.UXDesignEmotionsimage}>
-            <img src="Images/UXDesignPhotos/study.png" alt="desktop.png" />
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/UXDesignPhotos/study.webp"
+              alt="desktop.webp"
+            />
           </div>
           <div className={styles.UXDesignEmotionscontent}>
             <h2>
@@ -31,7 +39,15 @@ export const UXDesignEmotions = () => {
             </p>
             <div>
               {cardsData.map((elem) => (
-                <img key={elem} src={elem} alt="Practice points " />
+                <Image
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "fit-content", height: "100%" }}
+                  key={elem}
+                  src={elem}
+                  alt="Practice points "
+                />
               ))}
             </div>
           </div>

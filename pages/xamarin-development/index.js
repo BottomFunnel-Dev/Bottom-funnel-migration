@@ -35,8 +35,8 @@ export default function XamarinAppDevelopment() {
           navMount: false,
         }}
         navredux={{
-          color: "black",
-          logo: false,
+          color: "white",
+          logo: true,
         }}
       />
       <XamarinAppDevelopmentBanner />

@@ -24,7 +24,7 @@ export default function Pharmacy() {
   return (
     <>
       <Head>
-        <title>Pharmacy Web and App Development Company | Bottom Funnel</title>
+        <title> Pharmacy Web and App Development Company | Bottom Funnel </title>
         <meta
           name="description"
           content="Pharmacies are an important part of our society and it is essential 

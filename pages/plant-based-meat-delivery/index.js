@@ -27,46 +27,49 @@ import Head from "next/head";
 export default function PlantBasedMeat() {
   return (
     <>
-     <Head>
-      <title>Plant Based Meat Delivery web and App Development Company | Bottom Funnel</title>
-      <meta
-        name="description"
-        content="Are you looking for a Plant Based Meat Delivery web App 
+      <Head>
+        <title>
+          Plant Based Meat Delivery web and App Development Company | Bottom
+          Funnel
+        </title>
+        <meta
+          name="description"
+          content="Are you looking for a Plant Based Meat Delivery web App 
         Development Company that can help you create a web App that 
         will help you deliver Plant Based Meat? Look no further, we are 
         experts in the field!"
-      />
-   </Head>
+        />
+      </Head>
 
-    <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <PlantBasedMeatBanner />
-      <ServicesWeOffer />
-      <PlantBaseDeliverApp consumerdata={logisticsCustomer} />
-      <PlantBaseDriverApp driveData={plantBaseDriverData} />
-      <PlantBaseDeliverAdminPanel plantBasedAdminData={plantBaseMeatAdmin} />
-      <PlantBasedGetSolution />
-      {/* <WhyChooseUs /> */}
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <PlantBasedMeatBanner />
+        <ServicesWeOffer />
+        <PlantBaseDeliverApp consumerdata={logisticsCustomer} />
+        <PlantBaseDriverApp driveData={plantBaseDriverData} />
+        <PlantBaseDeliverAdminPanel plantBasedAdminData={plantBaseMeatAdmin} />
+        {/* <PlantBasedGetSolution /> */}
+        {/* <WhyChooseUs /> */}
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

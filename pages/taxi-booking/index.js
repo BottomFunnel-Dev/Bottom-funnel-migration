@@ -39,7 +39,7 @@ export default function TaxiBookingApp() {
         }}
         navredux={{
           color: "black",
-          logo: true,
+          logo: false,
         }}
       />
       <TaxiBookingBanner />

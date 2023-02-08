@@ -1,81 +1,98 @@
-.taxibookingcustomerappmainboxes{
-    height: fit-content;
-    display: flex;
-    background-color: white;
+.taxibookingcustomerappmainboxes {
+  height: fit-content;
+  display: flex;
+  background-color: white;
 }
 
-.taxibookingappcustomerappleftbox{
-    height: fit-content;
-    width: 55%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-top: 1%;
-    
-  
+.taxibookingappcustomerappleftbox {
+  height: fit-content;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
-.taxibookingappcustomerapprightbox{
-    height: 600px;
-    width: 45%;
-    background: url("/Images/Taxibooking/Bannersbackgrounds/Ellipse 248.png");
-    background-repeat: no-repeat;
-    background-size: 80% 95%;
-    background-position-x: right;
-  
+.taxibookingappcustomerapprightbox {
+  height: 600px;
+  width: 45%;
+  background: url("/Images/Taxibooking/Bannersbackgrounds/Ellipse 248.png");
+  background-repeat: no-repeat;
+  background-size: 80% 95%;
+  background-position-x: right;
 }
 
-.taxibookingappcustomerrightboxinnermobile{
-    height: 80%;
-    width: 50%;
+.taxibookingappcustomerrightboxinnermobile {
+  height: 80%;
+  width: 50%;
 
-    margin: 7% 0% 0% 30%;
+  margin: 7% 0% 0% 30%;
 }
 
-.taxibookingappcustomerrightboxinnermobile >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.taxibookingappcustomerrightboxinnermobile > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.taxibookingflexingboxesindi{
-height: fit-content;
-    width: 45%;
-padding: 10px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   margin: 1%;
-   text-align: justify;
-   border-radius: 10px;
+.taxibookingflexingboxesindi {
+  height: fit-content;
+  width: 45%;
+  height: 180px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  text-align: justify;
+  border-radius: 10px;
 }
 
-.taxibookingflexingboxesindi:hover{
-    transform: scale(1.02);
-    background-color: #efd5a7;
+.taxibookingflexingboxesindi:hover {
+  transform: scale(1.02);
+  background-color: #efd5a7;
 }
 
-.taxibookingflexingboxesindiforlogo{
-    height: 25%;
-    width: 20%;
-
-}
-.taxibookingflexingboxesindiforlogo >img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 10px;
+.taxibookingflexingboxesindiforlogo {
+  height: 35%;
+  width: 20%;
 }
 
-.customerapptaxibookingboxfortxt >h1{
-    width: 50%;
-    margin-left: 5.5%;
-    padding: 10px;
-
+.taxibookingflexingboxesindiforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
 }
 
-.customerapptaxibookingboxfortxt{
-    background-color: white;
+.customerapptaxibookingboxfortxt > h1 {
+  width: 50%;
+  margin-left: 5.5%;
+  padding: 10px;
 }
 
-.specialcolor{
-    color: #ef4c23
+.customerapptaxibookingboxfortxt {
+  background-color: white;
+}
+
+.specialcolor {
+  color: #ef4c23;
+}
+
+.taxibookingflexingboxesindifortxt > h4 {
+  /* border: 2px solid red; */
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.taxibookingflexingboxesindifortxt > p {
+  /* border: 2px solid red; */
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

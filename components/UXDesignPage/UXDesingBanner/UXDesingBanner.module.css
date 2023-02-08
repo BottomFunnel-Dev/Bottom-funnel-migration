@@ -1,6 +1,5 @@
 .UXDesingBannercontainer {
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -11,19 +10,18 @@
 .UXDesingBannercontent {
   width: 45%;
   color: white;
-  border: 2px solid red;
 }
 
-.UXDesingBannercontent > h1 {
+.UXDesingBannercontent>h1 {
   font-size: 40px;
 }
 
-.UXDesingBannercontent > p {
+.UXDesingBannercontent>p {
   font-size: 20px;
   text-align: justify;
 }
 
-.UXDesingBannercontent > button {
+.UXDesingBannercontent>button {
   font-size: 20px;
   font-weight: 600;
   padding: 10px 50px;
@@ -36,7 +34,7 @@
   color: #ef4c23;
 }
 
-.UXDesingBannercontent > button:hover {
+.UXDesingBannercontent>button:hover {
   color: white;
   background: #ef4c23;
 }
@@ -45,43 +43,44 @@
   position: relative;
   width: 45%;
   height: 650px;
+  align-self: flex-end;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.UXDesingBannermain > img {
+.UXDesingBannermain>div {
   position: absolute;
   width: 90%;
 }
 
-.UXDesingBannermain > img:nth-child(1) {
+.UXDesingBannermain>div:nth-child(1) {
   z-index: 0;
 }
 
-.UXDesingBannermain > img:nth-child(2) {
+.UXDesingBannermain>div:nth-child(2) {
   width: 100px;
   left: 5%;
   top: 43%;
   z-index: 2;
 }
 
-.UXDesingBannermain > img:nth-child(3) {
+.UXDesingBannermain>div:nth-child(3) {
   width: 80px;
   z-index: 2;
   right: 5%;
   bottom: 5%;
 }
 
-.UXDesingBannermain > img:nth-child(4) {
+.UXDesingBannermain>div:nth-child(4) {
   width: 80px;
   z-index: 2;
   left: 3%;
   bottom: 3%;
 }
 
-.UXDesingBannermain > img:nth-child(5) {
+.UXDesingBannermain>div:nth-child(5) {
   width: 100px;
   z-index: 2;
   right: 8%;
