@@ -1,12 +1,13 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./UIDesignEmotions.module.css";
 
 export const UIDesignEmotions = () => {
   const cardsData = [
-    "Images/UIDesignPhotos/discover.png",
-    "Images/UIDesignPhotos/strategize.png",
-    "Images/UIDesignPhotos/design.png",
-    "Images/UIDesignPhotos/iterate.png",
+    "/Images/UIDesignPhotos/discover.webp",
+    "/Images/UIDesignPhotos/strategize.webp",
+    "/Images/UIDesignPhotos/design.webp",
+    "/Images/UIDesignPhotos/iterate.webp",
   ];
   return (
     <div className={styles.UIDesignEmotions}>
@@ -21,7 +22,14 @@ export const UIDesignEmotions = () => {
 
         <div className={styles.UIDesignEmotionsmain}>
           <div className={styles.UIDesignEmotionsimage}>
-            <img src="Images/UIDesignPhotos/desktop.png" alt="desktop.png" />
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/UIDesignPhotos/desktop.webp"
+              alt="UIDesignPhotos/desktop.webp"
+            />
           </div>
           <div className={styles.UIDesignEmotionscontent}>
             <h2>
@@ -34,7 +42,15 @@ export const UIDesignEmotions = () => {
             </p>
             <div>
               {cardsData.map((elem) => (
-                <img key={elem} src={elem} alt="Practice points " />
+                <Image
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "fit-content", height: "100%" }}
+                  key={elem}
+                  src={elem}
+                  alt={elem}
+                />
               ))}
             </div>
           </div>

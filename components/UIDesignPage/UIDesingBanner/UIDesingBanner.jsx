@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./UIDesingBanner.module.css";
 
@@ -14,11 +15,26 @@ export const UIDesingBanner = () => {
         <button>Book a Free Consultation</button>
       </div>
       <div className={styles.UIDesingBannermain}>
-        <img src="Images/UIDesignPhotos/banner.png" alt="Banner mobile image" />
-        <img
-          src="Images/UIDesignPhotos/background.png"
-          alt="Banner background cloud"
-        />
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src={"/Images/UIDesignPhotos/banner.webp"}
+            alt="UIDesignPhotos/banner.webp"
+          />
+        </div>
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src={"/Images/UIDesignPhotos/background.webp"}
+            alt="UIDesignPhotos/background.webp"
+          />
+        </div>
       </div>
     </div>
   );

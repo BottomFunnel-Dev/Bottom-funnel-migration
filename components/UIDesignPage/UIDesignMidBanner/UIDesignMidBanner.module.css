@@ -2,7 +2,7 @@
   padding: 3% 3% 10px;
 
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/Images/UIDesignPhotos/mid-banner.png");
+    url("/Images/UIDesignPhotos/mid-banner.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,15 +11,15 @@
   text-align: center;
 }
 
-.UIDesignMidBannermain > h1 {
+.UIDesignMidBannermain>h1 {
   font-size: 32px;
 }
 
-.UIDesignMidBannermain > p {
+.UIDesignMidBannermain>p {
   font-size: 16px;
 }
 
-.UIDesignMidBannermain > button {
+.UIDesignMidBannermain>button {
   font-size: 18px;
   font-weight: 600;
 
@@ -34,7 +34,7 @@
   border-radius: 40px;
 }
 
-.UIDesignMidBannermain > button:hover {
+.UIDesignMidBannermain>button:hover {
   background-color: #ef4c23;
   color: white;
 }
