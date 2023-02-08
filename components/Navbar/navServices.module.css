@@ -108,7 +108,7 @@
   height: 38px;
   column-gap: 3%;
   display: flex;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
   border-left: 3px solid white;
@@ -125,7 +125,7 @@
 }
 
 .serviceimageIconDivSection:hover {
-  /* border-left: 3px solid #ef4c23; */
+  border-left: 3px solid #ef4c23;
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
@@ -214,18 +214,18 @@
 }
 
 .servicetrendImageIconDivSection:hover {
+  border-left: 3px solid #ef4c23;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 0;
 }
 
 .servicetrendImageIconDivSection:hover .iconDivSection {
-  border-left: 3px solid #ef4c23;
+  border-left: 3px solid #ef4c23 !important;
 }
 
 .servicetrendImageIconDivSection > p {
   width: 80%;
   font-size: 14px;
-
   margin: 0;
 }
 
@@ -329,7 +329,7 @@
 }
 
 .servicebackendimageIconDivSection:hover {
-  /* border-left: 3px solid #ef4c23; */
+  border-left: 3px solid #ef4c23;
   cursor: pointer;
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
