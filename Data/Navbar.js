@@ -1,22 +1,22 @@
 export const company = [
   {
     dropContent: "About Us",
-    navIcons: "/Images/navbar/aboutImage/aboutus.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/aboutus.svg",
     path: "/about-us",
   },
   {
     dropContent: "Our Team",
-    navIcons: "/Images/navbar/aboutImage/ourteam.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/ourteam.svg",
     path: "",
   },
   {
     dropContent: "Career ",
-    navIcons: "/Images/navbar/aboutImage/career.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/career.svg",
     path: "/career",
   },
   {
     dropContent: "Contact Us",
-    navIcons: "/Images/navbar/aboutImage/contactus.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/contactus.svg",
     path: "/contact-us",
   },
 ];
@@ -55,17 +55,17 @@ export const resource = [
 export const whyBottom = [
   {
     dropContent: "Vetting Process",
-    navIcons: "/Images/navbar/aboutImage/vetting.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/vettingprocess.svg",
     path: "/vetting-process",
   },
   {
     dropContent: "Our Clients",
-    navIcons: "/Images/navbar/aboutImage/ourclients.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/ourclients.svg",
     path: "/our-clients",
   },
   {
     dropContent: "Awards and Memberships",
-    navIcons: "/Images/navbar/aboutImage/awards.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/awards.svg",
     path: "/awards",
   },
   {
@@ -78,17 +78,17 @@ export const whyBottom = [
 export const process = [
   {
     dropContent: "Our Development Process",
-    navIcons: "/Images/navbar/aboutImage/ourdevelopmentprocess.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/ourdevelopment.svg",
     path: "/our-development-process",
   },
   {
     dropContent: "Engagement Models",
-    navIcons: "/Images/navbar/aboutImage/engagementmodels.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/engagementmodels.svg",
     path: "/engagement",
   },
   {
     dropContent: "Our Partners",
-    navIcons: "/Images/navbar/aboutImage/ourpartners.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/partners.svg",
     path: "",
   },
 ];

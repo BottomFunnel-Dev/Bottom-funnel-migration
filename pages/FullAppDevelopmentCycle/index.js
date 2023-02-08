@@ -8,9 +8,9 @@ export default function FullAppDevelopmentCycle() {
     <div>
       <FullAppDevelopmentCycleBanner />
       <ProjectManager />
-      <OurTeamCycle />
+      {/* <OurTeamCycle /> */}
 
-      <KickstartProject />
+      {/* <KickstartProject /> */}
       <StartHere />
     </div>
   );
