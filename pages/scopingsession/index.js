@@ -1,17 +1,15 @@
 import React from "react";
-import {Footer} from "../../components/ScopingSessionPage/Footer";
+import { Footer } from "../../components/ScopingSessionPage/Footer";
 
+import { Header } from "../../components/ScopingSessionPage/Header";
+import { MiddleText } from "../../components/ScopingSessionPage/MiddleText";
+import { MidImages } from "../../components/ScopingSessionPage/MidImages";
+import { RoundIconsText } from "../../components/ScopingSessionPage/RoundIconsText";
 
-import {Header} from "../../components/ScopingSessionPage/Header";
-import {MiddleText} from "../../components/ScopingSessionPage/MiddleText";
-import {MidImages} from "../../components/ScopingSessionPage/MidImages";
-import {RoundIconsText} from "../../components/ScopingSessionPage/RoundIconsText";
-
-
-import {TextDropdown} from "../../components/CommonComponents/faqSection/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import {SeoblogSection} from "../../components/CommonComponents/SeoBlogs/Seoblogs";
+import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
@@ -20,10 +18,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
 export default function Scoping() {
-
-    return (
-        <div>
-        <Head>
+  return (
+    <div>
+      <Head>
         <title>Scoping Session | Bottom Funnel</title>
         <meta
           name="description"
@@ -32,31 +29,32 @@ export default function Scoping() {
           identifying and addressing key product development needs.
            Read on to know more."
         />
-        </Head>
+      </Head>
       <main>
-            <Header/>
-            <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: false,
-        }}
-      />
-            <MiddleText/>
-            <MidImages/>
-            <RoundIconsText/>
-            <Footer/> {/* Other react required components  */}
-            <StoriesSection/>
-            <OndemandSection/> {/* <PortFolio />  */}
-            <PlanProject/>
-            <SeoblogSection/>
-            <Revamping/>
-            <TextDropdown/>
-            <ContectForm/>
-            <MainFooter/>
-            </main>
-        </div>
-    );
-};
+        <Header />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <MiddleText />
+        <MidImages />
+        <RoundIconsText />
+        <Footer />
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection /> {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
+    </div>
+  );
+}
