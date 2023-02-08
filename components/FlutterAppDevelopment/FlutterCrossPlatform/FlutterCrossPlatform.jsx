@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./FlutterCrossPlatform.module.css";
+import Image from "next/image";
 
 export const FlutterCrossPlatform = () => {
 
@@ -19,7 +20,15 @@ export const FlutterCrossPlatform = () => {
           <div className={styles.flutterCrossPlatformCardBox}>
             <div className={styles.flutterCrossPlatformDataBoxes}>
               <div className={styles.flutterCrossPlatformDataIcon}>
-                <img src="Images/FlutterDevelopment/Icons/lightbulb.png" />
+              <Image
+          src={"/Images/FlutterDevelopment/Icons/lightbulb.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img src="Images/FlutterDevelopment/Icons/lightbulb.png" /> */}
               </div>
               <div className={styles.flutterCrossPlatformDataContent}>
                 <p>
@@ -30,7 +39,15 @@ export const FlutterCrossPlatform = () => {
 
             <div className={styles.flutterCrossPlatformDataBoxes}>
               <div className={styles.flutterCrossPlatformDataIcon}>
-                <img src="Images/FlutterDevelopment/Icons/best-employee.png" />
+              <Image
+          src={"/Images/FlutterDevelopment/Icons/best-employee.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img src="Images/FlutterDevelopment/Icons/best-employee.png" /> */}
               </div>
               <div className={styles.flutterCrossPlatformDataContent}>
                 <p>
@@ -41,7 +58,15 @@ export const FlutterCrossPlatform = () => {
 
             <div className={styles.flutterCrossPlatformDataBoxes}>
               <div className={styles.flutterCrossPlatformDataIcon}>
-                <img src="Images/FlutterDevelopment/Icons/security.png" />
+              <Image
+          src={"/Images/FlutterDevelopment/Icons/security.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img src="Images/FlutterDevelopment/Icons/security.png" /> */}
               </div>
               <div className={styles.flutterCrossPlatformDataContent}>
                 <p>
@@ -55,7 +80,15 @@ export const FlutterCrossPlatform = () => {
           <div className={styles.flutterCrossPlatformCardBox1}>
             <div className={styles.flutterCrossPlatformDataBoxes}>
               <div className={styles.flutterCrossPlatformDataIcon}>
-                <img src="Images/FlutterDevelopment/Icons/agile-team.png" />
+              <Image
+          src={"/Images/FlutterDevelopment/Icons/agile-team.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img src="Images/FlutterDevelopment/Icons/agile-team.png" /> */}
               </div>
               <div className={styles.flutterCrossPlatformDataContent}>
                 <p>
@@ -66,7 +99,15 @@ export const FlutterCrossPlatform = () => {
 
             <div className={styles.flutterCrossPlatformDataBoxes}>
               <div className={styles.flutterCrossPlatformDataIcon}>
-                <img src="Images/FlutterDevelopment/Icons/platform 2.png" />
+              <Image
+          src={"/Images/FlutterDevelopment/Icons/platform 2.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img src="Images/FlutterDevelopment/Icons/platform 2.png" /> */}
               </div>
               <div className={styles.flutterCrossPlatformDataContent}>
                 <p>
@@ -77,7 +118,15 @@ export const FlutterCrossPlatform = () => {
 
             <div className={styles.flutterCrossPlatformDataBoxes}>
               <div className={styles.flutterCrossPlatformDataIcon}>
-                <img src="Images/FlutterDevelopment/Icons/worldwide-1.png" />
+              <Image
+          src={"/Images/FlutterDevelopment/Icons/worldwide-1.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                {/* <img src="Images/FlutterDevelopment/Icons/worldwide-1.png" /> */}
               </div>
               <div className={styles.flutterCrossPlatformDataContent}>
                 <p>

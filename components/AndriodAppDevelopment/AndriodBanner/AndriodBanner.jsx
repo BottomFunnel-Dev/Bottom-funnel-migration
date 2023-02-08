@@ -26,7 +26,7 @@ export const AndriodBanner = () => {
         </div>
 
         <div className={styles.androidIcon}>
-          <Lottie options={lottieDefaultOptions} width={400} height={500} />
+          <Lottie options={lottieDefaultOptions} width={400} height={550} />
         </div>
       </div>
     </>

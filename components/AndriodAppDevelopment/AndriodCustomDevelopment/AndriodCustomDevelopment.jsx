@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AndriodCustomDevelopment.module.css";
+import Image from "next/image";
 
 export const AndriodCustomDevelopment = () => {
 
@@ -12,7 +13,15 @@ export const AndriodCustomDevelopment = () => {
                </p>
             </div>
             <div className={styles.andriodCustomContentImage}>
-               <img src="Images/AndriodDevImages/Component 64.png" />
+               {/* <img src="Images/AndriodDevImages/Component 64.png" /> */}
+               <Image
+          src={"/Images/AndriodDevImages/Component 64.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
             </div>
          </div>
       </>

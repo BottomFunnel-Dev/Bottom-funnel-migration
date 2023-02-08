@@ -10,7 +10,7 @@
   /* border: 2px solid green; */
   /* background-color: #e992c1 ; */
   height: 100vh;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.webp");
 
   flex-direction: row-reverse;
   display: flex;
@@ -46,6 +46,8 @@ width: 60%;
   /* border: 2px solid  blue; */
   margin-left: 4%;
 width: 25%;
+height: 510px;
+
 /* margin: auto; */
   margin-top: 3%;
 }
@@ -62,7 +64,7 @@ width: 25%;
   width: 94%;
   height: fit-content;
   margin-left: 3%;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.webp");
   padding-top: 5%;
   position: relative;
   z-index: 2;
@@ -131,7 +133,7 @@ width: 25%;
   /* border: 2px solid green; */
   height: fit-content;
   padding-top: 7%;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.webp");
   
   
  
@@ -179,7 +181,7 @@ width: 25%;
   /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.webp");
   /* width: 90%; */
   margin-left: 4%;
   margin-right: 4%;
@@ -225,7 +227,7 @@ width: 25%;
 
 .IOSAppDevelopmentPageCardsInnermaindiv5 {
   /* border: 2px solid greenyellow; */
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.webp");
   /* height: 120vh; */
 }
 .innermaindiv4Row h4 {
@@ -243,10 +245,7 @@ width: 25%;
   width: 55px;
   height: 55px;
 }
-.div5logoimg img {
-  width: 100%;
-  height: 100%;
-}
+
 
 .IOSAppDevelopmentPageCardsInnermaindiv5 h2 {
   font-size: 40px;
@@ -292,7 +291,7 @@ width: 25%;
 
 .iosapplogo {
   /* border: 2px solid pink ; */
-  margin-top: 5%;
+  /* margin-top: 5%; */
   width: 150px;
   height: 50px;
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
@@ -365,7 +364,7 @@ width: 25%;
     /* border: 2px solid green; */
     /* background-color: #e992c1 ; */
     height: fit-content;
-    background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.png");
+    background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.webp");
   
     flex-direction: column;
     display: flex;
@@ -404,9 +403,7 @@ width: 25%;
     width: 70%;
     margin-top: 5%;
   }
-  .IOSAppDevelopmentPageCardsInnerMainDivimage img {
-    width: 100%;
-  }
+ 
 
 
 
@@ -417,7 +414,7 @@ width: 25%;
   width: 100%;
   height: fit-content;
   margin: auto;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.webp");
   padding-top: 5%;
   position: static;
   z-index: 0;
@@ -483,7 +480,7 @@ width: 25%;
   /* border: 2px solid green; */
   height: fit-content;
   padding-top: 7%;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.webp");
   
 }
 
@@ -514,9 +511,7 @@ width: 25%;
   margin-bottom: 2%;
  
 }
-.innermaindiv3Image img{
-  width: 100%;
-}
+
 .innermaindiv3Imagemain {
   height: 100%;
   /* border: 2px solid green; */
@@ -596,7 +591,7 @@ width: 25%;
 
 .IOSAppDevelopmentPageCardsInnermaindiv5 {
   /* border: 2px solid greenyellow; */
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.webp");
   /* height: 120vh; */
 }
 .IOSAppDevelopmentPageCardsInnermaindiv5 h2{
@@ -609,7 +604,7 @@ width: 25%;
   /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.png");
+  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.webp");
   /* width: 90%; */
   margin-left: 4%;
   margin-right: 4%;
@@ -640,10 +635,7 @@ width: 25%;
   width: 60px;
   height: 60px;
 }
-.div5logoimg img {
-  width: 100%;
-  height: 100%;
-}
+
 .innermaindiv4Boxdiv1stColum{
   /* border: 2px solid yellow; */
   display: flex;

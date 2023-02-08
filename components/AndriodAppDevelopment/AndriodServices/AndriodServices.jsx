@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AndriodServices.module.css";
+import Image from "next/image";
 
 export const AndriodServices = () => {
 
@@ -15,7 +16,15 @@ export const AndriodServices = () => {
                     <div className={styles.andriodServiceBox}>
                         <div className={styles.andriodServicesContainerBoxes}>
                             <div className={styles.andriodServiceBoxIcon}>
-                                <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/Rectangle 4478.png" />
+                            <Image
+          src={"/Images/AndriodDevImages/icons/Rectangle 4478.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/Rectangle 4478.png" /> */}
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Andriod App Development</h6>
@@ -29,7 +38,15 @@ export const AndriodServices = () => {
 
                         <div className={styles.andriodServicesContainerBoxes}>
                             <div className={styles.andriodServiceBoxIcon}>
-                                <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/Rectangle 4479.png" />
+                            <Image
+          src={"/Images/AndriodDevImages/icons/Rectangle 4479.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/Rectangle 4479.png" /> */}
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Andriod UI/UX Design</h6>
@@ -41,7 +58,15 @@ export const AndriodServices = () => {
 
                         <div className={styles.andriodServicesContainerBoxes}>
                             <div className={styles.andriodServiceBoxIcon}>
-                                <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/Rectangle 4480.png" />
+                            <Image
+          src={"/Images/AndriodDevImages/icons/Rectangle 4480.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/Rectangle 4480.png" /> */}
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Custom Andriod App Development</h6>
@@ -56,7 +81,15 @@ export const AndriodServices = () => {
                     <div className={styles.andriodServiceBox}>
                         <div className={styles.andriodServicesContainerBoxes}>
                             <div className={styles.andriodServiceBoxIcon}>
-                                <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/android 2.png" />
+                            <Image
+          src={"/Images/AndriodDevImages/icons/android 2.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/android 2.png" /> */}
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Android Consulting</h6>
@@ -70,7 +103,15 @@ export const AndriodServices = () => {
 
                         <div className={styles.andriodServicesContainerBoxes}>
                             <div className={styles.andriodServiceBoxIcon}>
-                                <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/social-care 2.png" />
+                            <Image
+          src={"/Images/AndriodDevImages/icons/social-care 2.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/social-care 2.png" /> */}
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Support and Maintenance</h6>
@@ -82,7 +123,16 @@ export const AndriodServices = () => {
 
                         <div className={styles.andriodServicesContainerBoxes}>
                             <div className={styles.andriodServiceBoxIcon}>
-                                <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/app-development 2.png" />
+                            <Image
+          src={"/Images/AndriodDevImages/icons/app-development 2.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+          
+                                {/* <img className={styles.andriodServiceImage} src="Images/AndriodDevImages/icons/app-development 2.png" /> */}
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Android App Modernization</h6>

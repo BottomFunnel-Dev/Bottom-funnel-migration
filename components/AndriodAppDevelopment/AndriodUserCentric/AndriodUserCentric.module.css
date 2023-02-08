@@ -51,10 +51,7 @@
     margin-top: 5%;
     /* border: 2px solid blue; */
 }
-.andriodUserCentricIcon>img{
-    width: 100%;
-    height: 100%;
-}
+
 .andriodUserCentricIconHeading{
     width: 75%;
     /* border: 2px solid salmon; */
@@ -159,10 +156,7 @@ border: 1px solid lightgrey;
         margin-top: 9%;
         /* border: 2px solid blue; */
     }
-    .andriodUserCentricIcon>img{
-        width: 100%;
-        height: 100%;
-    }
+   
     .andriodUserCentricIconHeading{
         width: 75%;
         /* border: 2px solid salmon; */
