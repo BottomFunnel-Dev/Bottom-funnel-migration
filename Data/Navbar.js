@@ -962,19 +962,19 @@ export const designContent = [
   {
     title: "User Experience Design",
     description: `Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful.`,
-    cardImg: "/Images/navbar/designicons/user-interface.png",
+    cardImg: "/Images/NavbarIconsSvg/Design section/userexperience.svg",
     path: "/user-experience",
   },
   {
     title: "User Interface Design",
     description: `We enhance usability and craft designs that are unconventional and intuitively guides users into a splendid visual journey.`,
-    cardImg: "/Images/navbar/designicons/vector.png",
+    cardImg: "/Images/NavbarIconsSvg/Design section/userinterfacedesign.svg",
     path: "/user-interface",
   },
   {
     title: "User Experience Review",
     description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
-    cardImg: "/Images/navbar/designicons/writing.png",
+    cardImg: "/Images/NavbarIconsSvg/Design section/userexperiencereview.svg",
     path: "/UX-Review",
   },
 ];
