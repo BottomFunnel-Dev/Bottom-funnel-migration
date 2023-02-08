@@ -10,16 +10,16 @@
   text-align: center;
 }
 
-.UIDesignEmotionscontainer > h1 {
+.UIDesignEmotionscontainer>h1 {
   font-size: 32px;
 }
 
-.UIDesignEmotionscontainer > h1 > span {
+.UIDesignEmotionscontainer>h1>span {
   color: #ef4c23;
 }
 
-.UIDesignEmotionscontainer > p,
-.UIDesignEmotionscontent > p {
+.UIDesignEmotionscontainer>p,
+.UIDesignEmotionscontent>p {
   font-size: 16px;
 }
 
@@ -43,15 +43,15 @@
   border-radius: 20px;
 }
 
-.UIDesignEmotionscontent > h2 {
+.UIDesignEmotionscontent>h2 {
   font-size: 25px;
 }
 
-.UIDesignEmotionscontent > h2 > span {
+.UIDesignEmotionscontent>h2>span {
   color: #ef4c23;
 }
 
-.UIDesignEmotionscontent > div {
+.UIDesignEmotionscontent>div {
   height: 140px;
   margin: 4% auto;
   display: flex;
@@ -59,7 +59,7 @@
   justify-content: space-evenly;
 }
 
-.UIDesignEmotionscontent > div > img {
+.UIDesignEmotionscontent>div>img {
   height: 100%;
 }
 
@@ -69,6 +69,6 @@
   width: 50%;
 }
 
-.UIDesignEmotionsimage > img {
+.UIDesignEmotionsimage>img {
   width: 100%;
 }

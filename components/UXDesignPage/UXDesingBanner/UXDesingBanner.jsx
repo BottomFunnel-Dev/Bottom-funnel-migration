@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./UXDesingBanner.module.css";
 
@@ -15,11 +16,56 @@ export const UXDesingBanner = () => {
         <button>Book a Free Consultation</button>
       </div>
       <div className={styles.UXDesingBannermain}>
-        <img src="Images/UXDesignPhotos/banner.png" alt="Banner mobile image" />
-        <img src="Images/UXDesignPhotos/design-key.png" alt="design-key.png" />
-        <img src="Images/UXDesignPhotos/ps.png" alt="PS.png" />
-        <img src="Images/UXDesignPhotos/ux.png" alt="ux.png" />
-        <img src="Images/UXDesignPhotos/research.png" alt="research.png" />
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/UXDesignPhotos/banner.webp"
+            alt="Banner mobile image"
+          />
+        </div>
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/UXDesignPhotos/design-key.webp"
+            alt="design-key.webp"
+          />
+        </div>
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/UXDesignPhotos/ps.webp"
+            alt="PS.webp"
+          />
+        </div>
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/UXDesignPhotos/ux.webp"
+            alt="ux.webp"
+          />
+        </div>
+        <div>
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/UXDesignPhotos/research.webp"
+            alt="research.webp"
+          />
+        </div>
       </div>
     </div>
   );
