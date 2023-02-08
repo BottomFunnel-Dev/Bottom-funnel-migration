@@ -26,7 +26,7 @@ export default function IOTDevelopment() {
           name="description"
           content="Building an IOT web app can be a challenging task, but our team 
           of experts is here to help you get started and achieve success.
-           Learn about our top IOT Web App Development services that 
+          Learn about our top IOT Web App Development services that 
           will make your life easier!"
         />
       </Head>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MetaverseServices.module.css";
+import Image from "next/image";
 
 export const MetaverseServices = () => {
   return (
@@ -19,7 +20,14 @@ export const MetaverseServices = () => {
         immersive technology.
       </p>
       <div className={styles.MetaverseServicesImage}>
-        <img src="Images/metaversePhotos/process.png" alt="Process flowchart" />
+           <Image
+                  src={"/Images/metaversePhotos/process.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
       </div>
     </div>
   );

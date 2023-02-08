@@ -25,7 +25,7 @@ export default function StartupSolutions () {
     <div className={styles.StartupSolutionsMain}>
       
       <Head>
-        <title>Startup Development Services | Bottom Funnel</title>
+        <title>StartUp Solutions Development  Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to start and grow your own startup? Our 

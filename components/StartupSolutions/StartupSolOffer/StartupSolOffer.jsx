@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./StartupSolOffer.module.css";
+import Image from "next/image";
 
 export const StartupSolOffer = () => {
   return (
@@ -30,10 +31,14 @@ export const StartupSolOffer = () => {
         </p>
       </div>
       <div className={styles.StartupSolofferImages}>
-        <img
-          src="Images/startupSolPhotos/solBF.png"
-          alt="Startup Solutions with bottom funnel"
-        />
+         <Image
+                src={"/Images/startupSolPhotos/solBF.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
       </div>
     </div>
   );

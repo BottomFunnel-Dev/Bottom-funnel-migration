@@ -1,27 +1,28 @@
 import React from "react";
 import styles from "./StartupSolOfferCard.module.css";
+import Image from "next/image";
 
 export const StartupSolOfferCard = () => {
   const cardData = [
     {
       title: "Startup Tech Consulting/Ideation",
       body: "We help startups evaluate, select and use cutting-edge technology stacks such as web, mobile and cloud for their products and applications. After analyzing the pros and cons of your technology stack, choose the best framework for your development.",
-      image: "Images/startupSolPhotos/rocket.png",
+      image: "/Images/startupSolPhotos/rocket.webp",
     },
     {
       title: "Startup MVP Development",
       body: "Spending all your resources developing the perfect product is a risky move. A smart move is to start small with a minimum viable product. Startup MVP development services help you build the first version of your product faster.",
-      image: "Images/startupSolPhotos/mvp.png",
+      image: "/Images/startupSolPhotos/mvp.webp",
     },
     {
       title: "Startup Product Development",
       body: "From identifying market opportunities to bringing it to market, every startup goes through a new product development process. Classic Informatics provides end-to-end startup product development services to bring ideas to market faster.",
-      image: "Images/startupSolPhotos/release.png",
+      image: "/Images/startupSolPhotos/release.webp",
     },
     {
       title: "Startup Growth Hacking",
       body: "By defining your present, we predict your future and help your startup reach great heights.Launching a product is not enough. It also needs to be marketed properly. We will continue to support you to analyze product performance.",
-      image: "Images/startupSolPhotos/growth.png",
+      image: "/Images/startupSolPhotos/growth.webp",
     },
   ];
   return (
@@ -31,7 +32,14 @@ export const StartupSolOfferCard = () => {
           return (
             <div>
               <div>
-                <img src={image} alt={title} />
+              <Image
+                src={image}
+                alt={title}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
               </div>
               <h2>{title}</h2>
               <p>{body}</p>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./NFTWhyBF.module.css";
+import Image from "next/image";
 
 export const NFTWhyBF = () => {
   return (
@@ -25,20 +26,36 @@ export const NFTWhyBF = () => {
       </div>
       <div className={styles.NFTWhyBFMain}>
         <div className={styles.NFTWhyBFMainImage}>
-          <img
-            src="Images/NFTDevPhotos/whyBF.png"
-            alt="WHy Bottom Funnel for NFT development services"
-          />
+            <Image
+                  src={"/Images/NFTDevPhotos/whyBF.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={styles.NFTWhyBFBackgroundTriangleMain}>
-          <img
-            src="Images/NFTDevPhotos/triangle-top.png"
-            alt="Background top triangle"
-          />
-          <img
-            src="Images/NFTDevPhotos/triangle-bottom.png"
-            alt="Background bottom triangle"
-          />
+          <div className={styles.NFTwhyBFImage1}>
+             <Image
+                  src={"/Images/NFTDevPhotos/triangle-top.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+          </div>
+          <div className={styles.NFTwhyBFImage2}>
+             <Image
+                  src={"/Images/NFTDevPhotos/triangle-bottom.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+          </div>
         </div>
       </div>
     </div>

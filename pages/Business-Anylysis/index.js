@@ -31,7 +31,7 @@ export default function BusinessAnalysis() {
         />
       </Head>
       <main>
-   <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}

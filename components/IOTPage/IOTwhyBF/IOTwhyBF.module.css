@@ -16,13 +16,13 @@
   justify-content: space-between;
 }
 
-.IOTwhyBFBackgroundRectangle > img:nth-child(1) {
+.IOTwhyBFBackgroundRectangle >.IOTSolutionImage1{
   align-self: flex-start;
   height: 45%;
   width: 40%;
 }
 
-.IOTwhyBFBackgroundRectangle > img:nth-child(2) {
+.IOTwhyBFBackgroundRectangle >.IOTSolutionImage2{
   align-self: flex-end;
   height: 45%;
   width: 40%;

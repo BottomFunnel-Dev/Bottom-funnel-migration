@@ -21,7 +21,7 @@ export const BIPartner = () => {
       </p>
       <div className={styles.BIPartnerImage}>
         <img
-          src="Images/BIPhotos/partner.png"
+          src="Images/BIPhotos/partner.webp"
           alt="Lifecycle and tech stacks"
         />
       </div>

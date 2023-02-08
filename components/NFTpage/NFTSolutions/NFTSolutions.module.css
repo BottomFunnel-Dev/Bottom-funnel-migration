@@ -49,8 +49,7 @@
 
 .NFTSoluitonsMain > div > div {
   height: 80px;
+  width: 80px;
+  /* border: 2px solid red; */
 }
 
-.NFTSoluitonsMain > div > div > img {
-  height: 100%;
-}
