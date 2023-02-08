@@ -87,8 +87,8 @@ margin-left: 45%;
 margin-top: 15%;
 }
 .yanabalbuttonalongflex:hover{
-background-color: white;
-color: black;
+background-color: black;
+color: white;
 }
 
 /* for any type of mobile screen responsive */
@@ -193,7 +193,7 @@ margin-top: 15%;
 margin-bottom: 25%;
 }
 .yanabalbuttonalongflex:hover{
-background-color: white;
-color: black;
-}
+    background-color: black;
+    color: white;
+    }
 }
