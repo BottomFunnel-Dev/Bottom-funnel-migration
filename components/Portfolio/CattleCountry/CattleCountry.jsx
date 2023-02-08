@@ -18,9 +18,7 @@ export const CattleCountry = () => {
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <Lottie style={{
- height:"fitContent"
-    }} options={lottieDefaultOptions}  />
+    <Lottie options={lottieDefaultOptions}  />
   
     </div>
     

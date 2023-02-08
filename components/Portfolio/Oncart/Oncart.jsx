@@ -83,10 +83,7 @@ export const Oncart = () => {
     <div className={styles.yanbalrightboxes}>
 
        
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Lottie options={lottieDefaultOptions}   />
 
   </div>
     

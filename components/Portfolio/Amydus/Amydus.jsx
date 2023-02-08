@@ -70,7 +70,7 @@ export const Amydus = () => {
     
       
     <Lottie className={styles.lottieimages} style={{
-    
+    marginLeft:"-20%",
       width:"fitContent"
     }} options={lottieDefaultOptions}   />
 

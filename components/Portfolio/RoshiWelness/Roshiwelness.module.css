@@ -94,7 +94,7 @@ color: white;
 @media only screen and (min-width:0px) and (max-width:600px){
 .yanbalmainboxes{
 height: fit-content;
-background: url("/Images/portfolio/Portfolio banners/Group 770998.png");
+background: url("/Images/portfolio/Portfolio Mobile Responsive/14.png");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 display: flex;
@@ -105,9 +105,17 @@ flex-direction: column-reverse;
 width: 100%;
 height: 50%;
 }
+.yanballeftboxes>h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
 .yanballeftboxes>p{
 font-size: 14px;
 text-align: justify;
+margin: 2%;
 }
 .yanballeftboxinsiderflexbox{
 width: 100%;

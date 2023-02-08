@@ -11,16 +11,7 @@ margin-top: 0%;
 height: 100%;
 width: 55%;
 }
-.nextholidayleftboxforimages{
-height: 85%;
-width: 30%;
-margin: 5% 0% 0% 65%;
-}
-.nextholidayleftboxforimages>img{
-height: 100%;
-width: 100%;
-object-fit: contain;   
-}
+
 .nextholidayrighttbox{
 height: fit-content;
 width: 45%;
@@ -108,13 +99,15 @@ background-color: white;
 color: black;
 }
 
+/* for any type of mobile screen responsive */
+
 
 @media only screen and (min-width:0px) and (max-width:600px){
 .nextholidaymainboxes{
 height: fit-content;
 display: flex;
 flex-wrap: wrap;
-background: url("/Images/portfolio/Jambo shop/backgrounds/bg.png");
+background: url("/Images/portfolio/Portfolio Mobile Responsive/3.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
  padding: 20px; 
