@@ -1,8 +1,11 @@
 import React from "react";
-import {BusinessAnalysisBanner} from "../../components/BusinessAnalysis/BusinessAnalysisBanner";
-import {BusinessAnalysisLowerBanner} from "../../components/BusinessAnalysis/BusinessAnalysisLowerBanner";
-import {BusinessChallenge} from "../../components/BusinessAnalysis/BusinessChallenge";
-import {BusinessFramework} from "../../components/BusinessAnalysis/BusinessFramework";
+import {Footer} from "../../components/ScopingSessionPage/Footer";
+
+
+import {Header} from "../../components/ScopingSessionPage/Header";
+import {MiddleText} from "../../components/ScopingSessionPage/MiddleText";
+import {MidImages} from "../../components/ScopingSessionPage/MidImages";
+import {RoundIconsText} from "../../components/ScopingSessionPage/RoundIconsText";
 
 
 import {TextDropdown} from "../../components/CommonComponents/faqSection/Faqs";
@@ -16,22 +19,23 @@ import MainFooter from "../../components/CommonComponents/FooterSection/MainFoot
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
-export default function BusinessAnalysis() {
-
+export default function Scoping() {
 
     return (
         <div>
         <Head>
-        <title>Bottom Funnel | Digital Business Analysis Project Management</title>
+        <title>Scoping Session | Bottom Funnel</title>
         <meta
           name="description"
-          content="The role of a business analyst is vital in any organization. 
-          Our blog will cover the various responsibilities of a BA and 
-          how to be successful in the role. Stay tuned!"
+          content="Want to start your own startup but have no idea on where 
+          to begin? A Scoping Session is an important initial step to 
+          identifying and addressing key product development needs.
+           Read on to know more."
         />
-      </Head>
+        </Head>
       <main>
-   <Navbar
+            <Header/>
+            <Navbar
         productMount={{
           navMount: false,
         }}
@@ -40,10 +44,10 @@ export default function BusinessAnalysis() {
           logo: false,
         }}
       />
-            <BusinessAnalysisBanner/>
-            <BusinessChallenge/>
-            <BusinessFramework/>
-            <BusinessAnalysisLowerBanner/> {/* Other react required components  */}
+            <MiddleText/>
+            <MidImages/>
+            <RoundIconsText/>
+            <Footer/> {/* Other react required components  */}
             <StoriesSection/>
             <OndemandSection/> {/* <PortFolio />  */}
             <PlanProject/>
@@ -52,7 +56,7 @@ export default function BusinessAnalysis() {
             <TextDropdown/>
             <ContectForm/>
             <MainFooter/>
-        </main>
+            </main>
         </div>
     );
 };
