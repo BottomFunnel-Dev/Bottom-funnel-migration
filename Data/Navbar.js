@@ -96,47 +96,47 @@ export const process = [
 export const webservice = [
   {
     dropContent: "PHP Development",
-    navIcons: "/Images/navbar/services/php.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/php.svg",
     path: "/php-development",
   },
   {
     dropContent: "MERN Stack Development",
-    navIcons: "/Images/navbar/services/react.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/mern.svg",
     path: "/mernstack-development",
   },
   {
     dropContent: "MEAN Stack Development",
-    navIcons: "/Images/navbar/services/angular.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/angular.svg",
     path: "/meanstack-development",
   },
   {
     dropContent: "ASP.NET Development",
-    navIcons: "/Images/navbar/services/aspnet.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/asp.svg",
     path: "/asp.net-development",
   },
   {
     dropContent: "Java Development",
-    navIcons: "/Images/navbar/services/javaimage.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/java.svg",
     path: "/java-development",
   },
   {
     dropContent: "Python Development",
-    navIcons: "/Images/navbar/services/python.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/python.svg",
     path: "/python-development",
   },
   {
     dropContent: "Ruby on Rails Development",
-    navIcons: "/Images/navbar/services/ruby.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/ruby.svg",
     path: "/ruby-development",
   },
   {
     dropContent: "Golang Development",
-    navIcons: "/Images/navbar/services/golangimage.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/golang.svg",
     path: "/golang-development",
   },
   {
     dropContent: "Javascript Development",
-    navIcons: "/Images/navbar/services/javascriptimage.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/javascript.svg",
     path: "/javascript-development",
   },
 ];
