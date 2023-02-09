@@ -10,7 +10,6 @@ import { whyAspnet } from "../../components/Data/webdevPageData/whyTechStack";
 import { GetStarted } from "../../components/WebDevelopment/webGetStartedCard/GetStarted";
 import { WebDevWhy } from "../../components/WebDevelopment/webDevWhy/WebDevWhy";
 import { aspnetWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
