@@ -4,7 +4,6 @@ import { AndriodBottomFunnel } from "../../components/AndriodAppDevelopment/Andr
 import { AndriodCustomDevelopment } from "../../components/AndriodAppDevelopment/AndriodCustomDevelopment/AndriodCustomDevelopment";
 import { AndriodServices } from "../../components/AndriodAppDevelopment/AndriodServices/AndriodServices";
 import { AndriodUserCentric } from "../../components/AndriodAppDevelopment/AndriodUserCentric/AndriodUserCentric";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
