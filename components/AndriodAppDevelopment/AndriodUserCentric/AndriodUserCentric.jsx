@@ -36,8 +36,6 @@ export const AndriodUserCentric = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-          
-                
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Competetive Rates & Projects Quotes</h4>

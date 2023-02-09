@@ -1,4 +1,3 @@
-// export const PlantBaseDriverApp = () => {
 import React, { useState } from "react";
 import styles from "./AgricultureConsumerApp.module.css";
 

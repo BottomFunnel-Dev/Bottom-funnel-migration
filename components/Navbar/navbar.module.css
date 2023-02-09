@@ -854,7 +854,7 @@
 /* media query for the tabs and ipad air */
 
 
-/* @media (min-width: 480px) and (max-width: 1024px){
+@media (min-width: 480px) and (max-width: 1024px){
   .navbarSection {
     background: #ef4c23;
     justify-content: space-between;
@@ -919,4 +919,4 @@
   }
   
   
-} */
+}

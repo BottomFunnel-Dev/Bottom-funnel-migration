@@ -24,7 +24,7 @@ export const AndriodServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                
+                              
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Andriod App Development</h6>
@@ -46,6 +46,7 @@ export const AndriodServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
+                               
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Andriod UI/UX Design</h6>
@@ -65,6 +66,7 @@ export const AndriodServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
+                                
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Custom Andriod App Development</h6>
@@ -87,6 +89,7 @@ export const AndriodServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
+                                
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Android Consulting</h6>
@@ -108,6 +111,7 @@ export const AndriodServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
+                              
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Support and Maintenance</h6>
@@ -128,6 +132,7 @@ export const AndriodServices = () => {
           style={{ width: "100%", height: "100%" }}
         />
           
+                               
                             </div>
                             <div className={styles.andriodServiceBoxHeading}>
                                 <h6>Android App Modernization</h6>
