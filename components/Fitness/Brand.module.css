@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.fitnessMain > h1 {
+.fitnessMain>h1 {
   text-align: center;
   margin: 10px;
 }
@@ -19,11 +19,11 @@
   position: relative;
 }
 
-.fitondemandHomeServices > h1 {
+.fitondemandHomeServices>h1 {
   text-align: center;
 }
 
-.fitondemandHomeServices > div {
+.fitondemandHomeServices>div {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -39,30 +39,29 @@
   height: 100%;
   /* padding: 20px; */
   /* border: 2px solid red; */
-  gap: 5%;
 }
 
-.fithomeServices > div {
-  width: 100%;
+.fithomeServices>div {
+  width: 90%;
   border-radius: 10px;
-  height: 390px;
+  height: 400px;
   padding: 15px;
+  border: 1px solid rgba(27, 31, 35, 0.15);
   /* background-color: green; */
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.fithomeServices > div > img {
+.fithomeServices>div>div {
   /* width: 100%; */
   height: 60%;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.fithomeServices > div > h5 {
+.fithomeServices>div>h5 {
   margin-top: 5px;
 }
 
-.fithomeServices > div > p {
+.fithomeServices>div>p {
   margin-top: 2%;
   width: 90%;
   /* border: 2px solid red; */

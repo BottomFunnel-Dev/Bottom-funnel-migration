@@ -1,5 +1,4 @@
 import React from "react";
-// import { useState } from "react";
 import styles from "./Company.module.css";
 
 export const Companystats = () => {
@@ -75,7 +74,9 @@ export const Companystats = () => {
           <div className={styles._statsnum}>
             <h5>950+</h5>
           </div>
-          <div className={styles._statstext}>Successfully completed projects</div>
+          <div className={styles._statstext}>
+            Successfully completed projects
+          </div>
         </div>
       </div>
     </div>
