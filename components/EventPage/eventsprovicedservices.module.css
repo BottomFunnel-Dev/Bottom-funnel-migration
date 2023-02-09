@@ -1,12 +1,10 @@
 .providedservices {
   width: 95%;
-  /* height: 490px; */
   background-color: rgb(239, 232, 232);
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 25px;
-  /* padding: 30px; */
   margin: auto;
   justify-content: center;
   border-radius: 5px;

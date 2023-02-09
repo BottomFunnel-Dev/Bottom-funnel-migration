@@ -1,10 +1,8 @@
 .datingAdmin {
   width: 100%;
   height: max-content;
-  /* background-color: aqua; */
   margin: 60px 0;
 }
-
 .datingAdmin > h1 {
   margin-left: 6%;
 }
@@ -22,8 +20,6 @@
   height: 500px;
   padding: 10px;
   display: flex;
-  /* background: url("/public/Images/dating/rectanglebase.png"); */
-
   background-position: center;
   position: relative;
   border-top-left-radius: 15px;
@@ -55,9 +51,7 @@
 .datingAdminright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

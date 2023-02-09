@@ -66,34 +66,26 @@
   z-index: 1;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
   .flowerdeliverydrivermainboxing {
-    /* border: 1px solid black; */
     height: fit-content;
-    /* margin-top: 10%; */
     flex-direction: column-reverse;
     text-align: center;
-    /* border: 2px solid red; */
   }
 
   .flowerdeliveryflexboxleft {
     height: 400px;
     width: 70%;
     position: relative;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryflexboxleftimageone {
-    /* border: 1px solid red; */
     position: absolute;
     left: 30%;
-    /* top: 20%; */
     width: 100%;
-    /* height: 100%; */
     top: 60px;
   }
 
@@ -110,19 +102,16 @@
     height: fit-content;
     width: 80%;
     left: 40%;
-    /* bottom: 50px; */
   }
 
   .flowerdeliveryflexboxleftimagetwo > img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    /* padding: 5%; */
     z-index: 1;
   }
 
   .flowerdeliveryflexboxright {
-    /* border: 1px solid red; */
     height: fit-content;
     width: 100%;
     margin-left: 2%;
@@ -137,10 +126,8 @@
 
   .flowerdeliverydrivermappingbox {
     height: 150px;
-    /* border: 1px solid red; */
     width: 95%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* padding: 10px; */
     margin: 2%;
     border-radius: 10px;
   }
@@ -162,10 +149,8 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliverydrivermainboxing {
-    /* border: 1px solid black; */
     height: fit-content;
     margin-top: 10%;
-    /* flex-direction: column; */
     flex-direction: column-reverse;
     text-align: center;
   }
@@ -174,14 +159,11 @@
     height: 900px;
     width: 60%;
     position: relative;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryflexboxleftimageone {
-    /* border: 1px solid red; */
     position: absolute;
     left: 40%;
-    /* top: 20%; */
     width: 100%;
     height: 800px;
     top: 50px;
@@ -193,7 +175,6 @@
     border-radius: 20px;
     object-fit: cover;
     z-index: 0;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryflexboxleftimagetwo {
@@ -201,19 +182,16 @@
     height: fit-content;
     width: 80%;
     left: 50%;
-    /* bottom: 50px; */
   }
 
   .flowerdeliveryflexboxleftimagetwo > img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    /* padding: 5%; */
     z-index: 1;
   }
 
   .flowerdeliveryflexboxright {
-    /* border: 1px solid red; */
     height: fit-content;
     width: 100%;
     margin-left: 5%;
@@ -226,8 +204,6 @@
   }
 
   .flowerdeliverydrivermappingbox {
-    /* height: fit-content; */
-    /* border: 2px solid red; */
     height: 180px;
     width: 95%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

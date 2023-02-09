@@ -1,25 +1,20 @@
 .eyeweardeliverydrivermainbox {
-  /* height: 100vh; */
   margin-top: 3%;
   position: relative;
-  /* border: 2px solid red; */
 }
 
 .eyeweardeliverydriverappboxfortxt {
   position: absolute;
   right: 16%;
   width: 40%;
-  /* border: 2px solid red; */
 }
 
 .eyeweardeliverydriverappflexingintonew {
   display: flex;
-  /* border: 2px solid red; */
 }
 
 .eyeweardeliverydriverappflexingintonewleft {
   height: 500px;
-  /* border: 2px solid gray; */
   width: 40%;
   margin-top: 4%;
   margin-left: 3%;
@@ -33,8 +28,6 @@
   position: absolute;
   height: 100%;
   width: 40%;
-  /* border: 2px solid chartreuse; */
-  /* top: 5%; */
   left: 22%;
 }
 
@@ -42,13 +35,11 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
-  /* border: 2px solid red; */
 }
 
 .eyeweardeliverydriverappflexingintonewright {
   height: 500px;
   width: 60%;
-  /* border: 2px solid green; */
   margin-top: 4%;
   display: flex;
   flex-wrap: wrap;
@@ -63,14 +54,11 @@
   padding: 10px;
   border-radius: 10px;
   text-align: justify;
-  /* border: 2px solid firebrick; */
 }
 .txteyeweardriver>h4{
-  /* border: 2px solid red; */
   margin-top: 2%;
 }
 .txteyeweardriver>p{
-  /* border: 2px solid red; */
   font-size: 14px;
   margin-top: 1%;
 }
@@ -81,10 +69,8 @@
 
 .logoeyeweardriver {
   margin: 2%;
-  /* border: 2px solid; */
 }
 .logoeyeweardriver>img{
-  /* border: 2px solid red; */
   height: 40px;
   width: 40px;
 }

@@ -1,104 +1,79 @@
 /* for laptop and wide range of screen responsive */
 @media only screen and (min-width:769px){
-
 .digitalmarketingweoffersmainboxes{
-    height: fit-content;
-    /* border: 2px solid yellow; */
-    margin: 2%;
-
-    
+height: fit-content;
+margin: 2%;
 }
-
 .marketplaceboxerflex{
-    height: fit-content;
-    width: 95%;
-   margin: 3%;
- /* border: 2px solid green; */
-    display: flex;
+height: fit-content;
+width: 95%;
+margin: 3%;
+display: flex;
 }
 .marketplaceboxerflex:hover{
-    background-color: #ffedd4;
-    transition: all 0.2s linear;
-    transform: translateY(-10px);
+background-color: #ffedd4;
+transition: all 0.2s linear;
+transform: translateY(-10px);
 }
 
 .marketplacenumberingbox{
-    height: 100%;
-    width: fit-content;
+height: 100%;
+width: fit-content;
  
-    margin-left: 0.4%;
+margin-left: 0.4%;
 font-size: 90px;
 font-weight: 700;
 opacity: 0.4;
 border-right: 3px solid #ef4c23;
-/* border: 2px solid yellow; */
 }
 
 .marketplaceiconbox{
-    height: 100%;
-    width: 12%;
-    /* border: 2px solid pink; */
- 
-    margin-left: 2%;
-    padding: 20px;
+height: 100%;
+width: 12%;
+margin-left: 2%;
+padding: 20px;
  
 }
 
 .marketplacetxtbox{
-    width: 65%;
-  
-    /* margin-left: 2%; */
-    padding: 10px;
-    /* border: 2px solid green; */
-
+width: 65%;
+padding: 10px;
 }
 
 .marketplacetxtbox >h4 {
-    text-align: justify;
+text-align: justify;
 }
-
-
-
 .digitalmarketingwhybutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 220px;
-   background-color: transparent;
-    border: none;
-    outline: none;
-    box-shadow: #ef4c23 0px 0.5px 2px;
-    font-size: 17px;
-    font-weight: 600;
-    color: #ef4c23;
-    margin-top: 20%;
-    /* margin-left: 5%; */
+padding: 10px 50px;
+border-radius: 100px;
+width: 220px;
+background-color: transparent;
+border: none;
+outline: none;
+box-shadow: #ef4c23 0px 0.5px 2px;
+font-size: 17px;
+font-weight: 600;
+color: #ef4c23;
+margin-top: 20%;
   
 }
 
 .digitalmarketingwhybutton:hover {
-
-    background-color:#ef4c23;
-    color:  white;
-
+background-color:#ef4c23;
+color:  white;
 }
-
-
 .colorred{
-    color: #ef4c23;
+color: #ef4c23;
 }
 
 .weofferbesttextbox{
-    margin-top: 5%;
-    height: 100px;
-    width: 80%;
-
-    margin-left: 3%;
-  
+margin-top: 5%;
+height: 100px;
+width: 80%;
+margin-left: 3%;
 }
-
 .weofferbesttextbox >h1  {
-
-    font-weight: bold;
+font-weight: bold;
 }
 
 }
@@ -107,98 +82,86 @@ border-right: 3px solid #ef4c23;
 
 @media only screen and (min-width:0px) and (max-width:376px){
 
-    .digitalmarketingweoffersmainboxes{
-        height: fit-content;
-        /* border: 2px solid yellow; */
-        margin: 2%;
-      
-    }
+.digitalmarketingweoffersmainboxes{
+height: fit-content;
+margin: 2%;
+  
+}
 
-    .weofferbesttextbox>h1{
-   font-size: 25px;
-   text-align: center;
-    }
-    
-    .digitalmarketingweoffersmainboxes{
-        height: fit-content;
-       
-    }
-    
-    .marketplaceboxerflex{
-        height: fit-content;
-        width: 95%;
-     margin-left: 2.5%;
-     margin-top: 5%;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        border-radius: 10px;
-     
-    }
-    .marketplaceboxerflex:hover{
-        transform: scale(1.02);
-    }
+.weofferbesttextbox>h1{
+font-size: 25px;
+text-align: center;
+}
+
+.digitalmarketingweoffersmainboxes{
+height: fit-content;
+
+}
+
+.marketplaceboxerflex{
+height: fit-content;
+width: 95%;
+ margin-left: 2.5%;
+ margin-top: 5%;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+ 
+}
+.marketplaceboxerflex:hover{
+transform: scale(1.02);
+}
 
 .marketplacenumberingbox{
-    border-bottom: 2px solid;
-    width: 20%;
-    opacity: 0.5;
-    font-weight: 700;
-    font-size:50px;
+border-bottom: 2px solid;
+width: 20%;
+opacity: 0.5;
+font-weight: 700;
+font-size:50px;
 margin-left: 40%;
-   
+
 }
-/* .marketplaceiconbox>img:nth-child(1){
-    margin-left: -5%;
-   
-    width: 20%;
-} */
+
 
 .marketplaceiconbox>img{
-    margin-top: 2%;
+margin-top: 2%;
 }
 .marketplaceiconbox{
  margin-left: 37%;
 
 }
-/* .marketplaceiconbox:nth-child(1){
-    margin-left:25%;
-    border: 1px solid;
-} */
-
 .marketplacetxtbox>h4{
-    text-align: center;
+text-align: center;
   
 }
 .marketplacetxtbox{
-    padding: 10px;
-    
+padding: 10px;
+
 }
 
 .digitalmarketingwhybutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: fit-content;
-   background-color: transparent;
-    border: none;
-    outline: none;
-    box-shadow: #ef4c23 0px 0.5px 2px;
-    font-size: 17px;
-    font-weight: 600;
-    color: #ef4c23;
+padding: 10px 50px;
+border-radius: 100px;
+width: fit-content;
+background-color: transparent;
+border: none;
+outline: none;
+box-shadow: #ef4c23 0px 0.5px 2px;
+font-size: 17px;
+font-weight: 600;
+color: #ef4c23;
  
-    margin-left: 10%;
-    margin-bottom: 15%;
+margin-left: 10%;
+margin-bottom: 15%;
   
 }
 
 .digitalmarketingwhybutton:hover {
 
-    background-color:#ef4c23;
-    color:  white;
+background-color:#ef4c23;
+color:  white;
 
 }
 .marketplacetxtbox>p{
-    text-align: justify;
+text-align: justify;
 }
-
-
 }

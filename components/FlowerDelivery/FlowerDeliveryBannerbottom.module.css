@@ -37,13 +37,11 @@
   margin: auto;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
   .lowerbannerflower {
     border: 1px solid red;
-    /* height: 250px; */
     width: 100%;
     background-image: url("/Images/Flowerdeliverypage/Group339928.png");
     background-repeat: no-repeat;

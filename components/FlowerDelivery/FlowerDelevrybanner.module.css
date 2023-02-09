@@ -74,21 +74,18 @@
   color: #3380f2;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
-
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
   .flowerdeliverybannermaindiv {
-    /* border: 1px solid red; */
+
     flex-direction: column-reverse;
     position: static;
   }
 
   .flowerdeliverybannerleftbox {
-    /* border: 1px solid red; */
+
     height: 50%;
     width: 95%;
-    /* margin-left: 5%; */
     text-align: justify;
     position: absolute;
     top: 82%;
@@ -96,7 +93,7 @@
   }
 
   .flowerdeliverybannerleftbox > h1 {
-    /* border: 1px solid red; */
+
     width: 100%;
     font-weight: 700;
     font-size: 23px;
@@ -110,7 +107,6 @@
   }
 
   .flowerdeliverybannerleftbox > p {
-    /* border: 1px solid black; */
     font-size: 16px;
     text-align: center;
   }
@@ -130,7 +126,6 @@
     justify-content: center;
     text-align: center;
     margin-left: 20%;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliverybannerbutton:hover {
@@ -139,22 +134,18 @@
   }
 
   .flowerdeliverybannerrightbox {
-    /* border: 1px solid black; */
     position: static;
   }
 
   .flowerdeliverybannerimageone {
-    /* border: 2px solid red; */
     position: absolute;
     height: 100%;
     width: 100%;
-    /* left: 10%; */
     z-index: 0;
     top: 10%;
   }
 
   .flowerdeliverybannerimageone > img {
-    /* border: 1px solid black; */
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -166,7 +157,6 @@
     height: 90%;
     width: 80%;
     left: 10%;
-    /* top: 15%; */
   }
 
   .flowerdeliverybannerimagetwo > img {
@@ -178,7 +168,6 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliverybannermaindiv {
-    /* border: 1px solid red; */
     flex-direction: column-reverse;
     position: static;
     height: 90vh;
@@ -187,8 +176,6 @@
   }
 
   .flowerdeliverybannerleftbox {
-    /* border: 1px solid red; */
-    /* height: 50%; */
     width: 100%;
     margin-left: 5%;
     text-align: justify;
@@ -200,7 +187,6 @@
   }
 
   .flowerdeliverybannerleftbox > h1 {
-    /* border: 1px solid red; */
     width: 100%;
     font-weight: 700;
     font-size: 35px;
@@ -214,7 +200,6 @@
   }
 
   .flowerdeliverybannerleftbox > p {
-    /* border: 1px solid black; */
     font-size: 25px;
     text-align: center;
   }
@@ -231,7 +216,6 @@
     font-weight: 600;
     color: white;
     margin-left: 30%;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliverybannerbutton:hover {
@@ -240,22 +224,18 @@
   }
 
   .flowerdeliverybannerrightbox {
-    /* border: 1px solid black; */
     position: static;
   }
 
   .flowerdeliverybannerimageone {
-    /* border: 2px solid red; */
     position: absolute;
     height: 100%;
     width: 100%;
-    /* left: 10%; */
     z-index: 0;
     top: 10%;
   }
 
   .flowerdeliverybannerimageone > img {
-    /* border: 1px solid black; */
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -267,7 +247,6 @@
     height: 90%;
     width: 80%;
     left: 10%;
-    /* top: 15%; */
   }
 
   .flowerdeliverybannerimagetwo > img {

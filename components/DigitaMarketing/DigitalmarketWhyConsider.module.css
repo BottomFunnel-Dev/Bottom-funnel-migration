@@ -30,7 +30,6 @@
 .divforimagedigitalmarketwhychoose{
     height: 80%;
     width: 50%;
-   /* border: 2px solid green; */
     padding: 10px;
    
   
@@ -69,7 +68,6 @@
         flex-wrap: wrap;
         width: 95%;
         height: fit-content;
-        /* margin-left: 20%; */
         margin: auto;
         
        
@@ -90,7 +88,6 @@
     .divforimagedigitalmarketwhychoose{
         height: 80%;
         width: 50%;
-       /* border: 2px solid green; */
         padding: 10px;
        
       

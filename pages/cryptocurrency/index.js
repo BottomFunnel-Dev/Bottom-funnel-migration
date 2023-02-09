@@ -1,5 +1,4 @@
 import React from "react";
-
 import { CryptoCurrencyBanner } from "../../components/CryptoCurrency/CryptoCurrencyBanner";
 import { CryptoCurrencyWork } from "../../components/CryptoCurrency/CryptoCurrencyWork";
 import { CryptoCurrencyServices } from "../../components/CryptoCurrency/CryptoCurrencyServices";
@@ -33,33 +32,33 @@ export default function CryptoCurrrency() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <CryptoCurrencyBanner />
-      <CryptoCurrencyWork />
-      <CryptoCurrencyServices />
-      <CryptoMining />
-      <CryptoAdminpannel />
-      <CryptoLowerBanner />
-      <CryptoWhyChoose />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <CryptoCurrencyBanner />
+        <CryptoCurrencyWork />
+        <CryptoCurrencyServices />
+        <CryptoMining />
+        <CryptoAdminpannel />
+        <CryptoLowerBanner />
+        <CryptoWhyChoose />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

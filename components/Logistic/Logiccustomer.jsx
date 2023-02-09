@@ -27,7 +27,6 @@ export default function Logiccustomer({ customerData }) {
                     alt={icon.alt}
                   />
                 </div>
-
                 <h3>{title}</h3>
                 <p>{para}</p>
               </div>

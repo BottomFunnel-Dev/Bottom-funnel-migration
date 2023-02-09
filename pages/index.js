@@ -1,21 +1,69 @@
-import About from "../components/AboutSection/About";
-import Awards from "../components/AwardSection/Awards";
-import { TextDropdown } from "../components/CommonComponents/faqSection/Faqs";
-import MainFooter from "../components/CommonComponents/FooterSection/MainFooter";
-import Industries from "../components/CommonComponents/industries/Industries";
-import OndemandSection from "../components/CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../components/CommonComponents/PlanProject/PlanProject";
-import PortFolio from "../components/CommonComponents/PortFolioSection/PortFolio";
-import Revamping from "../components/CommonComponents/revamping/Revamping";
-import { SeoblogSection } from "../components/CommonComponents/SeoBlogs/Seoblogs";
-import StoriesSection from "../components/CommonComponents/StoriesSection/StoriesSection";
-import CompanyLogo from "../components/CompanyLogos/CompanyLogo";
-import { Companystats } from "../components/CompanyStats/Companystats";
-import ContectForm from "../components/ContectForm/ContectForm";
-import { BannerFull } from "../components/mainSection/BannerFull";
-import Navbar from "../components/Navbar/Navbar";
-import Services from "../components/Services/Services";
+import React from "react";
 import Head from "next/head";
+import dynamic from "next/dynamic";
+import Navbar from "../components/Navbar/Navbar";
+
+const About = dynamic(() => import("../components/AboutSection/About"), {
+  loading: () => "Loading...",
+});
+const Awards = dynamic(() => import("../components/AwardSection/Awards"), {
+  loading: () => "Loading...",
+});
+const TextDropdown = dynamic(
+  () => import("../components/CommonComponents/faqSection/Faqs"),
+  { loading: () => "Loading..." },
+);
+const MainFooter = dynamic(
+  () => import("../components/CommonComponents/FooterSection/MainFooter"),
+  { loading: () => "Loading..." },
+);
+const Services = dynamic(() => import("../components/Services/Services"), {
+  loading: "Loading...",
+});
+const OndemandSection = dynamic(
+  () =>
+    import("../components/CommonComponents/OnDemandSection/OndemandSection"),
+  { loading: "Loading..." },
+);
+const PlanProject = dynamic(
+  () => import("../components/CommonComponents/PlanProject/PlanProject"),
+  { loading: "Loading..." },
+);
+const PortFolio = dynamic(
+  () => import("../components/CommonComponents/PortFolioSection/PortFolio"),
+  { loading: "Loading..." },
+);
+const Revamping = dynamic(
+  () => import("../components/CommonComponents/revamping/Revamping"),
+  { loading: "Loading..." },
+);
+const SeoblogSection = dynamic(
+  () => import("../components/CommonComponents/SeoBlogs/Seoblogs"),
+  { loading: "Loading..." },
+);
+const StoriesSection = dynamic(
+  () => import("../components/CommonComponents/StoriesSection/StoriesSection"),
+  { loading: "Loading..." },
+);
+const CompanyLogo = dynamic(
+  () => import("../components/CompanyLogos/CompanyLogo"),
+  { loading: "Loading..." },
+);
+const Companystats = dynamic(
+  () => import("../components/CompanyStats/Companystats"),
+  { loading: "Loading..." },
+);
+const ContectForm = dynamic(
+  () => import("../components/ContectForm/ContectForm"),
+  { loading: "Loading..." },
+);
+const BannerFull = dynamic(
+  () => import("../components/mainSection/BannerFull"),
+  {
+    loading: () => "Loading...",
+  },
+);
+
 export default function Home() {
   return (
     <div>
@@ -46,7 +94,6 @@ export default function Home() {
         <Services />
         <Awards />
         <StoriesSection />
-        {/* <Industries /> */}
         <OndemandSection />
         <PortFolio />
         <PlanProject />

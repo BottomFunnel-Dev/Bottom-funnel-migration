@@ -3,6 +3,7 @@ import FooterTable from "./FooterTable";
 import styles from "./mainFooter.module.css";
 import Image from "next/image";
 import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
@@ -13,21 +14,23 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedin,
+  FaInstagram,
   FaYoutube,
   FaPhoneAlt,
   FaWhatsapp,
 } from "react-icons/fa";
+
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";
 import Lottie from "react-lottie";
-import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
+import footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 const MainFooter = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
+  const [whatsapp, setWhatsapp] = React.useState(false);
   const style = {
     position: "absolute",
     top: "50%",
@@ -100,30 +103,29 @@ const MainFooter = () => {
               <div key={i} className={item.className}></div>
             </OverlayTrigger>
           ))}
+
           <Lottie
             options={lottieOptionData}
             style={{ width: "100%", height: "100%" }}
           />
         </div>
+
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/footer/whitelogobottom.webp"
-              alt="footer/whitelogobottom.webp"
-            />
+            <img src="Images/footer/whitelogobottom.webp" alt="image" />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
+
           <div className={styles.footerAddress}>
             <div className={styles.footerMapContactSection}>
               <li>
                 <FaPhoneAlt /> +91 8209366227
               </li>
               <li></li>
-              <li>
+              <li
+                onMouseEnter={() => setWhatsapp(() => true)}
+                onMouseLeave={() => setWhatsapp(() => false)}
+              >
                 <FaWhatsapp fontSize="20px" cursor={"pointer"} /> +971553070316
               </li>
               <li>
@@ -131,6 +133,33 @@ const MainFooter = () => {
                 <AiOutlineMail fontSize="20px" /> hr@bottomfunnel.net
               </li>
             </div>
+            <div
+              style={{ display: whatsapp ? "flex" : "none" }}
+              onMouseEnter={() => setWhatsapp(true)}
+              onMouseLeave={() => setWhatsapp(false)}
+              className={styles.MainFooterwhatsappContainer}
+            >
+              <div>
+                <h1>UAE</h1>
+                <h3>+971553070316</h3>
+                <h3>+971585978776</h3>
+                <h3>+971 -56 566 4624</h3>
+              </div>
+              <div>
+                <h1>India</h1>
+                <h3>+918209366227</h3>
+                <h3>+917877680588</h3>
+              </div>
+              <div>
+                <h1>USA</h1>
+                <h3>+19176956550</h3>
+              </div>
+              <div>
+                <h1>Kenya</h1>
+                <h3>+254 787 213 522</h3>
+              </div>
+            </div>
+
             <div className={styles.footerSocialMediaSection}>
               <a
                 target="_blank"
@@ -170,6 +199,7 @@ const MainFooter = () => {
                 </IconContext.Provider>
               </a>
             </div>
+
             <div
               className={`${styles.footerMapContactSection}  ${styles.privacySection}`}
             >
@@ -205,6 +235,7 @@ const MainFooter = () => {
             </Box>
           </Modal>
         </div>
+
         <div className={styles.footerServices}>
           <FooterTable />
           <div onClick={moreServices} className={styles.moreServ}>

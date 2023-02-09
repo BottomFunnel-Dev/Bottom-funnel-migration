@@ -1,15 +1,12 @@
 .exercisediv {
   width: 96%;
   height: fit-content;
-  /* padding: 10px; */
   margin-bottom: 3%;
 
 }
 
 .exercisesubdiv {
-  /* background-color: blueviolet; */
   width: 90%;
-  /* height: 700px; */
   margin: auto;
   display: flex;
   padding: 10px;
@@ -17,7 +14,6 @@
 
 .exercisemobile {
   width: 50%;
-  /* background-color: red; */
   position: relative;
   height: 600px;
   padding: 10px;
@@ -43,7 +39,6 @@
   height: 510px;
   position: absolute;
   z-index: 2;
-  /* margin-left:35%; */
   margin-top: 10px;
   padding: 10px 0px;
 }
@@ -71,7 +66,6 @@
 
 .exercisebox {
   width: 50%;
-  /* background-color: blue; */
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -80,7 +74,6 @@
 }
 
 .exercisebox>div {
-  /* background-color: aliceblue; */
   width: 42%;
   height: 220px;
   border-radius: 10px;
@@ -108,7 +101,6 @@
 }
 
 .one {
-  /* margin:12px 0px; */
   width: 30%;
   height: 35px;
   margin-left: 15px;
@@ -117,7 +109,6 @@
 
 .szexercisetab {
   width: 50%;
-  /* background-color: red; */
   position: relative;
   height: 600px;
   padding: 10px;
@@ -165,7 +156,6 @@
 
 .analitic {
   width: 50%;
-  /* background-color: red; */
   position: relative;
   height: 600px;
   padding: 10px;

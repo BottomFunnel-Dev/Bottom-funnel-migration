@@ -1,5 +1,4 @@
 import React from "react";
-
 import { FlutterAppDevelopmentBanner } from "../../components/FlutterAppDevelopment/FlutterAppDevelopmentBanner/FlutterAppDevelopmentBanner";
 import { FlutterServices } from "../../components/FlutterAppDevelopment/FlutterServices/FlutterServices";
 import { WhyFlutter } from "../../components/FlutterAppDevelopment/WhyFlutter/WhyFlutter";
@@ -20,47 +19,46 @@ import Head from "next/head";
 
 export default function FlutterAppDevelopment() {
   return (
-
     <>
-    <Head>
-    <title>Flutter App Development Company | Bottom Funnel</title>
-     <meta
-       name="description"
-       content="Looking for top-notch flutter app development 
+      <Head>
+        <title>Flutter App Development Company | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Looking for top-notch flutter app development 
        services? Our team offers comprehensive and 
        thorough solutions. Read on to know about our 
        offerings."
-     />
-   </Head>
-    <main>
-<Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{  
-          color: "white",
-          logo: true,
-        }}
-      />
-      <FlutterAppDevelopmentBanner />
-      <FlutterServices />
-      <WhyFlutter />
-      
-      <FlutterCrossPlatform />
-      <FlutterAppDevelopmentDreamProject />
-      <FluterDevelopmentExpertise />
+        />
+      </Head>
+      <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <FlutterAppDevelopmentBanner />
+        <FlutterServices />
+        <WhyFlutter />
 
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-    </main>
+        <FlutterCrossPlatform />
+        <FlutterAppDevelopmentDreamProject />
+        <FluterDevelopmentExpertise />
+
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
+      </main>
     </>
   );
 }

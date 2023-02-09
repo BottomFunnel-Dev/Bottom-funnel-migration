@@ -13,7 +13,6 @@
 .digitalmarketingbannerspacefortext1 {
   height: 45%;
   width: 40%;
-  /* margin-left: 3%; */
   position: absolute;
   top: 35%;
   left: 5%;
@@ -26,7 +25,6 @@
 
 .digitalmarketingbannerspacefortext1 > h1 {
   font-weight: bold;
-  /* margin-left: 5%; */
 }
 
 .digitalmarketingbannerbutton {
@@ -52,27 +50,21 @@
 /* for any type of mobile screen responsive  */
 
 @media only screen and (min-width:0px) and (max-width:376px){
-
 .digitalmarketingbannermainboxes {
   height: 75vh;
   width: 100%;
   background: url("/Images/digitalmarket/mobile responsive/Group 770921.png");
 background-position-x: 10%;
   background-size:  contain;
-
-  background-repeat: no-repeat;
-
-
+ background-repeat: no-repeat;
 }
 
 .digitalmarketingbannerspacefortext1 {
   height: 45%;
   width: 90%;
-  /* margin-left: 3%; */
   position: absolute;
   top: 30%;
   left: 5%;
-  
 }
 
 .digitalmarketingbannerspacefortext1>h1{
@@ -87,7 +79,6 @@ background-position-x: 10%;
 
 .digitalmarketingbannerspacefortext1 > h1 {
   font-weight: bold;
-  /* margin-left: 5%; */
 }
 
 .digitalmarketingbannerbutton {
@@ -108,7 +99,6 @@ background-position-x: 10%;
   background-color: white;
   color: #ef4c23;
 }
-
 }
 
 

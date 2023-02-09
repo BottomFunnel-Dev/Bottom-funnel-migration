@@ -40,7 +40,6 @@
 }
 
 .fintechsolutionmappingdataadminpannel {
-  /* border: 1px solid red; */
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: fit-content;
@@ -55,7 +54,6 @@
 }
 
 .fintechsolutionmappingadmindata > h4 {
-  /* border: 1px solid red; */
   margin-top: 1%;
   margin-left: 1%;
 }
