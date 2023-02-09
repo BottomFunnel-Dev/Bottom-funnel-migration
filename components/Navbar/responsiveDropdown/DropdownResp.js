@@ -13,15 +13,10 @@ import dropdown from "./dropdownResp.module.css";
 import { NavIndustries } from "../NavIndustries";
 import { Products } from "../Products";
 import { Industries } from "../Industries";
+import { Resource } from "../Resource";
 export default function DropdownResp({
-  homeHoverIn,
-  homeHoverOut,
-  serHoverIn,
-  serHoverOut,
-  solHoverIn,
-  solHoverOut,
-  indusHoverIn,
-  indusHoverOut,
+
+  hoverhandle,
   scroll,
   productMount,
 }) {
@@ -37,8 +32,8 @@ export default function DropdownResp({
         </AccordionSummary>
         <AccordionDetails className={dropdown.accord}>
           <WhoWeAre
-            homeHoverIn={homeHoverIn}
-            homeHoverOut={homeHoverOut}
+            homeHoverIn={hoverhandle}
+            homeHoverOut={hoverhandle}
             scroll={scroll}
             productMount={productMount}
           />
@@ -54,15 +49,15 @@ export default function DropdownResp({
         </AccordionSummary>
         <AccordionDetails>
           <NavServices
-            serHoverIn={serHoverIn}
-            serHoverOut={serHoverOut}
+            serHoverIn={hoverhandle}
+            serHoverOut={hoverhandle}
             scroll={scroll}
             productMount={productMount}
           />
         </AccordionDetails>
       </Accordion>
 
-      <Accordion>
+     
         <Accordion>
           <AccordionSummary
             expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
@@ -73,54 +68,57 @@ export default function DropdownResp({
           </AccordionSummary>
           <AccordionDetails>
             <NavIndustries
-              solHoverIn={solHoverIn}
-              solHoverOut={solHoverOut}
+              solHoverIn={hoverhandle}
+              solHoverOut={hoverhandle}
               scroll={scroll}
               productMount={productMount}
             />
           </AccordionDetails>
         </Accordion>
 
-        <AccordionSummary
-          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography> Industries </Typography>
-        </AccordionSummary>
-
-        <AccordionDetails>
-          <Industries
-            indusHoverIn={indusHoverIn}
-            indusHoverOut={indusHoverOut}
-            scroll={scroll}
-            productMount={productMount}
-          />
-        </AccordionDetails>
-      </Accordion>
-
-      {/* <Accordion>
-        <AccordionSummary
-          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Products</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-            <Products
-              serHoverIn={serHoverIn}
-              serHoverOut={serHoverOut}
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>Industries</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Industries
+              solHoverIn={hoverhandle}
+              solHoverOut={hoverhandle}
               scroll={scroll}
               productMount={productMount}
             />
-        </AccordionDetails>
-      </Accordion> */}
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion>
+          <AccordionSummary
+            expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <Typography>Resources</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Resource
+              solHoverIn={hoverhandle}
+              solHoverOut={hoverhandle}
+              scroll={scroll}
+              productMount={productMount}
+            />
+          </AccordionDetails>
+        </Accordion>
+    
+
+     
 
       <div className={dropdown.otherNav}>
-        {/* <div>PRICING</div> */}
-        {/* <div>PORTFOLIO</div> */}
-        <div> BLOG </div>
+       
+        <div>WORK</div>
+    
 
         <button className={dropdown.ProductPageRouteButton}> Products </button>
         <button> Hire A Talent </button>
