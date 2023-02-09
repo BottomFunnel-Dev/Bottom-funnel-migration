@@ -27,7 +27,6 @@ export const WorkLifeBalance = () => {
         many of us find ourselves saying yes to those crazy late nights and
         weekend projects.
       </p>
-      
       <div className={styles.WorkLifeBalancecards}>
         {cardsData.map((elem, idx) => {
           return (

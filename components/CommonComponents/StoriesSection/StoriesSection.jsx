@@ -133,8 +133,7 @@ const StoriesSection = () => {
       video: "GEsw-rqC-Hk",
     },
   ];
-
-  const handleModal = (item) => {
+    const handleModal = (item) => {
     console.log(item);
     setVideoString(item.video);
     setToggle(true);
@@ -163,8 +162,7 @@ const StoriesSection = () => {
                   sizes={"100vw"}
                   style={{ width: "100%", height: "100%" }}
                 />
-                {/* <img src={item.brandImage} alt="image" /> */}
-              </div>
+               </div>
             </div>
             <div className={styles.bylineContent}>
               <p>{item.name}</p>
@@ -173,10 +171,7 @@ const StoriesSection = () => {
           </div>
         ))}
       </Slider>
-      {/* <div onClick={handleModalOut} className={toggle?"youtubeDiv":"none"}>
-              {toggle && <YoutubeLink embedId={videoString} />}
-            </div> */}
-      <p className={styles.testimonial}>View more testimonials <IconContext.Provider value={{ className: styles.rightArrow }}>
+   <p className={styles.testimonial}>View more testimonials <IconContext.Provider value={{ className: styles.rightArrow }}>
         <BsArrowRight />
       </IconContext.Provider></p>
 

@@ -12,8 +12,7 @@ export const OurProcess = () => {
           <h1>
             About <span>Us</span>
           </h1>
-
-          <p>
+            <p>
             Going digital will bring higher revenues and growth. Marketing is
             all about targeting the right people with the right message, Digital
             marketing helps you do that efficiently. We are your partner in
@@ -30,7 +29,6 @@ export const OurProcess = () => {
         </div>
 
         <div className={styles.OurProcessaboutUsimage}>
-          {/* <img src="/Images/aboutusImage/meeting.webp" alt="image" /> */}
           <Image
             src={"/Images/aboutusImage/meeting.webp"}
             alt={"meetimage"}
@@ -41,8 +39,7 @@ export const OurProcess = () => {
           />
         </div>
       </div>
-
-      <OurProcessPush />
+     <OurProcessPush />
     </div>
   );
 };
