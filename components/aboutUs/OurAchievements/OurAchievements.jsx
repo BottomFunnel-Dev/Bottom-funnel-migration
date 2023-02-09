@@ -29,7 +29,6 @@ export const OurAchievements = () => {
       </div>
 
       <div className={styles.OurAchievementsimage}>
-        {/* <img src="/Images/aboutusImage/our-achievements.jpg" alt="Our Achievement" /> */}
         <Image
           src={"/Images/aboutusImage/our-achievements.webp"}
           alt={"image"}

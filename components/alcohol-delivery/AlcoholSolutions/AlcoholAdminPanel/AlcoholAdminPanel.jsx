@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./AlcoholAdminPanel.module.css";
-
 export default function AlcoholAdminPanel({ customerData }) {
   const [active, setActive] = useState(0);
   return (
@@ -22,7 +21,6 @@ export default function AlcoholAdminPanel({ customerData }) {
             );
           })}
         </div>
-
         <div className={styles.alcoholAdminleft}>
           <div>
             <img

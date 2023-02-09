@@ -45,8 +45,7 @@ export default function AboutUS() {
         <OurAchievements />
         <WorkLifeBalance />
         <OurBlogs />
-
-        {/* Other react required components  */}
+    {/* Other react required components  */}
         <StoriesSection />
         <OndemandSection />
         {/* <PortFolio />  */}
