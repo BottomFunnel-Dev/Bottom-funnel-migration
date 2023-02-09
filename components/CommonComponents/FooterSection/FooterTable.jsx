@@ -1,10 +1,8 @@
 import React from "react";
 import styles from "./footertable.module.css";
-// import { useNavigate } from "react-router-dom";
 import Link from "next/link";
 
 const FooterTable = () => {
-  // const navigate = useNavigate();
 
   return (
     <div className={styles.footerTable}>

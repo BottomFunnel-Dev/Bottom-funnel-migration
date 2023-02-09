@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
+import React from "react";
 import { AIContentApplication } from './AIContentApplication'
-import { AiContentApplowerbanner } from './AiContentApplowerbanner'
 
 import { AiContentBanner } from './AiContentBanner'
 import { AiContentHuman } from './AiContentHuman'
@@ -22,11 +19,6 @@ import MainFooter from "../FooterSection/MainFooter";
 
 
 export const AiContentServices = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "white", logo: false }));
-  }, []);
-
   return (
     <div>
     <AiContentBanner  />

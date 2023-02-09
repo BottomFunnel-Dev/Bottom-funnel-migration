@@ -35,8 +35,7 @@ export default function MultipleItems() {
       <Slider {...settings}>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide1}
-        // onMouseLeave={toggleSlide1}
+       
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -48,8 +47,7 @@ export default function MultipleItems() {
         </div>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide2}
-        // onMouseLeave={toggleSlide2}
+       
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -62,8 +60,7 @@ export default function MultipleItems() {
 
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide3}
-        // onMouseLeave={toggleSlide3}
+       
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -75,8 +72,7 @@ export default function MultipleItems() {
         </div>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+        
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -89,8 +85,7 @@ export default function MultipleItems() {
 
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+        
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -103,8 +98,7 @@ export default function MultipleItems() {
 
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+        
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -116,8 +110,7 @@ export default function MultipleItems() {
         </div>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+        
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
