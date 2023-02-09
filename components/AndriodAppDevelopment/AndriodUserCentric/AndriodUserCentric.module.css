@@ -115,48 +115,35 @@ width: 70px;
 height: 70px;
 margin-top: 9%;
 }
-   
-    .andriodUserCentricIconHeading{
-        width: 75%;
-        /* border: 2px solid salmon; */
-        padding-top: 4%;
-        margin-left: 4%;
-        display: flex;
-        flex-direction: column;
-    }
-    .andriodUserCentricIconHeading p{
-        margin: 4%;
-    }
-    .andriodUserCentricIconHeading h4{
-    margin: 0%;
-    }
-    .mobileappactionbutton{
-        margin-left: 1px;
-        /* border: 2px solid green; */
-        font-size: 18px;
-        border-radius: 15px;
-        width: 220px;
-        height: 50px;
-        font-weight: 550;
-        background-color: #ef4c23;
-        color: white;
-        border: 1px solid lightgrey;
-        
-        
-        }
-        .mobileappactionbutton:hover{
-            background: white;
-            color: black;
-        }
-        .mobileappactionbuttondiv{
-            /* border: 2px solid red; */
-            margin-top: 5%;
-            /* width: 20px; */
-            /* text-align: center; */
-            
-            
-        }
+.andriodUserCentricIconHeading{
+width: 75%;
+padding-top: 4%;
+margin-left: 4%;
+display: flex;
+flex-direction: column;
 }
-
-
-
+.andriodUserCentricIconHeading p{
+margin: 4%;
+}
+.andriodUserCentricIconHeading h4{
+margin: 0%;
+}
+.mobileappactionbutton{
+margin-left: 1px;
+font-size: 18px;
+border-radius: 15px;
+width: 220px;
+height: 50px;
+font-weight: 550;
+background-color: #ef4c23;
+color: white;
+border: 1px solid lightgrey;
+}
+.mobileappactionbutton:hover{
+background: white;
+color: black;
+}
+.mobileappactionbuttondiv{
+margin-top: 5%;
+}
+}
