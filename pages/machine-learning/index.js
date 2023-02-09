@@ -7,24 +7,49 @@ import { MLApproach } from "../../components/MLPages/MLApproach/MLApproach";
 import { MLwhyBF } from "../../components/MLPages/MLwhyBF/MLwhyBF";
 import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
 
-import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
-import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import Revamping from "../../components/revamping/Revamping";
-import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
-import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
+import dynamic from "next/dynamic";
+const TextDropdown = dynamic(
+  () => import("../../components/CommonComponents/faqSection/Faqs"),
+  { loading: "loading..." },
+);
+const OndemandSection = dynamic(
+  () =>
+    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
+  { loading: "loading..." },
+);
+const PlanProject = dynamic(
+  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
+  { loading: "loading..." },
+);
+const SeoblogSection = dynamic(
+  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
+  { loading: "loading..." },
+);
+const StoriesSection = dynamic(
+  () =>
+    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
+  { loading: "loading..." },
+);
+const Revamping = dynamic(
+  () => import("../../components/revamping/Revamping"),
+  { loading: "loading..." },
+);
+const ContectForm = dynamic(
+  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
+  { loading: "loading..." },
+);
+const MainFooter = dynamic(
+  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
+  { loading: "loading..." },
+);
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
-
 
 export default function MachineLearning() {
   return (
     <div>
-
-    <Head>
-     <title>Machine Learning Services Company | Bottom Funnel</title>
+      <Head>
+        <title>Machine Learning Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Have you been looking to up your
@@ -33,37 +58,35 @@ export default function MachineLearning() {
             need to know about machine learning, 
             and how it can help you in your business
             or personal life."
-            
         />
       </Head>
-        <main>
+      <main>
         <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-         <MLBanner />
-         <MLPopular />
-         <MLMidBanner />
-         <MLApproach />
-         <MLwhyBF />
-         <CustomWebForm />
-   {/* Other react required components       */}
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <MLBanner />
+        <MLPopular />
+        <MLMidBanner />
+        <MLApproach />
+        <MLwhyBF />
+        <CustomWebForm />
+        {/* Other react required components       */}
         <StoriesSection />
         <OndemandSection />
         {/* <PortFolio />        */}
         {/* <PlanProject />      */}
-          <SeoblogSection />
-         <Revamping />
+        <SeoblogSection />
+        <Revamping />
         <TextDropdown />
         <ContectForm />
         <MainFooter />
-        </main>
-    
+      </main>
     </div>
   );
 }

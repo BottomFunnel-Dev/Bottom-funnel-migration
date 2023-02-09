@@ -39,7 +39,7 @@ function SkillsDotNet() {
       {isWhyApp ? <SkillsComWhyApp data={WhyAppData} /> : null}
       {isWhyBF ? <SkillsComWhyBF data={WhyBFData} /> : null}
       {isBookCall ? <SkillsComBookCall data={BookCallData} /> : null}
-      {isRemarkable ? <SkillsComRemarkable data={RemarkableData} /> : null}
+      <SkillsComRemarkable data={RemarkableData} />
     </div>
   );
 }
