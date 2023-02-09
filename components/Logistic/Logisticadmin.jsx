@@ -18,7 +18,7 @@ export default function Logisticadmin({ adminData }) {
                 onMouseOver={() => setActive(idx)}
                 className={`logistic-box-${idx}`}
               >
-                <div className={styles.logisticLogo}>
+                {/* <div className={styles.logisticLogo}>
                   <Image
                     width={"0"}
                     height={"0"}
@@ -27,7 +27,7 @@ export default function Logisticadmin({ adminData }) {
                     src={icon.src}
                     alt={icon.alt}
                   />
-                </div>
+                </div> */}
 
                 <h3>{title}</h3>
                 <p>{para}</p>
