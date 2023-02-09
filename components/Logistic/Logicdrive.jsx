@@ -47,8 +47,8 @@ export default function Logicdrive({ driveData }) {
                   />
                 </div>
 
-                <h3>{title}</h3>
-                <p>{para}</p>
+                <h3> {title} </h3>
+                <p> {para} </p>
               </div>
             );
           })}

@@ -1,51 +1,42 @@
 .cannabuscontainermainboxes {
-  height: 100vh;
-  /* margin-top: 100px; */
-  border: 1px solid #dce1e1;
-  /* background: url("/Images/newcannabispage/bannesbackgrounds/Group 340218.png"); */
-  background-repeat: no-repeat;
-  background-size: 60% 85%;
-  background-position-x: right;
-  position: relative;
+height: 100vh;
+border: 1px solid #dce1e1;
+background-repeat: no-repeat;
+background-size: 60% 85%;
+background-position-x: right;
+position: relative;
 }
-
 .cannabuscontainerboxforsometext {
-  height: fit-content;
-  width: 40%;
-  margin: 20% 0% 0% 5%;
+height: fit-content;
+width: 40%;
+margin: 20% 0% 0% 5%;
 }
-
 .cannabuscontainerboxforsometext > h1 {
-  font-weight: 700;
-  font-size: 40px;
+font-weight: 700;
+font-size: 40px;
 }
-
 .cannabuscontainerbutton {
-  padding: 10px 50px;
-  border-radius: 100px;
-  width: fit-content;
-  height: 50px;
-  background-color: #4d9c33;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffff;
-  margin-top: 5%;
+padding: 10px 50px;
+border-radius: 100px;
+width: fit-content;
+height: 50px;
+background-color: #4d9c33;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: #ffff;
+margin-top: 5%;
 }
-
 .cannabuscontainerbutton:hover {
-  background-color: #ffff;
-  color: #4d9c33;
+background-color: #ffff;
+color: #4d9c33;
 }
-
 .CannabisContainerAnimationDiv {
-    position: absolute;
-    /* border: 1px solid red; */
-    width: 50%;
-    right: 0%;
-    top: 15%;
+position: absolute;
+width: 50%;
+right: 0%;
+top: 15%;
 }
-
 

@@ -3,18 +3,14 @@ import navstyle from "./navbar.module.css";
 import Link from "next/link";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BsArrowRight } from "react-icons/bs";
 import { WhoWeAre } from "./WhoWeAre";
 
-import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 import { ContactMain } from "../Contact/Contact";
 import { Resource } from "./Resource";
 
-import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
-import { Products } from "./Products";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 import { Industries } from "./Industries";
@@ -161,7 +157,7 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
               
               <li
-                onClick={() => router.push("/Portfolio")}
+                onClick={() => router.push("/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 WORK

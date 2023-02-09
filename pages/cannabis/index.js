@@ -1,12 +1,10 @@
 import React from "react";
-
 import Cannabisoverview from "../../components/Cannabis/Cannabisoverview";
 import Cannabissolution from "../../components/Cannabis/Cannabissolution";
 import { Cannabiscontainer } from "../../components/Cannabis/Cannabiscontainer";
 import { Cannabiscustomersection } from "../../components/Cannabis/Cannabiscustomersection";
 import { Cannabisadmin } from "../../components/Cannabis/Cannabisadmin";
 import { Cannabisdrive } from "../../components/Cannabis/Cannabisdrive";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";

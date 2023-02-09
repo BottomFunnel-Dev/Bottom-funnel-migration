@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./industries.module.css";
 import { IconContext } from "react-icons/lib";
 import { BsArrowRight } from "react-icons/bs";
-// import { Link } from "react-router-dom";
 import Link from "next/link";
 
 const Industries = () => {

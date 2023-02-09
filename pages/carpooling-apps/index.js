@@ -31,7 +31,7 @@ export default function CarPooling() {
   return (
     <>
       <Head>
-        <title>Carpooling Web App Development Company | Bottom Funnel</title>
+        <title> Carpooling Web App Development Company | Bottom Funnel </title>
         <meta
           name="description"
           content="Want to know more about carpooling web app development? 

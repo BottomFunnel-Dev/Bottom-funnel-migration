@@ -43,9 +43,9 @@ export default function BusinessAnalysis() {
         <BusinessAnalysisBanner />
         <BusinessChallenge />
         <BusinessFramework />
-        <BusinessAnalysisLowerBanner /> {/* Other react required components  */}
+        <BusinessAnalysisLowerBanner /> 
         <StoriesSection />
-        <OndemandSection /> {/* <PortFolio />  */}
+        <OndemandSection />
         <PlanProject />
         <SeoblogSection />
         <Revamping />

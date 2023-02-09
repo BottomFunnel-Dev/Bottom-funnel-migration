@@ -1,61 +1,52 @@
 .businessanalysisframeworkmainbox {
-    height: 100vh;
-    background: url('/Images/Businessanalysis/BannersBackgrounds/Component81.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 98%;
+height: 100vh;
+background: url('/Images/Businessanalysis/BannersBackgrounds/Component81.webp');
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+width: 98%;
 }
-
 .businessanalysisframeworktxtbox {
-    position: absolute;
-    text-align: center;
-    top: 5%;
+position: absolute;
+text-align: center;
+top: 5%;
 }
-
 .businessanalysisflexingbox {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin: auto;
 }
-
 .businessflexingmapforbannerbox {
-    height: 50%;
-    margin: 1%;
-    width: 24%;
-    text-align: center;
+height: 50%;
+margin: 1%;
+width: 24%;
+text-align: center;
 }
-
 .businessflexingmapforbannerbox>img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
-
 .businessflexingmapforlogobox {
-    position: absolute;
-    height: 12%;
-    width: fit-content;
-    margin-left: 9%;
-    top: 32%;
+position: absolute;
+height: 12%;
+width: fit-content;
+margin-left: 9%;
+top: 32%;
 }
-
 .businessflexboxmappingtxtandstxt {
-    position: absolute;
-    top: 50%;
-    height: 48%;
-    width: 23%;
-    padding: 10px;
-    text-align: left;
+position: absolute;
+top: 50%;
+height: 48%;
+width: 23%;
+padding: 10px;
+text-align: left;
 }
-
 .businessflexboxmappingtxtandstxt>p {
-    width: 90%;
-    text-align: justify;
+width: 90%;
+text-align: justify;
 }
-
 .businessflexboxmappingtxtandstxt>h5 {
-    width: 95%;
-
+width: 95%;
 }

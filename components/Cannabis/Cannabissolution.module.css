@@ -1,67 +1,58 @@
 .szmedicalsolution{
-    width: 100%;
-    /* background-color: blue; */
-    height: 650px;
-    
+width: 100%;
+height: 650px;
 }
 .szmedicalsub{
-    width: 90%;
-    /* background-color: aqua; */
-    margin: auto;
-    height: 500px;
-    /* padding-top: 20px; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+width: 90%;
+margin: auto;
+height: 500px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 .szmedicalheading{
-    /* background-color: #24786D; */
-    height: 120px;
-    position: relative;
+height: 120px;
+position: relative;
 }
 .szrectanglebg{
-    width: 100%;
-    height: 130px;
-    position: absolute;
-    z-index: 0;
-     
+width: 100%;
+height: 130px;
+position: absolute;
+z-index: 0;
 }
-
 .szrectanglebg>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+width: 100%;
+height: 100%;
+object-fit: contain;
 }
 .szmedicalheading>h2{
-    position: absolute;
-    padding: 30px; 
-    margin-left: 30%;
-    z-index: 1;
+position: absolute;
+padding: 30px; 
+margin-left: 30%;
+z-index: 1;
 }
 .szmedicalheading>p{
-    position: absolute;
-    margin-left: 28%;
-    padding: 70px;
-    z-index: 1;
+position: absolute;
+margin-left: 28%;
+padding: 70px;
+z-index: 1;
 }
 .szmedicalsub>div{
-    /* background-color: azure; */
-    width: 25%;
-    margin: 25px 20px;
-    border-radius: 18px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    height: 210px;
+width: 25%;
+margin: 25px 20px;
+border-radius: 18px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+height: 210px;
 }
 .greybg{
-    width: 100%;
-    border-radius: 18px;
-    height: 90px;
-    background-color:#4d9c33;
+width: 100%;
+border-radius: 18px;
+height: 90px;
+background-color:#4d9c33;
 }
 .szlocation{
-    width: 30%;
-    height: 60px;
-    /* background-color: #24786D; */
+width: 30%;
+height: 60px;
 }
 .szlocation>img{
 width: 100%;
@@ -69,14 +60,12 @@ height: 100%;
 object-fit: contain;
 }
 .greybg>h5{
-    padding-left: 20px;
-    color: white;
+padding-left: 20px;
+color: white;
 }
 .szmedicalsub>div>p{
-    padding: 10px 20px;
+padding: 10px 20px;
 }
-
-
 .greybg >p {
-    text-align: justify;
+text-align: justify;
 }
