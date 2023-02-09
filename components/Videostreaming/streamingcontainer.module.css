@@ -59,7 +59,7 @@
   z-index: 0;
 }
 
-.videomac > img {
+.videomac>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -68,12 +68,12 @@
 .videomobile {
   width: 51%;
   height: 360px;
-  margin: 200px -50px;
+  margin: 120px -50px;
   position: absolute;
   z-index: 1;
 }
 
-.videomobile > img {
+.videomobile>img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -95,7 +95,7 @@
   /* border: 1px solid red; */
 }
 
-.szbottomimages > img {
+.szbottomimages>img {
   width: 100%;
   height: 100%;
   object-fit: contain;

@@ -507,11 +507,11 @@ export const bettingCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/gamemanagement.png",
+        src: "/Images/sportsbettingpage/userapp/gamemanagement.webp",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component30.webp",
         alt: " Register logo",
       },
       title: "Game management",
@@ -519,11 +519,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/paymentmanagement.png",
+        src: "/Images/sportsbettingpage/userapp/paymentmanagement.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component27.webp",
         alt: "Schedule logo",
       },
       title: "Payment Management",
@@ -531,11 +531,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/livefeed.png",
+        src: "/Images/sportsbettingpage/userapp/livefeed.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component29.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Live Feed",
@@ -543,11 +543,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/bethistory.png",
+        src: "/Images/sportsbettingpage/userapp/bethistory.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component28.webp",
         alt: "Track Order logo",
       },
       title: "Bet History",
@@ -563,11 +563,11 @@ export const bettingDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/registeryourself.png",
+        src: "/Images/sportsbettingpage/bookpanel/registeryourself.webp",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component31.webp",
         alt: " Register logo",
       },
       title: "Register YourSelf",
@@ -575,11 +575,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/usermanagement.png",
+        src: "/Images/sportsbettingpage/bookpanel/usermanagement.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component32.webp",
         alt: "Schedule logo",
       },
       title: "User Management",
@@ -587,11 +587,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/Notification.png",
+        src: "/Images/sportsbettingpage/bookpanel/Notification.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component34.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Send Notification",
@@ -599,11 +599,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/schedulebet.png",
+        src: "/Images/sportsbettingpage/bookpanel/schedulebet.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component33.webp",
         alt: "Track Order logo",
       },
       title: "Calenders,Days and Schedules",
@@ -619,11 +619,11 @@ export const bettingAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/gamemanagement.png",
+        src: "/Images/sportsbettingpage/adminpanel/gamemanagement.webp",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component36.webp",
         alt: " Register logo",
       },
       title: "Game Management",
@@ -631,11 +631,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/paymentmanagement.png",
+        src: "/Images/sportsbettingpage/adminpanel/paymentmanagement.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component35.webp",
         alt: "Schedule logo",
       },
       title: "Payment Management",
@@ -643,11 +643,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/marketingmanagement.png",
+        src: "/Images/sportsbettingpage/adminpanel/marketingmanagement.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component37.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Marketing Management",
@@ -655,11 +655,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/advancedashboard.png",
+        src: "/Images/sportsbettingpage/adminpanel/advancedashboard.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component38.webp",
         alt: "Track Order logo",
       },
       title: "Advance Dashboard",

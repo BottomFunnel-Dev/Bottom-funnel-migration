@@ -3,10 +3,10 @@
   padding: 20px 0;
   background-color: white;
   height: fit-content;
- 
+
 }
 
-.servicescontainer > div {
+.servicescontainer>div {
   text-align: center;
   padding: 5px;
 }
@@ -19,7 +19,7 @@
   display: flex;
 }
 
-.servicessubcontainer > div {
+.servicessubcontainer>div {
   width: 40%;
   margin: 20px;
   /* background-color: aqua; */
@@ -33,9 +33,9 @@
   padding: 10px;
 }
 
-.uploaddiv > p {
+.uploaddiv>p {
   padding: 10px;
-  margin-top: -10%;
+  margin-bottom: 4%;
 }
 
 .uploadflexdiv {
@@ -45,13 +45,15 @@
   height: 70px;
 }
 
-.uploadflexdiv > h4 {
+.uploadflexdiv>h4 {
   /* border: 1px solid red; */
   margin-top: 5.5%;
 }
 
 .uploadimg {
-  padding: 20px 10px;
+  width: 50px;
+  height: fit-content;
+  margin-right: 15px;
 }
 
 .monetizdiv {
@@ -60,9 +62,9 @@
   height: 170px;
 }
 
-.monetizdiv > p {
+.monetizdiv>p {
   padding: 10px;
-  margin-top: -7%;
+  margin-bottom: 7%;
 }
 
 .monetizflexdiv {
@@ -73,7 +75,7 @@
   margin-top: 10%;
 }
 
-.monetizflexdiv > h4 {
+.monetizflexdiv>h4 {
   /* border: 1px solid red; */
   margin-top: 5%;
 }

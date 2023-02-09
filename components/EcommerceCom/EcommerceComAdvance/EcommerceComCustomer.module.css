@@ -109,10 +109,9 @@
 .eCommerceCustomerImagesMain>div:nth-child(1) {
   height: 100%;
   width: 100%;
-  bottom: 0;
   margin-bottom: 10%;
   align-self: flex-end;
-  background: linear-gradient(to top, #ef4c23 30%, #fff 70%);
+  background: linear-gradient(to bottom, #fff 70%, #FEA181 30%);
 }
 
 /* media query for mobile and tablet devices */
