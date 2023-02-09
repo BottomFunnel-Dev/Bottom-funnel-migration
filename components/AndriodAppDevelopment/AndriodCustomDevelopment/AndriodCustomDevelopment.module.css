@@ -1,62 +1,44 @@
-
-
 .andriodCustomMainDiv{
-    /* border: 2px solid red; */
-    width: 100%;
-   
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
-    background-color: #F5F5F5;
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 2%;
+background-color: #F5F5F5;
 }
 .andriodCustomContentText{
-    /* border: 2px solid red; */
-    width: 55%;
-    margin: auto;
-   
+width: 55%;
+margin: auto;
 }
-
 .andriodCustomContentImage{
-    /* border: 2px solid red; */
-    width: 30%;
-    height: 70vh;
-    object-fit: cover;
-    background-size: cover;
-    margin-right: 4%;
+width: 30%;
+height: 70vh;
+object-fit: cover;
+background-size: cover;
+margin-right: 4%;
 }
-
-
 @media only screen and ( min-width:0px) and (max-width:1024px){
-    .andriodCustomMainDiv{
-        /* border: 2px solid red; */
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-         margin-top: 4%;
-        background-color: #F5F5F5;
-    }
-    .andriodCustomContentText{
-        /* border: 2px solid red; */
-        width: 90%;
-        margin: auto;
-        text-align: center;
-     
-    }
-    .andriodCustomContentText>p{
-        /* border: 2px solid black; */
-        text-align: justify;
-    }
-    
-    .andriodCustomContentImage{
-        /* border: 2px solid red; */
-        width: 90%;
-        height: 70vh;
-        margin: auto;
-        object-fit: cover;
-        background-size: cover;
-        margin-top: 3%;
-       
-    }
-   
+.andriodCustomMainDiv{
+width: 100%;
+display: flex;
+flex-direction: column-reverse;
+margin-top: 4%;
+background-color: #F5F5F5;
+}
+.andriodCustomContentText{
+width: 90%;
+margin: auto;
+text-align: center;
+}
+.andriodCustomContentText>p{
+text-align: justify;
+}
+.andriodCustomContentImage{
+width: 90%;
+height: 70vh;
+margin: auto;
+object-fit: cover;
+background-size: cover;
+margin-top: 3%;
+}
 }
 

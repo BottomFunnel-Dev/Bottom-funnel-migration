@@ -1,12 +1,10 @@
 import React from "react";
-
 import { AlcoholBanner } from "../../components/alcohol-delivery/AlcoholBanner/AlcoholBanner";
 import { alcoholLogo } from "../../components/Data/SeopartnerData";
 import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
 import { AlcoholBookCall } from "../../components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall";
 import { AlcoholSuggestions } from "../../components/alcohol-delivery/AlcoholSuggestions/AlcoholSuggestions";
 import { AlcoholSolutions } from "../../components/alcohol-delivery/AlcoholSolutions/AlcoholSolutions";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
