@@ -1,5 +1,4 @@
 import React from "react";
-
 import { BIBanner } from "../../components/BIPages/BIBanner/BIBanner";
 import { BIPartner } from "../../components/BIPages/BIPartner/BIPartner";
 import { BISolutions } from "../../components/BIPages/BISolutions/BISolutions";
@@ -7,7 +6,6 @@ import { BIWhyBF } from "../../components/BIPages/BIWhyBF/BIWhyBF";
 import { BIAnalytics } from "../../components/BIPages/BIAnalytics/BIAnalytics";
 import { BISlider } from "../../components/BIPages/BISlider/BISlider";
 import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
