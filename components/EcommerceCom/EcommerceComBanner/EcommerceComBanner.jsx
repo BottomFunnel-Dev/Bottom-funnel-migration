@@ -17,18 +17,14 @@ export const EcommerceComBanner = () => {
         <button>GET STARTED</button>
       </div>
       <div className={styles.eCommerceBannerImage}>
-    
         <Image
-        src={"/Images/EcommercePhotos/banner.webp"}
-        alt={"e-commerce banner image"}
-        width={"0"}
-        height={"0"}
-        sizes={"100vw"}
-        style={{ width: "100%", height: "100%" }}
-        />
-
-
-
+          src={"/Images/EcommercePhotos/banner.webp"}
+          alt={"e-commerce banner image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );

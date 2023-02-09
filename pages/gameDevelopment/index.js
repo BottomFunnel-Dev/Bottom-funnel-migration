@@ -22,7 +22,7 @@ import Head from "next/head";
 export default function GameDevelopment() {
   return (
     <div>
-        <Head>
+      <Head>
         <title>Game Web App development | Bottom Funnel</title>
         <meta
           name="description"
@@ -34,33 +34,33 @@ export default function GameDevelopment() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <GameDevelopmentBanner />
-      <GameDevelopmentFeature />
-      <GameMetaverce />
-      <ThreeDGameDevelopment />
-      <MobileGameDevelopment />
-      <Web3Development />
-      <GameWhyChoose />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <GameDevelopmentBanner />
+        <GameDevelopmentFeature />
+        <GameMetaverce />
+        <ThreeDGameDevelopment />
+        <MobileGameDevelopment />
+        <Web3Development />
+        <GameWhyChoose />
 
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

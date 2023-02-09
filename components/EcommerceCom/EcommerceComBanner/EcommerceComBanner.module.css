@@ -10,18 +10,19 @@
   width: 40%;
 }
 
-.eCommerceBannerContent > h1 {
+.eCommerceBannerContent>h1 {
   width: 100%;
   font-size: 35px;
 }
 
-.eCommerceBannerContent > p {
+.eCommerceBannerContent>p {
   width: 100%;
   font-size: 16px;
   margin-bottom: 25px;
   text-align: justify;
 }
-.eCommerceBannerContent > button {
+
+.eCommerceBannerContent>button {
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -33,7 +34,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.eCommerceBannerContent > button:hover {
+.eCommerceBannerContent>button:hover {
   background-color: white;
   color: #ef4c23;
   /* box-shadow: none; */
@@ -43,7 +44,7 @@
   width: 45%;
 }
 
-.eCommerceBannerImage > img {
+.eCommerceBannerImage>img {
   width: 100%;
 }
 
@@ -60,17 +61,17 @@
     height: fit-content;
   }
 
-  .eCommerceBannerContent > h1 {
+  .eCommerceBannerContent>h1 {
     font-size: 32px;
     text-align: center;
   }
 
-  .eCommerceBannerContent > p {
+  .eCommerceBannerContent>p {
     font-size: 14px;
     text-align: justify;
   }
 
-  .eCommerceBannerContent > button {
+  .eCommerceBannerContent>button {
     font-size: 16px;
     padding: 10px 20px;
   }

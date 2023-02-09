@@ -18,8 +18,6 @@ import Head from "next/head";
 
 export default function Education() {
   return (
-
-    
     <div>
       <Head>
         <title>Education Web App development | Bottom Funnel</title>
@@ -32,31 +30,31 @@ export default function Education() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <EducationBanner />
-      <EducationSupport />
-      <EducationITteams />
-      <EducationAdministration />
-      <EducationGroupwise />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <EducationBanner />
+        <EducationSupport />
+        <EducationITteams />
+        <EducationAdministration />
+        <EducationGroupwise />
 
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

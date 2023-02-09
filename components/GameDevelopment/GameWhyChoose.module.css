@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.whychoosegameflexingleftboxing > img {
+.whychoosegameflexingleftboxing>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -29,7 +29,8 @@
   bottom: 60%;
   left: 10%;
 }
-.positionabsoulteboxinnerwhychoose1 > img {
+
+.positionabsoulteboxinnerwhychoose1>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -119,7 +120,7 @@
   color: white;
 }
 
-.whychoosegamingflexboxrightdiv > h2 {
+.whychoosegamingflexboxrightdiv>h2 {
   font-size: 30px;
   line-height: 38.4px;
   vertical-align: baseline;
