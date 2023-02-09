@@ -62,7 +62,6 @@ import { Voylla } from "../../components/Portfolio/Voylla/Voylla";
 import { WifiStudy } from "../../components/Portfolio/WifiStudy/WifiStudy";
 import { Yanbal } from "../../components/Portfolio/Yanbal/Yanbal";
 import { Younity } from "../../components/Portfolio/Younity/Younity";
-import Revamping from "../../components/revamping/Revamping";
 
 export default function Portfolio() {
   return (
