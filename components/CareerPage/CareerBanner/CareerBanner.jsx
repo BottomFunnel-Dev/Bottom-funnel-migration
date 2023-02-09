@@ -6,8 +6,8 @@ export const CareerBanner = () => {
   return (
     <div className={career.careerBannerMain}>
       <div className={career.careerBannerImage}>
-        {/* <img src="/Images/careerPhotos/banner.webp" alt="Career banner" /> */}
-        <Image
+       
+       <Image
           src={"/Images/careerPhotos/banner.webp"}
           alt={"Bannerimage"}
           width={"0"}
