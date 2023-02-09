@@ -10,7 +10,6 @@ const lottieData = {
       preserveAspectRatio: "xMidYMid slice"
     }
   };
- 
   return (
     <div
       className={styles.webDevBanner}
@@ -39,7 +38,6 @@ const lottieData = {
         marginLeft:"100%"
       }} options={lottieData} height={600} width={700} />
       </div>
-      
-    </div>
+      </div>
   );
 };
