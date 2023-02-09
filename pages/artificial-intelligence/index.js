@@ -1,11 +1,9 @@
 import React from "react";
-
 import { AiContentBanner } from "../../components/AiContentService/AiContentBanner";
 import { AiContentHuman } from "../../components/AiContentService/AiContentHuman";
 import { AiHowDoesWorks } from "../../components/AiContentService/AiHowDoesWorks";
 import { AIContentApplication } from "../../components/AiContentService/AIContentApplication";
 import { AiContentTextOnly } from "../../components/AiContentService/AiContentTextOnly";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
