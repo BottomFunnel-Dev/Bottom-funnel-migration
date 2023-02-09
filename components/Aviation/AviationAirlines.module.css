@@ -81,33 +81,18 @@ padding: 10px;
 height: 12%;
 width: 12%;
 }
-
 .logoboxairlinesaviations >img {
- height: 100%;
- width: 100%;
- object-fit: contain;
- padding: 10px;
-}
-
-/* .aviationairlinesmappertextboxes{
-max-height: max-content;
-  width: 90%;
-  left: 5%;
+height: 100%;
+width: 100%;
+object-fit: contain;
 padding: 10px;
-  position: absolute;
-  top: 35%;
-  text-align: left;
- 
-} */
-
+}
 .aviationairlinesmappertextboxes >h4{
  font-weight: 700;
 }
-
 .aviationairlinesmappertextboxes{
  text-align: justify;
 }
-
 .specialcolor{
  color: #ef4c23;
 }
