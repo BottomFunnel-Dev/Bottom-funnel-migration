@@ -1,8 +1,6 @@
 import React from "react";
-
 import { AwardsBanner } from "../../components/AwardsPage/AwardsBanner/AwardsBanner";
 import { AwardsSection } from "../../components/AwardsPage/AwardsSection/AwardsSection";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
