@@ -6,7 +6,6 @@ export const AboutusBanner = () => {
   return (
     <div className={styles.aboutusBanner}>
       <div className={styles.aboutusbannerimage}>
-        {/* <img src="/Images/aboutusImage/banner.webp" alt="banner image" /> */}
         <Image
           src={"/Images/aboutusImage/banner.webp"}
           alt={"bannerimage"}
