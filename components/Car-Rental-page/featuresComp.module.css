@@ -1,27 +1,22 @@
 .RGfeaturesCompContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around
+display: flex;
+align-items: center;
+justify-content: space-around
 }
-
 .RGfeaturesCompLeft {
-    width: 20%;
-    text-align: center;
-    font-weight: 600;
+width: 20%;
+text-align: center;
+font-weight: 600;
 }
-
 .RGfeaturesCompRight {
-    width: 75%;
-    font-size: 20px;
-
+width: 75%;
+font-size: 20px;
 }
-
 .RGhrLine {
-    width: 0.2%;
-    height: 50px;
-    background:#ef4c23;
+width: 0.2%;
+height: 50px;
+background:#ef4c23;
 }
-
 .RGspanTagCar {
-    color: red;
+color: red;
 }
