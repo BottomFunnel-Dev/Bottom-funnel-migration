@@ -27,7 +27,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                        {/* <img src='/Images/iosappdevelopmentphotos/Component 64.png' alt='image'/> */}
                     </div>
                 </div>
 
@@ -43,7 +42,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src='/Images/iosappdevelopmentphotos/Rectangle 4497.png' alt='logo' className={styles.mainboximg} /> */}
                             </div>
                             <h3> Vetted IOS Developers </h3>
                             <p>
@@ -61,7 +59,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src='/Images/iosappdevelopmentphotos/Rectangle 4498.png' alt='logo' className={styles.mainboximg} /> */}
                             </div>
                             <h3> All In-House Code </h3>
                             <p>
@@ -79,7 +76,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src='/Images/iosappdevelopmentphotos/Rectangle 4499.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> Custom Agile Process </h3>
                             <p>
@@ -101,7 +97,6 @@ export const IOSAppDevelopmentPageCards = () => {
           style={{ width: "100%", height: "100%" }}
         />
          
-                                {/* <img src='/Images/iosappdevelopmentphotos/apple (1) 2.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> End-To-End Service </h3>
                             <p>
@@ -121,7 +116,6 @@ export const IOSAppDevelopmentPageCards = () => {
           style={{ width: "100%", height: "100%" }}
         />
          
-                                {/* <img src='/Images/iosappdevelopmentphotos/social-care 2.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> App Store Deployment </h3>
                             <p>
@@ -139,7 +133,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src='/Images/iosappdevelopmentphotos/app-development 2.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> Maintenance & Support </h3>
                             <p>
@@ -168,7 +161,6 @@ export const IOSAppDevelopmentPageCards = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                        {/* <img src='/Images/iosappdevelopmentphotos/Group 340002.png' alt='image' className={styles.innermaindiv3Imagemain} /> */}
                     </div>
                 </div> 
 
@@ -187,7 +179,6 @@ export const IOSAppDevelopmentPageCards = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                    {/* <img src='/Images/iosappdevelopmentphotos/analyse 1.png' alt='logo' className={styles.iosapplogoimg} /> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Platform Ideation </h3>
@@ -209,7 +200,6 @@ export const IOSAppDevelopmentPageCards = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                    {/* <img src='/Images/iosappdevelopmentphotos/interest-rate 1.png' alt='logo' className={styles.iosapplogoimg}></img> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Dedicated Development </h3>
@@ -234,7 +224,6 @@ export const IOSAppDevelopmentPageCards = () => {
         />
            
 
-                                    {/* <img src='/Images/iosappdevelopmentphotos/app-development (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Detailed Quality Check </h3>
@@ -255,7 +244,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src='/Images/iosappdevelopmentphotos/agile (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Detailed Quality Check </h3>
@@ -298,7 +286,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src='Images/iosappdevelopmentphotos/1lightbulb.png' alt='logo'></img> */}
                                     </div>
                                 <h4> Custom App Development </h4>
                                 <p style={{
@@ -320,7 +307,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src='Images/iosappdevelopmentphotos/1best-employee.png' alt='logo'></img> */}
                                     </div>
                                 <h4> Redesign & Redevelopment </h4>
                                 <p style={{
@@ -342,7 +328,6 @@ export const IOSAppDevelopmentPageCards = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src='Images/iosappdevelopmentphotos/1security.png' alt='logo'></img> */}
                                     </div>
                                 <h4> Hybrid iOS App Design & Development </h4>
                                 <p style={{
@@ -355,41 +340,7 @@ export const IOSAppDevelopmentPageCards = () => {
                                 </p>
                             </div> 
                          </div> 
-                        {/* <div className={styles.innermaindiv4Boxdiv1stColum} > 
-                             <div className={styles.innermaindiv4Row}>
-                                <div className={styles.div5logoimg}>
-                                    <img src='Images/iosappdevelopmentphotos/1agile-team.png' alt='logo'></img></div>
-                                <h4> Enterprise iOS App Custom Integration </h4>
-                                <p>
-                                    Our renowned mobile app development company gives you access to the best iOS app developers in India. These are well-qualified
-                                    and certified iPhone app developers who can configure a feature-rich enterprise iOS mobile app in a matter of time. Our frontend
-                                    designers integrate the options that accelerate the scalability and make it a high-performance iOS app with the help of dexterous
-                                    iOS backend developers. Just a few testing procedures and you get an immaculate iOS mobile app ready for your enterprise operations.
-                                </p>
-                            </div>
-
-                             <div className={styles.innermaindiv4Row}>
-                                <div className={styles.div5logoimg}>
-                                    <img src='Images/iosappdevelopmentphotos/1worldwide.png' alt='logo'></img></div>
-                                <h4> iOS App Migration & Upgradation </h4>
-                                <p>
-                                    In addition to iOS app development and redesigning, our team of the best iOS developers also manages the migration and up-gradation
-                                    parts of mobile application development. We believe that transfer of data from one app platform to another can be intimidating for
-                                    our users. Therefore, we have added this aspect of mobile application up-gradation in our big bucket of tailor-made services.
-                                    Our ardent iPhone app developers are always happy to help with app data migration and similar projects.
-                                </p>
-                            </div> 
-                             <div className='{styles.innermaindiv4Row}'>
-                                <div className={styles.div5logoimg}>
-                                    <img src='Images/iosappdevelopmentphotos/1worldwide.png' alt='logo' ></img></div>
-                                <h4> Maintenance & Support </h4>
-                                <p>
-                                    Even when your iOS application is fully developed and running on the Apple play store, our technical assistance would still 
-                                    be there to help you. Our full-stack iOS app development services encompass every vital practice from research and conceptualization
-                                     to development and maintenance. Our team of iOS developers is always available to provide on-demand technical support for our clients.
-                                </p>
-                            </div> 
-                         </div>  */}
+                        
 
                     </div> 
                  </div> 

@@ -17,10 +17,7 @@ export const OurDevProcess = () => {
           </p>
 
           <div>
-            {/* <img
-              src="/Images/ourDevPhotos/flowchart.png"
-              alt="vetting flow chart"
-            /> */}
+           
             <Image
             src={"/Images/ourDevPhotos/flowchart.webp"}
             alt={"chartimage"}

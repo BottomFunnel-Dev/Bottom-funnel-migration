@@ -30,7 +30,6 @@ export const FlutterServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src="Images/FlutterDevelopment/Icons/coding.png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Custom Flutter App Development</h6>
@@ -53,7 +52,6 @@ export const FlutterServices = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/FlutterDevelopment/Icons/wireframe (1).png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Prototype and wireframe Development</h6>
@@ -74,7 +72,6 @@ export const FlutterServices = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/FlutterDevelopment/Icons/ux-interface.png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Flutter UI/UX Development</h6>
@@ -94,7 +91,6 @@ export const FlutterServices = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src="Images/FlutterDevelopment/Icons/solution.png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Flutter Migration Solutions</h6>

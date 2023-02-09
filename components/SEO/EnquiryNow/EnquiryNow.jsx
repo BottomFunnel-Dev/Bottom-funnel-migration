@@ -8,7 +8,6 @@ export default function EnquiryNow() {
     <div className={styles._EnquiryNowMaindiv}>
       <div className={styles._EnquiryNow}>
         <img src="/Images/seopages/seoenquery.png" alt="enq.img" />
-        {/* <img src={Enq} alt="enq.img" /> */}
       </div>
       <div className={styles._EnquiryNow}>
         <h3>

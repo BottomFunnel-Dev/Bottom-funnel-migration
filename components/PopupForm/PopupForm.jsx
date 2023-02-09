@@ -143,10 +143,7 @@ export const PopupForm = ({ formStyle }) => {
               rows="5"
             ></textarea>
           </div>
-          {/* <input type="checkbox" />{" "}
-            <strong>
-              Yes, Send Me A Mutual NDA (Non-Disclosure Agreement)
-            </strong> */}
+          
         </div>
         <div className={styles.popuprobotCaptcha}>
           <input type="submit" value="Send Your Enquiry" />

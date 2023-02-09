@@ -11,7 +11,6 @@ export const ClientCards = ({ data }) => {
           className={clients.ourClientCardsFlipCardFront}
         >
           <div className={clients.ourClientCardsImage}>
-            {/* <img src={data.image} alt={data.name} /> */}
             <Image
               src={data.image}
               alt={"clientimage"}

@@ -6,7 +6,6 @@ export const OurWholeLeft = ({ data }) => {
   return (
     <div className={styles.ourWholeLeftContainer}>
       <div className={styles.ourWholeLeftImage}>
-        {/* <img src={data.image} alt="images" /> */}
         <Image
             src={data.image}
             alt={"image"}

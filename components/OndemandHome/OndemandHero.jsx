@@ -29,7 +29,6 @@ const OndemandHero = () => {
       </div>
 
       <div className={styles.imageContainer}>
-        {/* <img src="Images/ondemandHome/OnDemandServicesBNewBanner.png" alt="images" /> */}
         <Lottie options={lottieDefaultOptions} width={750} height={550} />
       </div>
     </div>

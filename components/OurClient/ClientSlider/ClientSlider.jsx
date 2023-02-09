@@ -57,7 +57,6 @@ export const ClientSlider = ({ data }) => {
               }
               key={index}
             >
-              {/* <img src={elem} alt="Company logos" /> */}
               <Image
               src={elem}
               alt={"companyimage"}

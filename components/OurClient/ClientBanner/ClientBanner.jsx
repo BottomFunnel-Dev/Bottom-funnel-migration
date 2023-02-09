@@ -17,10 +17,7 @@ export const ClientBanner = () => {
       </div>
 
       <div className={clients.ourClientBannerImage}>
-        {/* <img
-          src="/Images/ourclientPhotos/banner.png"
-          alt="Our Client page banner"
-        /> */}
+        
         <Image
               src={"/Images/ourclientPhotos/banner.png"}
               alt={"bannerimage"}
