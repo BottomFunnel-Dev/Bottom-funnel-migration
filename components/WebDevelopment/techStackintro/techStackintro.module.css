@@ -1,73 +1,61 @@
 .aspTechIntro {
-  width: 100%;
+width: 100%;
 }
-
 .headText {
-  width: 80%;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
+width: 80%;
+margin: auto;
+padding: 20px;
+text-align: center;
 }
-
 .aspTechStackGrid {
-  width: 15%;
-  display: flex;
-  flex-direction: column;
+width: 15%;
+display: flex;
+flex-direction: column;
 }
-
 .aspTechStackGrid > button {
-  padding: 15px 30px;
-  border: none;
-  font-size: 18px;
-  font-weight: 600;
-  border-left: 5px solid rgb(242, 238, 238);
-  box-sizing: border-box;
-  background-color: white;
+padding: 15px 30px;
+border: none;
+font-size: 18px;
+font-weight: 600;
+border-left: 5px solid rgb(242, 238, 238);
+box-sizing: border-box;
+background-color: white;
 }
-
 .aspTechStackGrid > button:hover {
-  border-left: 5px solid #ef4c23;
-  background-color: #e8a594;
-  color: black;
+border-left: 5px solid #ef4c23;
+background-color: #e8a594;
+color: black;
 }
-
 .aspStackMain {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  column-gap: 10px;
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: center;
+column-gap: 10px;
 }
-
 .aspStackAbout {
-  width: 70%;
-  background-color: #eae5e5;
-  /* text-align: center;   */
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+width: 70%;
+background-color: #eae5e5;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
 .techContentDiv {
-  width: 90%;
-  height: fit-content;
+width: 90%;
+height: fit-content;
 }
-
 .stackImage {
-  width: 115px;
-  height: 115px;
-  margin: 5px auto;
+width: 115px;
+height: 115px;
+margin: 5px auto;
 }
-
 .stackImage > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  /* margin: auto; */
+width: 100%;
+height: 100%;
+object-fit: contain;
 }
-
 .headText span {
-  color: #ef4c23;
+color: #ef4c23;
 }

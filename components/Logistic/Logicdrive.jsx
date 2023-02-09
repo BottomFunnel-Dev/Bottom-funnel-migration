@@ -17,7 +17,7 @@ export default function Logicdrive({ driveData }) {
             backgroundPosition: "center",
           }}
         >
-          <div className={styles.logisticDriveImage}>
+          {/* <div className={styles.logisticDriveImage}>
             <Image
               width={"0"}
               height={"0"}
@@ -26,7 +26,7 @@ export default function Logicdrive({ driveData }) {
               src={driveData.driverdata[active].img.src}
               alt={driveData.driverdata[active].img.alt}
             />
-          </div>
+          </div> */}
         </div>
         <div className={styles.logicdriveright}>
           {driveData.driverdata.map(({ title, icon, para }, idx) => {
