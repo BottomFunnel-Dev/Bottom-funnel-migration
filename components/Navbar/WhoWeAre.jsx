@@ -13,8 +13,8 @@ export const WhoWeAre = ({
   const router = useRouter()
   return (
     <div
-      onMouseEnter={()=>{homeHoverIn("about")}}
-      onMouseLeave={()=>{homeHoverOut("")}}
+      onMouseEnter={()=>{homeHoverIn("about",true)}}
+      onMouseLeave={()=>{homeHoverOut("",false)}}
       className={whowe.aboutNavVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
@@ -29,7 +29,7 @@ export const WhoWeAre = ({
                 key={i}
                 onClick={() => {
                   router.push(`/${item.path}`);
-                  homeHoverOut("");
+                  homeHoverOut("",false);
                 }}
                 className={whowe.aboutimageIconDivSection}
               >
@@ -57,7 +57,7 @@ export const WhoWeAre = ({
                 key={i}
                 onClick={() => {
                   router.push(`/${item.path}`);
-                  homeHoverOut("");
+                  homeHoverOut("",false);
                 }}
                 className={whowe.aboutimageIconDivSection}
               >
@@ -85,7 +85,7 @@ export const WhoWeAre = ({
                 key={i}
                 onClick={() => {
                   router.push(item.path);
-                  homeHoverOut("");
+                  homeHoverOut("",false);
                 }}
                 className={whowe.aboutimageIconDivSection}
               >
