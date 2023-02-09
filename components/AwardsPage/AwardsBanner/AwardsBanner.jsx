@@ -18,7 +18,6 @@ export const AwardsBanner = () => {
         </div>
 
         <div className={awards.awardsbannerImage}>
-          {/* <img src="/Images/AwardsPhotos/banner.png" alt="Awards vector" /> */}
           <Image
               src={"/Images/AwardsPhotos/banner.webp"}
               alt={"awardimage"}

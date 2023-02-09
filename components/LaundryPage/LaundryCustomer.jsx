@@ -15,27 +15,27 @@ const LaundryCustomer = () => {
       htxt: "Easy to Place Online Orders",
       stxt: "Laundry app development has gained a lot of popularity these days. Just like the on-demand food delivery app and grocery delivery app have become highly successful",
       img: "/Images/Laundrypage/icons/shopping.png",
-      bigimage: "/Images/Laundrypage/switchscreens/EasyToPlaceOrder.png"
+      bigimage: "/Images/Laundrypage/switchscreens/Easy to place order.webp"
     },
     {
       htxt: "Real-Time Delivery Tracking",
       stxt: "As the popularity of laundry apps has grown, several startups have invested in laundry app development. There are some that must be included in the app",
       img: "/Images/Laundrypage/icons/track1.png",
-      bigimage: "/Images/Laundrypage/switchscreens/RealTimeTracking.png"
+      bigimage: "/Images/Laundrypage/switchscreens/Real time tracking.webp"
     },
 
     {
       htxt: "Delivery Reminder Alerts",
       stxt: "These fantastic on-demand laundry mobile apps allow users to book their laundry services in a couple of seconds. The global dry cleaning service.",
       img: "/Images/Laundrypage/icons/reminder.png",
-      bigimage: "/Images/Laundrypage/switchscreens/Delivery reminders.png"
+      bigimage: "/Images/Laundrypage/switchscreens/Delivery reminders.webp"
     },
 
     {
       htxt: "Store Locator and Easy",
       stxt: "the market share of laundry and dry cleaning services in the U.s will reach $13.8 billion by 2025. revenue services is expected to hit $7,660 million  By 2024",
       img: "/Images/Laundrypage/icons/compass.png",
-      bigimage: "/Images/Laundrypage/switchscreens/StoreLocater-Easynavigate.png"
+      bigimage: "/Images/Laundrypage/switchscreens/Store locater & Easy navigate.webp"
     }
   ]
 

@@ -24,7 +24,6 @@ import Head from "next/head";
 export default function Ecommerce() {
   return (
     <div>
-
       <Head>
         <title>E-commerce Web App Development Company | Bottom Funnel</title>
         <meta
@@ -36,35 +35,34 @@ export default function Ecommerce() {
         />
       </Head>
       <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: false,
+          }}
+        />
+        <EcommerceComBanner />
+        <Trusted partnerLogo={EcommerceLogo} />
+        <EcommerceComFeatures />
+        <EcommerceComCustomer />
+        <EcommerceComAdminPanel />
+        <EcommerceComShopping />
+        <EcommerceBookCall />
+        <EcommerceComSolutions />
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <EcommerceComBanner />
-      <Trusted partnerLogo={EcommerceLogo} />
-      <EcommerceComFeatures />
-      <EcommerceComCustomer />
-      <EcommerceComAdminPanel />
-      <EcommerceComShopping />
-      <EcommerceBookCall />
-      <EcommerceComSolutions />
-
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

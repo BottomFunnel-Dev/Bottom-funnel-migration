@@ -23,8 +23,7 @@ export default function AlcoholAdminPanel({ customerData }) {
         </div>
         <div className={styles.alcoholAdminleft}>
           <div>
-            <img
-              src={customerData.customerdata[active].img.src}
+            <img src={customerData.customerdata[active].img.src}
               alt={customerData.customerdata[active].img.alt}
             />
           </div>

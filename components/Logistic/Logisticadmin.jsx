@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./Logisticadmin.module.css";
 
@@ -10,9 +11,20 @@ export default function Logisticadmin({ adminData }) {
         <div className={styles.logicadminright}>
           {adminData.admindata.map(({ title, icon, para }, idx) => {
             return (
-              <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`} >
+              <div
+                key={title}
+                onMouseOver={() => setActive(idx)}
+                className={`logistic-box-${idx}`}
+              >
                 <div className={styles.logisticLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={icon.src}
+                    alt={icon.alt}
+                  />
                 </div>
 
                 <h3>{title}</h3>
@@ -22,7 +34,8 @@ export default function Logisticadmin({ adminData }) {
           })}
         </div>
 
-        <div className={styles.logicadminleft}
+        <div
+          className={styles.logicadminleft}
           style={{
             background: `url(${adminData.background})`,
             backgroundRepeat: "no-repeat",
@@ -31,7 +44,11 @@ export default function Logisticadmin({ adminData }) {
           }}
         >
           <div className={styles.logisticAdminImage}>
-            <img
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
               src={adminData.admindata[active].img.src}
               alt={adminData.admindata[active].img.alt}
             />
@@ -40,4 +57,4 @@ export default function Logisticadmin({ adminData }) {
       </div>
     </div>
   );
-};
+}

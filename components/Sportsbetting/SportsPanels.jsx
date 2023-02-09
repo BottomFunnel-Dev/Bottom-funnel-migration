@@ -16,7 +16,7 @@ export const SportsPanels = () => {
       <div className={styles.headingpanel}>
         <h1>An Overview of our robust sports betting app solution</h1>
       </div>
-      
+
       <Logiccustomer customerData={bettingCustomer} />
       <Logicdrive driveData={bettingDrive} />
       <Logisticadmin adminData={bettingAdmin} />
