@@ -15,9 +15,8 @@ export const AndriodBottomFunnel = () => {
                     <div className={styles.andriodBottomFunnelServiceBox}>
                         <div className={styles.andriodBottomFunnelContainerBoxes}>
                             <div className={styles.andriodBottomFunnelBoxIcon}>
-                                {/* <img className={styles.andriodBottomFunnelImage} src="Images/AndriodDevImages/icons/1lightbulb.png" alt="image"/>
-                                 */}
-                                  <Image
+                                
+        <Image
           src={"/Images/AndriodDevImages/icons/1lightbulb.webp"}
           alt={"image"}
           width={"0"}

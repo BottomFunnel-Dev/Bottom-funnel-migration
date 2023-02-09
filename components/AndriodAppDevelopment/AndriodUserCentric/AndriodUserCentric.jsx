@@ -18,7 +18,6 @@ export const AndriodUserCentric = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/AndriodDevImages/icons/analyse 1.png" alt="image" /> */}
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Regirous Requirement Analysis</h4>
@@ -39,7 +38,6 @@ export const AndriodUserCentric = () => {
         />
           
                 
-                {/* <img src="Images/AndriodDevImages/icons/interest-rate 1.png" alt="image"/> */}
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Competetive Rates & Projects Quotes</h4>
@@ -61,7 +59,6 @@ export const AndriodUserCentric = () => {
           style={{ width: "100%", height: "100%" }}
         />
           
-                {/* <img src="Images/AndriodDevImages/icons/app-development (2) 1.png" alt="image" /> */}
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Expert Mobile App developers</h4>
@@ -81,7 +78,6 @@ export const AndriodUserCentric = () => {
           style={{ width: "100%", height: "100%" }}
         />
 
-                {/* <img src="Images/AndriodDevImages/icons/agile (2) 1.png" alt="image"/> */}
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Proven Delivery Methods</h4>
