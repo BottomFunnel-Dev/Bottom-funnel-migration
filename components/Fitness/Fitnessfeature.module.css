@@ -4,7 +4,7 @@
   /* margin-top: 10px; */
 }
 
-.szfitfeaturesection > h1 {
+.szfitfeaturesection>h1 {
   padding: 20px;
 }
 
@@ -36,19 +36,17 @@
   transform: scale(1.1);
 }
 
-.fitfeaturdocs > p {
+.fitfeaturdocs>p {
   padding: 15px;
 }
 
 .fitdocimg {
   /* background-color: blue; */
   width: 55px;
-  height: 55px;
+  aspect-ratio: 1/1;
   margin: auto;
 }
 
-.fitdocimg > img {
-  width: 100%;
-  height: 100%;
+.fitdocimg>img {
   object-fit: contain;
 }

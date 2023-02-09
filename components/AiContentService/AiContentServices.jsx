@@ -1,10 +1,10 @@
 import React from "react";
-import { AIContentApplication } from './AIContentApplication'
+import { AIContentApplication } from "./AIContentApplication";
 
-import { AiContentBanner } from './AiContentBanner'
-import { AiContentHuman } from './AiContentHuman'
-import { AiContentTextOnly } from './AiContentTextOnly'
-import { AiHowDoesWorks } from './AiHowDoesWorks'
+import { AiContentBanner } from "./AiContentBanner";
+import { AiContentHuman } from "./AiContentHuman";
+import { AiContentTextOnly } from "./AiContentTextOnly";
+import { AiHowDoesWorks } from "./AiHowDoesWorks";
 
 // ----- Other requried react components -----
 import StoriesSection from "../StoriesSection/StoriesSection";
@@ -17,18 +17,17 @@ import { TextDropdown } from "../faqSection/Faqs";
 import ContectForm from "../ContectForm/ContectForm";
 import MainFooter from "../FooterSection/MainFooter";
 
-
 export const AiContentServices = () => {
   return (
     <div>
-    <AiContentBanner  />
-    <AiContentHuman />
-    <AiHowDoesWorks />
-    <AIContentApplication />
-    <AiContentTextOnly />
+      <AiContentBanner />
+      <AiContentHuman />
+      <AiHowDoesWorks />
+      <AIContentApplication />
+      <AiContentTextOnly />
 
-  {/* Other react required components */}
-  <StoriesSection />
+      {/* Other react required components */}
+      <StoriesSection />
       <OndemandSection />
       <PortFolio />
       <PlanProject />
@@ -37,8 +36,6 @@ export const AiContentServices = () => {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
-    
     </div>
-  )
-}
-
+  );
+};

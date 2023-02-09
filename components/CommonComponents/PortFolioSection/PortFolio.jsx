@@ -39,7 +39,8 @@ const PortFolio = () => {
       backend: " Java",
       database: "Microsoft",
       website: "https://www.yanbal.com//bo/",
-      playStore: "http://play.google.com/store/apps/details?id=yanbal.colombia2",
+      playStore:
+        "http://play.google.com/store/apps/details?id=yanbal.colombia2",
     },
     {
       leftimg: "#A752ED",
@@ -227,10 +228,15 @@ const PortFolio = () => {
           <div
             key={i}
             className={
-              i === imageIndex ? `${styles.mainSlide} ${styles.activeMainSlide}` : styles.mainSlide
+              i === imageIndex
+                ? `${styles.mainSlide} ${styles.activeMainSlide}`
+                : styles.mainSlide
             }
           >
-            <div className={styles.leftAnime} style={{background:`${item.leftimg}`}}>
+            <div
+              className={styles.leftAnime}
+              style={{ background: `${item.leftimg}` }}
+            >
               {/* <img src={item.leftimg} alt="image" /> */}
               <span className={styles.portfolioText}>
                 <h1>{item.title}</h1>
@@ -260,14 +266,17 @@ const PortFolio = () => {
                     </IconContext.Provider>
 
                     <a href={item.playStore} target="_blank">
-
-                      <IconContext.Provider value={{ className: styles.webIcon }}>
+                      <IconContext.Provider
+                        value={{ className: styles.webIcon }}
+                      >
                         <AiFillAndroid />
                       </IconContext.Provider>
                     </a>
 
                     <a href={item.website} target="_blank">
-                      <IconContext.Provider value={{ className: styles.webIcon }}>
+                      <IconContext.Provider
+                        value={{ className: styles.webIcon }}
+                      >
                         <BsGlobe />
                       </IconContext.Provider>
                     </a>
@@ -282,7 +291,9 @@ const PortFolio = () => {
 
                 <button className={styles.casestudy}>
                   View Case Study{" "}
-                  <IconContext.Provider value={{ className: styles.casestudyIcon }}>
+                  <IconContext.Provider
+                    value={{ className: styles.casestudyIcon }}
+                  >
                     <BsArrowRight />
                   </IconContext.Provider>
                 </button>

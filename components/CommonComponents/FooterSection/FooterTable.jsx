@@ -3,12 +3,11 @@ import styles from "./footertable.module.css";
 import Link from "next/link";
 
 const FooterTable = () => {
-
   return (
     <div className={styles.footerTable}>
       <div className={styles.innerTable}>
-        <Link  href={"/about-us"}>
-          <p className = {styles.link_css}>About</p>
+        <Link href={"/about-us"}>
+          <p className={styles.link_css}>About</p>
         </Link>
 
         <Link href={"/about-us"}>
@@ -48,7 +47,7 @@ const FooterTable = () => {
 
       <div className={styles.innerTable}>
         <Link href={"/web-development"}>
-          <p className = {styles.link_css}>Web Development</p>
+          <p className={styles.link_css}>Web Development</p>
         </Link>
         <Link href={"/php-development"}>
           <p className={styles.link_inner_css}>PHP Development</p>
@@ -80,7 +79,7 @@ const FooterTable = () => {
       </div>
 
       <div className={styles.innerTable}>
-        <p className = {styles.link_css}>Mobile App Development</p>
+        <p className={styles.link_css}>Mobile App Development</p>
         <Link href={"/android"}>
           <p className={styles.link_inner_css}>Android App Development</p>
         </Link>
@@ -111,7 +110,7 @@ const FooterTable = () => {
       </div>
 
       <div className={styles.innerTable}>
-        <p className = {styles.link_css}> Digital Marketing Services </p>
+        <p className={styles.link_css}> Digital Marketing Services </p>
         <Link href={"/seo"}>
           <p className={styles.link_inner_css}>Seo Services</p>
         </Link>

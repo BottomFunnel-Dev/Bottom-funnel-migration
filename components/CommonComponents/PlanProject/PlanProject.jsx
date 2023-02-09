@@ -6,11 +6,9 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 const PlanProject = () => {
-
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
 
   const style = {
     position: "absolute",
@@ -24,7 +22,7 @@ const PlanProject = () => {
     // boxShadow: 24,
     backgorund: "green",
     p: 1,
-    borderRadius: 2
+    borderRadius: 2,
   };
 
   return (
@@ -36,7 +34,7 @@ const PlanProject = () => {
           be able to have easy access to quality IT services, which is why we
           offer a variety of plans for every budget.
         </p>
-        <button onClick={handleOpen} >Let's plan your project</button>
+        <button onClick={handleOpen}>Let's plan your project</button>
 
         <Modal
           open={open}
