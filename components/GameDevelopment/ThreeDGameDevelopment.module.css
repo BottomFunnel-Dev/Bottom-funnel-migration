@@ -2,7 +2,7 @@
   height: 100vh;
   border: 1px solid;
   display: flex;
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-1.png");
+  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -6%;
@@ -21,7 +21,7 @@
   margin-left: 10%;
 }
 
-.threedflexboxleftdivinnerimagesection1 > img {
+.threedflexboxleftdivinnerimagesection1>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -36,7 +36,7 @@
   margin-left: 35%;
 }
 
-.threedflexboxleftdivinnerimagesection2 > img {
+.threedflexboxleftdivinnerimagesection2>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -56,20 +56,21 @@
   text-decoration: none;
 }
 
-.threedflexboxrightgamedevelopment > h2 {
+.threedflexboxrightgamedevelopment>h2 {
   color: white;
 }
 
-.threedflexboxrightgamedevelopment > p {
+.threedflexboxrightgamedevelopment>p {
   color: white;
 }
 
 .flexinggamermetaverce {
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
 }
 
-.flexinggamermetaverce > h6 {
+.flexinggamermetaverce>h6 {
   color: white;
   margin-left: 3%;
   margin-top: 1.5%;

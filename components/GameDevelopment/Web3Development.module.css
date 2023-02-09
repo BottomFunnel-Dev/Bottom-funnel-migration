@@ -1,7 +1,7 @@
 .Web3Developmentmainbox {
   height: 100vh;
   display: flex;
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-3.png");
+  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-3.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@
   color: white;
 }
 
-.specialcolorredish > a {
+.specialcolorredish>a {
   color: #ef4c23;
   border: 1px solid red;
 }
@@ -33,7 +33,7 @@
   left: 50%;
 }
 
-.web3develomentgameboxingimageinnerbox1 > img {
+.web3develomentgameboxingimageinnerbox1>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -48,19 +48,20 @@
   left: 30%;
 }
 
-.flexinggamermetaverce{
+.flexinggamermetaverce {
   /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
 }
 
-.flexinggamermetaverce > h6{
+.flexinggamermetaverce>h6 {
   color: white;
   margin-left: 3%;
   margin-top: 1.5%;
 }
 
-.web3develomentgameboxingimageinnerbox2 > img {
+.web3develomentgameboxingimageinnerbox2>img {
   height: 100%;
   width: 100%;
   object-fit: cover;

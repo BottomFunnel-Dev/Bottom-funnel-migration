@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./OurAchievements.module.css";
-import Image from "next/Image"; 
+import Image from "next/image";
 
 export const OurAchievements = () => {
   return (
@@ -27,11 +27,11 @@ export const OurAchievements = () => {
         </p>
         <button>Read More</button>
       </div>
-      
+
       <div className={styles.OurAchievementsimage}>
         {/* <img src="/Images/aboutusImage/our-achievements.jpg" alt="Our Achievement" /> */}
         <Image
-          src={"/Images/aboutusImage/our-achievements.webp" }
+          src={"/Images/aboutusImage/our-achievements.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}

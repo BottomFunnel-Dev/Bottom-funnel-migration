@@ -1,6 +1,6 @@
 .gamedevelopmentmetavercemainbox {
   height: 100vh;
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures12y.png");
+  background-image: url("/Images/gamedevelopmentpage/sectionfeatures12y.webp");
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -24,13 +24,9 @@
   display: flex;
   align-items: center;
   column-gap: 5px;
-  /* margin-top: 3%; */
+  margin-top: 3%;
   /* border: 1px solid green; */
 }
-
-/* .flexinggamermetaverce > h6 {
-  border: 1px solid red;
-} */
 
 .gamemetaverserightdivwhichinnerimage {
   height: 30%;
@@ -41,7 +37,7 @@
   border-radius: 10px;
 }
 
-.gamemetaverserightdivwhichinnerimage > img {
+.gamemetaverserightdivwhichinnerimage>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -57,7 +53,7 @@
   border-radius: 10px;
 }
 
-.gamemetaverserightdivwhichinnerimagenext > img {
+.gamemetaverserightdivwhichinnerimagenext>img {
   height: 100%;
   width: 100%;
   object-fit: cover;

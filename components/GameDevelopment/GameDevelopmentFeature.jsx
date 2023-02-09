@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./GameDevelopmentFeature.module.css";
 
@@ -18,53 +19,78 @@ export const GameDevelopmentFeature = () => {
 
       <div className={styles.gamedevelopmentanotherdivforboxesforfeatures}>
         <div className={styles.gamedevelopmentfeatureinnerbox1}>
-          <img
-            className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/level 1.png"
-            alt="images"
-          />
+          <div className={styles.gamedeveloperinnerimageallboxes}>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/gamedevelopmentpage/level 1.webp"
+              alt="gamedevelopmentpage/level 1.webp"
+            />
+          </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Level and world design
           </h4>
         </div>
 
         <div className={styles.gamedevelopmentfeatureinnerbox2}>
-          <img
-            className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/Component 124.png"
-            alt="images"
-          />
+          <div className={styles.gamedeveloperinnerimageallboxes}>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/gamedevelopmentpage/Component 124.webp"
+              alt="gamedevelopmentpage/Component 124.webp"
+            />
+          </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Art and/or sketches
           </h4>
         </div>
 
         <div className={styles.gamedevelopmentfeatureinnerbox3}>
-          <img
-            className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/character-design 1.png"
-            alt="images"
-          />
+          <div className={styles.gamedeveloperinnerimageallboxes}>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/gamedevelopmentpage/character-design 1.webp"
+              alt="gamedevelopmentpage/character-design 1.webp"
+            />
+          </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Story and characters
           </h4>
         </div>
 
         <div className={styles.gamedevelopmentfeatureinnerbox4}>
-          <img
-            className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/gameplay 1.png"
-            alt="images"
-          />
+          <div className={styles.gamedeveloperinnerimageallboxes}>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/gamedevelopmentpage/gameplay 1.webp"
+              alt="images"
+            />
+          </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>Gameplay</h4>
         </div>
 
         <div className={styles.gamedevelopmentfeatureinnerbox5}>
-          <img
-            className={styles.gamedeveloperinnerimageallboxes}
-            src="/Images/gamedevelopmentpage/game 4.png"
-            alt="images"
-          />
+          <div className={styles.gamedeveloperinnerimageallboxes}>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/gamedevelopmentpage/game 4.webp"
+              alt="images"
+            />
+          </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Core game mechanics
           </h4>

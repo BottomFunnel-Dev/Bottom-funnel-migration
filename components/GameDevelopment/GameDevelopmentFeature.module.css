@@ -23,19 +23,19 @@
   align-items: stretch;
   justify-content: space-evenly;
   row-gap: 25px;
+  column-gap: 25px;
 }
 
-.gamedevelopmentanotherdivforboxesforfeatures > div {
+.gamedevelopmentanotherdivforboxesforfeatures>div {
   width: 25%;
-  height: 10%;
   padding: 3% 1%;
   border: 1px solid #3db3a2;
   border-radius: 10px;
   text-align: center;
+  cursor: default;
 }
 
-
-.gamedevelopmentanotherdivforboxesforfeatures > div:hover {
+.gamedevelopmentanotherdivforboxesforfeatures>div:hover {
   transform: scale(1.1);
 }
 
@@ -47,10 +47,6 @@
   object-fit: contain;
 }
 
-.gamedeveloperinnerimageallboxes > img {
-  width: 100%;
-}
-
 .txtwhitegamedeveloperfeature {
   color: white;
   text-align: center;
@@ -59,12 +55,12 @@
 
 /* media query for mobiles and tablets devices */
 @media (max-width: 1024px) {
-  .gamedevelopmentfeaturetxtdiv > h1 {
+  .gamedevelopmentfeaturetxtdiv>h1 {
     font-size: 32px;
     margin-top: 0;
   }
 
-  .gamedevelopmentfeaturetxtdiv > p {
+  .gamedevelopmentfeaturetxtdiv>p {
     font-size: 14px;
   }
 
@@ -72,7 +68,7 @@
     width: 95%;
   }
 
-  .gamedevelopmentanotherdivforboxesforfeatures > div > h4 {
+  .gamedevelopmentanotherdivforboxesforfeatures>div>h4 {
     font-size: 15px;
     margin: 0;
   }

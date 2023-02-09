@@ -1,7 +1,7 @@
 .mobilegamedevelopmentmainbox {
   height: 100vh;
 
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-2.png");
+  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -9,7 +9,6 @@
 
 .mobiledevelopmentflexboxingleft {
   width: 50%;
-
   position: relative;
 }
 
@@ -22,7 +21,7 @@
   top: 20%;
 }
 
-.mobiledevelopmentflexingimageonebox > img {
+.mobiledevelopmentflexingimageonebox>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -37,7 +36,7 @@
   top: 50%;
 }
 
-.mobiledevelopmentflexingimagetwobox > img {
+.mobiledevelopmentflexingimagetwobox>img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -51,11 +50,11 @@
   margin-left: 5%;
 }
 
-.mobiledevelopmentflexboxrightgamedevelopment > h2 {
+.mobiledevelopmentflexboxrightgamedevelopment>h2 {
   color: white;
 }
 
-.mobiledevelopmentflexboxrightgamedevelopment > p {
+.mobiledevelopmentflexboxrightgamedevelopment>p {
   color: white;
 }
 
@@ -64,14 +63,15 @@
   text-decoration: none;
 }
 
-.flexinggamermetaverce{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: row;
+.flexinggamermetaverce {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
 }
 
-.flexinggamermetaverce > h6 {
+.flexinggamermetaverce>h6 {
   color: white;
   margin-left: 3%;
-  margin-top:1%;
+  margin-top: 1%;
 }
