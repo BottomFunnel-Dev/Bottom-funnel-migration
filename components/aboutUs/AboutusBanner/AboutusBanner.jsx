@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutusBanner.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 
 export const AboutusBanner = () => {
   return (
