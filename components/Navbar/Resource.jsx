@@ -1,6 +1,5 @@
 import React from "react";
-import navstyle from "./navbar.module.css";
-import industry from "./navIndustries.module.css";
+import resCSS from "./resource.module.css";
 import Link from "next/link";
 import {resource } from "../../Data/Navbar";
 export const Resource = ({
@@ -11,33 +10,33 @@ export const Resource = ({
 }) => {
   return (
     <div
-      onMouseEnter={resHoverIn}
-      onMouseLeave={resHoverOut}
-      className={industry.resourceVisible}
+      onMouseEnter={()=>{resHoverIn("resource")}}
+      onMouseLeave={()=>{resHoverOut("")}}
+      className={resCSS.resourceVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
 
-      <div id={industry.ondemandsol} className={industry.indindustryContent}>
-        <div className={industry.resourceListItems}>
+      <div id={resCSS.ondemandsol} className={resCSS.indindustryContent}>
+        <div className={resCSS.resourceListItems}>
           {resource.map((item, i) => (
             <div
               key={i}
               onClick={() => {
-                resHoverOut();
+                resHoverOut("");
               }}
-              className={industry.industryimageIconDivSection}
+              className={resCSS.industryimageIconDivSection}
             >
               {/* <div>
                 <img
-                  className={industry.industryiconDivSection}
+                  className={resCSS.industryiconDivSection}
                   src={item.navIcons}
                   alt=""
                 />
               </div> */}
               <Link
-                onClick={resHoverOut}
+                onClick={()=>{resHoverOut("")}}
                 href={item.path}
-                className={industry.resourcelinkP}
+                className={resCSS.resourcelinkP}
               >
                 <p>{item.dropContent}</p>
               </Link>
