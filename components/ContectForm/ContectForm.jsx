@@ -17,7 +17,7 @@ import { countrycodes } from "./countrycode";
 import { budget } from "./countrycode";
 import { interested } from "./countrycode";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import { PopupForm } from "../PopupForm/PopupForm";
 
