@@ -175,7 +175,7 @@ export const foodDeliveryCustomer = {
         alt: "Register image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -187,7 +187,7 @@ export const foodDeliveryCustomer = {
         alt: "Schedule",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "User-friendly interface",
@@ -199,7 +199,7 @@ export const foodDeliveryCustomer = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Order food and track their service",
@@ -211,7 +211,7 @@ export const foodDeliveryCustomer = {
         alt: "Track Order image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -231,7 +231,7 @@ export const foodDeliveryDrive = {
         alt: "Register image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -243,7 +243,7 @@ export const foodDeliveryDrive = {
         alt: "Schedule",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "User-friendly interface",
@@ -255,7 +255,7 @@ export const foodDeliveryDrive = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Order food and track their service",
@@ -267,7 +267,7 @@ export const foodDeliveryDrive = {
         alt: "Track Order image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -287,7 +287,7 @@ export const foodDeliveryAdmin = {
         alt: "Register image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Manage Offers & Discounts",
@@ -299,7 +299,7 @@ export const foodDeliveryAdmin = {
         alt: "Schedule",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Menu category and Order Managerment",
@@ -311,7 +311,7 @@ export const foodDeliveryAdmin = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Chat Support",
@@ -323,7 +323,7 @@ export const foodDeliveryAdmin = {
         alt: "Track Order image",
       },
       icon: {
-        // src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Custom Alerts",
@@ -339,11 +339,11 @@ export const carpoolCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Quick bookings.png",
+        src: "/Images/carpoolingpage/customerapp/Quick bookings.png",
         alt: "Register image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Flexible & Quick Bookings",
@@ -351,11 +351,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Fare estimate.png",
+        src: "/Images/carpoolingpage/customerapp/Fare estimate.png",
         alt: "Schedule",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Fare Estimates",
@@ -367,7 +367,7 @@ export const carpoolCustomer = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Pool Options",
@@ -375,11 +375,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Time tracking.png",
+        src: "/Images/carpoolingpage/customerapp/Time tracking.png",
         alt: "Track Order image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Real-Time Tracking",
@@ -395,11 +395,11 @@ export const carpoolDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/real time requests.png",
+        src: "/Images/carpoolingpage/driverapp/real time requests.png",
         alt: "Register image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Real-time Requests",
@@ -407,11 +407,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Trip details.png",
+        src: "/Images/carpoolingpage/driverapp/Trip details.png",
         alt: "Schedule",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Trip Detail",
@@ -419,11 +419,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Rating & review.png",
+        src: "/Images/carpoolingpage/driverapp/Rating & review.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Rating & Review",
@@ -431,11 +431,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Wallet details.png",
+        src: "/Images/carpoolingpage/driverapp/Wallet details.png",
         alt: "Track Order image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Wallet Details",
@@ -451,11 +451,11 @@ export const carpoolAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Dashboard.png",
+        src: "/Images/carpoolingpage/adminpanel/Dashboard.png",
         alt: "Register image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -463,11 +463,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Reports & analytics.png",
+        src: "/Images/carpoolingpage/adminpanel/Reports & analytics.png",
         alt: "Schedule",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Reports and Analytics",
@@ -475,11 +475,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+        src: "/Images/carpoolingpage/adminpanel/Promos & reffrels.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Manage Promos & Referals",
@@ -487,11 +487,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Driver management.png",
+        src: "/Images/carpoolingpage/adminpanel/Driver management.png",
         alt: "Track Order image",
       },
       icon: {
-        // src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Driver Management",
