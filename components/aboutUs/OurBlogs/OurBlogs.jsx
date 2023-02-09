@@ -40,7 +40,6 @@ export const OurBlogs = () => {
           return (
             <div className={styles.OurBlogscardsmain} key={idx}>
               <div className={styles.OurBlogscardsimage}>
-                {/* <img src={image} alt={title} /> */}
                 <Image
                   src={image}
                   alt={title}

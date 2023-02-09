@@ -6,7 +6,6 @@ export default function AgricultureConsumerApp({ driveData }) {
     const [active, setActive] = useState(0);
     return (
         <div className={styles.plantBasedDriverApp}>
-            {/* <h1>{driveData.sectionTitle}</h1> */}
             <div className={styles.plantBasedDriverAppsub}>
                 <div
                     className={styles.plantBasedDriverAppleft}

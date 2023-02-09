@@ -30,7 +30,6 @@ export const OurProcess = () => {
         </div>
 
         <div className={styles.OurProcessaboutUsimage}>
-          {/* <img src="/Images/aboutusImage/meeting.webp" alt="image" /> */}
           <Image
             src={"/Images/aboutusImage/meeting.webp"}
             alt={"meetimage"}
