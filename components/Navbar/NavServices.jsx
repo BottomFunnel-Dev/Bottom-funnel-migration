@@ -47,8 +47,8 @@ export const NavServices = ({
 
   return (
     <div
-      onMouseEnter={()=>{serHoverIn("services")}}
-      onMouseLeave={()=>{serHoverOut("")}}
+      onMouseEnter={()=>{serHoverIn("services",true)}}
+      onMouseLeave={()=>{serHoverOut("",false)}}
       className={navservice.servicesolutionVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
@@ -74,7 +74,7 @@ export const NavServices = ({
             <h5
               onClick={() => {
                 router.push('web-development')
-                serHoverOut("");
+                serHoverOut("",false);
               }}
               className={navservice.servicenoStyle}
               style={{ margin: 0 }}
@@ -89,7 +89,7 @@ export const NavServices = ({
                   key={i}
                   onClick={() => {
                     router.push(`${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -125,7 +125,7 @@ export const NavServices = ({
             >
               <h5
                 onClick={() => {
-                  serHoverOut("");
+                  serHoverOut("",false);
                 }}
                 style={{ margin: 0 }}
               >
@@ -139,7 +139,7 @@ export const NavServices = ({
                   key={i}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -160,7 +160,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -178,7 +178,7 @@ export const NavServices = ({
             >
               <h5
                 onClick={() => {
-                  serHoverOut();
+                  serHoverOut("", false);
                 }}
                 style={{ margin: 0 }}
               >
@@ -195,7 +195,7 @@ export const NavServices = ({
                 <div
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   key={l}
                   className={navservice.serviceimageIconDivSection}
@@ -216,7 +216,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -243,7 +243,7 @@ export const NavServices = ({
                   key={m}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.servicetrendImageIconDivSection}
                 >
@@ -263,7 +263,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -284,7 +284,7 @@ export const NavServices = ({
                 <ImageCard
                   key={index}
                   cardContent={item}
-                  closeDisplay={()=>{serHoverOut("")}}
+                  closeDisplay={()=>{serHoverOut("",false)}}
                 />
               ))}
             </div>
@@ -300,7 +300,7 @@ export const NavServices = ({
           <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
-                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("")}} />
+                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("",false)}} />
                 <h5 className={navservice.serviceknowmore}>
                   Know More <BsArrowRight />
                 </h5>
@@ -316,7 +316,7 @@ export const NavServices = ({
               {designContent.map((item, index) => (
                 <ImageCard
                   key={index}
-                  closeDisplay={()=>{serHoverOut("")}}
+                  closeDisplay={()=>{serHoverOut("",false)}}
                   cardContent={item}
                 />
               ))}
@@ -334,7 +334,7 @@ export const NavServices = ({
           <div className={navservice.servicediscoverright}>
             {designRightContent.map((item, index) => (
               <div key={index}>
-                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("")}} />
+                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("",false)}} />
                 <h5 className={navservice.serviceknowmore}>
                   Know More <BsArrowRight />
                 </h5>
@@ -355,7 +355,7 @@ export const NavServices = ({
                   key={i}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.servicebackendimageIconDivSection}
                 >
@@ -375,7 +375,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -395,7 +395,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -415,7 +415,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -436,7 +436,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut();
+                    serHoverOut("",false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -456,7 +456,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -476,7 +476,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -496,7 +496,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -516,7 +516,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("");
+                    serHoverOut("",false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -536,7 +536,7 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("")}}
+                    onClick={()=>{serHoverOut("",false)}}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -555,7 +555,7 @@ export const NavServices = ({
               {scaleContent.map((item, index) => (
                 <ImageCard
                   key={index}
-                  closeDisplay={()=>{serHoverOut("")}}
+                  closeDisplay={()=>{serHoverOut("",false)}}
                   cardContent={item}
                 />
               ))}
@@ -574,7 +574,7 @@ export const NavServices = ({
           <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
-                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("")}} />
+                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("",false)}} />
                 <h5 className={navservice.serviceknowmore}>
                   Know More
                   <BsArrowRight />{" "}

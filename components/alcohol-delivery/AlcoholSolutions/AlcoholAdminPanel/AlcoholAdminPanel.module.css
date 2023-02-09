@@ -14,19 +14,22 @@ margin: auto;
 display: flex;
 align-items: center;
 }
+
 .alcoholAdminleft {
-width: 45%;
-height: 500px;
-padding: 10px;
-display: flex;
-background-position: center;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
+  width: 45%;
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  /* background: url("/public/Images/alcohol/rectanglebase.png"); */
+  /* border: 2px solid red; */
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .alcoholAdminleft>div>img{
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .alcoholAdminright {
 width: 45%;
@@ -49,11 +52,13 @@ background-color: white;
 cursor: pointer;
 }
 .alcoholAdminright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #e1f9f6;
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .alcoholAdminright > div > h3 {
 font-size: 18px;

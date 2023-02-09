@@ -11,8 +11,8 @@ export const NavIndustries = ({
 }) => {
   return (
     <div
-      onMouseEnter={()=>{solHoverIn("solutions")}}
-      onMouseLeave={()=>{solHoverOut("")}}
+      onMouseEnter={()=>{solHoverIn("solutions",true)}}
+      onMouseLeave={()=>{solHoverOut("",false)}}
       className={industry.industryserviceVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
@@ -32,7 +32,7 @@ export const NavIndustries = ({
                 <img className={industry.industryiconDivSection} src={item.navIcons} alt="image" />
               </div>
               <Link
-                onClick={()=>{solHoverOut("")}}
+                onClick={()=>{solHoverOut("",false)}}
                 href={item.path}
                 className={industry.industrylinkP}
               >

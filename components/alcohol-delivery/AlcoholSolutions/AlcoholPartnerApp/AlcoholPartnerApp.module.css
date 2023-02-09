@@ -45,11 +45,13 @@ background-color: white;
 cursor: pointer;
 }
 .alcoholPartnerright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #e1f9f6;
+  cursor: pointer;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .alcoholPartnerright > div > h3 {
 font-size: 18px;
