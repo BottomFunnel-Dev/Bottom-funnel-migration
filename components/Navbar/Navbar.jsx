@@ -157,7 +157,7 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
               
               <li
-                onClick={() => router.push("/Portfolio")}
+                onClick={() => router.push("/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 WORK
