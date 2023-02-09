@@ -1,51 +1,52 @@
 .alcoholPartner {
-width: 100%;
-height: max-content;
-margin: 60px 0;
+  width: 100%;
+  height: max-content;
+  margin: 60px 0;
 }
 .alcoholPartner > h1 {
-margin-left: 7%;
-color: #9a4c72;
+  margin-left: 7%;
+  color: #9a4c72;
 }
 .alcoholPartnersub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-display: flex;
-align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 .alcoholPartnerleft {
-width: 45%;
-height: 500px;
-padding: 10px;
-display: flex;
-background-position: center;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
+  width: 45%;
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 .alcoholPartnerright {
-width: 45%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-gap: 20px;
-justify-content: center;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
 }
 .alcoholPartnerright > div {
-padding: 10px 10px 10px 10px;
-height: 160px;
-width: 45%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  height: 160px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
 }
 .alcoholPartnerright > div:hover {
-  background-color: #e1f9f6;
+  background-color: #9a4c72;
+  color: white;
   cursor: pointer;
   /* margin-top: 0; */
   transition: all 0.2s linear;
@@ -54,17 +55,17 @@ cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .alcoholPartnerright > div > h3 {
-font-size: 18px;
+  font-size: 18px;
 }
 .alcoholCustomerImage {
-width: 45%;
-height: 500px;
-text-align: right;
-margin: auto;
-margin-top: -10px;
+  width: 45%;
+  height: 500px;
+  text-align: right;
+  margin: auto;
+  margin-top: -10px;
 }
 .alcoholCustomerImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
