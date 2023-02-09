@@ -2,19 +2,15 @@
 @media only screen and (min-width:901px){
   .datasciencemainboxes{
     height: 50vh;
- 
-   
   }
 .DataScienceMidBannerMain {
   padding: 5% 3% 5% 3%;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/Images/IOTPhotos/mid-banner.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-
   text-align: center;
 }
 }
@@ -25,8 +21,7 @@
   .DataScienceMidBannerMain {
    
     padding: 5% 3% 5% 3%;
-  
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("/Images/IOTPhotos/mid-banner.webp");
     background-size: cover;
     background-position: center;

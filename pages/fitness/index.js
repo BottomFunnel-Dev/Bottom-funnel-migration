@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Fitnesscontainer } from "../../components/Fitness/Fitnesscontainer";
 import { fitnessLogo } from "../../components/Data/SeopartnerData";
 import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
@@ -9,7 +8,6 @@ import Fitnessstart from "../../components/Fitness/FitnessStart";
 import Fitnessexercise from "../../components/Fitness/Fitnessexercise";
 import FitnessSolution from "../../components/Fitness/FitnessSolution";
 import Fitnesswhy from "../../components/Fitness/Fitnesswhy";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";

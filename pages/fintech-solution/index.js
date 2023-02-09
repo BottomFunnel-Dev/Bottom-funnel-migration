@@ -1,12 +1,10 @@
 import React from "react";
-
 import { FinTechSolutionBanner } from "../../components/FintexhSolution/FinTechSolutionBanner";
 import { FintechExclusive } from "../../components/FintexhSolution/FintechExclusive";
 import { FintechCustomerApp } from "../../components/FintexhSolution/FintechCustomerApp";
 import { FintechAdminpannel } from "../../components/FintexhSolution/FintechAdminpannel";
 import { FintechDriverApp } from "../../components/FintexhSolution/FintechDriverApp";
 import { FintechWhyChooseUs } from "../../components/FintexhSolution/FintechWhyChooseUs";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";

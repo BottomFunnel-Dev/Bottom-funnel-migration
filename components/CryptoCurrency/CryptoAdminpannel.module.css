@@ -1,6 +1,5 @@
 .cryptoadminpannelmainboxing {
   height: fit-content;
-
   display: flex;
 }
 
@@ -21,7 +20,7 @@
   display: flex;
   padding: 10px;
   border-radius: 10px;
-  /* border: 2px solid gold; */
+
 }
 
 .cryptoadminboxingindivisually:hover {
@@ -32,7 +31,6 @@
 .cryptoadminboxingindivisuallylogo {
   height: 18%;
   width: 15%;
-  /* border: 2px solid red; */
 }
 
 .cryptoadminboxingindivisuallylogo > img {
@@ -44,15 +42,11 @@
 .cryptoadminboxingindivisuallyfortxt {
   width: 100%;
   margin-left: 1%;
-  /* text-align: justify; */
-  /* border: 2px solid green; */
 }
 .cryptoadminboxingindivisuallyfortxt>h4{
-  /* border: 2px solid red; */
   margin-top: 1%;
 }
 .cryptoadminboxingindivisuallyfortxt>p{
-  /* border: 2px solid red; */
   margin-top: 1%;
   font-size: 14px;
 }

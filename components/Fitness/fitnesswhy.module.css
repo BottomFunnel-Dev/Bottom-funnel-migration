@@ -1,18 +1,15 @@
 .szfitwhy{
     width: 100%;
-    /* background-color: blueviolet; */
     text-align: center;
     height: 300px;
 }
 .szfitchoose{
     width: 90%;
     margin: auto;
-    /* background-color: aqua; */
     display: flex;
     flex-wrap: wrap;
     height: 220px;
     justify-content: center;
-   
 }
  
 .szfitchoose>div{
@@ -29,8 +26,6 @@ height: 150px;
     padding: 15px;
 }
 .szfitanalysis{
-    
-    /* background-color: aqua; */
     width: 60px;
     height: 60px;
     margin: auto;

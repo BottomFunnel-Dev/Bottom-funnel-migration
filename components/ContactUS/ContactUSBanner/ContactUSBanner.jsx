@@ -6,7 +6,7 @@ export const ContactUSBanner = () => {
   return (
     <div className={styles.contactUsBannermain}>
       <div className={styles.ContactUsBannerimage}>
-        {/* <img src="/Images/ContactUS/banner.png" alt="Contact us banner" /> */}
+   
         <Image
           src={"/Images/ContactUS/banner.webp"}
           alt={"contactimage"}

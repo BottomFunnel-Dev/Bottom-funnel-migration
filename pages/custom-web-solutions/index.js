@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from "./CustomisedWebPage.module.css";
-
 import { CustomisedWebBanner } from '../../components/CustomisedWebPage/CustomisedWebBanner/CustomisedWebBanner';
 import { CustomisedWebUnique } from '../../components/CustomisedWebPage/CustomisedWebUnique/CustomisedWebUnique';
 import { CustomisedWebServices } from '../../components/CustomisedWebPage/CustomisedWebServices/CustomisedWebServices';
@@ -9,7 +8,6 @@ import { CustomWebMidBanner } from '../../components/CustomisedWebPage/CustomWeb
 import { CustomWebWhyBF } from '../../components/CustomisedWebPage/CustomWebWhyBF/CustomWebWhyBF';
 import { CustomWebSlider } from '../../components/CustomisedWebPage/CustomWebSlider/CustomWebSlider';
 import { CustomWebForm } from '../../components/CustomisedWebPage/CustomWebForm/CustomWebForm';
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
@@ -20,7 +18,6 @@ import ContectForm from "../../components/CommonComponents/ContectForm/ContectFo
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
-
 export default function CustomisedWebDevelopment () {
   return (
     <div className={styles.CustomisedWebPageContainer}>

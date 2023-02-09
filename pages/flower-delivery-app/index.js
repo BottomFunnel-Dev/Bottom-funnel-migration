@@ -1,5 +1,4 @@
 import React from "react";
-
 import FlowerDeliveryBanner from "../../components/FlowerDelivery/FlowerDeliveryBanner";
 import { FlowerDeliveryService } from "../../components/FlowerDelivery/FlowerDeliveryService";
 import FlowerDeliverySolution from "../../components/FlowerDelivery/FlowerDeliverySolution";
@@ -7,7 +6,6 @@ import FlowerDeliveryDriver from "../../components/FlowerDelivery/FlowerDelivery
 import FlowerDeliveryAdmin from "../../components/FlowerDelivery/FlowerDeliveryAdmin";
 import FlowerDeliveryBannerbottom from "../../components/FlowerDelivery/FlowerDeliveryBannerbottom";
 import FlowerDeliverylast from "../../components/FlowerDelivery/FlowerDeliverylast";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";

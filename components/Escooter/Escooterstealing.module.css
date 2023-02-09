@@ -1,7 +1,6 @@
 .escooterthundercontainer {
   width: 100%;
   height: 450px;
-  /* background-color: aqua; */
   text-align: center;
   margin-top: 5%;
 }
@@ -12,7 +11,6 @@
   padding: 40px 10px;
   display: flex;
   flex-wrap: wrap;
-  /* background-color: rgb(233, 16, 16); */
   justify-content: space-around;
 }
 
@@ -35,7 +33,6 @@
 .szthunderimages {
   width: 30%;
   height: 50px;
-  /* background-color: aqua; */
 }
 .szthunderimages > img {
   width: 100%;

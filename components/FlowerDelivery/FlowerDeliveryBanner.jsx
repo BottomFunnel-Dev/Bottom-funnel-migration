@@ -30,12 +30,7 @@ const FlowerDeliveryBanner = () => {
       <div className={styles.flowerdeliverybannerrightbox}>
         <Lottie options={lottieDefaultOptions} width={700} height={600} />
 
-        {/* <div className={styles.flowerdeliverybannerimageone}>
-          <img src='/Images/Flowerdeliverypage/Rectangle 1954.png' alt='image' />
-        </div>
-        <div className={styles.flowerdeliverybannerimagetwo}>
-          <img src='/Images/Flowerdeliverypage/Bannerpicture.png' alt='image' />
-        </div> */}
+  
       </div>
     </div>
   );

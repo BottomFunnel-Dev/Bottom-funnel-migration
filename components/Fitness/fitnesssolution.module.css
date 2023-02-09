@@ -1,5 +1,4 @@
- 
-.szfitnesssolution{
+ .szfitnesssolution{
     width: 100%;
    text-align: center;  
    margin: 80px 0;
@@ -14,13 +13,11 @@
     width:90%;
     margin: auto;
     display: flex;
-    /* background-color: aqua; */
     height: 260px;
 }
 
 .szfeaturdocssol{
     width: 30%;
-    /* background-color: blue; */
     margin:10px;
     height: 200px;
     border-radius: 18px;
@@ -32,7 +29,6 @@
   padding: 15px;
 }
 .szdocimgsol{
-    /* background-color: blue; */
     width: 55px;
     height: 55px;
      margin:auto;

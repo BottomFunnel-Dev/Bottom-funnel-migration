@@ -5,7 +5,6 @@ import { DigitalMarketingHiring } from "../../components/DigitaMarketing/Digital
 import { DigitalmarketWhyConsider } from "../../components/DigitaMarketing/DigitalmarketWhyConsider";
 import { DigitaMarketWeOffers } from "../../components/DigitaMarketing/DigitaMarketWeOffers";
 import { WhatDigitalMarket } from "../../components/DigitaMarketing/WhatDigitalMarket";
-
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";

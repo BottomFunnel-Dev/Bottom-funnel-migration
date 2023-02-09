@@ -1,6 +1,5 @@
 .szdatingwhysection{
  width: 100%;
- /* background-color: aquamarine; */
  height: 500;
 }
 .szdatingwhysub{
@@ -12,47 +11,43 @@ display: flex;
 .szdatingwhyleft{
  width: 50%;
  height: 450px;
- /* background-color: plum; */
  position: relative;
 }
 .szdatingwhyleft>div{
-    width: 100%;
-    padding: 30px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+width: 100%;
+padding: 30px;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
 }
 .szdatingwhyright{
 width: 50%;
 height: 450px;
-/* background-color: blueviolet; */
+
 display: flex;
 padding: 30px 10px;
 flex-wrap: wrap;
 justify-content: space-around;
 }
 .szdatingwhyright>div{
-    width: 40%;
-    border-radius: 18px;
-    height: 150px;
-    padding: 15px;
-    /* background-color: white; */
-    text-align: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 40%;
+border-radius: 18px;
+height: 150px;
+padding: 15px;
+text-align: center;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .szdatingwhyright>div>p{
-    padding: 10px;
-    font-size: 18px;
+padding: 10px;
+font-size: 18px;
 }
 .szdatingwhyimages{
-    width: 100%;
-
-    /* background-color: aqua; */
-    height: 80px;
+width: 100%;
+height: 80px;
 }
 .szdatingwhyimages>img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+width: 100%;
+height: 100%;
+object-fit: contain;
 }

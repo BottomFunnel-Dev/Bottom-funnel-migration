@@ -1,310 +1,281 @@
 .logicdrive {
-  width: 100%;
-  height: max-content;
-  margin: 60px 0;
-  /* background-color: cornflowerblue; */
+width: 100%;
+height: max-content;
+margin: 60px 0;
 }
 
 .logicdrive > h1 {
-  margin-left: 55%;
+margin-left: 55%;
 }
 
 .logicdrivesub {
-  width: 100%;
-  margin-top: 2%;
-  justify-content: space-between;
-  /* background-color:  chocolate; */
-  display: flex;
-  align-items: center;
+width: 100%;
+margin-top: 2%;
+justify-content: space-between;
+display: flex;
+align-items: center;
 }
 
 .logicdriveleft {
-  width: 50%;
-  height: 500px;
-  /* background: url("/public/Images/logistic/triangle.png"); */
-  background-repeat: no-repeat;
-  background-size: 100% 670px;
-  margin-left: -4%;
-  position: relative;
+width: 50%;
+height: 500px;
+background-repeat: no-repeat;
+background-size: 100% 670px;
+margin-left: -4%;
+position: relative;
 }
 
 .logicdriveright {
-  width: 45%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+width: 45%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
 }
 
 .logicdriveright > div {
-  padding: 10px 10px 10px 10px;
-  height: 250px;
-  width: 45%;
-  border-radius: 18px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
-  background-color: white;
-  cursor: pointer;
+padding: 10px 10px 10px 10px;
+height: 250px;
+width: 45%;
+border-radius: 18px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px;
+background-color: white;
+cursor: pointer;
 }
 
 .logicdriveright > div:hover {
-  background-color: #e1f9f6;
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-10px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: #e1f9f6;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-10px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .logicdriveright > div > h3 {
-  font-size: 18px;
-  margin-top: 0%;
+font-size: 18px;
+margin-top: 0%;
 }
 
 .logicdriveright > div > p {
-  margin-top: 0%;
-  margin-top: -2%;
-  /* border: 1px solid red; */
+margin-top: 0%;
+margin-top: -2%;
 }
 
 .logisticDriveImage {
-  width: 50%;
-  height: 500px;
-  position: absolute;
-  z-index: 2;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  /* background-color: red; */
+width: 50%;
+height: 500px;
+position: absolute;
+z-index: 2;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
 }
 
 .logicdive {
-  width: 100%;
-  display: flex;
-  height: 60px;
+width: 100%;
+display: flex;
+height: 60px;
 }
 
 .logisticDriveImage > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+width: 100%;
+height: 100%;
+object-fit: contain;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .logicdrive {
-    width: 100%;
-    height: max-content;
-    margin: 60px 0;
-    /* border: 1px solid red; */
-    /* background-color: cornflowerblue; */
-  }
+.logicdrive {
+width: 100%;
+height: max-content;
+margin: 60px 0;
 
-  .logicdrive > h1 {
-    /* margin-left: 50%; */
-    margin-left: 35%;
-    width: 60%;
-    font-size: 25px;
-    /* margin-right: 5%; */
-    /* border: 1px solid black; */
-  }
+}
 
-  .logicdrivesub {
-    /* border: 1px solid red; */
-    width: 100%;
-    margin-top: 2%;
-    justify-content: space-between;
-    /* background-color:  chocolate; */
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+.logicdrive > h1 {
 
-  .logicdriveleft {
-    margin-left: 15%;
-    /* border: 1px solid red; */
-    width: 50%;
-    height: 300px;
-    /* background: url("/public/Images/logistic/triangle.png"); */
-    background-repeat: no-repeat;
-    background-size: 100% 670px;
-    position: relative;
-  }
+margin-left: 35%;
+width: 60%;
+font-size: 25px;
+ 
+}
 
-  .logicdriveright {
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-left: 10%;
-  }
+.logicdrivesub {
 
-  .logicdriveright > div {
-    /* border: 1px solid black; */
-    padding: 10px 10px 10px 10px;
-    height: 170px;
-    width: 100%;
-    border-radius: 18px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    background-color: white;
-    cursor: pointer;
-  }
+width: 100%;
+margin-top: 2%;
+justify-content: space-between;
+ 
+flex-direction: column-reverse;
+align-items: center;
+}
 
-  .logicdriveright > div:hover {
-    background-color: #e1f9f6;
-    cursor: pointer;
-    /* margin-top: 0; */
-    transition: all 0.2s linear;
-    /* transform: scale(1.1); */
-    transform: translateY(-10px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
+.logicdriveleft {
+margin-left: 15%;
 
-  .logicdriveright > div > h3 {
-    font-size: 18px;
-    margin-top: 0%;
-    margin-bottom: 3%;
-  }
+width: 50%;
+height: 300px;
+background-repeat: no-repeat;
+background-size: 100% 670px;
+position: relative;
+}
 
-  .logicdriveright > div > p {
-    margin-top: 0%;
-    /* border: 1px solid red; */
-  }
+.logicdriveright {
+ width: 100%;
+height: 100%;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+margin-left: 10%;
+}
 
-  .logisticDriveImage {
-    /* border: 1px solid red; */
-    width: 70%;
-    height: 300px;
-    position: absolute;
-    z-index: 2;
-    transform: translate(-50%, -50%);
-    /* top: 50%; */
-    /* left: 50%; */
-    /* background-color: red; */
-  }
+.logicdriveright > div {
+padding: 10px 10px 10px 10px;
+height: 170px;
+width: 100%;
+border-radius: 18px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px;
+background-color: white;
+cursor: pointer;
+}
 
-  .logicdive {
-    width: 100%;
-    display: flex;
-    height: 60px;
-  }
+.logicdriveright > div:hover {
+background-color: #e1f9f6;
+cursor: pointer;
+transition: all 0.2s linear;
+ transform: translateY(-10px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-  .logisticDriveImage > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.logicdriveright > div > h3 {
+font-size: 18px;
+margin-top: 0%;
+margin-bottom: 3%;
+}
+
+.logicdriveright > div > p {
+margin-top: 0%;
+
+}
+
+.logisticDriveImage {
+
+width: 70%;
+height: 300px;
+position: absolute;
+z-index: 2;
+transform: translate(-50%, -50%);
+
+}
+
+.logicdive {
+width: 100%;
+display: flex;
+height: 60px;
+}
+
+.logisticDriveImage > img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .logicdrive {
-    width: 100%;
-    height: max-content;
-    margin: 60px 0;
-    /* border: 1px solid red; */
-    /* background-color: cornflowerblue; */
-  }
+.logicdrive {
+width: 100%;
+height: max-content;
+margin: 60px 0;
 
-  .logicdrive > h1 {
-    /* margin-left: 50%; */
-    margin-left: 35%;
-    width: 60%;
-    font-size: 25px;
-    /* margin-right: 5%; */
-    /* border: 1px solid black; */
-  }
+}
 
-  .logicdrivesub {
-    /* border: 1px solid red; */
-    width: 100%;
-    margin-top: 2%;
-    justify-content: space-between;
-    /* background-color:  chocolate; */
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+.logicdrive > h1 {
 
-  .logicdriveleft {
-    margin-left: 15%;
-    /* border: 1px solid red; */
-    width: 50%;
-    height: 300px;
-    /* background: url("/public/Images/logistic/triangle.png"); */
-    background-repeat: no-repeat;
-    background-size: 100% 670px;
-    position: relative;
-  }
+margin-left: 35%;
+width: 60%;
+font-size: 25px;
+ 
+}
 
-  .logicdriveright {
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-left: 10%;
-  }
+.logicdrivesub {
 
-  .logicdriveright > div {
-    /* border: 1px solid black; */
-    padding: 10px 10px 10px 10px;
-    height: 170px;
-    width: 100%;
-    border-radius: 18px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 10px;
-    background-color: white;
-    cursor: pointer;
-  }
+width: 100%;
+margin-top: 2%;
+justify-content: space-between;
+flex-direction: column-reverse;
+align-items: center;
+}
 
-  .logicdriveright > div:hover {
-    background-color: #e1f9f6;
-    cursor: pointer;
-    /* margin-top: 0; */
-    transition: all 0.2s linear;
-    /* transform: scale(1.1); */
-    transform: translateY(-10px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
+.logicdriveleft {
+margin-left: 15%;
+width: 50%;
+height: 300px;
+background-repeat: no-repeat;
+background-size: 100% 670px;
+position: relative;
+}
 
-  .logicdriveright > div > h3 {
-    font-size: 18px;
-    margin-top: 0%;
-    margin-bottom: 3%;
-  }
+.logicdriveright {
+width: 100%;
+height: 100%;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+margin-left: 10%;
+}
 
-  .logicdriveright > div > p {
-    margin-top: 0%;
-    /* border: 1px solid red; */
-  }
+.logicdriveright > div {
+padding: 10px 10px 10px 10px;
+height: 170px;
+width: 100%;
+border-radius: 18px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px;
+background-color: white;
+cursor: pointer;
+}
 
-  .logisticDriveImage {
-    /* border: 1px solid red; */
-    width: 70%;
-    height: 300px;
-    position: absolute;
-    z-index: 2;
-    transform: translate(-50%, -50%);
-    /* top: 50%; */
-    /* left: 50%; */
-    /* background-color: red; */
-  }
+.logicdriveright > div:hover {
+background-color: #e1f9f6;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-10px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-  .logicdive {
-    width: 100%;
-    display: flex;
-    height: 60px;
-  }
+.logicdriveright > div > h3 {
+font-size: 18px;
+margin-top: 0%;
+margin-bottom: 3%;
+}
 
-  .logisticDriveImage > img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.logicdriveright > div > p {
+margin-top: 0%;
+ 
+}
+
+.logisticDriveImage {
+width: 70%;
+height: 300px;
+position: absolute;
+z-index: 2;
+transform: translate(-50%, -50%);
+
+}
+
+.logicdive {
+width: 100%;
+display: flex;
+height: 60px;
+}
+
+.logisticDriveImage > img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
 }

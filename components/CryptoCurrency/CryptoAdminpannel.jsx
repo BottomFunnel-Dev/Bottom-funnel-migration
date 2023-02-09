@@ -8,7 +8,6 @@ export const CryptoAdminpannel = () => {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
-    // console.log(imagepath)
   };
 
   let cryptoadminpanelData = [
