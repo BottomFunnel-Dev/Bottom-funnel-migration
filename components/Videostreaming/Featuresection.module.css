@@ -5,7 +5,7 @@
   /* border: 2px solid black; */
 }
 
-.szvideofeature > div {
+.szvideofeature>div {
   text-align: center;
   padding: 20px;
 }
@@ -22,7 +22,7 @@
 .updatediv {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
-  height: 170px;
+  height: 200px;
   width: 87%;
   padding: 10px;
   /* border: 2px solid green; */
@@ -33,25 +33,28 @@
   transition: all 0.3s linear;
 }
 
-.updatediv > p {
+.updatediv>p {
   padding: 10px;
-  margin-top: -12%;
+  margin-bottom: 10%;
 }
 
 .updateflexdiv {
   display: flex;
+  align-items: center;
   /* background-color: aliceblue; */
   padding: 25px 30px;
   height: 70px;
 }
 
-.updateflexdiv > h4 {
+.updateflexdiv>h4 {
   /* border: 1px solid red; */
   margin-top: 0%;
 }
 
 .updateimg {
-  padding: 0px 10px;
+  width: 50px;
+  height: fit-content;
+  margin-right: 15px;
 }
 
 .reminderdiv {
@@ -67,9 +70,9 @@
   transition: all 0.3s linear;
 }
 
-.reminderdiv > p {
+.reminderdiv>p {
   padding: 10px;
-  margin-top: -10%;
+  margin-bottom: 15%;
 }
 
 .reminderflexdiv {
@@ -80,10 +83,12 @@
   margin-top: 10%;
 }
 
-.reminderflexdiv > h4 {
+.reminderflexdiv>h4 {
   margin-top: 1%;
 }
 
 .uploadimg {
-  padding: 0px 10px;
+  width: 50px;
+  height: fit-content;
+  margin-right: 15px;
 }

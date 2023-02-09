@@ -13,7 +13,6 @@ export const AndriodCustomDevelopment = () => {
                </p>
             </div>
             <div className={styles.andriodCustomContentImage}>
-               {/* <img src="Images/AndriodDevImages/Component 64.png" /> */}
                <Image
           src={"/Images/AndriodDevImages/Component 64.webp"}
           alt={"image"}

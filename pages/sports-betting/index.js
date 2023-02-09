@@ -38,7 +38,7 @@ export default function SportsBetting() {
           }}
           navredux={{
             color: "black",
-            logo: true,
+            logo: false,
           }}
         />
         <SportsBanner />

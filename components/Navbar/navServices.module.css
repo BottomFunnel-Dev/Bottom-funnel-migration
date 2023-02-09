@@ -108,6 +108,7 @@
   height: 38px;
   column-gap: 3%;
   display: flex;
+  padding-left:7px;
   /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
@@ -317,7 +318,7 @@
   height: 38px;
   column-gap: 3%;
   display: flex;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
   border-left: 3px solid white;

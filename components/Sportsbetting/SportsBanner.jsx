@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./sportsBanner.module.css";
 
@@ -21,9 +22,13 @@ export const SportsBanner = () => {
 
       <div className={styles.bettingSectionright}>
         <div className={styles.bettingImage}>
-          <img
-            src="/Images/sportsbettingpage/banners/bannerimg.png"
-            alt="image"
+          <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/sportsbettingpage/banners/bannerimg.webp"
+            alt="sportsbettingpage/banners/bannerimg.webp"
           />
         </div>
       </div>
