@@ -1,63 +1,47 @@
 .aviationairlinesmainboxes{
-    max-height: max-content;
+max-height: max-content;
 border: 1px solid #F5F5F5;
-    position: relative;
-    background-color: #F5F5F5;
- 
+position: relative;
+background-color: #F5F5F5;
 }
-
 .aviationairlinesupperboxamazing{
-    height: 12%;
-    width: 80%;
-    border-radius: 20px;
-  display: flex;
-    position: absolute;
-    top: -5.3%;
-    z-index: 1;
-    background-color: white;
-    left: 10%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   
+height: 12%;
+width: 80%;
+border-radius: 20px;
+display: flex;
+position: absolute;
+top: -5.3%;
+z-index: 1;
+background-color: white;
+left: 10%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .aviationupperbox1{
-    height: 100%;
-    width: 45%;
-    text-align: center;
-    border-right: 1px solid;
-  
-
+height: 100%;
+width: 45%;
+text-align: center;
+border-right: 1px solid;
 }
-
 .aviationupperbox1>p{
-    margin-top: -2%;
+margin-top: -2%;
 }
-
 .aviationupperbox1 >h1{
-   font-size: 40px;
-   margin-top: -1%;
+font-size: 40px;
+margin-top: -1%;
 }
-
 .aviationupperbox2 >h1{
-    font-size: 40px;
-    margin-top: -3%;
+font-size: 40px;
+margin-top: -3%;
 }
-
 .aviationupperbox2>p{
-    margin-top: -2%;
+margin-top: -2%;
 }
-
-
 .aviationupperbox2{
-    height: 93%;
-    width: 45%;
-   
-    margin: 1%;
-    text-align: center;
- 
+height: 93%;
+width: 45%;
+margin: 1%;
+text-align: center;
 }
-
-
 .avitaionairlinesagaintextonlytext{
 height: 80%;
 width: 95%;
@@ -66,51 +50,43 @@ margin: auto;
 margin-top: 6%;
 text-align: center;
 }
-
 .avitaionairlinesagaintextonlytext >p{
-    text-align: left;
-    width: 90%;
-    margin: auto;
+text-align: left;
+width: 90%;
+margin: auto;
 }
-
 .coloredspecial{
-    color: #ef4c23;
+color: #ef4c23;
 }
-
 .datamappingindivisalboxairlineaviation{
-   max-height: max-content;
-    width: 95%;
-  margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+max-height: max-content;
+width: 95%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
 }
-
 .aviationairlinesdatamappingboxes{
-    width: 45%;
-    /* margin-top: 2%;
-   margin-left: 5%; */
-   margin: 1%;
-   border-radius: 10px;
-    max-height: max-content;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* position: relative; */
-    background-color: white;
-  padding: 10px;
+width: 45%;
+margin: 1%;
+border-radius: 10px;
+max-height: max-content;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: white;
+padding: 10px;
 }
 .aviationairlinesdatamappingboxes:hover{
-    transform: scale(1.02);
+ transform: scale(1.02);
 }
-
 .logoboxairlinesaviations{
-    height: 12%;
-    width: 12%;
+height: 12%;
+width: 12%;
 }
 
 .logoboxairlinesaviations >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    padding: 10px;
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ padding: 10px;
 }
 
 /* .aviationairlinesmappertextboxes{
@@ -125,13 +101,13 @@ padding: 10px;
 } */
 
 .aviationairlinesmappertextboxes >h4{
-    font-weight: 700;
+ font-weight: 700;
 }
 
 .aviationairlinesmappertextboxes{
-    text-align: justify;
+ text-align: justify;
 }
 
 .specialcolor{
-    color: #ef4c23;
+ color: #ef4c23;
 }
