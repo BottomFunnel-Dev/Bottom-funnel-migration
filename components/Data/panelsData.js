@@ -363,7 +363,7 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Pool options.png",
+        src: "/Images/carpoolingpage/customerapp/Pool options.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
