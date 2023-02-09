@@ -6,7 +6,6 @@ const [input, setinput] = useState("")
 console.log(input)
   const handlechange =  (e)=>{
 
-
   }
   return (
     <div className={styles.applybanner}>
@@ -20,8 +19,6 @@ console.log(input)
           </p>
       <div className={styles.search}>
           <input type="text" placeholder="Search for Role" onChange={handlechange} />
-          {/* <div className={styles.searchbtn}>Search for Role</div> */}
-      
       </div>
         </div>
 

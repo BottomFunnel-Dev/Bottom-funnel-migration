@@ -22,9 +22,10 @@ import Head from "next/head";
 export default function RealEstate() {
   return (
     <div>
-
       <Head>
-        <title>Real Estate Web and App Development Company | Bottom Funnel</title>
+        <title>
+          Real Estate Web and App Development Company | Bottom Funnel
+        </title>
         <meta
           name="description"
           content="Wondering if it's time that you started thinking about 
@@ -34,36 +35,34 @@ export default function RealEstate() {
         />
       </Head>
       <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <RealEstateBanner />
+        <RealEstateNextBanner />
+        <RealEstateSolution />
+        <RealEstateCustomer />
+        <RealEstateAdminPannel />
+        <RealEstateDriver />
+        <Realestatelowerbanner />
+        <Realestatewhychoose />
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <RealEstateBanner />
-      <RealEstateNextBanner />
-      <RealEstateSolution />
-      <RealEstateCustomer />
-      <RealEstateAdminPannel />
-      <RealEstateDriver />
-      <Realestatelowerbanner />
-      <Realestatewhychoose />
-
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
-
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

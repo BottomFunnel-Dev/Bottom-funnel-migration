@@ -33,11 +33,7 @@ export const AgricultureSolutions = () => {
             body: "Meter per second provied 100% Transparent Service which means all parts are opened right in front of you while performing service and no more surprised or extra spares or costs.",
             image: "/Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage6.png",
         },
-        // {
-        //     title: "Lighting Solution Implementation",
-        //     body: "Salesforce is leading the pack with its platform as a service. The Lightning platform is the first PaaS for developers and has proved to be immensely popular among enterprises.",
-        //     image: "Images/PlantBasedMeat/banners & backgrounds/ServicesOfferImage1.png",
-        // },
+       
     ];
 
 
@@ -49,9 +45,6 @@ export const AgricultureSolutions = () => {
                 </h1>
             </div>
 
-            {/* <div className='plantBasedServicesBackImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
-            </div> */}
 
             <div className={styles.agricultureSolutionsMainDataCards}>
                 {agricultureSolutionsCardsData.map(({ title, body, image }, idx) => (

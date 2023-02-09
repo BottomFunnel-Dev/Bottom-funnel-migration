@@ -7,7 +7,6 @@ export const AwardsCardes = ({ data }) => {
     <div className={awards.awardsCardesMain}>
       <div className={awards.awardsCardesimage} style={{ background: data.hex }}>
         <div>
-          {/* <img src={data.image} alt="Awards images" /> */}
           <Image
               src={data.image}
               alt={"awardimage"}
