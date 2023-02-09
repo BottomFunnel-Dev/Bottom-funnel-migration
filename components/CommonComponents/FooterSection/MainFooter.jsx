@@ -24,7 +24,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";
 import Lottie from "react-lottie";
-import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
+import footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 const MainFooter = () => {
   const [open, setOpen] = React.useState(false);

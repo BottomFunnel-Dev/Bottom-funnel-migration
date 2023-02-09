@@ -45,7 +45,6 @@ export const EngagementRanges = () => {
           <div key={title}>
             <h3>M-{idx + 1}</h3>
             <div>
-              {/* <img src={icons} alt={title} /> */}
             <Image
             src={icons}
             alt={title}
@@ -76,7 +75,6 @@ export const EngagementRanges = () => {
         </p>
 
         <div>
-          {/* <img src="/Images/engagementPhotos/greeting.webp" alt="greeting.webp" /> */}
           <Image
             src={"/Images/engagementPhotos/meeting.webp"}
             alt={"meet image"}
@@ -93,7 +91,6 @@ export const EngagementRanges = () => {
       
       <div className={styles.engagementRangesMain}>
         <div>
-          {/* <img src="/Images/engagementPhotos/phone.webp" alt="phone.webp" /> */}
           <Image
             src={"/Images/engagementPhotos/meeting.webp"}
             alt={"meet image"}

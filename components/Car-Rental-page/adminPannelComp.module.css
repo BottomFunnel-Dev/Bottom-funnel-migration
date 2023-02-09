@@ -11,27 +11,22 @@
   left: 4%;
   bottom: 100%;
   width: 36%;
-  /* border: 2px solid red; */
 }
 
 .RGadminPannelMobileRightDiv {
   height: 400px;
   width: 50%;
   position: relative;
-  background: url("/public/Images/Car-Rental-Page-Images/Rectangle18529.png");
+  background: url("/Images/Car-Rental-Page-Images/Rectangle18529.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  /* border: 2px solid red; */
 }
 
 .RGadminPannelMobileRightDivFrameForImages {
   position: absolute;
   height: 100%;
   width: 100%;
-  /* top: 9%; */
-  /* left: 15%; */
-  /* border: 2px solid red; */
 }
 
 .RGadminPannelMobileRightDivFrameForImages > img {
@@ -55,7 +50,6 @@
   height: 170px;
   width: 40%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* border: 1px solid #ec8b73; */
   display: flex;
   padding: 10px;
   border-radius: 4px;
@@ -68,7 +62,6 @@
 }
 
 .RGadminPannelLeftDivBoxex > div > h4 {
-  /* border: 2px solid red; */
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;
@@ -79,7 +72,6 @@
 }
 
 .RGadminPannelLeftDivBoxex > div > p {
-  /* border: 2px solid red; */
   margin-top: 0%;
   font-size: 15px;
   line-height: 20px;
