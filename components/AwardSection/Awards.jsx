@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Awards.module.css";
 import Image from "next/image";
 
-const Awards = () => {
+export default function Awards() {
   return (
     <div className={styles.awardSection}>
       <div>
@@ -16,9 +16,10 @@ const Awards = () => {
         <h4> AWARDS AND ACCOLADES </h4>
 
         <div id={styles.awards}>
-
           <div>
-            <Image src={"/Images/AwardsImageMainServicePage/appfutura.webp"} alt={"images"}
+            <Image
+              src={"/Images/AwardsImageMainServicePage/appfutura.webp"}
+              alt={"images"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
@@ -27,7 +28,9 @@ const Awards = () => {
           </div>
 
           <div>
-            <Image src={"/Images/AwardsImageMainServicePage/clutch.webp"} alt={"images"}
+            <Image
+              src={"/Images/AwardsImageMainServicePage/clutch.webp"}
+              alt={"images"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
@@ -36,7 +39,9 @@ const Awards = () => {
           </div>
 
           <div>
-            <Image src={"/Images/AwardsImageMainServicePage/goodfirms.webp"} alt={"images"}
+            <Image
+              src={"/Images/AwardsImageMainServicePage/goodfirms.webp"}
+              alt={"images"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
@@ -45,7 +50,9 @@ const Awards = () => {
           </div>
 
           <div>
-            <Image src={"/Images/AwardsImageMainServicePage/itfirms.webp"} alt={"images"}
+            <Image
+              src={"/Images/AwardsImageMainServicePage/itfirms.webp"}
+              alt={"images"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
@@ -54,7 +61,9 @@ const Awards = () => {
           </div>
 
           <div>
-            <Image src={"/Images/AwardsImageMainServicePage/topdev.webp"} alt={"images"}
+            <Image
+              src={"/Images/AwardsImageMainServicePage/topdev.webp"}
+              alt={"images"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
@@ -63,7 +72,9 @@ const Awards = () => {
           </div>
 
           <div>
-            <Image src={"/Images/AwardsImageMainServicePage/upwork.webp"} alt={"images"}
+            <Image
+              src={"/Images/AwardsImageMainServicePage/upwork.webp"}
+              alt={"images"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
@@ -74,6 +85,4 @@ const Awards = () => {
       </div>
     </div>
   );
-};
-
-export default Awards;
+}

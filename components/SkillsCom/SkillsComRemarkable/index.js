@@ -1,13 +1,13 @@
 import React from "react";
-import { TextDropdown } from "../../CommonComponents/faqSection/Faqs";
+import TextDropdown from "../../CommonComponents/faqSection/Faqs";
 import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
 import Industries from "../../CommonComponents/industries/Industries";
 import OndemandSection from "../../CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../CommonComponents/PlanProject/PlanProject";
 import Revamping from "../../CommonComponents/revamping/Revamping";
-import { SeoblogSection } from "../../CommonComponents/SeoBlogs/Seoblogs";
+import SeoblogSection from "../../CommonComponents/SeoBlogs/Seoblogs";
 import StoriesSection from "../../CommonComponents/StoriesSection/StoriesSection";
-import { Companystats } from "../../CompanyStats/Companystats";
+import Companystats from "../../CompanyStats/Companystats";
 import ContectForm from "../../ContectForm/ContectForm";
 import styles from "./SkillsComRemarkable.module.css";
 

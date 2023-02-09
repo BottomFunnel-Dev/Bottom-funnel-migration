@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Company.module.css";
 
-export const Companystats = () => {
+export default function Companystats() {
   return (
     <div className={styles._CompanyMainDiv}>
       <div>
@@ -81,4 +81,4 @@ export const Companystats = () => {
       </div>
     </div>
   );
-};
+}

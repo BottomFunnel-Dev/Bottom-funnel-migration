@@ -5,23 +5,51 @@ import { ExclusiveFeature } from "../../components/KidsWear/ExclusiveFeature/Exc
 import { AppFeature } from "../../components/KidsWear/AppFeature/AppFeature";
 import { ChooseUs } from "../../components/KidsWear/ChooseUs/ChooseUs";
 
-import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
-import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import Revamping from "../../components/revamping/Revamping";
-import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
-import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
+import dynamic from "next/dynamic";
+const TextDropdown = dynamic(
+  () => import("../../components/CommonComponents/faqSection/Faqs"),
+  { loading: "Loading..." },
+);
+const OndemandSection = dynamic(
+  () =>
+    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
+  { loading: "Loading..." },
+);
+const PlanProject = dynamic(
+  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
+  { loading: "Loading..." },
+);
+const SeoblogSection = dynamic(
+  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
+  { loading: "Loading..." },
+);
+const StoriesSection = dynamic(
+  () =>
+    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
+  { loading: "Loading..." },
+);
+const Revamping = dynamic(
+  () => import("../../components/revamping/Revamping"),
+  { loading: "Loading..." },
+);
+const ContectForm = dynamic(
+  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
+  { loading: "Loading..." },
+);
+const MainFooter = dynamic(
+  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
+  { loading: "Loading..." },
+);
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
 export default function Kidswear() {
   return (
     <div>
-
       <Head>
-        <title>Baby and Kids Wear Web App Development Company | Bottom Funnel</title>
+        <title>
+          Baby and Kids Wear Web App Development Company | Bottom Funnel
+        </title>
         <meta
           name="description"
           content="You've come to the right place if you're looking for Baby and 
@@ -31,30 +59,29 @@ export default function Kidswear() {
         />
       </Head>
       <main>
-
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
-      <KidsWearBanner />
-      <ExclusiveFeature />
-      <AppFeature />
-      <ChooseUs />
-      {/* Other react required components  */}
-      <StoriesSection />
-      <OndemandSection />
-      {/* <PortFolio />  */}
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "black",
+            logo: true,
+          }}
+        />
+        <KidsWearBanner />
+        <ExclusiveFeature />
+        <AppFeature />
+        <ChooseUs />
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );

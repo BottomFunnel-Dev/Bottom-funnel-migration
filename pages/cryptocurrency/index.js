@@ -6,6 +6,7 @@ import CryptoMining from "../../components/CryptoCurrency/CryptoMining";
 import { CryptoAdminpannel } from "../../components/CryptoCurrency/CryptoAdminpannel";
 import { CryptoLowerBanner } from "../../components/CryptoCurrency/CryptoLowerBanner";
 import { CryptoWhyChoose } from "../../components/CryptoCurrency/CryptoWhyChoose";
+
 import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
@@ -31,33 +32,33 @@ export default function CryptoCurrrency() {
         />
       </Head>
       <main>
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <CryptoCurrencyBanner />
-      <CryptoCurrencyWork />
-      <CryptoCurrencyServices />
-      <CryptoMining />
-      <CryptoAdminpannel />
-      <CryptoLowerBanner />
-      <CryptoWhyChoose />
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <CryptoCurrencyBanner />
+        <CryptoCurrencyWork />
+        <CryptoCurrencyServices />
+        <CryptoMining />
+        <CryptoAdminpannel />
+        <CryptoLowerBanner />
+        <CryptoWhyChoose />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
+        <StoriesSection />
+        {/* <Industries /> */}
+        <PlanProject />
+        <OndemandSection />
+        {/* <PortFolio /> */}
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
