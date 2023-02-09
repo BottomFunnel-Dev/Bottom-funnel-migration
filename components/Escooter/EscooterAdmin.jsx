@@ -20,7 +20,6 @@ export const EscooterAdmin = () => {
         </div>
 
         <div className={styles.szescooteradminright}>
-          {/* <div className='szshape'> <img src='Images/Escooter/shape.png'/> </div> */}
           <div className={styles.szscootertab}>
             <img src='Images/Escooter/tab.png' alt='image' />
           </div>

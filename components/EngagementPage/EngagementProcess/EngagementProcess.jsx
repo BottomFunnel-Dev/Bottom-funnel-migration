@@ -24,7 +24,6 @@ export const EngagementProcess = () => {
           </p>
 
           <div>
-            {/* <img src="/Images/engagementPhotos/meeting.png" alt="image" /> */}
             <Image
             src={"/Images/engagementPhotos/meeting.webp"}
             alt={"meet image"}
@@ -43,7 +42,6 @@ export const EngagementProcess = () => {
 
         <div className={styles.engagementProcessMain}>
           <div>
-            {/* <img src="/Images/engagementPhotos/discuss.png" alt="image" /> */}
             <Image
             src={"/Images/engagementPhotos/discuss.webp"}
             alt={"image"}

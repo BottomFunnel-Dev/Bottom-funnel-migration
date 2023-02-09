@@ -6,10 +6,7 @@ export const EngagementBanner = () => {
   return (
     <div className={styles.engagementBannerContainer}>
       <div className={styles.engagementBannerImage}>
-        {/* <img
-          src="/Images/engagementPhotos/banner.png"
-          alt="Engagement models banner human image"
-        /> */}
+        
         <Image
             src={"/Images/engagementPhotos/banner.webp"}
             alt={"humanimage"}
