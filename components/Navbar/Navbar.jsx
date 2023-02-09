@@ -64,7 +64,7 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   return (
-    <div style={navtoggle===""? {background: "transparent"}: {background: "white"}}>
+    <div style={navtoggle === "" ? { background: "transparent" } : { background: "white" }}>
       {!productMount.navMount && (
         <ContactMain
           bgcolor={navbar ? "white" : "transparent"}
@@ -117,51 +117,52 @@ const Navbar = ({ navredux, productMount }) => {
           <div className={navstyle.dropdownBar}>
             <div className={navstyle.mobLists}>
               <li
-                onMouseEnter={()=>{hoverhandle("about",true)}}
-                onMouseLeave={()=>{hoverhandle("", false)}}
+                onMouseEnter={() => { hoverhandle("about", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 ABOUT
               </li>
 
               <li
-                onMouseEnter={()=>{hoverhandle("services",true)}}
-                onMouseLeave={()=>{hoverhandle("",false)}}
+                onMouseEnter={() => { hoverhandle("services", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 SERVICES
               </li>
 
               <li
-                onMouseEnter={()=>{hoverhandle("solutions",true)}}
-                onMouseLeave={()=>{hoverhandle("",false)}}
+                onMouseEnter={() => { hoverhandle("solutions", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 SOLUTIONS
               </li>
 
               <li
-                onMouseEnter={()=>{hoverhandle("industry",true)}}
-                onMouseLeave={()=>{hoverhandle("",false)}}
+                onMouseEnter={() => { hoverhandle("industry", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 INDUSTRIES
               </li>
 
               <li
-                onMouseEnter={()=>{hoverhandle("resource")}}
-                onMouseLeave={()=>{hoverhandle("")}}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                RESOURCES
-              </li>
-              
-              <li
                 onClick={() => router.push("/")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 WORK
               </li>
+              
+              <li
+                onMouseEnter={() => { hoverhandle("resource") }}
+                onMouseLeave={() => { hoverhandle("") }}
+                style={{ color: navbar ? "black" : navredux.color }}
+              >
+                RESOURCES
+              </li>
+
 
             </div>
 
@@ -174,7 +175,7 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/hire-new-talent")}
+            // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
@@ -198,7 +199,7 @@ const Navbar = ({ navredux, productMount }) => {
       </nav>
 
       {/* about drop down section code start */}
-      {navtoggle==="about" ? (
+      {navtoggle === "about" ? (
         <WhoWeAre
           homeHoverIn={hoverhandle}
           homeHoverOut={hoverhandle}
@@ -209,7 +210,7 @@ const Navbar = ({ navredux, productMount }) => {
       {/* about drop down section code end */}
 
       {/* service drop down section code start */}
-      {navtoggle==="services" ? (
+      {navtoggle === "services" ? (
         <NavServices
           serHoverIn={hoverhandle}
           serHoverOut={hoverhandle}
@@ -221,7 +222,7 @@ const Navbar = ({ navredux, productMount }) => {
       {/* service drop down section code end */}
 
       {/* solutions drop down section code start */}
-      {navtoggle==="solutions" ? (
+      {navtoggle === "solutions" ? (
         <NavIndustries
           solHoverIn={hoverhandle}
           solHoverOut={hoverhandle}
@@ -230,7 +231,7 @@ const Navbar = ({ navredux, productMount }) => {
         />
       ) : null}
 
-      {navtoggle==="industry" ? (
+      {navtoggle === "industry" ? (
         <Industries
           indusHoverIn={hoverhandle}
           indusHoverOut={hoverhandle}
@@ -239,7 +240,7 @@ const Navbar = ({ navredux, productMount }) => {
         />
       ) : null}
 
-      {navtoggle==="resource" ? (
+      {navtoggle === "resource" ? (
         <Resource
           resHoverIn={hoverhandle}
           resHoverOut={hoverhandle}
