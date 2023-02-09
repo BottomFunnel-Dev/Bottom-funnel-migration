@@ -24,7 +24,7 @@ export default function RealEstate() {
     <div>
 
       <Head>
-        <title>Real Estate Web App Development Company | Bottom Funnel</title>
+        <title>Real Estate Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Wondering if it's time that you started thinking about 

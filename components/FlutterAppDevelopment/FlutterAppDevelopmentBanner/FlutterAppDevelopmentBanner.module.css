@@ -1,8 +1,6 @@
 .flutterAppDevbannermainbox {
     height: 100vh;
-  
     border: 1px solid white;
-    /* margin-top: 6%; */
     background: linear-gradient(to top left, #c1bee0, #9be0fd);
     display: flex;
     flex-direction: row;
@@ -10,7 +8,7 @@
   
   .flutterAppDevbannermainboxinnertextdiv {
     width: 37%;
-    margin-top: 15%;
+    margin-top: 18%;
     margin-left: 5%;
     text-align: left;
     /* border: 2px solid red; */
@@ -25,7 +23,7 @@
   }
   .flutterAppDevbannermainboxinnertextdiv > p {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
   }
   

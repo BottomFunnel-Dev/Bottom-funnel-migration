@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CryptoDevService.module.css";
+import Image from "next/image";
 
 export const CryptoDevService = () => {
   const cardData = [
@@ -41,10 +42,14 @@ export const CryptoDevService = () => {
       </div>
       <div className={styles.CryptoDevServiceContainer}>
         <div className={styles.CryptoDevServiceImage}>
-          <img
-            src="Images/CryptoDevPhotos/cryptoservice.png"
-            alt="Vector big size image"
-          />
+        <Image
+          src={"/Images/CryptoDevPhotos/cryptoservice.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         </div>
         <div className={styles.CryptoDevServiceContent}>
           {cardData.map(({ title, body }, idx) => {

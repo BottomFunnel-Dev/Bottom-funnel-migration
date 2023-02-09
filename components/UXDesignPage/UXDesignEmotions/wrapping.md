@@ -1,7 +1,0 @@
-- Fixed navbar issue of Social media app, Startup solution page, User interface page, User experience page, UX Review page, vetting process page, Video streaming page.
-- Added content to Social media app, Startup solutions page, Taxi booking app page, Tool Delivery app page, Travel app development, User interface page, User experience page, UX Review page.
-- Added meta description and title to Social media app, sport betting, Startup solutions page, Taxi booking app, Tool Delivery app page, Travel app development, User interface page, User experience page, UX Review page, vetting process page.
-- Did small changes in page Social media app, Startup solution page, Taxi booking app, Tool Delivery app page, Travel app development, User interface page, User experience page, UX Review page.
-- Deployed all pending and today's made work of dev team.
-- Attended google meet of ERP client.
-- Guided Rahul

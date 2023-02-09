@@ -2,17 +2,18 @@ import React, { useState } from "react";
 import styles from "./VRSlider.module.css";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
 
 export const VRSlider = () => {
   const data = [
-    "Images/VRPhotos/cryengine.png",
-    "Images/VRPhotos/havok.png",
-    "Images/VRPhotos/maya.png",
-    "Images/VRPhotos/nividia.png",
-    "Images/VRPhotos/photoshop.png",
-    "Images/VRPhotos/substance.png",
-    "Images/VRPhotos/unity.png",
-    "Images/VRPhotos/unreal-engine.png",
+    "/Images/VRPhotos/cryengine.webp",
+    "/Images/VRPhotos/havok.webp",
+    "/Images/VRPhotos/maya.webp",
+    "/Images/VRPhotos/nividia.webp",
+    "/Images/VRPhotos/photoshop.webp",
+    "/Images/VRPhotos/substance.webp",
+    "/Images/VRPhotos/unity.webp",
+    "/Images/VRPhotos/unreal-engine.webp",
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -73,7 +74,16 @@ export const VRSlider = () => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+            <div className={styles.VRSliderImages}>
+              <Image
+                  src={elem}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </div>
             </div>
           );
         })}

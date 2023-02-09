@@ -3,25 +3,25 @@
   text-align: center;
 }
 
-.UXDesignWhyBFcontainer > h1 {
+.UXDesignWhyBFcontainer>h1 {
   font-size: 32px;
 }
 
-.UXDesignWhyBFcontainer > h1 > span,
-.UXDesignWhyBFmain > ul > li > span {
+.UXDesignWhyBFcontainer>h1>span,
+.UXDesignWhyBFmain>ul>li>span {
   color: #ef4c23;
 }
 
-.UXDesignWhyBFcontainer > p {
+.UXDesignWhyBFcontainer>p {
   width: 80%;
   margin: 2% auto;
 }
 
-.UXDesignWhyBFcontainer > div {
+.UXDesignWhyBFcontainer>div {
   position: relative;
 }
 
-.UXDesignWhyBFcontainer > div > hr {
+.UXDesignWhyBFcontainer>div>hr {
   width: 100%;
   height: 50px;
   background: #ffe3dc;
@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 
-.UXDesignWhyBFmain > ul {
+.UXDesignWhyBFmain>ul {
   width: 70%;
   height: 400px;
   text-align: left;
@@ -56,19 +56,19 @@
   justify-content: space-between;
 }
 
-.UXDesignWhyBFmain > ul > li:nth-child(1),
-.UXDesignWhyBFmain > ul > li:nth-child(4) {
+.UXDesignWhyBFmain>ul>li:nth-child(1),
+.UXDesignWhyBFmain>ul>li:nth-child(4) {
   width: 70%;
   align-items: flex-start;
 }
 
-.UXDesignWhyBFmain > ul > li:nth-child(2),
-.UXDesignWhyBFmain > ul > li:nth-child(3) {
+.UXDesignWhyBFmain>ul>li:nth-child(2),
+.UXDesignWhyBFmain>ul>li:nth-child(3) {
   width: 75%;
   align-self: flex-end;
 }
 
-.UXDesignWhyBFmain > ul > li {
+.UXDesignWhyBFmain>ul>li {
   margin-bottom: 2%;
 }
 
@@ -83,23 +83,24 @@
   justify-content: center;
 }
 
-.UXDesignWhyBFimages > img {
+.UXDesignWhyBFimages>div {
   height: 45%;
+  width: fit-content;
   position: absolute;
 }
 
-.UXDesignWhyBFimages > img:nth-child(1) {
+.UXDesignWhyBFimages>div:nth-child(1) {
   z-index: 0;
   top: 0;
   left: 0;
 }
 
-.UXDesignWhyBFimages > img:nth-child(2) {
+.UXDesignWhyBFimages>div:nth-child(2) {
   z-index: 1;
   right: 0;
 }
 
-.UXDesignWhyBFimages > img:nth-child(3) {
+.UXDesignWhyBFimages>div:nth-child(3) {
   z-index: 0;
   bottom: 0;
   left: 0;

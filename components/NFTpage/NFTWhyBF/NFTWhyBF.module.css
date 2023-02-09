@@ -27,8 +27,9 @@
 
 .NFTWhyBFMainImage {
   height: 100%;
+  width: 85%;
   margin: auto;
-
+  /* border: 2px solid red; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -45,18 +46,17 @@
   height: 100%;
   position: absolute;
   z-index: 1;
-
   display: flex;
   justify-content: space-between;
 }
 
-.NFTWhyBFBackgroundTriangleMain > img:nth-child(1) {
+.NFTwhyBFImage1{
   height: 55%;
   width: 22%;
   align-self: flex-start;
 }
 
-.NFTWhyBFBackgroundTriangleMain > img:nth-child(2) {
+.NFTwhyBFImage2{
   height: 50%;
   width: 25%;
   align-self: flex-end;

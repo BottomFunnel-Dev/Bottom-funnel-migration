@@ -34,7 +34,9 @@ export const CustomerAppComp = () => {
     return (
         <div className={styles.RGCustomerAppContainer}>
             <div className={styles.RGCustomerAppTextDiv}>
-                <h1> <span className={styles.RGCustomerSpan}>Customer </span>App</h1>
+                <h1>
+                    <span className={styles.RGCustomerSpan}>Customer </span> App
+                </h1>
             </div>
 
             <div className={styles.RGCustomerAppMobileLeftDiv}>
@@ -52,10 +54,9 @@ export const CustomerAppComp = () => {
                             }}
                         >
                             <div>
-                                <h4>{e.htxt}</h4>
-                                <p>{e.stxt}</p>
+                                <h4> {e.htxt} </h4>
+                                <p> {e.stxt} </p>
                             </div>
-
                         </div>
                     )
                 })}

@@ -21,7 +21,7 @@ export default function MeatDelivery() {
     <div>
 
       <Head>
-        <title>Meat Delivery Web App Development Company | Bottom Funnel</title>
+        <title>Meat Delivery Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a reliable and trustworthy Meat Delivery 

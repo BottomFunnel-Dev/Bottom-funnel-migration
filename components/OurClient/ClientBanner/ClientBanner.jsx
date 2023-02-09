@@ -1,5 +1,6 @@
 import React from "react";
 import clients from "./ClientBanner.module.css";
+import Image from "next/image";
 
 export const ClientBanner = () => {
   return (
@@ -16,10 +17,18 @@ export const ClientBanner = () => {
       </div>
 
       <div className={clients.ourClientBannerImage}>
-        <img
+        {/* <img
           src="/Images/ourclientPhotos/banner.png"
           alt="Our Client page banner"
-        />
+        /> */}
+        <Image
+              src={"/Images/ourclientPhotos/banner.png"}
+              alt={"bannerimage"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              />
       </div>
     </div>
   );

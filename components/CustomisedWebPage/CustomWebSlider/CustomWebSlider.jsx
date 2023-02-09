@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import styles from "./CustomWebSlider.module.css";
 import Slider from "react-slick";
+import Image from "next/image";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export const CustomWebSlider = () => {
   const data = [
-    "Images/customWebPhotos/sliderIcons/cake.png",
-    "Images/customWebPhotos/sliderIcons/fly.png",
-    "Images/customWebPhotos/sliderIcons/butterfly.png",
-    "Images/customWebPhotos/sliderIcons/hotfire.png",
-    "Images/customWebPhotos/sliderIcons/laravel.png",
-    "Images/customWebPhotos/sliderIcons/sideface.png",
-    "Images/customWebPhotos/sliderIcons/slim.png",
-    "Images/customWebPhotos/sliderIcons/zee.png",
+    "/Images/customWebPhotos/sliderIcons/cake.webp",
+    "/Images/customWebPhotos/sliderIcons/fly.webp",
+    "/Images/customWebPhotos/sliderIcons/butterfly.webp",
+    "/Images/customWebPhotos/sliderIcons/hotfire.webp",
+    "/Images/customWebPhotos/sliderIcons/laravel.webp",
+    "/Images/customWebPhotos/sliderIcons/sideface.webp",
+    "/Images/customWebPhotos/sliderIcons/slim.webp",
+    "/Images/customWebPhotos/sliderIcons/zee.webp",
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -42,7 +43,7 @@ export const CustomWebSlider = () => {
     infinite: true,
     lazyLoad: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -75,7 +76,16 @@ export const CustomWebSlider = () => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+              <div className={styles.CustomSliderIcons}>
+                <Image
+                  src={elem}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </div>
             </div>
           );
         })}

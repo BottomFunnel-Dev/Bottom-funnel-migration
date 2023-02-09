@@ -1,5 +1,6 @@
 import React from "react";
 import clients from "./ClientCards.module.css";
+import Image from "next/image";
 
 export const ClientCards = ({ data }) => {
   return (
@@ -10,7 +11,15 @@ export const ClientCards = ({ data }) => {
           className={clients.ourClientCardsFlipCardFront}
         >
           <div className={clients.ourClientCardsImage}>
-            <img src={data.image} alt={data.name} />
+            {/* <img src={data.image} alt={data.name} /> */}
+            <Image
+              src={data.image}
+              alt={"clientimage"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "fit-content" }}
+              />
           </div>
           <h2>{data.name}</h2>
         </div>

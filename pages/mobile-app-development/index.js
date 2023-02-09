@@ -15,10 +15,21 @@ import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
 import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
 import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
 
 export default function MobileDevMain() {
   return (
     <div>
+      <Head>
+        <title>Mobile App Development Services | Bottom Funnel</title>
+        <meta
+          name="description"
+          content="Looking for mobile app development services? Our 
+          team at Bottom Funnel offers comprehensive mobile 
+          app solutions. Read on to know more."
+        />
+      </Head>
+      <main>
     <Navbar
         productMount={{
           navMount: false,
@@ -45,6 +56,7 @@ export default function MobileDevMain() {
       <TextDropdown />
       <ContectForm />
       <MainFooter />
+      </main>
     </div>
   );
 }

@@ -1,23 +1,24 @@
 import React from "react";
 import styles from "./EngagementRanges.module.css";
 import { BackgroundHeading } from "../BackgroundHeading/BackgroundHeading";
+import Image from "next/image";
 
 export const EngagementRanges = () => {
   const cardsData = [
     {
       title: "FULL-TIME HIRE",
       body: "One of the most popular options under our Hire a Developer model. Most clients perfer this option as it employs direct and clear communication with the person working on the project and to provide them full control over the development process. You can hire expertx in web development, web desinging, mobile app development and SEO throughout the duration of your project development.",
-      icons: "/Images/engagementPhotos/light.png",
+      icons: "/Images/engagementPhotos/light.webp",
     },
     {
       title: "PART-TIME HIRE",
       body: "As the name implies, in part-time hiring model, we provide you with an expert who will work for a minimum of 80 hours monthly towards your project, expoyed for 5 days/week.",
-      icons: "/Images/engagementPhotos/stopwatch.png",
+      icons: "/Images/engagementPhotos/stopwatch.webp",
     },
     {
       title: "HOURLY HIRE",
       body: "For small projects and to cater to small business needs, we have yet another model that works on an hourly basis. You can hire our expert based on the number of working hours. The hiring period is minimum 25 hours, which can be further extended to a decent number of hours as per development requirements and busniess process.",
-      icons: "/Images/engagementPhotos/clock.png",
+      icons: "/Images/engagementPhotos/clock.webp",
     },
   ];
 
@@ -44,7 +45,15 @@ export const EngagementRanges = () => {
           <div key={title}>
             <h3>M-{idx + 1}</h3>
             <div>
-              <img src={icons} alt={title} />
+              {/* <img src={icons} alt={title} /> */}
+            <Image
+            src={icons}
+            alt={title}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            />
             </div>
             <h2>{title}</h2>
             <p>{body}</p>
@@ -67,7 +76,15 @@ export const EngagementRanges = () => {
         </p>
 
         <div>
-          <img src="/Images/engagementPhotos/greeting.png" alt="greeting.png" />
+          {/* <img src="/Images/engagementPhotos/greeting.webp" alt="greeting.webp" /> */}
+          <Image
+            src={"/Images/engagementPhotos/meeting.webp"}
+            alt={"meet image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            />
         </div>
 
       </div>
@@ -76,7 +93,15 @@ export const EngagementRanges = () => {
       
       <div className={styles.engagementRangesMain}>
         <div>
-          <img src="/Images/engagementPhotos/phone.png" alt="phone.png" />
+          {/* <img src="/Images/engagementPhotos/phone.webp" alt="phone.webp" /> */}
+          <Image
+            src={"/Images/engagementPhotos/meeting.webp"}
+            alt={"meet image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            />
         </div>
 
         <p>

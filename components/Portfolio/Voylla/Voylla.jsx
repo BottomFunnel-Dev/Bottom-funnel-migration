@@ -67,10 +67,10 @@ export const Voylla = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Lottie  style={{
+    marginLeft:"-10%"
+    }}
+    options={lottieDefaultOptions}   />
 
 
     </div>

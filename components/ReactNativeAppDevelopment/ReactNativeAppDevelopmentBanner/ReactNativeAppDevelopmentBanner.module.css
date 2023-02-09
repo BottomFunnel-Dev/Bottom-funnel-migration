@@ -10,11 +10,11 @@
   
   background-size: cover;
   background-position: center;
-  /* margin-top: 120px; */
+  margin-top: 120px;
 }
 .reactfileIcon{
   /* border: 2px solid yellow; */
- margin-left: 20%;
+ margin-left: 15%;
  margin-bottom: 20%;
 }
 
@@ -22,7 +22,7 @@
   height: 50%;
   width: 40%;
   /* border: 2px solid red; */
-  margin-top: 12%;
+  margin-top: 8%;
   margin-left: 3%;
   /* text-align: center; */
 }

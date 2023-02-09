@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CryptoDevcurrency.module.css";
+import Image from "next/image";
 
 export const CryptoDevcurrency = () => {
   return (
@@ -28,14 +29,25 @@ export const CryptoDevcurrency = () => {
       </div>
       <div className={styles.CryptoDevcurrencyImagesContainer}>
         <div>
-          <img
-            src="Images/CryptoDevPhotos/bitcoin-coin.png"
-            alt="Bitcoin coin"
-          />
+        <Image
+          src={"/Images/CryptoDevPhotos/bitcoin-coin.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
           <h2>Side Chain Wallet Development</h2>
         </div>
         <div>
-          <img src="Images/CryptoDevPhotos/blockchain.png" alt="Blockchain" />
+        <Image
+          src={"/Images/CryptoDevPhotos/blockchain.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
           <h2>Alternative block chain</h2>
         </div>
       </div>

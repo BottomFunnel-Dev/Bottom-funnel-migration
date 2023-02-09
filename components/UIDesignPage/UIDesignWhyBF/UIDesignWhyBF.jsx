@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./UIDesignWhyBF.module.css";
 
@@ -14,9 +15,36 @@ export const UIDesignWhyBF = () => {
       </p>
       <div className={styles.UIDesignWhyBFmain}>
         <div className={styles.UIDesignWhyBFimages}>
-          <img src="Images/UIDesignPhotos/phone.png" alt="phone.png" />
-          <img src="Images/UIDesignPhotos/macbook.png" alt="macbook.png" />
-          <img src="Images/UIDesignPhotos/designing.png" alt="designing.png" />
+          <div>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/UIDesignPhotos/phone.webp"
+              alt="phone.webp"
+            />
+          </div>
+          <div>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/UIDesignPhotos/macbook.webp"
+              alt="macbook.webp"
+            />
+          </div>
+          <div>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/UIDesignPhotos/designing.webp"
+              alt="designing.webp"
+            />
+          </div>
         </div>
         <ul>
           <li>

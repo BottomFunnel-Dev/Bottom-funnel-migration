@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./FlutterServices.module.css";
+import Image from "next/image";
 
 export const FlutterServices = () => {
 
@@ -21,7 +22,15 @@ export const FlutterServices = () => {
                     <div className={styles.flutterServiceBox}>
                         <div className={styles.flutterServicesContainerBoxes}>
                             <div className={styles.flutterServiceBoxIcon}>
-                                <img src="Images/FlutterDevelopment/Icons/coding.png" />
+                            <Image
+          src={"/Images/FlutterDevelopment/Icons/coding.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img src="Images/FlutterDevelopment/Icons/coding.png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Custom Flutter App Development</h6>
@@ -35,7 +44,16 @@ export const FlutterServices = () => {
 
                         <div className={styles.flutterServicesContainerBoxes}>
                             <div className={styles.flutterServiceBoxIcon}>
-                                <img src="Images/FlutterDevelopment/Icons/wireframe (1).png" />
+                            <Image
+          src={"/Images/FlutterDevelopment/Icons/wireframe (1).webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                                {/* <img src="Images/FlutterDevelopment/Icons/wireframe (1).png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Prototype and wireframe Development</h6>
@@ -47,7 +65,16 @@ export const FlutterServices = () => {
 
                         <div className={styles.flutterServicesContainerBoxes}>
                             <div className={styles.flutterServiceBoxIcon}>
-                                <img src="Images/FlutterDevelopment/Icons/ux-interface.png" />
+                            <Image
+          src={"/Images/FlutterDevelopment/Icons/ux-interface.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                                {/* <img src="Images/FlutterDevelopment/Icons/ux-interface.png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Flutter UI/UX Development</h6>
@@ -59,7 +86,15 @@ export const FlutterServices = () => {
 
                         <div className={styles.flutterServicesContainerBoxes}>
                             <div className={styles.flutterServiceBoxIcon}>
-                                <img src="Images/FlutterDevelopment/Icons/solution.png" />
+                            <Image
+          src={"/Images/FlutterDevelopment/Icons/solution.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img src="Images/FlutterDevelopment/Icons/solution.png" /> */}
                             </div>
                             <div className={styles.flutterServiceBoxHeading}>
                                 <h6>Flutter Migration Solutions</h6>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./VettingHiring.module.css";
+import Image from "next/image";
 
 export const VettingHiring = () => {
   const CardsData = [
@@ -21,7 +22,15 @@ export const VettingHiring = () => {
         {CardsData.map(({ title, body }) => (
           <div>
             <div className={styles.vettingHiringImage}>
-              <img src="/Images/VettingPhotos/points.png" alt="" />
+              {/* <img src="/Images/VettingPhotos/points.png" alt="" /> */}
+              <Image
+                src={"/Images/VettingPhotos/points.webp"}
+                alt={"pointsimage"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <div className={styles.vettingHiringContent}>
               <h2>{title}</h2>

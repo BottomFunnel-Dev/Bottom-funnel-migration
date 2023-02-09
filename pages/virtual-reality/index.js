@@ -23,7 +23,7 @@ export default function VirtualReality() {
     <div>
 
       <Head>
-        <title>Virtual Reality Services | Bottom Funnel</title>
+        <title>Virtual Reality Development Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Virtual reality development offers an exciting new 

@@ -30,7 +30,7 @@ export default function Logistics() {
   return (
     <div>
       <Head>
-        <title>Logistics Web App development | Bottom Funnel</title>
+        <title>Logistics Web and App Development Company| Bottom Funnel</title>
         <meta
           name="description"
           content="Do you need a Logistics web app solution? We can help! Our

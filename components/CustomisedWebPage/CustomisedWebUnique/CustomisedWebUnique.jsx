@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CustomisedWebUnique.module.css";
+import Image from "next/image";
 
 export const CustomisedWebUnique = () => {
   return (
@@ -26,7 +27,14 @@ export const CustomisedWebUnique = () => {
         </p>
       </div>
       <div className={styles.CustomisedWebUniqueImage}>
-        <img src="Images/customWebPhotos/html-fit.png" alt="HTML fit vector" />
+            <Image
+                  src={"/Images/customWebPhotos/html-fit.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
       </div>
     </div>
   );

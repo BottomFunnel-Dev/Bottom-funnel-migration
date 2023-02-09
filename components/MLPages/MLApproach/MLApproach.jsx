@@ -17,7 +17,7 @@ export const MLApproach = () => {
       </p>
       <div className={styles.MLApproachImage}>
         <img
-          src="Images/MLPhotos/approach.png"
+          src="/Images/MLPhotos/approach.webp"
           alt="ML Approach main content"
         />
       </div>

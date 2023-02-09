@@ -20,10 +20,10 @@ const index = () => {
   return (
     <div style={{ color: "#393939" }}>
       <Head>
-        <title>Career - Mobile App Development Company | Bottom Funnel </title>
+        <title>Career | Bottom Funnel </title>
         <meta
           name="description"
-          content="Bottom Funnel is one of those companies. We are working on some of the biggest names in the industry, so you can trust us when we say that our product will be in sync with changing market demands. Our team members are intelligent and fun humans who love what they do, and they will help you build better mobile apps!"
+          content="We are working on some of the biggest names in the industry, so you can trust us when we say that our product will be in sync with changing market demands. Our team members are intelligent and fun humans who love what they do, and they will help you build better mobile apps!"
         />
       </Head>
       <main>

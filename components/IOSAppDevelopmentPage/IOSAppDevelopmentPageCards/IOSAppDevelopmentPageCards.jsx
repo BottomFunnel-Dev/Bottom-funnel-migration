@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './IOSAppDevelopmentPageCards.module.css';
+import Image from 'next/image';
 
 export const IOSAppDevelopmentPageCards = () => {
     return (
@@ -18,7 +19,15 @@ export const IOSAppDevelopmentPageCards = () => {
                     </div>
 
                     <div className={styles.IOSAppDevelopmentPageCardsInnerMainDivimage}>
-                        <img src='/Images/iosappdevelopmentphotos/Component 64.png' alt='image'/>
+                    <Image
+          src={'/Images/iosappdevelopmentphotos/Component 64.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                        {/* <img src='/Images/iosappdevelopmentphotos/Component 64.png' alt='image'/> */}
                     </div>
                 </div>
 
@@ -26,7 +35,15 @@ export const IOSAppDevelopmentPageCards = () => {
                     <div className={styles.innermaindiv2}>
                         <div className={styles.innermaindiv2box}>
                             <div className={styles.mainbox}>
-                                <img src='/Images/iosappdevelopmentphotos/Rectangle 4497.png' alt='logo' className={styles.mainboximg} />
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/Rectangle 4497.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img src='/Images/iosappdevelopmentphotos/Rectangle 4497.png' alt='logo' className={styles.mainboximg} /> */}
                             </div>
                             <h3> Vetted IOS Developers </h3>
                             <p>
@@ -36,7 +53,15 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className={styles.innermaindiv2box}>
                             <div className={styles.mainbox}>
-                                <img src='/Images/iosappdevelopmentphotos/Rectangle 4498.png' alt='logo' className={styles.mainboximg} />
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/Rectangle 4498.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img src='/Images/iosappdevelopmentphotos/Rectangle 4498.png' alt='logo' className={styles.mainboximg} /> */}
                             </div>
                             <h3> All In-House Code </h3>
                             <p>
@@ -46,7 +71,15 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className={styles.innermaindiv2box}>
                             <div className= {styles.mainbox}>
-                                <img src='/Images/iosappdevelopmentphotos/Rectangle 4499.png' alt='logo' className={styles.mainboximg}></img>
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/Rectangle 4499.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img src='/Images/iosappdevelopmentphotos/Rectangle 4499.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> Custom Agile Process </h3>
                             <p>
@@ -58,7 +91,17 @@ export const IOSAppDevelopmentPageCards = () => {
                     <div className={styles.innermaindiv2} >
                         <div className={styles.innermaindiv2box} >
                             <div className={styles.mainbox}>
-                                <img src='/Images/iosappdevelopmentphotos/apple (1) 2.png' alt='logo' className={styles.mainboximg}></img>
+
+                            <Image
+                            src={'/Images/iosappdevelopmentphotos/apple (1) 2.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+         
+                                {/* <img src='/Images/iosappdevelopmentphotos/apple (1) 2.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> End-To-End Service </h3>
                             <p>
@@ -68,7 +111,17 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className={styles.innermaindiv2box}>
                             <div className={styles.mainbox}>
-                                <img src='/Images/iosappdevelopmentphotos/social-care 2.png' alt='logo' className={styles.mainboximg}></img>
+
+                            <Image
+                            src={'/Images/iosappdevelopmentphotos/social-care 2.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+         
+                                {/* <img src='/Images/iosappdevelopmentphotos/social-care 2.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> App Store Deployment </h3>
                             <p>
@@ -78,7 +131,15 @@ export const IOSAppDevelopmentPageCards = () => {
 
                         <div className={styles.innermaindiv2box}>
                             <div className={styles.mainbox}>
-                                <img src='/Images/iosappdevelopmentphotos/app-development 2.png' alt='logo' className={styles.mainboximg}></img>
+                            <Image
+                            src={'/Images/iosappdevelopmentphotos/app-development 2.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                {/* <img src='/Images/iosappdevelopmentphotos/app-development 2.png' alt='logo' className={styles.mainboximg}></img> */}
                             </div>
                             <h3> Maintenance & Support </h3>
                             <p>
@@ -97,7 +158,17 @@ export const IOSAppDevelopmentPageCards = () => {
                         </p>
                     </div>
                     <div className={styles.innermaindiv3Image} >
-                        <img src='/Images/iosappdevelopmentphotos/Group 340002.png' alt='image' className={styles.innermaindiv3Imagemain} />
+
+                    <Image
+                            src={'/Images/iosappdevelopmentphotos/Group 340002.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                        {/* <img src='/Images/iosappdevelopmentphotos/Group 340002.png' alt='image' className={styles.innermaindiv3Imagemain} /> */}
                     </div>
                 </div> 
 
@@ -106,7 +177,17 @@ export const IOSAppDevelopmentPageCards = () => {
                         <div className={styles.iosinnermaindiv41stdivbox} >
                             <div className={styles.ios1stdivbox} >
                                 <div className={styles.iosapplogo} >
-                                    <img src='/Images/iosappdevelopmentphotos/analyse 1.png' alt='logo' className={styles.iosapplogoimg} />
+
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/analyse 1.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                                    {/* <img src='/Images/iosappdevelopmentphotos/analyse 1.png' alt='logo' className={styles.iosapplogoimg} /> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Platform Ideation </h3>
@@ -119,7 +200,16 @@ export const IOSAppDevelopmentPageCards = () => {
 
                             <div className={styles.ios1stdivbox}>
                                 <div className={styles.iosapplogo}>
-                                    <img src='/Images/iosappdevelopmentphotos/interest-rate 1.png' alt='logo' className={styles.iosapplogoimg}></img>
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/interest-rate 1.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+                                    {/* <img src='/Images/iosappdevelopmentphotos/interest-rate 1.png' alt='logo' className={styles.iosapplogoimg}></img> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Dedicated Development </h3>
@@ -134,7 +224,17 @@ export const IOSAppDevelopmentPageCards = () => {
                         <div className={styles.iosinnermaindiv41stdivbox}>
                             <div className={styles.ios1stdivbox}>
                                 <div className={styles.iosapplogo}>
-                                    <img src='/Images/iosappdevelopmentphotos/app-development (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img>
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/app-development (2) 1.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+           
+
+                                    {/* <img src='/Images/iosappdevelopmentphotos/app-development (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Detailed Quality Check </h3>
@@ -146,7 +246,16 @@ export const IOSAppDevelopmentPageCards = () => {
 
                             <div className={styles.ios1stdivbox}>
                                 <div className={styles.iosapplogo}>
-                                    <img src='/Images/iosappdevelopmentphotos/agile (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img>
+
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/agile (2) 1.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src='/Images/iosappdevelopmentphotos/agile (2) 1.png' alt='logo' className={styles.iosapplogoimg}></img> */}
                                 </div>
                                 <div className={styles.iosappdevelopmentparagraph}>
                                     <h3> Detailed Quality Check </h3>
@@ -181,7 +290,16 @@ export const IOSAppDevelopmentPageCards = () => {
                         <div className={styles.innermaindiv4Boxdiv1stColum} > 
                              <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg} >
-                                    <img src='Images/iosappdevelopmentphotos/1lightbulb.png' alt='logo'></img></div>
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/1lightbulb.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src='Images/iosappdevelopmentphotos/1lightbulb.png' alt='logo'></img> */}
+                                    </div>
                                 <h4> Custom App Development </h4>
                                 <p style={{
                                     textAlign:"justify",
@@ -194,7 +312,16 @@ export const IOSAppDevelopmentPageCards = () => {
                             </div> 
                             <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg}>
-                                    <img src='Images/iosappdevelopmentphotos/1best-employee.png' alt='logo'></img></div>
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/1best-employee.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src='Images/iosappdevelopmentphotos/1best-employee.png' alt='logo'></img> */}
+                                    </div>
                                 <h4> Redesign & Redevelopment </h4>
                                 <p style={{
                                     textAlign:"justify",
@@ -207,7 +334,16 @@ export const IOSAppDevelopmentPageCards = () => {
                             </div> 
                              <div className={styles.innermaindiv4Row}>
                                 <div className={styles.div5logoimg}>
-                                    <img src='Images/iosappdevelopmentphotos/1security.png' alt='logo'></img></div>
+                                <Image
+                            src={'/Images/iosappdevelopmentphotos/1security.webp'}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+                                    {/* <img src='Images/iosappdevelopmentphotos/1security.png' alt='logo'></img> */}
+                                    </div>
                                 <h4> Hybrid iOS App Design & Development </h4>
                                 <p style={{
                                     textAlign:"justify",

@@ -104,7 +104,10 @@
 }
 
 .industryiconDivSection {
-  border-left: 3px solid white;
+  /* border: 1px solid red; */
+  width: 10%;
+  object-fit: contain;
+  /* border-left: 3px solid white; */
 }
 
 .industryimageIconDivSection:hover .serviceiconDivSection {
@@ -129,7 +132,7 @@
 }
 
 .industryimageIconDivSection > div {
-  width: 18%;
+  width: 12%;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
   height: 30px;

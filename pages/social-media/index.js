@@ -21,7 +21,7 @@ export default function SocialMedia() {
   return (
     <div>
       <Head>
-        <title>Social Media Web App development | Bottom Funnel</title>
+        <title>Social Media Web and App Development | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to know the best way to connect with your target audience

@@ -1,27 +1,28 @@
 import React from "react";
 import styles from "./IOTServices.module.css";
+import Image from "next/image";
 
 export const IOTServices = () => {
   const cardsData = [
     {
       title: "Preventive equipment maintenance",
       body: "Our cloud-based solution automatically collects information about your equipment, programs, and processes to provide you with real-time insight into your business operations. With our powerful analytics capabilities, you can quickly identify issues that could impact your business operation and get the answers you need to make informed decisions.",
-      image: "/Images/IOTPhotos/equipment.png",
+      image: "/Images/IOTPhotos/equipment.webp",
     },
     {
       title: "Remote operations",
       body: "The world is rapidly changing, and automation is one of the most anticipated ways to change it. We are connected now to smart devices that can sense our presence, understand our needs, and act on them intelligently. This new age has brought in a completely new way of life where machines work around us and make things happen as we wish.",
-      image: "/Images/IOTPhotos/remote.png",
+      image: "/Images/IOTPhotos/remote.webp",
     },
     {
       title: "Product quality management",
       body: "The manufacturing process is monitored to ensure product compliance and process adherence. However, it's hard to know exactly what's going on in that industrial yet automated environment. IoT isn't just for big companies anymore - it's for everyone who wants to be more efficient with their time and resources.",
-      image: "/Images/IOTPhotos/quality.png",
+      image: "/Images/IOTPhotos/quality.webp",
     },
     {
       title: "Hands-off inventory management",
       body: "With IoT development, you can now do so with relative ease. All you need is an internet connection and a few minutes of your time to track down where your asset has gone. Not only will this be an efficient use of your precious time and resources, but it will also help save you from investing in replacement parts or finding their location again.",
-      image: "/Images/IOTPhotos/inventory.png",
+      image: "/Images/IOTPhotos/inventory.webp",
     },
   ];
 
@@ -52,7 +53,14 @@ export const IOTServices = () => {
               </div>
               
               <div className={styles.IOTServicesCardsImages}>
-                <img src={image} alt={title} />
+              <Image
+                  src={image}
+                  alt={title}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
             </div>
           );

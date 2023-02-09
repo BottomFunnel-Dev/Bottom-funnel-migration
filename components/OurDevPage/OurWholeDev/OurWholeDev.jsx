@@ -6,7 +6,7 @@ import { OurWholeRight } from "./OurWholeRight/OurWholeRight";
 export const OurWholeDev = () => {
   const point1 = {
     body: "As clients express an interest in doing business with us, our expert strategists begin the work process. Once everyone in the team has an agreement on an idea, all of us immerse ourselves in the project.",
-    image: "/Images/ourDevPhotos/point-1.png",
+    image: "/Images/ourDevPhotos/point-1.webp",
     points: [
       "First Contact",
       "Conceptualizing the Idea",
@@ -18,7 +18,7 @@ export const OurWholeDev = () => {
 
   const point2 = {
     body: "After approval of the project, we advance to the pre-engineering process. This is where we address the root-level construction, comprehensive analysis, concept strategy, technical consultation.",
-    image: "/Images/ourDevPhotos/point-2.png",
+    image: "/Images/ourDevPhotos/point-2.webp",
     points: [
       "Internal analysis",
       "Creating Wireframe / Prototype / Storyboards",
@@ -30,7 +30,7 @@ export const OurWholeDev = () => {
 
   const point3 = {
     body: "To us, design is much more than just the aesthetics. It's about the functionality. We want your users to have the best experience with your users to have the best experience with your digital business, so we focus on making user experience intriguing, addictive, intuitive and friendly.",
-    image: "/Images/ourDevPhotos/point-3.png",
+    image: "/Images/ourDevPhotos/point-3.webp",
     points: [
       "Study Demographics and Use Cases",
       "Use of latest, relevant UI design features",
@@ -43,7 +43,7 @@ export const OurWholeDev = () => {
 
   const point4 = {
     body: "Advanced project management tools like Jira, GitLab and Hubstaff form the essential part of our development process. Experienced and competent developers at Kontstant take the lead and pair the right technology for a perfect solution.",
-    image: "/Images/ourDevPhotos/point-4.png",
+    image: "/Images/ourDevPhotos/point-4.webp",
     points: [
       "Release Plan",
       "Coding with stipulated timeframe",
@@ -55,7 +55,7 @@ export const OurWholeDev = () => {
 
   const point5 = {
     body: "Now starts the real excitement, when you can see your website or app being brought to life! We put the whole developed plan into action by creating a beta version of your product.",
-    image: "/Images/ourDevPhotos/point-5.png",
+    image: "/Images/ourDevPhotos/point-5.webp",
     points: [
       "Static and automated tests",
       "Eliminate bugs",
@@ -68,7 +68,7 @@ export const OurWholeDev = () => {
 
   const point6 = {
     body: "Get ready to see your finished masterpiece! After all of the testing has been completed and after incremental quality assurance, our experts deploy the end product on respective app stores and web browsers, assuring the passing of the fickle approval process and the standards of the online stores.",
-    image: "/Images/ourDevPhotos/point-6.png",
+    image: "/Images/ourDevPhotos/point-6.webp",
     points: [
       "Release to live environment",
       "Ensure integrity",

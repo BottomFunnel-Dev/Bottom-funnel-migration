@@ -24,7 +24,7 @@ export default function index() {
   return (
     <div>
     <Head>
-      <title>Web App development | Bottom Funnel</title>
+      <title>Web App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Want to build a killer website or app? Our 

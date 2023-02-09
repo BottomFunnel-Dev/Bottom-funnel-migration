@@ -69,8 +69,8 @@
 }
 
 .ourWholeLeftImage {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 80%;
 
   position: absolute;
   z-index: 0;
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .ourWholeLeftImage > img {
   height: 80%;
-}
+} */

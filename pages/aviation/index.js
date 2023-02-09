@@ -25,8 +25,7 @@ export default function Aviation() {
         name="description"
         content="Do you want to develop an aviation web app but don't know where 
         to start? Our team of experienced professionals can help you build 
-        the perfect solution, tailored specifically for your business. Check 
-        out our portfolio to see just some of the features we can offer."
+        the perfect solution, tailored specifically for your business."
       />
    </Head>
 

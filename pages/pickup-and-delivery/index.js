@@ -26,7 +26,7 @@ export default function PickupDelivery() {
     <>
       <Head>
         <title>
-          Pickup and delivery Web App Development Company | Bottom Funnel
+          Pickup and delivery Web and App Development Company | Bottom Funnel
         </title>
         <meta
           name="description"
@@ -37,6 +37,7 @@ export default function PickupDelivery() {
         with care."
         />
       </Head>
+
       <main>
         <Navbar
           productMount={{

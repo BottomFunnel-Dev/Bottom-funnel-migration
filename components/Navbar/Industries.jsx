@@ -3,6 +3,7 @@ import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
 import Link from "next/link";
 import { industries } from "../../Data/Navbar";
+import Image from "next/image";
 export const Industries = ({
     indusHoverIn,
     indusHoverOut,
@@ -32,11 +33,19 @@ export const Industries = ({
                             className={industry.industryimageIconDivSection}
                         >
                             <div>
-                                <img
-                                    className={industry.industryiconDivSection}
+                                <Image
+                                    src={item.navIcons}
+                                    alt={"image"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "100%", height: "100%" }}
+                                />
+
+                                {/* <img className={industry.industryiconDivSection}
                                     src={item.navIcons}
                                     alt="image"
-                                />
+                                /> */}
                             </div>
                             <Link
                                 onClick={indusHoverOut}

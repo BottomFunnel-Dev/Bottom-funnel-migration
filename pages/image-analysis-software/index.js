@@ -22,7 +22,7 @@ export default function ImageAnalysisSoftware() {
     <div>
 
       <Head>
-        <title> Image Analysis Software Services Company | Bottom Funnel</title>
+        <title>Image Analysis Software Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for image analysis software services? 

@@ -25,12 +25,13 @@ export default function DataScience () {
     <div>
 
       <Head>
-        <title>DataScience Services | Bottom Funnel</title>
+        <title>Data Science Company | Bottom Funnel</title>
         <meta
           name="description"
-          content="Looking to invest in artificial intelligence services? 
-          Check out our comprehensive guide on the top AI 
-          offerings and where to invest!"
+          content="Looking for data science services? We've got you 
+          covered. From data analysis to data visualization, 
+          we have it all. Read on to know about our offerings 
+          and how to register for them."
         />
       </Head>
       <main>

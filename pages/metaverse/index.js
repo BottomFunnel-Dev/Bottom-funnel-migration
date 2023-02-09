@@ -23,7 +23,7 @@ export default function MetaverseWebPage () {
     <div>
 
       <Head>
-        <title>Metaverse services | Bottom Funnel</title>
+        <title>Metaverse Development services | Bottom Funnel</title>
         <meta
           name="description"
           content="Our Metaverse solutions help companies innovate 

@@ -27,7 +27,7 @@ export default function MeanPage() {
   return (
     <div style={{ color: "#393939" }}>
       <Head>
-        <title>MEAN Stack Development | Bottom Funnel</title>
+        <title>MEAN Stack Development Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Learn about the benefits of using the MEAN

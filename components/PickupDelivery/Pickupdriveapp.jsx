@@ -68,7 +68,7 @@ export const Pickupdriveapp = () => {
         </div>
 
         <div className={styles.pickupdriveright}>
-          {pickupdrive.map(({ title, icon,para  }, idx) => {
+          {pickupdrive.map(({ title, icon, para }, idx) => {
             return (
               <div
                 key={title}
@@ -78,10 +78,10 @@ export const Pickupdriveapp = () => {
                 <div className={styles.pickupLogo}>
                   <img src={icon.src} alt={icon.alt} />
                 </div>
-                
+
                 <h3>{title}</h3>
                 <p>
-                 {para}
+                  {para}
                 </p>
               </div>
             );

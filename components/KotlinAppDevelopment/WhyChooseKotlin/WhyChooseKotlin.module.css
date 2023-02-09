@@ -52,12 +52,13 @@
 }
 
 .whyChooseKotlinIcon {
-  width: 20%;
-  margin-top: 5%;
+  width: 50px;
+  height: 50px;
+  margin-top: 1%;
   /* border: 2px solid blue; */
 }
 .whyChooseKotlinIcon img {
-  width: 60px;
+  /* width: 60px; */
   /* height: 60px; */
 }
 .whyChooseKotlinIconHeading {
@@ -149,7 +150,7 @@
     width: 35%;
     /* margin: ; */
     margin-top: 5%;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
   }
   .whyChooseKotlinIcon img {
     width: 60px;
@@ -175,7 +176,7 @@
   }
   .mobileappactionkotlinbutton{
 
-    /* border: 2px solid green; */
+    border: 2px solid green;
     font-size: 18px;
     border-radius: 15px;
     width: 220px;
@@ -189,11 +190,11 @@
     }
     .mobileappactionkotlinbutton:hover{
         background: white;
-        color: black;
+        color: #ef4c23;
     }
     .mobileappactionkotlinbuttondiv{
-        /* border: 2px solid red; */
-        margin-top: 5%;
+        border: 2px solid red;
+        margin-top: 3%;
         /* width: 20px; */
         /* text-align: center; */
          }

@@ -23,13 +23,13 @@ export default function KotlinAppDevelopment() {
   return (
     <>
     <Head>
-      <title>Kotlin Mobile App Development, Cross Platform Application Development Company - Bottom Funnel</title>
+      <title>Kotlin App Development Services | Bottom Funnel</title>
      <meta
        name="description"
-       content="Our Bottom funnel team  Kotlin Mobile App Development, Company offers Cross 
-       Platform Mobile Application development services for all hybrid platforms with optimum quality standards. 
-       We develop mobile Apps using the latest technologies,
-        designs, and frameworks by leveraging the experience or expertise of experts."
+       content="Looking for Kotlin app development services? Our 
+       team of experienced software engineers offers 
+       comprehensive Kotlin services. Read on to know 
+       about our offerings."
      />
    </Head>
     <main>

@@ -6,10 +6,10 @@ import { DigitalTransformationWhy } from "../../components/DigitalTransformation
 import { DigitalTransformationWhyChoose } from "../../components/DigitalTransformation/DigitalTransformationWhyChoose";
 import { DigitalTransformTechTools } from "../../components/DigitalTransformation/DigitalTransformTechTools";
 
-import {TextDropdown} from "../../components/CommonComponents/faqSection/Faqs";
+import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
 import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
 import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import {SeoblogSection} from "../../components/CommonComponents/SeoBlogs/Seoblogs";
+import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
 import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
 import Revamping from "../../components/revamping/Revamping";
 import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
@@ -17,11 +17,9 @@ import MainFooter from "../../components/CommonComponents/FooterSection/MainFoot
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
-export default function DigitalTransformation ()  {
-
+export default function DigitalTransformation() {
   return (
     <div style={{ color: "#393939" }}>
-      
       <Head>
         <title>Digital Transformation | Bottom Funnel</title>
         <meta
@@ -33,35 +31,34 @@ export default function DigitalTransformation ()  {
         />
       </Head>
       <main>
+        <Navbar
+          productMount={{
+            navMount: false,
+          }}
+          navredux={{
+            color: "white",
+            logo: true,
+          }}
+        />
+        <DigitalTransformationBanner />
+        <DigitalTransformationWhy />
+        <DigitalTransformationOurService />
+        <DigitalTransformationQuestion />
+        <DigitalTransformationWhyChoose />
+        <DigitalTransformTechTools />
+        {/* ----- End of main page. Now Further components ----- */}
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
-      />
-      <DigitalTransformationBanner />
-      <DigitalTransformationWhy />
-      <DigitalTransformationOurService />
-      <DigitalTransformationQuestion />
-      <DigitalTransformationWhyChoose />
-      <DigitalTransformTechTools />
-      {/* ----- End of main page. Now Further components ----- */}
-
-      {/* Other react required components  */}
-      <StoriesSection/>
-      <OndemandSection/> 
-      {/* <PortFolio />  */}
-      <PlanProject/>
-      <SeoblogSection/>
-      <Revamping/>
-      <TextDropdown/>
-      <ContectForm/>
-      <MainFooter/>
+        {/* Other react required components  */}
+        <StoriesSection />
+        <OndemandSection />
+        {/* <PortFolio />  */}
+        <PlanProject />
+        <SeoblogSection />
+        <Revamping />
+        <TextDropdown />
+        <ContectForm />
+        <MainFooter />
       </main>
     </div>
   );
-};
+}

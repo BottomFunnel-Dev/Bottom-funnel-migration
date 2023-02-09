@@ -23,7 +23,7 @@ export default function () {
     <div>
       
       <Head>
-        <title>SEO Email Services | Bottom Funnel </title>
+        <title>Professional SEO Email Services | Bottom Funnel</title>
         <meta
           name="description"
           content="Learn about our comprehensive SEO Email Service 

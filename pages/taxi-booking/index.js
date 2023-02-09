@@ -22,9 +22,7 @@ export default function TaxiBookingApp() {
   return (
     <>
       <Head>
-      <title>Taxi Booking web App 
-Development Company | Bottom 
-Funnel</title>
+      <title>Taxi Booking Web and App Development Company | Bottom Funnel</title>
       <meta
         name="description"
         content="Want to know more about our Taxi Booking web app development 
@@ -41,7 +39,7 @@ Funnel</title>
         }}
         navredux={{
           color: "black",
-          logo: true,
+          logo: false,
         }}
       />
       <TaxiBookingBanner />

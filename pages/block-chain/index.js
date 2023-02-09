@@ -22,7 +22,7 @@ const index = () => {
     <div>
 
     <Head>
-    <title>BlockChainServices | Bottom Funnel</title>
+    <title> Block Chain Service Company | Bottom Funnel</title>
     <meta
       name="description"
       content="Block Chain services offer a number of advantages 

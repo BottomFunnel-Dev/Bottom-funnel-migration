@@ -1,50 +1,44 @@
-.digitaltransformationwhychoosemainboxes{
+.digitaltransformationwhychoosemainboxes {
     height: fit-content;
-
     text-align: center;
     margin-top: 3%;
 }
 
-.whychoosebottomfunnelflexbox{
+.whychoosebottomfunnelflexbox {
     display: flex;
     height: 100%;
     width: 90%;
-
 }
 
-.whychoosebottomfunnelflexboxleftbox{
+.whychoosebottomfunnelflexboxleftbox {
     height: fit-content;
     width: 50%;
-  
     margin-top: 3%;
 }
 
-.whychoosebottomfunnelflexboxrightbox{
+.whychoosebottomfunnelflexboxrightbox {
     height: fit-content;
     width: 50%;
-   
-  
 }
 
-.whychoosebottomfunnelindivisuallymapppingboxes{
+.whychoosebottomfunnelindivisuallymapppingboxes {
     width: 95%;
- 
     margin: 2%;
     display: flex;
     padding: 10px;
     text-align: justify;
 }
 
-.whychoosebottomfunnelindivisuallymapppingboxes:hover{
-transform: scale(1.02);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.whychoosebottomfunnelindivisuallymapppingboxes:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
-.whychoosebottomfunnelindivisuallymapppingboxesfortxt{
+.whychoosebottomfunnelindivisuallymapppingboxesfortxt {
     margin-left: 2%;
 }
 
-.whychoosebottomfunnelindivisuallymapppingboxesforlogo{
-    padding: 10px;
+.whychoosebottomfunnelindivisuallymapppingboxesforlogo {
+    width: 50%;
 }

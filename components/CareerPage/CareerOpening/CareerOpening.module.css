@@ -96,6 +96,8 @@
 
 .careerOpengingMain::-webkit-scrollbar {
   width: 15px;
+  border: 1px solid green;
+
 }
 
 .careerOpengingMain::-webkit-scrollbar-thumb {
@@ -113,6 +115,7 @@
 
 .careerOpengingMain > div {
   display: flex;
+  height: 11.2%;
   align-items: center;
   justify-content: center;
   cursor: pointer;

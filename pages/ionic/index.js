@@ -23,10 +23,7 @@ export default function IonicAppDevelopment() {
   return (
     <>
       <Head>
-     
-     
-      
-     <title>Best Ionic App Development Company India | Bottom Funnel</title>
+     <title>Ionic App Development Company | Bottom Funnel</title>
      <meta
        name="description"
        content="Looking for the best Ionic app development company in India? Hire BottomFunnel's ionic developer to build feature-rich, highly functional and customized ionic applications"
@@ -34,7 +31,8 @@ export default function IonicAppDevelopment() {
    </Head>
     
     <main>
-<Navbar
+      
+      <Navbar
         productMount={{
           navMount: false,
         }}

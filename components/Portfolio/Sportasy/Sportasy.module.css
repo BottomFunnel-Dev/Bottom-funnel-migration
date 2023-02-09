@@ -1,25 +1,22 @@
 .yanbalmainboxes{
-    height: 85vh;
-    display: flex;
-    background: url("/Images/portfolio/Sportasy/background/Group 770828.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
+height: 85vh;
+display: flex;
+background: url("/Images/portfolio/Sportasy/background/Group 770828.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
 }
 
-
 .yanballeftboxes{
-    width: 50%;
-    margin-top: 5%;
-    margin-left: 3%;
+width: 50%;
+margin-top: 5%;
+margin-left: 3%;
 }
 
 .yanballeftboxes>p{
-    font-size: 14px;
-    text-align: justify;
+font-size: 14px;
+text-align: justify;
 }
-
-
 
 .yanballeftboxinsiderflexbox{
 width: 90%;
@@ -35,88 +32,176 @@ font-weight: 900;
 }
 
 .yanbalindibox{
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 5%;
+width: 45%;
+margin-left: 5%;
+margin-top: 5%;
 }
 
 .yanbalindibox>h5{
-    font-weight: 800;
-
+font-weight: 800;
 }
 
 .yanbalindibox p{
-    width: 60%;
+width: 60%;
 }
-
 .yanbaliconflexbox{
-   
-    width: 40%;
-    height: 40%;
-    display: flex;
-    margin-left: -0%;
-   
-
+width: 40%;
+height: 40%;
+display: flex;
+margin-left: -0%;
 }
-
 .yanabaliconandeoid{
-    width: 30%;
-    height: 80%;
+width: 30%;
+height: 30%;
 border-right: 1px solid black;
-    margin-left: 2%;
-    padding: 7px;
-   
+margin-left: 2%;
+padding: 7px;
 }
-
 .yanabaliconandeoid:last-child{
-    border-right: none;
-
+border-right: none;
 }
-
 .androidappicon>img{
-    height: 90%;
-    width: 90%;
-    object-fit: contain;
+height: 90%;
+width: 90%;
+object-fit: contain;
 }
-
-
 .yanabaliconandeoid>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
-
 .yanballogoboxingalongflex{
-    padding: 15px;
+padding: 15px;
 }
-
 .yanbalrightboxes{
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
+width: 50%;
+height: 100%;
+overflow: hidden;
 }
-
-
-
-
-
 .yanabalbuttonalongflex{
-    padding: 10px 50px;
-  border-radius: 100px;
-  width: 220px;
-  background-color: transparent;
-  border: #ef4c23;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 14px;
-  font-weight: 600;
-  color: black;
-  margin-left: 35%;
-  margin-top: 8%;
+padding: 10px 50px;
+border-radius: 100px;
+width: 220px;
+background-color: transparent;
+border: #ef4c23;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 14px;
+font-weight: 600;
+color: black;
+margin-left: 35%;
+margin-top: 8%;
 }
 
 .yanabalbuttonalongflex:hover{
-    background-color: #BE2D4B;
-    color: white;
+background-color: #BE2D4B;
+color: white;
+}
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:600px){
+.yanbalmainboxes{
+height: fit-content;
+background: url("/Images/portfolio/Portfolio Mobile Responsive/sport.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+}
+.yanballeftboxes{
+width: 90%;
+height: 50%;
+margin-top: 5%;
+margin-left: 3%;
+}
+.yanballeftboxes>h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    }
+    
+    .yanballeftboxes>p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 2%;
+    }
+.yanballeftboxinsiderflexbox{
+width: 100%;
+margin: auto;
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+padding-top: 5%;
+}
+.yanbalplusbold{
+font-weight: 900;
+}
+.yanbalindibox{
+width: 45%;
+margin-left: 5%;
+margin-top: 5%;
+}
+.yanbalindibox>h5{
+font-weight: 800;
+font-size: 20px;
+}
+.yanbalindibox p{
+width: 60%;
+font-size: 14px;
+}
+.yanbaliconflexbox{
+width: 40%;
+height: 40%;
+display: flex;
+margin-left: -0%;
+}
+.yanabaliconandeoid{
+width: 50%;
+height: 100%;
+padding: 2px;   
+}
+.androidappicon>img{
+height: 90%;
+width: 90%;
+object-fit: contain;
+}
+.yanabaliconandeoid>img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+.yanballogoboxingalongflex{
+width: 30%;
+height: 20%;
+}
+.yanballogoboxingalongflex>img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+.yanbalrightboxes{
+width: 100%;
+height:50%;
+}
+.yanabalbuttonalongflex{
+padding: 10px 10px;
+border-radius: 100px;
+width: 120px;
+background-color: transparent;
+border: #ef4c23;
+outline: none;
+box-shadow: black 0px 0px 5px;
+font-size: 10px;
+font-weight: 600;
+color: black;
+margin-left: 45%;
+margin-top: 15%;
+margin-bottom: 25%;
+}
+.yanabalbuttonalongflex:hover{
+background-color: black;
+color: white;
+}
 }

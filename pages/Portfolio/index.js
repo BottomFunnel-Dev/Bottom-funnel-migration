@@ -64,12 +64,12 @@ export default function Portfolio () {
     <CattleCountry /> 
     <Roshiwelness />
     <JaipurRugs />
-    <Yanbal />
+   <Yanbal />
     <Physicsfunshop />
     <Amydus />
    <Taxwink />
-   <Myteam />
-     <Tigmoo />
+  <Myteam />
+    <Tigmoo />
     <Younity />
     <Salesbot />
     <WifiStudy />

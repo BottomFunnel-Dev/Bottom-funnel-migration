@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./EnterpriseWebAnalysis.module.css";
+import Image from "next/image";
 
 export const EnterpriseWebAnalysis = () => {
   return (
@@ -29,7 +30,14 @@ export const EnterpriseWebAnalysis = () => {
         </h3>
       </div>
       <div className={styles.EnterpriseWebAnalysisImage}>
-        <img src="Images/enterpriseWebPhotos/microsoft.png" alt="Microsoft" />
+          <Image
+                src={"/Images/enterpriseWebPhotos/microsoft.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./EngagementProcess.module.css";
+import Image from "next/image";
 
 export const EngagementProcess = () => {
   return (
@@ -23,7 +24,15 @@ export const EngagementProcess = () => {
           </p>
 
           <div>
-            <img src="/Images/engagementPhotos/meeting.png" alt="image" />
+            {/* <img src="/Images/engagementPhotos/meeting.png" alt="image" /> */}
+            <Image
+            src={"/Images/engagementPhotos/meeting.webp"}
+            alt={"meet image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -34,7 +43,15 @@ export const EngagementProcess = () => {
 
         <div className={styles.engagementProcessMain}>
           <div>
-            <img src="/Images/engagementPhotos/discuss.png" alt="image" />
+            {/* <img src="/Images/engagementPhotos/discuss.png" alt="image" /> */}
+            <Image
+            src={"/Images/engagementPhotos/discuss.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            />
           </div>
 
           <ul>

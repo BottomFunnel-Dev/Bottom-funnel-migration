@@ -22,7 +22,7 @@ export default function LocalSEO() {
     <div>
 
       <Head>
-        <title> Local SEO Services | Bottom Funnel </title>
+        <title>Local SEO Services Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Need some local SEO services for your business? 

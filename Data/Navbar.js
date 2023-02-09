@@ -1,22 +1,22 @@
 export const company = [
   {
     dropContent: "About Us",
-    navIcons: "/Images/navbar/aboutImage/aboutus.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/aboutus.svg",
     path: "/about-us",
   },
   {
     dropContent: "Our Team",
-    navIcons: "/Images/navbar/aboutImage/ourteam.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/ourteam.svg",
     path: "",
   },
   {
     dropContent: "Career ",
-    navIcons: "/Images/navbar/aboutImage/career.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/career.svg",
     path: "/career",
   },
   {
     dropContent: "Contact Us",
-    navIcons: "/Images/navbar/aboutImage/contactus.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/contactus.svg",
     path: "/contact-us",
   },
 ];
@@ -55,17 +55,17 @@ export const resource = [
 export const whyBottom = [
   {
     dropContent: "Vetting Process",
-    navIcons: "/Images/navbar/aboutImage/vetting.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/vettingprocess.svg",
     path: "/vetting-process",
   },
   {
     dropContent: "Our Clients",
-    navIcons: "/Images/navbar/aboutImage/ourclients.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/ourclients.svg",
     path: "/our-clients",
   },
   {
     dropContent: "Awards and Memberships",
-    navIcons: "/Images/navbar/aboutImage/awards.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/awards.svg",
     path: "/awards",
   },
   {
@@ -78,17 +78,17 @@ export const whyBottom = [
 export const process = [
   {
     dropContent: "Our Development Process",
-    navIcons: "/Images/navbar/aboutImage/ourdevelopmentprocess.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/ourdevelopment.svg",
     path: "/our-development-process",
   },
   {
     dropContent: "Engagement Models",
-    navIcons: "/Images/navbar/aboutImage/engagementmodels.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/engagementmodels.svg",
     path: "/engagement",
   },
   {
     dropContent: "Our Partners",
-    navIcons: "/Images/navbar/aboutImage/ourpartners.png",
+    navIcons: "/Images/NavbarIconsSvg/About us/partners.svg",
     path: "",
   },
 ];
@@ -96,47 +96,47 @@ export const process = [
 export const webservice = [
   {
     dropContent: "PHP Development",
-    navIcons: "/Images/navbar/services/php.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/php.svg",
     path: "/php-development",
   },
   {
     dropContent: "MERN Stack Development",
-    navIcons: "/Images/navbar/services/react.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/mern.svg",
     path: "/mernstack-development",
   },
   {
     dropContent: "MEAN Stack Development",
-    navIcons: "/Images/navbar/services/angular.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/angular.svg",
     path: "/meanstack-development",
   },
   {
     dropContent: "ASP.NET Development",
-    navIcons: "/Images/navbar/services/aspnet.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/asp.svg",
     path: "/asp.net-development",
   },
   {
     dropContent: "Java Development",
-    navIcons: "/Images/navbar/services/javaimage.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/java.svg",
     path: "/java-development",
   },
   {
     dropContent: "Python Development",
-    navIcons: "/Images/navbar/services/python.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/python.svg",
     path: "/python-development",
   },
   {
     dropContent: "Ruby on Rails Development",
-    navIcons: "/Images/navbar/services/ruby.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/ruby.svg",
     path: "/ruby-development",
   },
   {
     dropContent: "Golang Development",
-    navIcons: "/Images/navbar/services/golangimage.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/golang.svg",
     path: "/golang-development",
   },
   {
     dropContent: "Javascript Development",
-    navIcons: "/Images/navbar/services/javascriptimage.png",
+    navIcons: "/Images/NavbarIconsSvg/web development/javascript.svg",
     path: "/javascript-development",
   },
 ];
@@ -144,47 +144,47 @@ export const webservice = [
 export const appservice = [
   {
     dropContent: "Andriod App Development",
-    navIcons: "/Images/navbar/services/andriod.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/android.svg",
     path: "/android-development",
   },
   {
     dropContent: "IOS App Development",
-    navIcons: "/Images/navbar/services/iosimage.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/ios.svg",
     path: "/ios-development",
   },
   {
     dropContent: "Kotlin App Development",
-    navIcons: "/Images/navbar/services/kotlinimage.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/kotlin.svg",
     path: "/kotlin-development",
   },
   {
     dropContent: "Flutter App Development",
-    navIcons: "/Images/navbar/services/flutter.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/flutter.svg",
     path: "/flutter-development",
   },
   {
     dropContent: "React Native App Development",
-    navIcons: "/Images/navbar/services/react.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/mern.svg",
     path: "/reactnative-development",
   },
   {
     dropContent: "Xamarian App Development",
-    navIcons: "/Images/navbar/services/xamarian.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/xamarin.svg",
     path: "/xamarin-development",
   },
   {
     dropContent: "Ionic App Development",
-    navIcons: "/Images/navbar/services/ionic.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/ionic.svg",
     path: "/ionic",
   },
   {
     dropContent: "Wearable App Development",
-    navIcons: "/Images/navbar/services/wearable.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/wearable.svg",
     path: "/wearable-app-development",
   },
   {
     dropContent: "Mobile UI UX ",
-    navIcons: "/Images/navbar/services/mobileuxui.png",
+    navIcons: "/Images/NavbarIconsSvg/mobile developmnent/mobileux.svg",
     path: "/mobile-user-experience",
   },
 ];
@@ -208,7 +208,7 @@ export const digitalmarket = [
   {
     dropContent: "PPC Management Services",
     navIcons: "/Images/navbar/services/ppc.png",
-    path: "/seo-ppc",
+    path: "/ppc-services",
   },
   {
     dropContent: "Guest Posting Services",
@@ -230,92 +230,92 @@ export const digitalmarket = [
 export const trendingTech = [
   {
     dropContent: "Big Data Services",
-    navIcons: "/Images/navbar/services/bigdata.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/bigdatservices.svg",
     path: "/bigdata-services",
   },
   {
     dropContent: "Blockchain Services",
-    navIcons: "/Images/navbar/services/blockchain.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/blockchain.svg",
     path: "/block-chain",
   },
   {
     dropContent: "Machine Learning",
-    navIcons: "/Images/navbar/services/machinelearning.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/machinelearning.svg",
     path: "/machine-learning",
   },
   {
     dropContent: "Artificial Intelligence",
-    navIcons: "/Images/navbar/services/ai.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/artificialintellegence.svg",
     path: "/artificial-intelligence",
   },
   {
     dropContent: "Data Science",
-    navIcons: "/Images/navbar/services/datascience.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/datascience.svg",
     path: "/data-science",
   },
   {
     dropContent: "Crypto currency Development",
-    navIcons: "/Images/navbar/services/crypto.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/cryptocurrency.svg",
     path: "/crypto-development",
   },
   {
     dropContent: "Customised Web Development",
-    navIcons: "/Images/navbar/services/customizedwebdev.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/customisedwebdevelopment.svg",
     path: "/custom-web-solutions",
   },
   {
     dropContent: "Virtual Reality Development",
-    navIcons: "/Images/navbar/services/vr.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/virtualreality.svg",
     path: "/virtual-reality",
   },
   {
     dropContent: "Augmented Reality",
-    navIcons: "/Images/navbar/services/ar.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/augmentedreality.svg",
     path: "",
   },
   {
     dropContent: "NFT Development",
-    navIcons: "/Images/navbar/services/nft.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/nftdevelopment.svg",
     path: "/nft-development",
   },
   {
     dropContent: "IoT Development",
-    navIcons: "/Images/navbar/services/iot.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/iotdevelopment.svg",
     path: "/internet-of-things",
   },
   {
     dropContent: "StartUp Solutions",
-    navIcons: "/Images/navbar/services/startup.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/startupsolution.svg",
     path: "/startup-solutions",
   },
   {
     dropContent: "Enterprise Solutions",
-    navIcons: "/Images/navbar/services/enterprise.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/enterprisesolutions.svg",
     path: "/enterprise-solutions",
   },
   {
     dropContent: "Metaverse Services",
-    navIcons: "/Images/navbar/services/guest.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/metaverseservices.svg",
     path: "/metaverse",
   },
   {
     dropContent: "Business Intelligence",
-    navIcons: "/Images/navbar/services/bi.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/Business intellegence.svg",
     path: "/business-intelligence",
   },
   {
     dropContent: "Cloud",
-    navIcons: "/Images/navbar/services/cloud.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/cloud.svg",
     path: "/cloud",
   },
   {
     dropContent: "Salesforce",
-    navIcons: "/Images/navbar/services/salesforce.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/salesforce.svg",
     path: "/salesforce",
   },
   {
     dropContent: "Image analysis software",
-    navIcons: "/Images/navbar/services/iasoft.png",
+    navIcons: "/Images/NavbarIconsSvg/Trending technologies/imageanalysissoftware.svg",
     path: "/image-analysis-software",
   },
 ];
@@ -323,102 +323,102 @@ export const trendingTech = [
 export const industries = [
   {
     dropContent: "Education",
-    navIcons: "/Images/navbar/industriesImage/education.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/education.svg",
     path: "/education",
   },
   {
     dropContent: "Game Development",
-    navIcons: "Images/navbar/industriesImage/gamedev.png",
+    navIcons: "Images/NavbarIconsSvg/industries section/gamedevelopment.svg",
     path: "/gameDevelopment",
   },
   {
     dropContent: "E-commerce",
-    navIcons: "/Images/navbar/industriesImage/ecommerceimage.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/ecommerce.svg",
     path: "/ecommerce",
   },
   {
     dropContent: "Video Streaming",
-    navIcons: "/Images/navbar/industriesImage/videostreaming.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/video streaming.svg",
     path: "Videostreaming",
   },
   {
     dropContent: "Sports Betting",
-    navIcons: "/Images/navbar/industriesImage/sportsbetting.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/sportsbetting.svg",
     path: "/sports-betting",
   },
   {
     dropContent: "IOT Development",
-    navIcons: "/Images/navbar/industriesImage/iot.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/iotdevelopment.svg",
     path: "/internet-of-things",
   },
   {
     dropContent: "Fitness",
-    navIcons: "/Images/navbar/industriesImage/fitness.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/fitness.svg",
     path: "/fitness",
   },
   {
     dropContent: "Dating",
-    navIcons: "/Images/navbar/industriesImage/dateing.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/dating.svg",
     path: "/dating",
   },
   {
     dropContent: "Cryptocurrency",
-    navIcons: "/Images/navbar/industriesImage/crypto.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/cryptocurrency.svg",
     path: "/cryptocurrency",
   },
   {
     dropContent: "Social Media",
-    navIcons: "Images/navbar/industriesImage/social media.png",
+    navIcons: "Images/NavbarIconsSvg/industries section/socialmedia.svg",
     path: "Social-Media",
   },
   {
     dropContent: "Logistics",
-    navIcons: "Images/navbar/industriesImage/logistics.png",
+    navIcons: "Images/NavbarIconsSvg/industries section/logistics.svg",
     path: "Logistics",
   },
   {
     dropContent: "Politics",
-    navIcons: "/Images/navbar/industriesImage/politics.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/politics.svg",
     path: "/politics",
   },
   {
     dropContent: "Wellness",
-    navIcons: "/Images/navbar/industriesImage/wellness.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/wellness.svg",
     path: "/wellness",
   },
   {
     dropContent: "News",
-    navIcons: "/Images/navbar/industriesImage/news.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/news.svg",
     path: "/news",
   },
   {
     dropContent: "SaaS",
-    navIcons: "/Images/navbar/industriesImage/saas.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/saas.svg",
     path: "/saas",
   },
   {
     dropContent: "Events",
-    navIcons: "/Images/navbar/industriesImage/events.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/event.svg",
     path: "/events",
   },
   {
     dropContent: "eScooter",
-    navIcons: "Images/navbar/industriesImage/escooter.png",
+    navIcons: "Images/NavbarIconsSvg/industries section/escooter.svg",
     path: "eScooter",
   },
   {
     dropContent: "Travel",
-    navIcons: "/Images/navbar/industriesImage/travel.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/travel.svg",
     path: "/travel",
   },
   {
     dropContent: "Aviation",
-    navIcons: "Images/navbar/industriesImage/avaitions.png",
+    navIcons: "Images/NavbarIconsSvg/industries section/aviation.svg",
     path: "Aviation",
   },
   {
     dropContent: "Telecommunication",
-    navIcons: "/Images/navbar/industriesImage/telecom.png",
+    navIcons: "/Images/NavbarIconsSvg/industries section/telecommunication.svg",
     path: "/telecommunication",
   },
 ];
@@ -426,154 +426,154 @@ export const industries = [
 export const ondemand = [
   {
     dropContent: "Food Delivery App",
-    navIcons: "/Images/navbar/industriesImage/fooddeliveryimage.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/food.svg",
     path: "/food-delivery-app",
   },
   {
     dropContent: "On Demand Home Services",
-    navIcons: "/Images/navbar/industriesImage/ondemandhomeservices.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/homeservice.svg",
     path: "/ondemand-homeservice",
   },
   {
     dropContent: "Alcohol Delivery App",
-    navIcons: "/Images/navbar/industriesImage/alcohol.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/alcohal.svg",
     path: "/alcoholdeliveryapp",
   },
   {
     dropContent: "Laundry Delivery",
-    navIcons: "/Images/navbar/industriesImage/laundry.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/laundry.svg",
     path: "/laundary-delivery",
   },
   {
     dropContent: "Grocery Delivery App",
-    navIcons: "/Images/navbar/industriesImage/grocery.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/grocery.svg",
     path: "/grocery",
   },
 
   {
     dropContent: "Beauty & Salon App",
-    navIcons: "/Images/navbar/industriesImage/beauty.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/beauty.svg",
     path: "/beauty-and-salon",
   },
   {
     dropContent: "Cannabis Delivery App",
-    navIcons: "/Images/navbar/industriesImage/cannabies.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/cannabis.svg",
     path: "/cannabis",
   },
   {
     dropContent: "Marketplace Apps",
-    navIcons: "/Images/navbar/industriesImage/marketplace.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/marketplace.svg",
     path: "/marketplace",
   },
   {
     dropContent: "Pickup & Delivery",
-    navIcons: "/Images/navbar/industriesImage/pickup.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/pickup.svg",
     path: "/pickup-and-delivery",
   },
   {
     dropContent: "Pharmacy Delivery App",
-    navIcons: "/Images/navbar/industriesImage/pharmacy.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/pharmacy.svg",
     path: "/pharmacy",
   },
   {
     dropContent: "Flower Delivery App",
-    navIcons: "/Images/navbar/industriesImage/flowerdelivery.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/flower.svg",
     path: "/flower-delivery-app",
   },
   {
     dropContent: "Carpooling Apps",
-    navIcons: "/Images/navbar/industriesImage/carpooling.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/carpooling.svg",
     path: "/carpooling-apps",
   },
   {
     dropContent: "Taxi Booking App",
-    navIcons: "/Images/navbar/industriesImage/taxibooking.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/taxibooking.svg",
     path: "/taxi-booking",
   },
   {
     dropContent: "Tool Delivery App",
-    navIcons: "/Images/navbar/industriesImage/tool.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/tool delivery.svg",
     path: "/tool-delivery",
   },
   {
     dropContent: "Icecream Delivery App",
-    navIcons: "Images/navbar/industriesImage/icecream.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/icecream.svg",
     path: "icecream-deliveryapp",
   },
   {
     dropContent: "Plant Based Meat Delivery App",
-    navIcons: "Images/navbar/industriesImage/plantmeat.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/plantbasedmeat.svg",
     path: "plant-based-meat-delivery",
   },
   {
     dropContent: "Car Rental Delivery App",
-    navIcons: "Images/navbar/industriesImage/carrental.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/carrental.svg",
     path: "car-rentals-app",
   },
   {
     dropContent: "Agriculture App Solutions",
-    navIcons: "/Images/navbar/industriesImage/agriculture.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/agriculture.svg",
     path: "agriculture-solution-app",
   },
   {
     dropContent: "Car Service App Solutions",
-    navIcons: "/Images/navbar/industriesImage/carrepair.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/carservice.svg",
     path: "/",
   },
   {
     dropContent: "Trading App Solutions",
-    navIcons: "Images/navbar/industriesImage/trading.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/trading.svg",
     path: "/",
   },
 
   {
     dropContent: "RealState Apps Solutions",
-    navIcons: "/Images/navbar/industriesImage/realestate.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/realestate.svg",
     path: "real-estate",
   },
   {
     dropContent: "Meat Delivery App",
-    navIcons: "Images/navbar/industriesImage/meat.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/meatdelivery.svg",
     path: "meatdeliveryapp",
   },
   {
     dropContent: "Eyewear Delivery App ",
-    navIcons: "Images/navbar/industriesImage/eyewear.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/eyewear.svg",
     path: "eyeweardeliverapp",
   },
   {
     dropContent: "Baby & KidsWear App ",
-    navIcons: "Images/navbar/industriesImage/baby-wear.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/baby.svg",
     path: "baby-and-kidswear",
   },
   {
     dropContent: "Online Payment App ",
-    navIcons: "Images/navbar/industriesImage/online-payemnt.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/onlinepayment.svg",
     path: "onlinepaymentsapp",
   },
   {
     dropContent: "Fintech App Solutions",
-    navIcons: "Images/navbar/industriesImage/fintech.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/fintech.svg",
     path: "fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
-    navIcons: "/Images/navbar/industriesImage/website-builder.png",
+    navIcons: "/Images/NavbarIconsSvg/on demand solutions/websitebuilder.svg",
     path: "website-builder-app",
   },
   {
     dropContent: "App Builder Solutions",
-    navIcons: "Images/navbar/industriesImage/app-builder.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/ap builder.svg",
     path: "app-builder-solution",
   },
   {
     dropContent: "AI Content App Solutions",
-    navIcons: "Images/navbar/industriesImage/ai-ont.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/aicontent.svg",
     path: "artificial-intelligence",
   },
   {
     dropContent: "OTT App Solutions",
-    navIcons: "Images/navbar/industriesImage/ott.png",
+    navIcons: "Images/NavbarIconsSvg/on demand solutions/ott.svg",
     path: "ott-app-solutions",
   },
 ];
@@ -929,18 +929,19 @@ export const discoverContent = [
     title: "Scoping sessions",
     description: `Enlighten our tech experts about your breakthrough idea in an intensive session. We characterise your product idea and define the Scope of work.`,
     cardImg: "/Images/navbar/discovericons/training.png",
-    path: "/Scoping-session",
+    path: "/scopingsession",
   },
   {
     title: "Business analysis",
     description: `We elicit business needs, study the competitive landscape, perform strategic analysis, and provide bespoke solutions.`,
     cardImg: "/Images/navbar/discovericons/line-chart.png",
-    path: "/Business-Anylysis",
+    path: "/businessanylysis",
   },
   {
     title: "Product discovery workshop & design sprints",
     description: `Define your product strategy, prioritize features and visualize the end results with our strategic Discovery workshops. Validate assumptions with real users and find answers to most pressing concerns with Design Sprint.`,
     cardImg: "/Images/navbar/discovericons/product.png",
+    path: "/productdiscovery",
   },
 ];
 
@@ -961,19 +962,19 @@ export const designContent = [
   {
     title: "User Experience Design",
     description: `Seamlessly integrate branding, functionality, usability and accessibility into your product. We enhance user interaction and deliver experiences that are meaningful and delightful.`,
-    cardImg: "/Images/navbar/designicons/user-interface.png",
+    cardImg: "/Images/NavbarIconsSvg/Design section/userexperience.svg",
     path: "/user-experience",
   },
   {
     title: "User Interface Design",
     description: `We enhance usability and craft designs that are unconventional and intuitively guides users into a splendid visual journey.`,
-    cardImg: "/Images/navbar/designicons/vector.png",
+    cardImg: "/Images/NavbarIconsSvg/Design section/userinterfacedesign.svg",
     path: "/user-interface",
   },
   {
     title: "User Experience Review",
     description: `Identify usability issues, discuss UX improvements, and radically improve your digital product with our UX review sessions.`,
-    cardImg: "/Images/navbar/designicons/writing.png",
+    cardImg: "/Images/NavbarIconsSvg/Design section/userexperiencereview.svg",
     path: "/UX-Review",
   },
 ];
@@ -1214,7 +1215,7 @@ export const productDesk = [
     productText1: "Delight your customers with effortless omnichannel service",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/omnichannel.png",
-    path:""
+    path: "",
   },
   {
     dropContent: "Customer Sucess",
@@ -1222,7 +1223,7 @@ export const productDesk = [
       "Product revenue, increase customer lifetime value, and strengthen customer relationship.",
     productText2: "Travel & Hospitality",
     navIcons: "/Images/Logos/funnel-desk/customer-sucess.png",
-    path:""
+    path: "",
   },
 ];
 

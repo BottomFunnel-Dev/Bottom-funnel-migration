@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./OurBlogs.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 
 export const OurBlogs = () => {
   const cardsData = [
@@ -34,7 +34,7 @@ export const OurBlogs = () => {
         from food to fashion and music, in addition to useful travel tips for
         travelers.
       </p>
-      
+
       <div className={styles.OurBlogsmain}>
         {cardsData.map(({ title, body, image, date }, idx) => {
           return (

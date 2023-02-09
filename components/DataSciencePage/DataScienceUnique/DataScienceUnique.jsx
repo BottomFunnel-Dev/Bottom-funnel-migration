@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./DataScienceUnique.module.css";
+import Image from "next/image";
 
 export const DataScienceUnique = () => {
   return (
@@ -30,7 +31,14 @@ export const DataScienceUnique = () => {
         </p>
       </div>
       <div className={styles.DataScienceUniqueImage}>
-        <img src="Images/DataSciencePhotos/unique.png" alt="HTML fit vector" />
+                <Image
+                  src={"/Images/DataSciencePhotos/unique.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
       </div>
     </div>
   );

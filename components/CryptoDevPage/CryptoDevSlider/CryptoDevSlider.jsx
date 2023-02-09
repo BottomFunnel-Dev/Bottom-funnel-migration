@@ -1,24 +1,25 @@
 import React, { useState } from "react";
 import styles from "./CryptoDevSlider.module.css";
 import Slider from "react-slick";
+import Image from "next/image";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export const CryptoDevSlider = () => {
   const data = [
-    "Images/CryptoDevPhotos/slidericons/angular.png",
-    "Images/CryptoDevPhotos/slidericons/bitcoin.png",
-    "Images/CryptoDevPhotos/slidericons/dadsa.png",
-    "Images/CryptoDevPhotos/slidericons/dynamo.png",
-    "Images/CryptoDevPhotos/slidericons/etherum.png",
-    "Images/CryptoDevPhotos/slidericons/fabric.png",
-    "Images/CryptoDevPhotos/slidericons/go.png",
-    "Images/CryptoDevPhotos/slidericons/hbase.png",
-    "Images/CryptoDevPhotos/slidericons/java.png",
-    "Images/CryptoDevPhotos/slidericons/keras.png",
-    "Images/CryptoDevPhotos/slidericons/react.png",
-    "Images/CryptoDevPhotos/slidericons/ripple.png",
-    "Images/CryptoDevPhotos/slidericons/stanford.png",
-    "Images/CryptoDevPhotos/slidericons/tensor.png",
+    "/Images/CryptoDevPhotos/slidericons/angular.webp",
+    "/Images/CryptoDevPhotos/slidericons/bitcoin.webp",
+    "/Images/CryptoDevPhotos/slidericons/dadsa.webp",
+    "/Images/CryptoDevPhotos/slidericons/dynamo.webp",
+    "/Images/CryptoDevPhotos/slidericons/etherum.webp",
+    "/Images/CryptoDevPhotos/slidericons/fabric.webp",
+    "/Images/CryptoDevPhotos/slidericons/go.webp",
+    "/Images/CryptoDevPhotos/slidericons/hbase.webp",
+    "/Images/CryptoDevPhotos/slidericons/java.webp",
+    "/Images/CryptoDevPhotos/slidericons/keras.webp",
+    "/Images/CryptoDevPhotos/slidericons/react.webp",
+    "/Images/CryptoDevPhotos/slidericons/ripple.webp",
+    "/Images/CryptoDevPhotos/slidericons/stanford.webp",
+    "/Images/CryptoDevPhotos/slidericons/tensor.webp",
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -81,7 +82,14 @@ export const CryptoDevSlider = () => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+              <Image
+                  src={elem}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
           );
         })}

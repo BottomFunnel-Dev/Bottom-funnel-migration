@@ -8,17 +8,16 @@
 }
 
 .careerBannerImage {
-  width: 45%;
-  height: 100%;
-
+  width: 35%;
+  height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.careerBannerImage > img {
+/* .careerBannerImage > img {
   height: 70%;
-}
+} */
 
 .careerBannerContent {
   width: 45%;

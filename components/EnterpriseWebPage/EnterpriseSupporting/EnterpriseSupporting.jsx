@@ -1,11 +1,19 @@
 import React from "react";
 import styles from "./EnterpriseSupporting.module.css";
+import Image from "next/image";
 
 export const EnterpriseSupporting = () => {
   return (
     <div className={styles.EnterpriseSupportingContainer}>
       <div className={styles.EnterpriseSupportingImage}>
-        <img src="Images/enterpriseWebPhotos/supporting.png" alt="" />
+          <Image
+                src={"/Images/enterpriseWebPhotos/supporting.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
       </div>
       <div className={styles.EnterpriseSupportingContent}>
         <h1>

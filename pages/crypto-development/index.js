@@ -26,7 +26,7 @@ export default function CryptoDevPage() {
     <div className={styles.CryptoDevPageContainer}>
       
       <Head>
-        <title> Crypto Currency Development Services | Bottom Funnel</title>
+        <title>Crypto Currency Service Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Interested in getting involved in the fast-growing 
@@ -36,7 +36,7 @@ export default function CryptoDevPage() {
         />
       </Head>
       <main>
-<Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}

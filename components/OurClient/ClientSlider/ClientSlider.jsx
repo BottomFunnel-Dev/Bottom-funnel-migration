@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import clients from "./ClientSlider.module.css";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
 
 export const ClientSlider = ({ data }) => {
   const NextArrow = ({ onClick }) => {
@@ -56,7 +57,15 @@ export const ClientSlider = ({ data }) => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+              {/* <img src={elem} alt="Company logos" /> */}
+              <Image
+              src={elem}
+              alt={"companyimage"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "fit-content" }}
+              />
             </div>
           );
         })}

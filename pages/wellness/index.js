@@ -27,7 +27,7 @@ export default function Wellness() {
   return (
     <div>
       <Head>
-        <title>Wellness Web App development | Bottom Funnel</title>
+        <title>Wellness Web and App Development | Bottom Funnel</title>
         <meta
           name="description"
           content="Oking to build a wellness web app? Look no further than our team

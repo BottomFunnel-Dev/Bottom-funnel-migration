@@ -3,7 +3,7 @@
   position: relative;
   margin-top: 120px;
 
-  background: url("/Images/AwardsPhotos/banner-background.jpg");
+  background: url("/Images/AwardsPhotos/banner-background.webp");
   background-size: 105%;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 }
 
 .awardsbannerImage {
-  width: 50%;
+  width: 45%;
   height: 100%;
   overflow: hidden;
 
@@ -69,6 +69,6 @@
   justify-content: center;
 }
 
-.awardsbannerImage > img {
+/* .awardsbannerImage > img {
   height: 100%;
-}
+} */

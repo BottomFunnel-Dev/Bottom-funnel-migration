@@ -23,7 +23,7 @@ export default function OnlinePaymentApplication() {
     <div>
       <Head>
         <title>
-          Online Payment Web App Development Company | Bottom Funnel
+          Online Payment Web and App Development Company | Bottom Funnel
         </title>
         <meta
           name="description"

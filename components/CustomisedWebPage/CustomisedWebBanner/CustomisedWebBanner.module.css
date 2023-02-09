@@ -1,13 +1,11 @@
 .CustomisedWebBannerMain {
   height: 100vh;
   padding-left: 5%;
-
   background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("/Images/customWebPhotos/banner.png");
+    url("/Images/customWebPhotos/banner.webp");
   background-size: 110%;
   background-position: top;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   justify-content: center;

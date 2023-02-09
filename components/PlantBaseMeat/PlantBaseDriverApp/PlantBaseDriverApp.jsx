@@ -16,8 +16,7 @@ export default function PlantBaseDriverApp({ driveData }) {
                     }}
                 >
                     <div className={styles.logisticDriveImage}>
-                        <img
-                            src={driveData.driverdata[active].img.src}
+                        <img src={driveData.driverdata[active].img.src}
                             alt={driveData.driverdata[active].img.alt}
                         />
                     </div>
@@ -35,8 +34,8 @@ export default function PlantBaseDriverApp({ driveData }) {
                                     <img src={icon.src} alt={icon.alt} />
                                 </div>
                                 
-                                <h3>{title}</h3>
-                                <p>{para}</p>
+                                <h3> {title} </h3>
+                                <p> {para} </p>
                             </div>
                         );
                     })}

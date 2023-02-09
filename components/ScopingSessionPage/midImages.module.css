@@ -3,6 +3,7 @@
   position: relative;
   align-items: center;
   width: 100%;
+  margin-bottom: 5%;
 }
 
 .RGleftImgDiv {
@@ -12,7 +13,8 @@
 .RGrightImgDiv {
   width: 56%;
   position: absolute;
-  right: 3%;
+  right: 0%;
+  height: fit-content;
 }
 
 .RGimgText {

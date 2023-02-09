@@ -22,7 +22,7 @@ export default function WebsiteBuilderApp() {
     <div>
 
       <Head>
-        <title>Website Builder App Development Company | Bottom Funnel</title>
+        <title>Website Builder Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to get started with website building without any hassle? 

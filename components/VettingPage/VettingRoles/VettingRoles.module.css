@@ -39,23 +39,21 @@
   overflow: hidden;
   border-radius: 10px;
   cursor: pointer;
-
   position: relative;
 }
 
 .vettingRolesContent > div > span {
   width: 85%;
   height: fit-content;
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   position: absolute;
   bottom: 30%;
   left: 5%;
   transition: opacity 0.4s linear;
-
+  height: 30%;
   opacity: 1;
 }
 
@@ -86,7 +84,6 @@
 .vettingRolesContent > div > div > p {
   color: white;
   font-size: 16px;
-
   width: 90%;
   margin: auto;
   opacity: 0;
@@ -110,6 +107,7 @@
   opacity: 1;
 }
 
-.vettingRolesContent > div > span > img {
+.vettingRolesCardsIconsImages {
   height: 60px;
+  
 }
