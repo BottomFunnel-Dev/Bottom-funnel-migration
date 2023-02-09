@@ -171,7 +171,7 @@ export const foodDeliveryCustomer = {
   foodDeliverycustomerdata: [
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.webp",
         alt: "Register image",
       },
       icon: {
@@ -183,7 +183,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-1.webp",
         alt: "Schedule",
       },
       icon: {
@@ -195,7 +195,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-2.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -207,7 +207,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface.webp",
         alt: "Track Order image",
       },
       icon: {
@@ -220,14 +220,14 @@ export const foodDeliveryCustomer = {
   ],
 
   sectionTitle: "Customer App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  // background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const foodDeliveryDrive = {
   fooddeliverydrivedata: [
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.webp",
         alt: "Register image",
       },
       icon: {
@@ -239,7 +239,7 @@ export const foodDeliveryDrive = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-1.webp",
         alt: "Schedule",
       },
       icon: {
@@ -251,7 +251,7 @@ export const foodDeliveryDrive = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-2.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -263,7 +263,7 @@ export const foodDeliveryDrive = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface.webp",
         alt: "Track Order image",
       },
       icon: {
@@ -276,7 +276,7 @@ export const foodDeliveryDrive = {
   ],
 
   sectionTitle: "Customer App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  // background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const foodDeliveryAdmin = {
@@ -675,7 +675,7 @@ export const alcoholCustomer = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/one.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/one.webp",
         alt: "accessable",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -683,7 +683,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/Two.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Two.webp",
         alt: "Friendly",
       },
       title: "User-friendly interface",
@@ -691,7 +691,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/Three.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Three.webp",
         alt: "OrderFood",
       },
       title: "Order food and Track their service",
@@ -700,7 +700,7 @@ export const alcoholCustomer = {
 
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/Four.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Four.webp",
         alt: "Favorites",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -714,7 +714,7 @@ export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/one.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/one.webp",
         alt: "Manage",
       },
       title: "Manage everything in one place",
@@ -722,7 +722,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/Two.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Two.webp",
         alt: "Info",
       },
       title: "Gather information about customer preferences",
@@ -730,7 +730,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/Three.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Three.webp",
         alt: "OrderFood",
       },
       title: "Generate profit reports and draw insights",
@@ -739,7 +739,7 @@ export const alcoholAdmin = {
 
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/Four.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Four.webp",
         alt: "features",
       },
       title: "Various CRM features",
@@ -753,7 +753,7 @@ export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/one.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/one.webp",
         alt: "Discounts",
       },
       title: "Manage Offers & Discounts",
@@ -761,7 +761,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/Two.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Two.webp",
         alt: "Menu",
       },
       title: "Menu category and Order Management",
@@ -769,7 +769,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/Three.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Three.webp",
         alt: "Chat",
       },
       title: "Chat Support",
@@ -778,7 +778,7 @@ export const alcoholPartner = {
 
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/Four.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Four.webp",
         alt: "Notification",
       },
       title: "Custom Alerts",

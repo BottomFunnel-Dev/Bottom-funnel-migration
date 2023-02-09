@@ -25,19 +25,6 @@ export const AlcoholBanner = () => {
         <button>GET STARTED</button>
       </div>
       <div className={styles.alcoholBannerImage}>
-        {/* <img src="/Images/alcoholPhotos/banner-background.png" />
-        <div className={styles.alcoholBannerBigMobile}>
-          <img
-            src="/Images/alcoholPhotos/banner-big-mobile.png"
-            alt="banner big mobile"
-          />
-        </div>
-        <div className={styles.alcoholBannerSmallMobile}>
-          <img
-            src="/Images/alcoholPhotos/banner-small-mobile.png"
-            alt="banner small mobile"
-          />
-        </div> */}
         <Lottie options={lottieDefaultOptions} width={700} height={600} />
       </div>
     </div>
