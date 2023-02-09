@@ -1,12 +1,14 @@
-import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./Logisticadmin.module.css";
+import Image from "next/image";
 
 export default function Logisticadmin({ adminData }) {
   const [active, setActive] = useState(0);
   return (
     <div className={styles.logicadmin}>
-      <h1>{adminData.sectionTitle}</h1>
+      <h1>
+        {adminData.sectionTitle}
+      </h1>
       <div className={styles.logicadminsub}>
         <div className={styles.logicadminright}>
           {adminData.admindata.map(({ title, icon, para }, idx) => {

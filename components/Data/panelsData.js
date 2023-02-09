@@ -2,11 +2,11 @@ export const logisticsCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/logistic/Register screen.png",
+        src: "/Images/logistic/Register screen.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/inspect.png",
+        src: "/Images/logistic/inspect.png",
         alt: " Register logo",
       },
       title: "Registration",
@@ -14,11 +14,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Schedule trip screen.png",
+        src: "/Images/logistic/Schedule trip screen.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/Location.png",
+        src: "/Images/logistic/Location.png",
         alt: "Schedule logo",
       },
       title: "Schedule Trip",
@@ -26,11 +26,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Payment option screen.png",
+        src: "/Images/logistic/Payment option screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/Card Payment.png",
+        src: "/Images/logistic/Card Payment.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
@@ -39,11 +39,11 @@ export const logisticsCustomer = {
 
     {
       img: {
-        src: "Images/logistic/track order screen.png",
+        src: "/Images/logistic/track order screen.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Track Order.png",
+        src: "/Images/logistic/Track Order.png",
         alt: "Track Order logo",
       },
       title: "Track Order",
@@ -59,11 +59,11 @@ export const logisticDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/logistic/shipment request screen.png",
+        src: "/Images/logistic/shipment request screen.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/boxside.png",
+        src: "/Images/logistic/boxside.png",
         alt: " Register logo",
       },
       title: "Receive Shipment Request",
@@ -72,11 +72,11 @@ export const logisticDrive = {
 
     {
       img: {
-        src: "Images/logistic/request screen.png",
+        src: "/Images/logistic/request screen.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/inspect.png",
+        src: "/Images/logistic/inspect.png",
         alt: "Schedule logo",
       },
       title: "Accept/Reject Request",
@@ -84,11 +84,11 @@ export const logisticDrive = {
     },
     {
       img: {
-        src: "Images/logistic/notification screen.png",
+        src: "/Images/logistic/notification screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/notification1.png",
+        src: "/Images/logistic/notification1.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Notification",
@@ -96,11 +96,11 @@ export const logisticDrive = {
     },
     {
       img: {
-        src: "Images/logistic/Navigation screen.png",
+        src: "/Images/logistic/Navigation screen.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Near Me.png",
+        src: "/Images/logistic/Near Me.png",
         alt: "Track Order logo",
       },
       title: "Navigation",
@@ -115,11 +115,11 @@ export const logisticAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/logistic/Dashboard.png",
+        src: "/Images/logistic/Dashboard.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/Dashboard Layout.png",
+        src: "/Images/logistic/Dashboard Layout.png",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -127,11 +127,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/assets.png",
+        src: "/Images/logistic/assets.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/Dividends.png",
+        src: "/Images/logistic/Dividends.png",
         alt: "Schedule logo",
       },
       title: "Assets",
@@ -139,11 +139,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/history.png",
+        src: "/Images/logistic/history.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/Order History.png",
+        src: "/Images/logistic/Order History.png",
         alt: "Multiple Payment Option logo",
       },
       title: "History",
@@ -151,11 +151,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/tracking (2).png",
+        src: "/Images/logistic/tracking (2).png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Tracking.png",
+        src: "/Images/logistic/Tracking.png",
         alt: "Track Order logo",
       },
       title: "Tracking",
