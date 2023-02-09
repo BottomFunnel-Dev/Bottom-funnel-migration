@@ -4,7 +4,6 @@
     justify-content: space-around;
     height: 35vh;
 }
-
 .RGchooseUsCompLeft {
     width: 20%;
     text-align: center;
@@ -14,7 +13,6 @@
 .RGchooseUsCompRight {
     width: 75%;
     font-size: 20px;
-
 }
 
 .RGchooseUsComphrLine {
@@ -26,4 +24,3 @@
 .RGchooseUsCompspanTag {
     color: red;
 }
-
