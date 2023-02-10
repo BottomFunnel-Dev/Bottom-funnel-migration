@@ -1,5 +1,4 @@
 import React from "react";
-
 import { MLBanner } from "../../components/MLPages/MLBanner/MLBanner";
 import { MLPopular } from "../../components/MLPages/MLPopular/MLPopular";
 import { MLMidBanner } from "../../components/MLPages/MLMidBanner/MLMidBanner";

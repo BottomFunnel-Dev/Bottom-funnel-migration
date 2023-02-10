@@ -1,5 +1,4 @@
 .testdiv {
-  /* border: 1px solid green; */
   position: relative;
 }
 
@@ -16,13 +15,11 @@
 .ottHeaderLeftDiv {
   width: 45%;
   height: 600px;
-  /* border: 1px solid blue; */
   display: flex;
 }
 
 .ottHeaderLeftTextDiv > h1 {
   font-size: 45px;
-  /* border: 1px solid red; */
   color: white;
   width: 90%;
 }
@@ -34,7 +31,6 @@
 }
 
 .ottHeaderLeftTextDiv {
-  /* border: 2px solid green; */
   width: 90%;
   margin: auto;
   padding-bottom: 7%;
@@ -61,7 +57,6 @@
   background-color: white;
 }
 
-/* Right Part below */
 
 .ottHeaderRightDiv {
   width: 55%;
@@ -71,12 +66,10 @@
 }
 
 .ott-Header-Right-frame-for-Image {
-  /* border: 1px solid red; */
   width: 90%;
   height: 500px;
   margin: auto;
   position: relative;
-  /* border: 1px solid blue; */
   background: url(/Images/ott-app/Desktop-\ 2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -134,7 +127,6 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  /* border: 1px solid red; */
   margin-top: 3%;
 }
 
@@ -143,7 +135,6 @@
   gap: 20px;
   border: 1px solid lightgray;
   border-radius: 7px;
-  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 
 .ottServicesBoxesDiv:hover {
@@ -168,11 +159,10 @@
   font-weight: 600;
   text-align: center;
   margin: 2% auto;
-  /* border: 1px solid red; */
+
 }
 
 .ottServicesLoremPara {
-  /* border: 1px solid red; */
   width: 95%;
   margin: auto;
   font-size: 18px;

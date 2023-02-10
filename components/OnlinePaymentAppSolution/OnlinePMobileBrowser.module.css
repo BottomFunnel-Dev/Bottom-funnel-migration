@@ -1,237 +1,233 @@
 .onlinepmobilebrowsermainboxes {
-  height: fit-content;
-  padding-top: 3%;
-  display: flex;
-  background-color: white;
+height: fit-content;
+padding-top: 3%;
+display: flex;
+background-color: white;
 }
 
 .onlinepmobilebrowserleftbox {
-  height: 420px;
-  width: 50%;
-  background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+height: 420px;
+width: 50%;
+background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
+background-repeat: no-repeat;
+background-size: contain;
 }
 
 .onlinepmobilebrowserrightbox {
-  width: 45%;
-  height: fit-content;
+width: 45%;
+height: fit-content;
 }
 .onlinepmobilebrowserrightboxheadertext {
-  height: fit-content;
+height: fit-content;
 }
 
 .onlinepmobilebrowserrightboxmappingtxt {
-  height: 300px;
+height: 300px;
 
-  margin-top: 10%;
+margin-top: 10%;
 }
 
 .onlinepmobilebrowseraftermappingdata {
-  display: flex;
-  height: fit-content;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  width: 80%;
-  margin: 2%;
-  height: fit-content;
-  /* padding: 10px; */
-  border-radius: 10px;
+display: flex;
+height: fit-content;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 80%;
+margin: 2%;
+height: fit-content;
+border-radius: 10px;
 }
 
 .onlinepmobilebrowseraftermappingdata:hover {
-  transform: scale(1.02);
-  background-color: #cdfcf6;
+transform: scale(1.02);
+background-color: #cdfcf6;
 }
 
 .onlinepmobilebrowseraftermappingxtt {
-  margin-left: 2%;
-  margin-top: 1%;
-  font-size: 18px;
+margin-left: 2%;
+margin-top: 1%;
+font-size: 18px;
 }
 
 .onlinepmobilebrowseraftermappingxtt > h4 {
-  margin-top: 4%;
+margin-top: 4%;
 }
 
 .onlinepmobilebrowseraftermappingdata > svg {
-  margin-top: 4%;
-  color: #cdfcf6;
-  padding-left: 5px;
+margin-top: 4%;
+color: #cdfcf6;
+padding-left: 5px;
 }
 
 .onlinemobilepbrowserleftboxoutermobilebox {
-  height: 100%;
-  width: 30%;
-  margin: 0% 0% 2% 20%;
+height: 100%;
+width: 30%;
+margin: 0% 0% 2% 20%;
 }
 
 .onlinemobilepbrowserleftboxoutermobilebox > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .onlinepmobilebrowsermainboxes {
-    height: fit-content;
-    padding-top: 3%;
-    flex-direction: column;
-    background-color: white;
-  }
+.onlinepmobilebrowsermainboxes {
+height: fit-content;
+padding-top: 3%;
+flex-direction: column;
+background-color: white;
+}
 
-  .onlinepmobilebrowserleftbox {
-    height: 420px;
-    width: 100%;
-    background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+.onlinepmobilebrowserleftbox {
+height: 420px;
+width: 100%;
+background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
 
-  .onlinepmobilebrowserrightbox {
-    width: 100%;
-    height: fit-content;
-  }
-  .onlinepmobilebrowserrightboxheadertext {
-    height: fit-content;
-    text-align: center;
-    /* border: 1px solid red; */
-  }
+.onlinepmobilebrowserrightbox {
+width: 100%;
+height: fit-content;
+}
+.onlinepmobilebrowserrightboxheadertext {
+height: fit-content;
+text-align: center;
 
-  .onlinepmobilebrowserrightboxheadertext > h1 {
-    font-size: 24px;
-    font-weight: 700;
-  }
+}
 
-  .onlinepmobilebrowserrightboxmappingtxt {
-    height: 300px;
-    margin-top: 10%;
-  }
+.onlinepmobilebrowserrightboxheadertext > h1 {
+font-size: 24px;
+font-weight: 700;
+}
 
-  .onlinepmobilebrowseraftermappingdata {
-    display: flex;
-    height: 40px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 80%;
-    margin: auto;
-    /* margin: 2%; */
-    height: fit-content;
-    /* padding: 10px; */
-    border-radius: 10px;
-  }
+.onlinepmobilebrowserrightboxmappingtxt {
+height: 300px;
+margin-top: 10%;
+}
+.onlinepmobilebrowseraftermappingdata {
+display: flex;
+height: 40px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 80%;
+margin: auto;
 
-  .onlinepmobilebrowseraftermappingdata:hover {
-    transform: scale(1.02);
-    background-color: #cdfcf6;
-  }
+height: fit-content;
 
-  .onlinepmobilebrowseraftermappingxtt {
-    margin-left: 2%;
-    margin-top: 1%;
-    font-size: 18px;
-  }
+border-radius: 10px;
+}
 
-  .onlinepmobilebrowseraftermappingxtt > h4 {
-    margin-top: 4%;
-  }
+.onlinepmobilebrowseraftermappingdata:hover {
+transform: scale(1.02);
+background-color: #cdfcf6;
+}
 
-  .onlinepmobilebrowseraftermappingdata > svg {
-    margin-top: 4%;
-    color: #cdfcf6;
-    padding-left: 5px;
-  }
+.onlinepmobilebrowseraftermappingxtt {
+margin-left: 2%;
+margin-top: 1%;
+font-size: 18px;
+}
 
-  .onlinemobilepbrowserleftboxoutermobilebox {
-    height: 100%;
-    width: 45%;
-    margin: 0% 0% 2% 20%;
-  }
+.onlinepmobilebrowseraftermappingxtt > h4 {
+margin-top: 4%;
+}
 
-  .onlinemobilepbrowserleftboxoutermobilebox > img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
+.onlinepmobilebrowseraftermappingdata > svg {
+margin-top: 4%;
+color: #cdfcf6;
+padding-left: 5px;
+}
+
+.onlinemobilepbrowserleftboxoutermobilebox {
+height: 100%;
+width: 45%;
+margin: 0% 0% 2% 20%;
+}
+
+.onlinemobilepbrowserleftboxoutermobilebox > img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .onlinepmobilebrowsermainboxes {
-    height: fit-content;
-    padding-top: 3%;
-    display: flex;
-    background-color: white;
-  }
+.onlinepmobilebrowsermainboxes {
+height: fit-content;
+padding-top: 3%;
+display: flex;
+background-color: white;
+}
 
-  .onlinepmobilebrowserleftbox {
-    height: 420px;
-    width: 50%;
-    background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+.onlinepmobilebrowserleftbox {
+height: 420px;
+width: 50%;
+background: url("/Images/onlinepaymentpage/Ellipse 2193.png");
+background-repeat: no-repeat;
+background-size: contain;
+}
 
-  .onlinepmobilebrowserrightbox {
-    width: 45%;
-    height: fit-content;
-  }
+.onlinepmobilebrowserrightbox {
+width: 45%;
+height: fit-content;
+}
 
-  .onlinepmobilebrowserrightboxheadertext {
-    height: fit-content;
-  }
+.onlinepmobilebrowserrightboxheadertext {
+height: fit-content;
+}
 
-  .onlinepmobilebrowserrightboxheadertext > h1 {
-    font-size: 24px;
-    font-weight: 600;
-  }
+.onlinepmobilebrowserrightboxheadertext > h1 {
+font-size: 24px;
+font-weight: 600;
+}
 
-  .onlinepmobilebrowserrightboxmappingtxt {
-    height: 200px;
-    margin-top: 10%;
-  }
+.onlinepmobilebrowserrightboxmappingtxt {
+height: 200px;
+margin-top: 10%;
+}
 
-  .onlinepmobilebrowseraftermappingdata {
-    display: flex;
-    height: 50px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 100%;
-    margin: 2%;
-    /* padding: 10px; */
-    border-radius: 10px;
-  }
+.onlinepmobilebrowseraftermappingdata {
+display: flex;
+height: 50px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 100%;
+margin: 2%;
+border-radius: 10px;
+}
 
-  .onlinepmobilebrowseraftermappingdata:hover {
-    transform: scale(1.02);
-    background-color: #cdfcf6;
-  }
+.onlinepmobilebrowseraftermappingdata:hover {
+transform: scale(1.02);
+background-color: #cdfcf6;
+}
 
-  .onlinepmobilebrowseraftermappingxtt {
-    margin-left: 2%;
-    margin-top: 1%;
-    font-size: 18px;
-  }
+.onlinepmobilebrowseraftermappingxtt {
+margin-left: 2%;
+margin-top: 1%;
+font-size: 18px;
+}
 
-  .onlinepmobilebrowseraftermappingxtt > h4 {
-    margin-top: 4%;
-  }
+.onlinepmobilebrowseraftermappingxtt > h4 {
+margin-top: 4%;
+}
 
-  .onlinepmobilebrowseraftermappingdata > svg {
-    margin-top: 4%;
-    color: #cdfcf6;
-    padding-left: 5px;
-  }
+.onlinepmobilebrowseraftermappingdata > svg {
+margin-top: 4%;
+color: #cdfcf6;
+padding-left: 5px;
+}
 
-  .onlinemobilepbrowserleftboxoutermobilebox {
-    height: 100%;
-    width: 50%;
-    margin: 0% 0% 0% 15%;
-  }
+.onlinemobilepbrowserleftboxoutermobilebox {
+height: 100%;
+width: 50%;
+margin: 0% 0% 0% 15%;
+}
 
-  .onlinemobilepbrowserleftboxoutermobilebox > img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
+.onlinemobilepbrowserleftboxoutermobilebox > img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
 }

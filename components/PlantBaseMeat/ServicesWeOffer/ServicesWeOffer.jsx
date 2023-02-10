@@ -45,9 +45,6 @@ export const ServicesWeOffer = () => {
                 </h1>
             </div>
 
-            {/* <div className='plantBasedServicesBackImageDiv'>
-                <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedMeatBackground.png' alt='image' />
-            </div> */}
 
             <div className={styles.plantBasedServicesWeOffers}>
                 {servicesWeOfferCardsData.map(({ title, body, image }, idx) => (

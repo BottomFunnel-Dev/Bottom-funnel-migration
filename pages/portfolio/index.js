@@ -101,14 +101,7 @@ export default function Portfolio() {
       <Salesbot />
       <WifiStudy />
 
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
+     
       <ContectForm />
       <MainFooter />
     </div>

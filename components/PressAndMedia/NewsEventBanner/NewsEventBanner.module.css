@@ -1,25 +1,24 @@
 .newsEventBannerMain {
-  height: 500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/Images/pressmediaPhotos/banner.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+height: 500px;
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+ url("/Images/pressmediaPhotos/banner.webp");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .newsEventBannerMain > h1 {
-  font-size: 35px;
-  margin-bottom: 5px;
-  color: white;
+font-size: 35px;
+margin-bottom: 5px;
+color: white;
 }
 
 .newsEventBannerMain > p {
-  font-size: 18px;
-  margin-top: 5px;
-  color: white;
+font-size: 18px;
+margin-top: 5px;
+color: white;
 }

@@ -6,7 +6,7 @@ const MarketPlaceClients = () => {
     const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Clientsappscreen/detailsofposts.png");
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
-        // console.log(imagepath)
+ 
     }
 
     const marketplaceclientdata = [

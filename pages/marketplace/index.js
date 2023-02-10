@@ -1,5 +1,4 @@
 import React from "react";
-
 import { MarketplaceBanner } from "../../components/MarketPlace/MarketplaceBanner";
 import MarketplaceFreelancer from "../../components/MarketPlace/MarketplaceFreelancer";
 import MarketPlaceAdmin from "../../components/MarketPlace/MarketPlaceAdmin";

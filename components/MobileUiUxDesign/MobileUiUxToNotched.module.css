@@ -1,36 +1,33 @@
 .mobileuiuxtopnotchedmainboxes{
-    height: fit-content;
-
-    background-color: white;
-    width: 100%;
-    text-align: justify;
-    padding: 5%;
+height: fit-content;
+background-color: white;
+width: 100%;
+text-align: justify;
+padding: 5%;
 }
 
 .mobileuiuxtopnotchedmainboxes >h1 {
-
-    width: 60%;
-
-    text-align: justify;
+width: 60%;
+text-align: justify;
 }
 
 .mobileuiuxtopnotchedmainboxes >p {
-    font-weight: 500;
+font-weight: 500;
 }
 
 .topnotchedmobileuxuianothertextbox{
-    height: 50%;
-    width: 100%;
-    margin-top: 5%;
+height: 50%;
+width: 100%;
+margin-top: 5%;
 
 }
 
 .topnotchedmobileuxuianothertextbox >h1 {
 
 
-    text-align: justify;
+text-align: justify;
 }
 
 .topnotchedmobileuxuianothertextbox >p {
-    font-weight: 500;
+font-weight: 500;
 }

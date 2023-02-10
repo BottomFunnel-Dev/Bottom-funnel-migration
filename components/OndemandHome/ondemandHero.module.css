@@ -31,20 +31,16 @@
 }
 .textcontainer > div > button:hover {
   color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
   background-color: white;
 }
 
 .imageContainer {
   width: 70%;
-  /* border: 1px solid red; */
   height: 95%;
-  /* background: url("/Images/ondemandHome/back.png"); */
   background-repeat: no-repeat;
 }
 
 .imageContainer > img {
-  /* margin-top: 45px; */
   margin-left: 30px;
   width: 95%;
   height: 100%;
