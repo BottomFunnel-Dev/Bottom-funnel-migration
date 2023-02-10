@@ -72,7 +72,11 @@ export const Salesbot = () => {
 <img src='Images/portfolio/Sales bot/logo/download (2) 1.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.salesbot.co/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
 </div>
     </div>
     

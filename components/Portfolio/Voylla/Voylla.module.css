@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/Portfolio banners/Group 770960.png");
 background-repeat: no-repeat;
@@ -35,6 +35,7 @@ font-weight: 800;
 }
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 .yanbaliconflexbox{
 width: 40%;

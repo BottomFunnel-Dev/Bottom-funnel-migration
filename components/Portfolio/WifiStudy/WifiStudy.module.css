@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/wifi study/background/Group 770828.png");
 background-repeat: no-repeat;

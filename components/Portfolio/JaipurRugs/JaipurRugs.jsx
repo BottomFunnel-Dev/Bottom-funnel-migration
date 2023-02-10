@@ -36,7 +36,11 @@ export const JaipurRugs = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap</p>
+<p><strong>Backend</strong>: ASP.NET</p>
+<p><strong>web servers</strong>: Cloudflare</p>
+<p><strong>Database</strong>: Amazon</p>
+
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>

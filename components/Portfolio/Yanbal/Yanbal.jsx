@@ -33,7 +33,12 @@ export const Yanbal = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Mordernizr, JAVA, Microsoft</p>
+    <p><strong>Frontend</strong>: Javascript, Jquery, Mordernizr</p>
+    <p><strong>Backend</strong>: JAVA</p>
+    <p><strong>Database</strong>: Microsoft</p>
+    <p><strong>Web Servers</strong>: Microsoft</p>
+
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -69,7 +74,13 @@ export const Yanbal = () => {
 <img src='Images/portfolio/yanbal/logo/yanbal-logo.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://www.yanbal.com/us/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     

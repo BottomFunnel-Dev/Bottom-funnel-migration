@@ -43,7 +43,11 @@ export const Taxwink = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Javascript, Jquery, Bootstrap, Popper, Php, Apache</p>
+<p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap, Popper</p>
+<p><strong>Backend</strong>: PHP</p>
+<p><strong>Web Servers</strong>: Apache</p>
+
+
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
@@ -80,7 +84,12 @@ export const Taxwink = () => {
 <img src='Images/portfolio/Tax wink/logo/download1.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.taxwink.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+
+</a>
+</Link>
 </div>
     </div>
     

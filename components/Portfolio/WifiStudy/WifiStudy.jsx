@@ -71,7 +71,13 @@ export const WifiStudy = () => {
 <img src='Images/portfolio/wifi study/logo/Mobile 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://www.wifistudy.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     

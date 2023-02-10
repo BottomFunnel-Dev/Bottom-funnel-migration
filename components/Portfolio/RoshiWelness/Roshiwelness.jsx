@@ -35,7 +35,11 @@ export const Roshiwelness = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Bootstrap, Popper, Cloudflare, Cdnjs</p>
+   <p><strong>Frontend</strong>:Javascript, Jquery, Polyfill</p>
+   <p><strong>Backend</strong> ruby</p>
+   <p><strong>Web Servers</strong>Cloudfare</p>
+   <p><strong>Database</strong>: shopify</p>
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
