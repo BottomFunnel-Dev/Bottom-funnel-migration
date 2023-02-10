@@ -3,6 +3,7 @@ import styles from './Reviews.module.css';
 import { AiOutlineStar } from 'react-icons/ai';
 import { AiFillStar } from 'react-icons/ai';
 import { IconContext } from "react-icons/lib";
+import Image from "next/image";
 
 function Reviews() {
     return (
@@ -11,7 +12,14 @@ function Reviews() {
             <div className={styles._SeoReviews1}>
                 <div className={styles._SeoCompanyRatings}>
                     <div className={styles.ratingImg}>
-                        <img src="Images/seopages/rating1.png" alt="image" />
+                    <Image
+                    src={"/Images/seopages/rating1.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%"}}
+                    />
                     </div>
                     <div className={styles._SeoRatingStar}>
                         <IconContext.Provider value={{ className: styles.ratingIcons }}>
@@ -25,7 +33,14 @@ function Reviews() {
                 <div className={styles._SeoCompanyRatings}>
                     <div className={styles.ratingImg}>
 
-                        <img src="Images/seopages/clutch.png" alt="image" />
+                    <Image
+                        src={"/Images/seopages/clutch.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%"}}
+                    />
                     </div>
                     <div className={styles._SeoRatingStar}>
                         <IconContext.Provider value={{ className: styles.ratingIcons }}>
@@ -40,7 +55,14 @@ function Reviews() {
                 <div className={styles._SeoCompanyRatings}>
                     <div className={styles.ratingImg}>
 
-                        <img src="Images/seopages/rating3.png" alt="image" />
+                        <Image
+                        src={"/Images/seopages/rating3.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%"}}
+                    />
                     </div>
                     <div className={styles._SeoRatingStar}>
                         <IconContext.Provider value={{ className: styles.ratingIcons }}>
@@ -54,7 +76,14 @@ function Reviews() {
                 <div className={styles._SeoCompanyRatings}>
                     <div className={styles.ratingImg}>
 
-                        <img src="Images/seopages/rating4.png" alt="image" />
+                        <Image
+                        src={"/Images/seopages/rating4.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%"}}
+                    />
                     </div>
                     <div className={styles._SeoRatingStar}>
                         <IconContext.Provider value={{ className: styles.ratingIcons }}>

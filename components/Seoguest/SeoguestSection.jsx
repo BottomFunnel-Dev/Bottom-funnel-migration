@@ -1,12 +1,20 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoguestSection.module.css";
+import Image from "next/image";
 
 export default function SeoguestSection() {
   return (
     <div className={styles._SeoEmailMain1}>
       <div className={styles.guestgifDenote}>
-        <img src="Images/seopages/Comp-7.gif" alt="animated gif" />
+        <Image
+            src={"/Images/seopages/Comp-7.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
       </div>
       <div className={styles._SeoEmailupperdiv}>
         <div className={styles._SeoEmailtext}>

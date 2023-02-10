@@ -1,12 +1,19 @@
 import React from "react";
 import styles from "./EnquiryNow.module.css";
-
+import Image from "next/image";
 
 export default function EnquiryNow() {
   return (
     <div className={styles._EnquiryNowMaindiv}>
       <div className={styles._EnquiryNow}>
-        <img src="/Images/seopages/seoenquery.png" alt="enq.img" />
+        <Image
+            src={"/Images/seopages/seoenquery.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          /> 
       </div>
       <div className={styles._EnquiryNow}>
         <h3>

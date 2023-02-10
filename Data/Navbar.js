@@ -198,12 +198,12 @@ export const digitalmarket = [
   {
     dropContent: "Local SEO Services",
     navIcons: "/Images/navbar/services/localseo.png",
-    path: "/local-seo",
+    path: "/local-seo-services",
   },
   {
     dropContent: "SEM Services",
     navIcons: "/Images/navbar/services/sem.png",
-    path: "/seo-sem",
+    path: "/sem-services",
   },
   {
     dropContent: "PPC Management Services",
@@ -213,17 +213,17 @@ export const digitalmarket = [
   {
     dropContent: "Guest Posting Services",
     navIcons: "/Images/navbar/services/guest.png",
-    path: "/seo-guest-post",
+    path: "/guest-posting-services",
   },
   {
     dropContent: "Link Building Services",
     navIcons: "/Images/navbar/services/link.png",
-    path: "/seo-link-building",
+    path: "/link-building-services",
   },
   {
     dropContent: "Email Marketing Services",
     navIcons: "/Images/navbar/services/email.png",
-    path: "/seo-emailservices",
+    path: "/emailmarketing-services",
   },
 ];
 

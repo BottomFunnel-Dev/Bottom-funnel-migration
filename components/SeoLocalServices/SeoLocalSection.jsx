@@ -1,13 +1,20 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
-// import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoLocalSection.module.css";
+import Image from "next/image";
 
 export const SeoLocalSection = () => {
   return (
     <div className={styles.seoLocalMain1}>
       <div className={styles.localgifDenote}>
-        <img src="Images/seopages/Comp-5.gif" alt="" />
+        <Image
+            src={"/Images/seopages/Comp-5.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
       </div>
       <div className={styles.seoLocalupperdiv}>
         <div className={styles.seoLocaltext}>

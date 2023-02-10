@@ -28,13 +28,13 @@ font-size: 35px;
 left: 50%;
 }
 .Seobrandimg {
-height: 100px;
-width: 147px;
+height: 90px;
+width: 110px;
+margin-left: 30px;
 position: relative;
 }
+
 .Seobrandimg > img {
-width: 80%;
-height: 70%;
 object-fit: contain;
 filter: grayscale(1);
 position: absolute;
