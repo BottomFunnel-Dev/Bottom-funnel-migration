@@ -63,7 +63,7 @@ import { WifiStudy } from "../../components/Portfolio/WifiStudy/WifiStudy";
 import { Yanbal } from "../../components/Portfolio/Yanbal/Yanbal";
 import { Younity } from "../../components/Portfolio/Younity/Younity";
 
-export default function Portfolio() {
+export default function portfolio() {
   return (
     <div>
       <Navbar
