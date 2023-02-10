@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import styles from "./WhatDigitalMarket.module.css"
 
@@ -32,7 +33,13 @@ export const WhatDigitalMarket = () => {
   return (
     <div className={styles.whatdigitalmarketmainboxes}>
     <div className={styles.whatdigitamarketleftboxes}>
-    <img src='Images/digitalmarket/OBJECTS.png' alt='images' />
+    <Image
+          src={"/Images/digitalmarket/OBJECTS.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}/>
     </div>
     
     <div className={styles.whatdigitalmarketrightbox}>

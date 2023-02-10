@@ -2,7 +2,7 @@
 @media only screen and (min-width:769px){
 .digitalmarketingbannermainboxes {
   height: 100vh;
-  background: url("/Images/digitalmarket/HeroSection.png");
+  background: url("/Images/digitalmarket/HeroSection.webp");
   background-size: contain;
   margin-top: 100px;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 .digitalmarketingbannermainboxes {
   height: 75vh;
   width: 100%;
-  background: url("/Images/digitalmarket/mobile responsive/Group 770921.png");
+  background: url("/Images/digitalmarket/mobile responsive/Group 770921.webp");
 background-position-x: 10%;
   background-size:  contain;
  background-repeat: no-repeat;
