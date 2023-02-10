@@ -48,7 +48,10 @@ export const Nextholiday = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Javascript, Jquery, ASP.NET, AWS, Cloudfare Server</p>
+<p><strong>Frontend</strong>: Javascript, Query</p>
+<p><strong>Backend</strong>: ASP.NET</p>
+<p><strong>Database</strong>: My SQl</p>
+<p><strong>Cloud servers</strong>: AWS Server, Cloudfare</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
@@ -80,7 +83,11 @@ export const Nextholiday = () => {
 <img src='Images/portfolio/Next holiday/logo/download (2) 1.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.nextholidays.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
 </div>
     </div>
     
