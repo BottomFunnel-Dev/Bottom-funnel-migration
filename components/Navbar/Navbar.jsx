@@ -149,7 +149,7 @@ const Navbar = ({ navredux, productMount }) => {
               </li>
 
               <li
-                onClick={() => router.push("portfolio")}
+                onClick={() => router.push("Portfolio")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 PORTFOLIO
