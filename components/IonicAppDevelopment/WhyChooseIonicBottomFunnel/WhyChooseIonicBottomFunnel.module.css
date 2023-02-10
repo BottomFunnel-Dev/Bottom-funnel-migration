@@ -1,134 +1,98 @@
 .ionicBottomFunnelMainContainer {
-  /* border: 2px solid red; */
-  width: 100%;
-  margin-bottom: 1%;
-  /* height: 100vh; */
+width: 100%;
+margin-bottom: 1%;
 }
 .ionicBottomFunnelHeadingContainer {
-  /* border: 2px solid red; */
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  /* height: 25vh; */
-  /* padding: 3%; */
+width: 80%;
+margin: auto;
+text-align: center;
 }
-
 .ionicBottomFunnelHeadingContainer>p{
-  text-align: justify;
+text-align: justify;
 }
 .ionicBottomFunnelContainer {
-  /* border: 2px solid red; */
-  width: 98%;
-  display: flex;
-  flex-direction: column;
-  /* height: 40vh; */
+width: 98%;
+display: flex;
+flex-direction: column;
 }
 .ionicBottomFunnelBox {
-  /* border: 2px solid red; */
-  width: 100%;
-  /* height: 32vh; */
-  display: flex;
-  flex-direction: row;
-  margin-top: 2%;
+width: 100%;
+display: flex;
+flex-direction: row;
+margin-top: 2%;
 }
 .ionicBottomFunnelDetails {
-  /* border: 2px solid gold; */
-  width: 30%;
-  /* height: 32vh; */
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 10px;
-  padding: 1%;
-  margin-left: 3%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 30%;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+padding: 1%;
+margin-left: 3%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .ionicBottomFunnelDetails>p{
-  text-align: justify;
+text-align: justify;
 }
-
 .ionicBottomFunnelDetails:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-15px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #ef4c23; */
-  /* color: white; */
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .ionicBottomFunnelDetailsImage {
-  /* border: 2px solid red; */
-  width: 50px;
-  height: 50px;
-  margin: 2%;
-  object-fit: contain;
+width: 50px;
+height: 50px;
+margin: 2%;
+object-fit: contain;
 }
-
 @media only screen and (min-width:0px) and (max-width:1024px){
-  .ionicBottomFunnelMainContainer {
-    /* border: 2px solid red; */
-    width: 100%;
-    margin-bottom: 1%;
-    /* height: 100vh; */
-  }
-  .ionicBottomFunnelHeadingContainer {
-    /* border: 2px solid red; */
-    width: 95%;
-    text-align: center;
-    /* height: 25vh; */
-    margin: auto;
-  }
-  .ionicBottomFunnelHeadingContainer p{
-    text-align: justify;
-  }
-  .ionicBottomFunnelContainer {
-    /* border: 2px solid red; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* height: 40vh; */
-  }
-  .ionicBottomFunnelBox {
-    /* border: 2px solid red; */
-    width: 100%;
-    /* height: 32vh; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 2%;
-  }
-  .ionicBottomFunnelDetails {
-    /* border: 2px solid gold; */
-    width: 70%;
-    /* height: 32vh; */
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    padding: 2%;
-   margin: auto;
-   margin-top: 3%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .ionicBottomFunnelDetails:hover {
-    cursor: pointer;
-    /* margin-top: 0; */
-    transition: all 0.2s linear;
-    /* transform: scale(1.1); */
-    transform: translateY(-15px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: #81b0f6;
-    color: white;
-  }
-  
-  .ionicBottomFunnelDetailsImage {
-    /* border: 2px solid red; */
-    width: 50px;
-    height: 50px;
-    margin: 2%;
-    object-fit: contain;
-  }
-  
+.ionicBottomFunnelMainContainer {
+width: 100%;
+margin-bottom: 1%;
+}
+.ionicBottomFunnelHeadingContainer {
+width: 95%;
+text-align: center;
+margin: auto;
+}
+.ionicBottomFunnelHeadingContainer p{
+text-align: justify;
+}
+.ionicBottomFunnelContainer {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.ionicBottomFunnelBox {
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-top: 2%;
+}
+.ionicBottomFunnelDetails {
+width: 70%;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+padding: 2%;
+ margin: auto;
+ margin-top: 3%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ionicBottomFunnelDetails:hover {
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: #81b0f6;
+color: white;
+}
+.ionicBottomFunnelDetailsImage {
+width: 50px;
+height: 50px;
+margin: 2%;
+object-fit: contain;
+}
 }

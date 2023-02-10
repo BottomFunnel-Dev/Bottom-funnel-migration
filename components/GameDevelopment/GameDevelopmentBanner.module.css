@@ -1,68 +1,58 @@
 .gamedevelopmentbannermainboxes {
-  height: 100vh;
-  border: 1px solid transparent;
-  background-image: url("/Images/gamedevelopmentpage/sectionheader12z.webp");
-  background-size: cover;
-  /* margin-top: 120px; */
+height: 100vh;
+border: 1px solid transparent;
+background-image: url("/Images/gamedevelopmentpage/sectionheader12z.webp");
+background-size: cover;
+}
+.gamedeveloperbackgroundimagetxtdiv {
+width: 40%;
+margin-top: 17%;
+margin-left: 5%;
+text-align: left;
+color: white;
+}
+.gamedeveloperbackgroundimagetxtdiv > p {
+text-align: justify;
+}
+.gamedevelopmentbutton {
+padding: 10px 50px;
+border-radius: 100px;
+width: 220px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
+.gamedevelopmentbutton:hover {
+background-color: white;
+color: #3380f2;
+}
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+.gamedevelopmentbannermainboxes {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 500px;
+}
+.gamedeveloperbackgroundimagetxtdiv {
+width: 95%;
+margin: 0 auto;
 }
 
-.gamedeveloperbackgroundimagetxtdiv {
-  /* height: 40%; */
-  width: 40%;
-  /* border: 2px solid red; */
-  margin-top: 17%;
-  margin-left: 5%;
-  text-align: left;
-  color: white;
+.gamedeveloperbackgroundimagetxtdiv > h1 {
+font-size: 32px;
+text-align: center;
 }
 
 .gamedeveloperbackgroundimagetxtdiv > p {
-  text-align: justify;
+font-size: 14px;
 }
-
 .gamedevelopmentbutton {
-  padding: 10px 50px;
-  border-radius: 100px;
-  width: 220px;
-  background-color: #3380f2;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
+font-size: 16px;
+padding: 10px 20px;
 }
-
-.gamedevelopmentbutton:hover {
-  background-color: white;
-  color: #3380f2;
-}
-
-/* media query for mobile and tablet devices */
-@media (max-width: 1024px) {
-  .gamedevelopmentbannermainboxes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-  }
-
-  .gamedeveloperbackgroundimagetxtdiv {
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .gamedeveloperbackgroundimagetxtdiv > h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .gamedeveloperbackgroundimagetxtdiv > p {
-    font-size: 14px;
-  }
-
-  .gamedevelopmentbutton {
-    font-size: 16px;
-    padding: 10px 20px;
-  }
 }

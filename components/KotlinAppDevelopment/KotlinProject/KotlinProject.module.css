@@ -1,151 +1,127 @@
 @media only screen and (min-width:900px){
-
 .kotlinProjectmainbox {
-    height: 40vh;
-    width: 99.7%;
-    border: 1px solid white;
-    margin-top: 2%;
-    background-image: url("/Images/Kotlin/Component 65.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .kotlinProjectmainboxinnertextdiv {
-    margin-top: 5%;
-    margin-left: 7%;
-    text-align: left;
-    /* border: 2px solid red; */
-    width: 60%;
-  }
-  
-  .kotlinProjectmainboxinnertextdiv > h1 {
-    color: white;
-  }
-  .kotlinProjectmainboxinnertextdiv > p {
-    color: white;
-    /* border: 2px solid red; */
-    /* width: 60%; */
-    /* margin: auto; */
-  }
-  
-  .kotlinProjectbutton {
-    padding: 10px 50px;
-    border-radius: 5px;
-    width: 220px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 2%;
-    color: white;
-  }
-  
-  .kotlinProjectbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
+height: 40vh;
+width: 99.7%;
+border: 1px solid white;
+margin-top: 2%;
+background-image: url("/Images/Kotlin/Component 65.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.kotlinProjectmainboxinnertextdiv {
+margin-top: 5%;
+margin-left: 7%;
+text-align: left;
+width: 60%;
+}
+.kotlinProjectmainboxinnertextdiv > h1 {
+color: white;
+}
+.kotlinProjectmainboxinnertextdiv > p {
+color: white;
+}
+.kotlinProjectbutton {
+padding: 10px 50px;
+border-radius: 5px;
+width: 220px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+margin-top: 2%;
+color: white;
+}
+.kotlinProjectbutton:hover {
+background-color: white;
+color: #3380f2;
+}
 }
 @media only screen and (min-width:0px) and (max-width:480px){
+.kotlinProjectmainbox {
+height: 20vh;
+width: 100%;
+border: 1px solid white;
+margin-top: 2%;
+background-image: url("/Images/Kotlin/Component 65.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
 
-  .kotlinProjectmainbox {
-    height: 20vh;
-    width: 100%;
-    border: 1px solid white;
-    margin-top: 2%;
-    background-image: url("/Images/Kotlin/Component 65.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .kotlinProjectmainboxinnertextdiv {
-    /* margin-top: 5%; */
-    margin-left: 7%;
-    text-align: left;
-    /* border: 2px solid red; */
-    width: 60%;
-  }
-  
-  .kotlinProjectmainboxinnertextdiv > h1 {
-    color: white;
-    font-size: 19px;
-  }
-  .kotlinProjectmainboxinnertextdiv > p {
-    color: white;
-    font-size: 13px;
-    /* border: 2px solid red; */
-    /* width: 60%; */
-    /* margin: auto; */
-  }
-  
-  .kotlinProjectbutton {
-    padding: 7px 25px;
-    border-radius: 5px;
-    width: 220px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 16px;
-    font-weight: 400;
-    /* margin-top: 2%; */
-    color: white;
-  }
-  
-  .kotlinProjectbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
+.kotlinProjectmainboxinnertextdiv {
+margin-left: 7%;
+text-align: left;
+width: 60%;
+}
+
+.kotlinProjectmainboxinnertextdiv > h1 {
+color: white;
+font-size: 19px;
+}
+.kotlinProjectmainboxinnertextdiv > p {
+color: white;
+font-size: 13px;
+}
+
+.kotlinProjectbutton {
+padding: 7px 25px;
+border-radius: 5px;
+width: 220px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 16px;
+font-weight: 400;
+color: white;
+}
+
+.kotlinProjectbutton:hover {
+background-color: white;
+color: #3380f2;
+}
 }
 @media only screen and (min-width:481px) and (max-width:900px){
-  .kotlinProjectmainbox {
-    height: 30vh;
-    width: 99.7%;
-    border: 1px solid white;
-    margin-top: 2%;
-    background-image: url("/Images/Kotlin/Component 65.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .kotlinProjectmainboxinnertextdiv {
-    margin-top: 5%;
-    margin-left: 7%;
-    text-align: left;
-    /* border: 2px solid red; */
-    width: 60%;
-  }
-  
-  .kotlinProjectmainboxinnertextdiv > h1 {
-    color: white;
-  }
-  .kotlinProjectmainboxinnertextdiv > p {
-    color: white;
-    /* border: 2px solid red; */
-    /* width: 60%; */
-    /* margin: auto; */
-  }
-  
-  .kotlinProjectbutton {
-    padding: 10px 50px;
-    border-radius: 5px;
-    width: 220px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 2%;
-    color: white;
-  }
-  
-  .kotlinProjectbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
+.kotlinProjectmainbox {
+height: 30vh;
+width: 99.7%;
+border: 1px solid white;
+margin-top: 2%;
+background-image: url("/Images/Kotlin/Component 65.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.kotlinProjectmainboxinnertextdiv {
+margin-top: 5%;
+margin-left: 7%;
+text-align: left;
+width: 60%;
+}
+.kotlinProjectmainboxinnertextdiv > h1 {
+color: white;
+}
+.kotlinProjectmainboxinnertextdiv > p {
+color: white;
+}
+.kotlinProjectbutton {
+padding: 10px 50px;
+border-radius: 5px;
+width: 220px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+margin-top: 2%;
+color: white;
+}
+.kotlinProjectbutton:hover {
+background-color: white;
+color: #3380f2;
+}
 }

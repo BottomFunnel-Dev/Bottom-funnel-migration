@@ -1,7 +1,6 @@
 .deliveryservices {
   width: 96%;
   padding: 40px 20px;
-  /* height: 500px; */
 }
 .deliveryservices > h1 {
   text-align: center;
@@ -24,23 +23,19 @@
   height: 200px;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
   border-radius: 10px;
   margin-top: 10px;
-
 }
 .deliveryFeatures>div:hover {
   transition: all .3s linear;
   margin-top: 0px;
 }
-
 .servicesIcons {
   position: absolute;
   top: -30px;
   left: 33px;
   width: 60px;
   height: 60px;
-  /* background-color: green; */
 }
 .servicesIcons > img {
   width: 100%;

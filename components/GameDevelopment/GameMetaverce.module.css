@@ -1,68 +1,59 @@
 .gamedevelopmentmetavercemainbox {
-  height: 100vh;
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures12y.webp");
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+height: 100vh;
+background-image: url("/Images/gamedevelopmentpage/sectionfeatures12y.webp");
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
 }
-
 .gamedevelopermetavercetxtboxes {
-  height: 50%;
-  width: 40%;
-  position: absolute;
-  top: 10%;
-  margin-left: 5%;
-  color: white;
+height: 50%;
+width: 40%;
+position: absolute;
+top: 10%;
+margin-left: 5%;
+color: white;
 }
-
 .specialcolor {
-  color: #ef4c23;
-  text-decoration: none;
+color: #ef4c23;
+text-decoration: none;
 }
-
 .flexinggamermetaverce {
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
-  margin-top: 3%;
-  /* border: 1px solid green; */
+display: flex;
+align-items: center;
+column-gap: 5px;
+margin-top: 3%;
 }
-
 .gamemetaverserightdivwhichinnerimage {
-  height: 30%;
-  width: 20%;
-  position: absolute;
-  margin-left: 75%;
-  top: 15%;
-  border-radius: 10px;
+height: 30%;
+width: 20%;
+position: absolute;
+margin-left: 75%;
+top: 15%;
+border-radius: 10px;
 }
-
 .gamemetaverserightdivwhichinnerimage>img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 0;
+height: 100%;
+width: 100%;
+object-fit: cover;
+z-index: 0;
 }
-
 .gamemetaverserightdivwhichinnerimagenext {
-  height: 30%;
-  width: 20%;
-  position: absolute;
-  left: 65%;
-  top: 25%;
-  border-radius: 10px;
+height: 30%;
+width: 20%;
+position: absolute;
+left: 65%;
+top: 25%;
+border-radius: 10px;
 }
-
 .gamemetaverserightdivwhichinnerimagenext>img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 1;
+height: 100%;
+width: 100%;
+object-fit: cover;
+z-index: 1;
 }
-
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
-  .gamedevelopmentmetavercemainbox {
-    border: 1px solid red;
-  }
+.gamedevelopmentmetavercemainbox {
+border: 1px solid red;
+}
 }

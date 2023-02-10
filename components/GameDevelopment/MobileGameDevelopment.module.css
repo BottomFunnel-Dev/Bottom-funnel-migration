@@ -1,77 +1,61 @@
 .mobilegamedevelopmentmainbox {
-  height: 100vh;
-
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-2.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
+height: 100vh;
+background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-2.webp");
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
 }
-
 .mobiledevelopmentflexboxingleft {
-  width: 50%;
-  position: relative;
+width: 50%;
+position: relative;
 }
-
 .mobiledevelopmentflexingimageonebox {
-  height: 40%;
-  width: 30%;
-
-  position: absolute;
-  left: 40%;
-  top: 20%;
+height: 40%;
+width: 30%;
+position: absolute;
+left: 40%;
+top: 20%;
 }
-
 .mobiledevelopmentflexingimageonebox>img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
-
 .mobiledevelopmentflexingimagetwobox {
-  height: 40%;
-  width: 30%;
-
-  position: absolute;
-  left: 25%;
-  top: 50%;
+height: 40%;
+width: 30%;
+position: absolute;
+left: 25%;
+top: 50%;
 }
-
 .mobiledevelopmentflexingimagetwobox>img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
-
 .mobiledevelopmentflexboxrightgamedevelopment {
-  height: 80%;
-  width: 40%;
-
-  margin-top: 10%;
-  margin-left: 5%;
+height: 80%;
+width: 40%;
+margin-top: 10%;
+margin-left: 5%;
 }
-
 .mobiledevelopmentflexboxrightgamedevelopment>h2 {
-  color: white;
+color: white;
 }
-
 .mobiledevelopmentflexboxrightgamedevelopment>p {
-  color: white;
+color: white;
 }
-
 .specialcolorredish {
-  color: #ef4c23;
-  text-decoration: none;
+color: #ef4c23;
+text-decoration: none;
 }
-
 .flexinggamermetaverce {
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: row;
-  margin-top: 3%;
+display: flex;
+flex-direction: row;
+margin-top: 3%;
 }
-
 .flexinggamermetaverce>h6 {
-  color: white;
-  margin-left: 3%;
-  margin-top: 1%;
+color: white;
+margin-left: 3%;
+margin-top: 1%;
 }
