@@ -79,7 +79,11 @@ export const Tigmoo = () => {
 <img src='Images/portfolio/Tigmo/logo/download (2) 1.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.tigmoo.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
 </div>
     </div>
     

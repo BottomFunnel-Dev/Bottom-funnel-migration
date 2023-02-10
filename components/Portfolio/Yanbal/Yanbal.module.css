@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 border: 1px solid;
 display: flex;
 background: url("/Images/portfolio/yanbal/Background/Group\ 770953.png");
@@ -8,8 +8,6 @@ background-size: 100% 100%;
 color: white;
 display: flex;
 }
-
-
 .yanballeftboxes{
 width: 50%;
 margin-top: 5%;
@@ -44,6 +42,7 @@ font-weight: 800;
 
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 
 .yanbaliconflexbox{
@@ -54,10 +53,9 @@ margin-left: -0%;
 }
 .yanabaliconandeoid{
 width: 30%;
-height: 80%;
+height: 40%;
 border-right: 1px solid white;
 margin-left: 2%;
-padding: 7px;
 }
 
 .yanabaliconandeoid:last-child{

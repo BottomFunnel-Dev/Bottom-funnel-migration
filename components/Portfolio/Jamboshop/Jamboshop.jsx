@@ -38,7 +38,11 @@ export const Jamboshop = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Javascript, Jquery, Bootstrap, Moment.js, Java, Apache, AWS</p>
+<p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap, Moment.Js</p>
+<p><strong>Backend</strong>: Java</p>
+<p><strong>Web servers</strong>: Apache</p>
+<p><strong>Cloud Server</strong>: AWS</p>
+
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
@@ -77,7 +81,12 @@ export const Jamboshop = () => {
 <img src='Images/portfolio/Jambo shop/logo/download.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.jamboshop.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
+
 </div>
     </div>
     

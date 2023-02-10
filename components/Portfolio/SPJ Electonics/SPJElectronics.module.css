@@ -1,5 +1,4 @@
 .nextholidaymainboxes{
- 
 height: 90vh;
  display: flex;
  background: url("/Images/portfolio/Portfolio banners/Group 770961.png");
@@ -44,20 +43,19 @@ padding: 5px;
 .nextholidaywrapbox1>h5{
 font-weight: 900;
 font-size: 15px;
-text-align: center;
+text-align: left;
   
 }
 
 .nextholidaywrapbox1>p{
-font-size: 12px;
-text-align: center;
-margin-top: -0%;
+text-align: left;
+margin: 0;
 
 }
 
 .portfolioavailableonicon{
 display: flex;
- margin: auto;
+margin-left: -5%;
  width: 60%;
 
 }
@@ -96,7 +94,7 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 40%;
 height: 5%;
-margin-left: 8%;
+
   
 
 }
@@ -194,7 +192,6 @@ background: url("/Images/portfolio/Portfolio Mobile Responsive/41.png");
  }
  .portfolioavailableonicon{
  display: flex;
- margin: auto;
  width: 70%;
  }
  .porfolionextholidayicon{

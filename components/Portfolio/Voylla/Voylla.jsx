@@ -34,7 +34,11 @@ export const Voylla = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Bootstrap, Popper, Cloudflare, Cdnjs</p>
+    <p><strong>Frontend</strong>: Javascript, Jquery,</p>
+    <p><strong>Backend</strong>: Ruby</p>
+    <p><strong>Web Servers</strong>: Cloudfare</p>
+    <p><strong>Database</strong>: Shopify</p>
+    
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -59,7 +63,14 @@ export const Voylla = () => {
 <img src='Images/portfolio/voylla/logo/download (2) 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+
+<Link href="https://www.voylla.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     

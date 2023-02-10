@@ -75,8 +75,14 @@ export const Younity = () => {
 <img src='Images/portfolio/Younity/logo/Mobile 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
-    
+<div>
+<Link href="https://www.younity.in/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
+
     </div>
     
     </div>
