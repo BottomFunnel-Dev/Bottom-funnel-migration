@@ -30,10 +30,7 @@ export const VettingTalent = () => {
       </h1>
       <div className={styles.vettingTalentMain}>
         <div className={styles.vettingTalentimage}>
-          {/* <img
-            src="/Images/VettingPhotos/human.png"
-            alt="Vetting Talent section human image"
-          /> */}
+          
           <Image
           src={"/Images/VettingPhotos/human.webp"}
           alt={"humanimage"}
@@ -48,7 +45,6 @@ export const VettingTalent = () => {
           {cardsData.map(({ title, body }) => (
             <div>
               <div className={styles.vettingTalentDots}>
-                {/* <img src="/Images/VettingPhotos/dot.png" alt="Dots icons" /> */}
               <Image
               src={"/Images/VettingPhotos/dot.webp"}
               alt={"dotimage"}

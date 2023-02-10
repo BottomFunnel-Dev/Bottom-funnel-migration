@@ -6,10 +6,7 @@ export const VettingBanner = () => {
   return (
     <div className={styles.vettingBannerContainer}>
       <div className={styles.vettingBannerImage}>
-        {/* <img
-          src="/Images/VettingPhotos/banner.png"
-          alt="Vetting banner human image"
-        /> */}
+        
         <Image
           src={"/Images/VettingPhotos/banner.webp"}
           alt={"Humanimage"}

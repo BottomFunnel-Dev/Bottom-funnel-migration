@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./EnquiryNow.module.css";
-// import Enq from "../images/EnquiryNow.jpg";
-// import Enq from "../../ImageSection/EnquiryNow.jpg";
+
 
 export default function EnquiryNow() {
   return (

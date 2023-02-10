@@ -22,7 +22,6 @@ export const VettingHiring = () => {
         {CardsData.map(({ title, body }) => (
           <div>
             <div className={styles.vettingHiringImage}>
-              {/* <img src="/Images/VettingPhotos/points.png" alt="" /> */}
               <Image
                 src={"/Images/VettingPhotos/points.webp"}
                 alt={"pointsimage"}

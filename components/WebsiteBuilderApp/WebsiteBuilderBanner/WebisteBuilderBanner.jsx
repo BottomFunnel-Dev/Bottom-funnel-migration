@@ -31,7 +31,6 @@ export const WebisteBuilderBanner = () => {
 
                     <div className={styles.websiteBuilderBannerTopImageComp}>
                         <Lottie options={lottieDefaultOptions} width={700} height={600} />
-                        {/* <img src='/Images/WebsiteBuilderApp/BannerTopImage.png' alt='image' /> */}
                     </div>
                 </div>
             </div>
