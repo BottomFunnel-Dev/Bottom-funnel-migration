@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-
 import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
 import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
 import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable";

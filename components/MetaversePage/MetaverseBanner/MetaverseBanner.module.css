@@ -1,84 +1,69 @@
 .MetaverseBannerMain {
-  height: 100vh;
-  padding-left: 5%;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Images/metaversePhotos/banner.webp");
-  background-size: 105%;
-  background-position: top;
-  background-repeat: no-repeat;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+height: 100vh;
+padding-left: 5%;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+url("/Images/metaversePhotos/banner.webp");
+background-size: 105%;
+background-position: top;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
-
 .MetaverseBannerMain > h1 {
-  font-size: 40px;
-  width: 65%;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-
-  color: whitesmoke;
+font-size: 40px;
+width: 65%;
+margin-bottom: 1%;
+margin-top: 1%;
+margin-bottom: 1%;
+color: whitesmoke;
 }
-
 .MetaverseBannerMain > h1 > span {
-  color: #ef4c23;
+color: #ef4c23;
 }
-
 .MetaverseBannerMain > p {
-  font-size: 20px;
-  width: 70%;
-  margin-bottom: 1%;
-  margin-top: 1%;
-
-  color: whitesmoke;
+font-size: 20px;
+width: 70%;
+margin-bottom: 1%;
+margin-top: 1%;
+color: whitesmoke;
 }
-
 .MetaverseBannerMain > button {
-  font-size: 20px;
-  font-weight: 600;
-  height: fit-content;
-  width: fit-content;
-  margin-top: 1%;
-
-  background-color: white;
-  color: #ef4c23;
-  padding: 10px 50px;
-  border-radius: 10px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 20px;
+font-weight: 600;
+height: fit-content;
+width: fit-content;
+margin-top: 1%;
+background-color: white;
+color: #ef4c23;
+padding: 10px 50px;
+border-radius: 10px;
+outline: none;
+border: none;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .MetaverseBannerMain > button:hover {
-  color: white;
-  background-color: #ef4c23;
+color: white;
+background-color: #ef4c23;
 }
-
 .EnterpriseSliderHrLine {
-  width: 30%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+width: 30%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-
 .EnterpriseSliderHrLine > div {
-  border: 2px solid #fff;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
+border: 2px solid #fff;
+width: 20px;
+height: 20px;
+border-radius: 20px;
 }
-
 .EnterpriseSliderHrLine > span {
-  width: 46%;
-  height: 2px;
-  background-color: #fff;
-  color: #fff;
+width: 46%;
+height: 2px;
+background-color: #fff;
+color: #fff;
 }

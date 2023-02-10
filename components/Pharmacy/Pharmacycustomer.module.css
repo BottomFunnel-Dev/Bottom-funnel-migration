@@ -1,9 +1,7 @@
 .pharmacycustomer {
   width: 100%;
   height: 600px;
-  /* background-color: aqua; */
 }
-
 .pharmacycustomer > h1 {
   margin-left: 5%;
   color: #5cacb2;
@@ -20,18 +18,15 @@
   width: 40%;
   height: 490px;
   padding: 10px;
-  /* background-color: blueviolet; */
   display: flex;
 }
 
 .pharmacycustomerright {
-  /* background-color: blue; */
   width: 58%;
   height: 490px;
   display: flex;
   flex-wrap: wrap;
   margin-left: 2%;
-  /* border: 1px solid red; */
 }
 
 .pharmacycustomerright > div {
@@ -49,9 +44,7 @@
 .pharmacycustomerright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

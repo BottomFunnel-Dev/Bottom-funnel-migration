@@ -1,7 +1,6 @@
 .pharmacydrive {
   width: 100%;
   height: 650px;
-  /* background-color: cornflowerblue; */
 }
 .pharmacydrive > h1 {
   margin-left: 60%;
@@ -12,13 +11,10 @@
   height: 500px;
   margin-top: 2%;
   justify-content: space-between;
-  /* background-color:  chocolate; */
   display: flex;
 }
 .pharmacydriveleft {
   width: 50%;
-
-  /* background-color: blue; */
   height: 500px;
   background: url("/Images/pharmacy/lastrectangle.png");
   background-repeat: no-repeat;
@@ -26,11 +22,6 @@
   margin-left: -3%;
   position: relative;
 }
-/* .pharmacydriveright{
-      width: 50%;
-      height: 500px;
-      background-color:  rgb(210, 30, 78)
-  } */
 
 .pharmacydriveright {
   width: 45%;
@@ -56,9 +47,7 @@
 .pharmacydriveright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -74,7 +63,6 @@
   z-index: 2;
   margin-top: 4%;
   margin-left: 20%;
-  /* background-color: red; */
 }
 
 .pharmacyDriveImage > img {
