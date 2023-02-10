@@ -32,7 +32,7 @@ export const Nextholiday = () => {
     </div>
     
     <div className={styles.nextholidayrighttbox}>
-    <h1>Next Holiday</h1>
+    <h1>Next Holidays</h1>
     <p>When you feel like you need a break from your hectic routine, take a trip to Portfolio bottom funnel. We've got everything you're looking for in an escape: a quiet retreat, great food, and friendly service. Our modern, rustic-style restaurant is perfect for any occasion.</p>
     <div className={styles.nextholidayrightinsideflexbox}>
   <div className={styles.nextholidaywrapbox1}>
