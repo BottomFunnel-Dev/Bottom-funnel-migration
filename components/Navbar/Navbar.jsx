@@ -170,7 +170,7 @@ const Navbar = ({ navredux, productMount }) => {
               onClick={() => router.push("https://www.bottomfunnel.net/")}
               className={navstyle.ProductPageRouteButton}
             >
-              Product
+              Products
             </button>
 
             <button

@@ -33,6 +33,7 @@ export const WifiStudy = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
+    
     <p>Javascript, JQuery, Mordernizr, JAVA, Microsoft</p>
     </div>
     <div className={styles.yanbalindibox}>
