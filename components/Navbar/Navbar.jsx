@@ -121,7 +121,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                ABOUT
+                About
               </li>
 
               <li
@@ -129,7 +129,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                SERVICES
+                Services
               </li>
 
               <li
@@ -137,7 +137,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                SOLUTIONS
+                Solutions
               </li>
 
               <li
@@ -145,14 +145,14 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                INDUSTRIES
+                Industries
               </li>
 
               <li
                 onClick={() => router.push("portfolio")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                PORTFOLIO
+                Portfolio
               </li>
               
               <li
@@ -160,7 +160,7 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => { hoverhandle("") }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                RESOURCES
+                Resources
               </li>
 
 
