@@ -28,8 +28,8 @@ border-right: 3px solid #ef4c23;
 }
 
 .marketplaceiconbox{
-height: 100%;
-width: 12%;
+height: fit-content;
+width: 9%;
 margin-left: 2%;
 padding: 20px;
  
