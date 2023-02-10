@@ -94,9 +94,7 @@
   object-fit: contain;
 }
 
-
 /* Media query for the Mobile Device */
-
 @media (max-width: 480px) {
   .plantBasedAdminPanel {
     width: 100%;

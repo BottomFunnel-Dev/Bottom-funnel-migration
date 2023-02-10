@@ -4,35 +4,33 @@ border-color: aqua;
 height:270px;
 background-color: white;
 }
- 
+
 .szPoliticalsub{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    height: 200px;
-    padding: 20px;
-    /* background-color: rgb(103, 35, 35); */
-    background: url("/Images/Politics/lightbluebg.png");
-    background-repeat: no-repeat;
-    background-size: 100% 450px;
-    position: relative;
+width: 100%;
+margin: auto;
+display: flex;
+height: 200px;
+padding: 20px;
+background: url("/Images/Politics/lightbluebg.png");
+background-repeat: no-repeat;
+background-size: 100% 450px;
+position: relative;
 }
 
 .szPoliticaldiv{
-    width: 70%;
-    padding: 30px 20px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 52%;
-    font-size: 18px;
-    left:38%;
+width: 70%;
+padding: 30px 20px;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 52%;
+font-size: 18px;
+left:38%;
 }
  .szpolitichead{
-    width: 55%;
-    margin-left: 4%; 
+width: 55%;
+margin-left: 4%; 
  }
  
-
  .szpolitichead >h1{
-    font-size: 40px;
+font-size: 40px;
  }
