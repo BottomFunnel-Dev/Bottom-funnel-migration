@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/Younity/Background/Group 770828.png");
 background-repeat: no-repeat;
@@ -43,6 +43,7 @@ font-weight: 800;
 }
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 .yanbaliconflexbox{
 width: 40%;

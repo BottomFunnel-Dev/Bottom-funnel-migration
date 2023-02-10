@@ -38,7 +38,10 @@ export const Tigmoo = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p><strong>Frontend:</strong>Javascript, Jquery, Bootstrap</p>
+<p><strong>Backend:</strong>-</p>
+<p><strong>Web Servers:</strong>CloudFlare</p>
+<p><strong>Database:</strong>-</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
@@ -76,7 +79,11 @@ export const Tigmoo = () => {
 <img src='Images/portfolio/Tigmo/logo/download (2) 1.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.tigmoo.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
 </div>
     </div>
     

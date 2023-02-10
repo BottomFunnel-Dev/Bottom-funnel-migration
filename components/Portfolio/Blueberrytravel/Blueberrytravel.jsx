@@ -42,7 +42,10 @@ export const Blueberrytravel = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Javascript, Jquery, Bootstrap, Moment.js, Java, Apache, AWS</p>
+<p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap</p>
+<p><strong>Backend</strong>: Php, Database Management System, CdnJs, Jsdelivr</p>
+<p><strong>Web Servers</strong>: Nginx, Digital Ocean</p>
+
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
@@ -77,7 +80,11 @@ export const Blueberrytravel = () => {
 <img src='Images/portfolio/Portfolio banners/BBT_WHITE_2.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.blueberry-travel.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
 </div>
     </div>
     

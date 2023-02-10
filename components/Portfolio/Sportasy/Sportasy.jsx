@@ -33,7 +33,11 @@ export const Sportasy = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Mordernizr, JAVA, Microsoft</p>
+    <p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap, Popper</p>
+    <p><strong>Web Servers</strong>: Cloudflare</p>
+    <p><strong>Database</strong>: CdnJs</p>
+
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>

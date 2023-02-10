@@ -1,6 +1,6 @@
 .nextholidaymainboxes{
 /* border: 1px solid red; */
-height: 85vh;
+height: fit-content;
  display: flex;
  background: url("/Images/portfolio/Tigmo/background/Group 372.png");
  background-size: 100% 100%;
@@ -26,6 +26,7 @@ margin-top: 5%;
 
 .nextholidayrighttbox>p{
 font-size: smaller;
+
 }
 
 .nextholidayrightinsideflexbox{
@@ -45,20 +46,19 @@ padding: 5px;
 .nextholidaywrapbox1>h5{
 font-weight: 900;
 font-size: 15px;
-text-align: center;
+text-align: left;
 
 }
 
 .nextholidaywrapbox1>p{
-font-size: 12px;
-text-align: center;
-margin-top: -0%;
+
+text-align: left;
+margin: 0;
 
 }
 
 .portfolioavailableonicon{
 display: flex;
-  margin: auto;
   width: 60%;
 
 }

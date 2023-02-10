@@ -47,6 +47,7 @@ display: flex;
     
     .yanbalindibox p{
     width: 60%;
+    margin: 0;
     }
     
     .yanbaliconflexbox{
@@ -59,10 +60,10 @@ display: flex;
     
     .yanabaliconandeoid{
     width: 30%;
-    height: 80%;
+    height: 35%;
     border-right: 1px solid black;
-    margin-left: 2%;
-    padding: 7px;
+
+   
     }
     
     .yanabaliconandeoid:last-child{
@@ -70,7 +71,7 @@ display: flex;
     }
     
     .yanabaliconandeoid>img{
-    height: 100%;
+    height: 150%;
     width: 100%;
     object-fit: contain;
     }

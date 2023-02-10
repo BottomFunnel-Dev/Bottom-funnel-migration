@@ -24,6 +24,28 @@ const PortFolio = () => {
     // cssEase: "linear",
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          vertical: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          vertical: false,
+          infinite:true,
+        },
+      },
+    ],
   };
   // "mainSlide"
 
@@ -223,7 +245,8 @@ const PortFolio = () => {
   return (
     <div className={styles.portfolioSection}>
       <h1>Our Work</h1>
-      <Slider {...settings}>
+     <div>
+     <Slider {...settings}>
         {portfolioData.map((item, i) => (
           <div
             key={i}
@@ -237,7 +260,6 @@ const PortFolio = () => {
               className={styles.leftAnime}
               style={{ background: `${item.leftimg}` }}
             >
-              {/* <img src={item.leftimg} alt="image" /> */}
               <span className={styles.portfolioText}>
                 <h1>{item.title}</h1>
                 <h6>{item.tagline}</h6>
@@ -299,6 +321,7 @@ const PortFolio = () => {
                 </button>
               </span>
             </div>
+
             <div className={styles.rightAnime}>
               <img src={item.rightImg} alt="image" />
 
@@ -306,7 +329,13 @@ const PortFolio = () => {
             </div>
           </div>
         ))}
+
+
+      
+
+    
       </Slider>
+     </div>
     </div>
   );
 };

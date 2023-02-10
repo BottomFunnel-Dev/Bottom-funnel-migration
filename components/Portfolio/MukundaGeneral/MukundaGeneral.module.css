@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85%;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/Portfolio banners/Group 770996.png");
 background-repeat: no-repeat;
@@ -16,7 +16,7 @@ margin-left: 3%;
 
 .yanballeftboxes>p{
 text-align: justify;
-font-size: 14px;
+
 }
 
 .androidappicon>img{
@@ -50,6 +50,7 @@ font-weight: 800;
 
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 
 .yanbaliconflexbox{
@@ -79,6 +80,8 @@ object-fit: contain;
 .yanballogoboxingalongflex{
 height: 20%;
 width: 30%;
+margin-bottom: 5%;
+margin-top: 5%;
 }
 
 .yanballogoboxingalongflex>img{
@@ -103,7 +106,7 @@ font-size: 14px;
 font-weight: 600;
 color: white;
 margin-left: 50%;
-margin-top: 15%;
+margin-top: 30%;
 }
 
 .yanabalbuttonalongflex:hover{

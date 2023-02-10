@@ -33,6 +33,7 @@ export const WifiStudy = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
+    
     <p>Javascript, JQuery, Mordernizr, JAVA, Microsoft</p>
     </div>
     <div className={styles.yanbalindibox}>
@@ -71,7 +72,13 @@ export const WifiStudy = () => {
 <img src='Images/portfolio/wifi study/logo/Mobile 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://www.wifistudy.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     
