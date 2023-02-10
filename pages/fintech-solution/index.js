@@ -5,16 +5,6 @@ import { FintechCustomerApp } from "../../components/FintexhSolution/FintechCust
 import { FintechAdminpannel } from "../../components/FintexhSolution/FintechAdminpannel";
 import { FintechDriverApp } from "../../components/FintexhSolution/FintechDriverApp";
 import { FintechWhyChooseUs } from "../../components/FintexhSolution/FintechWhyChooseUs";
-<<<<<<< HEAD
-import { TextDropdown } from "../../components/CommonComponents/faqSection/Faqs";
-import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import { SeoblogSection } from "../../components/CommonComponents/SeoBlogs/Seoblogs";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import Revamping from "../../components/revamping/Revamping";
-import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
-import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
-=======
 
 import dynamic from "next/dynamic";
 const TextDropdown = dynamic(
@@ -51,7 +41,6 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
->>>>>>> c00e2e7cac480fb64b1e9e5f3cb77b61d0bea368
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
