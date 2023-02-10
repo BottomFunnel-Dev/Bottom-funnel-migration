@@ -49,7 +49,6 @@ export const VettingRoles = () => {
               <div key={idx}>
                 <span>
                   <h4>{title}</h4>
-                  {/* <img src={icons} alt={title} /> */}
                 <div className={styles.vettingRolesCardsIconsImages}>
                 <Image
                 src={icons}

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './SeoguestEnquiry.module.css';
-// import Enq from '../Images/EnquiryNow.jpg'
 import guest2 from '../ImageSection/guest2.jpg'
 
 export default function SeoguestEnquiryNow() {

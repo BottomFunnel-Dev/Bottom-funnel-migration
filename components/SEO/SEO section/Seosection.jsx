@@ -1,5 +1,4 @@
 import React from "react";
-// import { SeoForm } from "../seoForm/SeoForm";
 import { SeoForm } from "../seoForm/SeoForm";
 import styles from "./Seosection.module.css";
 

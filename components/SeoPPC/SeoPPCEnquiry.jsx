@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './SeoPPCEnquiry.module.css';
-// import Enq from '../Images/EnquiryNow.jpg'
 
 export default function SeoPPCEnquiryNow() {
     return (

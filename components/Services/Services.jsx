@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import styles from "./services.module.css";
 import { FaMobileAlt } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-// import {Link,  useNavigate } from "react-router";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Services() {
-  // const navigate = useNavigate();
   let arr = [
     {
       serviceIcon: <FaMobileAlt />,

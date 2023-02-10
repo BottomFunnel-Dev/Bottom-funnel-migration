@@ -21,10 +21,7 @@ export const VettingProcess = () => {
           them.
         </p>
         <div>
-          {/* <img
-            src="/Images/VettingPhotos/flowchart.png"
-            alt="vetting flow chart"
-          /> */}
+          
           <Image
           src={"/Images/VettingPhotos/flowchart.webp"}
           alt={"chartimage"}
