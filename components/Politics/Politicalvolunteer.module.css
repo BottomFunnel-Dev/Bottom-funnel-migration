@@ -1,23 +1,14 @@
 .volunteerdiv {
   width: 100%;
-  /* background-color: aqua; */
-  /* height: 7px; */
-
   background-color: white;
 }
 .volunteersub {
   width: 92%;
-  margin: auto;
-  /* display: flex; */
-  /* height: 700px; */
-  /* background-color: chartreuse; */
-  
+  margin: auto;  
 }
 .szvolunteer {
   width: 50%;
-  /* background-color: rgb(12, 71, 71); */
   display: flex;
-  /* align-items: center; */
   gap: 15px;
 
 text-align: justify;
@@ -32,7 +23,6 @@ text-align: justify;
   height: 100%;
 }
 .volunteerhead {
-  /* margin: 3%; */
   width: 90%;
 }
 .volenterpara {
