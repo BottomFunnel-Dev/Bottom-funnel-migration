@@ -1,5 +1,4 @@
 import React from "react";
-
 import Logisticcontainer from "../../components/Logistic/Logisticcontainer";
 import { logisticsLogo } from "../../components/Data/SeopartnerData";
 import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";

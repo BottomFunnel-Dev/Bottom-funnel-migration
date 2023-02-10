@@ -1,14 +1,11 @@
 import React from "react";
-
 import LaudryApplication from "../../components/LaundryPage/LaudryApplication";
 import LaundryAdmin from "../../components/LaundryPage/LaundryAdmin";
 import { Laundryapppagelowerfooter } from "../../components/LaundryPage/Laundryapppagelowerfooter";
-
 import LaundryBannerlower from "../../components/LaundryPage/LaundryBannerlower";
 import LaundryCustomer from "../../components/LaundryPage/LaundryCustomer";
 import LaundryDelivery from "../../components/LaundryPage/LaundryDelivery";
 import LaundryPageBanner from "../../components/LaundryPage/LaundryPageBanner";
-
 import dynamic from "next/dynamic";
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),

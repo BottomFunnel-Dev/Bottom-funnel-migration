@@ -147,7 +147,6 @@
   margin: 1%;
   border-radius: 10px;
   padding: 10px;
-  /* border: 2px solid red; */
 }
 
 .laundryflexboxleftdivflexbox:hover {
@@ -159,7 +158,6 @@
   height: 40px;
   width: 40px;
   margin-bottom: 0%;
-  /* border: 2px solid red; */
 }
 
 .laundryflexboxleftdivflexboxicon > img {
@@ -187,7 +185,7 @@
   height: 650px;
   margin-top: 3%;
   margin-left: 5%;
-  /* border: 2px solid red; */
+
 }
 
 .laundryflexboxrightdiv > img {
@@ -222,29 +220,23 @@
 .laundrydeliveryappflexboxleftimagesof {
   position: relative;
   height: 100%;
-  /* border: 2px solid red; */
 }
 
 .laundrydeliveryappflexboxleftimagesof1 {
   position: absolute;
   z-index: 0;
   height: 100%;
-  /* border: 2px solid red; */
 }
 .laundrydeliveryappflexboxleftimagesof2 {
   position: absolute;
   z-index: 1;
-  /* border: 2px solid red; */
 }
 
 .laundryfleximage1o1 {
   position: absolute;
-  /* height: 180%; */
   width: 100%;
   z-index: 0;
   right: 10%;
-  /* margin-top: -200px; */
-  /* border: 2px solid red; */
 }
 
 .laundryfleximage1o2 {
@@ -275,7 +267,6 @@
   border-radius: 10px;
   padding: 10px;
   text-align: justify;
-  /* border: 2px solid red; */
 }
 
 .laundryflexboxleftdivflexboxfordelivery:hover {
@@ -297,12 +288,10 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;
-  /* border: 2px solid red; */
 }
 
 .bannerlowerlaundrypageappinsiderimagetxt {
   color: white;
-  /* border: 2px solid red; */
   position: absolute;
   top: 40%;
   width: 60%;
@@ -321,7 +310,6 @@
   margin-top: 10%;
   margin-bottom: 10%;
 }
-
 .marketplaceadmin2ndchildlaundrypage {
   position: absolute;
   width: 100%;
@@ -334,7 +322,6 @@
 
 .flexboxadminagainlaundrypage {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   height: fit-content;
   width: 45%;
@@ -387,14 +374,11 @@
   background-color: white;
   margin: 2%;
 }
-
-
 .solutionsFeatures {
   display: flex;
 }
 .laundrypagefooterbanner {
   height: fit-content;
-
   margin-top: 5%;
 }
 
@@ -418,7 +402,6 @@
   margin: auto;
   height: 150px;
   border-radius: 10px;
-  /* border: 2px solid red; */
   justify-content: center;
 }
 
@@ -427,7 +410,6 @@
   width: 50px;
   text-align: center;
   margin: auto;
-  /* border: 2px solid red; */
   margin-top: 7%;
 }
 
@@ -435,17 +417,12 @@
   height: 100%;
   width: 100%;
   text-align: center;
-  /* object-fit: contain; */
-  /* padding: 10px; */
 }
 
 .cardtitlelaundry {
-  /* margin: 5% 5% 3% 25%; */
-  /* border: 2px solid red; */
   text-align: center;
 }
 .laundryflexboxleftdivflexboxicontxt > h3 {
-  /* border: 2px solid red; */
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;
@@ -456,7 +433,6 @@
 }
 
 .laundryflexboxleftdivflexboxicontxt > p {
-  /* border: 2px solid red; */
   margin-top: 0%;
   font-size: 15px;
   line-height: 20px;
@@ -465,7 +441,6 @@
 }
 
 .laundryadmindatamappingindi > h4{
-  /* border: 2px solid red; */
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;
@@ -476,7 +451,6 @@
 }
 
 .laundryadmindatamappingindi > p {
-  /* border: 2px solid red; */
   margin-top: 0%;
   font-size: 15px;
   line-height: 20px;
