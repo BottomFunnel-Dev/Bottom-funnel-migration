@@ -1,7 +1,7 @@
 .mobileuxuib2csolutionmainboxes{
     height: fit-content;
     background-color: white;
-
+    /* border: 2px solid red; */
     padding-top: 5%;
 }
 
@@ -14,15 +14,16 @@
     width: 60%;
     text-align: justify;
     padding-bottom: 1%;
+    /* border: 2px solid  red; */
 }
 
 
 .mobilesolutionuxuib2bb2cbanner {
-    height: fit-content;
+    height: 550px;
     width: 100%;
     border: 1px solid white;
 
-    background: url("/Images/MobileUIUXDesign/BannerBackgrounds/Component 65.png");
+    background: url("/Images/MobileUIUXDesign/BannerBackgrounds/Component 65.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
    
@@ -65,17 +66,21 @@ color: white;
 .mobiledatapublishb2bb2c{
     height: 50%;
     width: 60%;
- 
+    
     display: flex;
     flex-wrap: wrap;
-  margin: auto;
-  margin-top: 2%;
+    margin: auto;
+    margin-top: 2%;
 }
 
 .mobiledatapublishb2bb2caftermappingbox{
-    width: fit-content;
-
-    height: fit-content;
-  margin: 1%;
+    width:120px;
+    /* border: 2px solid green; */
+    height: 120px;
+    margin: 1%;
     padding: 5px;
+}
+.mobiledatapublishb2bb2caftermappingbox>p{
+    /* border: 2px solid red; */
+    text-align: center;
 }

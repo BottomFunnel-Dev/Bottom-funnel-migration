@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AnalysisWhyBF.module.css";
+import Image from "next/image";
 
 export const AnalysisWhyBF = () => {
   const cardsData = [
@@ -13,7 +14,7 @@ export const AnalysisWhyBF = () => {
         "Explicability (every decision step is clearly seen in the code).",
         "Easy debugging.",
       ],
-      image: "Images/AnalysisSoftwarePhotos/process.png",
+      image: "/Images/AnalysisSoftwarePhotos/process.webp",
     },
     {
       title: "Machine learning approach",
@@ -24,7 +25,7 @@ export const AnalysisWhyBF = () => {
         "Easier scalability.",
         "Lower operational costs.",
       ],
-      image: "Images/AnalysisSoftwarePhotos/router.png",
+      image: "/Images/AnalysisSoftwarePhotos/router.webp",
     },
   ];
 
@@ -38,16 +39,27 @@ export const AnalysisWhyBF = () => {
       </div>
       <div className={styles.AnalysisWhyBFMain}>
         <div className={styles.AnalysisWhyBFImage}>
-          <img
-            src="Images/AnalysisSoftwarePhotos/big-left-image.png"
-            alt="big-left-image.png"
-          />
+              <Image
+                  src={"/Images/AnalysisSoftwarePhotos/big-left-image.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={styles.AnalysisWhyBFCards}>
           {cardsData.map(({ title, points, body, image }) => (
             <div key={title}>
               <div>
-                <img src={image} alt={title} />
+                <Image
+                    src={image}
+                    alt={title}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <h2>{title}</h2>
               <p>{body}</p>

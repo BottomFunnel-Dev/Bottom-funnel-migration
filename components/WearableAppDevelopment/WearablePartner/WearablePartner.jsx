@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './WearablePartner.module.css';
+import Image from 'next/image';
 
 export const WearablePartner = () => {
    return (
@@ -18,7 +19,14 @@ export const WearablePartner = () => {
                   </p>
                </div>
                <div className={styles.wearablePathImg}>
-                  <img src='/Images/wearable/whyChooseWearable.png' className={styles.wearablePathImgdiv} alt="image"/>
+               <Image
+                    src={"/Images/wearable/whyChooseWearable.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
                </div>
             </div>
             <div className={styles.wearableInnerMaindiv5BoxDiv}>
@@ -26,7 +34,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Education </h4>
                      <p>
@@ -36,7 +44,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-1.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-1.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Fitness App Development </h4>
                      <p>
@@ -46,7 +54,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-2.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-2.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Wearable App Upgrade </h4>
                      <p>
@@ -61,7 +69,7 @@ export const WearablePartner = () => {
 
 <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-7.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-7.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Security</h4>
                      <p>
@@ -71,7 +79,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-8.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-8.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Smooth Navigation </h4>
                      <p>
@@ -81,7 +89,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-3.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-3.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Support and Maintenance </h4>
                      <p>
@@ -96,7 +104,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-6.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-6.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Extensive Experience </h4>
                      <p>
@@ -105,7 +113,7 @@ export const WearablePartner = () => {
                   </div>
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-5.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-5.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> On time, in Budget </h4>
                      <p>
@@ -114,7 +122,7 @@ export const WearablePartner = () => {
                   </div>
                   <div className={styles.wearableInnerMaindiv4Row}>
                      <div className={styles.wearabledivbox}>
-                        <img src='/Images/wearable/lightbulb-4.png' alt='logo' className={styles.wearableimag} />
+                        <img src='/Images/wearable/lightbulb-4.webp' alt='logo' className={styles.wearableimag} />
                      </div>
                      <h4> Support and Maintenance  </h4>
                      <p>
@@ -140,7 +148,7 @@ export const WearablePartner = () => {
                <div className={styles.wearableInnerMaindiv4FirstDivBox}>
                   <div className={styles.wearable1stdivbox}>
                      <div className={styles.wearablelogo}>
-                        <img src='/Images/wearable/platform 2.png' alt='logo' className={styles.wearablelogoimg} />
+                        <img src='/Images/wearable/platform 2.webp' alt='logo' className={styles.wearablelogoimg} />
                      </div>
                      <div>
                         <h3> Discover </h3>
@@ -154,7 +162,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearable1stdivbox}>
                      <div className={styles.wearablelogo}>
-                        <img src='Images/wearable/approved 2.png' alt='logo' className={styles.wearablelogoimg} />
+                        <img src='Images/wearable/approved 2.webp' alt='logo' className={styles.wearablelogoimg} />
                      </div>
                      <div>
                         <h3> Wireframe/Design </h3>
@@ -171,7 +179,7 @@ export const WearablePartner = () => {
                <div className={styles.wearableInnerMaindiv4FirstDivBox}>
                   <div className={styles.wearable1stdivbox}>
                      <div className={styles.wearablelogo}>
-                        <img src='Images/wearable/app-development (2) 2.png' alt='logo' className={styles.wearablelogoimg} />
+                        <img src='Images/wearable/app-development (2) 2.webp' alt='logo' className={styles.wearablelogoimg} />
                      </div>
                      <div>
                         <h3> Development </h3>
@@ -186,7 +194,7 @@ export const WearablePartner = () => {
 
                   <div className={styles.wearable1stdivbox}>
                      <div className={styles.wearablelogo}>
-                        <img src='Images/wearable/technical-support 2.png' alt='logo' className={styles.wearablelogoimg} />
+                        <img src='Images/wearable/technical-support 2.webp' alt='logo' className={styles.wearablelogoimg} />
                      </div>
                      <div>
                         <h3> Deployment </h3>

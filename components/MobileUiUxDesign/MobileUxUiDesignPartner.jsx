@@ -1,63 +1,64 @@
 import React from 'react'
 import styles from "./MobileUxUiDesignPartner.module.css"
+import Image from 'next/image';
 
 export const MobileUxUiDesignPartner = () => {
 
     const designpartnerdata = [
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb.webp",
             htxt: "Build Customer Journeys",
             stxt: "Keeping end-users and their expectations in mind, we build up user persinas of all projects,discover and map product's customer journey.",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-1.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-1.webp",
             htxt: "Rapid Prototyping",
             stxt: "With fast,cost-effective,easy to change and talk-about concepts,we specialize in graphical user interface design and dev. ",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-2.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-2.webp",
             htxt: "Top Visual Design Systems",
             stxt: "We have an exyensive experience remarkable visual interfaces using style guides, grid systems, typography,mood boards.",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-7.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-7.webp",
             htxt: "Advance Technology",
             stxt: "The Tools, frameworks and technologies used for UI/UX design at kanstant are latest and as per industry standards.",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-8.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-8.webp",
             htxt: "Quality Assurance",
             stxt: "We have a dedicated quality assurance team who are experts in testing merhodologies and proticols.",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-3.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-3.webp",
             htxt: "Perfect UI Development",
             stxt: "A team of some of the world's top front-end developers who code high-performance HTML, CSS, and JS interfaces. ",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-6.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-6.webp",
             htxt: "Iterative & Collaborative",
             stxt: "We include Clients in every decision we make at each phase of development and work iteratively for the changes required.",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-5.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-5.webp",
             htxt: "User-Centric Delivery",
             stxt: "Whether it's design or experience,information architecture or navigation  model,the final project delivery is always user-centered.",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/lightbulb-4.png",
+            icon: "/Images/MobileUIUXDesign/Icons/lightbulb-4.webp",
             htxt: "Accurate Project Estimates",
             stxt: "With our Prototypes so identical to the real-time app.you get the exact time and cost estimates before starting with the project. ",
         },
@@ -80,7 +81,16 @@ export const MobileUxUiDesignPartner = () => {
             <div className={styles.mobileuxuidesignpartnerdatamappingmainbox}>{designpartnerdata.map((e) => {
                 return (
                     <div className={styles.mobileuxuidesignpartnerindividualdatabox}>
-                        <div className={styles.mobileuxuidesignpartnerindividualdataboxlogo}><img src={e.icon} alt='image' /> </div>
+                        <div className={styles.mobileuxuidesignpartnerindividualdataboxlogo}>
+                                 <Image
+                                        src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
+                        </div>
                         <div className={styles.mobileuxuidesignpartnerindividualdataboxtxt}><h4>{e.htxt}</h4>
                             {e.stxt}
                         </div>

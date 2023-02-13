@@ -1,11 +1,11 @@
 .mobilekickstartbannerfootermainbox{
 height: 280px;
 border: 1px solid white;
-background: url("/Images/MobileUIUXDesign/BannerBackgrounds/aerial-view-business-team 3.png");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-position: relative;
+    background: url("/Images/MobileUIUXDesign/BannerBackgrounds/aerial-view-business-team 3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    position: relative;
 }
 
 .mobilekickstartbannerfootertext{

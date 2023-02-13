@@ -1,85 +1,109 @@
 .ionicAppBannermainbox {
-height: 95vh;
-width: 99.85%;
-border: 1px solid white;
-background-image: url("/Images/IonicAppDevelopment/Ionic.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-display: flex;
-justify-content:space-between ;
-margin-top: 100px;
-}
-.ionicIcon{
-margin-top: 10%;
-margin-right: 2%;
-}
-.ionicAppBannermainboxinnertextdiv {
-width: 40%;
-margin-top: 16%;
-margin-left: 3%;
-text-align: left;
-color: white;
-}
-.ionicAppBannermainboxinnertextdiv p{
-text-align: justify;
-}
-.ionicAppBannerbutton {
-padding: 10px 50px;
-border-radius: 10px;
-width: 220px;
-background-color: white;
-border: none;
-outline: none;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-font-size: 18px;
-font-weight: 600;
-color: #3380f2;
-}
-.ionicAppBannerbutton:hover {
-background-color: #3380f2;
-color: white;
-}
+    height: 95vh;
+    width: 99.85%;
+    border: 1px solid white;
+    /* margin-top: 120px; */
+    background-image: url("/Images/IonicAppDevelopment/Ionic.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 100px;
 
-@media only screen and (min-width:0px) and (max-width:1024px){
-.ionicAppBannermainbox {
-height: 100vh;
-width: 99.85%;
-border: 1px solid white;
-background-image: none;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-display: flex;
-justify-content:space-between ;
-}
-.ionicIcon{
-margin-top: 10%;
-margin-right: 2%;
-}
+  }
+  .ionicIcon{
+  /* border: 2px solid yellow; */
+  margin-top: 10%;
+  margin-right: 2%;
+  /* width: 40%; */
+  }
+  
+  .ionicAppBannermainboxinnertextdiv {
+    /* height: 50%; */
+    width: 40%;
+    margin-top: 16%;
+    /* justify-content: end; */
+     /* margin-left: -15%;  */
+     margin-left: 3%;
+     /* margin: auto; */
+    text-align: left;
+    color: white;
+    /* border: 2px solid red; */
+  }
+  .ionicAppBannermainboxinnertextdiv p{
+    /* font-size: 18px; */
+    text-align: justify;
+  }
 
-.ionicAppBannermainboxinnertextdiv {
-height: 50%;
-width: 95%;
-margin-top: 70%;
- margin-left: 5%; 
-text-align: left;
-color:black;
-}
-.ionicAppBannerbutton {
-padding: 10px 50px;
-border-radius: 10px;
-width: 220px;
-background-color: white;
-border: none;
-outline: none;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-font-size: 18px;
-font-weight: 600;
-color: #3380f2;
-}
-.ionicAppBannerbutton:hover {
-background-color: #3380f2;
-color: white;
-}
-}
+  
+  .ionicAppBannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3380f2;
+  }
+  
+  .ionicAppBannerbutton:hover {
+    background-color: #3380f2;
+    color: white;
+  }
+  
+  @media only screen and (min-width:0px) and (max-width:1024px){
+    .ionicAppBannermainbox {
+      height: 100vh;
+      width: 99.85%;
+      border: 1px solid white;
+      /* margin-top: 120px; */
+      background-image: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content:space-between ;
+  
+    }
+    .ionicIcon{
+    /* border: 2px solid yellow; */
+    margin-top: 10%;
+    margin-right: 2%;
+    /* width: 40%; */
+    }
+   
+    
+    .ionicAppBannermainboxinnertextdiv {
+      height: 50%;
+      width: 95%;
+      margin-top: 70%;
+       margin-left: 5%; 
+       /* margin: auto; */
+      text-align: left;
+      color:black;
+      /* border: 2px solid red; */
+    }
+  
+    
+    .ionicAppBannerbutton {
+      padding: 10px 50px;
+      border-radius: 10px;
+      width: 220px;
+      background-color: white;
+      border: none;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-size: 18px;
+      font-weight: 600;
+      color: #3380f2;
+    }
+    
+    .ionicAppBannerbutton:hover {
+      background-color: #3380f2;
+      color: white;
+    }
+  }

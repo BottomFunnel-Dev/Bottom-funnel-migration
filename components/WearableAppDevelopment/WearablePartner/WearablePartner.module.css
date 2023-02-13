@@ -93,7 +93,7 @@
   display: flex;
   flex-direction: column;
 
-  background: url("/public/Images/wearable/Rectangle 4559.png");
+  background: url("/public/Images/wearable/Rectangle 4559.webp");
   background-size: 100% 50%;
   background-position: center;
   /* margin-top: 5%; */
@@ -217,7 +217,7 @@ padding: 10px;
 
 .wearablebannerdiv {
   /* border: 2px solid red; */
-  background-image: url("/Images/wearable/bgimage.png");
+  background-image: url("/Images/wearable/bgimage.webp");
   color: white;
   margin-top: 3%;
   height: 300px;
@@ -349,7 +349,7 @@ padding: 5px 5px 5px 5px;
     display: flex;
     flex-direction: column;
   
-    background: url("/public/Images/wearable/Rectangle 4559.png");
+    background: url("/public/Images/wearable/Rectangle 4559.webp");
     background-size: 100% 50%;
     background-position: center;
     /* margin-top: 5%; */
@@ -474,7 +474,7 @@ padding: 5px 5px 5px 5px;
   
   .wearablebannerdiv {
     /* border: 2px solid red; */
-    background-image: url("/Images/wearable/bgimage.png");
+    background-image: url("/Images/wearable/bgimage.webp");
     color: white;
     margin-top: 3%;
     height: fit-content;

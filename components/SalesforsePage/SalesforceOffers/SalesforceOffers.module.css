@@ -53,9 +53,9 @@
   margin: 1% auto;
 }
 
-.SalesforceOffersMain > div > div {
-  height: 80px;
-  width: 80px;
+.SalesforceOffersMain > div >.SalesforceOffersImage {
+  height: 60px;
+  width: 60px;
 
   display: flex;
   align-items: center;
@@ -68,6 +68,4 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.SalesforceOffersMain > div > div > img {
-  height: 65%;
-}
+

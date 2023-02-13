@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Usercentric.module.css';
+import Image from 'next/image';
 
 export const Usercentric = () => {
   return (
@@ -13,34 +14,80 @@ export const Usercentric = () => {
 <div className={styles.userCentricStickercolum}>
     <div className={styles.userCentricSticker}>
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/photoshop.png" alt="logo" className={styles.wearablelogosDiv} />
-           
+                <Image
+                    src={"/Images/wearable/photoshop.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
 
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/illustrator.png" alt="logo" className={styles.wearablelogosDiv} />
-            
+                <Image
+                    src={"/Images/wearable/illustrator.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
        
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/flash.png" alt="logo" className={styles.wearablelogosDiv} />
+               <Image
+                    src={"/Images/wearable/flash.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
-       
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/sketch.png" alt="logo"  className={styles.wearablelogosDiv}/>
+                <Image
+                    src={"/Images/wearable/sketch.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
     
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/Zeplin.png" alt="logo"  className={styles.wearablelogosDiv}/>
+                <Image
+                    src={"/Images/wearable/Zeplin.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
        
 
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/material_design.png" alt="logo"  className={styles.wearablelogosDiv}/>
+                <Image
+                    src={"/Images/wearable/material_design.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
     
         <div className={styles.wearablelogos}>
-            <img src="Images/wearable/coreldrow.png" alt="logo"  className={styles.wearablelogosDiv}/>
+               <Image
+                    src={"/Images/wearable/coreldrow.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
     </div>
 

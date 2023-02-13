@@ -26,8 +26,9 @@ margin-top: 2%;
 padding: 10px;
 }
 .mobileuxuireacthtxtandimageflexiconindi{
-height: 12%;
-width: 25%;
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid red; */
 }
 .mobileuxuireacthtxtandimageflexiconindi >img{
 height: 100%;

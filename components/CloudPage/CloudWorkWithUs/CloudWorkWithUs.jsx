@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CloudWorkWithUs.module.css";
+import Image from "next/image";
 
 export const CloudWorkWithUs = () => {
   return (
@@ -22,28 +23,47 @@ export const CloudWorkWithUs = () => {
       <div className={styles.CloudWorkIconsContainer}>
         <div className={styles.CloudWorkIconsMain}>
           <div>
-            <img src="Images/cloudPhotos/aws.png" alt="AWS logo" />
+                <Image
+                    src={"/Images/cloudPhotos/aws.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
           <span></span>
           <div>
-            <img
-              src="Images/cloudPhotos/digital-ocean.png"
-              alt="Digital Ocean logo"
-            />
+                <Image
+                    src={"/Images/cloudPhotos/digital-ocean.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
           <span></span>
           <div>
-            <img
-              src="Images/cloudPhotos/google-cloud-platform.png"
-              alt="Google Cloud logo"
-            />
+            <Image
+                src={"/Images/cloudPhotos/google-cloud-platform.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <span></span>
           <div>
-            <img
-              src="Images/cloudPhotos/microsoft-azure.png"
-              alt="Microsoft Azure logo"
-            />
+            <Image
+                src={"/Images/cloudPhotos/microsoft-azure.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
       </div>

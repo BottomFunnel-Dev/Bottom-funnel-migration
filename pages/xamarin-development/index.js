@@ -49,45 +49,42 @@ import Head from "next/head";
 export default function XamarinAppDevelopment() {
   return (
     <>
-      <Head>
-        <title>
-          Xamarin App Development Company | Hire Xamarin Developers |
-          BottomFunnel
-        </title>
-        <meta
-          name="description"
-          content="BottomFunnel is a leading Xamarin app development company. Not just developing, we transform ideas into a digital existence. Hire Xamarin app developers from us."
-        />
-      </Head>
-      <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "white",
-            logo: true,
-          }}
-        />
-        <XamarinAppDevelopmentBanner />
-        <XamarinMobileDevelopment />
-        <XamarinSolutions />
-        <WhyChooseXamarin />
-        <XamarinDevelopers />
-        <XamarinApproach />
-        <XamarinDevelopmentExpertise />
-
-        {/* Other react required components  */}
-        <StoriesSection />
-        <OndemandSection />
-        {/* <PortFolio />  */}
-        <PlanProject />
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
-      </main>
+    <Head>
+      <title>Xamarin App Development Company | Hire Xamarin Developers | BottomFunnel</title>
+     <meta
+       name="description"
+       content="BottomFunnel is a leading Xamarin app development company. Not just developing, we transform ideas into a digital existence. Hire Xamarin app developers from us."
+     />
+   </Head>
+    <main>
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
+      <XamarinAppDevelopmentBanner />
+      <XamarinMobileDevelopment />
+      <XamarinSolutions />
+      <WhyChooseXamarin />
+      <XamarinDevelopers />
+      <XamarinApproach />
+      <XamarinDevelopmentExpertise />
+      
+      {/* Other react required components  */}
+      <StoriesSection />
+      <OndemandSection />
+      {/* <PortFolio />  */}
+      <PlanProject />
+      <SeoblogSection />
+      <Revamping />
+      <TextDropdown />
+      <ContectForm />
+      <MainFooter />
+    </main>
     </>
   );
 }

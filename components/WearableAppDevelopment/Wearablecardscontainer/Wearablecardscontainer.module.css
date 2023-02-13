@@ -4,7 +4,7 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  background-image: url("/public/Images/wearable/Rectangle 4559-1.png");
+  background-image: url("/public/Images/wearable/Rectangle 4559-1.webp");
   margin-top: 5%;
 }
 .reactnativeContent {
@@ -44,7 +44,7 @@
   margin: auto;
   /* border: 2px solid red; */
   background-color: white;
-  /* background-image: url("/public/Images/ReactNativeDevelopement/React-icon 3.png"); */
+  /* background-image: url("/public/Images/ReactNativeDevelopement/React-icon 3.webp"); */
   display: flex;
   flex-direction: column;
   overflow-y: scroll;

@@ -31,6 +31,7 @@
   width: 85%;
   position: relative;
   z-index: 0;
+  left: 7.5%;
   /* border: 2px solid green; */
 }
 .xamarinNativeUser {
