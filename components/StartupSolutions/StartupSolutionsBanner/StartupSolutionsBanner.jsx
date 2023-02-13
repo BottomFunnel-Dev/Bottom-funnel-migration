@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./StartupSolutionsBanner.module.css";
 
-export const StartupSolutionsBanner = () => {
+export default function StartupSolutionsBanner() {
   return (
     <div className={styles.StartupSolutionsBannerMain}>
       <h1>
@@ -21,4 +21,4 @@ export const StartupSolutionsBanner = () => {
       <button>Request A Quote</button>
     </div>
   );
-};
+}

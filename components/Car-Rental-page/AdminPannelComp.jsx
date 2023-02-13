@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./adminPannelComp.module.css";
 
-export const AdminPannelComp = () => {
+export default function AdminPannelComp() {
   const [imageChange, setImageChange] = useState(
     "/Images/Car-Rental-Page-Images/Component189.png",
   );
@@ -69,4 +69,4 @@ export const AdminPannelComp = () => {
       </div>
     </div>
   );
-};
+}

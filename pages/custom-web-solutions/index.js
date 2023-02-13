@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./CustomisedWebPage.module.css";
+import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import { CustomisedWebBanner } from "../../components/CustomisedWebPage/CustomisedWebBanner/CustomisedWebBanner";
 import { CustomisedWebUnique } from "../../components/CustomisedWebPage/CustomisedWebUnique/CustomisedWebUnique";
@@ -8,9 +10,11 @@ import { CustomWebSolutions } from "../../components/CustomisedWebPage/CustomWeb
 import { CustomWebMidBanner } from "../../components/CustomisedWebPage/CustomWebMidBanner/CustomWebMidBanner";
 import { CustomWebWhyBF } from "../../components/CustomisedWebPage/CustomWebWhyBF/CustomWebWhyBF";
 import { CustomWebSlider } from "../../components/CustomisedWebPage/CustomWebSlider/CustomWebSlider";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
-import dynamic from "next/dynamic";
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -45,8 +49,10 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
 export default function CustomisedWebDevelopment() {
   return (

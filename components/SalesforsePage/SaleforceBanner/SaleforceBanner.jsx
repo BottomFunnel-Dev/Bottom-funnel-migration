@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SaleforceBanner.module.css";
 
-export const SaleforceBanner = () => {
+export default function SaleforceBanner() {
   return (
     <div className={styles.SaleforceBannerMain}>
       <h1>
@@ -23,4 +23,4 @@ export const SaleforceBanner = () => {
       <button>Request A Quote</button>
     </div>
   );
-};
+}

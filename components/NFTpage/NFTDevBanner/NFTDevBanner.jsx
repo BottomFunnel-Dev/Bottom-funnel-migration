@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NFTDevBanner.module.css";
 
-export const NFTDevBanner = () => {
+export default function NFTDevBanner() {
   return (
     <div className={styles.NFTDevBannerMain}>
       <h1>
@@ -23,4 +23,4 @@ export const NFTDevBanner = () => {
       <button>Request A Quote</button>
     </div>
   );
-};
+}

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./StartupSolWhyBF.module.css";
 import Image from "next/image";
 
-export const StartupSolWhyBF = () => {
+export default function StartupSolWhyBF() {
   const cardData = [
     {
       title: "Research",
@@ -52,16 +52,16 @@ export const StartupSolWhyBF = () => {
           })}
         </div>
         <div className={styles.StartupSolWhyBFImage}>
-            <Image
-                src={"/Images/startupSolPhotos/whyBF.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+          <Image
+            src={"/Images/startupSolPhotos/whyBF.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>
   );
-};
+}
