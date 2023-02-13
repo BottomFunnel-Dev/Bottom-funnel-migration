@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./SalesforceServices.module.css";
 import { SalesforceServicesborder } from "./SalesforceServicesborder/SalesforceServicesborder";
 import { SalesforceServicesPoints } from "./SalesforceServicesPoints/SalesforceServicesPoints";
+import Image from "next/image";
 
 export const SalesforceServices = () => {
   return (
@@ -20,10 +21,14 @@ export const SalesforceServices = () => {
       </p>
       <div className={styles.SalesforceServicesMain}>
         <div className={styles.SalesforceServicesVector}>
-          <img
-            src="Images/salesforcePhotos/services.png"
-            alt="SalesforceServices vector"
-          />
+             <Image
+                  src={"/Images/salesforcePhotos/services.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={styles.SalesforceServicesContent}>
           <SalesforceServicesborder />

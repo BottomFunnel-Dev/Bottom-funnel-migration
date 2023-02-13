@@ -30,7 +30,7 @@ export default function XamarinAppDevelopment() {
      />
    </Head>
     <main>
-   <Navbar
+      <Navbar
         productMount={{
           navMount: false,
         }}

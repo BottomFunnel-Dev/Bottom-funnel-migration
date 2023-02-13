@@ -34,7 +34,7 @@
 .ionicBottomFunnelDetails {
   /* border: 2px solid gold; */
   width: 30%;
-  /* height: 32vh; */
+  /* height: auto; */
   display: flex;
   flex-direction: column;
   background-color: white;

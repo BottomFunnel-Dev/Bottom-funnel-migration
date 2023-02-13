@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './WearableContainer.module.css';
 import { FcApproval } from "react-icons/fc";
+import Image from 'next/image';
 
 export const WearableContainer = () => {
   return (
@@ -33,7 +34,14 @@ export const WearableContainer = () => {
           quam sit corporis laboriosam adipisci. Fuga repellat nobis sed.</p>
           </div>
           <div className={styles.wearablegenerationdivimage}>
-          <img src="/Images/wearable/wearablegadget.png" alt="image" />
+              <Image
+                    src={"/Images/wearable/wearablegadget.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
       </div>
       <div className={styles.wearableservice}>

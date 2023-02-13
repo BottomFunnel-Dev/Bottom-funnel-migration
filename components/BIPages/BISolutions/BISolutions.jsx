@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./BISolutions.module.css";
+import Image from "next/image";
 
 export const BISolutions = () => {
   const cardsData = [
@@ -38,7 +39,14 @@ export const BISolutions = () => {
         {cardsData.map(({ title, body }) => (
           <div>
             <div className={styles.BISolutionsDot}>
-              <img src="Images/BIPhotos/dot.png" alt="Point icon" />
+              <Image
+                  src={"/Images/BIPhotos/dot.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
             <div className={styles.BISolutionsContent}>
               <h2>{title}</h2>

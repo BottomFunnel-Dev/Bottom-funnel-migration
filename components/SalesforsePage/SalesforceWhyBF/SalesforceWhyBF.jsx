@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./SalesforceWhyBF.module.css";
+import Image from "next/image";
 
 export const SalesforceWhyBF = () => {
   const cardData = [
@@ -38,10 +39,14 @@ export const SalesforceWhyBF = () => {
       </div>
       <div className={styles.SalesforceWhyBFContainer}>
         <div className={styles.SalesforceWhyBFImage}>
-          <img
-            src="Images/salesforcePhotos/vector.png"
-            alt="Vector big size image"
-          />
+              <Image
+                  src={"/Images/salesforcePhotos/vector.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={styles.SalesforceWhyBFContent}>
           {cardData.map(({ title, body }, idx) => {

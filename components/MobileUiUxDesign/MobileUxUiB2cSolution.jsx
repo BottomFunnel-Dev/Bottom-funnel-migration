@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import styles from "./MobileUxUiB2cSolution.module.css"
+import Image from 'next/image'
 
 export const MobileUxUiB2cSolution = () => {
 
@@ -8,40 +9,40 @@ export const MobileUxUiB2cSolution = () => {
 
     const mobileBBCUIdata = [
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/photoshop.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/photoshop.webp",
             txt: "photoshop",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/illustrator.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/illustrator.webp",
             txt: "Illustrator",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/flash.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/flash.webp",
             txt: "Flash",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/sketch.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/sketch.webp",
             txt: "Sketch",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/Zeplin.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/Zeplin.webp",
             txt: "Zeplin",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/material_design.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/material_design.webp",
             txt: "Material Design",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UI Box icons/coreldrow.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UI Box icons/coreldrow.webp",
             txt: "Coreldrow",
         },
 
@@ -50,70 +51,70 @@ export const MobileUxUiB2cSolution = () => {
 
     const mobileBBCUXdata = [
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/html-5(img).png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/html-5(img).webp",
             txt: "HTML5",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/css.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/css.webp",
             txt: "CSS3",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/js.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/js.webp",
             txt: "JavaScript",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/saas.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/saas.webp",
             txt: "Saas",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/less.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/less.webp",
             txt: "LESS",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/bootstrap.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/bootstrap.webp",
             txt: "Bootstrap",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/foundation.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/foundation.webp",
             txt: "Foundation",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/jquerymobile.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/jquerymobile.webp",
             txt: "JQuery Mobile",
         },
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/ionic.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/ionic.webp",
             txt: "IONIC",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/dreamviewer.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/dreamviewer.webp",
             txt: "Dreamweaver",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/photoshop.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/photoshop.webp",
             txt: "Photoshop ",
         },
 
 
         {
-            icon: "Images/MobileUIUXDesign/Icons/UX Box icons/illustrator.png",
+            icon: "/Images/MobileUIUXDesign/Icons/UX Box icons/illustrator.webp",
             txt: "Illustrator",
         },
 
@@ -153,7 +154,14 @@ export const MobileUxUiB2cSolution = () => {
                         <div className={styles.mobiledatapublishb2bb2c}>{mobileBBCUIdata.map((e) => {
                             return (
                                 <div className={styles.mobiledatapublishb2bb2caftermappingbox}>
-                                    <img src={e.icon} alt='images' />
+                                    <Image
+                                        src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                     <p>{e.txt}</p>
 
                                 </div>
@@ -164,7 +172,14 @@ export const MobileUxUiB2cSolution = () => {
                         : <div className={styles.mobiledatapublishb2bb2c}>{mobileBBCUXdata.map((e) => {
                             return (
                                 <div className={styles.mobiledatapublishb2bb2caftermappingbox}>
-                                    <img src={e.icon} alt='images' />
+                                    <Image
+                                        src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                     <p>{e.txt}</p>
 
                                 </div>

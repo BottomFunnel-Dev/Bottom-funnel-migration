@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./XamarinMobileDevelopment.module.css";
+import Image from "next/image";
 
 export const XamarinMobileDevelopment = () => {
 
@@ -12,7 +13,14 @@ export const XamarinMobileDevelopment = () => {
                </p>
             </div>
             <div className={styles.xamarinMobileDevelopmentContentImage}>
-               <img src="Images/Xamarin/Frame.png" />
+                  <Image
+                      src={"/Images/Xamarin/Frame.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
             </div>
          </div>
       </>

@@ -33,9 +33,9 @@ padding-top: 5%;
 
 }
 .mobileuxuireacthtxtandimageflexiconindi{
-    height: 12%;
-    width: 25%;
-
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid red; */
 }
 
 .mobileuxuireacthtxtandimageflexiconindi >img{

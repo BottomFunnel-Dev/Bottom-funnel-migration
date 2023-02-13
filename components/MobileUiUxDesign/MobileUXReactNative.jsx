@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from "./MobileUXReactNative.module.css"
+import Image from 'next/image'
 
 export const MobileUXReactNative = () => {
 
 const mobileuxrectnativedata= [
     {
-        icon:"Images/MobileUIUXDesign/Icons/platform 1.png",
+        icon:"/Images/MobileUIUXDesign/Icons/platform 1.webp",
         htxt:"Cross-Platform App Development",
         stxt:"We offer everything you need to build an amazing app from scratch including UI/UX design, mobile app development, and cross-platform compatibility.",
 
@@ -13,7 +14,7 @@ const mobileuxrectnativedata= [
  
     
     {
-        icon:"Images/MobileUIUXDesign/Icons/approved 1.png",
+        icon:"/Images/MobileUIUXDesign/Icons/approved 1.webp",
         htxt:"Hire Developers",
         stxt:"Our developers have vast experience in web application development and this has helped us build large-scale applications that are robust, stable, secure, and error-free.",
 
@@ -21,14 +22,14 @@ const mobileuxrectnativedata= [
 
 
     {
-        icon:"Images/MobileUIUXDesign/Icons/app-development (2) 1.png",
+        icon:"/Images/MobileUIUXDesign/Icons/app-development (2) 1.webp",
         htxt:"Industry-Specific Solutions",
         stxt:"With our team's years of experience in building apps for various verticals and industries, we know how to identify the unique requirements of each business and translate that into an app that's sure to be effective.",
 
     },
 
     {
-        icon:"Images/MobileUIUXDesign/Icons/technical-support 1.png",
+        icon:"/Images/MobileUIUXDesign/Icons/technical-support 1.webp",
         htxt:"End-to-End Support and Maintenance",
         stxt:"We offers end-to-end support and maintenance for your app. So not only do they develop it for you, but also help optimise its performance and user experience.end-to-end support and maintenance for your app. So not only do end.",
 
@@ -41,7 +42,16 @@ const mobileuxrectnativedata= [
         return (
             <div className={styles.mobileuxreactnativeleftboxindivisalyy}>
             <div className={styles.mobileuxuireacthtxtandimageflex}>
-            <div className={styles.mobileuxuireacthtxtandimageflexiconindi}><img src={e.icon} alt='image' /></div>
+            <div className={styles.mobileuxuireacthtxtandimageflexiconindi}>
+                <Image
+                    src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
+            </div>
             <div><h2>{e.htxt}</h2></div>
             </div>
             <div className={styles.mobileuxuireacthtxtandimageflexparagraph}><p>{e.stxt}</p></div>

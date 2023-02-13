@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Wearablecardscontainer.module.css';
+import Image from 'next/image';
 
 export const Wearablecardscontainer = () => {
    return (
@@ -18,7 +19,14 @@ export const Wearablecardscontainer = () => {
                <div className={styles.reactnativeContentScrollerDiv}>
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/coding.png" alt='image' className={styles.nativeimg} />
+                        <Image
+                           src={"/Images/ReactNativeDevelopement/coding.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
 
                      <div className={styles.reactnativeContentHeading}>
@@ -34,7 +42,14 @@ export const Wearablecardscontainer = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/wireframe (1).png" alt='image' className={styles.nativeimg} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/wireframe (1).webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <div className={styles.reactnativeContentHeading}>
                         <h3> Custom Design and Navigation</h3>
@@ -49,7 +64,14 @@ export const Wearablecardscontainer = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/ux-interface.png" alt='image' className={styles.nativeimg} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/ux-interface.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
 
                      <div className={styles.reactnativeContentHeading}>
@@ -63,7 +85,14 @@ export const Wearablecardscontainer = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/ux-interface.png" alt='images' className={styles.nativeimg} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/ux-interface.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
 
                      <div className={styles.reactnativeContentHeading}>
@@ -79,7 +108,14 @@ export const Wearablecardscontainer = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/ux-interface-2.png" alt='images' className={styles.nativeimg} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/ux-interface-2.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
 
                      <div className={styles.reactnativeContentHeading}>
@@ -95,7 +131,14 @@ export const Wearablecardscontainer = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/approved 2.png" alt='images' className={styles.nativeimg} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/approved 2.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
 
                      <div className={styles.reactnativeContentHeading}>

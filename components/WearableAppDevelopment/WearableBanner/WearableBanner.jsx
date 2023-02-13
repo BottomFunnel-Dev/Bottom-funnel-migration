@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './WearableBanner.module.css';
+import Image from 'next/image';
 
 export const WearableBanner = () => {
   return (
@@ -15,7 +16,14 @@ export const WearableBanner = () => {
         </div>
 
         <div className={styles.wearablebannermainboxImage}>
-          <img src='/Images/wearable/Component120.png' alt="image"/>
+                <Image
+                    src={'/Images/wearable/Component120.webp'}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
         </div>
       </div>
     </div>

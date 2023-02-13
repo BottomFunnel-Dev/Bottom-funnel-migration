@@ -17,13 +17,13 @@
   justify-content: space-between;
 }
 
-.CloudSolutionsBackgroundRectangle > img:nth-child(1) {
+.CloudSolutionsImage1 {
   align-self: flex-start;
   height: 50%;
   width: 27%;
 }
 
-.CloudSolutionsBackgroundRectangle > img:nth-child(2) {
+.CloudSolutionsImage2{
   align-self: flex-end;
   height: 50%;
   width: 30%;

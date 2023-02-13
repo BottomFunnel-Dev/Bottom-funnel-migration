@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './ReactNativeAppDevelopmentSolution.module.css';
+import Image from 'next/image';
 
 export const ReactNativeAppDevelopmentSolution = () => {
    return (
@@ -18,7 +19,14 @@ export const ReactNativeAppDevelopmentSolution = () => {
                <div className={styles.reactnativeContentScrollerDiv}>
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/coding.png" className={styles.nativeimg} />
+                       <Image
+                           src={"/Images/ReactNativeDevelopement/coding.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div className={styles.reactnativeContentHeading}>
                         <h3> Custom Design and Navigation</h3>
@@ -32,7 +40,14 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/Navigation.png" className={styles.nativeimg} />
+                       <Image
+                           src={"/Images/ReactNativeDevelopement/Navigation.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div className={styles.reactnativeContentHeading}>
                         <h3> Custom Design and Navigation</h3>
@@ -46,7 +61,14 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                   <div className={styles.reactnativeContentScrollerDivContainer}>
                      <div className={styles.reactnativeContentIcon}>
-                        <img src="/Images/ReactNativeDevelopement/ux-interface.png" className={styles.nativeimg} />
+                       <Image
+                           src={"/Images/ReactNativeDevelopement/ux-interface.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div className={styles.reactnativeContentHeading}>
                         <h3> Custom Design and Navigation</h3>
@@ -62,7 +84,14 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                   <div className="reactnativeContentScrollerDivContainer">
                      <div className="reactnativeContentIcon">
-                        <img src="/Images/ReactNativeDevelopement/ux-interface.png" className='nativeimg' />
+                       <Image
+                           src={"/Images/ReactNativeDevelopement/ux-interface.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div className="reactnativeContentHeading">
                         <h3> Custom Design and Navigation</h3>
@@ -77,7 +106,14 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                   <div className="reactnativeContentScrollerDivContainer">
                      <div className="reactnativeContentIcon">
-                        <img src="/Images/ReactNativeDevelopement/ux-interface-2.png" className='nativeimg' />
+                     <Image
+                           src={"/Images/ReactNativeDevelopement/ux-interface-2.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div className="reactnativeContentHeading">
                         <h3> Custom Design and Navigation</h3>
@@ -91,7 +127,14 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
                   <div className="reactnativeContentScrollerDivContainer">
                      <div className="reactnativeContentIcon">
-                        <img src="/Images/ReactNativeDevelopement/approved 2.png" className='nativeimg' />
+                     <Image
+                           src={"/Images/ReactNativeDevelopement/approved 2.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div className="reactnativeContentHeading">
                         <h3> Custom Design and Navigation</h3>

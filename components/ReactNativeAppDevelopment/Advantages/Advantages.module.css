@@ -92,7 +92,7 @@
     /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
-    background-image:url("/public/Images/reactnativephotos/Rectangle 2.png") ;
+    background-image:url("/public/Images/reactnativephotos/Rectangle 2.webp") ;
     /* width: 95%; */
     /* margin-left: 4%; */
     /* margin-right: 4%; */
@@ -179,7 +179,7 @@ font-size: 30px;
 
 .middlebannerdiv{
     /* border: 2px solid red; */
-    background-image: url("/Images/ReactNativeDevelopement/aerial-view-business-team 2.png");
+    background-image: url("/Images/ReactNativeDevelopement/aerial-view-business-team 2.webp");
     color: white;
     margin-top: 3%;
     height: 40vh;
@@ -295,7 +295,7 @@ font-size: 30px;
         border: 2px solid blue;
         display: flex;
         flex-direction: column;
-        background-image:url("/public/Images/reactnativephotos/Rectangle 2.png") ;
+        background-image:url("/public/Images/reactnativephotos/Rectangle 2.webp") ;
         /* width: 95%; */
         /* margin-left: 4%; */
         /* margin-right: 4%; */
@@ -379,7 +379,7 @@ font-size: 30px;
     
     .middlebannerdiv{
         border: 2px solid red;
-        background-image: url("/public/Images/ReactNativeDevelopement/aerial-view-business-team 2.png");
+        background-image: url("/public/Images/ReactNativeDevelopement/aerial-view-business-team 2.webp");
         color: white;
         margin-top: 3%;
         height: 100vh;

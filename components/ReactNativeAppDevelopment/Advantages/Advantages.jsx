@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Advantages.module.css';
+import Image from 'next/image';
 
 export const Advantages = () => {
    return (
@@ -19,7 +20,14 @@ export const Advantages = () => {
                <div className={styles.nativeinnermaindiv4BoxdivFirststColum} >
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb.png' alt='logo' className={styles.rnimag}></img>
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/lightbulb.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -29,7 +37,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-1.png' alt='logo' className={styles.rnimag} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/lightbulb-1.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>
@@ -40,7 +55,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-2.png' alt='logo' className={styles.rnimag} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/lightbulb-2.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>
@@ -53,7 +75,14 @@ export const Advantages = () => {
                <div className={styles.nativeinnermaindiv4BoxdivFirststColum} >
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-7.png' alt='logo' className={styles.rnimag} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/lightbulb-7.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -63,7 +92,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-8.png' alt='logo' className={styles.rnimag} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/lightbulb-8.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -73,7 +109,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-3.png' alt='logo' className={styles.rnimag} />
+                     <Image
+                        src={"/Images/ReactNativeDevelopement/lightbulb-3.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                     />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -88,7 +131,14 @@ export const Advantages = () => {
 
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-6.png' alt='logo' className={styles.rnimag} />
+                        <Image
+                           src={"/Images/ReactNativeDevelopement/lightbulb-6.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -98,7 +148,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-5.png' alt='logo' className={styles.rnimag} />
+                     <Image
+                           src={"/Images/ReactNativeDevelopement/lightbulb-5.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -107,7 +164,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.reactnativeinnermaindiv4Row}>
                      <div className={styles.rndivbox}>
-                        <img src='/Images/ReactNativeDevelopement/lightbulb-4.png' alt='logo' className={styles.rnimag} />
+                        <Image
+                           src={"/Images/ReactNativeDevelopement/lightbulb-4.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <h4>Watch Your App Idea Growing </h4>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in eaque quos reiciendis obcaecati
@@ -132,7 +196,14 @@ export const Advantages = () => {
                <div className={styles.rnativeinnermaindiv41stdivbox}>
                   <div className={styles.rn1stdivbox}>
                      <div className={styles.rnlogo}>
-                        <img src='/Images/ReactNativeDevelopement/platform 2.png' alt='logo' className={styles.rnlogoimg} />
+                       <Image
+                           src={"/Images/ReactNativeDevelopement/platform 2.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div><h3>Rigorous Requirement Analysis</h3>
                         <p>
@@ -142,7 +213,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.rn1stdivbox}>
                      <div className={styles.rnlogo}>
-                        <img src='/Images/ReactNativeDevelopement/approved 2.png' alt='logo' className={styles.rnlogoimg} />
+                       <Image
+                           src={"/Images/ReactNativeDevelopement/approved 2.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div><h3>Rigorous Requirement Analysis</h3>
                         <p>
@@ -154,7 +232,14 @@ export const Advantages = () => {
                <div className={styles.rnativeinnermaindiv41stdivbox}>
                   <div className={styles.rn1stdivbox}>
                      <div className={styles.rnlogo}>
-                        <img src='/Images/ReactNativeDevelopement/app-development (2) 2.png' alt='logo' className={styles.rnlogoimg} />
+                        <Image
+                           src={"/Images/ReactNativeDevelopement/app-development (2) 2.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div>
                         <h3>Rigorous Requirement Analysis</h3>
@@ -165,7 +250,14 @@ export const Advantages = () => {
                   </div>
                   <div className={styles.rn1stdivbox}>
                      <div className={styles.rnlogo}>
-                        <img src='/Images/ReactNativeDevelopement/technical-support 2.png' alt='logo' className={styles.rnlogoimg} />
+                        <Image
+                           src={"/Images/ReactNativeDevelopement/technical-support 2.webp"}
+                           alt={"image"}
+                           width={"0"}
+                           height={"0"}
+                           sizes={"100vw"}
+                           style={{ width: "100%", height: "100%" }}
+                        />
                      </div>
                      <div>
                         <h3>Rigorous Requirement Analysis</h3>

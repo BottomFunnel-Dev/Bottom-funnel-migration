@@ -3,7 +3,7 @@
     width: 99.85%;
     border: 1px solid white;
     /* margin-top: 120px; */
-    background-image: url("/Images/IonicAppDevelopment/Ionic.png");
+    background-image: url("/Images/IonicAppDevelopment/Ionic.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -75,9 +75,7 @@
     margin-right: 2%;
     /* width: 40%; */
     }
-    .ionicAppBannermainboximagein{
-      /* border: 2px solid yellow; */
-    }
+  
     
     .ionicAppBannermainboxinnertextdiv {
       height: 50%;

@@ -3,7 +3,7 @@
     width: 100%;
     height: fit-content;
     background: linear-gradient( to left, rgba(255,209,67,1), rgba(255,145,83,1)  );
-    /* background-image: url("/Images/wearable/bgscroller.png"); */
+    /* background-image: url("/Images/wearable/bgscroller.webp"); */
     display: flex;
     flex-direction: row;
     /* background-color: #98CEE7; */
@@ -47,7 +47,7 @@
     margin: auto;
     /* border: 2px solid red; */
     background-color: white;
-    /* background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.png"); */
+    /* background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.webp"); */
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -123,7 +123,7 @@ font-size: 16px;
             width: 100%;
             height: fit-content;
             background: linear-gradient( to left, rgba(255,209,67,1), rgba(255,145,83,1)  );
-            /* background-image: url("/Images/wearable/bgscroller.png"); */
+            /* background-image: url("/Images/wearable/bgscroller.webp"); */
             display: flex;
             flex-direction:column;
             /* background-color: #98CEE7; */
@@ -170,7 +170,7 @@ font-size: 16px;
             margin: auto;
             /* border: 2px solid red; */
             background-color: white;
-            /* background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.png"); */
+            /* background-image: url("/public/Images/FlutterDevelopment/Rectangle 4559-1.webp"); */
             display: flex;
             flex-direction: column;
             overflow-y: scroll;

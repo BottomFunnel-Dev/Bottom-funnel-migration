@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./BIWhyBF.module.css";
+import Image from "next/image";
 
 export const BIWhyBF = () => {
   const cardData = [
@@ -60,10 +61,14 @@ export const BIWhyBF = () => {
           })}
         </div>
         <div className={styles.BIWhyBFImage}>
-          <img
-            src="Images/startupSolPhotos/whyBF.png"
-            alt="Vector big size image"
-          />
+              <Image
+                  src={"/Images/startupSolPhotos/whyBF.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
       </div>
     </div>

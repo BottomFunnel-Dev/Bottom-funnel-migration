@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./XamarinApproach.module.css";
+import Image from "next/image";
 
 export const XamarinApproach = () => {
 
@@ -14,7 +15,17 @@ export const XamarinApproach = () => {
                 </p> */}
         </div>
         <div className={styles.xamarinApproachContentDiv}>
-          <img className={styles.xamarinApproachImage} src="/Images/Xamarin/Group bg.png" alt="image" />
+              <div className={styles.xamarinApproachImage}>
+                 <Image
+                    src={"/Images/Xamarin/Group bg.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
+              </div>
+
           <h2 className={styles.xamarinNativeUser}>Native User Interface</h2>
           <p className={styles.xamarinNativeUserText}>
             Using native UI for the branding and designing of the app made sense as it adds to the user experience and gives them a better feel of quality. We incorporated all this into our xamarin application development services.
