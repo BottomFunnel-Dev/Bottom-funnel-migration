@@ -47,7 +47,7 @@ export const Blueberry = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/blueberry group/logo/Screenshot (61).png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/blueberrygroup.webp' alt='images' />
 </div>
 
 <div>

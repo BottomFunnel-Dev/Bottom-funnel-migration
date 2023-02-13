@@ -37,7 +37,7 @@ export const Roshiwelness = () => {
 <div className={styles.yanabaliconandeoid}>
 <Link href="https://roshiwellness.com/">
 <a className={styles.androidappicon}>
-<img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/roshi.webp' alt='images' />
 </a>
 </Link>
 </div>

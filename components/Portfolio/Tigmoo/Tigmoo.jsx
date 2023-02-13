@@ -75,7 +75,7 @@ export const Tigmoo = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Tigmo/logo/download (2) 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/tigmo.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.tigmoo.com/">

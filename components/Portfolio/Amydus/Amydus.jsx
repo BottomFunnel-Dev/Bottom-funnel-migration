@@ -46,7 +46,7 @@ export const Amydus = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/amydus/logo/Component 20.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/amydus.webp' alt='images' />
 </div>
 
 <div>

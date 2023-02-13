@@ -64,7 +64,7 @@ export const AnandamGreens = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Anandam greens/logo/logo 2.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/anandam.webp' alt='images' />
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>

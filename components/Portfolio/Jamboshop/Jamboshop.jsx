@@ -76,7 +76,7 @@ export const Jamboshop = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Jambo shop/logo/download.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/jamboshop.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.jamboshop.com/">
