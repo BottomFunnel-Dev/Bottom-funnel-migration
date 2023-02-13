@@ -29,13 +29,13 @@ export const Trusted = ({ partnerLogo }) => {
             <div className={styles.mainlogoDiv} key={index}>
               <div key={index} className={styles.Seobrandimg}>
                 <Image
-                        src={item.partnerImage}
-                        alt={"image"}
-                        width={"0"}
-                        height={"0"}
-                        sizes={"100vw"}
-                        style={{ width: "100%", height: "100%"}}
-                        /> 
+                  src={item.partnerImage}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
             </div>
           ))}

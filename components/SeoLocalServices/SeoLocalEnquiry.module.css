@@ -1,11 +1,9 @@
 .seoLocalEnquiryNowMaindiv{
-    /* border:1px solid green; */
     width:100%;
     display: flex;
     margin-top:70px;
 }
 .seoLocalEnquiryNow{
-    /* border:1px solid red; */
     height:450px;
     width: 50%;
     text-align: center;
@@ -17,14 +15,12 @@
     
 }
 .seoLocalEnquiryNow>p{
-    /* border: 1px solid green; */
    padding:26px;
    font-size: 20px;
    color: gray;
    font-weight: 500;
 }
 .seoLocalEnquiryNow>h3{
-    /* border: 1px solid rebeccapurple; */
     padding: 15px;
     color:#EF4C23;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './XamarinDevelopmentExpertise.module.css';
+import Image from 'next/image';
 
 export const XamarinDevelopmentExpertise = () => {
   return (
@@ -10,7 +11,14 @@ export const XamarinDevelopmentExpertise = () => {
           <div className={styles.xamarinDevelopmentExpertiseIconOuterBox}>
             <div className={styles.xamarinDevelopmentExpertiseContainerDiv}>
               <div className={styles.xamarinDevelopmentExpertiseIcon}>
-                <img src='Images/Xamarin/icons/platform 2.png' alt='image' />
+                <Image
+                      src={"/Images/Xamarin/icons/platform 2.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <div className={styles.xamarinDevelopmentExpertiseIconHeading}>
                 <h4>Cross-Platform App Development</h4>
@@ -20,7 +28,14 @@ export const XamarinDevelopmentExpertise = () => {
 
             <div className={styles.xamarinDevelopmentExpertiseContainerDiv}>
               <div className={styles.xamarinDevelopmentExpertiseIcon}>
-                <img src='Images/Xamarin/icons/approved 1.png' alt='image' />
+                <Image
+                      src={"/Images/Xamarin/icons/approved 1.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <div className={styles.xamarinDevelopmentExpertiseIconHeading}>
                 <h4>Hire Developers</h4>
@@ -33,7 +48,14 @@ export const XamarinDevelopmentExpertise = () => {
           <div className={styles.xamarinDevelopmentExpertiseIconOuterBox}>
             <div className={styles.xamarinDevelopmentExpertiseContainerDiv}>
               <div className={styles.xamarinDevelopmentExpertiseIcon}>
-                <img src='Images/Xamarin/icons/app-development (2) 1.png' alt='image' />
+                <Image
+                      src={"/Images/Xamarin/icons/app-development (2) 1.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <div className={styles.xamarinDevelopmentExpertiseIconHeading}>
                 <h4>Industry-Specific Solutions</h4>
@@ -44,7 +66,14 @@ export const XamarinDevelopmentExpertise = () => {
            
             <div className={styles.xamarinDevelopmentExpertiseContainerDiv}>
               <div className={styles.xamarinDevelopmentExpertiseIcon}>
-                <img src='Images/Xamarin/icons/technical-support 1.png' alt='image' />
+                <Image
+                      src={"/Images/Xamarin/icons/technical-support 1.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <div className={styles.xamarinDevelopmentExpertiseIconHeading}>
                 <h4>End-to-End Support and Maintenance</h4>

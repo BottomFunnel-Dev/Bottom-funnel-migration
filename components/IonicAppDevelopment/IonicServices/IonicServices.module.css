@@ -32,9 +32,12 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .ionicServicesaving > h5{
 border: 10x solid red;
 }
-.ionicServicesavingImage {
-width: 45px;
-height: 45px;
+
+.ionicServicesImage {
+  /* border: 2px solid red; */
+  width: 45px;
+  height: 45px;
+  /* margin: 2%; */
 }
 .ionicServicesaving >p{
 text-align: justify;

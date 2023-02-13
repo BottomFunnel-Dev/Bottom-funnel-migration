@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./IonicCrossPlatform.module.css";
+import Image from "next/image";
 
 export const IonicCrossPlatform = () => {
 
@@ -17,7 +18,14 @@ export const IonicCrossPlatform = () => {
                     <div className={styles.ionicCrossPlatformContentScrollerDiv}>
                         <div className={styles.ionicCrossPlatformContentScrollerDivContainer}>
                             <div className={styles.ionicCrossPlatformContentIcon}>
-                                <img src="Images/IonicAppDevelopment/icons/coding.png" alt="image"/>
+                            <Image
+                                src={"/Images/IonicAppDevelopment/icons/coding.webp"}
+                                alt={"image"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+                            />
                             </div>
                             <h5> Cost-Effective Solutions </h5>
                             <p>
@@ -27,7 +35,14 @@ export const IonicCrossPlatform = () => {
 
                         <div className={styles.ionicCrossPlatformContentScrollerDivContainer}>
                             <div className={styles.ionicCrossPlatformContentIcon}>
-                                <img src="Images/IonicAppDevelopment/icons/wireframe.png" alt="image"/>
+                                <Image
+                                    src={"/Images/IonicAppDevelopment/icons/wireframe.webp"}
+                                    alt={"image"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "100%", height: "100%" }}
+                                />
                             </div>
                             <h5> Prototype and Wireframe Development </h5>
                             <p>
@@ -37,7 +52,14 @@ export const IonicCrossPlatform = () => {
 
                         <div className={styles.ionicCrossPlatformContentScrollerDivContainer}>
                             <div className={styles.ionicCrossPlatformContentIcon}>
-                                <img src="Images/IonicAppDevelopment/icons/ux-interface.png" alt="image"/>
+                                <Image
+                                    src={"/Images/IonicAppDevelopment/icons/ux-interface.webp"}
+                                    alt={"image"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "100%", height: "100%" }}
+                                />
                             </div>
                             <h5> Ionic UI/UX Development </h5>
                             <p>
@@ -47,7 +69,14 @@ export const IonicCrossPlatform = () => {
 
                         <div className={styles.ionicCrossPlatformContentScrollerDivContainer}>
                             <div className={styles.ionicCrossPlatformContentIcon}>
-                                <img src="Images/IonicAppDevelopment/icons/solution.png" alt="image"/>
+                            <Image
+                                src={"/Images/IonicAppDevelopment/icons/solution.webp"}
+                                alt={"image"}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+                            />
                             </div>
                             <h5> Ionic Migration Solutions </h5>
                             <p>

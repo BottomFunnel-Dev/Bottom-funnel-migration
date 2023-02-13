@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CloudWhyBF.module.css";
+import Image from "next/image";
 
 export const CloudWhyBF = () => {
   const cardData = [
@@ -52,7 +53,14 @@ export const CloudWhyBF = () => {
           })}
         </div>
         <div className={styles.CloudWhyBFImage}>
-          <img src="Images/cloudPhotos/whyBF.png" alt="Vector big size image" />
+                <Image
+                    src={"/Images/cloudPhotos/whyBF.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
         </div>
       </div>
     </div>

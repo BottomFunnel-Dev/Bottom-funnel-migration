@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./MarketplaceFreelancer.module.css";
 
@@ -41,15 +42,37 @@ const MarketplaceFreelancer = () => {
                 <div className={styles.freelancermarketboxleftflexing}>
 
                     <div className={styles.freelancerimagebox1}>
-                        <img className={styles.imagefreelance1} src="/Images/Marketplaceapp/Bannersandbackgrounds/Component42.png" alt='image1' />
+                        <Image className={styles.imagefreelance1}
+                            src={"/Images/Marketplaceapp/Bannersandbackgrounds/Component42.png"}
+                            alt={"image"}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
+                        {/* <img className={styles.imagefreelance1} src="/Images/Marketplaceapp/Bannersandbackgrounds/Component42.png" alt='image1' /> */}
                     </div>
 
                     <div className={styles.freelancerimagebox2}>
-                        <img className={styles.imagefreelance1} src={imageChange} alt='image2' />
+                        <Image className={styles.imagefreelance1}
+                            src={imageChange}
+                            alt={'image2'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
 
                     <div className={styles.freelancerimagebox3}>
-                        <img className={styles.imagefreelance1} src='/Images/Marketplaceapp/Bannersandbackgrounds/picture.png' alt='image2' />
+                        <Image className={styles.imagefreelance1}
+                            src={'/Images/Marketplaceapp/Bannersandbackgrounds/picture.png'}
+                            alt={'image2'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
 
                 </div>
@@ -65,11 +88,25 @@ const MarketplaceFreelancer = () => {
 
                     <div className={styles.freelancerboxforspecialimagedotted}>
                         <div className={styles.dottedimage1}>
-                            <img className={styles.specialimg} src='/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png' alt='rightflexboximageindex0' />
+                            <Image className={styles.specialimg}
+                                src={'/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png'}
+                                alt={'rightflexboximageindex0'}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+                            />
                         </div>
 
                         <div className={styles.dottedimage2}>
-                            <img className={styles.specialimg} src='/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png' alt='rightflexboximageindex0' />
+                            <Image className={styles.specialimg}
+                                src={'/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png'}
+                                alt={'rightflexboximageindex0'}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+                            />
                         </div>
 
                         <div className={styles.afterdottedinnerflecboxfreelancer}>
@@ -83,7 +120,14 @@ const MarketplaceFreelancer = () => {
                                         }
                                     >
                                         <div className={styles.frelancerinsiderlogo}>
-                                            <img className={styles.imagelogofree} src={e.img} alt="image" />
+                                            <Image className={styles.imagelogofree}
+                                                src={e.img}
+                                                alt={"image"}
+                                                width={"0"}
+                                                height={"0"}
+                                                sizes={"100vw"}
+                                                style={{ width: "100%", height: "100%" }}
+                                            />
                                         </div>
 
                                         <div className={styles.frelancerinsidertxt}>

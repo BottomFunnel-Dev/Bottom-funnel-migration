@@ -21,20 +21,20 @@ const MarketPlaceAdmin = () => {
       img: "/Images/Marketplaceapp/icons/Group339972.png",
       Htxt: "Clients Management",
       stxt: "We allow freelancers and clients to access a central dashboard to manage the relationship.",
-      tablet: "/Images/Marketplaceapp/Adminappscreens/reports.png",
+      tablet: "/Images/Marketplaceapp/Adminappscreens/clientsmanageent.webp",
     },
     {
       img: "/Images/Marketplaceapp/icons/Component43.png",
       Htxt: "Reports",
       stxt: "Reports are reliable and can give you useful insight into the person that’s completing your project.",
-      tablet: "/Images/Marketplaceapp/Adminappscreens/reports.png",
+      tablet: "/Images/Marketplaceapp/Adminappscreens/reports.webp",
     },
 
     {
       img: "/Images/Marketplaceapp/icons/icon.png",
       Htxt: "Email Alerts",
-      stxt: "You'll get emailed a notification when a new freelance job opens up. .",
-      tablet: "/Images/Marketplaceapp/Adminappscreens/emailalerts.png",
+      stxt: "You'll get emailed a notification when a new freelance job opens up.",
+      tablet: "/Images/Marketplaceapp/Adminappscreens/emailalerts.webp",
     },
   ];
   return (
@@ -44,8 +44,8 @@ const MarketPlaceAdmin = () => {
           <div className={styles.marketplaceadminbackgroundimagebannertextbox}>
             <h2> Admin's Website & App </h2>
             <p>
-              Admin’s website and mobile app design layout, matching the entrepreneurs’ needs for a reliable attract and growth business.
-              Allowing them to connect quickly, easily, and transparently.
+              Admin’s website and mobile app design layout, matching the entrepreneurs’ needs for a reliable attract and growth
+              business. Allowing them to connect quickly, easily, and transparently.
             </p>
           </div>
 

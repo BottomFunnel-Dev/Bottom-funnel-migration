@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./WhyChooseXamarin.module.css";
+import Image from "next/image";
 
 export const WhyChooseXamarin = () => {
 
@@ -12,7 +13,14 @@ export const WhyChooseXamarin = () => {
                </p>
             </div>
             <div className={styles.whyChooseContentImage}>
-               <img src="Images/Xamarin/Group.png" />
+                <Image
+                    src={"/Images/Xamarin/Group.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
             </div>
          </div>
       </>

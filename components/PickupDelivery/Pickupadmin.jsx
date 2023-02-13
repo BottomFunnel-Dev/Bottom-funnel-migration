@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./pickupadmin.module.css";
 
@@ -64,7 +65,7 @@ export const Pickupadmin = () => {
   return (
     <div className={styles.pickupdeliveryadmin}>
 
-      <h1> Admin panel</h1>
+      <h1> Admin panel </h1>
       <div className={styles.pickupdeliveryadminsub}>
 
         <div className={styles.pickupdeliveryadminright}>
@@ -78,27 +79,34 @@ export const Pickupadmin = () => {
               >
 
                 <div className="pickup-logo">
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "15%", height: "100%" }}
+                  />
+
                 </div>
                 <h3>{title}</h3>
                 <p>{para}</p>
               </div>
             );
           })}
-
         </div>
-        <div className={styles.pickupdeliveryadminleft}>
 
+        <div className={styles.pickupdeliveryadminleft}>
           <div className={styles.pickupdeliveryAdminImage}>
-            <img
+            <Image
               src={ToolDeliveryadmindata[active].img.src}
               alt={ToolDeliveryadmindata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
-
         </div>
-
-
       </div>
     </div>
   )

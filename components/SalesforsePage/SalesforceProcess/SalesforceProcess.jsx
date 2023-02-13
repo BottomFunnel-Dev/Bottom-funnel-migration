@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./SalesforceProcess.module.css";
+import Image from "next/image";
 
 export const SalesforceProcess = () => {
   return (
@@ -19,7 +20,14 @@ export const SalesforceProcess = () => {
       </p>
       <div className={styles.SalesforceProcessMain}>
         <div className={styles.SalesforceProcessImage}>
-          <img src="Images/salesforcePhotos/flowchart.png" alt="Flowchart" />
+              <Image
+                  src={"/Images/salesforcePhotos/flowchart.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={`${styles.SalesforceProcessQualification} ${styles.SalesforceProcessContent}`}>
           <p>

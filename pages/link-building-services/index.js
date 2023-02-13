@@ -1,5 +1,4 @@
 import React from "react";
-
 import SeoLinkSection from "../../components/SeoLink/SeoLinkSection";
 import Reviews from "../../components/SEO/SeoReviews/Reviews";
 import Seostats from "../../components/SEO/Seostats/Seostats";

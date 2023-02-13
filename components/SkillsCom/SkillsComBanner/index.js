@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../Navbar/Navbar";
 import styles from "./SkillsComBanner.module.css";
 
-export const SkillsComBanner = ({ data }) => {
+export default function SkillsComBanner({ data }) {
   const { image, title, description, icon, points } = data;
 
   return (
@@ -41,4 +41,4 @@ export const SkillsComBanner = ({ data }) => {
       </div>
     </>
   );
-};
+}

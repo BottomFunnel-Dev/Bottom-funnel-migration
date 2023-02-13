@@ -1,7 +1,7 @@
 ._SeoEmailMain1 {
   height: auto;
   width: 100%;
-  background: url("/Images/seopages/seo.png");
+  background: url("/Images/seopages/seo.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -87,22 +87,15 @@ font-size: 25px;
   font-weight: 700;
   color: #605d5d;
 }
-
-._SeoEmailRatings {
-  /* border: 1px solid green; */
-}
 ._SeoEmailenterform {
-  /* border:1px solid red; */
   width: 80%;
   margin: auto;
   margin-top: 20px;
 }
 ._seoEmailforminput {
-  /* border: 1px solid #ef4c23; */
   font-size: 16px;
   border-radius: 12px;
   margin-top: 17px;
-  /* outline: #EF4C23; */
   padding: 7px;
   width: 100%;
   color: gray;
@@ -113,7 +106,6 @@ font-size: 25px;
   font-size: 16px;
   font-weight: 400;
   text-align: left !important;
-  /* border:1px solid rebeccapurple; */
   display: inline-block;
   margin-top: 12px;
   padding: 3px;
@@ -155,7 +147,6 @@ font-size: 25px;
 }
 ._SeoEmailPricing > button:hover {
   color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
   background-color: white;
 }
 
@@ -163,14 +154,13 @@ font-size: 25px;
   ._SeoEmailMain1 {
     height: auto;
     width: 100%;
-    background: url("/Images/seopages/seo.png");
+    background: url("/Images/seopages/seo.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: bottom;
     background-origin: border-box;
     position: relative;
     margin-top: 120px;
-    /* border: 2px solid yellow; */
   
   }
   
@@ -180,7 +170,6 @@ font-size: 25px;
     position: absolute;
     top: 29%;
     right: 32%;
-    /* border: 2px solid yellow; */
   }
   .emailgifDenote > img {
     width: 100%;
@@ -190,20 +179,17 @@ font-size: 25px;
   
   ._SeoEmailupperdiv {
     display: flex;
-    /* border: 1px solid green; */
     width: 100%;
     height: 87vh;
     background: none !important;
   }
   ._SeoEmailtext {
-    /* border:1px solid red; */
     width: 35%;
     color: black;
     box-sizing: border-box;
     margin: auto;
     margin-top: 10%;
     margin-left: 5%;
-    /* text-align: center; */
   }
   ._SeoEmailparagraph {
     border:1px solid white;
@@ -222,18 +208,13 @@ font-size: 25px;
     font-family: sans-serif;
     font-size: 32px;
     font-weight: 600;
-    /* text-align: left; */
   }
-  /* ._SeoEmailheading ~ div{
-  font-size: 25px;
-  } */
+ 
   ._SeoEmailform {
-    /* border:1px solid red; */
     width: 40%;
     height: 100%;
   }
   ._SeoEmailformcontent {
-    /* border: 1px solid white; */
     width: 475px;
     background-color: white;
     border-radius: 35px;
@@ -242,8 +223,6 @@ font-size: 25px;
     margin-top: 120px;
   }
   ._SeoEmailformheading {
-    /* border: 1px solid red; */
-    /* border-radius: 35px; */
     margin-top: 10px;
     font-size: 23px;
     text-align: center;
@@ -251,21 +230,15 @@ font-size: 25px;
     color: #605d5d;
   }
   
-  ._SeoEmailRatings {
-    /* border: 1px solid green; */
-  }
   ._SeoEmailenterform {
-    /* border:1px solid red; */
     width: 80%;
     margin: auto;
     margin-top: 20px;
   }
   ._seoEmailforminput {
-    /* border: 1px solid #ef4c23; */
     font-size: 16px;
     border-radius: 12px;
     margin-top: 17px;
-    /* outline: #EF4C23; */
     padding: 7px;
     width: 100%;
     color: gray;
@@ -276,7 +249,6 @@ font-size: 25px;
     font-size: 16px;
     font-weight: 400;
     text-align: left !important;
-    /* border:1px solid rebeccapurple; */
     display: inline-block;
     margin-top: 12px;
     padding: 3px;
@@ -318,7 +290,6 @@ font-size: 25px;
   }
   ._SeoEmailPricing > button:hover {
     color: #ef4c23;
-    /* border: 1px solid #ef4c23; */
     background-color: white;
   }
   

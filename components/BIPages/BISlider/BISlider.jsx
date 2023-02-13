@@ -2,20 +2,21 @@ import React, { useState } from "react";
 import styles from "./BISlider.module.css";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
 
 export const BISlider = () => {
   const data = [
-    "Images/BIPhotos/slidericons/anaconda.png",
-    "Images/BIPhotos/slidericons/docker.png",
-    "Images/BIPhotos/slidericons/jupyter.png",
-    "Images/BIPhotos/slidericons/learn.png",
-    "Images/BIPhotos/slidericons/matplotlib.png",
-    "Images/BIPhotos/slidericons/pandas.png",
-    "Images/BIPhotos/slidericons/python.png",
-    "Images/BIPhotos/slidericons/pytorch.png",
-    "Images/BIPhotos/slidericons/r-prgram.png",
-    "Images/BIPhotos/slidericons/seaborn.png",
-    "Images/BIPhotos/slidericons/tensor.png",
+    "/Images/BIPhotos/slidericons/anaconda.webp",
+    "/Images/BIPhotos/slidericons/docker.webp",
+    "/Images/BIPhotos/slidericons/jupyter.webp",
+    "/Images/BIPhotos/slidericons/learn.webp",
+    "/Images/BIPhotos/slidericons/matplotlib.webp",
+    "/Images/BIPhotos/slidericons/pandas.webp",
+    "/Images/BIPhotos/slidericons/python.webp",
+    "/Images/BIPhotos/slidericons/pytorch.webp",
+    "/Images/BIPhotos/slidericons/r-prgram.webp",
+    "/Images/BIPhotos/slidericons/seaborn.webp",
+    "/Images/BIPhotos/slidericons/tensor.webp",
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -78,7 +79,16 @@ export const BISlider = () => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+            <div className={styles.BISliderImage}>
+              <Image
+                    src={elem}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+            </div>
             </div>
           );
         })}

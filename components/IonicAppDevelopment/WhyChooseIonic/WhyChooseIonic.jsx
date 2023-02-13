@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./WhyChooseIonic.module.css";
+import Image from "next/image";
 
 export const WhyChooseIonic = () => {
 
@@ -17,7 +18,14 @@ export const WhyChooseIonic = () => {
         </div>
 
         <div className={styles.whyChooseIonicContentImage}>
-          <img src="Images/IonicAppDevelopment/IonicWhyChoose.png" alt="image"/>
+            <Image
+                src={"/Images/IonicAppDevelopment/IonicWhyChoose.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+            />
         </div>
       </div>
     </>

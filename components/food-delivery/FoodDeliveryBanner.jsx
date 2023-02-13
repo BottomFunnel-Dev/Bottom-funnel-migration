@@ -1,19 +1,9 @@
 import React from "react";
 import styles from "./FoodDeliveryBanner.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/FoodDelivery.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const FoodDeliveryBanner = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
   return (
     <div className={styles.foodDeliveryBannerMain}>
       <div className={styles.foodDeliveryBannerContent}>
@@ -28,11 +18,14 @@ export const FoodDeliveryBanner = () => {
       </div>
 
       <div className={styles.foodDeliveryBannerImage}>
-        {/* <img height="100%"
-          src="Images/foodDeliveryphotos/FoodDeliveryNewBanner.png"
-          alt="Food Delivery Banner image"
-        /> */}
-        <Lottie options={lottieDefaultOptions} width={700} height={600} />
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
       </div>
     </div>
   );

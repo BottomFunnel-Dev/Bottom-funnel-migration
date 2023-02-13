@@ -1,13 +1,17 @@
 .BIBannerMain {
-height: 100vh;
-padding-left: 5%;
-background: url("/Images/BIPhotos/banner.png");
-background-size: 110%;
-background-position: center;
-background-repeat: no-repeat;
-display: flex;
-flex-direction: column;
-justify-content: center;
+
+  height: 100vh;
+  padding-left: 5%;
+
+  background: url("/Images/BIPhotos/banner.webp");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .BIBannerMain > h1 {
 font-size: 40px;

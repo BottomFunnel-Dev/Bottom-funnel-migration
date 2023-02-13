@@ -12,7 +12,14 @@ export const Discover = () => {
     
     </div>
     <div className={style.Discoverimage}>
-        <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" />
+    <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/Agencyhomepagephotos/screen1.webp"
+            alt="/Images/Agencyhomepagephotos/screen1.webp"
+          />
     </div>
     </div>
   )

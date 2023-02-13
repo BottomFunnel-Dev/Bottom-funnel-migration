@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './IonicDevelopmentExpertise.module.css';
+import Image from 'next/image';
 
 export const IonicDevelopmentExpertise = () => {
   return (
@@ -10,7 +11,14 @@ export const IonicDevelopmentExpertise = () => {
           <div className={styles.ionicDevelopmentExpertiseIconOuterBox}>
             <div className={styles.ionicDevelopmentExpertiseContainerDiv}>
               <div className={styles.ionicDevelopmentExpertiseIcon}>
-                <img src='Images/IonicAppDevelopment/icons/platform.png' alt='image'/>
+                  <Image
+                      src={"/Images/IonicAppDevelopment/icons/platform.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <div className={styles.ionicDevelopmentExpertiseIconHeading}>
                 <h4> Cross-Platform App Development </h4>
@@ -22,7 +30,14 @@ export const IonicDevelopmentExpertise = () => {
 
             <div className={styles.ionicDevelopmentExpertiseContainerDiv}>
               <div className={styles.ionicDevelopmentExpertiseIcon}>
-                <img src='Images/IonicAppDevelopment/icons/approved.png' alt='image'/>
+                  <Image
+                        src={"/Images/IonicAppDevelopment/icons/approved.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                    />
               </div>
               <div className={styles.ionicDevelopmentExpertiseIconHeading}>
                 <h4> Hire Developers </h4>
@@ -36,7 +51,14 @@ export const IonicDevelopmentExpertise = () => {
           <div className={styles.ionicDevelopmentExpertiseIconOuterBox}>
             <div className={styles.ionicDevelopmentExpertiseContainerDiv}>
               <div className={styles.ionicDevelopmentExpertiseIcon}>
-                <img src='Images/IonicAppDevelopment/icons/app-development.png' alt='image'/>
+                   <Image
+                        src={"/Images/IonicAppDevelopment/icons/app-development.webp"}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                    />
               </div>
               <div className={styles.ionicDevelopmentExpertiseIconHeading}>
                 <h4>Industry-Specific Solutions</h4>
@@ -48,7 +70,14 @@ export const IonicDevelopmentExpertise = () => {
 
             <div className={styles.ionicDevelopmentExpertiseContainerDiv}>
               <div className={styles.ionicDevelopmentExpertiseIcon}>
-                <img src='Images/IonicAppDevelopment/icons/technical-support.png' alt="image"/>
+                  <Image
+                      src={"/Images/IonicAppDevelopment/icons/technical-support.webp"}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
               </div>
               <div className={styles.ionicDevelopmentExpertiseIconHeading}>
                 <h4> End-to-End Support and Maintenance </h4>

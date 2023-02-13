@@ -1,18 +1,9 @@
 import React from "react";
 import styles from "./carRentalHeader.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/car rental.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const CarRentalHeader = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   return (
     <div className={styles.RGcarRentalContainer}>
       <div className={styles.RGcarRentalHeaderLeft}>
@@ -25,8 +16,14 @@ export const CarRentalHeader = () => {
       </div>
 
       <div className={styles.RGcarRentalHeaderRight}>
-        <Lottie options={lottieDefaultOptions} width={600} height={600} />
-        {/* <imgs width="100%" src="Images/Car-Rental-Page-Images/Banner1.png" alt="BannerImage" /> */}
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
       </div>
     </div>
   );
