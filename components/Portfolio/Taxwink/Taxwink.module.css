@@ -1,6 +1,6 @@
 .nextholidaymainboxes{
     /* border: 1px solid red; */
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/Tax wink/background/Component 211.png");
 background-size: 100% 100%;
@@ -12,7 +12,7 @@ color: white;
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
-
+    margin: auto;
 }
 
 .nextholidayleftboxforimages{
@@ -109,7 +109,7 @@ border-right: 1px solid white;
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
-
+margin-bottom: 10%;
   
 
 }

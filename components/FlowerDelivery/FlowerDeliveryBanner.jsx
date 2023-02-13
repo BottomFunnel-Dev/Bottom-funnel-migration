@@ -8,13 +8,15 @@ const FlowerDeliveryBanner = () => {
     <div className={styles.flowerdeliverybannermaindiv}>
       <div className={styles.flowerdeliverybannerleftbox}>
         <h1>
-          <span> On-Demand </span>Flower Delivery App
+          <span> On-Demand </span> Flower Delivery App
         </h1>
+        
         <p>
           Get your florist delivery business online with a flower delivery app
           development solution to provide superior service experience to
           customers
         </p>
+
         <button className={styles.flowerdeliverybannerbutton}>
           Get Started
         </button>
@@ -28,7 +30,9 @@ const FlowerDeliveryBanner = () => {
           loop
           controls
           autoplay
-        ></Player>
+        >
+        </Player>
+        
       </div>
     </div>
   );

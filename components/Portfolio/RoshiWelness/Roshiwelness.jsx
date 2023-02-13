@@ -1,20 +1,10 @@
 import React from 'react'
 import styles from "./Roshiwelness.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Roshi wellness.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
-
-
+import Image from 'next/image';
 
 export const Roshiwelness = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+
 
 
   return (
@@ -25,7 +15,7 @@ export const Roshiwelness = () => {
     <div className={styles.yanballeftboxinsiderflexbox}>
     <div className={styles.yanbalindibox}>
     <h5>Downloads</h5>
-    <p>170<span className={styles.yanbalplusbold}>+</span></p>
+    <p>170K<span className={styles.yanbalplusbold}>+</span></p>
     </div>
     
     <div className={styles.yanbalindibox}>
@@ -35,10 +25,10 @@ export const Roshiwelness = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-   <p><strong>Frontend</strong>:Javascript, Jquery, Polyfill</p>
-   <p><strong>Backend</strong> ruby</p>
-   <p><strong>Web Servers</strong>Cloudfare</p>
-   <p><strong>Database</strong>: shopify</p>
+   <p><strong>Frontend: </strong>Javascript, Jquery, Polyfill</p>
+   <p><strong>Backend: </strong> ruby</p>
+   <p><strong>Web Servers: </strong>Cloudfare</p>
+   <p><strong>Database: </strong> shopify</p>
 
     </div>
     <div className={styles.yanbalindibox}>
@@ -73,10 +63,19 @@ export const Roshiwelness = () => {
 
     <div className={styles.yanbalrightboxes}>
     
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/roshi.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "95%", height: "100%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
 
     </div>
     

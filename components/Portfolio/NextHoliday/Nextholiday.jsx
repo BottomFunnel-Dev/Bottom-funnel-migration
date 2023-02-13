@@ -1,34 +1,26 @@
 import React from 'react'
 import styles from "./Nextholiday.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Next Holidays.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Nextholiday = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
 
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <div className={styles.nextholidayleftboxforimages}>
-    <Lottie className={styles.lottieimages} style={{
-      marginLeft:"-400%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
-  
-
-
-
-    </div>
+    <Image className='nextholidaysimagemovable'
+          src={"/Images/portfolio/Portfolio Screens/Next Holidays.webp"}
+          alt={"next holiday"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "90%", height: "100%" ,objectFit:"contain",
+      
+        
+        }}
+        />
+    
     </div>
     
     <div className={styles.nextholidayrighttbox}>

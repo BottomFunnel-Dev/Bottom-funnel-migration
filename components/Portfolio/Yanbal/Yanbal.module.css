@@ -68,8 +68,9 @@ object-fit: contain;
 }
 
 .yanballogoboxingalongflex{
-padding: 15px;
+margin-top: 5%;
 width: 35%;
+margin-bottom: 10%;
 }
 
 .yanballogoboxingalongflex>img{
@@ -92,7 +93,7 @@ font-size: 14px;
 font-weight: 600;
 color: white;
 margin-left: 35%;
-margin-top: 8%;
+margin-top: 18%;
 }
 
 .yanabalbuttonalongflex:hover{

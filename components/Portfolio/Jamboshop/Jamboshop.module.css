@@ -5,11 +5,13 @@ background: url("/Images/portfolio/Jambo shop/backgrounds/bg.png");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 margin-top: 0%;
+
 }
 
 .nextholidayleftbox{
 height: 100%;
 width: 55%;
+margin: auto;
 }
 
 .nextholidayrighttbox{
@@ -74,6 +76,7 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 40%;
 height: 5%;
+margin-bottom: 10%;
 
 }
 .nextholidaywrapboximages>img{
@@ -94,6 +97,8 @@ font-weight: 600;
 color: black;
 margin-left: 15%;
 margin-top: 8%;
+margin-bottom: 5%;
+
 }
 .nextholidayviewcasebutton:hover{
 background-color: white;

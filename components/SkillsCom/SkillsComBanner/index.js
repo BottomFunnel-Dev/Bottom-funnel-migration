@@ -1,6 +1,9 @@
 import React from "react";
-import Navbar from "../../Navbar/Navbar";
+import dynamic from "next/dynamic";
 import styles from "./SkillsComBanner.module.css";
+const Navbar = dynamic(() => import("../../Navbar/Navbar"), {
+  loading: () => "loading...",
+});
 
 export default function SkillsComBanner({ data }) {
   const { image, title, description, icon, points } = data;

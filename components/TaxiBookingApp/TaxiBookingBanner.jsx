@@ -24,14 +24,15 @@ export const TaxiBookingBanner = () => {
       </div>
 
       <div className={styles.taxiBookingBannerAnimationDiv}>
-        <Player
+        <Player className={styles.taxiBookingMainAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"
           loop
           controls
           autoplay
-        ></Player>
+        >
+        </Player>
       </div>
     </div>
   );
