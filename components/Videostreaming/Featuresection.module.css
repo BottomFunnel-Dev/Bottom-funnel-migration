@@ -2,7 +2,6 @@
   width: 100%;
   background-color: white;
   height: 600px;
-  /* border: 2px solid black; */
 }
 
 .szvideofeature>div {
@@ -16,7 +15,6 @@
   margin: auto;
   height: 460px;
   display: flex;
-  /* border: 2px solid yellow; */
 }
 
 .updatediv {
@@ -25,7 +23,6 @@
   height: 200px;
   width: 87%;
   padding: 10px;
-  /* border: 2px solid green; */
 }
 
 .updatediv:hover {
@@ -41,13 +38,11 @@
 .updateflexdiv {
   display: flex;
   align-items: center;
-  /* background-color: aliceblue; */
   padding: 25px 30px;
   height: 70px;
 }
 
 .updateflexdiv>h4 {
-  /* border: 1px solid red; */
   margin-top: 0%;
 }
 
@@ -62,7 +57,6 @@
   border-radius: 20px;
   width: 95%;
   height: 170px;
-  /* border: 2px solid red; */
 }
 
 .reminderdiv:hover {
@@ -77,7 +71,6 @@
 
 .reminderflexdiv {
   display: flex;
-  /* background-color: aliceblue; */
   padding: 25px 30px;
   height: 70px;
   margin-top: 10%;
