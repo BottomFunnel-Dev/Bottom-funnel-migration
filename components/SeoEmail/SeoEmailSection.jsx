@@ -1,13 +1,21 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoEmailSection.module.css";
+import Image from "next/image";
 
 export default function SeoEmailSection() {
 
     return (
         <div className={styles._SeoEmailMain1}>
             <div className={styles.emailgifDenote}>
-                <img src="Images/seopages/email.gif" alt="images" />
+            <Image
+            src={"/Images/seopages/email.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
             </div>
 
             <div className={styles._SeoEmailupperdiv}>

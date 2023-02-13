@@ -7,7 +7,6 @@ import { ImLink } from 'react-icons/im';
 import { SiGoogleanalytics } from 'react-icons/si';
 import { AiOutlineAudit } from 'react-icons/ai';
 import { FaShoppingCart } from 'react-icons/fa';
-import { MdExpandLess } from 'react-icons/md'
 import { useState } from "react";
 
 export default function SeoEmailServices() {

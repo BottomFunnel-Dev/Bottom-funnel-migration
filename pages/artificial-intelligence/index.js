@@ -8,37 +8,37 @@ import { AiContentTextOnly } from "../../components/AiContentService/AiContentTe
 import dynamic from "next/dynamic";
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";

@@ -50,7 +50,7 @@ export const AlcoholSuggestions = () => {
         Get exclusive and robusts apps for your food delivery business with a
         taste of latest technology and creative designs.
       </p>
-      
+
       <div className={styles.alcoholExluciveAppContent}>
         {foodExcluciveAppData.map(({ title, description, img }) => {
           return (

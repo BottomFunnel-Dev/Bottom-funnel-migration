@@ -11,11 +11,11 @@ const Awards = dynamic(() => import("../components/AwardSection/Awards"), {
 });
 const TextDropdown = dynamic(
   () => import("../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const MainFooter = dynamic(
   () => import("../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const Services = dynamic(() => import("../components/Services/Services"), {
   loading: () => "Loading...",
@@ -61,7 +61,7 @@ const BannerFull = dynamic(
   () => import("../components/mainSection/BannerFull"),
   {
     loading: () => "Loading...",
-  },
+  }
 );
 
 export default function Home() {
