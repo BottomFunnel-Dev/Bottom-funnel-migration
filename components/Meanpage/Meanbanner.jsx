@@ -3,7 +3,7 @@ import styles from "./Meanbanner.module.css";
 import * as reactAnimation from "../../../public/Animation/android.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const Meanbanner = () => {
+export default function Meanbanner () {
   return (
     <div>
       <div className={styles.androidIcon}>
@@ -19,3 +19,5 @@ export const Meanbanner = () => {
     </div>
   );
 };
+
+// export default Meanbanner
