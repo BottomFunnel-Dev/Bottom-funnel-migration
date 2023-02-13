@@ -1,254 +1,254 @@
 .plantBasedDeliver {
-width: 100%;
-height: max-content;
-margin: 60px 0;
+  width: 100%;
+  height: max-content;
+  margin: 60px 0;
 }
 
 .plantBasedDeliver > h1 {
-margin-left: 6%;
+  margin-left: 6%;
 }
 
 .plantBasedDeliversub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-display: flex;
-align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
+
 .plantBasedDeliverleft {
-width: 45%;
-height: 500px;
-padding: 10px;
-display: flex;
-background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
-background-position: center;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
+  width: 45%;
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+  background-position: center;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .plantBasedDeliverright {
-width: 45%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-gap: 20px;
-justify-content: center;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
 }
 
 .plantBasedDeliverright > div {
-padding: 10px 10px 10px 10px;
-height: 200px;
-width: 45%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  height: 200px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
 }
 
 .plantBasedDeliverright > div:hover {
-background-color: #e1f9f6;
+  background-color: #fbb807;
+  color: white;
 }
 
 .plantBasedDeliverAppLogo {
-height: 20%;
-width: 10%;
+  height: 20%;
+  width: 10%;
 }
 
 .plantBasedDeliverAppLogo > img {
-height: 100%;
-width: 100%;
-object-fit: contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .plantBasedDeliverright > div > h3 {
-margin-top: 1%;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.6px;
-vertical-align: baseline;
-margin-bottom: 1%;
-margin-top: 0%;
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
 }
 
 .plantBasedDeliverright > div > p {
-margin-top: 0%;
-font-size: 15px;
-line-height: 20px;
-vertical-align: baseline;
-font-weight: 400;
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }
 
 .plantBasedDeliverAppCustomerImage {
-width: 45%;
-height: 500px;
-text-align: right;
-margin: auto;
-margin-top: -10px;
+  width: 45%;
+  height: 500px;
+  text-align: right;
+  margin: auto;
+  margin-top: -10px;
 }
 
 .plantBasedDeliverAppCustomerImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
-.plantBasedDeliver {
-width: 100%;
-height: max-content;
-margin: 60px 0;
-}
+  .plantBasedDeliver {
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+  }
 
-.plantBasedDeliver > h1 {
-margin-left: 6%;
-}
+  .plantBasedDeliver > h1 {
+    margin-left: 6%;
+  }
 
-.plantBasedDeliversub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-flex-direction: column-reverse;
-align-items: center;
-}
+  .plantBasedDeliversub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-.plantBasedDeliverleft {
-width: 95%;
-padding: 10px;
-display: flex;
-background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
-background-position: center;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-}
+  .plantBasedDeliverleft {
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+    background-position: center;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
 
-.plantBasedDeliverright {
-width: 100%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-gap: 20px;
-justify-content: center;
-}
+  .plantBasedDeliverright {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+  }
 
-.plantBasedDeliverright > div {
-padding: 10px 10px 10px 10px;
-height: 230px;
-width: 100%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-margin-left: 5%;
-}
+  .plantBasedDeliverright > div {
+    padding: 10px 10px 10px 10px;
+    height: 230px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 5%;
+  }
 
-.plantBasedDeliverright > div:hover {
-background-color: #e1f9f6;
-}
+  .plantBasedDeliverright > div:hover {
+    background-color: #e1f9f6;
+  }
 
+  .plantBasedDeliverright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+  }
 
-.plantBasedDeliverright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
-}
+  .plantBasedDeliverAppCustomerImage {
+    width: 45%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    margin-top: -10px;
+  }
 
-.plantBasedDeliverAppCustomerImage {
-width: 45%;
-height: 500px;
-text-align: right;
-margin: auto;
-margin-top: -10px;
-}
-
-.plantBasedDeliverAppCustomerImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-}
+  .plantBasedDeliverAppCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-.plantBasedDeliver {
-width: 100%;
-height: max-content;
-margin: 60px 0;
-}
+  .plantBasedDeliver {
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+  }
 
-.plantBasedDeliver > h1 {
-margin-left: 6%;
-}
+  .plantBasedDeliver > h1 {
+    margin-left: 6%;
+  }
 
-.plantBasedDeliversub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-flex-direction: column-reverse;
-align-items: center;
-}
+  .plantBasedDeliversub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-.plantBasedDeliverleft {
-margin-top: 2%;
-width: 95%;
-padding: 10px;
-display: flex;
-background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
-background-position: center;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-}
+  .plantBasedDeliverleft {
+    margin-top: 2%;
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+    background-position: center;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
 
-.plantBasedDeliverright {
-width: 100%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-gap: 20px;
-justify-content: center;
-}
+  .plantBasedDeliverright {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+  }
 
-.plantBasedDeliverright > div {
-padding: 10px 10px 10px 10px;
-height: 150px;
-width: 90%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-}
+  .plantBasedDeliverright > div {
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
 
-.plantBasedDeliverright > div:hover {
-background-color: #e1f9f6;
-}
+  .plantBasedDeliverright > div:hover {
+    background-color: #e1f9f6;
+  }
 
+  .plantBasedDeliverright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+  }
 
-.plantBasedDeliverright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
-}
+  .plantBasedDeliverAppCustomerImage {
+    width: 45%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    margin-top: -10px;
+  }
 
-.plantBasedDeliverAppCustomerImage {
-width: 45%;
-height: 500px;
-text-align: right;
-margin: auto;
-margin-top: -10px;
-}
-
-.plantBasedDeliverAppCustomerImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-}
+  .plantBasedDeliverAppCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
