@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./Myteam.module.css"
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Myteam = () => {
 
@@ -69,7 +70,19 @@ export const Myteam = () => {
 
     <div className={styles.yanbalrightboxes}>
     
- 
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/myteam11.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
     </div>
     
     

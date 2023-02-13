@@ -53,10 +53,10 @@ margin-left: -0%;
 }
 .yanabaliconandeoid{
 width: 30%;
-height: 80%;
+height: 30%;
 border-right: 1px solid white;
 margin-left: 2%;
-padding: 7px;
+
 }
 
 .yanabaliconandeoid:last-child{
@@ -68,8 +68,9 @@ width: 100%;
 object-fit: contain;
 }
 .yanballogoboxingalongflex{
-padding: 15px;
+margin-bottom: 10%;
 width: 35%;
+padding: 5%;
 }
 .yanballogoboxingalongflex>img{
 height: 100%;
@@ -91,7 +92,7 @@ font-size: 14px;
 font-weight: 600;
 color: white;
 margin-left: 35%;
-margin-top: 8%;
+margin-top: 15%;
 }
 
 .yanabalbuttonalongflex:hover{
