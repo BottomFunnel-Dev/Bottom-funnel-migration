@@ -70,6 +70,7 @@ export default function TaxiBookingApp() {
             logo: false,
           }}
         />
+        
         <TaxiBookingBanner />
         <TaxiOccassion />
         <TaxiBookingCustomerApp />

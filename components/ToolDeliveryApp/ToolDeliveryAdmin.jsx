@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./ToolDeliveryAdmin.module.css";
 
@@ -61,11 +62,10 @@ export const ToolDeliveryAdmin = () => {
 
   return (
     <div className={styles.tooldeliveryadmin}>
-      <h1> Admin panel</h1>
+      <h1> Admin panel </h1>
+
       <div className={styles.tooldeliveryadminsub}>
-
         <div className={styles.tooldeliveryadminright}>
-
           {ToolDeliveryadmindata.map(({ title, icon }, idx) => {
             return (
               <div
@@ -74,10 +74,18 @@ export const ToolDeliveryAdmin = () => {
                 className={`tools-box-${idx}`}
               >
                 <div className={styles.toolsLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "12%", height: "100%" }}
+                  />
                 </div>
-                <h3>{title}</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+                <h3> {title} </h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                </p>
               </div>
             );
           })}
@@ -85,9 +93,13 @@ export const ToolDeliveryAdmin = () => {
 
         <div className={styles.tooldeliveryadminleft}>
           <div className={styles.tooldeliveryAdminImage}>
-            <img
+            <Image
               src={ToolDeliveryadmindata[active].img.src}
               alt={ToolDeliveryadmindata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

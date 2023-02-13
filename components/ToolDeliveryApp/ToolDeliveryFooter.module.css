@@ -6,9 +6,9 @@
   width: 90%;
   margin: auto;
   margin-bottom: 2%;
-
   flex-wrap: wrap;
 }
+
 .tooldeliveryfooterbox {
   height: 40%;
   width: 45%;
@@ -20,13 +20,12 @@
 
 .tooldeliveryfooterbox:hover {
   transition: all 0.2s linear;
-
   transform: translateY(-10px);
 }
 
 .tooldeliveryfooterboxlogo {
   height: 100%;
-  width: 35%;
+  width: 70%;
 }
 
 .toollogoimg {
@@ -54,7 +53,6 @@
 .flexboxforclientright {
   height: 400px;
   width: 750px;
-
   margin-left: 100px;
   position: relative;
 }

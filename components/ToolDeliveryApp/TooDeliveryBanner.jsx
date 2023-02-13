@@ -21,7 +21,7 @@ const TooDeliveryBanner = () => {
         </div>
 
         <div className={styles.toolDeliveryAnimationDiv}>
-          <Player
+          <Player className={styles.toolDeliveryMainAnimation}
             src={reactAnimation}
             background="transparent"
             speed="1"

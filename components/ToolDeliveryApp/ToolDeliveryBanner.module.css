@@ -360,10 +360,11 @@
 .toolDeliveryAnimationDiv {
   /* border: 1px solid red; */
   position: absolute;
+  top: 10%;
   right: 0%;
-  top: 15%;
+  left: 33%;
 }
 
-
-
-
+.toolDeliveryMainAnimation {
+  width: 65%;
+}

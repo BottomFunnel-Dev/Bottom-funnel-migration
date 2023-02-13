@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./FlowerDeliveryAdmin.module.css";
 
@@ -39,7 +40,7 @@ const FlowerDeliveryAdmin = () => {
   return (
     <div className={styles.flowerdeliveryadminmainbox}>
       <div className={styles.flowerdeliveryadminflexleftbox}>
-        <h2>Admin Pannel</h2>
+        <h2> Admin Pannel </h2>
         {flowerdeliveryadmindata.map((e) => {
           return (
             <div className={styles.flowerdeliveryadmingboxmapping}
@@ -47,8 +48,8 @@ const FlowerDeliveryAdmin = () => {
                 handleImageChange(e.img)
               }}
             >
-              <h4>{e.htxt}</h4>
-              <p>{e.stxt}</p>
+              <h4> {e.htxt} </h4>
+              <p> {e.stxt} </p>
             </div>
           )
         })}
@@ -56,11 +57,23 @@ const FlowerDeliveryAdmin = () => {
 
       <div className={styles.flowerdeliveryadminflexrightbox}>
         <div className={styles.flowerdeliveryadminrightboxforimageone}>
-          <img src='/Images/Flowerdeliverypage/Rectangle4190.png' alt='image1' />
+          <Image src={'/Images/Flowerdeliverypage/Rectangle4190.png'}
+            alt={'image1'}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
 
         <div className={styles.flowerdeliveryadminrightboxforimagetwo}>
-          <img src={imageChange} alt='image2' />
+          <Image src={imageChange}
+            alt={'image2'}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>

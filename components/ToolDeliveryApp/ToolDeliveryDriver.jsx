@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./ToolDeliveryDriver.module.css";
 
@@ -61,18 +62,21 @@ const ToolDeliveryDriver = () => {
   return (
     <div>
       <div className={styles.tooldrive}>
-        <h1>Drive app</h1>
+        <h1> Drive app </h1>
 
         <div className={styles.tooldeliverydrivesub}>
 
           <div className={styles.tooldeliverydriveleft}>
             <div className={styles.tooldeliveryDriveImage}>
-              <img
+              <Image
                 src={TooDeliverydrivedata[active].img.src}
                 alt={TooDeliverydrivedata[active].img.alt}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
               />
             </div>
-
           </div>
 
           <div className={styles.tooldeliverydriveright}>
@@ -85,10 +89,19 @@ const ToolDeliveryDriver = () => {
                 >
 
                   <div className={styles.tooldeliveryLogo}>
-                    <img src={icon.src} alt={icon.alt} />
+                    <Image src={icon.src}
+                      alt={icon.alt}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "12%", height: "100%" }}
+                    />
                   </div>
-                  <h3>{title}</h3>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+
+                  <h3> {title} </h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                  </p>
                 </div>
               );
             })}

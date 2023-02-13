@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./TaxiBookingCustomerApp.module.css";
 
@@ -44,8 +45,8 @@ export const TaxiBookingCustomerApp = () => {
             <h1>
                 <span className={styles.specialcolor}> Customer Application </span>
             </h1>
-            <div className={styles.taxibookingcustomerappmainboxes}>
 
+            <div className={styles.taxibookingcustomerappmainboxes}>
                 <div className={styles.taxibookingappcustomerappleftbox}>
                     {taxibookingcustomerdata.map((e) => {
                         return (
@@ -56,7 +57,12 @@ export const TaxiBookingCustomerApp = () => {
 
                             >
                                 <div className={styles.taxibookingflexingboxesindiforlogo}>
-                                    <img src={e.icon} alt='images' />
+                                    <Image src={e.icon} alt={'images'}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
 
                                 <div className={styles.taxibookingflexingboxesindifortxt}>
@@ -70,7 +76,13 @@ export const TaxiBookingCustomerApp = () => {
 
                 <div className={styles.taxibookingappcustomerapprightbox}>
                     <div className={styles.taxibookingappcustomerrightboxinnermobile}>
-                        <img src={imageChange} alt='mobile' />
+                        <Image src={imageChange}
+                            alt={'mobile'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
             </div>
