@@ -5,6 +5,8 @@ position: relative;
 color: white;
 display: flex;
 }
+
+
 .webDebText {
 width: 40%;
 padding: 20px;
@@ -38,6 +40,15 @@ cursor: pointer;
 color: white;
 background-color: #ef4c23;
 }
+
+.mernanimation{
+
+
+
+
+}
+
+
 /* Mobile screens banner */
 @media only screen and (min-width: 0px) and (max-width: 480px) {
 .webDevBanner {

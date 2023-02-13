@@ -24,6 +24,7 @@ export default function WebdevBanner({ paraColor, bannerContent, animateData }) 
 
         <button className={styles.webDevButton}>Request A Quote</button>
       </div>
+      
       <div className={styles.mernanimation}>
         <Player
           src={animateData}
