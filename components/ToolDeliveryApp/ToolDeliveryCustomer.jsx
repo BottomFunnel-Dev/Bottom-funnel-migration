@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./ToolDeliveryCustomer.module.css";
 
@@ -64,7 +65,7 @@ const ToolDeliveryCustomer = () => {
   return (
     <div style={{}} className={styles.Tooladmin}>
 
-      <h1>Customer App </h1>
+      <h1> Customer App </h1>
       <div className={styles.tooladminsub}>
 
         <div className={styles.tooladminright}>
@@ -77,21 +78,33 @@ const ToolDeliveryCustomer = () => {
                 className={`tooladmin-box-${idx}`}
               >
                 <div className={styles.tooladminLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "12%", height: "100%" }}
+                  />
                 </div>
-                <h3>{title}</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+                <h3> {title} </h3>
+
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                </p>
               </div>
             );
           })}
         </div>
 
         <div className={styles.toolcustomerpannelleft}>
-
           <div className={styles.toolCustomerImage}>
-            <img
+            <Image
               src={ToolDeliveryCustomerData[active].img.src}
               alt={ToolDeliveryCustomerData[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

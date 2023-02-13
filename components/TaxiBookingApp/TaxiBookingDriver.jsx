@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./TaxiBookingDriver.module.css";
 
@@ -57,7 +58,13 @@ export const TaxiBookingDriver = () => {
 
                             >
                                 <div className={styles.taxibookingflexingboxesdriverindiforlogo}>
-                                    <img src={e.icon} alt='images' />
+                                    <Image src={e.icon}
+                                        alt={'images'}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
 
                                 <div className={styles.taxibookingflexingboxesindifortxt}>
@@ -72,12 +79,16 @@ export const TaxiBookingDriver = () => {
 
                 <div className={styles.taxibookingappdriverapprightbox}>
                     <div className={styles.taxibookingappdriverrightboxinnermobile}>
-                        <img src={imageChange} alt='mobile' />
+                        <Image src={imageChange}
+                            alt={'mobile'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
             </div>
-
         </div>
-
-    )
-}
+    );
+};

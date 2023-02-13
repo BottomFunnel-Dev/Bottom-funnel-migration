@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./FlowerDeliveryDriver.module.css";
 
@@ -36,16 +37,28 @@ const FlowerDeliveryDriver = () => {
     <div className={styles.flowerdeliverydrivermainboxing}>
       <div className={styles.flowerdeliveryflexboxleft}>
         <div className={styles.flowerdeliveryflexboxleftimageone} >
-          <img src='/Images/Flowerdeliverypage/Rectangle 4192.png' alt='image1' />
+          <Image src={'/Images/Flowerdeliverypage/Rectangle 4192.png'}
+            alt={'image1'}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
 
         <div className={styles.flowerdeliveryflexboxleftimagetwo}>
-          <img src={imageChange} alt='image2' />
+          <Image src={imageChange}
+            alt={'image2'}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
 
       <div className={styles.flowerdeliveryflexboxright}>
-        <h2>Driver Applications</h2>
+        <h2> Driver Applications </h2>
         {flowerdeliverydriverdata.map((e) => {
           return (
             <div className={styles.flowerdeliverydrivermappingbox}
@@ -53,8 +66,8 @@ const FlowerDeliveryDriver = () => {
                 handleImageChange(e.img)
               }}
             >
-              <h4>{e.htxt}</h4>
-              <p>{e.stxt}</p>
+              <h4> {e.htxt} </h4>
+              <p> {e.stxt} </p>
             </div>
           )
         })}

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./AviationAirlines.module.css"
 
-export const AviationAirlines = () => {
+export default function AviationAirlines () {
 
     const aviationairlinesdata =[
         {

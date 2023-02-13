@@ -414,7 +414,7 @@ export const industries = [
   {
     dropContent: "Aviation",
     navIcons: "Images/NavbarIconsSvg/industries section/aviation.svg",
-    path: "Aviation",
+    path: "aviation",
   },
   {
     dropContent: "Telecommunication",

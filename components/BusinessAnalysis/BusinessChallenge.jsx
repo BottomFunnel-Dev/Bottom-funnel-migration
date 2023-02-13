@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BusinessChallenge.module.css";
-export const BusinessChallenge = () => {
+export default function BusinessChallenge  () {
 return (
 <div className={styles.businesschallengemainbox}>
 <div className={styles.businesschallengeonlytextbox}>

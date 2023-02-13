@@ -3,7 +3,7 @@ import styles from "./KidsWearBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/baby and kids wear.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const KidsWearBanner = () => {
+export default function KidsWearBanner  () {
   return (
     <div>
       <div className={styles.KidsWearbannermainbox}>

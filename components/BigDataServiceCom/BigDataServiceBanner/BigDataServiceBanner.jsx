@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./BigDataServiceBanner.module.css";
 
-export const BigDataServiceBanner = () => {
+export default function BigDataServiceBanner  (){
   return (
     <div className={styles.BigDataServiceBannerMain}>
       <h1>

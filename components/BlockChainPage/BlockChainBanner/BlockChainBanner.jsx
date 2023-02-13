@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./BlockChainBanner.module.css";
 
-export const BlockChainBanner = () => {
+export default function BlockChainBanner  () {
   return (
     <div className={styles.BlockChainBannerMain}>
       <h1>

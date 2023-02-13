@@ -1,13 +1,34 @@
 import React from "react";
-import { BIBanner } from "../../components/BIPages/BIBanner/BIBanner";
-import { BIPartner } from "../../components/BIPages/BIPartner/BIPartner";
-import { BISolutions } from "../../components/BIPages/BISolutions/BISolutions";
-import { BIWhyBF } from "../../components/BIPages/BIWhyBF/BIWhyBF";
-import { BIAnalytics } from "../../components/BIPages/BIAnalytics/BIAnalytics";
-import { BISlider } from "../../components/BIPages/BISlider/BISlider";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
 import dynamic from "next/dynamic";
+
+const BIBanner = dynamic(
+  () => import("../../components/BIPages/BIBanner/BIBanner"),
+  { loading: "loading..." },
+);
+const BIPartner = dynamic(
+  () => import("../../components/BIPages/BIPartner/BIPartner"),
+  { loading: "loading..." },
+);
+const BISolutions = dynamic(
+  () => import("../../components/BIPages/BISolutions/BISolutions"),
+  { loading: "loading..." },
+);
+const BIWhyBF = dynamic(
+  () => import("../../components/BIPages/BIWhyBF/BIWhyBF"),
+  { loading: "loading..." },
+);
+const BIAnalytics = dynamic(
+  () => import("../../components/BIPages/BIAnalytics/BIAnalytics"),
+  { loading: "loading..." },
+);
+const BISlider = dynamic(
+  () => import("../../components/BIPages/BIAnalytics/BIAnalytics"),
+  { loading: "loading..." },
+);
+const CustomWebForm = dynamic(
+  () => import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },

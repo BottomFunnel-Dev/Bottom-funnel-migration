@@ -1,16 +1,30 @@
 import React from "react";
 
-import { BlockChainBanner } from "../../components/BlockChainPage/BlockChainBanner/BlockChainBanner";
-import { BlockChainOffer } from "../../components/BlockChainPage/BlockChainOffer/BlockChainOffer";
-import { BlockChainServices } from "../../components/BlockChainPage/BlockChainServices/BlockChainServices";
-import { BlockChainBF } from "../../components/BlockChainPage/BlockChainBF/BlockChainBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
+
 
 import dynamic from "next/dynamic";
+
+const BlockChainBanner = dynamic(
+  () => import("../../components/BlockChainPage/BlockChainBanner/BlockChainBanner"),
+  { loading: "loading..." },
+);
+const BlockChainOffer = dynamic(
+  () => import("../../components/BlockChainPage/BlockChainOffer/BlockChainOffer"),
+  { loading: "loading..." },
+);
+const BlockChainServices = dynamic(
+  () => import("../../components/BlockChainPage/BlockChainServices/BlockChainServices"),
+  { loading: "loading..." },
+);
+const CustomWebForm = dynamic(
+  () => import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
 );
+
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),

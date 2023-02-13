@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import React, { useState } from 'react'
 import styles from "./TaxiBookingAdminpannel.module.css"
 
 export const TaxiBookingAdminpannel = () => {
 
-    const [imageChange, setImageChange] = useState("Images/Taxibooking/Adminscreens/Driver management.png")
+    const [imageChange, setImageChange] = useState("/Images/Taxibooking/Adminscreens/Driver management.png")
 
 
     const handleImageChange = (imagepath) => {
@@ -51,7 +52,13 @@ export const TaxiBookingAdminpannel = () => {
             <div className={styles.taxibookingadminpannelmainboxes}>
                 <div className={styles.taxibookingappadminpannelleftbox}>
                     <div className={styles.taxibookingadminpannelleftboximagesize}>
-                        <img src={imageChange} alt='images' />
+                        <Image src={imageChange}
+                            alt={'images'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
 
@@ -65,9 +72,15 @@ export const TaxiBookingAdminpannel = () => {
                                 }}
                             >
                                 <div className={styles.taxibookingappadminpannelindivilogo}>
-                                    <img src={e.icon} alt="images" />
+                                    <Image src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
-                                
+
                                 <div className={styles.taxibookingappadminpannelindivifortxt}>
                                     <h4> {e.htxt} </h4>
                                     <p> {e.stxt} </p>
