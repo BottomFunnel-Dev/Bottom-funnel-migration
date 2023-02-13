@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./OurAchievements.module.css";
 import Image from "next/image";
 
-export const OurAchievements = () => {
+export default function OurAchievements() {
   return (
     <div className={styles.OurAchievementsmain}>
       <div className={styles.OurAchievementscontent}>
@@ -40,4 +40,4 @@ export const OurAchievements = () => {
       </div>
     </div>
   );
-};
+}

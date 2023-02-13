@@ -1,25 +1,21 @@
-import React from 'react';
-import styles from './Meanbanner.module.css';
+import React from "react";
+import styles from "./Meanbanner.module.css";
 import * as reactAnimation from "../../../public/Animation/android.json";
-import Lottie from "react-lottie";
-
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const Meanbanner = () => {
-   
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
   return (
-
     <div>
-     <div className={styles.androidIcon}>
-        <Lottie options={lottieDefaultOptions} width={400} height={500} />
-        </div>
+      <div className={styles.androidIcon}>
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
+      </div>
     </div>
   );
 };

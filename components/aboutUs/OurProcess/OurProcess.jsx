@@ -3,7 +3,7 @@ import styles from "./OurProcess.module.css";
 import { OurProcessPush } from "./OurProcessPush/OurProcessPush";
 import Image from "next/image";
 
-export const OurProcess = () => {
+export default function OurProcess() {
   return (
     <div className={styles.aboutusourprocess}>
       <div className={styles.OurProcessaboutUsmain}>
@@ -12,7 +12,7 @@ export const OurProcess = () => {
           <h1>
             About <span>Us</span>
           </h1>
-            <p>
+          <p>
             Going digital will bring higher revenues and growth. Marketing is
             all about targeting the right people with the right message, Digital
             marketing helps you do that efficiently. We are your partner in
@@ -39,7 +39,7 @@ export const OurProcess = () => {
           />
         </div>
       </div>
-     <OurProcessPush />
+      <OurProcessPush />
     </div>
   );
-};
+}

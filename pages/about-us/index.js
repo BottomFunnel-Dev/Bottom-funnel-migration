@@ -1,49 +1,68 @@
 import React from "react";
 import styles from "./AboutUS.module.css";
 import Head from "next/head";
-
-import { AboutusBanner } from "../../components/aboutUs/AboutusBanner/AboutusBanner";
-import { OurAchievements } from "../../components/aboutUs/OurAchievements/OurAchievements";
-import { OurBlogs } from "../../components/aboutUs/OurBlogs/OurBlogs";
-import { OurProcess } from "../../components/aboutUs/OurProcess/OurProcess";
-import { WorkLifeBalance } from "../../components/aboutUs/WorkLifeBalance/WorkLifeBalance";
-
 import dynamic from "next/dynamic";
+
+// ---------------importing components with lazy loading-----------------------
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+});
+const AboutusBanner = dynamic(
+  () => import("../../components/aboutUs/AboutusBanner/AboutusBanner"),
+  { loading: () => "loading..." },
+);
+const OurAchievements = dynamic(
+  () => import("../../components/aboutUs/OurAchievements/OurAchievements"),
+  { loading: () => "loading..." },
+);
+const OurBlogs = dynamic(
+  () => import("../../components/aboutUs/OurBlogs/OurBlogs"),
+  { loading: () => "loading..." },
+);
+const OurProcess = dynamic(
+  () => import("../../components/aboutUs/OurProcess/OurProcess"),
+  { loading: () => "loading..." },
+);
+const WorkLifeBalance = dynamic(
+  () => import("../../components/aboutUs/WorkLifeBalance/WorkLifeBalance"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
+
+// ------------------Main page function-----------------
 
 export default function AboutUS() {
   return (

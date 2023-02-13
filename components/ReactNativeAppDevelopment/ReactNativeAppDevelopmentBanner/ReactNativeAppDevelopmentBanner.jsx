@@ -1,31 +1,41 @@
-import React from 'react'
-import styles from './ReactNativeAppDevelopmentBanner.module.css';
+import React from "react";
+import styles from "./ReactNativeAppDevelopmentBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/reactfile.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const ReactNativeAppDevelopmentBanner = () => {
-   const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
   return (
     <div>
       <div className={styles.ReactNativeAppDevelopmentbannermainbox}>
-        <div className={styles.ReactNativeAppDevelopmentbannermainboxinnertextdiv}>
+        <div
+          className={styles.ReactNativeAppDevelopmentbannermainboxinnertextdiv}
+        >
           <h1>React Native App Development Services</h1>
-          <p>React Native is a popular app development platform that enables developers to create mobile apps using JavaScript. React Native is different from traditional web development because it uses stateless components, which makes the app more responsive and faster. This platform also allows for easy integration with third-party APIs, making it ideal for developing features that require access to external data or services.</p>
+          <p>
+            React Native is a popular app development platform that enables
+            developers to create mobile apps using JavaScript. React Native is
+            different from traditional web development because it uses stateless
+            components, which makes the app more responsive and faster. This
+            platform also allows for easy integration with third-party APIs,
+            making it ideal for developing features that require access to
+            external data or services.
+          </p>
 
-          <button className={styles.ReactNativeAppDevelopmentbannerbutton}>Get Started</button>
+          <button className={styles.ReactNativeAppDevelopmentbannerbutton}>
+            Get Started
+          </button>
         </div>
         <div className={styles.reactfileIcon}>
-        <Lottie options={lottieDefaultOptions} width={500} height={700} />
+          <Player
+            src={reactAnimation}
+            background="transparent"
+            speed="1"
+            loop
+            controls
+            autoplay
+          ></Player>
         </div>
       </div>
-       
     </div>
-  )
-}
+  );
+};

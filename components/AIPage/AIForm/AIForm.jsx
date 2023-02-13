@@ -41,7 +41,9 @@ export const AIForm = () => {
           <div className={styles.AIFormForm}>
             <div className={styles.AIFormFormSection}>
               <div className={styles.AIFormInputWithIcon}>
-                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.AIFormFormIcon }}
+                >
                   <BsFillPersonFill />
                 </IconContext.Provider>
                 <input
@@ -52,7 +54,9 @@ export const AIForm = () => {
               </div>
 
               <div className={styles.AIFormInputWithIcon}>
-                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.AIFormFormIcon }}
+                >
                   <AiTwotoneMail />
                 </IconContext.Provider>
                 <input
@@ -63,7 +67,9 @@ export const AIForm = () => {
               </div>
 
               <div className={styles.AIFormPhoneClass}>
-                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.AIFormFormIcon }}
+                >
                   <BsFillTelephoneFill />
                 </IconContext.Provider>
                 <select className={styles.AIFormCountryCode} name="" id="">
@@ -82,7 +88,9 @@ export const AIForm = () => {
               />
 
               <div className={styles.AIFormSelectClass}>
-                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.AIFormFormIcon }}
+                >
                   <CgMenuGridR />
                 </IconContext.Provider>
                 <select className={styles.AIFormSelectPart} name="" id="">
@@ -96,7 +104,9 @@ export const AIForm = () => {
               </div>
 
               <div className={styles.AIFormSelectClass}>
-                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.AIFormFormIcon }}
+                >
                   <BsCurrencyDollar />
                 </IconContext.Provider>
 
@@ -111,7 +121,9 @@ export const AIForm = () => {
               </div>
 
               <div className={styles.AIFormInputWithIcon}>
-                <IconContext.Provider value={{ className: styles.AIFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.AIFormFormIcon }}
+                >
                   <RiMessage2Fill />
                 </IconContext.Provider>
                 <input

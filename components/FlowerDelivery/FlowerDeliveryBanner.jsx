@@ -1,19 +1,9 @@
-import React from 'react';
+import React from "react";
 import styles from "./FlowerDelevrybanner.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Flower delivery.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const FlowerDeliveryBanner = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
   return (
     <div className={styles.flowerdeliverybannermaindiv}>
       <div className={styles.flowerdeliverybannerleftbox}>
@@ -21,20 +11,27 @@ const FlowerDeliveryBanner = () => {
           <span> On-Demand </span>Flower Delivery App
         </h1>
         <p>
-          Get your florist delivery business online with a flower delivery app development solution to provide superior
-          service experience to customers
+          Get your florist delivery business online with a flower delivery app
+          development solution to provide superior service experience to
+          customers
         </p>
-        <button className={styles.flowerdeliverybannerbutton}>Get Started</button>
+        <button className={styles.flowerdeliverybannerbutton}>
+          Get Started
+        </button>
       </div>
 
       <div className={styles.flowerdeliverybannerrightbox}>
-        <Lottie options={lottieDefaultOptions} width={700} height={600} />
-
-  
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
       </div>
     </div>
   );
 };
 
-export default FlowerDeliveryBanner
-
+export default FlowerDeliveryBanner;

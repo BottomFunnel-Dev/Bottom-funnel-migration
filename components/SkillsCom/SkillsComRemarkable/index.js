@@ -1,14 +1,51 @@
 import React from "react";
-import TextDropdown from "../../CommonComponents/faqSection/Faqs";
-import MainFooter from "../../CommonComponents/FooterSection/MainFooter";
-import Industries from "../../CommonComponents/industries/Industries";
-import OndemandSection from "../../CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../../CommonComponents/PlanProject/PlanProject";
-import Revamping from "../../CommonComponents/revamping/Revamping";
-import SeoblogSection from "../../CommonComponents/SeoBlogs/Seoblogs";
-import StoriesSection from "../../CommonComponents/StoriesSection/StoriesSection";
-import Companystats from "../../CompanyStats/Companystats";
-import ContectForm from "../../ContectForm/ContectForm";
+import dynamic from "next/dynamic";
+const TextDropdown = dynamic(
+  () => import("../../CommonComponents/faqSection/Faqs"),
+  {
+    loading: () => "loading",
+  },
+);
+const MainFooter = dynamic(
+  () => import("../../CommonComponents/FooterSection/MainFooter"),
+  { loading: () => "loading" },
+);
+const Industries = dynamic(
+  () => import("../../CommonComponents/industries/Industries"),
+  { loading: () => "loading" },
+);
+const OndemandSection = dynamic(
+  () => import("../../CommonComponents/OnDemandSection/OndemandSection"),
+  { loading: () => "loading" },
+);
+const PlanProject = dynamic(
+  () => import("../../CommonComponents/PlanProject/PlanProject"),
+  { loading: () => "loading" },
+);
+const Revamping = dynamic(
+  () => import("../../CommonComponents/revamping/Revamping"),
+  {
+    loading: () => "loading",
+  },
+);
+const SeoblogSection = dynamic(
+  () => import("../../CommonComponents/SeoBlogs/Seoblogs"),
+  {
+    loading: () => "loading",
+  },
+);
+const StoriesSection = dynamic(
+  () => import("../../CommonComponents/StoriesSection/StoriesSection"),
+  {
+    loading: () => "loading",
+  },
+);
+const Companystats = dynamic(() => import("../../CompanyStats/Companystats"), {
+  loading: () => "loading",
+});
+const ContectForm = dynamic(() => import("../../ContectForm/ContectForm"), {
+  loading: () => "loading",
+});
 import styles from "./SkillsComRemarkable.module.css";
 
 export const SkillsComRemarkable = ({ data }) => {
