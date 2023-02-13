@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./IcecreamBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/tool deliver.json";
+import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Icecream.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 export const IcecreamBanner = () => {
@@ -9,7 +9,7 @@ export const IcecreamBanner = () => {
       <div className={styles.icreambannersometextbox}>
         <h1> Launch an On-Demand </h1>
         <h2>
-          <span className={styles.specialcolor}>Ice-cream</span> Delivery App
+          <span className={styles.specialcolor}> Ice-cream </span> Delivery App
         </h2>
         <p>
           Looking to build an online presence for your ice cream delivery
@@ -24,14 +24,15 @@ export const IcecreamBanner = () => {
       </div>
 
       <div className={styles.iceCreamBannerAnimationDiv}>
-        <Player
+        <Player className={styles.iceCreamBannerMainAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"
           loop
           controls
           autoplay
-        ></Player>
+        >
+        </Player>
       </div>
     </div>
   );
