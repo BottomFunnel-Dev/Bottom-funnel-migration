@@ -5,8 +5,6 @@ import Image from 'next/image';
 
 export const Roshiwelness = () => {
 
-
-
   return (
     <div className={styles.yanbalmainboxes}>
     <div className={styles.yanballeftboxes}>
