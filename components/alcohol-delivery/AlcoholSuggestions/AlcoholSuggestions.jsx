@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./AlcoholSuggestions.module.css";
 
-export const AlcoholSuggestions = () => {
+export default function AlcoholSuggestions() {
   let foodExcluciveAppData = [
     {
       img: {
@@ -75,4 +75,4 @@ export const AlcoholSuggestions = () => {
       </div>
     </div>
   );
-};
+}

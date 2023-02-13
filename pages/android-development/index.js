@@ -1,48 +1,83 @@
 import React from "react";
-import { AndriodBanner } from "../../components/AndriodAppDevelopment/AndriodBanner/AndriodBanner";
-import { AndriodBottomFunnel } from "../../components/AndriodAppDevelopment/AndriodBottomFunnel/AndriodBottomFunnel";
-import { AndriodCustomDevelopment } from "../../components/AndriodAppDevelopment/AndriodCustomDevelopment/AndriodCustomDevelopment";
-import { AndriodServices } from "../../components/AndriodAppDevelopment/AndriodServices/AndriodServices";
-import { AndriodUserCentric } from "../../components/AndriodAppDevelopment/AndriodUserCentric/AndriodUserCentric";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+// ---------------importing components with lazy loading-----------------------
+const AndriodBanner = dynamic(
+  () =>
+    import(
+      "../../components/AndriodAppDevelopment/AndriodBanner/AndriodBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const AndriodBottomFunnel = dynamic(
+  () =>
+    import(
+      "../../components/AndriodAppDevelopment/AndriodBottomFunnel/AndriodBottomFunnel"
+    ),
+  { loading: () => "loading..." },
+);
+const AndriodCustomDevelopment = dynamic(
+  () =>
+    import(
+      "../../components/AndriodAppDevelopment/AndriodCustomDevelopment/AndriodCustomDevelopment"
+    ),
+  { loading: () => "loading..." },
+);
+const AndriodServices = dynamic(
+  () =>
+    import(
+      "../../components/AndriodAppDevelopment/AndriodServices/AndriodServices"
+    ),
+  { loading: () => "loading..." },
+);
+const AndriodUserCentric = dynamic(
+  () =>
+    import(
+      "../../components/AndriodAppDevelopment/AndriodUserCentric/AndriodUserCentric"
+    ),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
+// ------------------Main page function-----------------
 export default function AndroidAppDevelopment() {
   return (
     <>

@@ -1,53 +1,87 @@
 import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import AgricultureBanner from "../../components/Agriculture/AgricultureBanner/AgricultureBanner";
-import { AgricultureSolutions } from "../../components/Agriculture/AgricultureSolutions/AgricultureSolutions";
 import {
   logisticsCustomer,
   agricultureConsumerApp,
   agricultureAdmin,
 } from "../../components/Data/agriculture.js";
-import AgricultureCustomerApp from "../../components/Agriculture/AgricultureCustomerApp/AgricultureCustomerApp";
-import AgricultureConsumerApp from "../../components/Agriculture/AgricultureConsumerApp/AgricultureConsumerApp";
-import AgricultureAdminPanel from "../../components/Agriculture/AgricultureAdminPanel/AgricultureAdminPanel";
+
+// ---------------importing components with lazy loading-----------------------
+const AgricultureBanner = dynamic(
+  () =>
+    import("../../components/Agriculture/AgricultureBanner/AgricultureBanner"),
+  { loading: () => "loading..." },
+);
+const AgricultureSolutions = dynamic(
+  () =>
+    import(
+      "../../components/Agriculture/AgricultureSolutions/AgricultureSolutions"
+    ),
+  { loading: () => "loading..." },
+);
+const AgricultureCustomerApp = dynamic(
+  () =>
+    import(
+      "../../components/Agriculture/AgricultureCustomerApp/AgricultureCustomerApp"
+    ),
+  { loading: () => "loading..." },
+);
+const AgricultureConsumerApp = dynamic(
+  () =>
+    import(
+      "../../components/Agriculture/AgricultureConsumerApp/AgricultureConsumerApp"
+    ),
+  { loading: () => "loading..." },
+);
+const AgricultureAdminPanel = dynamic(
+  () =>
+    import(
+      "../../components/Agriculture/AgricultureAdminPanel/AgricultureAdminPanel"
+    ),
+  { loading: () => "loading..." },
+);
 
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
+// ------------------Main page function-----------------
 export default function AgriculturePage() {
   return (
     <>

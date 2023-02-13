@@ -1,4 +1,8 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import Head from "next/head";
+
+// ---------------importing components with lazy loading-----------------------
 import { WebdevBanner } from "../../components/WebDevelopment/bannerWebdev/WebdevBanner";
 import { aspnetBanner } from "../../components/Data/webdevPageData/TechBannerData";
 import { Techstackintro } from "../../components/WebDevelopment/techStackintro/Techstackintro";
@@ -10,45 +14,46 @@ import { whyAspnet } from "../../components/Data/webdevPageData/whyTechStack";
 import { GetStarted } from "../../components/WebDevelopment/webGetStartedCard/GetStarted";
 import { WebDevWhy } from "../../components/WebDevelopment/webDevWhy/WebDevWhy";
 import { aspnetWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
-
-import dynamic from "next/dynamic";
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
+// ------------------Main page function-----------------
 export default function AspNet() {
   return (
     <div>

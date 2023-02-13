@@ -14,7 +14,14 @@ export const Performing = () => {
 You can get a sector-wise breakdown of customers you’re servicing to determine where you’re getting the most business from, create a report on customers by deal stages, assess revenues each of your sales/client servicing teams is bringing in, and more.</p>
         <p>Learn-More</p>
         <div className={style.Performing1stdivimage}>
-            <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" />
+        <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/Agencyhomepagephotos/screen1.webp"
+            alt="/Images/Agencyhomepagephotos/screen1.webp"
+          />
         </div>
         <div className={style.Performing2ndinnerdiv}>
             <div className={style.Performing2ndpart1}>
@@ -26,7 +33,14 @@ You can get a sector-wise breakdown of customers you’re servicing to determine
             </div>
 
             <div className={style.Performing2ndpart2}>
-                <img src="/Images/Agencyhomepagephotos/screen1.png" alt="image" />
+            <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/Agencyhomepagephotos/screen1.webp"
+            alt="/Images/Agencyhomepagephotos/screen1.webp"
+          />
             </div>
         </div>
         
