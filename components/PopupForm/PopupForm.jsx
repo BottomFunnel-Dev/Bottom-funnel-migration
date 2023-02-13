@@ -13,7 +13,7 @@ import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
 import { interested, budget, countrycodes } from "../ContectForm/countrycode";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 export const PopupForm = ({ formStyle }) => {
   const form = useRef();
@@ -25,16 +25,16 @@ export const PopupForm = ({ formStyle }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(serviceID, template, form.current, publicKey).then(
-      (result) => {
-        console.log(result.text);
-        alert("email sent successfully");
-      },
-      (error) => {
-        console.log(error.text);
-        console.log("failed");
-      }
-    );
+    // emailjs.sendForm(serviceID, template, form.current, publicKey).then(
+    //   (result) => {
+    //     console.log(result.text);
+    //     alert("email sent successfully");
+    //   },
+    //   (error) => {
+    //     console.log(error.text);
+    //     console.log("failed");
+    //   }
+    // );
     form.current.reset()
   };
 
@@ -143,10 +143,7 @@ export const PopupForm = ({ formStyle }) => {
               rows="5"
             ></textarea>
           </div>
-          {/* <input type="checkbox" />{" "}
-            <strong>
-              Yes, Send Me A Mutual NDA (Non-Disclosure Agreement)
-            </strong> */}
+          
         </div>
         <div className={styles.popuprobotCaptcha}>
           <input type="submit" value="Send Your Enquiry" />

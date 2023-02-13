@@ -32,7 +32,11 @@ export const Blueberry = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Bootstrap, Php, Apache</p>
+  <p><strong>Database</strong>: My Sql</p>
+  <p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap</p>
+  <p><strong>Backend</strong>: PHP</p>
+  <p><strong>Web Server</strong>: Cloudfare Server</p>
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -56,7 +60,14 @@ export const Blueberry = () => {
 <img src='Images/portfolio/blueberry group/logo/Screenshot (61).png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://blueberrygroup.co/">
+<a className={styles.androidappicon}>
+
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     
@@ -65,10 +76,7 @@ export const Blueberry = () => {
 
     <div className={styles.yanbalrightboxes}>
  
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Lottie className={styles.lottieimages}  options={lottieDefaultOptions}   />
     
     </div>
     

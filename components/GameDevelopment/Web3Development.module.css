@@ -1,68 +1,59 @@
 .Web3Developmentmainbox {
-  height: 100vh;
-  display: flex;
-  background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+height: 100vh;
+display: flex;
+background-image: url("/Images/gamedevelopmentpage/sectionfeatures1-2y-3.webp");
+background-size: cover;
+background-repeat: no-repeat;
 }
-
 .web3developmentleftboxing {
-  height: 70%;
-  width: 40%;
-  margin-top: 10%;
-  margin-left: 5%;
-  color: white;
+height: 70%;
+width: 40%;
+margin-top: 10%;
+margin-left: 5%;
+color: white;
 }
-
-.specialcolorredish > a {
-  color: #ef4c23;
-  border: 1px solid red;
+.specialcolorredish>a {
+color: #ef4c23;
+border: 1px solid red;
 }
-
 .web3developmentflexingboxrightdiv {
-  height: 100%;
-  width: 50%;
-  position: relative;
+height: 100%;
+width: 50%;
+position: relative;
 }
-
 .web3develomentgameboxingimageinnerbox1 {
-  position: absolute;
-  height: 30%;
-  width: 40%;
-  top: 20%;
-  left: 50%;
+position: absolute;
+height: 30%;
+width: 40%;
+top: 20%;
+left: 50%;
 }
-
-.web3develomentgameboxingimageinnerbox1 > img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 0;
+.web3develomentgameboxingimageinnerbox1>img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+z-index: 0;
 }
-
 .web3develomentgameboxingimageinnerbox2 {
-  position: absolute;
-  height: 30%;
-  width: 40%;
-  top: 40%;
-  left: 30%;
+position: absolute;
+height: 30%;
+width: 40%;
+top: 40%;
+left: 30%;
 }
-
-.flexinggamermetaverce{
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: row;
+.flexinggamermetaverce {
+display: flex;
+flex-direction: row;
+margin-top: 3%;
 }
-
-.flexinggamermetaverce > h6{
-  color: white;
-  margin-left: 3%;
-  margin-top: 1.5%;
+.flexinggamermetaverce>h6 {
+color: white;
+margin-left: 3%;
+margin-top: 1.5%;
 }
-
-.web3develomentgameboxingimageinnerbox2 > img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  z-index: 1;
+.web3develomentgameboxingimageinnerbox2>img {
+height: 100%;
+width: 100%;
+object-fit: cover;
+z-index: 1;
 }

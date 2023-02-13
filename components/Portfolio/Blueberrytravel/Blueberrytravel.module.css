@@ -1,142 +1,243 @@
 .nextholidaymainboxes{
-    height: 85vh;
-     display: flex;
-     background: url("/Images/portfolio/Portfolio banners/Rectangle 1067342.png");
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
-     margin-top: -1%;
-     color: white;
+height: 85vh;
+display: flex;
+background: url("/Images/portfolio/Portfolio banners/Rectangle 1067342.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+color: white;
 }
-
 .nextholidayleftbox{
-    height: 100%;
-    width: 55%;
-
+height: 100%;
+width: 55%;
 }
-
 .nextholidayleftboxforimages{
-    height: 85%;
-    width: 30%;
-
-    margin: 5% 0% 0% 65%;
-    
+height: 85%;
+width: 30%;
+margin: 5% 0% 0% 65%;
 }
-
 .nextholidayleftboxforimages>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-   
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
-
-
 .nextholidayrighttbox{
-    height: fit-content;
-    width: 45%;
-    margin-right: 2%;
-    margin-top: 5%;
+height: fit-content;
+width: 45%;
+margin-right: 2%;
+margin-top: 5%;
 }
-
 .nextholidayrighttbox>p{
-    font-size: smaller;
+font-size: smaller;
 }
-
 .nextholidayrightinsideflexbox{
-    /* border: 1px solid red; */
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
+/* border: 1px solid red; */
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
 }
-
 .nextholidaywrapbox1{
 /* border: 1px solid green; */
 width: 40%;
 margin: 3%;
 padding: 5px;
 }
-
 .nextholidaywrapbox1>h5{
-    font-weight: 900;
-    font-size: 20px;
-    text-align: center;
-
+font-weight: 900;
+font-size: 20px;
+text-align: left;
 }
-
 .nextholidaywrapbox1>p{
-    font-size: 17px;
-    text-align: center;
-    margin-top: -0%;
-
+text-align: left;
+margin: 0;
 }
-
 .portfolioavailableonicon{
-    display: flex;
-  margin: auto;
-  width: 60%;
-
+display: flex;
+margin-left: -2%;
+width: 60%;
 }
-
 .porfolionextholidayicon{
-
-
-    margin: 5% ;
-    height: 15%;
-    width: 20%;
-    border-right: 1px solid white;
-
+margin: 5% ;
+height: 15%;
+width: 20%;
+border-right: 1px solid white;
 }
-
 .porfolionextholidayicon:nth-child(2){
-    width: 25%;
+width: 30%;
 }
 
 .porfolionextholidayicon:last-child{
-    border-right: none;
+border-right: none;
 }
-
 .androidappicon>img{
-    height: 50%;
-    width: 50%;
-    object-fit: contain;
+height: 50%;
+width: 50%;
+object-fit: contain;
 }
-
 .porfolionextholidayicon>img{
-    height: 50%;
-    width: 50%;
-    object-fit: contain;
+height: 50%;
+width: 50%;
+object-fit: contain;
 }
-
-
 .nextholidaywrapboximages{
-    width: 40%;
-    height: 5%;
-    margin-left: 5%;
-  
-
+width: 40%;
+height: 5%;
+margin-left: 5%;
 }
 .nextholidaywrapboximages>img{
-    height: 100%;
-    width: 70%;
-    object-fit: contain;
+height: 100%;
+width: 70%;
+object-fit: contain;
 }
-
 .nextholidayviewcasebutton{
-    padding: 10px 50px;
-  border-radius: 100px;
-  width: 220px;
-  background-color: transparent;
-  border: #ef4c23;
-  outline: none;
-  box-shadow: white 0px 0px 3px;
-  font-size: 14px;
-  font-weight: 600;
-  color: white;
-  margin-left: 25%;
-  margin-top: 2%;
+padding: 10px 50px;
+border-radius: 100px;
+width: 220px;
+background-color: transparent;
+border: #ef4c23;
+outline: none;
+box-shadow: white 0px 0px 3px;
+font-size: 14px;
+font-weight: 600;
+color: white;
+margin-left: 15%;
+margin-top: 2%;
+}
+.nextholidayviewcasebutton:hover{
+background-color: white;
+color: black;
 }
 
-.nextholidayviewcasebutton:hover{
-    background-color: white;
-    color: black;
+/* for any type of mobile screen responsive */
 
+
+@media only screen and (min-width:0px) and (max-width:600px){
+.nextholidaymainboxes{
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+background: url("/Images/portfolio/Portfolio Mobile Responsive/9.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+padding: 20px; 
+}
+.nextholidayleftbox{
+  height: 100%;
+  width: 100%;
+ }
+ .nextholidayrighttbox{
+  height: fit-content;
+  width: 100%;
+  margin-top: 5%;
+ }
+ 
+ .nextholidayrighttbox>h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+ 
+ }
+ 
+ 
+ 
+ .nextholidayrighttbox>p{
+ font-size: 14px;
+ text-align: justify;
+ margin: 2%;
+ }
+ .nextholidayrightinsideflexbox{
+ height: fit-content;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ }
+ 
+ .nextholidaywrapbox1{
+ width: 40%;
+ margin: 3%;
+ padding: 5px;
+ }
+ 
+ .nextholidaywrapbox1>h5{
+ font-weight: 900;
+ font-size: 20px;
+ text-align: center;
+ 
+ }
+ .nextholidaywrapbox1>p{
+ font-size: 12px;
+ height: fit-content;
+ text-align: center;
+ margin-top: -0%;
+ margin-right: 2%;
+ 
+ }
+ .portfolioavailableonicon{
+ display: flex;
+ margin: auto;
+ width: 70%;
+ }
+ .porfolionextholidayicon{
+ margin: 5% ;
+ height: 25%;
+ width: 30%;
+ 
+ }
+ 
+ .androidappicon{
+   margin: 5% ;
+   height: 25%;
+   width: 35%;
+  
+ 
+ }
+ 
+ .androidappicon>img{
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ }
+ 
+ .porfolionextholidayicon:last-child{
+ border-right: none;
+ }
+ .porfolionextholidayicon>img{
+ height: 100%;
+ width: 70%;
+ object-fit: contain;
+ }
+ 
+ 
+ .androidappicon>img{
+     height: 100%;
+ width: 70%;
+ object-fit: contain;
+ }
+ 
+ .nextholidaywrapboximages{
+ width: 35%;
+ height: 8%;
+ }
+ .nextholidaywrapboximages>img{
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ }
+.nextholidayviewcasebutton{
+padding: 5px 10px;
+border-radius: 100px;
+width: 150px;
+background-color: transparent;
+border: #ef4c23;
+outline: none;
+box-shadow: white 0px 0px 3px;
+font-size: 14px;
+font-weight: 600;
+color: white;
+margin-left: -3%;
+margin-top: -0%;
+}
+.nextholidayviewcasebutton:hover{
+background-color: white;
+color: black;
+}
 }

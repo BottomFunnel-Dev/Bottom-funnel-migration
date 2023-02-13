@@ -5,14 +5,14 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 export const VettingSlider = () => {
   const data = [
-    "Images/VettingPhotos/slidericons/email.png",
-    "Images/VettingPhotos/slidericons/pen.png",
-    "Images/VettingPhotos/slidericons/salesforce.png",
-    "Images/VettingPhotos/slidericons/screen.png",
-    "Images/VettingPhotos/slidericons/setting.png",
-    "Images/VettingPhotos/slidericons/salesforce.png",
-    "Images/VettingPhotos/slidericons/screen.png",
-    "Images/VettingPhotos/slidericons/setting.png",
+    "Images/VettingPhotos/slidericons/email.webp",
+    "Images/VettingPhotos/slidericons/pen.webp",
+    "Images/VettingPhotos/slidericons/salesforce.webp",
+    "Images/VettingPhotos/slidericons/screen.webp",
+    "Images/VettingPhotos/slidericons/setting.webp",
+    "Images/VettingPhotos/slidericons/salesforce.webp",
+    "Images/VettingPhotos/slidericons/screen.webp",
+    "Images/VettingPhotos/slidericons/setting.webp",
   ];
 
   const NextArrow = ({ onClick }) => {

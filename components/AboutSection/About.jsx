@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./about.module.css";
 
-const About = () => {
+export default function About() {
   return (
     <div className={styles.newAbout}>
       <div className={styles.aboutContent}>
@@ -60,6 +60,4 @@ const About = () => {
       </div>
     </div>
   );
-};
-
-export default About;
+}

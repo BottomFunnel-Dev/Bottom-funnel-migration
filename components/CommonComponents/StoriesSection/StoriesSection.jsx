@@ -1,16 +1,13 @@
-import React, { useState }  from "react";
+import React from "react";
 import styles from "./StoriesSection.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsPlayCircle, BsArrowRight } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
-import YoutubeLink from "./YoutubeLink";
 import Image from "next/image";
 
 const StoriesSection = () => {
-  const [videoString, setVideoString] = useState();
-  const [toggle, setToggle] = useState(false);
   const settings = {
     infinite: true,
     accessibility: false,
@@ -134,14 +131,6 @@ const StoriesSection = () => {
     },
   ];
 
-  const handleModal = (item) => {
-    console.log(item);
-    setVideoString(item.video);
-    setToggle(true);
-  };
-  const handleModalOut = () => {
-    setToggle(false);
-  };
   return (
     <div className={styles.storiesSection}>
       <h3>What Our clients says about us</h3>
@@ -163,7 +152,6 @@ const StoriesSection = () => {
                   sizes={"100vw"}
                   style={{ width: "100%", height: "100%" }}
                 />
-                {/* <img src={item.brandImage} alt="image" /> */}
               </div>
             </div>
             <div className={styles.bylineContent}>
@@ -173,13 +161,12 @@ const StoriesSection = () => {
           </div>
         ))}
       </Slider>
-      {/* <div onClick={handleModalOut} className={toggle?"youtubeDiv":"none"}>
-              {toggle && <YoutubeLink embedId={videoString} />}
-            </div> */}
-      <p className={styles.testimonial}>View more testimonials <IconContext.Provider value={{ className: styles.rightArrow }}>
-        <BsArrowRight />
-      </IconContext.Provider></p>
-
+      <p className={styles.testimonial}>
+        View more testimonials{" "}
+        <IconContext.Provider value={{ className: styles.rightArrow }}>
+          <BsArrowRight />
+        </IconContext.Provider>
+      </p>
     </div>
   );
 };

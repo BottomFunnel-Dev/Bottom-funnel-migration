@@ -32,7 +32,7 @@ export default function Seostats() {
   if (g === 746) {
     clearInterval(interval);
   }
-  // console.log(inView)
+
 
   return (
     <div ref={ref} className={styles._Seostats} inView={inView}>

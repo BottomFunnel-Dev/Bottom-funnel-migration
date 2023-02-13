@@ -38,15 +38,14 @@ export const CryptoDevBenefit = () => {
         {cardsData.map(({ title, image, body }) => (
           <div className={styles.cryptodevbannerfitindiboxes} key={title}>
             <div>
-              <img src={image} alt={title}/>
-            {/* <Image
-                src={image}
-                alt={title}
+              <Image
                 width={"0"}
                 height={"0"}
                 sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              /> */}
+                style={{ width: "fit-content", height: "100%" }}
+                src={image}
+                alt={title}
+              />
             </div>
             <h2>{title}</h2>
             <p>{body}</p>

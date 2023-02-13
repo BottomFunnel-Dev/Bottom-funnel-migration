@@ -68,12 +68,12 @@
   height: 150px;
   width: 150px;
   border-radius: 100px;
-
+  /* padding: 20px; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.ourClientCardsImage > img {
+/* .ourClientCardsImage > img {
   width: 100%;
-}
+} */

@@ -1,13 +1,21 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoPPCSection.module.css";
+import Image from "next/image";
 
 export default function SeoPPCSection() {
 
     return (
         <div className={styles._SeoPPCMain1}>
             <div className={styles.ppcgifDenote}>
-                <img src="Images/seopages/8.gif" alt="images" />
+            <Image
+            src={"/Images/seopages/8.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
             </div>
             <div className={styles._SeoPPCupperdiv}>
                 <div className={styles._SeoPPCtext} >

@@ -1,58 +1,45 @@
 .KidsWearbannermainbox {
-  height: 90vh;
-  width: 98%;
-  border: 3px solid white;
-  /* margin-top: 120px; */
-  /* background-image: url("/Images/kidswearappservice/Frame93.png"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin-top: 100px;
+height: 90vh;
+width: 98%;
+border: 3px solid white;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin-top: 100px;
 }
-
 .KidsWearbannermainboxinnertextdiv {
-  height: 50%;
-  width: 37%;
-
-  margin-top: 13%;
-  margin-left: 5%;
-  /* text-align: center; */
+height: 50%;
+width: 37%;
+margin-top: 13%;
+margin-left: 5%;
 }
-
 .KidsWearbannermainboxinnertextdiv > h1 {
-  color: black;
-  font-size: 40px;
-  /* font-weight: 600; */
+color: black;
+font-size: 40px;
 }
 .KidsWearbannermainboxinnertextdiv > p {
-  color: black;
-  /* margin-top: 7%; */
-  /* font-size: 20px; */
-  /* font-weight: 500; */
+color: black;
 }
-
 .KidsWearbannerbutton {
-  padding: 10px 50px;
-  border-radius: 50px;
-  width: 230px;
-  background-color: #ef4c23;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  margin-top: 22px;
-  border: 1px solid #ef4c23;
+padding: 10px 50px;
+border-radius: 50px;
+width: 230px;
+background-color: #ef4c23;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+margin-top: 22px;
+border: 1px solid #ef4c23;
 }
-
 .KidsWearbannerbutton:hover {
-  background-color: white;
-  color: #ef4c23;
+background-color: white;
+color: #ef4c23;
 }
-
 .kidsWearBannerAnimationDiv {
-  position: absolute;
-  top: 17%;
-  right: 0%;
+position: absolute;
+top: 17%;
+right: 0%;
 }

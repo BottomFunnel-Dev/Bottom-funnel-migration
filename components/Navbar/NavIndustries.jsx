@@ -11,47 +11,12 @@ export const NavIndustries = ({
 }) => {
   return (
     <div
-      onMouseEnter={solHoverIn}
-      onMouseLeave={solHoverOut}
+      onMouseEnter={()=>{solHoverIn("solutions",true)}}
+      onMouseLeave={()=>{solHoverOut("",false)}}
       className={industry.industryserviceVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
-      {/* <div className={industry.serviceVisible}> */}
-      {/* <div className={industry.indindustryContent}>
-        <Link href={""} className={industry.industrynoStyle}>
-          <h5>Industries We Serves</h5>
-        </Link>
-        <div className={industry.industryListItems}>
-          {industries.map((item, i) => (
-            <div
-              key={i}
-              onClick={() => {
-                // navigate(`/${item.path}`);
-                solHoverOut();
-              }}
-              className={industry.industryimageIconDivSection}
-            >
-              <div>
-                <img
-                  className={industry.industryiconDivSection}
-                  src={item.navIcons}
-                  alt=""
-                />
-              </div>
-              <Link
-                onClick={solHoverOut}
-                href={item.path}
-                className={industry.industrylinkP}
-              >
-                <p>{item.dropContent}</p>
-              </Link>
-            </div>
-          ))}
-        </div>
-      </div> */}
-
-
-
+     
       <div id={industry.ondemandsol} className={industry.indindustryContent}>
         <Link href={""} className={industry.industrynoStyle}>
           <h5>On Demand Solutions</h5>
@@ -67,7 +32,7 @@ export const NavIndustries = ({
                 <img className={industry.industryiconDivSection} src={item.navIcons} alt="image" />
               </div>
               <Link
-                onClick={solHoverOut}
+                onClick={()=>{solHoverOut("",false)}}
                 href={item.path}
                 className={industry.industrylinkP}
               >

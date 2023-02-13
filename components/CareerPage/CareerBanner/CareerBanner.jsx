@@ -1,11 +1,20 @@
 import React from "react";
 import career from "./CareerBanner.module.css";
+import Image from "next/image";
 
 export const CareerBanner = () => {
   return (
     <div className={career.careerBannerMain}>
       <div className={career.careerBannerImage}>
-        <img src="/Images/careerPhotos/banner.png" alt="Career banner" />
+       
+       <Image
+          src={"/Images/careerPhotos/banner.webp"}
+          alt={"Bannerimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
 
       <div className={career.careerBannerContent}>

@@ -1,13 +1,19 @@
 import React from "react";
 import styles from "./VettingBanner.module.css";
+import Image from "next/image";
 
 export const VettingBanner = () => {
   return (
     <div className={styles.vettingBannerContainer}>
       <div className={styles.vettingBannerImage}>
-        <img
-          src="/Images/VettingPhotos/banner.png"
-          alt="Vetting banner human image"
+        
+        <Image
+          src={"/Images/VettingPhotos/banner.webp"}
+          alt={"Humanimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
         />
       </div>
 

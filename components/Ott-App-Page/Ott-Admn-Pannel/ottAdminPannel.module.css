@@ -1,12 +1,10 @@
 .ottAdminPannelContainer {
   display: flex;
-  /* border: 1px solid green; */
 }
 
 .ottAdminPannelRightDiv {
   height: 600px;
   width: 60%;
-  /* border: 1px solid green; */
   background: url("/Images/ott-app/Rectangle182362.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -20,7 +18,6 @@
 .ottAdminPannelRightDivFrameForImages {
   width: 90%;
   height: 500px;
-  /* border: 1px solid green; */
 }
 
 .ottAdminPannelRightDivFrameForImages > img {
@@ -36,7 +33,6 @@
   width: 40%;
   margin: auto;
   align-items: center;
-  /* border: 1px solid green; */
   margin-bottom: 100px;
 }
 
@@ -64,16 +60,13 @@
 .ottAdminPannelLeftDivForCards > p {
   font-size: 18px;
   margin: 2% auto;
-  /* border: 1px solid green; */
 }
 
 .ottAdminPannelLeftDivHeading {
   color: white;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 .ottAdminPannelLeftDivHeading > p {
   font-size: 18px;
-  /* border: 1px solid red; */
 }

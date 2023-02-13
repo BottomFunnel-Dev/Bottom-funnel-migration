@@ -61,16 +61,13 @@
   z-index: 1;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
   .flowerdeliveryadminmainbox {
-    /* border: 2px solid red; */
     height: fit-content;
     flex-direction: column-reverse;
-    /* margin-top: 5%; */
     align-items: center;
     justify-content: center;
     position: relative;
@@ -78,9 +75,7 @@
 
   .flowerdeliveryadminflexleftbox {
     width: 100%;
-    /* margin-left: 3%; */
     margin-top: 5%;
-    /* position: relative; */
     align-items: center;
     text-align: center;
   }
@@ -89,7 +84,6 @@
     margin-left: 3%;
     font-weight: 500;
     width: 100%;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryadmingboxmapping {
@@ -97,11 +91,9 @@
     margin: 2%;
     width: 98%;
     margin-left: 5%;
-    /* padding: 3%; */
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryadmingboxmapping:hover {
@@ -110,7 +102,6 @@
   }
 
   .flowerdeliveryadmingboxmapping > h4 {
-    /* border: 1px solid red; */
     margin-top: 0%;
     margin-bottom: 0%;
   }
@@ -120,16 +111,13 @@
   }
 
   .flowerdeliveryadminflexrightbox {
-    /* border: 1px solid red; */
     height: fit-content;
     position: relative;
     width: 100%;
-    /* bottom: 0%; */
   }
 
   .flowerdeliveryadminrightboxforimageone {
     position: absolute;
-    /* border: 1px solid red; */
     height: 220px;
     width: 93%;
     margin-top: 3%;
@@ -140,16 +128,12 @@
     width: 100%;
     object-fit: cover;
     z-index: 0;
-    /* margin-top: 3%; */
   }
 
   .flowerdeliveryadminrightboxforimagetwo {
-    /* border: 1px solid black; */
     position: absolute;
     height: fit-content;
     width: 90%;
-    /* height: 200px; */
-    /* top: 17%; */
     left: 50px;
   }
 
@@ -157,27 +141,20 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    /* border: 1px solid red; */
     z-index: 1;
     margin-top: 4%;
   }
 }
 
-/* this css is for the */
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliveryadminmainbox {
-    /* border: 2px solid red; */
-    /* height: 800px; */
     height: fit-content;
     flex-direction: column-reverse;
-    /* margin-top: 5%; */
   }
 
   .flowerdeliveryadminflexleftbox {
-    /* border: 1px solid red; */
     width: 100%;
-    /* margin-left: 3%; */
     margin-top: 5%;
     position: absolute;
     align-items: center;
@@ -188,7 +165,6 @@
     margin-left: 3%;
     font-weight: 500;
     width: 100%;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryadmingboxmapping {
@@ -196,11 +172,9 @@
     margin: 2%;
     width: 98%;
     margin-left: 0%;
-    /* padding: 3%; */
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryadmingboxmapping:hover {
@@ -209,7 +183,6 @@
   }
 
   .flowerdeliveryadmingboxmapping > h4 {
-    /* border: 1px solid red; */
     margin-top: 0%;
     margin-bottom: 0%;
   }
@@ -219,8 +192,6 @@
   }
 
   .flowerdeliveryadminflexrightbox {
-    /* border: 1px solid red; */
-    /* height: 700px; */
     height: fit-content;
     position: absolute;
     width: 100%;
@@ -228,10 +199,7 @@
 
   .flowerdeliveryadminrightboxforimageone {
     position: absolute;
-    /* border: 1px solid red; */
-    /* height: 600px; */
     width: 100%;
-    /* top: 35%; */
     left: 5%;
   }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Tigmoo.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Tigmoo.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Tigmoo.json";
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
@@ -17,10 +17,7 @@ export const Tigmoo = () => {
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
-    <Lottie style={{
-      marginLeft:"-80%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={500} height={600}   />
+    <Lottie options={lottieDefaultOptions}   />
   
 
 
@@ -41,7 +38,10 @@ export const Tigmoo = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p><strong>Frontend:</strong>Javascript, Jquery, Bootstrap</p>
+<p><strong>Backend:</strong>-</p>
+<p><strong>Web Servers:</strong>CloudFlare</p>
+<p><strong>Database:</strong>-</p>
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
@@ -49,7 +49,7 @@ export const Tigmoo = () => {
 <div className={styles.porfolionextholidayicon}>
 <Link href="https://play.google.com/store/apps/details?id=com.tigmoodotcom&hl=en&gl=US">
 <a className={styles.androidappicon}>
-<img src='Images/portfolio/Platform icons/Platform icons/Frame.png' alt='images' />
+<img src='Images/portfolio/Platform icons/Frame.png' alt='images' />
 </a>
 </Link>
 </div>
@@ -58,7 +58,7 @@ export const Tigmoo = () => {
 <div className={styles.porfolionextholidayicon}>
 <Link href="https://www.tigmoo.com/">
 <a className={styles.androidappicon}>
-<img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' />
+<img src='Images/portfolio/Platform icons/Frame-1.png' alt='images' />
 </a>
 </Link>
 </div>
@@ -67,7 +67,7 @@ export const Tigmoo = () => {
 <div className={styles.porfolionextholidayicon}>
 <Link href="https://apps.apple.com/in/app/tigmoo/id1484344747">
 <a className={styles.androidappicon}>
-<img src='Images/portfolio/Platform icons/Platform icons/Frame-2.png' alt='images' />
+<img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' />
 </a>
 </Link>
 </div>
@@ -79,7 +79,11 @@ export const Tigmoo = () => {
 <img src='Images/portfolio/Tigmo/logo/download (2) 1.png' alt='images' />
 </div>
 <div>
+<Link href="https://www.tigmoo.com/">
+<a className={styles.androidappicon}>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
+</a>
+</Link>
 </div>
     </div>
     

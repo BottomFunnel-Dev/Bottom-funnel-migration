@@ -19,13 +19,11 @@
   width: 100%;
   display: flex;
   padding: 20px;
-  /* height: 500px; */
 }
 
 .pickupSolsImage {
   width: 50%;
   height: 500px;
-  /* background-color: aqua; */
 }
 .pickupSolsImage > img {
   width: 90%;
@@ -38,16 +36,12 @@
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  /* padding: 25px 10px; */
-  /* row-gap: 24px; */
 }
 
 .pickupsolcard {
   width: 27%;
   height: 170px;
-  /* padding: 40px 10px; */
   border-radius: 10px;
-  /* border: 1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   margin: 1% 0% 1% 0%;
@@ -56,10 +50,8 @@
 
 .pickupsolcard:hover {
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
   transform: scale(1.1);
-  /* transform: translateY(-5px); */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 

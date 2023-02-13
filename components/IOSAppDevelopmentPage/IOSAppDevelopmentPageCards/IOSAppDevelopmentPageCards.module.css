@@ -1,648 +1,462 @@
-
-
 .IOSAppDevelopmentPageCardsMainDiv {
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: column;
-  
+display: flex;
+flex-direction: column;
 }
 .IOSAppDevelopmentPageCardsInnerMainDiv {
-  /* border: 2px solid green; */
-  /* background-color: #e992c1 ; */
-  height: 100vh;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.webp");
-
-  flex-direction: row-reverse;
-  display: flex;
-  /* justify-content: space-between; */
-  position: absolute;
-  z-index: 0;
+height: 100vh;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.webp");
+flex-direction: row-reverse;
+display: flex;
+position: absolute;
+z-index: 0;
 }
 .IOSAppDevelopmentPageCardsInnerMainDivcontain {
-  /* border: 2px solid yellow; */
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 margin: auto;
-/* margin-left: %; */
 height: 450px;
 width: 60%;
-  /* width: 40%; */
 }
-
 .IOSAppDevelopmentPageCardsInnerMainDivcontain h1 {
-  font-size: 35px;
-  /* border: 2px solid yellow; */
-  width: 80%;
+font-size: 35px;
+width: 80%;
 }
-
 .IOSAppDevelopmentPageCardsInnerMainDivcontain p {
-  font-size: 16px;
-  margin: 0%;
-  /* border: 1px solid red; */
-  /* margin-top: 1%; */
-  text-align: justify;
+font-size: 16px;
+margin: 0%;
+text-align: justify;
 }
 .IOSAppDevelopmentPageCardsInnerMainDivimage {
-  /* border: 2px solid  blue; */
-  margin-left: 4%;
+margin-left: 4%;
 width: 25%;
 height: 510px;
-
-/* margin: auto; */
-  margin-top: 3%;
+margin-top: 3%;
 }
-
-
-
-
-
-
 .IOSAppDevelopmentPageCardsInnerMainDiv2 {
-  /* border: 2px solid blue; */
-  flex-direction: column;
-  display: flex;
-  width: 94%;
-  height: fit-content;
-  margin-left: 3%;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.webp");
-  padding-top: 5%;
-  position: relative;
-  z-index: 2;
-  margin-top: 37%;
+flex-direction: column;
+display: flex;
+width: 94%;
+height: fit-content;
+margin-left: 3%;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.webp");
+padding-top: 5%;
+position: relative;
+z-index: 2;
+margin-top: 37%;
 }
 .innermaindiv2 {
-  /* border: 2px solid green; */
-  flex-direction: row;
-  display: flex;
-  margin-top: 2%;
-  padding-left: 6%;
+flex-direction: row;
+display: flex;
+margin-top: 2%;
+padding-left: 6%;
 }
 .innermaindiv2box {
-  /* border: 2px solid red; */
-  width: 28%;
-  height: 38vh;
-  margin-left: 2%;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: white;
-  padding: 2%;
+width: 28%;
+height: 38vh;
+margin-left: 2%;
+border-radius: 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: white;
+padding: 2%;
 }
-
 .innermaindiv2box>p{
-  text-align: justify;
+text-align: justify;
 }
-
-
-
 .innermaindiv2box:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-15px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #EF4C23;
-  color: white; */
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .mainbox {
-  /* border: 1px solid lightgrey; */
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  background-size: cover;
-  border-radius: 10px;
-  margin-left: 2%;
-  margin-top: 3%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 50px;
+height: 50px;
+object-fit: cover;
+background-size: cover;
+border-radius: 10px;
+margin-left: 2%;
+margin-top: 3%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .mainboximg {
-  width: 100%;
-  height: 100%;
-  color: white;
+width: 100%;
+height: 100%;
+color: white;
 }
-
-
-
-
-
-
 .IOSAppDevelopmentPageCardsInnerMainDiv3 {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid green; */
-  height: fit-content;
-  padding-top: 7%;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.webp");
-  
-  
- 
+display: flex;
+flex-direction: row;
+height: fit-content;
+padding-top: 7%;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.webp");
+
 }
 
 .innermaindiv3Contain {
-  /* border: 2px solid yellow; */
-  margin-top: 6%;
-  margin-left: 4%;
-  margin-right: 2%;
-  width: 50%;
+margin-top: 6%;
+margin-left: 4%;
+margin-right: 2%;
+width: 50%;
 }
-
 .innermaindiv3Contain h1 {
-  font-size: 40px;
+font-size: 40px;
 }
-
 .innermaindiv3Contain p {
-  font-size: 16px;
-  margin-top: 2%;
-  text-align: justify;
+font-size: 16px;
+margin-top: 2%;
+text-align: justify;
 }
 .innermaindiv3Image {
-  border: 10px solid white;
-  height: 600px;
-  object-fit: cover;
-  background-size: cover;
-  /* margin-right: 5%; */
-  /* width: 40%; */
-  margin-left: 6%;
-  margin-bottom: 2%;
+border: 10px solid white;
+height: 600px;
+object-fit: cover;
+background-size: cover;
+margin-left: 6%;
+margin-bottom: 2%;
 }
 .innermaindiv3Imagemain {
-  height: 100%;
+height: 100%;
 }
 
 .IOSAppDevelopmentPageCardsInnerMainDiv4 {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid blue; */
-  height: 65vh;
+display: flex;
+flex-direction: row;
+height: 65vh;
 }
 
 .innermaindiv5BoxDiv {
-  /* border: 2px solid blue; */
-  display: flex;
-  flex-direction: column;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.webp");
-  /* width: 90%; */
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  border-radius: 5px;
+display: flex;
+flex-direction: column;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.webp");
+margin-left: 4%;
+margin-right: 4%;
+margin-top: 4%;
+margin-bottom: 4%;
+border-radius: 5px;
 }
 
 .innermaindiv4-boxdiv1stcolum {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid black; */
-  padding-left: 4%;
-  padding-right: 4%;
-  /* padding-bottom: 4%; */
-  /* padding-top: 4%; */
+display: flex;
+flex-direction: row;
+padding-left: 4%;
+padding-right: 4%;
 }
 .innermaindiv4Row {
-  justify-content: center;
-  /* text-align: center; */
-  /* border: 2px solid red; */
-  background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-left: 2%;
-  width: 45%;
-  /* margin-right: 2%; */
-  margin-top: 2%;
-  padding-top: 1%;
-  padding-left: 3%;
-  border-radius: 10px;
-  padding-right: 3%;
-  margin-bottom: 2%;
+justify-content: center;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+margin-left: 2%;
+width: 45%;
+margin-top: 2%;
+padding-top: 1%;
+padding-left: 3%;
+border-radius: 10px;
+padding-right: 3%;
+margin-bottom: 2%;
 }
 
 .innermaindiv4Row:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-15px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .IOSAppDevelopmentPageCardsInnermaindiv5 {
-  /* border: 2px solid greenyellow; */
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.webp");
-  /* height: 120vh; */
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.webp");
 }
 .innermaindiv4Row h4 {
-  margin-top: 1%;
-  font-size: 20px;
-  /* border: 2px solid yellow; */
+margin-top: 1%;
+font-size: 20px;
 }
 .innermaindiv4Row p {
-  margin-top: 0%;
-  font-size: 14px;
-  /* border: 2px solid pink; */
+margin-top: 0%;
+font-size: 14px;
 }
 .div5logoimg {
-  /* border: 2px solid green; */
-  width: 55px;
-  height: 55px;
+width: 55px;
+height: 55px;
 }
-
 
 .IOSAppDevelopmentPageCardsInnermaindiv5 h2 {
-  font-size: 40px;
-  margin-left: 3%;
-  margin-top: 4%;
-  margin-right: 10%;
-  /* border: 2px solid red; */
+font-size: 40px;
+margin-left: 3%;
+margin-top: 4%;
+margin-right: 10%;
 }
 .innermaindiv4Boxdiv1stColum{
-  /* border: 2px solid yellow; */
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
-
-
-
-
-
 .innermaindiv2box h3 {
-  margin-top: 3%;
-  /* border: 2px solid yellow; */
+margin-top: 3%;
 }
-
-
-
-
 .iosinnermaindiv42nddiv {
-  border-left: 2px solid gray;
-  width: 40%;
-  margin-left: 2%;
-  margin-top: 4%;
-  padding-left: 3%;
-  margin-bottom: 2%;
+border-left: 2px solid gray;
+width: 40%;
+margin-left: 2%;
+margin-top: 4%;
+padding-left: 3%;
+margin-bottom: 2%;
 }
 .iosinnermaindiv42nddiv h1 {
-  font-size: 40px;
-  /* border: 2px solid red; */
+font-size: 40px;
 }
 .iosinnermaindiv42nddiv p {
-  font-size: 16px;
-  margin-top: 3%;
+font-size: 16px;
+margin-top: 3%;
 }
 
 .iosapplogo {
-  /* border: 2px solid pink ; */
-  /* margin-top: 5%; */
-  width: 150px;
-  height: 50px;
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+width: 150px;
+height: 50px;
 }
 .iosapplogoimg {
-  width: 100%;
-  height: 100%;
+width: 100%;
+height: 100%;
 }
-
 .ios1stdivbox {
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: row;
-  margin-left: 5%;
-  margin-top: 3%;
-  /* width: 45%; */
+display: flex;
+flex-direction: row;
+margin-left: 5%;
+margin-top: 3%;
 }
 .iosappdevelopmentparagraph>p{
-  text-align: justify;
+text-align: justify;
 }
-
 
 .iosinnermaindiv41stdivbox {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid green ; */
-  /* margin-top: 7%; */
-  /* width: 100%; */
-  /* margin-left: 12%; */
+display: flex;
+flex-direction: row;
 }
 .iosinnermaindiv41stdivbox h3 {
-  font-size: 18px;
-  margin-left: 10%;
+font-size: 18px;
+margin-left: 10%;
 }
 .iosinnermaindiv41stdivbox p {
-  font-size: 14px;
-  /* margin-top: 10%; */
-  margin-left: 10%;
+font-size: 14px;
+margin-left: 10%;
 }
 
 .iosinnermaindiv41stdiv {
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid yellow; */
-  margin-left: 1%;
-  width: 45%;
-  margin-top: 3%;
+display: flex;
+flex-direction: column;
+margin-left: 1%;
+width: 45%;
+margin-top: 3%;
 }
 
 .iosCardsInnermaindiv4 {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid blue; */
-  height:fit-content;
+display: flex;
+flex-direction: row;
+height:fit-content;
 }
 
 
 @media only screen and ( min-width:0px) and (max-width:1024px){
-  
+.IOSAppDevelopmentPageCardsMainDiv {
+display: flex;
+flex-direction: column;
 
-
-  .IOSAppDevelopmentPageCardsMainDiv {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    
-    width: 100%;
-  }
-  .IOSAppDevelopmentPageCardsInnerMainDiv {
-    /* border: 2px solid green; */
-    /* background-color: #e992c1 ; */
-    height: fit-content;
-    background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.webp");
-  
-    flex-direction: column;
-    display: flex;
-     position: static;
-  z-index: 0;
-  margin-top: 2%;
-  
-  }
-  .IOSAppDevelopmentPageCardsInnerMainDivcontain {
-    /* border: 2px solid yellow; */
-    display: flex;
-    flex-direction: column;
-  margin: auto;
-  height: fit-content;
-  text-align: center;
-  width: 90%;
-    /* width: 40%; */
-  }
-  
-  .IOSAppDevelopmentPageCardsInnerMainDivcontain h1 {
-    font-size: 30px;
-    /* border: 2px solid yellow; */
-    width: 100%;
-  }
-  
-  .IOSAppDevelopmentPageCardsInnerMainDivcontain p {
-    font-size: 14px;
-    margin: 0%;
-    text-align: justify;
-    /* border: 1px solid red; */
-    /* margin-top: 1%; */
-  }
-  .IOSAppDevelopmentPageCardsInnerMainDivimage {
-    /* border: 2px solid  blue; */
-    margin: auto;
-    width: 70%;
-    margin-top: 5%;
-  }
- 
-
-
-
-  .IOSAppDevelopmentPageCardsInnerMainDiv2 {
-  /* border: 2px solid blue; */
-  flex-direction: column;
-  display: flex;
-  width: 100%;
-  height: fit-content;
-  margin: auto;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.webp");
-  padding-top: 5%;
-  position: static;
-  z-index: 0;
-  margin-top: 0%;
+width: 100%;
+}
+.IOSAppDevelopmentPageCardsInnerMainDiv {
+height: fit-content;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle1.webp");
+flex-direction: column;
+display: flex;
+ position: static;
+z-index: 0;
+margin-top: 2%;
+}
+.IOSAppDevelopmentPageCardsInnerMainDivcontain {
+display: flex;
+flex-direction: column;
+margin: auto;
+height: fit-content;
+text-align: center;
+width: 90%;
+}
+.IOSAppDevelopmentPageCardsInnerMainDivcontain h1 {
+font-size: 30px;
+width: 100%;
+}
+.IOSAppDevelopmentPageCardsInnerMainDivcontain p {
+font-size: 14px;
+margin: 0%;
+text-align: justify;
+}
+.IOSAppDevelopmentPageCardsInnerMainDivimage {
+margin: auto;
+width: 70%;
+margin-top: 5%;
+}
+.IOSAppDevelopmentPageCardsInnerMainDiv2 {
+flex-direction: column;
+display: flex;
+width: 100%;
+height: fit-content;
+margin: auto;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle5.webp");
+padding-top: 5%;
+position: static;
+z-index: 0;
+margin-top: 0%;
 }
 .innermaindiv2 {
-  /* border: 2px solid green; */
-  flex-direction: column;
-  display: flex;
-  margin-top: 2%;
-  padding-left: 0;
+flex-direction: column;
+display: flex;
+margin-top: 2%;
+padding-left: 0;
 }
 .innermaindiv2box {
-  /* border: 2px solid red; */
-  width: 70%;
-  /* margin-top: 3%; */
-  height: fit-content;
+width: 70%;
+height: fit-content;
  margin: auto;
  margin-top: 4%;
-  border-radius: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background-color: white;
-  padding-left: 2%;
+border-radius: 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color: white;
+padding-left: 2%;
 }
-
 .innermaindiv2box:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-15px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  /* background-color: #EF4C23;
-  color: white; */
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .mainbox {
-  /* border: 1px solid lightgrey; */
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  background-size: cover;
-  border-radius: 10px;
-  margin-left: 2%;
-  margin-top: 3%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 60px;
+height: 60px;
+object-fit: cover;
+background-size: cover;
+border-radius: 10px;
+margin-left: 2%;
+margin-top: 3%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .mainboximg {
-  width: 100%;
-  height: 100%;
-  color: white;
+width: 100%;
+height: 100%;
+color: white;
 }
-/* .paragraphiosappdevelopment{
-  text-align: justify;
-  background-color: aqua;
-} */
-
-
-
 .IOSAppDevelopmentPageCardsInnerMainDiv3 {
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid green; */
-  height: fit-content;
-  padding-top: 7%;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.webp");
-  
+display: flex;
+flex-direction: column;
+height: fit-content;
+padding-top: 7%;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle 3.webp");
 }
-
 .innermaindiv3Contain {
-  /* border: 2px solid yellow; */
-  margin: auto;
-  width: 90%;
-  text-align: center;
+margin: auto;
+width: 90%;
+text-align: center;
 }
-
 .innermaindiv3Contain h1 {
-  font-size: 30px;
+font-size: 30px;
 }
-
 .innermaindiv3Contain p {
-  font-size: 14px;
-  margin-top: 2%;
-  text-align: justify;
+font-size: 14px;
+margin-top: 2%;
+text-align: justify;
 }
 .innermaindiv3Image {
-  border: 10px solid white;
-  height: fit-content;
-  object-fit: cover;
-  background-size: cover;
-  
-  width: 80%;
-  margin: auto;
-  margin-bottom: 2%;
- 
+border: 10px solid white;
+height: fit-content;
+object-fit: cover;
+background-size: cover;
+width: 80%;
+margin: auto;
+margin-bottom: 2%;
 }
-
 .innermaindiv3Imagemain {
-  height: 100%;
-  /* border: 2px solid green; */
+height: 100%;
 }
-
-
-
 .iosinnermaindiv42nddiv {
-  border:none;
-  width: 90%;
-  margin: auto;
-  text-align: center;
+border:none;
+width: 90%;
+margin: auto;
+text-align: center;
 }
 .iosinnermaindiv42nddiv h1 {
-  font-size: 30px;
-  /* border: 2px solid red; */
+font-size: 30px;
 }
 .iosinnermaindiv42nddiv p {
-  font-size: 14px;
-  margin-top: 3%;
-  text-align: justify;
+font-size: 14px;
+margin-top: 3%;
+text-align: justify;
 }
-
 .iosapplogo {
-  /* border: 2px solid green ; */
-  width: 100%;
-  height: 80px;
-  box-shadow: none;
+width: 100%;
+height: 80px;
+box-shadow: none;
 }
-
-
-
 .ios1stdivbox {
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  margin-top: 3%;
-  width: 70%;
+display: flex;
+flex-direction: row;
+margin: auto;
+margin-top: 3%;
+width: 70%;
 }
-
 .iosinnermaindiv41stdivbox {
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid green ; */
-  /* margin-top: 7%; */
-  width: 90;
-  /* margin-left: 12%; */
+display: flex;
+flex-direction: column;
+width: 90;
 }
 .iosinnermaindiv41stdivbox h3 {
-  font-size: 18px;
-  margin-left: 10%;
+font-size: 18px;
+margin-left: 10%;
 }
 .iosinnermaindiv41stdivbox p {
-  font-size: 14px;
-  /* margin-top: 10%; */
-  margin-left: 10%;
+font-size: 14px;
+margin-left: 10%;
 }
-
 .iosinnermaindiv41stdiv {
-  display: flex;
-  flex-direction: column;
-  /* border: 2px solid yellow; */
-  
-  width: 100%;
-  margin: auto;
-  
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: auto;
 }
-
 .iosCardsInnermaindiv4 {
-  display: flex;
-  flex-direction: column-reverse;
-  /* border: 2px solid blue; */
-  height: fit-content;
+display: flex;
+flex-direction: column-reverse;
+height: fit-content;
 }
-
-
 .IOSAppDevelopmentPageCardsInnermaindiv5 {
-  /* border: 2px solid greenyellow; */
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.webp");
-  /* height: 120vh; */
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle 4.webp");
 }
 .IOSAppDevelopmentPageCardsInnermaindiv5 h2{
-  /* border: 2px solid yellow; */
-  text-align: center;
-  margin: auto;
+text-align: center;
+margin: auto;
 }
-
 .innermaindiv5BoxDiv {
-  /* border: 2px solid blue; */
-  display: flex;
-  flex-direction: column;
-  background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.webp");
-  /* width: 90%; */
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  border-radius: 5px;
+display: flex;
+flex-direction: column;
+background-image: url("/Images/iosappdevelopmentphotos/Rectangle 2.webp");
+margin-left: 4%;
+margin-right: 4%;
+margin-top: 4%;
+margin-bottom: 4%;
+border-radius: 5px;
 }
 .innermaindiv4Row {
-  justify-content: center;
-  /* text-align: center; */
-  /* border: 2px solid red; */
-  background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
- 
-  width: 70%;
-  /* margin-right: 2%; */
-  margin: auto;
-  margin-top: 3%;
-  padding-top: 1%;
-  padding-left: 3%;
-  border-radius: 10px;
-  padding-right: 3%;
-  
+justify-content: center;
+background-color: white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 70%;
+margin: auto;
+margin-top: 3%;
+padding-top: 1%;
+padding-left: 3%;
+border-radius: 10px;
+padding-right: 3%;
 }
-
 .div5logoimg {
-  /* border: 2px solid green; */
-  width: 60px;
-  height: 60px;
+width: 60px;
+height: 60px;
 }
-
 .innermaindiv4Boxdiv1stColum{
-  /* border: 2px solid yellow; */
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
-
-
-
-
 }

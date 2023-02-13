@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CustomisedWebServices.module.css";
+import Image from "next/image";
 
 export const CustomisedWebServices = () => {
   return (
@@ -30,18 +31,26 @@ export const CustomisedWebServices = () => {
             </p>
           </div>
           <div className={styles.CustomisedWebServicesFrontendImage}>
-            <img
-              src="Images/customWebPhotos/desktop-man.png"
-              alt="Frontend Development"
-            />
+               <Image
+                  src={"/Images/customWebPhotos/desktop-man.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
         </div>
         <div className={styles.CustomisedWebServicesBackend}>
           <div className={styles.CustomisedWebServicesBackendImage}>
-            <img
-              src="Images/customWebPhotos/laptop-man.png"
-              alt="backend Development"
-            />
+                <Image
+                  src={"/Images/customWebPhotos/laptop-man.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <div className={styles.CustomisedWebServicesBackendContent}>
             <h2>Front End Development</h2>

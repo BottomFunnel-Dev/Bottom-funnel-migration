@@ -43,7 +43,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(0, 0, 0, .125)",
 }));
 
-export const TextDropdown = () => {
+export default function TextDropdown() {
   const [expanded, setExpanded] = React.useState("panel1");
 
   const handleChange = (panel) => (event, newExpanded) => {
@@ -121,4 +121,4 @@ export const TextDropdown = () => {
       </div>
     </div>
   );
-};
+}

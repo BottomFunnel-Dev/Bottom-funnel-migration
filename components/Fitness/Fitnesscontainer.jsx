@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./fitnesscontainer.module.css";
 
@@ -17,7 +18,14 @@ export const Fitnesscontainer = () => {
 
         <div className={styles.fitnessright}>
           <div className={styles.fitnessimage}>
-            <img src="Images/fitness/yoga1.png" alt="image"/>
+            <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src="/Images/fitness/yoga1.webp"
+              alt="fitness/yoga1.webp"
+            />
           </div>
         </div>
       </div>

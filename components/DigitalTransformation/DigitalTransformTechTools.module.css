@@ -1,39 +1,39 @@
-.digitaltransformationtechtoolsweusedmainbox{
+.digitaltransformationtechtoolsweusedmainbox {
     height: fit-content;
-margin-top: 3%;
+    margin-top: 3%;
 }
 
-.digitaltransformationtechtoolsweusedmainboxuppertxtbox{
+.digitaltransformationtechtoolsweusedmainboxuppertxtbox {
     display: flex;
 }
 
-.digitaltransformationtechtoolsweusedmainboxuppertxtboxleftbox{
+.digitaltransformationtechtoolsweusedmainboxuppertxtboxleftbox {
     width: 35%;
     margin: 0% 3% 0% 15%;
-   border-right: 1px solid #ef4c23 ;
+    border-right: 1px solid #ef4c23;
 }
 
-.digitaltransformationtechtoolsweusedmainboxuppertxtboxrightbox >h4{
+.digitaltransformationtechtoolsweusedmainboxuppertxtboxrightbox>h4 {
     width: 70%;
 }
 
-.flexingboxofdigitaltransformationtechandtools{
+.flexingboxofdigitaltransformationtechandtools {
     height: fit-content;
     width: 70%;
-  
-    margin:5% 0% 0% 20%;
+
+    margin: 5% 0% 0% 20%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.flexingboxofdigitaltransformationtechandtoolsaftermapping{
+.flexingboxofdigitaltransformationtechandtoolsaftermapping {
     width: 23%;
     height: 50%;
 
     margin: 2% 5% 2% 5%;
 }
 
-.techandtoolsdigitaltransformationicon{
+.techandtoolsdigitaltransformationicon {
     height: 25%;
     width: 30%;
     padding: 10px;
@@ -41,12 +41,12 @@ margin-top: 3%;
 
 }
 
-.techandtoolsdigitaltransformationicon >img {
+.techandtoolsdigitaltransformationicon>img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
-.specialcolor{
+.specialcolor {
     color: #ef4c23;
 }

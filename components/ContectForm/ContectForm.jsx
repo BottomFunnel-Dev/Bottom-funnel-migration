@@ -17,7 +17,7 @@ import { countrycodes } from "./countrycode";
 import { budget } from "./countrycode";
 import { interested } from "./countrycode";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 import { PopupForm } from "../PopupForm/PopupForm";
 
@@ -37,7 +37,7 @@ const ContectForm = () => {
 
       <div className={styles.contectSection}>
         <div className={styles.addressSection}>
-          <img src="Images/services/service.webp" alt="images" />
+          <img src="/Images/services/service.webp" alt="images" />
           <div>
             <div className={styles.mailAddress}>
               <div className={styles.iconDiv}>

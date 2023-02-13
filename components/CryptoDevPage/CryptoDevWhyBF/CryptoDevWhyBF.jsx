@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./CryptoDevWhyBF.module.css";
 
@@ -53,8 +54,8 @@ export const CryptoDevWhyBF = () => {
           })}
         </div>
         <div className={styles.CryptoDevWhyBFImage}>
-        <Image
-            src={"Images/CryptoDevPhotos/whyBF.webp"}
+          <Image
+            src={"/Images/CryptoDevPhotos/whyBF.webp"}
             alt={"image"}
             width={"0"}
             height={"0"}

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./OurProcess.module.css";
 import { OurProcessPush } from "./OurProcessPush/OurProcessPush";
-import Image from "next/Image"; 
+import Image from "next/image";
 
 export const OurProcess = () => {
   return (
@@ -12,8 +12,7 @@ export const OurProcess = () => {
           <h1>
             About <span>Us</span>
           </h1>
-
-          <p>
+            <p>
             Going digital will bring higher revenues and growth. Marketing is
             all about targeting the right people with the right message, Digital
             marketing helps you do that efficiently. We are your partner in
@@ -30,19 +29,17 @@ export const OurProcess = () => {
         </div>
 
         <div className={styles.OurProcessaboutUsimage}>
-          {/* <img src="/Images/aboutusImage/meeting.webp" alt="image" /> */}
           <Image
-          src={"/Images/aboutusImage/meeting.webp"}
-          alt={"meetimage"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+            src={"/Images/aboutusImage/meeting.webp"}
+            alt={"meetimage"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
-
-      <OurProcessPush />
+     <OurProcessPush />
     </div>
   );
 };

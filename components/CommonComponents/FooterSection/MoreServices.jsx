@@ -1,9 +1,7 @@
 import React from "react";
-// import { useNavigate } from "react-router-dom";
 import Link from "next/link";
 import styles from "./moreServices.module.css";
 const MoreServices = () => {
-  // const navigate = useNavigate();
 
   return (
     <div className={styles.footerTable}>

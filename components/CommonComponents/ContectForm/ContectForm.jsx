@@ -1,29 +1,11 @@
 import React from "react";
 import styles from "./ContectForm.module.css";
-import {
-  BsFillPersonFill,
-  BsFillTelephoneFill,
-  BsCurrencyDollar,
-} from "react-icons/bs";
-import { AiTwotoneMail } from "react-icons/ai";
-import { CgMenuGridR } from "react-icons/cg";
-import { RiMessage2Fill } from "react-icons/ri";
-import { BiMessage } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
 import { BsSkype } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { countrycodes } from "./countrycode";
-import { budget } from "./countrycode";
-import { interested } from "./countrycode";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 const ContectForm = () => {
-  const handleform = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <div className={styles.mainLeadform}>
       <div className={styles.backgroundDiv}>
@@ -35,7 +17,7 @@ const ContectForm = () => {
 
       <div className={styles.contectSection}>
         <div className={styles.addressSection}>
-          <img src="Images/services/service.png" alt="image" />
+          <img src="/Images/services/service.webp" alt="image" />
           <div>
             <div className={styles.mailAddress}>
               <div className={styles.iconDiv}>
@@ -72,106 +54,9 @@ const ContectForm = () => {
             </div>
           </div>
         </div>
-
-        {/* <form onSubmit={handleform} className="formPart">
-          <div className="formSection">
-            <div className="inputWithIcon">
-              <IconContext.Provider value={{ className: "formIcon" }}>
-                <BsFillPersonFill />
-              </IconContext.Provider>
-              <input
-                type="text"
-                className="inputPart"
-                placeholder="Name"
-                name="user_name"
-              />
-            </div>
-            <div className="inputWithIcon">
-              <IconContext.Provider value={{ className: "formIcon" }}>
-                <AiTwotoneMail />
-              </IconContext.Provider>
-              <input
-                type="text"
-                className="inputPart"
-                placeholder="Email"
-                name="user_email"
-              />
-            </div>
-            <div className="phoneClass">
-              <IconContext.Provider value={{ className: "formIcon" }}>
-                <BsFillTelephoneFill />
-              </IconContext.Provider>
-              <select className="countryCode" name="country_code" id="">
-                {countrycodes.map((item, i) => (
-                  <option key={i} value={item.code}>
-                    {item.code} {item.dial_code}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <input
-              className="phoneNumber"
-              type="number"
-              placeholder="Phone Number"
-              name="phone_number"
-            />
-            <div className="selectClass">
-              <IconContext.Provider value={{ className: "formIcon" }}>
-                <CgMenuGridR />
-              </IconContext.Provider>
-              <select className="selectPart" name="interest" id="">
-                <option value="Select">Interested In*</option>
-                {interested.map((item, i) => (
-                  <option key={i} value={item.service}>
-                    {item.service}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div id="budgetSelect" className="selectClass">
-              <IconContext.Provider value={{ className: "formIcon" }}>
-                <BsCurrencyDollar />
-              </IconContext.Provider>
-              <select className="selectPart" name="budget" id="">
-                <option value="Select">Your Budget</option>
-                {budget.map((item, i) => (
-                  <option key={i} value={item.budget}>
-                    {item.budget}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div className="inputWithIcon">
-              <IconContext.Provider value={{ className: "formIcon" }}>
-                <RiMessage2Fill />
-              </IconContext.Provider>
-              <input
-                type="text"
-                className="inputPart"
-                placeholder="Skype/Whatsapp"
-                name="whatsapp_number"
-              />
-            </div>
-            <div className="textareaClass">
-              <IconContext.Provider value={{ className: "formMessageIcon" }}>
-                <BiMessage />
-              </IconContext.Provider>
-              <label htmlFor="textarea"> Message</label>
-              <textarea
-                className="messagePart"
-                name="message"
-                placeholder="write your requirement (100-150 words)"
-                id=""
-                cols="15"
-                rows="5"
-              ></textarea>
-            </div>
-          </div>
-          <div className="robotCaptcha">
-            <input type="submit" value="Send Your Enquiry" />
-          </div>
-        </form> */}
-      <div className={styles.contactformcss}>  <PopupForm  /></div>
+        <div className={styles.contactformcss}>
+          <PopupForm />
+        </div>
       </div>
     </div>
   );

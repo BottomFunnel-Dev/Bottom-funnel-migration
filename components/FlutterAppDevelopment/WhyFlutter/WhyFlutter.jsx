@@ -25,7 +25,6 @@ export const WhyFlutter = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src="Images/FlutterDevelopment/Icons/bulb.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Custom Design and Navigation
@@ -46,7 +45,6 @@ export const WhyFlutter = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4505.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Faster Development Cycle
@@ -67,7 +65,6 @@ export const WhyFlutter = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                    {/* <img src="Images/FlutterDevelopment/Icons/Rectangle 4506.png" /> */}
                                 </div>
                                 <div className={styles.whyFlutterContentHeading}>
                                     Ease of Code Sharing

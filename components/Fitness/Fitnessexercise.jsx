@@ -7,15 +7,13 @@ export default function Fitnessexercise() {
       <div className={styles.exercisesubdiv}>
         <div className={styles.exercisemobile}>
           <div className={styles.szgreenimg}>
-            {" "}
-            <img src="Images/fitness/greenimg.png" alt="image"/>
+            <img src="Images/fitness/greenimg.png" alt="image" />
           </div>
           <div className={styles.szphcase}>
-            <img src="Images/fitness/phone.png" alt="image"/>
+            <img src="Images/fitness/phone.png" alt="image" />
           </div>
           <div className={styles.szmyplan}>
-            {" "}
-            <img src="Images/fitness/myplan.png" alt="image"/>{" "}
+            <img src="Images/fitness/myplan.png" alt="image" />
           </div>
         </div>
         <div className={styles.exercisebox}>
@@ -25,7 +23,7 @@ export default function Fitnessexercise() {
               Social login is one of the most popular and user-friendly ways to
               access fitness and health apps. It provides a seamless sign-in
               experience with all important account information stored securely
-              on your mobile device.{" "}
+              on your mobile device.
             </p>
           </div>
 
@@ -140,16 +138,13 @@ export default function Fitnessexercise() {
 
         <div className={styles.szexercisetab}>
           <div className={styles.bluecircle}>
-            {" "}
-            <img src="Images/fitness/bluecircle.png" alt="images"/>{" "}
+            <img src="Images/fitness/bluecircle.png" alt="images" />
           </div>
           <div className={styles.tabbluecase}>
-            {" "}
-            <img src="Images/fitness/teblate.png" alt="images"/>
+            <img src="Images/fitness/teblate.png" alt="images" />
           </div>
           <div className={styles.sztabdaily}>
-            {" "}
-            <img src="Images/fitness/dailyimg.png" alt="image"/>{" "}
+            <img src="Images/fitness/dailyimg.png" alt="image" />
           </div>
         </div>
       </div>
@@ -159,16 +154,13 @@ export default function Fitnessexercise() {
       <div className={styles.exercisesubdiv}>
         <div className={styles.analitic}>
           <div className={styles.szpeachcircle}>
-            {" "}
-            <img src="Images/fitness/pechcircle.png" alt="image"/>{" "}
+            <img src="Images/fitness/pechcircle.png" alt="image" />
           </div>
           <div className={styles.szphonefit}>
-            {" "}
-            <img src="Images/fitness/phone.png" alt="image"/>{" "}
+            <img src="Images/fitness/phone.png" alt="image" />
           </div>
           <div className={styles.szrates}>
-            {" "}
-            <img src="Images/fitness/rates.png" alt="image"/>{" "}
+            <img src="Images/fitness/rates.png" alt="image" />
           </div>
         </div>
 
@@ -176,14 +168,19 @@ export default function Fitnessexercise() {
           <div>
             <h5>Effecient Scheduling</h5>
             <p>
-              Scheduling a workout has never been as quick, easy and convenient as it is with Effecient Scheduling. It takes the pain out of planning your fitness and health goals by providing you with an easy-to-use calendar app
+              Scheduling a workout has never been as quick, easy and convenient
+              as it is with Effecient Scheduling. It takes the pain out of
+              planning your fitness and health goals by providing you with an
+              easy-to-use calendar app
             </p>
           </div>
 
           <div>
             <h5>Live Stearming</h5>
             <p>
-              Introducing Fitness & Health, an app that streamlines your search for everything fitness-related. With live videos from experts, tips and tricks on how to get in shape fast, healthy recipes.
+              Introducing Fitness & Health, an app that streamlines your search
+              for everything fitness-related. With live videos from experts,
+              tips and tricks on how to get in shape fast, healthy recipes.
             </p>
           </div>
           <div>
@@ -191,25 +188,36 @@ export default function Fitnessexercise() {
             <h5>Manage Payments</h5>
 
             <p>
-              With Fitness and Health App Ventures, you get the best in advanced payment solutions to manage everything on your app. We understand that financial transactions are vital for any business.
+              With Fitness and Health App Ventures, you get the best in advanced
+              payment solutions to manage everything on your app. We understand
+              that financial transactions are vital for any business.
             </p>
           </div>
           <div>
             <h5>Real Time Chat</h5>
             <p>
-              Don't let the gym get boring! With Real Time Chat, you can connect with your trainer and other members in a healthy and fun way. Learn new exercises, follow their progress, and ask any question you want.
+              Don't let the gym get boring! With Real Time Chat, you can connect
+              with your trainer and other members in a healthy and fun way.
+              Learn new exercises, follow their progress, and ask any question
+              you want.
             </p>
           </div>
           <div>
             <h5>Audio/Video Calling</h5>
             <p>
-              We offer audio/video calling technology to make your chatting experience seamless and fun. We have expert trainers that can be contacted through our app for guidance on how to improve your health and fitness.
+              We offer audio/video calling technology to make your chatting
+              experience seamless and fun. We have expert trainers that can be
+              contacted through our app for guidance on how to improve your
+              health and fitness.
             </p>
           </div>
           <div>
             <h5>Advanced Search</h5>
             <p>
-              In your fitness and health app, there's a category called 'Advanced Search' that you can use to find relevant content in seconds. This is the new age of tech where user experience matters more than ever before.
+              In your fitness and health app, there's a category called
+              'Advanced Search' that you can use to find relevant content in
+              seconds. This is the new age of tech where user experience matters
+              more than ever before.
             </p>
           </div>
         </div>

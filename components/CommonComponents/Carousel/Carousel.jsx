@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,15 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./Carousel.module.css";
 
 export default function MultipleItems() {
-  const [show, setshow] = useState(false);
-  const [show1, setshow1] = useState(false);
-  const [show2, setshow2] = useState(false);
-  const [show3, setshow3] = useState(false);
-  const [show4, setshow4] = useState(false);
-  const [show5, setshow5] = useState(false);
-  const [show6, setshow6] = useState(false);
-  const [show7, setshow7] = useState(false);
-
   const settings = {
     // dots: true,
     infinite: true,
@@ -29,14 +20,13 @@ export default function MultipleItems() {
     arrows: false,
   };
 
-
   return (
     <div className={styles._maincarouseldiv}>
       <Slider {...settings}>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide1}
-        // onMouseLeave={toggleSlide1}
+          // onMouseEnter={toggleSlide1}
+          // onMouseLeave={toggleSlide1}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -48,8 +38,8 @@ export default function MultipleItems() {
         </div>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide2}
-        // onMouseLeave={toggleSlide2}
+          // onMouseEnter={toggleSlide2}
+          // onMouseLeave={toggleSlide2}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -62,8 +52,8 @@ export default function MultipleItems() {
 
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide3}
-        // onMouseLeave={toggleSlide3}
+          // onMouseEnter={toggleSlide3}
+          // onMouseLeave={toggleSlide3}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -75,8 +65,8 @@ export default function MultipleItems() {
         </div>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+          // onMouseEnter={toggleSlide4}
+          // onMouseLeave={toggleSlide4}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -89,8 +79,8 @@ export default function MultipleItems() {
 
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+          // onMouseEnter={toggleSlide4}
+          // onMouseLeave={toggleSlide4}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -103,8 +93,8 @@ export default function MultipleItems() {
 
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+          // onMouseEnter={toggleSlide4}
+          // onMouseLeave={toggleSlide4}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -116,8 +106,8 @@ export default function MultipleItems() {
         </div>
         <div
           className={styles.carouseldiv1}
-        // onMouseEnter={toggleSlide4}
-        // onMouseLeave={toggleSlide4}
+          // onMouseEnter={toggleSlide4}
+          // onMouseLeave={toggleSlide4}
         >
           <div className={styles.contentDivOndemand}></div>
           <div className={styles.contentDivOndemand}>
@@ -127,8 +117,7 @@ export default function MultipleItems() {
             <h3>Beauti and Salon App</h3>
           </div>
         </div>
-
       </Slider>
     </div>
   );
-};
+}

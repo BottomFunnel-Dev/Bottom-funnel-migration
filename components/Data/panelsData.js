@@ -2,11 +2,11 @@ export const logisticsCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/logistic/Register screen.png",
+        src: "/Images/logistic/Register screen.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/inspect.png",
+        src: "/Images/logistic/inspect.png",
         alt: " Register logo",
       },
       title: "Registration",
@@ -14,11 +14,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Schedule trip screen.png",
+        src: "/Images/logistic/Schedule trip screen.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/Location.png",
+        src: "/Images/logistic/Location.png",
         alt: "Schedule logo",
       },
       title: "Schedule Trip",
@@ -26,11 +26,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Payment option screen.png",
+        src: "/Images/logistic/Payment option screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/Card Payment.png",
+        src: "/Images/logistic/Card Payment.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
@@ -39,11 +39,11 @@ export const logisticsCustomer = {
 
     {
       img: {
-        src: "Images/logistic/track order screen.png",
+        src: "/Images/logistic/track order screen.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Track Order.png",
+        src: "/Images/logistic/Track Order.png",
         alt: "Track Order logo",
       },
       title: "Track Order",
@@ -59,11 +59,11 @@ export const logisticDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/logistic/shipment request screen.png",
+        src: "/Images/logistic/shipment request screen.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/boxside.png",
+        src: "/Images/logistic/boxside.png",
         alt: " Register logo",
       },
       title: "Receive Shipment Request",
@@ -72,11 +72,11 @@ export const logisticDrive = {
 
     {
       img: {
-        src: "Images/logistic/request screen.png",
+        src: "/Images/logistic/request screen.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/inspect.png",
+        src: "/Images/logistic/inspect.png",
         alt: "Schedule logo",
       },
       title: "Accept/Reject Request",
@@ -84,11 +84,11 @@ export const logisticDrive = {
     },
     {
       img: {
-        src: "Images/logistic/notification screen.png",
+        src: "/Images/logistic/notification screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/notification1.png",
+        src: "/Images/logistic/notification1.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Notification",
@@ -96,11 +96,11 @@ export const logisticDrive = {
     },
     {
       img: {
-        src: "Images/logistic/Navigation screen.png",
+        src: "/Images/logistic/Navigation screen.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Near Me.png",
+        src: "/Images/logistic/Near Me.png",
         alt: "Track Order logo",
       },
       title: "Navigation",
@@ -115,11 +115,11 @@ export const logisticAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/logistic/Dashboard.png",
+        src: "/Images/logistic/Dashboard.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/logistic/Dashboard Layout.png",
+        src: "/Images/logistic/Dashboard Layout.png",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -127,11 +127,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/assets.png",
+        src: "/Images/logistic/assets.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/logistic/Dividends.png",
+        src: "/Images/logistic/Dividends.png",
         alt: "Schedule logo",
       },
       title: "Assets",
@@ -139,11 +139,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/history.png",
+        src: "/Images/logistic/history.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/logistic/Order History.png",
+        src: "/Images/logistic/Order History.png",
         alt: "Multiple Payment Option logo",
       },
       title: "History",
@@ -151,11 +151,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/tracking (2).png",
+        src: "/Images/logistic/tracking (2).png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/logistic/Tracking.png",
+        src: "/Images/logistic/Tracking.png",
         alt: "Track Order logo",
       },
       title: "Tracking",
@@ -171,7 +171,7 @@ export const foodDeliveryCustomer = {
   foodDeliverycustomerdata: [
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.webp",
         alt: "Register image",
       },
       icon: {
@@ -183,7 +183,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-1.webp",
         alt: "Schedule",
       },
       icon: {
@@ -195,7 +195,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-2.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -207,7 +207,7 @@ export const foodDeliveryCustomer = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface.webp",
         alt: "Track Order image",
       },
       icon: {
@@ -220,14 +220,14 @@ export const foodDeliveryCustomer = {
   ],
 
   sectionTitle: "Customer App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  // background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const foodDeliveryDrive = {
   fooddeliverydrivedata: [
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Login.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/Login.webp",
         alt: "Register image",
       },
       icon: {
@@ -239,7 +239,7 @@ export const foodDeliveryDrive = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface1.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-1.webp",
         alt: "Schedule",
       },
       icon: {
@@ -251,7 +251,7 @@ export const foodDeliveryDrive = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface2.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-2.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -263,7 +263,7 @@ export const foodDeliveryDrive = {
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Userfriendly interface3.png",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface.webp",
         alt: "Track Order image",
       },
       icon: {
@@ -276,7 +276,7 @@ export const foodDeliveryDrive = {
   ],
 
   sectionTitle: "Customer App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  // background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
 };
 
 export const foodDeliveryAdmin = {
@@ -339,11 +339,11 @@ export const carpoolCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Quick bookings.png",
+        src: "/Images/carpoolingpage/customerapp/Quick bookings.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Flexible & Quick Bookings",
@@ -351,11 +351,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Fare estimate.png",
+        src: "/Images/carpoolingpage/customerapp/Fare estimate.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Fare Estimates",
@@ -363,11 +363,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Pool options.png",
+        src: "/Images/carpoolingpage/customerapp/Pool options.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Pool Options",
@@ -375,11 +375,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/customerapp/Time tracking.png",
+        src: "/Images/carpoolingpage/customerapp/Time tracking.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Real-Time Tracking",
@@ -395,11 +395,11 @@ export const carpoolDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/real time requests.png",
+        src: "/Images/carpoolingpage/driverapp/real time requests.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Real-time Requests",
@@ -407,11 +407,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Trip details.png",
+        src: "/Images/carpoolingpage/driverapp/Trip details.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Trip Detail",
@@ -419,11 +419,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Rating & review.png",
+        src: "/Images/carpoolingpage/driverapp/Rating & review.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Rating & Review",
@@ -431,11 +431,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/driverapp/Wallet details.png",
+        src: "/Images/carpoolingpage/driverapp/Wallet details.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Wallet Details",
@@ -451,11 +451,11 @@ export const carpoolAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Dashboard.png",
+        src: "/Images/carpoolingpage/adminpanel/Dashboard.png",
         alt: "Register image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -463,11 +463,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Reports & analytics.png",
+        src: "/Images/carpoolingpage/adminpanel/Reports & analytics.png",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Schedule logo",
       },
       title: "Reports and Analytics",
@@ -475,11 +475,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+        src: "/Images/carpoolingpage/adminpanel/Promos & reffrels.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Manage Promos & Referals",
@@ -487,11 +487,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "Images/carpoolingpage/adminpanel/Driver management.png",
+        src: "/Images/carpoolingpage/adminpanel/Driver management.png",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.png",
         alt: "Track Order logo",
       },
       title: "Driver Management",
@@ -507,11 +507,11 @@ export const bettingCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/gamemanagement.png",
+        src: "/Images/sportsbettingpage/userapp/gamemanagement.webp",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component30.webp",
         alt: " Register logo",
       },
       title: "Game management",
@@ -519,11 +519,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/paymentmanagement.png",
+        src: "/Images/sportsbettingpage/userapp/paymentmanagement.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component27.webp",
         alt: "Schedule logo",
       },
       title: "Payment Management",
@@ -531,11 +531,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/livefeed.png",
+        src: "/Images/sportsbettingpage/userapp/livefeed.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component29.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Live Feed",
@@ -543,11 +543,11 @@ export const bettingCustomer = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/userapp/bethistory.png",
+        src: "/Images/sportsbettingpage/userapp/bethistory.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component28.webp",
         alt: "Track Order logo",
       },
       title: "Bet History",
@@ -563,11 +563,11 @@ export const bettingDrive = {
   driverdata: [
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/registeryourself.png",
+        src: "/Images/sportsbettingpage/bookpanel/registeryourself.webp",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component31.webp",
         alt: " Register logo",
       },
       title: "Register YourSelf",
@@ -575,11 +575,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/usermanagement.png",
+        src: "/Images/sportsbettingpage/bookpanel/usermanagement.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component32.webp",
         alt: "Schedule logo",
       },
       title: "User Management",
@@ -587,11 +587,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/Notification.png",
+        src: "/Images/sportsbettingpage/bookpanel/Notification.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component34.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Send Notification",
@@ -599,11 +599,11 @@ export const bettingDrive = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/bookpanel/schedulebet.png",
+        src: "/Images/sportsbettingpage/bookpanel/schedulebet.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component33.webp",
         alt: "Track Order logo",
       },
       title: "Calenders,Days and Schedules",
@@ -619,11 +619,11 @@ export const bettingAdmin = {
   admindata: [
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/gamemanagement.png",
+        src: "/Images/sportsbettingpage/adminpanel/gamemanagement.webp",
         alt: "Register image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component36.webp",
         alt: " Register logo",
       },
       title: "Game Management",
@@ -631,11 +631,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/paymentmanagement.png",
+        src: "/Images/sportsbettingpage/adminpanel/paymentmanagement.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component35.webp",
         alt: "Schedule logo",
       },
       title: "Payment Management",
@@ -643,11 +643,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/marketingmanagement.png",
+        src: "/Images/sportsbettingpage/adminpanel/marketingmanagement.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component37.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Marketing Management",
@@ -655,11 +655,11 @@ export const bettingAdmin = {
     },
     {
       img: {
-        src: "Images/sportsbettingpage/adminpanel/advancedashboard.png",
+        src: "/Images/sportsbettingpage/adminpanel/advancedashboard.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "Images/sportsbettingpage/icons/component27.png",
+        src: "/Images/sportsbettingpage/icons/component38.webp",
         alt: "Track Order logo",
       },
       title: "Advance Dashboard",
@@ -675,7 +675,7 @@ export const alcoholCustomer = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/one.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/one.webp",
         alt: "accessable",
       },
       title: "Can be easily accessed through both android/iOS",
@@ -683,7 +683,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/Two.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Two.webp",
         alt: "Friendly",
       },
       title: "User-friendly interface",
@@ -691,7 +691,7 @@ export const alcoholCustomer = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/Three.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Three.webp",
         alt: "OrderFood",
       },
       title: "Order food and Track their service",
@@ -700,7 +700,7 @@ export const alcoholCustomer = {
 
     {
       img: {
-        src: "/Images/AlcoholDelivery/CustomerApp/Four.png",
+        src: "/Images/AlcoholDelivery/CustomerApp/Four.webp",
         alt: "Favorites",
       },
       title: "Smart search and add-to-your-favorites list",
@@ -714,7 +714,7 @@ export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/one.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/one.webp",
         alt: "Manage",
       },
       title: "Manage everything in one place",
@@ -722,7 +722,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/Two.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Two.webp",
         alt: "Info",
       },
       title: "Gather information about customer preferences",
@@ -730,7 +730,7 @@ export const alcoholAdmin = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/Three.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Three.webp",
         alt: "OrderFood",
       },
       title: "Generate profit reports and draw insights",
@@ -739,7 +739,7 @@ export const alcoholAdmin = {
 
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/Four.png",
+        src: "/Images/AlcoholDelivery/AdminPannel/Four.webp",
         alt: "features",
       },
       title: "Various CRM features",
@@ -753,7 +753,7 @@ export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/one.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/one.webp",
         alt: "Discounts",
       },
       title: "Manage Offers & Discounts",
@@ -761,7 +761,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/Two.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Two.webp",
         alt: "Menu",
       },
       title: "Menu category and Order Management",
@@ -769,7 +769,7 @@ export const alcoholPartner = {
     },
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/Three.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Three.webp",
         alt: "Chat",
       },
       title: "Chat Support",
@@ -778,7 +778,7 @@ export const alcoholPartner = {
 
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/Four.png",
+        src: "/Images/AlcoholDelivery/PartnerApp/Four.webp",
         alt: "Notification",
       },
       title: "Custom Alerts",

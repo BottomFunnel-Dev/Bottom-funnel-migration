@@ -2,19 +2,20 @@ import React, { useState } from "react";
 import styles from "./EnterpriseSlider.module.css";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import Image from "next/image";
 
 export const EnterpriseSlider = () => {
   const data = [
-    "Images/enterpriseWebPhotos/ajax.png",
-    "Images/enterpriseWebPhotos/angular-js.png",
-    "Images/enterpriseWebPhotos/css.png",
-    "Images/enterpriseWebPhotos/icon-html5.png",
-    "Images/enterpriseWebPhotos/icon-jquery.png",
-    "Images/enterpriseWebPhotos/icon-node-js.png",
-    "Images/enterpriseWebPhotos/javascript.png",
-    "Images/enterpriseWebPhotos/jquery-mobile.png",
-    "Images/enterpriseWebPhotos/react-js.png",
-    "Images/enterpriseWebPhotos/bootstrap.png",
+    "/Images/enterpriseWebPhotos/ajax.webp",
+    "/Images/enterpriseWebPhotos/angular-js.webp",
+    "/Images/enterpriseWebPhotos/css.webp",
+    "/Images/enterpriseWebPhotos/icon-html5.webp",
+    "/Images/enterpriseWebPhotos/icon-jquery.webp",
+    "/Images/enterpriseWebPhotos/icon-node-js.webp",
+    "/Images/enterpriseWebPhotos/javascript.webp",
+    "/Images/enterpriseWebPhotos/jquery-mobile.webp",
+    "/Images/enterpriseWebPhotos/react-js.webp",
+    "/Images/enterpriseWebPhotos/bootstrap.webp",
   ];
 
   const NextArrow = ({ onClick }) => {
@@ -75,7 +76,16 @@ export const EnterpriseSlider = () => {
               }
               key={index}
             >
-              <img src={elem} alt="Company logos" />
+              <div className={styles.EnterpriseSliderImage}>
+                <Image
+                    src={elem}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+              </div>
             </div>
           );
         })}

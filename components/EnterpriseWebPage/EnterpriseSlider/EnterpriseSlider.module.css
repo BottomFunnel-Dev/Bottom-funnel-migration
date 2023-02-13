@@ -61,12 +61,11 @@
   transform: scale(0.8);
 }
 
-.EnterpriseSlider-slide > img {
-  width: 80%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.EnterpriseSliderImage{
+  width: 50%;
+  height: 120px;
+  margin-left: 50%;
+  margin-top: 10%;
 }
 
 .EnterpriseSliderSliderPrev {

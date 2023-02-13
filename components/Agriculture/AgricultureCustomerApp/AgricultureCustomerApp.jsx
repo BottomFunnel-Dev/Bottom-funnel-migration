@@ -25,8 +25,7 @@ export default function xAgricultureCustomerApp({ agricultureCustomerApp }) {
                         );
                     })}
                 </div>
-
-                <div className={styles.agricultureCustomerAppleft}
+                 <div className={styles.agricultureCustomerAppleft}
                     style={{
                         background: `url(${agricultureCustomerApp.background})`,
                         backgroundRepeat: "no-repeat",

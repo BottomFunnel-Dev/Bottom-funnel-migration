@@ -17,9 +17,7 @@ export const IonicAppBanner = () => {
   return (
     <>
       <div className={styles.ionicAppBannermainbox}>
-        {/* <div className={styles.ionicAppBannermainboximagein}>
-          <img src="" alt="" />
-        </div> */}
+       
         <div className={styles.ionicAppBannermainboxinnertextdiv}>
           <h1>Ionic App Development Services</h1>
           <p>

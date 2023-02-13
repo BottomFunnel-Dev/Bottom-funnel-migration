@@ -18,9 +18,7 @@ export const CattleCountry = () => {
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <Lottie style={{
- height:"fitContent"
-    }} options={lottieDefaultOptions}  />
+    <Lottie options={lottieDefaultOptions}  />
   
     </div>
     
@@ -38,7 +36,11 @@ export const CattleCountry = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p><strong>Frontend</strong>: Javascript</p>
+<p><strong>Backend</strong>:  Java</p>
+<p><strong>Web servers</strong>: Squarespace</p>
+<p><strong>database</strong>: squarespace</p>
+
 </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>

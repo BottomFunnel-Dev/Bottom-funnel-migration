@@ -1,102 +1,82 @@
 .ionicServicesContainer {
-  text-align: center;
+text-align: center;
 }
 .ionicServicesMainDiv {
-  border: 2px solid white;
-  width: 99.7%;
-  height: 40vh;
-  background-image: url("/Images/IonicAppDevelopment/Rectangle 4550.png");
-  object-fit: cover;
-  background-size: cover;
-  /* margin-bottom: 2%; */
+border: 2px solid white;
+width: 99.7%;
+height: 40vh;
+background-image: url("/Images/IonicAppDevelopment/Rectangle 4550.png");
+object-fit: cover;
+background-size: cover;
 }
-
 .ionicServicesBox {
-  /* border: 2px solid red; */
-  width: 90%;
-  height: 32vh;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  margin-top: 2%;
+width: 90%;
+height: 32vh;
+margin: auto;
+display: flex;
+flex-direction: row;
+margin-top: 2%;
 }
 .ionicServicesaving {
-  /* border: 2px solid gold; */
-  width: 30%;
-  text-align: left;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 10px;
-  padding: 15px;
-  margin-left: 3%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 30%;
+text-align: left;
+justify-content: center;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+margin-left: 3%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .ionicServicesaving > h5{
-  border: 10x solid red;
+border: 10x solid red;
 }
-
 .ionicServicesavingImage {
-  /* border: 2px solid red; */
-  width: 45px;
-  height: 45px;
-  /* margin: 2%; */
+width: 45px;
+height: 45px;
 }
-
 .ionicServicesaving >p{
-  text-align: justify;
+text-align: justify;
 }
-
 @media only screen and (min-width:0px) and (max-width:1024px){
-  .ionicServicesContainer {
-    text-align: center;
-  }
-  .ionicServicesMainDiv {
-    border: 2px solid white;
-    width: 99.7%;
-    height: fit-content;
-    background-image:none;
-    object-fit: cover;
-    background-size: cover;
-    /* margin-bottom: 2%; */
-  }
-  
-  .ionicServicesBox {
-    margin: auto;
-    /* border: 2px solid red; */
-    width: 100%;
-    height: fit-content;
-
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .ionicServicesaving {
-    /* border: 2px solid gold; */
-    width: 70%;
-    margin: auto;
-    text-align: left;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 2%;
-    /* margin-left: 3%; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .ionicServicesaving > h5{
-    border: 10x solid red;
-  }
-  
-  .ionicServicesavingImage {
-    /* border: 2px solid red; */
-    width: 45px;
-    height: 45px;
-    /* margin: 2%; */
-  }
+.ionicServicesContainer {
+text-align: center;
+}
+.ionicServicesMainDiv {
+border: 2px solid white;
+width: 99.7%;
+height: fit-content;
+background-image:none;
+object-fit: cover;
+background-size: cover;
+}
+.ionicServicesBox {
+margin: auto;
+width: 100%;
+height: fit-content;
+display: flex;
+flex-direction: column
+}
+.ionicServicesaving {
+width: 70%;
+margin: auto;
+text-align: left;
+justify-content: center;
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+margin-top: 2%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ionicServicesaving > h5{
+border: 10x solid red;
+}
+.ionicServicesavingImage {
+width: 45px;
+height: 45px;
+ 
+}
 }

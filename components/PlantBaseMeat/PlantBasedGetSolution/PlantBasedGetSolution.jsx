@@ -25,9 +25,7 @@ export const PlantBasedGetSolution = () => {
                     <button> Get Started </button>
                 </div>
 
-                {/* <div className={styles.plantBasedGetSolutionInnerImageDiv}>
-                    <img src='/Images/PlantBasedMeat/banners & backgrounds/GetSolutionMobileImage.png' alt='image' />
-                </div> */}
+                
             </div>
         </div>
     );

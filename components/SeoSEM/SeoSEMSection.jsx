@@ -1,13 +1,21 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoSEMSection.module.css";
+import Image from "next/image";
 
 export default function SeoSEMSection() {
 
     return (
         <div className={styles._SeoSEMMain1}>
             <div className={styles.semgifDenote}>
-                <img src="Images/seopages/compsem.gif" alt="image" />
+            <Image
+            src={"/Images/seopages/compsem.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
             </div>
             <div className={styles._SeoSEMupperdiv}>
                 <div className={styles._SeoSEMtext} >

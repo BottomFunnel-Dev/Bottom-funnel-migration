@@ -1,76 +1,64 @@
 .AnalysisWhyBFContainer {
-  margin: 2% auto;
+margin: 2% auto;
 }
-
 .AnalysisWhyBFContainer > h1 {
-  font-size: 32px;
-  width: 90%;
-  margin: 1% auto;
+font-size: 32px;
+width: 90%;
+margin: 1% auto;
 }
-
 .AnalysisWhyBFMain {
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+width: 95%;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-
 .AnalysisWhyBFCards {
-  width: 55%;
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
+width: 55%;
+display: flex;
+align-items: stretch;
+justify-content: space-between;
 }
-
 .AnalysisWhyBFCards > div {
-  border: 1px solid #d9d9d9;
-  border-radius: 20px;
-  width: 47%;
-  padding: 2%;
+border: 1px solid #d9d9d9;
+border-radius: 20px;
+width: 47%;
+padding: 2%;
 }
-
 .AnalysisWhyBFCards > div > h2 {
-  font-size: 25px;
-  width: 90%;
-  margin: 2% auto;
+font-size: 25px;
+width: 90%;
+margin: 2% auto;
 }
-
 .AnalysisWhyBFCards > div > ul > li {
-  margin-bottom: 5%;
-  margin-top: 5%;
+margin-bottom: 5%;
+margin-top: 5%;
 }
-
 .AnalysisWhyBFCards > div > ul > li::marker {
-  content: "\220E";
-  color: blue;
+content: "\220E";
+color: blue;
 }
-
 .AnalysisWhyBFCards > div > p {
-  font-size: 16px;
-  width: 90%;
-  margin: 2% auto;
+font-size: 16px;
+width: 90%;
+margin: 2% auto;
 }
-
 .AnalysisWhyBFCards > div > div {
-  width: fit-content;
-  height: 100px;
-  background: white;
-  margin-top: -15%;
-  margin-left: -15%;
+width: fit-content;
+height: 100px;
+background: white;
+margin-top: -15%;
+margin-left: -15%;
 }
-
 .AnalysisWhyBFCards > div > div > img {
-  height: inherit;
+height: inherit;
 }
-
 .AnalysisWhyBFImage {
-  width: 40%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+width: 40%;
+height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
 }
-
 .AnalysisWhyBFImage > img {
-  width: 100%;
+width: 100%;
 }

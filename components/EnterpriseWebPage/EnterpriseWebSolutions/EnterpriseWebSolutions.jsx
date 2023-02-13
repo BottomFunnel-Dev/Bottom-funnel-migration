@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./EnterpriseWebSolutions.module.css";
+import Image from "next/image";
 
 export const EnterpriseWebSolutions = () => {
   return (
@@ -15,10 +16,14 @@ export const EnterpriseWebSolutions = () => {
       <div className={styles.EnterpriseWebSolutionsMain}>
         <div className={styles.EnterpriseWebSolutionsCard}>
           <div>
-            <img
-              src="Images/enterpriseWebPhotos/ux-design.png"
-              alt="UX Design Logo"
-            />
+              <Image
+                src={"/Images/enterpriseWebPhotos/ux-design.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <h2>
             Web <span>UI/UX</span> Development
@@ -32,10 +37,14 @@ export const EnterpriseWebSolutions = () => {
         </div>
         <div className={styles.EnterpriseWebSolutionsCard}>
           <div>
-            <img
-              src="Images/enterpriseWebPhotos/app-development.png"
-              alt="Custom Web Development Logo"
-            />
+             <Image
+                src={"/Images/enterpriseWebPhotos/app-development.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <h2>
             Custom <span>Web</span> Development
@@ -49,10 +58,14 @@ export const EnterpriseWebSolutions = () => {
         </div>
         <div className={styles.EnterpriseWebSolutionsCard}>
           <div>
-            <img
-              src="Images/enterpriseWebPhotos/saas.png"
-              alt="SaaS Product Development Logo"
-            />
+              <Image
+                src={"/Images/enterpriseWebPhotos/saas.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <h2>
             <span>SaaS</span> Product Development
@@ -66,10 +79,14 @@ export const EnterpriseWebSolutions = () => {
         </div>
         <div className={styles.EnterpriseWebSolutionsCard}>
           <div>
-            <img
-              src="Images/enterpriseWebPhotos/e-payment.png"
-              alt="eCommerce Development Logo"
-            />
+            <Image
+                src={"/Images/enterpriseWebPhotos/e-payment.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <h2>
             <span>eCommerce</span> Development
@@ -83,10 +100,14 @@ export const EnterpriseWebSolutions = () => {
         </div>
         <div className={styles.EnterpriseWebSolutionsCard}>
           <div>
-            <img
-              src="Images/enterpriseWebPhotos/maintenance.png"
-              alt="Support & Maintenance Logo"
-            />
+             <Image
+                src={"/Images/enterpriseWebPhotos/maintenance.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <h2>
             Support & <span>Maintenance</span>

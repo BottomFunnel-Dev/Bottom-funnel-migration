@@ -1,20 +1,12 @@
 import React from "react";
 import Head from "next/head";
 
-
-// import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
-import {SkillsComBanner} from "../../components/SkillsCom/SkillsComBanner/index"
-
-// import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
-import {SkillsComBookCall} from "../../components/SkillsCom/SkillsComBookCall/index"
-// import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable";
-import {SkillsComRemarkable} from "../../components/SkillsCom/SkillsComRemarkable/index"
-// import { SkillsComDes } from "../../components/SkillsCom/SkillsComDes";
-import {SkillsComDes} from "../../components/SkillsCom/SkillsComDes/index"
-// import { SkillsComWhyApp } from "../../components/SkillsCom/SkillsComWhyApp";
-import {SkillsComWhyApp} from "../../components/SkillsCom/SkillsComWhyApp/index"
-// import { SkillsComWhyBF } from "../../components/SkillsCom/SkillsComWhyBF";
-import {SkillsComWhyBF} from "../../components/SkillsCom/SkillsComWhyBF/index"
+import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner/index";
+import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall/index";
+import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable/index";
+import { SkillsComDes } from "../../components/SkillsCom/SkillsComDes/index";
+import { SkillsComWhyApp } from "../../components/SkillsCom/SkillsComWhyApp/index";
+import { SkillsComWhyBF } from "../../components/SkillsCom/SkillsComWhyBF/index";
 
 import { cakePHPData } from "../../components/Data/SkillsData";
 
@@ -48,7 +40,7 @@ function SkillsShopify() {
       {isWhyApp ? <SkillsComWhyApp data={WhyAppData} /> : null}
       {isWhyBF ? <SkillsComWhyBF data={WhyBFData} /> : null}
       {isBookCall ? <SkillsComBookCall data={BookCallData} /> : null}
-      {isRemarkable ? <SkillsComRemarkable data={RemarkableData} /> : null}
+      <SkillsComRemarkable data={RemarkableData} />
     </div>
   );
 }

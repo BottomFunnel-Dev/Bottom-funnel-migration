@@ -46,7 +46,10 @@ export const BusinessFramework = () => {
         <div className={styles.businessanalysisflexingbox}>
           {BusinessFrameworkdata.map((e) => {
             return (
-              <div className={styles.businessflexingmapforbannerbox}>
+              <div
+                key={e.htxt}
+                className={styles.businessflexingmapforbannerbox}
+              >
                 <Image
                   width={"0"}
                   height={"0"}

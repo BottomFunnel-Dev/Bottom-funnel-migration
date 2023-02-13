@@ -4,6 +4,7 @@ import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Sp
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
+
 export const Sportasy = () => {
   const lottieDefaultOptions = {
     loop: true,
@@ -13,7 +14,6 @@ export const Sportasy = () => {
       preserveAspectRatio: "xMidYMid slice"
     }
   };
-
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -33,18 +33,23 @@ export const Sportasy = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Bootstrap, Popper, Cloudflare, Cdnjs</p>
+    <p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap, Popper</p>
+    <p><strong>Web Servers</strong>: Cloudflare</p>
+    <p><strong>Database</strong>: CdnJs</p>
+
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
 <div className={styles.yanbaliconflexbox}>
-<div className={styles.yanabaliconandeoid} >
+<div className={styles.yanabaliconandeoid}>
 <Link href="https://play.google.com/store/apps/details?id=com.sportasy.fantasy">
 <a className={styles.androidappicon}>
 <img src='Images/portfolio/Platform icons/Platform icons/Frame.png' alt='images' />
 </a>
 </Link>
 </div>
+
 
 <div className={styles.yanabaliconandeoid}>
 <Link href="https://sportasy.in/">
@@ -70,7 +75,13 @@ export const Sportasy = () => {
 <img src='Images/portfolio/Sportasy/logo/Mobile 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://sportasy.in/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     
@@ -83,13 +94,10 @@ export const Sportasy = () => {
     
       width:"fitContent"
     }} options={lottieDefaultOptions}   />
-
+    
     </div>
     
     
     </div>
   )
 }
-
-
-

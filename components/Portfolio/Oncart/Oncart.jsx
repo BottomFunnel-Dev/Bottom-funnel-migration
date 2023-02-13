@@ -33,7 +33,11 @@ export const Oncart = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>ASP.NET,  microsoft iis, AWS</p>
+    <p><strong>Frontend</strong>: ReactJS, Bootstrap,NextJs </p>
+    <p><strong>Backend</strong>: ASP.NET</p>
+    <p><strong>Web Servers</strong>: Microsoft IIS</p>
+    <p><strong>Database</strong>: AWS</p>
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -73,7 +77,13 @@ export const Oncart = () => {
 <img src='Images/portfolio/on cart/logo/Group 770957.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://on-cart.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     
@@ -83,10 +93,7 @@ export const Oncart = () => {
     <div className={styles.yanbalrightboxes}>
 
        
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Lottie options={lottieDefaultOptions}   />
 
   </div>
     

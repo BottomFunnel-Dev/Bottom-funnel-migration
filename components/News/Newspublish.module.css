@@ -22,14 +22,12 @@
 .newspublishsub{
     width: 90%;
     margin: auto;
-    /* display: flex; */
     height: fit-content;
     background-color: white;
 }
 .sznewspublish{
     width: 50%;
     height: 85px;
-    /* background-color: rgb(12, 71, 71); */
   display: flex;
 }
 .sznewspublishimage{

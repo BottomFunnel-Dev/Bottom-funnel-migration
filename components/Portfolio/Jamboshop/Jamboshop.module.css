@@ -1,5 +1,5 @@
 .nextholidaymainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/Jambo shop/backgrounds/bg.png");
 background-size: 100% 100%;
@@ -11,16 +11,7 @@ margin-top: 0%;
 height: 100%;
 width: 55%;
 }
-.nextholidayleftboxforimages{
-height: 85%;
-width: 30%;
-margin: 5% 0% 0% 65%;
-}
-.nextholidayleftboxforimages>img{
-height: 100%;
-width: 100%;
-object-fit: contain;   
-}
+
 .nextholidayrighttbox{
 height: fit-content;
 width: 45%;
@@ -45,22 +36,23 @@ padding: 5px;
 
 .nextholidaywrapbox1>h5{
 font-weight: 900;
-font-size: 20px;
-text-align: center;
-color: black;
+   font-size: 20px;
+    text-align: left;
+    color: black;
 }
 
 .nextholidaywrapbox1>p{
-font-size: 17px;
-text-align: center;
-margin-top: -0%;
-color: black;
+   font-size: 17px;
+    text-align: left;
+    margin: 0;
+    color: black;
 }
 
 .portfolioavailableonicon{
 display: flex;
 margin: auto;
 width: 60%;
+margin-left: -1%;
 }
 .porfolionextholidayicon{
 margin: 5% ;
@@ -82,7 +74,7 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 40%;
 height: 5%;
-margin-left: 5%;
+
 }
 .nextholidaywrapboximages>img{
 height: 100%;
@@ -100,7 +92,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 font-size: 14px;
 font-weight: 600;
 color: black;
-margin-left: 25%;
+margin-left: 15%;
 margin-top: 8%;
 }
 .nextholidayviewcasebutton:hover{
@@ -108,13 +100,15 @@ background-color: white;
 color: black;
 }
 
+/* for any type of mobile screen responsive */
+
 
 @media only screen and (min-width:0px) and (max-width:600px){
 .nextholidaymainboxes{
 height: fit-content;
 display: flex;
 flex-wrap: wrap;
-background: url("/Images/portfolio/Jambo shop/backgrounds/bg.png");
+background: url("/Images/portfolio/Portfolio Mobile Responsive/3.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
  padding: 20px; 
@@ -152,7 +146,8 @@ justify-content: space-between;
 .nextholidaywrapbox1{
 width: 40%;
 margin: 3%;
-padding: 5px;
+
+
 }
 
 .nextholidaywrapbox1>h5{
@@ -166,7 +161,6 @@ font-size: 12px;
 height: fit-content;
 text-align: center;
 margin-top: -0%;
-margin-right: 2%;
 color: black;
 }
 .portfolioavailableonicon{
@@ -213,7 +207,7 @@ margin-left: -10%;
 margin-top: -0%;
 }
 .nextholidayviewcasebutton:hover{
-background-color: blue;
-color: white;
-}
+    background-color: white;
+    color: black;
+    }
 }

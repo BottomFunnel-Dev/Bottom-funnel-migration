@@ -2,12 +2,10 @@ import React, { useState } from "react";
 import styles from "./services.module.css";
 import { FaMobileAlt } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-// import {Link,  useNavigate } from "react-router";
 import Link from "next/link";
 import Image from "next/image";
 
-const Services = () => {
-  // const navigate = useNavigate();
+export default function Services() {
   let arr = [
     {
       serviceIcon: <FaMobileAlt />,
@@ -35,8 +33,7 @@ const Services = () => {
         { serName: "PYTHON", path: "python-development" },
       ],
       Link: "web-development",
-      serviceDesc:
-        `Own your market with a mobile app from Web Development! Our team of experts will help you build your next big thing with the
+      serviceDesc: `Own your market with a mobile app from Web Development! Our team of experts will help you build your next big thing with the
          latest in mobile app technology.`,
     },
     {
@@ -51,8 +48,7 @@ const Services = () => {
         { serName: "GUEST POSTING", path: "seo-guest-post" },
       ],
       Link: "Digital-marketing",
-      serviceDesc:
-        `Unleash the power of your brand with our digital marketing services. Get more customers and revenue with SEOs, social media,
+      serviceDesc: `Unleash the power of your brand with our digital marketing services. Get more customers and revenue with SEOs, social media,
          and email marketing from the experts.`,
     },
     {
@@ -67,8 +63,7 @@ const Services = () => {
         { serName: "CLOUDFARE", path: "" },
       ],
       Link: "cloud",
-      serviceDesc:
-        `We provide you a suite of cloud services for modern and data-intensive applications, with custombuilt infrastructure and 
+      serviceDesc: `We provide you a suite of cloud services for modern and data-intensive applications, with custombuilt infrastructure and 
         leading tools & services.`,
     },
     {
@@ -83,8 +78,7 @@ const Services = () => {
         { serName: "DATA SCIENCE", path: "data-science" },
       ],
       Link: "Products",
-      serviceDesc:
-        `You need software that can scale with your company's needs and work as hard as you do, it's time to let us help you with 
+      serviceDesc: `You need software that can scale with your company's needs and work as hard as you do, it's time to let us help you with 
         product development.`,
     },
     {
@@ -98,8 +92,7 @@ const Services = () => {
         { serName: "CRM ANALYTICS", path: "" },
       ],
       Link: "salesforce",
-      serviceDesc:
-        `Want to grow your business with salesforce development? We're your one-stop-shop for all of your Salesforce needs! Automate
+      serviceDesc: `Want to grow your business with salesforce development? We're your one-stop-shop for all of your Salesforce needs! Automate
          and integrate your Salesforce with the help of our experts.`,
     },
   ];
@@ -107,7 +100,14 @@ const Services = () => {
   return (
     <div className={styles.mainService}>
       <div className={styles.serviceIntro}>
-        <Image width={"0"} height={"0"} sizes={"100vw"} style={{width: "100%", height:"100%"}} src="/Images/services/service.webp" alt="image" />
+        <Image
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+          src="/Images/services/service.webp"
+          alt="image"
+        />
         <div>
           <h1>Our Services</h1>
           <p>
@@ -129,8 +129,14 @@ const Services = () => {
               <div className={styles.serviceHeading}>
                 <h4>{item.serviceName}</h4>
                 <div className={styles.vectorImage}>
-                  
-                  <Image width={"0"} height={"0"} sizes={"100vw"} style={{width: "100%", height:"100%"}} src={item.serviceImages} alt="image" />
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                    src={item.serviceImages}
+                    alt="image"
+                  />
                 </div>
               </div>
               <div
@@ -138,27 +144,20 @@ const Services = () => {
                 style={{ textDecoration: "none" }}
               >
                 {item.serviceTypes.map((element, index) => (
-                
                   <Link href={element.path} key={index}>
-                    <li >
-                      {element.serName}
-                    </li>
+                    <li>{element.serName}</li>
                   </Link>
-
                 ))}
               </div>
             </div>
 
             <div className={styles.serviceDescriptionVisible}>
               <p>{item.serviceDesc}</p>
-              <p onClick={() => {
-              }}>READ MORE</p>
+              <p onClick={() => {}}>READ MORE</p>
             </div>
           </div>
         ))}
       </div>
     </div>
   );
-};
-
-export default Services;
+}

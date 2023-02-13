@@ -8,11 +8,9 @@
   width: 60%;
   position: relative;
   text-align: center;
-  /* border: 2px solid yellow; */
 }
 
 .pickupcustomerright h1 {
-  /* border: 2px solid green; */
   text-align: left;
   margin-left: 4%;
   color: #5cacb2;
@@ -22,14 +20,12 @@
   width: 100%;
   display: flex;
   padding: 10px;
-  /* height: 500px; */
 }
 
 .pickupcustomerImage {
   width: 40%;
   height: 574px;
   position: relative;
-  /* background-color: aqua; */
   background: url("/Images/pickup/backgrounds/customerappbg.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -38,7 +34,6 @@
 
 .variableImg {
   width: 70%;
-  /* background-color: green; */
   height: 480px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -63,19 +58,15 @@
 
 .pickupcustomercard {
   width: 30%;
-  /* height: 250px; */
   padding: 20px 10px;
   border-radius: 10px;
   text-align: left;
-  /* border: 1px solid red; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .pickupcustomercard:hover {
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-15px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: #f2daaf;

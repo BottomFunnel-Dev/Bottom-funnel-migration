@@ -859,49 +859,49 @@ export const pharmacyLogo = {
 export const dmpagesLogo = {
   logo: [
     {
-      partnerImage: "Images/seopages/dmpages/frame1.png",
+      partnerImage: "/Images/seopages/dmpages/frame1.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame2.png",
+      partnerImage: "/Images/seopages/dmpages/frame2.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame3.png",
+      partnerImage: "/Images/seopages/dmpages/frame3.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame4.png",
+      partnerImage: "/Images/seopages/dmpages/frame4.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame5.png",
+      partnerImage: "/Images/seopages/dmpages/frame5.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame6.png",
+      partnerImage: "/Images/seopages/dmpages/frame6.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame7.png",
+      partnerImage: "/Images/seopages/dmpages/frame7.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame8.png",
+      partnerImage: "/Images/seopages/dmpages/frame8.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame9.png",
+      partnerImage: "/Images/seopages/dmpages/frame9.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame10.png",
+      partnerImage: "/Images/seopages/dmpages/frame10.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame11.png",
+      partnerImage: "/Images/seopages/dmpages/frame11.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame12.png",
+      partnerImage: "/Images/seopages/dmpages/frame12.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame13.png",
+      partnerImage: "/Images/seopages/dmpages/frame13.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame14.png",
+      partnerImage: "/Images/seopages/dmpages/frame14.webp",
     },
     {
-      partnerImage: "Images/seopages/dmpages/frame15.png",
+      partnerImage: "/Images/seopages/dmpages/frame15.webp",
     },
   ],
   

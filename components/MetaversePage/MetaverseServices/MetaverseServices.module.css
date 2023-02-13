@@ -1,54 +1,42 @@
 .MetaverseServicesContainer {
-  width: 90%;
-  margin: 2% auto;
+width: 90%;
+margin: 2% auto;
 }
-
 .MetaverseServicesContainer > h1 {
-  font-size: 32px;
-  width: 100%;
-  margin: 1% auto;
+font-size: 32px;
+width: 100%;
+margin: 1% auto;
 }
-
 .MetaverseServicesContainer > h1 > span {
-  color: #ef4c23;
+color: #ef4c23;
 }
-
 .MetaverseServicesContainer > p {
-  font-size: 16px;
-  width: 100%;
-  margin: 1% auto;
+font-size: 16px;
+width: 100%;
+margin: 1% auto;
 }
-
 .MetaverseServicesImage {
-  height: 750px;
-  width: 100%;
-  text-align: center;
+height: 750px;
+width: 70%;
+margin-left: 15%;
 }
-
-.MetaverseServicesImage > img {
-  height: 100%;
-}
-
 .MetaverseServicesHrLine {
-  width: 20%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+width: 20%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-
 .MetaverseServicesHrLine > div {
-  border: 2px solid #ef4c23;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
+border: 2px solid #ef4c23;
+width: 20px;
+height: 20px;
+border-radius: 20px;
 }
-
 .MetaverseServicesHrLine > span {
-  width: 42%;
-  height: 2px;
-  background-color: #ef4c23;
-  color: #ef4c23;
+width: 42%;
+height: 2px;
+background-color: #ef4c23;
+color: #ef4c23;
 }

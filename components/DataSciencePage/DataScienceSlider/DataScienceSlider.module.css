@@ -50,7 +50,7 @@
 
   border-radius: 20px;
   border: 1px solid gray;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,12 +61,12 @@
   transform: scale(0.8);
 }
 
-.DataScienceSlider-slide > img {
-  width: 60%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  
+.DataScienceIcons{
+  width: 50%;
+  height: 120px;
+  margin-left: 50%;
+  margin-top: 10%;
 }
 
 .DataScienceSliderSliderPrev {
@@ -181,14 +181,7 @@
     transform: scale(0.8);
    
   }
-  
-  .DataScienceSliderslide > img {
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   
   .DataScienceSliderSliderPrev {
     background-color: #fff;
@@ -232,6 +225,4 @@
     background-color: #d6d5d5;
     
   }
-  
-
 }

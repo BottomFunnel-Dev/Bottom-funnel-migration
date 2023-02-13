@@ -4,8 +4,6 @@ import { StackGrid } from "./StackGrid";
 import styles from "./webDevTechStack.module.css";
 import { techStackleft, initialData, techStackright } from "./GridData";
 export const WebDevTechStack = () => {
-  // const [toggle, setToggle] = useState(0);
-  // const [righttoggle, setrighttoggle] = useState(0);
 
   const [stackdata, setStackdata] = useState(initialData);
 
@@ -14,7 +12,6 @@ export const WebDevTechStack = () => {
     setStackdata(el);
   };
   const handleRightState = (idx, el) => {
-    // setrighttoggle(idx);
     setStackdata(el);
   };
 

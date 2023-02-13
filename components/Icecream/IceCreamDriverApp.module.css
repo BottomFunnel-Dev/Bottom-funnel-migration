@@ -3,12 +3,10 @@
   background-color: white;
   margin-bottom: 5%;
 }
-
 .icecreamdriverappmainboxes > h2 {
   margin-left: 43.5%;
   font-size: 30px;
 }
-
 .icecreamdriverappflexingbox {
   height: fit-content;
   display: flex;
@@ -62,11 +60,6 @@
   transform: scale(1.02);
   background-color: #f9f5f5;
 }
-
-/* .icecreamdeliveryappindivisualboxforlogo {
-  padding: 5px;
-} */
-
 .icecreamdeliveryappindivisualboxforlogo {
   height: 23%;
   width: 12%;
@@ -79,7 +72,6 @@
 }
 
 .icecreamdeliveryappindivisualboxfortext > h4 {
-  /* border: 2px solid red; */
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;
@@ -90,7 +82,6 @@
 }
 
 .icecreamdeliveryappindivisualboxfortext > p {
-  /* border: 2px solid red; */
   margin-top: 0%;
   font-size: 14px;
   line-height: 20px;

@@ -1,12 +1,10 @@
 /* for any type of laptop and wide range of screen responsive */
 
 @media only screen and (min-width:769px){
-
 .digitalmarketclientsaddmainbox {
   height: fit-content;
   border: 1px solid #ef4c23;
   padding: 30px;
-
   text-align: center;
 }
 

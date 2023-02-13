@@ -24,7 +24,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";
 import Lottie from "react-lottie";
-import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json"
+import footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 const MainFooter = () => {
   const [open, setOpen] = React.useState(false);
@@ -48,12 +48,12 @@ const MainFooter = () => {
 
   const lottieOptionData = {
     loop: true,
-    autoplay: true, 
+    autoplay: true,
     animationData: footerWorldmapAnimate,
     rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  }
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   const [more, setMore] = useState(false);
   const address = [
@@ -104,12 +104,14 @@ const MainFooter = () => {
             </OverlayTrigger>
           ))}
 
-          <Lottie options={lottieOptionData} style={{width: "100%", height: "100%"}} />
+          <Lottie
+            options={lottieOptionData}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
 
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-
             <img src="Images/footer/whitelogobottom.webp" alt="image" />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
@@ -198,7 +200,9 @@ const MainFooter = () => {
               </a>
             </div>
 
-            <div className={`${styles.footerMapContactSection}  ${styles.privacySection}`}>
+            <div
+              className={`${styles.footerMapContactSection}  ${styles.privacySection}`}
+            >
               <li>Privacy Policy</li>
               <li></li>
               <li>ISMS Policy</li>

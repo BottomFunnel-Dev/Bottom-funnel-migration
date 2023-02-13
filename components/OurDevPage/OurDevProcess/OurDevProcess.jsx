@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./OurDevProcess.module.css";
+import Image from "next/image";
+
 
 export const OurDevProcess = () => {
   return (
@@ -15,9 +17,14 @@ export const OurDevProcess = () => {
           </p>
 
           <div>
-            <img
-              src="/Images/ourDevPhotos/flowchart.png"
-              alt="vetting flow chart"
+           
+            <Image
+            src={"/Images/ourDevPhotos/flowchart.webp"}
+            alt={"chartimage"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

@@ -41,7 +41,7 @@ export const DataScienceSlider = () => {
     infinite: true,
     lazyLoad: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -74,6 +74,7 @@ export const DataScienceSlider = () => {
               }
               key={index}
             >
+            <div className={styles.DataScienceIcons}>
               <Image
                   src={elem}
                   alt={"images"}
@@ -82,6 +83,7 @@ export const DataScienceSlider = () => {
                   sizes={"100vw"}
                   style={{ width: "100%", height: "100%" }}
                 />
+            </div>
             </div>
           );
         })}

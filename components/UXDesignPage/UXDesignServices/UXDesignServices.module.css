@@ -5,9 +5,9 @@
   margin: -3% auto 2%;
 }
 
-.UXDesignServices > span {
+.UXDesignServices>span {
   width: 100%;
-  height: fit-content;
+  height: 50px;
   padding: 0;
   margin: 0;
   position: relative;
@@ -17,27 +17,27 @@
   justify-content: space-between;
 }
 
-.UXDesignServices > span > img {
+.UXDesignServices>span>img {
   height: 50px;
   width: 20%;
 }
 
-.UXDesignServices > span > img:nth-child(1) {
+.UXDesignServices>span>img:nth-child(1) {
   transform: rotateY(180deg);
 }
 
-.UXDesignServicescontainer > h1 {
+.UXDesignServicescontainer>h1 {
   font-size: 32px;
   width: 100%;
   text-align: center;
   margin-bottom: 1%;
 }
 
-.UXDesignServicescontainer > h1 > span {
+.UXDesignServicescontainer>h1>span {
   color: #ef4c23;
 }
 
-.UXDesignServicescontainer > hr {
+.UXDesignServicescontainer>hr {
   width: 15%;
   height: 2px;
   margin: 1% auto;
@@ -48,7 +48,7 @@
   outline: none;
 }
 
-.UXDesignServicescontainer > div {
+.UXDesignServicescontainer>div {
   width: 100%;
   margin: 3% auto;
 
@@ -57,7 +57,7 @@
   justify-content: space-between;
 }
 
-.UXDesignServicescontainer > div > div {
+.UXDesignServicescontainer>div>div {
   width: 45%;
   margin-bottom: 3%;
   padding-bottom: 1%;
@@ -68,7 +68,7 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.UXDesignServicescontainer > div > div > h1 {
+.UXDesignServicescontainer>div>div>h1 {
   font-size: 32px;
   text-align: center;
   background: #ef4c23;
@@ -77,13 +77,13 @@
   padding: 1%;
 }
 
-.UXDesignServicescontainer > div > div > h2 {
+.UXDesignServicescontainer>div>div>h2 {
   font-size: 25px;
   width: 90%;
   margin: 2% auto 1%;
 }
 
-.UXDesignServicescontainer > div > div > hr {
+.UXDesignServicescontainer>div>div>hr {
   width: 30%;
   margin: 1% 5% 1%;
   background: #ef4c23;
@@ -94,7 +94,7 @@
   outline: none;
 }
 
-.UXDesignServicescontainer > div > div > p {
+.UXDesignServicescontainer>div>div>p {
   font-size: 16px;
   text-align: justify;
   width: 90%;

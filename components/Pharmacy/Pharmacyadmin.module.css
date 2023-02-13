@@ -1,7 +1,6 @@
 .pharmacyadmin {
   width: 100%;
   height: 600px;
-  /* background-color: aqua; */
 }
 
 .pharmacyadmin > h1 {
@@ -21,7 +20,6 @@
 .pharmacyadminleft {
   width: 50%;
   height: 500px;
-  /* padding: 10px; */
   display: flex;
   background: url("/Images/pharmacy/Admin panel bg.png");
   background-repeat: no-repeat;
@@ -32,7 +30,6 @@
   width: 45%;
   margin-left: 1%;
   height: 100%;
-  /* background-color: aqua; */
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -54,9 +51,7 @@
 .pharmacyadminright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

@@ -94,12 +94,9 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("/Images/CryptoDevPhotos/banner.webp");
     background-size: 100% 30%;
-    /* background-position: center; */
+
     background-repeat: no-repeat;
 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
   }
   
   .CryptoDevBannerMain > h1 {

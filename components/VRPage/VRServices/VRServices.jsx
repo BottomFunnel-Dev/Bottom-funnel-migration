@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./VRServices.module.css";
+import Image from "next/image";
 
 export const VRServices = () => {
   const cardsData = [
@@ -10,7 +11,7 @@ export const VRServices = () => {
         "Formulate technical requirements and features.",
         "Help you choose VR equipment with your budget in mind.",
       ],
-      image: "Images/VRPhotos/consulting.png",
+      image: "/Images/VRPhotos/consulting.webp",
     },
     {
       title: "VR software development",
@@ -19,7 +20,7 @@ export const VRServices = () => {
         "Introducing intuitive interactivity and realistic sound acoustics.",
         "Optimizing backends for high-load VR processes.",
       ],
-      image: "Images/VRPhotos/development.png",
+      image: "/Images/VRPhotos/development.webp",
     },
     {
       title: "3D modeling",
@@ -28,12 +29,12 @@ export const VRServices = () => {
         "Kinesthetic attributes.",
         "Engaging animations.",
       ],
-      image: "Images/VRPhotos/modeling.png",
+      image: "/Images/VRPhotos/modeling.webp",
     },
     {
       title: "VR software integration",
       body: ["CMS.", "LMS.", "EHR.", "CRM."],
-      image: "Images/VRPhotos/integration.png",
+      image: "/Images/VRPhotos/integration.webp",
     },
   ];
 
@@ -64,7 +65,14 @@ export const VRServices = () => {
                 </ul>
               </div>
               <div className={styles.VRServicesCardsImages}>
-                <img src={image} alt={title} />
+              <Image
+                  src={image}
+                  alt={title}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
             </div>
           );

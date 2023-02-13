@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./VRwhyBF.module.css";
+import Image from "next/image";
 
 export const VRwhyBF = () => {
   const cardsData = [
@@ -10,12 +11,12 @@ export const VRwhyBF = () => {
         "Psychological therapy.",
         "Gamified rehabilitation",
       ],
-      image: "Images/VRPhotos/doctor.png",
+      image: "/Images/VRPhotos/doctor.webp",
     },
     {
       title: "Education",
       body: ["Immersive training.", "Immersive research."],
-      image: "Images/VRPhotos/vr-gaming.png",
+      image: "/Images/VRPhotos/vr-gaming.webp",
     },
     {
       title: "Manufacturing",
@@ -24,12 +25,12 @@ export const VRwhyBF = () => {
         "Training.",
         "Maintenance guidance.",
       ],
-      image: "Images/VRPhotos/metaverse.png",
+      image: "/Images/VRPhotos/metaverse.webp",
     },
     {
       title: "Retail",
       body: ["VR showrooms.", "Training.", "Gamified rehabilitation"],
-      image: "Images/VRPhotos/clothing.png",
+      image: "/Images/VRPhotos/clothing.webp",
     },
     {
       title: "Real estate",
@@ -38,7 +39,7 @@ export const VRwhyBF = () => {
         "Training.",
         "Maintenance guidance.",
       ],
-      image: "Images/VRPhotos/building.png",
+      image: "/Images/VRPhotos/building.webp",
     },
     {
       title: "Advertising",
@@ -47,21 +48,33 @@ export const VRwhyBF = () => {
         "Virtual events.",
         "Virtual design and engineering.",
       ],
-      image: "Images/VRPhotos/video-player.png",
+      image: "/Images/VRPhotos/video-player.webp",
     },
   ];
 
   return (
     <div className={styles.VRwhyBFContainer}>
       <div className={styles.VRwhyBFBackgroundRectangle}>
-        <img
-          src="Images/VRPhotos/rectangle-top.png"
-          alt="Background image rectangle right top"
-        />
-        <img
-          src="Images/VRPhotos/rectangle-bottom.png"
-          alt="Background image rectangle left bottom"
-        />
+            <div className={styles.VRwhyBFImage1}>
+              <Image
+                  src={"/Images/VRPhotos/rectangle-top.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+            </div>
+            <div className={styles.VRwhyBFImage2}>
+              <Image
+                  src={"/Images/VRPhotos/rectangle-bottom.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+            </div>
       </div>
       <div className={styles.VRwhyBFMain}>
         <h1>IOT solutions Bottom funnel Builds</h1>
@@ -75,7 +88,14 @@ export const VRwhyBF = () => {
             return (
               <div key={title} className={styles.VRwhyBFCardsMain}>
                 <div>
-                  <img src={image} alt={title} />
+                <Image
+                  src={image}
+                  alt={title}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 </div>
                 <h3>{title}</h3>
                 <ul>

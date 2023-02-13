@@ -1,6 +1,5 @@
 import React from "react";
 import { MainBanner } from "../particularComponents/BannerCompo/MainBanner";
-// import "./carpoolingBanner.css";
 import { homeBannerData } from "../Data/BannerData";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Flower delivery.json";
 import Lottie from "react-lottie";

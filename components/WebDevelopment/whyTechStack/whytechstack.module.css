@@ -1,42 +1,34 @@
 .whytechData {
-  width: 100%;
+width: 100%;
 }
-
 .techHeader {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  padding: 20px;
+width: 90%;
+margin: auto;
+text-align: center;
+padding: 20px;
 }
-
 .techHeader span {
-  color: #ef4c23;
+color: #ef4c23;
 }
-
 .whyTechFeaturesCard {
-  width: 80%;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  column-gap: 40px;
-  row-gap: 40px;
-  flex-wrap: wrap;
-  margin: auto;
+width: 80%;
+display: flex;
+align-items: stretch;
+justify-content: center;
+column-gap: 40px;
+row-gap: 40px;
+flex-wrap: wrap;
+margin: auto;
 }
-
 .whyTechFeaturesCardBox {
-  width: 25%;
-  /* background-color: red; */
-  padding: 30px 15px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
+width: 25%;
+padding: 30px 15px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
 }
-
 .whyTechFeaturesCardBox:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-15px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

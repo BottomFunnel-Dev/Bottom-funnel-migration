@@ -86,16 +86,15 @@
   z-index: 1;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
+
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
   .flowerdeliverysolutionmainbox {
     height: fit-content;
-    /* margin-top: 50px; */
+
     width: 100%;
-    /* border: 1px solid red; */
   }
 
   .flowerdeliveryappsolutionboxfortext {
@@ -107,7 +106,6 @@
   }
 
   .flowerdeliveryappsolutionboxfortext > h2 {
-    /* border: 1px solid red; */
     font-size: 27px;
     font-weight: 600;
     margin-bottom: 0%;
@@ -145,9 +143,8 @@
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliverysolutionmainbox {
     height: fit-content;
-    /* margin-top: 50px; */
     width: 100%;
-    /* border: 1px solid red; */
+
   }
 
   .flowerdeliveryappsolutionboxfortext {
@@ -159,7 +156,6 @@
   }
 
   .flowerdeliveryappsolutionboxfortext > h2 {
-    /* border: 1px solid red; */
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 0%;

@@ -1,5 +1,4 @@
 .nextholidaymainboxes{
-    /* border: 1px solid red; */
     height: 85vh;
      display: flex;
      background: url("/Images/portfolio/Next holiday/Background/Group33.png");
@@ -58,20 +57,21 @@ padding: 5px;
 .nextholidaywrapbox1>h5{
     font-weight: 900;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     color: black;
 }
 
 .nextholidaywrapbox1>p{
     font-size: 17px;
-    text-align: center;
-    margin-top: -0%;
+    text-align: left;
+margin: 0;
     color: black;
+
 }
 
 .portfolioavailableonicon{
     display: flex;
-  margin: auto;
+
   width: 60%;
 /* border: 1px solid red; */
 }
@@ -131,13 +131,13 @@ border-right: 1px solid black;
   font-size: 14px;
   font-weight: 600;
   color: black;
-  margin-left: 25%;
-  margin-top: 8%;
+
+  margin-top: 0%;
 }
 
 .nextholidayviewcasebutton:hover{
-    background-color: #75AEC8;
-    color: white;
+    background-color: #DA2A31;
+    color: black;
 }
 
 
@@ -149,7 +149,7 @@ border-right: 1px solid black;
 height: fit-content;
  display: flex;
 flex-wrap: wrap;
- background: url("/Images/portfolio/Next holiday/Background/Group33.png");
+ background: url("/Images/portfolio/Portfolio Mobile Responsive/1.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
  padding: 20px;     
@@ -230,6 +230,7 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 35%;
 height: 8%;
+
 }
 .nextholidaywrapboximages>img{
 height: 100%;
@@ -251,7 +252,7 @@ margin-left: -10%;
 margin-top: -0%;
 }
 .nextholidayviewcasebutton:hover{
-background-color: blue;
-color: white;
+    background-color: #DA2A31;
+    color: black;
 }
 }

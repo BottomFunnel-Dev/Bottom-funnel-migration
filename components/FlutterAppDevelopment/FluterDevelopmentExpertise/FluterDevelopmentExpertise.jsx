@@ -18,7 +18,6 @@ export const FluterDevelopmentExpertise = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/FlutterDevelopment/Icons/platform 2.png" /> */}
               </div>
 
               <div className={styles.flutterDevelopmentExpertiseIconHeading}>
@@ -42,7 +41,6 @@ export const FluterDevelopmentExpertise = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/FlutterDevelopment/Icons/approved2.png" /> */}
               </div>
               <div className={styles.flutterDevelopmentExpertiseIconHeading}>
                 <h4>Hire Developers</h4>
@@ -65,7 +63,6 @@ export const FluterDevelopmentExpertise = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/FlutterDevelopment/Icons/bulb.png" /> */}
               </div>
               <div className={styles.flutterDevelopmentExpertiseIconHeading}>
                 <h4>Industry-Specific Solutions</h4>
@@ -88,7 +85,6 @@ export const FluterDevelopmentExpertise = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/FlutterDevelopment/Icons/technical-support 2.png" /> */}
               </div>
               <div className={styles.flutterDevelopmentExpertiseIconHeading}>
                 <h4>End-to-End Support and Maintenance</h4>

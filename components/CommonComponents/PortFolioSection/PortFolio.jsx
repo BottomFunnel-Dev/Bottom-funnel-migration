@@ -24,6 +24,28 @@ const PortFolio = () => {
     // cssEase: "linear",
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          vertical: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          vertical: false,
+          infinite:true,
+        },
+      },
+    ],
   };
   // "mainSlide"
 
@@ -37,9 +59,10 @@ const PortFolio = () => {
         "Yanbal is a global skincare company. It is a global beauty company inspired by, and created for, women. It goods are sold on the internet and through independent style advisors. Yanbal empowers women through beauty and its business opportunity every day. It provides variety of cosmetics and skincare products for women. Yanbal's US operation sells nationwide and is headquartered in Miami, FL.",
       frontend: " javascript, jquery, Mordenizr",
       backend: " Java",
-      database: "Microsoft",
+      database: "Microsoft SQL",
       website: "https://www.yanbal.com//bo/",
-      playStore: "http://play.google.com/store/apps/details?id=yanbal.colombia2",
+      playStore:
+        "http://play.google.com/store/apps/details?id=yanbal.colombia2",
     },
     {
       leftimg: "#A752ED",
@@ -48,9 +71,9 @@ const PortFolio = () => {
       tagline: "Educational Brand",
       description:
         "physicsfun is my ongoing attempt to create and sustain a museum on social media, one where I can share my vast collection of curious objects of science",
-      frontend: " React, jquery, Mordenizr",
-      backend: " Java, ASP.NET,",
-      database: " CloudFront",
+      frontend: " React, Javascript",
+      backend: " PHP",
+      database: "CloudFront",
       website: "https://www.physicsfunshop.com/",
       playStore: "http://play.google.com/store/apps/details?id=",
     },
@@ -63,8 +86,8 @@ const PortFolio = () => {
     Tourism division The Blueberry Group is setting new benchmarks in the sector while providing
       savvy clients from more than 30 countries worldwide.
       `,
-      frontend: " React, jquery, Javascript",
-      backend: " PHP, Ruby on Rails,",
+      frontend: " React, Javascript",
+      backend: " PHP",
       database: " CloudFare works",
       website: "https://blueberrygroup.co/",
     },
@@ -75,7 +98,7 @@ const PortFolio = () => {
       tagline: "D2C Travel Website",
       description:
         "Blueberry Travel was the first company in the Blueberry Group which was started in 2013. It’s involved in simplifying Travel for everyone with a dedicated team, simplified services and easy customizations according to traveller’s need. It has become fastest growing company and is IATA certified in more than 17 countries. Blueberry Travel was ranked top in most of the Major Airlines in African Continent.",
-      frontend: " Jquery, GSAP, Mordenizr",
+      frontend: " Javascript, Jquery",
       backend: " PHP, PHP7,",
       database: " Amazon Route 53",
       website: "https://www.blueberry-travel.com/",
@@ -92,7 +115,7 @@ const PortFolio = () => {
       your life easy like washing machines, TVs, ACs, blenders and other time-saving kitchen and small
       appliances, they got everything everyone covered.
       `,
-      frontend: " Jquery,Bootstrap",
+      frontend: " Javascript ,Bootstrap",
       backend: " Java",
       database: " CloudFront",
       website: "https://www.jamboshop.com/",
@@ -110,8 +133,8 @@ const PortFolio = () => {
       distributors, Roshi’s mobile first SaaS platform actively manages inventory and optimizes business
       operations while maintaining the highest levels of regulatory compliance.
       `,
-      frontend: " jquery, Bootstrap",
-      backend: " ASP.NET MVC, ASP.NET,",
+      frontend: "Javascript, Bootstrap",
+      backend: " Ruby",
       database: " CloudFront",
       website: "https://roshiwellness.com/",
     },
@@ -127,7 +150,7 @@ const PortFolio = () => {
       to put smiles on a generation of tourists.
       `,
       frontend: " Angular, jquery",
-      backend: " ASP.NET, ASP.NET MVC",
+      backend: " ASP.NET",
       database: " Cloudflare.js, CDN.js",
       website: "https://www.nextholidays.com/",
     },
@@ -158,7 +181,7 @@ const PortFolio = () => {
       experience in the travel and hospitality domain. The company is driven by the vision to be the world's most recognized and trusted e-com tourism companies. Travel Flap is a premium-experience
       travel website, which offers flights to over 3,000 destinations, hotel stays in over 85,000 properties
       around the world, holiday experiences and much more. `,
-      frontend: "React, Bootstrap,",
+      frontend: "Next Js, Bootstrap,",
       backend: "Node, Javascript",
       database: "MongoDB",
       website: "https://www.travelflap.com/",
@@ -173,8 +196,8 @@ const PortFolio = () => {
       goods, diversified in all sorts of goods. They are the subsidiary of Blueberry Holding Limited based in
       Dubai, with experienced procurement team having turnover above 100 million dollars per annum.
       `,
-      frontend: "React, Bootstrap,",
-      backend: "Node, Javascript",
+      frontend: "Javascript, Bootstrap,",
+      backend: "Php",
       database: "MongoDB",
       website: "https://www.themukunda.com/",
     },
@@ -188,8 +211,8 @@ const PortFolio = () => {
       They are the distributor of modern appliances that are available in the market. SPJ Electronic was
       found in Madagascar initially and now it has presence in Zambia & Kenya and planning to open new
       13 new store in East Africa market.`,
-      frontend: "React, Bootstrap,",
-      backend: "Node, Javascript",
+      frontend: "React, Bootstrap,Javascript",
+      backend: "PHP",
       database: "MongoDB",
       website: "https://spj-electronics.com/",
     },
@@ -222,16 +245,21 @@ const PortFolio = () => {
   return (
     <div className={styles.portfolioSection}>
       <h1>Our Work</h1>
-      <Slider {...settings}>
+     <div>
+     <Slider {...settings}>
         {portfolioData.map((item, i) => (
           <div
             key={i}
             className={
-              i === imageIndex ? `${styles.mainSlide} ${styles.activeMainSlide}` : styles.mainSlide
+              i === imageIndex
+                ? `${styles.mainSlide} ${styles.activeMainSlide}`
+                : styles.mainSlide
             }
           >
-            <div className={styles.leftAnime} style={{background:`${item.leftimg}`}}>
-              {/* <img src={item.leftimg} alt="image" /> */}
+            <div
+              className={styles.leftAnime}
+              style={{ background: `${item.leftimg}` }}
+            >
               <span className={styles.portfolioText}>
                 <h1>{item.title}</h1>
                 <h6>{item.tagline}</h6>
@@ -260,14 +288,17 @@ const PortFolio = () => {
                     </IconContext.Provider>
 
                     <a href={item.playStore} target="_blank">
-
-                      <IconContext.Provider value={{ className: styles.webIcon }}>
+                      <IconContext.Provider
+                        value={{ className: styles.webIcon }}
+                      >
                         <AiFillAndroid />
                       </IconContext.Provider>
                     </a>
 
                     <a href={item.website} target="_blank">
-                      <IconContext.Provider value={{ className: styles.webIcon }}>
+                      <IconContext.Provider
+                        value={{ className: styles.webIcon }}
+                      >
                         <BsGlobe />
                       </IconContext.Provider>
                     </a>
@@ -282,12 +313,15 @@ const PortFolio = () => {
 
                 <button className={styles.casestudy}>
                   View Case Study{" "}
-                  <IconContext.Provider value={{ className: styles.casestudyIcon }}>
+                  <IconContext.Provider
+                    value={{ className: styles.casestudyIcon }}
+                  >
                     <BsArrowRight />
                   </IconContext.Provider>
                 </button>
               </span>
             </div>
+
             <div className={styles.rightAnime}>
               <img src={item.rightImg} alt="image" />
 
@@ -295,7 +329,13 @@ const PortFolio = () => {
             </div>
           </div>
         ))}
+
+
+      
+
+    
       </Slider>
+     </div>
     </div>
   );
 };

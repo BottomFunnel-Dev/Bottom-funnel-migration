@@ -11,16 +11,16 @@
   color: white;
 }
 
-.UIDesingBannercontent > h1 {
+.UIDesingBannercontent>h1 {
   font-size: 40px;
 }
 
-.UIDesingBannercontent > p {
+.UIDesingBannercontent>p {
   font-size: 20px;
   text-align: justify;
 }
 
-.UIDesingBannercontent > button {
+.UIDesingBannercontent>button {
   font-size: 20px;
   font-weight: 600;
   padding: 10px 50px;
@@ -33,7 +33,7 @@
   color: #ef4c23;
 }
 
-.UIDesingBannercontent > button:hover {
+.UIDesingBannercontent>button:hover {
   color: white;
   background: #ef4c23;
 }
@@ -47,15 +47,15 @@
   justify-content: center;
 }
 
-.UIDesingBannermain > img {
+.UIDesingBannermain>div {
   position: absolute;
-  width: 90%;
+  width: 85%;
 }
 
-.UIDesingBannermain > img:nth-child(2) {
+.UIDesingBannermain>div:nth-child(2) {
   z-index: 0;
 }
 
-.UIDesingBannermain > img:nth-child(1) {
+.UIDesingBannermain>div:nth-child(1) {
   z-index: 1;
 }

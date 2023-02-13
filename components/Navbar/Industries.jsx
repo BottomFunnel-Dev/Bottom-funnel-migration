@@ -3,6 +3,7 @@ import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
 import Link from "next/link";
 import { industries } from "../../Data/Navbar";
+import Image from "next/image";
 export const Industries = ({
     indusHoverIn,
     indusHoverOut,
@@ -11,8 +12,8 @@ export const Industries = ({
 }) => {
     return (
         <div
-            onMouseEnter={indusHoverIn}
-            onMouseLeave={indusHoverOut}
+            onMouseEnter={()=>{indusHoverIn("industry",true)}}
+            onMouseLeave={()=>{indusHoverOut("",false)}}
             className={industry.industryserviceVisible}
             style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
         >
@@ -27,19 +28,24 @@ export const Industries = ({
                             key={i}
                             onClick={() => {
                                 // navigate(`/${item.path}`);
-                                indusHoverOut();
+                                indusHoverOut("",false);
                             }}
                             className={industry.industryimageIconDivSection}
                         >
                             <div>
-                                <img
-                                    className={industry.industryiconDivSection}
+                                <Image
                                     src={item.navIcons}
-                                    alt="image"
+                                    alt={"image"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "100%", height: "100%" }}
                                 />
+
+                             
                             </div>
                             <Link
-                                onClick={indusHoverOut}
+                                onClick={()=>{indusHoverOut("",false)}}
                                 href={item.path}
                                 className={industry.industrylinkP}
                             >

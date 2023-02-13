@@ -1,99 +1,87 @@
 .kotlinbannermainbox {
-    height: 100vh;
-    width: 99.6%;
-    border: 1px solid white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-around;
-  }
-  .kotlinIcon{
-  width: fit-content;
+height: 100vh;
+width: 99.6%;
+border: 1px solid white;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: space-around;
+}
+.kotlinIcon{
+width: fit-content;
+}
+.kotlinbannermainboxinnertextdiv {
+ width: 37%;
+margin-top: 16%;
+margin-left: 3%;
+text-align: left;
+}
+.kotlinChange span{
+ color: #EF4C23;
+}
+.kotlinbannermainboxinnertextdiv{
+color: black;
+}
+.kotlinbannermainboxinnertextdiv > p {
+color: black;
+text-align: justify;
+}
+.kotlinbannerbutton {
+padding: 10px 50px;
+border-radius: 10px;
+width: 220px;
+background-color: black;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
+.kotlinbannerbutton:hover {
+background-color: white;
+color: #3380f2;
+}
+@media only screen and (min-width:0px) and (max-width:1024px){
+.kotlinbannermainbox {
+height: 80vh;
+width: 100%;
+background-image: url("/Images/Kotlin/Kotlin_Icon 4.webp");
+background-repeat: no-repeat;
+background-size: 100% 40%;
+background-position: top;
+}
+ .kotlinbannermainboxinnertextdiv {
+text-align: center;
+position: absolute;
+top:40%;
+}
+ .kotlinChange span{
+ color: #EF4C23;
+}
+.kotlinbannermainboxinnertextdiv{
+color: black;
+}
+.kotlinbannermainboxinnertextdiv > p {
+color: black;
+font-size: 14px;
+}
+.kotlinbannerbutton {
+padding: 10px 50px;
+border-radius: 10px;
+width: 220px;
+background-color: #EF4C23;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+}
+.kotlinbannerbutton:hover {
+background-color: white;
+color: #3380f2;
+}
+}
 
-  }
-  
-  
-  .kotlinbannermainboxinnertextdiv {
- 
-    width: 37%;
-    margin-top: 16%;
-    margin-left: 3%;
-    text-align: left;
-  
-  }
-  .kotlinChange span{
-   color: #EF4C23;
-  }
-  .kotlinbannermainboxinnertextdiv{
-    color: black;
-  }
-  .kotlinbannermainboxinnertextdiv > p {
-    color: black;
-    text-align: justify;
-  }
-  
-  .kotlinbannerbutton {
-    padding: 10px 50px;
-    border-radius: 10px;
-    width: 220px;
-    background-color: black;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-  }
-  
-  .kotlinbannerbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-
-  @media only screen and (min-width:0px) and (max-width:1024px){
-    .kotlinbannermainbox {
-    height: 80vh;
-    width: 100%;
-    background-image: url("/Images/Kotlin/Kotlin_Icon 4.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 40%;
-    background-position: top;
-  }
-   .kotlinbannermainboxinnertextdiv {
-    text-align: center;
-    position: absolute;
-    top:40%;
-
-  }
-   .kotlinChange span{
-   color: #EF4C23;
-  }
-  .kotlinbannermainboxinnertextdiv{
-    color: black;
-  }
-  .kotlinbannermainboxinnertextdiv > p {
-    color: black;
-    font-size: 14px;
-  }
-  
-  .kotlinbannerbutton {
-    padding: 10px 50px;
-    border-radius: 10px;
-    width: 220px;
-    background-color: #EF4C23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-  }
-  
-  .kotlinbannerbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-  }
-
-  

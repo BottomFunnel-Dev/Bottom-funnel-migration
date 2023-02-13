@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./StartupSolWhyBF.module.css";
+import Image from "next/image";
 
 export const StartupSolWhyBF = () => {
   const cardData = [
@@ -51,10 +52,14 @@ export const StartupSolWhyBF = () => {
           })}
         </div>
         <div className={styles.StartupSolWhyBFImage}>
-          <img
-            src="Images/startupSolPhotos/whyBF.png"
-            alt="Vector big size image"
-          />
+            <Image
+                src={"/Images/startupSolPhotos/whyBF.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
         </div>
       </div>
     </div>

@@ -1,14 +1,12 @@
 .escooterkeyareaagainmainboxes{
     height: fit-content;
-
-    display: flex;
+     display: flex;
 }
 
 .escooterkeyarealeftbox{
     height: fit-content;
     width: 50%;
   
-
 }
 
 .escooterkeyarearightbox{
@@ -48,9 +46,6 @@
 .escooterkeymappindataindivi:hover{
     transform: scale(1.02);
 }
-
-
-
 .colorescooty{
     color: #32ade9;
 }

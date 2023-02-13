@@ -4,7 +4,6 @@ import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Ci
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
-
 export const Ciana = () => {
   const lottieDefaultOptions = {
     loop: true,
@@ -34,7 +33,11 @@ export const Ciana = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Bootstrap, Popper, Cloudflare, Cdnjs</p>
+    <p><strong>Frontend</strong>: Javascript, Jquery, Bootstrap</p>
+    <p><strong>backend</strong>: Php</p>
+    <p><strong>database</strong>: CdnJs, Jsdelivr</p>
+    <p><strong>web servers</strong>: Nginx, Digital Ocean</p>
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -59,7 +62,13 @@ export const Ciana = () => {
 <img src='Images/portfolio/ciana/logo/Group 770915.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://www.cianacrafts.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     

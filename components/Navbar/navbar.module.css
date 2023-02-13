@@ -47,7 +47,7 @@
 }
 
 .dropdownBar {
-  width: 73%;
+  width: 75%;
   /* height: 100%; */
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@
   /* background-color: #ffeae5; */
   background-color: whitesmoke;
   color: #ef4c23;
-  padding: 6px 20px;
+  padding: 6px 15px;
   border-radius: 25px;
   font-size: 1vw;
   font-weight: 600;
@@ -854,7 +854,7 @@
 /* media query for the tabs and ipad air */
 
 
-/* @media (min-width: 480px) and (max-width: 1024px){
+@media (min-width: 480px) and (max-width: 1024px){
   .navbarSection {
     background: #ef4c23;
     justify-content: space-between;
@@ -919,4 +919,4 @@
   }
   
   
-} */
+}

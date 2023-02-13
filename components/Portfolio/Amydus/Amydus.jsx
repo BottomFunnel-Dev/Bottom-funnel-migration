@@ -59,7 +59,13 @@ export const Amydus = () => {
 <img src='Images/portfolio/amydus/logo/Component 20.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://www.amydus.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     
@@ -70,7 +76,7 @@ export const Amydus = () => {
     
       
     <Lottie className={styles.lottieimages} style={{
-    
+    marginLeft:"-20%",
       width:"fitContent"
     }} options={lottieDefaultOptions}   />
 

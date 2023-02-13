@@ -1,101 +1,89 @@
 .icecreamcustomerappmainboxes {
-  height: fit-content;
-  background-color: white;
+height: fit-content;
+background-color: white;
 }
-
 .icecreamcustomerappmainboxes > h1 {
-  text-align: center;
+text-align: center;
 }
-
 .icecreamdeliveryappflexingbox {
-  height: fit-content;
-  display: flex;
+height: fit-content;
+display: flex;
 }
-
 .icecreamdeliveryappflexingboxleftbox {
-  height: 480px;
-  width: 45%;
-  background: url("/public/Images/icecreamchanges/Rectangle 4842.png");
-  background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-size: contain;
+height: 480px;
+width: 45%;
+background: url("/Images/icecreamchanges/Rectangle 4842.png");
+background-repeat: no-repeat;
+background-position-y: bottom;
+background-size: contain;
 }
 
 .icecreamdeliveryappleftboxinsiderupperimage {
-  height: 90%;
-  width: 35%;
-  margin: 5% 0% 5% 20%;
+height: 90%;
+width: 35%;
+margin: 5% 0% 5% 20%;
 }
 
 .icecreamdeliveryappleftboxinsiderupperimage > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
 
 .icecreamdeliveryappflexingboxrightbox {
-  height: fit-content;
-  width: 55%;
-  margin: 1% 3% 3% 1%;
-  text-align: justify;
-  display: flex;
-  flex-wrap: wrap;
+height: fit-content;
+width: 55%;
+margin: 1% 3% 3% 1%;
+text-align: justify;
+display: flex;
+flex-wrap: wrap;
 }
 
 .icecreamcustomerappmainboxes > h2 {
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 2%;
-  font-weight: 700;
-  font-size: 30px;
+text-align: center;
+margin-top: 3%;
+margin-left: 2%;
+font-weight: 700;
+font-size: 30px;
 }
-
 .icecreamdeliveryappindivisualbox {
-  height: fit-content;
-  width: 45%;
-  height: 180px;
-  margin: 1%;
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
+height: fit-content;
+width: 45%;
+height: 180px;
+margin: 1%;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
 }
 
 .icecreamdeliveryappindivisualbox:hover {
-  transform: scale(1.02);
-  background-color: #f9f5f5;
+transform: scale(1.02);
+background-color: #f9f5f5;
 }
-
-/* .icecreamdeliveryappindivisualboxforlogo {
-  padding: 5px;
-} */
 
 .icecreamdeliveryappindivisualboxforlogo {
-  height: 23%;
-  width: 18%;
+height: 23%;
+width: 18%;
 }
-
 .icecreamdeliveryappindivisualboxforlogo > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
 
 .icecreamdeliveryappindivisualboxfortext > h4 {
-  /* border: 2px solid red; */
-  margin-top: 1%;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 21.6px;
-  vertical-align: baseline;
-  margin-bottom: 1%;
-  margin-top: 0%;
+margin-top: 1%;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+vertical-align: baseline;
+margin-bottom: 1%;
+margin-top: 0%;
 }
-
 .icecreamdeliveryappindivisualboxfortext > p {
-  /* border: 2px solid red; */
-  margin-top: 0%;
-  font-size: 15px;
-  line-height: 20px;
-  vertical-align: baseline;
-  font-weight: 400;
+margin-top: 0%;
+font-size: 15px;
+line-height: 20px;
+vertical-align: baseline;
+font-weight: 400;
 }

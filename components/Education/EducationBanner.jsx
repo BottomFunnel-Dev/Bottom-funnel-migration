@@ -17,16 +17,14 @@ export const EducationBanner = () => {
         </button>
       </div>
       <div className={styles.educationbannermainImages}>
-    
-
         <Image
           src={"/Images/Education/bannerbackground/Group 770626.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );

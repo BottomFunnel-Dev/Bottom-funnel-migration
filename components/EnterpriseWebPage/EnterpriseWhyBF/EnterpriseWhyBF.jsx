@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./EnterpriseWhyBF.module.css";
+import Image from "next/image";
 
 export const EnterpriseWhyBF = () => {
   return (
@@ -46,10 +47,14 @@ export const EnterpriseWhyBF = () => {
           </div>
         </div>
         <div className={styles.EnterpriseWhyBFImage}>
-          <img
-            src="Images/enterpriseWebPhotos/whybottomfunnel.png"
-            alt="Vector side logo"
-          />
+            <Image
+                src={"/Images/enterpriseWebPhotos/whybottomfunnel.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
         </div>
       </div>
     </div>

@@ -16,18 +16,14 @@ export const Physicsfunshop = () => {
   };
 
   return (
-    <div className={styles.anandamgreensmainboxes}>
-    <div className={styles.portfolioanandamgreensleftbox}>
+    <div className={styles.nextholidaymainboxes}>
+    <div className={styles.nextholidayleftbox}>
 
-    <Lottie style={{
-    
-    }} options={lottieDefaultOptions}  height={600} />
+    <Lottie options={lottieDefaultOptions}  />
   
-
     </div>
-
-
-    <div className={styles.portfolioanandamgreensrightbox}>
+    
+    <div className={styles.nextholidayrighttbox}>
     <h1>Physicsfun Shop</h1>
     <p>When you feel like you need a break from your hectic routine, take a trip to Portfolio bottom funnel. We've got everything you're looking for in an escape: a quiet retreat, great food, and friendly service. Our modern, rustic-style restaurant is perfect for any occasion.</p>
     <div className={styles.nextholidayrightinsideflexbox}>
@@ -46,18 +42,24 @@ export const Physicsfunshop = () => {
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>
+<div className={styles.porfolionextholidayicon}>
+
+<img src='Images/portfolio/Platform icons/Platform icons/Frame.png' alt='images' />
+
+</div>
+
 
 <div className={styles.porfolionextholidayicon}>
-<Link href="https://www.jaipurrugs.com/">
-<a className={styles.androidappicon}>
+
 <img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' />
-</a>
-</Link>
+
 </div>
+
+<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Platform icons/Frame-2.png' alt='images' /></div>
+
 
 </div>
 </div>
-
 <div className={styles.nextholidaywrapboximages}>
 <img src='Images/portfolio/physicsfun/logo/download (2) 1.png' alt='images' />
 </div>
@@ -67,6 +69,8 @@ export const Physicsfunshop = () => {
     </div>
     
     </div>
+    
+    
     </div>
   )
 }

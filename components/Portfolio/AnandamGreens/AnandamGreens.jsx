@@ -1,13 +1,12 @@
 import React from 'react'
 import styles from "./AnandamGreens.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/portfolio/Anandam Greens.json";
+import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Anandam Greens.json";
 import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
 
-export const AnandamGreens = () => {
 
-  
+export const AnandamGreens = () => {
   const lottieDefaultOptions = {
     loop: true,
     autoplay: true,
@@ -17,19 +16,15 @@ export const AnandamGreens = () => {
     }
   };
 
-
   return (
-    <div className={styles.anandamgreensmainboxes}>
-    <div className={styles.portfolioanandamgreensleftbox}>
-       <Lottie style={{
-      marginLeft:"-100%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions} width={500} height={600}   />
+    <div className={styles.nextholidaymainboxes}>
+    <div className={styles.nextholidayleftbox}>
+
+    <Lottie options={lottieDefaultOptions}  />
   
     </div>
-
-
-    <div className={styles.portfolioanandamgreensrightbox}>
+    
+    <div className={styles.nextholidayrighttbox}>
     <h1>Anandam Greens</h1>
     <p>When you feel like you need a break from your hectic routine, take a trip to Portfolio bottom funnel. We've got everything you're looking for in an escape: a quiet retreat, great food, and friendly service. Our modern, rustic-style restaurant is perfect for any occasion.</p>
     <div className={styles.nextholidayrightinsideflexbox}>
@@ -48,6 +43,12 @@ export const AnandamGreens = () => {
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>
+<div className={styles.porfolionextholidayicon}>
+
+<img src='Images/portfolio/Platform icons/Frame.png' alt='images' />
+
+</div>
+
 
 <div className={styles.porfolionextholidayicon}>
 <Link href="https://aanandamgreens.com/">
@@ -57,14 +58,13 @@ export const AnandamGreens = () => {
 </Link>
 </div>
 
+<div className={styles.porfolionextholidayicon}><img src='Images/portfolio/Platform icons/Frame-2.png' alt='images' /></div>
 
 
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-
 <img src='Images/portfolio/Anandam greens/logo/logo 2.png' alt='images' />
-
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>
@@ -72,6 +72,8 @@ export const AnandamGreens = () => {
     </div>
     
     </div>
+    
+    
     </div>
   )
 }

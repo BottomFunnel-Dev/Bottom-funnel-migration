@@ -1,25 +1,19 @@
 .szpharmacycontainer {
   width: 100%;
   height: 100vh;
-  /* background-color: aqua; */
-  /* margin-top: 6%; */
 }
 .szpharmacysubcontainer {
   width: 100%;
   height: 100%;
-  /* background: url("/Images/pharmacy/PharmacyDeliveryBanner.png"); */
   background-repeat: no-repeat;
   background-size: 100%;
-  /* background-position: 10px ; */
   color: white;
   display: flex;
 }
 
 .szpharmacyleft {
   width: 50%;
-  /* background-color: chartreuse; */
   position: relative;
-  /* padding: 100px 30px; */
 }
 
 .szpharmacyleft > div {
@@ -56,14 +50,12 @@
 }
 
 .pharmacyBannerAnimationDiv{
-  /* border: 1px solid red; */
   position: absolute;
   width: 50%;
   top: 15%;
   right: 0%;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
@@ -71,44 +63,33 @@
   .szpharmacycontainer {
     width: 100%;
     height: 70vh;
-    /* background-color: aqua; */
     margin-top: 15%;
   }
 
   .szpharmacysubcontainer {
-    /* border: 2px solid red; */
     width: 100%;
     height: 70%;
     background: url("/Images/pharmacy/PharmacyDeliveryBanner.png");
     background-repeat: no-repeat;
     background-size: 90% 70%;
-    /* background-position: 10px ; */
     color: white;
     flex-direction: column-reverse;
   }
 
   .szpharmacyleft {
     width: 90%;
-    /* background-color: chartreuse; */
     position: relative;
-    /* padding: 100px 30px; */
   }
 
   .szpharmacyleft > div {
-    /* border: 1px solid rebeccapurple; */
     color: black;
     width: 100%;
-    /* padding: 30px 20px; */
     position: absolute;
     transform: translate(-50%, -50%);
     text-align: center;
-    /* top: 50%; */
-    /* left: 52%; */
-    /* z-index: 10; */
   }
 
   .szpharmacyleft > div > h1 {
-    /* border: 1px solid red; */
     font-size: 30px;
     margin-bottom: 0%;
   }
@@ -149,9 +130,6 @@
   .szpharmacycontainer {
     width: 100%;
     height: 35vh;
-    /* border: 1px solid black; */
-    /* background-color: aqua; */
-    /* margin-top: 6%; */
   }
   .szpharmacysubcontainer {
     width: 100%;
@@ -160,20 +138,16 @@
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 7%;
-    /* background-position: 10px ; */
     color: white;
     display: flex;
   }
 
   .szpharmacyleft {
     width: 50%;
-    /* background-color: chartreuse; */
     position: relative;
-    /* padding: 100px 30px; */
   }
 
   .szpharmacyleft > div {
-    /* border: 1px solid red; */
     color: black;
     width: 90%;
     padding: 30px 20px;

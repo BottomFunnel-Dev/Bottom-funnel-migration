@@ -1,201 +1,152 @@
 .whyChooseKotlinMainDiv {
-  /* border: 2px solid red; */
-  width: 100%;
-  display: flex;
-  flex-direction: row;
+width: 100%;
+display: flex;
+flex-direction: row;
 }
 .whyChooseKotlinIconContainer {
-  /* border: 2px solid red; */
-  width: 48%;
-  margin-left: 4%;
-  margin-top: 2%;
-  border-right: 1px solid black;
+width: 48%;
+margin-left: 4%;
+margin-top: 2%;
+border-right: 1px solid black;
 }
 .whyChooseKotlinContent {
-  /* border: 2px solid red; */
-  width: 48%;
-  margin-top: 3%;
+width: 48%;
+margin-top: 3%;
 }
 .whyChooseKotlinContentHeading {
-  /* border: 2px solid red; */
-  margin-top: 8%;
-  margin-left: 5%;
+margin-top: 8%;
+margin-left: 5%;
 }
 .whyChooseKotlinContentText {
-  margin-top: 3%;
-  margin-left: 5%;
-  width: 80%;
-  /* border: 2px solid red; */
+margin-top: 3%;
+margin-left: 5%;
+width: 80%;
+ 
 }
 .whyChooseKotlinIconOuterBox {
-  /* border: 2px solid red; */
-  width: 100%;
-  margin-top: 5%;
-  display: flex;
-  flex-direction: row;
+width: 100%;
+margin-top: 5%;
+display: flex;
+flex-direction: row;
 }
 .whyChooseKotlinContainerDiv {
-  /* border: 2px solid green; */
-  width: 45%;
-  display: flex;
-  flex-direction: row;
-  margin-left: 4%;
+width: 45%;
+display: flex;
+flex-direction: row;
+margin-left: 4%;
 }
-
 .whyChooseKotlinContainerDiv:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  /* transform: scale(1.1); */
-  transform: translateY(-15px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .whyChooseKotlinIcon {
-  width: 50px;
-  height: 50px;
-  margin-top: 1%;
-  /* border: 2px solid blue; */
+width: 50px;
+height: 50px;
+margin-top: 1%;
 }
-/* .whyChooseKotlinIcon img {
-  width: 60px;
-  height: 60px;
-} */
 .whyChooseKotlinIconHeading {
-  width: 75%;
-  /* border: 2px solid salmon; */
-  /* padding-top: 4%; */
-  display: flex;
-  flex-direction: column;
+width: 75%;
+display: flex;
+flex-direction: column;
 }
 .whyChooseKotlinIconHeading p{
-  margin-top: -0%;
-  text-align: justify;
+margin-top: -0%;
+text-align: justify;
 }
 .mobileappactionkotlinbutton{
-  margin-left: 300px;
-  /* border: 2px solid green; */
-  font-size: 18px;
-  border-radius: 15px;
-  width: 220px;
-  height: 50px;
-  font-weight: 550;
-  background-color: #ef4c23;
-  color: white;
-  border: 1px solid lightgrey;
-  
-  
-  }
-  .mobileappactionkotlinbutton:hover{
-      background: white;
-      color: black;
-  }
-  .mobileappactionkotlinbuttondiv{
-      /* border: 2px solid red; */
-      margin-top: 5%;
-      /* width: 20px; */
-      /* text-align: center; */
-       }
-
-
+margin-left: 300px;
+font-size: 18px;
+border-radius: 15px;
+width: 220px;
+height: 50px;
+font-weight: 550;
+background-color: #ef4c23;
+color: white;
+border: 1px solid lightgrey;
+}
+.mobileappactionkotlinbutton:hover{
+background: white;
+color: black;
+}
+.mobileappactionkotlinbuttondiv{
+margin-top: 5%;
+ }
 @media only screen and (min-width:0px) and (max-width:1024px){
-  .whyChooseKotlinMainDiv {
-    /* border: 2px solid red; */
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .whyChooseKotlinIconContainer {
-    /* border: 2px solid red; */
-    width: 100%;
-    border: none;
-    /* margin-left: 4%; */
-    /* border-right: 1px solid black; */
-  }
-  .whyChooseKotlinContent {
-    /* border: 2px solid red; */
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    margin-top: 5%;
-  }
- 
-  .whyChooseKotlinIconOuterBox {
-    /* border: 2px solid red; */
-    width: 100%;
-  margin: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  .whyChooseKotlinContainerDiv {
-    /* border: 2px solid green; */
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    /* margin-left: 4%; */
-    /* margin: auto; */
-  }
-  
-  .whyChooseKotlinContainerDiv:hover {
-    cursor: pointer;
-    /* margin-top: 0; */
-    transition: all 0.2s linear;
-    /* transform: scale(1.1); */
-    transform: translateY(-15px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-  
-  .whyChooseKotlinIcon {
-    width: 35%;
-    /* margin: ; */
-    margin-top: 5%;
-    border: 2px solid blue;
-  }
-  .whyChooseKotlinIcon img {
-    width: 60px;
-    height: 60px;
-  }
-  .whyChooseKotlinIconHeading {
-    width: 95%;
-    /* border: 2px solid salmon; */
-    margin: auto;
-    /* padding-top: 4%; */
-    display: flex;
-    flex-direction: column;
-  }
-  .whyChooseKotlinContentHeading {
-    /* border: 2px solid red; */
-    margin: auto;
-  }
-  .whyChooseKotlinContentText {
-   margin: auto;
-    width: 95%;
-    text-align: justify;
-    /* border: 2px solid red; */
-  }
-  .mobileappactionkotlinbutton{
-
-    border: 2px solid green;
-    font-size: 18px;
-    border-radius: 15px;
-    width: 220px;
-    height: 50px;
-    font-weight: 550;
-    background-color: #ef4c23;
-    color: white;
-    border: 1px solid lightgrey;
-    
-    
-    }
-    .mobileappactionkotlinbutton:hover{
-        background: white;
-        color: #ef4c23;
-    }
-    .mobileappactionkotlinbuttondiv{
-        border: 2px solid red;
-        margin-top: 3%;
-        /* width: 20px; */
-        /* text-align: center; */
-         }
+.whyChooseKotlinMainDiv {
+width: 100%;
+display: flex;
+flex-direction: column-reverse;
+}
+.whyChooseKotlinIconContainer {
+width: 100%;
+border: none;
+}
+.whyChooseKotlinContent {
+ width: 100%;
+margin: auto;
+text-align: center;
+margin-top: 5%;
+}
+ .whyChooseKotlinIconOuterBox {
+width: 100%;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+.whyChooseKotlinContainerDiv {
+width: 70%;
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+.whyChooseKotlinContainerDiv:hover {
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-15px);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.whyChooseKotlinIcon {
+width: 35%;
+margin-top: 5%;
+border: 2px solid blue;
+}
+.whyChooseKotlinIcon img {
+width: 60px;
+height: 60px;
+}
+.whyChooseKotlinIconHeading {
+width: 95%;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+.whyChooseKotlinContentHeading {
+margin: auto;
+}
+.whyChooseKotlinContentText {
+ margin: auto;
+width: 95%;
+text-align: justify;
+}
+.mobileappactionkotlinbutton{
+border: 2px solid green;
+font-size: 18px;
+border-radius: 15px;
+width: 220px;
+height: 50px;
+font-weight: 550;
+background-color: #ef4c23;
+color: white;
+border: 1px solid lightgrey;
+}
+.mobileappactionkotlinbutton:hover{
+background: white;
+color: #ef4c23;
+}
+.mobileappactionkotlinbuttondiv{
+border: 2px solid red;
+margin-top: 3%;
+ }
 }

@@ -10,22 +10,24 @@
   width: 100%;
   bottom: 0;
   z-index: 0;
-
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.VRwhyBFBackgroundRectangle > img:nth-child(1) {
+.VRwhyBFBackgroundRectangle>.VRwhyBFImage1{
   align-self: flex-start;
   height: 40%;
   width: 15%;
+  /* border: 2px solid gold; */
 }
 
-.VRwhyBFBackgroundRectangle > img:nth-child(2) {
+.VRwhyBFBackgroundRectangle>.VRwhyBFImage2{
   align-self: flex-end;
   height: 40%;
   width: 15%;
+  /* border: 2px solid green; */
 }
 
 .VRwhyBFMain {

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MetaverseWhyBF.module.css";
+import Image from "next/image";
 
 export const MetaverseWhyBF = () => {
   const cardData = [
@@ -41,10 +42,14 @@ export const MetaverseWhyBF = () => {
       </div>
       <div className={styles.MetaverseWhyBFContainer}>
         <div className={styles.MetaverseWhyBFImage}>
-          <img
-            src="Images/metaversePhotos/vector.png"
-            alt="Vector big size image"
-          />
+              <Image
+                  src={"/Images/metaversePhotos/vector.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={styles.MetaverseWhyBFContent}>
           {cardData.map(({ title, body }, idx) => {
