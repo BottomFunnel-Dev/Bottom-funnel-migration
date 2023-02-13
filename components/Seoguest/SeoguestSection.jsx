@@ -1,20 +1,21 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoguestSection.module.css";
-import Image from "next/image";
+import * as reactAnimation from "../../public/Animation/DMAnimation/5.json";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function SeoguestSection() {
   return (
     <div className={styles._SeoEmailMain1}>
       <div className={styles.guestgifDenote}>
-        <Image
-            src={"/Images/seopages/Comp-7.gif"}
-            alt={"image"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%"}}
-          />
+      <Player
+                src={reactAnimation}
+                background="transparent"
+                speed="2"
+                loop
+                controls
+                autoplay
+        ></Player>
       </div>
       <div className={styles._SeoEmailupperdiv}>
         <div className={styles._SeoEmailtext}>

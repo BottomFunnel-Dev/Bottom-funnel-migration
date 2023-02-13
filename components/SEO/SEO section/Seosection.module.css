@@ -1,7 +1,7 @@
 ._SeoMain1 {
   height: auto;
   width: 100%;
-  background: url("/Images/seopages/seo.png");
+  background: url("/Images/seopages/seo.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
@@ -20,7 +20,7 @@
   height: 400px;
   position: absolute;
   top: 30%;
-  right: 34%;
+  right: 32%;
 }
 .gifDenote > img {
   width: 100%;
@@ -94,14 +94,11 @@
   width: 230px;
   height: 400px;
   position: absolute;
-  top: 30%;
+  top: 50%;
   right: 34%;
+  border:1px soild green;
 }
-.gifDenote > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
+
 ._Seoupperdiv {
   display: flex;
   width: 100%;

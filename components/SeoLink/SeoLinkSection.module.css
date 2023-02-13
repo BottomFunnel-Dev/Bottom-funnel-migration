@@ -1,16 +1,4 @@
 ._SeoLinkMain1 {
-<<<<<<< HEAD
-height: auto;
-width: 100%;
-background: url("/Images/seopages/seo.png");
-background-repeat: no-repeat;
-background-size: 100% 100%;
-background-position: bottom;
-background-origin: border-box;
-position: relative;
-margin-top: 120px;
-
-=======
   height: auto;
   width: 100%;
   background: url("/Images/seopages/seo.webp");
@@ -20,7 +8,6 @@ margin-top: 120px;
   background-origin: border-box;
   position: relative;
   margin-top: 120px;
->>>>>>> 634605044266efb612467f8cb01f1531608b744d
 }
 .linkgifDenote {
 width: 390px;
@@ -29,23 +16,7 @@ position: absolute;
 top: 28%;
 right: 28%;
 }
-.linkgifDenote > img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
 ._SeoLinkupperdiv {
-<<<<<<< HEAD
-display: flex;
-width: 100%;
-height: 87vh;
-}
-._SeoLinktext {
-width: 40%;
-color: black;
-box-sizing: border-box;
-margin: auto;
-=======
   display: flex;
   width: 100%;
   height: 87vh;
@@ -55,29 +26,10 @@ margin: auto;
   color: black;
   box-sizing: border-box;
   margin: auto;
->>>>>>> 634605044266efb612467f8cb01f1531608b744d
 margin-top: 10%;
 margin-left: 5%;
 }
 ._SeoLinkparagraph {
-<<<<<<< HEAD
-color: gray;
-font-weight: 400;
-width: 100%;
-line-height: 1.5;
-font-size: 16px;
-}
-._SeoLinkheading {
-margin-bottom: 10px;
-width: 100%;
-font-family: sans-serif;
-font-size: 32px;
-font-weight: 600;
-}
-._SeoLinkform {
-width: 42%;
-height: 100%;
-=======
   color: gray;
   font-weight: 400;
   width: 100%;
@@ -95,7 +47,6 @@ height: 100%;
 ._SeoLinkform {
   width: 42%;
   height: 100%;
->>>>>>> 634605044266efb612467f8cb01f1531608b744d
 }
 ._SeoLinkformcontent {
 border: 1px solid white;
@@ -109,48 +60,17 @@ margin-top: 150px;
 box-sizing: border-box;
 }
 ._SeoLinkformheading {
-<<<<<<< HEAD
-padding-top: 20px;
-font-size: 25px;
-text-align: center;
-font-weight: 600;
-color: #605d5d;
-=======
   padding-top: 20px;
   font-size: 25px;
   text-align: center;
   font-weight: 600;
   color: #605d5d;
->>>>>>> 634605044266efb612467f8cb01f1531608b744d
 }
 
 ._SeoLinkRatings {
 border: 1px solid green;
 }
 ._SeoLinkenterform {
-<<<<<<< HEAD
-width: 80%;
-margin: auto;
-margin-top: 5px;
-}
-._seoLinkforminput {
-border: 1px solid #ef4c23;
-font-size: 18px;
-border-radius: 12px;
-margin-top: 17px;
-padding: 7px;
-width: 100%;
-color: gray;
-font-weight: 400;
-}
-._seoLinkforminput ~ label {
-color: #ef4c23;
-font-size: 18px;
-font-weight: 400;
-display: inline-block;
-margin-top: 12px;
-padding: 3px;
-=======
   width: 80%;
   margin: auto;
   margin-top: 5px;
@@ -172,7 +92,6 @@ padding: 3px;
   display: inline-block;
   margin-top: 12px;
   padding: 3px;
->>>>>>> 634605044266efb612467f8cb01f1531608b744d
 }
 .SeoLinkforminput:hover {
 outline-color: #ef4c23;
@@ -209,12 +128,7 @@ font-weight: 600;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 ._SeoLinkPricing > button:hover {
-<<<<<<< HEAD
-color: #ef4c23;
-background-color: white;
-=======
   color: #ef4c23;
   background-color: white;
->>>>>>> 634605044266efb612467f8cb01f1531608b744d
 }
 

@@ -1,20 +1,21 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoLocalSection.module.css";
-import Image from "next/image";
+import * as reactAnimation from "../../public/Animation/DMAnimation/2.json";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const SeoLocalSection = () => {
   return (
     <div className={styles.seoLocalMain1}>
       <div className={styles.localgifDenote}>
-        <Image
-            src={"/Images/seopages/Comp-5.gif"}
-            alt={"image"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%"}}
-          />
+            <Player
+                src={reactAnimation}
+                background="transparent"
+                speed="2"
+                loop
+                controls
+                autoplay
+        ></Player>
       </div>
       <div className={styles.seoLocalupperdiv}>
         <div className={styles.seoLocaltext}>

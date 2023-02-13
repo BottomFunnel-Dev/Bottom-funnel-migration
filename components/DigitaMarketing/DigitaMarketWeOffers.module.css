@@ -28,10 +28,12 @@ border-right: 3px solid #ef4c23;
 }
 
 .marketplaceiconbox{
+border: 2px solid green;
 height: fit-content;
 width: 9%;
 margin-left: 2%;
-padding: 20px;
+margin-right: 20px;
+padding: 2px;
  
 }
 
@@ -121,12 +123,11 @@ margin-left: 40%;
 
 }
 
-
-.marketplaceiconbox>img{
-margin-top: 2%;
-}
 .marketplaceiconbox{
- margin-left: 37%;
+    width: 60%;
+    margin-left: 50px;
+padding: 30px 30px 30px ;
+ 
 
 }
 .marketplacetxtbox>h4{
@@ -137,7 +138,6 @@ text-align: center;
 padding: 10px;
 
 }
-
 .digitalmarketingwhybutton{
 padding: 10px 50px;
 border-radius: 100px;
