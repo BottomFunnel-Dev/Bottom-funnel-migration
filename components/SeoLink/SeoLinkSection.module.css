@@ -1,16 +1,14 @@
 ._SeoLinkMain1 {
   height: auto;
   width: 100%;
-  background: url("/Images/seopages/seo.png");
+  background: url("/Images/seopages/seo.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
   background-origin: border-box;
   position: relative;
   margin-top: 120px;
-
 }
-
 .linkgifDenote {
   width: 390px;
   height: 400px;
@@ -25,22 +23,18 @@
 }
 ._SeoLinkupperdiv {
   display: flex;
-  /* border: 1px solid green; */
   width: 100%;
   height: 87vh;
 }
 ._SeoLinktext {
-  /* border:1px solid red; */
   width: 40%;
   color: black;
   box-sizing: border-box;
   margin: auto;
 margin-top: 10%;
 margin-left: 5%;
-  /* text-align: center; */
 }
 ._SeoLinkparagraph {
-  /* border:1px solid white; */
   color: gray;
   font-weight: 400;
   width: 100%;
@@ -48,19 +42,14 @@ margin-left: 5%;
   font-size: 16px;
 }
 ._SeoLinkheading {
-  /* border:1px solid white; */
   margin-bottom: 10px;
   width: 100%;
   font-family: sans-serif;
   font-size: 32px;
   font-weight: 600;
-  /* text-align: left; */
 }
-/* ._SeoLinkheading ~ div{
-font-size: 25px;
-} */
+
 ._SeoLinkform {
-  /* border:1px solid red; */
   width: 42%;
   height: 100%;
 }
@@ -76,8 +65,6 @@ font-size: 25px;
   box-sizing: border-box;
 }
 ._SeoLinkformheading {
-  /* border: 1px solid red; */
-  /* border-radius: 35px; */
   padding-top: 20px;
   font-size: 25px;
   text-align: center;
@@ -89,7 +76,6 @@ font-size: 25px;
   border: 1px solid green;
 }
 ._SeoLinkenterform {
-  /* border:1px solid red; */
   width: 80%;
   margin: auto;
   margin-top: 5px;
@@ -99,7 +85,6 @@ font-size: 25px;
   font-size: 18px;
   border-radius: 12px;
   margin-top: 17px;
-  /* outline: #EF4C23; */
   padding: 7px;
   width: 100%;
   color: gray;
@@ -109,7 +94,6 @@ font-size: 25px;
   color: #ef4c23;
   font-size: 18px;
   font-weight: 400;
-  /* border:1px solid rebeccapurple; */
   display: inline-block;
   margin-top: 12px;
   padding: 3px;
@@ -117,7 +101,6 @@ font-size: 25px;
 .SeoLinkforminput:hover {
   outline-color: #ef4c23;
 }
-
 ._SeoLinkSubmitbutton {
   width: 100%;
   padding: 15px 0;
@@ -151,7 +134,6 @@ font-size: 25px;
 }
 ._SeoLinkPricing > button:hover {
   color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
   background-color: white;
 }
 

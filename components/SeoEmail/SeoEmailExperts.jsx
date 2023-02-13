@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import styles from './SeoEmailExperts.module.css';
 
 export default function SeoEmailExperts() {
-    const [show, setshow] = useState(false);
-    const [num, setnum] = useState();
 
     const data = [{
         heading: "Scale Anytime - Anywhere",

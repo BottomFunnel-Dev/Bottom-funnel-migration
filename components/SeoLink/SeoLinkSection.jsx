@@ -1,13 +1,21 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoLinkSection.module.css";
+import Image from "next/image";
 
 export default function SeoLinkSection() {
 
     return (
         <div className={styles._SeoLinkMain1}>
             <div className={styles.linkgifDenote}>
-                <img src="Images/seopages/vec-3.gif" alt="images" />
+                <Image
+            src={"/Images/seopages/vec-3.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
             </div>
             <div className={styles._SeoLinkupperdiv}>
                 <div className={styles._SeoLinktext} >
@@ -20,7 +28,6 @@ export default function SeoLinkSection() {
                         <button>Check Link SEO Pricing</button>
                     </div>
                 </div>
-
                 <SeoForm />
             </div>
 
