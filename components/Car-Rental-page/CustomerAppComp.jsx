@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./customerAppComp.module.css";
 
-export const CustomerAppComp = () => {
+export default function CustomerAppComp() {
   const [imageChange, setImageChange] = useState(
     "/Images/Car-Rental-Page-Images/Component188.png",
   );
@@ -66,4 +66,4 @@ export const CustomerAppComp = () => {
       </div>
     </div>
   );
-};
+}

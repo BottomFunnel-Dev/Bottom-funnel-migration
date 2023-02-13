@@ -1,4 +1,6 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import { DataScienceBanner } from "../../components/DataSciencePage/DataScienceBanner/DataScienceBanner";
 import { DataScienceUnique } from "../../components/DataSciencePage/DataScienceUnique/DataScienceUnique";
@@ -7,9 +9,11 @@ import { DataScienceMidBanner } from "../../components/DataSciencePage/DataScien
 import { DataScienceBF } from "../../components/DataSciencePage/DataScienceBF/DataScienceBF";
 import { DataScienceMethods } from "../../components/DataSciencePage/DataScienceMethods/DataScienceMethods";
 import { DataScienceSlider } from "../../components/DataSciencePage/DataScienceSlider/DataScienceSlider";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
-import dynamic from "next/dynamic";
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -44,8 +48,9 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+});
 
 export default function DataScience() {
   return (

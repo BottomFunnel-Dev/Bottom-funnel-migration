@@ -1,15 +1,49 @@
 import React from "react";
 import styles from "./SalesforsePage.module.css";
-
-import { SaleforceBanner } from "../../components/SalesforsePage/SaleforceBanner/SaleforceBanner";
-import { SalesforceOffers } from "../../components/SalesforsePage/SalesforceOffers/SalesforceOffers";
-import { SalesforceServices } from "../../components/SalesforsePage/SalesforceServices/SalesforceServices";
-import { SalesforceProcess } from "../../components/SalesforsePage/SalesforceProcess/SalesforceProcess";
-import { SalesforceMidBanner } from "../../components/SalesforsePage/SalesforceMidBanner/SalesforceMidBanner";
-import { SalesforceWhyBF } from "../../components/SalesforsePage/SalesforceWhyBF/SalesforceWhyBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+const SaleforceBanner = dynamic(
+  () =>
+    import("../../components/SalesforsePage/SaleforceBanner/SaleforceBanner"),
+  { loading: () => "loading..." },
+);
+const SalesforceOffers = dynamic(
+  () =>
+    import("../../components/SalesforsePage/SalesforceOffers/SalesforceOffers"),
+  { loading: () => "loading..." },
+);
+const SalesforceServices = dynamic(
+  () =>
+    import(
+      "../../components/SalesforsePage/SalesforceServices/SalesforceServices"
+    ),
+  { loading: () => "loading..." },
+);
+const SalesforceProcess = dynamic(
+  () =>
+    import(
+      "../../components/SalesforsePage/SalesforceProcess/SalesforceProcess"
+    ),
+  { loading: () => "loading..." },
+);
+const SalesforceMidBanner = dynamic(
+  () =>
+    import(
+      "../../components/SalesforsePage/SalesforceMidBanner/SalesforceMidBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const SalesforceWhyBF = dynamic(
+  () =>
+    import("../../components/SalesforsePage/SalesforceWhyBF/SalesforceWhyBF"),
+  { loading: () => "loading..." },
+);
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -44,8 +78,9 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: "loading...",
+});
 
 export default function SalesForcePage() {
   return (

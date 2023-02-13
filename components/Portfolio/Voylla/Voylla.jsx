@@ -50,7 +50,7 @@ export const Voylla = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/voylla/logo/download (2) 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/voyalla.webp' alt='images' />
 </div>
 
 <div>

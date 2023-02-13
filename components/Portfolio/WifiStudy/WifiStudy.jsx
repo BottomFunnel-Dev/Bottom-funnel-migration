@@ -60,7 +60,7 @@ export const WifiStudy = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/wifi study/logo/Mobile 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/wifi.webp' alt='images' />
 </div>
 
 <div>

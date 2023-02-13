@@ -4,7 +4,7 @@ import { NFTOffersData } from "./NFTOffersData/NFTOffersData";
 
 import styles from "./NFTOffers.module.css";
 
-export const NFTOffers = () => {
+export default function NFTOffers() {
   const [current, setCurrent] = useState("marketplace");
 
   const handleChange = (key) => {
@@ -40,4 +40,4 @@ export const NFTOffers = () => {
       </div>
     </div>
   );
-};
+}

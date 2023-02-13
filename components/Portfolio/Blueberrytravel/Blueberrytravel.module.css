@@ -1,7 +1,7 @@
 .nextholidaymainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
-background: url("/Images/portfolio/Portfolio banners/Rectangle 1067342.png");
+background: url("/Images/portfolio/Portfolio\ backgroundImage/blueberrytravel.webp");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 color: white;
@@ -9,17 +9,24 @@ color: white;
 .nextholidayleftbox{
 height: 100%;
 width: 55%;
+margin: auto;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+
 }
-.nextholidayleftboxforimages{
-height: 85%;
-width: 30%;
-margin: 5% 0% 0% 65%;
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
 }
-.nextholidayleftboxforimages>img{
-height: 100%;
-width: 100%;
-object-fit: contain;
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
 }
+
+
 .nextholidayrighttbox{
 height: fit-content;
 width: 45%;
@@ -27,7 +34,7 @@ margin-right: 2%;
 margin-top: 5%;
 }
 .nextholidayrighttbox>p{
-font-size: smaller;
+text-align: justify;
 }
 .nextholidayrightinsideflexbox{
 /* border: 1px solid red; */
@@ -82,6 +89,7 @@ object-fit: contain;
 width: 40%;
 height: 5%;
 margin-left: 5%;
+margin-bottom: 10%;
 }
 .nextholidaywrapboximages>img{
 height: 100%;

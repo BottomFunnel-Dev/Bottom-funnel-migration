@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./IcecreamCustomerApp.module.css";
 
@@ -47,7 +48,13 @@ export const IcecreamCustomerApp = () => {
             <div className={styles.icecreamdeliveryappflexingbox}>
                 <div className={styles.icecreamdeliveryappflexingboxleftbox}>
                     <div className={styles.icecreamdeliveryappleftboxinsiderupperimage}>
-                        <img src={imageChange} alt='image' />
+                        <Image src={imageChange}
+                            alt={'image'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
                 <div className={styles.icecreamdeliveryappflexingboxrightbox}>
@@ -60,7 +67,13 @@ export const IcecreamCustomerApp = () => {
 
                             >
                                 <div className={styles.icecreamdeliveryappindivisualboxforlogo}>
-                                    <img src={e.icon} alt='image' />
+                                    <Image src={e.icon}
+                                        alt={'image'}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
 
                                 <div className={styles.icecreamdeliveryappindivisualboxfortext}>

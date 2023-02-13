@@ -72,7 +72,7 @@ export const Nextholiday = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Next holiday/logo/download (2) 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/nextholiday.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.nextholidays.com/">

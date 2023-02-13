@@ -61,7 +61,7 @@ export const Yanbal = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/yanbal/logo/yanbal-logo.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/yanbal.webp' alt='images' />
 </div>
 
 <div>

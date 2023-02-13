@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./greyBoxComponent.module.css";
 
-export const GreyBoxComponent = () => {
+export default function GreyBoxComponent() {
   return (
     <div className={styles.RGgreyBoxContainer}>
       <div className={styles.RGdivv}>
@@ -54,4 +54,4 @@ export const GreyBoxComponent = () => {
       </div>
     </div>
   );
-};
+}

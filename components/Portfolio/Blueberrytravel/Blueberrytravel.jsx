@@ -75,7 +75,7 @@ export const Blueberrytravel = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Portfolio banners/BBT_WHITE_2.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/blueberrytravel.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.blueberry-travel.com/">

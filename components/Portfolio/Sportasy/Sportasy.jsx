@@ -65,7 +65,7 @@ export const Sportasy = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/Sportasy/logo/Mobile 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/sportsy.webp' alt='images' />
 </div>
 
 <div>
@@ -88,7 +88,7 @@ export const Sportasy = () => {
     width={"0"}
     height={"0"}
     sizes={"100vw"}
-    style={{ width: "80%", height: "100%" ,objectFit:"contain",
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",
 
   
   

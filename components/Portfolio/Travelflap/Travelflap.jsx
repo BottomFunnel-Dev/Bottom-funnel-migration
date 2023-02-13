@@ -79,7 +79,7 @@ export const Travelflap = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/travel flap/logo/download (2) 2.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/travelflap.webp' alt='images' />
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>

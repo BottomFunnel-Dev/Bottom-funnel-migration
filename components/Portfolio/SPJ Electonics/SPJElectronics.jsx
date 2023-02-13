@@ -66,7 +66,7 @@ export const SPJElectronics = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/SPJ Electronics/logo/1643721633635-removebg-preview 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/spj.webp' alt='images' />
 </div>
 <div>
 

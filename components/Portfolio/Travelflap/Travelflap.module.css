@@ -1,7 +1,7 @@
 .nextholidaymainboxes{
 height: fit-content;
  display: flex;
- background: url("/Images/portfolio/travel flap/background/Component 218.png");
+  background: url("/Images/portfolio/Portfolio\ backgroundImage/travelflap.webp");
  background-size: 100% 100%;
  background-repeat: no-repeat;
  margin-top: 0%;
@@ -13,8 +13,21 @@ height: fit-content;
 height: 100%;
 width: 55%;
 margin: auto;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+
 }
 
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
 .nextholidayrighttbox{
 height: fit-content;
 width: 45%;
