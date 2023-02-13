@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./webdevBanner.module.css";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const WebdevBanner = ({ paraColor, bannerContent, animateData }) => {
+export default function WebdevBanner({ paraColor, bannerContent, animateData }) {
   return (
     <div
       className={styles.webDevBanner}

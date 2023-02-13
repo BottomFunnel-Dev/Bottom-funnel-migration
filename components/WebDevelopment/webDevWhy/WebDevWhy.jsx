@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./webDevWhy.module.css";
-export const WebDevWhy = ({ whyDevContent }) => {
+export default function WebDevWhy  ({ whyDevContent }) {
   return (
     <div className={styles.webDevWhy}>
       <div className={styles.devWhyText}>

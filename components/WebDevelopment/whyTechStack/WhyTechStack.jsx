@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./whytechstack.module.css";
 
-export const WhyTechStack = ({ techData }) => {
+export default function WhyTechStack  ({ techData }) {
   return (
     <div className={styles.whytechData}>
       <div className={styles.techHeader}>
