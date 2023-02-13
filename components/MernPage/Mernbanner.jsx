@@ -3,7 +3,6 @@ import Lottie from "react-lottie";
 
 import styles from "./mernbanner.module.css";
 
-
 export const Mernbanner = ({ bannerdata, animateData }) => {
   const lottieData = {
     loop: true,

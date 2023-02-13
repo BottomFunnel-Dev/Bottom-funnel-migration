@@ -1,25 +1,26 @@
 import React from 'react'
 import styles from "./Jamboshop.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Jambo Shop.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Jamboshop = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
 
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
-<Lottie  options={lottieDefaultOptions} />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/jambo.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "80%", height: "100%" ,objectFit:"contain",marginLeft:"5%"
+
+  
+  
+  
+  }}
+        />
   
    
     </div>

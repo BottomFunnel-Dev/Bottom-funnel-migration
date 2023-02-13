@@ -10,22 +10,7 @@
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
-
-}
-
-.nextholidayleftboxforimages{
-    height: 85%;
-    width: 30%;
-
-    margin: 5% 0% 0% 65%;
-    
-}
-
-.nextholidayleftboxforimages>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-   
+margin-left: 5%;
 }
 
 

@@ -1,19 +1,9 @@
 import React from 'react'
 import styles from "./Ciana.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Ciana.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Ciana = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -76,10 +66,19 @@ export const Ciana = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    <Lottie className={styles.lottieimages} style={{
-      
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/ciana.webp"}
+    alt={"ciana"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "80%", height: "100%",marginLeft:"10%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
   
 
 

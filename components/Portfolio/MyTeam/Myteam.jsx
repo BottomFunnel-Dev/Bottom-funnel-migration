@@ -1,18 +1,8 @@
 import React from 'react'
 import styles from "./Myteam.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/My Team11.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
 
 export const Myteam = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -79,11 +69,7 @@ export const Myteam = () => {
 
     <div className={styles.yanbalrightboxes}>
     
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
-    
+ 
     </div>
     
     
