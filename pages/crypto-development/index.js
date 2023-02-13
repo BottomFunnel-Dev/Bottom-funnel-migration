@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./CryptoDevPage.module.css";
+import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import { CryptoDevBanner } from "../../components/CryptoDevPage/CryptoDevBanner/CryptoDevBanner";
 import { CryptoDevcurrency } from "../../components/CryptoDevPage/CryptoDevcurrency/CryptoDevcurrency";
@@ -8,9 +10,11 @@ import { CryptoDevApproach } from "../../components/CryptoDevPage/CryptoDevAppro
 import { CryptoDevService } from "../../components/CryptoDevPage/CryptoDevService/CryptoDevService";
 import { CryptoDevWhyBF } from "../../components/CryptoDevPage/CryptoDevWhyBF/CryptoDevWhyBF";
 import { CryptoDevSlider } from "../../components/CryptoDevPage/CryptoDevSlider/CryptoDevSlider";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
-import dynamic from "next/dynamic";
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -45,8 +49,9 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+});
 
 export default function CryptoDevPage() {
   return (

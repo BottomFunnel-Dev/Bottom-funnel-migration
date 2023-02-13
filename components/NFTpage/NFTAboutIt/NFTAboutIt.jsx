@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NFTAboutIt.module.css";
 
-export const NFTAboutIt = () => {
+export default function NFTAboutIt() {
   return (
     <div className={styles.NFTAboutItContainer}>
       <h1>
@@ -28,4 +28,4 @@ export const NFTAboutIt = () => {
       </p>
     </div>
   );
-};
+}

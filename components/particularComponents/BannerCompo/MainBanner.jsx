@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./mainBanner.module.css";
-export const MainBanner = ({ bannerData }) => {
+
+export default function MainBanner({ bannerData }) {
   return (
     <div className={styles.mainBanner}>
       <div className={styles.mainbannerTextcontainer}>
@@ -10,10 +11,10 @@ export const MainBanner = ({ bannerData }) => {
           <button>Get Started </button>
         </div>
       </div>
-      
+
       <div className={styles.mainbannerImageContainer}>
         <img src={bannerData.heroImage} alt="images" />
       </div>
     </div>
   );
-};
+}

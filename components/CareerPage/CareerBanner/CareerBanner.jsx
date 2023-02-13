@@ -2,12 +2,11 @@ import React from "react";
 import career from "./CareerBanner.module.css";
 import Image from "next/image";
 
-export const CareerBanner = () => {
+export default function CareerBanner() {
   return (
     <div className={career.careerBannerMain}>
       <div className={career.careerBannerImage}>
-       
-       <Image
+        <Image
           src={"/Images/careerPhotos/banner.webp"}
           alt={"Bannerimage"}
           width={"0"}
@@ -33,4 +32,4 @@ export const CareerBanner = () => {
       </div>
     </div>
   );
-};
+}

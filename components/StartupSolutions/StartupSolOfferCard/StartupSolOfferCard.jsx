@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./StartupSolOfferCard.module.css";
 import Image from "next/image";
 
-export const StartupSolOfferCard = () => {
+export default function StartupSolOfferCard() {
   const cardData = [
     {
       title: "Startup Tech Consulting/Ideation",
@@ -32,14 +32,14 @@ export const StartupSolOfferCard = () => {
           return (
             <div>
               <div>
-              <Image
-                src={image}
-                alt={title}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+                <Image
+                  src={image}
+                  alt={title}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <h2>{title}</h2>
               <p>{body}</p>
@@ -65,4 +65,4 @@ export const StartupSolOfferCard = () => {
       </div>
     </div>
   );
-};
+}

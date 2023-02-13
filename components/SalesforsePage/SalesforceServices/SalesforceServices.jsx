@@ -4,7 +4,7 @@ import { SalesforceServicesborder } from "./SalesforceServicesborder/SalesforceS
 import { SalesforceServicesPoints } from "./SalesforceServicesPoints/SalesforceServicesPoints";
 import Image from "next/image";
 
-export const SalesforceServices = () => {
+export default function SalesforceServices() {
   return (
     <div className={styles.SalesforceServicesContainer}>
       <h1>What is Salesforce Services</h1>
@@ -21,14 +21,14 @@ export const SalesforceServices = () => {
       </p>
       <div className={styles.SalesforceServicesMain}>
         <div className={styles.SalesforceServicesVector}>
-             <Image
-                  src={"/Images/salesforcePhotos/services.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+          <Image
+            src={"/Images/salesforcePhotos/services.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
         <div className={styles.SalesforceServicesContent}>
           <SalesforceServicesborder />
@@ -37,4 +37,4 @@ export const SalesforceServices = () => {
       </div>
     </div>
   );
-};
+}

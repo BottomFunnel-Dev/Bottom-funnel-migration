@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./Cannabisadmin.module.css";
 
-export const Cannabisadmin = () => {
+export default function Cannabisadmin() {
   const [imageChange, setImageChange] = useState(
     "/Images/newcannabispage/Admin Screens/compo.png",
   );
@@ -61,8 +61,13 @@ export const Cannabisadmin = () => {
                   handleImageChange(e.image);
                 }}
               >
-                <div className={styles.cannabieasadminpannelmapperboxindivisyalicon} >
-                  <Image src={e.icon}
+                <div
+                  className={
+                    styles.cannabieasadminpannelmapperboxindivisyalicon
+                  }
+                >
+                  <Image
+                    src={e.icon}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -84,7 +89,8 @@ export const Cannabisadmin = () => {
 
         <div className={styles.cannabiesamadminpannelrightbox}>
           <div className={styles.cannbiesamadminpannelrightboxinnerimage}>
-            <Image src={imageChange}
+            <Image
+              src={imageChange}
               alt={"image"}
               width={"0"}
               height={"0"}
@@ -96,4 +102,4 @@ export const Cannabisadmin = () => {
       </div>
     </div>
   );
-};
+}

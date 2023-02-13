@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./carpoolingSolutions.module.css";
-export const CarpoolingSolutions = () => {
+
+export default function CarpoolingSolutions() {
   const solutioncard = [
     {
       cardtitle: "Entrepreneurs",
@@ -33,10 +34,12 @@ export const CarpoolingSolutions = () => {
       <div className={styles.carpoolSolutionIntro}>
         <h1>Rideshare & Carpoooling App Development Solutions We Provide</h1>
         <p>
-          Looking for a way to reduce your commute costs and help the environment? Check out the rideshare and carpooling app
-          development solutions we provide! Our team can help you create a custom app that makes it easy for people in your area to
-          find each other and share rides. Plus, our apps are designed to be user-friendly and efficient, so you'll be saving time and
-          money in no time!
+          Looking for a way to reduce your commute costs and help the
+          environment? Check out the rideshare and carpooling app development
+          solutions we provide! Our team can help you create a custom app that
+          makes it easy for people in your area to find each other and share
+          rides. Plus, our apps are designed to be user-friendly and efficient,
+          so you'll be saving time and money in no time!
         </p>
       </div>
 
@@ -57,4 +60,4 @@ export const CarpoolingSolutions = () => {
       </div>
     </div>
   );
-};
+}

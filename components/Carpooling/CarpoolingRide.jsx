@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./carpoolingRide.module.css";
 
-export const CarpoolingRide = () => {
+export default function CarpoolingRide() {
   return (
     <div className={styles.carpoolingRide}>
       <div>
@@ -14,4 +14,4 @@ export const CarpoolingRide = () => {
       </div>
     </div>
   );
-};
+}
