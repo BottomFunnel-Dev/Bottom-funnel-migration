@@ -14,11 +14,12 @@
   height: 45%;
   width: 40%;
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 5%;
-  text-align: justify;
 }
-.digitalmarketingbannerspacefortext1 p {
+.digitalmarketingbannerspacefortext1 >p {
+  text-align: justify;
+
   font-size: 18px;
   margin-top: 2%;
 }
@@ -54,7 +55,7 @@
   height: 75vh;
   width: 100%;
   background: url("/Images/digitalmarket/mobile responsive/Group 770921.webp");
-background-position-x: 10%;
+  background-position-x: 10%;
   background-size:  contain;
  background-repeat: no-repeat;
 }
@@ -66,7 +67,6 @@ background-position-x: 10%;
   top: 30%;
   left: 5%;
 }
-
 .digitalmarketingbannerspacefortext1>h1{
   font-size: 25px;
   text-align: center;
