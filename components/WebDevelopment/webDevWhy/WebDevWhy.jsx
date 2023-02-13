@@ -15,7 +15,7 @@ export default function WebDevWhy  ({ whyDevContent }) {
         {whyDevContent.feature.map((item, index) => (
           <div key={index} className={styles.whyfeatureCard}>
             <div className={styles.whyfeatureImage}>
-              <img src={item.icon} alt="" />
+              <img src={item.icon} alt="image" />
             </div>
             <div className={styles.whyfeatureContent}>
               <h5>{item.title}</h5>

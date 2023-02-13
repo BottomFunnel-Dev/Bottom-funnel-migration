@@ -6,25 +6,25 @@ export const whatData = {
         {
             stackname:"Mongodb",
             stackintro: "Mongodb is an open source NoSQL database that can store and retrieve large amounts of data in real time. It is fast and scalable, so your project will run smoothly even with a huge number of users. ",
-            stackLogo: "Images/mern/1.png"
+            stackLogo: "Images/mern/1.webp"
 
         },
         {
             stackname:"Express",
             stackintro: "ExpressJS is a popular Framework used by developers to build single or multiple page web and mobile apps easily. You can also access the API of your product within few clicks with this framework.",
-            stackLogo: "Images/mern/2.png"
+            stackLogo: "Images/mern/2.webp"
 
         },
         {
             stackname:"React",
             stackintro: "React is a popular JavaScript library which is based on react components. you hear about when you hear about web development. Like all things, there are advantages and disadvantages to using it, and it's been used on a wide range of websites.",
-            stackLogo: "Images/mern/3.png"
+            stackLogo: "Images/mern/3.webp"
 
         },
         {
             stackname:"Node.js",
             stackintro: "Node.js is a server-side JavaScript framework that has gained popularity in recent times. It offers high scalability and is extremely lightweight. Node applications are known for their speed, and this is because of their ability to run on multiple servers, at the same time.",
-            stackLogo: "Images/mern/4.png"
+            stackLogo: "Images/mern/4.webp"
 
         },
     ]

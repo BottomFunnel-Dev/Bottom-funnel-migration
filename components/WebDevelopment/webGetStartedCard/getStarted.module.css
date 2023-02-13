@@ -1,7 +1,7 @@
 .getStarted {
 width: 99%;
 height: 120px;
-background: url("/Images/webdevmain/getstartedBanner.png");
+background: url("/Images/webdevmain/getstartedBanner.webp");
 background-position: center;
 background-size: 100%;
 background-repeat: no-repeat;
@@ -45,7 +45,7 @@ color: white;
 .getStarted {
 width: 100%;
 height: 120px;
-background: url("/Images/webdevmain/getstartedBanner.png");
+background: url("/Images/webdevmain/getstartedBanner.webp");
 background-position: center;
 background-size: 150% 100%;
 background-repeat: no-repeat;
@@ -89,7 +89,7 @@ color: white;
 .getStarted {
 width: 100%;
 height: 120px;
-background: url("/Images/webdevmain/getstartedBanner.png");
+background: url("/Images/webdevmain/getstartedBanner.webp");
 background-position: center;
 background-size: 100% 100%;
 background-repeat: no-repeat;
