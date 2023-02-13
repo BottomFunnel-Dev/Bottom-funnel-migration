@@ -1,51 +1,80 @@
 import React from "react";
-import { CarRentalHeader } from "../../components/Car-Rental-page/CarRentalHeader";
-import { FeaturesComp } from "../../components/Car-Rental-page/FeaturesComp";
-import { GreyBoxComponent } from "../../components/Car-Rental-page/GreyBoxComponent";
-import { RenterAppComp } from "../../components/Car-Rental-page/RenterAppComp";
-import { AdminPannelComp } from "../../components/Car-Rental-page/AdminPannelComp";
-import { CustomerAppComp } from "../../components/Car-Rental-page/CustomerAppComp";
-import { ChooseUsComp } from "../../components/Car-Rental-page/ChooseUsComp";
-import { CarRentalFooter } from "../../components/Car-Rental-page/CarRentalFooter";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+// ---------------importing components with lazy loading-----------------------
+const CarRentalHeader = dynamic(
+  () => import("../../components/Car-Rental-page/CarRentalHeader"),
+  { loading: () => "loading.." },
+);
+const FeaturesComp = dynamic(
+  () => import("../../components/Car-Rental-page/FeaturesComp"),
+  { loading: () => "loading.." },
+);
+const GreyBoxComponent = dynamic(
+  () => import("../../components/Car-Rental-page/GreyBoxComponent"),
+  { loading: () => "loading.." },
+);
+const RenterAppComp = dynamic(
+  () => import("../../components/Car-Rental-page/RenterAppComp"),
+  { loading: () => "loading.." },
+);
+const AdminPannelComp = dynamic(
+  () => import("../../components/Car-Rental-page/AdminPannelComp"),
+  { loading: () => "loading.." },
+);
+const CustomerAppComp = dynamic(
+  () => import("../../components/Car-Rental-page/CustomerAppComp"),
+  { loading: () => "loading.." },
+);
+const ChooseUsComp = dynamic(
+  () => import("../../components/Car-Rental-page/ChooseUsComp"),
+  { loading: () => "loading..." },
+);
+const CarRentalFooter = dynamic(
+  () => import("../../components/Car-Rental-page/CarRentalFooter"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading..",
+  ssr: false,
+});
 
+// ------------------Main page function-----------------
 export default function CarRentals() {
   return (
     <>

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./IceCreamDriverApp.module.css";
 
@@ -45,7 +46,13 @@ export const IceCreamDriverApp = () => {
             <div className={styles.icecreamdriverappflexingbox}>
                 <div className={styles.icecreamdriverappflexingboxleftbox}>
                     <div className={styles.icecreamdeliveryappleftboxinsiderupperimage}>
-                        <img src={imageChange} alt='image' />
+                        <Image src={imageChange}
+                            alt={'image'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
 
@@ -59,7 +66,13 @@ export const IceCreamDriverApp = () => {
 
                             >
                                 <div className={styles.icecreamdeliveryappindivisualboxforlogo}>
-                                    <img src={e.icon} alt='image' />
+                                    <Image src={e.icon}
+                                        alt={'image'}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
 
                                 <div className={styles.icecreamdeliveryappindivisualboxfortext}>

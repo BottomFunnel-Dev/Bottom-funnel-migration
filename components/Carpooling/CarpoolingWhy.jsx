@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./carpoolingwhy.module.css";
-export const CarpoolingWhy = () => {
+
+export default function CarpoolingWhy() {
   const carpoolwhydata = [
     {
       cardtitle: "100% Customzation",
@@ -49,4 +50,4 @@ export const CarpoolingWhy = () => {
       </div>
     </div>
   );
-};
+}

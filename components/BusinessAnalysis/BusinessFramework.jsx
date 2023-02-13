@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./BusinessFramework.module.css";
 
-export const BusinessFramework = () => {
+export default function BusinessFramework  () {
   const BusinessFrameworkdata = [
     {
       banner: "/Images/Businessanalysis/BannersBackgrounds/Component83.webp",

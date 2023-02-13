@@ -1,49 +1,72 @@
 import React from "react";
-import Cannabisoverview from "../../components/Cannabis/Cannabisoverview";
-import Cannabissolution from "../../components/Cannabis/Cannabissolution";
-import { Cannabiscontainer } from "../../components/Cannabis/Cannabiscontainer";
-import { Cannabiscustomersection } from "../../components/Cannabis/Cannabiscustomersection";
-import { Cannabisadmin } from "../../components/Cannabis/Cannabisadmin";
-import { Cannabisdrive } from "../../components/Cannabis/Cannabisdrive";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+// ---------------importing components with lazy loading-----------------------
+const Cannabisoverview = dynamic(
+  () => import("../../components/Cannabis/Cannabisoverview"),
+  { loading: () => "loading..." },
+);
+const Cannabissolution = dynamic(
+  () => import("../../components/Cannabis/Cannabissolution"),
+  { loading: () => "loading..." },
+);
+const Cannabiscontainer = dynamic(
+  () => import("../../components/Cannabis/Cannabiscontainer"),
+  { loading: () => "loading..." },
+);
+const Cannabiscustomersection = dynamic(
+  () => import("../../components/Cannabis/Cannabiscustomersection"),
+  { loading: () => "loading..." },
+);
+const Cannabisadmin = dynamic(
+  () => import("../../components/Cannabis/Cannabisadmin"),
+  { loading: () => "loading..." },
+);
+const Cannabisdrive = dynamic(
+  () => import("../../components/Cannabis/Cannabisdrive"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
+// ------------------Main page function-----------------
 export default function Cannabis() {
   return (
     <>

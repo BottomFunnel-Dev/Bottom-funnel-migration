@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import Navbar from "../components/Navbar/Navbar";
 
+const Navbar = dynamic(() => import("../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 const About = dynamic(() => import("../components/AboutSection/About"), {
   loading: () => "Loading...",
 });
@@ -11,11 +14,11 @@ const Awards = dynamic(() => import("../components/AwardSection/Awards"), {
 });
 const TextDropdown = dynamic(
   () => import("../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "Loading..." }
+  { loading: () => "Loading..." },
 );
 const MainFooter = dynamic(
   () => import("../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: () => "Loading..." }
+  { loading: () => "Loading..." },
 );
 const Services = dynamic(() => import("../components/Services/Services"), {
   loading: () => "Loading...",
@@ -61,7 +64,7 @@ const BannerFull = dynamic(
   () => import("../components/mainSection/BannerFull"),
   {
     loading: () => "Loading...",
-  }
+  },
 );
 
 export default function Home() {

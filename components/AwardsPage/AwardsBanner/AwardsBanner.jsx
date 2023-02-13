@@ -2,7 +2,7 @@ import React from "react";
 import awards from "./AwardsBanner.module.css";
 import Image from "next/image";
 
-export const AwardsBanner = () => {
+export default function AwardsBanner  () {
   return (
     <div className={awards.awardsBannerMain}>
       <div className={awards.awardsBannerContentMain}>

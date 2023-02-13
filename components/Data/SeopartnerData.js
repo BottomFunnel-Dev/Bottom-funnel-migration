@@ -105,7 +105,6 @@ export const alcoholLogo = {
     {
       partnerImage: "/Images/seopages/alcoholLogo/frame6.png",
     },
-   
   ],
 
   bgcolors: {
@@ -160,7 +159,6 @@ export const homesolutionsLogo = {
     {
       partnerImage: "/Images/seopages/home solutions/frame9.png",
     },
-   
   ],
 
   bgcolors: {
@@ -215,7 +213,6 @@ export const fooddeliveryLogo = {
     {
       partnerImage: "/Images/seopages/fooddeliverylogo/frame9.png",
     },
-    
   ],
 
   bgcolors: {
@@ -691,7 +688,7 @@ export const datingLogo = {
       partnerImage: "/Images/seopages/dating/frame15.png",
     },
   ],
-  
+
   bgcolors: {
     backgroundColor: "#ef4c23",
   },
@@ -745,7 +742,7 @@ export const logisticsLogo = {
       partnerImage: "/Images/seopages/logistics/frame15.png",
     },
   ],
-  
+
   bgcolors: {
     backgroundColor: "#ef4c23",
   },
@@ -798,7 +795,7 @@ export const carpoolingLogo = {
       partnerImage: "/Images/seopages/carpooling/frame45.png",
     },
   ],
-  
+
   bgcolors: {
     backgroundColor: "#ef4c23",
   },
@@ -851,7 +848,7 @@ export const pharmacyLogo = {
       partnerImage: "/Images/seopages/Pharmacy/frame15.png",
     },
   ],
-  
+
   bgcolors: {
     backgroundColor: "#ef4c23",
   },
@@ -904,7 +901,7 @@ export const dmpagesLogo = {
       partnerImage: "/Images/seopages/dmpages/frame15.webp",
     },
   ],
-  
+
   bgcolors: {
     backgroundColor: "#ef4c23",
   },
@@ -957,7 +954,7 @@ export const newsLogo = {
       partnerImage: "/Images/seopages/news/q15.png",
     },
   ],
-  
+
   bgcolors: {
     backgroundColor: "#ef4c23",
   },

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./BigDataServiceHandling.module.css";
 
-export const BigDataServiceHandling = () => {
+export default function BigDataServiceHandling  ()  {
   return (
     <div className={styles.BigDataServiceHandlingMain}>
       <h1>Handling and Compilation of Big Data</h1>

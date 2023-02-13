@@ -1,12 +1,16 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import { IOTBanner } from "../../components/IOTPage/IOTBanner/IOTBanner";
 import { IOTServices } from "../../components/IOTPage/IOTServices/IOTServices";
 import { IOTMidBanner } from "../../components/IOTPage/IOTMidBanner/IOTMidBanner";
 import { IOTwhyBF } from "../../components/IOTPage/IOTwhyBF/IOTwhyBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
-import dynamic from "next/dynamic";
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -41,8 +45,10 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
 export default function IOTDevelopment() {
   return (

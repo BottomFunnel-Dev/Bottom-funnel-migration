@@ -1,51 +1,88 @@
 import React from "react";
-
+import Head from "next/head";
 import styles from "./StartupSolutions.module.css";
-import { StartupSolutionsBanner } from "../../components/StartupSolutions/StartupSolutionsBanner/StartupSolutionsBanner";
-import { StartupSolMidBanner } from "../../components/StartupSolutions/StartupSolMidBanner/StartupSolMidBanner";
-import { StartupSolPartner } from "../../components/StartupSolutions/StartupSolPartner/StartupSolPartner";
-import { StartupSolOffer } from "../../components/StartupSolutions/StartupSolOffer/StartupSolOffer";
-import { StartupSolOfferCard } from "../../components/StartupSolutions/StartupSolOfferCard/StartupSolOfferCard";
-import { StartupSolWhyBF } from "../../components/StartupSolutions/StartupSolWhyBF/StartupSolWhyBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
 import dynamic from "next/dynamic";
+
+const StartupSolutionsBanner = dynamic(
+  () =>
+    import(
+      "../../components/StartupSolutions/StartupSolutionsBanner/StartupSolutionsBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const StartupSolMidBanner = dynamic(
+  () =>
+    import(
+      "../../components/StartupSolutions/StartupSolMidBanner/StartupSolMidBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const StartupSolPartner = dynamic(
+  () =>
+    import(
+      "../../components/StartupSolutions/StartupSolPartner/StartupSolPartner"
+    ),
+  { loading: () => "loading..." },
+);
+const StartupSolOffer = dynamic(
+  () =>
+    import("../../components/StartupSolutions/StartupSolOffer/StartupSolOffer"),
+  { loading: () => "loading..." },
+);
+const StartupSolOfferCard = dynamic(
+  () =>
+    import(
+      "../../components/StartupSolutions/StartupSolOfferCard/StartupSolOfferCard"
+    ),
+  { loading: () => "loading..." },
+);
+const StartupSolWhyBF = dynamic(
+  () =>
+    import("../../components/StartupSolutions/StartupSolWhyBF/StartupSolWhyBF"),
+  { loading: () => "loading..." },
+);
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+});
 
 export default function StartupSolutions() {
   return (

@@ -1,4 +1,6 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import { EnterpriseWebBanner } from "../../components/EnterpriseWebPage/EnterpriseWebBanner/EnterpriseWebBanner";
 import { EnterpriseWebAnalysis } from "../../components/EnterpriseWebPage/EnterpriseWebAnalysis/EnterpriseWebAnalysis";
@@ -7,9 +9,11 @@ import { EnterpriseWebSolutions } from "../../components/EnterpriseWebPage/Enter
 import { EnterpriseMidBanner } from "../../components/EnterpriseWebPage/EnterpriseMidBanner/EnterpriseMidBanner";
 import { EnterpriseWhyBF } from "../../components/EnterpriseWebPage/EnterpriseWhyBF/EnterpriseWhyBF";
 import { EnterpriseSlider } from "../../components/EnterpriseWebPage/EnterpriseSlider/EnterpriseSlider";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
-import dynamic from "next/dynamic";
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -44,8 +48,10 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
 export default function EnterprisePage() {
   return (

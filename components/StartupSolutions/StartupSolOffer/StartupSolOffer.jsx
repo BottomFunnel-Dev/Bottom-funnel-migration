@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./StartupSolOffer.module.css";
 import Image from "next/image";
 
-export const StartupSolOffer = () => {
+export default function StartupSolOffer() {
   return (
     <div className={styles.StartupSolOfferContainer}>
       <div className={styles.StartupSolOfferMain}>
@@ -31,15 +31,15 @@ export const StartupSolOffer = () => {
         </p>
       </div>
       <div className={styles.StartupSolofferImages}>
-         <Image
-                src={"/Images/startupSolPhotos/solBF.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+        <Image
+          src={"/Images/startupSolPhotos/solBF.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );
-};
+}

@@ -15,9 +15,6 @@ export const Jamboshop = () => {
     height={"0"}
     sizes={"100vw"}
     style={{ width: "80%", height: "100%" ,objectFit:"contain",marginLeft:"5%"
-
-  
-  
   
   }}
         />

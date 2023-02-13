@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./StartupSolPartner.module.css";
 import Image from "next/image";
 
-export const StartupSolPartner = () => {
+export default function StartupSolPartner() {
   return (
     <div className={styles.StartupSolPartnerContainer}>
       <h1>
@@ -28,15 +28,15 @@ export const StartupSolPartner = () => {
         <li>Pragmatic approach to skyrocketed growth</li>
       </ul>
       <div className={styles.StartupSolPartnerImage}>
-           <Image
-                src={"/Images/startupSolPhotos/solPartner.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+        <Image
+          src={"/Images/startupSolPhotos/solPartner.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );
-};
+}

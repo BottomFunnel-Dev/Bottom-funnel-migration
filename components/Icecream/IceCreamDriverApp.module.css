@@ -3,10 +3,12 @@
   background-color: white;
   margin-bottom: 5%;
 }
+
 .icecreamdriverappmainboxes > h2 {
   margin-left: 43.5%;
   font-size: 30px;
 }
+
 .icecreamdriverappflexingbox {
   height: fit-content;
   display: flex;
@@ -58,8 +60,9 @@
 
 .icecreamdriverappindivisualbox:hover {
   transform: scale(1.02);
-  background-color: #f9f5f5;
+  background-color: #fbe1e5;
 }
+
 .icecreamdeliveryappindivisualboxforlogo {
   height: 23%;
   width: 12%;

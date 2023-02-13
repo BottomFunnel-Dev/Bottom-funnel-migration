@@ -1,8 +1,21 @@
 import React from "react";
-import { AwardsBanner } from "../../components/AwardsPage/AwardsBanner/AwardsBanner";
-import { AwardsSection } from "../../components/AwardsPage/AwardsSection/AwardsSection";
+
+
+
 
 import dynamic from "next/dynamic";
+
+const AwardsBanner = dynamic(
+  ()=>import("../../components/AwardsPage/AwardsBanner/AwardsBanner"),
+  { loading: "Loading..." },
+)
+
+const AwardsSection = dynamic(
+  ()=>import("../../components/AwardsPage/AwardsSection/AwardsSection"),
+  { loading: "Loading..." },
+)
+
+
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "Loading..." },
