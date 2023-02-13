@@ -78,37 +78,17 @@ export const EcommerceComCustomer = () => {
 
       <div className={styles.eCommerceCustomerMain}>
         <div className={styles.eCommerceCustomerImagesMain}>
-          <div>
-        
-
-            <Image
-            src={customerAppData.backgroundImage.src}
-            alt={customerAppData.backgroundImage.alt}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" , zIndex: "1" }}
-
-          />
-
-
-          </div>
+          <div></div>
 
           <div>
-       
             <Image
-            src={customerAppData.mainImage.src}
-            alt={customerAppData.mainImage.alt}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" ,  zIndex: "4" }}
-
-          />
-
-
-
-
+              src={customerAppData.mainImage.src}
+              alt={customerAppData.mainImage.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%", zIndex: "4" }}
+            />
           </div>
         </div>
 
@@ -121,18 +101,14 @@ export const EcommerceComCustomer = () => {
                   return (
                     <div className={styles.eCommerceCustomerAppCards} key={idx}>
                       <div className={styles.eCommerceCustomerAppCardsLogo}>
-                   
                         <Image
-                        src={image.src}
-                        alt={image.alt}
-                        width={"0"}
-                        height={"0"}
-                        sizes={"100vw"}
-                        style={{ width: "100%", height: "100%" }}
-                      />
-
-
-
+                          src={image.src}
+                          alt={image.alt}
+                          width={"0"}
+                          height={"0"}
+                          sizes={"100vw"}
+                          style={{ width: "100%", height: "100%" }}
+                        />
                       </div>
 
                       <div className={styles.eCommerceCustomerAppCardsContent}>

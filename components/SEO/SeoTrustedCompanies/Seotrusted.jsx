@@ -1,7 +1,8 @@
 import styles from "./Seotrusted.module.css";
 import React from "react";
 import Slider from "react-slick";
-// import { partnerData } from './SeopartnerData';
+
+import Image from "next/image";
 
 export const Trusted = ({ partnerLogo }) => {
   const settings = {
@@ -27,7 +28,14 @@ export const Trusted = ({ partnerLogo }) => {
           {partnerLogo.logo.map((item, index) => (
             <div className={styles.mainlogoDiv} key={index}>
               <div key={index} className={styles.Seobrandimg}>
-                <img src={item.partnerImage} alt="image.jpg" />
+                <Image
+                        src={item.partnerImage}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%"}}
+                        /> 
               </div>
             </div>
           ))}

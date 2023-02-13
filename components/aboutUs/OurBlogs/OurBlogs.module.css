@@ -1,227 +1,109 @@
-/* for any type of laptop and wide range of screen responsive */
-
 .OurBlogscontainer {
-  text-align: center;
-
-  margin: 2% auto 2% auto;
+text-align: center;
+margin: 2% auto 2% auto;
 }
-
 .OurBlogscontainer > h1 {
-  font-size: 32px;
-  margin-top: 0;
-  margin-bottom: 2%;
+font-size: 32px;
+margin-top: 0;
+margin-bottom: 2%;
 }
-
 .OurBlogscontainer > h1 > span {
-  color: #ef4c23;
+color: #ef4c23;
 }
-
 .OurBlogscontainer > p {
-  font-size: 16px;
-  width: 80%;
-  margin: 2% auto;
+font-size: 16px;
+width: 80%;
+margin: 2% auto;
 }
-
 .OurBlogsmain {
-  width: 90%;
-  margin: auto;
-
-  display: flex;
-  justify-content: space-between;
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-between;
 }
-
 .OurBlogscardsmain {
-  width: 30%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width: 30%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
 .OurBlogscardsmain > h2 {
-  font-size: 20px;
-  text-align: left;
-
-  width: 90%;
-  margin: 2% auto 2% auto;
+font-size: 20px;
+text-align: left;
+width: 90%;
+margin: 2% auto 2% auto;
 }
-
 .OurBlogscardsmain > p {
-  font-size: 16px;
-  text-align: justify;
-
-  width: 90%;
-  margin: 2% auto 2% auto;
+font-size: 16px;
+text-align: justify;
+width: 90%;
+margin: 2% auto 2% auto;
 }
-
 .OurBlogscarddatemore {
-  width: 90%;
-  margin: 2% auto 2% auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+width: 90%;
+margin: 2% auto 2% auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
-
 .OurBlogscarddatemore > p {
-  font-size: 16px;
+font-size: 16px;
 }
-
 .OurBlogscardsimage {
-  width: 100%;
-  height: fit-content;
+width: 100%;
+height: fit-content;
 }
-/* .OurBlogscardsimage > img {
-  width: 100%;
-} */
-
-/* for any type of mobile screens responsive */
-
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
-
-/* Media query for the Mobile Device */
-
 @media (max-width: 480px) {
-  .OurBlogscontainer {
-    text-align: center;
-    margin: 2% auto 2% auto;
-  }
-
-  .OurBlogscontainer > h1 {
-    font-size: 32px;
-    margin-top: 0;
-    margin-bottom: 2%;
-  }
-
-  .OurBlogscontainer > h1 > span {
-    color: #ef4c23;
-  }
-
-  .OurBlogscontainer > p {
-    /* border: 1px solid red; */
-    font-size: 16px;
-    width: 95%;
-    margin: 2% auto;
-  }
-
-  .OurBlogsmain {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .OurBlogscardsmain {
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-
-  .OurBlogscardsmain > h2 {
-    font-size: 20px;
-    text-align: left;
-    width: 90%;
-    margin: 2% auto 2% auto;
-  }
-
-  .OurBlogscardsmain > p {
-    font-size: 16px;
-    text-align: justify;
-    width: 90%;
-    margin: 2% auto 2% auto;
-  }
-
-  .OurBlogscarddatemore {
-    width: 90%;
-    margin: 2% auto 2% auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .OurBlogscarddatemore > p {
-    font-size: 16px;
-  }
-
-  .OurBlogscardsimage {
-    width: 100%;
-    height: fit-content;
-  }
-
-  /* .OurBlogscardsimage > img {
-    width: 100%;
-  } */
+.OurBlogscontainer {
+text-align: center;
+margin: 2% auto 2% auto;
 }
-
-/* for any type of tab responsive */
-
-/* @media only screen and (min-width: 377px) and (max-width: 769px) {
-  .OurBlogscontainer {
-    text-align: center;
-
-    margin: 2% auto 2% auto;
-  }
-
-  .OurBlogscontainer > h1 {
-    font-size: 32px;
-    margin-top: 0;
-    margin-bottom: 2%;
-  }
-
-  .OurBlogscontainer > h1 > span {
-    color: #ef4c23;
-  }
-
-  .OurBlogscontainer > p {
-    font-size: 16px;
-    width: 80%;
-    margin: 2% auto;
-  }
-
-  .OurBlogsmain {
-    width: 90%;
-    margin: auto;
-
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .OurBlogscardsmain {
-    width: 30%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
-
-  .OurBlogscardsmain > h2 {
-    font-size: 20px;
-    text-align: left;
-
-    width: 90%;
-    margin: 2% auto 2% auto;
-  }
-
-  .OurBlogscardsmain > p {
-    font-size: 16px;
-    text-align: justify;
-
-    width: 90%;
-    margin: 2% auto 2% auto;
-  }
-
-  .OurBlogscarddatemore {
-    width: 90%;
-    margin: 2% auto 2% auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .OurBlogscarddatemore > p {
-    font-size: 16px;
-  }
-
-  .OurBlogscardsimage {
-    width: 100%;
-    height: fit-content;
-  }
-  .OurBlogscardsimage > img {
-    width: 100%;
-  }
-} */
+.OurBlogscontainer > h1 {
+font-size: 32px;
+margin-top: 0;
+margin-bottom: 2%;
+}
+.OurBlogscontainer > h1 > span {
+color: #ef4c23;
+}
+.OurBlogscontainer > p {
+font-size: 16px;
+width: 95%;
+margin: 2% auto;
+}
+.OurBlogsmain {
+width: 90%;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.OurBlogscardsmain {
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.OurBlogscardsmain > h2 {
+font-size: 20px;
+text-align: left;
+width: 90%;
+margin: 2% auto 2% auto;
+}
+.OurBlogscardsmain > p {
+font-size: 16px;
+text-align: justify;
+width: 90%;
+margin: 2% auto 2% auto;
+}
+.OurBlogscarddatemore {
+width: 90%;
+margin: 2% auto 2% auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.OurBlogscarddatemore > p {
+font-size: 16px;
+}
+.OurBlogscardsimage {
+width: 100%;
+height: fit-content;
+}
+}

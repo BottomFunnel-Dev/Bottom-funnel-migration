@@ -1,137 +1,102 @@
 .IOSAppDevelopmentbannermainbox {
-  height: 100vh;
-  width: 100%;
-  border: 1px solid transparent;
-  background-image: url("/Images/iosappdevelopmentphotos/ios.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: space-around;
-  
+height: 100vh;
+width: 100%;
+border: 1px solid transparent;
+background-image: url("/Images/iosappdevelopmentphotos/ios.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: space-around;
 }
 .IOSandroidIcon{
-  /* border: 2px solid yellow; */
-  width: 40%;
-  margin-top: 8%;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* background: #6568e1; */
+width: 40%;
+margin-top: 8%;
 }
-
 .IOSAppDevelopmentbannermainboxinnertextdiv {
-  /* height: 50%; */
-  width: 40%;
-  /* border: 2px solid black; */
-  margin-top: 17%;
-  margin-left: 4%;
-  /* text-align: center; */
+width: 40%;
+margin-top: 17%;
+margin-left: 4%;
 }
-
 .IOSAppDevelopmentbannermainboxinnertextdiv > h1 {
-  color: white;
-  font-size: 40px;
-  font-weight: 600;
+color: white;
+font-size: 40px;
+font-weight: 600;
 }
-
 .IOSAppDevelopmentbannermainboxinnertextdiv > h1 > span{
-  color: #6568e1;
+color: #6568e1;
 }
 .IOSAppDevelopmentbannermainboxinnertextdiv > p {
-  color: white;
-  /* margin-top: 7%; */
-  font-size: 18px;
-  /* font-weight: 500; */
+color: white;
+font-size: 18px;
 }
-
 .IOSAppDevelopmentbannerbutton {
-  padding: 10px 50px;
-  border-radius: 10px;
-  width: 220px;
-  background-color: #3380f2;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  margin-top: 22px;
+padding: 10px 50px;
+border-radius: 10px;
+width: 220px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+margin-top: 22px;
 }
-
 .IOSAppDevelopmentbannerbutton:hover {
-  background-color: white;
-  color: #3380f2;
+background-color: white;
+color: #3380f2;
 }
-
-
 @media only screen and ( min-width:0px) and (max-width:1024px){
- 
-  .IOSAppDevelopmentbannermainbox {
-    height: fit-content;
-    width: 100%;
-    border: 1px solid transparent;
-    background-image: none;
-   
-    display: flex;
-    flex-direction: column-reverse;
-    /* justify-content: space-around; */
-    
-  }
-  .IOSandroidIcon{
-    /* border: 2px solid yellow; */
-    width: 100%;
-    background-image: url("/Images/iosappdevelopmentphotos/ios.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center ;
-    /* background: #6568e1; */
-  }
-  
-  
-  .IOSAppDevelopmentbannermainboxinnertextdiv {
-    /* height: 50%; */
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    
-  }
-  
-  .IOSAppDevelopmentbannermainboxinnertextdiv > h1 {
-    color: black;
-    font-size: 25px;
-    font-weight: 600;
-  }
-  
-  .IOSAppDevelopmentbannermainboxinnertextdiv > h1 > span{
-    color: #6568e1;
-  }
-  .IOSAppDevelopmentbannermainboxinnertextdiv > p {
-    color: black;
-    margin-top: 0%;
-    font-size: 14px;
-    /* font-weight: 500; */
-  }
-  
-  .IOSAppDevelopmentbannerbutton {
-    padding: 10px 50px;
-    border-radius: 10px;
-    width: 180px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    margin-top: 22px;
-  }
-  
-  .IOSAppDevelopmentbannerbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-  
-  
-  
+.IOSAppDevelopmentbannermainbox {
+height: fit-content;
+width: 100%;
+border: 1px solid transparent;
+background-image: none;
+display: flex;
+flex-direction: column-reverse;
+}
+.IOSandroidIcon{
+width: 100%;
+background-image: url("/Images/iosappdevelopmentphotos/ios.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center ;
+}
+.IOSAppDevelopmentbannermainboxinnertextdiv {
+width: 80%;
+margin: auto;
+text-align: center;
+}
+.IOSAppDevelopmentbannermainboxinnertextdiv > h1 {
+color: black;
+font-size: 25px;
+font-weight: 600;
+}
+.IOSAppDevelopmentbannermainboxinnertextdiv > h1 > span{
+color: #6568e1;
+}
+.IOSAppDevelopmentbannermainboxinnertextdiv > p {
+color: black;
+margin-top: 0%;
+font-size: 14px;
+}
+.IOSAppDevelopmentbannerbutton {
+padding: 10px 50px;
+border-radius: 10px;
+width: 180px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 14px;
+font-weight: 600;
+color: white;
+margin-top: 22px;
+}
+.IOSAppDevelopmentbannerbutton:hover {
+background-color: white;
+color: #3380f2;
+}
 }
 

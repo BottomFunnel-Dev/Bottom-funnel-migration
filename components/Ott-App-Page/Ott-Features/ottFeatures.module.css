@@ -11,7 +11,6 @@
 .ottFeaturesMain {
   display: flex;
   flex-wrap: wrap;
-  /* border: 1px solid green; */
   height: 300px;
   width: 90%;
   margin: auto 10%;
@@ -49,7 +48,6 @@
 }
 
 .ottFeaturesBanner {
-  /* border: 5px solid red; */
   margin-top: 50px;
   height: 220px;
   position: relative;
@@ -71,7 +69,6 @@
 .ottFeturesBannelTextButtonDiv > h2 {
   width: 100%;
   margin-top: 1%;
-  /* border: 1px solid red; */
   text-align: center;
 }
 

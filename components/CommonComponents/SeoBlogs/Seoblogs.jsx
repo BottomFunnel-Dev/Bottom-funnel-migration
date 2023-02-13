@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Seoblogs.module.css";
 
-export const SeoblogSection = () => {
+export default function SeoblogSection() {
   return (
     <div className={styles._Seoblogs12}>
       <h2>Latest Blogs</h2>
@@ -92,4 +92,4 @@ export const SeoblogSection = () => {
       </div>
     </div>
   );
-};
+}

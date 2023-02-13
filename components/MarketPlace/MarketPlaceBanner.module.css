@@ -1,170 +1,148 @@
 .marketplacebannerimage {
-  /* background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png"); */
-  height: 85vh;
-  width: 99.5%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top;
-  margin-top: 120px;
-  position: relative;
-  /* border: 1px solid red; */
+height: 85vh;
+width: 99.5%;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: top;
+margin-top: 120px;
+position: relative;
 }
-
 .marketplacebannerimageinsideboxtext {
-  margin: auto;
-  width: 40%;
-  padding: 10px;
-  color: black;
-  position: absolute;
-  top: 30%;
-  left: 5%;
+margin: auto;
+width: 40%;
+padding: 10px;
+color: black;
+position: absolute;
+top: 30%;
+left: 5%;
 }
-
 .marketplacebutton {
-  padding: 10px 50px;
-  border-radius: 100px;
-  width: 220px;
-  background-color: #3380f2;
-  color: white;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
+padding: 10px 50px;
+border-radius: 100px;
+width: 220px;
+background-color: #3380f2;
+color: white;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
 }
-
 .marketplacebutton:hover {
-  background-color: white;
-  color: #3380f2;
+background-color: white;
+color: #3380f2;
 }
-
 .marketplaceBannerAnimationDiv{
-  /* border: 1px solid rebeccapurple; */
-  position: absolute;
-  width: 50%;
-  right: 0%;
+position: absolute;
+width: 50%;
+right: 0%;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .marketplacebannerimage {
-    /* border: 1px solid red; */
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
-    height: 30vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
-    /* margin-top: 120px;    */
-    margin-top: 16%;
-    position: relative;
-  }
+.marketplacebannerimage {
+background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
+height: 30vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: top;
+margin-top: 16%;
+position: relative;
+}
 
-  .marketplacebannerimageinsideboxtext {
-    /* border: 1px solid red; */
-    /* margin: auto; */
-    width: 65%;
-    /* padding: 10px; */
-    color: white;
-    position: absolute;
-    top: 1%;
-    left: 0%;
-    /* top: 30%; */
-    /* left: 5%; */
-  }
+.marketplacebannerimageinsideboxtext {
+width: 65%;
+color: white;
+position: absolute;
+top: 1%;
+left: 0%;
+ 
+}
 
-  .marketplacebannerimageinsideboxtext > h1 {
-    font-size: 14px;
-    width: 85%;
-    font-weight: 600px;
-    margin-bottom: 0%;
-  }
+.marketplacebannerimageinsideboxtext > h1 {
+font-size: 14px;
+width: 85%;
+font-weight: 600px;
+margin-bottom: 0%;
+}
 
-  .marketplacebannerimageinsideboxtext > p {
-    font-size: 9px;
-    font-weight: 500;
-    width: 70%;
-    margin-top: 2%;
-  }
+.marketplacebannerimageinsideboxtext > p {
+font-size: 9px;
+font-weight: 500;
+width: 70%;
+margin-top: 2%;
+}
 
-  .marketplacebutton {
-    padding: 8px 40px;
-    border-radius: 100px;
-    width: 140px;
-    background-color: #3380f2;
-    color: white;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 11px;
-    font-weight: 600;
-  }
+.marketplacebutton {
+padding: 8px 40px;
+border-radius: 100px;
+width: 140px;
+background-color: #3380f2;
+color: white;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 11px;
+font-weight: 600;
+}
 
-  .marketplacebutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
+.marketplacebutton:hover {
+background-color: white;
+color: #3380f2;
+}
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .marketplacebannerimage {
-    /* border: 1px solid red; */
-    /* background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png"); */
-    height: 38vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
-    /* margin-top: 120px;    */
-    margin-top: 15%;
-    position: relative;
-  }
+.marketplacebannerimage {
+height: 38vh;
+width: 100%;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: top;
+margin-top: 15%;
+position: relative;
+}
 
-  .marketplacebannerimageinsideboxtext {
-    /* border: 1px solid red; */
-    /* margin: auto; */
-    width: 65%;
-    /* padding: 10px; */
-    color: white;
-    position: absolute;
-    top: 1%;
-    left: 0%;
-    /* top: 30%; */
-    /* left: 5%; */
-  }
+.marketplacebannerimageinsideboxtext {
+width: 65%;
+color: white;
+position: absolute;
+top: 1%;
+left: 0%;
+}
 
-  .marketplacebannerimageinsideboxtext > h1 {
-    font-size: 26px;
-    width: 90%;
-    font-weight: 600px;
-    margin-bottom: 0%;
-  }
+.marketplacebannerimageinsideboxtext > h1 {
+font-size: 26px;
+width: 90%;
+font-weight: 600px;
+margin-bottom: 0%;
+}
 
-  .marketplacebannerimageinsideboxtext > p {
-    font-size: 15px;
-    font-weight: 400;
-    width: 80%;
-    margin-top: 2%;
-  }
+.marketplacebannerimageinsideboxtext > p {
+font-size: 15px;
+font-weight: 400;
+width: 80%;
+margin-top: 2%;
+}
 
-  .marketplacebutton {
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 200px;
-    background-color: #3380f2;
-    color: white;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 15px;
-    font-weight: 600;
-  }
+.marketplacebutton {
+padding: 10px 50px;
+border-radius: 100px;
+width: 200px;
+background-color: #3380f2;
+color: white;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 15px;
+font-weight: 600;
+}
 
-  .marketplacebutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
+.marketplacebutton:hover {
+background-color: white;
+color: #3380f2;
+}
 }

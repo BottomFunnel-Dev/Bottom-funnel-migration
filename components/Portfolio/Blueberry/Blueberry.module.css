@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/blueberry group/background/Group 770958.png");
 background-repeat: no-repeat;
@@ -39,6 +39,7 @@ font-weight: 800;
 
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 
 .yanbaliconflexbox{
@@ -72,7 +73,7 @@ object-fit: contain;
 .yanballogoboxingalongflex{
 padding: 15px;
 margin-top: 5%;
-margin-left: -5%;
+margin-bottom: 5%;
 }
 
 .yanballogoboxingalongflex img{
@@ -81,7 +82,7 @@ width: 100%;
 object-fit: contain;
 }
 .yanbalrightboxes{
-width: 50%;
+width: 52%;
 }
 .yanabalbuttonalongflex{
 padding: 10px 50px;

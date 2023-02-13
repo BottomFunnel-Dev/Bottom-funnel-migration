@@ -1,5 +1,4 @@
 .nextholidaymainboxes{
- 
 height: 90vh;
  display: flex;
  background: url("/Images/portfolio/Portfolio banners/Group 770961.png");
@@ -44,20 +43,19 @@ padding: 5px;
 .nextholidaywrapbox1>h5{
 font-weight: 900;
 font-size: 15px;
-text-align: center;
+text-align: left;
   
 }
 
 .nextholidaywrapbox1>p{
-font-size: 12px;
-text-align: center;
-margin-top: -0%;
+text-align: left;
+margin: 0;
 
 }
 
 .portfolioavailableonicon{
 display: flex;
- margin: auto;
+margin-left: -5%;
  width: 60%;
 
 }
@@ -71,7 +69,7 @@ border-right: 1px solid white;
 }
 
 .porfolionextholidayicon:nth-child(2){
-width: 25%;
+width: 30%;
 }
 
 
@@ -96,7 +94,7 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 40%;
 height: 5%;
-margin-left: 8%;
+
   
 
 }
@@ -141,85 +139,107 @@ background: url("/Images/portfolio/Portfolio Mobile Responsive/41.png");
  background-repeat: no-repeat;
  padding: 20px; 
 }
-
 .nextholidayleftbox{
+  height: 100%;
+  width: 100%;
+ }
+ .nextholidayrighttbox{
+  height: fit-content;
+  width: 100%;
+  margin-top: 5%;
+ }
+ 
+ .nextholidayrighttbox>h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+ 
+ }
+ 
+ 
+ 
+ .nextholidayrighttbox>p{
+ font-size: 14px;
+ text-align: justify;
+ margin: 2%;
+ }
+ .nextholidayrightinsideflexbox{
+ height: fit-content;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ }
+ 
+ .nextholidaywrapbox1{
+ width: 40%;
+ margin: 3%;
+ padding: 5px;
+ }
+ 
+ .nextholidaywrapbox1>h5{
+ font-weight: 900;
+ font-size: 20px;
+ text-align: center;
+ 
+ }
+ .nextholidaywrapbox1>p{
+ font-size: 12px;
+ height: fit-content;
+ text-align: center;
+ margin-top: -0%;
+ margin-right: 2%;
+ 
+ }
+ .portfolioavailableonicon{
+ display: flex;
+ width: 70%;
+ }
+ .porfolionextholidayicon{
+ margin: 5% ;
+ height: 25%;
+ width: 30%;
+ 
+ }
+ 
+ .androidappicon{
+   margin: 5% ;
+   height: 25%;
+   width: 35%;
+  
+ 
+ }
+ 
+ .androidappicon>img{
  height: 100%;
  width: 100%;
-}
-.nextholidayrighttbox{
- height: fit-content;
+ object-fit: contain;
+ }
+ 
+ .porfolionextholidayicon:last-child{
+ border-right: none;
+ }
+ .porfolionextholidayicon>img{
+ height: 100%;
+ width: 70%;
+ object-fit: contain;
+ }
+ 
+ 
+ .androidappicon>img{
+     height: 100%;
+ width: 70%;
+ object-fit: contain;
+ }
+ 
+ .nextholidaywrapboximages{
+ width: 35%;
+ height: 8%;
+ }
+ .nextholidaywrapboximages>img{
+ height: 100%;
  width: 100%;
- margin-top: 5%;
-}
-
-.nextholidayrighttbox>h1{
- text-align: center;
- font-weight: 700;
- font-size: 30px;
-
-}
-
-.nextholidayrighttbox>p{
-font-size: 14px;
-text-align: justify;
-margin: 2%;
-}
-.nextholidayrightinsideflexbox{
-height: fit-content;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-}
-
-.nextholidaywrapbox1{
-width: 40%;
-margin: 3%;
-padding: 5px;
-}
-
-.nextholidaywrapbox1>h5{
-font-weight: 900;
-font-size: 20px;
-text-align: center;
-
-}
-.nextholidaywrapbox1>p{
-font-size: 12px;
-height: fit-content;
-text-align: center;
-margin-top: -0%;
-margin-right: 2%;
-
-}
-.portfolioavailableonicon{
-display: flex;
-margin: auto;
-width: 70%;
-}
-.porfolionextholidayicon{
-margin: 5% ;
-height: 25%;
-width: 30%;
-border-right: 1px solid white;
-}
-.porfolionextholidayicon:last-child{
-border-right: none;
-}
-.porfolionextholidayicon>img{
-height: 100%;
-width: 80%;
-object-fit: contain;
-}
-
-.nextholidaywrapboximages{
-width: 35%;
-height: 8%;
-}
-.nextholidaywrapboximages>img{
-height: 100%;
-width: 100%;
-object-fit: contain;
-}
+ object-fit: contain;
+ }
 .nextholidayviewcasebutton{
 padding: 5px 10px;
 border-radius: 100px;

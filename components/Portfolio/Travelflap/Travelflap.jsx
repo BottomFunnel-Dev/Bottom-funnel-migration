@@ -36,8 +36,12 @@ export const Travelflap = () => {
    </div>
 <div className={styles.nextholidaywrapbox1}>
 <h5>Technologies</h5>
-<p>Swift,Kotlin,Angular,Node,MongoDB</p>
+<p><strong>Front end</strong>: Javascript, Reactjs, Next js, Bootstrap</p>
+<p><strong>Backend</strong>: Node.js</p>
+<p><strong>Database</strong>: Mongodb</p>
+<p><strong>Web Servers</strong>: Nginx, Digital Ocean, AWS</p>
 </div>
+
 <div className={styles.nextholidaywrapbox1}>
 <h5>Available on</h5>
 <div className={styles.portfolioavailableonicon}>

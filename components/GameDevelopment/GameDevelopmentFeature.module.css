@@ -1,79 +1,64 @@
 .gamedevelopmentfeaturemainboxes {
-  height: fit-content;
-  padding: 3%;
-  background-color: #141229;
+height: fit-content;
+padding: 3%;
+background-color: #141229;
 }
-
 .gamedevelopmentfeaturetxtdiv {
-  text-align: center;
-  color: white;
+text-align: center;
+color: white;
 }
-
 .anaothercloror {
-  color: #ef4c23;
-  text-decoration: none;
+color: #ef4c23;
+text-decoration: none;
 }
-
 .gamedevelopmentanotherdivforboxesforfeatures {
-  width: 60%;
-  margin: 3% auto;
-  /* margin-top: 4%; */
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-evenly;
-  row-gap: 25px;
+width: 60%;
+margin: 3% auto;
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+justify-content: space-evenly;
+row-gap: 25px;
+column-gap: 25px;
 }
-
-.gamedevelopmentanotherdivforboxesforfeatures > div {
-  width: 25%;
-  height: 10%;
-  padding: 3% 1%;
-  border: 1px solid #3db3a2;
-  border-radius: 10px;
-  text-align: center;
+.gamedevelopmentanotherdivforboxesforfeatures>div {
+width: 25%;
+padding: 3% 1%;
+border: 1px solid #3db3a2;
+border-radius: 10px;
+text-align: center;
+cursor: default;
 }
-
-
-.gamedevelopmentanotherdivforboxesforfeatures > div:hover {
-  transform: scale(1.1);
+.gamedevelopmentanotherdivforboxesforfeatures>div:hover {
+transform: scale(1.1);
 }
-
 .gamedeveloperinnerimageallboxes {
-  height: fit-content;
-  width: 40%;
-  text-align: center;
-  margin: 3% auto;
-  object-fit: contain;
-}
-
-.gamedeveloperinnerimageallboxes > img {
-  width: 100%;
+height: fit-content;
+width: 40%;
+text-align: center;
+margin: 3% auto;
+object-fit: contain;
 }
 
 .txtwhitegamedeveloperfeature {
-  color: white;
-  text-align: center;
-  margin-top: 0%;
+color: white;
+text-align: center;
+margin-top: 0%;
 }
-
 /* media query for mobiles and tablets devices */
 @media (max-width: 1024px) {
-  .gamedevelopmentfeaturetxtdiv > h1 {
-    font-size: 32px;
-    margin-top: 0;
-  }
-
-  .gamedevelopmentfeaturetxtdiv > p {
-    font-size: 14px;
-  }
-
-  .gamedevelopmentanotherdivforboxesforfeatures {
-    width: 95%;
-  }
-
-  .gamedevelopmentanotherdivforboxesforfeatures > div > h4 {
-    font-size: 15px;
-    margin: 0;
-  }
+.gamedevelopmentfeaturetxtdiv>h1 {
+font-size: 32px;
+margin-top: 0;
+}
+.gamedevelopmentfeaturetxtdiv>p {
+font-size: 14px;
+}
+.gamedevelopmentanotherdivforboxesforfeatures {
+width: 95%;
+}
+.gamedevelopmentanotherdivforboxesforfeatures>div>h4 {
+font-size: 15px;
+margin: 0;
+}
 }

@@ -18,7 +18,6 @@ export const WhyChooseKotlin = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/Kotlin/Icons/Java.png"  /> */}
               </div>
               <div className={styles.whyChooseKotlinIconHeading}>
                 <h4>Simpler than Java</h4>  
@@ -39,7 +38,6 @@ export const WhyChooseKotlin = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                {/* <img src="Images/Kotlin/Icons/cyberSecurity.png"  /> */}
               </div>
               <div className={styles.whyChooseKotlinIconHeading}>
                 <h4>Safe and Secure</h4>
@@ -63,7 +61,6 @@ export const WhyChooseKotlin = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/Kotlin/Icons/platform-1.png" /> */}
               </div>
               <div className={styles.whyChooseKotlinIconHeading}>
                 <h4>Streamline development process</h4>
@@ -85,7 +82,6 @@ export const WhyChooseKotlin = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                {/* <img src="Images/Kotlin/Icons/technical-support 2-1.png" /> */}
               </div>
               <div className={styles.whyChooseKotlinIconHeading}>
                 <h4>Ensure Compatibility</h4>

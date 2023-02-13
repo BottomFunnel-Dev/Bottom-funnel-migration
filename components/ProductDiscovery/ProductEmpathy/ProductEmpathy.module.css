@@ -1,5 +1,4 @@
 .ProductEmpathymaindiv{
-    /* border: 2px solid yellow; */
     display: flex ;
     height: fit-content;
     flex-direction: row;
@@ -8,18 +7,13 @@
     background: url("/Images/Productdiscoveryphotos/emptybaground.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: 100%; */
 }
 .ProductEmpathycontaindiv{
-    /* border: 2px solid green; */
     width: 45%;
-    /* margin: auto; */
     margin-left: 5%;
     color: white;
-    /* margin: auto; */
 }
 .ProductEmpathyimage{
-    /* border: 2px solid red; */
     width: 40%;
     height: 480px;
     margin: auto;
@@ -39,6 +33,5 @@
     margin-top: 8%;
 }
 .ProductEmpathyheadingcontain2 hr{
-    /* margin-top: 3%; */
     width: 50%;
 }

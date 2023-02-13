@@ -23,8 +23,8 @@ import {
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import MoreServices from "./MoreServices";
-import Lottie from "react-lottie";
-import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json"
+import { Player } from "@lottiefiles/react-lottie-player";
+import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 const MainFooter = () => {
   const [open, setOpen] = React.useState(false);
@@ -48,12 +48,12 @@ const MainFooter = () => {
 
   const lottieOptionData = {
     loop: true,
-    autoplay: true, 
+    autoplay: true,
     animationData: footerWorldmapAnimate,
     rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  }
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   const [more, setMore] = useState(false);
   const address = [
@@ -104,12 +104,18 @@ const MainFooter = () => {
             </OverlayTrigger>
           ))}
 
-          <Lottie options={lottieOptionData} style={{width: "100%", height: "100%"}} />
+          <Player
+            src={footerWorldmapAnimate}
+            background="transparent"
+            speed="1"
+            loop
+            controls
+            autoplay
+          ></Player>
         </div>
 
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-
             <img src="Images/footer/whitelogobottom.webp" alt="image" />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
@@ -130,32 +136,6 @@ const MainFooter = () => {
                 {" "}
                 <AiOutlineMail fontSize="20px" /> hr@bottomfunnel.net
               </li>
-            </div>
-            <div
-              style={{ display: whatsapp ? "flex" : "none" }}
-              onMouseEnter={() => setWhatsapp(true)}
-              onMouseLeave={() => setWhatsapp(false)}
-              className={styles.MainFooterwhatsappContainer}
-            >
-              <div>
-                <h1>UAE</h1>
-                <h3>+971553070316</h3>
-                <h3>+971585978776</h3>
-                <h3>+971 -56 566 4624</h3>
-              </div>
-              <div>
-                <h1>India</h1>
-                <h3>+918209366227</h3>
-                <h3>+917877680588</h3>
-              </div>
-              <div>
-                <h1>USA</h1>
-                <h3>+19176956550</h3>
-              </div>
-              <div>
-                <h1>Kenya</h1>
-                <h3>+254 787 213 522</h3>
-              </div>
             </div>
 
             <div className={styles.footerSocialMediaSection}>
@@ -198,7 +178,9 @@ const MainFooter = () => {
               </a>
             </div>
 
-            <div className={`${styles.footerMapContactSection}  ${styles.privacySection}`}>
+            <div
+              className={`${styles.footerMapContactSection}  ${styles.privacySection}`}
+            >
               <li>Privacy Policy</li>
               <li></li>
               <li>ISMS Policy</li>

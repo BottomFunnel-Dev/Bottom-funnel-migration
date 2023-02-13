@@ -23,7 +23,6 @@
 .laundryadmindatamappingindi {
   width: 44%;
   height: 160px;
-  /* border: 2px solid red; */
   margin: 1%;
   border-radius: 10px;
   padding: 10px;
@@ -50,7 +49,6 @@
 }
 
 .laundryadmindatamappingindi > h4 {
-  /* border: 2px solid red; */
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;
@@ -61,7 +59,6 @@
 }
 
 .laundryadmindatamappingindi > p {
-  /* border: 2px solid red; */
   margin-top: 0%;
   font-size: 15px;
   line-height: 20px;

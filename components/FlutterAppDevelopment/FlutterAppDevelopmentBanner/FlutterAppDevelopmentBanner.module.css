@@ -11,7 +11,6 @@
     margin-top: 18%;
     margin-left: 5%;
     text-align: left;
-    /* border: 2px solid red; */
   }
   
   .flutterAppDevbannermainboxinnertextdiv > h1 {
@@ -45,7 +44,6 @@
     color: #3380f2;
   }
   .FlutterIcon{
-    /* border: 2px solid red; */
     width: 45%;
     height:600px;
     margin: auto;

@@ -1,5 +1,4 @@
 import React from 'react'
-// import './InsuranceSalesBanner.css'
 import style from "./InsuranceSalesBanner.module.css";
 
 export const InsuranceSalesBanner = () => {

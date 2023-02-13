@@ -1,6 +1,5 @@
 .mobilekickstartbannerfootermainbox{
-    height: 280px;
-
+height: 280px;
 border: 1px solid white;
     background: url("/Images/MobileUIUXDesign/BannerBackgrounds/aerial-view-business-team 3.webp");
     background-repeat: no-repeat;
@@ -10,33 +9,32 @@ border: 1px solid white;
 }
 
 .mobilekickstartbannerfootertext{
-    height: 100%;
-  
-    color: white;
-    width: 50%;
+height: 100%;
+color: white;
+width: 50%;
 text-align: center;
 margin: 5% 10% 5% 25%;
 }
 
 .mobilekickstartbannerfootertext >p{
-    font-size: 20px;
+font-size: 20px;
 }
 
 .mobileuiuxdesignlowerbannerbutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 220px;
-    background-color: #3380f2;
-    color: white;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 3%;
+padding: 10px 50px;
+border-radius: 100px;
+width: 220px;
+background-color: #3380f2;
+color: white;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+margin-top: 3%;
 }
 
 .mobileuiuxdesignlowerbannerbutton:hover{
-    background-color:white;
-    color:  #3380f2;
+background-color:white;
+color:#3380f2;
 }

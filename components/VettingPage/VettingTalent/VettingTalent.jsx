@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./VettingTalent.module.css";
+import Image from "next/image";
 
 export const VettingTalent = () => {
   const cardsData = [
@@ -29,17 +30,29 @@ export const VettingTalent = () => {
       </h1>
       <div className={styles.vettingTalentMain}>
         <div className={styles.vettingTalentimage}>
-          <img
-            src="/Images/VettingPhotos/human.png"
-            alt="Vetting Talent section human image"
-          />
+          
+          <Image
+          src={"/Images/VettingPhotos/human.webp"}
+          alt={"humanimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         </div>
 
         <div className={styles.vettingTalentContent}>
           {cardsData.map(({ title, body }) => (
             <div>
               <div className={styles.vettingTalentDots}>
-                <img src="/Images/VettingPhotos/dot.png" alt="Dots icons" />
+              <Image
+              src={"/Images/VettingPhotos/dot.webp"}
+              alt={"dotimage"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
               </div>
 
               <div className={styles.vettingTalentCardContent}>

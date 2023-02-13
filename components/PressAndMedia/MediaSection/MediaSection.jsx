@@ -6,19 +6,19 @@ export const MediaSection = () => {
   const cardsData = [
     {
       title: "Top Web App Developers & Development Companies India 2022",
-      image: "/Images/pressmediaPhotos/ndtv.png",
+      image: "/Images/pressmediaPhotos/ndtv.webp",
       date: "10-Oct-2022",
       link: "",
     },
     {
       title: "Top Web App Development Agency 2022",
-      image: "/Images/pressmediaPhotos/abc-news.png",
+      image: "/Images/pressmediaPhotos/abc-news.webp",
       date: "16-Oct-2022",
       link: "",
     },
     {
       title: "New Jaipur Statup Of Jaipur Open for Hiring",
-      image: "/Images/pressmediaPhotos/republic-bharat.png",
+      image: "/Images/pressmediaPhotos/republic-bharat.webp",
       date: "29-Oct-2022",
       link: "",
     },

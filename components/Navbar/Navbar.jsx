@@ -3,18 +3,14 @@ import navstyle from "./navbar.module.css";
 import Link from "next/link";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import { BsArrowRight } from "react-icons/bs";
 import { WhoWeAre } from "./WhoWeAre";
 
-import { ImageCard } from "../particularComponents/ImageCardText/ImageCard";
 import { ContactMain } from "../Contact/Contact";
 import { Resource } from "./Resource";
 
-import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
-import { Products } from "./Products";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { useRouter } from "next/router";
 import { Industries } from "./Industries";
@@ -23,76 +19,16 @@ import Image from "next/image";
 
 const Navbar = ({ navredux, productMount }) => {
   // const router.push = userouter.push();
-  const [aboutH, setAboutH] = useState(false);
-  const [solution, setSolution] = useState(false);
-  const [industries, setIndustries] = useState(false);
-  const [service, setService] = useState(false);
   const [scroll, setScroll] = useState(false);
-  const [resource, setResource] = useState(false);
-  const [product, setProduct] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
+  const [navtoggle, setNavtoggle] = useState("");
+
   const router = useRouter();
 
-  const skillHoverIn = () => {
-    setSkill(true);
-    setNabvar(true);
-  };
-
-  const skillHoverOut = () => {
-    setSolution(false);
-
-    setSkill(false);
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
-  };
-
-  const solHoverIn = () => {
-    setSolution(true);
-    setNabvar(true);
-  };
-
-  const solHoverOut = () => {
-    setSolution(false);
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
-  };
-
-  const indusHoverIn = () => {
-    setIndustries(true);
-    setNabvar(true);
-  };
-
-  const indusHoverOut = () => {
-    setIndustries(false);
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
-  };
-  const productHoverIn = () => {
-    setProduct(true);
-    setNabvar(true);
-  };
-
-  const productHoverOut = () => {
-    setProduct(false);
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
-  };
-
-  const serHoverIn = () => {
-    setService(true);
-    setNabvar(true);
-  };
-
-  const serHoverOut = () => {
-    setService(false);
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
+  const hoverhandle = (para, nav) => {
+    setNavtoggle(para);
+    setNabvar(nav)
   };
 
   const homeHoverIn = () => {
@@ -103,28 +39,6 @@ const Navbar = ({ navredux, productMount }) => {
   const homeHoverOut = () => {
     setAboutH(false);
     if (window.scrollY === 0) {
-      setNabvar(false);
-    }
-  };
-  // console.log("service", service);
-  const blogHoverIn = () => {
-    setNabvar(true);
-  };
-
-  const blogHoverOut = () => {
-    if (window.scrollY == 0) {
-      setNabvar(false);
-    }
-  };
-
-  const resHoverIn = () => {
-    setResource(true);
-    setNabvar(true);
-  };
-
-  const resHoverOut = () => {
-    setResource(false);
-    if (window.scrollY == 0) {
       setNabvar(false);
     }
   };
@@ -141,15 +55,8 @@ const Navbar = ({ navredux, productMount }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", navBackground);
-    // console.log(scrollY);
-  });
 
-  // console.log("scroll",scroll)
-  // useEffect(() => {
-  //   console.log(productMount.navMount);
-  //   console.log(productMount.salesnavMount);
-  // }, [productMount]);
-  // console.log(productMount)
+  });
 
   const handleMob = () => {
     mobres ? setMobres(false) : setMobres(true);
@@ -157,7 +64,7 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   return (
-    <div>
+    <div style={navtoggle === "" ? { background: "transparent" } : { background: "white" }}>
       {!productMount.navMount && (
         <ContactMain
           bgcolor={navbar ? "white" : "transparent"}
@@ -183,16 +90,6 @@ const Navbar = ({ navredux, productMount }) => {
       >
         <div className={navstyle.logoSection}>
           <Link href="/" className={navstyle.logoText}>
-            {/* <img
-              src={
-                navredux.logo && !navbar
-                  ? "/Images/navbar/whitelogobottom.webp"
-                  : "/Images/navbar/blacklogo.webp"
-              }
-              // Images/navbar/whitelogobottom.png
-              alt="image"
-            /> */}
-
             <Image
               src={
                 navredux.logo && !navbar
@@ -208,7 +105,6 @@ const Navbar = ({ navredux, productMount }) => {
           </Link>
         </div>
 
-        {/* <input id={navstyle.checkbox} type="checkbox" /> */}
         <div id={navstyle.bar}>
           <label htmlFor="checkbox">
             <IconContext.Provider value={{ className: navstyle.bars }}>
@@ -221,65 +117,65 @@ const Navbar = ({ navredux, productMount }) => {
           <div className={navstyle.dropdownBar}>
             <div className={navstyle.mobLists}>
               <li
-                onMouseEnter={homeHoverIn}
-                onMouseLeave={homeHoverOut}
+                onMouseEnter={() => { hoverhandle("about", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                ABOUT
+                About
               </li>
 
               <li
-                onMouseEnter={serHoverIn}
-                onMouseLeave={serHoverOut}
+                onMouseEnter={() => { hoverhandle("services", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                SERVICES
+                Services
               </li>
 
               <li
-                onMouseEnter={solHoverIn}
-                onMouseLeave={solHoverOut}
+                onMouseEnter={() => { hoverhandle("solutions", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                SOLUTIONS
+                Solutions
               </li>
 
               <li
-                onMouseEnter={indusHoverIn}
-                onMouseLeave={indusHoverOut}
+                onMouseEnter={() => { hoverhandle("industry", true) }}
+                onMouseLeave={() => { hoverhandle("", false) }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                INDUSTRIES
+                Industries
               </li>
 
               <li
-                // onMouseEnter={blogHoverIn}
-                // onMouseLeave={blogHoverOut}
-                onClick={() => router.push("/Portfolio")}
+                onClick={() => router.push("portfolio")}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
-                WORK
+                Portfolio
+              </li>
+              
+              <li
+                onMouseEnter={() => { hoverhandle("resource") }}
+                onMouseLeave={() => { hoverhandle("") }}
+                style={{ color: navbar ? "black" : navredux.color }}
+              >
+                Resources
               </li>
 
-              <li
-                onMouseEnter={resHoverIn}
-                onMouseLeave={resHoverOut}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                RESOURCES
-              </li>
+
             </div>
 
             <button
               onClick={() => router.push("https://www.bottomfunnel.net/")}
               className={navstyle.ProductPageRouteButton}
             >
-              Product
+              Products
             </button>
 
             <button
               className={navstyle.callToAction}
-              // onClick={() => router.push("/hire-new-talent")}
+            // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
@@ -294,8 +190,8 @@ const Navbar = ({ navredux, productMount }) => {
 
         {mobres && (
           <DropdownResp
-            homeHoverIn={homeHoverIn}
-            homeHoverOut={homeHoverOut}
+            homeHoverIn={hoverhandle}
+            homeHoverOut={hoverhandle}
             scroll={scroll}
             productMount={productMount}
           />
@@ -303,10 +199,10 @@ const Navbar = ({ navredux, productMount }) => {
       </nav>
 
       {/* about drop down section code start */}
-      {aboutH ? (
+      {navtoggle === "about" ? (
         <WhoWeAre
-          homeHoverIn={homeHoverIn}
-          homeHoverOut={homeHoverOut}
+          homeHoverIn={hoverhandle}
+          homeHoverOut={hoverhandle}
           scroll={scroll}
           productMount={productMount}
         />
@@ -314,10 +210,10 @@ const Navbar = ({ navredux, productMount }) => {
       {/* about drop down section code end */}
 
       {/* service drop down section code start */}
-      {service ? (
+      {navtoggle === "services" ? (
         <NavServices
-          serHoverIn={serHoverIn}
-          serHoverOut={serHoverOut}
+          serHoverIn={hoverhandle}
+          serHoverOut={hoverhandle}
           scroll={scroll}
           productMount={productMount}
         />
@@ -326,46 +222,32 @@ const Navbar = ({ navredux, productMount }) => {
       {/* service drop down section code end */}
 
       {/* solutions drop down section code start */}
-      {solution ? (
+      {navtoggle === "solutions" ? (
         <NavIndustries
-          solHoverIn={solHoverIn}
-          solHoverOut={solHoverOut}
+          solHoverIn={hoverhandle}
+          solHoverOut={hoverhandle}
           scroll={scroll}
           productMount={productMount}
         />
       ) : null}
 
-      {industries ? (
+      {navtoggle === "industry" ? (
         <Industries
-          indusHoverIn={indusHoverIn}
-          indusHoverOut={indusHoverOut}
+          indusHoverIn={hoverhandle}
+          indusHoverOut={hoverhandle}
           scroll={scroll}
           productMount={productMount}
         />
       ) : null}
 
-      {resource ? (
+      {navtoggle === "resource" ? (
         <Resource
-          resHoverIn={resHoverIn}
-          resHoverOut={resHoverOut}
+          resHoverIn={hoverhandle}
+          resHoverOut={hoverhandle}
           scroll={scroll}
           productMount={productMount}
         />
       ) : null}
-
-      {/* {product ? (
-        <Products productHoverIn={productHoverIn}  productHoverOut={productHoverOut} scroll={scroll}/>
-      ) : null} */}
-
-      {/* product drop down section code start */}
-      {/* {product ? (
-        <Products
-          serHoverIn={productHoverIn}
-          serHoverOut={productHoverOut}
-          scroll={scroll}
-          productMount={productMount}
-        />
-      ) : null} */}
     </div>
   );
 };

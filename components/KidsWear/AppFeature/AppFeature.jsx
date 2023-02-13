@@ -7,11 +7,6 @@ export const AppFeature = () => {
       <div className={styles.appFeatureMaindiv}>
         <div className={styles.appFeatureInnermaindiv1}>
           <h1>Customer App</h1>
-          {/* <h1>
-            <span style={{ color: "orangered" }}>App</span>
-            Features
-          </h1> */}
-
           <div className={styles.appFeatureInnerMaindivBox}>
             <div className={styles.appFeatureInnerMaindivBoxcontain}>
               <div>

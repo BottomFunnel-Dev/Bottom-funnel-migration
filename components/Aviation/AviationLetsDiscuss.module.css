@@ -1,127 +1,94 @@
 .aviationletsdiscussmainboxes{
-    max-height: max-content;
-    background-color: #F5F5F5;
-    width: 100%;
-    padding: 0% 0% 10% 0%;
+max-height: max-content;
+background-color: #F5F5F5;
+width: 100%;
+padding: 0% 0% 10% 0%;
 }
-
-
 .aviationletsdiscussbutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: fit-content;
-    height: 60px;
-    background-color: #ef4c23;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
+padding: 10px 50px;
+border-radius: 100px;
+width: fit-content;
+height: 60px;
+background-color: #ef4c23;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
 margin-left: 40%;
-
 }
-
 .aviationletsdiscussbutton:hover {
-
-    background-color:white;
-    color:  #ef4c23;
-
+background-color:white;
+color:  #ef4c23;
 }
-
 .letsdiscussheaderboxfortext{
-    height: 10%;
-    width: 100%;
-    margin-top: 5%;
-    text-align: center;
+height: 10%;
+width: 100%;
+margin-top: 5%;
+text-align: center;
 }
-
 .letsdiscussheaderboxfortext>p{
-    text-align: left;
-    width: 90%;
-    margin: auto;
+text-align: left;
+width: 90%;
+margin: auto;
 }
-
 .letsdiscussalternateboxhavetoflex{
-    max-height: max-content;
-    width: 90%;
-    padding: 10px;
-    margin-top: 3%;
-    margin-left: 5%;
-    display: flex;
-
+max-height: max-content;
+width: 90%;
+padding: 10px;
+margin-top: 3%;
+margin-left: 5%;
+display: flex;
 }
-
 .letsdiscussalternateboxhavetoflex:hover {
-    transform: scale(1.02);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
+transform: scale(1.02);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
 }
-
-
 .innerboxforimageletsdiscuss{
-    height: 100%;
-    width: 20%;
-
+height: 100%;
+width: 20%;
 }
-
 .innerboxfortextletsdiscuss{
-    height: 100%;
-    width: 75%;
-    margin-left: 2%;
-    padding-top: 3%;
- 
-
+height: 100%;
+width: 75%;
+margin-left: 2%;
+padding-top: 3%;
 }
-
 .letsdiscussalternate2boxhavetoflex{
-    height: 15%;
-    width: 90%;
-  padding: 10px;
-    margin-top: 3%;
-    margin-left: 5%;
-    display: flex;
-
+height: 15%;
+width: 90%;
+padding: 10px;
+margin-top: 3%;
+margin-left: 5%;
+display: flex;
 }
-
 .letsdiscussalternate2boxhavetoflex:hover{
-    transform: scale(1.02);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
+transform: scale(1.02);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
 }
-
-
-
 .innerboxfortextletsdiscuss2{
-    height: 100%;
-    width: 75%;
-
-    padding-top: 3%;
-   
+height: 100%;
+width: 75%;
+padding-top: 3%;
 }
-
 .innerboxforimageletsdiscuss2{
-    height: 100%;
-    width: 20%;
-
-    margin-left: 2%;
+height: 100%;
+width: 20%;
+margin-left: 2%;
 }
-
 .innerboxforimageletsdiscuss >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    
- 
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
-
 .innerboxforimageletsdiscuss2 >img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
- 
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
-
 .specialcolor{
-    color: #ef4c23;
+color: #ef4c23;
 }

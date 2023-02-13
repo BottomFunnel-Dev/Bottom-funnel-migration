@@ -1,43 +1,37 @@
 .applynav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 100;
 }
 .applyDropdown{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 355px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+width: 500px;
+height: 355px;
 }
-
 .dropdownitem{
-    color: white;
+color: white;
 }
 .dropdownitem>a{
-    color: white;
+color: white;
 }
 .dropItem{
-    width: 50%;
+width: 50%;
 }
-
 .applylogo{
-    width: 150px;
-    height: 55px;
-    /* background-color: green; */
+width: 150px;
+height: 55px;
 }
 .applylogo>img{
-    width: 100%;
-    height: 100%;
+width: 100%;
+height: 100%;
 object-fit: contain;
 }
-
 @media (max-width:480px) {
-    .applyDropdown{
-      
-        flex-wrap: nowrap;
-        overflow-y: scroll;
-      
-    }
+.applyDropdown{
+flex-wrap: nowrap;
+overflow-y: scroll;   
+}
 }

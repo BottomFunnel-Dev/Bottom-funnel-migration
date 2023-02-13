@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/on cart/background/Group 770955.png");
 background-repeat: no-repeat;
@@ -22,7 +22,7 @@ margin-left: 3%;
 
 .yanballeftboxes>p{
 text-align: justify;
-font-size: 14px;
+
 }
 
 .yanballeftboxinsiderflexbox{
@@ -52,6 +52,7 @@ font-weight: 800;
 
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 
 .yanbaliconflexbox{
@@ -63,10 +64,10 @@ margin-left: -0%;
 }
 .yanabaliconandeoid{
 width: 30%;
-height: 80%;
+height: 30%;
 border-right: 1px solid white;
-margin-left: 2%;
-padding: 7px;
+
+
 }
 .yanabaliconandeoid:last-child{
 border-right: none;
@@ -78,6 +79,7 @@ object-fit: contain;
 }
 .yanballogoboxingalongflex{
 width: 35%;
+margin-top: 5%;
 }
 .yanballogoboxingalongflex img{
 height: 100%;
@@ -99,7 +101,8 @@ font-size: 14px;
 font-weight: 600;
 color: white;
 margin-left: 35%;
-margin-top: 8%;
+margin-top: 20%;
+margin-bottom: 10%;
 }
 
 .yanabalbuttonalongflex:hover{

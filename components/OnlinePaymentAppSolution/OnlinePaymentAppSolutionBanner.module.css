@@ -1,11 +1,6 @@
 .onlinepaymentappsolutionbannermainboxes {
   height: 100vh;
   padding-top: 10%;
-  /* background: url("/Images/onlinepaymentpage/banner.png"); */
-  /* background-size: 40% 80%;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: center; */
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -53,20 +48,13 @@
   right: 4%;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
   .onlinepaymentappsolutionbannermainboxes {
-    /* border: 1px solid red; */
     height: 100vh;
     padding-top: 10%;
-    /* background: url("/Images/onlinepaymentpage/banner.png"); */
-    /* background-size: 40% 80%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center; */
     background-color: white;
     display: flex;
     flex-direction: column-reverse;
@@ -75,7 +63,6 @@
   .onlonepaymentappbannerimageinsidetext {
     height: 30%;
     width: 90%;
-    /* margin-top: 7%; */
     margin-left: 5%;
     text-align: justify;
   }
@@ -126,11 +113,6 @@
   .onlinepaymentappsolutionbannermainboxes {
     height: 100vh;
     padding-top: 10%;
-    /* background: url("/Images/onlinepaymentpage/banner.png"); */
-    /* background-size: 40% 80%;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center; */
     background-color: white;
     display: flex;
     flex-direction: row;

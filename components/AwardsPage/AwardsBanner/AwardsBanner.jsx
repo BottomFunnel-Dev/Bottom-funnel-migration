@@ -1,5 +1,6 @@
 import React from "react";
 import awards from "./AwardsBanner.module.css";
+import Image from "next/image";
 
 export const AwardsBanner = () => {
   return (
@@ -17,7 +18,14 @@ export const AwardsBanner = () => {
         </div>
 
         <div className={awards.awardsbannerImage}>
-          <img src="/Images/AwardsPhotos/banner.png" alt="Awards vector" />
+          <Image
+              src={"/Images/AwardsPhotos/banner.webp"}
+              alt={"awardimage"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              />
         </div>
 
       </div>

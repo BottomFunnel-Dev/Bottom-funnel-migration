@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import { ChnageNavbarColor } from "../../Redux/Navbar/NavbarAction";
-import { useDispatch } from "react-redux";
+import React from "react";
 
 import { AwardsBanner } from "./AwardsBanner/AwardsBanner";
 import "./AwardsPage.css";
@@ -19,11 +17,6 @@ import MainFooter from "../FooterSection/MainFooter";
 import { Helmet } from "react-helmet";
 
 export const AwardsPage = () => {
-  const dispatch = useDispatch();
-  useEffect(function () {
-    dispatch(ChnageNavbarColor({ color: "black", logo: false }));
-  }, []);
-
   return (
     <div style={{ color: "#393939" }}>
       <Helmet>

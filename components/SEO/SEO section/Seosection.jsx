@@ -1,13 +1,20 @@
 import React from "react";
-// import { SeoForm } from "../seoForm/SeoForm";
 import { SeoForm } from "../seoForm/SeoForm";
 import styles from "./Seosection.module.css";
+import Image from "next/image";
 
 function Seosection() {
   return (
     <div className={styles._SeoMain1}>
       <div className={styles.gifDenote}>
-        <img src="Images/seopages/1.gif" alt="" />
+        <Image
+            src={"/Images/seopages/1.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+            />
       </div>
       <div className={styles._Seoupperdiv}>
         <div className={styles._Seotext}>

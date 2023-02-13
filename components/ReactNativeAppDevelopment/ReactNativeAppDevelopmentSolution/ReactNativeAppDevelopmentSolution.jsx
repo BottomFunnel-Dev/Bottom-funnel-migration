@@ -82,18 +82,22 @@ export const ReactNativeAppDevelopmentSolution = () => {
 
 
 
-                  <div className="reactnativeContentScrollerDivContainer">
-                     <div className="reactnativeContentIcon">
-                       <Image
-                           src={"/Images/ReactNativeDevelopement/ux-interface.webp"}
-                           alt={"image"}
-                           width={"0"}
-                           height={"0"}
-                           sizes={"100vw"}
-                           style={{ width: "100%", height: "100%" }}
-                        />
+                 
+
+
+
+                  <div className={styles.reactnativeContentScrollerDivContainer}>
+                     <div className={styles.reactnativeContentIcon}>
+                        <Image
+                              src={"/Images/ReactNativeDevelopement/ux-interface-2.webp"}
+                              alt={"image"}
+                              width={"0"}
+                              height={"0"}
+                              sizes={"100vw"}
+                              style={{ width: "100%", height: "100%" }}
+                           />
                      </div>
-                     <div className="reactnativeContentHeading">
+                     <div className={styles.reactnativeContentHeading}>
                         <h3> Custom Design and Navigation</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                            Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae
@@ -103,30 +107,8 @@ export const ReactNativeAppDevelopmentSolution = () => {
                   </div>
 
 
-
-                  <div className="reactnativeContentScrollerDivContainer">
-                     <div className="reactnativeContentIcon">
-                     <Image
-                           src={"/Images/ReactNativeDevelopement/ux-interface-2.webp"}
-                           alt={"image"}
-                           width={"0"}
-                           height={"0"}
-                           sizes={"100vw"}
-                           style={{ width: "100%", height: "100%" }}
-                        />
-                     </div>
-                     <div className="reactnativeContentHeading">
-                        <h3> Custom Design and Navigation</h3>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                           Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae
-                           ipsa, quibusdam dignissimos consequuntur repudiandae quis omnis iure sunt
-                           magnam quos</p>
-                     </div>
-                  </div>
-
-
-                  <div className="reactnativeContentScrollerDivContainer">
-                     <div className="reactnativeContentIcon">
+                  <div className={styles.reactnativeContentScrollerDivContainer}>
+                     <div className={styles.reactnativeContentIcon}>
                      <Image
                            src={"/Images/ReactNativeDevelopement/approved 2.webp"}
                            alt={"image"}
@@ -136,7 +118,7 @@ export const ReactNativeAppDevelopmentSolution = () => {
                            style={{ width: "100%", height: "100%" }}
                         />
                      </div>
-                     <div className="reactnativeContentHeading">
+                     <div className={styles.reactnativeContentHeading}>
                         <h3> Custom Design and Navigation</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                            Est, ea voluptas itaque dolores quo molestias aut doloribus ut beatae

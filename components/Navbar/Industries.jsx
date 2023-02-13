@@ -12,8 +12,8 @@ export const Industries = ({
 }) => {
     return (
         <div
-            onMouseEnter={indusHoverIn}
-            onMouseLeave={indusHoverOut}
+            onMouseEnter={()=>{indusHoverIn("industry",true)}}
+            onMouseLeave={()=>{indusHoverOut("",false)}}
             className={industry.industryserviceVisible}
             style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
         >
@@ -28,7 +28,7 @@ export const Industries = ({
                             key={i}
                             onClick={() => {
                                 // navigate(`/${item.path}`);
-                                indusHoverOut();
+                                indusHoverOut("",false);
                             }}
                             className={industry.industryimageIconDivSection}
                         >
@@ -42,13 +42,10 @@ export const Industries = ({
                                     style={{ width: "100%", height: "100%" }}
                                 />
 
-                                {/* <img className={industry.industryiconDivSection}
-                                    src={item.navIcons}
-                                    alt="image"
-                                /> */}
+                             
                             </div>
                             <Link
-                                onClick={indusHoverOut}
+                                onClick={()=>{indusHoverOut("",false)}}
                                 href={item.path}
                                 className={industry.industrylinkP}
                             >

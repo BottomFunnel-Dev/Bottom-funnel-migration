@@ -1,7 +1,6 @@
 .educationsupporttextandborderbox {
   margin-bottom: 5%;
 }
-
 .educationsupporttextandborderbox > h2 {
   margin-left: 5%;
   font-size: 40px;
@@ -13,7 +12,6 @@
   display: flex;
   width: 100%;
   height: fit-content;
-  /* border: 1px solid red; */
 }
 
 .educationsupportrighttboxingflexfortext {

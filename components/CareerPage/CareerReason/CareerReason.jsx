@@ -1,5 +1,6 @@
 import React from "react";
 import career from "./CareerReason.module.css";
+import Image from "next/image";
 
 export const CareerReason = () => {
   return (
@@ -27,7 +28,15 @@ export const CareerReason = () => {
         </div>
 
         <div className={career.careerReasonImage}>
-          <img src="/Images/careerPhotos/reason.png" alt="whyBF.png" />
+          {/* <img src="/Images/careerPhotos/reason.png" alt="whyBF.png" /> */}
+          <Image
+          src={"/Images/careerPhotos/reason.webp"}
+          alt={"Reasonimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         </div>
       </div>
     </div>

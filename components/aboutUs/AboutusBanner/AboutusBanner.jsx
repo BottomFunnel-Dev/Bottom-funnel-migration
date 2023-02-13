@@ -1,12 +1,11 @@
 import React from "react";
 import styles from "./AboutusBanner.module.css";
-import Image from "next/Image";
+import Image from "next/image";
 
 export const AboutusBanner = () => {
   return (
     <div className={styles.aboutusBanner}>
       <div className={styles.aboutusbannerimage}>
-        {/* <img src="/Images/aboutusImage/banner.webp" alt="banner image" /> */}
         <Image
           src={"/Images/aboutusImage/banner.webp"}
           alt={"bannerimage"}

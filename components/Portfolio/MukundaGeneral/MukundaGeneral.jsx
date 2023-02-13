@@ -33,7 +33,11 @@ export const MukundaGeneral = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Bootstrap, Php, Apache</p>
+   <p><strong>Frontend</strong>: Javascript, Jquery, </p>
+   <p><strong>Backend</strong>: PHP</p>
+   <p><strong>CMS</strong>: Wordpress</p>
+   <p><strong>Database</strong>: Mysql</p>
+
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -54,7 +58,13 @@ export const MukundaGeneral = () => {
 <img src='Images/portfolio/mukunda/logo/download (2) 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
+<div>
+<Link href="https://www.themukunda.com/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
     
     </div>
     
@@ -62,10 +72,7 @@ export const MukundaGeneral = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    <Lottie className={styles.lottieimages} style={{
-
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Lottie className={styles.lottieimages} options={lottieDefaultOptions}   />
   
     
     </div>

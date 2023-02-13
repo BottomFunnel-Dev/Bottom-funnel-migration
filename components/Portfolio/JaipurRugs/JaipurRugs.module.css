@@ -1,6 +1,5 @@
 .nextholidaymainboxes{
-  /* border: 1px solid red; */
-  height: 90vh;
+  height: fit-content;
   display: flex;
   background: url("/Images/portfolio/jaipur rugs/background/Group 372.png");
   background-size: 100% 100%;
@@ -18,9 +17,7 @@
   margin-right: 2%;
   margin-top: 5%;
   }
-  .nextholidayrighttbox>p{
-  font-size: smaller;
-  }
+
   .nextholidayrightinsideflexbox{
   /* border: 1px solid red; */
   height: fit-content;
@@ -35,20 +32,20 @@
   }
   .nextholidaywrapbox1>h5{
   font-weight: 900;
-  font-size: 15px;
-  text-align: center;
+ 
+  text-align: left;
   }
   
   .nextholidaywrapbox1>p{
-  font-size: 12px;
-  text-align: center;
-  margin-top: -0%;
+  
+  text-align: left;
+margin: 0;
   }
   
   .portfolioavailableonicon{
   display: flex;
-   margin: auto;
    width: 60%;
+   margin-left: -2%;
   }
   .porfolionextholidayicon{
   margin: 5% ;
@@ -58,7 +55,7 @@
   }
   
   .porfolionextholidayicon:nth-child(2){
-  width: 25%;
+  width: 30%;
   }
   
   .porfolionextholidayicon:last-child{
@@ -76,7 +73,7 @@
   }
   .nextholidaywrapboximages{
   width: 30%;
-  margin-left: 8%;
+  margin-left: 2%;
   }
   .nextholidaywrapboximages>img{
   height: 100%;
@@ -94,7 +91,7 @@
   font-size: 14px;
   font-weight: 600;
   color: white;
-  margin-left: 45%;
+  margin-left: 40%;
   margin-top: 05%;
   }
   .nextholidayviewcasebutton:hover{
@@ -114,82 +111,109 @@
   background-repeat: no-repeat;
   padding: 20px; 
   }
-  .nextholidayleftbox{
-   height: 100%;
-   width: 100%;
-  }
-  .nextholidayrighttbox{
+  
+.nextholidayleftbox{
+  height: 100%;
+  width: 100%;
+ }
+ .nextholidayrighttbox{
   height: fit-content;
   width: 100%;
   margin-top: 5%;
-  }
-  .nextholidayrighttbox>h1{
+ }
+ 
+ .nextholidayrighttbox>h1{
   text-align: center;
   font-weight: 700;
   font-size: 30px;
-  }
-  .nextholidayrighttbox>p{
-  font-size: 14px;
-  text-align: justify;
-  margin: 2%;
-  }
-  .nextholidayrightinsideflexbox{
-  height: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  }
-  .nextholidaywrapbox1{
-  width: 40%;
-  margin: 3%;
-  padding: 5px;
-  }
-  .nextholidaywrapbox1>h5{
-  font-weight: 900;
-  font-size: 20px;
-  text-align: center;
-  }
-  .nextholidaywrapbox1>p{
-  font-size: 12px;
-  height: fit-content;
-  text-align: center;
-  margin-top: -0%;
-  margin-right: 2%;
+ 
+ }
+ 
+ 
+ 
+ .nextholidayrighttbox>p{
+ font-size: 14px;
+ text-align: justify;
+ margin: 2%;
+ }
+ .nextholidayrightinsideflexbox{
+ height: fit-content;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ }
+ 
+ .nextholidaywrapbox1{
+ width: 40%;
+ margin: 3%;
+ padding: 5px;
+ }
+ 
+ .nextholidaywrapbox1>h5{
+ font-weight: 900;
+ font-size: 20px;
+ text-align: center;
+ 
+ }
+ .nextholidaywrapbox1>p{
+ font-size: 12px;
+ height: fit-content;
+ text-align: center;
+ margin-top: -0%;
+ margin-right: 2%;
+ 
+ }
+ .portfolioavailableonicon{
+ display: flex;
+ margin: auto;
+ width: 70%;
+ }
+ .porfolionextholidayicon{
+ margin: 5% ;
+ height: 25%;
+ width: 30%;
+ 
+ }
+ 
+ .androidappicon{
+   margin: 5% ;
+   height: 25%;
+   width: 35%;
   
-  }
-  .portfolioavailableonicon{
-  display: flex;
-  margin: auto;
-  width: 70%;
-  }
-  .porfolionextholidayicon{
-  margin: 5% ;
-  height: 25%;
-  width: 30%;
-  border-right: 1px solid white;
-  }
-  .porfolionextholidayicon:last-child{
-  border-right: none;
-  }
-  .androidappicon>img{
-  height: 100%;
-  width: 90%;
-  object-fit: contain;
-  }
-  .porfolionextholidayicon>img{
-  height: 100%;
-  width: 80%;
-  object-fit: contain;
-  }
-  .nextholidaywrapboximages{
-  width: 35%;
-  height: 8%;
-  }
-  .nextholidaywrapboximages>img{
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  }
+ 
+ }
+ 
+ .androidappicon>img{
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ }
+ 
+ .porfolionextholidayicon:last-child{
+ border-right: none;
+ }
+ .porfolionextholidayicon>img{
+ height: 100%;
+ width: 70%;
+ object-fit: contain;
+ }
+ 
+ 
+ .androidappicon>img{
+     height: 100%;
+ width: 70%;
+ object-fit: contain;
+ }
+ 
+ .nextholidaywrapboximages{
+ width: 35%;
+ height: 8%;
+ }
+ .nextholidaywrapboximages>img{
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ }
   .nextholidayviewcasebutton{
   padding: 5px 10px;
   border-radius: 100px;

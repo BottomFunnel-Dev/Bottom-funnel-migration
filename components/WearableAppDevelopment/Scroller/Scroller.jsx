@@ -29,8 +29,7 @@ export const Scroller = () => {
                                 <p>Platforms are a major part of digital marketing today. They allow businesses to reach more people with their message.</p>
                                 <li>Analyzing Core Requirements</li>
                                 <p>Core requirements are a set of minimum standards that all members of an organization must meet in order to be considered part of the team. </p>
-                                {/* <li>Implementing Roadmap</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p> */}
+                                
                             </div>
                         </div>
 

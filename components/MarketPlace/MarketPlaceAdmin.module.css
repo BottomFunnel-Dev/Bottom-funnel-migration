@@ -1,336 +1,284 @@
 .marketplaceadminmainbox {
-  height: fit-content;
-  width: 100%;
-  /* margin-top: 5%; */
+height: fit-content;
+width: 100%;
 }
 
 .marketplaceflexboxforadmin {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+display: flex;
+align-items: center;
+height: 100%;
+width: 100%;
 }
 
 .marketplaceadminbackgroundimagebanner {
-  width: 70%;
-  /* height: 100%; */
-  padding: 2%;
-  background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
-  background-repeat: no-repeat;
-  /* background-size: 120%; */
-  background-position: center;
+width: 70%;
+padding: 2%;
+background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+background-repeat: no-repeat;
+background-position: center;
 }
-
 .marketplaceadminchangableimagecontent {
-  /* border: 1px solid red; */
-  width: 48%;
-  margin-left: -10%;
-  height: 450px;
-  margin-top: 1%;
+width: 48%;
+margin-left: -10%;
+height: 450px;
+margin-top: 1%;
 }
-
 .imageboxmarketplaceadmin {
-  object-fit: contain;
-  height: 100%;
-  width: 90%;
-  overflow: hidden;
+object-fit: contain;
+height: 100%;
+width: 90%;
+overflow: hidden;
 }
-
 .marketplaceadminbackgroundimagebannertextbox {
-  width: 70%;
-  height: 30%;
-  margin-left: 5%;
-  /* margin-top: 2%; */
+width: 70%;
+height: 30%;
+margin-left: 5%;
 }
-
 .marketplaceadminboxingfordoingflex {
-  height: 55%;
-  width: 80%;
-  margin-left: 2%;
+height: 55%;
+width: 80%;
+margin-left: 2%;
 }
-
 .marketplaceadminflexboxing {
-  display: flex;
-  flex-wrap: wrap;
-  /* border: 1px solid red; */
+display: flex;
+flex-wrap: wrap;
 }
-
 .marketplaceadminflexboxingforimageandtxtcontain {
-  /* border: 1px solid red; */
-  /* height: 50%; */
-  width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 2%;
-  display: flex;
-  /* padding: 15px; */
+width: 40%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 2%;
+display: flex;
 }
-
 .marketplaceadminflexboxingforimageandtxtcontain:hover {
-  cursor: pointer;
-  /* margin-top: 0; */
-  transition: all 0.2s linear;
-  transform: scale(1.1);
-  /* transform: translateY(-5px); */
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: scale(1.1);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .marketplaceadminflexboxingforimagecontain {
-  width: 15%;
-  height: 50px;
-  margin: auto;
-  /* border: 1px solid red; */
+width: 15%;
+height: 50px;
+margin: auto;
 }
 
 .marketplaceadminlogo {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-  /* border: 1px solid red; */
-  margin-top: -4%;
+object-fit: contain;
+height: 100%;
+width: 100%;
+margin-top: -4%;
 }
 
 .marketplaceadminflexboxingfortxtcontain {
-  /* border: 1px solid black; */
-  width: 80%;
-  height: auto;
+width: 80%;
+height: auto;
 }
 
 .marketplaceadminflexboxingfortxtcontain > h5 {
-  margin-top: 2%;
-  /* border: 2px solid red; */
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 21.6px;
-  vertical-align: baseline;
+margin-top: 2%;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+vertical-align: baseline;
 }
 
 .marketplaceadminflexboxingfortxtcontain > p {
-  /* border: 2px solid red; */
-  margin-top: 0%;
-  font-size: 15px;
-  line-height: 20px;
-  vertical-align: baseline;
-  font-weight: 400;
+margin-top: 0%;
+font-size: 15px;
+line-height: 20px;
+vertical-align: baseline;
+font-weight: 400;
 }
-
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .marketplaceadminmainbox {
-    height: fit-content;
-    width: 100%;
-    /* margin-top: 5%; */
-  }
+.marketplaceadminmainbox {
+height: fit-content;
+width: 100%;
 
-  .marketplaceflexboxforadmin {
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  }
+}
 
-  .marketplaceadminbackgroundimagebanner {
-    width: 95%;
-    /* height: 100%; */
-    padding: 2%;
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
-    background-repeat: no-repeat;
-    /* background-size: 120%; */
-    background-position: center;
-  }
+.marketplaceflexboxforadmin {
+flex-direction: column-reverse;
+align-items: center;
+height: 100%;
+width: 100%;
+}
 
-  .marketplaceadminchangableimagecontent {
-    /* border: 1px solid red; */
-    width: 80%;
-    margin-left: 10%;
-    height: 90%;
-    margin-top: 1%;
-  }
+.marketplaceadminbackgroundimagebanner {
+width: 95%;
+padding: 2%;
+background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+background-repeat: no-repeat;
+background-position: center;
+}
 
-  .imageboxmarketplaceadmin {
-    object-fit: contain;
-    height: 100%;
-    width: 90%;
-  }
+.marketplaceadminchangableimagecontent {
+width: 80%;
+margin-left: 10%;
+height: 90%;
+margin-top: 1%;
+}
 
-  .marketplaceadminbackgroundimagebannertextbox {
-    width: 95%;
-    height: 30%;
-    /* margin-left: 5%; */
-    /* border: 1px solid gold; */
-    /* margin-top: 2%; */
-  }
+.imageboxmarketplaceadmin {
+object-fit: contain;
+height: 100%;
+width: 90%;
+}
 
-  .marketplaceadminbackgroundimagebannertextbox > h2 {
-    /* border: 1px solid red; */
-    width: 100%;
-    margin-bottom: 0%;
-  }
+.marketplaceadminbackgroundimagebannertextbox {
+width: 95%;
+height: 30%;
+}
 
-  .marketplaceadminbackgroundimagebannertextbox > p {
-    font-size: 15px;
-  }
+.marketplaceadminbackgroundimagebannertextbox > h2 {
+width: 100%;
+margin-bottom: 0%;
+}
 
-  .marketplaceadminboxingfordoingflex {
-    height: 55%;
-    width: 100%;
-    margin-left: 2%;
-    /* border: 1px solid red; */
-  }
+.marketplaceadminbackgroundimagebannertextbox > p {
+font-size: 15px;
+}
 
-  .marketplaceadminflexboxing {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.marketplaceadminboxingfordoingflex {
+height: 55%;
+width: 100%;
+margin-left: 2%;
+}
 
-  .marketplaceadminflexboxingforimageandtxtcontain {
-    /* height: 50%; */
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 2%;
-    display: flex;
-    /* padding: 15px; */
-  }
+.marketplaceadminflexboxing {
+display: flex;
+flex-wrap: wrap;
+}
 
-  .marketplaceadminflexboxingforimagecontain {
-    width: 15%;
-    height: 50px;
-    margin: auto;
-    /* border: 1px solid black; */
-  }
+.marketplaceadminflexboxingforimageandtxtcontain {
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 2%;
+display: flex;
+}
 
-  .marketplaceadminflexboxingfortxtcontain {
-    /* border: 1px solid red; */
-    width: 80%;
-    height: auto;
-  }
+.marketplaceadminflexboxingforimagecontain {
+width: 15%;
+height: 50px;
+margin: auto;
+}
 
-  .marketplaceadminflexboxingfortxtcontain > h5 {
-    /* border: 1px solid red; */
-    margin-top: 2%;
-  }
+.marketplaceadminflexboxingfortxtcontain {
+width: 80%;
+height: auto;
+}
 
-  .marketplaceadminflexboxingfortxtcontain > p {
-    /* border: 1px solid red; */
-    margin-top: 2%;
-  }
+.marketplaceadminflexboxingfortxtcontain > h5 {
+margin-top: 2%;
+}
 
-  .marketplaceadminlogo {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-    /* border: 1px solid red; */
-    margin-top: 0%;
-  }
+.marketplaceadminflexboxingfortxtcontain > p {
+margin-top: 2%;
+}
+
+.marketplaceadminlogo {
+object-fit: contain;
+height: 100%;
+width: 100%;
+margin-top: 0%;
+}
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .marketplaceadminmainbox {
-    height: fit-content;
-    width: 100%;
-    margin-top: 18%;
-  }
+.marketplaceadminmainbox {
+height: fit-content;
+width: 100%;
+margin-top: 18%;
+}
 
-  .marketplaceflexboxforadmin {
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-  }
+.marketplaceflexboxforadmin {
+flex-direction: column-reverse;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+.marketplaceadminbackgroundimagebanner {
+width: 95%;
+padding: 2%;
+background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
+background-repeat: no-repeat;
+background-position: center;
+}
+.marketplaceadminchangableimagecontent {
+width: 80%;
+margin-left: 10%;
+height: 90%;
+margin-top: 1%;
+}
+.imageboxmarketplaceadmin {
+object-fit: contain;
+height: 100%;
+width: 90%;
+}
+.marketplaceadminbackgroundimagebannertextbox {
+width: 95%;
+height: 30%;
 
-  .marketplaceadminbackgroundimagebanner {
-    width: 95%;
-    /* height: 100%; */
-    padding: 2%;
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
-    background-repeat: no-repeat;
-    /* background-size: 120%; */
-    background-position: center;
-  }
+}
 
-  .marketplaceadminchangableimagecontent {
-    /* border: 1px solid red; */
-    width: 80%;
-    margin-left: 10%;
-    height: 90%;
-    margin-top: 1%;
-  }
+.marketplaceadminbackgroundimagebannertextbox > h2 {
 
-  .imageboxmarketplaceadmin {
-    object-fit: contain;
-    height: 100%;
-    width: 90%;
-  }
+width: 100%;
+margin-bottom: 0%;
+}
 
-  .marketplaceadminbackgroundimagebannertextbox {
-    width: 95%;
-    height: 30%;
-    /* margin-left: 5%; */
-    /* border: 1px solid gold; */
-    /* margin-top: 2%; */
-  }
+.marketplaceadminbackgroundimagebannertextbox > p {
+font-size: 15px;
+}
 
-  .marketplaceadminbackgroundimagebannertextbox > h2 {
-    /* border: 1px solid red; */
-    width: 100%;
-    margin-bottom: 0%;
-  }
+.marketplaceadminboxingfordoingflex {
+height: 55%;
+width: 100%;
+margin-left: 2%;
+}
 
-  .marketplaceadminbackgroundimagebannertextbox > p {
-    font-size: 15px;
-  }
+.marketplaceadminflexboxing {
+display: flex;
+flex-wrap: wrap;
+}
 
-  .marketplaceadminboxingfordoingflex {
-    height: 55%;
-    width: 100%;
-    margin-left: 2%;
-    /* border: 1px solid red; */
-  }
+.marketplaceadminflexboxingforimageandtxtcontain {
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 2%;
+display: flex;
 
-  .marketplaceadminflexboxing {
-    display: flex;
-    flex-wrap: wrap;
-  }
+}
 
-  .marketplaceadminflexboxingforimageandtxtcontain {
-    /* height: 50%; */
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 2%;
-    display: flex;
-    /* padding: 15px; */
-  }
+.marketplaceadminflexboxingforimagecontain {
+width: 15%;
+height: 50px;
+margin: auto;
+}
 
-  .marketplaceadminflexboxingforimagecontain {
-    width: 15%;
-    height: 50px;
-    margin: auto;
-    /* border: 1px solid black; */
-  }
+.marketplaceadminflexboxingfortxtcontain {
 
-  .marketplaceadminflexboxingfortxtcontain {
-    /* border: 1px solid red; */
-    width: 80%;
-    height: auto;
-  }
+width: 80%;
+height: auto;
+}
 
-  .marketplaceadminflexboxingfortxtcontain > h5 {
-    /* border: 1px solid red; */
-    margin-top: 2%;
-  }
+.marketplaceadminflexboxingfortxtcontain > h5 {
 
-  .marketplaceadminflexboxingfortxtcontain > p {
-    /* border: 1px solid red; */
-    margin-top: 2%;
-  }
+margin-top: 2%;
+}
 
-  .marketplaceadminlogo {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-    /* border: 1px solid red; */
-    margin-top: 0%;
-  }
+.marketplaceadminflexboxingfortxtcontain > p {
+
+margin-top: 2%;
+}
+
+.marketplaceadminlogo {
+object-fit: contain;
+height: 100%;
+width: 100%;
+
+margin-top: 0%;
+}
 }

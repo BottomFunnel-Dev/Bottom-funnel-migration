@@ -24,7 +24,6 @@ export const KotlinIntegration = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Payment Gateway Integration</h4>
@@ -40,7 +39,6 @@ export const KotlinIntegration = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Mobile App Development</h4>
@@ -56,7 +54,6 @@ export const KotlinIntegration = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Kotlin App Optimization</h4>
@@ -73,7 +70,6 @@ export const KotlinIntegration = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Upgrading The Kotlin App</h4>
@@ -93,7 +89,6 @@ export const KotlinIntegration = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Kotlin App Maintenance</h4>
@@ -110,7 +105,6 @@ export const KotlinIntegration = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Kotlin Migration</h4>
@@ -127,7 +121,6 @@ export const KotlinIntegration = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Independent Testing</h4>
@@ -144,7 +137,6 @@ export const KotlinIntegration = () => {
           style={{ width: "100%", height: "100%" }}
         />
            
-                                {/* <img src="Images/Kotlin/Icons/check 2.png"/> */}
                             </div>
                             <div className={styles.kotlinIntegrationText}>
                                 <h4>Kotlin Cross Platform Services</h4>

@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './featuresComp.module.css';
+import React from "react";
+import styles from "./featuresComp.module.css";
 
 export const FeaturesComp = () => {
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./popup.module.css";
 
 import { IconContext } from "react-icons/lib";
@@ -13,31 +13,31 @@ import { RiMessage2Fill } from "react-icons/ri";
 import { BiMessage } from "react-icons/bi";
 import { interested, budget, countrycodes } from "../ContectForm/countrycode";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
-export const PopupForm = ( {formStyle}) => {
+export const PopupForm = ({ formStyle }) => {
   const form = useRef();
 
-  const serviceID = "service_219qjzb";
-  const template = "template_0fxfi75";
-  const publicKey = "w37MD2W3eugHo9N6r";
+  // const serviceID = "service_219qjzb";
+  // const template = "template_0fxfi75";
+  // const publicKey = "w37MD2W3eugHo9N6r";
 
   const sendEmail = (e) => {
     e.preventDefault();
+    return;
 
-    emailjs.sendForm(serviceID, template, form.current, publicKey).then(
-      (result) => {
-        console.log(result.text);
-        alert("email sent successfully");
-      },
-      (error) => {
-        console.log(error.text);
-        console.log("failed");
-      }
-    );
-    form.current.reset()
+    // emailjs.sendForm(serviceID, template, form.current, publicKey).then(
+    //   (result) => {
+    //     console.log(result.text);
+    //     alert("email sent successfully");
+    //   },
+    //   (error) => {
+    //     console.log(error.text);
+    //     console.log("failed");
+    //   },
+    // );
+    // form.current.reset();
   };
-
 
   return (
     <div>
@@ -95,7 +95,12 @@ export const PopupForm = ( {formStyle}) => {
             <IconContext.Provider value={{ className: styles.popupformIcon }}>
               <CgMenuGridR />
             </IconContext.Provider>
-            <select className={styles.popupselectPart} name="interest" required id="">
+            <select
+              className={styles.popupselectPart}
+              name="interest"
+              required
+              id=""
+            >
               <option value="Select">Interested In*</option>
               {interested.map((item, i) => (
                 <option key={i} value={item.service}>
@@ -108,7 +113,12 @@ export const PopupForm = ( {formStyle}) => {
             <IconContext.Provider value={{ className: styles.popupformIcon }}>
               <BsCurrencyDollar />
             </IconContext.Provider>
-            <select className={styles.popupselectPart} name="budget" required id="">
+            <select
+              className={styles.popupselectPart}
+              name="budget"
+              required
+              id=""
+            >
               <option value="Select">Your Budget</option>
               {budget.map((item, i) => (
                 <option key={i} value={item.budget}>
@@ -130,7 +140,9 @@ export const PopupForm = ( {formStyle}) => {
             />
           </div>
           <div className={styles.popuptextareaClass}>
-            <IconContext.Provider value={{ className: styles.popupformMessageIcon }}>
+            <IconContext.Provider
+              value={{ className: styles.popupformMessageIcon }}
+            >
               <BiMessage />
             </IconContext.Provider>
             <label htmlFor="textarea"> Message</label>

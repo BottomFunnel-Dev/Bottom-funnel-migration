@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./carpoolingRide.module.css";
-// import { BottomButton } from "../particularComponents/Button/BottomButton";
 
 export const CarpoolingRide = () => {
   return (

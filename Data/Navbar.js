@@ -198,12 +198,12 @@ export const digitalmarket = [
   {
     dropContent: "Local SEO Services",
     navIcons: "/Images/navbar/services/localseo.png",
-    path: "/local-seo",
+    path: "/local-seo-services",
   },
   {
     dropContent: "SEM Services",
     navIcons: "/Images/navbar/services/sem.png",
-    path: "/seo-sem",
+    path: "/sem-services",
   },
   {
     dropContent: "PPC Management Services",
@@ -213,17 +213,17 @@ export const digitalmarket = [
   {
     dropContent: "Guest Posting Services",
     navIcons: "/Images/navbar/services/guest.png",
-    path: "/seo-guest-post",
+    path: "/guest-posting-services",
   },
   {
     dropContent: "Link Building Services",
     navIcons: "/Images/navbar/services/link.png",
-    path: "/seo-link-building",
+    path: "/link-building-services",
   },
   {
     dropContent: "Email Marketing Services",
     navIcons: "/Images/navbar/services/email.png",
-    path: "/seo-emailservices",
+    path: "/emailmarketing-services",
   },
 ];
 
@@ -928,19 +928,19 @@ export const discoverContent = [
   {
     title: "Scoping sessions",
     description: `Enlighten our tech experts about your breakthrough idea in an intensive session. We characterise your product idea and define the Scope of work.`,
-    cardImg: "/Images/navbar/discovericons/training.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/scopingsession.svg",
     path: "/scopingsession",
   },
   {
     title: "Business analysis",
     description: `We elicit business needs, study the competitive landscape, perform strategic analysis, and provide bespoke solutions.`,
-    cardImg: "/Images/navbar/discovericons/line-chart.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/businesanalysis.svg",
     path: "/businessanylysis",
   },
   {
     title: "Product discovery workshop & design sprints",
     description: `Define your product strategy, prioritize features and visualize the end results with our strategic Discovery workshops. Validate assumptions with real users and find answers to most pressing concerns with Design Sprint.`,
-    cardImg: "/Images/navbar/discovericons/product.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/Productdiscovery.svg",
     path: "/productdiscovery",
   },
 ];
@@ -949,12 +949,12 @@ export const discoverRightContent = [
   {
     title: "Full cycle product development",
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "/Images/navbar/discovericons/lifecycle.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/fullcycledevelopment.svg",
   },
   {
     title: "Innovation Lab",
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "/Images/navbar/discovericons/graduation-cap.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/innovationlab.svg",
   },
 ];
 
@@ -983,13 +983,13 @@ export const designRightContent = [
   {
     title: "Full cycle product development",
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "/Images/navbar/discovericons/lifecycle.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/fullcycledevelopment.svg",
     path: "/Full-Cycle-Poduct-Design",
   },
   {
     title: "Innovation Lab",
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "/Images/navbar/discovericons/graduation-cap.png",
+    cardImg: "/Images/NavbarIconsSvg/Discover section/innovationlab.svg",
   },
 ];
 
@@ -997,19 +997,19 @@ export const scaleContent = [
   {
     title: "IT Consulting Services",
     description: `Our IT consulting services provide you the gears necessary for overcoming technological challenges.`,
-    cardImg: "/Images/navbar/scaleicons/technical-support.png",
+    cardImg: "/Images/NavbarIconsSvg/scale section/itconsultingservices.svg",
     path: "/IT-consulting",
   },
   {
     title: "Digital Transformation",
     description: `We help you digitally transform and scale your business through the power of technology and innovation.`,
-    cardImg: "/Images/navbar/scaleicons/digitalization.png",
+    cardImg: "/Images/NavbarIconsSvg/scale section/digitaltranformation.svg",
     path: "/Digital-transformation",
   },
   {
     title: `Product Launch and Growth Hacking`,
     description: `We outline low-budget innovative strategies, identify channels for rapid customer acquisition and scale businesses to new heights.`,
-    cardImg: "/Images/navbar/scaleicons/arrow-up.png",
+    cardImg: "/Images/NavbarIconsSvg/scale section/productlaunch.svg",
   },
 ];
 
@@ -1017,12 +1017,12 @@ export const scaleRightContent = [
   {
     title: "Full cycle product development",
     description: ` We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
-    cardImg: "/Images/card/anywhate",
+    cardImg: "/Images/NavbarIconsSvg/scale section/fullcycledevelopment.svg",
   },
   {
     title: "Innovation Lab",
     description: ` We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
-    cardImg: "/Images/card/anywhate",
+    cardImg: "/Images/NavbarIconsSvg/scale section/innovationlab.svg",
   },
 ];
 

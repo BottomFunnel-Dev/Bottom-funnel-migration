@@ -1,154 +1,125 @@
 .aicontentbannermainboxes {
-  height: 100vh;
-  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
-  background-size: cover;
-  position: relative;
+height: 100vh;
+background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
+background-size: cover;
+position: relative;
 }
-
 .aicontentbannerboxfortext {
-  height: 40%;
-  width: 44%;
-  position: absolute;
-  top: 37%;
-  left: 5%;
-  color: white;
+height: 40%;
+width: 44%;
+position: absolute;
+top: 37%;
+left: 5%;
+color: white;
 }
-
 .aicontentbannerboxfortext > h1 {
-  font-weight: 700;
-  font-size: 40px;
+font-weight: 700;
+font-size: 40px;
 }
-
 .aicontentbannerboxfortext > p {
-  font-size: 20px;
-  text-align: justify;
+font-size: 20px;
+text-align: justify;
 }
-
 .aicontentbannerbutton {
-  padding: 10px 50px;
-  border-radius: 100px;
-  width: 250px;
-  background-color: #3380f2;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-  margin-top: 5%;
+padding: 10px 50px;
+border-radius: 100px;
+width: 250px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
+margin-top: 5%;
 }
-
 .aicontentbannerbutton:hover {
-  background-color: white;
-  color: #3380f2;
+background-color: white;
+color: #3380f2;
 }
-
-
 /* for mobile screen responsive */
-
 @media only screen and (min-width:0px) and (max-width:480px){
 .aicontentbannermainboxes {
-  height: 100vh;
-  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
-  background-size: 100% 40%;
-  position: relative;
-  background-repeat: no-repeat;
-
+height: 100vh;
+background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
+background-size: 100% 40%;
+position: relative;
+background-repeat: no-repeat;
 }
-
 .aicontentbannerboxfortext {
-  height: 40%;
-  width: 90%;
-
-  position: absolute;
-  top: 40%;
-  margin: auto;
- color: black;
+height: 40%;
+width: 90%;
+position: absolute;
+top: 40%;
+margin: auto;
+color: black;
 }
-
 .aicontentbannerboxfortext > h1 {
-  font-weight: 700;
-  font-size: 25px;
-  text-align: center;
+font-weight: 700;
+font-size: 25px;
+text-align: center;
 }
-
 .aicontentbannerboxfortext > p {
-  font-size: 20px;
-  text-align: justify;
+font-size: 20px;
+text-align: justify;
 }
-
 .aicontentbannerbutton {
-  padding: 10px 50px;
-  border-radius: 100px;
-  width: 250px;
-  background-color: #3380f2;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
+padding: 10px 50px;
+border-radius: 100px;
+width: 250px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
 margin-left: 12%;
 }
-
 .aicontentbannerbutton:hover {
-  background-color: white;
-  color: #3380f2;
+background-color: white;
+color: #3380f2;
 }
-
 }
-
 /* for any type of tablet screen responsive */
-
 @media only screen and ( min-width:481px) and (max-width:900px){
-
 .aicontentbannermainboxes {
-  height: 50vh;
-  background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  position: relative;
-
+height: 50vh;
+background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
 }
-
 .aicontentbannerboxfortext {
-  height: 40%;
-  width: 44%;
-  position: absolute;
-  top: 15%;
-  left: 5%;
-  color: c;
+height: 40%;
+width: 44%;
+position: absolute;
+top: 15%;
+left: 5%;
+color: c;
 }
-
 .aicontentbannerboxfortext > h1 {
-  font-weight: 700;
-  font-size: 25px;
+font-weight: 700;
+font-size: 25px;
 }
-
 .aicontentbannerboxfortext > p {
-  font-size: 14px;
-  text-align: justify;
+font-size: 14px;
+text-align: justify;
 }
-
 .aicontentbannerbutton {
-  padding: 10px 50px;
-  border-radius: 100px;
-  width: 250px;
-  background-color: #3380f2;
-  border: none;
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-
+padding: 10px 50px;
+border-radius: 100px;
+width: 250px;
+background-color: #3380f2;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 18px;
+font-weight: 600;
+color: white;
 }
-
 .aicontentbannerbutton:hover {
-  background-color: white;
-  color: #3380f2;
+background-color: white;
+color: #3380f2;
 }
-
-
-
 }

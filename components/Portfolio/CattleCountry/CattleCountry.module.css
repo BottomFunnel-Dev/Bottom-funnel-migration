@@ -18,9 +18,7 @@ width: 45%;
 margin-right: 2%;
 margin-top: 5%;
 }
-.nextholidayrighttbox>p{
-font-size: smaller;
-}
+
 .nextholidayrightinsideflexbox{
 /* border: 1px solid red; */
 height: fit-content;
@@ -35,19 +33,18 @@ padding: 5px;
 }
 .nextholidaywrapbox1>h5{
 font-weight: 900;
-font-size: 15px;
-text-align: center;
+text-align: left;
 }
 
 .nextholidaywrapbox1>p{
-font-size: 12px;
-text-align: center;
-margin-top: -0%;
+margin: 0;
+text-align: left;
+
 }
 
 .portfolioavailableonicon{
 display: flex;
- margin: auto;
+
  width: 60%;
 }
 .porfolionextholidayicon{
@@ -58,7 +55,7 @@ border-right: 1px solid white;
 }
 
 .porfolionextholidayicon:nth-child(2){
-width: 25%;
+width:30%;
 }
 
 .porfolionextholidayicon:last-child{
@@ -76,7 +73,7 @@ object-fit: contain;
 }
 .nextholidaywrapboximages{
 width: 30%;
-margin-left: 8%;
+
 }
 .nextholidaywrapboximages>img{
 height: 100%;
@@ -119,15 +116,20 @@ padding: 20px;
  width: 100%;
 }
 .nextholidayrighttbox{
-height: fit-content;
-width: 100%;
-margin-top: 5%;
+ height: fit-content;
+ width: 100%;
+ margin-top: 5%;
 }
+
 .nextholidayrighttbox>h1{
-text-align: center;
-font-weight: 700;
-font-size: 30px;
+ text-align: center;
+ font-weight: 700;
+ font-size: 30px;
+
 }
+
+
+
 .nextholidayrighttbox>p{
 font-size: 14px;
 text-align: justify;
@@ -139,15 +141,18 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 }
+
 .nextholidaywrapbox1{
 width: 40%;
 margin: 3%;
 padding: 5px;
 }
+
 .nextholidaywrapbox1>h5{
 font-weight: 900;
 font-size: 20px;
 text-align: center;
+
 }
 .nextholidaywrapbox1>p{
 font-size: 12px;
@@ -166,21 +171,39 @@ width: 70%;
 margin: 5% ;
 height: 25%;
 width: 30%;
-border-right: 1px solid white;
+
 }
+
+.androidappicon{
+  margin: 5% ;
+  height: 25%;
+  width: 35%;
+ 
+
+}
+
+.androidappicon>img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+
 .porfolionextholidayicon:last-child{
 border-right: none;
 }
-.androidappicon>img{
-height: 100%;
-width: 90%;
-object-fit: contain;
-}
 .porfolionextholidayicon>img{
 height: 100%;
-width: 80%;
+width: 70%;
 object-fit: contain;
 }
+
+
+.androidappicon>img{
+    height: 100%;
+width: 70%;
+object-fit: contain;
+}
+
 .nextholidaywrapboximages{
 width: 35%;
 height: 8%;

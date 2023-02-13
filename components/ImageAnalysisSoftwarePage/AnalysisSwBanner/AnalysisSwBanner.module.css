@@ -12,61 +12,56 @@
   flex-direction: column;
   justify-content: center;
 }
-
 .AnalysisSwBannerContainer > h1 {
-  font-size: 40px;
-  margin-bottom: 1%;
-  width: 40%;
+font-size: 40px;
+margin-bottom: 1%;
+width: 40%;
 }
-
 .AnalysisSwBannerContainer > p {
-  font-size: 20px;
-  width: 40%;
-  margin-top: 1%;
+font-size: 20px;
+width: 40%;
+margin-top: 1%;
 }
-
 .AnalysisSwBannerContainer > button {
-  font-size: 18px;
-  font-weight: 600;
-  width: fit-content;
-  height: fit-content;
-  margin-top: 2%;
-  cursor: pointer;
-
-  background: #ef4c23;
-  color: #f5f5f5;
-
-  border: 2px solid #ef4c23;
-  outline: none;
-  padding: 10px 50px;
-  border-radius: 50px;
+font-size: 18px;
+font-weight: 600;
+width: fit-content;
+height: fit-content;
+margin-top: 2%;
+cursor: pointer;
+background: #ef4c23;
+color: #f5f5f5;
+border: 2px solid #ef4c23;
+outline: none;
+padding: 10px 50px;
+border-radius: 50px;
 }
 
 .AnalysisSwBannerContainer > button:hover {
-  background: #f5f5f5;
-  color: #ef4c23;
+background: #f5f5f5;
+color: #ef4c23;
 }
 
 .AnalysisSwBannerHrLine {
-  width: 30%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+width: 30%;
+margin-top: 1%;
+margin-bottom: 1%;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .AnalysisSwBannerHrLine > div {
-  border: 2px solid #fff;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
+border: 2px solid #fff;
+width: 20px;
+height: 20px;
+border-radius: 20px;
 }
 
 .AnalysisSwBannerHrLine > span {
-  width: 46%;
-  height: 2px;
-  background-color: #fff;
-  color: #fff;
+width: 46%;
+height: 2px;
+background-color: #fff;
+color: #fff;
 }

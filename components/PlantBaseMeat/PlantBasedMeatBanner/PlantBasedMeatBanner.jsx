@@ -34,7 +34,6 @@ export const PlantBasedMeatBanner = () => {
 
             <div className={styles.plantBasedBannerImageDiv}>
                 <Lottie options={lottieDefaultOptions} width={500} height={600} />
-                {/* <img src='/Images/PlantBasedMeat/banners & backgrounds/PlantBasedBannerImage.png' alt='image' /> */}
             </div>
         </div>
     );

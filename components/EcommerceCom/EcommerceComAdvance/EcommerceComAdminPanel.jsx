@@ -80,18 +80,14 @@ export const EcommerceComAdminPanel = () => {
               return (
                 <div className={styles.eCommerceAdminPanelCards} key={title}>
                   <div className={styles.eCommerceAdminPanelCardsLogo}>
-                  
-
                     <Image
-                    src={image.src}
-                    alt={image.alt}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "10%", height: "100%" }}
-                  />
-
-
+                      src={image.src}
+                      alt={image.alt}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "10%", height: "100%" }}
+                    />
                   </div>
                   <div className={styles.eCommerceAdminPanelCardsContent}>
                     <h5>{title}</h5>
@@ -105,31 +101,24 @@ export const EcommerceComAdminPanel = () => {
       </div>
       <div className={styles.eCommerceAdminImagesMain}>
         <div>
-        
           <Image
-          src={adminPanelData.backgroundImage.src}
-          alt={adminPanelData.backgroundImage.alt}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%",  zIndex: "1" }}
-        />
-
-
-
+            src={adminPanelData.backgroundImage.src}
+            alt={adminPanelData.backgroundImage.alt}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%", zIndex: "1" }}
+          />
         </div>
         <div>
-       
-
           <Image
-          src={adminPanelData.mainImage.src}
-          alt={adminPanelData.mainImage.alt}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%",  zIndex: "4" }}
-        />
-
+            src={adminPanelData.mainImage.src}
+            alt={adminPanelData.mainImage.alt}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%", zIndex: "4" }}
+          />
         </div>
       </div>
     </div>

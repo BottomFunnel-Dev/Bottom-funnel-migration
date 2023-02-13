@@ -68,7 +68,7 @@
     margin: 2% auto 2% auto;
   
     display: flex;
-    /* flex-wrap: wrap; */
+
     flex-flow: column-reverse;
     justify-content: space-between;
   }
@@ -171,20 +171,6 @@
     text-align: justify;
   }
   
-  /* .DataScienceBFContainer {
-    width: 30%;
-    height: fit-content;
-    border: 10px solid red;
-    display: flex;
-    justify-content: flex-start;
-    border: 5px solid;
-  } */
-  
-  /* .DataScienceBFContainer > img {
-    width: 80%;
-    height: 100%;
-    object-fit: contain;
-  } */
   
   .DataScienceUniqueHrLine {
     width: 90%;

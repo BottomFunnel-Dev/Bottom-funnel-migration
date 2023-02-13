@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import styles from './adminPannelComp.module.css';
+import React, { useState } from "react";
+import styles from "./adminPannelComp.module.css";
 
 export const AdminPannelComp = () => {
-
-  const [imageChange, setImageChange] = useState("/Images/Car-Rental-Page-Images/Component189.png")
+  const [imageChange, setImageChange] = useState(
+    "/Images/Car-Rental-Page-Images/Component189.png",
+  );
   const handleImageChange = (imagepath) => {
-    setImageChange(() => imagepath)
-  }
+    setImageChange(() => imagepath);
+  };
 
   const RGadminPannelData = [
-
     {
       img: "Images/Car-Rental-Page-Images/login.png",
       head: "Login",
@@ -33,16 +33,18 @@ export const AdminPannelComp = () => {
       head: "Retail Management",
       para: "We can make your admin panel look more professional and user-friendly. We can help you create a better user experience. You will be able to manage your store with ease, as well as track everything in real time.",
     },
-  ]
+  ];
 
   return (
     <div className={styles.RGadminPannelContainer}>
       <div className={styles.RGadminPannelLeftDiv}>
         {RGadminPannelData.map((e) => {
           return (
-            <div className={styles.RGadminPannelLeftDivBoxex}
-              key={e.head} onMouseEnter={() => {
-                handleImageChange(e.img)
+            <div
+              className={styles.RGadminPannelLeftDivBoxex}
+              key={e.head}
+              onMouseEnter={() => {
+                handleImageChange(e.img);
               }}
             >
               <div>
@@ -50,7 +52,7 @@ export const AdminPannelComp = () => {
                 <p> {e.para} </p>
               </div>
             </div>
-          )
+          );
         })}
       </div>
 

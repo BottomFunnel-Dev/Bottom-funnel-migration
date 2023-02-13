@@ -1,56 +1,47 @@
 .meatdeliveryadminpannelmainboxes {
-  height: fit-content;
-  padding-top: 50px;
-  display: flex;
-  background-color: white;
+height: fit-content;
+padding-top: 50px;
+display: flex;
+background-color: white;
 }
-
 .meatdeliveryadminleftbox {
-  height: 500px;
-  width: 55%;
-
-  margin-left: 5%;
+height: 500px;
+width: 55%;
+margin-left: 5%;
 }
-
 .meatdeliveryadminuppertextbox {
-  height: fit-content;
-  margin-left: 1.5%;
-  font-size: 17px;
+height: fit-content;
+margin-left: 1.5%;
+font-size: 17px;
 }
-
 .meateliverymappingboxforadminpannel {
-  height: 70%;
-  margin-top: 3%;
-  display: flex;
-  flex-wrap: wrap;
+height: 70%;
+margin-top: 3%;
+display: flex;
+flex-wrap: wrap;
 }
-
 .meatdeliveryadminboxindivisually {
-  height: 50%;
-  width: 42%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 1%;
-  padding: 15px;
-  border-radius: 10px;
+height: 50%;
+width: 42%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 1%;
+padding: 15px;
+border-radius: 10px;
 }
-
 .meatdeliveryadminboxindivisually:hover {
-  transform: scale(1.02);
-  background-color: #f6deb8;
+transform: scale(1.02);
+background-color: #f6deb8;
 }
-
 .meatdeliveryadminrightboxes {
-  height: fit-content;
-  width: 45%;
-
-  margin: 0% 0% 0% 2%;
+height: fit-content;
+width: 45%;
+margin: 0% 0% 0% 2%;
 }
-
 .meatdeliveryadminrightboxes > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+height: 100%;
+width: 100%;
+object-fit: contain;
 }
 .specialcolor {
-  color: #ef4c23;
+color: #ef4c23;
 }

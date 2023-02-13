@@ -1,46 +1,33 @@
 .ourProcessParentDiv {
-  /* border: 1px solid red; */
-  width: 95%;
-  margin: auto;
+width: 95%;
+margin: auto;
 }
-
 .consultingOurProcessHeadingMainDiv {
-  /* border: 1px solid navy; */
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+text-align: center;
+align-items: center;
+justify-content: center;
 }
-
 .consultingOurProcessHeadingMainDiv>h1>span {
-  color: #ef4c23;
+color: #ef4c23;
 }
-
 .consultingOurProcessImageMainDiv {
-  /* border: 1px solid red; */
-  height: 350px;
-  margin-top: 4%;
+height: 350px;
+margin-top: 4%;
 }
-
 .consultingOurProcessImageMainDiv>span {
-  width: 100%;
-  object-fit: cover;
+width: 100%;
+object-fit: cover;
 }
-
 .consultingOurProcessImageContentDiv {
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  column-gap: 10px;
+display: flex;
+flex-direction: row;
+column-gap: 10px;
 }
-
 .consultingOurProcessImageChildDiv {
-  /* border: 1px solid orange; */
-  width: 22%;
-  text-align: center;
-  margin-left: 2%;
+width: 22%;
+text-align: center;
+margin-left: 2%;
 }
-
 .consultingOurProcessImageChildDiv>p {
-  font-size: 15px;
-  /* text-align: center; */
+font-size: 15px;
 }

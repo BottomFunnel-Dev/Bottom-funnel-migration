@@ -10,7 +10,7 @@ export default function Logisticwhy() {
             Why Choose Bottom Funnel As Your Logistic software Development
             Company ?{" "}
           </h2>
-          {/* <h2>Software Devlopment Services We Offer</h2> */}
+    
           <p>
             Get a head start on your logistics and transportation business with
             this great, easy-to-use website. It's fast and powerful, so you can

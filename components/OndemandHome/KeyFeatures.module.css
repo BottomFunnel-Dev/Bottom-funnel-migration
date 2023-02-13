@@ -1,8 +1,5 @@
 .keyfeatures {
-  /* border: 2px solid red; */
   width: 100%;
-  /* height: 600px; */
-  /* background-color: green; */
 }
 .keyfeatures > h1 {
   text-align: center;
@@ -12,19 +9,16 @@
 .customerApp {
   width: 100%;
   height: 500px;
-  /* background-color: red; */
   display: flex;
 }
 
 .customerImages {
   position: relative;
-  /* background-color: pink; */
   width: 50%;
 }
 
 .featureText {
   width: 50%;
-  /* background-color: blue; */
   position: relative;
 }
 .featureText > div {
@@ -67,14 +61,11 @@
 .adminpanel {
   width: 100%;
   height: 600px;
-
   display: flex;
-  /* background-color: green; */
 }
 
 .admintext {
   width: 50%;
-  /* background-color: blue; */
   position: relative;
 }
 .admintext > div {
@@ -86,7 +77,6 @@
 }
 .adminImage {
   width: 50%;
-  /* background-color: red; */
   position: relative;
 }
 .backadmin {
@@ -124,20 +114,17 @@
 .serviceApp {
   width: 90%;
   height: 500px;
-  /* background-color: green; */
   display: flex;
 }
 
 .serviceImage {
   width: 40%;
   height: 100%;
-  /* background-color: red; */
   position: relative;
 }
 
 .serviceapptext {
   width: 60%;
-  /* background-color: blue; */
   position: relative;
 }
 .serviceapptext > div {
@@ -173,14 +160,12 @@
 .serviceproviderpanel {
   width: 90%;
   height: 600px;
-  /* background-color: green; */
   display: flex;
   padding: 30px;
 }
 
 .serviceprovidertext {
   width: 50%;
-  /* background-color: blue; */
   position: relative;
 }
 .serviceprovidertext > div {
@@ -194,7 +179,6 @@
 .serviceProviderImage {
   width: 50%;
   height: 100%;
-  /* background-color: red; */
   position: relative;
 }
 

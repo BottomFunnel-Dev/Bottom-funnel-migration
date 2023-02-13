@@ -9,15 +9,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .AnalysisMidBannerContainer > p {
-  width: 60%;
-  margin: 2% auto;
-  font-size: 18px;
+width: 60%;
+margin: 2% auto;
+font-size: 18px;
 }
-
 .AnalysisMidBannerContainer > h1 {
-  font-size: 32px;
-  width: 60%;
-  margin: 2% auto;
+font-size: 32px;
+width: 60%;
+margin: 2% auto;
 }

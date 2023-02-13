@@ -1,7 +1,6 @@
 .Escooterdivcontainer{
  width: 100%; 
  height: 370px;
- /* background-color: aqua; */
 }
 .Escooterthundersub{
  width: 90%;
@@ -10,16 +9,13 @@ padding: 20px;
 margin: auto;
 text-align: center;
 background-color: #32ade9;
-/* background: url("/public/Images/Escooter/rectangleblue.png");
-background-repeat: no-repeat;
-background-size: 100% 320px; */
+
  
 }
 .Escooterthundersub>div>h1{
     color: white;
 }
 .szEscooterthunderdiv{
-    /* background-color: red; */
     width: 100%;
     height: 230px;
     display: flex;
@@ -36,17 +32,14 @@ background-size: 100% 320px; */
     display: flex;
     margin: 20px  30px;
     align-items: center;
-    /* background-color: blue; */
-
-    text-align: left;
+     text-align: left;
  
 }
  
 .szwhythunder>div{
-    
-     width: 25%;
+    width: 25%;
     height: 60px;
-    /* background-color: chartreuse; */
+
 }
 .szwhythunderimages>img{
     width: 100%;
@@ -57,7 +50,6 @@ background-size: 100% 320px; */
 .szwhythunder>p{
     font-size: 18px;
     margin: 0;
-    /* background-color: brown; */
 }
  
  

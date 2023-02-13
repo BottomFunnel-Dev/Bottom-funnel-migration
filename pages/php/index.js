@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-
 import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
 import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
 import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable";
@@ -39,7 +38,7 @@ function SkillsPhp() {
       {isWhyApp ? <SkillsComWhyApp data={WhyAppData} /> : null}
       {isWhyBF ? <SkillsComWhyBF data={WhyBFData} /> : null}
       {isBookCall ? <SkillsComBookCall data={BookCallData} /> : null}
-      {isRemarkable ? <SkillsComRemarkable data={RemarkableData} /> : null}
+      <SkillsComRemarkable data={RemarkableData} />
     </div>
   );
 }

@@ -1,13 +1,11 @@
 .CustomWebMidBannerMain {
   padding: 5% 3% 5% 3%;
-
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/Images/customWebPhotos/mid-banner.webp");
+  url("/Images/customWebPhotos/mid-banner.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;

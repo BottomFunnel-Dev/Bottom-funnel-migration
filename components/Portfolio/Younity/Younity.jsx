@@ -34,7 +34,10 @@ export const Younity = () => {
     
     <div className={styles.yanbalindibox}>
     <h5>Technologies</h5>
-    <p>Javascript, JQuery, Mordernizr, JAVA, Microsoft</p>
+    <p><strong>Frontend:</strong> Javascript, Jquery, Underscore </p>
+    <p><strong>Backend:</strong> Java, Php </p>
+    <p><strong>Web Servers:</strong> Nginx, Apache</p>
+    <p><strong>Database:</strong>DigitalOcean </p>
     </div>
     <div className={styles.yanbalindibox}>
     <h5>Available on</h5>
@@ -72,8 +75,14 @@ export const Younity = () => {
 <img src='Images/portfolio/Younity/logo/Mobile 1.png' alt='images' />
 </div>
 
-<div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>
-    
+<div>
+<Link href="https://www.younity.in/">
+<a className={styles.androidappicon}>
+<button className={styles.yanabalbuttonalongflex}>view case study</button>
+</a>
+</Link>
+</div>
+
     </div>
     
     </div>

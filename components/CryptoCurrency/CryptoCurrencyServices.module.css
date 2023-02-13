@@ -15,7 +15,6 @@
   margin: 0% 2% 0% 5%;
   display: flex;
   flex-wrap: wrap;
-  /* border: 2px solid gold; */
   justify-content: center;
 }
 
@@ -27,7 +26,6 @@
   padding: 10px;
   border-radius: 10px;
   text-align: justify;
-  /* border: 2px solid red; */
 }
 
 .cryptoserviceflexboxmappingind:hover {

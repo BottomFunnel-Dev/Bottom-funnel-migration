@@ -1,5 +1,5 @@
 .yanbalmainboxes{
-height: 85vh;
+height: fit-content;
 display: flex;
 background: url("/Images/portfolio/wifi study/background/Group 770828.png");
 background-repeat: no-repeat;
@@ -43,6 +43,7 @@ font-weight: 800;
 
 .yanbalindibox p{
 width: 60%;
+margin: 0;
 }
 .yanbaliconflexbox{
 width: 40%;
@@ -200,7 +201,8 @@ margin-top: 15%;
 margin-bottom: 25%;
 }
 .yanabalbuttonalongflex:hover{
-background-color: white;
-color: black;
-}
+    background-color: #20C39A;
+    color: white;
+    }
+    
 }
