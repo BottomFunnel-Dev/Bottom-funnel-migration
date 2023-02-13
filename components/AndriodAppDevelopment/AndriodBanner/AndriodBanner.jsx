@@ -3,7 +3,7 @@ import styles from "./AndriodBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/android.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const AndriodBanner = () => {
+export default function AndriodBanner() {
   return (
     <>
       <div className={styles.andriodAppDevbannermainbox}>
@@ -36,4 +36,4 @@ export const AndriodBanner = () => {
       </div>
     </>
   );
-};
+}

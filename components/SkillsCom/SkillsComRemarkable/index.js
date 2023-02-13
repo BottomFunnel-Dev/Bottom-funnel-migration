@@ -48,7 +48,7 @@ const ContectForm = dynamic(() => import("../../ContectForm/ContectForm"), {
 });
 import styles from "./SkillsComRemarkable.module.css";
 
-export const SkillsComRemarkable = ({ data }) => {
+export default function SkillsComRemarkable({ data }) {
   const { title, description, cardsData } = data;
 
   return (
@@ -81,4 +81,4 @@ export const SkillsComRemarkable = ({ data }) => {
       <MainFooter />
     </>
   );
-};
+}

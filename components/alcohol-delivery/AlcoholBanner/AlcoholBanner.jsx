@@ -3,7 +3,7 @@ import styles from "./AlcoholBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/alchohal delivery.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const AlcoholBanner = () => {
+export default function AlcoholBanner() {
   return (
     <div className={styles.alcoholBannerMain}>
       <div className={styles.alcoholBannerContent}>
@@ -27,4 +27,4 @@ export const AlcoholBanner = () => {
       </div>
     </div>
   );
-};
+}

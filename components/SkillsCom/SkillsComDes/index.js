@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SkillsComDes.module.css";
 
-export const SkillsComDes = ({ DescrptionData }) => {
+export default function SkillsComDes({ DescrptionData }) {
   const { title, image, description } = DescrptionData;
   return (
     <div className={styles.skillsdesmain}>
@@ -18,4 +18,4 @@ export const SkillsComDes = ({ DescrptionData }) => {
       </div>
     </div>
   );
-};
+}

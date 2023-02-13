@@ -1,12 +1,23 @@
 import React from "react";
-import ApplyNavbar from "../../components/ApplyasTalent/applyNavbar/ApplyNavbar";
-import Banner from "../../components/ApplyasTalent/banner/Banner";
 import Head from "next/head";
+import dynamic from "next/dynamic";
+
+// ---------------importing components with lazy loading-----------------------
+const ApplyNavbar = dynamic(
+  () => import("../../components/ApplyasTalent/applyNavbar/ApplyNavbar"),
+  { loading: () => "loading..." },
+);
+const Banner = dynamic(
+  () => import("../../components/ApplyasTalent/banner/Banner"),
+  { loading: () => "loading..." },
+);
+
+// ------------------Main page function-----------------
 export default function () {
   return (
     <div>
       <Head>
-       <title>apply as talent</title>
+        <title>apply as talent</title>
       </Head>
       <ApplyNavbar />
       <Banner />

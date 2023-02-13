@@ -3,9 +3,13 @@ import AlcoholAdminPanel from "./AlcoholAdminPanel/AlcoholAdminPanel";
 import AcoholAdvanceTech from "./AlcoholAdvanceTech/AlcoholAdvanceTech";
 import AlcoholPartnerApp from "./AlcoholPartnerApp/AlcoholPartnerApp";
 // import "./AlcoholSolutions.css";
-import { alcoholCustomer, alcoholAdmin, alcoholPartner } from "../../Data/panelsData";
+import {
+  alcoholCustomer,
+  alcoholAdmin,
+  alcoholPartner,
+} from "../../Data/panelsData";
 
-export const AlcoholSolutions = () => {
+export default function AlcoholSolutions() {
   return (
     <div>
       <AcoholAdvanceTech customerData={alcoholCustomer} />
@@ -13,4 +17,4 @@ export const AlcoholSolutions = () => {
       <AlcoholPartnerApp customerData={alcoholPartner} />
     </div>
   );
-};
+}

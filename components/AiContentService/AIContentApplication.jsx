@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 import styles from "./AIContentApplication.module.css";
 
-export const AIContentApplication = () => {
+export default function AIContentApplication() {
   return (
     <div className={styles.aicontentapplicationmaiboxes}>
       <div className={styles.aicontentapplicationsmalltypebanner}>
-      <Image
-          src={'/Images/AiContentsolution/bannersBackgrounds/Rectangle line.webp'}
-          alt={'images'}
+        <Image
+          src={
+            "/Images/AiContentsolution/bannersBackgrounds/Rectangle line.webp"
+          }
+          alt={"images"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
@@ -20,5 +22,4 @@ export const AIContentApplication = () => {
       </div>
     </div>
   );
-};
-
+}
