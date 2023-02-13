@@ -75,6 +75,7 @@ export default function PickupDelivery() {
             logo: false,
           }}
         />
+        
         <PickupBanner />
         <Trusted partnerLogo={pickupanddeliveryLogo} />
         <PickupSolutions />

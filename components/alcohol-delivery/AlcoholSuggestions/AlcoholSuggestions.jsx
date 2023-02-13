@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./AlcoholSuggestions.module.css";
 
@@ -44,8 +45,9 @@ export const AlcoholSuggestions = () => {
   return (
     <div className={styles.alcoholExluciveAppMain}>
       <h1>
-        <span>APP SUGGESTIONS</span> FOR DIFFERENT FOOD DEVLIERY BUSINESS:
+        <span> APP SUGGESTIONS </span> FOR DIFFERENT FOOD DEVLIERY BUSINESS:
       </h1>
+
       <p>
         Get exclusive and robusts apps for your food delivery business with a
         taste of latest technology and creative designs.
@@ -56,10 +58,17 @@ export const AlcoholSuggestions = () => {
           return (
             <div key={title}>
               <div className={styles.alcoholExlcusiveAppImageDiv}>
-                <img src={img.src} alt={img.alt} />
+                <Image src={img.src}
+                  alt={img.alt}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
-              <h2>{title}</h2>
-              <p>{description}</p>
+
+              <h2> {title} </h2>
+              <p> {description} </p>
             </div>
           );
         })}
