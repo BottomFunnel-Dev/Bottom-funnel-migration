@@ -15,7 +15,7 @@ export const Nextholiday = () => {
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "80%", height: "100%" ,objectFit:"contain",
+          style={{ width: "90%", height: "100%" ,objectFit:"contain",
       
         
         }}

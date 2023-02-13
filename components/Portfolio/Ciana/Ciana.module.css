@@ -15,7 +15,7 @@ height: 100%;
 
 }
 .yanballeftboxes>p{
-font-size: 14px;
+
 text-align: justify;
 }
 .yanballeftboxinsiderflexbox{
@@ -78,9 +78,22 @@ object-fit: contain;
 .yanbalrightboxes{
 width: 50%;
 margin: auto;
-
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
 
 }
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
 .yanabalbuttonalongflex{
 padding: 10px 50px;
 border-radius: 100px;

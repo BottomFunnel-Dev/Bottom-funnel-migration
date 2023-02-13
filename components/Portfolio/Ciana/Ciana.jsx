@@ -13,7 +13,7 @@ export const Ciana = () => {
     <div className={styles.yanballeftboxinsiderflexbox}>
     <div className={styles.yanbalindibox}>
     <h5>Downloads</h5>
-    <p>170<span className={styles.yanbalplusbold}>+</span></p>
+    <p>170K<span className={styles.yanbalplusbold}>+</span></p>
     </div>
     
     <div className={styles.yanbalindibox}>
@@ -72,7 +72,7 @@ export const Ciana = () => {
     width={"0"}
     height={"0"}
     sizes={"100vw"}
-    style={{ width: "80%", height: "100%",marginLeft:"10%" ,objectFit:"contain",
+    style={{ width: "90%", height: "100%",marginLeft:"5%" ,objectFit:"contain",
 
   
   
