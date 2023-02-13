@@ -1,13 +1,17 @@
 ._SeoLinkMain1 {
   height: auto;
   width: 100%;
-  background: url("/Images/seopages/seo.webp");
+  background: url("/Images/seopages/seo.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom;
   background-origin: border-box;
   position: relative;
   margin-top: 120px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
 }
 
 .linkgifDenote {
@@ -18,7 +22,11 @@
   right: 28%;
 }
 
+<<<<<<< HEAD
 .linkgifDenote > img {
+=======
+.linkgifDenote>img {
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -35,8 +43,12 @@
   color: black;
   box-sizing: border-box;
   margin: auto;
+<<<<<<< HEAD
   margin-top: 10%;
   margin-left: 5%;
+=======
+  display: flex;
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
 }
 
 ._SeoLinkparagraph {
@@ -101,7 +113,11 @@
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 ._seoLinkforminput ~ label {
+=======
+._seoLinkforminput~label {
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
   color: #ef4c23;
   font-size: 18px;
   font-weight: 400;
@@ -122,7 +138,11 @@
   background: none;
 }
 
+<<<<<<< HEAD
 ._SeoLinkSubmitbutton > button {
+=======
+._SeoLinkSubmitbutton>button {
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
   padding: 10px 60px;
   border-radius: 25px;
   background-color: #ef4c23;
@@ -133,12 +153,20 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+<<<<<<< HEAD
 ._SeoLinkSubmitbutton > button:hover {
+=======
+._SeoLinkSubmitbutton>button:hover {
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
   color: #ef4c23;
   background-color: white;
 }
 
+<<<<<<< HEAD
 ._SeoLinkPricing > button {
+=======
+._SeoLinkPricing>button {
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba
   padding: 10px 60px;
   border-radius: 25px;
   background-color: #ef4c23;
@@ -149,7 +177,14 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+<<<<<<< HEAD
 ._SeoLinkPricing > button:hover {
   color: #ef4c23;
   background-color: white;
 }
+=======
+._SeoLinkPricing>button:hover {
+  color: #ef4c23;
+  background-color: white;
+}
+>>>>>>> 0da6557229d8b9363c1b8dbf0ca9c68ee6a03aba

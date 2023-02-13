@@ -3,7 +3,7 @@ import styles from "./carRentalHeader.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/car rental.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const CarRentalHeader = () => {
+export default function CarRentalHeader() {
   return (
     <div className={styles.RGcarRentalContainer}>
       <div className={styles.RGcarRentalHeaderLeft}>
@@ -27,4 +27,4 @@ export const CarRentalHeader = () => {
       </div>
     </div>
   );
-};
+}

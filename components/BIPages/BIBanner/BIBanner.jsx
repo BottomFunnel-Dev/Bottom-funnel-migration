@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BIBanner.module.css";
-export const BIBanner = () => {
+export default function BIBanner  ()  {
 return (
 <div className={styles.BIBannerMain}>
 <h1>

@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
 
-export const BISlider = () => {
+export default function BISlider  () {
   const data = [
     "/Images/BIPhotos/slidericons/anaconda.webp",
     "/Images/BIPhotos/slidericons/docker.webp",

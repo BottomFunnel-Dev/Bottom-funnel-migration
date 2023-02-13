@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./NFTMidBanner.module.css";
 
-export const NFTMidBanner = () => {
+export default function NFTMidBanner() {
   return (
     <div className={styles.NFTMidBannerMain}>
       <h1>NFT (Non-fungible token) Services</h1>
@@ -20,4 +20,4 @@ export const NFTMidBanner = () => {
       </p>
     </div>
   );
-};
+}

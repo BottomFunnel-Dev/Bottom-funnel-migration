@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import styles from "./SkillsComBanner.module.css";
 const Navbar = dynamic(() => import("../../Navbar/Navbar"), {
   loading: () => "loading...",
+  ssr: false,
 });
 
 export default function SkillsComBanner({ data }) {

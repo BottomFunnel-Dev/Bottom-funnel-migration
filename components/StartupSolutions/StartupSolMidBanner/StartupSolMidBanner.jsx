@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./StartupSolMidBanner.module.css";
 
-export const StartupSolMidBanner = () => {
+export default function StartupSolMidBanner() {
   return (
     <div className={styles.StartupSolMidBannerMain}>
       <h1>Startup Solutions</h1>
@@ -18,4 +18,4 @@ export const StartupSolMidBanner = () => {
       </p>
     </div>
   );
-};
+}

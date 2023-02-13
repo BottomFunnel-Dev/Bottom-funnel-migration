@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ChooseUs.module.css';
 
-export const ChooseUs = () => {
+export default function ChooseUs  () {
 return (
 <div className={styles.chooseUsMaindiv}>
 <div className={styles.chooseUsMaindivheading}>

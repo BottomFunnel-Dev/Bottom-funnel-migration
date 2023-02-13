@@ -3,7 +3,7 @@ import styles from "./Cannabiscontainer.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Cannabis.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const Cannabiscontainer = () => {
+export default function Cannabiscontainer() {
   return (
     <div className={styles.cannabuscontainermainboxes}>
       <div className={styles.cannabuscontainerboxforsometext}>
@@ -30,4 +30,4 @@ export const Cannabiscontainer = () => {
       </div>
     </div>
   );
-};
+}

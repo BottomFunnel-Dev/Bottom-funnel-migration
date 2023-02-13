@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./NFTSolutions.module.css";
 import Image from "next/image";
 
-export const NFTSolutions = () => {
+export default function NFTSolutions() {
   const cardsData = [
     {
       title: "Identifiability",
@@ -51,13 +51,13 @@ export const NFTSolutions = () => {
           <div key={title}>
             <div className={styles.NFTSolutionsImages}>
               <Image
-                  src={image}
-                  alt={title}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+                src={image}
+                alt={title}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <h2>{title}</h2>
             <p>{body}</p>
@@ -66,4 +66,4 @@ export const NFTSolutions = () => {
       </div>
     </div>
   );
-};
+}

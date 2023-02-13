@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./techStackintro.module.css";
-import { useState } from "react";
-export default function Techstackintro({ techContent }){
+
+export default function Techstackintro({ techContent }) {
   const [stack, setStack] = useState(0);
 
   const handleStack = (element) => {
@@ -57,4 +57,4 @@ export default function Techstackintro({ techContent }){
       </div>
     </div>
   );
-};
+}

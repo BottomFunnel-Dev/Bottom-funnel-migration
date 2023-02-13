@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./webDevTechStack.module.css";
-export const StackGrid = ({ gridData }) => {
+
+export default function StackGrid({ gridData }) {
   console.log("in griod Data", gridData);
   return (
     <div className={styles.stackGrid}>
@@ -14,4 +15,4 @@ export const StackGrid = ({ gridData }) => {
       ))}
     </div>
   );
-};
+}

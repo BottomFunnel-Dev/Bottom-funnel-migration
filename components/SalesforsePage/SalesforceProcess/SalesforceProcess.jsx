@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./SalesforceProcess.module.css";
 import Image from "next/image";
 
-export const SalesforceProcess = () => {
+export default function SalesforceProcess() {
   return (
     <div className={styles.SalesforceProcessContainer}>
       <h1>Process of Salesforce</h1>
@@ -20,16 +20,18 @@ export const SalesforceProcess = () => {
       </p>
       <div className={styles.SalesforceProcessMain}>
         <div className={styles.SalesforceProcessImage}>
-              <Image
-                  src={"/Images/salesforcePhotos/flowchart.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+          <Image
+            src={"/Images/salesforcePhotos/flowchart.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
-        <div className={`${styles.SalesforceProcessQualification} ${styles.SalesforceProcessContent}`}>
+        <div
+          className={`${styles.SalesforceProcessQualification} ${styles.SalesforceProcessContent}`}
+        >
           <p>
             For a lead to be qualified four factors are further access by the
             sales and marketing team. Through these, they further ensure if the
@@ -42,7 +44,9 @@ export const SalesforceProcess = () => {
             <li>Timeline</li>
           </ol>
         </div>
-        <div className={`${styles.SalesforceProcessLeadLifeCycle} ${styles.SalesforceProcessContent}`}>
+        <div
+          className={`${styles.SalesforceProcessLeadLifeCycle} ${styles.SalesforceProcessContent}`}
+        >
           <p>
             The top of the funnel represents the goal of the company for lead
             generation. While the bottom-bost part signifies the number of
@@ -56,7 +60,9 @@ export const SalesforceProcess = () => {
             <li>Action</li>
           </ol>
         </div>
-        <div className={`${styles.SalesforceProcessSalesFunnel} ${styles.SalesforceProcessContent}`} >
+        <div
+          className={`${styles.SalesforceProcessSalesFunnel} ${styles.SalesforceProcessContent}`}
+        >
           <p>
             In the case of the lead life cycle, whenever a lead makes it through
             the end of the cycle and gets rejected, they are again allowed to
@@ -69,7 +75,9 @@ export const SalesforceProcess = () => {
             <li>SQL</li>
           </ol>
         </div>
-        <div className={`${styles.SalesforceProcessLeadStatuses} ${styles.SalesforceProcessContent}`}>
+        <div
+          className={`${styles.SalesforceProcessLeadStatuses} ${styles.SalesforceProcessContent}`}
+        >
           <p>
             All the main team following up with the lead process, that is,
             marketing, presales, and inbound teams work closely to make sure
@@ -102,4 +110,4 @@ export const SalesforceProcess = () => {
       </div>
     </div>
   );
-};
+}

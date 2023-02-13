@@ -3,33 +3,37 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { bigcommerceData } from "../../components/Data/SkillsData";
 
-// ---------------importing components with lazy loading-----------------------
-const SkillsComBanner = dynamic(
-  () => import("../../components/SkillsCom/SkillsComBanner"),
-  { loading: () => "loading..." },
-);
-const SkillsComBookCall = dynamic(
-  () => import("../../components/SkillsCom/SkillsComBookCall"),
-  { loading: () => "loading..." },
-);
-const SkillsComRemarkable = dynamic(
-  () => import("../../components/SkillsCom/SkillsComRemarkable"),
-  { loading: () => "loading..." },
-);
-const SkillsComDes = dynamic(
-  () => import("../../components/SkillsCom/SkillsComDes"),
-  { loading: () => "loading..." },
-);
-const SkillsComWhyApp = dynamic(
-  () => import("../../components/SkillsCom/SkillsComWhyApp"),
-  { loading: () => "loading..." },
-);
-const SkillsComWhyBF = dynamic(
-  () => import("../../components/SkillsCom/SkillsComWhyBF"),
-  { loading: () => "loading..." },
-);
 
-// ------------------Main page function-----------------
+
+
+
+const SkillsComBanner = dynamic(
+  ()=>import( "../../components/SkillsCom/SkillsComBanner"),
+  { loading: "loading..." },
+)
+const SkillsComRemarkable = dynamic(
+  ()=>import("../../components/SkillsCom/SkillsComRemarkable"),
+  { loading: "loading..." },
+)
+const SkillsComDes = dynamic(
+  ()=>import( "../../components/SkillsCom/SkillsComDes"),
+  { loading: "loading..." },
+)
+const SkillsComWhyApp = dynamic(
+  ()=>import( "../../components/SkillsCom/SkillsComWhyApp"),
+  { loading: "loading..." },
+)
+const SkillsComWhyBF = dynamic(
+  ()=>import("../../components/SkillsCom/SkillsComWhyBF"),
+  { loading: "loading..." },
+)
+const SkillsComBookCall = dynamic(
+  ()=>import("../../components/SkillsCom/SkillsComBookCall"),
+  { loading: "loading..." },
+)
+
+
+
 function SkillsBigcommerce() {
   const {
     title,

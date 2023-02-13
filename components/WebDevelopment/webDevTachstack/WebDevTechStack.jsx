@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { StackGrid } from "./StackGrid";
 import styles from "./webDevTechStack.module.css";
 import { techStackleft, initialData, techStackright } from "./GridData";
-export const WebDevTechStack = () => {
+import dynamic from "next/dynamic";
+const StackGrid = dynamic(() => import("./StackGrid"));
 
+export default function WebDevTechStack() {
   const [stackdata, setStackdata] = useState(initialData);
 
   const handleState = (idx, el) => {
@@ -35,11 +36,11 @@ export const WebDevTechStack = () => {
               style={
                 item.stackname === stackdata.stackname
                   ? {
-                    background: "#ffe2da",
-                    borderLeft: "5px solid #ef4c23",
-                 border:"5px solid red",
-                    color: "#ef4c23",
-                  }
+                      background: "#ffe2da",
+                      borderLeft: "5px solid #ef4c23",
+                      border: "5px solid red",
+                      color: "#ef4c23",
+                    }
                   : null
               }
               onMouseEnter={() => {
@@ -60,10 +61,10 @@ export const WebDevTechStack = () => {
               style={
                 rightitem.stackname === stackdata.stackname
                   ? {
-                    background: "#ffe2da",
-                    borderLeft: "5px solid #ef4c23",
-                    color: "#ef4c23",
-                  }
+                      background: "#ffe2da",
+                      borderLeft: "5px solid #ef4c23",
+                      color: "#ef4c23",
+                    }
                   : null
               }
               onMouseEnter={() => {
@@ -78,4 +79,4 @@ export const WebDevTechStack = () => {
       </div>
     </div>
   );
-};
+}

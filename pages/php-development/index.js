@@ -1,17 +1,37 @@
 import React from "react";
-import { WebdevBanner } from "../../components/WebDevelopment/bannerWebdev/WebdevBanner";
+import dynamic from "next/dynamic";
+import Head from "next/head";
+import * as ReactAnimation from "../../public/webdevanimation/Mern.json";
 import { phpBanner } from "../../components/Data/webdevPageData/TechBannerData";
-import { Techstackintro } from "../../components/WebDevelopment/techStackintro/Techstackintro";
 import { phpstackIntro } from "../../components/Data/webdevPageData/StackData";
-import { WebDevServices } from "../../components/WebDevelopment/webdevServices/WebDevServices";
 import { phpDevServices } from "../../components/Data/webdevPageData/Popularservices";
-import { WhyTechStack } from "../../components/WebDevelopment/whyTechStack/WhyTechStack";
 import { whyPHP } from "../../components/Data/webdevPageData/whyTechStack";
-import { GetStarted } from "../../components/WebDevelopment/webGetStartedCard/GetStarted";
-import { WebDevWhy } from "../../components/WebDevelopment/webDevWhy/WebDevWhy";
 import { PHPWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
 
-import dynamic from "next/dynamic";
+const WebdevBanner = dynamic(
+  () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
+  { loading: () => "loading..." },
+);
+const Techstackintro = dynamic(
+  () => import("../../components/WebDevelopment/techStackintro/Techstackintro"),
+  { loading: () => "loading..." },
+);
+const WebDevServices = dynamic(
+  () => import("../../components/WebDevelopment/webdevServices/WebDevServices"),
+  { loading: () => "loading..." },
+);
+const WhyTechStack = dynamic(
+  () => import("../../components/WebDevelopment/whyTechStack/WhyTechStack"),
+  { loading: () => "loading..." },
+);
+const GetStarted = dynamic(
+  () => import("../../components/WebDevelopment/webGetStartedCard/GetStarted"),
+  { loading: () => "loading..." },
+);
+const WebDevWhy = dynamic(
+  () => import("../../components/WebDevelopment/webDevWhy/WebDevWhy"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -46,9 +66,10 @@ const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
   { loading: "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
-import * as ReactAnimation from "../../public/webdevanimation/Mern.json";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
 export default function PhP() {
   return (

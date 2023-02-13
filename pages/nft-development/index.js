@@ -1,50 +1,74 @@
 import React from "react";
-
-import { NFTDevBanner } from "../../components/NFTpage/NFTDevBanner/NFTDevBanner";
-import { NFTAboutIt } from "../../components/NFTpage/NFTAboutIt/NFTAboutIt";
-import { NFTOffers } from "../../components/NFTpage/NFTOffers/NFTOffers";
-import { NFTSolutions } from "../../components/NFTpage/NFTSolutions/NFTSolutions";
-import { NFTMidBanner } from "../../components/NFTpage/NFTMidBanner/NFTMidBanner";
-import { NFTWhyBF } from "../../components/NFTpage/NFTWhyBF/NFTWhyBF";
-import { CustomWebForm } from "../../components/CustomisedWebPage/CustomWebForm/CustomWebForm";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+const NFTDevBanner = dynamic(
+  () => import("../../components/NFTpage/NFTDevBanner/NFTDevBanner"),
+  { loading: () => "loading..." },
+);
+const NFTAboutIt = dynamic(
+  () => import("../../components/NFTpage/NFTAboutIt/NFTAboutIt"),
+  { loading: () => "loading..." },
+);
+const NFTOffers = dynamic(
+  () => import("../../components/NFTpage/NFTOffers/NFTOffers"),
+  { loading: () => "loading..." },
+);
+const NFTSolutions = dynamic(
+  () => import("../../components/NFTpage/NFTSolutions/NFTSolutions"),
+  { loading: () => "loading..." },
+);
+const NFTMidBanner = dynamic(
+  () => import("../../components/NFTpage/NFTMidBanner/NFTMidBanner"),
+  { loading: () => "loading..." },
+);
+const NFTWhyBF = dynamic(
+  () => import("../../components/NFTpage/NFTWhyBF/NFTWhyBF"),
+  { loading: () => "loading..." },
+);
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
 export default function NFTDevelopment() {
   return (

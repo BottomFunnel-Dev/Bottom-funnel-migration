@@ -1,48 +1,64 @@
 import React from "react";
-
-import { CareerBanner } from "../../components/CareerPage/CareerBanner/CareerBanner";
-import { CareerMain } from "../../components/CareerPage/CareerMain/CareerMain";
-import { CareerReferral } from "../../components/CareerPage/CareerReferral/CareerReferral";
-import { CarrerMidBanner } from "../../components/CareerPage/CarrerMidBanner/CarrerMidBanner";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+// ---------------importing components with lazy loading-----------------------
+const CareerBanner = dynamic(
+  () => import("../../components/CareerPage/CareerBanner/CareerBanner"),
+  { loading: () => "loading..." },
+);
+const CareerMain = dynamic(
+  () => import("../../components/CareerPage/CareerMain/CareerMain"),
+  { loading: () => "loading..." },
+);
+const CareerReferral = dynamic(
+  () => import("../../components/CareerPage/CareerReferral/CareerReferral"),
+  { loading: () => "loading..." },
+);
+const CarrerMidBanner = dynamic(
+  () => import("../../components/CareerPage/CarrerMidBanner/CarrerMidBanner"),
+  { loading: () => "loading.." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: () => "loading.." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
+// ------------------Main page function-----------------
 const index = () => {
   return (
     <div style={{ color: "#393939" }}>
