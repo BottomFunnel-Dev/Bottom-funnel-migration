@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AboutusBanner.module.css";
 import Image from "next/image";
 
-export const AboutusBanner = () => {
+export default function AboutusBanner() {
   return (
     <div className={styles.aboutusBanner}>
       <div className={styles.aboutusbannerimage}>
@@ -32,4 +32,4 @@ export const AboutusBanner = () => {
       </div>
     </div>
   );
-};
+}

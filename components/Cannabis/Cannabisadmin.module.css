@@ -1,73 +1,89 @@
 .cannabiesadminpannelmainboxes {
-height: fit-content;
+  height: fit-content;
 }
+
 .cannbiesadminpannelmainboxsometextupper {
-height: fit-content;
-margin-top: 10%;
-margin-left: 4%;
+  height: fit-content;
+  margin-top: 10%;
+  margin-left: 4%;
 }
+
 .cannabiesadminpannelmainflexboxclass {
-height: fit-content;
-display: flex;
+  height: fit-content;
+  display: flex;
 }
+
 .cannabieasadminpannelleftbox {
-height: fit-content;
-display: flex;
-flex-wrap: wrap;
-width: 55%;
-margin-left: 3%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  margin-left: 3%;
 }
+
 .cannabiesadminpannelmapperboxindivisyal {
-height: 200px;
-width: 44%;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin: 1%;
-text-align: justify;
-padding: 10px;
-border-radius: 10px;
+  height: 200px;
+  width: 44%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 10px;
 }
+
 .cannabiesadminpannelmapperboxindivisyal:hover {
-transform: scale(1.02);
+  transform: scale(1.02);
 }
+
 .cannabiesamadminpannelrightbox {
-width: 45%;
-margin-left: 1%;
-height: 460px;
-background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png");
+  /* border: 1px solid red; */
+  width: 45%;
+  height: 460px;
+  /* margin-left: 1%; */
+  /* background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png"); */
 }
+
 .cannbiesamadminpannelrightboxinnerimage {
-height: 450px;
-width: 90%;
-margin: 2% 3% 3% 5%;
+  /* border: 1px solid green; */
+  height: 460px;
+  width: 90%;
+  margin: 2% 3% 3% 5%;
+  object-fit: cover;
 }
+
 .cannbiesamadminpannelrightboxinnerimage > img {
-height: 100%;
-width: 100%;
-object-fit: contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
+
 .cannabieasadminpannelmapperboxindivisyalicon {
-height: 30%;
-width: 15%;
+  height: 30%;
+  width: 15%;
 }
-.cannabieasadminpannelmapperboxindivisyalicon > img {
-height: 100%;
-width: 100%;
-object-fit: contain;
-padding: 10px;
+
+.cannabieasadminpannelmapperboxindivisyalicon > Image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid red;
+  /* padding: 10px; */
 }
+
 .canabisadminpannelmapperboxindivisyaltxt > h4 {
-margin-top: 1%;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.6px;
-vertical-align: baseline;
-margin-bottom: 1%;
-margin-top: 0%;
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
 }
+
 .canabisadminpannelmapperboxindivisyaltxt > p {
-margin-top: 0%;
-font-size: 15px;
-line-height: 20px;
-vertical-align: baseline;
-font-weight: 400;
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

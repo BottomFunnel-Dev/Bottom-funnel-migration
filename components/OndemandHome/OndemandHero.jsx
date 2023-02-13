@@ -1,19 +1,9 @@
 import React from "react";
 import styles from "./ondemandHero.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/On demand home services.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const OndemandHero = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
   return (
     <div className={styles.ondemandHero}>
       <div className={styles.textcontainer}>
@@ -29,7 +19,14 @@ const OndemandHero = () => {
       </div>
 
       <div className={styles.imageContainer}>
-        <Lottie options={lottieDefaultOptions} width={750} height={550} />
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
       </div>
     </div>
   );

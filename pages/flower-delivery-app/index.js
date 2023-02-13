@@ -67,9 +67,10 @@ export default function FlowerDelivery() {
           }}
           navredux={{
             color: "black",
-            logo: true,
+            logo: false,
           }}
         />
+        
         <FlowerDeliveryBanner />
         <FlowerDeliveryService />
         <FlowerDeliverySolution />

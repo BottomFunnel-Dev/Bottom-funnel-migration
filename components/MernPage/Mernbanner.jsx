@@ -1,23 +1,14 @@
 import React from "react";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 import styles from "./mernbanner.module.css";
 
 export const Mernbanner = ({ bannerdata, animateData }) => {
-  const lottieData = {
-    loop: true,
-    autoplay: true,
-    animationData: animateData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-  
   return (
     <div
       className={styles.mernBanner}
       style={{
-         background: `url(${bannerdata.background})`,
+        background: `url(${bannerdata.background})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -31,17 +22,19 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
 
       <div className={styles.bannerIcons}>
         {bannerdata.icons.map((item, index) => (
-          <div key={index} className={styles.mernskills}>
-            
-           
-          </div>
+          <div key={index} className={styles.mernskills}></div>
         ))}
       </div>
       <div className={styles.mernanimation}>
-            <Lottie style={{
-              marginTop:"10%"
-            }} options={lottieData} height={600} width={700} />
-            </div>
+        <Player
+          src={animateData}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
+      </div>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./AlcoholAdvanceTech.module.css";
 
@@ -5,13 +6,18 @@ export default function AlcoholAdvanceTech({ customerData }) {
   const [active, setActive] = useState(0);
   return (
     <div className={styles.alcoholcustomer}>
-      <h1>Customer App</h1>
+      <h1> Customer App </h1>
+
       <div className={styles.alcoholcustomersub}>
         <div className={styles.alcoholcustomerleft}>
           <div className={styles.alcoholCustomerImage}>
-            <img
+            <Image
               src={customerData.customerdata[active].img.src}
               alt={customerData.customerdata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

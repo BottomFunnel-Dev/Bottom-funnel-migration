@@ -1,19 +1,9 @@
 import React from "react";
 import styles from "./groceryBanner.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Grocery.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const GroceryBanner = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
   return (
     <div className={styles.grocerybanner}>
       <div className={styles.groceryText}>
@@ -29,37 +19,15 @@ const GroceryBanner = () => {
       </div>
 
       <div className={styles.groceryImage}>
-        <Lottie options={lottieDefaultOptions} width={700} height={500} />
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="1"
+          loop
+          controls
+          autoplay
+        ></Player>
       </div>
-      {/* <div className={styles.groceryImage}>
-        <div className={styles.mainPhone}>
-          <img src="Images/grocery/banner.png" alt="image" />
-        </div>
-        <div className={styles.groceryback}></div>
-        
-        <div className={styles.zomatoimg}>
-          <img src="Images/grocery/zomato.png" alt="image" />
-        </div>
-
-        <div className={styles.dunzoimg}>
-          <img src="Images/grocery/dunzo.png" alt="image" />
-        </div>
-
-        <div className={styles.dealimg}>
-          <img src="Images/grocery/dealshare.png" alt="image" />
-        </div>
-
-        <div className={styles.bundleimg}>
-          <img src="Images/grocery/bundle.png" alt="image" />
-        </div>
-
-        <div className={styles.blinkitimg}>
-          <img src="Images/grocery/blinkit.png" alt="image" />
-        </div>
-        <div className={styles.jumiaimg}>
-          <img src="Images/grocery/jumia.png" alt="image" />
-        </div>
-      </div> */}
     </div>
   );
 };

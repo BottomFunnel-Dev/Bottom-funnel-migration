@@ -1,4 +1,4 @@
-import React from 'react';
+import Image from 'next/image';
 import styles from "./MarketplaceFooter.module.css";
 
 const Maketplacefooter = () => {
@@ -12,35 +12,78 @@ const Maketplacefooter = () => {
         </div>
 
         <div className={styles.marketplacefooterdivspecial}>
-          <img className={styles.marketplacefootermaindivrightindex0} src='/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png' alt='rightflexboximageindex0' />
-          <img className={styles.marketplacemaindivrightindex2} src='/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png' alt='rightflexboximageindex0' />
+          <Image className={styles.marketplacefootermaindivrightindex0}
+            src={'/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png'}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+
+          <Image className={styles.marketplacemaindivrightindex2}
+            src={'/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png'}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
 
           <div className={styles.marketplacefooterdivspecialimageflex}>
-
             <div className={styles.marketplacefooterinnerbox}>
               <div className={styles.marketplaceinnerboxdivfooter}>
-                <img className={styles.marketplacefooterinnerboximg} src='/Images/Marketplaceapp/icons/sett.png' alt='image1' />
+                <Image className={styles.marketplacefooterinnerboximg}
+                  src={'/Images/Marketplaceapp/icons/sett.png'}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 <h6 className={styles.smalltxtmarketplace}> Full Customization </h6>
               </div>
             </div>
 
             <div className={styles.marketplacefooterinnerbox}>
               <div className={styles.marketplaceinnerboxdivfooter}>
-                <img className={styles.marketplacefooterinnerboximg} src='/Images/Marketplaceapp/icons/sett2.png' alt='image1' />
+                <Image className={styles.marketplacefooterinnerboximg}
+                  src={'/Images/Marketplaceapp/icons/sett2.png'}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+
                 <h6 className={styles.smalltxtmarketplace}> Highly Scalable </h6>
               </div>
             </div>
 
             <div className={styles.marketplacefooterinnerbox}>
               <div className={styles.marketplaceinnerboxdivfooter}>
-                <img className={styles.marketplacefooterinnerboximg} src='/Images/Marketplaceapp/icons/sett3.png' alt='image1' />
+                <Image className={styles.marketplacefooterinnerboximg}
+                  src={'/Images/Marketplaceapp/icons/sett3.png'}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 <h6 className={styles.smalltxtmarketplace}> Dedicated Support </h6>
               </div>
             </div>
 
             <div className={styles.marketplacefooterinnerbox}>
               <div className={styles.marketplaceinnerboxdivfooter}>
-                <img className={styles.marketplacefooterinnerboximg} src='/Images/Marketplaceapp/icons/sett4.png' alt='image1' />
+                <Image className={styles.marketplacefooterinnerboximg}
+                  src={'/Images/Marketplaceapp/icons/sett4.png'}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 <h6 className={styles.smalltxtmarketplace}> Global Solution </h6>
               </div>
             </div>

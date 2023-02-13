@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./webDevServices.module.css";
 
-export const WebDevServices = ({ webservicesContent }) => {
+export default function WebDevServices  ({ webservicesContent }) {
   return (
     <div className={styles.mainboxeswebservices}>
       <div className={styles.webDevServices}>

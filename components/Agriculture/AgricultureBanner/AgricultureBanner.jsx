@@ -3,7 +3,7 @@ import styles from "./AgricultureBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Agriculture.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-const AgricultureBanner = () => {
+export default function AgricultureBanner() {
   return (
     <div className={styles.agricultureBannerParentDiv}>
       <div className={styles.agricultureMeatBannerContentDiv}>
@@ -33,6 +33,4 @@ const AgricultureBanner = () => {
       </div>
     </div>
   );
-};
-
-export default AgricultureBanner;
+}

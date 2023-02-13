@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./OurBlogs.module.css";
 import Image from "next/image";
 
-export const OurBlogs = () => {
+export default function OurBlogs() {
   const cardsData = [
     {
       title: "How much does it cost to develop a mobile application",
@@ -39,7 +39,7 @@ export const OurBlogs = () => {
           return (
             <div className={styles.OurBlogscardsmain} key={idx}>
               <div className={styles.OurBlogscardsimage}>
-                  <Image
+                <Image
                   src={image}
                   alt={title}
                   width={"0"}
@@ -60,4 +60,4 @@ export const OurBlogs = () => {
       </div>
     </div>
   );
-};
+}

@@ -1,8 +1,7 @@
-import React from 'react';
+import React from "react";
 import styles from "./AiContentHuman.module.css";
 
-export const AiContentHuman = () => {
-
+export default function AiContentHuman() {
   const aicontenthumandata = [
     {
       logo: "/Images/AiContentsolution/icons/configuration 7.webp",
@@ -10,20 +9,17 @@ export const AiContentHuman = () => {
       stxt: "It knows how to write amazing ads that get people excited about your business and understand what makes them tick. From there on out, it's all about making sure that every message is sending the right message at the right time",
     },
 
-
     {
       logo: "/Images/AiContentsolution/icons/configuration 8.webp",
       htxt: "Powerful settings",
       stxt: "No more tedious editing! Write unique and human-like copy in seconds with Brand: Write. With a powerful settings feature, you can adjust the creativity level or the tone of voice to generate prefect copy for your business.",
     },
 
-
     {
       logo: "/Images/AiContentsolution/icons/configuration 9.webp",
       htxt: "Optimized for conversions",
       stxt: "Write unique and human-like copy with Brand Voice: an easy way for you to get started on the path of becoming a master at writing sales pages. It lets you choose from different styles like conversational, friendly, and formal, so that your copy sounds more natural.",
     },
-
 
     {
       logo: "/Images/AiContentsolution/icons/configuration 12.webp",
@@ -42,20 +38,14 @@ export const AiContentHuman = () => {
       htxt: "Sentence Rewriter",
       stxt: "Writing duplicate content is a pain, but AI can take care of that for you. Sentence Rewriter can understand what you want to say and restructure your sentences accordingly. It also gives you human-like copy that sounds natural.",
     },
-
-  ]
+  ];
 
   return (
     <div className={styles.aicontenthumanmainboxes}>
-
       <div className={styles.aicontenthumantextbox}>
-        <p>
-          THE WORLDS MOST ADVANCED AI LANGUAGE MODEL
-        </p>
+        <p>THE WORLDS MOST ADVANCED AI LANGUAGE MODEL</p>
 
-        <h1>
-          Write unique and human-like copy in seconds
-        </h1>
+        <h1>Write unique and human-like copy in seconds</h1>
       </div>
 
       <div className={styles.aicontenthumanbannerimageandtextbox}>
@@ -73,12 +63,11 @@ export const AiContentHuman = () => {
                     <p>{e.stxt}</p>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
       </div>
     </div>
   );
-};
-
+}
