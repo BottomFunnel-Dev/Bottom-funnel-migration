@@ -2,18 +2,47 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 
-// ---------------importing components with lazy loading-----------------------
-import { WebdevBanner } from "../../components/WebDevelopment/bannerWebdev/WebdevBanner";
+
+
+// ---------------importing components data from data folder from components-----------------------
 import { aspnetBanner } from "../../components/Data/webdevPageData/TechBannerData";
-import { Techstackintro } from "../../components/WebDevelopment/techStackintro/Techstackintro";
 import { aspstackIntro } from "../../components/Data/webdevPageData/StackData";
-import { WebDevServices } from "../../components/WebDevelopment/webdevServices/WebDevServices";
 import { aspnetwebDevServices } from "../../components/Data/webdevPageData/Popularservices";
-import { WhyTechStack } from "../../components/WebDevelopment/whyTechStack/WhyTechStack";
 import { whyAspnet } from "../../components/Data/webdevPageData/whyTechStack";
-import { GetStarted } from "../../components/WebDevelopment/webGetStartedCard/GetStarted";
-import { WebDevWhy } from "../../components/WebDevelopment/webDevWhy/WebDevWhy";
 import { aspnetWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
+
+
+// ---------------importing components with lazy loading-----------------------
+
+const WebdevBanner = dynamic(
+  ()=>import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
+  {loading:()=>"Loading..."}
+)
+
+const Techstackintro = dynamic(
+  ()=>import("../../components/WebDevelopment/techStackintro/Techstackintro"),
+  {loading:()=>"Loading..."}
+)
+
+const WebDevServices = dynamic(
+  ()=>import("../../components/WebDevelopment/webdevServices/WebDevServices"),
+  {loading:()=>"Loading..."}
+)
+
+const WhyTechStack = dynamic(
+  ()=>import("../../components/WebDevelopment/whyTechStack/WhyTechStack"),
+  {loading:()=>"Loading..."}
+)
+const GetStarted = dynamic(
+  ()=>import("../../components/WebDevelopment/webGetStartedCard/GetStarted"),
+  {loading:()=>"Loading..."}
+)
+
+const WebDevWhy = dynamic(
+  ()=>import("../../components/WebDevelopment/webDevWhy/WebDevWhy"),
+  {loading:()=>"Loading..."}
+)
+
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: () => "Loading..." },
