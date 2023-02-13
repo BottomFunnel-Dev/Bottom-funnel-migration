@@ -1,13 +1,35 @@
 import React from "react";
 import Head from "next/head";
-import { SkillsComBanner } from "../../components/SkillsCom/SkillsComBanner";
-import { SkillsComBookCall } from "../../components/SkillsCom/SkillsComBookCall";
-import { SkillsComRemarkable } from "../../components/SkillsCom/SkillsComRemarkable";
-import { SkillsComDes } from "../../components/SkillsCom/SkillsComDes";
-import { SkillsComWhyApp } from "../../components/SkillsCom/SkillsComWhyApp";
-import { SkillsComWhyBF } from "../../components/SkillsCom/SkillsComWhyBF";
+import dynamic from "next/dynamic";
 import { phpData } from "../../components/Data/SkillsData";
 
+// ---------------importing components with lazy loading-----------------------
+const SkillsComBanner = dynamic(
+  () => import("../../components/SkillsCom/SkillsComBanner"),
+  { loading: () => "loading..." },
+);
+const SkillsComBookCall = dynamic(
+  () => import("../../components/SkillsCom/SkillsComBookCall"),
+  { loading: () => "loading..." },
+);
+const SkillsComRemarkable = dynamic(
+  () => import("../../components/SkillsCom/SkillsComRemarkable"),
+  { loading: () => "loading..." },
+);
+const SkillsComDes = dynamic(
+  () => import("../../components/SkillsCom/SkillsComDes"),
+  { loading: () => "loading..." },
+);
+const SkillsComWhyApp = dynamic(
+  () => import("../../components/SkillsCom/SkillsComWhyApp"),
+  { loading: () => "loading..." },
+);
+const SkillsComWhyBF = dynamic(
+  () => import("../../components/SkillsCom/SkillsComWhyBF"),
+  { loading: () => "loading..." },
+);
+
+// ------------------Main page function-----------------
 function SkillsPhp() {
   const {
     title,
