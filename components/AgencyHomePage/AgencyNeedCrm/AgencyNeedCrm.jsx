@@ -5,7 +5,14 @@ export const AgencyNeedCrm = () => {
   return (
     <div className={style.AgencyNeedCrmmaindiv}>
         <div className={style.AgencyNeedCrmimage}>
-            <img src="/Images/Agencyhomepagephotos/agencyneed.png" alt="image" />
+        <Image
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+            src="/Images/Agencyhomepagephotos/agencyneed.webp"
+            alt="/Images/Agencyhomepagephotos/agencyneed.webp"
+          />
         </div>
         <div className={style.AgencyNeedCrmcontain}>
             <h2>Why do agencies need CRM?</h2>
