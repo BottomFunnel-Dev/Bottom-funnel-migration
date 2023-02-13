@@ -13,7 +13,7 @@ import { BiMessage } from "react-icons/bi";
 import styles from "./CustomWebForm.module.css";
 import { countrycodes, interested, budget } from "./countrycode";
 
-export const CustomWebForm = () => {
+export default function CustomWebForm  () {
 return (
 <div className={styles.CustomWebFormContainer}>
 <div className={styles.CustomWebFormStats}>

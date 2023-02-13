@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./BigDataServiceBF.module.css";
 import Image from "next/image";
 
-export const BigDataServiceBF = () => {
+export default function BigDataServiceBF  () {
 const cardsData = [
 {
 title: "Advnaceed Analytics & Insights",

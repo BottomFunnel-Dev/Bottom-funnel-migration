@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BIAnalytics.module.css";
-export const BIAnalytics = () => {
+export default function BIAnalytics  () {
 return (
 <div className={styles.BIAnalyticsContainer}>
 <h1>

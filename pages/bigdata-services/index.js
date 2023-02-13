@@ -1,12 +1,29 @@
 import React from "react";
 
-import { BigDataServiceBanner } from "../../components/BigDataServiceCom/BigDataServiceBanner/BigDataServiceBanner";
-import { BigDataServicePopular } from "../../components/BigDataServiceCom/BigDataServicePopular/BigDataServicePopular";
-import { BigDataServiceHandling } from "../../components/BigDataServiceCom/BigDataServiceHandling/BigDataServiceHandling";
-import { BigDataServiceBF } from "../../components/BigDataServiceCom/BigDataServiceBF/BigDataServiceBF";
-import { CustomWebForm } from "../../components/BigDataServiceCom/BigDataServiceForm/BigDataServiceForm";
+
 
 import dynamic from "next/dynamic";
+
+
+
+const BigDataServiceBanner = dynamic(
+  () => import("../../components/BigDataServiceCom/BigDataServiceBanner/BigDataServiceBanner"),
+  { loading: "loading..." },
+);
+
+const BigDataServicePopular = dynamic(
+  () => import("../../components/BigDataServiceCom/BigDataServicePopular/BigDataServicePopular"),
+  { loading: "loading..." },
+);
+const BigDataServiceHandling = dynamic(
+  () => import("../../components/BigDataServiceCom/BigDataServiceHandling/BigDataServiceHandling"),
+  { loading: "loading..." },
+);
+const BigDataServiceBF = dynamic(
+  () => import("../../components/BigDataServiceCom/BigDataServiceBF/BigDataServiceBF"),
+  { loading: "loading..." },
+);
+
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./AviationLetsDiscuss.module.css"
 
-export const AviationLetsDiscuss = () => {
+export default function AviationLetsDiscuss (){
   return (
     <div className={styles.aviationletsdiscussmainboxes}>
     <button className={styles.aviationletsdiscussbutton}>Lets Discuss Your Project</button>

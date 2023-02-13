@@ -2,7 +2,7 @@ import React from "react";
 import { AwardsCardes } from "../AwardsCardes/AwardsCardes";
 import awards from "./AwardsSection.module.css";
 
-export const AwardsSection = () => {
+export default function AwardsSection  ()  {
   const cardsData = [
     {
       title: "Top Mobile App Developers & Development Companies India 2022",

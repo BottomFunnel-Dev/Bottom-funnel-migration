@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./AvitaionLowerBaner.module.css"
 
-export const AvitaionLowerBaner = () => {
+export default function AvitaionLowerBaner  () {
   return (
     <div className={styles.lowerbanneraviation}>
     <div className={styles.lowerbannertextandbutton}>

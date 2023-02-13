@@ -1,43 +1,61 @@
 import React from "react";
-import { AviationAirlines } from "../../components/Aviation/AviationAirlines";
-import { AviationLetsDiscuss } from "../../components/Aviation/AviationLetsDiscuss";
-import { AvitaionBanner } from "../../components/Aviation/AvitaionBanner";
-import { AvitaionLowerBaner } from "../../components/Aviation/AvitaionLowerBaner";
+
 
 import dynamic from "next/dynamic";
+
+const AviationAirlines = dynamic(
+  () => import("../../components/Aviation/AviationAirlines"),
+  { loading: "Loading..." }
+);
+
+const AviationLetsDiscuss = dynamic(
+  () => import("../../components/Aviation/AviationLetsDiscuss"),
+  { loading: "Loading..." }
+);
+
+const AvitaionBanner = dynamic(
+  () => import("../../components/Aviation/AvitaionBanner"),
+  { loading: "Loading..." }
+);
+
+const AvitaionLowerBaner = dynamic(
+  () => import("../../components/Aviation/AvitaionLowerBaner"),
+  { loading: "Loading..." }
+);
+
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";

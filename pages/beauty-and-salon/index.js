@@ -1,13 +1,32 @@
 import React from "react";
-
-import Beautycontainer from "../../components/Beautyandcare/Beautycontainer";
 import { beautyLogo } from "../../components/Data/SeopartnerData";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
-import Diversesection from "../../components/Beautyandcare/Diversesection";
-import Disscus from "../../components/Beautyandcare/Disscus";
-import Feature from "../../components/Beautyandcare/Feature";
+
+
 
 import dynamic from "next/dynamic";
+
+
+
+const Beautycontainer = dynamic(
+  () => import("../../components/Beautyandcare/Beautycontainer"),
+  { loading: "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: "loading..." },
+);
+const Diversesection = dynamic(
+  () => import("../../components/Beautyandcare/Diversesection"),
+  { loading: "loading..." },
+);
+const Disscus = dynamic(
+  () => import("../../components/Beautyandcare/Disscus"),
+  { loading: "loading..." },
+);
+const Feature = dynamic(
+  () => import("../../components/Beautyandcare/Feature"),
+  { loading: "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },

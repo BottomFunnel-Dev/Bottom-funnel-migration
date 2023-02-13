@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./BIWhyBF.module.css";
 import Image from "next/image";
 
-export const BIWhyBF = () => {
+export default function BIWhyBF  () {
 const cardData = [
 {
 title: "Designs",

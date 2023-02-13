@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './AppFeature.module.css';
 
-export const AppFeature = () => {
+export default function AppFeature  () {
   return (
     <div>
       <div className={styles.appFeatureMaindiv}>

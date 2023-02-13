@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./BlockChainServices.module.css";
 
-export const BlockChainServices = () => {
+export default function BlockChainServices ()  {
   return (
     <div className={styles.BlockChainServicesMain}>
       <h1>Block Chain Services</h1>
