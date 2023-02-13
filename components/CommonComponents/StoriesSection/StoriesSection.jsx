@@ -7,7 +7,7 @@ import { BsPlayCircle, BsArrowRight } from "react-icons/bs";
 import { IconContext } from "react-icons/lib";
 import Image from "next/image";
 
-const StoriesSection = () => {
+export default function StoriesSection() {
   const settings = {
     infinite: true,
     accessibility: false,
@@ -169,6 +169,4 @@ const StoriesSection = () => {
       </p>
     </div>
   );
-};
-
-export default StoriesSection;
+}
