@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SkillsComBookCall.module.css";
 
-export const SkillsComBookCall = ({ data }) => {
+export default function SkillsComBookCall({ data }) {
   const { title, btn, image } = data;
   return (
     <div
@@ -17,4 +17,4 @@ export const SkillsComBookCall = ({ data }) => {
       <button className={styles.skillsbookcallmainbutton}>{btn}</button>
     </div>
   );
-};
+}

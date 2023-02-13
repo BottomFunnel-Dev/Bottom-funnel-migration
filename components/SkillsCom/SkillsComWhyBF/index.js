@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./SkillsComWhyBF.module.css";
 import { FaHandPointRight } from "react-icons/fa";
 
-export const SkillsComWhyBF = ({ data }) => {
+export default function SkillsComWhyBF({ data }) {
   const { title, image, bulletPointData } = data;
 
   return (
@@ -27,4 +27,4 @@ export const SkillsComWhyBF = ({ data }) => {
       </div>
     </div>
   );
-};
+}

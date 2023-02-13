@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 // ---------------importing components with lazy loading-----------------------
 const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
   loading: () => "loading...",
+  ssr: false,
 });
 const AboutusBanner = dynamic(
   () => import("../../components/aboutUs/AboutusBanner/AboutusBanner"),
@@ -63,7 +64,6 @@ const MainFooter = dynamic(
 );
 
 // ------------------Main page function-----------------
-
 export default function AboutUS() {
   return (
     <div className={styles.AboutUSmain}>

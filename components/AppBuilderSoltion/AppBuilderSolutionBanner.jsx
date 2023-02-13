@@ -3,7 +3,7 @@ import styles from "./AppBuilderSolutionBanner.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/app builder.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const AppBuilderSolutionBanner = () => {
+export default function AppBuilderSolutionBanner() {
   return (
     <div className={styles.appbuildersolutionbannermainboxes}>
       <div className={styles.appbuildersolutionboxfortextenter}>
@@ -34,4 +34,4 @@ export const AppBuilderSolutionBanner = () => {
       </div>
     </div>
   );
-};
+}

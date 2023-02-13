@@ -70,40 +70,40 @@ export const partnerData = {
 export const alcoholLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/alcoholLogo/drizly.png",
+      partnerImage: "Images/seopages/alcoholLogo/drizly.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/minibar.png",
+      partnerImage: "Images/seopages/alcoholLogo/minibar.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/naked wines.png",
+      partnerImage: "Images/seopages/alcoholLogo/naked wines.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/saucey.png",
+      partnerImage: "Images/seopages/alcoholLogo/saucey.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/thristy.png",
+      partnerImage: "Images/seopages/alcoholLogo/thristy.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/vivino.png",
+      partnerImage: "Images/seopages/alcoholLogo/vivino.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/frame1.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame1.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/frame2.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame2.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/frame3.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame3.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/frame4.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame4.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/frame5.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame5.png",
     },
     {
-      partnerImage: "/Images/seopages/alcoholLogo/frame6.png",
+      partnerImage: "Images/seopages/alcoholLogo/frame6.png",
     },
    
   ],
@@ -116,49 +116,49 @@ export const alcoholLogo = {
 export const homesolutionsLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/home solutions/handy.png",
+      partnerImage: "Images/seopages/home solutions/handy.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/housejoy.png",
+      partnerImage: "Images/seopages/home solutions/housejoy.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/porch.png",
+      partnerImage: "Images/seopages/home solutions/porch.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/thumbtack.png",
+      partnerImage: "Images/seopages/home solutions/thumbtack.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/urban company.png",
+      partnerImage: "Images/seopages/home solutions/urban company.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/zimmber.png",
+      partnerImage: "Images/seopages/home solutions/zimmber.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame1.png",
+      partnerImage: "Images/seopages/home solutions/frame1.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame2.png",
+      partnerImage: "Images/seopages/home solutions/frame2.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame3.png",
+      partnerImage: "Images/seopages/home solutions/frame3.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame4.png",
+      partnerImage: "Images/seopages/home solutions/frame4.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame5.png",
+      partnerImage: "Images/seopages/home solutions/frame5.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame6.png",
+      partnerImage: "Images/seopages/home solutions/frame6.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame7.png",
+      partnerImage: "Images/seopages/home solutions/frame7.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame8.png",
+      partnerImage: "Images/seopages/home solutions/frame8.png",
     },
     {
-      partnerImage: "/Images/seopages/home solutions/frame9.png",
+      partnerImage: "Images/seopages/home solutions/frame9.png",
     },
    
   ],
@@ -171,49 +171,49 @@ export const homesolutionsLogo = {
 export const fooddeliveryLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/grubhub.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/grubhub.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/jumia.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/jumia.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/noon food.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/noon food.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/talabat.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/talabat.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/uber eats.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/uber eats.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/zomato.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/zomato.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame1.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame1.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame2.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame2.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame3.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame3.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame4.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame4.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame5.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame5.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame6.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame6.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame7.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame7.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame8.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame8.png",
     },
     {
-      partnerImage: "/Images/seopages/fooddeliverylogo/frame9.png",
+      partnerImage: "Images/seopages/fooddeliverylogo/frame9.png",
     },
     
   ],
@@ -226,28 +226,28 @@ export const fooddeliveryLogo = {
 export const groceryLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/grocery delivery app/amazonfresh.png",
+      partnerImage: "Images/seopages/grocery delivery app/amazonfresh.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/big basket.png",
+      partnerImage: "Images/seopages/grocery delivery app/big basket.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/grofers.png",
+      partnerImage: "Images/seopages/grocery delivery app/grofers.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/instacart.png",
+      partnerImage: "Images/seopages/grocery delivery app/instacart.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/instashop.png",
+      partnerImage: "Images/seopages/grocery delivery app/instashop.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/shipt.png",
+      partnerImage: "Images/seopages/grocery delivery app/shipt.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/swiggy.png",
+      partnerImage: "Images/seopages/grocery delivery app/swiggy.png",
     },
     {
-      partnerImage: "/Images/seopages/grocery delivery app/thrive.png",
+      partnerImage: "Images/seopages/grocery delivery app/thrive.png",
     },
   ],
 
@@ -258,34 +258,34 @@ export const groceryLogo = {
 export const educationLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 30.png",
+      partnerImage: "Images/seopages/educompanies/Frame 30.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 31.png",
+      partnerImage: "Images/seopages/educompanies/Frame 31.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 32.png",
+      partnerImage: "Images/seopages/educompanies/Frame 32.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 33.png",
+      partnerImage: "Images/seopages/educompanies/Frame 33.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 34.png",
+      partnerImage: "Images/seopages/educompanies/Frame 34.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 35.png",
+      partnerImage: "Images/seopages/educompanies/Frame 35.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 36.png",
+      partnerImage: "Images/seopages/educompanies/Frame 36.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 37.png",
+      partnerImage: "Images/seopages/educompanies/Frame 37.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 38.png",
+      partnerImage: "Images/seopages/educompanies/Frame 38.png",
     },
     {
-      partnerImage: "/Images/seopages/educompanies/Frame 39.png",
+      partnerImage: "Images/seopages/educompanies/Frame 39.png",
     },
   ],
 
@@ -296,16 +296,16 @@ export const educationLogo = {
 export const beautyLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/beauty/minibar.png",
+      partnerImage: "Images/seopages/beauty/minibar.png",
     },
     {
-      partnerImage: "/Images/seopages/beauty/minibar-1.png",
+      partnerImage: "Images/seopages/beauty/minibar-1.png",
     },
     {
-      partnerImage: "/Images/seopages/beauty/minibar-2.png",
+      partnerImage: "Images/seopages/beauty/minibar-2.png",
     },
     {
-      partnerImage: "/Images/seopages/beauty/minibar-3.png",
+      partnerImage: "Images/seopages/beauty/minibar-3.png",
     },
     {
       partnerImage: "Images/seopages/beauty/minibar-4.png",
@@ -859,49 +859,49 @@ export const pharmacyLogo = {
 export const dmpagesLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/dmpages/frame1.webp",
+      partnerImage: "Images/seopages/dmpages/frame1.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame2.webp",
+      partnerImage: "Images/seopages/dmpages/frame2.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame3.webp",
+      partnerImage: "Images/seopages/dmpages/frame3.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame4.webp",
+      partnerImage: "Images/seopages/dmpages/frame4.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame5.webp",
+      partnerImage: "Images/seopages/dmpages/frame5.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame6.webp",
+      partnerImage: "Images/seopages/dmpages/frame6.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame7.webp",
+      partnerImage: "Images/seopages/dmpages/frame7.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame8.webp",
+      partnerImage: "Images/seopages/dmpages/frame8.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame9.webp",
+      partnerImage: "Images/seopages/dmpages/frame9.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame10.webp",
+      partnerImage: "Images/seopages/dmpages/frame10.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame11.webp",
+      partnerImage: "Images/seopages/dmpages/frame11.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame12.webp",
+      partnerImage: "Images/seopages/dmpages/frame12.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame13.webp",
+      partnerImage: "Images/seopages/dmpages/frame13.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame14.webp",
+      partnerImage: "Images/seopages/dmpages/frame14.webp",
     },
     {
-      partnerImage: "/Images/seopages/dmpages/frame15.webp",
+      partnerImage: "Images/seopages/dmpages/frame15.webp",
     },
   ],
   

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AndriodUserCentric.module.css";
 import Image from "next/image";
 
-export const AndriodUserCentric = () => {
+export default function AndriodUserCentric() {
   return (
     <>
       <div className={styles.andriodUserCentricMainDiv}>
@@ -10,37 +10,41 @@ export const AndriodUserCentric = () => {
           <div className={styles.andriodUserCentricIconOuterBox}>
             <div className={styles.andriodUserCentricContainerDiv}>
               <div className={styles.andriodUserCentricIcon}>
-              <Image
-          src={"/Images/AndriodDevImages/icons/analyse 1.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+                <Image
+                  src={"/Images/AndriodDevImages/icons/analyse 1.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Regirous Requirement Analysis</h4>
                 <p>
-                  Use it to get insights and learn from customer behavior. Bottom funnel uses Regirous Requirement Analysis (RRA) to deliver actionable information.
+                  Use it to get insights and learn from customer behavior.
+                  Bottom funnel uses Regirous Requirement Analysis (RRA) to
+                  deliver actionable information.
                 </p>
               </div>
             </div>
             <div className={styles.andriodUserCentricContainerDiv}>
               <div className={styles.andriodUserCentricIcon}>
-              <Image
-          src={"/Images/AndriodDevImages/icons/interest-rate 1.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+                <Image
+                  src={"/Images/AndriodDevImages/icons/interest-rate 1.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Competetive Rates & Projects Quotes</h4>
                 <p>
-                  We offer competitive rates and quotes on all kinds of project sizes, so you can trust us to deliver results that will bring your business growing success.
+                  We offer competitive rates and quotes on all kinds of project
+                  sizes, so you can trust us to deliver results that will bring
+                  your business growing success.
                 </p>
               </div>
             </div>
@@ -48,39 +52,43 @@ export const AndriodUserCentric = () => {
           <div className={styles.andriodUserCentricIconOuterBox}>
             <div className={styles.andriodUserCentricContainerDiv}>
               <div className={styles.andriodUserCentricIcon}>
-              <Image
-          src={"/Images/AndriodDevImages/icons/app-development (2) 1.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
-          
+                <Image
+                  src={
+                    "/Images/AndriodDevImages/icons/app-development (2) 1.webp"
+                  }
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Expert Mobile App developers</h4>
                 <p>
-                  our team of experienced developers has decided to create brand new bottom funnel android app development services for businesses
+                  our team of experienced developers has decided to create brand
+                  new bottom funnel android app development services for
+                  businesses
                 </p>
               </div>
             </div>
             <div className={styles.andriodUserCentricContainerDiv}>
               <div className={styles.andriodUserCentricIcon}>
-              <Image
-          src={"/Images/AndriodDevImages/icons/agile (2) 1.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
-
+                <Image
+                  src={"/Images/AndriodDevImages/icons/agile (2) 1.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <div className={styles.andriodUserCentricIconHeading}>
                 <h4>Proven Delivery Methods</h4>
                 <p>
-                  We understand that you have more important matters to attend to than coding, so we've got your back with our smart delivery methods.
+                  We understand that you have more important matters to attend
+                  to than coding, so we've got your back with our smart delivery
+                  methods.
                 </p>
               </div>
             </div>
@@ -102,10 +110,12 @@ export const AndriodUserCentric = () => {
             end.
           </p>
           <div className={styles.mobileappactionbuttondiv}>
-          <button className={styles.mobileappactionbutton}>Hire Android developer</button>
+            <button className={styles.mobileappactionbutton}>
+              Hire Android developer
+            </button>
           </div>
         </div>
       </div>
     </>
   );
-};
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./AlcoholBookCall.module.css";
 
-export const AlcoholBookCall = () => {
+export default function AlcoholBookCall() {
   return (
     <div className={styles.alcoholBookCallMain}>
       <div>
@@ -12,4 +12,4 @@ export const AlcoholBookCall = () => {
       </div>
     </div>
   );
-};
+}
