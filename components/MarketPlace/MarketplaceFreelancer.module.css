@@ -30,19 +30,20 @@
 
 .freelancerimagebox2 {
   height: 95%;
-  width: 30%;
+  width: 40%;
   position: absolute;
   z-index: 1;
   left: 20%;
+  /* border: 1px solid red; */
 }
 
 .freelancerimagebox3 {
   height: 50%;
-  width: 45%;
+  width: 52%;
   position: absolute;
   z-index: 2;
-  left: 28%;
-  top: 40%;
+  left: 35%;
+  top: 45%;
 }
 
 .imagefreelance1 {
@@ -74,12 +75,14 @@
   width: 20%;
   bottom: 0;
   right: 0;
+  /* border: 1px solid red; */
 }
 
 .specialimg {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  /* border: 1px solid red; */
 }
 
 .afterdottedinnerflecboxfreelancer {

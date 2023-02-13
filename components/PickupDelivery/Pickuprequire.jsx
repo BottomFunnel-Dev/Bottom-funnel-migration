@@ -6,8 +6,9 @@ export const Pickuprequire = () => {
       <div>
         <h1>
           Fully Functional Pickup And Delivery Software For Your Business
-          Requirements
+          Requirements.
         </h1>
+        
         <p>
           Bottom Funnel is a resounding success because we understand how hard
           it can be to make ends meet in this ever-changing world. We know how
