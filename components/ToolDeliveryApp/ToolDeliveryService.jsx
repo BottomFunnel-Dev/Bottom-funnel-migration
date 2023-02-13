@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./ToolDeliveryService.module.css";
 
@@ -8,7 +9,7 @@ const ToolDeliveryService = () => {
         <div className={styles.tddeliverypara}>
           <h2> Delivery Service App Solution</h2>
 
-          <p>Expand Your Business With A Tool Delivery Service App Solution</p>
+          <p> Expand Your Business With A Tool Delivery Service App Solution </p>
         </div>
 
         <div className={styles.tddeliveryservicediv}>
@@ -16,10 +17,17 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <img src="Images/pharmacy/Timetracking.png" alt="images" />{" "}
+                  <Image src={"/Images/pharmacy/Timetracking.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />{" "}
                 </div>
                 <h5> Real-Time Tracking</h5>
               </div>
+
               <p
                 style={{
                   marginLeft: "27.5%",
@@ -35,10 +43,17 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <img src="Images/pharmacy/payment option.png" alt="images" />{" "}
+                  <Image src={"/Images/pharmacy/payment option.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />{" "}
                 </div>
                 <h5> Multiple Payment Options</h5>
               </div>
+
               <p
                 style={{
                   marginLeft: "27.5%",
@@ -53,10 +68,17 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <img src="Images/pharmacy/reports analytics.png" alt="images" />{" "}
+                  <Image src={"/Images/pharmacy/reports analytics.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />{" "}
                 </div>
-                <h5>Reports and Analytics</h5>
+                <h5> Reports and Analytics </h5>
               </div>
+
               <p
                 style={{
                   marginLeft: "27.5%",
@@ -74,10 +96,17 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <img src="Images/pharmacy/Manage orders.png" alt="images" />{" "}
+                  <Image src={"/Images/pharmacy/Manage orders.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />{" "}
                 </div>
-                <h5>Manage Orders </h5>
+                <h5> Manage Orders </h5>
               </div>
+
               <p
                 style={{
                   marginLeft: "27.5%",
@@ -92,11 +121,18 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <img src="Images/pharmacy/ROI.png" alt="images"/>{" "}
+                  <Image src={"/Images/pharmacy/ROI.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />{" "}
                 </div>
                 <h5> Better ROI</h5>
               </div>
-             <p
+
+              <p
                 style={{
                   marginLeft: "27.5%",
                 }}
@@ -110,7 +146,13 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <img src="Images/pharmacy/Promote business.png" alt="images"/>{" "}
+                  <Image src={"/Images/pharmacy/Promote business.png"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />{" "}
                 </div>
                 <h5>Promote Your Business Effectively</h5>
               </div>

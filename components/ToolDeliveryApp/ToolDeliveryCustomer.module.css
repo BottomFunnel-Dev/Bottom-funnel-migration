@@ -3,7 +3,6 @@
 .Tooladmin {
   width: 100%;
   height: 600px;
-  /* background-color: aqua; */
 }
 
 .Tooladmin > h1 {
@@ -19,20 +18,20 @@
   margin-top: 2%;
   display: flex;
 }
+
 .tooladminleft {
   width: 50%;
   height: 500px;
-  /* padding: 10px; */
   display: flex;
   background: url("/public/Images/tooldeliveryapp/Rectangle\ 4175.png");
   background-repeat: no-repeat;
   background-size: 100% 500px;
 }
+
 .tooladminright {
   width: 50%;
   margin-left: 1%;
   height: fit-content;
-  /* background-color: aqua; */
   display: flex;
   flex-wrap: wrap;
   margin-left: 3%;
@@ -62,17 +61,18 @@
 
 .tooladminright > div > h3 {
   font-size: 18px;
-  /* border: 1px solid red; */
   margin-top: 0%;
 }
 
+.toolcustomerpannelleft{
+  /* border: 1px solid black; */
+  width: 50%;
+}
+
 .toolCustomerImage {
+  /* border: 1px solid red; */
   width: 100%;
-  height: 500px;
-  text-align: right;
-  /* margin-top: -5%; */
-  /* margin-left: 10%; */
-  /* padding-bottom: 5px; */
+  height: 550px;
 }
 
 .toolCustomerImage > img {

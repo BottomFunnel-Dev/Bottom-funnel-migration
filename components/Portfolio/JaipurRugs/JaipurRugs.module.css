@@ -10,6 +10,7 @@
   .nextholidayleftbox{
   height: 100%;
   width: 55%;
+  margin: auto;
   }
   .nextholidayrighttbox{
   height: fit-content;
@@ -74,6 +75,7 @@ margin: 0;
   .nextholidaywrapboximages{
   width: 30%;
   margin-left: 2%;
+  margin-bottom: 10%;
   }
   .nextholidaywrapboximages>img{
   height: 100%;
@@ -92,7 +94,7 @@ margin: 0;
   font-weight: 600;
   color: white;
   margin-left: 40%;
-  margin-top: 05%;
+ 
   }
   .nextholidayviewcasebutton:hover{
   background-color: white;

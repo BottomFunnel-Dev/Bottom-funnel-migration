@@ -3,6 +3,7 @@
   display: flex;
   margin-top: 5%;
 }
+
 .flowerdeliveryadminflexleftbox {
   width: 45%;
   margin-left: 3%;
@@ -15,6 +16,7 @@
 .flowerdeliveryadmingboxmapping {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 2%;
+  height: 140px;
   width: 80%;
   padding: 3%;
   border-radius: 10px;
@@ -22,7 +24,7 @@
 
 .flowerdeliveryadmingboxmapping:hover {
   transform: scale(1.02);
-  background-color: #fff8f9;
+  background-color: #fee9ec;
 }
 
 .flowerdeliveryadminflexrightbox {

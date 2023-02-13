@@ -13,7 +13,7 @@ height: fit-content;
 .nextholidayleftbox{
 height: 100%;
 width: 55%;
-
+margin: auto;
 }
 
 .nextholidayrighttbox{
@@ -96,7 +96,8 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 35%;
 height: 8%;
-margin-left: 7%;
+
+margin-bottom: 10%;
   
 }
 .nextholidaywrapboximages>img{

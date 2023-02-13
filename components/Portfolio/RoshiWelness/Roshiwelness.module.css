@@ -57,8 +57,9 @@ width: 100%;
 object-fit: contain;
 }
 .yanballogoboxingalongflex{
-padding: 15px;
+margin-bottom: 5%;
 width: 35%;
+padding: 5%;
 }
 .yanballogoboxingalongflex>img{
 height: 100%;
@@ -68,7 +69,7 @@ object-fit: contain;
 .yanbalrightboxes{
 width: 50%;
 height: 100%;
-overflow: hidden;
+margin: auto;
 }
 .yanabalbuttonalongflex{
 padding: 10px 50px;

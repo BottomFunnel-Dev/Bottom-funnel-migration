@@ -37,40 +37,12 @@ const FlowerDeliverySolution = () => {
   return (
     <div className={styles.flowerdeliverysolutionmainbox}>
       <div className={styles.flowerdeliveryappsolutionboxfortext}>
-        <h2>A SNEAK-PEEK OF OUR</h2>
-        <h1>Flower Delivery App Solution</h1>
+        <h2> A SNEAK-PEEK OF OUR </h2>
+        <h1> Flower Delivery App Solution </h1>
         <br></br>
-        <button className={styles.flowerdeliverysolutionbutton}>Get Started</button>
+
+        <button className={styles.flowerdeliverysolutionbutton}> Get Started </button>
       </div>
-
-      {/* <div className={styles.flowerdeliverysolutionflexbox}>
-        <div className={styles.flowerdeliverysolutionflexboxleft}>
-          <h2>Customer App</h2>
-          {flowerdeliverysolutiondata.map((el) => {
-            return (
-              <div className={styles.flexboxingmappingdivleftforserviceflower}
-                key={el.htxt} onMouseEnter={() => {
-                  handleImageChange(el.mimg)
-                }}
-              >
-                <h4>{el.htxt}</h4>
-                <p>{el.stxt}</p>
-              </div>
-            )
-          })}
-        </div>
-
-        <div className={styles.flowerdeliverysolutionflexboxright}>
-          <div className={styles.flowerdeliverysolutionflexboxrightinnerimageone}>
-            <img src='/Images/Flowerdeliverypage/Rectangle4191.png' alt='image 1' />
-          </div>
-
-          <div className={styles.flowerdeliverysolutionflexboxrightinnerimagetwo}>
-            <img src={imageChange} alt='image 2' />
-          </div>
-
-        </div>
-      </div> */}
     </div>
   );
 };

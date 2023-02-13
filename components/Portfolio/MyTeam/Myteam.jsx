@@ -1,18 +1,9 @@
 import React from 'react'
 import styles from "./Myteam.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/My Team11.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Myteam = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -79,11 +70,19 @@ export const Myteam = () => {
 
     <div className={styles.yanbalrightboxes}>
     
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
-    
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/myteam11.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
     </div>
     
     
