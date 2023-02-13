@@ -22,7 +22,7 @@ export const AlcoholBanner = () => {
           There's no need to run out and purchase alcohol anymore! With alcohol delivery services, you can have all the wine, 
           beer, and liquor your heart desires delivered right to your door.
         </p>
-        <button>GET STARTED</button>
+        <button> GET STARTED </button>
       </div>
       <div className={styles.alcoholBannerImage}>
         <Lottie options={lottieDefaultOptions} width={700} height={600} />

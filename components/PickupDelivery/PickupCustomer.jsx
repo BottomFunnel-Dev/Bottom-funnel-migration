@@ -50,7 +50,7 @@ export const PickupCustomer = () => {
       <div className={styles.pickupcustomerSols}>
         <div className={styles.pickupcustomerright}>
           <h1> Customer App </h1>
-          
+
           <div className={styles.pickupcustomerText}>
             {pickupcustomer.map((item, index) => (
               <div key={index} className={styles.pickupcustomercard}
