@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import stylecon from "./Contact.module.css";
 
-export const ContactMain = ({ scroll }) => {
+export const ContactMain = () => {
   return (
     <div
       className={stylecon.ContactAboveNavbarMain}
-      style={{ opacity: scroll ? "0" : "1" , background:bgcolor}}
+      // style={{ opacity: scroll ? "0" : "1" , background:bgcolor}}
     >
       <div>
         <div>
