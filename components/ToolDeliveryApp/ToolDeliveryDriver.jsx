@@ -1,9 +1,8 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
+import Image from "next/image";
+import React, { useState } from "react";
 import styles from "./ToolDeliveryDriver.module.css";
 
-const ToolDeliveryDriver = () => {
-
+function ToolDeliveryDriver() {
   let TooDeliverydrivedata = [
     {
       img: {
@@ -40,7 +39,6 @@ const ToolDeliveryDriver = () => {
       },
       title: "Get order Details",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-
     },
     {
       img: {
@@ -54,7 +52,6 @@ const ToolDeliveryDriver = () => {
       title: "Track Pickup Location",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
-
   ];
 
   const [active, setActive] = useState(0);
@@ -65,7 +62,6 @@ const ToolDeliveryDriver = () => {
         <h1> Drive app </h1>
 
         <div className={styles.tooldeliverydrivesub}>
-
           <div className={styles.tooldeliverydriveleft}>
             <div className={styles.tooldeliveryDriveImage}>
               <Image
@@ -87,9 +83,9 @@ const ToolDeliveryDriver = () => {
                   onMouseOver={() => setActive(idx)}
                   className={`tooldelivery-box-${idx}`}
                 >
-
                   <div className={styles.tooldeliveryLogo}>
-                    <Image src={icon.src}
+                    <Image
+                      src={icon.src}
                       alt={icon.alt}
                       width={"0"}
                       height={"0"}
@@ -100,7 +96,8 @@ const ToolDeliveryDriver = () => {
 
                   <h3> {title} </h3>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Non, quis eum ev
                   </p>
                 </div>
               );
@@ -110,6 +107,6 @@ const ToolDeliveryDriver = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryDriver;

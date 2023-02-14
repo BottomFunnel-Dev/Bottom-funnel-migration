@@ -15,7 +15,6 @@ import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { Industries } from "./Industries";
 
 const Navbar = ({ navredux, productMount }) => {
-  // const router.push = userouter.push();
   const [scroll, setScroll] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
@@ -26,18 +25,6 @@ const Navbar = ({ navredux, productMount }) => {
   const hoverhandle = (para, nav) => {
     setNavtoggle(para);
     setNabvar(nav);
-  };
-
-  const homeHoverIn = () => {
-    setAboutH(true);
-    setNabvar(true);
-  };
-
-  const homeHoverOut = () => {
-    setAboutH(false);
-    if (window.scrollY === 0) {
-      setNabvar(false);
-    }
   };
 
   const navBackground = () => {
@@ -56,7 +43,6 @@ const Navbar = ({ navredux, productMount }) => {
 
   const handleMob = () => {
     mobres ? setMobres(false) : setMobres(true);
-    console.log("working tree", mobres);
   };
 
   return (

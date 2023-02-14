@@ -1,9 +1,8 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
+import Image from "next/image";
+import React, { useState } from "react";
 import styles from "./ToolDeliveryCustomer.module.css";
 
-const ToolDeliveryCustomer = () => {
-
+function ToolDeliveryCustomer() {
   let ToolDeliveryCustomerData = [
     {
       img: {
@@ -43,7 +42,6 @@ const ToolDeliveryCustomer = () => {
       },
       title: "Manage Payments",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-
     },
     {
       img: {
@@ -57,19 +55,15 @@ const ToolDeliveryCustomer = () => {
       title: "Manage Customer",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
-
   ];
 
   const [active, setActive] = useState(0);
 
   return (
     <div style={{}} className={styles.Tooladmin}>
-
       <h1> Customer App </h1>
       <div className={styles.tooladminsub}>
-
         <div className={styles.tooladminright}>
-
           {ToolDeliveryCustomerData.map(({ title, icon }, idx) => {
             return (
               <div
@@ -78,7 +72,8 @@ const ToolDeliveryCustomer = () => {
                 className={`tooladmin-box-${idx}`}
               >
                 <div className={styles.tooladminLogo}>
-                  <Image src={icon.src}
+                  <Image
+                    src={icon.src}
                     alt={icon.alt}
                     width={"0"}
                     height={"0"}
@@ -89,7 +84,8 @@ const ToolDeliveryCustomer = () => {
                 <h3> {title} </h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+                  quis eum ev
                 </p>
               </div>
             );
@@ -111,6 +107,6 @@ const ToolDeliveryCustomer = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryCustomer;

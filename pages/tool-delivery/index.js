@@ -1,51 +1,74 @@
 import React from "react";
-
-import TooDeliveryBanner from "../../components/ToolDeliveryApp/TooDeliveryBanner";
-import ToolDeliveryService from "../../components/ToolDeliveryApp/ToolDeliveryService";
-import ToolDeliverysneak from "../../components/ToolDeliveryApp/ToolDeliverysneak";
-import ToolDeliveryCustomer from "../../components/ToolDeliveryApp/ToolDeliveryCustomer";
-import ToolDeliveryDriver from "../../components/ToolDeliveryApp/ToolDeliveryDriver";
-import { ToolDeliveryAdmin } from "../../components/ToolDeliveryApp/ToolDeliveryAdmin";
-import ToolDeliveryLowerBanner from "../../components/ToolDeliveryApp/ToolDeliveryLowerBanner";
-import ToolDeliveryFooter from "../../components/ToolDeliveryApp/ToolDeliveryFooter";
-
 import dynamic from "next/dynamic";
+import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
+
+const TooDeliveryBanner = dynamic(
+  () => import("../../components/ToolDeliveryApp/TooDeliveryBanner"),
+  { loading: () => "loading..." },
+);
+const ToolDeliveryService = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliveryService"),
+  { loading: () => "loading..." },
+);
+const ToolDeliverysneak = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliverysneak"),
+  { loading: () => "loading..." },
+);
+const ToolDeliveryCustomer = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliveryCustomer"),
+  { loading: () => "loading..." },
+);
+const ToolDeliveryDriver = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliveryDriver"),
+  { loading: () => "loading..." },
+);
+const ToolDeliveryAdmin = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliveryAdmin"),
+  { loading: () => "loading..." },
+);
+const ToolDeliveryLowerBanner = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliveryLowerBanner"),
+  { loading: () => "loading..." },
+);
+const ToolDeliveryFooter = dynamic(
+  () => import("../../components/ToolDeliveryApp/ToolDeliveryFooter"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
 
 export default function ToolDeliveryApp() {
   return (
@@ -72,7 +95,7 @@ export default function ToolDeliveryApp() {
             logo: false,
           }}
         />
-        
+
         <TooDeliveryBanner />
         <ToolDeliveryService />
         <ToolDeliverysneak />

@@ -3,7 +3,7 @@ import styles from "./ottHeader.module.css";
 import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Ott.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const OttHeader = () => {
+export default function OttHeader() {
   const ServicesData = [
     {
       icon: "/Images/ott-app/Frame-2.png",
@@ -87,24 +87,22 @@ export const OttHeader = () => {
             Book a Meeting With Us Today
           </button>
           <div className={styles.ottServicesContent}>
-            {ServicesData.map((e) => {
-              return (
-                <div className={styles.ottServicesBoxesDiv}>
-                  <div className={styles.ottServicesDivForFlexIconHead}>
-                    <div>
-                      <img src={e.icon} alt="image" />
-                    </div>
-                    <h3>{e.title}</h3>
+            {ServicesData.map((e) => (
+              <div className={styles.ottServicesBoxesDiv}>
+                <div className={styles.ottServicesDivForFlexIconHead}>
+                  <div>
+                    <img src={e.icon} alt="image" />
                   </div>
-                  <div className={styles.ottServicesLoremPara}>
-                    <p>{e.para}</p>
-                  </div>
+                  <h3>{e.title}</h3>
                 </div>
-              );
-            })}
+                <div className={styles.ottServicesLoremPara}>
+                  <p>{e.para}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
