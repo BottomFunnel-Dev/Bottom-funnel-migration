@@ -8,13 +8,14 @@ export const Industries = ({
     indusHoverIn,
     indusHoverOut,
     scroll,
+    productMount,
 }) => {
     return (
         <div
             onMouseEnter={()=>{indusHoverIn("industry",true)}}
             onMouseLeave={()=>{indusHoverOut("",false)}}
             className={industry.industryserviceVisible}
-            style={{ top: scroll  ? "68px" : "98px" }}
+            style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
         >
             {/* <div className={industry.serviceVisible}> */}
             <div className={industry.indindustryContent}>

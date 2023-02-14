@@ -7,13 +7,14 @@ export const NavIndustries = ({
   solHoverIn,
   solHoverOut,
   scroll,
+  productMount,
 }) => {
   return (
     <div
       onMouseEnter={()=>{solHoverIn("solutions",true)}}
       onMouseLeave={()=>{solHoverOut("",false)}}
       className={industry.industryserviceVisible}
-      style={{ top: scroll ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
      
       <div id={industry.ondemandsol} className={industry.indindustryContent}>
