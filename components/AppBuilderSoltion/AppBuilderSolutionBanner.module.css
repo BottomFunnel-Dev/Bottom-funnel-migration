@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .appbuildersolutionboxfortextenter {
   height: fit-content;
   width: 45%;
@@ -13,10 +14,12 @@
   color: black;
   margin-top: 20%;
 }
+
 .appbuildersolutionboxfortextenter > h1 {
   font-weight: 700;
   font-size: 40px;
 }
+
 .appbuildersolutionbannerbutton {
   padding: 10px 50px;
   border-radius: 100px;
@@ -30,12 +33,20 @@
   color: #3380f2;
   margin-top: 5%;
 }
+
 .appbuildersolutionbannerbutton:hover {
   background-color: #3380f2;
   color: white;
 }
+
 .appBuilderSolutionBannerAnimationDiv {
   position: absolute;
   top: 15%;
-  right: 5%;
+  left: 40%;
+  right: 0%;
+}
+
+.appBuilderSolutionsBannerAnimation {
+  /* border: 1px solid red; */
+  width: 90%;
 }

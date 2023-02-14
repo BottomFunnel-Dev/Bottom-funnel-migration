@@ -8,37 +8,37 @@ import { MeatDeliveryPartnerApp } from "../../components/MeatDelivery/MeatDelive
 import dynamic from "next/dynamic";
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: "loading..." }
 );
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
@@ -64,9 +64,10 @@ export default function MeatDelivery() {
           }}
           navredux={{
             color: "black",
-            logo: true,
+            logo: false,
           }}
         />
+        
         <MeatDeliveryBanner />
         <MeatDeliveryCustomerApp />
         <MeatDeliveryAdmin />

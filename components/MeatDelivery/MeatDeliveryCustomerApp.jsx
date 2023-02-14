@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 import styles from "./MeatDeliveryCustomerApp.module.css"
 
@@ -31,12 +32,21 @@ export const MeatDeliveryCustomerApp = () => {
   return (
     <div className={styles.meatdeliverycustomerappmainboxes}>
       <div className={styles.meatdeliverycustomerapptextbox}>
-        <h1>SOLUTION FOR YOUR <span className={styles.specialcolor}>MEAT DELIVERY APP</span></h1>
+        <h1>
+          SOLUTION FOR YOUR <span className={styles.specialcolor}> MEAT DELIVERY APP </span>
+        </h1>
       </div>
+
       <div className={styles.customerapponlyformeatdeliveryapp}>
         <div className={styles.customerappmeatdeliveryappleftbox}>
           <div className={styles.meatdeliverycustomerappmobilebox}>
-            <img src='/Images/meatdelieveryapp/Rectangle.png' alt='images' />
+            <Image src={'/Images/meatdelieveryapp/Rectangle.png'}
+              alt={'images'}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -48,16 +58,14 @@ export const MeatDeliveryCustomerApp = () => {
           <div className={styles.meatappflexingforrightdiv}>{meatcustomerappdata.map((e) => {
             return (
               <div className={styles.meatdeliverymappingboxes}>
-                <h3>{e.htxt}</h3>
-                <p>{e.stxt}</p>
+                <h3> {e.htxt} </h3>
+                <p> {e.stxt} </p>
               </div>
             )
           })}
           </div>
         </div>
-
       </div>
-
     </div>
   );
 };

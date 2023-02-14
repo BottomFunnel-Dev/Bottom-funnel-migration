@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./AppBuilderCreate.module.css";
 
@@ -33,9 +34,9 @@ export default function AppBuilderCreate() {
           {cppbuildercreatedata.map((e) => {
             return (
               <div className={styles.appbuildercreatedatawiseinduvisully}>
-                <h4>{e.htxt}</h4>
+                <h4> {e.htxt} </h4>
                 <p>
-                  <small>{e.stxt}</small>
+                  <small> {e.stxt} </small>
                 </p>
               </div>
             );
@@ -44,9 +45,13 @@ export default function AppBuilderCreate() {
       </div>
 
       <div className={styles.appbuildercreaterightbox}>
-        <img
-          src="/Images/Appbuildersolutions/Bannersbackgrounds/Group 340139.png"
-          alt="mobile"
+        <Image
+          src={"/Images/Appbuildersolutions/Bannersbackgrounds/Group 340139.png"}
+          alt={"mobile"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "15%" }}  
         />
       </div>
     </div>

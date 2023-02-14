@@ -32,11 +32,11 @@ export default function AppBuilderWhyShuld() {
             return (
               <div className={styles.appbuilderwhydataindi}>
                 <div className={styles.appbuilderwhydataindiforhtxt}>
-                  <h4>{e.htxt}</h4>
+                  <h4> {e.htxt} </h4>
                 </div>
 
                 <div className={styles.appbuilderwhydataindiforstxt}>
-                  <p>{e.stxt}</p>
+                  <p> {e.stxt} </p>
                 </div>
               </div>
             );
@@ -45,4 +45,4 @@ export default function AppBuilderWhyShuld() {
       </div>
     </div>
   );
-}
+};

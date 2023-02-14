@@ -23,7 +23,7 @@ export default function AppBuilderSolutionBanner() {
       </div>
 
       <div className={styles.appBuilderSolutionBannerAnimationDiv}>
-        <Player
+        <Player className={styles.appBuilderSolutionsBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"
