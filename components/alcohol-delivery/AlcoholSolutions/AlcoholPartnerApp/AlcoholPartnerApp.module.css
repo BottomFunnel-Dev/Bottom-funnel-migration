@@ -3,8 +3,10 @@
   height: max-content;
   margin: 60px 0;
 }
+
 .alcoholPartner > h1 {
   margin-left: 7%;
+  margin-bottom: 2%;
   color: #9a4c72;
 }
 .alcoholPartnersub {

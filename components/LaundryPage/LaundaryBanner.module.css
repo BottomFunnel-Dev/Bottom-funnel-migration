@@ -41,11 +41,15 @@
   background-color: white;
 }
 
-
-.laundaryPageBannerAnimationDiv{
+.laundaryPageBannerAnimationDiv {
   /* border: 1px solid red; */
   position: absolute;
   width: 50%;
-  top: 15%;
+  top: 10%;
   right: 0%;
+}
+
+.laundaryPageBannerAnimation {
+  /* border: 1px solid red; */
+  width: 90%;
 }

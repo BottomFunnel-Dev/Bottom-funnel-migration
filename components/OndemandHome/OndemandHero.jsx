@@ -19,7 +19,7 @@ const OndemandHero = () => {
       </div>
 
       <div className={styles.imageContainer}>
-        <Player
+        <Player className={styles.onDemandHomeServiceAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"
