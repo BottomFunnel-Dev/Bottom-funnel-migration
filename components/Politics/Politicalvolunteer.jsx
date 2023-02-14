@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Politicalvolunteer.module.css";
+import Image from "next/image";
 
 export default function Politicalvolunteer() {
   return (
@@ -7,7 +8,14 @@ export default function Politicalvolunteer() {
       <div className={styles.volunteersub}>
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/hand.png" />
+             <Image
+                src={"/Images/Politics/hand.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.volunteerhead}>
             <div>
@@ -26,7 +34,14 @@ export default function Politicalvolunteer() {
 
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/customer-engagement.png" />
+             <Image
+                src={"/Images/Politics/customer-engagement.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.volunteerhead}>
             <div>
@@ -47,7 +62,14 @@ export default function Politicalvolunteer() {
 
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/transparency.png" />
+             <Image
+                src={"/Images/Politics/transparency.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.volunteerhead}>
             <div>
@@ -67,7 +89,14 @@ export default function Politicalvolunteer() {
 
         <div className={styles.szvolunteer}>
           <div className={styles.szvolunteerimage}>
-            <img src="Images/Politics/reputation.png" />
+              <Image
+                src={"/Images/Politics/reputation.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.volunteerhead}>
             <div>

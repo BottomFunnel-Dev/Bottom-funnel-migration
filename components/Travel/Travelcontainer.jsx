@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Travelcontainer.module.css";
+import Image from "next/image";
 
 export default function Travelcontainer() {
   return (
@@ -20,7 +21,14 @@ export default function Travelcontainer() {
         </div>
         <div className={styles.sztravelright}>
           <div className={styles.travelgirl}>
-            <img src="Images/Travel/travelgirl.png" />
+              <Image
+                  src={"/Images/Travel/travelgirl.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
         </div>
       </div>

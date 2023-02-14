@@ -32,7 +32,10 @@ export const MarketplaceBanner = () => {
   return (
     <div className={styles.marketplacebannerimage}>
       <div className={styles.marketplacebannerimageinsideboxtext}>
-        <h1>Build A Freelancer Marketplace Like Upwork & Fiverr</h1>
+
+        <h1>
+          Build A Freelancer Marketplace Like Upwork & Fiverr
+        </h1>
         <p>
           Are you looking for a place to hire freelancers? Have you tried Upwork
           or Fiverr, but found them to be too time consuming and other similar
@@ -60,7 +63,7 @@ export const MarketplaceBanner = () => {
       </div>
 
       <div className={styles.marketplaceBannerAnimationDiv}>
-        <Player
+        <Player className={styles.marketPlaceBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

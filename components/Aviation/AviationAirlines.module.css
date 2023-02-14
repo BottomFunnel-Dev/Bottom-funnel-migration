@@ -78,14 +78,8 @@ padding: 10px;
  transform: scale(1.02);
 }
 .logoboxairlinesaviations{
-height: 12%;
-width: 12%;
-}
-.logoboxairlinesaviations >img {
-height: 100%;
-width: 100%;
-object-fit: contain;
-padding: 10px;
+    height:40px;
+    width: 40px;
 }
 .aviationairlinesmappertextboxes >h4{
  font-weight: 700;

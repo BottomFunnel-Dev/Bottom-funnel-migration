@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./EscooterAdmin.module.css";
+import Image from 'next/image';
 
 export const EscooterAdmin = () => {
   return (
@@ -21,10 +22,24 @@ export const EscooterAdmin = () => {
 
         <div className={styles.szescooteradminright}>
           <div className={styles.szscootertab}>
-            <img src='Images/Escooter/tab.png' alt='image' />
+                <Image
+                  src={"/Images/Escooter/tab.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <div className={styles.blackbluescooter}>
-            <img src="Images/Escooter/blackbluescooter.png" alt='images' />
+               <Image
+                  src={"/Images/Escooter/blackbluescooter.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
         </div>
       </div>

@@ -3,9 +3,7 @@ import Image from "next/image";
 import styles from "./Cannabisadmin.module.css";
 
 export default function Cannabisadmin() {
-  const [imageChange, setImageChange] = useState(
-    "/Images/newcannabispage/Admin Screens/compo.png",
-  );
+  const [imageChange, setImageChange] = useState("/Images/newcannabispage/Admin Screens/compo.png");
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
   };
@@ -61,24 +59,18 @@ export default function Cannabisadmin() {
                   handleImageChange(e.image);
                 }}
               >
-                <div
-                  className={
-                    styles.cannabieasadminpannelmapperboxindivisyalicon
-                  }
-                >
+                <div className={styles.cannabieasadminpannelmapperboxindivisyalicon} >
                   <Image
                     src={e.icon}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
+                    style={{ width: "100%", height: "80%" }}
                   />
                 </div>
 
-                <div
-                  className={styles.canabisadminpannelmapperboxindivisyaltxt}
-                >
+                <div className={styles.canabisadminpannelmapperboxindivisyaltxt}>
                   <h4> {e.headertext} </h4>
                   <p> {e.paragraph} </p>
                 </div>

@@ -15,7 +15,7 @@
   height: 550px;
   /* background-color: aqua; */
   position: relative;
-  background: url("/Images/Escooter/shape.png");
+  background: url("/Images/Escooter/shape.webp");
   background-repeat: no-repeat;
   background-size: 100% 550px;
 }

@@ -1,22 +1,23 @@
 import React from 'react';
 import styles from "./Escooterthunder.module.css";
+import Image from 'next/image';
 
 export default function Escooterthunder() {
   const thunderblue = [
     {
-      img: "/Images/Escooter/traffic.png",
+      img: "/Images/Escooter/traffic.webp",
       p: "Turns your vision into reality"
     },
     {
-      img: "/Images/Escooter/takecare.png",
+      img: "/Images/Escooter/takecare.webp",
       p: "Take care of the minutest details"
     },
     {
-      img: "/Images/Escooter/setting.png",
+      img: "/Images/Escooter/setting.webp",
       p: "Keeps up with the latest tech and trends"
     },
     {
-      img: "/Images/Escooter/Builds.png",
+      img: "/Images/Escooter/Builds.webp",
       p: "Builds an efficient UI for a user-Frienly app"
     },
   ]
@@ -36,7 +37,14 @@ export default function Escooterthunder() {
                 <div className={styles.szwhythunder}>
 
                   <div className={styles.szwhythunderimages}>
-                    <img src={item.img} alt="image" />
+                  <Image
+                      src={item.img}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
                   </div>
                   <p>{item.p}</p>
 

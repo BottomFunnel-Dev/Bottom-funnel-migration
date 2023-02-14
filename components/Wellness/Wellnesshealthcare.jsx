@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Wellnesshealth.module.css";
+import Image from "next/image";
 
 export default function Wellnesshealthcare() {
   return (
@@ -7,7 +8,14 @@ export default function Wellnesshealthcare() {
       <div className={styles.Wellnesshealthcaresub}>
         <div className={styles.Wellnesshealthcareleft}>
           <div className={styles.wellnessimage}>
-            <img src="/Images/Wellness/healthphone.png" alt="image" />
+             <Image
+                src={"/Images/Wellness/healthphone.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
         <div className={styles.Wellnesshealthcareright}>

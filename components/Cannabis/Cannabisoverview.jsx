@@ -8,7 +8,7 @@ export default function Cannabisoverview() {
         <button className={styles.szoverviewbtn}>
           Get started
         </button>
-        
+
         <h2>
           AN OVERVIEW OF OUR
         </h2>

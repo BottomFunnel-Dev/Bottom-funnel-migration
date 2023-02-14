@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Politicscontainer.module.css";
+import Image from "next/image";
 
 export default function Politicscontainer() {
   return (
@@ -19,7 +20,14 @@ export default function Politicscontainer() {
         </div>
         <div className={styles.politicsright}>
           <div className={styles.politicsimage}>
-            <img src="Images/Politics/politics.png" />
+             <Image
+                src={"/Images/Politics/politics.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
       </div>

@@ -48,11 +48,6 @@ export default function BigDataServicePopular  (){
                 <p>{body}</p>
               </div>
               <div className={styles.BigDataServicePopularCardsImages}>
-                {/* <img
-                  src={image}
-                  alt={title}
-                  data-src="https://via.placeholder.com/365x500.png"
-                /> */}
                 <Image
                     src={image}
                     alt={title}

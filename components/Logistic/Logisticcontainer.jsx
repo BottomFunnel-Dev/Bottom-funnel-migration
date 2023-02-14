@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Logicsticcontainer.module.css";
+import Image from "next/image";
 
 export default function Logisticcontainer() {
   return (
@@ -19,8 +20,15 @@ export default function Logisticcontainer() {
 
         <div className={styles.szlogisticright}>
           <div className={styles.szrecpurple}>
-            {" "}
-            <img src="Images/logistic/logistic.png" alt="image" />
+                <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                    src={"/Images/logistic/logistic.webp"}
+                    alt={"image"}
+                  />
+              
           </div>
         </div>
       </div>

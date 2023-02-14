@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import styles from './telecommunicationsFooter.module.css';
+import Image from 'next/image';
 
 export const TelecommunicationsFooter = () => {
   const [imageChange, setImageChange] = useState(
-    "/Images/Telecommunication/Admin-Panel/Dashboard-Management.png"
+    "/Images/Telecommunication/Dashboard-Management.webp"
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -11,19 +12,19 @@ export const TelecommunicationsFooter = () => {
 
   const TelecommunicationsFooterData = [
     {
-      img: "/Images/Telecommunication/Admin-Panel/Dashboard-Management.png",
+      img: "/Images/Telecommunication/Dashboard-Management.webp",
       title: "Dashboard Management",
       para: "We provide best in class solutions to help you grow your business online. From analytics to marketing, we have it all covered with our team of experts. We can create a e-commerce appthat will boost your sales and profits.",
     },
 
     {
-      img: "/Images/Telecommunication/Admin-Panel/Manage-Users.png",
+      img: "/Images/Telecommunication/Manage-Users.webp",
       title: "Manage Users",
       para: "Using our user-friendly interface , You will be able to analyze everthing about your app right on your fingertips. Data will be updated automatically every day with real time information about user engagement, transactions ect.",
     },
 
     {
-      img: "/Images/Telecommunication/Admin-Panel/Manage-Categories.png",
+      img: "/Images/Telecommunication/Manage-Categories.webp",
       title: "Manage Categories",
       para: "When you're managing a large catalog of products, efficiency is key from settings up products categories to installing integration, we'll do everything we can to ensure your website runs smoothly and efficiently",
     },
@@ -61,7 +62,14 @@ export const TelecommunicationsFooter = () => {
       <div className={styles.telecommunicationsFooterImgMainDivLeft}>
 
         <div className={styles.telecommunicationsFooterImgFrameLeft}>
-          <img src={imageChange} alt="image" />
+             <Image
+                  src={imageChange}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
       </div>
     </div>
