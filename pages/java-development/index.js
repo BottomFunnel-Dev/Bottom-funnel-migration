@@ -6,6 +6,7 @@ import { javastackIntro } from "../../components/Data/webdevPageData/StackData";
 import { javawebDevServices } from "../../components/Data/webdevPageData/Popularservices";
 import { whyJava } from "../../components/Data/webdevPageData/whyTechStack";
 import { javaWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
+import * as ReactAnimation from "../../public/webdevanimation/Java.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
@@ -93,7 +94,7 @@ export default function JavaDevPage() {
             logo: false,
           }}
         />
-        <WebdevBanner paraColor={"#393939"} bannerContent={javaBanner} />
+        <WebdevBanner paraColor={"#393939"} bannerContent={javaBanner} animateData={ReactAnimation}  />
         <Techstackintro techContent={javastackIntro} />
         <WebDevServices webservicesContent={javawebDevServices} />
         <WhyTechStack techData={whyJava} />

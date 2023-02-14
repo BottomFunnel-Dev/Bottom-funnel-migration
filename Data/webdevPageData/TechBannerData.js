@@ -107,7 +107,8 @@ export const phpBanner = {
   },
   description:
     "We offer web application development services that are tailored to your company's needs. We develop websites and help companies launch their digital products and services.",
-};
+    animateData: "../../public/Animation/andrioid.json"
+  };
 
 
 

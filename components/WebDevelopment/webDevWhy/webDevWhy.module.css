@@ -3,8 +3,10 @@ color: #ef4c23;
 }
 .webDevWhy {
 width: 100%;
+/* border: 2px solid green; */
 }
 .devWhyText {
+    
 width: 80%;
 margin: auto;
 text-align: center;
@@ -21,8 +23,9 @@ row-gap: 30px;
 padding: 3% 0;
 }
 .whyfeatureCard {
+    /* border: 2px solid red; */
 width: 40%;
-height: 210px;
+/* height: 210px; */
 padding: 20px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 border-radius: 10px;
