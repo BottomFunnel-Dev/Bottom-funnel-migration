@@ -14,7 +14,7 @@ import { NavIndustries } from "./NavIndustries";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { Industries } from "./Industries";
 
-const Navbar = ({ navredux, productMount }) => {
+const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
@@ -47,16 +47,13 @@ const Navbar = ({ navredux, productMount }) => {
 
   return (
     <div>
-      {!productMount.navMount && <ContactMain />}
+     <ContactMain />
       <nav
         className={`${navstyle.navbarSection} ${navstyle.active}`}
         style={{
-          top:
-            scroll || productMount.navMount || productMount.salesnavMount
-              ? "0"
-              : "30px",
+         
           position:
-            scroll && (productMount.navMount || productMount.salesnavMount)
+            scroll
               ? "static"
               : "fixed",
         }}
@@ -172,7 +169,7 @@ const Navbar = ({ navredux, productMount }) => {
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}
-            productMount={productMount}
+         
           />
         )}
       </nav>
@@ -183,7 +180,6 @@ const Navbar = ({ navredux, productMount }) => {
           homeHoverIn={hoverhandle}
           homeHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
       {/* about drop down section code end */}
@@ -194,7 +190,6 @@ const Navbar = ({ navredux, productMount }) => {
           serHoverIn={hoverhandle}
           serHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -206,7 +201,6 @@ const Navbar = ({ navredux, productMount }) => {
           solHoverIn={hoverhandle}
           solHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -215,7 +209,6 @@ const Navbar = ({ navredux, productMount }) => {
           indusHoverIn={hoverhandle}
           indusHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -224,7 +217,6 @@ const Navbar = ({ navredux, productMount }) => {
           resHoverIn={hoverhandle}
           resHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
     </div>

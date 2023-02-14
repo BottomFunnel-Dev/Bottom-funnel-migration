@@ -25,7 +25,6 @@ export const NavServices = ({
   serHoverIn,
   serHoverOut,
   scroll,
-  productMount,
 }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
@@ -50,7 +49,7 @@ export const NavServices = ({
       onMouseEnter={()=>{serHoverIn("services",true)}}
       onMouseLeave={()=>{serHoverOut("",false)}}
       className={navservice.servicesolutionVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll ? "68px" : "98px" }}
     >
       <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (

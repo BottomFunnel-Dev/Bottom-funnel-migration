@@ -38,13 +38,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
+     
       />
       <main>{children}</main>
       <StoriesSection />
