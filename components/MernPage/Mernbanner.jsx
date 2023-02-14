@@ -8,7 +8,7 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
     <div
       className={styles.mernBanner}
       style={{
-        background: `url(${bannerdata.background})`,
+        background: `linear-gradient(120deg, #f6d365 0%, #fda085 100%)`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
