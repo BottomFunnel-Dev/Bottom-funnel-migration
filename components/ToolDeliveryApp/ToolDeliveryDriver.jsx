@@ -7,11 +7,11 @@ const ToolDeliveryDriver = () => {
   let TooDeliverydrivedata = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/DriverProfile.png",
+        src: "/Images/tooldeliveryapp/DriverProfile.webp",
         alt: "image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/user-profile.png",
+        src: "/Images/tooldeliveryapp/user-profile.webp",
         alt: " registerlogo",
       },
       title: "Manage Profile",
@@ -19,11 +19,11 @@ const ToolDeliveryDriver = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Reports.png ",
+        src: "/Images/tooldeliveryapp/Reports.webp ",
         alt: "notification",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/analytics.png",
+        src: "/Images/tooldeliveryapp/analytics.webp",
         alt: "notification logo",
       },
       title: "Reports",
@@ -31,11 +31,11 @@ const ToolDeliveryDriver = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Order details.png",
+        src: "/Images/tooldeliveryapp/Order details.webp",
         alt: "order",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/checkout.png",
+        src: "/Images/tooldeliveryapp/checkout.webp",
         alt: "order",
       },
       title: "Get order Details",
@@ -44,11 +44,11 @@ const ToolDeliveryDriver = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Pickup location.png",
+        src: "/Images/tooldeliveryapp/Pickup location.webp",
         alt: " Navigationimage",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/navigation track location.png",
+        src: "/Images/tooldeliveryapp/navigation track location.webp",
         alt: "Navigationimage",
       },
       title: "Track Pickup Location",

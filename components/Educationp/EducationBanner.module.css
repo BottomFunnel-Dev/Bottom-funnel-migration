@@ -1,11 +1,11 @@
 .EducationBannerMain{
     height: 100vh;
+    padding-top: 60px;
     display: flex;
+    justify-content: space-evenly;
 }
 .EducationBannerText{
-    padding-top: 200px;
-    padding-left: 100px;
-    border: 1px solid royalblue;
+    padding: 200px 50px 0px 40px;
 }
 .EducationBannerText>p{
     font-weight: 500;
@@ -19,8 +19,7 @@
     color: white;
     background-color: #ef4c23;
 }
-.EducationBanner{
-    padding: 20px;
-    border:  1px solid rebeccapurple;
+.EducationBannerimg{
+    padding: 50px;
 
 }

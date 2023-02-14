@@ -7,12 +7,12 @@ const ToolDeliveryCustomer = () => {
   let ToolDeliveryCustomerData = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/Easyappboarding.png",
+        src: "/Images/tooldeliveryapp/Easyappboarding.webp",
         alt: "control business admin pannel",
       },
 
       icon: {
-        src: "/Images/tooldeliveryapp/pie-chart.png",
+        src: "/Images/tooldeliveryapp/pie-chart.webp",
         alt: "Marketlogo",
       },
 
@@ -22,11 +22,11 @@ const ToolDeliveryCustomer = () => {
 
     {
       img: {
-        src: "/Images/tooldeliveryapp/Buy tools.png",
+        src: "/Images/tooldeliveryapp/Buy tools.webp",
         alt: "image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/Analytics & insights.png",
+        src: "/Images/tooldeliveryapp/Analytics & insights.webp",
         alt: "Product logo",
       },
       title: "Reports & Analytics",
@@ -34,11 +34,11 @@ const ToolDeliveryCustomer = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Multiple payment option.png",
+        src: "/Images/tooldeliveryapp/Multiple payment option.webp",
         alt: "image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/rupee.png",
+        src: "/Images/tooldeliveryapp/rupee.webp",
         alt: "Revenuelogo",
       },
       title: "Manage Payments",
@@ -47,11 +47,11 @@ const ToolDeliveryCustomer = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Track Order.png",
+        src: "/Images/tooldeliveryapp/Track Order.webp",
         alt: "image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/manage customer.png",
+        src: "/Images/tooldeliveryapp/manage customer.webp",
         alt: "Customer logo",
       },
       title: "Manage Customer",
