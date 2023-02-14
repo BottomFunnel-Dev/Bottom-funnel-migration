@@ -6,16 +6,7 @@ import { FlutterCrossPlatform } from "../../components/FlutterAppDevelopment/Flu
 import { FlutterAppDevelopmentDreamProject } from "../../components/FlutterAppDevelopment/FlutterAppDevelopmentDreamProject/FlutterAppDevelopmentDreamProject";
 import { FluterDevelopmentExpertise } from "../../components/FlutterAppDevelopment/FluterDevelopmentExpertise/FluterDevelopmentExpertise";
 
-import OndemandSection from "../../components/CommonComponents/OnDemandSection/OndemandSection";
-import PlanProject from "../../components/CommonComponents/PlanProject/PlanProject";
-import StoriesSection from "../../components/CommonComponents/StoriesSection/StoriesSection";
-import Revamping from "../../components/revamping/Revamping";
-import ContectForm from "../../components/CommonComponents/ContectForm/ContectForm";
-import MainFooter from "../../components/CommonComponents/FooterSection/MainFooter";
-import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
-import SeoblogSection from "../../components/CommonComponents/SeoBlogs/Seoblogs";
-import TextDropdown from "../../components/CommonComponents/faqSection/Faqs";
 
 export default function FlutterAppDevelopment() {
   return (
@@ -31,15 +22,6 @@ export default function FlutterAppDevelopment() {
         />
       </Head>
       <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "white",
-            logo: true,
-          }}
-        />
         <FlutterAppDevelopmentBanner />
         <FlutterServices />
         <WhyFlutter />
@@ -47,17 +29,6 @@ export default function FlutterAppDevelopment() {
         <FlutterCrossPlatform />
         <FlutterAppDevelopmentDreamProject />
         <FluterDevelopmentExpertise />
-
-        {/* Other react required components  */}
-        <StoriesSection />
-        <OndemandSection />
-        {/* <PortFolio />  */}
-        <PlanProject />
-        <SeoblogSection/>
-        <Revamping />
-        <TextDropdown/>
-        <ContectForm />
-        <MainFooter />
       </main>
     </>
   );

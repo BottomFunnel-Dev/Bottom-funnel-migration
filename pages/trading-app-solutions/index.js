@@ -4,46 +4,10 @@ import { TradingInvestingHeader } from "../../components/Trading-Investing-App-P
 import { ServicesOffer } from "../../components/Trading-Investing-App-Page/ServicesOffer";
 import { WaysToGrow } from "../../components/Trading-Investing-App-Page/WaysToGrow";
 import { SolutionFrame } from "../../components/Trading-Investing-App-Page/SolutionFrame";
-import { SolutionFrameTwo } from "../../components/Trading-Investing-App-Page/SolutionFrameTwo";
+// import { SolutionFrameTwo } from "../../components/Trading-Investing-App-Page/SolutionFrameTwo";
 import { WhyChooseBF } from "../../components/Trading-Investing-App-Page/WhyChooseBF";
-import { TradingInvestingFooter } from "../../components/Trading-Investing-App-Page/TradingInvestingFooter";
+// import { TradingInvestingFooter } from "../../components/Trading-Investing-App-Page/TradingInvestingFooter";
 
-import dynamic from "next/dynamic";
-const TextDropdown = dynamic(
-  () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
-);
-const OndemandSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
-);
-const PlanProject = dynamic(
-  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
-);
-const SeoblogSection = dynamic(
-  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
-);
-const StoriesSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
-);
-const Revamping = dynamic(
-  () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
-);
-const ContectForm = dynamic(
-  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
-);
-const MainFooter = dynamic(
-  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
-);
-import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
 export default function TradingInvestingApp() {
@@ -64,7 +28,6 @@ export default function TradingInvestingApp() {
       </Head>
 
       <main>
-        {/* <Navbar /> */}
         <TradingInvestingHeader />
         <ServicesOffer />
         <WaysToGrow />
@@ -72,17 +35,6 @@ export default function TradingInvestingApp() {
         {/* <SolutionFrameTwo /> */}
         <WhyChooseBF />
         {/*    <TradingInvestingFooter />  */}
-
-        <StoriesSection />
-        {/* <Industries /> */}
-        <PlanProject />
-        <OndemandSection />
-        {/* <PortFolio /> */}
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
       </main>
     </div>
   );
