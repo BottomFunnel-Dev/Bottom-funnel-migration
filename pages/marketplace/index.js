@@ -17,10 +17,8 @@ export default function MarketPlace() {
         </title>
         <meta
           name="description"
-          content="At our web development company, we understand that a 
-        successful marketplace requires a well-designed and user-friendly 
-        web app. That's why we offer top notch marketplace web app 
-        development solutions that will meet your exact requirements!"
+          content="At our web development company, we understand that a successful marketplace requires a well-designed and user-friendly 
+          web app. That's why we offer top notch marketplace web app development solutions that will meet your exact requirements!"
         />
       </Head>
 
