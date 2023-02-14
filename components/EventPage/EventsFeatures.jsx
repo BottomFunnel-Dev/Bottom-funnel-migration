@@ -1,45 +1,47 @@
 import React from "react";
 import styles from "./eventsFeatures.module.css";
+import Image from "next/image";
+
 export const EventsFeatures = () => {
   const features = [
     {
-      featureIcons: "/Images/Eventpage/target.png",
+      featureIcons: "/Images/Eventpage/target.webp",
       featureName: "Event creation",
     },
     {
-      featureIcons: "/Images/Eventpage/target-1.png",
+      featureIcons: "/Images/Eventpage/target-1.webp",
       featureName: "Event search",
     },
     {
-      featureIcons: "/Images/Eventpage/target-2.png",
+      featureIcons: "/Images/Eventpage/target-2.webp",
       featureName: "Event calender",
     },
     {
-      featureIcons: "/Images/Eventpage/target-3.png",
+      featureIcons: "/Images/Eventpage/target-3.webp",
       featureName: "Ticket booking",
     },
     {
-      featureIcons: "/Images/Eventpage/target-4.png",
+      featureIcons: "/Images/Eventpage/target-4.webp",
       featureName: "GPS",
     },
     {
-      featureIcons: "/Images/Eventpage/target-5.png",
+      featureIcons: "/Images/Eventpage/target-5.webp",
       featureName: "Push notification",
     },
     {
-      featureIcons: "/Images/Eventpage/target-6.png",
+      featureIcons: "/Images/Eventpage/target-6.webp",
       featureName: "Chatbot",
     },
     {
-      featureIcons: "/Images/Eventpage/target-7.png",
+      featureIcons: "/Images/Eventpage/target-7.webp",
       featureName: "In-app payment",
     },
     {
-      featureIcons: "/Images/Eventpage/target-8.png",
+      featureIcons: "/Images/Eventpage/target-8.webp",
       featureName: "In-app analysis",
     },
     {
-      featureIcons: "/Images/Eventpage/target-9.png",
+      featureIcons: "/Images/Eventpage/target-9.webp",
       featureName: "Photo sharing",
     },
   ];
@@ -66,7 +68,14 @@ export const EventsFeatures = () => {
         {features.map((item, index) => (
           <div className={styles.eventfeaturecard} key={index}>
             <div className={styles.eventFeatureIcon}>
-              <img src={item.featureIcons} alt="images" />
+                <Image
+                  src={item.featureIcons}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
             <h5>{item.featureName}</h5>
           </div>

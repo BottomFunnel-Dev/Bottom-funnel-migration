@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Politictarget.module.css";
+import Image from "next/image";
+
 export default function Politictarget() {
   return (
     <div className={styles.targetingdiv}>
@@ -7,7 +9,14 @@ export default function Politictarget() {
         <div className={styles.sztargeting}>
           <div className={styles.sztargeting}>
             <div className={styles.sztargetingimage}>
-              <img src="Images/Politics/target.png" />
+            <Image
+                src={"/Images/Politics/target.webp" }
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <div className={styles.targetinghead}>
               {" "}
@@ -30,7 +39,14 @@ export default function Politictarget() {
         <div className={styles.sztargeting}>
           <div className={styles.sztargeting}>
             <div className={styles.sztargetingimage}>
-              <img src="Images/Politics/search.png" />
+            <Image
+                src={"/Images/Politics/search.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <div className={styles.targetinghead}>
               {" "}

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Politicaltool.module.css";
+import Image from "next/image";
 
 export default function Politicaltool() {
   return (
@@ -25,28 +26,56 @@ export default function Politicaltool() {
         <div className={styles.szpoliticalimagesdiv}>
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/cross.png" />
+              <Image
+                src={"/Images/Politics/cross.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <p>Cross-plateform solution</p>
           </div>
 
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/blockchain.png" />
+              <Image
+                  src={"/Images/Politics/blockchain.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
             <p>Blockchain</p>
           </div>
 
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/IoT.png" />
+               <Image
+                  src={"/Images/Politics/IoT.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
             <p>IoT</p>
           </div>
 
           <div>
             <div className={styles.crossimg}>
-              <img src="Images/Politics/artificial-intelligence.png" />
+               <Image
+                  src={"/Images/Politics/artificial-intelligence.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
             </div>
             <p>Arificial Intelligence</p>
           </div>

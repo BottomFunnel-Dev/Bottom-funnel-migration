@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./WellnessAdmin.module.css";
+import Image from "next/image";
 
 export default function WellnessAdmin({ customerData }) {
   const [active, setActive] = useState(0);
@@ -10,10 +11,14 @@ export default function WellnessAdmin({ customerData }) {
 
         <div className={styles.wellnessAdminleft}>
           <div className={styles.wellnessAdminCustomerImage}>
-            <img
-              src={customerData.customerdata[active].img.src}
-              alt={customerData.customerdata[active].img.alt}
-            />
+             <Image
+                src={customerData.customerdata[active].img.src}
+                alt={customerData.customerdata[active].img.alt}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
 

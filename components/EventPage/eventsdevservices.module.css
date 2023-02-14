@@ -9,7 +9,6 @@
   width: 60%;
   height: 100%;
   position: relative;
-
 }
 
 .eventsdevserviceText > div {
@@ -35,7 +34,7 @@
   left: 50%;
   width: 100%;
   height: 100%;
-  background: url("/public/Images/Eventpage/eventserviceback.png");
+  background: url("/public/Images/Eventpage/eventserviceback.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

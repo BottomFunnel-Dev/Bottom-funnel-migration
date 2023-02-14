@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./AviationLetsDiscuss.module.css"
+import Image from 'next/image';
 
 export default function AviationLetsDiscuss (){
   return (
@@ -15,7 +16,14 @@ export default function AviationLetsDiscuss (){
     </div>
     <div className={styles.letsdiscussalternateboxhavetoflex}>
     <div className={styles.innerboxforimageletsdiscuss}>
-    <img src='Images/aviation/airport-terminal.png' alt='images' />
+          <Image
+              src={"/Images/aviation/airport-terminal.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              />
     
     </div>
     <div className={styles.innerboxfortextletsdiscuss}>
@@ -35,7 +43,14 @@ aviation software development services.Being an aviation service company, we off
 demand forecasting and predictive maintainance which are all tied to automation.</p>
 </div>
 <div className={styles.innerboxforimageletsdiscuss2}>
-<img src='Images/aviation/andres-dallimonti-kjqTlMHLci4-unsplash.png' alt='images' />
+          <Image
+              src={"/Images/aviation/andres-dallimonti-kjqTlMHLci4-unsplash.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              />
 
 </div>
 
@@ -44,9 +59,14 @@ demand forecasting and predictive maintainance which are all tied to automation.
 
 <div className={styles.letsdiscussalternateboxhavetoflex}>
 <div className={styles.innerboxforimageletsdiscuss}>
-
-<img src='Images/aviation/william-topa-7_4bU5tHRLQ-unsplash.png' alt='images' />
-
+      <Image
+          src={"/Images/aviation/william-topa-7_4bU5tHRLQ-unsplash.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+          />
 </div>
 <div className={styles.innerboxfortextletsdiscuss}>
 <h3>Data Security</h3>
@@ -70,7 +90,14 @@ Federal Aviation Administration(FAA), Temporary flight Restrictions (TFR), Advis
 
 </div>
 <div className={styles.innerboxforimageletsdiscuss2}>
-<img src='Images/aviation/claudio-schwarz-fyeOxvYvIyY-unsplash.png' alt='images' />
+      <Image
+          src={"/Images/aviation/claudio-schwarz-fyeOxvYvIyY-unsplash.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+          />
 </div>
 
 </div>
@@ -78,8 +105,14 @@ Federal Aviation Administration(FAA), Temporary flight Restrictions (TFR), Advis
 
 <div className={styles.letsdiscussalternateboxhavetoflex}>
 <div className={styles.innerboxforimageletsdiscuss}>
-<img src='Images/aviation/bao-menglong--FhoJYnw-cg-unsplash.png' alt='images' />
-
+    <Image
+      src={"/Images/aviation/bao-menglong--FhoJYnw-cg-unsplash.webp"}
+      alt={"image"}
+      width={"0"}
+      height={"0"}
+      sizes={"100vw"}
+      style={{ width: "100%", height: "100%" }}
+      />
 </div>
 <div className={styles.innerboxfortextletsdiscuss}>
 <h3>Scalability</h3>
@@ -102,8 +135,14 @@ This includes leveraging the latest populated software that will actually lessen
 
 </div>
 <div className={styles.innerboxforimageletsdiscuss2}>
-<img src='Images/aviation/ashim-d-silva-pGcqw1ARGyg-unsplash.png' alt='images' />
-
+    <Image
+      src={"/Images/aviation/ashim-d-silva-pGcqw1ARGyg-unsplash.webp"}
+      alt={"image"}
+      width={"0"}
+      height={"0"}
+      sizes={"100vw"}
+      style={{ width: "100%", height: "100%" }}
+      />
 </div>
 
 </div>

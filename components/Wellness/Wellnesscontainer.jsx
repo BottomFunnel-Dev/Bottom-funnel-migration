@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./Wellnesscontainer.module.css";
+import Image from 'next/image';
 
 export default function Wellnesscontainer() {
   return (
@@ -13,7 +14,14 @@ export default function Wellnesscontainer() {
           </div>
         </div>
         <div className={styles.szwellnessright}>
-          <img src="/Images/WellnessDevApp/Banners/banner1.png" alt='image' />
+            <Image
+              src={"/Images/WellnessDevApp/Banners/banner1.webp"}
+              alt={"/image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
       </div>
     </div>

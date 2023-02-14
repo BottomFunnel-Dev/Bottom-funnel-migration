@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./eventsdevelopment.module.css";
+import Image from "next/image";
+
 export const EventsDevelopment = () => {
   return (
     <div className={styles.eventsdevelopment}>
@@ -21,7 +23,14 @@ export const EventsDevelopment = () => {
         </div>
       </div>
       <div className={styles.eventsdevelopmentImage}>
-        <img src="Images/Eventpage/eventservice1.png" alt="image" />
+              <Image
+                  src={"/Images/Eventpage/eventservice1.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Travelflight.module.css";
+import Image from "next/image";
 
 export default function TravelFlight() {
   return (
@@ -7,13 +8,34 @@ export default function TravelFlight() {
       <div className={styles.szflightcontainer}>
         <div className={styles.szflightleft}>
           <div className={styles.szbgflight}>
-            <img src="Images/Travel/bgflifgt1.png" />
+                <Image
+                    src={"/Images/Travel/bgflifgt1.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
           <div className={styles.sztravelphone}>
-            <img src="Images/Travel/phone.png" />
+                <Image
+                    src={"/Images/Travel/phone.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
           <div className={styles.discovermobilescreen}>
-            <img src="Images/Travel/discovermobileimage.png" />
+                 <Image
+                    src={"/Images/Travel/discovermobileimage.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
         </div>
         <div className={styles.szflightright}>
@@ -81,13 +103,34 @@ export default function TravelFlight() {
         </div>
         <div className={styles.szflightlaptopleft}>
           <div className={styles.szbgflight2}>
-            <img src="Images/Travel/bgflight2.png" />
+                <Image
+                    src={"/Images/Travel/bgflight2.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
           <div className={styles.macbook}>
-            <img src="Images/Travel/macbook.png" />
+                <Image
+                    src={"/Images/Travel/macbook.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
           <div className={styles.szlaptopscreen}>
-            <img src="Images/Travel/flightlaptopscreen.png" />
+                <Image
+                    src={"/Images/Travel/flightlaptopscreen.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
           </div>
         </div>
       </div>
@@ -97,16 +140,39 @@ export default function TravelFlight() {
       <div className={styles.szflightmobilecontainer}>
         <div className={styles.szflightmobileleft}>
           <div className={styles.bgcircle}>
+                <Image
+                    src={"/Images/Travel/bgflight3.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
             {" "}
-            <img src="Images/Travel/bgflight3.png" />
           </div>
           <div className={styles.sztravelmobilecase}>
             {" "}
-            <img src="Images/Travel/travelmobilecase.png" />{" "}
+                <Image
+                    src={"/Images/Travel/travelmobilecase.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  {" "}
           </div>
           <div className={styles.sztravelexplore}>
             {" "}
-            <img src="Images/Travel/exploremobileimage.png" />{" "}
+                 <Image
+                    src={"/Images/Travel/exploremobileimage.webp"}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  {" "}
           </div>
         </div>
         <div className={styles.szflightmobileright}>

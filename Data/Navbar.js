@@ -404,7 +404,7 @@ export const industries = [
   {
     dropContent: "eScooter",
     navIcons: "Images/NavbarIconsSvg/industries section/escooter.svg",
-    path: "eScooter",
+    path: "e-scooter",
   },
   {
     dropContent: "Travel",
