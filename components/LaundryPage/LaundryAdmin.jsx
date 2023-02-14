@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./LaundryAdmin.module.css";
+import Image from "next/image";
 
 const LaundryAdmin = () => {
     const [imageChange, setImageChange] = useState("/Images/Laundrypage/Adminpanelscreens/Admininterface.png")
@@ -55,19 +56,32 @@ const LaundryAdmin = () => {
                                     }}
                                 >
                                     <div>
-                                        <img src={e.img} alt='images' />
+                                        <Image src={e.img}
+                                            alt={'images'}
+                                            width={"0"}
+                                            height={"0"}
+                                            sizes={"100vw"}
+                                            style={{ width: "10%", height: "20%" }}
+                                        />
                                     </div>
 
                                     <h4> {e.Htxt} </h4>
                                     <p> {e.stxt} </p>
                                 </div>
                             )
-                        })}</div>
+                        })}
+                    </div>
                 </div>
             </div>
 
             <div className={styles.laundryadminrightbox}>
-                <img src={imageChange} alt="images" />
+                <Image src={imageChange}
+                    alt={"images"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
             </div>
         </div>
     );

@@ -49,9 +49,11 @@
 }
 
 .foodDeliveryBannerImage {
+  position: absolute;
   /* border: 1px solid red; */
   width: 60%;
-  margin-top: 0%;
+  right: 0%;
+  top: 15%;
   text-align: right;
 }
 

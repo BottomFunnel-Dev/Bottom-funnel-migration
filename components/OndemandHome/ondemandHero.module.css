@@ -10,6 +10,7 @@
   height: 100%;
   position: relative;
 }
+
 .textcontainer > div {
   position: absolute;
   padding: 50px;
@@ -19,6 +20,7 @@
   top: 50%;
   left: 60%;
 }
+
 .textcontainer > div > button {
   padding: 10px 60px;
   border-radius: 25px;
@@ -29,6 +31,7 @@
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+ 
 .textcontainer > div > button:hover {
   color: #ef4c23;
   background-color: white;
@@ -36,7 +39,7 @@
 
 .imageContainer {
   width: 70%;
-  height: 95%;
+  /* height: 95%; */
   background-repeat: no-repeat;
 }
 
@@ -45,4 +48,9 @@
   width: 95%;
   height: 100%;
   object-fit: contain;
+}
+
+.onDemandHomeServiceAnimation {
+  /* border: 1px solid red; */
+  width: 70%;
 }

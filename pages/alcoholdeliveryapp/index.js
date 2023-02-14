@@ -6,64 +6,64 @@ import { alcoholLogo } from "../../components/Data/SeopartnerData";
 // ---------------importing components with lazy loading-----------------------
 const AlcoholBanner = dynamic(
   () => import("../../components/alcohol-delivery/AlcoholBanner/AlcoholBanner"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const Trusted = dynamic(
   () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const AlcoholBookCall = dynamic(
   () =>
     import("../../components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const AlcoholSuggestions = dynamic(
   () =>
     import(
       "../../components/alcohol-delivery/AlcoholSuggestions/AlcoholSuggestions"
     ),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const AlcoholSolutions = dynamic(
   () =>
     import(
       "../../components/alcohol-delivery/AlcoholSolutions/AlcoholSolutions"
     ),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
   loading: () => "loading...",
@@ -77,10 +77,9 @@ export default function AlcoholDelivery() {
         <title> Alcohol web App Development Company | Bottom Funnel </title>
         <meta
           name="description"
-          content="If you're looking to develop an alcohol web app and want to do it 
-        the right way, then Bottom Funnel is the company for you! We offer a 
-        wide range of liquor web app development solutions that will suit 
-        your specific needs. Keep reading to find out more!"
+          content="If you're looking to develop an alcohol web app and want to do it the right way, then Bottom Funnel is the company 
+          for you! We offer a wide range of liquor web app development solutions that will suit your specific needs. Keep reading to 
+          find out more!"
         />
       </Head>
 
