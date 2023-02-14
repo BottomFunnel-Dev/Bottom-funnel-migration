@@ -1,48 +1,70 @@
 import React from "react";
-import LaudryApplication from "../../components/LaundryPage/LaudryApplication";
-import LaundryAdmin from "../../components/LaundryPage/LaundryAdmin";
-import { Laundryapppagelowerfooter } from "../../components/LaundryPage/Laundryapppagelowerfooter";
-import LaundryBannerlower from "../../components/LaundryPage/LaundryBannerlower";
-import LaundryCustomer from "../../components/LaundryPage/LaundryCustomer";
-import LaundryDelivery from "../../components/LaundryPage/LaundryDelivery";
-import LaundryPageBanner from "../../components/LaundryPage/LaundryPageBanner";
 import dynamic from "next/dynamic";
+import Navbar from "../../components/Navbar/Navbar";
+import Head from "next/head";
+
+const LaudryApplication = dynamic(
+  () => import("../../components/LaundryPage/LaudryApplication"),
+  { loading: () => "loading..." },
+);
+const LaundryAdmin = dynamic(
+  () => import("../../components/LaundryPage/LaundryAdmin"),
+  { loading: () => "loading..." },
+);
+const Laundryapppagelowerfooter = dynamic(
+  () => import("../../components/LaundryPage/Laundryapppagelowerfooter"),
+  { loading: () => "loading..." },
+);
+const LaundryBannerlower = dynamic(
+  () => import("../../components/LaundryPage/LaundryBannerlower"),
+  { loading: () => "loading..." },
+);
+const LaundryCustomer = dynamic(
+  () => import("../../components/LaundryPage/LaundryCustomer"),
+  { loading: () => "loading..." },
+);
+const LaundryDelivery = dynamic(
+  () => import("../../components/LaundryPage/LaundryDelivery"),
+  { loading: () => "loading..." },
+);
+const LaundryPageBanner = dynamic(
+  () => import("../../components/LaundryPage/LaundryPageBanner"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." }
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
 
 export default function LaundryPage() {
   return (

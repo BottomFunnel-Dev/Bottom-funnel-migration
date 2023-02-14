@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./ToolDeliveryFooter.module.css";
 
-const ToolDeliveryFooter = () => {
+function ToolDeliveryFooter() {
   const footerdata = [
     {
       logo: "/Images/tooldeliveryapp/Customizable solution.png",
@@ -49,8 +49,10 @@ const ToolDeliveryFooter = () => {
               </div>
 
               <div className={styles.tooldeliveryfooterboxlogo}>
-                <Image className={styles.toollogoimg}
-                  src={e.logo} alt={"imagelogo"}
+                <Image
+                  className={styles.toollogoimg}
+                  src={e.logo}
+                  alt={"imagelogo"}
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
@@ -63,6 +65,6 @@ const ToolDeliveryFooter = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryFooter;
