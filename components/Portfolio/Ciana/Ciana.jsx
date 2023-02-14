@@ -37,7 +37,7 @@ export const Ciana = () => {
 <div className={styles.yanabaliconandeoid}>
 <Link href="https://www.cianacrafts.com/">
 <a className={styles.androidappicon}>
-<img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/ciana.webp' alt='images' />
 </a>
 </Link>
 </div>

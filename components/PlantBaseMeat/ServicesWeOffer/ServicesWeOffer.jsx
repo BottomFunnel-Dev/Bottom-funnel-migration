@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from "./ServicesWeOffer.module.css";
 
@@ -50,11 +51,17 @@ export const ServicesWeOffer = () => {
                 {servicesWeOfferCardsData.map(({ title, body, image }, idx) => (
                     <div key={idx}>
                         <div>
-                            <img src={image} alt={title} />
+                            <Image src={image}
+                                alt={title}
+                                width={"0"}
+                                height={"0"}
+                                sizes={"100vw"}
+                                style={{ width: "100%", height: "100%" }}
+                            />
                         </div>
-                        
-                        <h3>{title}</h3>
-                        <p>{body}</p>
+
+                        <h3> {title} </h3>
+                        <p> {body} </p>
                     </div>
                 ))}
             </div>

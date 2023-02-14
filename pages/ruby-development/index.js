@@ -6,6 +6,8 @@ import { rubystackIntro } from "../../components/Data/webdevPageData/StackData";
 import { rubyWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
 import { whyRuby } from "../../components/Data/webdevPageData/whyTechStack";
 import { rubywebDevServices } from "../../components/Data/webdevPageData/Popularservices";
+import * as ReactAnimation from "../../public/webdevanimation/Ruby.json";
+
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
@@ -94,7 +96,7 @@ export default function RubyRails() {
             logo: false,
           }}
         />
-        <WebdevBanner paraColor={"#393939"} bannerContent={rubyBanner} />
+        <WebdevBanner paraColor={"#393939"} bannerContent={rubyBanner} animateData={ReactAnimation}/>
         <Techstackintro techContent={rubystackIntro} />
         <WebDevServices webservicesContent={rubywebDevServices} />
         <WhyTechStack techData={whyRuby} />

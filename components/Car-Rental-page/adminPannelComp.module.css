@@ -58,7 +58,9 @@
 
 .RGadminPannelLeftDivBoxex:hover {
   transform: scale(1.02);
-  background-color: #ffebef;
+  /* background-color: #ffebef; */
+  background-color: rgb(10,178,189);
+  color: white;
 }
 
 .RGadminPannelLeftDivBoxex > div > h4 {

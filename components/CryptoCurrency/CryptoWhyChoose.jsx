@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./CryptoWhyChoose.module.css";
+import Image from 'next/image';
 
 export const CryptoWhyChoose = () => {
   return (
@@ -9,7 +10,14 @@ export const CryptoWhyChoose = () => {
         <p>You need to consider that your cryptocurrency website has a niche, but also you need to make it appealing at the industry level. Cryptocurrency is the new future of financial transitions,</p>
       </div>
       <div className={styles.cryptowhychooseusimageboxes} >
-        <img src='/Images/Cryptocurrencypage/bannerbackground/Component 51.png' alt='image' />
+          <Image
+              src={"/Images/Cryptocurrencypage/bannerbackground/Component 51.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
       </div>
 
       <div className={styles.cryptocurrencysatisfactionbox}>
@@ -33,7 +41,14 @@ export const CryptoWhyChoose = () => {
       </div>
 
       <div className={styles.cryptowhychooseusloweimagefooter}>
-        <img src='/Images/Cryptocurrencypage/bannerbackground/Rectangle 4417.png' alt='borderlower' />
+          <Image
+            src={"/Images/Cryptocurrencypage/bannerbackground/Rectangle 4417.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
       </div>
     </div>
   )

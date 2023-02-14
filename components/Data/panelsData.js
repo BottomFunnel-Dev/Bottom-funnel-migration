@@ -915,7 +915,7 @@ export const datingCustomer = {
   customerdata: [
     {
       img: {
-        src: "Images/DatingAppDev/Customer/One.png",
+        src: "/Images/DatingAppDev/Customer/One.webp",
         alt: "Register image",
       },
       title: "Simple and Secure Login",
@@ -923,7 +923,7 @@ export const datingCustomer = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Customer/Two.png",
+        src: "/Images/DatingAppDev/Customer/Two.webp",
         alt: "Schedule",
       },
       title: "User-friendly Interface",
@@ -931,7 +931,7 @@ export const datingCustomer = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Customer/Three.png",
+        src: "/Images/DatingAppDev/Customer/Three.webp",
         alt: "Multiple Payment Option image",
       },
       title: "Add your Interest",
@@ -940,7 +940,7 @@ export const datingCustomer = {
 
     {
       img: {
-        src: "Images/DatingAppDev/Customer/Four.png",
+        src: "/Images/DatingAppDev/Customer/Four.webp",
         alt: "Track Order image",
       },
       title: "Easy to Search",
@@ -954,7 +954,7 @@ export const datingAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/DatingAppDev/Admin/Dashboard Management.png",
+        src: "/Images/DatingAppDev/Admin/Dashboard Management.webp",
         alt: "Dashboard Management",
       },
       title: "Dashboard Management",
@@ -962,7 +962,7 @@ export const datingAdmin = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Admin/Manage Users.png",
+        src: "/Images/DatingAppDev/Admin/Manage Users.webp",
         alt: "Manage Users",
       },
       title: "Manage Users",
@@ -970,7 +970,7 @@ export const datingAdmin = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Admin/Manage Categories.png",
+        src: "/Images/DatingAppDev/Admin/Manage Categories.webp",
         alt: "Manage Categories",
       },
       title: "Manage Categories",
@@ -979,14 +979,14 @@ export const datingAdmin = {
   ],
   sectionTitle: "Admin App",
 
-  // background: "Images/DatingAppDev/Customer/Four.png",
+  // background: "Images/DatingAppDev/Customer/Four.webp",
 };
 
 export const datingService = {
   customerdata: [
     {
       img: {
-        src: "Images/DatingAppDev/Service/One.png",
+        src: "/Images/DatingAppDev/Service/One.webp",
         alt: "Schedule Your Date",
       },
       title: "Schedule Your Date",
@@ -994,7 +994,7 @@ export const datingService = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Service/Two.png",
+        src: "/Images/DatingAppDev/Service/Two.webp",
         alt: "Live Chat",
       },
       title: "Live Chat",
@@ -1002,7 +1002,7 @@ export const datingService = {
     },
     {
       img: {
-        src: "Images/DatingAppDev/Service/Three.png",
+        src: "/Images/DatingAppDev/Service/Three.webp",
         alt: "Simplicity In Searching",
       },
       title: "Simplicity In Searching",
@@ -1011,7 +1011,7 @@ export const datingService = {
 
     {
       img: {
-        src: "Images/DatingAppDev/Service/Four.png",
+        src: "/Images/DatingAppDev/Service/Four.webp",
         alt: "Help Center",
       },
       title: "Help Center",
@@ -1020,7 +1020,7 @@ export const datingService = {
   ],
   sectionTitle: "Service Provider",
 
-  // background: "Images/DatingAppDev/Customer/Four.png",
+  // background: "Images/DatingAppDev/Customer/Four.webp",
 };
 
 // App Store management

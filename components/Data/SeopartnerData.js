@@ -360,34 +360,34 @@ export const CannabisLogo = {
 export const EcommerceLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 61.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 61.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 62.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 62.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 63.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 63.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 64.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 64.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 65.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 65.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 66.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 66.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 67.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 67.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 68.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 68.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 69.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 69.webp",
     },
     {
-      partnerImage: "/Images/seopages/E-Commerce/Frame 70.png",
+      partnerImage: "/Images/seopages/E-Commerce/Frame 70.webp",
     },
   ],
 
@@ -475,34 +475,34 @@ export const icecreamLogo = {
 export const videostreamLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/videostreaming/frame71.png",
+      partnerImage: "/Images/seopages/videostreaming/frame71.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame72.png",
+      partnerImage: "/Images/seopages/videostreaming/frame72.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame73.png",
+      partnerImage: "/Images/seopages/videostreaming/frame73.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame74.png",
+      partnerImage: "/Images/seopages/videostreaming/frame74.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame75.png",
+      partnerImage: "/Images/seopages/videostreaming/frame75.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame76.png",
+      partnerImage: "/Images/seopages/videostreaming/frame76.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame77.png",
+      partnerImage: "/Images/seopages/videostreaming/frame77.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame78.png",
+      partnerImage: "/Images/seopages/videostreaming/frame78.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame79.png",
+      partnerImage: "/Images/seopages/videostreaming/frame79.webp",
     },
     {
-      partnerImage: "/Images/seopages/videostreaming/frame80.png",
+      partnerImage: "/Images/seopages/videostreaming/frame80.webp",
     },
   ],
 
@@ -590,49 +590,49 @@ export const pickupanddeliveryLogo = {
 export const sportsBettingLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame30.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame30.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame31.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame31.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame32.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame32.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame33.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame33.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame34.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame34.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame35.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame35.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame36.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame36.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame37.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame37.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame38.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame38.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame39.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame39.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame40.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame40.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame41.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame41.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame42.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame42.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame43.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame43.webp",
     },
     {
-      partnerImage: "/Images/seopages/sportsbetting/frame44.png",
+      partnerImage: "/Images/seopages/sportsbetting/frame44.webp",
     },
   ],
 
@@ -643,49 +643,49 @@ export const sportsBettingLogo = {
 export const datingLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/dating/frame1.png",
+      partnerImage: "/Images/seopages/dating/frame1.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame2.png",
+      partnerImage: "/Images/seopages/dating/frame2.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame3.png",
+      partnerImage: "/Images/seopages/dating/frame3.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame4.png",
+      partnerImage: "/Images/seopages/dating/frame4.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame5.png",
+      partnerImage: "/Images/seopages/dating/frame5.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame6.png",
+      partnerImage: "/Images/seopages/dating/frame6.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame7.png",
+      partnerImage: "/Images/seopages/dating/frame7.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame8.png",
+      partnerImage: "/Images/seopages/dating/frame8.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame9.png",
+      partnerImage: "/Images/seopages/dating/frame9.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame10.png",
+      partnerImage: "/Images/seopages/dating/frame10.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame11.png",
+      partnerImage: "/Images/seopages/dating/frame11.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame12.png",
+      partnerImage: "/Images/seopages/dating/frame12.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame13.png",
+      partnerImage: "/Images/seopages/dating/frame13.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame14.png",
+      partnerImage: "/Images/seopages/dating/frame14.webp",
     },
     {
-      partnerImage: "/Images/seopages/dating/frame15.png",
+      partnerImage: "/Images/seopages/dating/frame15.webp",
     },
   ],
 
@@ -962,49 +962,49 @@ export const newsLogo = {
 export const fitnessLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/fitness/altitude.png",
+      partnerImage: "/Images/seopages/fitness/altitude.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/crossrope.png",
+      partnerImage: "/Images/seopages/fitness/crossrope.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/dicks.png",
+      partnerImage: "/Images/seopages/fitness/dicks.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/fitbit.png",
+      partnerImage: "/Images/seopages/fitness/fitbit.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/foot.png",
+      partnerImage: "/Images/seopages/fitness/foot.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/frame.png",
+      partnerImage: "/Images/seopages/fitness/frame.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/gymshark.png",
+      partnerImage: "/Images/seopages/fitness/gymshark.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/herbalife.png",
+      partnerImage: "/Images/seopages/fitness/herbalife.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/him.png",
+      partnerImage: "/Images/seopages/fitness/him.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/limit.png",
+      partnerImage: "/Images/seopages/fitness/limit.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/nobull.png",
+      partnerImage: "/Images/seopages/fitness/nobull.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/peloton.png",
+      partnerImage: "/Images/seopages/fitness/peloton.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/planet.png",
+      partnerImage: "/Images/seopages/fitness/planet.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/studio.png",
+      partnerImage: "/Images/seopages/fitness/studio.webp",
     },
     {
-      partnerImage: "/Images/seopages/fitness/sweat.png",
+      partnerImage: "/Images/seopages/fitness/sweat.webp",
     },
   ],
 

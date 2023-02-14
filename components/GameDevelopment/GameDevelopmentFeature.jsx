@@ -20,14 +20,14 @@ export const GameDevelopmentFeature = () => {
       <div className={styles.gamedevelopmentanotherdivforboxesforfeatures}>
         <div className={styles.gamedevelopmentfeatureinnerbox1}>
           <div className={styles.gamedeveloperinnerimageallboxes}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/level 1.webp"
-              alt="gamedevelopmentpage/level 1.webp"
-            />
+               <Image
+                  src={"/Images/gamedevelopmentpage/level 1.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Level and world design
@@ -36,14 +36,14 @@ export const GameDevelopmentFeature = () => {
 
         <div className={styles.gamedevelopmentfeatureinnerbox2}>
           <div className={styles.gamedeveloperinnerimageallboxes}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/Component 124.webp"
-              alt="gamedevelopmentpage/Component 124.webp"
-            />
+                <Image
+                  src={"/Images/gamedevelopmentpage/Component 124.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Art and/or sketches
@@ -52,14 +52,14 @@ export const GameDevelopmentFeature = () => {
 
         <div className={styles.gamedevelopmentfeatureinnerbox3}>
           <div className={styles.gamedeveloperinnerimageallboxes}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/character-design 1.webp"
-              alt="gamedevelopmentpage/character-design 1.webp"
-            />
+               <Image
+                  src={"/Images/gamedevelopmentpage/character-design 1.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Story and characters
@@ -68,28 +68,28 @@ export const GameDevelopmentFeature = () => {
 
         <div className={styles.gamedevelopmentfeatureinnerbox4}>
           <div className={styles.gamedeveloperinnerimageallboxes}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/gameplay 1.webp"
-              alt="images"
-            />
+                <Image
+                  src={"/Images/gamedevelopmentpage/gameplay 1.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>Gameplay</h4>
         </div>
 
         <div className={styles.gamedevelopmentfeatureinnerbox5}>
           <div className={styles.gamedeveloperinnerimageallboxes}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/game 4.webp"
-              alt="images"
-            />
+                <Image
+                  src={"/Images/gamedevelopmentpage/game 4.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <h4 className={styles.txtwhitegamedeveloperfeature}>
             Core game mechanics

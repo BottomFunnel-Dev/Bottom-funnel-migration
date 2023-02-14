@@ -1,21 +1,22 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoSEMSection.module.css";
-import Image from "next/image";
+import * as reactAnimation from "../../public/Animation/DMAnimation/3.json";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function SeoSEMSection() {
 
     return (
         <div className={styles._SeoSEMMain1}>
             <div className={styles.semgifDenote}>
-            <Image
-            src={"/Images/seopages/compsem.gif"}
-            alt={"image"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%"}}
-          />
+            <Player
+                src={reactAnimation}
+                background="transparent"
+                speed="2"
+                loop
+                controls
+                autoplay
+        ></Player>
             </div>
             <div className={styles._SeoSEMupperdiv}>
                 <div className={styles._SeoSEMtext} >

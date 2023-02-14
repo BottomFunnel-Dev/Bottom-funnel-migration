@@ -70,7 +70,7 @@ export const CattleCountry = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Cattle country/logo/Mobile 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/cattle.webp' alt='images' />
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>

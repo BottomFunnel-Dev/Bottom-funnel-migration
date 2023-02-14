@@ -1,40 +1,41 @@
 import React from "react";
 import { useState } from "react";
 import styles from "./SocialMediaAdminPannel.module.css";
+import Image from "next/image";
 
 export const SocialMediaAdminPannel = () => {
   const socialmediadminpanneldata = [
     {
-      logo: "Images/socialmedia/bannesbackground/Component41.png",
-      image: "Images/socialmedia/Adminpanelscreens/dashboard.png",
+      logo: "/Images/socialmedia/bannesbackground/Component41.png",
+      image: "/Images/socialmedia/Adminpanelscreens/dashboard.png",
       htxt: "Dashboard",
       stxt: "Dashboards are an effective way of visualize and understanding data from dashboard.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/Group339972.png",
-      image: "Images/socialmedia/Adminpanelscreens/Profile.png",
+      logo: "/Images/socialmedia/bannesbackground/Group339972.png",
+      image: "/Images/socialmedia/Adminpanelscreens/Profile.png",
       htxt: "Profile Management",
       stxt: "It is used to create business profile, maintain it and manage users and groups.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/Component43.png",
-      image: "Images/socialmedia/Adminpanelscreens/Reorts.png",
+      logo: "/Images/socialmedia/bannesbackground/Component43.png",
+      image: "/Images/socialmedia/Adminpanelscreens/Reorts.png",
       htxt: "Reports",
       stxt: "Reporting is a crucial part in any business, and we realize that.",
     },
 
     {
-      logo: "Images/socialmedia/bannesbackground/icon.png",
-      image: "Images/socialmedia/Adminpanelscreens/Inshigts.png",
+      logo: "/Images/socialmedia/bannesbackground/icon.png",
+      image: "/Images/socialmedia/Adminpanelscreens/Inshigts.png",
       htxt: "Insights",
       stxt: "Social media is changing the way we think about marketing.",
     },
   ];
 
   const [imageChange, setImageChange] = useState(
-    "Images/socialmedia/Adminpanelscreens/dashboard.png",
+    "/Images/socialmedia/Adminpanelscreens/dashboard.png",
   );
 
   const handleImageChange = (imagepath) => {
@@ -64,8 +65,15 @@ export const SocialMediaAdminPannel = () => {
                   handleImageChange(e.image);
                 }}
               >
-                <div>
-                  <img height="50px" src={e.logo} alt="logo" />
+                <div className={styles.socialmediaAdminImages}>
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                    src={e.logo}
+                    alt="images"
+                  />
                 </div>
                 <div className={styles.socialmeditxtmapperbox}>
                   <h4>{e.htxt}</h4>
@@ -78,7 +86,14 @@ export const SocialMediaAdminPannel = () => {
       </div>
 
       <div className={styles.afterflexingsocialmediarightbox}>
-        <img src={imageChange} alt="" />
+          <Image
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+              src={imageChange}
+              alt="images"
+            />
       </div>
     </div>
   );

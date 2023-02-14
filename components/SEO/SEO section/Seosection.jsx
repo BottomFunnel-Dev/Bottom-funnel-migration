@@ -1,24 +1,28 @@
 import React from "react";
 import { SeoForm } from "../seoForm/SeoForm";
 import styles from "./Seosection.module.css";
-import Image from "next/image";
+import * as reactAnimation from "../../../public/Animation/DMAnimation/1.json";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Seosection() {
   return (
     <div className={styles._SeoMain1}>
       <div className={styles.gifDenote}>
-        <Image
-            src={"/Images/seopages/1.gif"}
-            alt={"image"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%"}}
-            />
+        <Player
+          src={reactAnimation}
+          background="transparent"
+          speed="2"
+          loop
+          controls
+          autoplay
+        ></Player>
       </div>
+
       <div className={styles._Seoupperdiv}>
         <div className={styles._Seotext}>
-          <div className={styles.Seoheading}>Professional SEO Services Company</div>
+          <div className={styles.Seoheading}>
+            Professional SEO Services Company
+          </div>
           <p className={styles._Seoparagraph}>
             We are a team of SEOs and analysts who drive results through our
             know-how and hard work. We get the job done properly and

@@ -1,22 +1,23 @@
 import React from 'react';
 import styles from "./DatingWhy.module.css";
+import Image from 'next/image';
 
 export default function DatingWhy() {
   const datingwhy = [
     {
-      img: "Images/Dating/ontimedelivery.png",
+      img: "/Images/Dating/ontimedelivery.webp",
       p: "On Time Delivery"
     },
     {
-      img: "Images/Dating/24customerservice.png",
+      img: "/Images/Dating/24customerservice.webp",
       p: "24*7 Supports"
     },
     {
-      img: "Images/Dating/flexible.png",
+      img: "/Images/Dating/flexible.webp",
       p: "Flexibilety"
     },
     {
-      img: "Images/Dating/rating.png",
+      img: "/Images/Dating/rating.webp",
       p: "Customer Satisfaction"
     },
   ]
@@ -38,8 +39,15 @@ export default function DatingWhy() {
             datingwhy.map((item) => {
               return (
                 <div>
-                  <div className={styles.szdatingwhyimages}>
-                    <img src={item.img} alt="images"/>
+                    <div className={styles.datingWhyImagedIV}>
+                    <Image
+                      src={item.img}
+                      alt="Images"
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                  />
                   </div>
                   <p>{item.p}</p>
 

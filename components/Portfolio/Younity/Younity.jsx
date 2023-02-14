@@ -61,7 +61,7 @@ export const Younity = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/Younity/logo/Mobile 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/younity.webp' alt='images' />
 </div>
 
 <div>

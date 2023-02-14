@@ -10,12 +10,12 @@ export default function Grow() {
         <div className={styles.growmobile}>
           <div className={styles.growmobileimage}>
             <Image
+              src={"/Images/Videostreaming/newmoviesimage.webp"}
+              alt={"Image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/Videostreaming/newmoviesimage.webp"
-              alt="Videostreaming/newmoviesimage.webp"
             />
           </div>
         </div>
@@ -34,12 +34,12 @@ export default function Grow() {
               <p>Get Started </p>
               <div className={styles.szstarticon}>
                 <Image
+                  src={"/Images/Videostreaming/Arrow.webp"}
+                  alt={"Image"}
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "100%", height: "fit-content" }}
-                  src="/Images/Videostreaming/Arrow.webp"
-                  alt="Videostreaming/Arrow.webp"
+                  style={{ width: "100%", height: "100%" }}
                 />
               </div>
             </div>
@@ -63,12 +63,12 @@ export default function Grow() {
               <p>Get Started </p>
               <div className={styles.szstarticon}>
                 <Image
+                  src={"/Images/Videostreaming/Arrow.webp"}
+                  alt={"Image"}
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "100%", height: "fit-content" }}
-                  src="/Images/Videostreaming/Arrow.webp"
-                  alt="Videostreaming/Arrow.webp"
+                  style={{ width: "100%", height: "100%" }}
                 />
               </div>
             </div>
@@ -77,14 +77,14 @@ export default function Grow() {
 
         <div className={styles.optimizeimage}>
           <div className={styles.crown}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/Videostreaming/tvapp.webp"
-              alt="Videostreaming/tvapp.webp"
-            />
+              <Image
+                src={"/Images/Videostreaming/tvapp.webp"}
+                alt={"Image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
       </div>
@@ -94,14 +94,14 @@ export default function Grow() {
       <div className={styles.growdiv}>
         <div className={styles.starwars}>
           <div className={styles.starwarimage}>
-            <Image
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-              src="/Images/Videostreaming/starwars.webp"
-              alt="Videostreaming/starwars.webp"
-            />
+             <Image
+                src={"/Images/Videostreaming/starwars.webp"}
+                alt={"Image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
 
@@ -119,14 +119,14 @@ export default function Grow() {
             <div className={styles.szbtnget}>
               <p>Get Started </p>
               <div className={styles.szstarticon}>
-                <Image
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "fit-content" }}
-                  src="/Images/Videostreaming/Arrow.webp"
-                  alt="Videostreaming/Arrow.webp"
-                />
+              <Image
+                src={"/Images/Videostreaming/Arrow.webp"}
+                alt={"Image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
               </div>
             </div>
           </div>

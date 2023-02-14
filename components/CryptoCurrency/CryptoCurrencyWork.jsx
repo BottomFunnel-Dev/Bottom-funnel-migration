@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./CryptoCurrencyWork.module.css";
+import Image from "next/image";
 
 export const CryptoCurrencyWork = () => {
   return (
@@ -8,7 +9,14 @@ export const CryptoCurrencyWork = () => {
         <h3>How Do Cryptocurrencies Work ?</h3>
       </div>
       <div className={styles.cryptocurrencyworkimageboxing}>
-        <img src='Images/Cryptocurrencypage/Bitcoin 2.png' alt='working chart' />
+          <Image
+            src={"/Images/Cryptocurrencypage/Bitcoin 2.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
       </div>
 
       <div className={styles.cryptocurrencyworklowerboxingimage}>

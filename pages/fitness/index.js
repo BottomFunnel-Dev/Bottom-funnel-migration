@@ -10,6 +10,7 @@ import FitnessSolution from "../../components/Fitness/FitnessSolution";
 import Fitnesswhy from "../../components/Fitness/Fitnesswhy";
 
 import dynamic from "next/dynamic";
+
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },
@@ -51,7 +52,7 @@ export default function Fintess() {
   return (
     <div>
       <Head>
-        <title>Fitness Web App development | Bottom Funnel</title>
+        <title>Fitness Web and App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Are you looking for a Fitness web app development company that 

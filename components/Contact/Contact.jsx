@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
+import Image from "next/image";
 import stylecon from "./Contact.module.css";
 
 export const ContactMain = ({ bgcolor, textcolor }) => {
@@ -23,19 +23,46 @@ export const ContactMain = ({ bgcolor, textcolor }) => {
       <div>
         <div>
           <span>
-            <img src="/Images/contactNavbar/india.png" alt="India flag" />
+            <div className={stylecon.contactNavbarCountryIcon}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://d1krs40fxb67ye.cloudfront.net/Images/contactNavbar/india.png"
+                alt="India flag"
+              />
+            </div>
             <a style={{ color: textcolor }} href="tel:+918209366227">
               +918209366227
             </a>
           </span>
           <span>
-            <img src="/Images/contactNavbar/usa.png" alt="USA flag" />
+            <div className={stylecon.contactNavbarCountryIcon}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://d1krs40fxb67ye.cloudfront.net/Images/contactNavbar/usa.png"
+                alt="USA flag"
+              />
+            </div>
             <a style={{ color: textcolor }} href="tel:+19176956550 ">
               +19176956550{" "}
             </a>
           </span>
           <span>
-            <img src="/Images/contactNavbar/uae.png" alt="UAE flag" />
+            <div className={stylecon.contactNavbarCountryIcon}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://d1krs40fxb67ye.cloudfront.net/Images/contactNavbar/uae.png"
+                alt="UAE flag"
+              />
+            </div>
             <a style={{ color: textcolor }} href="tel:+971 58 597 8776">
               +971 58 597 8776
             </a>

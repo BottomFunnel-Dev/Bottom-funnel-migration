@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import styles from "./CryptoMining.module.css";
+import Image from "next/image";
 
 const CryptoMining = () => {
 
-  const [imageChange, setImageChange] = useState("Images/Cryptocurrencypage/Userappscreens/Easytrade.png")
+  const [imageChange, setImageChange] = useState("/Images/Cryptocurrencypage/Userappscreens/Easytrade.webp")
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath)
@@ -14,29 +15,29 @@ const CryptoMining = () => {
     {
       htxt: "Easy Trade",
       stxt: "Crypterio theme has a responsive design flow with a clean design. This theme is suited for Bitcoin, ICO (Initial Coin Offering), and Cryptocurrency.",
-      img: "Images/Cryptocurrencypage/icons/easytrade.png",
-      bigimg: "Images/Cryptocurrencypage/Userappscreens/Easytrade.png"
-
+      img: "/Images/Cryptocurrencypage/icons/easytrade.webp",
+      bigimg: "/Images/Cryptocurrencypage/Userappscreens/Easytrade.webp"
     },
+
     {
       htxt: "Graphs Details",
       stxt: "It can show real-time exchange rates, has a crypto coins converter. Moreover, it is cross-browser compatible.Crypterio is bundled with several premium.",
-      img: "Images/Cryptocurrencypage/icons/graphsdetails.png",
-      bigimg: "Images/Cryptocurrencypage/Userappscreens/Graphsdetails.png"
+      img: "/Images/Cryptocurrencypage/icons/graphsdetails.webp",
+      bigimg: "/Images/Cryptocurrencypage/Userappscreens/Graphsdetails.webp"
     },
 
     {
       htxt: "Transaction History",
       stxt: "It is updated regularly and offers great professional 24×7 support and so much more.Kryptex is built for mobile devices with optimized features.",
-      img: "Images/Cryptocurrencypage/icons/transectiondetails.png",
-      bigimg: "Images/Cryptocurrencypage/Userappscreens/Transactionhistory.png"
+      img: "/Images/Cryptocurrencypage/icons/transectiondetails.webp",
+      bigimg: "/Images/Cryptocurrencypage/Userappscreens/Transactionhistory.webp"
     },
 
     {
       htxt: "Market Updates",
       stxt: "This theme is most applicable for Cryptocurrency and Mining. It is SEO-friendly and offers features like two homepage layouts.",
-      img: "Images/Cryptocurrencypage/icons/marketupdate.png",
-      bigimg: "Images/Cryptocurrencypage/Userappscreens/Marketupdates.png"
+      img: "/Images/Cryptocurrencypage/icons/marketupdate.webp",
+      bigimg: "/Images/Cryptocurrencypage/Userappscreens/Marketupdates.webp",
     }
   ]
 
@@ -51,10 +52,24 @@ const CryptoMining = () => {
 
         <div className={styles.cryptocurrencyminigflexboxingleft}>
           <div className={styles.cryptocurrencyminigflexboxingleftimageone}>
-            <img src='Images/Cryptocurrencypage/bannerbackground/Component50.png' alt='image' />
+            <Image
+              src={"/Images/Cryptocurrencypage/bannerbackground/Component50.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.cryptocurrencyminigflexboxingleftimagetwo}>
-            <img src={imageChange} alt='changeable image' />
+            <Image
+              src={imageChange}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -70,8 +85,14 @@ const CryptoMining = () => {
                 }}
               >
                 <div className={styles.cryptominingrightboxmappinglogo}>
-                  <img src={e.img} alt='images' />
-
+                  <Image
+                    src={e.img}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
                 <div className={styles.cryptominingrightboxmappingtxt}>
                   <h4>{e.htxt}</h4>

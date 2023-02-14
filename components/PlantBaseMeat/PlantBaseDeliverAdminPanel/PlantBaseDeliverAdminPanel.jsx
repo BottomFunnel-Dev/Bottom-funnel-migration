@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./PlantBaseDeliverAdminPanel.module.css";
 
@@ -16,7 +17,13 @@ export default function PlantBaseDeliverAdminPanel({ plantBasedAdminData }) {
                                 className={`logistic-box-${idx}`}
                             >
                                 <div className={styles.logisticLogo}>
-                                    <img src={icon.src} alt={icon.alt} />
+                                    <Image src={icon.src}
+                                        alt={icon.alt}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
 
                                 <h3> {title} </h3>
@@ -35,8 +42,12 @@ export default function PlantBaseDeliverAdminPanel({ plantBasedAdminData }) {
                     }}
                 >
                     <div className={styles.plantBasedAdminPanelmage}>
-                        <img src={plantBasedAdminData.plantBasedAdminData[active].img.src}
+                        <Image src={plantBasedAdminData.plantBasedAdminData[active].img.src}
                             alt={plantBasedAdminData.plantBasedAdminData[active].img.alt}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
                         />
                     </div>
                 </div>

@@ -58,7 +58,7 @@ export const Myteam = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/My team11/logo/download (2) 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/myteam11.webp' alt='images' />
 </div>
 
 <div><button className={styles.yanabalbuttonalongflex}>view case study</button></div>

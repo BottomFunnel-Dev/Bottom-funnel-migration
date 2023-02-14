@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./customerAppComp.module.css";
 
@@ -42,7 +43,13 @@ export default function CustomerAppComp() {
 
       <div className={styles.RGCustomerAppMobileLeftDiv}>
         <div className={styles.RGCustomerAppMobileLeftDivFrameForImages}>
-          <img src={imageChange} alt="images" />
+          <Image src={imageChange}
+            alt={"images"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
 

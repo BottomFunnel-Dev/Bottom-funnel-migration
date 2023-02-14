@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Customerapp.module.css";
+import Image from "next/image";
 
 export default function Customerapp({ customerData }) {
   const [active, setActive] = useState(0);
@@ -26,16 +27,20 @@ export default function Customerapp({ customerData }) {
           className={styles.datingcustomerleft}
           style={{
             background: `url(${customerData.background})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundRepeat:"no-repeat",
+            backgroundSize:"cover",
+            backgroundPosition:"center",
           }}
         >
           <div className={styles.logisticCustomerImage}>
-            <img
-              src={customerData.customerdata[active].img.src}
-              alt={customerData.customerdata[active].img.alt}
-            />
+              <Image
+                src={customerData.customerdata[active].img.src}
+                alt={customerData.customerdata[active].img.alt}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
       </div>

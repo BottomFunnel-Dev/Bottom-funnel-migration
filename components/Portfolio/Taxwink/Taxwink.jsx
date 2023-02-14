@@ -83,7 +83,7 @@ export const Taxwink = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Tax wink/logo/download1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/taxwink.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.taxwink.com/">

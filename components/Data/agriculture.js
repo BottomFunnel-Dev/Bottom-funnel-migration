@@ -2,7 +2,7 @@ export const logisticsCustomer = {
   agricultureCustomerApp: [
     {
       img: {
-        src: "Images/logistic/Register screen.png",
+        src: "/Images/logistic/Register screen.png",
         alt: "Register image",
       },
       icon: {
@@ -14,7 +14,7 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Schedule trip screen.png",
+        src: "/Images/logistic/Schedule trip screen.png",
         alt: "Schedule",
       },
       icon: {
@@ -26,7 +26,7 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "Images/logistic/Payment option screen.png",
+        src: "/Images/logistic/Payment option screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -39,7 +39,7 @@ export const logisticsCustomer = {
 
     {
       img: {
-        src: "Images/logistic/track order screen.png",
+        src: "/Images/logistic/track order screen.png",
         alt: "Track Order image",
       },
       icon: {
@@ -60,7 +60,7 @@ export const agricultureConsumerApp = {
   agricultureCustomerData: [
     {
       img: {
-        src: "Images/logistic/shipment request screen.png",
+        src: "/Images/logistic/shipment request screen.png",
         alt: "Register image",
       },
       icon: {
@@ -73,7 +73,7 @@ export const agricultureConsumerApp = {
 
     {
       img: {
-        src: "Images/logistic/request screen.png",
+        src: "/Images/logistic/request screen.png",
         alt: "Schedule",
       },
       icon: {
@@ -85,7 +85,7 @@ export const agricultureConsumerApp = {
     },
     {
       img: {
-        src: "Images/logistic/notification screen.png",
+        src: "/Images/logistic/notification screen.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -97,7 +97,7 @@ export const agricultureConsumerApp = {
     },
     {
       img: {
-        src: "Images/logistic/Navigation screen.png",
+        src: "/Images/logistic/Navigation screen.png",
         alt: "Track Order image",
       },
       icon: {
@@ -117,7 +117,7 @@ export const agricultureAdmin = {
   plantBasedAdminData: [
     {
       img: {
-        src: "Images/logistic/Dashboard.png",
+        src: "/Images/logistic/Dashboard.png",
         alt: "Register image",
       },
       icon: {
@@ -129,7 +129,7 @@ export const agricultureAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/assets.png",
+        src: "/Images/logistic/assets.png",
         alt: "Schedule",
       },
       icon: {
@@ -141,7 +141,7 @@ export const agricultureAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/history.png",
+        src: "/Images/logistic/history.png",
         alt: "Multiple Payment Option image",
       },
       icon: {
@@ -153,7 +153,7 @@ export const agricultureAdmin = {
     },
     {
       img: {
-        src: "Images/logistic/tracking (2).png",
+        src: "/Images/logistic/tracking (2).png",
         alt: "Track Order image",
       },
       icon: {

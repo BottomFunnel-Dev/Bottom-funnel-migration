@@ -65,7 +65,7 @@ export const Oncart = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/on cart/logo/Group 770957.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/oncart.webp' alt='images' />
 </div>
 
 <div>

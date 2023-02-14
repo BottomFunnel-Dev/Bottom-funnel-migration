@@ -24,8 +24,9 @@
 }
 
 .whyfeatureCard {
+  /* border: 2px solid red; */
   width: 45%;
-  height: 230px;
+  /* height: 230px; */
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;

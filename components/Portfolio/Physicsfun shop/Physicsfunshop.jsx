@@ -17,7 +17,7 @@ export const Physicsfunshop = () => {
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "80%", height: "100%" ,objectFit:"contain",
+          style={{ width: "90%", height: "100%" ,objectFit:"contain",
       
         
         
@@ -65,7 +65,7 @@ export const Physicsfunshop = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/physicsfun/logo/download (2) 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/physicsfun.webp' alt='images' />
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>

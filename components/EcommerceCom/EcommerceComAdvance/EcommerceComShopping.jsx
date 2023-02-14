@@ -74,8 +74,6 @@ export const EcommerceComShopping = () => {
     <div className={styles.eCommerceShoppingMain}>
       <div className={styles.eCommerceShoppingImagesMain}>
         <div>
-       
-
           <Image
           src={shoppingAppData.backgroundImage.src}
           alt={shoppingAppData.backgroundImage.alt}
@@ -84,8 +82,6 @@ export const EcommerceComShopping = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" ,  zIndex: "1"  }}
         />
-
-
         </div>
         <div>
       

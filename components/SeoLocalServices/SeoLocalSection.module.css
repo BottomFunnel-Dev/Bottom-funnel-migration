@@ -13,14 +13,10 @@ margin-top: 100px;
 width: 365px;
 height: 430px;
 position: absolute;
-top: 26%;
-right: 32%;
+top: 22%;
+right: 29%;
 }
-.localgifDenote > img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
+
 .seoLocalupperdiv {
 display: flex;
 width: 100%;

@@ -87,7 +87,7 @@ export const Salesbot = () => {
           </div>
           <div className={styles.nextholidaywrapboximages}>
             <img
-              src="Images/portfolio/Sales bot/logo/download (2) 1.png"
+              src="/Images/portfolio/Portfolio logoimg/salesbot.webp"
               alt="images"
             />
           </div>

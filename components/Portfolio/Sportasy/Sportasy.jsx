@@ -65,7 +65,7 @@ export const Sportasy = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/Sportasy/logo/Mobile 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/sportsy.webp' alt='images' />
 </div>
 
 <div>

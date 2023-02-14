@@ -47,84 +47,96 @@ export default function StoriesSection() {
   const arr = [
     {
       BrandName: "ScaleForce",
-      brandImage: "/Images/storiesSection/stories1.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories1.webp",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Incubeta",
-      brandImage: "/Images/storiesSection/stories2.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories2.webp",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Ranking Carolina",
-      brandImage: "/Images/storiesSection/stories5.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Studio marche",
-      brandImage: "/Images/storiesSection/stories4.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories4.webp",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "HSE",
-      brandImage: "/Images/storiesSection/stories5.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "National Geographic",
-      brandImage: "/Images/storiesSection/stories2.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories2.webp",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "ScaleForce",
-      brandImage: "/Images/storiesSection/stories1.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories1.webp",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Incubeta",
-      brandImage: "/Images/storiesSection/stories4.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories4.webp",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Ranking Carolina",
-      brandImage: "/Images/storiesSection/stories5.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "Studio marche",
-      brandImage: "/Images/storiesSection/stories1.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories1.webp",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "HSE",
-      brandImage: "/Images/storiesSection/stories2.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories2.webp",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
     },
     {
       BrandName: "National Geographic",
-      brandImage: "/Images/storiesSection/stories5.webp",
+      brandImage:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",

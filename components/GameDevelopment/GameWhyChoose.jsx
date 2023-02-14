@@ -6,24 +6,23 @@ export const GameWhyChoose = () => {
   return (
     <div className={styles.gamewhychoosemainbox}>
       <div className={styles.whychoosegameflexingleftboxing}>
-        <Image
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-          src="/Images/gamedevelopmentpage/Mask group.webp"
-          alt="gamedevelopmentpage/Mask group.web"
-        />
-
+          <Image
+            src={"/Images/gamedevelopmentpage/Mask group.webp"}
+            alt={"Image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         <div className={styles.positionabsoulteboxinnerwhychoose1}>
           <div className={styles.positionabsoulteboxinnerwhychoose1logo}>
             <Image
+              src={"/Images/gamedevelopmentpage/Agile Iteration.webp"}
+              alt={"Image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/Agile Iteration.webp"
-              alt="gamedevelopmentpage/Agile Iteration.web"
             />
           </div>
           <h4 className={styles.colorwhite}>Agile</h4>
@@ -31,13 +30,13 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose2}>
           <div className={styles.positionabsoulteboxinnerwhychoose2logo}>
-            <Image
+           <Image
+              src={"/Images/gamedevelopmentpage/Vector.webp"}
+              alt={"Image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/Vector.webp"
-              alt="gamedevelopmentpage/Vector.webp"
             />
           </div>
           <h4 className={styles.colorwhite}>Customer Satisfaction</h4>
@@ -45,13 +44,13 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose3}>
           <div className={styles.positionabsoulteboxinnerwhychoose3logo}>
-            <Image
+           <Image
+              src={"/Images/gamedevelopmentpage/Team.webp"}
+              alt={"Image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/Team.webp"
-              alt="gamedevelopmentpage/Team.webp"
             />
           </div>
           <h4 className={styles.colorwhite}>Experience and Talanted Team</h4>
@@ -59,13 +58,13 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose4}>
           <div className={styles.positionabsoulteboxinnerwhychoose4logo}>
-            <Image
+           <Image
+              src={"/Images/gamedevelopmentpage/Curved Arrow.webp"}
+              alt={"Image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/Curved Arrow.webp"
-              alt="gamedevelopmentpage/Curved Arrow.web"
             />
           </div>
           <h4 className={styles.colorwhite}>Flexible Engagement</h4>
@@ -73,13 +72,13 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose5}>
           <div className={styles.positionabsoulteboxinnerwhychoose5logo}>
-            <Image
+           <Image
+              src={"/Images/gamedevelopmentpage/support.webp"}
+              alt={"Image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/gamedevelopmentpage/support.webp"
-              alt="gamedevelopmentpage/support.webp"
             />
           </div>
           <h4 className={styles.colorwhite}>We are always here for you</h4>

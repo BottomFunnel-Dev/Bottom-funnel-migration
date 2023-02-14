@@ -45,7 +45,7 @@ export const MukundaGeneral = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/mukunda/logo/download (2) 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/mukunda.webp' alt='images' />
 </div>
 
 <div>

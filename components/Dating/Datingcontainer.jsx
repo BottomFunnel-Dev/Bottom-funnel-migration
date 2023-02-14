@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./Datingcontainer.module.css";
+import Image from "next/image";
 
 export default function Datingcontainer() {
   return (
@@ -16,7 +17,14 @@ export default function Datingcontainer() {
         </div>
         <div className={styles.datinglogodiv}>
           <div className={styles.datinglogo}>
-            <img src="Images/Dating/datingimage.png" alt='image' />
+                <Image
+                  src="/Images/Dating/datingimage.webp"
+                  alt="image"
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
         </div>
       </div>
