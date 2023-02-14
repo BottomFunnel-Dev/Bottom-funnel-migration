@@ -8,25 +8,9 @@
   background: transparent;
   align-items: center;
   box-sizing: border-box;
-  /* background-color: white; */
   transition: top 0.2s linear;
-}
-
-.navbarSection.active {
-  background: white;
-  position: fixed;
-  top: 0;
-  /* border-bottom: 1px solid gray; */
-  /* height: 80px; */
-  /* transition: all 0.1s linear; */
-  /* position: relative; */
-  /* border-bottom: 0.5px solid rgb(232, 227, 227); */
-}
-
-.navbarSection {
   margin-bottom: 0;
-  display: flex;
-  align-items: center;
+  background: white;
 }
 
 .navbarSection li {
@@ -74,7 +58,7 @@
   cursor: pointer;
 }
 
-.dropdownBar > div li:hover {
+.dropdownBar>div li:hover {
   text-decoration: underline;
   text-decoration-color: #ef4c23;
   text-underline-offset: 10px;
@@ -855,7 +839,7 @@
 /* media query for the tabs and ipad air */
 
 
-@media (min-width: 480px) and (max-width: 1024px){
+@media (min-width: 480px) and (max-width: 1024px) {
   .navbarSection {
     background: #ef4c23;
     justify-content: space-between;
@@ -877,16 +861,16 @@
     display: none;
   }
 
-  .dropdownBar > div li {
+  .dropdownBar>div li {
     margin: 5px;
     padding: 2px;
   }
 
-  .dropdownBar > div li:nth-child(1) {
+  .dropdownBar>div li:nth-child(1) {
     padding: 5px;
   }
 
-  #checkbox:checked ~ .dropdownBar {
+  #checkbox:checked~.dropdownBar {
     left: 0;
   }
 
@@ -906,9 +890,6 @@
   }
 
   .mobDown {
-  }
-
-  .mobDown {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -918,6 +899,6 @@
     background: green;
     left: 0;
   }
-  
-  
+
+
 }

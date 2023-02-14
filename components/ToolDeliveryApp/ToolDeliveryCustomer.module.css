@@ -23,7 +23,7 @@
   width: 50%;
   height: 500px;
   display: flex;
-  background: url("/public/Images/tooldeliveryapp/Rectangle\ 4175.png");
+  background: url("/public/Images/tooldeliveryapp/Rectangle\ 4175.webp");
   background-repeat: no-repeat;
   background-size: 100% 500px;
 }
@@ -52,9 +52,7 @@
 .tooladminright > div:hover {
   background-color: #e1f9f6;
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -65,18 +63,14 @@
 }
 
 .toolcustomerpannelleft{
-  /* border: 1px solid black; */
   width: 50%;
 }
 
 .toolCustomerImage {
-  /* border: 1px solid red; */
   width: 100%;
   height: 550px;
 }
 
 .toolCustomerImage > img {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
 }

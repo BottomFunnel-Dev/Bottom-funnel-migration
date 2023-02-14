@@ -20,8 +20,7 @@ function ToolDeliveryService() {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image
-                    src={"/Images/pharmacy/Timetracking.png"}
+                  <Image src={"/Images/pharmacy/Timetracking.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -47,8 +46,7 @@ function ToolDeliveryService() {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image
-                    src={"/Images/pharmacy/payment option.png"}
+                  <Image src={"/Images/pharmacy/payment option.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -73,8 +71,7 @@ function ToolDeliveryService() {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image
-                    src={"/Images/pharmacy/reports analytics.png"}
+                  <Image src={"/Images/pharmacy/reports analytics.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -102,8 +99,7 @@ function ToolDeliveryService() {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image
-                    src={"/Images/pharmacy/Manage orders.png"}
+                  <Image src={"/Images/pharmacy/Manage orders.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -128,8 +124,7 @@ function ToolDeliveryService() {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image
-                    src={"/Images/pharmacy/ROI.png"}
+                  <Image src={"/Images/pharmacy/ROI.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -154,8 +149,7 @@ function ToolDeliveryService() {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image
-                    src={"/Images/pharmacy/Promote business.png"}
+                  <Image src={"/Images/pharmacy/Promote business.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}

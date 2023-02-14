@@ -60,34 +60,12 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   return (
-    <div
-      style={
-        navtoggle === ""
-          ? { background: "transparent" }
-          : { background: "white" }
-      }
-    >
-      {!productMount.navMount && (
-        <ContactMain
-          bgcolor={navbar ? "white" : "transparent"}
-          textcolor={!navbar ? navredux.color : "black"}
-        />
-      )}
+    <div>
+      <ContactMain scroll={scroll} />
       <nav
-        className={
-          navbar
-            ? `${navstyle.navbarSection} ${navstyle.active}`
-            : navstyle.navbarSection
-        }
+        className={navstyle.navbarSection}
         style={{
-          top:
-            scroll || productMount.navMount || productMount.salesnavMount
-              ? "0"
-              : "30px",
-          position:
-            scroll && (productMount.navMount || productMount.salesnavMount)
-              ? "static"
-              : "fixed",
+          top: scroll ? "0" : "30px",
         }}
       >
         <div className={navstyle.logoSection}>
@@ -213,7 +191,6 @@ const Navbar = ({ navredux, productMount }) => {
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}
-            productMount={productMount}
           />
         )}
       </nav>

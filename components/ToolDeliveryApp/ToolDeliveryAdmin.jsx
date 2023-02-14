@@ -6,12 +6,12 @@ function ToolDeliveryAdmin() {
   let ToolDeliveryadmindata = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/control business admin panel.png",
+        src: "/Images/tooldeliveryapp/control business admin panel.webp",
         alt: "Marketimage",
       },
 
       icon: {
-        src: "/Images/tooldeliveryapp/pie-chart.png",
+        src: "/Images/tooldeliveryapp/pie-chart.webp",
         alt: "Buisness Control",
       },
 
@@ -21,11 +21,11 @@ function ToolDeliveryAdmin() {
 
     {
       img: {
-        src: "/Images/tooldeliveryapp/Reports & analytics.png",
+        src: "/Images/tooldeliveryapp/Reports & analytics.webp",
         alt: "Report and analytics",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/Analytics & insights.png",
+        src: "/Images/tooldeliveryapp/Analytics & insights.webp",
         alt: "Reports Analytics",
       },
       title: "Report Analytics",
@@ -33,11 +33,11 @@ function ToolDeliveryAdmin() {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Manage Payment.png",
+        src: "/Images/tooldeliveryapp/Manage Payment.webp",
         alt: "Manage Payments image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/rupee.png",
+        src: "/Images/tooldeliveryapp/rupee.webp",
         alt: "Manage Payments",
       },
       title: "Manage Payments",
@@ -45,11 +45,11 @@ function ToolDeliveryAdmin() {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/manage customers.png",
+        src: "/Images/tooldeliveryapp/manage customers.webp",
         alt: "manage Customer image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/manage customer.png",
+        src: "/Images/tooldeliveryapp/manage customer.webp",
         alt: "Customer logo",
       },
       title: "Manage Customer",
