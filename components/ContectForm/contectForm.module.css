@@ -4,12 +4,14 @@
   position: relative;
   box-sizing: border-box;
 }
+
 .backgroundDiv {
   width: 100%;
   height: 50%;
   background-color: #fcdbd3;
   box-sizing: border-box;
 }
+
 .contectSection {
   width: 80%;
   box-sizing: border-box;
@@ -31,11 +33,9 @@
   text-align: center;
   box-sizing: border-box;
 }
-.formHeader > h5 {
+
+.formHeader>h5 {
   font-size: 18px;
-}
-.formHeader > h2 {
-  /* margin: 0; */
 }
 
 .addressSection {
@@ -43,21 +43,24 @@
   position: relative;
   box-sizing: border-box;
 }
-.addressSection > img {
+
+.addressSection>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   filter: brightness(0.3);
 }
-.addressSection > div {
+
+.addressSection>div {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
 }
-.addressSection > h1 {
+
+.addressSection>h1 {
   color: #ef4c23;
 }
 
@@ -76,35 +79,32 @@ box-sizing: border-box;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .mailAddress:hover {
   transform: scale(1.01);
 }
+
 .iconDiv {
   width: 15%;
 }
+
 .mailtextDiv {
   width: 70%;
 }
 
-.mailAddress:hover .mailIcon {
-  /* color: #ef4c23; */
-}
-/* .mailAddress:hover {
-  background-color: rgb(192, 188, 188);
- 
-} */
-
-.mailAddress > div > p {
+.mailAddress>div>p {
   margin: 0;
   font-size: 15px;
   color: black;
 }
-.mailAddress > div > h3 {
+
+.mailAddress>div>h3 {
   margin: 0;
   font-size: 18px;
   color: black;
   font-weight: 700;
 }
+
 .mailIcon {
   font-size: 38px;
   color: black;
@@ -118,7 +118,8 @@ box-sizing: border-box;
   color: white;
   box-sizing: border-box;
 }
-.assistanceSection > ul > li {
+
+.assistanceSection>ul>li {
   list-style-type: disc;
   color: white;
   text-align: left;
@@ -141,6 +142,7 @@ box-sizing: border-box;
   background-color: white;
   box-sizing: border-box;
 }
+
 .formSection {
   display: flex;
   flex-wrap: wrap;
@@ -158,6 +160,7 @@ box-sizing: border-box;
   column-gap: 1%;
   border-bottom: 2px solid rgb(164, 160, 160);
 }
+
 .classIcon {
   width: 5%;
 }
@@ -165,6 +168,7 @@ box-sizing: border-box;
 .formIcon {
   color: black;
 }
+
 .inputPart {
   width: 85%;
   box-sizing: border-box;
@@ -177,23 +181,27 @@ box-sizing: border-box;
   font-size: 16px;
   padding: 10px 0;
 }
+
 .inputPart::placeholder {
   color: #ef4c23;
   color: black;
 
   font-weight: 500;
 }
+
 .phoneNumber::placeholder {
   color: #ef4c23;
   color: black;
 
   font-weight: 500;
 }
+
 .whatsapp::placeholder {
   font-weight: 500;
   color: #ef4c23;
   color: black;
 }
+
 .messagePart::placeholder {
   font-weight: 500;
   color: #ef4c23;
@@ -229,7 +237,7 @@ box-sizing: border-box;
   box-sizing: border-box;
   color: #ef4c23;
   color: black;
-box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
   background: none;
   /* color: white; */
@@ -247,6 +255,7 @@ box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 2px solid rgb(164, 160, 160);
 }
+
 .selectPart {
   width: 90%;
   box-sizing: border-box;
@@ -260,6 +269,7 @@ box-sizing: border-box;
   color: black;
   box-sizing: border-box;
 }
+
 .whatsapp {
   width: 49%;
   box-sizing: border-box;
@@ -277,18 +287,20 @@ box-sizing: border-box;
 .textareaClass {
   width: 100%;
 }
+
 .formMessageIcon {
   margin-right: 5px;
   color: #ef4c23;
   color: black;
 }
+
 .messagePart {
   width: 100%;
   box-sizing: border-box;
   border: none;
   color: #ef4c23;
   color: black;
-box-sizing: border-box;
+  box-sizing: border-box;
   background: none;
 
   outline: none;
@@ -297,12 +309,13 @@ box-sizing: border-box;
   border-bottom: 2px solid rgb(164, 160, 160);
 }
 
-.textareaClass > label {
+.textareaClass>label {
   color: #ef4c23;
   color: black;
 
   font-weight: 500;
 }
+
 .formSection strong {
   color: #ef4c23;
   color: black;
@@ -312,6 +325,7 @@ box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
+
 .robotCaptcha input {
   padding: 10px 60px;
   font-size: 18px;
@@ -321,10 +335,11 @@ box-sizing: border-box;
   font-weight: 600;
   border: none;
   box-sizing: border-box;
-  margin-top: 50px; 
+  margin-top: 50px;
   /* border: 2px solid #ef4c23; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .robotCaptcha input:hover {
   /* border: 2px solid #ef4c23; */
   color: #ef4c23;
@@ -340,40 +355,43 @@ box-sizing: border-box;
     background-color: #fcdbd3;
     box-sizing: border-box;
   }
-  .mainLeadform{
+
+  .mainLeadform {
     height: fit-content;
   }
-.formHeader > h2 {
-  font-size: 25px;
-}
-.formHeader > h5 {
-  margin-bottom: 8px;
-}
 
-.contectSection {
-  width: 100%;
-  position: static;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  transform: none;
-}
+  .formHeader>h2 {
+    font-size: 25px;
+  }
 
-.addressSection {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+  .formHeader>h5 {
+    margin-bottom: 8px;
+  }
 
-}
+  .contectSection {
+    width: 100%;
+    position: static;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transform: none;
+  }
 
-.contactFormCss {
-  width: 100%;
+  .addressSection {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 
-}
+  }
 
-.mailAddress {
-  width: 80%;
- 
-}
+  .contactFormCss {
+    width: 100%;
+
+  }
+
+  .mailAddress {
+    width: 80%;
+
+  }
 
 }

@@ -3,10 +3,13 @@
   height: max-content;
   margin: 60px 0;
 }
+
 .alcoholcustomer > h1 {
   margin-left: 7%;
   color: #9a4c72;
+  margin-bottom: 2%;
 }
+
 .alcoholcustomersub {
   width: 100%;
   justify-content: space-between;
@@ -14,6 +17,7 @@
   display: flex;
   align-items: center;
 }
+
 .alcoholcustomerleft {
   width: 45%;
   height: 500px;
@@ -24,6 +28,7 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+
 .alcoholcustomerright {
   width: 45%;
   height: 100%;
@@ -34,6 +39,7 @@
   gap: 20px;
   justify-content: center;
 }
+
 .alcoholcustomerright > div {
   padding: 10px 10px 10px 10px;
   height: 170px;
@@ -44,6 +50,7 @@
   background-color: white;
   cursor: pointer;
 }
+
 .alcoholcustomerright > div:hover {
   background-color: #9a4c72;
   color: white;
@@ -54,9 +61,11 @@
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .alcoholcustomerright > div > h3 {
   font-size: 18px;
 }
+
 .alcoholCustomerImage {
   width: 45%;
   height: 500px;

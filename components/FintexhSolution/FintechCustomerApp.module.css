@@ -9,7 +9,6 @@
   right: 17%;
   width: 40%;
   top: 10%;
-
 }
 
 .fintecustomerappfelxingboxupper {
@@ -18,9 +17,8 @@
 
 .fintecustomerappfelxingboxupperleft {
   height: 500px;
-
   width: 50%;
-  margin-top:8%;
+  margin-top: 8%;
   background: url("/Images/fintechsolutionpage/Component187.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -66,22 +64,22 @@
 
 .logofintechcustomerapp {
   margin: 2%;
-
+  width: 40%;
+  /* border: 1px solid red; */
 }
-.logofintechcustomerapp>img{
- 
+
+.logofintechcustomerapp > img {
   width: 40px;
   height: 40px;
 }
+
 .specialtxt {
   color: #ef4c23;
   text-decoration: none;
 }
 
-
 .txtcustomerappfintech > h4 {
   margin-top: 2%;
-
 }
 
 .txtcustomerappfintech > p {

@@ -21,21 +21,14 @@ import { BsArrowRight } from "react-icons/bs";
 import ImageCard from "../particularComponents/ImageCardText/ImageCard";
 import { useRouter } from "next/router";
 import Image from "next/image";
-export const NavServices = ({
-  serHoverIn,
-  serHoverOut,
-  scroll,
-  productMount,
-}) => {
+export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
   const handleSide = (element) => {
-    console.log(element);
     setSidetoggle(element);
   };
 
   const router = useRouter();
-  console.log(discoverContent);
 
   const sideBar = [
     { sidename: "Discover" },
@@ -47,8 +40,12 @@ export const NavServices = ({
 
   return (
     <div
-      onMouseEnter={()=>{serHoverIn("services",true)}}
-      onMouseLeave={()=>{serHoverOut("",false)}}
+      onMouseEnter={() => {
+        serHoverIn("services", true);
+      }}
+      onMouseLeave={() => {
+        serHoverOut("", false);
+      }}
       className={navservice.servicesolutionVisible}
       style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
@@ -70,11 +67,10 @@ export const NavServices = ({
       {sidetoggle === "Technologies" && (
         <div className={navservice.servicedropdownSection}>
           <div className={navservice.serviceDropdownContent}>
-
             <h5
               onClick={() => {
-                router.push('web-development')
-                serHoverOut("",false);
+                router.push("web-development");
+                serHoverOut("", false);
               }}
               className={navservice.servicenoStyle}
               style={{ margin: 0 }}
@@ -82,14 +78,13 @@ export const NavServices = ({
               Web Development
             </h5>
 
-
             <div className={navservice.servicelistItems}>
               {webservice.map((item, i) => (
                 <div
                   key={i}
                   onClick={() => {
                     router.push(`${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -125,7 +120,7 @@ export const NavServices = ({
             >
               <h5
                 onClick={() => {
-                  serHoverOut("",false);
+                  serHoverOut("", false);
                 }}
                 style={{ margin: 0 }}
               >
@@ -139,7 +134,7 @@ export const NavServices = ({
                   key={i}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -160,7 +155,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -195,7 +192,7 @@ export const NavServices = ({
                 <div
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   key={l}
                   className={navservice.serviceimageIconDivSection}
@@ -216,7 +213,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -243,7 +242,7 @@ export const NavServices = ({
                   key={m}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.servicetrendImageIconDivSection}
                 >
@@ -263,7 +262,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -284,7 +285,9 @@ export const NavServices = ({
                 <ImageCard
                   key={index}
                   cardContent={item}
-                  closeDisplay={()=>{serHoverOut("",false)}}
+                  closeDisplay={() => {
+                    serHoverOut("", false);
+                  }}
                 />
               ))}
             </div>
@@ -300,7 +303,12 @@ export const NavServices = ({
           <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
-                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("",false)}} />
+                <ImageCard
+                  cardContent={item}
+                  closeDisplay={() => {
+                    serHoverOut("", false);
+                  }}
+                />
                 <h5 className={navservice.serviceknowmore}>
                   Know More <BsArrowRight />
                 </h5>
@@ -316,7 +324,9 @@ export const NavServices = ({
               {designContent.map((item, index) => (
                 <ImageCard
                   key={index}
-                  closeDisplay={()=>{serHoverOut("",false)}}
+                  closeDisplay={() => {
+                    serHoverOut("", false);
+                  }}
                   cardContent={item}
                 />
               ))}
@@ -334,7 +344,12 @@ export const NavServices = ({
           <div className={navservice.servicediscoverright}>
             {designRightContent.map((item, index) => (
               <div key={index}>
-                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("",false)}} />
+                <ImageCard
+                  cardContent={item}
+                  closeDisplay={() => {
+                    serHoverOut("", false);
+                  }}
+                />
                 <h5 className={navservice.serviceknowmore}>
                   Know More <BsArrowRight />
                 </h5>
@@ -355,7 +370,7 @@ export const NavServices = ({
                   key={i}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.servicebackendimageIconDivSection}
                 >
@@ -375,7 +390,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -395,7 +412,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -415,7 +432,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -436,7 +455,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -456,7 +475,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -476,7 +497,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -496,7 +517,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -516,7 +539,7 @@ export const NavServices = ({
                   key={j}
                   onClick={() => {
                     // navigate(`/${item.path}`);
-                    serHoverOut("",false);
+                    serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
@@ -536,7 +559,9 @@ export const NavServices = ({
                     /> */}
                   </div>
                   <Link
-                    onClick={()=>{serHoverOut("",false)}}
+                    onClick={() => {
+                      serHoverOut("", false);
+                    }}
                     href={item.path}
                     className={navservice.servicelinkP}
                   >
@@ -555,7 +580,9 @@ export const NavServices = ({
               {scaleContent.map((item, index) => (
                 <ImageCard
                   key={index}
-                  closeDisplay={()=>{serHoverOut("",false)}}
+                  closeDisplay={() => {
+                    serHoverOut("", false);
+                  }}
                   cardContent={item}
                 />
               ))}
@@ -574,7 +601,12 @@ export const NavServices = ({
           <div className={navservice.servicediscoverright}>
             {discoverRightContent.map((item, index) => (
               <div key={index}>
-                <ImageCard cardContent={item} closeDisplay={()=>{serHoverOut("",false)}} />
+                <ImageCard
+                  cardContent={item}
+                  closeDisplay={() => {
+                    serHoverOut("", false);
+                  }}
+                />
                 <h5 className={navservice.serviceknowmore}>
                   Know More
                   <BsArrowRight />{" "}

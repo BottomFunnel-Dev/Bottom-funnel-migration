@@ -40,7 +40,7 @@ export const FintechExclusive = () => {
       <div className={styles.fintechsolutionexclusivetextboxheader}>
         <div className={styles.fintechexclusiveleftboxfortext}>
           <h1>
-            <span className={styles.specialtextcolored}>Exclusive</span> Features
+            <span className={styles.specialtextcolored}> Exclusive </span> Features
           </h1>
         </div>
 
@@ -56,8 +56,8 @@ export const FintechExclusive = () => {
         {fintechexclusivedata.map((e) => {
           return (
             <div className={styles.fintechsolutionsflexingboxaftermapping}>
-              <h3>{e.htxt}</h3>
-              <p>{e.stxt}</p>
+              <h3> {e.htxt} </h3>
+              <p> {e.stxt} </p>
             </div>
           )
         })}

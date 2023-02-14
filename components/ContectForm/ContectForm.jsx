@@ -37,7 +37,10 @@ const ContectForm = () => {
 
       <div className={styles.contectSection}>
         <div className={styles.addressSection}>
-          <img src="/Images/services/service.webp" alt="images" />
+          <img
+            src="https://d1krs40fxb67ye.cloudfront.net/Images/services/service.webp"
+            alt="images"
+          />
           <div>
             <div className={styles.mailAddress}>
               <div className={styles.iconDiv}>
@@ -76,7 +79,10 @@ const ContectForm = () => {
           </div>
         </div>
 
-        <div className={styles.contactFormCss}>  <PopupForm /></div>
+        <div className={styles.contactFormCss}>
+          {" "}
+          <PopupForm />
+        </div>
       </div>
     </div>
   );

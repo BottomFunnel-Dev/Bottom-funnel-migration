@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./FintechCustomerApp.module.css";
 
@@ -13,7 +14,6 @@ export const FintechCustomerApp = () => {
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-1.png",
       htxt: "Profile Management",
       stxt: "It helps users manage their profiles and driving information. It allows users to view and update their personal information, as well as track their driving history.",
-
     },
 
     {
@@ -21,7 +21,6 @@ export const FintechCustomerApp = () => {
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-8.png",
       htxt: "Earning Analytics",
       stxt: "Earning analytics is a feature in the driver's app that allows you to see how much money you've earned over a certain period of time. This is a great feature for drivers who want to see how their earnings are progressing.",
-
     },
 
     {
@@ -29,7 +28,6 @@ export const FintechCustomerApp = () => {
       icon: "/Images/EyewearDeliveryapp/icons/prototyping-6.png",
       htxt: "Daily Report's Dashboard",
       stxt: "User want to be able to see their daily reports in one place. The Daily Report's Dashboard for our app gives you all the information you need to see how well you're doing.",
-
     },
 
     {
@@ -45,14 +43,20 @@ export const FintechCustomerApp = () => {
     <div className={styles.fintechsolutioncustomerappmainbox}>
       <div className={styles.fintechcustomerappboxfortext}>
         <h1>
-          <span className={styles.specialtxt}>Customer</span> App
+          <span className={styles.specialtxt}> Customer </span> App
         </h1>
       </div>
 
       <div className={styles.fintecustomerappfelxingboxupper}>
         <div className={styles.fintecustomerappfelxingboxupperleft}>
           <div className={styles.fintechcustomerappleftsectionformobile}>
-            <img src={imageChange} alt="imagemobile" />
+            <Image src={imageChange}
+              alt={"imagemobile"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -61,7 +65,13 @@ export const FintechCustomerApp = () => {
             return (
               <div className={styles.fintechcustomerappboxesaftermapping}>
                 <div className={styles.logofintechcustomerapp}>
-                  <img src={e.icon} alt="image" />
+                  <Image src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "25%" }}
+                  />
                 </div>
 
                 <div className={styles.txtcustomerappfintech}>

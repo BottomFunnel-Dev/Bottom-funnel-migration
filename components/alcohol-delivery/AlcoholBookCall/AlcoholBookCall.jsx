@@ -6,7 +6,7 @@ export default function AlcoholBookCall() {
     <div className={styles.alcoholBookCallMain}>
       <div>
         <h1>
-          Get all the gaming development soluitons for all the kind of platform?
+          Get all the alcohol delivery app development solutions for all the kind of platform?
         </h1>
         
         <button>

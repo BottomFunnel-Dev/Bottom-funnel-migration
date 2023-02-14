@@ -21,6 +21,7 @@
 .tooldeliveryfooterbox:hover {
   transition: all 0.2s linear;
   transform: translateY(-10px);
+  background-color: #e3f7f7;
 }
 
 .tooldeliveryfooterboxlogo {
@@ -38,7 +39,6 @@
 }
 
 .tooldeliverytextmapping > h4 {
-  /* border: 1px solid red; */
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -67,9 +67,8 @@
 .toolcustomerpannelleft {
   width: 50%;
   height: 400px;
-  /* padding: 10px; */
   display: flex;
-  background: url("/public/Images/tooldeliveryapp/Component19.png");
+  background: url("/public/Images/tooldeliveryapp/Component19.webp");
   background-repeat: no-repeat;
   background-size: 90% 100%;
   background-position-x: right;

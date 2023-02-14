@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./AppBuilderMaker.module.css";
 
@@ -5,7 +6,7 @@ export default function AppBuilderMaker() {
   return (
     <div className={styles.appbuildermakermainboxes}>
       <div className={styles.appbuildermakeruppertxtbox}>
-        <h1>Features of Bottom Funnel App Maker</h1>
+        <h1> Features of Bottom Funnel App Maker </h1>
         <p>
           Our online app building platform allows you to integrate numerous
           features inside your mobile apps which makes tuenkey app development.
@@ -14,11 +15,9 @@ export default function AppBuilderMaker() {
 
       <div className={styles.appbuilderbackgroundimagehavetoset}>
         <div className={styles.appbuildermakerspecialtypeflexboxtypeA}>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAfortextA}
-          >
-            <h4>Drag-and-drop interface</h4>
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAfortextA} >
 
+            <h4> Drag-and-drop interface </h4>
             <p>
               It doesn't get easier than this.Apply Pie's drag-and-drop
               interface allows anyone to pick and choose the exact feature
@@ -28,31 +27,34 @@ export default function AppBuilderMaker() {
             </p>
           </div>
 
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA}
-          >
-            <img
-              src="/Images/Appbuildersolutions/Bannersbackgrounds/drag-and-drop 1.png"
-              alt="images"
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA} >
+            <Image
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/drag-and-drop 1.png"}
+              alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "15%" }}
             />
           </div>
         </div>
 
         <div className={styles.appbuildermakerspecialtypeflexboxtypeB}>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB}
-          >
-            <img
-              src="/Images/Appbuildersolutions/Bannersbackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 1.png"
-              alt="images"
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB} >
+            <Image
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 1.png"}
+              alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "15%" }}
             />
           </div>
 
           <div
             className={styles.appbuildermakerspecialtypeflexboxtypeAfortextB}
           >
-            <h4>Easy integration</h4>
-
+            <h4> Easy integration </h4>
             <p>
               Appy Pie's no-code platform can help users integrate other web
               services like slack,Twitter,MailChimp,etc. This way,users can
@@ -63,11 +65,9 @@ export default function AppBuilderMaker() {
         </div>
 
         <div className={styles.appbuildermakerspecialtypeflexboxtypeA}>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAfortextA}
-          >
-            <h4>Cross-platform accessibility</h4>
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAfortextA}>
 
+            <h4> Cross-platform accessibility </h4>
             <p>
               All no-code tools cann be used on any device that is connected to
               the internet.There is no need for any specialized equipment or
@@ -76,31 +76,33 @@ export default function AppBuilderMaker() {
             </p>
           </div>
 
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA}
-          >
-            <img
-              src="/Images/Appbuildersolutions/Bannersbackgrounds/Cross-Platform-App-Development 1.png"
-              alt="images"
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA} >
+            <Image
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Cross-Platform-App-Development 1.png"}
+              alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "15%" }}
             />
           </div>
         </div>
 
         <div className={styles.appbuildermakerspecialtypeflexboxtypeB}>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB}
-          >
-            <img
-              src="/Images/Appbuildersolutions/Bannersbackgrounds/Medicos - Healthcare Mobile Sketch App UI Kit - UI Kits 1.png"
-              alt="images"
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB} >
+            <Image
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Medicos - Healthcare Mobile Sketch App UI Kit - UI Kits 1.png"}
+              alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "15%" }}
             />
           </div>
 
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAfortextB}
-          >
-            <h4>Pick a template for your mobile app</h4>
-
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAfortextB} >
+            
+            <h4> Pick a template for your mobile app </h4>
             <p>
               No Need too start coding from scratch when using Shoutem.Our
               immense library has something for everyone.With customizable
@@ -111,10 +113,9 @@ export default function AppBuilderMaker() {
         </div>
 
         <div className={styles.appbuildermakerspecialtypeflexboxtypeA}>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAfortextA}
-          >
-            <h4>Reusability</h4>
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAfortextA} >
+            
+            <h4> Reusability </h4>
             <p>
               The lego-like blocj architecture of Appy Pie's no-code technology
               makesit possible to use feature blocks to create fully functional
@@ -124,30 +125,32 @@ export default function AppBuilderMaker() {
             </p>
           </div>
 
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA}
-          >
-            <img
-              src="/Images/Appbuildersolutions/Bannersbackgrounds/Chat App Landing Page 1.png"
-              alt="images"
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA} >
+            <Image
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Chat App Landing Page 1.png"}
+              alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "15%" }}
             />
           </div>
         </div>
 
         <div className={styles.appbuildermakerspecialtypeflexboxtypeB}>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB}
-          >
-            <img
-              src="/Images/Appbuildersolutions/Bannersbackgrounds/scalability 1.png"
-              alt="images"
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB} >
+            <Image
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/scalability 1.png"}
+              alt={"images"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "15%" }}
             />
           </div>
-          <div
-            className={styles.appbuildermakerspecialtypeflexboxtypeAfortextB}
-          >
-            <h4>Scalability</h4>
+          <div className={styles.appbuildermakerspecialtypeflexboxtypeAfortextB} >
 
+            <h4> Scalability </h4>
             <p>
               No-code platforms have the ability to provide scalability to
               business users.The applications built on Appy Pie's no code

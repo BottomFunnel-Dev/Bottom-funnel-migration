@@ -1,62 +1,26 @@
 import React from "react";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
 
 const KidsWearBanner = dynamic(
   () => import("../../components/KidsWear/KidsWearBanner/KidsWearBanner"),
-  { loading: "Loading..." }
+  { loading: "Loading..." },
 );
 
 const ExclusiveFeature = dynamic(
   () => import("../../components/KidsWear/ExclusiveFeature/ExclusiveFeature"),
-  { loading: "Loading..." }
+  { loading: "Loading..." },
 );
 
 const AppFeature = dynamic(
   () => import("../../components/KidsWear/AppFeature/AppFeature"),
-  { loading: "Loading..." }
-);
-const ChooseUs = dynamic(
-  () => import("../../components/KidsWear/ChooseUs/ChooseUs"),
-  { loading: "Loading..." }
+  { loading: "Loading..." },
 );
 
-const TextDropdown = dynamic(
-  () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." }
-);
-const OndemandSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." }
-);
-const PlanProject = dynamic(
-  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." }
-);
-const SeoblogSection = dynamic(
-  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." }
-);
-const StoriesSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." }
-);
-const Revamping = dynamic(
-  () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." }
-);
-const ContectForm = dynamic(
-  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." }
-);
-const MainFooter = dynamic(
-  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." }
-);
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+// const ChooseUs = dynamic(
+//   () => import("../../components/KidsWear/ChooseUs/ChooseUs"),
+//   { loading: "Loading..." },
+// );
 
 export default function Kidswear() {
   return (
@@ -73,30 +37,12 @@ export default function Kidswear() {
           needs as a parent or caregiver. Check us out today!"
         />
       </Head>
+
       <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "black",
-            logo: true,
-          }}
-        />
         <KidsWearBanner />
         <ExclusiveFeature />
         <AppFeature />
-        <ChooseUs />
-        {/* Other react required components  */}
-        <StoriesSection />
-        <OndemandSection />
-        {/* <PortFolio />  */}
-        <PlanProject />
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
+        {/* <ChooseUs /> */}
       </main>
     </div>
   );

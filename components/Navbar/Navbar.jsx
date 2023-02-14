@@ -1,21 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import navstyle from "./navbar.module.css";
 import Link from "next/link";
 import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import { WhoWeAre } from "./WhoWeAre";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
+import { WhoWeAre } from "./WhoWeAre";
 import { ContactMain } from "../Contact/Contact";
 import { Resource } from "./Resource";
-
-import { useEffect } from "react";
 import { NavServices } from "./NavServices";
 import { NavIndustries } from "./NavIndustries";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
-import { useRouter } from "next/router";
 import { Industries } from "./Industries";
-
-import Image from "next/image";
 
 const Navbar = ({ navredux, productMount }) => {
   // const router.push = userouter.push();
@@ -28,7 +25,7 @@ const Navbar = ({ navredux, productMount }) => {
 
   const hoverhandle = (para, nav) => {
     setNavtoggle(para);
-    setNabvar(nav)
+    setNabvar(nav);
   };
 
   const homeHoverIn = () => {
@@ -55,7 +52,6 @@ const Navbar = ({ navredux, productMount }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", navBackground);
-
   });
 
   const handleMob = () => {
@@ -64,28 +60,12 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   return (
-    <div style={navtoggle === "" ? { background: "transparent" } : { background: "white" }}>
-      {!productMount.navMount && (
-        <ContactMain
-          bgcolor={navbar ? "white" : "transparent"}
-          textcolor={!navbar ? navredux.color : "black"}
-        />
-      )}
+    <div>
+      <ContactMain scroll={scroll} />
       <nav
-        className={
-          navbar
-            ? `${navstyle.navbarSection} ${navstyle.active}`
-            : navstyle.navbarSection
-        }
+        className={navstyle.navbarSection}
         style={{
-          top:
-            scroll || productMount.navMount || productMount.salesnavMount
-              ? "0"
-              : "30px",
-          position:
-            scroll && (productMount.navMount || productMount.salesnavMount)
-              ? "static"
-              : "fixed",
+          top: scroll ? "0" : "30px",
         }}
       >
         <div className={navstyle.logoSection}>
@@ -93,8 +73,8 @@ const Navbar = ({ navredux, productMount }) => {
             <Image
               src={
                 navredux.logo && !navbar
-                  ? "/Images/navbar/whitelogobottom.webp"
-                  : "/Images/navbar/blacklogo.webp"
+                  ? "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/whitelogobottom.webp"
+                  : "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/blacklogo.webp"
               }
               alt={"logo"}
               width={"0"}
@@ -117,32 +97,48 @@ const Navbar = ({ navredux, productMount }) => {
           <div className={navstyle.dropdownBar}>
             <div className={navstyle.mobLists}>
               <li
-                onMouseEnter={() => { hoverhandle("about", true) }}
-                onMouseLeave={() => { hoverhandle("", false) }}
+                onMouseEnter={() => {
+                  hoverhandle("about", true);
+                }}
+                onMouseLeave={() => {
+                  hoverhandle("", false);
+                }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 About
               </li>
 
               <li
-                onMouseEnter={() => { hoverhandle("services", true) }}
-                onMouseLeave={() => { hoverhandle("", false) }}
+                onMouseEnter={() => {
+                  hoverhandle("services", true);
+                }}
+                onMouseLeave={() => {
+                  hoverhandle("", false);
+                }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Services
               </li>
 
               <li
-                onMouseEnter={() => { hoverhandle("solutions", true) }}
-                onMouseLeave={() => { hoverhandle("", false) }}
+                onMouseEnter={() => {
+                  hoverhandle("solutions", true);
+                }}
+                onMouseLeave={() => {
+                  hoverhandle("", false);
+                }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Solutions
               </li>
 
               <li
-                onMouseEnter={() => { hoverhandle("industry", true) }}
-                onMouseLeave={() => { hoverhandle("", false) }}
+                onMouseEnter={() => {
+                  hoverhandle("industry", true);
+                }}
+                onMouseLeave={() => {
+                  hoverhandle("", false);
+                }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Industries
@@ -154,16 +150,18 @@ const Navbar = ({ navredux, productMount }) => {
               >
                 Portfolio
               </li>
-              
+
               <li
-                onMouseEnter={() => { hoverhandle("resource") }}
-                onMouseLeave={() => { hoverhandle("") }}
+                onMouseEnter={() => {
+                  hoverhandle("resource");
+                }}
+                onMouseLeave={() => {
+                  hoverhandle("");
+                }}
                 style={{ color: navbar ? "black" : navredux.color }}
               >
                 Resources
               </li>
-
-
             </div>
 
             <button
@@ -175,7 +173,7 @@ const Navbar = ({ navredux, productMount }) => {
 
             <button
               className={navstyle.callToAction}
-            // onClick={() => router.push("/hire-new-talent")}
+              // onClick={() => router.push("/hire-new-talent")}
             >
               Hire a Talent
             </button>
@@ -193,7 +191,6 @@ const Navbar = ({ navredux, productMount }) => {
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}
-            productMount={productMount}
           />
         )}
       </nav>

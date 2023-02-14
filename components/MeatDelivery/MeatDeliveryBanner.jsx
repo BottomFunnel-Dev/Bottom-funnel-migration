@@ -25,7 +25,8 @@ export const MeatDeliveryBanner = () => {
           loop
           controls
           autoplay
-        ></Player>
+        >
+        </Player>
       </div>
     </div>
   );

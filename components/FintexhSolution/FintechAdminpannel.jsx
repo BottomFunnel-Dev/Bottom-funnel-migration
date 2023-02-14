@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./FintechAdminpannel.module.css";
 
@@ -49,12 +50,18 @@ export const FintechAdminpannel = () => {
                      return (
                         <div className={styles.fintechsolutionmappingdataadminpannel}>
                            <div className={styles.fintechadminlogo}>
-                              <img src={e.logo} alt='logo' />
+                              <Image src={e.logo}
+                                 alt={'logo'}
+                                 width={"0"}
+                                 height={"0"}
+                                 sizes={"100vw"}
+                                 style={{ width: "100%", height: "20%" }}
+                              />
                            </div>
 
                            <div className={styles.fintechsolutionmappingadmindata}>
-                              <h4>{e.htxt}</h4>
-                              <p>{e.stxt}</p>
+                              <h4> {e.htxt} </h4>
+                              <p> {e.stxt} </p>
                            </div>
                         </div>
                      )
@@ -64,7 +71,13 @@ export const FintechAdminpannel = () => {
          </div>
 
          <div className={styles.fintechsolutionadminpannelrightboxes}>
-            <img src={imageChange} alt="images" />
+            <Image src={imageChange}
+               alt={"images"}
+               width={"0"}
+               height={"0"}
+               sizes={"100vw"}
+               style={{ width: "100%", height: "15%" }}
+            />
          </div>
       </div>
    );

@@ -7,9 +7,9 @@ export default function AlcoholSuggestions() {
     {
       img: {
         src: "/Images/alcoholPhotos/exlucive-app-image-1.png",
-        alt: "Food Delivery Startup image",
+        alt: "Alcohol Delivery Startup image",
       },
-      title: "Food Delivery Startup",
+      title: "Alcohol Delivery Startup",
       description:
         "With food delivery startup app development, you can start your journey to becoming a successful food delivery startup. By developing an app that is user-friendly and easy to use, you can attract customers from all over the city. Food delivery startup app development offers a range of cost-effective options that will help you reach your profitability goals.",
     },
@@ -45,11 +45,11 @@ export default function AlcoholSuggestions() {
   return (
     <div className={styles.alcoholExluciveAppMain}>
       <h1>
-        <span> APP SUGGESTIONS </span> FOR DIFFERENT FOOD DEVLIERY BUSINESS:
+        <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DEVLIERY BUSINESS:
       </h1>
 
       <p>
-        Get exclusive and robusts apps for your food delivery business with a
+        Get exclusive and robusts apps for your alcohol delivery business with a
         taste of latest technology and creative designs.
       </p>
 
@@ -63,7 +63,7 @@ export default function AlcoholSuggestions() {
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
+                  style={{ width: "100%", height: "50%" }}
                 />
               </div>
 

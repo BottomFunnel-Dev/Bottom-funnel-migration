@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./WebsiteBuilderMiddleComp.module.css";
 
 import Slider from "react-slick";
+import Image from 'next/image';
 
 export const WebsiteBuiulderMiddleComp = () => {
 
@@ -79,10 +80,18 @@ export const WebsiteBuiulderMiddleComp = () => {
         <Slider {...settings}>
           {homeService.map((item, i) => (
             <div key={i} className={styles.middleCompWebsiteImageSlider}>
+
               <div>
-                <img src={item.serviceimage} alt="image" />
-                <h5>{item.serviceName}</h5>
-                <p>{item.serviceDescription}</p>
+                <Image src={item.serviceimage}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "50%" }}
+                />
+
+                <h5> {item.serviceName} </h5>
+                <p> {item.serviceDescription} </p>
               </div>
             </div>
           ))}

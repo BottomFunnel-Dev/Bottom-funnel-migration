@@ -10,20 +10,24 @@
   height: fit-content;
   display: flex;
 }
+
 .grocerydeliveryappflexingboxleftbox {
   height: 480px;
   width: 40%;
 }
+
 .grocerydeliveryappleftboxinsiderupperimage {
   height: 450px;
   width: 65%;
   margin: 0% 0% 0% 10%;
 }
+
 .grocerydeliveryappleftboxinsiderupperimage > img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
+
 .grocerydeliveryappflexingboxrightbox {
   height: fit-content;
   width: 60%;
@@ -32,10 +36,12 @@
   display: flex;
   flex-wrap: wrap;
 }
+
 .grocerycustomerappmainboxes > h2 {
   text-align: center;
   margin-top: 3%;
 }
+
 .grocerydeliveryappindivisualbox {
   height: 185px;
   width: 42%;
@@ -44,13 +50,15 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
+
 .grocerydeliveryappindivisualbox:hover {
   transform: scale(1.02);
 }
+
 .grocerydeliveryappindivisualbox > div > h4 {
   margin-top: 1%;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
@@ -58,7 +66,8 @@
 }
 
 .grocerydeliveryappindivisualbox > div > p {
-  margin-top: 0%;
+  /* border: 1px solid red; */
+  margin-top: 2%;
   font-size: 15px;
   line-height: 20px;
   vertical-align: baseline;

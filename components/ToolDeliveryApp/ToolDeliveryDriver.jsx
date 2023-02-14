@@ -1,17 +1,16 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
+import Image from "next/image";
+import React, { useState } from "react";
 import styles from "./ToolDeliveryDriver.module.css";
 
-const ToolDeliveryDriver = () => {
-
+function ToolDeliveryDriver() {
   let TooDeliverydrivedata = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/DriverProfile.png",
+        src: "/Images/tooldeliveryapp/DriverProfile.webp",
         alt: "image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/user-profile.png",
+        src: "/Images/tooldeliveryapp/user-profile.webp",
         alt: " registerlogo",
       },
       title: "Manage Profile",
@@ -19,11 +18,11 @@ const ToolDeliveryDriver = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Reports.png ",
+        src: "/Images/tooldeliveryapp/Reports.webp ",
         alt: "notification",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/analytics.png",
+        src: "/Images/tooldeliveryapp/analytics.webp",
         alt: "notification logo",
       },
       title: "Reports",
@@ -31,30 +30,28 @@ const ToolDeliveryDriver = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Order details.png",
+        src: "/Images/tooldeliveryapp/Order details.webp",
         alt: "order",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/checkout.png",
+        src: "/Images/tooldeliveryapp/checkout.webp",
         alt: "order",
       },
       title: "Get order Details",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Pickup location.png",
+        src: "/Images/tooldeliveryapp/Pickup location.webp",
         alt: " Navigationimage",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/navigation track location.png",
+        src: "/Images/tooldeliveryapp/navigation track location.webp",
         alt: "Navigationimage",
       },
       title: "Track Pickup Location",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
-
   ];
 
   const [active, setActive] = useState(0);
@@ -65,7 +62,6 @@ const ToolDeliveryDriver = () => {
         <h1> Drive app </h1>
 
         <div className={styles.tooldeliverydrivesub}>
-
           <div className={styles.tooldeliverydriveleft}>
             <div className={styles.tooldeliveryDriveImage}>
               <Image
@@ -87,9 +83,9 @@ const ToolDeliveryDriver = () => {
                   onMouseOver={() => setActive(idx)}
                   className={`tooldelivery-box-${idx}`}
                 >
-
                   <div className={styles.tooldeliveryLogo}>
-                    <Image src={icon.src}
+                    <Image
+                      src={icon.src}
                       alt={icon.alt}
                       width={"0"}
                       height={"0"}
@@ -100,7 +96,8 @@ const ToolDeliveryDriver = () => {
 
                   <h3> {title} </h3>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Non, quis eum ev
                   </p>
                 </div>
               );
@@ -110,6 +107,6 @@ const ToolDeliveryDriver = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryDriver;

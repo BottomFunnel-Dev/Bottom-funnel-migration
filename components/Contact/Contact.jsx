@@ -1,44 +1,53 @@
-import React, { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
+import React from "react";
+import Image from "next/image";
 import stylecon from "./Contact.module.css";
 
-export const ContactMain = ({ bgcolor, textcolor }) => {
-  const [scroll, setScroll] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("scroll", function () {
-      if (window.scrollY > 1) {
-        setScroll(true);
-      } else {
-        setScroll(false);
-      }
-    });
-  });
-
+export const ContactMain = ({ scroll }) => {
   return (
     <div
       className={stylecon.ContactAboveNavbarMain}
-      style={{ opacity: scroll ? "0" : "1", background: bgcolor }}
+      style={{ opacity: scroll ? "0" : "1" , background:"bgcolor"}}
     >
       <div>
         <div>
           <span>
-            <img src="/Images/contactNavbar/india.png" alt="India flag" />
-            <a style={{ color: textcolor }} href="tel:+918209366227">
-              +918209366227
-            </a>
+            <div className={stylecon.contactNavbarCountryIcon}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://d1krs40fxb67ye.cloudfront.net/Images/contactNavbar/india.png"
+                alt="India flag"
+              />
+            </div>
+            <a href="tel:+918209366227">+918209366227</a>
           </span>
           <span>
-            <img src="/Images/contactNavbar/usa.png" alt="USA flag" />
-            <a style={{ color: textcolor }} href="tel:+19176956550 ">
-              +19176956550{" "}
-            </a>
+            <div className={stylecon.contactNavbarCountryIcon}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://d1krs40fxb67ye.cloudfront.net/Images/contactNavbar/usa.png"
+                alt="USA flag"
+              />
+            </div>
+            <a href="tel:+19176956550 ">+19176956550 </a>
           </span>
           <span>
-            <img src="/Images/contactNavbar/uae.png" alt="UAE flag" />
-            <a style={{ color: textcolor }} href="tel:+971 58 597 8776">
-              +971 58 597 8776
-            </a>
+            <div className={stylecon.contactNavbarCountryIcon}>
+              <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src="https://d1krs40fxb67ye.cloudfront.net/Images/contactNavbar/uae.png"
+                alt="UAE flag"
+              />
+            </div>
+            <a href="tel:+971 58 597 8776">+971 58 597 8776</a>
           </span>
         </div>
         <span>
@@ -47,7 +56,6 @@ export const ContactMain = ({ bgcolor, textcolor }) => {
               display: "flex",
               alignItems: "center",
               marginRight: "10px",
-              color: textcolor,
             }}
             href="whatsapp://send?abid=+917877680588&text=Hello%2C%20World!"
           >
@@ -63,7 +71,6 @@ export const ContactMain = ({ bgcolor, textcolor }) => {
             </svg>
           </a>
           <svg
-            color={textcolor}
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -76,9 +83,7 @@ export const ContactMain = ({ bgcolor, textcolor }) => {
           >
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
-          <a style={{ color: textcolor }} href="mailto:info@bottomfunnel.net">
-            info@bottomfunnel.net
-          </a>
+          <a href="mailto:info@bottomfunnel.net">info@bottomfunnel.net</a>
         </span>
       </div>
     </div>

@@ -44,10 +44,14 @@
 
 .onlinePaymentSolutionBannerAnimationDiv {
   position: absolute;
-  top: 15%;
-  right: 4%;
+  top: 5%;
+  right: 0%;
 }
 
+.onlinePaymentSolutionBannerAnimation {
+  /* border: 1px solid red; */
+  width: 90%;
+}
 
 /* Media query for the Mobile Device */
 

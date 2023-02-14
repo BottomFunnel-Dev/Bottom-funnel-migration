@@ -7,7 +7,7 @@ export const FinTechSolutionBanner = () => {
   return (
     <div className={styles.fintechsolutionbannermainbox}>
       <div className={styles.fintechsolutionbannertextboxes}>
-        <h1>Fintech App Solution</h1>
+        <h1> Fintech App Solution </h1>
         <p>
           The screeno ecosystem is designed to help you generate profit. Set up
           complete sales and marketing funnels with ease using the screeno app.
@@ -19,7 +19,7 @@ export const FinTechSolutionBanner = () => {
       </div>
 
       <div className={styles.fintechSolutionBannerAnimationDiv}>
-        <Player
+        <Player className={styles.fintechSolutionBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"
