@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./FintechDriverApp.module.css";
 
@@ -45,14 +46,20 @@ export const FintechDriverApp = () => {
     <div className={styles.fintechsolutiondriverappmainbox}>
       <div className={styles.fintechdriverappboxfortext}>
         <h1>
-          <span className={styles.specialtxtdriver}>Driver</span> App
+          <span className={styles.specialtxtdriver}> Driver </span> App
         </h1>
       </div>
 
       <div className={styles.fintedriverappfelxingboxupper}>
         <div className={styles.fintedriverappfelxingboxupperleft}>
           <div className={styles.fintechdriverappleftsectionformobile}>
-            <img src={imageChange} alt="imagemobile" />
+            <Image src={imageChange}
+              alt={"imagemobile"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -61,12 +68,18 @@ export const FintechDriverApp = () => {
             return (
               <div className={styles.fintechdriverappboxesaftermapping}>
                 <div className={styles.logofintechdriverapp}>
-                  <img src={e.icon} alt="image" />
+                  <Image src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "20%" }}
+                  />
                 </div>
 
                 <div className={styles.txtdriverappfintech}>
-                  <h4>{e.htxt}</h4>
-                  <p>{e.stxt}</p>
+                  <h4> {e.htxt} </h4>
+                  <p> {e.stxt} </p>
                 </div>
               </div>
             )

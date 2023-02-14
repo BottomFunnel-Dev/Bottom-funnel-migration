@@ -26,8 +26,7 @@ export const OnlinePaymentAppSolutionBanner = () => {
       </div>
 
       <div className={styles.onlinePaymentSolutionBannerAnimationDiv}>
-        <Player
-          className={styles.onlinePaymentSolutionBannerAnimation}
+        <Player className={styles.onlinePaymentSolutionBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

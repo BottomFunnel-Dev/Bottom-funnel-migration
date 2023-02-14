@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from "./FintechWhyChooseUs.module.css";
 
@@ -34,7 +35,7 @@ export const FintechWhyChooseUs = () => {
             <div className={styles.fintechwhychooseusmainboxes}>
                 <div className={styles.fintechwhychoosetextboxleft}>
                     <h1>
-                        Why Choose <span className='specialtxt'>Us</span>
+                        Why Choose <span className={styles.specialtxt}> Us </span>
                     </h1>
                 </div>
 
@@ -52,12 +53,18 @@ export const FintechWhyChooseUs = () => {
                     return (
                         <div className={styles.whychooseusaftermappingdatabox}>
                             <div className={styles.whychooseusfintechlogobox}>
-                                <img src={e.img} alt="logo" />
+                                <Image src={e.img}
+                                    alt={"logo"}
+                                    width={"0"}
+                                    height={"0"}
+                                    sizes={"100vw"}
+                                    style={{ width: "100%", height: "15%" }}
+                                />
                             </div>
 
                             <div className={styles.whychooseustxtbox}>
-                                <h4>{e.htxt}</h4>
-                                <p>{e.stxt}</p>
+                                <h4> {e.htxt} </h4>
+                                <p> {e.stxt} </p>
                             </div>
                         </div>
                     )

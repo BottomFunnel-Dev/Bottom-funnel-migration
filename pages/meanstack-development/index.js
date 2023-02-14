@@ -6,6 +6,7 @@ import { meanstackIntro } from "../../components/Data/webdevPageData/StackData";
 import { meanDevServices } from "../../components/Data/webdevPageData/Popularservices";
 import { whyMEAN } from "../../components/Data/webdevPageData/whyTechStack";
 import { MEANWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
+import * as ReactAnimation from "../../public/webdevanimation/Mean Stack.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
@@ -96,7 +97,7 @@ export default function MeanPage() {
           }}
         />
 
-        <WebdevBanner bannerContent={meanBanner} />
+        <WebdevBanner bannerContent={meanBanner} animateData={ReactAnimation} />
 
         <Techstackintro techContent={meanstackIntro} />
         <WebDevServices webservicesContent={meanDevServices} />

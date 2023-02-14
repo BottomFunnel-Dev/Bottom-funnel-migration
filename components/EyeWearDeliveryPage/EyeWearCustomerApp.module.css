@@ -30,7 +30,7 @@
 }
 
 .eyewearcustomeraftermap1box {
-  height:auto;
+  height: auto;
   width: 42%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-left: 3%;
@@ -39,26 +39,30 @@
   padding: 13px;
   border-radius: 10px;
 }
-.eyewearcustomeraftermap1box>div>h4{
+
+.eyewearcustomeraftermap1box > div > h4 {
   margin-top: 1%;
   margin-left: 1%;
 }
-.eyewearcustomeraftermap1box>div>p{
+
+.eyewearcustomeraftermap1box > div > p {
   margin-top: 1%;
   font-size: 14px;
 }
+
 .eyewearcustomeraftermap1box:hover {
   transform: scale(1.02);
   background-color: #ffebef;
 }
 
 .flexingeyewearcustomerforlogo {
-  width: 30%;
+  width: 40%;
   padding: 5px;
 }
-.flexingeyewearcustomerforlogo>img{
-  width: 40px;
-  height: 40px;
+
+.flexingeyewearcustomerforlogo > img {
+  width: 80px;
+  height: 80px;
 }
 
 .eyewearappcustomerappboxflextyperightbox {

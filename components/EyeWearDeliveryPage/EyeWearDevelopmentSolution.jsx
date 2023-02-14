@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from "./EyeWearDevelopmentSolution.module.css";
 
@@ -45,28 +46,38 @@ export const EyeWearDevelopmentSolution = () => {
   return (
     <div className={styles.Eyeweardevelopmentmainbox}>
       <div className={styles.eyeweardeliveryservicetextbox}>
-        <h1>Rideshare & Carpooling App Development Solutions We Provide</h1>
+        <h1> Rideshare & Carpooling App Development Solutions We Provide </h1>
         <p>
-        Looking for a cutting-edge rideshare or carpooling app development solution? Look no further than Bottom Funnel. We are a leading provider of innovative rideshare and carpooling app development solutions, and we are committed to helping our clients succeed.
+          Looking for a cutting-edge rideshare or carpooling app development solution? Look no further than Bottom Funnel. We are a
+          leading provider of innovative rideshare and carpooling app development solutions, and we are committed to helping our
+          clients succeed.
         </p>
       </div>
 
-      <div className={styles.eyeweardeliveryservicebackgroundimagebox}>{EyeWeardeliverydata.map((el) => {
-        return (
-          <div className={styles.eyeweardeliveryserviceboxesmap}>
-            <div className={styles.eyedeliveryserviceinnerboximagebox}>
-              <img src={el.icon} alt="icon image" />
-            </div>
+      <div className={styles.eyeweardeliveryservicebackgroundimagebox}>
+        {EyeWeardeliverydata.map((el) => {
+          return (
+            <div className={styles.eyeweardeliveryserviceboxesmap}>
+              <div className={styles.eyedeliveryserviceinnerboximagebox}>
+                <Image src={el.icon}
+                  alt={"icon image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </div>
 
-            <div><h5>{el.htxt}</h5>
-              <p>{el.stxt}</p>
+              <div>
+                <h5> {el.htxt} </h5>
+                <p> {el.stxt} </p>
+              </div>
             </div>
-          </div>
-        )
-      })}
+          )
+        })}
       </div>
 
-      <button className={styles.Eyeweardevelopmentsolutionbutton}>Get Started</button>
+      <button className={styles.Eyeweardevelopmentsolutionbutton}> Get Started </button>
     </div>
   );
 };

@@ -42,7 +42,9 @@
 }
 
 .eyeWearDeliveryBannerAnimationDiv {
+  /* border: 1px solid red; */
+  width: 48%;
   position: absolute;
-  right: 0%;
+  right: 3%;
   top: 5%;
 }

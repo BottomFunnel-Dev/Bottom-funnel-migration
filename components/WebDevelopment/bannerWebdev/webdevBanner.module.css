@@ -3,7 +3,8 @@ width: 100%;
 height: 100vh;
 position: relative;
 color: white;
-/* background: ; */
+/* background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%); */
+ background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 display: flex;
 /* justify-content: space-between; */
 }
@@ -50,14 +51,19 @@ background-color: #ef4c23;
 
 .mernanimation{
   /* border: 2px solid red; */
-/* height: 450px; */
-  width: 50%;
+height: fit-content;
+  width: 650px;
   margin: auto;
   margin-left: 48%;
+  overflow: hidden;
 
 }
+
+
 /* Mobile screens banner */
-@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+
+ @media only screen and (min-width: 0px) and (max-width: 1024px) {
 .webDevBanner {
 width: 100%;
 height: 40vh;
@@ -98,47 +104,6 @@ border-radius: 50px;
 color: white;
 background-color: #ef4c23;
   }
-}
+} 
 
-@media only screen and (min-width: 481px) and (max-width: 900px) {
-.webDevBanner {
-width: 100%;
-height: 45vh;
-position: relative;
-color: white;
-}
-.webDebText {
-width: 85%;
-padding: 20px;
-height: 400px;
-position: absolute;
-transform: translate(-20%, -50%);
-top: 60%;
-left: 25%;
-right: 5%;
-}
-.webDebText > h1 {
-width: 100%;
-font-weight: 700;
-line-height: 40px;
-}
-.webDebText > h1 > span {
-color: #ef4c23;
-}
-.webDebText > p {
-margin-bottom: 30px;
-text-align: justify;
-}
-.webDevButton {
-padding: 10px 30px;
-font-size: 18px;
-font-weight: 600;
-color: #ef4c23;
-border: 1px solid #ef4c23;
-border-radius: 50px;
-}
-.webDevButton:hover {
-color: white;
-background-color: #ef4c23;
-}
-}
+

@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Meanbanner.module.css";
-import * as reactAnimation from "../../../public/Animation/android.json";
+// import * as reactAnimation from "../../../public/webdevanimaton/mea";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Meanbanner () {
   return (
     <div>
-      <div className={styles.androidIcon}>
+      <div className={styles.meananimation}>
         <Player
           src={reactAnimation}
           background="transparent"
@@ -14,10 +14,11 @@ export default function Meanbanner () {
           loop
           controls
           autoplay
+         
         ></Player>
       </div>
     </div>
-  );
+  );  
 };
 
 // export default Meanbanner
