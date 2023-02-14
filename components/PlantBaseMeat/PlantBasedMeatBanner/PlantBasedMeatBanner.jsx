@@ -3,7 +3,7 @@ import styles from "./PlantBasedMeatBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Plant based meat.json";
 import { Player } from "@lottiefiles/react-lottie-player";
 
-export const PlantBasedMeatBanner = () => {
+export default function PlantBasedMeatBanner() {
   return (
     <div className={styles.plantBasedBannerParentDiv}>
       <div className={styles.plantBasedMeatBannerContentDiv}>
@@ -36,4 +36,4 @@ export const PlantBasedMeatBanner = () => {
       </div>
     </div>
   );
-};
+}

@@ -24,7 +24,7 @@ const LaundryPageBanner = () => {
         </div>
 
         <div className={styles.laundaryPageBannerAnimationDiv}>
-          <Player
+          <Player className={styles.laundaryPageBannerAnimation}
             src={reactAnimation}
             background="transparent"
             speed="1"

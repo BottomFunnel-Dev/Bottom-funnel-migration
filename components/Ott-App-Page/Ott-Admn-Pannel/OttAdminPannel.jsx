@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import styles from './ottAdminPannel.module.css';
+import React, { useState } from "react";
+import styles from "./ottAdminPannel.module.css";
 
-export const OttAdminPannel = () => {
-  const [imageChange, setImageChange] = useState("Images/ott-app/MacBookPro1.png")
+export default function OttAdminPannel() {
+  const [imageChange, setImageChange] = useState(
+    "Images/ott-app/MacBookPro1.png",
+  );
   const handleImageChange = (imagepath) => {
-    setImageChange(() => imagepath)
-  }
+    setImageChange(() => imagepath);
+  };
 
   const OttAdminPannelData = [
     {
@@ -25,7 +27,7 @@ export const OttAdminPannel = () => {
       head: "Categories",
       para: "Separate categories for shows",
     },
-  ]
+  ];
 
   return (
     <div className={styles.ottAdminPannelContainer}>
@@ -63,4 +65,4 @@ export const OttAdminPannel = () => {
       </div>
     </div>
   );
-};
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./GroceryCustomer.module.css";
+import Image from "next/image";
 
 export const GroceryCustomer = () => {
 
@@ -39,12 +40,18 @@ export const GroceryCustomer = () => {
     return (
         <div className={styles.grocerycustomerappmainboxes}>
 
-            <h2>Customer App</h2>
+            <h2> Customer App </h2>
 
             <div className={styles.grocerydeliveryappflexingbox}>
                 <div className={styles.grocerydeliveryappflexingboxleftbox}>
                     <div className={styles.grocerydeliveryappleftboxinsiderupperimage}>
-                        <img src={imageChange} alt='image' />
+                        <Image src={imageChange}
+                            alt={'image'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
 

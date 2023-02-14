@@ -2,6 +2,7 @@
   height: fit-content;
   width: 100%;
   display: flex;
+  margin-top: 4%;
 }
 
 .laundryadminleftbox {
@@ -49,17 +50,17 @@
 }
 
 .laundryadmindatamappingindi > h4 {
-  margin-top: 1%;
+  /* border: 1px solid red; */
+  margin-top: 2%;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
-  margin-top: 0%;
 }
 
 .laundryadmindatamappingindi > p {
-  margin-top: 0%;
+  margin-top: 2%;
   font-size: 15px;
   line-height: 20px;
   vertical-align: baseline;

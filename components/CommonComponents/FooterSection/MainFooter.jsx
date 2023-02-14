@@ -1,36 +1,35 @@
 import React, { useState } from "react";
-import FooterTable from "./FooterTable";
+import dynamic from "next/dynamic";
 import styles from "./mainFooter.module.css";
-import Image from "next/image";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
-import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import { Box, Typography, Modal } from "@mui/material";
 import { FiChevronDown } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 import {
   FaFacebookF,
   FaTwitter,
   FaLinkedin,
-  FaInstagram,
   FaYoutube,
   FaPhoneAlt,
   FaWhatsapp,
 } from "react-icons/fa";
-
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
-import MoreServices from "./MoreServices";
 import { Player } from "@lottiefiles/react-lottie-player";
 import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
+
+import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
+const FooterTable = dynamic(() => import("./FooterTable"), {
+  loading: () => "loading...",
+});
+const MoreServices = dynamic(() => import("./MoreServices"), {
+  loading: () => "loading...",
+});
 
 const MainFooter = () => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [whatsapp, setWhatsapp] = React.useState(false);
   const style = {
     position: "absolute",
     top: "50%",
@@ -120,10 +119,7 @@ const MainFooter = () => {
                 <FaPhoneAlt /> +91 8209366227
               </li>
               <li></li>
-              <li
-                onMouseEnter={() => setWhatsapp(() => true)}
-                onMouseLeave={() => setWhatsapp(() => false)}
-              >
+              <li>
                 <FaWhatsapp fontSize="20px" cursor={"pointer"} /> +971553070316
               </li>
               <li>

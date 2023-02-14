@@ -80,31 +80,11 @@ export default function Home() {
         />
       </Head>
       <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "white",
-            logo: true,
-          }}
-        />
-
         <BannerFull />
         <CompanyLogo />
         <About />
         <Services />
         <Awards />
-        <StoriesSection />
-        <OndemandSection />
-        <PortFolio />
-        <PlanProject />
-        <Companystats />
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
       </main>
     </div>
   );

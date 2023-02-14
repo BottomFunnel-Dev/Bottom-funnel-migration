@@ -67,8 +67,8 @@ const HomeServices = () => {
             <div key={i} className={styles.homeServices}>
               <div>
                 <img src={item.serviceimage} alt="images" />
-                <h5>{item.serviceName}</h5>
-                <p>{item.serviceDescription}</p>
+                <h5> {item.serviceName} </h5>
+                <p> {item.serviceDescription} </p>
               </div>
             </div>
           ))}

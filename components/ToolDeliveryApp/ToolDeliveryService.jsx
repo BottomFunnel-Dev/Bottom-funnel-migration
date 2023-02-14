@@ -2,14 +2,17 @@ import Image from "next/image";
 import React from "react";
 import styles from "./ToolDeliveryService.module.css";
 
-const ToolDeliveryService = () => {
+function ToolDeliveryService() {
   return (
     <div className={styles.tddeliveryservice}>
       <div className={styles.tddeliveryservicesub}>
         <div className={styles.tddeliverypara}>
           <h2> Delivery Service App Solution</h2>
 
-          <p> Expand Your Business With A Tool Delivery Service App Solution </p>
+          <p>
+            {" "}
+            Expand Your Business With A Tool Delivery Service App Solution{" "}
+          </p>
         </div>
 
         <div className={styles.tddeliveryservicediv}>
@@ -171,6 +174,6 @@ const ToolDeliveryService = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryService;

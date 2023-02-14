@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./LaundryPage.module.css";
+import Image from "next/image";
 
 const LaundryDelivery = () => {
 
@@ -39,8 +40,23 @@ const LaundryDelivery = () => {
       <div className={styles.laundrydeliveryappflexbox}>
         <div className={styles.laundrydeliveryappflexboxleft}>
           <div className={styles.laundrydeliveryappflexboxleftimagesof}>
-            <img className={styles.laundryfleximage1o1} src='/Images/Laundrypage/Bannersbackgrounds/Ellipse76.png' alt='image' />
-            <img className={styles.laundryfleximage1o2} src={imageChange} alt='image' />
+            <Image className={styles.laundryfleximage1o1}
+              src={'/Images/Laundrypage/Bannersbackgrounds/Ellipse76.png'}
+              alt={'image'}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
+
+            <Image className={styles.laundryfleximage1o2}
+              src={imageChange}
+              alt={'image'}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "45%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -62,7 +78,13 @@ const LaundryDelivery = () => {
 
                 >
                   <div className={styles.laundryflexboxleftdivflexboxicon}>
-                    <img src={e.img} alt="image" />
+                    <Image src={e.img}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "10%", height: "20%" }}
+                    />
                   </div>
 
                   <div className={styles.laundryflexboxleftdivflexboxicontxt}>

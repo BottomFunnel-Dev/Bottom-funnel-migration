@@ -61,6 +61,6 @@ const ToolDeliveryFooter = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryFooter;

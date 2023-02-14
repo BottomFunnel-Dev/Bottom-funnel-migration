@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
+import Image from "next/image";
+import React, { useState } from "react";
 import styles from "./ToolDeliveryAdmin.module.css";
 
-export const ToolDeliveryAdmin = () => {
+function ToolDeliveryAdmin() {
   let ToolDeliveryadmindata = [
     {
       img: {
@@ -42,7 +42,6 @@ export const ToolDeliveryAdmin = () => {
       },
       title: "Manage Payments",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-
     },
     {
       img: {
@@ -74,7 +73,8 @@ export const ToolDeliveryAdmin = () => {
                 className={`tools-box-${idx}`}
               >
                 <div className={styles.toolsLogo}>
-                  <Image src={icon.src}
+                  <Image
+                    src={icon.src}
                     alt={icon.alt}
                     width={"0"}
                     height={"0"}
@@ -84,7 +84,8 @@ export const ToolDeliveryAdmin = () => {
                 </div>
                 <h3> {title} </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+                  quis eum ev
                 </p>
               </div>
             );
@@ -106,4 +107,6 @@ export const ToolDeliveryAdmin = () => {
       </div>
     </div>
   );
-};
+}
+
+export default ToolDeliveryAdmin;

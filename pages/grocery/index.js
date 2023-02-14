@@ -53,8 +53,7 @@ export default function Grocery() {
         <title>Grocery web App Development Company | Bottom Funnel</title>
         <meta
           name="description"
-          content="Are you looking for a reliable and affordable grocery web app 
-        solution? Look no further than our team of experienced developers.
+          content="Are you looking for a reliable and affordable grocery web app solution? Look no further than our team of experienced developers.
         We offer tailor-made solutions that will help you manage your 
         entire grocery experience from one place."
         />
@@ -75,17 +74,6 @@ export default function Grocery() {
         <GroceryCustomer />
         <GroceryAdmin />
         <GroceryService />
-
-        <StoriesSection />
-        {/* <Industries /> */}
-        <PlanProject />
-        <OndemandSection />
-        {/* <PortFolio /> */}
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
       </main>
     </>
   );
