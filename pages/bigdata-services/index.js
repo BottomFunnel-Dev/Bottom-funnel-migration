@@ -31,6 +31,11 @@ const BigDataServiceBF = dynamic(
     ),
   { loading: "loading..." },
 );
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: "loading..." },
+);
 
 export default function BigDataService() {
   return (
@@ -52,7 +57,7 @@ export default function BigDataService() {
         <BigDataServicePopular />
         <BigDataServiceHandling />
         <BigDataServiceBF />
-        {/*  <CustomWebForm /> */}
+        <CustomWebForm />
       </main>
     </div>
   );

@@ -6,7 +6,11 @@ import { IOTBanner } from "../../components/IOTPage/IOTBanner/IOTBanner";
 import { IOTServices } from "../../components/IOTPage/IOTServices/IOTServices";
 import { IOTMidBanner } from "../../components/IOTPage/IOTMidBanner/IOTMidBanner";
 import { IOTwhyBF } from "../../components/IOTPage/IOTwhyBF/IOTwhyBF";
-
+const CustomWebForm = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
+  { loading: "loading..." },
+);
 
 export default function IOTDevelopment() {
   return (
@@ -22,14 +26,12 @@ export default function IOTDevelopment() {
         />
       </Head>
       <main>
-
         <IOTBanner />
         <IOTServices />
         <IOTMidBanner />
         <IOTwhyBF />
         <CustomWebForm />
-
       </main>
     </div>
   );
-};
+}
