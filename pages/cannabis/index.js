@@ -27,44 +27,6 @@ const Cannabisdrive = dynamic(
   () => import("../../components/Cannabis/Cannabisdrive"),
   { loading: () => "loading..." },
 );
-const TextDropdown = dynamic(
-  () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "loading..." },
-);
-const OndemandSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: () => "loading..." },
-);
-const PlanProject = dynamic(
-  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: () => "loading..." },
-);
-const SeoblogSection = dynamic(
-  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: () => "loading..." },
-);
-const StoriesSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: () => "loading..." },
-);
-const Revamping = dynamic(
-  () => import("../../components/revamping/Revamping"),
-  { loading: () => "loading..." },
-);
-const ContectForm = dynamic(
-  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: () => "loading..." },
-);
-const MainFooter = dynamic(
-  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: () => "loading..." },
-);
-const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
-  loading: () => "loading...",
-  ssr: false,
-});
 
 // ------------------Main page function-----------------
 export default function Cannabis() {
@@ -80,32 +42,12 @@ export default function Cannabis() {
         />
       </Head>
       <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
         <Cannabiscontainer />
         <Cannabissolution />
         <Cannabisoverview />
         <Cannabiscustomersection />
         <Cannabisadmin />
         <Cannabisdrive />
-
-        <StoriesSection />
-        {/* <Industries /> */}
-        <PlanProject />
-        <OndemandSection />
-        {/* <PortFolio /> */}
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
       </main>
     </>
   );

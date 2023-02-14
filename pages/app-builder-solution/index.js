@@ -5,75 +5,28 @@ import Head from "next/head";
 // ---------------importing components with lazy loading-----------------------
 const AppBuilderSolutionBanner = dynamic(
   () => import("../../components/AppBuilderSoltion/AppBuilderSolutionBanner"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 
 const AppBuilderDiscoverApp = dynamic(
   () => import("../../components/AppBuilderSoltion/AppBuilderDiscoverApp"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 
 const AppBuilderWhyShuld = dynamic(
   () => import("../../components/AppBuilderSoltion/AppBuilderWhyShuld"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 
 const AppBuilderCreate = dynamic(
   () => import("../../components/AppBuilderSoltion/AppBuilderCreate"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 
 const AppBuilderMaker = dynamic(
   () => import("../../components/AppBuilderSoltion/AppBuilderMaker"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
-
-const TextDropdown = dynamic(
-  () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "Loading..." }
-);
-
-const OndemandSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: () => "Loading..." }
-);
-
-const PlanProject = dynamic(
-  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: () => "Loading..." }
-);
-
-const SeoblogSection = dynamic(
-  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: () => "Loading..." }
-);
-
-const StoriesSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: () => "Loading..." }
-);
-
-const Revamping = dynamic(
-  () => import("../../components/revamping/Revamping"),
-  { loading: () => "Loading..." }
-);
-
-const ContectForm = dynamic(
-  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: () => "Loading..." }
-);
-
-const MainFooter = dynamic(
-  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: () => "Loading..." }
-);
-
-const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
-  loading: () => "loading...",
-  ssr: false,
-});
 
 // ------------------Main page function-----------------
 export default function AppBuilderSolution() {
@@ -88,32 +41,11 @@ export default function AppBuilderSolution() {
         />
       </Head>
       <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
-        
         <AppBuilderSolutionBanner />
         <AppBuilderDiscoverApp />
         <AppBuilderWhyShuld />
         <AppBuilderCreate />
         <AppBuilderMaker />
-
-        {/* Other react required components*/}
-        <StoriesSection />
-        <OndemandSection />
-        {/* <PortFolio />*/}
-        <PlanProject />
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
       </main>
     </div>
   );

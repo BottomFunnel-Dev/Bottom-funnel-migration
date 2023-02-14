@@ -14,7 +14,7 @@ import { NavIndustries } from "./NavIndustries";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { Industries } from "./Industries";
 
-const Navbar = ({ navredux, productMount }) => {
+const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
@@ -46,32 +46,14 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   return (
-    <div
-      style={
-        navtoggle === ""
-          ? { background: "transparent" }
-          : { background: "white" }
-      }
-    >
-      {!productMount.navMount && (
-        <ContactMain
-          bgcolor={navbar ? "white" : "transparent"}
-          textcolor={!navbar ? navredux.color : "black"}
-        />
-      )}
+    <div>
+     <ContactMain />
       <nav
-        className={
-          navbar
-            ? `${navstyle.navbarSection} ${navstyle.active}`
-            : navstyle.navbarSection
-        }
+        className={`${navstyle.navbarSection} ${navstyle.active}`}
         style={{
-          top:
-            scroll || productMount.navMount || productMount.salesnavMount
-              ? "0"
-              : "30px",
+         
           position:
-            scroll && (productMount.navMount || productMount.salesnavMount)
+            scroll
               ? "static"
               : "fixed",
         }}
@@ -80,9 +62,7 @@ const Navbar = ({ navredux, productMount }) => {
           <Link href="/" className={navstyle.logoText}>
             <Image
               src={
-                navredux.logo && !navbar
-                  ? "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/whitelogobottom.webp"
-                  : "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/blacklogo.webp"
+                "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/blacklogo.webp"
               }
               alt={"logo"}
               width={"0"}
@@ -111,7 +91,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 About
               </li>
@@ -123,7 +102,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Services
               </li>
@@ -135,7 +113,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Solutions
               </li>
@@ -147,17 +124,11 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Industries
               </li>
 
-              <li
-                onClick={() => router.push("portfolio")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                Portfolio
-              </li>
+              <li onClick={() => router.push("portfolio")}>Portfolio</li>
 
               <li
                 onMouseEnter={() => {
@@ -166,7 +137,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("");
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Resources
               </li>
@@ -199,7 +169,7 @@ const Navbar = ({ navredux, productMount }) => {
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}
-            productMount={productMount}
+         
           />
         )}
       </nav>
@@ -210,7 +180,6 @@ const Navbar = ({ navredux, productMount }) => {
           homeHoverIn={hoverhandle}
           homeHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
       {/* about drop down section code end */}
@@ -221,7 +190,6 @@ const Navbar = ({ navredux, productMount }) => {
           serHoverIn={hoverhandle}
           serHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -233,7 +201,6 @@ const Navbar = ({ navredux, productMount }) => {
           solHoverIn={hoverhandle}
           solHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -242,7 +209,6 @@ const Navbar = ({ navredux, productMount }) => {
           indusHoverIn={hoverhandle}
           indusHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
 
@@ -251,7 +217,6 @@ const Navbar = ({ navredux, productMount }) => {
           resHoverIn={hoverhandle}
           resHoverOut={hoverhandle}
           scroll={scroll}
-          productMount={productMount}
         />
       ) : null}
     </div>

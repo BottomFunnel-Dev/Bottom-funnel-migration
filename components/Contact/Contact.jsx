@@ -18,7 +18,7 @@ export const ContactMain = ({ bgcolor, textcolor }) => {
   return (
     <div
       className={stylecon.ContactAboveNavbarMain}
-      style={{ opacity: scroll ? "0" : "1", background: bgcolor }}
+      style={{ opacity: scroll ? "0" : "1" }}
     >
       <div>
         <div>
