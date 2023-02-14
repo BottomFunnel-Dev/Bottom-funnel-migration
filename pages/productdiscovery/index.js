@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
 import { BenifitsofProduct } from "../../components/ProductDiscovery/BenifitsofProduct/BenifitsofProduct";
 import { DreamProject } from "../../components/ProductDiscovery/DreamProject/DreamProject";
 import { PilotStudy } from "../../components/ProductDiscovery/PilotStudy/PilotStudy";
