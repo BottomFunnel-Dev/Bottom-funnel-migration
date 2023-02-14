@@ -47,7 +47,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
         serHoverOut("", false);
       }}
       className={navservice.servicesolutionVisible}
-      style={{ top: scroll ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
       <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (

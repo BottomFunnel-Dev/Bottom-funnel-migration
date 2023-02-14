@@ -6,13 +6,14 @@ export const Resource = ({
   resHoverIn,
   resHoverOut,
   scroll,
+  productMount,
 }) => {
   return (
     <div
       onMouseEnter={()=>{resHoverIn("resource")}}
       onMouseLeave={()=>{resHoverOut("")}}
       className={resCSS.resourceVisible}
-      style={{ top: scroll ? "68px" : "98px" }}
+      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
     >
 
       <div id={resCSS.ondemandsol} className={resCSS.indindustryContent}>
@@ -25,6 +26,13 @@ export const Resource = ({
               }}
               className={resCSS.industryimageIconDivSection}
             >
+              {/* <div>
+                <img
+                  className={resCSS.industryiconDivSection}
+                  src={item.navIcons}
+                  alt=""
+                />
+              </div> */}
               <Link
                 onClick={()=>{resHoverOut("")}}
                 href={item.path}

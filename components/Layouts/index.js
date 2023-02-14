@@ -37,7 +37,15 @@ const MainFooter = dynamic(
 export default function Layout({ children }) {
   return (
     <>
-      <Navbar />
+      <Navbar
+        productMount={{
+          navMount: false,
+        }}
+        navredux={{
+          color: "white",
+          logo: true,
+        }}
+      />
       <main>{children}</main>
       <StoriesSection />
       <OndemandSection />

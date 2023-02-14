@@ -6,7 +6,7 @@ export const ContactMain = ({ scroll }) => {
   return (
     <div
       className={stylecon.ContactAboveNavbarMain}
-      style={{ opacity: scroll ? "0" : "1" }}
+      style={{ opacity: scroll ? "0" : "1" , background:bgcolor}}
     >
       <div>
         <div>

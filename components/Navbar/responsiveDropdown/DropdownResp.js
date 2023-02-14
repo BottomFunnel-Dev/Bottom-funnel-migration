@@ -18,7 +18,7 @@ export default function DropdownResp({
 
   hoverhandle,
   scroll,
-
+  productMount,
 }) {
   return (
     <div className={dropdown.dropdown_css}>
@@ -35,6 +35,7 @@ export default function DropdownResp({
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}
+            productMount={productMount}
           />
         </AccordionDetails>
       </Accordion>
@@ -51,6 +52,7 @@ export default function DropdownResp({
             serHoverIn={hoverhandle}
             serHoverOut={hoverhandle}
             scroll={scroll}
+            productMount={productMount}
           />
         </AccordionDetails>
       </Accordion>
@@ -69,6 +71,7 @@ export default function DropdownResp({
               solHoverIn={hoverhandle}
               solHoverOut={hoverhandle}
               scroll={scroll}
+              productMount={productMount}
             />
           </AccordionDetails>
         </Accordion>
@@ -86,6 +89,7 @@ export default function DropdownResp({
               solHoverIn={hoverhandle}
               solHoverOut={hoverhandle}
               scroll={scroll}
+              productMount={productMount}
             />
           </AccordionDetails>
         </Accordion>
@@ -103,6 +107,7 @@ export default function DropdownResp({
               solHoverIn={hoverhandle}
               solHoverOut={hoverhandle}
               scroll={scroll}
+              productMount={productMount}
             />
           </AccordionDetails>
         </Accordion>
