@@ -68,9 +68,10 @@ export default function OnDemandSection() {
         }}
         navredux={{
           color: "black",
-          logo: true,
+          logo: false,
         }}
       />
+
       <OndemandHero />
       <Trusted partnerLogo={homesolutionsLogo} />
       <OndemandQuote />

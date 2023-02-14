@@ -18,7 +18,7 @@ export const FoodDeliveryBanner = () => {
       </div>
 
       <div className={styles.foodDeliveryBannerImage}>
-        <Player
+        <Player className={styles.foodDeliveryBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

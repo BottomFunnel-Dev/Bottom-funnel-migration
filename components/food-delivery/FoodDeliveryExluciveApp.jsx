@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./FoodDeliveryExluciveApp.module.css";
 
@@ -6,13 +7,21 @@ export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
   return (
     <div className={styles.foodDeliveryExclusiveApp}>
       <h1>{foodDeliverycustomerdata.sectionTitle}</h1>
-      
+
       <div className={styles.foodDeliveryExclusiveAppsub}>
         <div className={styles.foodDeliveryExclusiveAppright}>
           {foodDeliverycustomerdata.foodDeliverycustomerdata.map(({ title, icon, para }, idx) => {
             return (
               <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`} >
-                
+                <div className={styles.agricultureCustomerAppApplogo}>
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "13%", height: "100%" }}
+                  />
+                </div>
 
                 <h3> {title} </h3>
                 <p> {para} </p>

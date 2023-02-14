@@ -109,6 +109,7 @@ export default function CarPooling() {
             logo: false,
           }}
         />
+        
         <CarpoolingBanner />
         <Trusted partnerLogo={carpoolingLogo} />
         <CarpoolingRide />

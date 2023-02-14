@@ -38,7 +38,7 @@
 
 .foodDeliveryAdvanceTechright > div {
   padding: 10px 10px 10px 10px;
-  height: 160px;
+  height: 180px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -59,12 +59,17 @@
 
 .foodDeliveryAdvanceTechright > div > h3 {
   font-size: 18px;
+  font-weight: 600;
   margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .foodDeliveryAdvanceTechright > div > p {
+  font-size: 16px;
+  font-weight: 400;
   margin-top: 0%;
-  margin-top: -2%;
+  margin-top: 0%;
+  line-height: 20px;
   /* border: 1px solid red; */
 }
 
