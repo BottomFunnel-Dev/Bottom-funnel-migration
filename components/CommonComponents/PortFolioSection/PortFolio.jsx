@@ -42,7 +42,7 @@ const PortFolio = () => {
           slidesToScroll: 1,
           initialSlide: 1,
           vertical: false,
-          infinite:true,
+          infinite: true,
         },
       },
     ],
@@ -52,7 +52,8 @@ const PortFolio = () => {
   const portfolioData = [
     {
       leftimg: "#EB6D42",
-      rightImg: "Images/portfolio/yanbal1.webp",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/yanbal1.webp",
       title: "Yanbal",
       tagline: "Global Cosmatic Brand",
       description:
@@ -66,7 +67,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#A752ED",
-      rightImg: "Images/portfolio/physicsfunshop1.png",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/physicsfunshop1.png",
       title: "Physics Fun Shop",
       tagline: "Educational Brand",
       description:
@@ -79,7 +81,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#1D366A",
-      rightImg: "Images/portfolio/blueberrygroup.png",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/blueberrygroup.png",
       title: "BlueBerry Group",
       tagline: "Global D2C Travel Company",
       description: `The Blueberry Group has taken an innovative approach to service development in many industries and specialized services, establishing a reputation as a leading expert in Travel and Tour Services, ECommerce, Electronics, Home Appliances Division and as a Fashion Brand. Through its Travel and
@@ -93,7 +96,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#3F86A6",
-      rightImg: "Images/portfolio/blueberry1.webp",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/blueberry1.webp",
       title: "Blueberry Travels",
       tagline: "D2C Travel Website",
       description:
@@ -106,7 +110,8 @@ const PortFolio = () => {
 
     {
       leftimg: "#FE8805",
-      rightImg: "Images/portfolio/jambo1.webp",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/jambo1.webp",
       title: "Jambo Shoppe",
       tagline: "Global E-commerce Shopping Brand",
       description: `Jambo Shoppe is an e-commerce company in Kenya which houses everything you can possibly
@@ -125,7 +130,8 @@ const PortFolio = () => {
 
     {
       leftimg: "#42A928",
-      rightImg: "Images/portfolio/roshi1.png",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/roshi1.png",
       title: "Roshi Wellness",
       tagline: "Global Herbal Products Brand",
       description: `Roshi brings the sophistication of supply chain technologies designed for FDA regulated products to
@@ -140,7 +146,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#E54046",
-      rightImg: "Images/portfolio/nextholidays1.png",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/nextholidays1.png",
       title: "Next Holidays",
       tagline: "D2C travel Website",
       description: `Based in the ancient land of India with its diverse cultures, the company has 14 years of experience
@@ -156,7 +163,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#FFD555",
-      rightImg: "Images/portfolio/oncart1.png",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/oncart1.png",
       title: "On-cart",
       tagline: "Smart Shopping App",
       description: `On-cart is an e-commerce store that provides a wide array of products among electronics, apparels
@@ -174,7 +182,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#472AF0",
-      rightImg: "Images/portfolio/travelflap1.webp",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/travelflap1.webp",
       title: "Travelflap",
       tagline: "D2C Travel Company",
       description: `Travel Flap is a New York -based privately owned leading tourism brand with over 15 years of
@@ -188,7 +197,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#84C632",
-      rightImg: "Images/portfolio/mukunda1.webp",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/mukunda1.webp",
       title: "Mukunda",
       tagline: "Global Trading Company",
       description: `Mukunda General Trading is a well-established Company for all ICT Material, Hardware, Construction
@@ -203,7 +213,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#7D59A5",
-      rightImg: "Images/portfolio/spj1.png",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/spj1.png",
       title: "SPJ Electronics",
       tagline: "Global Market Leader in Electrical Industry",
       description: `SPJ Electronic is a global market leader in the electrical industry. SPJ Electronics offers diverse
@@ -218,7 +229,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#B6967F",
-      rightImg: "Images/portfolio/amydus1.webp",
+      rightImg:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/amydus1.webp",
       title: "Amydus",
       tagline: "Global E-commerce Website",
       description: `Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which 
@@ -231,7 +243,8 @@ const PortFolio = () => {
     },
     {
       leftimg: "#FFC701",
-      rightImg: "/Images/portfolio/aanandam1.webp",
+      rightImg:
+        "/https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/aanandam1.webp",
       title: "The Aanandam",
       tagline: "Hotel and Resorts Brand",
       description:
@@ -245,97 +258,94 @@ const PortFolio = () => {
   return (
     <div className={styles.portfolioSection}>
       <h1>Our Work</h1>
-     <div>
-     <Slider {...settings}>
-        {portfolioData.map((item, i) => (
-          <div
-            key={i}
-            className={
-              i === imageIndex
-                ? `${styles.mainSlide} ${styles.activeMainSlide}`
-                : styles.mainSlide
-            }
-          >
+      <div>
+        <Slider {...settings}>
+          {portfolioData.map((item, i) => (
             <div
-              className={styles.leftAnime}
-              style={{ background: `${item.leftimg}` }}
+              key={i}
+              className={
+                i === imageIndex
+                  ? `${styles.mainSlide} ${styles.activeMainSlide}`
+                  : styles.mainSlide
+              }
             >
-              <span className={styles.portfolioText}>
-                <h1>{item.title}</h1>
-                <h6>{item.tagline}</h6>
-                <p>{item.description}</p>
+              <div
+                className={styles.leftAnime}
+                style={{ background: `${item.leftimg}` }}
+              >
+                <span className={styles.portfolioText}>
+                  <h1>{item.title}</h1>
+                  <h6>{item.tagline}</h6>
+                  <p>{item.description}</p>
 
-                <div className={styles.weblinks}>
-                  <h5>Tech Stack</h5>
-                  <span className={styles.techstack}>
-                    <p>
-                      <strong>Database:</strong> {item.database}
-                    </p>
-                    <p>
-                      <strong>Backend:</strong>
-                      {item.backend}
-                    </p>
-                    <p>
-                      <strong>Frontend:</strong> {item.frontend}
-                    </p>
-                  </span>
+                  <div className={styles.weblinks}>
+                    <h5>Tech Stack</h5>
+                    <span className={styles.techstack}>
+                      <p>
+                        <strong>Database:</strong> {item.database}
+                      </p>
+                      <p>
+                        <strong>Backend:</strong>
+                        {item.backend}
+                      </p>
+                      <p>
+                        <strong>Frontend:</strong> {item.frontend}
+                      </p>
+                    </span>
 
-                  <div className={styles.appstore}>
-                    <span>Available On</span>
+                    <div className={styles.appstore}>
+                      <span>Available On</span>
 
-                    <IconContext.Provider value={{ className: styles.webIcon }}>
-                      <BsApple />
-                    </IconContext.Provider>
-
-                    <a href={item.playStore} target="_blank">
                       <IconContext.Provider
                         value={{ className: styles.webIcon }}
                       >
-                        <AiFillAndroid />
+                        <BsApple />
                       </IconContext.Provider>
-                    </a>
 
-                    <a href={item.website} target="_blank">
-                      <IconContext.Provider
-                        value={{ className: styles.webIcon }}
-                      >
-                        <BsGlobe />
-                      </IconContext.Provider>
-                    </a>
+                      <a href={item.playStore} target="_blank">
+                        <IconContext.Provider
+                          value={{ className: styles.webIcon }}
+                        >
+                          <AiFillAndroid />
+                        </IconContext.Provider>
+                      </a>
+
+                      <a href={item.website} target="_blank">
+                        <IconContext.Provider
+                          value={{ className: styles.webIcon }}
+                        >
+                          <BsGlobe />
+                        </IconContext.Provider>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className={styles.bottomfunnelBranding}>
-                  <img src="Images/navbar/whitebottom.png" alt="image" />
-                </div>
-                <p className={styles.tagline}>
-                  <i>Build Your Brand Presence</i>
-                </p>
+                  <div className={styles.bottomfunnelBranding}>
+                    <img src="Images/navbar/whitebottom.png" alt="image" />
+                  </div>
+                  <p className={styles.tagline}>
+                    <i>Build Your Brand Presence</i>
+                  </p>
 
-                <button className={styles.casestudy}>
-                  View Case Study{" "}
-                  <IconContext.Provider
-                    value={{ className: styles.casestudyIcon }}
-                  >
-                    <BsArrowRight />
-                  </IconContext.Provider>
-                </button>
-              </span>
+                  <button className={styles.casestudy}>
+                    View Case Study{" "}
+                    <IconContext.Provider
+                      value={{ className: styles.casestudyIcon }}
+                    >
+                      <BsArrowRight />
+                    </IconContext.Provider>
+                  </button>
+                </span>
+              </div>
+
+              <div className={styles.rightAnime}>
+                <img src={item.rightImg} alt="image" />
+
+                <span className={styles.mobileImage}> </span>
+              </div>
             </div>
-
-            <div className={styles.rightAnime}>
-              <img src={item.rightImg} alt="image" />
-
-              <span className={styles.mobileImage}> </span>
-            </div>
-          </div>
-        ))}
-
-
-      
-
-    
-      </Slider>
-     </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

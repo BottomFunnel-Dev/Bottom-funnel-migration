@@ -14,7 +14,7 @@ export default function SeoblogSection() {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/blogSection/stories1.webp"
+              src="https://d1krs40fxb67ye.cloudfront.net/Images/blogSection/stories1.webp"
               alt="blogSection/stories1.webp"
             />
           </div>
@@ -33,7 +33,7 @@ export default function SeoblogSection() {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/blogSection/stories2.webp"
+              src="https://d1krs40fxb67ye.cloudfront.net/Images/blogSection/stories2.webp"
               alt="blogSection/stories2.webp"
             />
           </div>
@@ -52,7 +52,7 @@ export default function SeoblogSection() {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/blogSection/stories5.webp"
+              src="https://d1krs40fxb67ye.cloudfront.net/Images/blogSection/stories5.webp"
               alt="blogSection/stories5.webp"
             />
           </div>
@@ -74,7 +74,7 @@ export default function SeoblogSection() {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
-              src="/Images/blogSection/stories4.webp"
+              src="https://d1krs40fxb67ye.cloudfront.net/Images/blogSection/stories4.webp"
               alt="blogSection/stories4.webp"
             />
           </div>

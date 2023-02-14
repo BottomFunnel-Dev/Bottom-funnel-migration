@@ -18,7 +18,9 @@ export default function Awards() {
         <div id={styles.awards}>
           <div>
             <Image
-              src={"/Images/AwardsImageMainServicePage/appfutura.webp"}
+              src={
+                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/appfutura.webp"
+              }
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -29,7 +31,9 @@ export default function Awards() {
 
           <div>
             <Image
-              src={"/Images/AwardsImageMainServicePage/clutch.webp"}
+              src={
+                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/clutch.webp"
+              }
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -40,7 +44,9 @@ export default function Awards() {
 
           <div>
             <Image
-              src={"/Images/AwardsImageMainServicePage/goodfirms.webp"}
+              src={
+                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/goodfirms.webp"
+              }
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -51,7 +57,9 @@ export default function Awards() {
 
           <div>
             <Image
-              src={"/Images/AwardsImageMainServicePage/itfirms.webp"}
+              src={
+                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/itfirms.webp"
+              }
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -62,7 +70,9 @@ export default function Awards() {
 
           <div>
             <Image
-              src={"/Images/AwardsImageMainServicePage/topdev.webp"}
+              src={
+                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/topdev.webp"
+              }
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -73,7 +83,9 @@ export default function Awards() {
 
           <div>
             <Image
-              src={"/Images/AwardsImageMainServicePage/upwork.webp"}
+              src={
+                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/upwork.webp"
+              }
               alt={"images"}
               width={"0"}
               height={"0"}

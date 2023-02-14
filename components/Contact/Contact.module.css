@@ -11,7 +11,7 @@
   transition: opacity .4s linear .3s;
 }
 
-.ContactAboveNavbarMain > div {
+.ContactAboveNavbarMain>div {
   width: 80%;
   margin: auto;
   z-index: 1000;
@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 
-.ContactAboveNavbarMain > div > div {
+.ContactAboveNavbarMain>div>div {
   width: fit-content;
   height: fit-content;
 
@@ -31,7 +31,7 @@
 }
 
 
-.ContactAboveNavbarMain > div > div > span {
+.ContactAboveNavbarMain>div>div>span {
   width: fit-content;
   height: fit-content;
 
@@ -43,14 +43,17 @@
   justify-self: center;
 }
 
-.ContactAboveNavbarMain > div > div > span > img {
+.contactNavbarCountryIcon {
   height: 14px;
   width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.ContactAboveNavbarMain > div > div > span > a {
+.ContactAboveNavbarMain>div>div>span>a {
   text-decoration: none;
   margin: 0px;
   padding: 0px;
@@ -58,7 +61,7 @@
   font-size: 14px;
 }
 
-.ContactAboveNavbarMain > div > span {
+.ContactAboveNavbarMain>div>span {
   width: fit-content;
   height: fit-content;
 
@@ -68,11 +71,11 @@
   justify-content: center;
 }
 
-.ContactAboveNavbarMain > div > span > svg {
+.ContactAboveNavbarMain>div>span>svg {
   cursor: pointer;
 }
 
-.ContactAboveNavbarMain > div > span > a {
+.ContactAboveNavbarMain>div>span>a {
   text-decoration: none;
   margin: 0px;
   padding: 0px;
@@ -89,4 +92,3 @@
   }
 
 }
-

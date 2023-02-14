@@ -46,15 +46,6 @@ const MainFooter = () => {
     borderRadius: 2,
   };
 
-  const lottieOptionData = {
-    loop: true,
-    autoplay: true,
-    animationData: footerWorldmapAnimate,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
-
   const [more, setMore] = useState(false);
   const address = [
     {
@@ -116,7 +107,10 @@ const MainFooter = () => {
 
         <div className={styles.footerLogo}>
           <div className={styles.logoBottom}>
-            <img src="Images/footer/whitelogobottom.webp" alt="image" />
+            <img
+              src="https://d1krs40fxb67ye.cloudfront.net/Images/footer/whitelogobottom.webp"
+              alt="image"
+            />
             <i className={styles.taglinefooter}>"Build Your Brands Presence"</i>
           </div>
 

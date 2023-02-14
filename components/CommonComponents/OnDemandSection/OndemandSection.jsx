@@ -9,20 +9,24 @@ const OndemandSection = () => {
   const ondemandSol = [
     {
       solutionName: "Mobile App Solution",
-      bg: "/Images/ondemand/mobile.webp",
-      logoImgageOrange: "/Images/ondemand/mobileAppOrange.webp",
-      logoImgageWhite: "/Images/ondemand/mobileAppWhite.webp",
+      bg: "https://d1krs40fxb67ye.cloudfront.net/Images/ondemand/mobile.webp",
+      logoImgageOrange:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/ondemand/mobileAppOrange.webp",
+      logoImgageWhite:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/ondemand/mobileAppWhite.webp",
       description:
         "Our mobility solutions allow people to connect and share information from the most remote of places, even if they're on the move.",
       actionArrow: <BsArrowRight />,
-      link: "/mobile-app-development"
+      link: "/mobile-app-development",
     },
     {
       solutionName: "Software Solutions",
       bg: "Images/ondemand/webdev.webp",
 
-      logoImgageOrange: "/Images/ondemand/softwareSolutionsOrange.webp",
-      logoImgageWhite: "/Images/ondemand/softwareSolutionsWhite.webp",
+      logoImgageOrange:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/ondemand/softwareSolutionsOrange.webp",
+      logoImgageWhite:
+        "https://d1krs40fxb67ye.cloudfront.net/Images/ondemand/softwareSolutionsWhite.webp",
       description:
         "our software solutions allow us to perform all the time-consuming tasks and automate regular tasks to cater to your needs and make your life easier.",
       actionArrow: <BsArrowRight />,
@@ -86,7 +90,7 @@ const OndemandSection = () => {
       description:
         "Step-up your game, reach your target audience and maximise your ROI with our unique ondemand digital marketing solutions.",
       actionArrow: <BsArrowRight />,
-      link: "/digitalmarketing"
+      link: "/digitalmarketing",
     },
     {
       solutionName: "Pharmacy Delivery App",
@@ -115,8 +119,6 @@ const OndemandSection = () => {
       <div className={styles.mainOndemand}>
         {ondemandSol.map((item, index) => (
           <div key={index} className={styles.ondemandInner}>
-            
-
             <img className={styles.solImage} src={item.bg} alt="image" />
             <div className={styles.solText}>
               <div className={styles.solLogos}>
@@ -125,18 +127,21 @@ const OndemandSection = () => {
                   src={item.logoImgageOrange}
                   alt="image"
                 />
-                <img className={styles.whiteImage} src={item.logoImgageWhite} alt="image" />
+                <img
+                  className={styles.whiteImage}
+                  src={item.logoImgageWhite}
+                  alt="image"
+                />
               </div>
 
               <h4>{item.solutionName}</h4>
               <p>{item.description}</p>
-              <Link href={`${item.link}`} key={index} >
+              <Link href={`${item.link}`} key={index}>
                 <IconContext.Provider value={{ className: styles.arrowIcon }}>
                   {item.actionArrow}
                 </IconContext.Provider>
               </Link>
             </div>
-
           </div>
         ))}
       </div>
