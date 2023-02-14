@@ -47,15 +47,11 @@ const Navbar = () => {
 
   return (
     <div>
-     <ContactMain />
+      <ContactMain />
       <nav
-        className={`${navstyle.navbarSection} ${navstyle.active}`}
+        className={navstyle.navbarSection}
         style={{
-         
-          position:
-            scroll
-              ? "static"
-              : "fixed",
+          top: scroll ? "0" : "30px",
         }}
       >
         <div className={navstyle.logoSection}>
@@ -169,7 +165,6 @@ const Navbar = () => {
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}
-         
           />
         )}
       </nav>
