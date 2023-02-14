@@ -46,25 +46,10 @@ const Navbar = ({ navredux, productMount }) => {
   };
 
   return (
-    <div
-      style={
-        navtoggle === ""
-          ? { background: "transparent" }
-          : { background: "white" }
-      }
-    >
-      {!productMount.navMount && (
-        <ContactMain
-          bgcolor={navbar ? "white" : "transparent"}
-          textcolor={!navbar ? navredux.color : "black"}
-        />
-      )}
+    <div>
+      {!productMount.navMount && <ContactMain />}
       <nav
-        className={
-          navbar
-            ? `${navstyle.navbarSection} ${navstyle.active}`
-            : navstyle.navbarSection
-        }
+        className={`${navstyle.navbarSection} ${navstyle.active}`}
         style={{
           top:
             scroll || productMount.navMount || productMount.salesnavMount
@@ -80,9 +65,7 @@ const Navbar = ({ navredux, productMount }) => {
           <Link href="/" className={navstyle.logoText}>
             <Image
               src={
-                navredux.logo && !navbar
-                  ? "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/whitelogobottom.webp"
-                  : "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/blacklogo.webp"
+                "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/blacklogo.webp"
               }
               alt={"logo"}
               width={"0"}
@@ -111,7 +94,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 About
               </li>
@@ -123,7 +105,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Services
               </li>
@@ -135,7 +116,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Solutions
               </li>
@@ -147,17 +127,11 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("", false);
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Industries
               </li>
 
-              <li
-                onClick={() => router.push("portfolio")}
-                style={{ color: navbar ? "black" : navredux.color }}
-              >
-                Portfolio
-              </li>
+              <li onClick={() => router.push("portfolio")}>Portfolio</li>
 
               <li
                 onMouseEnter={() => {
@@ -166,7 +140,6 @@ const Navbar = ({ navredux, productMount }) => {
                 onMouseLeave={() => {
                   hoverhandle("");
                 }}
-                style={{ color: navbar ? "black" : navredux.color }}
               >
                 Resources
               </li>

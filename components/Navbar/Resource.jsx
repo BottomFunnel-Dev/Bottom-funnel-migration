@@ -26,13 +26,6 @@ export const Resource = ({
               }}
               className={resCSS.industryimageIconDivSection}
             >
-              {/* <div>
-                <img
-                  className={resCSS.industryiconDivSection}
-                  src={item.navIcons}
-                  alt=""
-                />
-              </div> */}
               <Link
                 onClick={()=>{resHoverOut("")}}
                 href={item.path}
