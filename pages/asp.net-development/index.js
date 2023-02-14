@@ -10,6 +10,7 @@ import { aspstackIntro } from "../../components/Data/webdevPageData/StackData";
 import { aspnetwebDevServices } from "../../components/Data/webdevPageData/Popularservices";
 import { whyAspnet } from "../../components/Data/webdevPageData/whyTechStack";
 import { aspnetWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
+import * as ReactAnimation from "../../public/webdevanimation/Asp.json";
 
 
 // ---------------importing components with lazy loading-----------------------
@@ -107,7 +108,7 @@ export default function AspNet() {
             logo: false,
           }}
         />
-        <WebdevBanner paraColor={"#393939"} bannerContent={aspnetBanner} />
+        <WebdevBanner paraColor={"#393939"} bannerContent={aspnetBanner} animateData={ReactAnimation} />
         <Techstackintro techContent={aspstackIntro} />
         <WebDevServices webservicesContent={aspnetwebDevServices} />
         <WhyTechStack techData={whyAspnet} />

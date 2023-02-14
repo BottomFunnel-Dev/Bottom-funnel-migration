@@ -7,10 +7,10 @@ export default function WebdevBanner({ paraColor, bannerContent, animateData }) 
     <div
       className={styles.webDevBanner}
       style={{
-        background: `url(${bannerContent.background})`,
-        backgroundPosition: "right",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
+        // background: `url(${bannerContent.background})`,
+        // backgroundPosition: "right",
+        // backgroundRepeat: "no-repeat",
+        // backgroundSize: "cover",
       }}
     >
       <div className={styles.webDebText}>

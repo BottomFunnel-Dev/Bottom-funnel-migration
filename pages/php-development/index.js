@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
-import * as ReactAnimation from "../../public/webdevanimation/Mern.json";
+import * as ReactAnimation from "../../public/webdevanimation/php.json";
 import { phpBanner } from "../../components/Data/webdevPageData/TechBannerData";
 import { phpstackIntro } from "../../components/Data/webdevPageData/StackData";
 import { phpDevServices } from "../../components/Data/webdevPageData/Popularservices";
@@ -90,8 +90,8 @@ export default function PhP() {
             navMount: false,
           }}
           navredux={{
-            color: "white",
-            logo: true,
+            color: "black",
+            logo: false,
           }}
         />
         <WebdevBanner bannerContent={phpBanner} animateData={ReactAnimation} />
