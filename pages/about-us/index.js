@@ -4,10 +4,6 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 
 // ---------------importing components with lazy loading-----------------------
-const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
-  loading: () => "loading...",
-  ssr: false,
-});
 const AboutusBanner = dynamic(
   () => import("../../components/aboutUs/AboutusBanner/AboutusBanner"),
   { loading: () => "loading..." },
@@ -28,40 +24,6 @@ const WorkLifeBalance = dynamic(
   () => import("../../components/aboutUs/WorkLifeBalance/WorkLifeBalance"),
   { loading: () => "loading..." },
 );
-const TextDropdown = dynamic(
-  () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "loading..." },
-);
-const OndemandSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: () => "loading..." },
-);
-const PlanProject = dynamic(
-  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: () => "loading..." },
-);
-const SeoblogSection = dynamic(
-  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: () => "loading..." },
-);
-const StoriesSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: () => "loading..." },
-);
-const Revamping = dynamic(
-  () => import("../../components/revamping/Revamping"),
-  { loading: () => "loading..." },
-);
-const ContectForm = dynamic(
-  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: () => "loading..." },
-);
-const MainFooter = dynamic(
-  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: () => "loading..." },
-);
 
 // ------------------Main page function-----------------
 export default function AboutUS() {
@@ -77,30 +39,11 @@ export default function AboutUS() {
         />
       </Head>
       <main>
-        <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
         <AboutusBanner />
         <OurProcess />
         <OurAchievements />
         <WorkLifeBalance />
         <OurBlogs />
-        {/* Other react required components  */}
-        <StoriesSection />
-        <OndemandSection />
-        {/* <PortFolio />  */}
-        <PlanProject />
-        <SeoblogSection />
-        <Revamping />
-        <TextDropdown />
-        <ContectForm />
-        <MainFooter />
       </main>
     </div>
   );
