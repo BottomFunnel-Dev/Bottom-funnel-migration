@@ -23,7 +23,7 @@ const FlowerDeliveryBanner = () => {
       </div>
 
       <div className={styles.flowerdeliverybannerrightbox}>
-        <Player
+        <Player className={styles.flowerDeliveryBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

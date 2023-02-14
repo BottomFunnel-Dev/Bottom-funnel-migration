@@ -1,14 +1,8 @@
-/* .websiteBuilderBannerParentDiv{
-    border: 1px solid red;
-    margin-top: 10%;
-} */
-
 .websiteBuilderBannerImageDiv {
   /* border: 1px solid black; */
   position: relative;
   height: 100vh;
   z-index: 1;
-  /* height: 400px; */
 }
 
 .websiteBuilderBannerImageDiv img {
@@ -28,12 +22,18 @@
 .websiteBuilderBannerTopImageComp {
   /* border: 2px solid gold; */
   position: absolute;
-  top: 15%;
-  right: 4%;
+  top: 5%;
+  right: 0%;
+  left: 40%;
 }
+
+.websiteBuilderBannerAnimation {
+  /* border: 1px solid red; */
+  width: 85%;
+}
+
 .websiteBuilderBannerTopImageComp img {
   /* height: 100vh; */
-
   height: 600px;
   width: 100%;
   /* object-fit: cover; */
@@ -60,12 +60,6 @@
 }
 
 .websiteBuilderBannerContentDiv button {
-  /* border-radius: 7px;
-  border: 1px solid white;
-  width: 22%;
-  height: 40px;
-  margin-top: 3%;
-  font-weight: 600; */
   padding: 10px 40px;
   border-radius: 10px;
   background-color: #ef4c23;
@@ -77,9 +71,6 @@
 }
 
 .websiteBuilderBannerContentDiv button:hover {
-  /* background-color: #ef4c23;
-  color: white;
-  border: 1px solid #ef4c23; */
   color: #ef4c23;
   /* border: 1px solid #ef4c23; */
   background-color: white;

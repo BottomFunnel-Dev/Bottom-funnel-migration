@@ -21,14 +21,15 @@ export const WebisteBuilderBanner = () => {
           </div>
 
           <div className={styles.websiteBuilderBannerTopImageComp}>
-            <Player
+            <Player className={styles.websiteBuilderBannerAnimation}
               src={reactAnimation}
               background="transparent"
               speed="1"
               loop
               controls
               autoplay
-            ></Player>
+            >
+            </Player>
           </div>
         </div>
       </div>

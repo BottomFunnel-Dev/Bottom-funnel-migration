@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./AppBuilderDiscoverApp.module.css";
 
@@ -19,14 +20,18 @@ export default function AppBuilderDiscoverApp() {
   return (
     <div className={styles.appbuilderdiscoverappmainboxes}>
       <div className={styles.appbuilderdiscoverleftbox}>
-        <img
-          src="/Images/Appbuildersolutions/Screens/Group 340125.png"
-          alt="images"
+        <Image
+          src={"/Images/Appbuildersolutions/Screens/Group 340125.png"}
+          alt={"images"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
         />
       </div>
 
       <div className={styles.appbuilderdiscoverrightbox}>
-        <h1>Discover Your App by Bottom Funnel!</h1>
+        <h1> Discover Your App by Bottom Funnel! </h1>
         <p>
           Get an exclusive experience with Disclose mobile app try, preview and
           test your app before submitting it to the app stores.
@@ -53,7 +58,7 @@ export default function AppBuilderDiscoverApp() {
                 </div>
 
                 <div className={styles.leftboxfortextappbuilder}>
-                  <h5>{e.xtt}</h5>
+                  <h5> {e.xtt} </h5>
                 </div>
               </div>
             );

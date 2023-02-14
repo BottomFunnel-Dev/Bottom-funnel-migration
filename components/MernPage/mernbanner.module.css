@@ -2,11 +2,13 @@
   /* margin-top: 90px; */
   height: 100vh;
   position: relative;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
   display: flex;
+  /* background-color: #edc32b; */
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  /* background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); */
   flex-direction: row-reverse;
-  /* background: linear-gradient(to left,#edc32b, #fc8b01); */
-
+ 
 }
 
 .mernbannercontent {
@@ -63,7 +65,9 @@
 }
 .mernanimation{
 /* border: 2px solid yellow; */
-width: 50%;
+width: 40%;
+/* overflow: hidden; */
 margin-right: 3%;
+margin-top: 7%;
 
 }

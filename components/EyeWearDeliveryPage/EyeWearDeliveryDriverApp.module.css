@@ -55,10 +55,10 @@
   border-radius: 10px;
   text-align: justify;
 }
-.txteyeweardriver>h4{
+.txteyeweardriver > h4 {
   margin-top: 2%;
 }
-.txteyeweardriver>p{
+.txteyeweardriver > p {
   font-size: 14px;
   margin-top: 1%;
 }
@@ -69,8 +69,10 @@
 
 .logoeyeweardriver {
   margin: 2%;
+  width: 40%;
 }
-.logoeyeweardriver>img{
+
+.logoeyeweardriver > img {
   height: 40px;
   width: 40px;
 }

@@ -1,5 +1,6 @@
 
 
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./foodDeliveryAdvanceTech.module.css";
 
@@ -19,9 +20,13 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
         >
 
           <div className={styles.logisticDriveImage}>
-            <img
+            <Image
               src={fooddeliverydrivedata.fooddeliverydrivedata[active].img.src}
               alt={fooddeliverydrivedata.fooddeliverydrivedata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>
@@ -30,9 +35,15 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
           {fooddeliverydrivedata.fooddeliverydrivedata.map(({ title, icon, para }, idx) => {
             return (
               <div key={title} onMouseOver={() => setActive(idx)} v className={`logistic-box-${idx}`}>
-                {/* <div className={styles.logisticLogo}>
-                  <img src={icon.src} alt={icon.alt} />
-                </div> */}
+                <div className={styles.logisticLogo}>
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "13%", height: "100%" }}
+                  />
+                </div>
 
                 <h3> {title} </h3>
                 <p> {para} </p>

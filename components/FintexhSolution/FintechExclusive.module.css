@@ -36,7 +36,7 @@
 }
 
 .fintechsolutionsflexingboxaftermapping {
-  height: 180px;
+  height: 150px;
   width: 28%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
@@ -48,6 +48,16 @@
   transform: scale(1.02);
 }
 
+.fintechsolutionsflexingboxaftermapping > h3 {
+  /* border: 1px solid red; */
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .fintechsolutionsflexingboxaftermapping > p {
   margin-top: 0%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  /* border: 1px solid red; */
 }

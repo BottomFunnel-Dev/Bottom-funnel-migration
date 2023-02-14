@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./EyeWearDeliveryDriverApp.module.css";
 
@@ -6,7 +7,6 @@ export const EyeWearDeliveryDriverApp = () => {
     const [imageChange, setImageChange] = useState("/Images/EyewearDeliveryapp/Driverappscreens/profilemanagement.png")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
-
     }
 
     const eyeweardriverappdata = [
@@ -15,7 +15,6 @@ export const EyeWearDeliveryDriverApp = () => {
             icon: "/Images/EyewearDeliveryapp/icons/prototyping-1.png",
             htxt: "Profile Management",
             stxt: "A driver's app is a mobile application that helps users manage their profiles and driving information. It allows users to view and update their personal information, as well as track their driving history.",
-
         },
 
         {
@@ -23,9 +22,7 @@ export const EyeWearDeliveryDriverApp = () => {
             icon: "/Images/EyewearDeliveryapp/icons/prototyping-8.png",
             htxt: "Earning Analytics",
             stxt: "Earning analytics is a feature in the driver's app that allows you to see how much money you've earned over a certain period of time. This is a great feature for drivers who want to see how their earnings are progressing.",
-
         },
-
 
         {
             img: "/Images/EyewearDeliveryapp/Driverappscreens/dailyreports.png",
@@ -33,7 +30,6 @@ export const EyeWearDeliveryDriverApp = () => {
             htxt: "Daily Report's Dashboard",
             stxt: "As a driver, you want to be able to see your daily reports in one place. The Daily Report's Dashboard for driver's app gives you all the information you need to see how well you're doing. This includes a summary of your trips, earnings and Ratings.",
         },
-
 
         {
             img: "/Images/EyewearDeliveryapp/Driverappscreens/alertsetting.png",
@@ -47,14 +43,19 @@ export const EyeWearDeliveryDriverApp = () => {
     return (
         <div className={styles.eyeweardeliverydrivermainbox}>
             <div className={styles.eyeweardeliverydriverappboxfortxt}>
-                <h1>Driver App</h1>
-                
+                <h1> Driver App </h1>
             </div>
 
             <div className={styles.eyeweardeliverydriverappflexingintonew}>
                 <div className={styles.eyeweardeliverydriverappflexingintonewleft}>
                     <div className={styles.eyeweardeliverydriverappflexingintonewleftinsiderboxformobile}>
-                        <img src={imageChange} alt="imagemobile" />
+                        <Image src={imageChange}
+                            alt={"imagemobile"}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
 
@@ -67,12 +68,18 @@ export const EyeWearDeliveryDriverApp = () => {
                                 }}
                             >
                                 <div className={styles.logoeyeweardriver}>
-                                    <img src={e.icon} alt="image" />
+                                    <Image src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "20%" }}
+                                    />
                                 </div>
 
                                 <div className={styles.txteyeweardriver}>
-                                    <h4>{e.htxt}</h4>
-                                    <p>{e.stxt}</p>
+                                    <h4> {e.htxt} </h4>
+                                    <p> {e.stxt} </p>
                                 </div>
                             </div>
                         )

@@ -59,10 +59,12 @@
 }
 
 .fintechsolutionmappingadmindata > p {
-    margin-top: -7%;
+  margin-top: 0%;
 }
 
 .fintechadminlogo {
   margin: 1%;
   padding: 1%;
+  width: 40%;
+  /* border: 1px solid red; */
 }

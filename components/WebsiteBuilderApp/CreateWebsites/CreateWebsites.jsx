@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from "./CreateWebsites.module.css";
 
@@ -7,10 +8,22 @@ export const CreateWebsites = () => {
 
             <div className={styles.createWebsiteImageMainDiv}>
                 <div className={styles.createWebsiteImageDivBackImage}>
-                    <img src='/Images/WebsiteBuilderApp/RightSideBackgroundImage.png' alt="image" />
+                    <Image src={'/Images/WebsiteBuilderApp/RightSideBackgroundImage.png'}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "15%" }}
+                    />
 
                     <div className={styles.createWebsiteImageDivTopImage}>
-                        <img src='/Images/WebsiteBuilderApp/CreateWebsiteFitnessImage.png' alt='image' />
+                        <Image src={'/Images/WebsiteBuilderApp/CreateWebsiteFitnessImage.png'}
+                            alt={'image'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "15%" }}
+                        />
                     </div>
                 </div>
             </div>
@@ -36,7 +49,6 @@ export const CreateWebsites = () => {
                     </div>
                 </div>
             </div>
-
         </div>
-    )
-}
+    );
+};

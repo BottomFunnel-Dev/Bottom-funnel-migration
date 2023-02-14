@@ -1,5 +1,6 @@
-import React from 'react'
-import styles from "./MeatDeliveryAdmin.module.css"
+import Image from 'next/image';
+import React from 'react';
+import styles from "./MeatDeliveryAdmin.module.css";
 
 export const MeatDeliveryAdmin = () => {
 
@@ -31,23 +32,30 @@ export const MeatDeliveryAdmin = () => {
         <div className={styles.meatdeliveryadminpannelmainboxes}>
             <div className={styles.meatdeliveryadminleftbox}>
                 <div className={styles.meatdeliveryadminuppertextbox}>
-                    <h1 className={styles.specialcolor}>Admin Pannel</h1>
+                    <h1 className={styles.specialcolor}>
+                        Admin Pannel
+                    </h1>
                 </div>
+
                 <div className={styles.meateliverymappingboxforadminpannel}>{meatdeliveryadmindata.map((e) => {
                     return (
-                        <div className={styles.meatdeliveryadminboxindivisually}><h4>{e.htxt}</h4>
-                            <p>{e.stxt}</p>
+                        <div className={styles.meatdeliveryadminboxindivisually}>
+                            <h4> {e.htxt} </h4>
+                            <p> {e.stxt} </p>
                         </div>
                     )
                 })}</div>
-
             </div>
-
 
             <div className={styles.meatdeliveryadminrightboxes}>
-                <img src='Images/meatdelieveryapp/Rectangle-1.png' alt='images' />
+                <Image src={'/Images/meatdelieveryapp/Rectangle-1.png'}
+                    alt={'images'}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                />
             </div>
-
         </div>
-    )
-}
+    );
+};

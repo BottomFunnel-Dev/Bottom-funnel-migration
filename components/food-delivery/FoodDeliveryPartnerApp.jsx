@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./FoodDeliveryPartnerApp.module.css";
 
@@ -30,26 +31,35 @@ export const FoodDeliveryPartnerApp = () => {
       <div className={styles.foodDeliveryPartnerAppMain}>
         <div className={styles.foodDeliveryPartnerAppImages}>
           <div>
-            <img
-              src="/Images/foodDeliveryphotos/partner-bkgd-rectangle.png"
-              alt="triangle background image"
+            <Image
+              src={"/Images/foodDeliveryphotos/partner-bkgd-rectangle.png"}
+              alt={"triangle background image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
+          
           <div>
-            <img
-              src="/Images/foodDeliveryphotos/mobile-screen-2.png"
-              alt="customer app iphone image"
+            <Image
+              src={"/Images/foodDeliveryphotos/mobile-screen-2.png"}
+              alt={"customer app iphone image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>
         <div className={styles.foodDeliveryPartnerAppContent}>
-          <h2>Partner app</h2>
+          <h2> Partner app </h2>
           <div>
             {adminpanelData.map(({ title, description }) => {
               return (
                 <div>
-                  <h4>{title}</h4>
-                  <p>{description}</p>
+                  <h4> {title} </h4>
+                  <p> {description} </p>
                 </div>
               );
             })}

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./EyeWearDeliveryAdmin.module.css";
 
@@ -43,7 +44,7 @@ export const EyeWearDeliveryAdmin = () => {
     <div className={styles.eyeweardeliveryadminpannelmainbox}>
       <div className={styles.eyeweardeliveryadminpannelleftbox}>
         <div className={styles.eyeweardeliveryadmintextboxleftside}>
-          <h1>Admin Pannel</h1>
+          <h1> Admin Pannel </h1>
           {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p> */}
           <div className={styles.eyeweardeliveryadminpannelwheremap}>
             {eyeweardeliveryadmindata.map((e) => {
@@ -54,12 +55,18 @@ export const EyeWearDeliveryAdmin = () => {
                   }}
                 >
                   <div className={styles.eyeadminlogo}>
-                    <img src={e.logo} alt='logo' />
+                    <Image src={e.logo}
+                      alt={'logo'}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "25%" }}
+                    />
                   </div>
 
                   <div>
-                    <h4>{e.htxt}</h4>
-                    <p>{e.stxt}</p>
+                    <h4> {e.htxt} </h4>
+                    <p> {e.stxt} </p>
                   </div>
                 </div>
               )
@@ -69,7 +76,13 @@ export const EyeWearDeliveryAdmin = () => {
       </div>
 
       <div className={styles.eyeweardeliveryadminpannelrightbox}>
-        <img src={imageChange} alt="images" />
+        <Image src={imageChange}
+          alt={"images"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );

@@ -49,9 +49,9 @@
 }
 
 .foodDeliveryBannerImage {
-  width: 65%;
-  height: 100%;
-  object-fit: contain;
+  /* border: 1px solid red; */
+  width: 60%;
+  margin-top: 0%;
   text-align: right;
 }
 
@@ -60,6 +60,11 @@
   height: 620px;
   width: 90%;
   object-fit: contain;
+}
+
+.foodDeliveryBannerAnimation {
+  /* border: 1px solid red; */
+  width: 70%;
 }
 
 /* @media (min-width: 481px) and (max-width: 1024px) {

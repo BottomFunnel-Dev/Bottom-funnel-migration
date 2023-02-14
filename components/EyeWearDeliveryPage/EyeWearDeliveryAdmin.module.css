@@ -29,9 +29,11 @@
   text-align: justify;
   left: 3%;
 }
-.eyeweardeliveryadmintextboxleftside>h1{
+
+.eyeweardeliveryadmintextboxleftside > h1 {
   margin-left: 3%;
 }
+
 .eyeweardeliveryadminpannelwheremap {
   display: flex;
   flex-wrap: wrap;
@@ -46,22 +48,27 @@
   display: flex;
   padding: 10px;
 }
-.eyewearmappingdataboxadminpannel>div>p{
+
+.eyewearmappingdataboxadminpannel > div > p {
   margin-top: 1%;
   font-size: 14px;
 }
-.eyewearmappingdataboxadminpannel>div>h4{
- margin-top: 1%;
+
+.eyewearmappingdataboxadminpannel > div > h4 {
+  margin-top: 1%;
 }
+
 .eyewearmappingdataboxadminpannel:hover {
   transform: scale(1.02);
   background-color: #ffebef;
 }
 
 .eyeadminlogo {
-  padding:10px;
+  padding: 10px;
+  width: 40%;
 }
-.eyeadminlogo>img{
+
+.eyeadminlogo > img {
   height: 40px;
   width: 40px;
 }
