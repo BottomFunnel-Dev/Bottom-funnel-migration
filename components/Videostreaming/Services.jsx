@@ -18,12 +18,12 @@ export default function Services() {
               <div className={styles.uploadflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/upload.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/upload.webp"
-                    alt="Videostreaming/upload.webp"
                   />
                 </div>
                 <h4>Upload & Organize</h4>
@@ -39,12 +39,12 @@ export default function Services() {
               <div className={styles.monetizflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/monetization.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/monetization.webp"
-                    alt="Videostreaming/monetization.webp"
                   />
                 </div>
                 <h4>Monetization</h4>
@@ -62,12 +62,12 @@ export default function Services() {
               <div className={styles.uploadflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/stream.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/stream.webp"
-                    alt="Videostreaming/stream.webp"
                   />
                 </div>
                 <h4>Stream On-Demand</h4>
@@ -80,12 +80,12 @@ export default function Services() {
               <div className={styles.monetizflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/analytics.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/analytics.webp"
-                    alt="Videostreaming/analytics.webp"
                   />
                 </div>
                 <h4>Analytics</h4>
@@ -104,12 +104,12 @@ export default function Services() {
               <div className={styles.uploadflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/live.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/live.webp"
-                    alt="Videostreaming/live.webp"
                   />
                 </div>
                 <h4>Streamm Live</h4>
@@ -126,12 +126,12 @@ export default function Services() {
               <div className={styles.monetizflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/devices.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/devices.webp"
-                    alt="Videostreaming/devices.webp"
                   />
                 </div>
                 <h4>For all devices</h4>

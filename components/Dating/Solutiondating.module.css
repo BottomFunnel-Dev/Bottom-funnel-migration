@@ -5,21 +5,19 @@
     text-align: center;
     /* background-color: aqua; */
 }
+
 .szdatingsolutionsubdiv{
     width: 90%;
     margin: auto;
     height: 450px;
     /* background-color: rgb(178, 191, 191); */
     display: flex;
-   
 }
- 
  
 .szdatingsolutionsubdiv>div{
     text-align: center;
     padding: 5px;
     /* background-color: brown; */
-   
 }
 
 .szupdatediv{

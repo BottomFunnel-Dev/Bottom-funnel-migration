@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./GameMetaverce.module.css";
+import Image from "next/image";
 
 export const GameMetaverce = () => {
   return (
@@ -64,17 +65,25 @@ export const GameMetaverce = () => {
       </div>
 
       <div className={styles.gamemetaverserightdivwhichinnerimage}>
-        <img
-          src="Images/gamedevelopmentpage/Rectangle 18503.png"
-          alt="imagegameer"
-        />
+          <Image
+            src={"/Images/gamedevelopmentpage/Rectangle 18503.webp"}
+            alt={"Image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
       </div>
 
       <div className={styles.gamemetaverserightdivwhichinnerimagenext}>
-        <img
-          src="Images/gamedevelopmentpage/Rectangle 18504.png"
-          alt="imagegameer"
-        />
+         <Image
+            src={"/Images/gamedevelopmentpage/Rectangle 18504.webp"}
+            alt={"Image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
       </div>
     </div>
   );

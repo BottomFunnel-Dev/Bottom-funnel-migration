@@ -2,15 +2,11 @@
 
 .socialmedialowerbannermainboxes {
     margin-top: 5%;
-    background: url("/Images/socialmedia/bannesbackground/Group 339983.png");
+    background: url("/Images/socialmedia/bannesbackground/Group 339983.webp");
     background-size: cover; 
-   background-repeat: no-repeat;
-   height: 200px;
-   margin-bottom: 5%;
-   
-
-   
-
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 5%;
 }
 
 .socialmediaflexboxlowerbanner{
@@ -20,20 +16,17 @@
     height: 90%;
     width: 90%;
     margin: auto;
-
-
 }
 
 
 .medialowerbannerimagedivflexing{
-width: 18%;
-text-align: center;
+   width: 100px;
+   text-align: center;
+   /* border: 2px solid r   ed; */
+   /* margin-left: 5%; */
 }
 
-.medialowerbannerimagedivflexing >img {
-    height: 80px;
-  
-}
+
 
 .medialowerbannerimagedivflexing >h5 {
 color: white;

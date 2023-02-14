@@ -369,7 +369,7 @@ export const industries = [
   {
     dropContent: "Social Media",
     navIcons: "Images/NavbarIconsSvg/industries section/socialmedia.svg",
-    path: "Social-Media",
+    path: "social-media",
   },
   {
     dropContent: "Logistics",

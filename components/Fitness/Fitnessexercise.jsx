@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Fitnessexercise.module.css";
+import Image from "next/image";
 
 export default function Fitnessexercise() {
   return (
@@ -7,13 +8,34 @@ export default function Fitnessexercise() {
       <div className={styles.exercisesubdiv}>
         <div className={styles.exercisemobile}>
           <div className={styles.szgreenimg}>
-            <img src="Images/fitness/greenimg.png" alt="image" />
+              <Image
+                  src={"/Images/fitness/greenimg.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.szphcase}>
-            <img src="Images/fitness/phone.png" alt="image" />
+               <Image
+                  src={"/Images/fitness/phone.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
           <div className={styles.szmyplan}>
-            <img src="Images/fitness/myplan.png" alt="image" />
+              <Image
+                src={"/Images/fitness/myplan.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
         <div className={styles.exercisebox}>
@@ -138,13 +160,34 @@ export default function Fitnessexercise() {
 
         <div className={styles.szexercisetab}>
           <div className={styles.bluecircle}>
-            <img src="Images/fitness/bluecircle.png" alt="images" />
+             <Image
+                src={"/Images/fitness/bluecircle.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.tabbluecase}>
-            <img src="Images/fitness/teblate.png" alt="images" />
+             <Image
+                src={"/Images/fitness/teblate.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.sztabdaily}>
-            <img src="Images/fitness/dailyimg.png" alt="image" />
+              <Image
+                src={"/Images/fitness/dailyimg.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
       </div>
@@ -154,13 +197,34 @@ export default function Fitnessexercise() {
       <div className={styles.exercisesubdiv}>
         <div className={styles.analitic}>
           <div className={styles.szpeachcircle}>
-            <img src="Images/fitness/pechcircle.png" alt="image" />
+              <Image
+                src={"/Images/fitness/pechcircle.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.szphonefit}>
-            <img src="Images/fitness/phone.png" alt="image" />
+              <Image
+                src={"/Images/fitness/phone.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
           <div className={styles.szrates}>
-            <img src="Images/fitness/rates.png" alt="image" />
+             <Image
+                src={"/Images/fitness/rates.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
           </div>
         </div>
 

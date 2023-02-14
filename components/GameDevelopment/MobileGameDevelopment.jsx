@@ -7,25 +7,25 @@ export const MobileGameDevelopment = () => {
     <div className={styles.mobilegamedevelopmentmainbox}>
       <div className={styles.mobiledevelopmentflexboxingleft}>
         <div className={styles.mobiledevelopmentflexingimageonebox}>
-          <Image
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            src="/Images/gamedevelopmentpage/Rectangle 18507.webp"
-            alt="gamedevelopmentpage/Rectangle 18507.webp"
-          />
+           <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18507.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
 
         <div className={styles.mobiledevelopmentflexingimagetwobox}>
-          <Image
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            src="/Images/gamedevelopmentpage/Rectangle 18508.webp"
-            alt="gamedevelopmentpage/Rectangle 18508.webp"
-          />
+           <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18508.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
       </div>
 

@@ -81,25 +81,33 @@ const Web3Development = () => {
 
       <div className={styles.web3developmentflexingboxrightdiv}>
         <div className={styles.web3develomentgameboxingimageinnerbox1}>
-          <Image
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            src="/Images/gamedevelopmentpage/Rectangle 18509.webp"
-            alt="gamedevelopmentpage/Rectangle 18509.webp"
-          />
+            <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18509.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
+            <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18509.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
 
         <div className={styles.web3develomentgameboxingimageinnerbox2}>
-          <Image
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            src="/Images/gamedevelopmentpage/Rectangle 18510.webp"
-            alt="gamedevelopmentpage/Rectangle 18510.webp"
-          />
+            <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18510.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
       </div>
     </div>

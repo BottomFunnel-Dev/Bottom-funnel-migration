@@ -18,14 +18,14 @@ export default function Featuressection() {
             <div className={styles.updatesubdiv}>
               <div className={styles.updateflexdiv}>
                 <div className={styles.updateimg}>
-                  <Image
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/update.webp"
-                    alt="Videostreaming/update.webp"
-                  />
+                <Image
+                  src={"/Images/Videostreaming/update.webp"}
+                  alt={"Image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
                 </div>
                 <h4>Update On Time</h4>
               </div>
@@ -46,12 +46,12 @@ export default function Featuressection() {
               <div className={styles.reminderflexdiv}>
                 <div className={styles.uploadimg}>
                   <Image
+                    src={"/Images/Videostreaming/reminder.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/reminder.webp"
-                    alt="Videostreaming/reminder.webp"
                   />
                 </div>
                 <h4>Reminders</h4>
@@ -70,13 +70,13 @@ export default function Featuressection() {
             <div className={styles.updatesubdiv}>
               <div className={styles.updateflexdiv}>
                 <div className={styles.updateimg}>
-                  <Image
+                <Image
+                    src={"/Images/Videostreaming/integration.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/integration.webp"
-                    alt="Videostreaming/integration.webp"
                   />
                 </div>
                 <h4> Social media Integration </h4>
@@ -96,13 +96,13 @@ export default function Featuressection() {
             <div className={styles.remindersubdiv}>
               <div className={styles.reminderflexdiv}>
                 <div className={styles.uploadimg}>
-                  <Image
+                <Image
+                    src={"/Images/Videostreaming/notification.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/notification.webp"
-                    alt="Videostreaming/notification.webp"
                   />
                 </div>
                 <h4>Push Notification</h4>
@@ -122,13 +122,13 @@ export default function Featuressection() {
             <div className={styles.updatesubdiv}>
               <div className={styles.updateflexdiv}>
                 <div className={styles.updateimg}>
-                  <Image
+                <Image
+                    src={"/Images/Videostreaming/rating.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/rating.webp"
-                    alt="Videostreaming/rating.webp"
                   />
                 </div>
                 <h4>Ratings</h4>
@@ -147,13 +147,13 @@ export default function Featuressection() {
             <div className={styles.remindersubdiv}>
               <div className={styles.reminderflexdiv}>
                 <div className={styles.uploadimg}>
-                  <Image
+                <Image
+                    src={"/Images/Videostreaming/chatting.webp"}
+                    alt={"Image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                    src="/Images/Videostreaming/chatting.webp"
-                    alt="Videostreaming/chatting.webp"
                   />
                 </div>
                 <h4>Live Chatting</h4>

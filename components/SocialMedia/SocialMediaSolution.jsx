@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./SocialMediaSolution.module.css";
+import Image from "next/image";
 
 export const SocialMediaSolution = () => {
   return (
@@ -9,16 +10,21 @@ export const SocialMediaSolution = () => {
         <h2>User Applications</h2>
       </div>
       <div className={styles.socialmediaspecialimagelongerforsolution}>
-        <img
-          src="Images/socialmedia/bannesbackground/Rectangle4383.png"
-          alt="imagelonger"
-        />
+          <Image
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+                src={"/Images/socialmedia/bannesbackground/Rectangle4383.webp"}
+                alt="images"
+              />
+      
       </div>
       <div className={styles.socialmediahavingflexboxformobiletypeimage}>
         <div className={styles.socialmediasolutionmobileboxone}>
           <div className={styles.socialmediasolutionmobilebox}>
             <img
-              src="Images/socialmedia/userappscreens/Inappchat.png"
+              src="Images/socialmedia/userappscreens/Inappchat.webp"
               alt="mobile"
             />
           </div>
@@ -31,7 +37,7 @@ export const SocialMediaSolution = () => {
           </div>
           <div className={styles.socialmediasolutionlogobox}>
             <img
-              src="Images/socialmedia/icons/social-media-snapchat-original-latest-logo-free-vector.png"
+              src="Images/socialmedia/icons/social-media-snapchat-original-latest-logo-free-vector.webp"
               alt="image"
             />
           </div>
@@ -40,7 +46,7 @@ export const SocialMediaSolution = () => {
         <div className={styles.socialmediasolutionmobileboxtwo}>
           <div className={styles.socialmediamobilesolutionboxone}>
             <img
-              src="Images/socialmedia/userappscreens/Feed.png"
+              src="Images/socialmedia/userappscreens/Feed.webp"
               alt="mobile"
             />
           </div>
@@ -52,14 +58,14 @@ export const SocialMediaSolution = () => {
             </p>
           </div>
           <div className={styles.socialmedialogosolutionboxone}>
-            <img src="Images/socialmedia/icons/unnamed.png" alt="image" />
+            <img src="Images/socialmedia/icons/unnamed.webp" alt="image" />
           </div>
         </div>
 
         <div className={styles.socialmediasolutionmobileboxthree}>
           <div className={styles.socialmediasolutionflexboximagethree}>
             <img
-              src="Images/socialmedia/userappscreens/socialgroups.png"
+              src="Images/socialmedia/userappscreens/socialgroups.webp"
               alt="mobile"
             />
           </div>
@@ -71,14 +77,14 @@ export const SocialMediaSolution = () => {
             </p>
           </div>
           <div className={styles.socialmediasolutionflexboxlogothree}>
-            <img src="Images/socialmedia/icons/logo.png" alt="image" />
+            <img src="Images/socialmedia/icons/logo.webp" alt="image" />
           </div>
         </div>
 
         <div className={styles.socialmediasolutionmobileboxfour}>
           <div className={styles.socialmediasolutionflexboximagefour}>
             <img
-              src="Images/socialmedia/userappscreens/socialgroups.png"
+              src="Images/socialmedia/userappscreens/socialgroups.webp"
               alt="mobile"
             />
           </div>
@@ -90,13 +96,13 @@ export const SocialMediaSolution = () => {
             </p>
           </div>
           <div className={styles.socialmediasolutionflexboxlogofour}>
-            <img src="Images/socialmedia/icons/unnamed (1).png" alt="image" />
+            <img src="Images/socialmedia/icons/unnamed (1).webp" alt="image" />
           </div>
         </div>
       </div>
       <div className={styles.socialmediaouterliftimagelinewise}>
         <img
-          src="Images/socialmedia/bannesbackground/Rectangle4383.png"
+          src="Images/socialmedia/bannesbackground/Rectangle4383.webp"
           alt=""
         />
       </div>

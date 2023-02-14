@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Adminpannel.module.css";
+import Image from "next/image";
 
 export default function Adminpannel({ customerData }) {
   const [active, setActive] = useState(0);
@@ -18,10 +19,14 @@ export default function Adminpannel({ customerData }) {
           }}
         >
           <div className={styles.datingAdminImage}>
-            <img
-              src={customerData.customerdata[active].img.src}
-              alt={customerData.customerdata[active].img.alt}
-            />
+              <Image
+                  src={customerData.customerdata[active].img.src}
+                  alt={customerData.customerdata[active].img.alt}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
           </div>
         </div>
         

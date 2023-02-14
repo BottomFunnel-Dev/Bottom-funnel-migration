@@ -80,7 +80,7 @@ export default function Dating() {
           }}
         />
         <Datingcontainer />
-        <Trusted partnerLogo={datingLogo} />
+        {/* <Trusted partnerLogo={datingLogo} /> */}
         <Datingbrands />
         <Datingfeatures />
         <Customerapp customerData={datingCustomer} />

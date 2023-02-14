@@ -22,14 +22,14 @@ export const SportsBanner = () => {
 
       <div className={styles.bettingSectionright}>
         <div className={styles.bettingImage}>
-          <Image
+        <Image
+            src={"/Images/sportsbettingpage/banners/bannerimg.webp"}
+            alt={"image"}
             width={"0"}
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="/Images/sportsbettingpage/banners/bannerimg.webp"
-            alt="sportsbettingpage/banners/bannerimg.webp"
-          />
+        />
         </div>
       </div>
     </div>

@@ -7,24 +7,24 @@ export const ThreeDGameDevelopment = () => {
     <div className={styles.threedgamedevelopmentmainpage}>
       <div className={styles.threedflexboxleftgamedevelopment}>
         <div className={styles.threedflexboxleftdivinnerimagesection1}>
-          <Image
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            src="/Images/gamedevelopmentpage/Rectangle 18505.webp"
-            alt="gamedevelopmentpage/Rectangle 18505.webp"
-          />
+           <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18505.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
         <div className={styles.threedflexboxleftdivinnerimagesection2}>
-          <Image
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-            src="/Images/gamedevelopmentpage/Rectangle 18506.webp"
-            alt="gamedevelopmentpage/Rectangle 18506.webp"
-          />
+           <Image
+              src={"/Images/gamedevelopmentpage/Rectangle 18506.webp"}
+              alt={"Image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
         </div>
       </div>
 

@@ -24,7 +24,7 @@ export const Fitnesscontainer = () => {
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
               src="/Images/fitness/yoga1.webp"
-              alt="fitness/yoga1.webp"
+              alt="image"
             />
           </div>
         </div>
