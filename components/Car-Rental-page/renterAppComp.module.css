@@ -1,84 +1,86 @@
 .RGrenterAppContainer {
-position: relative;
-margin-top: 10%;
-display: flex;
-align-items: center;
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
 }
 
 .RGrenterAppTextDiv {
-position: absolute;
-height: auto;
-right: 15%;
-bottom: 100%;
-width: 36%;
+  position: absolute;
+  height: auto;
+  right: 15%;
+  bottom: 100%;
+  width: 36%;
 }
+
 .RGrenterAppMobileLeftDiv {
-height: 450px;
-width: 50%;
-margin-left: 3%;
-background: url("/Images/Car-Rental-Page-Images/Ellipse2193.png");
-background-size: contain;
-background-repeat: no-repeat;
-position: relative;
+  height: 450px;
+  width: 50%;
+  margin-left: 3%;
+  background: url("/Images/Car-Rental-Page-Images/Ellipse2193.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .RGrenterAppMobileLeftDivFrameForImages {
-position: absolute;
-height: 100%;
-width: 40%;
-left: 30%;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 30%;
 }
 
 .RGrenterAppMobileLeftDivFrameForImages > img {
-height: 100%;
-width: 100%;
-object-fit: contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .RGrenterAppMobileRightDiv {
-display: flex;
-flex-wrap: wrap;
-row-gap: 20px;
-justify-content: space-around;
-width: 60%;
-margin: auto;
-padding: 2%;
-align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  align-items: center;
 }
 
 .RGrenterAppMobileRightDivBoxex {
-height: 150px;
-width: 40%;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-display: flex;
-padding: 10px;
-border-radius: 4px;
-text-align: justify;
+  height: 130px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: justify;
 }
 
 .RGrenterAppMobileRightDivBoxex:hover {
-transform: scale(1.02);
-background-color: #ffebef;
+  transform: scale(1.02);
+  background-color: rgb(10,178,189);
+  color: white;
 }
 
 .RGrenterAppMobileRightDivBoxex > div > h4 {
-margin-top: 1%;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.6px;
-vertical-align: baseline;
-margin-bottom: 1%;
-margin-top: 2%;
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 .RGrenterAppMobileRightDivBoxex > div > p {
-margin-top: 0%;
-font-size: 15px;
-line-height: 20px;
-vertical-align: baseline;
-font-weight: 400;
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }
 
 .RGrenterSpan {
-color: #ef4c23;
+  color: #ef4c23;
 }

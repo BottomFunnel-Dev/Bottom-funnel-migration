@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./PlantBaseDeliverApp.module.css";
 
@@ -20,9 +21,15 @@ export default function PlantBaseDeliverApp({ consumerdata }) {
               >
 
                 <div className={styles.plantBasedDeliverAppLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
-                
+
                 <h3> {title} </h3>
                 <p> {para} </p>
               </div>
@@ -39,8 +46,12 @@ export default function PlantBaseDeliverApp({ consumerdata }) {
           }}
         >
           <div className={styles.plantBasedDeliverAppCustomerImage}>
-            <img  src={consumerdata.consumerdata[active].img.src}
+            <Image src={consumerdata.consumerdata[active].img.src}
               alt={consumerdata.consumerdata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

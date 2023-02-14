@@ -28,12 +28,13 @@ export const RealEstateBanner = () => {
             find a vanity of properties that suit you very easily forget all
             dificulties in finding a residence for you
           </p>
+          
           <div className={styles.textboxinsidetextrealestatebox}>
             {txtx.map((e) => {
               return (
                 <div className={styles.txtinsidetxtrealstateindi}>
-                  <h1>{e.txt}</h1>
-                  <p>{e.stxt}</p>
+                  <h1> {e.txt} </h1>
+                  <p> {e.stxt} </p>
                 </div>
               );
             })}

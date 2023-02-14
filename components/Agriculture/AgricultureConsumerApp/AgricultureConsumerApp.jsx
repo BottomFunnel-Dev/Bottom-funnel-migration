@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./AgricultureConsumerApp.module.css";
 
@@ -16,9 +17,13 @@ export default function AgricultureConsumerApp({ driveData }) {
                     }}
                 >
                     <div className={styles.logisticDriveImage}>
-                        <img
+                        <Image
                             src={driveData.agricultureCustomerData[active].img.src}
                             alt={driveData.agricultureCustomerData[active].img.alt}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
                         />
                     </div>
                 </div>
@@ -32,11 +37,17 @@ export default function AgricultureConsumerApp({ driveData }) {
                                 className={`styles.logistic-box-${idx}`}
                             >
                                 <div className={styles.logisticlogo}>
-                                    <img src={icon.src} alt={icon.alt} />
+                                    <Image src={icon.src}
+                                        alt={icon.alt}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "15%", height: "100%" }}
+                                    />
                                 </div>
-                                <h3>{title}</h3>
 
-                                <p>{para}</p>
+                                <h3> {title} </h3>
+                                <p> {para} </p>
                             </div>
                         );
                     })}
@@ -44,4 +55,4 @@ export default function AgricultureConsumerApp({ driveData }) {
             </div>
         </div>
     );
-}
+};

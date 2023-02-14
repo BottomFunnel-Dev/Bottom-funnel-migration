@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./renterAppComp.module.css";
 
@@ -38,29 +39,34 @@ export default function RenterAppComp() {
     <div className={styles.RGrenterAppContainer}>
       <div className={styles.RGrenterAppTextDiv}>
         <h1>
-          <span className={styles.RGrenterSpan}>Renter </span>App
+          <span className={styles.RGrenterSpan}> Renter </span>App
         </h1>
       </div>
 
       <div className={styles.RGrenterAppMobileLeftDiv}>
         <div className={styles.RGrenterAppMobileLeftDivFrameForImages}>
-          <img src={imageChange} alt="images" />
+          <Image src={imageChange}
+            alt={"images"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
 
       <div className={styles.RGrenterAppMobileRightDiv}>
         {RGrenterAppData.map((e) => {
           return (
-            <div
-              className={styles.RGrenterAppMobileRightDivBoxex}
+            <div className={styles.RGrenterAppMobileRightDivBoxex}
               key={e.head}
               onMouseEnter={() => {
                 handleImageChange(e.img);
               }}
             >
               <div>
-                <h4>{e.head}</h4>
-                <p>{e.para}</p>
+                <h4> {e.head} </h4>
+                <p> {e.para} </p>
               </div>
             </div>
           );
@@ -68,4 +74,4 @@ export default function RenterAppComp() {
       </div>
     </div>
   );
-}
+};

@@ -9,14 +9,14 @@ export default function SeoLinkSection() {
     return (
         <div className={styles._SeoLinkMain1}>
             <div className={styles.linkgifDenote}>
-            <Player
-                src={reactAnimation}
-                background="transparent"
-                speed="2"
-                loop
-                controls
-                autoplay
-        ></Player>
+                <Image
+            src={"/Images/seopages/vec-3.gif"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%"}}
+          />
             </div>
             <div className={styles._SeoLinkupperdiv}>
                 <div className={styles._SeoLinktext} >

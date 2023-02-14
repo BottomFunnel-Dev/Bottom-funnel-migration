@@ -48,17 +48,21 @@
 }
 
 .plantBasedAdminPanelright > div:hover {
-  background-color: #e1f9f6;
+  background-color: #fbb807;
+  color: white;
 }
+
 .logisticLogo {
   height: 20%;
   width: 15%;
 }
+
 .logisticLogo > img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
+
 .plantBasedAdminPanelright > div > h3 {
   margin-top: 1%;
   font-size: 18px;
