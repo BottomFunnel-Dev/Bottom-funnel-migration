@@ -1,8 +1,8 @@
 .nextholidaymainboxes{
     /* border: 1px solid red; */
-height: 85vh;
+height: fit-content;
 display: flex;
-background: url("/Images/portfolio/Tax wink/background/Component 211.png");
+background: url("/Images/portfolio/Portfolio\ backgroundImage/taxwink.webp");
 background-size: 100% 100%;
 background-repeat: no-repeat;
 margin-top: 0%;
@@ -12,23 +12,23 @@ color: white;
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
+    margin: auto;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
 
 }
 
-.nextholidayleftboxforimages{
-    height: 85%;
-    width: 30%;
-
-    margin: 5% 0% 0% 65%;
-    
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
 }
 
-.nextholidayleftboxforimages>img{
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-   
-}
 
 
 .nextholidayrighttbox{
@@ -109,7 +109,7 @@ border-right: 1px solid white;
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
-
+margin-bottom: 10%;
   
 
 }

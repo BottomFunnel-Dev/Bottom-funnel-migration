@@ -1,4 +1,5 @@
 // export const PlantBaseDriverApp = () => {
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./PlantBaseDriverApp.module.css";
 export default function PlantBaseDriverApp({ driveData }) {
@@ -16,8 +17,12 @@ export default function PlantBaseDriverApp({ driveData }) {
                     }}
                 >
                     <div className={styles.logisticDriveImage}>
-                        <img src={driveData.driverdata[active].img.src}
+                        <Image src={driveData.driverdata[active].img.src}
                             alt={driveData.driverdata[active].img.alt}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
                         />
                     </div>
                 </div>
@@ -31,9 +36,15 @@ export default function PlantBaseDriverApp({ driveData }) {
                                 className={`logistic-box-${idx}`}
                             >
                                 <div className={styles.logisticLogo}>
-                                    <img src={icon.src} alt={icon.alt} />
+                                    <Image src={icon.src}
+                                        alt={icon.alt}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
-                                
+
                                 <h3> {title} </h3>
                                 <p> {para} </p>
                             </div>

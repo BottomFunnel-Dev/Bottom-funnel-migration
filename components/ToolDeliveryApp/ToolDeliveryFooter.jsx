@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./ToolDeliveryFooter.module.css";
 
@@ -48,7 +49,13 @@ const ToolDeliveryFooter = () => {
               </div>
 
               <div className={styles.tooldeliveryfooterboxlogo}>
-                <img className={styles.toollogoimg} src={e.logo} alt="imagelogo" />
+                <Image className={styles.toollogoimg}
+                  src={e.logo} alt={"imagelogo"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
             </div>
           );

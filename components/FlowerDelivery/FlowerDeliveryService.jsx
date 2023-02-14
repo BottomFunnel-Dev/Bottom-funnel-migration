@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from "./FlowerDeliveryService.module.css";
 
@@ -48,8 +49,10 @@ export const FlowerDeliveryService = () => {
   return (
     <div className={styles.flowerdeliveryservicemainbox}>
       <div className={styles.flowerdeliveryservicetextbox}>
-        <h1>Delivery Service App Solution</h1>
-        <p>Expand Your Flower Business With A Flower Delivery Service App Solution</p>
+        <h1> Delivery Service App Solution </h1>
+        <p>
+          Expand Your Flower Business With A Flower Delivery Service App Solution
+        </p>
       </div>
 
       <div className={styles.flowerdeliveryservicebackgroundimagebox}>
@@ -57,12 +60,18 @@ export const FlowerDeliveryService = () => {
           return (
             <div className={styles.flowerdeliveryserviceboxesmap}>
               <div className={styles.flowerdeliveryserviceinnerboximagebox}>
-                <img src={el.icon} alt="icon image" />
+                <Image src={el.icon}
+                  alt={"icon image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
-              
+
               <div>
-                <h5>{el.htxt}</h5>
-                <p>{el.stxt}</p>
+                <h5> {el.htxt} </h5>
+                <p> {el.stxt} </p>
               </div>
             </div>
           )

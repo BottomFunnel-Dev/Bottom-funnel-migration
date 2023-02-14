@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./getStarted.module.css";
 
-export const GetStarted = () => {
+export default function GetStarted () {
   return (
     <div className={styles.getStarted}>
       <div className={styles.getText}>

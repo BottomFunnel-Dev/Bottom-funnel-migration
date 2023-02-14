@@ -1,7 +1,7 @@
-import React from 'react'
-import styles from "./AppBuilderWhyShuld.module.css"
+import React from "react";
+import styles from "./AppBuilderWhyShuld.module.css";
 
-export const AppBuilderWhyShuld = () => {
+export default function AppBuilderWhyShuld() {
   const whyshoulddata = [
     {
       htxt: "Efficient Use of Internal Resources",
@@ -13,19 +13,18 @@ export const AppBuilderWhyShuld = () => {
       stxt: "with no-code application development, users can enjoy a plethora of customization features that allow them to modify their applications based on their evolving requirements.Users can change anything they want instantly without worrying about introducing bugs or glitcheswhile trying to improve their application and add better features through the appy pie platform.",
     },
 
-
     {
       htxt: "Faster development and delivery",
       stxt: "Traditional application development requires anywhere between 4 to 12 months and involves constant deliberations and discussions with the tech department.Every new feature additional would require a cycle if discussions and meetings with deliberations and discussions with the tech department.Every  like appy pie can reduce the development time by 90%. ",
     },
-  ]
+  ];
 
   return (
     <div className={styles.appbuilderwhyshouldmainboxes}>
       <div className={styles.appbuildersomeheadertxtboxwhyshould}>
-        
         <h1>
-          Why Should You Choose a No-code App Development Platform like Bottom Funnel ?
+          Why Should You Choose a No-code App Development Platform like Bottom
+          Funnel ?
         </h1>
 
         <div className={styles.whyshouldappbuildersolmapperbox}>
@@ -40,9 +39,10 @@ export const AppBuilderWhyShuld = () => {
                   <p>{e.stxt}</p>
                 </div>
               </div>
-            )
-          })}</div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
-};
+}

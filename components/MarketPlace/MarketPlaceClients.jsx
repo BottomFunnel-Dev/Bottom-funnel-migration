@@ -6,7 +6,7 @@ const MarketPlaceClients = () => {
     const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Clientsappscreen/detailsofposts.png");
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
- 
+
     }
 
     const marketplaceclientdata = [
@@ -15,26 +15,26 @@ const MarketPlaceClients = () => {
             img: "/Images/Marketplaceapp/icons/Component47.png",
             Htxt: "Details of Posts",
             stxt: "A detailed post about freelancers, project managers and entrepreneurs who like to use the platform to earn their income.",
-            Cphone: "/Images/Marketplaceapp/Clientsappscreen/detailsofposts.png"
+            Cphone: "/Images/Marketplaceapp/Clientsappscreen/detailsofposts.webp"
         },
         {
             img: "/Images/Marketplaceapp/icons/Component44.png",
             Htxt: "In-App-Chat",
             stxt: "This is an in-app chat platform that helps you communicate effectively with your clients. ",
-            Cphone: "/Images/Marketplaceapp/Clientsappscreen/inappchat.png"
+            Cphone: "/Images/Marketplaceapp/Clientsappscreen/inappchat.webp"
         },
         {
             img: "/Images/Marketplaceapp/icons/Component46.png",
             Htxt: "Employee Details",
             stxt: " If you are an employer that needs a freelancer, here is the best service for you.",
-            Cphone: "/Images/Marketplaceapp/Clientsappscreen/employeedetails.png"
+            Cphone: "/Images/Marketplaceapp/Clientsappscreen/employeedetails.webp"
         },
 
         {
             img: "/Images/Marketplaceapp/icons/Component45.png",
             Htxt: "List of Applicants",
             stxt: "Such as a built in system for submission tracking, email notifications for job applications and more.",
-            Cphone: "/Images/Marketplaceapp/Clientsappscreen/people applied.png"
+            Cphone: "/Images/Marketplaceapp/Clientsappscreen/people applied.webp"
         }
     ]
 

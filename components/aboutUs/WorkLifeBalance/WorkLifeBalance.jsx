@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./WorkLifeBalance.module.css";
 
-export const WorkLifeBalance = () => {
+export default function WorkLifeBalance() {
   const cardsData = [
     "Learning & Development",
     "Mindful Personal Guidance",
@@ -39,4 +39,4 @@ export const WorkLifeBalance = () => {
       </div>
     </div>
   );
-};
+}

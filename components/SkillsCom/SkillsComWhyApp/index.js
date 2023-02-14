@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SkillsComWhyApp.module.css";
 
-export const SkillsComWhyApp = ({ data }) => {
+export default function SkillsComWhyApp({ data }) {
   const { title, cardsData } = data;
 
   return (
@@ -22,4 +22,4 @@ export const SkillsComWhyApp = ({ data }) => {
       </div>
     </div>
   );
-};
+}

@@ -1,45 +1,38 @@
-.realestatenexbannermainboxes{
-    height: 40vh;
-    border: 1px solid #E0E3E4;
-
-    background: url("/Images/RealEstate/Backgrounds/Rectangle 13.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-   
+.realestatenexbannermainboxes {
+  height: 40vh;
+  border: 1px solid #e0e3e4;
+  background: url("/Images/RealEstate/Backgrounds/Rectangle 13.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.realestatenextbannersometextbox{
-    height: fit-content;
-    width: 60%;
-    
-    text-align: center;
-    color: white;
-    margin-left: 20%;
-    margin-top: 4%;
-    
+.realestatenextbannersometextbox {
+  height: fit-content;
+  width: 60%;
+  text-align: center;
+  color: white;
+  margin-left: 20%;
+  margin-top: 4%;
 }
-.realestatenextbannersometextbox>h2{
-    margin-top: 1%;
+.realestatenextbannersometextbox > h2 {
+  margin-top: 1%;
 }
 
-
-.realstatenextbannerbutton{
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 220px;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-top: 3%;
+.realstatenextbannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 220px;
+  background-color: #3380f2;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 3%;
 }
 
 .realstatenextbannerbutton:hover {
-
-    background-color:white;
-    color:  #3380f2;
-
+  background-color: white;
+  color: #3380f2;
 }

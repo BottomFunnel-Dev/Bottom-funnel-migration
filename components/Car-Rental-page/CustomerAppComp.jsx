@@ -1,7 +1,8 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./customerAppComp.module.css";
 
-export const CustomerAppComp = () => {
+export default function CustomerAppComp() {
   const [imageChange, setImageChange] = useState(
     "/Images/Car-Rental-Page-Images/Component188.png",
   );
@@ -42,7 +43,13 @@ export const CustomerAppComp = () => {
 
       <div className={styles.RGCustomerAppMobileLeftDiv}>
         <div className={styles.RGCustomerAppMobileLeftDivFrameForImages}>
-          <img src={imageChange} alt="images" />
+          <Image src={imageChange}
+            alt={"images"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
 
@@ -66,4 +73,4 @@ export const CustomerAppComp = () => {
       </div>
     </div>
   );
-};
+}

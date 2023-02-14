@@ -1,10 +1,26 @@
 import React from "react";
-import { BusinessAnalysisBanner } from "../../components/BusinessAnalysis/BusinessAnalysisBanner";
-import { BusinessAnalysisLowerBanner } from "../../components/BusinessAnalysis/BusinessAnalysisLowerBanner";
-import { BusinessChallenge } from "../../components/BusinessAnalysis/BusinessChallenge";
-import { BusinessFramework } from "../../components/BusinessAnalysis/BusinessFramework";
+
 
 import dynamic from "next/dynamic";
+
+const BusinessAnalysisBanner = dynamic(
+  () => import("../../components/BusinessAnalysis/BusinessAnalysisBanner"),
+  { loading: "loading..." }
+);
+const BusinessAnalysisLowerBanner = dynamic(
+  () => import("../../components/BusinessAnalysis/BusinessAnalysisLowerBanner"),
+  { loading: "loading..." }
+);
+const BusinessChallenge = dynamic(
+  () => import("../../components/BusinessAnalysis/BusinessChallenge"),
+  { loading: "loading..." }
+);
+const BusinessFramework = dynamic(
+  () => import("../../components/BusinessAnalysis/BusinessFramework"),
+  { loading: "loading..." }
+);
+
+
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
   { loading: "loading..." },

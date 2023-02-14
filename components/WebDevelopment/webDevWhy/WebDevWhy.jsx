@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./webDevWhy.module.css";
-export const WebDevWhy = ({ whyDevContent }) => {
+
+export default function WebDevWhy({ whyDevContent }) {
   return (
     <div className={styles.webDevWhy}>
       <div className={styles.devWhyText}>
@@ -15,7 +16,7 @@ export const WebDevWhy = ({ whyDevContent }) => {
         {whyDevContent.feature.map((item, index) => (
           <div key={index} className={styles.whyfeatureCard}>
             <div className={styles.whyfeatureImage}>
-              <img src={item.icon} alt="" />
+              <img src={item.icon} alt="image" />
             </div>
             <div className={styles.whyfeatureContent}>
               <h5>{item.title}</h5>
@@ -26,4 +27,4 @@ export const WebDevWhy = ({ whyDevContent }) => {
       </div>
     </div>
   );
-};
+}

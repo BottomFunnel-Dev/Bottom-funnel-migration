@@ -7,7 +7,7 @@
 
 .flowerdeliverybannerleftbox {
   height: 50%;
-  width: 35%;
+  width: 45%;
   margin-left: 5%;
   margin-top: 12%;
   text-align: justify;
@@ -15,7 +15,8 @@
 
 .flowerdeliverybannerleftbox > h1 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
+  /* border: 1px solid red; */
 }
 
 .flowerdeliverybannerleftbox > h2 {

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./SalesforceOffers.module.css";
 import Image from "next/image";
 
-export const SalesforceOffers = () => {
+export default function SalesforceOffers() {
   const cardsData = [
     {
       title: "Service CLoud Implementation",
@@ -60,13 +60,13 @@ export const SalesforceOffers = () => {
           <div key={idx}>
             <div className={styles.SalesforceOffersImage}>
               <Image
-                  src={image}
-                  alt={title}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+                src={image}
+                alt={title}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
             </div>
             <h2>{title}</h2>
             <p>{body}</p>
@@ -75,4 +75,4 @@ export const SalesforceOffers = () => {
       </div>
     </div>
   );
-};
+}

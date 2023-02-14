@@ -3,18 +3,22 @@
   background-color: white;
   padding-bottom: 5%;
 }
+
 .icecreamadminpannelmainboxsometextupper {
   height: fit-content;
   margin-left: 4%;
 }
+
 .icecreamadminpannelmainboxsometextupper > h2 {
   font-weight: 700;
   font-size: 30px;
 }
+
 .icecreamadminpannelmainflexboxclass {
   height: 500px;
   display: flex;
 }
+
 .icecreamadminpannelleftbox {
   height: fit-content;
   display: flex;
@@ -22,6 +26,7 @@
   width: 55%;
   margin-left: 3%;
 }
+
 .icecreamadminpannelmapperboxindivisyal {
   height: fit-content;
   width: 45%;
@@ -32,9 +37,10 @@
   padding: 10px;
   border-radius: 10px;
 }
+
 .icecreamadminpannelmapperboxindivisyal:hover {
   transform: scale(1.02);
-  background-color: #f9f5f5;
+  background-color: #fbe1e5;
 }
 
 .icecreamadminpannelrightbox {

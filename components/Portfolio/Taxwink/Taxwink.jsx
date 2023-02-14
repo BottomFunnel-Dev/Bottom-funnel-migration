@@ -1,27 +1,29 @@
 import React from 'react'
 import styles from "./Taxwink.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Tax Wink.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Taxwink = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
 
 
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
-   
+    
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/taxwink.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain", marginLeft:"5%"
+
+  
+  
+  
+  }}
+        />
  
-    <Lottie  options={lottieDefaultOptions}   />
   
 
     </div>
@@ -81,7 +83,7 @@ export const Taxwink = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Tax wink/logo/download1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/taxwink.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.taxwink.com/">

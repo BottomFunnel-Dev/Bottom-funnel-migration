@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./pickupdriveapp.module.css";
 
@@ -13,7 +14,7 @@ export const Pickupdriveapp = () => {
         alt: " Register logo",
       },
       title: "Manage Profile",
-      para: " you can save your deliveries to the calendar and create custom shipment details which are easily accessible. ",
+      para: "you can save your deliveries to the calendar and create custom shipment details which are easily accessible. ",
     },
 
     {
@@ -53,16 +54,21 @@ export const Pickupdriveapp = () => {
       para: "The in-app navigation allows you to take your Pickup & Delivery experience beyond the app. Get detailed instructions on how to log in and order, schedule a pickup or get support.",
     },
   ];
+
   const [drive, setdrive] = useState(0);
   return (
     <div className={styles.pickupdrive}>
-      <h1 className={styles.colored}>Drive app</h1>
+      <h1 className={styles.colored}> Drive app </h1>
       <div className={styles.pickupdrivesub}>
         <div className={styles.pickupdriveleft}>
           <div className={styles.pickupDriveImage}>
-            <img
+            <Image
               src={pickupdrive[drive].img.src}
               alt={pickupdrive[drive].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>
@@ -76,13 +82,17 @@ export const Pickupdriveapp = () => {
                 className={`pickup-box-${idx}`}
               >
                 <div className={styles.pickupLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "10%", height: "100%" }}
+                  />
                 </div>
 
-                <h3>{title}</h3>
-                <p>
-                  {para}
-                </p>
+                <h3> {title} </h3>
+                <p> {para} </p>
               </div>
             );
           })}

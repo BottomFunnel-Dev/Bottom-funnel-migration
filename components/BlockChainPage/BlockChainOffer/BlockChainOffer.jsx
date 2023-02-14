@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./BlockChainOffer.module.css";
 import Image from "next/image";
 
-export const BlockChainOffer = () => {
+export default function BlockChainOffer  () {
 const cardsData = [
 {
 title: "Blockchain networks",

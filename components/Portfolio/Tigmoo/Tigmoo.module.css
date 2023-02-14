@@ -2,7 +2,7 @@
 /* border: 1px solid red; */
 height: fit-content;
  display: flex;
- background: url("/Images/portfolio/Tigmo/background/Group 372.png");
+background: url("/Images/portfolio/Portfolio\ backgroundImage/tigmo.webp");
  background-size: 100% 100%;
  background-repeat: no-repeat;
  margin-top: 0%;
@@ -13,7 +13,22 @@ height: fit-content;
 .nextholidayleftbox{
 height: 100%;
 width: 55%;
+margin: auto;
 
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
 }
 
 .nextholidayrighttbox{
@@ -96,7 +111,8 @@ object-fit: contain;
 .nextholidaywrapboximages{
 width: 35%;
 height: 8%;
-margin-left: 7%;
+
+margin-bottom: 10%;
   
 }
 .nextholidaywrapboximages>img{

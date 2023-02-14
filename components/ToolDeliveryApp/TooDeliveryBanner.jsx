@@ -1,23 +1,11 @@
 import React from "react";
 import styles from "./ToolDeliveryBanner.module.css";
 import * as reactAnimation from "../../public/Animation/SolutionsAnimation/tool deliver.json";
-import Lottie from "react-lottie";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const TooDeliveryBanner = () => {
-
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
   return (
-    <div
-      className={styles.tdtooldeliverycontainer}
-    >
+    <div className={styles.tdtooldeliverycontainer}>
       <div className={styles.txtooldeliverysubcontainer}>
         <div className={styles.tdtooldeliveryleft}>
           <div className={styles.tdtooldeliverysometxtbox}>
@@ -33,7 +21,14 @@ const TooDeliveryBanner = () => {
         </div>
 
         <div className={styles.toolDeliveryAnimationDiv}>
-          <Lottie options={lottieDefaultOptions} width={700} height={600} />
+          <Player className={styles.toolDeliveryMainAnimation}
+            src={reactAnimation}
+            background="transparent"
+            speed="1"
+            loop
+            controls
+            autoplay
+          ></Player>
         </div>
       </div>
     </div>

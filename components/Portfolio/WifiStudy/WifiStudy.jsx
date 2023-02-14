@@ -1,19 +1,10 @@
 import React from 'react'
 import styles from "./WifiStudy.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/WiFi Study.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
-
+import Image from 'next/image';
 
 export const WifiStudy = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -69,7 +60,7 @@ export const WifiStudy = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/wifi study/logo/Mobile 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/wifi.webp' alt='images' />
 </div>
 
 <div>
@@ -86,10 +77,19 @@ export const WifiStudy = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    <Lottie className={styles.lottieimages} style={{
-    
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/wifistudy.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
     
     </div>
     

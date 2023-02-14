@@ -1,8 +1,7 @@
 .nextholidaymainboxes{
-    /* border: 1px solid red; */
     height: 85vh;
      display: flex;
-     background: url("/Images/portfolio/Sales bot/background/Group 372.png");
+     background: url("/Images/portfolio/Portfolio\ backgroundImage/salesbot.webp");
      background-size: 100% 100%;
      background-repeat: no-repeat;
      margin-top: 0%;
@@ -11,8 +10,23 @@
 .nextholidayleftbox{
     height: 100%;
     width: 55%;
+margin: auto;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
 
 }
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
 
 .nextholidayrighttbox{
     height: fit-content;
@@ -94,7 +108,7 @@ padding: 5px;
 .nextholidaywrapboximages{
     width: 40%;
     height: 5%;
-    margin-left: 8%;
+  margin-left: 3%;
   
 
 }
@@ -115,7 +129,7 @@ padding: 5px;
   font-size: 14px;
   font-weight: 600;
   color: #ef4c23;
-  margin-left: 25%;
+
   margin-top: 5%;
 }
 

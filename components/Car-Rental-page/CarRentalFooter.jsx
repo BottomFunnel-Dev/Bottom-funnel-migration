@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./carRentalFooter.module.css";
 
-export const CarRentalFooter = () => {
+export default function CarRentalFooter() {
   return (
     <div className={styles.CarRentalFooterContainer}>
       <div className={styles.RGcarRentalMaindivv}>
@@ -56,4 +56,4 @@ export const CarRentalFooter = () => {
       </div>
     </div>
   );
-};
+}

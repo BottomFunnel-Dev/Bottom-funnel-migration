@@ -1,7 +1,7 @@
 .nextholidaymainboxes{
   height: fit-content;
   display: flex;
-  background: url("/Images/portfolio/jaipur rugs/background/Group 372.png");
+  background: url("/Images/portfolio/Portfolio\ backgroundImage/jaipurrags.webp");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 0%;
@@ -10,7 +10,24 @@
   .nextholidayleftbox{
   height: 100%;
   width: 55%;
-  }
+  margin: auto;
+ -webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
+
   .nextholidayrighttbox{
   height: fit-content;
   width: 45%;
@@ -74,6 +91,7 @@ margin: 0;
   .nextholidaywrapboximages{
   width: 30%;
   margin-left: 2%;
+  margin-bottom: 10%;
   }
   .nextholidaywrapboximages>img{
   height: 100%;
@@ -92,7 +110,7 @@ margin: 0;
   font-weight: 600;
   color: white;
   margin-left: 40%;
-  margin-top: 05%;
+ 
   }
   .nextholidayviewcasebutton:hover{
   background-color: white;

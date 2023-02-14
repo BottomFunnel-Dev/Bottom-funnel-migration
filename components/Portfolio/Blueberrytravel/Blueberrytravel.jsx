@@ -1,29 +1,27 @@
 import React from 'react'
 import styles from "./Blueberrytravel.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Blueberry Travels.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Blueberrytravel = () => {
  
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
-
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-   
-    <Lottie style={{
-      
-    }} options={lottieDefaultOptions}   />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/blueberrytravel.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",marginLeft:"5%"
+
+  
+  
+  
+  }}
+        />
   
 
     </div>
@@ -77,7 +75,7 @@ export const Blueberrytravel = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Portfolio banners/BBT_WHITE_2.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/blueberrytravel.webp' alt='images' />
 </div>
 <div>
 <Link href="https://www.blueberry-travel.com/">

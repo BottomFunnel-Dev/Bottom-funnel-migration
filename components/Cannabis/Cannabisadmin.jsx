@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import styles from "./Cannabisadmin.module.css";
 
-export const Cannabisadmin = () => {
+export default function Cannabisadmin() {
   const [imageChange, setImageChange] = useState(
     "/Images/newcannabispage/Admin Screens/compo.png",
   );
@@ -11,7 +12,7 @@ export const Cannabisadmin = () => {
 
   const icecreamadmindata = [
     {
-      image: "/Images/newcannabispage/Admin Screens/compo.png",
+      image: "/Images/newcannabispage/Admin Screens/AdminPanelImage.webp",
       icon: "/Images/newcannabispage/icons/Task Completed.png",
       headertext: "Dashboard Management",
       paragraph:
@@ -19,7 +20,7 @@ export const Cannabisadmin = () => {
     },
 
     {
-      image: "/Images/newcannabispage/Admin Screens/Reports & analytics.png",
+      image: "/Images/newcannabispage/Admin Screens/Reports & analytics.webp",
       icon: "/Images/newcannabispage/icons/Task Completed-1.png",
       headertext: "Reports & Analytics",
       paragraph:
@@ -27,7 +28,7 @@ export const Cannabisadmin = () => {
     },
 
     {
-      image: "/Images/newcannabispage/Admin Screens/Component 154.png",
+      image: "/Images/newcannabispage/Admin Screens/AdminPanelImage1.webp",
       icon: "/Images/newcannabispage/icons/Card Payment.png",
       headertext: "Clients Management",
       paragraph:
@@ -35,7 +36,7 @@ export const Cannabisadmin = () => {
     },
 
     {
-      image: "/Images/newcannabispage/Admin Screens/component122.png",
+      image: "/Images/newcannabispage/Admin Screens/AdminPanelImage2.webp",
       icon: "/Images/newcannabispage/icons/Track Order.png",
       headertext: "Orders Management",
       paragraph:
@@ -65,7 +66,14 @@ export const Cannabisadmin = () => {
                     styles.cannabieasadminpannelmapperboxindivisyalicon
                   }
                 >
-                  <img src={e.icon} alt="image" />
+                  <Image
+                    src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
 
                 <div
@@ -81,10 +89,17 @@ export const Cannabisadmin = () => {
 
         <div className={styles.cannabiesamadminpannelrightbox}>
           <div className={styles.cannbiesamadminpannelrightboxinnerimage}>
-            <img src={imageChange} alt="image" />
+            <Image
+              src={imageChange}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>
     </div>
   );
-};
+}

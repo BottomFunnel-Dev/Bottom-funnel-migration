@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./pickupcustomer.module.css";
 export const PickupCustomer = () => {
@@ -50,7 +51,7 @@ export const PickupCustomer = () => {
       <div className={styles.pickupcustomerSols}>
         <div className={styles.pickupcustomerright}>
           <h1> Customer App </h1>
-          
+
           <div className={styles.pickupcustomerText}>
             {pickupcustomer.map((item, index) => (
               <div key={index} className={styles.pickupcustomercard}
@@ -59,11 +60,17 @@ export const PickupCustomer = () => {
                 }}
               >
                 <div className={styles.pickupcustomerIcon}>
-                  <img src={item.pickupicon} alt="images" />
+                  <Image src={item.pickupicon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
 
-                <h6>{item.title}</h6>
-                <p>{item.description}</p>
+                <h6> {item.title} </h6>
+                <p> {item.description} </p>
               </div>
             ))}
 
@@ -73,7 +80,13 @@ export const PickupCustomer = () => {
 
         <div className={styles.pickupcustomerImage}>
           <div className={styles.variableImg}>
-            <img src={imageChange} alt="images" />
+            <Image src={imageChange}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>

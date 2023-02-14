@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./pickupsolutions.module.css";
 export const PickupSolutions = () => {
@@ -44,21 +45,34 @@ export const PickupSolutions = () => {
 
       <div className={styles.pickupSols}>
         <div className={styles.pickupSolsImage}>
-          <img src="/Images/pickup/backgrounds/softwaresolution.png" alt="images" />
+          <Image src={"/Images/pickup/backgrounds/softwaresolution.png"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
+
         <div className={styles.pickupright}>
           <div className={styles.pickupSolsText}>
             {pickupSolarr.map((item, index) => (
               <div key={index} className={styles.pickupsolcard}>
                 <div className={styles.pickupIcon}>
-                  <img src={item.pickupicon} alt="images" />
+                  <Image src={item.pickupicon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
                 <h6>{item.solutionText}</h6>
               </div>
             ))}
           </div>
 
-          <button>Get Started</button>
+          <button> Get Started </button>
         </div>
       </div>
     </div>

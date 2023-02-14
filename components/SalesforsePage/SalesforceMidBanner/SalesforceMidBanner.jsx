@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SalesforceMidBanner.module.css";
 
-export const SalesforceMidBanner = () => {
+export default function SalesforceMidBanner() {
   return (
     <div className={styles.SalesforceMidBannerMain}>
       <h1>Salesforce Services</h1>
@@ -17,4 +17,4 @@ export const SalesforceMidBanner = () => {
       </p>
     </div>
   );
-};
+}

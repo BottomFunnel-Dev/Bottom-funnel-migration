@@ -1,8 +1,11 @@
 import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import Navbar from "../components/Navbar/Navbar";
 
+const Navbar = dynamic(() => import("../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 const About = dynamic(() => import("../components/AboutSection/About"), {
   loading: () => "Loading...",
 });
@@ -18,44 +21,44 @@ const MainFooter = dynamic(
   { loading: () => "Loading..." },
 );
 const Services = dynamic(() => import("../components/Services/Services"), {
-  loading: "Loading...",
+  loading: () => "Loading...",
 });
 const OndemandSection = dynamic(
   () =>
     import("../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const PlanProject = dynamic(
   () => import("../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const PortFolio = dynamic(
   () => import("../components/CommonComponents/PortFolioSection/PortFolio"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const Revamping = dynamic(
   () => import("../components/CommonComponents/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const StoriesSection = dynamic(
   () => import("../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const CompanyLogo = dynamic(
   () => import("../components/CompanyLogos/CompanyLogo"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const Companystats = dynamic(
   () => import("../components/CompanyStats/Companystats"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const ContectForm = dynamic(
   () => import("../components/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: () => "Loading..." },
 );
 const BannerFull = dynamic(
   () => import("../components/mainSection/BannerFull"),

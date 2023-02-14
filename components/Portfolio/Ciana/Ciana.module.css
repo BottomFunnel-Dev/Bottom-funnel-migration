@@ -1,18 +1,21 @@
 .yanbalmainboxes{
 height: fit-content;
 display: flex;
-background: url("/Images/portfolio/Portfolio banners/ciana.png");
+ background: url("/Images/portfolio/Portfolio\ backgroundImage/ciana.webp");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 display: flex;
+
 }
 .yanballeftboxes{
 width: 50%;
 margin-top: 5%;
 margin-left: 3%;
+height: 100%;
+
 }
 .yanballeftboxes>p{
-font-size: 14px;
+
 text-align: justify;
 }
 .yanballeftboxinsiderflexbox{
@@ -43,10 +46,12 @@ width: 40%;
 height: 40%;
 display: flex;
 margin-left: -0%;
+
 }
 .yanabaliconandeoid{
 width: 30%;
 height: 80%;
+
 padding: 7px;   
 }
 .androidappicon>img{
@@ -63,6 +68,7 @@ object-fit: contain;
 width: 30%;
 height: 20%;
 margin-bottom: 10%;
+
 }
 .yanballogoboxingalongflex>img{
 height: 100%;
@@ -71,9 +77,23 @@ object-fit: contain;
 }
 .yanbalrightboxes{
 width: 50%;
-height: 100%;
-overflow: hidden;
+margin: auto;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+-webkit-animation: mover 1s infinite  alternate;
+animation: mover 1s infinite  alternate;
+
 }
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
 .yanabalbuttonalongflex{
 padding: 10px 50px;
 border-radius: 100px;

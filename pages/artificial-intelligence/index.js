@@ -1,49 +1,67 @@
 import React from "react";
-import { AiContentBanner } from "../../components/AiContentService/AiContentBanner";
-import { AiContentHuman } from "../../components/AiContentService/AiContentHuman";
-import { AiHowDoesWorks } from "../../components/AiContentService/AiHowDoesWorks";
-import { AIContentApplication } from "../../components/AiContentService/AIContentApplication";
-import { AiContentTextOnly } from "../../components/AiContentService/AiContentTextOnly";
-
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+const AiContentBanner = dynamic(
+  () => import("../../components/AiContentService/AiContentBanner"),
+  { loading: () => "loading..." },
+);
+const AiContentHuman = dynamic(
+  () => import("../../components/AiContentService/AiContentHuman"),
+  { loading: () => "loading..." },
+);
+const AiHowDoesWorks = dynamic(
+  () => import("../../components/AiContentService/AiHowDoesWorks"),
+  { loading: () => "loading..." },
+);
+const AIContentApplication = dynamic(
+  () => import("../../components/AiContentService/AIContentApplication"),
+  { loading: () => "loading..." },
+);
+const AiContentTextOnly = dynamic(
+  () => import("../../components/AiContentService/AiContentTextOnly"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "Loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
-const index = () => {
+export default function index() {
   return (
     <div>
       <Head>
@@ -84,6 +102,4 @@ const index = () => {
       </main>
     </div>
   );
-};
-
-export default index;
+}

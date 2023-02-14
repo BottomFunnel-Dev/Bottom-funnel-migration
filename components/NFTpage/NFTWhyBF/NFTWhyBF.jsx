@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./NFTWhyBF.module.css";
 import Image from "next/image";
 
-export const NFTWhyBF = () => {
+export default function NFTWhyBF() {
   return (
     <div className={styles.NFTWhyBFContainer}>
       <div className={styles.NFTWhyBFHeading}>
@@ -26,38 +26,38 @@ export const NFTWhyBF = () => {
       </div>
       <div className={styles.NFTWhyBFMain}>
         <div className={styles.NFTWhyBFMainImage}>
-            <Image
-                  src={"/Images/NFTDevPhotos/whyBF.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+          <Image
+            src={"/Images/NFTDevPhotos/whyBF.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
         <div className={styles.NFTWhyBFBackgroundTriangleMain}>
           <div className={styles.NFTwhyBFImage1}>
-             <Image
-                  src={"/Images/NFTDevPhotos/triangle-top.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+            <Image
+              src={"/Images/NFTDevPhotos/triangle-top.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.NFTwhyBFImage2}>
-             <Image
-                  src={"/Images/NFTDevPhotos/triangle-bottom.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+            <Image
+              src={"/Images/NFTDevPhotos/triangle-bottom.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>
     </div>
   );
-};
+}

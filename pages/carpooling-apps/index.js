@@ -1,59 +1,90 @@
 import React from "react";
-
-import { CarpoolingBanner } from "../../components/Carpooling/CarpoolingBanner";
-import { carpoolingLogo } from "../../components/Data/SeopartnerData";
 import {
   carpoolCustomer,
   carpoolAdmin,
   carpoolDrive,
 } from "../../components/Data/panelsData";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
-import { CarpoolingRide } from "../../components/Carpooling/CarpoolingRide";
-import { CarpoolingSolutions } from "../../components/Carpooling/CarpoolingSolutions";
-import Logiccustomer from "../../components/Logistic/Logiccustomer";
-import Logicdrive from "../../components/Logistic/Logicdrive";
-import Logisticadmin from "../../components/Logistic/Logisticadmin";
-import { CarpoolingAction } from "../../components/Carpooling/CarpoolingAction";
-import { CarpoolingWhy } from "../../components/Carpooling/CarpoolingWhy";
-
+import { carpoolingLogo } from "../../components/Data/SeopartnerData";
 import dynamic from "next/dynamic";
+import Head from "next/head";
+
+// ------------------------------------------------------------------------
+const CarpoolingBanner = dynamic(
+  () => import("../../components/Carpooling/CarpoolingBanner"),
+  { loading: () => "loading..." },
+);
+const CarpoolingRide = dynamic(
+  () => import("../../components/Carpooling/CarpoolingRide"),
+  { loading: () => "loading..." },
+);
+const CarpoolingSolutions = dynamic(
+  () => import("../../components/Carpooling/CarpoolingSolutions"),
+  { loading: () => "loading..." },
+);
+const CarpoolingAction = dynamic(
+  () => import("../../components/Carpooling/CarpoolingAction"),
+  { loading: () => "loading..." },
+);
+const CarpoolingWhy = dynamic(
+  () => import("../../components/Carpooling/CarpoolingWhy"),
+  { loading: () => "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: () => "loading..." },
+);
+const Logiccustomer = dynamic(
+  () => import("../../components/Logistic/Logiccustomer"),
+  { loading: () => "loading..." },
+);
+const Logicdrive = dynamic(
+  () => import("../../components/Logistic/Logicdrive"),
+  { loading: () => "loading..." },
+);
+const Logisticadmin = dynamic(
+  () => import("../../components/Logistic/Logisticadmin"),
+  { loading: () => "loading..." },
+);
 const TextDropdown = dynamic(
   () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const OndemandSection = dynamic(
   () =>
     import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const PlanProject = dynamic(
   () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const SeoblogSection = dynamic(
   () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const StoriesSection = dynamic(
   () =>
     import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const Revamping = dynamic(
   () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const ContectForm = dynamic(
   () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 const MainFooter = dynamic(
   () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
-import Navbar from "../../components/Navbar/Navbar";
-import Head from "next/head";
+const Navbar = dynamic(() => import("../../components/Navbar/Navbar"), {
+  loading: () => "loading...",
+  ssr: false,
+});
 
+// -----------------------------------------------------------
 export default function CarPooling() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./BIPartner.module.css";
 
-export const BIPartner = () => {
+export default function BIPartner  ()  {
 return (
 <div className={styles.BIPartnerContainer}>
 <h1>

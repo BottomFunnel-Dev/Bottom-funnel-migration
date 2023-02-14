@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./BigDataServicePopular.module.css";
 import Image from "next/image";
 
-export const BigDataServicePopular = () => {
+export default function BigDataServicePopular  (){
   const cardsData = [
     {
       title: "Data Management",

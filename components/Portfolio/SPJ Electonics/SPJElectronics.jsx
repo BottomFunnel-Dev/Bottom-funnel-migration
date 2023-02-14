@@ -1,28 +1,24 @@
 import React from 'react'
 import styles from "./SPJElectronics.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/SPJ Electronics.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const SPJElectronics = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
 
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
 
-    <Lottie style={{
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/spjelectronics.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",marginLeft:"5%"
+  }}
+        />
     
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
-  
     </div>
     
     <div className={styles.nextholidayrighttbox}>
@@ -70,7 +66,7 @@ export const SPJElectronics = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/SPJ Electronics/logo/1643721633635-removebg-preview 1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/spj.webp' alt='images' />
 </div>
 <div>
 

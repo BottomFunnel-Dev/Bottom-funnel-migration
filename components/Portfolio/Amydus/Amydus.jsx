@@ -1,20 +1,10 @@
 import React from 'react'
 import styles from "./Amydus.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Amydus.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 
 export const Amydus = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -56,7 +46,7 @@ export const Amydus = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/amydus/logo/Component 20.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/amydus.webp' alt='images' />
 </div>
 
 <div>
@@ -73,12 +63,21 @@ export const Amydus = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/amydus.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain", marginLeft:"5%"
+
+  
+  
+  
+  }}
+        />
       
-    <Lottie className={styles.lottieimages} style={{
-    marginLeft:"-20%",
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+ 
 
     </div>
     

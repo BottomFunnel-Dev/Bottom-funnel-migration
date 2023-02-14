@@ -1,19 +1,9 @@
 import React from 'react'
 import styles from "./Ciana.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Ciana.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 export const Ciana = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
 
   return (
     <div className={styles.yanbalmainboxes}>
@@ -23,7 +13,7 @@ export const Ciana = () => {
     <div className={styles.yanballeftboxinsiderflexbox}>
     <div className={styles.yanbalindibox}>
     <h5>Downloads</h5>
-    <p>170<span className={styles.yanbalplusbold}>+</span></p>
+    <p>170K<span className={styles.yanbalplusbold}>+</span></p>
     </div>
     
     <div className={styles.yanbalindibox}>
@@ -47,7 +37,7 @@ export const Ciana = () => {
 <div className={styles.yanabaliconandeoid}>
 <Link href="https://www.cianacrafts.com/">
 <a className={styles.androidappicon}>
-<img src='Images/portfolio/Platform icons/Platform icons/Frame-1.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/ciana.webp' alt='images' />
 </a>
 </Link>
 </div>
@@ -76,10 +66,19 @@ export const Ciana = () => {
 
 
     <div className={styles.yanbalrightboxes}>
-    <Lottie className={styles.lottieimages} style={{
-      
-      width:"fitContent"
-    }} options={lottieDefaultOptions}   />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/ciana.webp"}
+    alt={"ciana"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%",marginLeft:"5%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
   
 
 

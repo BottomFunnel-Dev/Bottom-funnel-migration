@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ExclusiveFeature.module.css';
 
-export const ExclusiveFeature = () => {
+export default function ExclusiveFeature  () {
   return (
     <div className={styles.exclusiveFeatureMaindiv}>
       <h1>

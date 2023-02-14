@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./IceCreamAdminPannel.module.css";
 
@@ -55,7 +56,13 @@ export const IceCreamAdminPannel = () => {
 
                             >
                                 <div className={styles.icecreamadminpannelmapperboxindivisyalicon}>
-                                    <img src={e.icon} alt="image" />
+                                    <Image src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
                                 </div>
 
                                 <div className={styles.icecreamadminpannelmapperboxindivisyaltxt}>
@@ -68,7 +75,13 @@ export const IceCreamAdminPannel = () => {
 
                 <div className={styles.icecreamadminpannelrightbox}>
                     <div className={styles.icecreamadminpannelrightboxinnerimage}>
-                        <img src={imageChange} alt='image' />
+                        <Image src={imageChange}
+                            alt={'image'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
             </div>

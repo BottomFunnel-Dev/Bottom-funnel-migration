@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./AviationBanner.module.css"
 
-export const AvitaionBanner = () => {
+export default function AvitaionBanner  () {
   return (
     <div className={styles.aviationbannermaiboxes}>
     <div className={styles.aviationbannertextboxes}>

@@ -1,20 +1,11 @@
 import React from 'react'
 import styles from "./Oncart.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/On-cart.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
+import Image from 'next/image';
 
 
 export const Oncart = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
+ 
   return (
     <div className={styles.yanbalmainboxes}>
     <div className={styles.yanballeftboxes}>
@@ -74,7 +65,7 @@ export const Oncart = () => {
 </div>
 
 <div className={styles.yanballogoboxingalongflex}>
-<img src='Images/portfolio/on cart/logo/Group 770957.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/oncart.webp' alt='images' />
 </div>
 
 <div>
@@ -92,8 +83,19 @@ export const Oncart = () => {
 
     <div className={styles.yanbalrightboxes}>
 
-       
-    <Lottie options={lottieDefaultOptions}   />
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/oncart.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain",
+
+  
+  
+  
+  }}
+        />
 
   </div>
     

@@ -1,26 +1,26 @@
 import React from 'react'
 import styles from "./AnandamGreens.module.css"
-import * as reactAnimation from "../../../public/Animation/PortfolioAnimation/Anandam Greens.json";
-import Lottie from "react-lottie";
 import { Link } from '../Link/Link';
-
-
+import Image from 'next/image';
 
 export const AnandamGreens = () => {
-  const lottieDefaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: reactAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
 
   return (
     <div className={styles.nextholidaymainboxes}>
     <div className={styles.nextholidayleftbox}>
+    <Image className='nextholidaysimagemovable'
+    src={"/Images/portfolio/Portfolio Screens/anandam.webp"}
+    alt={"next holiday"}
+    width={"0"}
+    height={"0"}
+    sizes={"100vw"}
+    style={{ width: "90%", height: "100%" ,objectFit:"contain", marginLeft:"5%"
 
-    <Lottie options={lottieDefaultOptions}  />
+  
+  
+  
+  }}
+        />
   
     </div>
     
@@ -64,7 +64,7 @@ export const AnandamGreens = () => {
 </div>
 </div>
 <div className={styles.nextholidaywrapboximages}>
-<img src='Images/portfolio/Anandam greens/logo/logo 2.png' alt='images' />
+<img src='/Images/portfolio/Portfolio logoimg/anandam.webp' alt='images' />
 </div>
 <div>
 <button className={styles.nextholidayviewcasebutton}>view case study</button>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./chooseUsComp.module.css";
 
-export const ChooseUsComp = () => {
+export default function ChooseUsComp() {
   return (
     <div className={styles.RGchooseUsCompContainer}>
       <div className={styles.RGchooseUsCompLeft}>
@@ -23,4 +23,4 @@ export const ChooseUsComp = () => {
       </div>
     </div>
   );
-};
+}

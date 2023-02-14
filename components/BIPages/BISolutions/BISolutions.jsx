@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./BISolutions.module.css";
 import Image from "next/image";
 
-export const BISolutions = () => {
+export default function BISolutions  () {
   const cardsData = [
     {
       title: "Discuss business requirements",
