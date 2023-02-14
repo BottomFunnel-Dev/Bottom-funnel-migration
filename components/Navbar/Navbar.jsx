@@ -47,7 +47,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <ContactMain />
+      <ContactMain scroll={scroll} />
       <nav
         className={navstyle.navbarSection}
         style={{
