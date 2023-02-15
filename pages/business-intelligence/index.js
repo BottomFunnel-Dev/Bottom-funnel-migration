@@ -50,7 +50,7 @@ export default function BusinessIntelligence() {
         <BISolutions />
         <BIWhyBF />
         <BIAnalytics />
-        <BISlider />
+        {/* <BISlider /> */}
         <CustomWebForm />
       </main>
     </div>
