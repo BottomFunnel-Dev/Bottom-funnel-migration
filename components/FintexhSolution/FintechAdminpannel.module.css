@@ -1,7 +1,8 @@
 .fintechsolutionadminpannelmainbox {
-  height: fit-content;
+  height: 90vh;
   margin-top: 100px;
   display: flex;
+
 }
 
 .fintechsolutionadminpannelleftbox {
@@ -10,12 +11,12 @@
 }
 
 .fintechsolutionadminpannelrightboxes {
-  height: 50%;
+  height: fit-content;
   width: 45%;
-  background: url("/Images/fintechsolutionpage/Rectangle 18529.png");
+  background: url("/Images/fintechsolutionpage/Rectangle 18529.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+
   margin-top: 10%;
 }
 
@@ -51,6 +52,7 @@
 
 .fintechsolutionmappingdataadminpannel:hover {
   transform: scale(1.02);
+    background-color: #bed0f1;
 }
 
 .fintechsolutionmappingadmindata > h4 {

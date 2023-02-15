@@ -21,7 +21,7 @@ export default function AppBuilderDiscoverApp() {
     <div className={styles.appbuilderdiscoverappmainboxes}>
       <div className={styles.appbuilderdiscoverleftbox}>
         <Image
-          src={"/Images/Appbuildersolutions/Screens/Group 340125.png"}
+          src={"/Images/Appbuildersolutions/Screens/Group 340125.webp"}
           alt={"images"}
           width={"0"}
           height={"0"}

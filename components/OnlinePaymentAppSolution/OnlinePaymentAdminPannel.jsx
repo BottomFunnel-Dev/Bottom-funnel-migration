@@ -43,7 +43,7 @@ export const OnlinePaymentAdminPannel = () => {
 
             <div className={styles.onlinepaymentadminpannelrightbox}>
                 <div className={styles.onlinepaymentadminpannelrightboxchangerimages}>
-                    <img src='/Images/onlinepaymentpage/payment integration.png' alt='admin' />
+                    <img src='/Images/onlinepaymentpage/payment integration.webp' alt='admin' />
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 .fintechsolutiondriverappmainbox {
-  margin-top: 5%;
   position: relative;
+
 }
 
 .fintechdriverappboxfortext {
@@ -19,7 +19,7 @@
   width: 40%;
   margin-top: 8%;
   margin-left: 3%;
-  background: url("/Images/fintechsolutionpage/Vector-2.png");
+  background: url("/Images/fintechsolutionpage/Vector-2.webp");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -63,9 +63,17 @@
 
 .logofintechdriverapp {
   margin: 2%;
-  width: 40%;
+  width: 50%;
+  height: 50%;
   /* border: 1px solid red; */
 }
+
+.logofintechdriverapp>img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 
 .specialtxtdriver {
   color: #ef4c23;

@@ -7,7 +7,7 @@ export const WebisteBuilderBanner = () => {
   return (
     <div className={styles.websiteBuilderBannerParentDiv}>
       <div className={styles.websiteBuilderBannerImageDiv}>
-        <img src="/Images/WebsiteBuilderApp/BannerBackground.png" alt="image" />
+        <img src="/Images/WebsiteBuilderApp/BannerBackground.webp" alt="image" />
         <div className={styles.websiteBuilderBannerTopComp}>
           <div className={styles.websiteBuilderBannerContentDiv}>
             <h1> Create Website without Limits </h1>
