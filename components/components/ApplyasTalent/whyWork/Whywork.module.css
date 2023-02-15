@@ -1,0 +1,27 @@
+.whyworksmainboxes{
+    height: fit-content;
+  
+    display: flex;
+}
+
+.whyworksleftbox{
+    width: 45%;
+ margin: auto;
+
+
+}
+
+.whyworksleftbox>p{
+    text-align: justify;
+}
+
+.whyworksrightbox{
+    width: 48%;
+    margin-right: 1%;
+}
+
+.whyworksrightbox>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

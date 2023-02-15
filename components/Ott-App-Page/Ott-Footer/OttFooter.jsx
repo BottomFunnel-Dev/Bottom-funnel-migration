@@ -4,19 +4,19 @@ import styles from "./ottFooter.module.css";
 export default function OttFooter() {
   const OttFooterData = [
     {
-      img: "/Images/ott-app/Vector.png",
+      img: "/Images/ott-app/Vector.webp",
       title: "Customer Satisfaction",
       para: "Upload in bulk, organize content in categories, add custom filters & upload extras",
     },
 
     {
-      img: "/Images/ott-app/Vector-1.png",
+      img: "/Images/ott-app/Vector-1.webp",
       title: "Flexibility",
       para: "Showcase your content in a beautiful on-demand video catalog.",
     },
 
     {
-      img: "/Images/ott-app/Component-183.png",
+      img: "/Images/ott-app/Component-183.webp",
       title: "Quality Assurance",
       para: "Schedule events in advance & build excitemet with a countdown overlay.",
     },

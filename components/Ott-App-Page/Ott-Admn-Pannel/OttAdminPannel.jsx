@@ -3,7 +3,7 @@ import styles from "./ottAdminPannel.module.css";
 
 export default function OttAdminPannel() {
   const [imageChange, setImageChange] = useState(
-    "Images/ott-app/MacBookPro1.png",
+    "Images/ott-app/MacBookPro1.webp",
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -11,19 +11,19 @@ export default function OttAdminPannel() {
 
   const OttAdminPannelData = [
     {
-      img: "/Images/ott-app/Group901188.png",
+      img: "/Images/ott-app/Group901188.webp",
       head: "Dashboard",
       para: "To check without the listing",
     },
 
     {
-      img: "/Images/ott-app/Group901187.png",
+      img: "/Images/ott-app/Group901187.webp",
       head: "Analytics",
       para: "Check system with the same",
     },
 
     {
-      img: "/Images/ott-app/Group901188.png",
+      img: "/Images/ott-app/Group901188.webp",
       head: "Categories",
       para: "Separate categories for shows",
     },

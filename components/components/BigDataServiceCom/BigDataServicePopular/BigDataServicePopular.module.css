@@ -1,0 +1,366 @@
+.BigDataServicePopularMain {
+width: 90%;
+margin: auto;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+.BigDataServicePopularMain > h1 {
+font-size: 32px;
+margin-bottom: 1%;
+}
+.BigDataServicePopularHrLine {
+width: 30%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BigDataServicePopularHrLine > div {
+border: 2px solid #ef4c23;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+}
+.BigDataServicePopularHrLine > span {
+width: 46%;
+height: 2px;
+background-color: #ef4c23;
+color: #ef4c23;
+}
+.BigDataServicePopularMain > p {
+font-size: 16px;
+margin-top: 1%;
+margin-bottom: 3%;
+}
+.BigDataServicePopularContent {
+width: 90%;
+margin: auto;
+}
+.BigDataServicePopularContent > div {
+margin-top: 2%;
+margin-bottom: 2%;
+padding-bottom: 3%;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.BigDataServicePopularContent > div:last-child {
+border-bottom: none;
+}
+.BigDataServicePopularCardsContent {
+width: 70%;
+}
+.BigDataServicePopularCardsContent > h2 {
+font-size: 25px;
+margin: auto;
+margin-bottom: 2%;
+}
+.BigDataServicePopularCardsContent > p {
+font-size: 16px;
+text-align: justify;
+}
+.BigDataServicePopularCardsImages {
+width: 25%;
+padding: 3px;
+border-radius: 5px;
+background: #ffece7;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularCardsImages > img {
+width: 100%;
+}
+.BigDataServicePopularButton {
+width: 500px;
+height: fit-content;
+margin: auto;
+cursor: pointer;
+margin-top: 0;
+margin-bottom: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 100px;
+padding-left: 3%;
+background: linear-gradient(to Right, #ef4c23 60%, #fed200);
+}
+.BigDataServicePopularButton > h3 {
+font-size: 18px;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.BigDataServicePopularButton > div {
+height: fit-content;
+width: fit-content;
+padding: 5px;
+background: linear-gradient(to Bottom, #ef4c23, #fed200);
+border-radius: 100px;
+border: 2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularButton > div > div {
+width: fit-content;
+height: fit-content;
+background: linear-gradient(to Bottom, #fed200, #ef4c23);
+padding: 5px;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularButton > div > div > svg {
+width: 20px;
+height: 20px;
+color: white;
+}
+/* for any type of mobile screen responsible */
+@media only screen and (min-width:0px) and (max-width:480px){
+.BigDataServicePopularMain {
+width: 90%;
+margin: auto;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+.BigDataServicePopularMain > h1 {
+font-size: 32px;
+margin-bottom: 1%;
+}
+.BigDataServicePopularHrLine {
+width: 90%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BigDataServicePopularHrLine > div {
+border: 2px solid #ef4c23;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+}
+.BigDataServicePopularHrLine > span {
+width: 46%;
+height: 2px;
+background-color: #ef4c23;
+color: #ef4c23;
+}
+.BigDataServicePopularMain > p {
+font-size: 16px;
+margin-top: 1%;
+margin-bottom: 3%;
+}
+.BigDataServicePopularContent {
+width: 95%;
+margin: auto;
+}
+.BigDataServicePopularContent > div {
+margin-top: 2%;
+margin-bottom: 2%;
+padding-bottom: 3%;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.BigDataServicePopularContent > div:last-child {
+border-bottom: none;
+}
+.BigDataServicePopularCardsContent {
+width: 70%;
+}
+.BigDataServicePopularCardsContent > h2 {
+font-size: 25px;
+margin: auto;
+margin-bottom: 2%;
+}
+.BigDataServicePopularCardsContent > p {
+font-size: 16px;
+text-align: justify;
+}
+.BigDataServicePopularCardsImages {
+width: 25%;
+padding: 3px;
+border-radius: 5px;
+background: #ffece7;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularCardsImages > img {
+width: 100%;
+}
+.BigDataServicePopularButton {
+width: 95%;
+height: fit-content;
+margin: auto;
+cursor: pointer;
+margin-top: 0;
+margin-bottom: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 100px;
+padding-left: 3%;
+background: linear-gradient(to Right, #ef4c23 60%, #fed200);
+}
+.BigDataServicePopularButton > h3 {
+font-size: 18px;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.BigDataServicePopularButton > div {
+height: fit-content;
+width: fit-content;
+padding: 5px;
+background: linear-gradient(to Bottom, #ef4c23, #fed200);
+border-radius: 100px;
+border: 2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularButton > div > div {
+width: fit-content;
+height: fit-content;
+background: linear-gradient(to Bottom, #fed200, #ef4c23);
+padding: 5px;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularButton > div > div > svg {
+width: 20px;
+height: 20px;
+color: white;
+}
+}
+ /* for any type of tablet screen responsive */
+@media only screen and ( min-width:481px) and (max-width:900px){
+.BigDataServicePopularMain {
+width: 95%;
+margin: auto;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+.BigDataServicePopularMain > h1 {
+font-size: 32px;
+margin-bottom: 1%;
+}
+.BigDataServicePopularHrLine {
+width: 55%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BigDataServicePopularHrLine > div {
+border: 2px solid #ef4c23;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+}
+.BigDataServicePopularHrLine > span {
+width: 46%;
+height: 2px;
+background-color: #ef4c23;
+color: #ef4c23;
+}
+.BigDataServicePopularMain > p {
+font-size: 16px;
+margin-top: 1%;
+margin-bottom: 3%;
+}
+.BigDataServicePopularContent {
+width: 95%;
+margin: auto;
+}
+.BigDataServicePopularContent > div {
+margin-top: 2%;
+margin-bottom: 2%;
+padding-bottom: 3%;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.BigDataServicePopularContent > div:last-child {
+border-bottom: none;
+}
+.BigDataServicePopularCardsContent {
+width: 70%;
+}
+.BigDataServicePopularCardsContent > h2 {
+font-size: 25px;
+margin: auto;
+margin-bottom: 2%;
+}
+.BigDataServicePopularCardsContent > p {
+font-size: 16px;
+text-align: justify;
+}
+.BigDataServicePopularCardsImages {
+width: 25%;
+padding: 3px;
+border-radius: 5px;
+background: #ffece7;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularCardsImages > img {
+width: 100%;
+}
+.BigDataServicePopularButton {
+width: 500px;
+height: fit-content;
+margin: auto;
+cursor: pointer;
+margin-top: 0;
+margin-bottom: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 100px;
+padding-left: 3%;
+background: linear-gradient(to Right, #ef4c23 60%, #fed200);
+}
+.BigDataServicePopularButton > h3 {
+font-size: 18px;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.BigDataServicePopularButton > div {
+height: fit-content;
+width: fit-content;
+padding: 5px;
+background: linear-gradient(to Bottom, #ef4c23, #fed200);
+border-radius: 100px;
+border: 2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularButton > div > div {
+width: fit-content;
+height: fit-content;
+background: linear-gradient(to Bottom, #fed200, #ef4c23);
+padding: 5px;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BigDataServicePopularButton > div > div > svg {
+width: 20px;
+height: 20px;
+color: white;
+}
+}

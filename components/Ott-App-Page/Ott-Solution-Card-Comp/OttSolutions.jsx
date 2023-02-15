@@ -3,7 +3,7 @@ import styles from "./ottSolutions.module.css";
 
 export default function OttSolutions() {
   const [imageChange, setImageChange] = useState(
-    "/Images/ott-app/Group901187.png",
+    "/Images/ott-app/Group901187.webp",
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -11,25 +11,25 @@ export default function OttSolutions() {
 
   const OttSolutionsData = [
     {
-      img: "/Images/ott-app/Group901188.png",
+      img: "/Images/ott-app/Group901188.webp",
       head: "Home Screen",
       para: "Shows all the latest movies/ series available",
     },
 
     {
-      img: "/Images/ott-app/Group901187.png",
+      img: "/Images/ott-app/Group901187.webp",
       head: "Search Window",
       para: "To search all your shows & movies",
     },
 
     {
-      img: "/Images/ott-app/Group901188.png",
+      img: "/Images/ott-app/Group901188.webp",
       head: "Categories",
       para: "Separate categories for shows and movies",
     },
 
     {
-      img: "/Images/ott-app/Group901187.png",
+      img: "/Images/ott-app/Group901187.webp",
       head: "Vide Screen",
       para: "The playing screen of the same",
     },

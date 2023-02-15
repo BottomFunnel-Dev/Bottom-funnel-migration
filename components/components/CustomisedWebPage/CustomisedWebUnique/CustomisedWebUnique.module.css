@@ -1,0 +1,58 @@
+.CustomisedWebUniqueContainer {
+  width: 90%;
+  margin: 2% auto 2% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CustomisedWebUniqueContent {
+  padding: 2%;
+  width: 50%;
+}
+
+.CustomisedWebUniqueContent > h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.CustomisedWebUniqueContent > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.CustomisedWebUniqueImage {
+  width: 40%;
+  height: fit-content;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.CustomisedWebUniqueImage > img {
+  width: 100%;
+}
+
+.CustomisedWebUniqueHrLine {
+  width: 90%;
+  margin: 1% auto 1% auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CustomisedWebUniqueHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.CustomisedWebUniqueHrLine > span {
+  width: 45%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

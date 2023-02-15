@@ -1,0 +1,109 @@
+.CryptoDevSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.CryptoDevSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.CryptoDevSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.CryptoDevSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevSliderHrLine > div {
+  border: 2px solid #bf42b9;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.CryptoDevSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #bf42b9;
+  color: #bf42b9;
+}
+
+.CryptoDevSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+.CryptoDevSlider-slide > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CryptoDevSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.CryptoDevSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}

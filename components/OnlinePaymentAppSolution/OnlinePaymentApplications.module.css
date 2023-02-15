@@ -7,7 +7,7 @@ background-color: white;
 .onlinepaymentmobileapplicationleftbox {
 height: 80%;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Rectangle 18529.png");
+background: url("/Images/onlinepaymentpage/Rectangle 18529.webp");
 background-size: 100% 80%;
 background-repeat: no-repeat;
 background-position-y: center;
@@ -37,6 +37,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 margin: 2%;
 display: flex;
 border-radius: 10px;
+padding: 10px;
+
 }
 
 .onlinepaymentmobileapplicationmappingbox:hover {
@@ -48,6 +50,7 @@ background-color: #cdfcf6;
 height: 50px;
 width: 100%;
 }
+
 
 .onlinepaymentmobileapplicationmappingbox > h4 {
 margin-left: 2%;
@@ -75,7 +78,7 @@ background-color: white;
 .onlinepaymentmobileapplicationleftbox {
 height: 80%;
 width: 100%;
-background: url("/Images/onlinepaymentpage/Rectangle 18529.png");
+background: url("/Images/onlinepaymentpage/Rectangle 18529.webp");
 background-size: 100% 80%;
 background-repeat: no-repeat;
 background-position-y: center;
@@ -149,7 +152,7 @@ background-color: white;
 .onlinepaymentmobileapplicationleftbox {
 height: 80%;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Rectangle 18529.png");
+background: url("/Images/onlinepaymentpage/Rectangle 18529.webp");
 background-size: 100% 80%;
 background-repeat: no-repeat;
 background-position-y: center;

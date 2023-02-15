@@ -1,0 +1,56 @@
+.EnterpriseWhyBFContainer {
+  width: 90%;
+  margin: 3% auto 3% auto;
+}
+
+.EnterpriseWhyBFContainer > h1 {
+  font-size: 32px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.EnterpriseWhyBFContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.EnterpriseWhyBFMain {
+  width: 100%;
+  margin: 2% auto 2% auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EnterpriseWhyBFBontent {
+  width: 50%;
+}
+
+.EnterpriseWhyBFBontent > div {
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 6px 0px;
+}
+
+.EnterpriseWhyBFBontent > div > h2 {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+.EnterpriseWhyBFBontent > div > p {
+  font-size: 16px;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+.EnterpriseWhyBFImage {
+  width: 40%;
+}
+
+.EnterpriseWhyBFImage > img {
+  width: 100%;
+}

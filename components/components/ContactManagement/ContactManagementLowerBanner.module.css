@@ -1,0 +1,41 @@
+.contactmanagementlowerbannermain{
+    height: 60vh;
+ border: 1px solid white;
+  background-color: #ffefeb;
+}
+
+.contactmanagementlowerbannersometxtbox{
+    height: fit-content;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+ 
+    margin-top: 3%;
+}
+
+.contactmgmtlowerbannerflex{
+    display: flex;
+    margin-top: 3%;
+}
+
+.contactmgmtlowerbannerflexleft{
+    width: 50%;
+ 
+    text-align: left;
+}
+
+.contactmgmtlowerbannerflexleft >ul >li {
+    margin-top: 3%;
+}
+
+.contactmgmtlowerbannerflexright{
+    height: 300px;
+    width: 50%;
+ 
+}
+
+.contactmgmtlowerbannerflexright >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

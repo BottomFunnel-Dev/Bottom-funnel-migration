@@ -4,37 +4,37 @@ import styles from "./ottFeatures.module.css";
 export default function OttFeatures() {
   const OttFeaturesData = [
     {
-      img: "/Images/ott-app/Vector-4.png",
+      img: "/Images/ott-app/Vector-4.webp",
       title: "Update On Time",
       para: "Upload in bulk, organize content in categories, add custom filters & upload extras",
     },
 
     {
-      img: "/Images/ott-app/Vector-2.png",
+      img: "/Images/ott-app/Vector-2.webp",
       title: "Social Media Integration",
       para: "Showcase your content in a beautiful on-demand video catalog.",
     },
 
     {
-      img: "/Images/ott-app/Vector-3.png",
+      img: "/Images/ott-app/Vector-3.webp",
       title: "Ratings",
       para: "Schedule events in advance & build excitemet with a countdown overlay.",
     },
 
     {
-      img: "/Images/ott-app/Vector-5.png",
+      img: "/Images/ott-app/Vector-5.webp",
       title: "Reminders",
       para: "Offer subscriptions or one-time purchase. Accept credit cards & PayPal.",
     },
 
     {
-      img: "/Images/ott-app/Group.png",
+      img: "/Images/ott-app/Group.webp",
       title: "Push Notification",
       para: "know what your audience likes & how your content is performing.",
     },
 
     {
-      img: "/Images/ott-app/Vector-6.png",
+      img: "/Images/ott-app/Vector-6.webp",
       title: "Live Chatting",
       para: "Get organized on all devices",
     },
@@ -64,7 +64,7 @@ export default function OttFeatures() {
       </div>
 
       <div className={styles.ottFeaturesBanner}>
-        <img src="/Images/ott-app/Component184.png" alt="image" />
+        <img src="/Images/ott-app/Component184.webp" alt="image" />
         <div className={styles.ottFeturesBannelTextButtonDiv}>
           <h2>
             What's Special About Online Flower Delivery App Solutions Developed

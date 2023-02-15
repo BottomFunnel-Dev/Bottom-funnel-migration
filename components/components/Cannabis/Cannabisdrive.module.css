@@ -1,0 +1,80 @@
+.cannabisdriverappmainboxes {
+height: fit-content;
+border: 1px solid white;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.cannabisdriverappmainboxes > h2 {
+margin-left: 44%;
+}
+.canabisdriverappflexingbox {
+height: fit-content;
+display: flex;
+}
+.canabisdriverappflexingboxleftbox {
+height: 480px;
+width: 45%;
+background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position-y: bottom;
+}
+.canabisdeliveryappleftboxinsiderupperimage {
+height: 500px;
+width: 100%;
+margin: 5% 0% 5% 0%;
+}
+.canabisdeliveryappleftboxinsiderupperimage > img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+.canabisdriverappflexingboxrightbox {
+height: fit-content;
+width: 60%;
+margin-left: 1%;
+text-align: justify;
+display: flex;
+flex-wrap: wrap;
+}
+.icecreamcustomerappmainboxes > h2 {
+text-align: center;
+margin-top: 3%;
+}
+.canabisdriverappindivisualbox {
+height: 180px;
+width: 45%;
+margin: 1%;
+padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+}
+.canabisdriverappindivisualbox:hover {
+transform: scale(1.02);
+}
+.canabisdeliveryappindivisualboxforlogo {
+height: 30%;
+width: 10%;
+}
+.canabisdeliveryappindivisualboxforlogo > img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+padding: 5px;
+}
+.icecreamdeliveryappindivisualboxfortext > h4 {
+margin-top: 1%;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.6px;
+vertical-align: baseline;
+margin-bottom: 1%;
+margin-top: 0%;
+}
+.icecreamdeliveryappindivisualboxfortext > p {
+margin-top: 0%;
+font-size: 15px;
+line-height: 20px;
+vertical-align: baseline;
+font-weight: 400;
+}

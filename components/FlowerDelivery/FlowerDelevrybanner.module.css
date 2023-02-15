@@ -27,7 +27,14 @@
 .flowerdeliverybannerrightbox {
   width: 52%;
   margin-left: 8%;
-  position: relative;
+  position: absolute;
+  top: 7%;
+  right: 0%;
+}
+
+.flowerDeliveryBannerAnimation {
+  /* border: 1px solid red; */
+  width: 90%;
 }
 
 .flowerdeliverybannerimageone {
@@ -78,13 +85,11 @@
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
   .flowerdeliverybannermaindiv {
-
     flex-direction: column-reverse;
     position: static;
   }
 
   .flowerdeliverybannerleftbox {
-
     height: 50%;
     width: 95%;
     text-align: justify;
@@ -94,7 +99,6 @@
   }
 
   .flowerdeliverybannerleftbox > h1 {
-
     width: 100%;
     font-weight: 700;
     font-size: 23px;

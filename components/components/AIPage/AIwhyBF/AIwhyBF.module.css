@@ -1,0 +1,84 @@
+.AIwhyBFContainer {
+  margin: auto;
+  height: 130vh;
+  position: relative;
+}
+
+.AIwhyBFBackgroundRectangle {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.AIwhyBFBackgroundRectangle > img:nth-child(1) {
+  align-self: flex-start;
+  height: 50%;
+  width: 30%;
+}
+
+.AIwhyBFBackgroundRectangle > img:nth-child(2) {
+  align-self: flex-end;
+  height: 47%;
+  width: 45%;
+}
+
+.AIwhyBFMain {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.AIMainHeading{
+  /* border: 1px solid red; */
+  position: absolute;
+  z-index: 1;
+}
+
+.AIwhyBFCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  /* top: 10%; */
+  margin-top: 7%;
+  width: 85%;
+}
+
+.AIwhyBFCardsMain {
+  background-color: #f5f5f5;
+  width: 47%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  /* padding: 2%; */
+}
+
+.AIwhyBFCardsMain > div {
+  height: 70px;
+  width: fit-content;
+}
+
+.AIwhyBFCardsMain > div > img {
+  height: 100%;
+}
+
+.AIwhyBFCardsMain > h3 {
+  font-size: 18px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.AIwhyBFCardsMain > p {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 3%;
+}

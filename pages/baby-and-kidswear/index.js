@@ -4,17 +4,17 @@ import Head from "next/head";
 
 const KidsWearBanner = dynamic(
   () => import("../../components/KidsWear/KidsWearBanner/KidsWearBanner"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 
 const ExclusiveFeature = dynamic(
   () => import("../../components/KidsWear/ExclusiveFeature/ExclusiveFeature"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 
 const AppFeature = dynamic(
   () => import("../../components/KidsWear/AppFeature/AppFeature"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 
 // const ChooseUs = dynamic(

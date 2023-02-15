@@ -7,7 +7,7 @@ const MainFooter = dynamic(
   () => import("../components/CommonComponents/FooterSection/MainFooter"),
   {
     loading: () => "Loading...",
-  },
+  }
 );
 const About = dynamic(() => import("../components/AboutSection/About"), {
   loading: () => "Loading...",
@@ -17,7 +17,7 @@ const Awards = dynamic(() => import("../components/AwardSection/Awards"), {
 });
 const TextDropdown = dynamic(
   () => import("../components/CommonComponents/faqSection/Faqs"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const Services = dynamic(() => import("../components/Services/Services"), {
   loading: () => "Loading...",
@@ -25,45 +25,45 @@ const Services = dynamic(() => import("../components/Services/Services"), {
 const OndemandSection = dynamic(
   () =>
     import("../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const PlanProject = dynamic(
   () => import("../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const PortFolio = dynamic(
   () => import("../components/CommonComponents/PortFolioSection/PortFolio"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const Revamping = dynamic(
   () => import("../components/CommonComponents/revamping/Revamping"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const SeoblogSection = dynamic(
   () => import("../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const StoriesSection = dynamic(
   () => import("../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const CompanyLogo = dynamic(
   () => import("../components/CompanyLogos/CompanyLogo"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const Companystats = dynamic(
   () => import("../components/CompanyStats/Companystats"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const ContectForm = dynamic(
   () => import("../components/ContectForm/ContectForm"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const BannerFull = dynamic(
   () => import("../components/mainSection/BannerFull"),
   {
     loading: () => "Loading...",
-  },
+  }
 );
 
 export default function Home() {
@@ -74,8 +74,7 @@ export default function Home() {
           Bottom Funnel Global Web and App Development Company | Digital
           Transformation Service
         </title>
-        <meta
-          name="description"
+        <meta name="description"
           content="Bottom Funnel makes ridiculously easy-to-use marketing, sales, support and IT solutions"
         />
       </Head>

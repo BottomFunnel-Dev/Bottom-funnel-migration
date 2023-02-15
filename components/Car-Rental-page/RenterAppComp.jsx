@@ -4,7 +4,7 @@ import styles from "./renterAppComp.module.css";
 
 export default function RenterAppComp() {
   const [imageChange, setImageChange] = useState(
-    "/Images/Car-Rental-Page-Images/Component190.png",
+    "/Images/Car-Rental-Page-Images/Component190.webp",
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -12,25 +12,25 @@ export default function RenterAppComp() {
 
   const RGrenterAppData = [
     {
-      img: "/Images/Car-Rental-Page-Images/signup.png",
+      img: "/Images/Car-Rental-Page-Images/signup.webp",
       head: "Register and Signup within The Application",
       para: "The customer can sign up for the app to start booking cars.",
     },
 
     {
-      img: "/Images/Car-Rental-Page-Images/Component190.png",
+      img: "/Images/Car-Rental-Page-Images/Component190.webp",
       head: "Find Nearby Available Cars",
       para: "Customers can easily find out which cars are available for rent in their area by looking online.",
     },
 
     {
-      img: "/Images/Car-Rental-Page-Images/filter.png",
+      img: "/Images/Car-Rental-Page-Images/filter.webp",
       head: "Search By Filters",
       para: "Customers can search for cars by different filters, such as fuel type or category.",
     },
 
     {
-      img: "/Images/Car-Rental-Page-Images/cardetails.png",
+      img: "/Images/Car-Rental-Page-Images/cardetails.webp",
       head: "Car Details",
       para: "Customers can inspect the details of the listed car, like the model, year of the car, images of the car, etc., through the app.",
     },

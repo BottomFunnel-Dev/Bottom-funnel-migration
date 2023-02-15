@@ -1,0 +1,86 @@
+.RGCustomerAppContainer {
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.RGCustomerAppTextDiv {
+  position: absolute;
+  height: fit-content;
+  right: 20%;
+  bottom: 100%;
+  width: 36%;
+}
+
+.RGCustomerAppMobileLeftDiv {
+  height: 450px;
+  width: 40%;
+  margin-left: 3%;
+  background: url("/public/Images/Car-Rental-Page-Images/Vector-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.RGCustomerAppMobileLeftDivFrameForImages {
+  position: absolute;
+  height: 100%;
+  width: 45%;
+  left: 30%;
+}
+
+.RGCustomerAppMobileLeftDivFrameForImages > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.RGCustomerAppMobileRightDiv {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  align-items: center;
+}
+
+.RGCustomerAppMobileRightDivBoxex {
+  height: fit-content;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: justify;
+}
+
+.RGCustomerAppMobileRightDivBoxex:hover {
+  transform: scale(1.02);
+  background-color: rgb(10, 178, 189);
+  color: white;
+}
+
+.RGCustomerAppMobileRightDivBoxex > div > h4 {
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.RGCustomerAppMobileRightDivBoxex > div > p {
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.RGCustomerSpan {
+  color: #ef4c23;
+}

@@ -8,31 +8,31 @@ export const RealEstateSolution = () => {
         {
             txt: "Price Trands",
             stxt: "Check property & real estate prize",
-            icon: "/Images/RealEstate/Icons/Rectangle 137.png",
+            icon: "/Images/RealEstate/Icons/Rectangle 137.webp",
         },
 
         {
             txt: "Locality Insight",
             stxt: "Know more about the different location",
-            icon: "/Images/RealEstate/Icons/Rectangle 137-1.png",
+            icon: "/Images/RealEstate/Icons/Rectangle 137-1.webp",
         },
 
         {
             txt: "User Guides",
             stxt: "To help home buyer, tenants & sellers",
-            icon: "/Images/RealEstate/Icons/Rectangle 137-2.png",
+            icon: "/Images/RealEstate/Icons/Rectangle 137-2.webp",
         },
 
         {
             txt: "Check Articles",
             stxt: "To help home buyer,tenants & sellers",
-            icon: "/Images/RealEstate/Icons/Rectangle 137-3.png",
+            icon: "/Images/RealEstate/Icons/Rectangle 137-3.webp",
         },
 
         {
             txt: "About Properties",
             stxt: "Track prices & analyses market demand",
-            icon: "/Images/RealEstate/Icons/Rectangle 137-4.png",
+            icon: "/Images/RealEstate/Icons/Rectangle 137-4.webp",
         },
     ]
 
@@ -68,7 +68,7 @@ export const RealEstateSolution = () => {
                                         width={"0"}
                                         height={"0"}
                                         sizes={"100vw"}
-                                        style={{ width: "15%", height: "100%" }}
+                                        style={{ width: "100%", height: "100%" }}
                                     />
                                 </div>
 

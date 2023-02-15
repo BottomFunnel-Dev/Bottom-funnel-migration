@@ -1,0 +1,75 @@
+.alcoholBannerMain {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 120px;
+height: 85vh;
+}
+.alcoholBannerContent {
+width: 40%;
+padding-left: 40px;
+}
+.alcoholBannerContent > h1 {
+width: 100%;
+font-size: 35px;
+}
+.alcoholBannerContent > p {
+width: 100%;
+font-size: 16px;
+text-align: justify;
+}
+.alcoholBannerContent > button {
+font-size: 18px;
+font-weight: 600;
+color: white;
+background-color: #9a4c72;
+border-radius: 100px;
+padding: 10px 60px;
+border: none;
+outline: none;
+cursor: pointer;
+box-shadow: rgba(22, 12, 1, 0.1) 0px 4px 6px -1px,
+rgba(22, 12, 1, 0.06) 0px 2px 4px -1px;
+}
+.alcoholBannerContent > button:hover {
+color: white;
+background-color: #ed86b8;
+}
+.alcoholBannerImage {
+width: 50%;
+height: 90%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.alcoholBannerImage > img {
+height: 50%;
+width: 100%;
+z-index: 1;
+}
+.alcoholBannerBigMobile {
+position: absolute;
+left: 0;
+height: 100%;
+z-index: 2;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.alcoholBannerBigMobile > img {
+height: 100%;
+}
+.alcoholBannerSmallMobile {
+position: absolute;
+height: 100%;
+left: 25%;
+z-index: 3;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.alcoholBannerSmallMobile > img {
+height: 80%;
+}

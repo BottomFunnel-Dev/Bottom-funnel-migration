@@ -3,7 +3,7 @@ import styles from "./MarketPlaceClient.module.css";
 
 const MarketPlaceClients = () => {
 
-    const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Clientsappscreen/detailsofposts.png");
+    const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Clientsappscreen/detailsofposts.webp");
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
 

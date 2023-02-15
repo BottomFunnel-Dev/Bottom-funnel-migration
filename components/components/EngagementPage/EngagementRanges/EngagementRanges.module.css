@@ -1,0 +1,75 @@
+.engagementRangesContainer {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.engagementRangesContainer > h1 {
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+  margin: 1% auto;
+}
+
+.engagementRangesContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.engagementRangesCardsMain {
+  width: 100%;
+  margin: 2% auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.engagementRangesCardsMain > div {
+  width: 30%;
+  height: 450px;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.engagementRangesCardsMain > div > div {
+  width: fit-content;
+  height: 80px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.engagementRangesCardsMain > div > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.engagementRangesCardsMain > div > h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.engagementRangesCardsMain > div > h2 {
+  font-size: 25px;
+}
+
+.engagementRangesMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.engagementRangesMain > div {
+  width: 30%;
+}
+
+
+.engagementRangesMain > p {
+  font-size: 18px;
+  text-align: justify;
+  width: 65%;
+}

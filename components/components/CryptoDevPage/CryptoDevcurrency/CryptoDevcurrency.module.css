@@ -1,0 +1,148 @@
+.CryptoDevcurrencyContainer {
+  width: 90%;
+  margin: 2% auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevcurrencyMain {
+  width: 45%;
+}
+
+.CryptoDevcurrencyMain > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+}
+
+.CryptoDevcurrencyMain > p {
+  font-size: 16px;
+}
+
+.CryptoDevcurrencyImagesContainer {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevcurrencyImagesContainer > div {
+  width: 45%;
+  height: fit-content;
+  text-align: center;
+}
+
+.CryptoDevcurrencyImagesContainer > div > h2 {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 1%;
+}
+
+.CryptoDevcurrencyImagesContainer > div > img {
+  width: 50%;
+}
+
+.CryptoDevcurrencyHrLine {
+  width: 30%;
+  margin: 1% 0 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevcurrencyHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.CryptoDevcurrencyHrLine > span {
+  width: 43%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+/* for any type of mobile screen responsible */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+
+  .CryptoDevcurrencyContainer {
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+   align-items: center;
+    justify-content: space-between;
+  }
+  
+  .CryptoDevcurrencyMain {
+    width: 100%;
+    
+  }
+  
+  .CryptoDevcurrencyMain > h1 {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 1%;
+    text-align: center;
+
+  }
+  
+  .CryptoDevcurrencyMain > p {
+    font-size: 16px;
+        text-align: justify;
+  }
+  
+  .CryptoDevcurrencyImagesContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .CryptoDevcurrencyImagesContainer > div {
+    width: 45%;
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .CryptoDevcurrencyImagesContainer > div > h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 1%;
+  }
+  
+  .CryptoDevcurrencyImagesContainer > div > img {
+    width: 50%;
+  }
+  
+  .CryptoDevcurrencyHrLine {
+    width: 70%;
+    /* margin: 1% 0 1% 0%; */
+  margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .CryptoDevcurrencyHrLine > div {
+    border: 2px solid #ef4c23;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+  }
+  
+  .CryptoDevcurrencyHrLine > span {
+    width: 43%;
+    height: 2px;
+    background-color: #ef4c23;
+    color: #ef4c23;
+  }
+}

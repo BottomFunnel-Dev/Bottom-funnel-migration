@@ -1,5 +1,5 @@
 .fintechsolutioncustomerappmainbox {
-  height: 100vh;
+  height: fit-content;
   position: relative;
 }
 
@@ -19,7 +19,7 @@
   height: 500px;
   width: 50%;
   margin-top: 8%;
-  background: url("/Images/fintechsolutionpage/Component187.png");
+  background: url("/Images/fintechsolutionpage/Component187.webp");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -60,17 +60,20 @@
 
 .fintechcustomerappboxesaftermapping:hover {
   transform: scale(1.02);
+  background-color: #bed0f1;
 }
 
 .logofintechcustomerapp {
   margin: 2%;
   width: 40%;
+  height: 22%;
   /* border: 1px solid red; */
 }
 
 .logofintechcustomerapp > img {
   width: 40px;
   height: 40px;
+  object-fit: contain;
 }
 
 .specialtxt {

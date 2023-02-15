@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import styles from "./MarketPlaceAdmin.module.css";
 
 const MarketPlaceAdmin = () => {
-  const [imageChange, setImageChange] = useState(
-    "/Images/Marketplaceapp/Adminappscreens/dashboard.png"
-  );
+  const [imageChange, setImageChange] = useState( "/Images/Marketplaceapp/Adminappscreens/dashboard.webp");
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -15,7 +13,7 @@ const MarketPlaceAdmin = () => {
       img: "/Images/Marketplaceapp/icons/Component41.png",
       Htxt: "Dashboard",
       stxt: "Easily navigate to the different pages and posts we have for freelancers, like our dashboard.",
-      tablet: "/Images/Marketplaceapp/Adminappscreens/dashboard.png",
+      tablet: "/Images/Marketplaceapp/Adminappscreens/dashboard.webp",
     },
     {
       img: "/Images/Marketplaceapp/icons/Group339972.png",

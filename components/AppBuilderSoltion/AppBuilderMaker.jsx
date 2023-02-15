@@ -29,7 +29,7 @@ export default function AppBuilderMaker() {
 
           <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA} >
             <Image
-              src={"/Images/Appbuildersolutions/Bannersbackgrounds/drag-and-drop 1.png"}
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/drag-and-drop 1.webp"}
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -42,7 +42,7 @@ export default function AppBuilderMaker() {
         <div className={styles.appbuildermakerspecialtypeflexboxtypeB}>
           <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB} >
             <Image
-              src={"/Images/Appbuildersolutions/Bannersbackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 1.png"}
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/1_tpO9dNQTKpoj7EcTBu9E_Q 1.webp"}
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -78,7 +78,7 @@ export default function AppBuilderMaker() {
 
           <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA} >
             <Image
-              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Cross-Platform-App-Development 1.png"}
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Cross-Platform-App-Development 1.webp"}
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -91,7 +91,7 @@ export default function AppBuilderMaker() {
         <div className={styles.appbuildermakerspecialtypeflexboxtypeB}>
           <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB} >
             <Image
-              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Medicos - Healthcare Mobile Sketch App UI Kit - UI Kits 1.png"}
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Medicos - Healthcare Mobile Sketch App UI Kit - UI Kits 1.webp"}
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -127,7 +127,7 @@ export default function AppBuilderMaker() {
 
           <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageA} >
             <Image
-              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Chat App Landing Page 1.png"}
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/Chat App Landing Page 1.webp"}
               alt={"images"}
               width={"0"}
               height={"0"}
@@ -140,7 +140,7 @@ export default function AppBuilderMaker() {
         <div className={styles.appbuildermakerspecialtypeflexboxtypeB}>
           <div className={styles.appbuildermakerspecialtypeflexboxtypeAforimageB} >
             <Image
-              src={"/Images/Appbuildersolutions/Bannersbackgrounds/scalability 1.png"}
+              src={"/Images/Appbuildersolutions/Bannersbackgrounds/scalability 1.webp"}
               alt={"images"}
               width={"0"}
               height={"0"}

@@ -1,0 +1,38 @@
+.contactmanagementmaximizesales{
+    height: fit-content;
+background-color: white;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.contactmanagementmaximizesales >h1{
+    text-align: center;
+}
+
+.contactmanagementmaximizesales >p{
+    text-align: center;
+}
+
+.contactmanagementmaximizemapperdata{
+    height: fit-content;
+    width: 80%;
+   padding-top: 3%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contactmanagementflexboxresizer{
+    height: 200px;
+    width: 31%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.contactmanagementflexboxresizer:hover{
+    transform: scale(1.02);
+}

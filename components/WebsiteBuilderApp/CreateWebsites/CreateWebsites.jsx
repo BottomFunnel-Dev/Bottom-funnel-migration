@@ -8,7 +8,7 @@ export const CreateWebsites = () => {
 
             <div className={styles.createWebsiteImageMainDiv}>
                 <div className={styles.createWebsiteImageDivBackImage}>
-                    <Image src={'/Images/WebsiteBuilderApp/RightSideBackgroundImage.png'}
+                    <Image src={'/Images/WebsiteBuilderApp/RightSideBackgroundImage.webp'}
                         alt={"image"}
                         width={"0"}
                         height={"0"}
@@ -17,7 +17,7 @@ export const CreateWebsites = () => {
                     />
 
                     <div className={styles.createWebsiteImageDivTopImage}>
-                        <Image src={'/Images/WebsiteBuilderApp/CreateWebsiteFitnessImage.png'}
+                        <Image src={'/Images/WebsiteBuilderApp/CreateWebsiteFitnessImage.webp'}
                             alt={'image'}
                             width={"0"}
                             height={"0"}

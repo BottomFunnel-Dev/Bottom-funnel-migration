@@ -1,0 +1,232 @@
+.DataScienceSliderSliderDiv {
+  position: relative;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  /* border: 2px solid green; */
+}
+
+.DataScienceSliderSliderDiv > h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.DataScienceSliderSliderDiv > h1 > span {
+  color: #ef4c23;
+}
+
+.DataScienceSliderHrLine {
+  width: 30%;
+  margin: auto;
+  margin-top: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DataScienceSliderHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.DataScienceSliderHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.DataScienceSlider-slide {
+  width: 670px;
+  height: 250px;
+  position: relative;
+  /* border: 2px solid red; */
+
+  transform: scale(0.5);
+  transition: transform 0.5s ease-in-out;
+
+  border-radius: 20px;
+  border: 1px solid gray;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DataScienceSlider-slide-active {
+  width: 100px;
+  transform: scale(0.8);
+}
+
+  
+.DataScienceIcons{
+  width: 110px;
+  height: 90px;
+  margin-left: 20%;
+  margin-top: 10%;
+  /* border: 2px solid green; */
+}
+
+.DataScienceSliderSliderPrev {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 0%;
+  top: 50%;
+  /* border: 2px solid aqua; */
+}
+
+.DataScienceSliderSliderArrow {
+  background-color: #f1f1f1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  color: #393939;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DataScienceSliderSliderPrev {
+  left: 0%;
+  top: 50%;
+}
+
+.DataScienceSliderSliderNext {
+  right: 0%;
+  top: 50%;
+}
+
+.DataScienceSliderSliderArrow:hover {
+  background-color: #d6d5d5;
+}
+
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .DataScienceSliderSliderDiv {
+    position: relative;
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }
+  
+  .DataScienceSliderSliderDiv > h1 {
+    font-size: 32px;
+    text-align: center;
+   
+  }
+  
+  .DataScienceSliderSliderDiv > h1 > span {
+    color: #ef4c23;
+    
+  }
+  
+  .DataScienceSliderHrLine {
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .DataScienceSliderHrLine > div {
+    border: 2px solid #ef4c23;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  
+  }
+  
+  .DataScienceSliderHrLine > span {
+    width: 46%;
+    height: 2px;
+    background-color: #ef4c23;
+    color: #ef4c23;
+    
+  }
+  
+  .DataScienceSliderslide {
+    width: 670px;
+    height: 250px;
+    position: relative;
+
+    transform: scale(0.5);
+    transition: transform 0.5s ease-in-out;
+
+    border-radius: 20px;
+    border: 1px solid gray;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .DataScienceSliderslideactive {
+    width: 100px;
+    transform: scale(0.8);
+   
+  }
+
+  
+  .DataScienceSliderSliderPrev {
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    left: 0%;
+    top: 50%;
+    
+  }
+  
+  .DataScienceSliderSliderArrow {
+    background-color: #f1f1f1;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    color: #393939;
+ 
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .DataScienceSliderSliderPrev {
+    left: 0%;
+    top: 50%;
+
+  }
+  
+  .DataScienceSliderSliderNext {
+    right: 0%;
+    top: 50%;
+    
+  }
+  
+  .DataScienceSliderSliderArrow:hover {
+    background-color: #d6d5d5;
+    
+  }
+}
