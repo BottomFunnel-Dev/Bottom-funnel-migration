@@ -68,7 +68,7 @@ export const RealEstateSolution = () => {
                                         width={"0"}
                                         height={"0"}
                                         sizes={"100vw"}
-                                        style={{ width: "100%", height: "fitContent" }}
+                                        style={{ width: "100%", height: "100%" }}
                                     />
                                 </div>
 

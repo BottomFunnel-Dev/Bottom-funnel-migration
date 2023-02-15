@@ -40,7 +40,7 @@ export const MeatDeliveryCustomerApp = () => {
       <div className={styles.customerapponlyformeatdeliveryapp}>
         <div className={styles.customerappmeatdeliveryappleftbox}>
           <div className={styles.meatdeliverycustomerappmobilebox}>
-            <Image src={'/Images/meatdelieveryapp/Rectangle.png'}
+            <Image src={'/Images/meatdelieveryapp/Rectangle.webp'}
               alt={'images'}
               width={"0"}
               height={"0"}
