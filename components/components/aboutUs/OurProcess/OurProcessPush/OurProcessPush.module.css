@@ -1,0 +1,116 @@
+.OurProcessPushmain {
+text-align: center;
+margin-top: 2%;
+}
+.OurProcessPushmain > p {
+font-size: 16px;
+margin-top: 1%;
+margin-bottom: 1%;
+width: 70%;
+margin: auto;
+text-align: center;
+}
+.OurProcessPushmain > h1 {
+font-size: 32px;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.OurProcessPushmain > h1 > span {
+color: #ef4c23;
+}
+.OurProcessPushmain > div {
+width: 90%;
+margin: auto;
+margin-top: 3%;
+display: flex;
+justify-content: space-between;
+}
+.OurProcessPushmain > div > div {
+width: 30%;
+display: flex;
+gap: 2%;
+align-items: flex-start;
+justify-content: center;
+}
+.OurProcessPushmain > div > div > h1 {
+font-size: 80px;
+margin-top: 0px;
+color: #6c757d;
+}
+.OurProcessPushmain > div > div > div {
+text-align: left;
+}
+.OurProcessPushmain > div > div > div > h1 {
+font-size: 32px;
+margin-top: 3%;
+margin-bottom: 2%;
+}
+.OurProcessPushmain > div > div > div > p {
+font-size: 16px;
+text-align: justify;
+}
+@media (max-width: 480px) {
+.OurProcessPushmain {
+text-align: center;
+margin-top: 2%;
+}
+.innovatorAboutUsMainDiv {
+display: flex;
+flex-direction: column;
+}
+.innovatorAboutUsMainDiv > div {
+display: flex;
+width: 100%;
+}
+.OurProcessPushmain {
+text-align: center;
+margin-top: 2%;
+}
+.OurProcessPushmain > p {
+font-size: 16px;
+margin-top: 1%;
+margin-bottom: 1%;
+width: 70%;
+margin: auto;
+text-align: center;
+}
+.OurProcessPushmain > h1 {
+font-size: 32px;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.OurProcessPushmain > h1 > span {
+color: #ef4c23;
+}
+.OurProcessPushmain > div {
+width: 90%;
+margin: auto;
+margin-top: 3%;
+display: flex;
+justify-content: space-between;
+}
+.OurProcessPushmain > div > div {
+width: 100%;
+display: flex;
+gap: 2%;
+align-items: flex-start;
+justify-content: center;
+}
+.OurProcessPushmain > div > div > h1 {
+font-size: 80px;
+margin-top: 0px;
+color: #6c757d;
+}
+.OurProcessPushmain > div > div > div {
+text-align: left;
+}
+.OurProcessPushmain > div > div > div > h1 {
+font-size: 32px;
+margin-top: 3%;
+margin-bottom: 2%;
+}
+.OurProcessPushmain > div > div > div > p {
+font-size: 16px;
+text-align: justify;
+}
+}

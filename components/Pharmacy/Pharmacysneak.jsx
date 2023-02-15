@@ -7,8 +7,8 @@ export default function Pharmacysneak() {
       <div className={styles.szpharmacysneaksub}>
         <button className={styles.szpharmacysneakbttn}>Get Started</button>
         <div className={styles.szpharmacysneakheading}>
-          <h5>A SNEAK-PEEK OF OUR</h5>
-          <h3>Pharmacy Delivery App Solution</h3>
+          <h5> A SNEAK-PEEK OF OUR </h5>
+          <h3> Pharmacy Delivery App Solution </h3>
         </div>
       </div>
     </div>

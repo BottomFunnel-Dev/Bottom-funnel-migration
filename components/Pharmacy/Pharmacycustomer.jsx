@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./Pharmacycustomer.module.css";
 
@@ -9,49 +10,54 @@ export default function Pharmacycustomer() {
         src: "/Images/pharmacy/Register.png ",
         alt: "Register image",
       },
+
       icon: {
         src: "/Images/pharmacy/Easy app oboarding.png",
-        alt: " easy app",
+        alt: "easy app",
       },
       title: "Easy app onboarding",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
     },
     {
       img: {
         src: "/Images/pharmacy/Buy medicine.png",
         alt: "Buy Medicines",
       },
+
       icon: {
         src: "/Images/pharmacy/Pills.png",
         alt: "Schedule logo",
       },
       title: "Buy Medicines",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
     },
+
     {
       img: {
         src: "/Images/pharmacy/Book doctor.png",
         alt: "Book doctor",
       },
+
       icon: {
         src: "/Images/pharmacy/Hospital.png",
         alt: "book",
       },
       title: "Book doctors",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
     },
 
     {
       img: {
         src: "/Images/pharmacy/Multiple Payment option.png",
-        alt: "multoplepayment",
+        alt: "multiplepayment",
       },
+
       icon: {
         src: "/Images/pharmacy/Multiple payment.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
     },
 
     {
@@ -59,12 +65,13 @@ export default function Pharmacycustomer() {
         src: "/Images/pharmacy/Book Ambulance.png",
         alt: "Track Order image",
       },
+
       icon: {
         src: "/Images/pharmacy/Ambulance.png",
         alt: "bookambulance",
       },
       title: "Book Ambulance",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
     },
 
     {
@@ -72,12 +79,13 @@ export default function Pharmacycustomer() {
         src: "/Images/pharmacy/trackorderimage.png ",
         alt: "Track Order image",
       },
+
       icon: {
         src: "/Images/pharmacy/Track Order.png",
         alt: "Track Order",
       },
       title: "Track Order",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
     },
   ];
 
@@ -86,7 +94,10 @@ export default function Pharmacycustomer() {
 
   return (
     <div className={styles.pharmacycustomer}>
-      <h1>Customer app</h1>
+      <h1>
+        Customer app
+      </h1>
+
       <div className={styles.pharmacycustomersub}>
 
         <div className={styles.pharmacycustomerright}>
@@ -98,10 +109,17 @@ export default function Pharmacycustomer() {
                 className={`pharmacy-box-${idx}`}
               >
                 <div className={styles.pharmacyLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "25%", height: "100%" }}
+                  />
                 </div>
 
-                <h3>{title}</h3>
+                <h3> {title} </h3>
+
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
                 </p>
@@ -115,9 +133,14 @@ export default function Pharmacycustomer() {
         <div className={styles.pharmacycustomerleft}>
 
           <div className={styles.pharmacyCustomerImage}>
-            <img src={pharmacycustomerdata[active].img.src} alt={pharmacycustomerdata[active].img.alt} />
+            <Image src={pharmacycustomerdata[active].img.src}
+              alt={pharmacycustomerdata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
-
         </div>
       </div>
     </div>

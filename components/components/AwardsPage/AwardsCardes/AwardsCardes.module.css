@@ -1,0 +1,50 @@
+.awardsCardesMain {
+  width: 32%;
+  height: 380px;
+
+  border-radius: 20px;
+  margin-top: 3%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.awardsCardesimage {
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.awardsCardesimage > div {
+  width: 250px;
+  height: 250px;
+
+  background-color: #f5f5f5;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .awardsCardesimage > div > img {
+  width: 60%;
+} */
+
+.awardsCardesContent {
+  text-align: center;
+  padding: 10px;
+
+  width: 90%;
+  margin: auto;
+}
+
+.awardsCardesContent > h2 {
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 1%;
+}

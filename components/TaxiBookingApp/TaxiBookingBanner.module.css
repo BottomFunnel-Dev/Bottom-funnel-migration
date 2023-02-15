@@ -54,15 +54,15 @@
 .taxiBookingBannerAnimationDiv {
   /* border: 1px solid red; */
   position: absolute;
-  top: 10%;
+  top: 15%;
   right: 0%;
+  left: 55%;
 }
 
-.taxiBookingMainAnimation{
+.taxiBookingMainAnimation {
   /* border: 1px solid red; */
-  width: 85%;
+  width: 100%;
 }
-
 
 @media only screen and (min-width: 769px) {
   .taxibookingbannermainboxes {

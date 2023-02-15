@@ -36,7 +36,7 @@
   padding: 10px;
   margin: 1%;
   width: 45%;
-  height: 180px;
+  height: 190px;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -45,12 +45,23 @@
 }
 
 .pickupdriveright > div:hover {
-  background-color: #edb8b8;
+  background-color: #f2daaf;
 }
 
 .pickupdriveright > div > h3 {
   font-size: 18px;
-  margin-top: 0%;
+  font-weight: 500;
+  line-height: 21.6px;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+
+.pickupdriveright > div > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-top: 2%;
+  margin-bottom: 0%;
 }
 
 .pickupDriveImage {
@@ -63,7 +74,7 @@
   left: 50%;
 }
 
-.pickupLogo{
+.pickupLogo {
   margin-bottom: 0%;
 }
 

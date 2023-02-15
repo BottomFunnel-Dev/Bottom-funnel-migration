@@ -2,6 +2,7 @@
   width: 100%;
   height: 600px;
 }
+
 .pharmacycustomer > h1 {
   margin-left: 5%;
   color: #5cacb2;
@@ -32,7 +33,7 @@
 .pharmacycustomerright > div {
   padding: 10px 10px 10px 10px;
   margin-left: 4%;
-  height: 210px;
+  height: 180px;
   width: 25%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -51,13 +52,20 @@
 
 .pharmacycustomerright > div > h3 {
   font-size: 18px;
+  font-weight: 500;
+  margin-top: 2%;
+}
+
+.pharmacycustomerright > div > p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 2%;
 }
 
 .pharmacyCustomerImage {
-  width: 65%;
-  height: 540px;
+  /* border: 1px solid red; */
+  width: 100%;
   text-align: right;
-  margin: 2% 20%;
 }
 
 .pharmacyCustomerImage > img {

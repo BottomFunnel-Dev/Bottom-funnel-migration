@@ -18,7 +18,7 @@ export const PickupBanner = () => {
       </div>
 
       <div className={styles.pickupDeliveryBannerAimationDiv}>
-        <Player
+        <Player className={styles.pickupDeliveryBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

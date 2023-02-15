@@ -1,0 +1,126 @@
+.eCommerceShoppingMain {
+  margin: 3% 0;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.eCommerceShoppingImagesMain {
+  position: relative;
+  width: 34%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceShoppingImagesMain > div {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eCommerceShoppingImagesMain > div:nth-child(1) > img {
+  height: 80%;
+  align-self: flex-end;
+}
+
+.eCommerceShoppingImagesMain > div:nth-child(2) > img {
+  height: 100%;
+}
+
+.eCommerceVendorPanelCards {
+  width: 31%;
+}
+
+.eCommerceVendorPanelCardsMain {
+  width: 66%;
+}
+
+.eCommerceVendorPanelCardsMain > div {
+  width: 90%;
+  margin: auto;
+}
+
+.eCommerceVendorPanelCardsMain > div > h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-top: 0;
+  font-weight: 500;
+  color: #ef4c23;
+}
+
+.eCommerceVendorPanelCardsMain > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  row-gap: 30px;
+}
+
+.eCommerceVendorPanelCardsLogo > img {
+  height: 100%;
+}
+
+.eCommerceVendorPanelCardsLogo {
+  height: 50px;
+  margin-left: 10px;
+  z-index: 4;
+}
+
+.eCommerceVendorPanelCardsContent {
+  background-color: #ffe6df;
+  height: 90%;
+  padding: 10px;
+  padding-top: 30px;
+  margin-top: -25px;
+  border-radius: 10px;
+
+  z-index: 0;
+}
+
+.eCommerceVendorPanelCardsContent > p {
+  font-size: 16px;
+}
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .eCommerceVendorPanelMain > h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .eCommerceShoppingMain {
+    flex-direction: column;
+  }
+
+  .eCommerceShoppingImagesMain {
+    width: 100%;
+  }
+
+  .eCommerceVendorPanelCardsMain {
+    width: 95%;
+  }
+
+  .eCommerceVendorPanelCards {
+    width: 45%;
+  }
+
+  .eCommerceVendorPanelCardsContent {
+    height: 85%;
+  }
+
+  .eCommerceVendorPanelCardsContent h5 {
+    font-size: 16px;
+  }
+
+  .eCommerceVendorPanelCardsContent p {
+    font-size: 14px;
+  }
+}

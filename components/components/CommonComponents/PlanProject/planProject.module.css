@@ -1,0 +1,74 @@
+.planProject{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+    background: #fcdbd3;
+    /* background: linear-gradient(45deg, #d7b5ac, #efb8b8ba); */
+    
+}
+.planProject>div{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: auto;
+    
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.planProject>div>p{
+   margin: 20px 0;
+   /* color: gray; */
+}
+.planProject>div>button {
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    /* border: none; */
+    margin-top: 27px;
+    border:none;
+    font-weight: 500;
+    color: white;
+    font-weight: 600;
+    background-color: #ef4c23;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.planProject>div>button:hover{
+    color: #ef4c23;
+    background-color: white;
+    box-sizing: border-box;
+    /* border:1px solid white; */
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .planProject{
+        padding: 0px;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        height: fit-content; 
+        box-sizing: border-box;       
+    }
+    .planProject>div{
+        padding: 10px;     
+    }
+    .planProject>div>h1{
+       font-size: 24px;    
+    }
+    .planProject>div>button{
+       margin: 0;  
+       font-size: 16px;  
+       padding: 8px 20px;
+       margin-bottom: 10px;
+    }
+
+
+}
+

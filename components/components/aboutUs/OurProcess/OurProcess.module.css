@@ -1,0 +1,126 @@
+.aboutusourprocess {
+background-color: black;
+color: #f4f4f4;
+height: 135vh;
+padding: 0px;
+margin-top: 0px;
+border: 1px solid black;
+}
+.OurProcessaboutUsmain {
+color: #393939;
+background: #f4f4f4;
+width: 80%;
+margin: auto;
+padding: 2%;
+margin-top: -8%;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+border-radius: 5px;
+border: 5px solid #ef4c23;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.OurProcessaboutUscontent {
+width: 50%;
+}
+.OurProcessaboutUscontent > p {
+margin-bottom: 2%;
+margin-top: 2%;
+font-size: 16px;
+text-align: justify;
+}
+.OurProcessaboutUscontent > h1 {
+font-size: 35px;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.OurProcessaboutUscontent > h1 > span {
+color: #ef4c23;
+}
+.OurProcessaboutUscontent > button {
+padding: 10px 50px;
+border-radius: 50px;
+margin: 2% auto;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+color: white;
+background-color: #ef4c23;
+border: 2px solid #ef4c23;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.OurProcessaboutUscontent > button:hover {
+color: #ef4c23;
+background-color: white;
+}
+.OurProcessaboutUsimage {
+width: 35%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@media (max-width: 480px) {
+.aboutusourprocess {
+background-color: black;
+color: #f4f4f4;
+height: fit-content;
+padding: 0px;
+margin-top: 100px;
+border: 1px solid black;
+}
+.OurProcessaboutUsmain {
+color: #393939;
+background: #f4f4f4;
+width: 90%;
+margin: auto;
+padding: 2%;
+margin-top: -30%;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+align-items: center;
+display: flex;
+flex-direction: column-reverse;
+}
+.OurProcessaboutUscontent {
+width: 90%;
+margin: auto;
+}
+.OurProcessaboutUscontent > p {
+margin-bottom: 2%;
+margin-top: 2%;
+font-size: 12px;
+text-align: justify;
+}
+.OurProcessaboutUscontent > h1 {
+font-size: 25px;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.OurProcessaboutUscontent > h1 > span {
+color: #ef4c23;
+}
+.OurProcessaboutUscontent > button {
+padding: 10px 50px;
+border-radius: 50px;
+margin: 2% auto;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+color: white;
+background-color: #ef4c23;
+border: 2px solid #ef4c23;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+margin-left: 10%;
+}
+.OurProcessaboutUscontent > button:hover {
+color: #ef4c23;
+background-color: white;
+}
+.OurProcessaboutUsimage {
+width: 95%;
+margin: auto;
+}
+.OurProcessaboutUsimage > img {
+width: 100%;
+}
+}

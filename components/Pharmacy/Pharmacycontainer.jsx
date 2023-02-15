@@ -60,7 +60,7 @@ export default function Pharmacycontainer() {
         </div>
 
         <div className={styles.pharmacyBannerAnimationDiv}>
-          <Player
+          <Player className={styles.pharmacyBannerAnimation}
             src={reactAnimation}
             background="transparent"
             speed="1"

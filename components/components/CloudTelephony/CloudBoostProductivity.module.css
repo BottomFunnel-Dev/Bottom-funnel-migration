@@ -1,0 +1,65 @@
+.cloudprodcolorbackground{
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.cloudboostproductivitymainboxes{
+    height: fit-content;
+    width: 90%;
+
+   margin: auto;
+  
+}
+
+.cloudboostproductuppertext{
+    height: fit-content;
+    
+    text-align: center;
+}
+
+.cloudboostproductuppertext>p{
+    text-align: justify;
+    width: 58%;
+    margin: auto;
+}
+
+.specialcolor{
+    color: #ef4c23;
+}
+
+.cloudboostproductmapperbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+
+}
+
+.cloudboostproductivityindiboxmapper{
+    height: 250px;
+    width: 31%;
+  text-align: justify;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.cloudboostproductivityindiboxmapper:hover{
+
+    transform: scale(1.02);
+}
+
+.cloudboostprodicon{
+    height: 25%;
+    width: 20%;
+    
+    margin: 2% 0% 0% 2%;
+}
+
+.cloudboostprodicon >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

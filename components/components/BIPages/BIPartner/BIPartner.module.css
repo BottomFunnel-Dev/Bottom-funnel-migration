@@ -1,0 +1,45 @@
+.BIPartnerContainer {
+width: 90%;
+margin: 2% auto 2% auto;
+}
+.BIPartnerContainer > h1 {
+font-size: 32px;
+margin-top: 0;
+margin-bottom: 1%;
+}
+.BIPartnerContainer > h1 > span {
+color: #ef4c23;
+}
+.BIPartnerContainer > p {
+font-size: 18px;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+.BIPartnerHrLine {
+width: 25%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BIPartnerHrLine > div {
+border: 2px solid #ef4c23;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+}
+.BIPartnerHrLine > span {
+width: 44%;
+height: 2px;
+background-color: #ef4c23;
+color: #ef4c23;
+}
+.BIPartnerImage {
+width: 90%;
+margin: auto;
+margin-top: 2%;
+}
+.BIPartnerImage > img {
+width: 100%;
+}

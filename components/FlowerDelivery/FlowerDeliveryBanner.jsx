@@ -10,7 +10,7 @@ const FlowerDeliveryBanner = () => {
         <h1>
           <span> On-Demand </span> Flower Delivery App
         </h1>
-        
+
         <p>
           Get your florist delivery business online with a flower delivery app
           development solution to provide superior service experience to
@@ -32,7 +32,6 @@ const FlowerDeliveryBanner = () => {
           autoplay
         >
         </Player>
-        
       </div>
     </div>
   );

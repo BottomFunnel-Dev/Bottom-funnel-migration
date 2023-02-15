@@ -1,0 +1,86 @@
+.RGadminPannelContainer {
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.RGadminPannelTextDiv {
+  position: absolute;
+  height: fit-content;
+  left: 4%;
+  bottom: 100%;
+  width: 36%;
+}
+
+.RGadminPannelMobileRightDiv {
+  height: 400px;
+  width: 50%;
+  position: relative;
+  background: url("/Images/Car-Rental-Page-Images/Rectangle18529.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.RGadminPannelMobileRightDivFrameForImages {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.RGadminPannelMobileRightDivFrameForImages > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.RGadminPannelLeftDiv {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  align-items: center;
+}
+
+.RGadminPannelLeftDivBoxex {
+  height: 170px;
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: justify;
+}
+
+.RGadminPannelLeftDivBoxex:hover {
+  transform: scale(1.02);
+  /* background-color: #ffebef; */
+  background-color: rgb(10,178,189);
+  color: white;
+}
+
+.RGadminPannelLeftDivBoxex > div > h4 {
+  margin-top: 1%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.RGadminPannelLeftDivBoxex > div > p {
+  margin-top: 0%;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.RGadminPannelSpan {
+  color: #ef4c23;
+}

@@ -1,0 +1,310 @@
+.mainLeadform {
+    width: 100%;
+    height: 735px;
+    position: relative;
+  }
+  .backgroundDiv {
+    width: 100%;
+    height: 50%;
+    background-color: #fcdbd3;
+  }
+  .contectSection {
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    box-shadow: 0px 0px 5px 0px rgb(236 234 234);
+  
+    justify-content: space-between;
+    /* background: teal; */
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    /* padding: 25px; */
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+  }
+  
+  .formHeader {
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+  }
+  .formHeader > h5 {
+    font-size: 18px;
+  }
+  
+  .addressSection {
+    width: 40%;
+    padding: 20px;
+    position: relative;
+  }
+  .addressSection > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+  }
+  .addressSection > div {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  
+    width: 100%;
+  }
+  .addressSection > h1 {
+    color: #ef4c23;
+  }
+  
+  .mailAddress {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    column-gap: 5%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .mailAddress:hover {
+    transform: scale(1.01);
+  }
+  .iconDiv{
+    width: 15%;
+  }
+  .mailtextDiv{
+    width: 70%;
+  }
+  
+  /* .mailAddress:hover {
+    background-color: rgb(192, 188, 188);
+   
+  } */
+  
+  .mailAddress > div > p {
+    margin: 0;
+    font-size: 15px;
+    color: black;
+  }
+  .mailAddress > div > h3 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+  }
+  .mailIcon {
+    font-size: 38px;
+    color: black;
+  }
+  
+  .assistanceSection {
+    width: 70%;
+    margin-top: 30px;
+    text-align: center;
+    margin: 45px auto;
+    color: white;
+  }
+  .assistanceSection > ul > li {
+    list-style-type: disc;
+    color: white;
+    text-align: left;
+  }
+  
+  .popupformPart {
+    width: 100%;
+    
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .popupformSection {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 30px;
+  }
+  
+  .popupinputWithIcon {
+    box-sizing: border-box;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    column-gap: 1%;
+    border-bottom: 2px solid rgb(164, 160, 160);
+  }
+  .classIcon {
+    width: 5%;
+  }
+  
+  .popupformIcon {
+    color: black;
+  }
+  .popupinputPart {
+    width: 85%;
+    box-sizing: border-box;
+    border: none;
+    /* color: #ef4c23; */
+    color: black;
+  
+    background: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .popupinputPart::placeholder {
+    color: #ef4c23;
+    color: black;
+  
+    font-weight: 500;
+  }
+  .phoneNumber::placeholder {
+    color: #ef4c23;
+    color: black;
+  
+    font-weight: 500;
+  }
+  .whatsapp::placeholder {
+    font-weight: 500;
+    color: #ef4c23;
+    color: black;
+  }
+  .messagePart::placeholder {
+    font-weight: 500;
+    color: #ef4c23;
+    color: black;
+  }
+  
+  .popupphoneClass {
+    width: 15%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;
+  }
+  
+  .popupcountryCode {
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: none;
+    padding: 10px 0;
+    font-weight: 500;
+    color: #ef4c23;
+    color: black;
+  
+    outline: none;
+    border: none;
+  }
+  
+  .popupphoneNumber {
+    width: 33%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ef4c23;
+    color: black;
+  
+    border: none;
+    background: none; 
+    /* color: white; */
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(164, 160, 160);
+  }
+  
+  .popupselectClass {
+    width: 49%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgb(164, 160, 160);
+  }
+  .popupselectPart {
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 16px;
+    /* color: rgb(125, 118, 118); */
+    background: none;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    color: #ef4c23;
+    color: black;
+  }
+  .whatsapp {
+    width: 49%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: #ef4c23;
+    color: black;
+  
+    background: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(164, 160, 160);
+  }
+  
+  .popuptextareaClass {
+    width: 100%;
+  }
+
+  .popupformMessageIcon {
+    margin-right: 5px;
+    color: #ef4c23;
+    color: black;
+  }
+  .popupmessagePart {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: #ef4c23;
+    color: black;
+  
+    background: #f2f2f2;
+  
+    outline: none;
+    font-size: 16px;
+    padding: 10px 7px;
+    border-bottom: 2px solid rgb(164, 160, 160);
+  }
+
+  .popuptextareaClass > label {
+    color: #ef4c23;
+    color: black;
+  
+    font-weight: 500;
+  }
+  .popupformSection strong {
+    color: #ef4c23;
+    color: black;
+  }
+  
+  .popuprobotCaptcha {
+    display: flex;
+    justify-content: center;
+  }
+  .popuprobotCaptcha input {
+    padding: 7px 30px;
+    font-size: 17px;
+    background-color: #ef4c23;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    /* border: 2px solid #ef4c23; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .popuprobotCaptcha input:hover {
+    /* border: 2px solid #ef4c23; */
+    color: #ef4c23;
+    background-color: white;
+  }
+  

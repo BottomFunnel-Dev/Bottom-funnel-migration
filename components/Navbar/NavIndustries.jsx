@@ -2,7 +2,6 @@ import React from "react";
 import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
 import Image from "next/image";
-import Link from "next/link";
 import { industries, ondemand } from "../../Data/Navbar";
 export const NavIndustries = ({
   solHoverIn,

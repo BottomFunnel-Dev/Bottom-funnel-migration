@@ -39,7 +39,7 @@
   padding: 10px 10px 10px 10px;
   gap: 10px;
   margin-left: 8%;
-  height: 200px;
+  height: 180px;
   width: 35%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -57,14 +57,25 @@
 }
 
 .pharmacyadminright > div > h3 {
+  /* border: 1px solid red; */
   font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+  margin-top: 4%;
+  margin-bottom: 0%;
+}
+
+.pharmacyadminright > div > p {
+  /* border: 1px solid red; */
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.6px;
 }
 
 .pharmacyAdminImage {
   width: 80%;
   height: 500px;
   text-align: right;
-
   margin-left: 10%;
   padding-bottom: 5px;
 }
