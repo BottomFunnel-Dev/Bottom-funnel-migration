@@ -46,7 +46,7 @@ export default function AppBuilderCreate() {
 
       <div className={styles.appbuildercreaterightbox}>
         <Image
-          src={"/Images/Appbuildersolutions/Bannersbackgrounds/Group 340139.png"}
+          src={"/Images/Appbuildersolutions/Bannersbackgrounds/Group 340139.webp"}
           alt={"mobile"}
           width={"0"}
           height={"0"}
