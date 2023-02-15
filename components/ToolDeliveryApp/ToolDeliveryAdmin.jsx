@@ -1,17 +1,17 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
+import Image from "next/image";
+import React, { useState } from "react";
 import styles from "./ToolDeliveryAdmin.module.css";
 
-export const ToolDeliveryAdmin = () => {
+function ToolDeliveryAdmin() {
   let ToolDeliveryadmindata = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/control business admin panel.png",
+        src: "/Images/tooldeliveryapp/control business admin panel.webp",
         alt: "Marketimage",
       },
 
       icon: {
-        src: "/Images/tooldeliveryapp/pie-chart.png",
+        src: "/Images/tooldeliveryapp/pie-chart.webp",
         alt: "Buisness Control",
       },
 
@@ -21,11 +21,11 @@ export const ToolDeliveryAdmin = () => {
 
     {
       img: {
-        src: "/Images/tooldeliveryapp/Reports & analytics.png",
+        src: "/Images/tooldeliveryapp/Reports & analytics.webp",
         alt: "Report and analytics",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/Analytics & insights.png",
+        src: "/Images/tooldeliveryapp/Analytics & insights.webp",
         alt: "Reports Analytics",
       },
       title: "Report Analytics",
@@ -33,24 +33,23 @@ export const ToolDeliveryAdmin = () => {
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/Manage Payment.png",
+        src: "/Images/tooldeliveryapp/Manage Payment.webp",
         alt: "Manage Payments image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/rupee.png",
+        src: "/Images/tooldeliveryapp/rupee.webp",
         alt: "Manage Payments",
       },
       title: "Manage Payments",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
-
     },
     {
       img: {
-        src: "/Images/tooldeliveryapp/manage customers.png",
+        src: "/Images/tooldeliveryapp/manage customers.webp",
         alt: "manage Customer image",
       },
       icon: {
-        src: "/Images/tooldeliveryapp/manage customer.png",
+        src: "/Images/tooldeliveryapp/manage customer.webp",
         alt: "Customer logo",
       },
       title: "Manage Customer",
@@ -74,7 +73,8 @@ export const ToolDeliveryAdmin = () => {
                 className={`tools-box-${idx}`}
               >
                 <div className={styles.toolsLogo}>
-                  <Image src={icon.src}
+                  <Image
+                    src={icon.src}
                     alt={icon.alt}
                     width={"0"}
                     height={"0"}
@@ -84,7 +84,8 @@ export const ToolDeliveryAdmin = () => {
                 </div>
                 <h3> {title} </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+                  quis eum ev
                 </p>
               </div>
             );
@@ -106,4 +107,6 @@ export const ToolDeliveryAdmin = () => {
       </div>
     </div>
   );
-};
+}
+
+export default ToolDeliveryAdmin;

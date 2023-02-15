@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Logisticwhy.module.css";
+import Image from "next/image";
 
 export default function Logisticwhy() {
   return (
@@ -26,7 +27,14 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/agile.png" alt="image"/>{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/agile.webp"}
+                    alt={"image"}
+                  />
               </div>
               <h5>Agile Development Process </h5>
             </div>
@@ -41,7 +49,14 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/privatefolder.png" alt="image"/>{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/privatefolder.webp"}
+                    alt={"image"}
+                  />
               </div>
               <h5> Data security and protection</h5>
             </div>
@@ -56,7 +71,14 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/deliverytime.png" alt="image"/>{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/deliverytime.webp"}
+                    alt={"image"}
+                  />
               </div>
               <h5> Round-the-clock support </h5>
             </div>
@@ -71,7 +93,14 @@ export default function Logisticwhy() {
           <div className={styles.szagiledive}>
             <div className={styles.szagile}>
               <div className={styles.szprocess}>
-                <img src="Images/logistic/Quality.png" alt="image"/>{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/Quality.webp"}
+                    alt={"image"}
+                  />
               </div>
               <h5> Quality development </h5>
             </div>

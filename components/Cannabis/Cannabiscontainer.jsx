@@ -19,7 +19,7 @@ export default function Cannabiscontainer() {
       </div>
 
       <div className={styles.CannabisContainerAnimationDiv}>
-        <Player
+        <Player className={styles.cannabisContainerBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './telecommunicationsHeader.module.css';
+import Image from 'next/image';
 
 export const TelecommunicationsHeader = () => {
   return (
@@ -14,7 +15,14 @@ export const TelecommunicationsHeader = () => {
 
       <div className={styles.telecommunicationsHeaderRightDivForImg}>
         <div className={styles.telecommunicationsHeaderRightImg}>
-          <img src="/Images/Telecommunication/Background/Frame1.png" alt="images" />
+             <Image
+                  src={"/Images/Telecommunication/Frame1.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
       </div>
     </div>

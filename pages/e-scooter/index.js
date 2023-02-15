@@ -8,42 +8,6 @@ import { EscooterKeyAreaAgain } from "../../components/Escooter/EscooterKeyAreaA
 import { EscooterAdminpannel } from "../../components/Escooter/EscooterAdminpannel";
 import { Escooterhardware } from "../../components/Escooter/Escooterhardware";
 
-import dynamic from "next/dynamic";
-const TextDropdown = dynamic(
-  () => import("../../components/CommonComponents/faqSection/Faqs"),
-  { loading: "loading..." },
-);
-const OndemandSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: "loading..." },
-);
-const PlanProject = dynamic(
-  () => import("../../components/CommonComponents/PlanProject/PlanProject"),
-  { loading: "loading..." },
-);
-const SeoblogSection = dynamic(
-  () => import("../../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: "loading..." },
-);
-const StoriesSection = dynamic(
-  () =>
-    import("../../components/CommonComponents/StoriesSection/StoriesSection"),
-  { loading: "loading..." },
-);
-const Revamping = dynamic(
-  () => import("../../components/revamping/Revamping"),
-  { loading: "loading..." },
-);
-const ContectForm = dynamic(
-  () => import("../../components/CommonComponents/ContectForm/ContectForm"),
-  { loading: "loading..." },
-);
-const MainFooter = dynamic(
-  () => import("../../components/CommonComponents/FooterSection/MainFooter"),
-  { loading: "loading..." },
-);
-import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 
 export default function Escooter() {
@@ -60,15 +24,6 @@ export default function Escooter() {
         />
       </Head>
 
-      <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "black",
-          logo: true,
-        }}
-      />
       <Escootersection />
       <Escooterstealing />
       <Escooterthunder />
@@ -76,17 +31,6 @@ export default function Escooter() {
       <EscooterKeyAreaAgain />
       <EscooterAdminpannel />
       <Escooterhardware />
-
-      <StoriesSection />
-      {/* <Industries /> */}
-      <PlanProject />
-      <OndemandSection />
-      {/* <PortFolio /> */}
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
-      <MainFooter />
     </div>
   );
 }

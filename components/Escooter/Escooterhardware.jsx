@@ -1,22 +1,23 @@
 import React from 'react';
 import styles from "./Escooterhardware.module.css";
+import Image from 'next/image';
 
 export const Escooterhardware = () => {
   const hardware = [
     {
-      img: "/Images/Escooter/MapMarker.png",
+      img: "/Images/Escooter/MapMarker.webp",
       p: "GPS"
     },
     {
-      img: "/Images/Escooter/Recharge Battery.png",
+      img: "/Images/Escooter/Recharge Battery.webp",
       p: " Battery Meter"
     },
     {
-      img: "/Images/Escooter/Gear.png",
+      img: "/Images/Escooter/Gear.webp",
       p: "Maintenance sensor"
     },
     {
-      img: "/Images/Escooter/Notification.png",
+      img: "/Images/Escooter/Notification.webp",
       p: "Alarm"
     },
   ]
@@ -25,7 +26,14 @@ export const Escooterhardware = () => {
       <div className={styles.szescooterhardwaresub}>
         <div className={styles.szescooterhardwareleft}>
           <div className={styles.szescooterhardwarscooter}>
-            <img src="/Images/Escooter/escooters.png" alt='imagescycle' />
+              <Image
+                  src={"/Images/Escooter/escooters.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                  />
           </div>
         </div>
         <div className={styles.szescooterhardwareright}>
@@ -39,7 +47,14 @@ export const Escooterhardware = () => {
                   <div className={styles.szhardwaregpsdiv}>
 
                     <div className={styles.szgpsimages}>
-                      <img src={item.img} alt="image" />
+                      <Image
+                        src={item.img}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                     <p>{item.p}</p>
 

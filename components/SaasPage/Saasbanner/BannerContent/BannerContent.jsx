@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./BannerContent.module.css";
+import Image from "next/image";
 
 export const BannerContent = () => {
   return (
@@ -16,10 +17,15 @@ export const BannerContent = () => {
         <button>Request a proposal</button>
       </div>
       <div className={styles.saasBannerContentImage}>
-        <img
-          src="Images/saasPhotos/saas-vector.jpeg"
-          alt="Saas App Development"
-        />
+            <Image
+                src={"/Images/saasPhotos/saas-vector.jpeg"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+       
       </div>
     </div>
   );

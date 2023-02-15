@@ -33,7 +33,9 @@
 
 .SaasValuableImages {
   width: 30%;
+  height: 300px;
   text-align: left;
+  /* border: 2px solid red; */
 }
 
 .SaasValuableFunnelImage {
@@ -43,11 +45,3 @@
   transform: rotateY(180deg);
 }
 
-.SaasValuableFunnelImage > img {
-  width: 200%;
-  height: 100%;
-}
-
-.SaasValuableImages > img {
-  height: 300px;
-}

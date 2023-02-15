@@ -2,14 +2,17 @@ import Image from "next/image";
 import React from "react";
 import styles from "./ToolDeliveryService.module.css";
 
-const ToolDeliveryService = () => {
+function ToolDeliveryService() {
   return (
     <div className={styles.tddeliveryservice}>
       <div className={styles.tddeliveryservicesub}>
         <div className={styles.tddeliverypara}>
           <h2> Delivery Service App Solution</h2>
 
-          <p> Expand Your Business With A Tool Delivery Service App Solution </p>
+          <p>
+            {" "}
+            Expand Your Business With A Tool Delivery Service App Solution{" "}
+          </p>
         </div>
 
         <div className={styles.tddeliveryservicediv}>
@@ -17,7 +20,7 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image src={"/Images/pharmacy/Timetracking.png"}
+                  <Image src={"/Images/pharmacy/Timetracking.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -43,7 +46,7 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image src={"/Images/pharmacy/payment option.png"}
+                  <Image src={"/Images/pharmacy/payment option.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -68,7 +71,7 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image src={"/Images/pharmacy/reports analytics.png"}
+                  <Image src={"/Images/pharmacy/reports analytics.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -96,7 +99,7 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image src={"/Images/pharmacy/Manage orders.png"}
+                  <Image src={"/Images/pharmacy/Manage orders.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -121,7 +124,7 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image src={"/Images/pharmacy/ROI.png"}
+                  <Image src={"/Images/pharmacy/ROI.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -146,7 +149,7 @@ const ToolDeliveryService = () => {
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
-                  <Image src={"/Images/pharmacy/Promote business.png"}
+                  <Image src={"/Images/pharmacy/Promote business.webp"}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
@@ -171,6 +174,6 @@ const ToolDeliveryService = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ToolDeliveryService;

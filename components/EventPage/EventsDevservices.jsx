@@ -1,15 +1,23 @@
 import React from "react";
 import styles from "./eventsdevservices.module.css";
+import Image from "next/image";
 
 export const EventsDevservices = () => {
   return (
     <div className={styles.eventsdevservices}>
       <div className={styles.eventsdevserviceImage}>
         <div className={styles.eventsbackImage}>
-          <img src="/Images/Eventpage/eventserviceback.png" alt="images" />
+              <Image
+                  src={"/Images/Eventpage/eventserviceback.webp"}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
         </div>
         <div className={styles.eventstopImage}>
-          <img src="/Images/Eventpage/eventservicetop.png" alt="images" />
+          <img src="/Images/Eventpage/eventservicetop.webp" alt="images" />
         </div>
       </div>
       <div className={styles.eventsdevserviceText}>

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import styles from "./EscooterAdminpannel.module.css";
+import Image from 'next/image';
+
 export const EscooterAdminpannel = () => {
 
-    const [imageChange, setImageChange] = useState("/Images/Escooterchanges/Admin screens/Dahboard.png")
+    const [imageChange, setImageChange] = useState("/Images/Escooterchanges/Admin screens/Dahboard.webp")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
     }
@@ -11,20 +13,20 @@ export const EscooterAdminpannel = () => {
         {
             adminheadtxt: "Daily Statistics",
             adminsmalltxt: "The global popularity of motor scooters dates from the post-World War II introductions of the Vespa and Lambretta models in Italy. These scooters were intended to provide economical personal transportation (engines fro have been developed for Western markets.",
-            adminpannelscreen: "/Images/Escooterchanges/Admin screens/Dahboard.png",
+            adminpannelscreen: "/Images/Escooterchanges/Admin screens/Dahboard.webp",
         },
 
 
         {
             adminheadtxt: "Sales & Earnings Reports",
             adminsmalltxt: "The earnings report is the predominant method for a publicly-traded company to report its financial results for a specific period. Investors can use a company's earnings report to gain insight into how well a company is run and whether the company is performing well.",
-            adminpannelscreen: "/Images/Escooterchanges/Admin screens/ba405ca238c71e8e88574ce0c5b057f7.png",
+            adminpannelscreen: "/Images/Escooterchanges/Admin screens/ba405ca238c71e8e88574ce0c5b057f7.webp",
         },
 
         {
             adminheadtxt: "Customer Details",
             adminsmalltxt: "When you work in customer success, your days might be filled with emails, phone calls, and meetings, but those tasks aren't what defines your career. After all, you weren't hired to answer a phone -- you were hired to help customers succeed by solving problems.",
-            adminpannelscreen: "/Images/Escooterchanges/Admin screens/7f09e3adfac27a27718fa9bc5757b13a.png",
+            adminpannelscreen: "/Images/Escooterchanges/Admin screens/7f09e3adfac27a27718fa9bc5757b13a.webp",
         },
     ]
 
@@ -34,7 +36,14 @@ export const EscooterAdminpannel = () => {
             <h1 className={styles.colorescooty}>Admin Pannel</h1>
             <div className={styles.escooteradminpannelmainboxes}>
                 <div className={styles.escooteradminpannelboxleftside}>
-                    <img src={imageChange} alt='image' />
+                    <Image
+                        src={imageChange}
+                        alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
+                        />
                 </div>
 
                 <div className={styles.escooteradminpannelboxrighttside}>

@@ -1,7 +1,7 @@
 .ContactAboveNavbarMain {
   height: 30px;
   width: 100%;
-  background-color: transparent;
+  background-color: white;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -57,7 +57,7 @@
   text-decoration: none;
   margin: 0px;
   padding: 0px;
-
+color: black;
   font-size: 14px;
 }
 
@@ -83,6 +83,7 @@
   width: fit-content;
   height: fit-content;
   cursor: pointer;
+  color: black;
 }
 
 

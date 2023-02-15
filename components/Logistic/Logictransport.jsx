@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Logictransport.module.css";
+import Image from "next/image";
 
 export default function Logictransport() {
   return (
@@ -22,7 +23,14 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/delivery food.png" alt="image" />{" "}
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/delivery food.webp"}
+                    alt={"image"}
+                  />
                 </div>
                 <h5>Shipping Logistics Management Software Development </h5>
               </div>
@@ -39,7 +47,14 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/sourcecode.png" alt="image" />{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/sourcecode.webp"}
+                    alt={"image"}
+                  />
                 </div>
                 <h5>Fleet Management Software Development</h5>
               </div>
@@ -56,7 +71,14 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/Document Delivery.png" alt="image" />{" "}
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/Document Delivery.webp"}
+                    alt={"image"}
+                  />
                 </div>
                 <h5>Telematics Software Development</h5>
               </div>
@@ -75,7 +97,14 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/time 1.png" alt="images" />{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/time 1.webp"}
+                    alt={"image"}
+                  />
                 </div>
                 <h5>Asset Tracking Software Development</h5>
               </div>
@@ -91,7 +120,14 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/searchbrowser.png" alt="image" />{" "}
+                  <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/searchbrowser.webp"}
+                    alt={"image"}
+                  />
                 </div>
                 <h5>Transportation Management Software Development</h5>
               </div>
@@ -108,7 +144,14 @@ export default function Logictransport() {
             <div className={styles.szship}>
               <div className={styles.szshipping}>
                 <div className={styles.delivery}>
-                  <img src="Images/logistic/Procurement.png" alt="image" />{" "}
+                 <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "fit-content", height: "50px" }}
+                    src={"/Images/logistic/Procurement.webp"}
+                    alt={"image"}
+                  />
                 </div>
                 <h5>Logistics and Freight Management Development</h5>
               </div>

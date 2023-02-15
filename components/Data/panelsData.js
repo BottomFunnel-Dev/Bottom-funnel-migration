@@ -115,11 +115,11 @@ export const logisticAdmin = {
   admindata: [
     {
       img: {
-        src: "/Images/logistic/Dashboard.png",
+        src: "/Images/logistic/Dashboard.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/logistic/Dashboard Layout.png",
+        src: "/Images/logistic/Dashboard Layout.webp",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -127,11 +127,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/assets.png",
+        src: "/Images/logistic/assets.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/logistic/Dividends.png",
+        src: "/Images/logistic/Dividends.webp",
         alt: "Schedule logo",
       },
       title: "Assets",
@@ -139,11 +139,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/history.png",
+        src: "/Images/logistic/history.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/logistic/Order History.png",
+        src: "/Images/logistic/Order History.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "History",
@@ -151,11 +151,11 @@ export const logisticAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/tracking (2).png",
+        src: "/Images/logistic/tracking (2).webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/logistic/Tracking.png",
+        src: "/Images/logistic/Tracking.webp",
         alt: "Track Order logo",
       },
       title: "Tracking",
@@ -164,7 +164,7 @@ export const logisticAdmin = {
   ],
 
   sectionTitle: "Admin Panel",
-  background: "/public/Images/logistic/plane triangle.png",
+  background: "/public/Images/logistic/plane triangle.webp",
 };
 
 export const foodDeliveryCustomer = {
@@ -175,8 +175,8 @@ export const foodDeliveryCustomer = {
         alt: "Register image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: " Register logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping.png",
+        alt: " image",
       },
       title: "Can be easily accessed through both android/iOS",
       para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
@@ -187,8 +187,8 @@ export const foodDeliveryCustomer = {
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Schedule logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+        alt: "image",
       },
       title: "User-friendly interface",
       para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
@@ -199,8 +199,8 @@ export const foodDeliveryCustomer = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Multiple Payment Option logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-1.png",
+        alt: "image",
       },
       title: "Order food and track their service",
       para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
@@ -211,8 +211,8 @@ export const foodDeliveryCustomer = {
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+        alt: "image",
       },
       title: "Smart search and add-to-your-favorites list",
       para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
@@ -231,8 +231,8 @@ export const foodDeliveryDrive = {
         alt: "Register image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: " Register logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-8.png",
+        alt: "image",
       },
       title: "Can be easily accessed through both android/iOS",
       para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
@@ -242,8 +242,8 @@ export const foodDeliveryDrive = {
         src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-1.webp",
         alt: "Schedule",
       },
-      icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+       icon: {
+        src: "/Images/PlantBasedMeat/icons/prototyping-4.png",
         alt: "Schedule logo",
       },
       title: "User-friendly interface",
@@ -255,8 +255,8 @@ export const foodDeliveryDrive = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Multiple Payment Option logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-9.png",
+        alt: "image",
       },
       title: "Order food and track their service",
       para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
@@ -267,8 +267,8 @@ export const foodDeliveryDrive = {
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+        alt: "image",
       },
       title: "Smart search and add-to-your-favorites list",
       para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
@@ -287,8 +287,8 @@ export const foodDeliveryAdmin = {
         alt: "Register image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: " Register logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-10.png",
+        alt: "image",
       },
       title: "Manage Offers & Discounts",
       para: "Partners can give secial offers and discounts to increase their customer base and earn their loyalty..",
@@ -299,8 +299,8 @@ export const foodDeliveryAdmin = {
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Schedule logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+        alt: "image",
       },
       title: "Menu category and Order Managerment",
       para: "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
@@ -311,7 +311,7 @@ export const foodDeliveryAdmin = {
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
         alt: "Multiple Payment Option logo",
       },
       title: "Chat Support",
@@ -323,8 +323,8 @@ export const foodDeliveryAdmin = {
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
-        alt: "Track Order logo",
+        src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+        alt: "image",
       },
       title: "Custom Alerts",
       para: "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
@@ -792,7 +792,7 @@ export const wellnessPatient = {
   customerdata: [
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/Four.jpg",
+        src: "/Images/WellnessDevApp/PatientScreens/Four.webp",
         alt: "FindDoctor",
       },
       title: "Find a Doctor",
@@ -800,7 +800,7 @@ export const wellnessPatient = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/Three.jpg",
+        src: "/Images/WellnessDevApp/PatientScreens/Three.webp",
         alt: "Appointments",
       },
       title: "Easy Appointments",
@@ -808,7 +808,7 @@ export const wellnessPatient = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/Two.jpg",
+        src: "/Images/WellnessDevApp/PatientScreens/Two.webp",
         alt: "Doctor's Details",
       },
       title: "Doctor's Details",
@@ -817,7 +817,7 @@ export const wellnessPatient = {
 
     {
       img: {
-        src: "Images/WellnessDevApp/PatientScreens/One.jpg",
+        src: "/Images/WellnessDevApp/PatientScreens/One.webp",
         alt: "LiveChat",
       },
       title: "In App live Chat",
@@ -826,14 +826,14 @@ export const wellnessPatient = {
   ],
   sectionTitle: "Patient App",
 
-  background: "/Images/WellnessDevApp/Banners/banner2.png",
+  background: "/Images/WellnessDevApp/Banners/banner2.webp",
 };
 
 export const wellnessAdmin = {
   customerdata: [
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/Four.png",
+        src: "/Images/WellnessDevApp/AdminScreens/Four.webp",
         alt: "FindDoctor",
       },
       title: "Driver's Profile",
@@ -841,7 +841,7 @@ export const wellnessAdmin = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/Three.png",
+        src: "/Images/WellnessDevApp/AdminScreens/Three.webp",
         alt: "Appointments",
       },
       title: "Daily Earnings and Reports",
@@ -849,7 +849,7 @@ export const wellnessAdmin = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/Two.png",
+        src: "/Images/WellnessDevApp/AdminScreens/Two.webp",
         alt: "Doctor's Details",
       },
       title: "Cutomer Order Details",
@@ -858,7 +858,7 @@ export const wellnessAdmin = {
 
     {
       img: {
-        src: "Images/WellnessDevApp/AdminScreens/One.png",
+        src: "/Images/WellnessDevApp/AdminScreens/One.webp",
         alt: "LiveChat",
       },
       title: "Track Order",
@@ -867,14 +867,14 @@ export const wellnessAdmin = {
   ],
   sectionTitle: "Admin Panel",
 
-  background: "/Images/WellnessDevApp/Banners/banner2.png",
+  background: "/Images/WellnessDevApp/Banners/banner2.webp",
 };
 
 export const wellnessDoctor = {
   customerdata: [
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/Four.png",
+        src: "/Images/WellnessDevApp/DoctorScreens/Four.webp",
         alt: "DoctorProfile",
       },
       title: "Doctor's Profile",
@@ -882,7 +882,7 @@ export const wellnessDoctor = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/Three.png",
+        src: "/Images/WellnessDevApp/DoctorScreens/Three.webp",
         alt: "Appointments",
       },
       title: "Appointments Management",
@@ -890,7 +890,7 @@ export const wellnessDoctor = {
     },
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/Two.png",
+        src: "/Images/WellnessDevApp/DoctorScreens/Two.webp",
         alt: "PatientRecord",
       },
       title: "Patient Record",
@@ -899,7 +899,7 @@ export const wellnessDoctor = {
 
     {
       img: {
-        src: "Images/WellnessDevApp/DoctorScreens/One.png",
+        src: "/Images/WellnessDevApp/DoctorScreens/One.webp",
         alt: "Prescription",
       },
       title: "Prescription",
@@ -908,7 +908,7 @@ export const wellnessDoctor = {
   ],
   sectionTitle: "Admin Panel",
 
-  background: "/Images/WellnessDevApp/Banners/banner2.png",
+  background: "/Images/WellnessDevApp/Banners/banner2.webp",
 };
 
 export const datingCustomer = {

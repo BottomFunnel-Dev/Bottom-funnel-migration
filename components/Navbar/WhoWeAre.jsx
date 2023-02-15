@@ -8,7 +8,6 @@ export const WhoWeAre = ({
   homeHoverIn,
   homeHoverOut,
   scroll,
-  productMount,
 }) => {
   const router = useRouter()
   return (
@@ -16,7 +15,7 @@ export const WhoWeAre = ({
       onMouseEnter={()=>{homeHoverIn("about",true)}}
       onMouseLeave={()=>{homeHoverOut("",false)}}
       className={whowe.aboutNavVisible}
-      style={{ top: scroll || productMount.navMount ? "68px" : "98px" }}
+      style={{ top: scroll ? "68px" : "98px" }}
     >
       <div className={whowe.aboutDropdownSection}>
         <div className={whowe.aboutDropdownContent}>

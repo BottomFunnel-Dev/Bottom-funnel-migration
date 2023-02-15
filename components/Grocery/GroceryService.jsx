@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from "./GroceryService.module.css";
+import Image from "next/image";
 
 export const GroceryService = () => {
     const [imageChange, setImageChange] = useState("/Images/icecreamchanges/driver app/Profile.png")
@@ -13,7 +14,6 @@ export const GroceryService = () => {
             headertext: "Track My Order",
             paragraph: "In Contrast,manual order tracking system rely on human input and are typically seen in smaller or mid-sized business that handle fewer orders each day.At the most basic level,this often involves manually entering each new order into a database so that it can be tracked throughout the fulfilment process.",
         },
-
 
         {
             image: "/Images/grocery/Service professionals app/Manage My Cart.png",
@@ -31,7 +31,6 @@ export const GroceryService = () => {
             image: "/Images/grocery/Service professionals app/Various Filters.png",
             headertext: "Various Filters",
             paragraph: "As online stores grow and get more sophisticated new ways of guiding customers need to be added.A simple product filter might not be enough.In these cases faceted navigation can help.faceted navigation looks kind of like a filter system."
-
         },
     ]
 
@@ -39,11 +38,17 @@ export const GroceryService = () => {
     return (
         <div className={styles.groceryservicemainboxes}>
 
-            <h2>Driver App</h2>
+            <h2> Driver App </h2>
             <div className={styles.groceryserviceflexingbox}>
                 <div className={styles.groceryserviceflexingboxleftbox}>
                     <div className={styles.groceryseryserviceleftboxinsiderupperimage}>
-                        <img src={imageChange} alt='images' />
+                        <Image src={imageChange}
+                            alt={'images'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
 
@@ -55,7 +60,6 @@ export const GroceryService = () => {
                                     handleImageChange(e.image)
                                 }}
                             >
-
                                 <div className={styles.groceryserviceindivisualboxfortext}>
                                     <h4> {e.headertext} </h4>
                                     <p> {e.paragraph} </p>
@@ -64,7 +68,6 @@ export const GroceryService = () => {
                         )
                     })}
                 </div>
-
             </div>
         </div>
     );
