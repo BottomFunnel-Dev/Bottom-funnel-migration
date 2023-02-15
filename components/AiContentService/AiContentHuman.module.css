@@ -1,5 +1,6 @@
 .aicontenthumanmainboxes {
-  height: 100vh;
+  height: 130vh;
+  border: 2px solid yellow;
 }
 
 .aicontenthumantextbox {
@@ -32,13 +33,14 @@
 }
 
 .aicontentdataboxesindividually {
-  max-height: 250px;
+  /* max-height: 250px; */
   width: 28%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   background-color: white;
   padding: 10px;
   border-radius: 10px;
+  /* border: 2px solid yellow; */
 }
 
 .aicontentdataboxesindividually:hover {
@@ -48,7 +50,7 @@
 .aicontenthumanlogobox {
   height: 30%;
   width: 30%;
-
+/* border: 2px solid red; */
   margin: auto;
 }
 
@@ -61,16 +63,17 @@
 .aicontenthumantextboxinner {
   height: 70%;
   width: 100%;
+  /* border: 2px solid green; */
 }
 
 .aicontenthumantextboxinner > h4 {
   text-align: center;
-  margin-top: 0%;
+  /* margin-top: 0%; */
 }
 
 .aicontenthumantextboxinner > p {
   text-align: justify;
-  margin-top: -5%;
+  /* margin-top: -5%; */
 }
 
 /* for mobile screen responsive */
