@@ -10,7 +10,6 @@ export const Pickupadmin = () => {
         alt: "analytics Insights",
       },
 
-
       icon: {
         src: "/Images/pickup/icons/Analytics & insights.png",
         alt: "Analytics & Insights",
@@ -25,6 +24,7 @@ export const Pickupadmin = () => {
         src: "/Images/pickup/adminpanel/deliveryagents.png",
         alt: "deliveryagents",
       },
+
       icon: {
         src: "/Images/pickup/icons/Delivery agents.png",
         alt: "Delivery Agents",
@@ -37,6 +37,7 @@ export const Pickupadmin = () => {
         src: "/Images/pickup/adminpanel/managepayment.png",
         alt: "Manage Payments image",
       },
+
       icon: {
         src: "/Images/pickup/icons/Manage payments.png",
         alt: "Manage Payments",
@@ -50,6 +51,7 @@ export const Pickupadmin = () => {
         src: "/Images/pickup/adminpanel/managecustomer.png",
         alt: "manage Customer image",
       },
+
       icon: {
         src: "/Images/pickup/icons/manage customer.png",
         alt: "Customer logo",
@@ -88,8 +90,8 @@ export const Pickupadmin = () => {
                   />
 
                 </div>
-                <h3>{title}</h3>
-                <p>{para}</p>
+                <h3> {title} </h3>
+                <p> {para} </p>
               </div>
             );
           })}

@@ -1,0 +1,216 @@
+.BigDataServiceBannerMain {
+height: 100vh;
+padding-left: 5%;
+background: url("/Images/BigDataServicePhotos/banner.webp");
+background-size: 110%;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.BigDataServiceBannerMain > h1 {
+font-size: 40px;
+width: 65%;
+margin-bottom: 1%;
+margin-top: 1%;
+margin-bottom: 1%;
+color: whitesmoke;
+}
+.BigDataServiceBannerMain > div {
+width: 40%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BigDataServiceBannerMain > div > div {
+border: 2px solid white;
+width: 25px;
+height: 25px;
+border-radius: 20px;
+}
+.BigDataServiceBannerMain > div > span {
+width: 45%;
+height: 2px;
+background-color: white;
+color: white;
+border: none;
+outline: none;
+border-radius: 2px;
+}
+
+.BigDataServiceBannerMain > p {
+font-size: 20px;
+width: 70%;
+margin-bottom: 1%;
+margin-top: 1%;
+color: whitesmoke;
+}
+.BigDataServiceBannerMain > button {
+font-size: 20px;
+font-weight: 600;
+height: fit-content;
+width: fit-content;
+margin-top: 1%;
+background-color: white;
+color: #ef4c23;
+padding: 10px 50px;
+border-radius: 10px;
+outline: none;
+border: none;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.BigDataServiceBannerMain > button:hover {
+color: white;
+background-color: #ef4c23;
+}
+/* for any type of mobile screen responsives */
+@media only screen and (min-width:0px) and (max-width:480px){
+.BigDataServiceBannerMain {
+height: 100vh;
+padding-left: 5%;
+background: url("/Images/BigDataServicePhotos/banner.jpg");
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.BigDataServiceBannerMain > h1 {
+font-size: 40px;
+width: 100%;
+margin-bottom: 1%;
+color: white;
+font-size: 25px;
+}
+.BigDataServiceBannerMain > div {
+width: 90%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BigDataServiceBannerMain > div > div {
+border: 2px solid white;
+width: 25px;
+height: 25px;
+border-radius: 20px;
+}
+.BigDataServiceBannerMain > div > span {
+width: 45%;
+height: 2px;
+background-color: white;
+color: white;
+border: none;
+outline: none;
+border-radius: 2px;
+}
+.BigDataServiceBannerMain > p {
+font-size: 20px;
+width: 95%;
+margin-bottom: 1%;
+margin-top: 1%;
+text-align: justify;
+color: white;
+}
+.BigDataServiceBannerMain > button {
+font-size: 20px;
+font-weight: 600;
+height: fit-content;
+width: fit-content;
+margin-top: 1%;
+background-color: white;
+color: #ef4c23;
+padding: 10px 20px;
+border-radius: 10px;
+outline: none;
+border: none;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.BigDataServiceBannerMain > button:hover {
+color: white;
+background-color: #ef4c23;
+}
+}
+
+/* for any type of tablet screen responsive */
+@media only screen and ( min-width:481px) and (max-width:900px){
+
+.BigDataServiceBannerMain {
+height: 100vh;
+padding-left: 5%;
+background: url("/Images/BigDataServicePhotos/banner.jpg");
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.BigDataServiceBannerMain > h1 {
+font-size: 40px;
+width: 90%;
+margin-bottom: 1%;
+margin-top: 1%;
+margin-bottom: 1%;
+text-align: center;
+color: white;
+}
+.BigDataServiceBannerMain > div {
+width: 90%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BigDataServiceBannerMain > div > div {
+border: 2px solid white;
+width: 25px;
+height: 25px;
+border-radius: 20px;
+}
+.BigDataServiceBannerMain > div > span {
+width: 45%;
+height: 2px;
+background-color: white;
+color: white;
+border: none;
+outline: none;
+border-radius: 2px;
+}
+.BigDataServiceBannerMain > p {
+font-size: 20px;
+width: 90%;
+margin-bottom: 1%;
+margin-top: 1%;
+text-align: justify;
+color: white;
+}
+.BigDataServiceBannerMain > button {
+font-size: 20px;
+font-weight: 600;
+height: fit-content;
+width: fit-content;
+margin-top: 1%;
+background-color: white;
+color: #ef4c23;
+padding: 10px 50px;
+border-radius: 10px;
+outline: none;
+border: none;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-left: 25%;
+}
+.BigDataServiceBannerMain > button:hover {
+color: white;
+background-color: #ef4c23;
+}
+}

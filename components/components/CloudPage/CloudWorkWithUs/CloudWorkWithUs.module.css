@@ -1,0 +1,77 @@
+.CloudWorkWithUsContainer {
+  width: 90%;
+  margin: 2% auto;
+}
+
+.CloudWorkWithUsContainer > h1 {
+  font-size: 32px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.CloudWorkWithUsContainer > h1 > span {
+  color: #ef4c23;
+}
+
+.CloudWorkWithUsContainer > p {
+  font-size: 18px;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.CloudWorkIconsContainer {
+  width: 80%;
+  margin: 2% auto;
+  padding: 2%;
+  border-radius: 25px;
+  background: #ffd8cf;
+  text-align: center;
+}
+
+.CloudWorkIconsMain {
+  width: 95%;
+  height: fit-content;
+  margin: 1% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CloudWorkIconsMain > div {
+  height: 100%;
+  width: 20%;
+}
+
+.CloudWorkIconsMain > div > img {
+  width: 100%;
+}
+
+.CloudWorkIconsMain > span {
+  height: 100px;
+  width: 2px;
+  color: white;
+  background-color: white;
+}
+
+.CloudWorkWithUsHrLine {
+  width: 30%;
+  margin: 1% 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CloudWorkWithUsHrLine > div {
+  border: 2px solid #ef4c23;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.CloudWorkWithUsHrLine > span {
+  width: 45%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}

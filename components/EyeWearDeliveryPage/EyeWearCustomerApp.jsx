@@ -3,36 +3,36 @@ import React, { useState } from 'react';
 import styles from "./EyeWearCustomerApp.module.css";
 
 export const EyeWearCustomerApp = () => {
-    const [imageChange, setImageChange] = useState("/Images/EyewearDeliveryapp/customerappscreens/onboarding.png")
+    const [imageChange, setImageChange] = useState("/Images/EyewearDeliveryapp/customerappscreens/onboarding.webp")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
     }
 
     const eyewearcustomerappdata = [
         {
-            img: "/Images/EyewearDeliveryapp/customerappscreens/onboarding.png",
-            icon: "/Images/EyewearDeliveryapp/icons/prototyping-2.png",
+            img: "/Images/EyewearDeliveryapp/customerappscreens/onboarding.webp",
+            icon: "/Images/EyewearDeliveryapp/icons/prototyping-2.webp",
             htxt: "Easy App On-Boarding",
             stxt: "On-boarding new users to your app doesn't have to be a pain! With our App, you can easily add new users and get them up-to-speed quickly. We makes it simple to assign tasks, give feedback, and track progress - so you can focus on more important things. Plus, our app has easy interface means that new users will be able to hit the ground running.",
         },
 
         {
-            img: "/Images/EyewearDeliveryapp/customerappscreens/shoppingbag.png",
-            icon: "/Images/EyewearDeliveryapp/icons/prototyping-5.png",
+            img: "/Images/EyewearDeliveryapp/customerappscreens/shoppingbag.webp",
+            icon: "/Images/EyewearDeliveryapp/icons/prototyping-5.webp",
             htxt: "Shoping Bag",
             stxt: "With the Shoping Bag feature in apps, you can now shop for your favourite items easily and conveniently! This feature allows you to keep track of all the items you want to purchase in one place, so you can easily check out and pay for them later.",
         },
 
         {
-            img: "/Images/EyewearDeliveryapp/customerappscreens/specialoffers.png",
-            icon: "/Images/EyewearDeliveryapp/icons/prototyping-3.png",
+            img: "/Images/EyewearDeliveryapp/customerappscreens/specialoffers.webp",
+            icon: "/Images/EyewearDeliveryapp/icons/prototyping-3.webp",
             htxt: "Special Offers & Discounts",
             stxt: "Looking for ways to save on your next purchase? Check out our special offers and discounts page! Here you'll find a variety of deals and promotions that can help you save big on your next order. Whether you're looking for a percentage off your total purchase, free shipping, or a special gift with purchase, we've got you covered.",
         },
 
         {
-            img: "/Images/EyewearDeliveryapp/customerappscreens/cart.png",
-            icon: "/Images/EyewearDeliveryapp/icons/prototyping-4.png",
+            img: "/Images/EyewearDeliveryapp/customerappscreens/cart.webp",
+            icon: "/Images/EyewearDeliveryapp/icons/prototyping-4.webp",
             htxt: "Cart For Your Favourites",
             stxt: "Looking for ways to save on your next purchase? Check out our special offers and discounts page! Here you'll find a variety of deals and promotions that can help you save big on your next order. Whether you're looking for a percentage off your total purchase, free shipping, or a special gift with purchase, we've got you covered.",
         },
@@ -69,7 +69,7 @@ export const EyeWearCustomerApp = () => {
                                             width={"0"}
                                             height={"0"}
                                             sizes={"100vw"}
-                                            style={{ width: "100%", height: "15%" }}
+                                            style={{ width: "100%", height: "100%" }}
                                         />
                                     </div>
 

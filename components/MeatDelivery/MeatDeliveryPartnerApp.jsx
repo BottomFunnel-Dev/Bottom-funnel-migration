@@ -33,7 +33,7 @@ export const MeatDeliveryPartnerApp = () => {
         <div className={styles.meatdeliverypartnerappmainboxes}>
             <div className={styles.meatdeliverypartnerleftbox}>
                 <div className={styles.meatdeliverypartnerleftboxmobilebox}>
-                    <Image src={'/Images/meatdelieveryapp/Group 1331.png'}
+                    <Image src={'/Images/meatdelieveryapp/Group 1331.webp'}
                         alt={'mobile'}
                         width={"0"}
                         height={"0"}

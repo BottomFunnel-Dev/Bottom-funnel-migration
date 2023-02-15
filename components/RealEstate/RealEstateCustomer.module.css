@@ -22,13 +22,13 @@
 .realestatecustomermappingmainbox{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3%;
+    margin-top: 5%;
    
 }
 
 .realstatemapperindivisuallybox{
     width: 48%;
-    height: 170px;
+    max-height: max-content;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     border-radius: 10px;
@@ -45,10 +45,10 @@
 .realestatecustomerrightbox{
     height: 550px;
     width: 45%;
-  
+  margin-top: 5%;
    
     margin-left: 3%;
-    background: url("/Images/RealEstate/Backgrounds/Rectangle 144.png");
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 144.webp");
     background-repeat: no-repeat;
     background-size: 95% 60%;
     background-position-y: bottom;

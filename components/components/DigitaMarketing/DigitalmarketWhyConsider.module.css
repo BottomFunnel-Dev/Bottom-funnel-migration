@@ -1,0 +1,109 @@
+/* for any type of laptop and wide range of screen */
+
+@media only screen and (min-width:769px){
+.digitalmarketwhyconsidermainboxes{
+    height: fit-content;
+ 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flexingboxwhyshouldconsiderdigitalmarket{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: fit-content;
+    margin-left: 20%;
+   
+
+}
+
+.aftermappingflexboxwhychoosemarket{
+    display: flex;
+    height: 60%;
+    width: 30%;
+
+    margin: 2%;
+
+}
+
+.divforimagedigitalmarketwhychoose{
+    height: 80%;
+    width: 50%;
+    padding: 10px;
+   
+  
+}
+
+.divforimagedigitalmarketwhychoose >img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.divforimagedigitalmarketwhychoosetextbox{
+    margin: 2%;
+    text-align: justify;
+}
+
+}
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:376px){
+
+    .digitalmarketwhyconsidermainboxes{
+        height: fit-content;
+     
+        text-align: center;
+ 
+    }
+
+    .digitalmarketwhyconsidermainboxes>h1{
+        font-size: 25px;
+    }
+    
+    .flexingboxwhyshouldconsiderdigitalmarket{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        height: fit-content;
+        margin: auto;
+        
+       
+    
+    }
+    
+    .aftermappingflexboxwhychoosemarket{
+        display: flex;
+        height: 60%;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 2%;
+        padding: 10px;
+        border-radius: 10px;
+    
+    }
+    
+    .divforimagedigitalmarketwhychoose{
+        height: 80%;
+        width: 50%;
+        padding: 10px;
+       
+      
+    }
+    
+    .divforimagedigitalmarketwhychoose >img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .divforimagedigitalmarketwhychoosetextbox{
+        margin: 2%;
+        text-align: justify;
+    }
+.divforimagedigitalmarketwhychoosetextbox>h4{
+    text-align: left;
+}
+}

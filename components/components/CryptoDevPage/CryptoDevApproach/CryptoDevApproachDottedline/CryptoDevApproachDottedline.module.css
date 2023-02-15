@@ -1,0 +1,39 @@
+.CryptoDevApproachContainer {
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevApproachContainer > div:nth-child(1) {
+  height: 100%;
+  width: 5%;
+
+  border: 2px dotted transparent;
+  border-top: 2px dotted gray;
+}
+
+.CryptoDevApproachContainer > div:nth-child(2) {
+  height: 100%;
+  width: 15%;
+
+  border: 2px dotted gray;
+  border-right: 2px dotted transparent;
+  border-left: 2px dotted transparent;
+}
+
+.CryptoDevApproachContainer > div:nth-child(3) {
+  height: 100%;
+  width: 70%;
+
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  border: 2px dotted gray;
+  border-left: 2px dotted transparent;
+}

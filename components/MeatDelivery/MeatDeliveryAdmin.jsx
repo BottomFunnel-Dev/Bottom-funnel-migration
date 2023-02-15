@@ -48,7 +48,7 @@ export const MeatDeliveryAdmin = () => {
             </div>
 
             <div className={styles.meatdeliveryadminrightboxes}>
-                <Image src={'/Images/meatdelieveryapp/Rectangle-1.png'}
+                <Image src={'/Images/meatdelieveryapp/Rectangle-1.webp'}
                     alt={'images'}
                     width={"0"}
                     height={"0"}

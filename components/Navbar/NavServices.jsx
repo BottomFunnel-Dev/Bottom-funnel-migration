@@ -88,7 +88,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -105,15 +105,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
           </div>
 
           <div className={navservice.serviceDropdownContent}>
-            {/* <h5
-              clnavservice"servicenoStyle"
-              onClick={() => {
-                navigate(`/mobile-app-development`);
-                serHoverOut();
-              }}
-            >
-              Mobile App Development
-            </h5> */}
             <Link
               href="mobile-app-development"
               className={navservice.servicenoStyle}
@@ -138,7 +129,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -184,20 +175,14 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
             </Link>
             <div className={navservice.servicelistItems}>
               {digitalmarket.map((item, l) => (
-                // <Link
-                //   to={item.path}
-                //   onClick={serHoverOut}
-                //   className="servicesP"
-                // >
                 <div
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   key={l}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -206,11 +191,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt="image"
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {
@@ -222,7 +202,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                     <p>{item.dropContent}</p>
                   </Link>
                 </div>
-                // </Link>
               ))}
             </div>
           </div>
@@ -241,12 +220,11 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={m}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.servicetrendImageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -255,11 +233,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {
@@ -374,7 +347,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.servicebackendimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -411,12 +384,11 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={j}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -425,11 +397,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {
@@ -454,12 +421,11 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={j}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -468,11 +434,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {
@@ -496,12 +457,11 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={j}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -510,11 +470,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {
@@ -538,12 +493,11 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={j}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div>
+                  <div className={navservice.iconDivSection}>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -552,11 +506,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {

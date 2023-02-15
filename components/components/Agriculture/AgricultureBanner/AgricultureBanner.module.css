@@ -1,0 +1,150 @@
+.agricultureBannerParentDiv {
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+
+.agricultureBannerParentDiv button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.agricultureBannerParentDiv button:hover {
+  color: white;
+  background-color: #9af0b3;
+}
+
+.agricultureMeatBannerContentDiv {
+  width: 50%;
+  margin-top: 3%;
+}
+
+.agricultureMeatBannerContentDiv > h1 > span {
+  color: #9af0b3;
+}
+
+.agricultureBannerImageDiv {
+  width: 65%;
+  margin-top: 5%;
+}
+
+.agricultureBannerImageDiv img {
+  width: 100%;
+  margin-top: 10%;
+}
+
+@media (max-width: 480px) {
+  .agricultureBannerParentDiv {
+    display: flex;
+    height: 100vh;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18%;
+  }
+  
+  .agricultureMeatBannerContentDiv {
+    width: 100%;
+  }
+
+  .agricultureMeatBannerContentDiv > h1 {
+    font-size: 30px;
+  }
+
+  .agricultureMeatBannerContentDiv > h1 > span {
+    color: #9af0b3;
+  }
+
+  .agricultureMeatBannerContentDiv > p {
+    font-size: 15px;
+  }
+
+  .agricultureMeatBannerContentDiv button {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 25%;
+  }
+
+  .agricultureMeatBannerContentDiv button:hover {
+    color: white;
+    background-color: #9af0b3;
+  }
+
+  .agricultureBannerImageDiv {
+    width: 100%;
+    margin-bottom: 0%;
+  }
+
+  .agricultureBannerImageDiv img {
+    width: 100%;
+    margin-top: 8%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .agricultureBannerParentDiv {
+    display: flex;
+    height: 100vh;
+  }
+
+  .agricultureMeatBannerContentDiv {
+    width: 100%;
+  }
+
+  .agricultureMeatBannerContentDiv > h1 {
+    font-size: 30px;
+  }
+
+  .agricultureMeatBannerContentDiv > h1 > span {
+    color: #9af0b3;
+  }
+
+  .agricultureMeatBannerContentDiv > p {
+    font-size: 15px;
+  }
+
+  .agricultureMeatBannerContentDiv button {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #ef4c23;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 25%;
+  }
+
+  .agricultureMeatBannerContentDiv button:hover {
+    color: white;
+    background-color: #9af0b3;
+  }
+
+  .agricultureBannerImageDiv {
+    width: 100%;
+  }
+
+  .agricultureBannerImageDiv img {
+    width: 100%;
+    margin-top: 8%;
+  }
+}

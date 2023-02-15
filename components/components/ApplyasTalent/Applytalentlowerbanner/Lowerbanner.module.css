@@ -1,0 +1,37 @@
+.hiretalentlowerbannermainboxes {
+  height: 40vh;
+  margin-top: 5%;
+  border: 1px solid red;
+  background-color: #ef4c23;
+  background-image: url("/Images/applyastalent/handsTyping.webp");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: contain;
+}
+
+.hiretalentlowerbannersometextbox {
+  width: 40%;
+
+  margin-left: 15%;
+  margin-top: 3%;
+  height: fit-content;
+  color: white;
+  text-align: justify;
+}
+
+.lowerbannerbutton {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: 250px;
+  background-color: white;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ef4c23;
+}
+.lowerbannerbutton:hover {
+  background-color: #ef4c23;
+  color: white;
+}

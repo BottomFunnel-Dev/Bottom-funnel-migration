@@ -129,8 +129,8 @@ export const TaxiOccassion = () => {
                   <p> Safe Rides </p>
                 </div>
               </div>
-
             </div>
+
             <div className={styles.sztaxioccasion3}>
               <div className={styles.szoccassionimage}>
                 <Image src={"/Images/Taxibooking/Component 8.png"}
@@ -186,7 +186,9 @@ export const TaxiOccassion = () => {
                       style={{ width: "100%", height: "100%" }}
                     />{" "}
                   </div>
+
                   <p> Top-Rated Partners </p>
+                  
                 </div>
               </div>
             </div>

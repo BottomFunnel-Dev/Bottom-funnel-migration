@@ -1,0 +1,40 @@
+.cloudeleminatemainboxes{
+    height: fit-content;
+ background-color: white;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.cloudcolored{
+    color: #ef4c23;
+}
+
+.cloudeleminateboxflexingdiv{
+    display: flex;
+
+}
+
+.cloudeleminateboxflexingdivleft{
+    width: 50%;
+    margin-left: 5%;
+ margin-top: 7%;
+    height: fit-content;
+   
+}
+
+.cloudeleminateboxflexingdivleft >p{
+    text-align: justify;
+}
+
+.cloudeleminateboxflexingdivright{
+    height: 400px;
+    width: 45%;
+ 
+
+}
+
+.cloudeleminateboxflexingdivright >img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

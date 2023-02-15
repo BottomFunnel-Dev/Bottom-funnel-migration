@@ -1,0 +1,27 @@
+.discussSection {
+  background-color: #fcdbd3;
+  padding: 50px;
+  width: 93.4%;
+  margin: auto;
+  text-align: center;
+}
+.discussSection > button {
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.discussSection > button:hover {
+  padding: 10px 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #ef4c23;
+  background-color: white;
+}

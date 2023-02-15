@@ -1,0 +1,64 @@
+.EnterpriseSupportingContainer {
+  width: 90%;
+  margin: 3% auto 2% auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EnterpriseSupportingContent {
+  width: 50%;
+}
+
+.EnterpriseSupportingContent > h1 {
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.EnterpriseSupportingContent > h1 > span {
+  color: #ef4c23;
+}
+
+.EnterpriseSupportingContent > p {
+  font-size: 16px;
+  text-align: justify;
+
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.EnterpriseSupporting-hr-line {
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.EnterpriseSupporting-hr-line > div {
+  border: 2px solid #ef4c23;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.EnterpriseSupporting-hr-line > span {
+  width: 46%;
+  height: 2px;
+  background-color: #ef4c23;
+  color: #ef4c23;
+}
+
+.EnterpriseSupportingImage {
+  width: 40%;
+}
+
+.EnterpriseSupportingImage > img {
+  width: 100%;
+}

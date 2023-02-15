@@ -1,0 +1,46 @@
+.digitaltransformationwhymainboxes {
+    height: fit-content;
+}
+
+.digitaltransformationwhyyouneedtextboxupperflex {
+    height: fit-content;
+    width: 95%;
+    margin: 3% 3% 0% 3%;
+    display: flex;
+}
+
+.digitaltransformationwhyyouneedtextboxupperflexleftbox {
+    width: 50%;
+    border-right: 1px solid #ef4c23;
+}
+
+.digitaltransformationwhyyouneedtextboxupperflexrightbox {
+    width: 50%;
+    margin-left: 2%;
+    text-align: justify;
+}
+
+.digitaltransformationdatawhymappingmainbox {
+    height: 300px;
+    width: 80%;
+    margin: 5% 10% 0% 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digitaltransformationdatawhymappingmainboxforlogosvgandtxt {
+    display: flex;
+    width: 50%;
+}
+
+.digitaltransformationdatawhymappingmainboxforlogosvgandtxtsvgonly {
+    color: #ef4c23;
+}
+
+.flexingaftermappingdigitatransformationboxtxt {
+    margin-left: 2%;
+}
+
+.specialcolor {
+    color: #ef4c23;
+}

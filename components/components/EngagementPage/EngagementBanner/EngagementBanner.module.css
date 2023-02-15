@@ -1,0 +1,65 @@
+.engagementBannerContainer {
+  height: 90vh;
+  border-bottom: 8px solid #ef4c23;
+
+  position: relative;
+  z-index: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.engagementBannerMain {
+  width: 60%;
+}
+
+.engagementBannerMain > h1 {
+  font-size: 40px;
+  width: 90%;
+}
+
+.engagementBannerMain > h1 > span {
+  color: #ef4c23;
+}
+
+.engagementBannerMain > hr {
+  width: 90%;
+  margin-left: 0;
+}
+
+.engagementBannerMain > p {
+  font-size: 16px;
+  width: 90%;
+  text-align: justify;
+}
+
+.engagementBannerMain > button {
+  font-size: 20px;
+  font-weight: 600;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 50px;
+  margin-top: 3%;
+  cursor: pointer;
+
+  border: 2px solid #ef4c23;
+  outline: none;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  color: white;
+  background: #ef4c23;
+}
+
+.engagementBannerMain > button:hover {
+  color: #ef4c23;
+  background: white;
+}
+
+.engagementBannerImage {
+  height: 100%;
+  width: fit-content;
+  border-right: 8px solid #ef4c23;
+}
+

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./Pharmacyadmin.module.css";
 
@@ -23,6 +24,7 @@ export default function Pharmacyadmin() {
         src: "/Images/pharmacy/Product overview.png",
         alt: "Product ",
       },
+
       icon: {
         src: "/Images/pharmacy/Product overview icon.png",
         alt: "Product logo",
@@ -30,11 +32,13 @@ export default function Pharmacyadmin() {
       title: "Product Overview",
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
     },
+
     {
       img: {
         src: "/Images/pharmacy/Reports and revenue.png",
         alt: "Revenueimage",
       },
+
       icon: {
         src: "/Images/pharmacy/Revenue & sales icon.png",
         alt: "Revenuelogo",
@@ -43,11 +47,13 @@ export default function Pharmacyadmin() {
       para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
 
     },
+
     {
       img: {
         src: "/Images/pharmacy/Customer management.png",
         alt: "Customer image",
       },
+
       icon: {
         src: "/Images/pharmacy/Customer management icon.png",
         alt: "Customer logo",
@@ -79,24 +85,34 @@ export default function Pharmacyadmin() {
               >
 
                 <div className={styles.pharmacyLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+                  <Image src={icon.src}
+                    alt={icon.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "23%", height: "100%" }}
+                  />
                 </div>
-                <h3>{title}</h3>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev</p>
+                <h3> {title} </h3>
+
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                </p>
               </div>
-
-
             );
           })}
-
         </div>
-        <div className={styles.pharmacyadminleft}>
 
+        <div className={styles.pharmacyadminleft}>
           <div className={styles.pharmacyAdminImage}>
-            <img
+            <Image
               src={Pharmacyadmindata[active].img.src}
               alt={Pharmacyadmindata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}  
             />
           </div>
         </div>

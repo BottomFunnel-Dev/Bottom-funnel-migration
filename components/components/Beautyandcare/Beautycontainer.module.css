@@ -1,0 +1,38 @@
+.beautycontainer {
+display: flex;
+width: 100%;
+height: 713px;
+justify-content: space-around;
+margin: auto;
+background-color: #fcdbd3;
+}
+.mobile {
+margin-top: 4%;
+padding: 30px 30px;
+height: 100%;
+}
+.mobile > img {
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+.beautyleft {
+width: 40%;
+margin-left: 7%;
+margin-top: 15%;
+text-align: left;
+}
+.beautyleft > button {
+background-color: orangered;
+border: none;
+padding: 10px 60px;
+color: white;
+font-weight: 600;
+font-size: 18px;
+border-radius: 25px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.beautyleft > button:hover {
+color: orangered;
+background-color: white;
+}

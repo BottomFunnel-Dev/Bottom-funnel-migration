@@ -1,0 +1,79 @@
+.AIBannerMain {
+  height: 100vh;
+  padding-left: 5%;
+
+  background: url("/Images/AIPhotos/banner.png");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.AIBannerMain > h1 {
+  font-size: 40px;
+  width: 65%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  color: whitesmoke;
+}
+
+.AIBannerMain > p {
+  font-size: 20px;
+  width: 70%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  color: whitesmoke;
+}
+
+.AIBannerMain > button {
+  font-size: 20px;
+  font-weight: 600;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 1%;
+
+  background-color: white;
+  color: #b033a0;
+  padding: 10px 50px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.AIBannerMain > button:hover {
+  color: white;
+  background-color: #b033a0;
+}
+
+.AIBannerHrLine {
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AIBannerHrLine > div {
+  border: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.AIBannerHrLine > span {
+  width: 46%;
+  height: 2px;
+  background-color: #fff;
+  color: #fff;
+}
