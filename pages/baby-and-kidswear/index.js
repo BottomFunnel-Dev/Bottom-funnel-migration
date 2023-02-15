@@ -1,6 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { Customer } from "../../components/KidsWear/KidsCustomerApp/Customer";
+import { KidswearAdmin } from "../../components/KidsWear/KidswearAdminApp/KidswearAdmin";
 
 const KidsWearBanner = dynamic(
   () => import("../../components/KidsWear/KidsWearBanner/KidsWearBanner"),
@@ -12,10 +14,10 @@ const ExclusiveFeature = dynamic(
   { loading: "Loading..." },
 );
 
-const AppFeature = dynamic(
-  () => import("../../components/KidsWear/AppFeature/AppFeature"),
-  { loading: "Loading..." },
-);
+// const AppFeature = dynamic(
+//   () => import("../../components/KidsWear/AppFeature/AppFeature"),
+//   { loading: "Loading..." },
+// );
 
 // const ChooseUs = dynamic(
 //   () => import("../../components/KidsWear/ChooseUs/ChooseUs"),
@@ -41,8 +43,9 @@ export default function Kidswear() {
       <main>
         <KidsWearBanner />
         <ExclusiveFeature />
-        <AppFeature />
-        {/* <ChooseUs /> */}
+       <Customer />
+       <KidswearAdmin />
+      {/*  <ChooseUs /> */}
       </main>
     </div>
   );
