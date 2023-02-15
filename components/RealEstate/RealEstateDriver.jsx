@@ -4,7 +4,7 @@ import styles from "./RealEstateDriver.module.css"
 
 export const RealEstateDriver = () => {
         
-    const [imageChange, setImageChange] = useState("Images/RealEstate/Driver App/Custom Alerts.png")
+    const [imageChange, setImageChange] = useState("Images/RealEstate/Driver App/Custom Alerts.webp")
 
 
     const handleImageChange = (imagepath) => {
@@ -14,26 +14,26 @@ export const RealEstateDriver = () => {
      
   const realstatedriverdata = [
       {
-          image:" Images/RealEstate/Driver App/Custom Alerts.png",
+          image:" Images/RealEstate/Driver App/Custom Alerts.webp",
          htxt: "Custom Alerts",
           stxt:"The partner will get a notification for every new activity related to them on the app which will male them stay updated.",
       },
       {
-          image:" Images/RealEstate/Driver App/Help Desk.png",
+          image:" Images/RealEstate/Driver App/Help Desk.webp",
           htxt:"Help Desk",
           stxt: "It has easy to understand the place and get their details from tourist guys and our this customization app designs give the customer comfort of use to find their trip destination in budget-friendly packages.",
   
       },
   
       {
-          image:" Images/RealEstate/Driver App/Live Chat With Agents.png",
+          image:" Images/RealEstate/Driver App/Live Chat With Agents.webp",
           htxt:"Live Chat with Agents",
           stxt:"This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
   
       },
   
       {
-          image:" Images/RealEstate/Driver App/Filtering & Sorting.png",
+          image:" Images/RealEstate/Driver App/Filtering & Sorting.webp",
           htxt:"Filtering & Sorting",
           stxt:"Sorting and filtering products in Ecommerce can be time-comsuming. That makes it easier than ever to find the right products.",
    
@@ -55,7 +55,7 @@ export const RealEstateDriver = () => {
                   handleImageChange(e.image)
               }}
                 
-              ><h3>{e.htxt}</h3>
+              ><h5>{e.htxt}</h5>
               <p>{e.stxt}</p>
               </div>
           )

@@ -6,25 +6,25 @@ export const Realestatewhychoose = () => {
     const Realestatewhychoose = [
         {
             htxt:"100% Customization",
-            icon:"Images/RealEstate/Icons/Rectangle 133.png",
+            icon:"Images/RealEstate/Icons/Rectangle 133.webp",
             stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
         },
 
         {
             htxt:"Highly Scalable",
-            icon:"Images/RealEstate/Icons/Rectangle 133-2.png",
+            icon:"Images/RealEstate/Icons/Rectangle 133-2.webp",
             stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
         },
 
         {
             htxt:"Dedicated Support",
-            icon:"Images/RealEstate/Icons/Rectangle 133-1.png",
+            icon:"Images/RealEstate/Icons/Rectangle 133-1.webp",
             stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
         },
 
         {
             htxt:"Global Solution",
-            icon:"Images/RealEstate/Icons/Rectangle 133-3.png",
+            icon:"Images/RealEstate/Icons/Rectangle 133-3.webp",
             stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
         },
 

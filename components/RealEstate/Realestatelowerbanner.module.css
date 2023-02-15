@@ -1,7 +1,7 @@
 .realestatelowerbannermainboxes{
     height: 40vh;
     border: 1px solid white;
-    background: url("/Images/RealEstate/Backgrounds/Rectangle 142.png");
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 142.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 3%;
@@ -35,7 +35,7 @@
     font-size: 18px;
     font-weight: 600;
     color: white;
-    margin-top: 2%;
+
 }
 
 .realstatelowerbannerbutton:hover {
