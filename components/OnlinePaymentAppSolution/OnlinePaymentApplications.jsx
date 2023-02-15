@@ -23,7 +23,7 @@ export const OnlinePaymentApplications = () => {
             <div className={styles.onlinepaymentmobileapplicationleftbox}>
 
                 <div className={styles.onlinepaymentmobileapplicationleftboxformobileimage}>
-                    <img src='/Images/onlinepaymentpage/contactless mobile payments.png' alt='images' />
+                    <img src='/Images/onlinepaymentpage/contactless mobile payments.webp' alt='images' />
                 </div>
             </div>
 

@@ -36,6 +36,7 @@ margin: 1%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding: 10px;
 border-radius: 10px;
+padding: 10px;
 }
 
 .onlinepaymentadminpannelaftermapping:hover {
@@ -61,7 +62,7 @@ margin-top: 3%;
 .onlinepaymentadminpannelrightbox {
 height: 400px;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Vector.png");
+background: url("/Images/onlinepaymentpage/Vector.webp");
 background-repeat: no-repeat;
 background-position-x: center;
 background-size: contain;
@@ -152,7 +153,7 @@ margin-top: -1%;
 .onlinepaymentadminpannelrightbox {
 height: 300px;
 width: 100%;
-background: url("/Images/onlinepaymentpage/Vector.png");
+background: url("/Images/onlinepaymentpage/Vector.webp");
 background-repeat: no-repeat;
 background-position-x: center;
 background-size: contain;
@@ -236,7 +237,7 @@ margin-top: 3%;
 .onlinepaymentadminpannelrightbox {
 height: 400px;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Vector.png");
+background: url("/Images/onlinepaymentpage/Vector.webp");
 background-repeat: no-repeat;
 background-position-x: center;
 background-size: contain;
