@@ -2,11 +2,11 @@ export const logisticsCustomer = {
   agricultureCustomerApp: [
     {
       img: {
-        src: "/Images/logistic/Register screen.png",
+        src: "/Images/Agriculture/registration.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping.webp",
         alt: " image",
       },
       title: "Explore Products",
@@ -14,11 +14,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "/Images/logistic/Schedule trip screen.png",
+        src: "/Images/Agriculture/order product.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-6.webp",
         alt: "image",
       },
       title: "Order Product",
@@ -26,11 +26,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "/Images/logistic/Payment option screen.png",
+        src: "/Images/Agriculture/payment method.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-1.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-1.webp",
         alt: "image",
       },
       title: "Multiple Payment Option",
@@ -39,11 +39,11 @@ export const logisticsCustomer = {
 
     {
       img: {
-        src: "/Images/logistic/track order screen.png",
+        src: "/Images/logistic/track order screen.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-5.webp",
         alt: "image",
       },
       title: "Track Your Order",
@@ -53,18 +53,18 @@ export const logisticsCustomer = {
   sectionTitle: "Customer's App",
 
   background:
-    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
+    "/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
 };
 
 export const agricultureConsumerApp = {
   agricultureCustomerData: [
     {
       img: {
-        src: "/Images/logistic/shipment request screen.png",
+        src: "/Images/logistic/shipment request screen.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-8.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-8.webp",
         alt: "image",
       },
       title: "Profile Management",
@@ -73,11 +73,11 @@ export const agricultureConsumerApp = {
 
     {
       img: {
-        src: "/Images/logistic/request screen.png",
+        src: "/Images/logistic/request screen.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-4.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-4.webp",
         alt: "Schedule logo",
       },
       title: "Earning Analytics",
@@ -85,11 +85,11 @@ export const agricultureConsumerApp = {
     },
     {
       img: {
-        src: "/Images/logistic/notification screen.png",
+        src: "/Images/logistic/notification screen.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-9.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-9.webp",
         alt: "image",
       },
       title: "Driver's Personal Details",
@@ -97,11 +97,11 @@ export const agricultureConsumerApp = {
     },
     {
       img: {
-        src: "/Images/logistic/Navigation screen.png",
+        src: "/Images/logistic/Navigation screen.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-7.webp",
         alt: "image",
       },
       title: "New order Notifications",
@@ -110,18 +110,18 @@ export const agricultureConsumerApp = {
   ],
   sectionTitle: "Drive's App",
   background:
-    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
+    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
 };
 
 export const agricultureAdmin = {
   plantBasedAdminData: [
     {
       img: {
-        src: "/Images/logistic/Dashboard.png",
+        src: "/Images/logistic/Dashboard.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-10.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-10.webp",
         alt: "image",
       },
       title: "Dashboard",
@@ -129,11 +129,11 @@ export const agricultureAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/assets.png",
+        src: "/Images/logistic/assets.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-7.webp",
         alt: "image",
       },
       title: "Reports & Analytics",
@@ -141,11 +141,11 @@ export const agricultureAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/history.png",
+        src: "/Images/logistic/history.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-6.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Managing Order",
@@ -153,11 +153,11 @@ export const agricultureAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/tracking (2).png",
+        src: "/Images/Agriculture/feedback.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-5.webp",
         alt: "image",
       },
       title: "Reviews Dashboard",
@@ -167,18 +167,18 @@ export const agricultureAdmin = {
 
   sectionTitle: "Admin's Panel",
   background:
-    "/public/Images//PlantBasedMeat/banners & backgrounds/Rectangle 4787.png",
+    "/Images/Agriculture/Ellipse 2193.webp",
 };
 
 // export const carpoolCustomer = {
 //   customerdata: [
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/customerapp/Quick bookings.png",
+//         src: "Images/carpoolingpage/customerapp/Quick bookings.webp",
 //         alt: "Register image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: " Register logo",
 //       },
 //       title: "Flexible & Quick Bookings",
@@ -186,11 +186,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/customerapp/Fare estimate.png",
+//         src: "Images/carpoolingpage/customerapp/Fare estimate.webp",
 //         alt: "Schedule",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Schedule logo",
 //       },
 //       title: "Fare Estimates",
@@ -198,11 +198,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/customerapp/Pool options.png",
+//         src: "Images/carpoolingpage/customerapp/Pool options.webp",
 //         alt: "Multiple Payment Option image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Multiple Payment Option logo",
 //       },
 //       title: "Pool Options",
@@ -210,11 +210,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/customerapp/Time tracking.png",
+//         src: "Images/carpoolingpage/customerapp/Time tracking.webp",
 //         alt: "Track Order image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Track Order logo",
 //       },
 //       title: "Real-Time Tracking",
@@ -223,18 +223,18 @@ export const agricultureAdmin = {
 //   ],
 
 //   sectionTitle: "Customer App",
-//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.webp",
 // };
 
 // export const carpoolDrive = {
 //   driverdata: [
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/driverapp/real time requests.png",
+//         src: "Images/carpoolingpage/driverapp/real time requests.webp",
 //         alt: "Register image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: " Register logo",
 //       },
 //       title: "Real-time Requests",
@@ -242,11 +242,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/driverapp/Trip details.png",
+//         src: "Images/carpoolingpage/driverapp/Trip details.webp",
 //         alt: "Schedule",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Schedule logo",
 //       },
 //       title: "Trip Detail",
@@ -254,11 +254,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/driverapp/Rating & review.png",
+//         src: "Images/carpoolingpage/driverapp/Rating & review.webp",
 //         alt: "Multiple Payment Option image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Multiple Payment Option logo",
 //       },
 //       title: "Rating & Review",
@@ -266,11 +266,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/driverapp/Wallet details.png",
+//         src: "Images/carpoolingpage/driverapp/Wallet details.webp",
 //         alt: "Track Order image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Track Order logo",
 //       },
 //       title: "Wallet Details",
@@ -279,18 +279,18 @@ export const agricultureAdmin = {
 //   ],
 
 //   sectionTitle: "Driver App",
-//   background: "/Images/carpoolingpage/bannersbackgrounds/group9.png",
+//   background: "/Images/carpoolingpage/bannersbackgrounds/group9.webp",
 // };
 
 // export const carpoolAdmin = {
 //   plantBasedAdminData: [
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/adminpanel/Dashboard.png",
+//         src: "Images/carpoolingpage/adminpanel/Dashboard.webp",
 //         alt: "Register image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: " Register logo",
 //       },
 //       title: "Dashboard",
@@ -298,11 +298,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/adminpanel/Reports & analytics.png",
+//         src: "Images/carpoolingpage/adminpanel/Reports & analytics.webp",
 //         alt: "Schedule",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Schedule logo",
 //       },
 //       title: "Reports and Analytics",
@@ -310,11 +310,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+//         src: "Images/carpoolingpage/adminpanel/Promos & reffrels.webp",
 //         alt: "Multiple Payment Option image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Multiple Payment Option logo",
 //       },
 //       title: "Manage Promos & Referals",
@@ -322,11 +322,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/carpoolingpage/adminpanel/Driver management.png",
+//         src: "Images/carpoolingpage/adminpanel/Driver management.webp",
 //         alt: "Track Order image",
 //       },
 //       icon: {
-//         src: "Images/carpoolingpage/icons/checkmark.png",
+//         src: "Images/carpoolingpage/icons/checkmark.webp",
 //         alt: "Track Order logo",
 //       },
 //       title: "Driver Management",
@@ -335,18 +335,18 @@ export const agricultureAdmin = {
 //   ],
 
 //   sectionTitle: "Admin App",
-//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.webp",
 // };
 
 // export const bettingCustomer = {
 //   customerdata: [
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/userapp/gamemanagement.png",
+//         src: "Images/sportsbettingpage/userapp/gamemanagement.webp",
 //         alt: "Register image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: " Register logo",
 //       },
 //       title: "Game management",
@@ -354,11 +354,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/userapp/paymentmanagement.png",
+//         src: "Images/sportsbettingpage/userapp/paymentmanagement.webp",
 //         alt: "Schedule",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Schedule logo",
 //       },
 //       title: "Payment Management",
@@ -366,11 +366,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/userapp/livefeed.png",
+//         src: "Images/sportsbettingpage/userapp/livefeed.webp",
 //         alt: "Multiple Payment Option image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Multiple Payment Option logo",
 //       },
 //       title: "Live Feed",
@@ -378,11 +378,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/userapp/bethistory.png",
+//         src: "Images/sportsbettingpage/userapp/bethistory.webp",
 //         alt: "Track Order image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Track Order logo",
 //       },
 //       title: "Bet History",
@@ -391,18 +391,18 @@ export const agricultureAdmin = {
 //   ],
 
 //   sectionTitle: "User App",
-//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.webp",
 // };
 
 // export const bettingDrive = {
 //   driverdata: [
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/bookpanel/registeryourself.png",
+//         src: "Images/sportsbettingpage/bookpanel/registeryourself.webp",
 //         alt: "Register image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: " Register logo",
 //       },
 //       title: "Register YourSelf",
@@ -410,11 +410,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/bookpanel/usermanagement.png",
+//         src: "Images/sportsbettingpage/bookpanel/usermanagement.webp",
 //         alt: "Schedule",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Schedule logo",
 //       },
 //       title: "User Management",
@@ -422,11 +422,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/bookpanel/Notification.png",
+//         src: "Images/sportsbettingpage/bookpanel/Notification.webp",
 //         alt: "Multiple Payment Option image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Multiple Payment Option logo",
 //       },
 //       title: "Send Notification",
@@ -434,11 +434,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/bookpanel/schedulebet.png",
+//         src: "Images/sportsbettingpage/bookpanel/schedulebet.webp",
 //         alt: "Track Order image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Track Order logo",
 //       },
 //       title: "Calenders,Days and Schedules",
@@ -447,18 +447,18 @@ export const agricultureAdmin = {
 //   ],
 
 //   sectionTitle: "Books Panel",
-//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.webp",
 // };
 
 // export const bettingAdmin = {
 //   plantBasedAdminData: [
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/adminpanel/gamemanagement.png",
+//         src: "Images/sportsbettingpage/adminpanel/gamemanagement.webp",
 //         alt: "Register image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: " Register logo",
 //       },
 //       title: "Game Management",
@@ -466,11 +466,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/adminpanel/paymentmanagement.png",
+//         src: "Images/sportsbettingpage/adminpanel/paymentmanagement.webp",
 //         alt: "Schedule",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Schedule logo",
 //       },
 //       title: "Payment Management",
@@ -478,11 +478,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/adminpanel/marketingmanagement.png",
+//         src: "Images/sportsbettingpage/adminpanel/marketingmanagement.webp",
 //         alt: "Multiple Payment Option image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Multiple Payment Option logo",
 //       },
 //       title: "Marketing Management",
@@ -490,11 +490,11 @@ export const agricultureAdmin = {
 //     },
 //     {
 //       img: {
-//         src: "Images/sportsbettingpage/adminpanel/advancedashboard.png",
+//         src: "Images/sportsbettingpage/adminpanel/advancedashboard.webp",
 //         alt: "Track Order image",
 //       },
 //       icon: {
-//         src: "Images/sportsbettingpage/icons/component27.png",
+//         src: "Images/sportsbettingpage/icons/component27.webp",
 //         alt: "Track Order logo",
 //       },
 //       title: "Advance Dashboard",
@@ -503,5 +503,5 @@ export const agricultureAdmin = {
 //   ],
 
 //   sectionTitle: "Admin App",
-//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+//   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.webp",
 // };

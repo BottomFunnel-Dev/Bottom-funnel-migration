@@ -4,7 +4,7 @@ import styles from "./customerAppComp.module.css";
 
 export default function CustomerAppComp() {
   const [imageChange, setImageChange] = useState(
-    "/Images/Car-Rental-Page-Images/Component188.png",
+    "/Images/Car-Rental-Page-Images/Component188.webp",
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -12,22 +12,22 @@ export default function CustomerAppComp() {
 
   const RGcustomerAppData = [
     {
-      img: "/Images/Car-Rental-Page-Images/dashboard.png",
+      img: "/Images/Car-Rental-Page-Images/dashboard.webp",
       htxt: "Dashboard",
       stxt: "The business owner can see all the pertinent information on the dashboard for analyzing bookings and revenue.",
     },
     {
-      img: "/Images/Car-Rental-Page-Images/reporting.png",
+      img: "/Images/Car-Rental-Page-Images/reporting.webp",
       htxt: "Reporting",
       stxt: "Owners can check the financial report to see how much money was booked and what the return on investment (ROI) was.",
     },
     {
-      img: "/Images/Car-Rental-Page-Images/cardetails.png",
+      img: "/Images/Car-Rental-Page-Images/cardetails.webp",
       htxt: "Car Management",
       stxt: "Users have the ability to add, edit or delete car and car details as they see fit..",
     },
     {
-      img: "/Images/Car-Rental-Page-Images/payment.png",
+      img: "/Images/Car-Rental-Page-Images/payment.webp",
       htxt: "Payment",
       stxt: "Customers can make Payment either through the app or by paying at the time of booking.",
     },
