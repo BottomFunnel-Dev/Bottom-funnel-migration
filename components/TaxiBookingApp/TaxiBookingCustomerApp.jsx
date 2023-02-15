@@ -4,7 +4,7 @@ import styles from "./TaxiBookingCustomerApp.module.css";
 
 export const TaxiBookingCustomerApp = () => {
 
-    const [imageChange, setImageChange] = useState("/Images/Taxibooking/Customerscreens/Component 117.png")
+    const [imageChange, setImageChange] = useState("/Images/Taxibooking/Customerscreens/Component 117.webp")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
         // console.log(imagepath)
@@ -12,29 +12,29 @@ export const TaxiBookingCustomerApp = () => {
 
     const taxibookingcustomerdata = [
         {
-            images: "/Images/Taxibooking/Customerscreens/Component 117.png",
-            icon: "/Images/Taxibooking/icons/Group 340238.png",
+            images: "/Images/Taxibooking/Customerscreens/Component 117.webp",
+            icon: "/Images/Taxibooking/icons/Group 340238.webp",
             htxt: "Easy To Choose Your Ride",
             stxt: "We always strive to deliver futuristic solutions that will help you take your business further from the existing ones business further from the existing ones . ",
         },
 
         {
-            images: "/Images/Taxibooking/Customerscreens/Component 125.png",
-            icon: "/Images/Taxibooking/icons/Group 340235.png",
+            images: "/Images/Taxibooking/Customerscreens/Component 125.webp",
+            icon: "/Images/Taxibooking/icons/Group 340235.webp",
             htxt: "Track Your Driver",
             stxt: "As a taxi app development company, we'll build white label ride sharing app that is user friendly for registration to booking with numerous features that is easy to use. ",
         },
 
         {
-            images: "/Images/Taxibooking/Customerscreens/Component 126.png",
-            icon: "/Images/Taxibooking/icons/Group 340236.png",
+            images: "/Images/Taxibooking/Customerscreens/Component 126.webp",
+            icon: "/Images/Taxibooking/icons/Group 340236.webp",
             htxt: " Easy Pick Up",
             stxt: "We Will follow the standard procedure to deliver the app on time to enjoy the benefits and meet your business growth goals.",
         },
 
         {
-            images: "/Images/Taxibooking/Customerscreens/Component 127.png",
-            icon: "/Images/Taxibooking/icons/Component 131.png",
+            images: "/Images/Taxibooking/Customerscreens/Component 127.webp",
+            icon: "/Images/Taxibooking/icons/Component 131.webp",
             htxt: "Booking History",
             stxt: "The taxi app development solutions provided are tailored to your specific needs and objectives with rational taxi app development cost.",
         },

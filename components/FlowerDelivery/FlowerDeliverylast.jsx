@@ -15,7 +15,7 @@ const FlowerDeliverylast = () => {
         </div>
 
         <div className={styles.insiderdivflexboxright}>
-          <Image src={'/Images/Flowerdeliverypage/209449992.png'}
+          <Image src={'/Images/Flowerdeliverypage/209449992.webp'}
             alt={'image1'}
             width={"0"}
             height={"0"}
@@ -34,7 +34,7 @@ const FlowerDeliverylast = () => {
 
         </div>
         <div className={styles.insiderdivflexboxright}>
-          <Image src={'/Images/Flowerdeliverypage/43807472.png'}
+          <Image src={'/Images/Flowerdeliverypage/43807472.webp'}
             alt={'image2'}
             width={"0"}
             height={"0"}
@@ -53,7 +53,7 @@ const FlowerDeliverylast = () => {
         </div>
 
         <div className={styles.insiderdivflexboxright}>
-          <Image src={'/Images/Flowerdeliverypage/group767.png'}
+          <Image src={'/Images/Flowerdeliverypage/group767.webp'}
             alt={'image3'}
             width={"0"}
             height={"0"}
@@ -72,7 +72,7 @@ const FlowerDeliverylast = () => {
         </div>
 
         <div className={styles.insiderdivflexboxright}>
-          <Image src={'/Images/Flowerdeliverypage/hajan.png'}
+          <Image src={'/Images/Flowerdeliverypage/hajan.webp'}
             alt={'image3'}
             width={"0"}
             height={"0"}
