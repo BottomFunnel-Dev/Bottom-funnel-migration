@@ -10,13 +10,17 @@
 .mobile {
   margin-top: 4%;
   padding: 30px 30px;
-  height: 100%;
 }
 
 .mobile > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.beautyBannerAnimation {
+  /* border: 1px solid red; */
+  width: 80%;
 }
 
 .beautyleft {
