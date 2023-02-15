@@ -11,7 +11,7 @@ export default function AppFeature() {
           <div className={styles.appFeatureInnerMaindivBox}>
             <div className={styles.appFeatureInnerMaindivBoxcontain}>
               <div>
-                <Image src={"/Images/kidswearappservice/_Group_.png"}
+                <Image src={"/Images/kidswearappservice/_Group_.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -28,7 +28,7 @@ export default function AppFeature() {
 
             <div className={styles.appFeatureInnerMaindivBoxcontain} >
               <div>
-                <Image src={"/Images/kidswearappservice/Tracking delivery.png"}
+                <Image src={"/Images/kidswearappservice/Tracking delivery.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -47,7 +47,7 @@ export default function AppFeature() {
           <div className={styles.appFeatureInnerMaindivBox}>
             <div className={styles.appFeatureInnerMaindivBoxcontain} >
               <div>
-                <Image src={"/Images/kidswearappservice/Vector.png"}
+                <Image src={"/Images/kidswearappservice/Vector.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -64,7 +64,7 @@ export default function AppFeature() {
 
             <div className={styles.appFeatureInnerMaindivBoxcontain} >
               <div>
-                <Image src={"/Images/kidswearappservice/Group.png"}
+                <Image src={"/Images/kidswearappservice/Group.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -82,7 +82,7 @@ export default function AppFeature() {
         </div>
 
         <div className={styles.appFeatureInnermaindiv21}>
-          <Image src={"/Images/kidswearappservice/Component191.png"}
+          <Image src={"/Images/kidswearappservice/Component191.webp"}
             alt={"img"}
             width={"0"}
             height={"0"}
@@ -95,7 +95,7 @@ export default function AppFeature() {
       <div className={styles.appFeatureMaindivadmin}>
 
         <div className={styles.appFeatureInnermaindiv2admin}>
-          <Image src={"/Images/kidswearappservice/Component193.png"}
+          <Image src={"/Images/kidswearappservice/Component193.webp"}
             alt={"img"}
             width={"0"}
             height={"0"}
@@ -110,7 +110,7 @@ export default function AppFeature() {
           <div className={styles.appFeatureInnerMaindivBoxadmin}>
             <div className={styles.appFeatureInnerMainDivboxContain1admin} >
               <div>
-                <Image src={"/Images/kidswearappservice/28-Dashboard.png"}
+                <Image src={"/Images/kidswearappservice/28-Dashboard.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -127,7 +127,7 @@ export default function AppFeature() {
 
             <div className={styles.appFeatureInnerMainDivboxContainadmin} >
               <div>
-                <Image src={"/Images/kidswearappservice/management 2.png"}
+                <Image src={"/Images/kidswearappservice/management 2.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -146,7 +146,7 @@ export default function AppFeature() {
           <div className={styles.appFeatureInnerMaindivBoxadmin}>
             <div className={styles.appFeatureInnerMainDivboxContainadmin} >
               <div>
-                <Image src={"/Images/kidswearappservice/business-and-finance 1.png"}
+                <Image src={"/Images/kidswearappservice/business-and-finance 1.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -163,7 +163,7 @@ export default function AppFeature() {
 
             <div className={styles.appFeatureInnerMainDivboxContainadmin} >
               <div>
-                <Image src={"/Images/kidswearappservice/content-management-system 1.png"}
+                <Image src={"/Images/kidswearappservice/content-management-system 1.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -190,7 +190,7 @@ export default function AppFeature() {
           <div className={styles.appFeatureInnerMaindivBox}>
             <div className={styles.appFeatureInnerMainDivboxContain1} >
               <div>
-                <Image src={"/Images/kidswearappservice/online-registration 1.png"}
+                <Image src={"/Images/kidswearappservice/online-registration 1.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -207,7 +207,7 @@ export default function AppFeature() {
 
             <div className={styles.appFeatureInnerMainDivboxContain} >
               <div>
-                <Image src={"/Images/kidswearappservice/Layer 2.png"}
+                <Image src={"/Images/kidswearappservice/Layer 2.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -226,7 +226,7 @@ export default function AppFeature() {
           <div className={styles.appFeatureInnerMaindivBox}>
             <div className={styles.appFeatureInnerMainDivboxContain} >
               <div>
-                <Image src={"/Images/kidswearappservice/bag 1.png"}
+                <Image src={"/Images/kidswearappservice/bag 1.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -243,7 +243,7 @@ export default function AppFeature() {
 
             <div className={styles.appFeatureInnerMainDivboxContain} >
               <div>
-                <Image src={"/Images/kidswearappservice/tap 1.png"}
+                <Image src={"/Images/kidswearappservice/tap 1.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -261,7 +261,7 @@ export default function AppFeature() {
         </div>
 
         <div className={styles.appFeatureInnermaindiv2}>
-          <Image src={"/Images/kidswearappservice/Component192.png"}
+          <Image src={"/Images/kidswearappservice/Component192.webp"}
             alt={"img"}
             width={"0"}
             height={"0"}
