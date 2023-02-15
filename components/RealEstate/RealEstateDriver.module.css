@@ -34,7 +34,7 @@ background-color: white;
 
 .realstatemapperdriverindivisuallybox{
     width: 48%;
-   max-height: max-content;
+   height: 180px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     border-radius: 10px;

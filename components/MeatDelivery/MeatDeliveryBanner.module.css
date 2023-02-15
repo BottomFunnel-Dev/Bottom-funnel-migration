@@ -17,12 +17,10 @@
 
 .meatdeliverybannerfortextboxes > h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 
-.meatdeliverybannerfortextboxes > p {
-  font-size: 25px;
-}
+
 
 .meatdeliverybanner {
   padding: 10px 50px;

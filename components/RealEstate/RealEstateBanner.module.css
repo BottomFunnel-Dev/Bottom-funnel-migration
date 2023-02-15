@@ -2,9 +2,9 @@
   height: 95vh;
   background: url("/Images/RealEstate/ReslEstateNewBanner.webp");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
   background-position-x: right;
-  margin-top: 2.5%;
+  margin-top: 5%;
 }
 
 .realestatebannersometextandimages {

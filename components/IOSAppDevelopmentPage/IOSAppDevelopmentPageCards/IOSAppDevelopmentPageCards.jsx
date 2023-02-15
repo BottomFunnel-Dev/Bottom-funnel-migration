@@ -149,6 +149,7 @@ export const IOSAppDevelopmentPageCards = () => {
                             to design a sleek interface and seamless user experience, to provide high-end coding or need full-cycle iOS development services, Digiteum is the partner you need.
                             Using more than a decade of experience in mobile development, we’ve had a chance to design and develop iOS apps for different industries and niches, including healthcare, energy, photography, sport, education and travel.
                         </p>
+                        <button className={styles.btnios}>Hire IOS Android developer</button>
                     </div>
                     <div className={styles.innermaindiv3Image} >
 
