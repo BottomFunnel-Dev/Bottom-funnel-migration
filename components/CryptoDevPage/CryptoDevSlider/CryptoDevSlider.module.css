@@ -45,7 +45,7 @@
   width: 670px;
   height: 250px;
   position: relative;
-border: 2px solid yellow;
+/* border: 2px solid yellow; */
   transform: scale(0.5);
   transition: transform 0.5s ease-in-out;
 
@@ -60,6 +60,7 @@ border: 2px solid yellow;
 .CryptoDevSlider-slide-active {
   width: 100px;
   transform: scale(0.8);
+  /* border: 2px solid green; */
 }
 
 .CryptoDevSlider-slide > img {
@@ -107,4 +108,12 @@ border: 2px solid yellow;
 
 .CryptoDevSliderSliderArrow:hover {
   background-color: #d6d5d5;
+}
+.CryptoDevSliderimagetage{
+  /* border: 2px solid green; */
+  width: 120px;
+  height: 100px;
+  margin-top: 20%;
+  margin-left: 20%;
+  /* margin: auto; */
 }
