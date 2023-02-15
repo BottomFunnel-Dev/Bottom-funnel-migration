@@ -3,6 +3,7 @@ import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
 import Image from "next/image";
 import { industries, ondemand } from "../../Data/Navbar";
+import Link from "next/link";
 export const NavIndustries = ({
   solHoverIn,
   solHoverOut,
