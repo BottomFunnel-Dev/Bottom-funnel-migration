@@ -2,11 +2,11 @@ export const logisticsCustomer = {
   consumerdata: [
     {
       img: {
-        src: "/Images/logistic/Register screen.png",
+        src: "/Images/logistic/Register screen.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping.webp",
         alt: " Register logo",
       },
       title: "Easy App On-boarding",
@@ -14,11 +14,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "/Images/logistic/Schedule trip screen.png",
+        src: "/Images/logistic/Schedule trip screen.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-6.webp",
         alt: "image",
       },
       title: "Easy Checkout",
@@ -26,11 +26,11 @@ export const logisticsCustomer = {
     },
     {
       img: {
-        src: "/Images/logistic/Payment option screen.png",
+        src: "/Images/logistic/Payment option screen.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-1.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-1.webp",
         alt: "image",
       },
       title: "Multiple Payment Option",
@@ -39,11 +39,11 @@ export const logisticsCustomer = {
 
     {
       img: {
-        src: "/Images/logistic/track order screen.png",
+        src: "/Images/logistic/track order screen.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-5.webp",
         alt: "image",
       },
       title: "Track Your Order",
@@ -53,18 +53,18 @@ export const logisticsCustomer = {
   sectionTitle: "Customer's App",
 
   background:
-    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
+    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
 };
 
 export const plantBaseDriverData = {
   driverdata: [
     {
       img: {
-        src: "/Images/logistic/shipment request screen.png",
+        src: "/Images/logistic/shipment request screen.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-8.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-8.webp",
         alt: "image",
       },
       title: "Profile Management",
@@ -73,11 +73,11 @@ export const plantBaseDriverData = {
 
     {
       img: {
-        src: "/Images/logistic/request screen.png",
+        src: "/Images/logistic/request screen.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-4.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-4.webp",
         alt: "Schedule logo",
       },
       title: "Earning Analytics",
@@ -85,11 +85,11 @@ export const plantBaseDriverData = {
     },
     {
       img: {
-        src: "/Images/logistic/notification screen.png",
+        src: "/Images/logistic/notification screen.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-9.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-9.webp",
         alt: "image",
       },
       title: "Driver's Personal Details",
@@ -97,11 +97,11 @@ export const plantBaseDriverData = {
     },
     {
       img: {
-        src: "/Images/logistic/Navigation screen.png",
+        src: "/Images/logistic/Navigation screen.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-7.webp",
         alt: "image",
       },
       title: "New order Notifications",
@@ -110,18 +110,18 @@ export const plantBaseDriverData = {
   ],
   sectionTitle: "Drive's App",
   background:
-    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png",
+    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
 };
 
 export const plantBaseMeatAdmin = {
   plantBasedAdminData: [
     {
       img: {
-        src: "/Images/logistic/Dashboard.png",
+        src: "/Images/logistic/Dashboard.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-10.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-10.webp",
         alt: "image",
       },
       title: "Dashboard",
@@ -129,11 +129,11 @@ export const plantBaseMeatAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/assets.png",
+        src: "/Images/logistic/assets.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-7.webp",
         alt: "image",
       },
       title: "Reports & Analytics",
@@ -141,11 +141,11 @@ export const plantBaseMeatAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/history.png",
+        src: "/Images/logistic/history.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-6.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Managing Order",
@@ -153,11 +153,11 @@ export const plantBaseMeatAdmin = {
     },
     {
       img: {
-        src: "/Images/logistic/tracking (2).png",
+        src: "/Images/logistic/tracking (2).webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+        src: "/Images/PlantBasedMeat/icons/prototyping-5.webp",
         alt: "image",
       },
       title: "Reviews Dashboard",
@@ -166,7 +166,7 @@ export const plantBaseMeatAdmin = {
   ],
 
   sectionTitle: "Admin's Panel",
-  background: "/public/Images//PlantBasedMeat/banners & backgrounds/Rectangle 4787.png",
+  background: "/public/Images//PlantBasedMeat/banners & backgrounds/Rectangle 4787.webp",
 };
 
 

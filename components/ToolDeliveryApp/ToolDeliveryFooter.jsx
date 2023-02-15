@@ -31,9 +31,7 @@ const ToolDeliveryFooter = () => {
         <h2
           style={{
             marginTop: "3%",
-            marginLeft: "40%",
-          }}
-        >
+            marginLeft: "40%",}}>
           Why Choose Bottom Funnel?
         </h2>
       

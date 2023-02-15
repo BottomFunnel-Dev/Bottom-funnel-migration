@@ -2,6 +2,7 @@
   height: fit-content;
   background-color: white;
   padding-bottom: 5%;
+  padding-top: 2%;
 }
 
 .icecreamadminpannelmainboxsometextupper {
@@ -57,8 +58,6 @@
 }
 
 .icecreamadminpannelrightboxinnerimage > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
@@ -74,6 +73,7 @@
 }
 
 .icecreamadminpannelmapperboxindivisyaltxt > h4 {
+  padding-top: 5px;
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;

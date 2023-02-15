@@ -15,7 +15,7 @@ export const IcecreamCSolution = () => {
         <div className={styles.szicebox}>
           <div className={styles.szgreybg}>
             <div className={styles.szicesolution}>
-              <Image src={"/Images/Icecream/Location.png"}
+              <Image src={"/Images/Icecream/Location.webp"}
                 alt={"image"}
                 width={"0"}
                 height={"0"}
@@ -32,7 +32,15 @@ export const IcecreamCSolution = () => {
         </div>
         <div className={styles.szicebox}>
           <div className={styles.szgreybg}>
-            <div className={styles.szicesolution}><img src="Images/Icecream/payment.png" /> </div>
+            <div className={styles.szicesolution}>
+              <Image src={"/Images/Icecream/payment.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+               </div>
             <h5>Multiple Payment Options</h5>
           </div>
           <p>Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.</p>
@@ -40,28 +48,60 @@ export const IcecreamCSolution = () => {
         </div>
         <div className={styles.szicebox}>
           <div className={styles.szgreybg}>
-            <div className={styles.szicesolution}><img src="Images/Icecream/reportsanalytics.png" /> </div>
+            <div className={styles.szicesolution}>
+              <Image src={"/Images/Icecream/reportsanalytics.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+              </div>
             <h5>Reports and Analytics</h5>
           </div>
           <p>Use the app's in-built advanced analytics to see and analyze how your business is performing. Identify problems and make informed decisions to grow your sales.</p>
         </div>
         <div className={styles.szicebox}>
           <div className={styles.szgreybg}>
-            <div className={styles.szicesolution}><img src="Images/Icecream/order.png" /> </div>
+            <div className={styles.szicesolution}>
+              <Image src={"/Images/Icecream/order.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+              </div>
             <h5>Manage Orders</h5>
           </div>
           <p>Avoid messy ordering processes and long queues with our Ice Cream Delivery service app. Manage everything while sitting at your home with our robust Admin Panel.</p>
         </div>
         <div className={styles.szicebox}>
           <div className={styles.szgreybg}>
-            <div className={styles.szicesolution}><img src="Images/Icecream/coininHand.png" /> </div>
+            <div className={styles.szicesolution}>
+              <Image src={"/Images/Icecream/coininHand.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+               </div>
             <h5>Better ROI</h5>
           </div>
           <p>Make effective strategies by using features like Push Notifications and provide real-time updates to your customers about new deals to increase your ROI.</p>
         </div>
         <div className={styles.szicebox}>
           <div className={styles.szgreybg}>
-            <div className={styles.szicesolution}><img src="Images/Icecream/Speaker.png" /> </div>
+            <div className={styles.szicesolution}>
+              <Image src={"/Images/Icecream/Speaker.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+              </div>
             <h5>Promote Your Business Effectively</h5>
           </div>
           <p>Provide your customer loyalty bonuses, introduce referrals and do a lot more to promote your business using all-in-one robust admin panel.</p>
