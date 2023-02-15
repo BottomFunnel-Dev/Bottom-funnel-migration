@@ -6,37 +6,37 @@ import { Player } from "@lottiefiles/react-lottie-player";
 export default function OttHeader() {
   const ServicesData = [
     {
-      icon: "/Images/ott-app/Frame-2.png",
+      icon: "/Images/ott-app/Frame-2.webp",
       title: "Best Quality",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,",
     },
 
     {
-      icon: "/Images/ott-app/Group901189.png",
+      icon: "/Images/ott-app/Group901189.webp",
       title: "Fast Downloading",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,",
     },
 
     {
-      icon: "/Images/ott-app/Group16.png",
+      icon: "/Images/ott-app/Group16.webp",
       title: "Analytics Services",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,",
     },
 
     {
-      icon: "/Images/ott-app/Frame.png",
+      icon: "/Images/ott-app/Frame.webp",
       title: "Data Optimization",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,",
     },
 
     {
-      icon: "/Images/ott-app/Group-1.png",
+      icon: "/Images/ott-app/Group-1.webp",
       title: "Regular Support",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,",
     },
 
     {
-      icon: "/Images/ott-app/Frame-1.png",
+      icon: "/Images/ott-app/Frame-1.webp",
       title: "Search Engine Optimization",
       para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident quibusdam illo esse iste eligendi,",
     },
