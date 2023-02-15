@@ -5,6 +5,7 @@
 .DataScienceMethodsContainer {
   width: 90%;
   margin: 5% auto;
+  /* border: 2px solid green; */
 }
 
 .DataScienceMethodsContainer > h1 {
@@ -19,6 +20,7 @@
 
 .DataScienceMehtodsMain {
   width: 100%;
+  /* border: 2px solid yellow; */
 
   display: flex;
   align-items: flex-start;
@@ -27,7 +29,7 @@
 
 .DataScienceMehtodsMain > div {
   width: 30%;
-  height: 350px;
+  height: 320px;
   border: 1px solid #d9d9d9;
 }
 
@@ -38,7 +40,7 @@
 }
 
 .DataScienceMehtodsMain > div > ul > li {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 3%;
 }
 }
