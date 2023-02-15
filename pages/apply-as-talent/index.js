@@ -48,17 +48,17 @@ export default function () {
     <Applicationprocess />
 
 
-    <StoriesSection />
-    <OndemandSection />
+
+
     
    
-    <PlanProject />
-      <SeoblogSection />
-      <Revamping />
-      <TextDropdown />
-      <ContectForm />
 
-      <MainFooter />
+  
+      
+   
+    
+
+  
     </div>
   );
 }
