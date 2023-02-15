@@ -1,21 +1,21 @@
-import React from 'react'
-import EducationBanner from '../../components/Educationp/EducationBanner'
-import Navbar from '../../components/Navbar/Navbar'
+import dynamic from "next/dynamic";
+import React from "react";
+import { dmpagesLogo } from "../../components/Data/SeopartnerData";
+
+const EducationBanner = dynamic(
+  () => import("../../components/Educationp/EducationBanner"),
+  { loading: () => "loading..." },
+);
+const Trust = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: () => "loading..." },
+);
 
 export default function Education() {
   return (
     <div>
-         <Navbar
-          productMount={{
-            navMount: false,
-          }}
-          navredux={{
-            color: "black",
-            logo: false,
-          }}
-        />
-        <EducationBanner/>
-        
+      <EducationBanner />
+      <Trust partnerLogo={dmpagesLogo} />
     </div>
-  )
+  );
 }

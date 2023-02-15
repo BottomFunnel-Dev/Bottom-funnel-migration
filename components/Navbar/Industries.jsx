@@ -31,7 +31,7 @@ export const Industries = ({
                             }}
                             className={industry.industryimageIconDivSection}
                         >
-                            <div>
+                            <div >
                                 <Image
                                     src={item.navIcons}
                                     alt={"image"}
@@ -40,7 +40,6 @@ export const Industries = ({
                                     sizes={"100vw"}
                                     style={{ width: "100%", height: "100%" }}
                                 />
-                                
                             </div>
                             <Link
                                 onClick={()=>{indusHoverOut("",false)}}

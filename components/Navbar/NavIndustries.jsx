@@ -1,6 +1,7 @@
 import React from "react";
 import navstyle from "./navbar.module.css";
 import industry from "./navIndustries.module.css";
+import Image from "next/image";
 import Link from "next/link";
 import { industries, ondemand } from "../../Data/Navbar";
 export const NavIndustries = ({
@@ -27,8 +28,15 @@ export const NavIndustries = ({
              
               className={industry.industryimageIconDivSection}
             >
-              <div>
-                <img className={industry.industryiconDivSection} src={item.navIcons} alt="image" />
+              <div className={industry.industryiconDivSection}>
+              <Image
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                    src={item.navIcons}
+                    alt={item.navIcons}
+                  />
               </div>
               <Link
                 onClick={()=>{solHoverOut("",false)}}
