@@ -26,7 +26,7 @@ export default function RealEstate() {
 
       <main>
         <RealEstateBanner />
-     {/*    <RealEstateNextBanner /> */}
+        {/* <RealEstateNextBanner /> */}
         <RealEstateSolution />
         <RealEstateCustomer />
         <RealEstateAdminPannel />

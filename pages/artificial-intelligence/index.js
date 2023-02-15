@@ -37,9 +37,9 @@ export default function index() {
       </Head>
       <main>
         <AiContentBanner />
-        {/*   <AiContentHuman /> 
-       <AiHowDoesWorks />
-         <AIContentApplication />*/}
+       <AiContentHuman />  
+       {/* <AiHowDoesWorks /> */}
+         <AIContentApplication />
         <AiContentTextOnly />
       </main>
     </div>
