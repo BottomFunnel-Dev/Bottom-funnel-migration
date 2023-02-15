@@ -6,12 +6,14 @@
   position: fixed;
   z-index: 1000;
   background: transparent;
-  align-items: center;
+  align-items: flex-end;
   box-sizing: border-box;
   transition: top 0.2s linear;
   margin-bottom: 0;
   background: white;
 }
+
+
 
 .navbarSection li {
   color: white;
@@ -27,7 +29,8 @@
 
 .logoSection img {
   width: 100%;
-  height: 100%;
+  height: 77%;
+  margin-top: 6%;
   object-fit: contain;
 }
 
@@ -52,7 +55,7 @@
   /* height: 75px; */
   width: 7.5vw;
   text-align: center;
-  padding: 29px 5px;
+  padding: 16px 5px;
   color: black;
   font-weight: 500;
   cursor: pointer;

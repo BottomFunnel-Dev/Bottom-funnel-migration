@@ -6,7 +6,6 @@
   height: fit-content;
   position: fixed;
   background-color: white;
-  /* border-top: 1px solid black; */
   top: 78px;
 }
 
@@ -25,12 +24,10 @@
   padding: 10px 5px;
   box-sizing: border-box;
   color: white;
-  /* background-color: white; */
   text-align: center;
   cursor: pointer;
   border-right: 1px solid #ef4c23de;
-  /* border-radius: 5px; */
-  /* margin-top: 3px; */
+
   height: 40px;
 }
 
@@ -94,7 +91,6 @@
   flex-wrap: wrap;
   flex-direction: column;
   row-gap: 3px;
-  /* border: 2px solid salmon; */
 }
 
 .servicelistItems > p:hover {
@@ -109,7 +105,6 @@
   column-gap: 3%;
   display: flex;
   padding-left:7px;
-  /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
   border-left: 3px solid white;
@@ -130,8 +125,7 @@
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
-  /* border: 1px solid red; */
-  /* transition: all 0.3s linear; */
+
 }
 
 .serviceimageIconDivSection > p {
@@ -141,11 +135,9 @@
 }
 
 .serviceimageIconDivSection > div {
-  width: 30px;
-  /* border: 1px solid red; */
+  width: 27px;
   border-left: 2px solid white;
-  /* background-color: #fce7e2; */
-  height: 30px;
+  height: 27px;
 }
 
 .serviceimageIconDivSection > div > img {
@@ -156,7 +148,6 @@
 
 .servicelinkP {
   text-decoration: none;
-  /* color: black; */
   width: 80%;
   font-size: 14px;
 }
@@ -235,11 +226,9 @@
 }
 
 .servicetrendImageIconDivSection > div {
-  width: 14%;
-  /* border: 1px solid red; */
-  /* background-color: #fce7e2; */
+  width: 27px;
   border-left: 2px solid white;
-  height: 30px;
+  height: 27px;
 }
 
 .servicetrendImageIconDivSection > div > img {
@@ -250,7 +239,6 @@
 
 .servicediscoverDropdown {
   width: 90%;
-  /* background-color: green; */
   display: flex;
 }
 
@@ -272,12 +260,10 @@
   width: 100%;
   height: 15%;
   padding: 15px 93px;
-  /* background-color: aquamarine; */
 }
 
 .servicediscoverleftbottom > h3 {
   margin: 0;
-  /* background-color: aquamarine; */
 }
 
 .servicediscoverleftbottom span {
@@ -292,7 +278,6 @@
 
 .servicediscoverright {
   width: 30%;
-  /* height: 100%; */
   padding: 20px;
   background-color: #fff6f4;
 }
@@ -318,7 +303,6 @@
   height: 38px;
   column-gap: 3%;
   display: flex;
-  /* border-radius: 5px; */
   align-items: center;
   box-sizing: border-box;
   border-left: 3px solid white;
@@ -334,7 +318,6 @@
   cursor: pointer;
   margin-top: 0;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  /* transition: all 0.3s linear; */
 }
 
 .servicebackendimageIconDivSection > p {
@@ -346,7 +329,6 @@
 .servicebackendimageIconDivSection > div {
   width: 45px;
   border-left: 2px solid white;
-  /* background-color: #fce7e2; */
   height: 30px;
 }
 
@@ -385,7 +367,6 @@
 
   .servicediscoverDropdown {
     width: 100%;
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -400,7 +381,6 @@
 
   .servicediscoverlefttop {
     width: 100%;
-    /* height: 100%; */
     padding: 20px 0;
     border-bottom: 0.5px solid #e0dada;
   }
@@ -410,7 +390,6 @@
     height: 15%;
     padding: 15px 5px;
     box-sizing: border-box;
-    /* background-color: aquamarine; */
   }
 
   .servicediscoverleftbottom > h3 {
@@ -420,7 +399,6 @@
 
   .servicediscoverright {
     width: 100%;
-    /* height: 100%; */
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff6f4;
@@ -504,7 +482,6 @@
 
   .servicediscoverDropdown {
     width: 100%;
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -519,7 +496,6 @@
 
   .servicediscoverlefttop {
     width: 100%;
-    /* height: 100%; */
     padding: 20px 0;
     border-bottom: 0.5px solid #e0dada;
   }
@@ -529,7 +505,6 @@
     height: 15%;
     padding: 15px 5px;
     box-sizing: border-box;
-    /* background-color: aquamarine; */
   }
   .servicediscoverleftbottom > h3 {
     font-size: 18px;
@@ -538,7 +513,6 @@
 
   .servicediscoverright {
     width: 100%;
-    /* height: 100%; */
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff6f4;

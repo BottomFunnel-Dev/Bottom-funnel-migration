@@ -14,7 +14,7 @@ export const NavIndustries = ({
       onMouseEnter={()=>{solHoverIn("solutions",true)}}
       onMouseLeave={()=>{solHoverOut("",false)}}
       className={industry.industryserviceVisible}
-      style={{ top: scroll ? "68px" : "98px" }}
+      style={{ top: scroll ? "68px" : "80px" }}
     >
      
       <div id={industry.ondemandsol} className={industry.indindustryContent}>

@@ -44,10 +44,10 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
         serHoverIn("services", true);
       }}
       onMouseLeave={() => {
-        serHoverOut("", false);
+        serHoverOut("", true);
       }}
       className={navservice.servicesolutionVisible}
-      style={{ top: scroll ? "68px" : "98px" }}
+      style={{ top: scroll ? "68px" : "80px" }}
     >
       <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (
@@ -124,7 +124,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={i}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.serviceimageIconDivSection}
@@ -139,11 +138,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       style={{ width: "100%", height: "100%" }}
                     />
 
-                    {/* <img
-                      className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
                   </div>
                   <Link
                     onClick={() => {
@@ -342,12 +336,11 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                 <div
                   key={i}
                   onClick={() => {
-                    // navigate(`/${item.path}`);
                     serHoverOut("", false);
                   }}
                   className={navservice.servicebackendimageIconDivSection}
                 >
-                  <div className={navservice.iconDivSection}>
+                  <div >
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -357,10 +350,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       style={{ width: "100%", height: "100%" }}
                     />
 
-                    {/* <img className={navservice.serviceiconDivSection}
-                      src={item.navIcons}
-                      alt=""
-                    /> */}
+                 
                   </div>
                   <Link
                     onClick={() => {

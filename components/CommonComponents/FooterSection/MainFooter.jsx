@@ -12,13 +12,13 @@ import {
   FaPhoneAlt,
   FaWhatsapp,
 } from "react-icons/fa";
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
 import { Player } from "@lottiefiles/react-lottie-player";
 import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
+import Positions from "./Positions";
 const FooterTable = dynamic(() => import("./FooterTable"), {
   loading: () => "loading...",
 });
@@ -46,29 +46,7 @@ const MainFooter = () => {
   };
 
   const [more, setMore] = useState(false);
-  const address = [
-    {
-      address: "800 3rd Ave New York, NY 10022 United States",
-      className: "newYorkLocation",
-    },
-    {
-      address: "House No, 3 Nkanchibaya Rd, Lusaka, Zambia",
-      className: "zambiaLocation",
-    },
-    {
-      address: "422,Jtm Mall, Model Town, Jagatpura, Jaipur, Rajasthan 302017",
-      className: "germanyLocation",
-    },
-    {
-      address: "Jtm Mall, Office no 422, 4th Floor, Jaipur Rajasthan, 302025",
 
-      className: "indiaLocation",
-    },
-    {
-      address: "1210, The Regal Tower, Near Business Bay, Dubai, U.A.E.",
-      className: "uaeLocation",
-    },
-  ];
 
   const moreServices = () => {
     more ? setMore(false) : setMore(true);
@@ -78,21 +56,9 @@ const MainFooter = () => {
     <div className={styles.mainFooterSection}>
       <div className={styles.rightFooter}>
         <div className={styles.mapImageSection}>
-          {address.map((item, i) => (
-            <OverlayTrigger
-              key={i}
-              placement="right"
-              delay={{ show: 250, hide: 400 }}
-              overlay={
-                <div className={styles.tooltipCustomised}>
-                  <div className={styles.indicate}></div>
-                  <p>{item.address}</p>
-                </div>
-              }
-            >
-              <div key={i} className={item.className}></div>
-            </OverlayTrigger>
-          ))}
+
+          <Positions/>
+         
 
           <Player
             src={footerWorldmapAnimate}

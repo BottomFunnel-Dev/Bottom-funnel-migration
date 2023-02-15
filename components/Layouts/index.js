@@ -33,18 +33,15 @@ const MainFooter = dynamic(
   () => import("../CommonComponents/FooterSection/MainFooter"),
   { loading: () => "loading..." },
 );
-
+const PortFolio = dynamic(
+  () => import("../CommonComponents/PortFolioSection/PortFolio"),
+  { loading: () => "Loading..." },
+);
 export default function Layout({ children }) {
   return (
     <>
       <Navbar
-        productMount={{
-          navMount: false,
-        }}
-        navredux={{
-          color: "white",
-          logo: true,
-        }}
+        navPageColor = {true}
       />
       <main>{children}</main>
       <StoriesSection />
@@ -52,6 +49,7 @@ export default function Layout({ children }) {
       <PlanProject />
       <SeoblogSection />
       <Revamping />
+      <PortFolio/>
       <TextDropdown />
       <ContectForm />
       <MainFooter />

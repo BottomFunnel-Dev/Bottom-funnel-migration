@@ -14,7 +14,7 @@ export const Industries = ({
             onMouseEnter={()=>{indusHoverIn("industry",true)}}
             onMouseLeave={()=>{indusHoverOut("",false)}}
             className={industry.industryserviceVisible}
-            style={{ top: scroll ? "68px" : "98px" }}
+            style={{ top: scroll ? "68px" : "80px" }}
         >
             {/* <div className={industry.serviceVisible}> */}
             <div className={industry.indindustryContent}>
