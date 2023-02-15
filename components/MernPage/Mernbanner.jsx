@@ -24,7 +24,7 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
         {bannerdata.icons.map((item, index) => (
           <div key={index} className={styles.mernskills}></div>
         ))}
-      </div>
+      </div>  
       <div className={styles.mernanimation}>
         <Player
           src={animateData}
