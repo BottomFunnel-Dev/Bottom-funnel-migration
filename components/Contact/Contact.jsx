@@ -27,12 +27,12 @@ export const ContactMain = ({ scroll, navbar }) => {
       contact: "+254 787213522",
     },
     {
-      icon: "/Images/navbar/iconcontact/skype.svg",
-      contact: "+91 bottomfunnel",
+      icon: "/Images/navbar/iconcontact/skypes.svg",
+      contact: "bottomfunnel",
     },
     {
       icon: "/Images/navbar/iconcontact/mail.svg",
-      contact: "+91 sales@bottomfunnel.net, info@bottomfunnel.net",
+      contact: "sales@bottomfunnel.net, info@bottomfunnel.net",
     },
   ];
   const hr = [
@@ -90,7 +90,7 @@ export const ContactMain = ({ scroll, navbar }) => {
             setCalldrop(true);
           }}
           onMouseLeave={() => {
-            setCalldrop(false);
+            setCalldrop(true);
           }}
         >
           <svg
@@ -124,7 +124,7 @@ export const ContactMain = ({ scroll, navbar }) => {
             setCalldrop(true);
           }}
           onMouseLeave={() => {
-            setCalldrop(false);
+            setCalldrop(true);
           }}
           className={stylecon.callcontent}
         >
