@@ -1,25 +1,46 @@
-.EducationBannerMain{
+.EducationBannerMain {
     height: 100vh;
     padding-top: 60px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
-.EducationBannerText{
-    padding: 200px 50px 0px 40px;
+
+.EducationBannerText {
+    width: 45%;
 }
-.EducationBannerText>p{
+
+.EducationBannerText>p {
+    font-size: 16px;
+}
+
+.EducationBannerText>p:first-child {
     font-weight: 500;
+    margin: 0;
 }
-.EducationBannerText>button{
-    font-size: 15px;
-    padding: 10px 30px;
-    border-radius: 5px;
-    margin-top: 27px;
-    border: 1px solid transparent;
+
+.EducationBannerText>h1 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.EducationBannerText>button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 60px;
+    border-radius: 100px;
+    margin: 2% 0;
+    border: 2px solid #ef4c23;
     color: white;
     background-color: #ef4c23;
 }
-.EducationBannerimg{
-    padding: 50px;
 
+.EducationBannerText>button:hover {
+    color: #ef4c23;
+    background-color: white;
+}
+
+.EducationBannerimg {
+    width: 45%;
+    align-self: flex-end;
 }

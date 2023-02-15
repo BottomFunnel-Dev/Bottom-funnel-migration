@@ -5,6 +5,7 @@
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
+  /* border: 2px solid green; */
 }
 
 .DataScienceSliderSliderDiv > h1 {
@@ -44,6 +45,7 @@
   width: 670px;
   height: 250px;
   position: relative;
+  /* border: 2px solid red; */
 
   transform: scale(0.5);
   transition: transform 0.5s ease-in-out;
@@ -63,10 +65,11 @@
 
   
 .DataScienceIcons{
-  width: 50%;
-  height: 120px;
-  margin-left: 50%;
+  width: 110px;
+  height: 90px;
+  margin-left: 20%;
   margin-top: 10%;
+  /* border: 2px solid green; */
 }
 
 .DataScienceSliderSliderPrev {
@@ -76,6 +79,7 @@
   z-index: 10;
   left: 0%;
   top: 50%;
+  /* border: 2px solid aqua; */
 }
 
 .DataScienceSliderSliderArrow {
