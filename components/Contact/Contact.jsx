@@ -12,29 +12,33 @@ export const ContactMain = ({ scroll, navbar }) => {
   const arr = [
     {
       icon: "/Images/navbar/iconcontact/india.svg",
-      contact: "+91 9494293948",
+      contact: "+91 7877680588, 8209366227",
     },
     {
       icon: "/Images/navbar/iconcontact/usa.svg",
-      contact: "+91 9494293948",
+      contact: "+1 9176956550",
+    },
+    {
+      icon: "/Images/navbar/iconcontact/usa.svg",
+      contact: "+971 553070316, 565664624, ",
     },
     {
       icon: "/Images/navbar/iconcontact/kenya.svg",
-      contact: "+91 9494293948",
+      contact: "+254 787213522",
     },
     {
       icon: "/Images/navbar/iconcontact/skype.svg",
-      contact: "+91 9494293948",
+      contact: "+91 bottomfunnel",
     },
     {
       icon: "/Images/navbar/iconcontact/mail.svg",
-      contact: "+91 9494293948",
+      contact: "+91 sales@bottomfunnel.net, info@bottomfunnel.net",
     },
   ];
   const hr = [
     {
       icon: "/Images/navbar/iconcontact/india.svg",
-      contact: "+91 9494293948",
+      contact: "+91 7877680588, 8209366227",
     },
   ];
 
