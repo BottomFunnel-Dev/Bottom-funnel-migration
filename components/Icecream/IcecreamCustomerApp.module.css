@@ -15,7 +15,7 @@
 .icecreamdeliveryappflexingboxleftbox {
   height: 480px;
   width: 45%;
-  background: url("/Images/icecreamchanges/Rectangle 4842.png");
+  background: url("/Images/icecreamchanges/Rectangle 4842.webp");
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-size: contain;
@@ -28,8 +28,6 @@
 }
 
 .icecreamdeliveryappleftboxinsiderupperimage > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 

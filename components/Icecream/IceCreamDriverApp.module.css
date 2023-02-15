@@ -17,7 +17,7 @@
 .icecreamdriverappflexingboxleftbox {
   height: 480px;
   width: 45%;
-  background: url("/Images/icecreamchanges/Ellipse 247.png");
+  background: url("/Images/icecreamchanges/Ellipse 247.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -29,8 +29,6 @@
 }
 
 .icecreamdeliveryappleftboxinsiderupperimage > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
@@ -64,17 +62,17 @@
 }
 
 .icecreamdeliveryappindivisualboxforlogo {
+
   height: 23%;
   width: 12%;
 }
 
 .icecreamdeliveryappindivisualboxforlogo > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
 .icecreamdeliveryappindivisualboxfortext > h4 {
+  padding-top: 5px;
   margin-top: 1%;
   font-size: 18px;
   font-weight: 500;
