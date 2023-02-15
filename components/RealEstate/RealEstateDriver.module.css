@@ -34,7 +34,7 @@ background-color: white;
 
 .realstatemapperdriverindivisuallybox{
     width: 48%;
-    height: 150px;
+   height: 180px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     border-radius: 10px;
@@ -54,7 +54,7 @@ background-color: white;
   
    
     margin-left: 3%;
-    background: url("/Images/RealEstate/Backgrounds/Rectangle 146.png");
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 146.webp");
     background-repeat: no-repeat;
     background-size: 85% 60%;
     background-position-y: center;

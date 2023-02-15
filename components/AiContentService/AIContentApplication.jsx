@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AIContentApplication.module.css";
+import Image from "next/image";
 
 export default function AIContentApplication() {
   return (

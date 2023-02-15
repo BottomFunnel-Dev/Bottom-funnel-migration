@@ -1,0 +1,10 @@
+.BlockChainServicesMain {
+padding: 5% 3% 5% 3%;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+url("/Images/BlockChainPhotos/mid-banner.webp");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: white;
+text-align: center;
+}

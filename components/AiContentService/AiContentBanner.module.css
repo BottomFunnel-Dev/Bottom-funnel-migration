@@ -3,12 +3,13 @@ height: 100vh;
 background: url("/Images/AiContentsolution/bannersBackgrounds/Component 98.webp");
 background-size: cover;
 position: relative;
+margin-top: 5%;
 }
 .aicontentbannerboxfortext {
 height: 40%;
 width: 44%;
 position: absolute;
-top: 37%;
+top: 20%;
 left: 5%;
 color: white;
 }

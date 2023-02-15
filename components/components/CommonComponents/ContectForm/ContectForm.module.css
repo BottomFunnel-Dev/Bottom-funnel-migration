@@ -1,0 +1,322 @@
+.mainLeadform {
+  width: 100%;
+  height: 735px;
+  position: relative;
+}
+.backgroundDiv {
+  width: 100%;
+  height: 50%;
+  background-color: #fcdbd3;
+}
+.contectSection {
+  width: 80%;
+  /* background-color: green; */
+  display: flex;
+  box-shadow: 0px 0px 5px 0px rgb(236 234 234);
+
+  justify-content: space-between;
+  /* background: teal; */
+  position: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+  /* padding: 25px; */
+  transform: translate(-50%, -50%);
+  top: 62%;
+  left: 50%;
+}
+
+.formHeader {
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+}
+.formHeader > h5 {
+  font-size: 18px;
+}
+.formHeader > h2 {
+  /* margin: 0; */
+}
+
+.addressSection {
+  width: 40%;
+  /* padding: 20px; */
+  position: relative;
+}
+.addressSection > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
+}
+.addressSection > div {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+  width: 100%;
+}
+.addressSection > h1 {
+  color: #ef4c23;
+}
+
+.mailAddress {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  column-gap: 5%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mailAddress:hover {
+  transform: scale(1.01);
+}
+.iconDiv {
+  width: 15%;
+}
+.mailtextDiv {
+  width: 70%;
+}
+
+.mailAddress:hover .mailIcon {
+  /* color: #ef4c23; */
+}
+/* .mailAddress:hover {
+  background-color: rgb(192, 188, 188);
+ 
+} */
+
+.mailAddress > div > p {
+  margin: 0;
+  font-size: 15px;
+  color: black;
+}
+.mailAddress > div > h3 {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+}
+.mailIcon {
+  font-size: 38px;
+  color: black;
+}
+
+.assistanceSection {
+  width: 70%;
+  margin-top: 30px;
+  text-align: center;
+  margin: 45px auto;
+  color: white;
+}
+.assistanceSection > ul > li {
+  list-style-type: disc;
+  color: white;
+  text-align: left;
+}
+
+.formPart {
+  width: 60%;
+  /* border-radius: 10px; */
+  /* border: 5px solid #d0d0d0; */
+  /* background-color: rgb(84, 87, 84); */
+  /* background: linear-gradient(45deg, rgba(255,255,255,0.7),rgba(255,255,255,0.8) ); */
+  background-color: white;
+  /* backdrop-filter: blur(20px); */
+  padding: 20px;
+}
+
+.contactformcss {
+  width: 60%;
+  background-color: white;
+}
+.formSection {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1%;
+  row-gap: 30px;
+}
+
+.inputWithIcon {
+  box-sizing: border-box;
+  width: 49%;
+  display: flex;
+  align-items: center;
+  column-gap: 1%;
+  border-bottom: 2px solid rgb(164, 160, 160);
+}
+.classIcon {
+  width: 5%;
+}
+
+.formIcon {
+  color: black;
+}
+.inputPart {
+  width: 85%;
+  box-sizing: border-box;
+  border: none;
+  /* color: #ef4c23; */
+  color: black;
+
+  background: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.inputPart::placeholder {
+  color: #ef4c23;
+  color: black;
+
+  font-weight: 500;
+}
+.phoneNumber::placeholder {
+  color: #ef4c23;
+  color: black;
+
+  font-weight: 500;
+}
+.whatsapp::placeholder {
+  font-weight: 500;
+  color: #ef4c23;
+  color: black;
+}
+.messagePart::placeholder {
+  font-weight: 500;
+  color: #ef4c23;
+  color: black;
+}
+
+.phoneClass {
+  width: 15%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.countryCode {
+  width: 90%;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: none;
+  padding: 10px 0;
+  font-weight: 500;
+  color: #ef4c23;
+  color: black;
+
+  outline: none;
+  border: none;
+}
+
+.phoneNumber {
+  width: 33%;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ef4c23;
+  color: black;
+
+  border: none;
+  background: none;
+  /* color: white; */
+  outline: none;
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(164, 160, 160);
+}
+
+.selectClass {
+  width: 49%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(164, 160, 160);
+}
+.selectPart {
+  width: 90%;
+  box-sizing: border-box;
+  font-size: 16px;
+  /* color: rgb(125, 118, 118); */
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  color: #ef4c23;
+  color: black;
+}
+.whatsapp {
+  width: 49%;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  color: #ef4c23;
+  color: black;
+
+  background: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(164, 160, 160);
+}
+
+.textareaClass {
+  width: 100%;
+}
+.formMessageIcon {
+  margin-right: 5px;
+  color: #ef4c23;
+  color: black;
+}
+.messagePart {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: #ef4c23;
+  color: black;
+
+  background: none;
+
+  outline: none;
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 2px solid rgb(164, 160, 160);
+}
+
+.textareaClass > label {
+  color: #ef4c23;
+  color: black;
+
+  font-weight: 500;
+}
+.formSection strong {
+  color: #ef4c23;
+  color: black;
+}
+
+.robotCaptcha {
+  display: flex;
+  justify-content: center;
+}
+.robotCaptcha input {
+  padding: 10px 60px;
+  font-size: 18px;
+  background-color: #ef4c23;
+  border-radius: 25px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+  /* border: 2px solid #ef4c23; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.robotCaptcha input:hover {
+  /* border: 2px solid #ef4c23; */
+  color: #ef4c23;
+  background-color: white;
+}

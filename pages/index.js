@@ -19,14 +19,13 @@ const Services = dynamic(() => import("../components/Services/Services"), {
 
 const CompanyLogo = dynamic(
   () => import("../components/CompanyLogos/CompanyLogo"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
-
 const BannerFull = dynamic(
   () => import("../components/mainSection/BannerFull"),
   {
     loading: () => "Loading...",
-  },
+  }
 );
 
 export default function Home() {
@@ -37,8 +36,7 @@ export default function Home() {
           Bottom Funnel Global Web and App Development Company | Digital
           Transformation Service
         </title>
-        <meta
-          name="description"
+        <meta name="description"
           content="Bottom Funnel makes ridiculously easy-to-use marketing, sales, support and IT solutions"
         />
       </Head>

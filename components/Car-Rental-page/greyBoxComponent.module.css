@@ -14,10 +14,11 @@ height: 200px;
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 border-radius: 10px;
 text-align: left;
-padding: 1%;
+padding: 2%;
 }
 
 .RGdivv:hover {
+background-color: #aef1f6;    
 margin-top: 0; 
 transform: scale(1.02);
 } 

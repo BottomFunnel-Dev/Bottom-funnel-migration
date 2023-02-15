@@ -1,0 +1,147 @@
+.jobopeningmainboxes{
+    height: fit-content;
+  position: relative;
+    margin-top: 3%;
+}
+
+.jobopeningmainboxes h1{
+    font-weight: 700;
+    text-align: center;
+}
+
+.jobopeningmainboxes>p{
+    width: 70%;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.jobopeningmainboxes span{
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+.jobopeningmappingbox{
+    width: 80%;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobopeningmainboxes>div{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobopeningmainboxes>div>div{
+    width: 30%;
+    border: 1px solid #ef4c23;
+    border-radius: 15px;
+text-align: center;
+margin-bottom: 5%;
+padding: 10px;
+}
+
+
+.jobopeningmainboxes>div>div:hover{
+    /* background-color: #ef4c23;
+    color: white; */
+    transform: scale(1.02);
+}
+
+.jobopeningskillwiseindi{
+    height:fit-content;
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+    border: 1px solid #ef4c23;
+   
+}
+
+.jobrequirementindivisualtypes h5{
+text-align: center;
+margin-bottom: 5%;
+}
+
+.jobrequirementindivisualtypes p{
+  
+    width: fit-content;
+    font-weight: 600;
+}
+
+.jobrequirementhireatalentpara{
+    text-align: left;
+   
+    
+    
+}
+
+.applytalentbannerbutton{
+    background-color: #ef4c23;
+    color: white;
+  border: none;
+  padding: 5px;
+    margin-top: 10%;
+}
+
+.flexingbutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.applytalentflexboxtxtyearexp{
+    margin-top: 10%;
+    padding: 5px;
+}
+
+.skillrequired{
+ 
+   margin-top: 10%;
+   margin-bottom: 10%;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+}
+
+.talentapplyapplynowbutton{
+    padding: 10px 30px;
+    border-radius: 100px;
+    width: 220px;
+    height: 50px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: #ef4c23 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.talentapplyapplynowbutton:hover{
+
+    background-color: white;
+    color: #ef4c23;
+}
+
+.jobrequirementindivisualtypes>div h4{
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.hovering:hover{
+    background-color: white;
+    color: #ef4c23;
+}
+
+.hovering{
+    background-color: #ef4c23;
+    color: white;
+}
+

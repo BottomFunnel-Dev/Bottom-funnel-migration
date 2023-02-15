@@ -20,7 +20,7 @@
 .customerappmeatdeliveryappleftbox {
   height: 100%;
   width: 45%;
-  background: url("/Images/meatdelieveryapp/Rectangle_4242-1.png");
+  background: url("/Images/meatdelieveryapp/Rectangle_4242-1.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 150px;
@@ -60,7 +60,7 @@
 }
 
 .meatdeliverymappingboxes {
-  height: 40%;
+  height: 180px;
   width: 42%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;

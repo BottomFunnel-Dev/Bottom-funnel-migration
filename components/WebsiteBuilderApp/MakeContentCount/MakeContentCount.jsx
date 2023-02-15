@@ -27,10 +27,10 @@ export const MakeContentCount = () => {
 
             <div className={styles.makeContentCountImageMainDiv}>
                 <div className={styles.makeContentImageDivBackImage}>
-                    <img src='/Images/WebsiteBuilderApp/LeftSideBackgroundImage.png' alt="image" />
+                    <img src='/Images/WebsiteBuilderApp/LeftSideBackgroundImage.webp' alt="image" />
 
                     <div className={styles.makeContentImageDivTopImage}>
-                        <img src='/Images/WebsiteBuilderApp/TopCompImage.png' alt='image' />
+                        <img src='/Images/WebsiteBuilderApp/TopCompImage.webp' alt='image' />
                     </div>
                 </div>
 

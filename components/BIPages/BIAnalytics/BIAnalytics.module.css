@@ -5,12 +5,14 @@ padding: 2%;
 border-radius: 25px;
 background: #ffd8cf;
 text-align: center;
+
 }
 .BIAnalyticsContainer > h1 {
 font-size: 32px;
 width: 100%;
 margin: 1% auto 0;
 }
+
 .BIAnalyticsMain {
 width: 95%;
 margin: 1% auto;

@@ -1,0 +1,110 @@
+.CryptoDevWhyBFMain {
+  width: 90%;
+  margin: 3% auto;
+}
+
+.CryptoDevWhyBFMain > h1 {
+  font-size: 32px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.CryptoDevWhyBFMain > h1 > span {
+  color: #ef4c23;
+}
+
+.CryptoDevWhyBFContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevWhyBFContent {
+  width: 45%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CryptoDevWhyBFContent > div {
+  width: 46%;
+  height: 160px;
+  margin-bottom: 2%;
+  background-color: #f5f5f5;
+
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.CryptoDevWhyBFContent > div > h4 {
+  font-size: 16px;
+  margin: 0;
+  z-index: 0;
+
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  transition: opacity 0.5s linear;
+
+  opacity: 1;
+}
+
+.CryptoDevWhyBFContent > div:hover h4 {
+  opacity: 0;
+}
+
+.CryptoDevWhyBFContent > div > div {
+  width: 30%;
+  height: 2%;
+  background: #ef4c23;
+  overflow: hidden;
+  z-index: 1;
+
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  border-radius: 10px;
+
+  transition: height 0.2s linear 0.3s, width 0.2s linear;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.CryptoDevWhyBFContent > div > div > p {
+  color: white;
+  font-size: 16px;
+
+  width: 90%;
+  margin: auto;
+  opacity: 0;
+}
+
+.CryptoDevWhyBFContent > div:hover div {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CryptoDevWhyBFContent > div:hover div > p {
+  text-align: justify;
+  opacity: 1;
+}
+
+.CryptoDevWhyBFImage {
+  width: 50%;
+  height: fit-content;
+}
+
+.CryptoDevWhyBFImage > img {
+  width: 100%;
+}

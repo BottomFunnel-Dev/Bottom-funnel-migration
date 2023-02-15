@@ -39,6 +39,7 @@
 .whychooseusaftermappingdatabox:hover {
   transform: scale(1.02);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #bed0f1;
 }
 
 .whychooseusfintechlogobox {

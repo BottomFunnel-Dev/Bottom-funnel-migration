@@ -30,7 +30,7 @@
 .flexingboxoffintechexclusive {
   height: 60%;
   width: 94%;
-  margin: 10% 3% 0% 3%;
+  margin: 10% 3% 0% 5%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -46,6 +46,7 @@
 
 .fintechsolutionsflexingboxaftermapping:hover {
   transform: scale(1.02);
+  background-color: #bed0f1;
 }
 
 .fintechsolutionsflexingboxaftermapping > h3 {

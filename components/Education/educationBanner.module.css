@@ -1,0 +1,105 @@
+.educationbannermainboxes {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+}
+
+.educationbannertextboxes {
+  height: fit-content;
+  width: 40%;
+}
+
+.educationbannertextboxes > h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.educationbannertextboxes > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.educationbuttonbanner {
+  padding: 10px 30px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #ef4c23;
+  border: 2px solid #ef4c23;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.educationbuttonbanner:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+.educationbannermainImages {
+  width: 50%;
+}
+
+.educationbannermainImages > img {
+  width: 100%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .educationbannermainboxes {
+    flex-direction: column-reverse;
+  }
+  .educationbannertextboxes {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .educationbannertextboxes > h1 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+
+  .educationbannertextboxes > p {
+    font-size: 14px;
+  }
+
+  .educationbuttonbanner {
+    font-size: 16px;
+    font-size: 400;
+    padding: 8px 20px;
+    margin-bottom: 0;
+  }
+
+  .educationbannermainImages {
+    width: 90%;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .educationbannermainboxes {
+    flex-direction: column-reverse;
+  }
+
+  .educationbannertextboxes {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .educationbannermainImages {
+    width: 90%;
+  }
+}

@@ -1,0 +1,91 @@
+.BIWhyBFMain {
+width: 90%;
+margin: auto;
+}
+.BIWhyBFMain > h1 {
+font-size: 32px;
+margin-top: 2%;
+margin-bottom: 1%;
+}
+.BIWhyBFMain > h1 > span {
+color: #ef4c23;
+}
+.BIWhyBFMain > p {
+font-size: 16px;
+width: 100%;
+margin: 1% auto;
+}
+.BIWhyBFContainer {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BIWhyBFContent {
+width: 45%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.BIWhyBFContent > div {
+width: 40%;
+height: 170px;
+margin-bottom: 2%;
+background-color: #f5f5f5;
+overflow: hidden;
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+}
+.BIWhyBFContent > div > h4 {
+font-size: 16px;
+margin: 0;
+position: absolute;
+bottom: 20%;
+left: 5%;
+transition: opacity 0.4s linear;
+opacity: 1;
+}
+.BIWhyBFContent > div:hover h4 {
+opacity: 0;
+}
+.BIWhyBFContent > div > div {
+width: 30%;
+height: 2%;
+background: #ef4c23;
+position: absolute;
+bottom: 15%;
+left: 5%;
+border-radius: 10px;
+overflow: hidden;
+transition: height 0.2s linear 0.4s, width 0.2s linear;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.BIWhyBFContent > div > div > p {
+color: white;
+font-size: 16px;
+width: 90%;
+margin: auto;
+opacity: 0;
+transition: opacity 0.4s linear;
+}
+.BIWhyBFContent > div:hover div {
+height: 100%;
+width: 100%;
+bottom: 0;
+left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BIWhyBFContent > div:hover div > p {
+text-align: justify;
+opacity: 1;
+}
+.BIWhyBFImage {
+width: 50%;
+height: fit-content;
+}
+.BIWhyBFImage > img {
+width: 100%;
+}

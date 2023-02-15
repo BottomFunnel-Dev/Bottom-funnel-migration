@@ -1,21 +1,30 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import { Customer } from "../../components/KidsWear/KidsCustomerApp/Customer";
+import { KidswearAdmin } from "../../components/KidsWear/KidswearAdminApp/KidswearAdmin";
 
 const KidsWearBanner = dynamic(
   () => import("../../components/KidsWear/KidsWearBanner/KidsWearBanner"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 
 const ExclusiveFeature = dynamic(
   () => import("../../components/KidsWear/ExclusiveFeature/ExclusiveFeature"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
 
+<<<<<<< HEAD
+// const AppFeature = dynamic(
+//   () => import("../../components/KidsWear/AppFeature/AppFeature"),
+//   { loading: "Loading..." },
+// );
+=======
 const AppFeature = dynamic(
   () => import("../../components/KidsWear/AppFeature/AppFeature"),
-  { loading: "Loading..." },
+  { loading: "Loading..." }
 );
+>>>>>>> 90e2f55e52a58d5000d9382907a58923ec2bdc6c
 
 // const ChooseUs = dynamic(
 //   () => import("../../components/KidsWear/ChooseUs/ChooseUs"),
@@ -41,8 +50,9 @@ export default function Kidswear() {
       <main>
         <KidsWearBanner />
         <ExclusiveFeature />
-        <AppFeature />
-        {/* <ChooseUs /> */}
+       <Customer />
+       <KidswearAdmin />
+      {/*  <ChooseUs /> */}
       </main>
     </div>
   );

@@ -1,0 +1,75 @@
+.agricultureWhyChooseUsParentDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+}
+
+.agricultureWhyChooseUsHeadingMainDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.agricultureWhyChooseUsHeading1 {
+  /* border: 1px solid red; */
+  width: 30%;
+}
+
+.agricultureWhyChooseUsHeading2 {
+  border-left: 1px solid #ef4c23;
+}
+
+/* .agricultureWhyChooseUsCardsMainDiv {
+  border: 1px solid black;
+  text-align: center;
+  justify-content: space-evenly;
+} */
+
+.agricultureWhyChooseUsDataCardsDiv1 {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.agricultureWhyChooseUsDataCardsSubDiv1 {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+.agricultureWhyChooseUsDataCardsSubDiv1 > p {
+  width: 60%;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.agricultureWhyChooseUsDataCardsSubDiv2 {
+  /* border: 1px solid red; */
+  width: 40%;
+}
+
+.agricultureWhyChooseUsDataCardsSubDiv2 > p {
+  width: 60%;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.agricultureDataCardsSubHeadingDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+}
+
+.agricultureDataCardsSubHeadingDiv > img {
+  width: 10%;
+  height: 10%;
+  object-fit: fill;
+}
+
+.agricultureDataCardsSubHeadingDiv > h2 {
+  margin-top: 2%;
+  margin-left: 1%;
+}

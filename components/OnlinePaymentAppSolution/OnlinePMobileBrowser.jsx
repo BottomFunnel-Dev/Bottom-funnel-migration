@@ -21,7 +21,7 @@ export const OnlinePMobileBrowser = () => {
         <div className={styles.onlinepmobilebrowsermainboxes}>
             <div className={styles.onlinepmobilebrowserleftbox}>
                 <div className={styles.onlinemobilepbrowserleftboxoutermobilebox}>
-                    <img src='/Images/onlinepaymentpage/in app mobile payments.png' alt='mobile' />
+                    <img src='/Images/onlinepaymentpage/in app mobile payments.webp' alt='mobile' />
                 </div>
 
 

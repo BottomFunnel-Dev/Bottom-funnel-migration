@@ -7,11 +7,11 @@ return (
 Why Choose Bottom Funnel as Your Business Intelligence Solutions Partner
 </h1>
 <div className={styles.BIAnalyticsMain}>
-<h2>7+ Years of industry experience</h2>
+<h5>7+ Years of industry experience</h5>
 <span></span>
-<h2>80+ Successfully Implemented BI projects</h2>
+<h5>80+ Successfully Implemented BI projects</h5>
 <span></span>
-<h2>60% Happy clients</h2>
+<h5>60% Happy clients</h5>
 </div>
 </div>
 );

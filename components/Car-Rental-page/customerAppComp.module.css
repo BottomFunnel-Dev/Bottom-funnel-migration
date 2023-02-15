@@ -17,7 +17,7 @@
   height: 450px;
   width: 40%;
   margin-left: 3%;
-  background: url("/public/Images/Car-Rental-Page-Images/Vector-2.png");
+  background: url("/public/Images/Car-Rental-Page-Images/Vector-2.webp");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -31,8 +31,6 @@
 }
 
 .RGCustomerAppMobileLeftDivFrameForImages > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
@@ -43,7 +41,7 @@
   justify-content: space-around;
   width: 60%;
   margin: auto;
-  padding: 2%;
+  padding: 3%;
   align-items: center;
 }
 
@@ -55,6 +53,7 @@
   padding: 10px;
   border-radius: 4px;
   text-align: justify;
+  padding: 3%;
 }
 
 .RGCustomerAppMobileRightDivBoxex:hover {

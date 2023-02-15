@@ -11,7 +11,8 @@ border-right: 1px solid black;
 }
 .whyChooseKotlinContent {
 width: 48%;
-margin-top: 3%;
+/* margin-top: 3%; */
+
 }
 .whyChooseKotlinContentHeading {
 margin-top: 8%;
@@ -28,12 +29,14 @@ width: 100%;
 margin-top: 5%;
 display: flex;
 flex-direction: row;
+/* border: 2px solid red; */
 }
 .whyChooseKotlinContainerDiv {
 width: 45%;
 display: flex;
 flex-direction: row;
 margin-left: 4%;
+/* border: 2px solid green; */
 }
 .whyChooseKotlinContainerDiv:hover {
 cursor: pointer;
@@ -44,11 +47,14 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .whyChooseKotlinIcon {
 width: 50px;
 height: 50px;
+/* border: 2px solid yellow; */
 margin-top: 1%;
 }
 .whyChooseKotlinIconHeading {
 width: 75%;
 display: flex;
+/* border: 2px solid green; */
+margin-left: 4%;
 flex-direction: column;
 }
 .whyChooseKotlinIconHeading p{
@@ -56,23 +62,22 @@ margin-top: -0%;
 text-align: justify;
 }
 .mobileappactionkotlinbutton{
-margin-left: 300px;
+margin-left: 200px;
 font-size: 18px;
 border-radius: 15px;
 width: 220px;
 height: 50px;
 font-weight: 550;
-background-color: #ef4c23;
+background-color: #3380f2;
 color: white;
 border: 1px solid lightgrey;
 }
 .mobileappactionkotlinbutton:hover{
 background: white;
-color: black;
+color: #3380f2;
+border: 1px solid #3380f2;
 }
-.mobileappactionkotlinbuttondiv{
-margin-top: 5%;
- }
+
 @media only screen and (min-width:0px) and (max-width:1024px){
 .whyChooseKotlinMainDiv {
 width: 100%;
@@ -110,7 +115,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 .whyChooseKotlinIcon {
 width: 35%;
 margin-top: 5%;
-border: 2px solid blue;
+/* border: 2px solid blue; */
 }
 .whyChooseKotlinIcon img {
 width: 60px;

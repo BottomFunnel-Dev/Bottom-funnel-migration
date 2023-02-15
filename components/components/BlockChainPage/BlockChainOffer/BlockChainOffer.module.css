@@ -1,0 +1,120 @@
+.BlockChainOfferMain {
+width: 90%;
+margin: auto;
+margin-top: 5%;
+margin-bottom: 3%;
+}
+.BlockChainOfferMain > h1 {
+font-size: 32px;
+margin-bottom: 1%;
+}
+.BlockChainOfferHrLine {
+width: 30%;
+margin-top: 1%;
+margin-bottom: 1%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.BlockChainOfferHrLine > div {
+border: 2px solid #0fb2e8;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+}
+.BlockChainOfferHrLine > span {
+width: 46%;
+height: 2px;
+background-color: #0fb2e8;
+color: #0fb2e8;
+}
+.BlockChainOfferMain > p {
+font-size: 16px;
+margin-top: 1%;
+margin-bottom: 3%;
+}
+.BlockChainOfferContent {
+width: 90%;
+margin: auto;
+}
+.BlockChainOfferContent > div {
+margin-top: 2%;
+margin-bottom: 2%;
+padding-bottom: 3%;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+.BlockChainOfferContent > div:last-child {
+border-bottom: none;
+}
+.BlockChainOfferCardsContent {
+width: 70%;
+}
+.BlockChainOfferCardsContent > h2 {
+font-size: 25px;
+margin: auto;
+margin-bottom: 2%;
+}
+.BlockChainOfferCardsContent > p {
+font-size: 16px;
+text-align: justify;
+}
+.BlockChainOfferCardsImages {
+width: 25%;
+padding: 4px 4px 4px 4px;
+border-radius: 8px;
+background-color: #a9eaff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BlockChainOfferCardsImages > img {
+width: 100%;
+}
+.BlockChainOfferButton {
+width: 500px;
+height: fit-content;
+margin: auto;
+cursor: pointer;
+margin-top: 0;
+margin-bottom: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 100px;
+padding-left: 3%;
+background: linear-gradient(to Right, #00d4ff 65%, #5d0979);
+}
+.BlockChainOfferButton > h3 {
+font-size: 18px;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.BlockChainOfferButton > div {
+height: fit-content;
+width: fit-content;
+padding: 5px;
+background: linear-gradient(to Bottom, #00d4ff, #5d0979);
+border-radius: 100px;
+border: 2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BlockChainOfferButton > div > div {
+width: fit-content;
+height: fit-content;
+background: linear-gradient(to Bottom, #5d0979, #00d4ff);
+padding: 5px;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.BlockChainOfferButton > div > div > svg {
+width: 20px;
+height: 20px;
+color: white;
+}

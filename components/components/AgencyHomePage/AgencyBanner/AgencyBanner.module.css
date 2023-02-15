@@ -1,0 +1,58 @@
+.AgencySalesbannermainbox {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid transparent;
+    /* margin-top: 120px; */
+    background-image: url("/Images/Agencyhomepagephotos/agencybanner.png");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: #ef4c23; */
+    /* margin-top: 100px; */
+  }
+
+
+  
+  .AgencySalesbannermainboxinnertextdiv {
+    height: 50%;
+    width: 37%;
+  
+    margin-top: 20%;
+    margin-left: 4%;
+    /* text-align: center; */
+  }
+  
+  .AgencySalesbannermainboxinnertextdiv > h1 {
+    color: white;
+    font-size: 40px;
+    /* font-weight: 600; */
+
+  }
+  .AgencySalesbannermainboxinnertextdiv > p {
+    color: white;
+    margin-top: 5%;
+    font-size: 19px;
+    /* font-weight: 500; */
+  }
+  
+  .AgencySalesbannerbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 22px;
+  }
+  
+  .AgencySalesbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  

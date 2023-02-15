@@ -1,0 +1,117 @@
+.educationgroupwisemainboxes {
+  height: fit-content;
+  margin-bottom: 3%;
+  background-color: #f5f5f5;
+}
+
+.educationgroupwisebordertopbox {
+  width: 80%;
+  border: 2px solid #ef4c23;
+  background-color: #ef4c23;
+}
+
+.educationgroupwiseuppertextbox {
+  height: fit-content;
+  width: 90%;
+  margin: 5%;
+}
+
+.educationgroupwiseflexonebox {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.educationgroupwiseflexoneboxleft {
+  width: 45%;
+
+  height: fit-content;
+}
+
+.educationgroupwiseflexoneboxright {
+  width: 45%;
+  margin-left: 5%;
+
+  height: fit-content;
+}
+
+.educationgroupwiseflexoneboxright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.educationgroupwiserightsideborder {
+  border: 2px solid #ef4c23;
+  background-color: #ef4c23;
+  width: 80%;
+  margin-left: 19.5%;
+}
+
+.educationgroupimageboxflexside {
+  display: flex;
+}
+
+.educationgroupimageboxflexsideleft {
+  width: 100%;
+  height: fit-content;
+  margin-top: 5%;
+}
+
+.educationgroupimageboxflexsideright {
+  width: 100%;
+  margin-top: 5%;
+  height: fit-content;
+  margin-left: 5%;
+}
+
+.educationgroupimageboxflexsideleft > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.educationgroupimageboxflexsideright > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+  .educationgroupwiseuppertextbox > h1 {
+    font-size: 32px;
+  }
+
+  .educationgroupwiseuppertextbox > p {
+    font-size: 14px;
+  }
+
+  .educationgroupwiseflexonebox {
+    flex-direction: column;
+  }
+
+  .educationgroupwiseflexoneboxleft {
+    width: 95%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  .educationgroupimageboxflexsideleft > img {
+    margin: 0;
+  }
+
+  .educationgroupwiseflexoneboxright {
+    width: 95%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+
+  .educationgroupimageboxflexsideright {
+    margin: 0;
+  }
+
+  .educationgroupimageboxflexsideright > img {
+    margin: 0;
+  }
+}

@@ -40,3 +40,8 @@
   right: 0%;
   top: 15%;
 }
+
+.pickupDeliveryBannerAnimation {
+  /* border: 1px solid red; */
+  width: 85%;
+}

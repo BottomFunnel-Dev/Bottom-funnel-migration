@@ -1,0 +1,60 @@
+.contactmanagementbannermainboxes{
+    height: 100vh;
+     background: url("/Images/contactmanagement/banner img.png");
+    background-repeat: no-repeat;
+    background-position-y:center ;
+    background-color: #fafafa;
+    background-position-x: 5%;
+
+
+}
+
+.contactmanagementsometextboxes{
+    height: fit-content;
+    width: 50%;
+ 
+    margin-left: 45%;
+    padding-top: 18%;
+    font-variant-caps: all-petite-caps
+}
+
+
+.contactmanagementsometextboxes>h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.contactmanagementsometextboxes >p{
+    font-size: 18px;
+}
+
+.contactmanagementflexdivtwobutton{
+    display: flex;
+    margin-top: 5%;
+}
+
+.contactmanagementbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 250px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   
+  
+}
+
+.contactmanagementbutton:hover {
+
+    background-color:white;
+    color:  #ef4c23;
+
+}
+
+.button2{
+    margin-left: 2%;
+}

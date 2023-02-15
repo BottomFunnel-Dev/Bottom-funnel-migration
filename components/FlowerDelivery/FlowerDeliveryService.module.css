@@ -21,7 +21,7 @@
   height: 100%;
   width: 90%;
   margin: auto;
-  background-image: url("/Images/Flowerdeliverypage/Rectangle1947.png");
+  background-image: url("/Images/Flowerdeliverypage/Rectangle1947.webp");
   display: flex;
   flex-wrap: wrap;
   padding: 2%;
@@ -98,7 +98,7 @@
     height: 100%;
     width: 100%;
     margin: auto;
-    background-image: url("/Images/Flowerdeliverypage/Rectangle1947.png");
+    background-image: url("/Images/Flowerdeliverypage/Rectangle1947.webp");
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
@@ -179,7 +179,7 @@
   .flowerdeliveryservicebackgroundimagebox {
     width: 100%;
     margin: auto;
-    background-image: url("/Images/Flowerdeliverypage/Rectangle1947.png");
+    background-image: url("/Images/Flowerdeliverypage/Rectangle1947.webp");
     display: flex;
     flex-wrap: wrap;
     padding: 2%;

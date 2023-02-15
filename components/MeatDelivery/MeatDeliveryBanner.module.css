@@ -17,12 +17,10 @@
 
 .meatdeliverybannerfortextboxes > h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
 }
 
-.meatdeliverybannerfortextboxes > p {
-  font-size: 25px;
-}
+
 
 .meatdeliverybanner {
   padding: 10px 50px;
@@ -52,7 +50,7 @@
   width: 43%;
   position: absolute;
   right: 0%;
-  top: 14%;
+  top: 17%;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -60,7 +58,7 @@
 @media only screen and (max-width: 600px) {
   .meatdeliverybannermainboxes {
     height: 100vh;
-    background: url("/Images/meatdelieveryapp/banner.png");
+    background: url("/Images/meatdelieveryapp/banner.webp");
     background-size: 60% 30%;
     background-repeat: no-repeat;
     background-position-x: right;
