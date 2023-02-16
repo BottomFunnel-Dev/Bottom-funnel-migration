@@ -8,7 +8,11 @@ import HomeServices from "../../components/OndemandHome/HomeServices";
 import ExclusiveFeature from "../../components/OndemandHome/ExclusiveFeature";
 import KeyFeatures from "../../components/OndemandHome/KeyFeatures";
 
+import  OnDemandCustomerSection  from "../../components/OndemandHome/OnDemandCustomer";
+
 import Head from "next/head";
+import OnDemandAdminSection from "../../components/OndemandHome/OnDemandAdminSection";
+import OnDemandDriver from "../../components/OndemandHome/OnDemandDriver";
 
 export default function OnDemandSection() {
   return (
@@ -32,7 +36,10 @@ export default function OnDemandSection() {
         <OndemandQuote />
         <HomeServices />
         <ExclusiveFeature />
-        <KeyFeatures />
+        <OnDemandCustomerSection/>
+        <OnDemandAdminSection />
+        <OnDemandDriver />
+        {/* <KeyFeatures /> */}
       </main>
     </div>
   );

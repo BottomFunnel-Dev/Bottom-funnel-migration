@@ -28,9 +28,9 @@ export const OnlinePMobileBrowser = () => {
             </div>
             <div className={styles.onlinepmobilebrowserrightbox}>
                 <div className={styles.onlinepmobilebrowserrightboxheadertext}>
-                    <h1>
+                    <h2>
                         <span className={styles.specialcolor}>Mobile Browser</span> Based Payment
-                    </h1>
+                    </h2>
                 </div>
 
                 <div className={styles.onlinepmobilebrowserrightboxmappingtxt}>
@@ -42,7 +42,7 @@ export const OnlinePMobileBrowser = () => {
                                 </svg>
 
                                 <div className={styles.onlinepmobilebrowseraftermappingxtt}>
-                                    <h4>{e.xtt}</h4>
+                                    <h5>{e.xtt}</h5>
                                 </div>
                             </div>
                         )

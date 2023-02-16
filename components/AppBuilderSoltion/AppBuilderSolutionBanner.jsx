@@ -37,8 +37,7 @@ export default function AppBuilderSolutionBanner() {
           Bottom Funnel: a multi-purpose platform for low-code app development{" "}
         </h1>
         <p>
-          Discover the platform that gives you the freedom to
-          create,design,manage and develop your web presence the way you want.
+        In today's fast-paced world, it becomes next to impossible to keep up with the pace of development. Therefore, we resort to platforms like Bottom Funnel that offer a solution for that in the form of low-code app development.
         </p>
 
         <button onClick={handleOpen} className={styles.appbuildersolutionbannerbutton}>

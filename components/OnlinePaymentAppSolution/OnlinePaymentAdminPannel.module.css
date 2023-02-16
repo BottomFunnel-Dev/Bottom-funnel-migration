@@ -8,7 +8,7 @@ display: flex;
 .onlinepaymentadminpannelleftbox {
 width: 40%;
 height: 60%;
-margin: 0% 0% 0% 10%;
+margin: 2% 0% 0% 5%;
 position: relative;
 }
 
@@ -42,14 +42,14 @@ padding: 10px;
 
 .onlinepaymentadminpannelaftermapping:hover {
 transform: scale(1.02);
-background-color: #cdfcf6;
+background-color: #F9EDF9;
 }
 
 .onlinepaymentadminpannelmappertxtallign {
 height: fit-content;
 }
 
-.onlinepaymentadminpannelmappertxtallign > h4 {
+.onlinepaymentadminpannelmappertxtallign > h5 {
 margin-top: 4%;
 padding-top: 7px;
 padding-left: 10px;
@@ -67,7 +67,8 @@ background: url("/Images/onlinepaymentpage/Rectangle 4789.webp");
 background-repeat: no-repeat;
 background-position-x: right;
 background-position-y: bottom;
-background-size: 90% 70%;
+background-size: 100% 70%;
+margin-left: 5%;
 }
 
 .onlinepaymentadminpannelrightboxchangerimages {
@@ -140,10 +141,11 @@ background-color: #cdfcf6;
 height: fit-content;
 }
 
-.onlinepaymentadminpannelmappertxtallign > h4 {
+.onlinepaymentadminpannelmappertxtallign > h5 {
 margin-top: 0%;
 font-size: 20px;
 margin-top: -4%;
+
 }
 
 .onlinepaymentadminpannelaftermapping > svg {

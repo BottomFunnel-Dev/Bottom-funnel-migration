@@ -6,11 +6,12 @@ background-color: white;
 }
 .onlinepaymentmobileapplicationleftbox {
 height: 80%;
-width: 50%;
+width: 45%;
 background: url("/Images/onlinepaymentpage/Ellipse 65.webp");
 background-size: contain;
 background-repeat: no-repeat;
 background-position-y: center;
+margin-left: 5%;
 }
 .specialcolor {
 color: #ef4c23;
@@ -26,9 +27,9 @@ width: 100%;
 object-fit: contain;
 }
 .onlinepaymentmobileapplicationrightbox {
-height: 80%;
+height: 100%;
 width: 40%;
-margin: 2% 0% 0% 5%;
+margin: 5% 0% 0% 5%;
 }
 .onlinepaymentmobileapplicationmappingbox {
 height: fit-content;
@@ -39,16 +40,23 @@ display: flex;
 border-radius: 10px;
 padding: 10px;
 
+position: relative;
 }
 
 .onlinepaymentmobileapplicationmappingbox:hover {
 transform: scale(1.02);
-background-color: #cdfcf6;
+background-color: #F9EDF9;
 }
 
 .onlinepaymentmobileapplicationtetxtupperheadline {
-height: 50px;
+height: fit-content;
 width: 100%;
+
+
+}
+.onlinepaymentmobileapplicationtetxtupperheadline>h2{
+    margin-top: -5%;
+    position: absolute;
 }
 
 

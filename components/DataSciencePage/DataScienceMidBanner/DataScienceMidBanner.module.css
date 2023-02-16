@@ -1,5 +1,4 @@
-/* for any type of laptop and big screen responsive */
-@media only screen and (min-width:901px){
+
   .datasciencemainboxes{
     height: 50vh;
   }
@@ -13,11 +12,10 @@
   color: white;
   text-align: center;
 }
-}
 
 /* for any type of mobile screen responsible */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
   .DataScienceMidBannerMain {
    
     padding: 5% 3% 5% 3%;
@@ -37,25 +35,3 @@
 }
 }
 
-@media only screen and ( min-width:481px) and (max-width:900px){
-
-  .DataScienceMidBannerMain {
-
-  padding: 5% 3% 5% 3%;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/Images/IOTPhotos/mid-banner.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-
-  text-align: center;
-
-}
-.DataScienceMidBannerMain>p{
-  text-align: justify;
-}
-
-
-}

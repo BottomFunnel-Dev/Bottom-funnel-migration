@@ -29,9 +29,9 @@ export const OnlinePaymentApplications = () => {
 
             <div className={styles.onlinepaymentmobileapplicationrightbox}>
                 <div className={styles.onlinepaymentmobileapplicationtetxtupperheadline}>
-                    <h1>
+                    <h2>
                         <span className={styles.specialcolor}>Payment</span> Application Features
-                    </h1>
+                    </h2>
                 </div>
 
                 {onlinepaymentmobilesoulutiondata.map((e) => {

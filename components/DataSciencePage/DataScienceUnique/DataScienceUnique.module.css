@@ -1,4 +1,4 @@
-@media only screen and (min-width:901px){
+
 .DataScienceUniqueContainer {
   width: 90%;
   margin: 2% auto 2% auto;
@@ -58,16 +58,18 @@
   background-color: #ef4c23;
   color: #ef4c23;
 }
-}
+
 
 /* for any type of mobile screen responsible */
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 
   .DataScienceUniqueContainer {
-    width: 90%;
+    width: 100%;
     margin: 2% auto 2% auto;
-  
+  /* border: 2px solid yellow; */
     display: flex;
+    text-align: center;
+    align-items: center;
 
     flex-flow: column-reverse;
     justify-content: space-between;
@@ -76,11 +78,13 @@
   .DataScienceUniqueContent {
     padding: 2%;
     width: 90%;
+    margin: auto;
+    /* border: 2px solid green; */
   }
   
   .DataScienceUniqueContent > h1 {
-    font-size: 25px;
-    text-align: left;
+    font-size: 32px;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 1%;
   }
@@ -107,7 +111,7 @@
   .DataScienceUniqueHrLine {
     width: 90%;
     margin: 1% 0 1% 0;
-  
+  margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -141,69 +145,5 @@
 }
 }
 
-/* for any type of tablet screen responsive */
 
-@media only screen and ( min-width:481px) and (max-width:900px){
 
-  .DataScienceUniqueContainer {
-    width: 95%;
-    margin: 2% auto 2% auto;
- 
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .DataScienceUniqueContent {
-    padding: 2%;
-    width: 50%;
-  
-  }
-  
-  .DataScienceUniqueContent > h1 {
-    font-size: 32px;
-    text-align: left;
-    margin-top: 0;
-    margin-bottom: 1%;
-  }
-  
-  .DataScienceUniqueContent > p {
-    font-size: 18px;
-    text-align: justify;
-  }
-  
-  
-  .DataScienceUniqueHrLine {
-    width: 90%;
-    margin: 1% 0 1% 0;
-  
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .DataScienceUniqueHrLine > div {
-    border: 2px solid #ef4c23;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-  }
-  
-  .DataScienceUniqueHrLine > span {
-    width: 42%;
-    height: 2px;
-    background-color: #ef4c23;
-    color: #ef4c23;
-  }
-.DataScienceUniqueImage{
-  width: 40%;
-  height: 100%;
-  margin-top: 25%;
- 
-}
-.DataScienceUniqueImage>img{
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
-
-}

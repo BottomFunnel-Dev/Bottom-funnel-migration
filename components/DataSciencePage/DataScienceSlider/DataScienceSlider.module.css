@@ -115,15 +115,17 @@
 
 /* for any type of mobile screen responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
+
 
   .DataScienceSliderSliderDiv {
     position: relative;
     width: 90%;
-    height: 350px;
+    height: 150px;
     margin: auto;
     margin-top: 3%;
     margin-bottom: 3%;
+    /* border: 2px solid green; */
 
   }
   
@@ -149,7 +151,7 @@
   }
   
   .DataScienceSliderHrLine > div {
-    border: 2px solid #ef4c23;
+    /* border: 2px solid #ef4c23; */
     width: 20px;
     height: 20px;
     border-radius: 20px;
@@ -171,7 +173,7 @@
 
     transform: scale(0.5);
     transition: transform 0.5s ease-in-out;
-
+/* border: 2px solid yellow; */
     border-radius: 20px;
     border: 1px solid gray;
  
@@ -183,6 +185,7 @@
   .DataScienceSliderslideactive {
     width: 100px;
     transform: scale(0.8);
+    /* border: 2px solid yellow; */
    
   }
 
@@ -194,6 +197,7 @@
     z-index: 10;
     left: 0%;
     top: 50%;
+    /* border: 2px solid green; */
     
   }
   
@@ -203,7 +207,7 @@
     cursor: pointer;
     z-index: 10;
     color: #393939;
- 
+ /* border: 2px solid red; */
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -217,6 +221,13 @@
     left: 0%;
     top: 50%;
 
+  }
+  .DataScienceIcons{
+    width: 50px;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 10%;
+    /* border: 2px solid green; */
   }
   
   .DataScienceSliderSliderNext {
