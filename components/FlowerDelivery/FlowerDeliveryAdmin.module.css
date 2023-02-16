@@ -12,14 +12,25 @@
 .flowerdeliveryadminflexleftbox > h2 {
   margin-left: 3%;
 }
-
+.flowerdeliveryadminmapping{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
+}
 .flowerdeliveryadmingboxmapping {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 2%;
-  height: 140px;
-  width: 80%;
-  padding: 3%;
+  padding: 25px 15px 15px 10px;
+  height: 230px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
 }
 
 .flowerdeliveryadmingboxmapping:hover {
@@ -34,10 +45,10 @@
 
 .flowerdeliveryadminrightboxforimageone {
   position: absolute;
-  height: 70%;
+  height: 80%;
   width: 93%;
-  top: 15%;
-  left: 10%;
+  top: 20%;
+  left: 11%;
 }
 
 .flowerdeliveryadminrightboxforimageone > img {

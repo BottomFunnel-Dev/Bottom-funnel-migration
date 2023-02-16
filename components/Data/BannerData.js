@@ -4,5 +4,5 @@ export const homeBannerData = {
       an app! Boost efficiency and drive more business with our
       industry-leading on demand home services app development services.`,
 
-  heroImage: "Images/carpoolingpage/bannersbackgrounds/herobanner.png",
+  heroImage: "Images/carpoolingpage/bannersbackgrounds/herobanner.webp",
 };

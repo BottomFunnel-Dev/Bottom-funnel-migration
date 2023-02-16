@@ -41,6 +41,7 @@ const FlowerDeliveryAdmin = () => {
     <div className={styles.flowerdeliveryadminmainbox}>
       <div className={styles.flowerdeliveryadminflexleftbox}>
         <h2> Admin Pannel </h2>
+        <div className={styles.flowerdeliveryadminmapping}>
         {flowerdeliveryadmindata.map((e) => {
           return (
             <div className={styles.flowerdeliveryadmingboxmapping}
@@ -53,6 +54,7 @@ const FlowerDeliveryAdmin = () => {
             </div>
           )
         })}
+        </div>
       </div>
 
       <div className={styles.flowerdeliveryadminflexrightbox}>
