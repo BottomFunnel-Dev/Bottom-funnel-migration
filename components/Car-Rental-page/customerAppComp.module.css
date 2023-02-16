@@ -16,9 +16,9 @@
 .RGCustomerAppMobileLeftDiv {
   height: 450px;
   width: 40%;
-  margin-left: 3%;
-  background: url("/public/Images/Car-Rental-Page-Images/Vector-2.webp");
+  background: url("/Images/Car-Rental-Page-Images/Rectangle 4724.webp");
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -35,31 +35,31 @@
 }
 
 .RGCustomerAppMobileRightDiv {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 20px;
-  justify-content: space-around;
-  width: 60%;
-  margin: auto;
-  padding: 3%;
-  align-items: center;
+width: 45%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+gap: 20px;
 }
 
 .RGCustomerAppMobileRightDivBoxex {
-  height: fit-content;
-  width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  display: flex;
-  padding: 10px;
-  border-radius: 4px;
-  text-align: justify;
-  padding: 3%;
+  padding: 30px 10px 10px 20px;
+  height: 250px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
 }
 
 .RGCustomerAppMobileRightDivBoxex:hover {
   transform: scale(1.02);
-  background-color: rgb(10, 178, 189);
-  color: white;
+  background-color: rgb(205, 248, 251);
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .RGCustomerAppMobileRightDivBoxex > div > h4 {

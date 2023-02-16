@@ -17,7 +17,7 @@
   height: 400px;
   width: 50%;
   position: relative;
-  background: url("/Images/Car-Rental-Page-Images/Rectangle18529.png");
+  background: url("/Images/Car-Rental-Page-Images/Rectangle 4790.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -36,24 +36,23 @@
 }
 
 .RGadminPannelLeftDiv {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 20px;
-  justify-content: space-around;
-  width: 60%;
-  margin: auto;
-  padding: 2%;
-  align-items: center;
+width: 45%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+gap: 20px;
 }
 
 .RGadminPannelLeftDivBoxex {
-  height: 170px;
-  width: 40%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  display: flex;
-  padding: 10px;
-  border-radius: 4px;
-  text-align: justify;
+padding: 10px 10px 10px 10px;
+height: 250px;
+width: 45%;
+border-radius: 18px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 10px;
+background-color: white;
+cursor: pointer;
 }
 
 .RGadminPannelLeftDivBoxex:hover {

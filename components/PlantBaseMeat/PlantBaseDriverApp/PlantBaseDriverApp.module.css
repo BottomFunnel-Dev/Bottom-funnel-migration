@@ -20,6 +20,7 @@
 .plantBasedDriverAppleft {
   width: 50%;
   height: 500px;
+  background: url("/Images/PlantBasedMeat/driver app screens/Driver'sAppBackgound.webp");
   background-repeat: no-repeat;
   background-size: 100% 670px;
   margin-left: -4%;
@@ -32,11 +33,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  
 }
 
 .plantBasedDriverAppright > div {
-  padding: 10px 10px 10px 10px;
-  height: 200px;
+  padding: 13px 13px 13px 13px;
+  height: 230px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -46,8 +48,11 @@
 }
 
 .plantBasedDriverAppright > div:hover {
-  background-color: #fbb807;
-  color: white;
+  background-color: #f9efd6;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
+  
 }
 
 .logisticLogo {
@@ -56,19 +61,16 @@
 }
 
 .logisticLogo > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
 .plantBasedDriverAppright > div > h3 {
-  margin-top: 1%;
+  padding-top: 2%;
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
-  margin-top: 0%;
 }
 
 .plantBasedDriverAppright > div > p {

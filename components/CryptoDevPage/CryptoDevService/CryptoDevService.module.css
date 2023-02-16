@@ -115,13 +115,14 @@
 
 /* for any type of mobile screen responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 
 .CryptoDevServiceMain {
   margin: auto;
   margin-top: 0;
   padding: 1%;
   background: #f5f5f5;
+  /* border: 2px solid green; */
 }
 
 .CryptoDevServiceMain > h1 {
@@ -225,7 +226,8 @@ flex-wrap: wrap;
 }
 
 .CryptoDevServiceImage {
-  width: 45%;
+  width: 80%;
+  margin: auto;
   height: fit-content;
 }
 

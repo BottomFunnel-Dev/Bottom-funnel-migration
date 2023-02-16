@@ -49,7 +49,7 @@ export const CryptoDevSlider = () => {
     infinite: true,
     lazyLoad: true,
     speed: 500,
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 2,
     autoplay: true,
     autoplaySpeed: 2000,

@@ -53,7 +53,7 @@ const CompanyLogo = () => {
         settings: {
           slidesToShow: 5,
           slidesToScroll: 1,
-          initialSlide: 2,
+          initialSlide: 1,
         },
       },
       {

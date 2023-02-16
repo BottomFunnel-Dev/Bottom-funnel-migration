@@ -31,7 +31,7 @@
 .icecreamadminpannelmapperboxindivisyal {
   height: fit-content;
   width: 45%;
-  height: 180px;
+  height: 240px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   text-align: justify;
@@ -54,7 +54,7 @@
 .icecreamadminpannelrightboxinnerimage {
   height: 80%;
   width: 80%;
-  margin: 8% 3% 3% 10%;
+  margin: 8% 3% 3% 12%;
 }
 
 .icecreamadminpannelrightboxinnerimage > img {
@@ -64,6 +64,7 @@
 .icecreamadminpannelmapperboxindivisyalicon {
   height: 25%;
   width: 18%;
+  padding: 1%;
 }
 
 .icecreamadminpannelmapperboxindivisyalicon > img {
@@ -73,18 +74,16 @@
 }
 
 .icecreamadminpannelmapperboxindivisyaltxt > h4 {
-  padding-top: 5px;
-  margin-top: 1%;
+  padding-top: 4%;
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
-  margin-top: 0%;
 }
 
 .icecreamadminpannelmapperboxindivisyaltxt > p {
-  margin-top: 0%;
+  padding-top: 1%;
   font-size: 15px;
   line-height: 20px;
   vertical-align: baseline;

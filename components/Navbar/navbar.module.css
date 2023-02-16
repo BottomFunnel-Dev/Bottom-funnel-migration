@@ -25,6 +25,7 @@
 .logoSection {
   width: 13%;
   height: 100%;
+  margin-right: 2%;
 }
 
 .logoSection img {
@@ -35,11 +36,12 @@
 }
 
 .dropdownBar {
-  width: 75%;
-  /* height: 100%; */
+  width: 65%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 14%;
 }
 
 .dropdownBar>div {
@@ -70,16 +72,20 @@
 
 .callToAction {
   /* background-color: #ffeae5; */
-  background-color: whitesmoke;
-  color: #ef4c23;
-  padding: 6px 15px;
-  border-radius: 25px;
-  font-size: 1vw;
+  /* color: whitesmoke;
+  background-color: #ef4c23; */
+  padding: 4px 15px;
+  border-radius: 5px;
+  font-size: 14px;
   font-weight: 600;
   margin: 0;
-  border: 2px solid #ef4c23;
+  /* border: 2px solid #ef4c23; */
   border: none;
-  transition: all 200ms linear;
+  /* transition: all 200ms linear; */
+  background-color: #f2613d;
+  color: #fff;
+  border: 2px solid #f2613d;
+  transition: all 500ms linear;
 }
 
 .productIcon {
@@ -87,10 +93,10 @@
 }
 
 .callToAction:hover {
-  color: rgb(239, 76, 35) !important;
-  background-color: white !important;
-  border: 2px solid white;
-  box-shadow: rgba(239, 76, 35, 0.25) 0px 54px 55px, rgba(239, 76, 35, 0.12) 0px -12px 30px, rgba(239, 76, 35, 0.12) 0px 4px 6px, rgba(239, 76, 35, 0.17) 0px 12px 13px, rgba(239, 76, 35, 0.09) 0px -3px 5px;
+  background: white;
+  color: #ef4c23;
+  border: 2px solid #ef4c23;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 54px 55px, rgba(255, 255, 255, 0.22) 0px -12px 30px, rgba(255, 255, 255, 0.22) 0px 4px 6px, rgba(255, 255, 255, 0.27) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 
 .navbarSection.active .dropdownBar>div li:nth-child(8) {
@@ -748,13 +754,17 @@
 .ProductPageRouteButton {
   background-color: #f2613d;
   color: #fff;
-  padding: 6px 30px;
-  border-radius: 25px;
+  border: 2px solid #f2613d;
+  transition: all 500ms linear;
+  padding: 10px 35px;
+  position: absolute;
+  top: 21%;
+  right: 2%;
+  border-radius: 5px;
   font-size: 1vw;
   font-weight: 600;
   margin: 0 5px;
-  border: 2px solid #f2613d;
-  transition: all 500ms linear;
+
 }
 
 .ProductPageRouteButton:hover {
@@ -775,12 +785,19 @@
     justify-content: space-between;
     padding: 0 20px;
     height: 60px;
+    align-items: center;
     top: 0 !important;
   }
 
   .logoSection {
     width: 130px;
+    margin: 0;
   }
+
+  .logoSection img {
+    margin: 0;
+  }
+
 
   .dropdownBar {
     position: static;
@@ -830,13 +847,6 @@
     left: 0;
   }
 
-  /* .callToAction {
-    padding: 7px !important;
-    margin: 5px !important;
-    width: 150px;
-    text-align: center;
-    display: none;
-  } */
 }
 
 /* media query for the tabs and ipad air */
@@ -844,15 +854,21 @@
 
 @media (min-width: 480px) and (max-width: 1024px) {
   .navbarSection {
-    background: #ef4c23;
+    background: #ef4c23 !important;
     justify-content: space-between;
     padding: 0 20px;
+    align-items: center;
     height: 60px;
     top: 0 !important;
   }
 
   .logoSection {
     width: 130px;
+    margin: 0;
+  }
+
+  .logoSection img {
+    margin: 0;
   }
 
   .dropdownBar {

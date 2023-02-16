@@ -206,7 +206,13 @@
 /* Media query for the Mobile Device */
 
 
+@media only screen and (min-width: 0px) and (max-width: 480px) {
 
+.portfolioSection{
+  display: none;
+}
+
+}
  
 
 

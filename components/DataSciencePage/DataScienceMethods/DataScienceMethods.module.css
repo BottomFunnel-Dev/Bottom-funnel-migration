@@ -1,6 +1,4 @@
-/* for any type of laptop and big size screen responsive */
 
-@media only screen and (min-width:901px){
 
 .DataScienceMethodsContainer {
   width: 90%;
@@ -43,12 +41,12 @@
   font-size: 16px;
   margin-bottom: 3%;
 }
-}
+
 
 /* 
   for any type of mobile responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 
 .DataScienceMethodsContainer {
   width: 90%;
@@ -75,12 +73,15 @@ margin-top: 2%;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+  /* border: 2px solid green; */
 }
 
 .DataScienceMehtodsMain > div {
   width:100%;
-  max-height: max-content;
+  /* border: 2px solid red; */
+  height: fit-content;
   border: 1px solid #d9d9d9;
+  margin-top: 2%;
 
 
 }
@@ -97,54 +98,4 @@ margin-top: 2%;
 }
 }
 
-/* for any type tablet screen responsive */
-
-@media only screen and ( min-width:481px) and (max-width:900px){
-    .DataScienceMethodsContainer {
-    height: 100vh;
- 
-      width: 90%;
-      margin: 5% auto;
-    }
-    
-    .DataScienceMethodsContainer > h1 {
-      font-size: 32px;
-      margin: auto;
-      text-align: center;
-    }
-    
-    .DataScienceMethodsContainer > p {
-      font-size: 16px;
-      margin: 1% auto;
-    }
-    
-    .DataScienceMehtodsMain {
-      width: 100%;
-    
-      display: flex;
-      flex-wrap: wrap;
-      align-items: flex-start;
-      justify-content: space-between;
-    }
-    
-    .DataScienceMehtodsMain > div {
-      width: 90%;
-      height: fit-content;
-      padding: 10px;
-      border: 1px solid #d9d9d9;
-      margin: 2% auto;
-    }
-    
-    .DataScienceMehtodsMain > div > h2 {
-      text-align: center;
-      font-size: 25px;
-      margin: 2% auto;
-    }
-    
-    .DataScienceMehtodsMain > div > ul > li {
-      font-size: 18px;
-      margin-bottom: 3%;
-    }
-
-}
 

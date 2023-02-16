@@ -44,7 +44,9 @@ justify-content: center;
 }
 
 .flowerdeliverydrivermappingbox:hover {
-  transform: scale(1.02);
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
   background-color: #FFE9ED;
 }
 
@@ -66,7 +68,7 @@ justify-content: center;
   position: absolute;
   height: fit-content;
   width: 43%;
-  left: 200px;
+  left: 150px;
   top: 60px;
 }
 

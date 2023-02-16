@@ -66,11 +66,10 @@ const Navbar = () => {
         className={navstyle.navbarSection}
         style={{
           top: scroll ? "0" : "0px",
-          background: scroll || navbar ? "white" : "white",
+          // background: scroll || navbar ? "white" : "white",
         }}
       >
-  <ContactMain/>
-
+        <ContactMain />
 
         <div className={navstyle.logoSection}>
           <Link href="/" className={navstyle.logoText}>
@@ -155,7 +154,6 @@ const Navbar = () => {
                 Resources
               </li>
             </div>
-
             <button
               onClick={() => router.push("https://www.bottomfunnel.net/")}
               className={navstyle.ProductPageRouteButton}
@@ -177,6 +175,8 @@ const Navbar = () => {
             </button>
           </div>
         )}
+
+        
 
         {mobres && (
           <DropdownResp
