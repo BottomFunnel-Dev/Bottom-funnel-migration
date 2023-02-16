@@ -46,10 +46,10 @@ export default function OttAdminPannel() {
           return (
             <div
               className={styles.ottAdminPannelLeftDivForCards}
-              key={e.head}
-              onMouseEnter={() => {
-                handleImageChange(e.img);
-              }}
+              // key={e.head}
+              // onMouseEnter={() => {
+              //   handleImageChange(e.img);
+              // }}
             >
               <h3>{e.head}</h3>
               <p>{e.para}</p>
