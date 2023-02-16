@@ -1,313 +1,374 @@
 .marketplaceclientmainboxing {
-height: 550px;
-margin-top: 100px;
-width: 100%;
+  height: 550px;
+  margin-top: 100px;
+  width: 100%;
 }
+
 .clientmarketplaceflexboxbig {
-display: flex;
-height: 100%;
-width: 100%;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
+
 .clientmarketplaceflexleft {
-height: 100%;
-width: 55%;
+  height: 100%;
+  width: 55%;
 }
+
 .clientmarketplaceflexright {
-height: 100%;
-width: 45%;
+  height: 100%;
+  width: 45%;
 }
+
 .clientmarketplaceflexlefttxtbox {
-margin: 5%;
-width: 80%;
+  margin: 5%;
+  width: 80%;
 }
+
 .marketplaceclientsboxingfordoingflex {
-height: 55%;
-width: 100%;
-margin-left: 2%;
+  height: 55%;
+  width: 100%;
+  margin-left: 2%;
 }
+
 .marketplaceclientsflexboxing {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .marketplaceclientflexboxingforimageandtxtcontain {
-width: 40%;
-height: 130px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin: 2%;
-display: flex;
-padding: 10px;
+  width: 40%;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 2%;
+  display: flex;
+  padding: 10px;
 }
+
 .marketplaceclientflexboxingforimageandtxtcontain:hover {
-cursor: pointer;
-transition: all 0.2s linear;
-transform: scale(1.1);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .marketplaceclientsflexboxingforimagecontain {
-width: 15%;
-height: 50px;
-margin-top: 2%;
+  width: 15%;
+  height: 50px;
+  margin-top: 2%;
+  margin-right: 3%;
 }
+
 .marketplaceadminlogo {
-object-fit: contain;
-width: 100%;
-height: 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
+
 .marketplaceclientflexboxingfortxtcontain {
-width: 80%;
-height: auto;
+  width: 80%;
+  height: auto;
 }
+
 .marketplaceclientflexboxingfortxtcontain > h5 {
-margin-top: 2%;
-font-size: 18px;
-font-weight: 500;
-line-height: 21.6px;
-vertical-align: baseline;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 21.6px;
+  vertical-align: baseline;
 }
+
 .marketplaceclientflexboxingfortxtcontain > p {
-margin-top: 0%;
-font-size: 15px;
-line-height: 20px;
-vertical-align: baseline;
-font-weight: 400;
+  margin-top: 2%;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }
+
 .clientmarketplaceflexboximage1 {
-height: 300px;
+  height: 300px;
 }
+
 .clientmarketplaceflexrightinsiderimagesthreebox {
-position: relative;
-height: 100%;
+  position: relative;
+  height: 100%;
 }
+
 .clientflexingrightdiv1forimage {
-position: absolute;
-height: 80%;
-width: 100%;
-top: 18%;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 18%;
 }
+
 .clientflexingrightdiv2forimage {
-position: absolute;
-height: 100%;
-width: 40%;
-left: 30%;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  left: 30%;
 }
+
 .clientflexingrightdiv3forimage {
-position: absolute;
-height: 40%;
-width: 30%;
-top: 58%;
-left: 10%;
+  position: absolute;
+  height: 40%;
+  width: 30%;
+  top: 58%;
+  left: 10%;
 }
+
 .marketplaceimageclientimage1 {
-object-fit: cover;
-height: 100%;
-width: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
-.marketplaceclientmainboxing {
-height: 1100px;
-margin-top: 100px;
-width: 95%;
+  .marketplaceclientmainboxing {
+    height: 1100px;
+    margin-top: 100px;
+    width: 95%;
+  }
+
+  .clientmarketplaceflexboxbig {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexleft {
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexright {
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox {
+    text-align: center;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox > h2 {
+    font-size: 27px;
+    margin-bottom: 0%;
+    font-weight: 700;
+  }
+
+  .clientmarketplaceflexlefttxtbox > p {
+    font-size: 15px;
+    margin-top: 2%;
+    width: 97%;
+    text-align: center;
+  }
+
+  .marketplaceclientsboxingfordoingflex {
+    height: fit-content;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .marketplaceclientsflexboxing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .marketplaceclientflexboxingforimageandtxtcontain {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+  }
+
+  .marketplaceclientsflexboxingforimagecontain {
+    width: 20%;
+    height: 50px;
+    margin: auto;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain {
+    width: 80%;
+    height: auto;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > h5 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > p {
+    margin-top: 2%;
+    font-size: 13px;
+    font-size: 400;
+  }
+
+  .clientmarketplaceflexboximage1 {
+    height: 300px;
+  }
+
+  .clientmarketplaceflexrightinsiderimagesthreebox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .clientflexingrightdiv1forimage {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 0%;
+  }
+
+  .clientflexingrightdiv2forimage {
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    object-fit: cover;
+  }
+
+  .clientflexingrightdiv3forimage {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 20%;
+    left: -20%;
+  }
+
+  .marketplaceimageclientimage1 {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
 }
-.clientmarketplaceflexboxbig {
-flex-direction: column-reverse;
-height: 100%;
-width: 100%;
-}
-.clientmarketplaceflexleft {
-height: 100%;
-width: 100%;
-}
-.clientmarketplaceflexright {
-width: 100%;
-}
-.clientmarketplaceflexlefttxtbox {
-text-align: center;
-width: 100%;
-}
-.clientmarketplaceflexlefttxtbox > h2 {
-font-size: 27px;
-margin-bottom: 0%;
-font-weight: 700;
-}
-.clientmarketplaceflexlefttxtbox > p {
-font-size: 15px;
-margin-top: 2%;
-width: 97%;
-text-align: center;
-}
-.marketplaceclientsboxingfordoingflex {
-height: fit-content;
-width: 100%;
-margin-left: 2%;
-}
-.marketplaceclientsflexboxing {
-display: flex;
-flex-wrap: wrap;
-}
-.marketplaceclientflexboxingforimageandtxtcontain {
-width: 100%;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin: 2%;
-display: flex;
-padding: 10px;
-}
-.marketplaceclientsflexboxingforimagecontain {
-width: 20%;
-height: 50px;
-margin: auto;
-}
-.marketplaceclientflexboxingfortxtcontain {
-width: 80%;
-height: auto;
-}
-.marketplaceclientflexboxingfortxtcontain > h5 {
-font-size: 23px;
-font-weight: 600;
-margin-bottom: 0%;
-}
-.marketplaceclientflexboxingfortxtcontain > p {
-margin-top: 2%;
-font-size: 13px;
-font-size: 400;
-}
-.clientmarketplaceflexboximage1 {
-height: 300px;
-}
-.clientmarketplaceflexrightinsiderimagesthreebox {
-position: relative;
-width: 100%;
-height: 100%;
-}
-.clientflexingrightdiv1forimage {
-position: absolute;
-height: 90%;
-width: 100%;
-top: 0%;
-}
-.clientflexingrightdiv2forimage {
-position: absolute;
-height: 80%;
-width: 60%;
-object-fit: cover;
-}
-.clientflexingrightdiv3forimage {
-position: absolute;
-height: 60%;
-width: 100%;
-top: 20%;
-left: -20%;
-}
-.marketplaceimageclientimage1 {
-object-fit: contain;
-height: 100%;
-width: 100%;
-}
-}
+
 @media (min-width: 481px) and (max-width: 1024px) {
-.marketplaceclientmainboxing {
-height: 1100px;
-margin-top: 100px;
-width: 95%;
-}
-.clientmarketplaceflexboxbig {
-flex-direction: column-reverse;
-height: 100%;
-width: 100%;
-}
-.clientmarketplaceflexleft {
-height: 100%;
-width: 100%;
-}
-.clientmarketplaceflexright {
-width: 100%;
-}
-.clientmarketplaceflexlefttxtbox {
-margin: 5%;
-width: 100%;
-text-align: center;
-}
-.clientmarketplaceflexlefttxtbox > h2 {
-font-size: 30px;
-margin-bottom: 0%;
-font-weight: 700;
-}
-.clientmarketplaceflexlefttxtbox > p {
-font-size: 15px;
-margin-top: 2%;
-width: 90%;
-}
-.marketplaceclientsboxingfordoingflex {
-width: 100%;
-height: fit-content;
-margin-left: 2%;
-}
-.marketplaceclientsflexboxing {
-display: flex;
-flex-wrap: wrap;
-}
-.marketplaceclientflexboxingforimageandtxtcontain {
-width: 100%;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-margin: 2%;
-display: flex;
-padding: 10px;
-}
-.marketplaceclientsflexboxingforimagecontain {
-width: 20%;
-margin: auto;
-}
-.marketplaceadminlogo {
-object-fit: contain;
-width: 100%;
-height: 100%;
-}
-.marketplaceclientflexboxingfortxtcontain {
-width: 80%;
-height: auto;
-}
-.marketplaceclientflexboxingfortxtcontain > h5 {
-font-size: 23px;
-font-weight: 600;
-margin-bottom: 0%;
-}
-.marketplaceclientflexboxingfortxtcontain > p {
-margin-top: 2%;
-font-size: 13px;
-font-size: 400;
-}
-.clientmarketplaceflexboximage1 {
-height: 300px;
-}
-.clientmarketplaceflexrightinsiderimagesthreebox {
-position: relative;
-width: 100%;
-height: 100%;
-}
-.clientflexingrightdiv1forimage {
-position: absolute;
-height: 100%;
-width: 100%;
-object-fit: contain;
-top: 0%;
-}
-.clientflexingrightdiv2forimage {
-position: absolute;
-height: 90%;
-width: 60%;
-object-fit: contain;
-}
-.clientflexingrightdiv3forimage {
-position: absolute;
-height: 70%;
-width: 100%;
-top: 20%;
-left: -8%;
-}
-.marketplaceimageclientimage1 {
-object-fit: contain;
-height: 100%;
-width: 100%;
-}
+  .marketplaceclientmainboxing {
+    height: 1100px;
+    margin-top: 100px;
+    width: 95%;
+  }
+
+  .clientmarketplaceflexboxbig {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexleft {
+    height: 100%;
+    width: 100%;
+  }
+
+  .clientmarketplaceflexright {
+    width: 100%;
+  }
+
+  .clientmarketplaceflexlefttxtbox {
+    margin: 5%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .clientmarketplaceflexlefttxtbox > h2 {
+    font-size: 30px;
+    margin-bottom: 0%;
+    font-weight: 700;
+  }
+
+  .clientmarketplaceflexlefttxtbox > p {
+    font-size: 15px;
+    margin-top: 2%;
+    width: 90%;
+  }
+
+  .marketplaceclientsboxingfordoingflex {
+    width: 100%;
+    height: fit-content;
+    margin-left: 2%;
+  }
+
+  .marketplaceclientsflexboxing {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .marketplaceclientflexboxingforimageandtxtcontain {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+  }
+
+  .marketplaceclientsflexboxingforimagecontain {
+    width: 20%;
+    margin: auto;
+  }
+
+  .marketplaceadminlogo {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain {
+    width: 80%;
+    height: auto;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > h5 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0%;
+  }
+
+  .marketplaceclientflexboxingfortxtcontain > p {
+    margin-top: 2%;
+    font-size: 13px;
+    font-size: 400;
+  }
+
+  .clientmarketplaceflexboximage1 {
+    height: 300px;
+  }
+
+  .clientmarketplaceflexrightinsiderimagesthreebox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .clientflexingrightdiv1forimage {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    top: 0%;
+  }
+
+  .clientflexingrightdiv2forimage {
+    position: absolute;
+    height: 90%;
+    width: 60%;
+    object-fit: contain;
+  }
+
+  .clientflexingrightdiv3forimage {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    top: 20%;
+    left: -8%;
+  }
+
+  .marketplaceimageclientimage1 {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
 }

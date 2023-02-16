@@ -16,7 +16,7 @@ export const Pickupadmin = () => {
       },
 
       title: "Analytics & Insights",
-      para: "Pickup and delivery analytics collection to track pickup & delivery performance on your eCommerce site.  ",
+      para: "Pickup and delivery analytics collection to track pickup & delivery performance on your eCommerce site.",
     },
 
     {
@@ -32,6 +32,7 @@ export const Pickupadmin = () => {
       title: "Delivery Agents",
       para: "We offer trusted, reliable and efficient delivery agents. Our goal is to be on-time and provide quality service at all times. ",
     },
+
     {
       img: {
         src: "/Images/pickup/adminpanel/managepayment.png",
@@ -44,8 +45,8 @@ export const Pickupadmin = () => {
       },
       title: "Manage Payments",
       para: "Manage payments on your account, schedule pickups and deliveries, and streamline the process behind the scenes. ",
-
     },
+
     {
       img: {
         src: "/Images/pickup/adminpanel/managecustomer.png",
@@ -62,14 +63,14 @@ export const Pickupadmin = () => {
 
   ];
 
-
   const [active, setActive] = useState(0);
+
   return (
     <div className={styles.pickupdeliveryadmin}>
 
       <h1> Admin panel </h1>
-      <div className={styles.pickupdeliveryadminsub}>
 
+      <div className={styles.pickupdeliveryadminsub}>
         <div className={styles.pickupdeliveryadminright}>
 
           {ToolDeliveryadmindata.map(({ title, para, icon }, idx) => {
@@ -80,16 +81,16 @@ export const Pickupadmin = () => {
                 className={`tools-box-${idx}`}
               >
 
-                <div className="pickup-logo">
+                <div className={styles.pickupLogo}>
                   <Image src={icon.src}
                     alt={icon.alt}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
-                    style={{ width: "15%", height: "100%" }}
+                    style={{ width: "100%", height: "100%" }}
                   />
-
                 </div>
+                
                 <h3> {title} </h3>
                 <p> {para} </p>
               </div>
@@ -111,5 +112,5 @@ export const Pickupadmin = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

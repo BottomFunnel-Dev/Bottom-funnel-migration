@@ -29,6 +29,7 @@ export const Pickupdriveapp = () => {
       title: "Reminders & Alerts",
       para: "Stay in the know about everything delivery-related with the free Reminders & Alerts feature.Receive a push notification when your package is delivered. ",
     },
+
     {
       img: {
         src: "/Images/pickup/driverapp/deliverydetails.png",
@@ -41,6 +42,7 @@ export const Pickupdriveapp = () => {
       title: "Delivery Details",
       para: "Orders are delivered Monday through Friday. You will get a message when your order is ready to be picked up and delivered. For more customized options",
     },
+
     {
       img: {
         src: "/Images/pickup/driverapp/inappnavigation.png",
@@ -87,7 +89,7 @@ export const Pickupdriveapp = () => {
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
-                    style={{ width: "10%", height: "100%" }}
+                    style={{ width: "13%", height: "100%" }}
                   />
                 </div>
 
