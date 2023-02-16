@@ -14,13 +14,13 @@
 
 .slick-list {
   margin: 0 !important;
+
 }
 
 .slideDivSection {
   width: 200px;
   height: 100px;
   box-sizing: border-box;
-  /* background-color: rgb(195, 190, 190); */
 }
 
 .slideDivSection>div {
