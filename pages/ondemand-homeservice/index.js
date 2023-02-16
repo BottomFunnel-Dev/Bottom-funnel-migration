@@ -20,10 +20,9 @@ export default function OnDemandSection() {
         </title>
         <meta
           name="description"
-          content="Are you looking for a company that can develop a web app for
-        your business? Look no further than On Demand Home Services. 
-        We are a professional web app development company that can
-         help you design and build a top-notch web app for your business."
+          content="Are you looking for a company that can develop a web app for your business? Look no further than On Demand Home
+          Services. We are a professional web app development company that can help you design and build a top-notch web app for
+          your business."
         />
       </Head>
 
@@ -37,4 +36,4 @@ export default function OnDemandSection() {
       </main>
     </div>
   );
-}
+};

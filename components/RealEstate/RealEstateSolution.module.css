@@ -49,10 +49,11 @@
 
 .exclusivefeaturerealestateflexindi:hover {
   transform: scale(1.02);
+    background-color: #f4edcb;
 }
 
 .indivisualtextforsolutionrealestate {
-  text-align: left;
+  text-align: center;
   margin-top: 10%;
 }
 

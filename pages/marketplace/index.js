@@ -28,7 +28,7 @@ export default function MarketPlace() {
         <MarketPlaceAdmin />
         <MarketPlaceClients />
         <Marketplaceborder />
-        <Maketplacefooter />
+        {/* <Maketplacefooter /> */}
       </main>
     </>
   );

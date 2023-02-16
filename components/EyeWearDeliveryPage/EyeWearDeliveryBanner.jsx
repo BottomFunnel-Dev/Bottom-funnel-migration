@@ -41,6 +41,12 @@ export const EyeWearDeliveryBanner = () => {
           Design Sprint facility quick ideation, prototyping and validation of a
           product idea.Find Solutions for business problems through an
           integrated design thinking approch.
+          We've all been there - you see that new pair of glasses you want,
+           but can't get your hands on. Or perhaps you saw an old pair in a
+            thrift store and wondered how they were able to fit in that tiny little frame. 
+            Regardless of the reason, eyewear delivery app Bottom funnel is here to help! With
+             its vast collection of top-quality frames for men and women, as well as kids' styles,
+              you're sure to find something that suits your needs.
         </p>
         <button onClick={handleOpen} className={styles.Eyeweardeliverybannerbutton}>
           Get Started

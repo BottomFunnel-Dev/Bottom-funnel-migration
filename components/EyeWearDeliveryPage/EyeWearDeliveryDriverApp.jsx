@@ -43,7 +43,7 @@ export const EyeWearDeliveryDriverApp = () => {
     return (
         <div className={styles.eyeweardeliverydrivermainbox}>
             <div className={styles.eyeweardeliverydriverappboxfortxt}>
-                <h1> Driver App </h1>
+                <h2> Driver App </h2>
             </div>
 
             <div className={styles.eyeweardeliverydriverappflexingintonew}>
@@ -54,7 +54,7 @@ export const EyeWearDeliveryDriverApp = () => {
                             width={"0"}
                             height={"0"}
                             sizes={"100vw"}
-                            style={{ width: "100%", height: "100%" }}
+                            style={{ width: "100%", height: "100%", }}
                         />
                     </div>
                 </div>
@@ -73,12 +73,12 @@ export const EyeWearDeliveryDriverApp = () => {
                                         width={"0"}
                                         height={"0"}
                                         sizes={"100vw"}
-                                        style={{ width: "100%", height: "20%" }}
+                                        style={{ width: "100%", height: "20%" , objectFit:"contain" }}
                                     />
                                 </div>
 
                                 <div className={styles.txteyeweardriver}>
-                                    <h4> {e.htxt} </h4>
+                                    <h5> {e.htxt} </h5>
                                     <p> {e.stxt} </p>
                                 </div>
                             </div>

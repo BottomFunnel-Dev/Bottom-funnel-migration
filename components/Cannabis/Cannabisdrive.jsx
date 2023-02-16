@@ -1,9 +1,10 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./Cannabisdrive.module.css";
 
 export default function Cannabisdrive() {
   const [imageChange, setImageChange] = useState(
-    "/Images/icecreamchanges/driver app/Profile.png",
+    "/Images/newcannabispage/driver screens/Driver Profile.png",
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -14,14 +15,14 @@ export default function Cannabisdrive() {
       icon: "/Images/newcannabispage/icons/Task Completed-2.png",
       headertext: "Driver's Profile",
       paragraph:
-        "Customize this Ice Cream Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
+        "Customize this Cannabis App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
     },
     {
       image: "/Images/newcannabispage/driver screens/Reports.webp",
       icon: "/Images/newcannabispage/icons/Task Completed-3.png",
       headertext: "Daily Earnings & Reports",
       paragraph:
-        "Canbies is important to many people. They use it for more than eating and as a source of dessert. Many people like ice cream in cooking, like pancakes or cupcakes. Ice cream also provides a cooling sensation and can help digestion.",
+        "Cannabis is important to many people. They use it for more than eating and as a source of dessert. Many people like ice cream in cooking, like pancakes or cupcakes. Ice cream also provides a cooling sensation and can help digestion.",
     },
     {
       image: "/Images/newcannabispage/driver screens/Ordertracking.webp",
@@ -44,7 +45,13 @@ export default function Cannabisdrive() {
       <div className={styles.canabisdriverappflexingbox}>
         <div className={styles.canabisdriverappflexingboxleftbox}>
           <div className={styles.canabisdeliveryappleftboxinsiderupperimage}>
-            <img src={imageChange} alt="image" />
+            <Image src={imageChange}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
         <div className={styles.canabisdriverappflexingboxrightbox}>
@@ -58,8 +65,15 @@ export default function Cannabisdrive() {
                 }}
               >
                 <div className={styles.canabisdeliveryappindivisualboxforlogo}>
-                  <img src={e.icon} alt="image" />
+                  <Image src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
+                
                 <div className={styles.icecreamdeliveryappindivisualboxfortext}>
                   <h4> {e.headertext} </h4>
                   <p> {e.paragraph} </p>
@@ -71,4 +85,4 @@ export default function Cannabisdrive() {
       </div>
     </div>
   );
-}
+};

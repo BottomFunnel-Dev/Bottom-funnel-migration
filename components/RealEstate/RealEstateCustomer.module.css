@@ -28,7 +28,7 @@
 
 .realstatemapperindivisuallybox{
     width: 48%;
-   height: 200px;
+   height: 220px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     border-radius: 10px;
@@ -38,7 +38,7 @@
 
 .realstatemapperindivisuallybox:hover{
     transform: scale(1.02);
-    background-color: #F5F5F5;
+    background-color: #f4edcb;
 }
 
 

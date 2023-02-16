@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const LaundryDelivery = () => {
 
-  const [imageChange, setImageChange] = useState("/Images/Laundrypage/Deliveryappscreens/Notifications.png")
+  const [imageChange, setImageChange] = useState("/Images/Laundrypage/switchscreens/Notifications.webp")
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath)
@@ -40,22 +40,13 @@ const LaundryDelivery = () => {
       <div className={styles.laundrydeliveryappflexbox}>
         <div className={styles.laundrydeliveryappflexboxleft}>
           <div className={styles.laundrydeliveryappflexboxleftimagesof}>
-            <Image className={styles.laundryfleximage1o1}
-              src={'/Images/Laundrypage/Bannersbackgrounds/Ellipse76.png'}
-              alt={'image'}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
-
             <Image className={styles.laundryfleximage1o2}
               src={imageChange}
               alt={'image'}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
-              style={{ width: "45%", height: "100%" }}
+              style={{ width: "50%", height: "100%" }}
             />
           </div>
         </div>
@@ -83,7 +74,7 @@ const LaundryDelivery = () => {
                       width={"0"}
                       height={"0"}
                       sizes={"100vw"}
-                      style={{ width: "10%", height: "20%" }}
+                      style={{ width: "100%", height: "100%" }}
                     />
                   </div>
 

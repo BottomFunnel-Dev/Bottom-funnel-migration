@@ -2,12 +2,10 @@
     height: fit-content;
 background-color: white;
     display: flex;
-
 }
 
 .realestatedriverleftbox{
     width: 55%;
- 
     margin-left: 3%;
     margin-top: 5%;
 }
@@ -21,20 +19,17 @@ background-color: white;
 .realestatedrivermappingmainbox{
     display: flex;
     flex-wrap: wrap;
-   
-   
 }
 
 .realestatedrivermappingmainbox{
     display: flex;
     flex-wrap: wrap;
     margin-top: 3%;
-   
 }
 
 .realstatemapperdriverindivisuallybox{
     width: 48%;
-   height: 180px;
+   height: 220px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     border-radius: 10px;
@@ -44,28 +39,26 @@ background-color: white;
 
 .realstatemapperdriverindivisuallybox:hover{
     transform: scale(1.02);
-    background-color: #F5F5F5;
+     background-color: #f4edcb;
 }
-
 
 .realestatedriverrightbox{
     height: 550px;
     width: 45%;
-  
-   
+    margin-top: 7%;
     margin-left: 3%;
     background: url("/Images/RealEstate/Backgrounds/Rectangle 146.webp");
     background-repeat: no-repeat;
-    background-size: 85% 60%;
+    background-size: 90% 80%;
     background-position-y: center;
     background-position-x: right;
 }
 
 .realestatedriverapprightboxformobile{
     height: 85%;
-    width: 40%;
-  
-    margin: 2% 0% 3% 25%;
+    width: 60%;
+
+    margin: 4% 0% 3% 25%;
 }
 
 .realestatedriverapprightboxformobile >img {

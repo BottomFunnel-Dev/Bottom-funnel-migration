@@ -6,9 +6,10 @@
 }
 
 .meatdeliveryadminleftbox {
-  height: 500px;
+  height: 600px;
   width: 55%;
   margin-left: 5%;
+  
 }
 
 .meatdeliveryadminuppertextbox {
@@ -18,15 +19,17 @@
 }
 
 .meateliverymappingboxforadminpannel {
+
   height: 70%;
   margin-top: 3%;
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 .meatdeliveryadminboxindivisually {
-  height: 180px;
-  width: 42%;
+  height: 220px;
+  width: 44%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   padding: 15px;
@@ -35,7 +38,7 @@
 
 .meatdeliveryadminboxindivisually:hover {
   transform: scale(1.02);
-  background-color: #f6deb8;
+  background-color: #FFEBE7;
 }
 
 .meatdeliveryadminboxindivisually > h4 {
@@ -51,16 +54,13 @@
 }
 
 .meatdeliveryadminrightboxes {
-  height: fit-content;
+  height: 450px;
   width: 45%;
-  margin: 0% 0% 0% 2%;
+  margin: 3% 0% 0% 2%;
+  background: url("/Images/meatdelieveryapp/Rectangle 4793.webp");
 }
 
-.meatdeliveryadminrightboxes > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
+
 
 .specialcolor {
   color: #ef4c23;

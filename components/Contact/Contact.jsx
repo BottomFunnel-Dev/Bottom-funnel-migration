@@ -12,7 +12,7 @@ export const ContactMain = ({ scroll, navbar }) => {
   const arr = [
     {
       icon: "/Images/navbar/iconcontact/india.svg",
-      contact: "+91 7877680588, 8209366227",
+      contact: "+91 7877680588, +91 8209366227",
     },
     {
       icon: "/Images/navbar/iconcontact/usa.svg",
@@ -20,7 +20,7 @@ export const ContactMain = ({ scroll, navbar }) => {
     },
     {
       icon: "/Images/navbar/iconcontact/usa.svg",
-      contact: "+971 553070316, 565664624, ",
+      contact: "+971 553070316, +971 565664624, ",
     },
     {
       icon: "/Images/navbar/iconcontact/kenya.svg",
@@ -38,7 +38,7 @@ export const ContactMain = ({ scroll, navbar }) => {
   const hr = [
     {
       icon: "/Images/navbar/iconcontact/india.svg",
-      contact: "+91 7877680588, 8209366227",
+      contact: "+91 7877680588, +91 8209366227",
     },
   ];
 
@@ -163,12 +163,91 @@ export const ContactMain = ({ scroll, navbar }) => {
                   </svg>
                 </div>
                 <div className={stylecon.contactNumbs}>
-                  {arr.map((item, i) => (
-                    <div key={i} className={stylecon.numberMain}>
-                      <img src={item.icon} alt="" width={"30px"} />
-                      <h6>{item.contact}</h6>
-                    </div>
-                  ))}
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/india.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="tel:+917877680588">+91 7877680588</a>
+                      </li>
+                      <li>
+                        <a href="tel:+918209366227">+91 8209366227</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/usa.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="tel:+19176956550">+1 9176956550</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/uae.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="tel:+971553070316">+971 553070316</a>
+                      </li>
+                      <li>
+                        <a href="tel:+971553070316">+971 565664624</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/kenya.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="tel:+254787213522">+254 787213522</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/skypes.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="tel:+917877680588">bottomfunnel</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/mail.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="mailto:sales@bottomfunnel.net">
+                          sales@bottomfunnel.net
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:info@bottomfunnel.net">
+                          info@bottomfunnel.net
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -194,12 +273,21 @@ export const ContactMain = ({ scroll, navbar }) => {
                   </svg>
                 </div>
                 <div className={stylecon.contactNumbs}>
-                  {hr.map((item, i) => (
-                    <div key={i} className={stylecon.numberMain}>
-                      <img src={item.icon} alt="" width={"30px"} />
-                      <h6>{item.contact}</h6>
-                    </div>
-                  ))}
+                  <div className={stylecon.numberMain}>
+                    <img
+                      src="/Images/navbar/iconcontact/india.svg"
+                      alt=""
+                      width={"30px"}
+                    />
+                    <ul className={stylecon.contactNumbers}>
+                      <li>
+                        <a href="tel:+917877680588">+91 7877680588</a>
+                      </li>
+                      <li>
+                        <a href="tel:+918209366227">+91 8209366227</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

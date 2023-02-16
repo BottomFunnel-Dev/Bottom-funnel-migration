@@ -8,14 +8,12 @@
 .laundryadminleftbox {
   height: fit-content;
   width: 50%;
-
   margin-left: 5%;
 }
 
 .laundryadminmappingbox {
   height: fit-content;
   width: 100%;
-
   margin-top: 3%;
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +21,7 @@
 
 .laundryadmindatamappingindi {
   width: 44%;
-  height: 160px;
+  height: 240px;
   margin: 1%;
   border-radius: 10px;
   padding: 10px;
@@ -37,9 +35,10 @@
 }
 
 .laundryadminrightbox {
+  /* border: 1px solid red; */
   width: 40%;
-  height: 450px;
-  margin-top: 5%;
+  height: 550px;
+  margin-top: 7%;
   margin-left: 3%;
 }
 
@@ -51,16 +50,16 @@
 
 .laundryadmindatamappingindi > h4 {
   /* border: 1px solid red; */
-  margin-top: 2%;
-  font-size: 18px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 20px;
   font-weight: 600;
   line-height: 21.6px;
   vertical-align: baseline;
-  margin-bottom: 1%;
 }
 
 .laundryadmindatamappingindi > p {
-  margin-top: 2%;
+  margin-top: 3%;
   font-size: 15px;
   line-height: 20px;
   vertical-align: baseline;

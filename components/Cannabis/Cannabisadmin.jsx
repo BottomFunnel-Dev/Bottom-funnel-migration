@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./Cannabisadmin.module.css";
 
 export default function Cannabisadmin() {
-  const [imageChange, setImageChange] = useState("/Images/newcannabispage/Admin Screens/compo.png");
+  const [imageChange, setImageChange] = useState("/Images/newcannabispage/Admin Screens/AdminPanelImage.webp");
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
   };

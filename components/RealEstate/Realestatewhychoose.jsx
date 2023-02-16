@@ -38,7 +38,7 @@ export const Realestatewhychoose = () => {
     <div className={styles.realestatewhychoosemapperbox}>{Realestatewhychoose.map((e)=>{
         return (
             <div className={styles.realestatewhychooseindivisuallybox}>
-            <h3>{e.htxt}</h3>
+            <h4>{e.htxt}</h4>
             <div className={styles.whychooserealestateicon}><img src={e.icon} alt='icon' /></div>
             <p>{e.stxt}</p>
             </div>

@@ -60,13 +60,13 @@ export const GroceryAdmin = () => {
 
                 <div className={styles.groceryamadminpannelrightbox}>
                     <div className={styles.groceryamadminpannelrightboxinnerimage}>
-                        <Image src={imageChange} 
-                        alt={'image'}
-                        width={"0"}
-                        height={"0"}
-                        sizes={"100vw"}
-                        style={{ width: "100%", height: "100%" }}
-                         />
+                        <Image src={imageChange}
+                            alt={'image'}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                        />
                     </div>
                 </div>
             </div>

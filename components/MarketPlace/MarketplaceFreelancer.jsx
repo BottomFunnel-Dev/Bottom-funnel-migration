@@ -50,7 +50,6 @@ const MarketplaceFreelancer = () => {
                             sizes={"100vw"}
                             style={{ width: "100%", height: "100%" }}
                         />
-                        {/* <img className={styles.imagefreelance1} src="/Images/Marketplaceapp/Bannersandbackgrounds/Component42.png" alt='image1' /> */}
                     </div>
 
                     <div className={styles.freelancerimagebox2}>

@@ -63,3 +63,78 @@ height: 2px;
 background-color: #fff;
 color: #fff;
 }
+
+
+@media only screen and (min-width:0px) and (max-width:1024px){
+    .BlockChainBannerMain {
+        height: 70vh;
+        padding-left: 0%;
+        background: url("/Images/BlockChainPhotos/banner.webp");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+
+       text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .BlockChainBannerMain > h1 {
+        font-size: 32px;
+        width: 90%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        color: whitesmoke;
+        /* text-align: justify; */
+
+        }
+        .BlockChainBannerMain > p {
+        font-size: 18px;
+        width: 90%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        color: whitesmoke;
+        text-align: justify;
+        }
+        .BlockChainBannerMain > button {
+        font-size: 20px;
+        font-weight: 600;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 1%;
+        background-color: white;
+        color: #43409d;
+        padding: 10px 50px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .BlockChainBannerMain > button:hover {
+        color: white;
+        background-color: #43409d;
+        }
+        .BlockChainBannerHrLine {
+        width: 90%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .BlockChainBannerHrLine > div {
+        border: 2px solid #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        }
+        .BlockChainBannerHrLine > span {
+        width: 46%;
+        height: 2px;
+        background-color: #fff;
+        color: #fff;
+        }
+        
+}

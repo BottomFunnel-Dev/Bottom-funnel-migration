@@ -7,7 +7,7 @@ margin-top: 4%;
 .meatdeliverypartnerleftbox {
 height: 500px;
 width: 45%;
-background: url("/Images/meatdelieveryapp/partner-bkgd-rectangle.webp");
+background: url("/Images/meatdelieveryapp/Rectangle 4790.webp");
 background-repeat: no-repeat;
 background-position-y: 75%;
 margin-top: 4%;
@@ -39,8 +39,8 @@ margin-top: 3%;
 margin-left: 3%;
 }
 .meatdeliveryflexingboxindivisually {
-height: 180px;
-width: 42%;
+height: 220px;
+width: 44%;
 margin: 1%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding: 15px;
@@ -48,7 +48,7 @@ border-radius: 10px;
 }
 .meatdeliveryflexingboxindivisually:hover {
 transform: scale(1.02);
-background-color: #f6deb8;
+background-color: #FFEBE7;
 }
 .specialcolor {
 color: #ef4c23;

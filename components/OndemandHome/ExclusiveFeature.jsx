@@ -29,12 +29,12 @@ const ExclusiveFeature = () => {
   ];
   return (
     <div className={styles.exclusiveFeature}>
-      <h1>Exclusive Features</h1>
+      <h1> Exclusive Features </h1>
       <div className={styles.innerFeatures}>
         {features.map((item, i) => (
           <div key={i}>
-            <h3>{item.service}</h3>
-            <p>{item.decs}</p>
+            <h3> {item.service} </h3>
+            <p> {item.decs} </p>
           </div>
         ))}
       </div>

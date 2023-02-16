@@ -1,7 +1,6 @@
 import styles from "./Seotrusted.module.css";
 import React from "react";
 import Slider from "react-slick";
-
 import Image from "next/image";
 
 export const Trusted = ({ partnerLogo }) => {
@@ -39,7 +38,6 @@ export const Trusted = ({ partnerLogo }) => {
               </div>
             </div>
           ))}
-
         </Slider>
       </div>
     </div>

@@ -11,8 +11,13 @@
   height: fit-content;
   width: 40%;
   position: absolute;
-  top: 40%;
+  top: 32%;
   left: 5%;
+
+}
+
+.meatdeliverybannerfortextboxes p{
+  text-align: justify;
 }
 
 .meatdeliverybannerfortextboxes > h1 {

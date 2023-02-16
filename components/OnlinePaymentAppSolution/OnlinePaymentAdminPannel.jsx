@@ -20,9 +20,9 @@ export const OnlinePaymentAdminPannel = () => {
         <div className={styles.onlinepaymentadminpannelmainbox}>
             <div className={styles.onlinepaymentadminpannelleftbox}>
                 <div className={styles.onlinepaymentadminpanneltxtbox}>
-                    <h1>
+                    <h2>
                         <span className={styles.specialcolor}>Admin</span> Pannel Features
-                    </h1>
+                    </h2>
                 </div>
                 
                 <div className={styles.onlinepaymentadminmappingdata}>{onlinepaymentadminpanneldata.map((e) => {
