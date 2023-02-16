@@ -2,6 +2,7 @@
 height: fit-content;
 background-color: white;
 display: flex;
+
 }
 
 .onlinepaymentadminpannelleftbox {
@@ -32,7 +33,7 @@ margin-top: 10%;
 .onlinepaymentadminpannelaftermapping {
 height: fit-content;
 display: flex;
-margin: 1%;
+margin-top: 3%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding: 10px;
 border-radius: 10px;
@@ -60,12 +61,13 @@ margin-top: 3%;
 }
 
 .onlinepaymentadminpannelrightbox {
-height: 400px;
+height: 360px;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Vector.webp");
+background: url("/Images/onlinepaymentpage/Rectangle 4789.webp");
 background-repeat: no-repeat;
-background-position-x: center;
-background-size: contain;
+background-position-x: right;
+background-position-y: bottom;
+background-size: 90% 70%;
 }
 
 .onlinepaymentadminpannelrightboxchangerimages {

@@ -7,8 +7,8 @@ background-color: white;
 .onlinepaymentmobileapplicationleftbox {
 height: 80%;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Rectangle 18529.webp");
-background-size: 100% 80%;
+background: url("/Images/onlinepaymentpage/Ellipse 65.webp");
+background-size: contain;
 background-repeat: no-repeat;
 background-position-y: center;
 }
