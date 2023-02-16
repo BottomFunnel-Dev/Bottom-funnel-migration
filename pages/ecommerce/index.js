@@ -1,16 +1,47 @@
 import React from "react";
-
-import { EcommerceComBanner } from "../../components/EcommerceCom/EcommerceComBanner/EcommerceComBanner";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
+import Head from "next/head";
+import dynamic from "next/dynamic";
 import { EcommerceLogo } from "../../components/Data/SeopartnerData";
-import { EcommerceComFeatures } from "../../components/EcommerceCom/EcommerceComFeturesSolutions/EcommerceComFeatures";
+
+const EcommerceComBanner = dynamic(
+  () =>
+    import(
+      "../../components/EcommerceCom/EcommerceComBanner/EcommerceComBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  {
+    loading: () => "loading...",
+  },
+);
+const EcommerceComFeatures = dynamic(
+  () =>
+    import(
+      "../../components/EcommerceCom/EcommerceComFeturesSolutions/EcommerceComFeatures"
+    ),
+  {
+    loading: () => "loading...",
+  },
+);
 import { EcommerceComCustomer } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComCustomer";
 import { EcommerceComAdminPanel } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComAdminPanel";
 import { EcommerceComShopping } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComShopping";
-import { EcommerceBookCall } from "../../components/EcommerceCom/EcommerceBookCall/EcommerceBookCall";
-import { EcommerceComSolutions } from "../../components/EcommerceCom/EcommerceComFeturesSolutions/EcommerceComSolutions";
-
-import Head from "next/head";
+const EcommerceBookCall = dynamic(
+  () =>
+    import("../../components/EcommerceCom/EcommerceBookCall/EcommerceBookCall"),
+  { loading: () => "loading..." },
+);
+const EcommerceComSolutions = dynamic(
+  () =>
+    import(
+      "../../components/EcommerceCom/EcommerceComFeturesSolutions/EcommerceComSolutions"
+    ),
+  {
+    loading: () => "loading...",
+  },
+);
 
 export default function Ecommerce() {
   return (

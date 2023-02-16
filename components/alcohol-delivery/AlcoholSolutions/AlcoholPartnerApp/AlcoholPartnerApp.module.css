@@ -9,6 +9,7 @@
   margin-bottom: 2%;
   color: #9a4c72;
 }
+
 .alcoholPartnersub {
   width: 100%;
   justify-content: space-between;
@@ -16,6 +17,7 @@
   display: flex;
   align-items: center;
 }
+
 .alcoholPartnerleft {
   width: 45%;
   height: 500px;
@@ -25,7 +27,9 @@
   position: relative;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  background: url("/Images/AlcoholDelivery/backgrounds/Background2.png");
 }
+
 .alcoholPartnerright {
   width: 45%;
   height: 100%;
@@ -36,6 +40,7 @@
   gap: 20px;
   justify-content: center;
 }
+
 .alcoholPartnerright > div {
   padding: 10px 10px 10px 10px;
   height: 160px;
@@ -46,6 +51,7 @@
   background-color: white;
   cursor: pointer;
 }
+
 .alcoholPartnerright > div:hover {
   background-color: #9a4c72;
   color: white;
@@ -56,16 +62,18 @@
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .alcoholPartnerright > div > h3 {
   font-size: 18px;
 }
+
 .alcoholCustomerImage {
-  width: 45%;
-  height: 500px;
+  width: 80%;
+  height: 440px;
   text-align: right;
   margin: auto;
-  margin-top: -10px;
 }
+
 .alcoholCustomerImage > img {
   width: 100%;
   height: 100%;

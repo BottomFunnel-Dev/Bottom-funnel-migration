@@ -4,9 +4,11 @@
   /* background-color: aqua; */
   margin: 60px 0;
 }
+
 .foodDeliveryExclusiveApp > h1 {
   margin-left: 6%;
 }
+
 .foodDeliveryExclusiveAppsub {
   width: 100%;
   justify-content: space-between;
@@ -14,6 +16,7 @@
   display: flex;
   align-items: center;
 }
+
 .foodDeliveryExclusiveAppleft {
   width: 45%;
   height: 500px;
@@ -79,7 +82,8 @@
   height: 500px;
   text-align: right;
   margin: auto;
-  margin-top: -10px;
+  margin-top: 0%;
+  background-size: 100%;
 }
 
 .logisticCustomerImage > img {

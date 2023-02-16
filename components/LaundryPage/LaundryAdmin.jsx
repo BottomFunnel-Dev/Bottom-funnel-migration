@@ -74,6 +74,7 @@ const LaundryAdmin = () => {
                 </div>
             </div>
 
+            
             <div className={styles.laundryadminrightbox}>
                 <Image src={imageChange}
                     alt={"images"}

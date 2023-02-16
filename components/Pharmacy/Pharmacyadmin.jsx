@@ -16,7 +16,7 @@ export default function Pharmacyadmin() {
       },
 
       title: "Market overview",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Admins have the facilities to check the Market overview in our pharmacy app, allowing us to provide a comprehensive overview of available products and pricing.",
     },
 
     {
@@ -30,7 +30,7 @@ export default function Pharmacyadmin() {
         alt: "Product logo",
       },
       title: "Product Overview",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "The app allows you to easily browse product details, find directions to nearby pharmacies, and even book appointments with your doctor.",
     },
 
     {
@@ -44,7 +44,7 @@ export default function Pharmacyadmin() {
         alt: "Revenuelogo",
       },
       title: "Revenue & Sales Analytics",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "In addition to being able to check the data, admins have the facilities to set up and manage reports and dashboards in our pharmacy app.",
 
     },
 
@@ -59,7 +59,7 @@ export default function Pharmacyadmin() {
         alt: "Customer logo",
       },
       title: "Customer Management",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Admins have the facilities to manage all aspects of customer service in our pharmacy app, from receiving orders to shipping products.",
     },
 
   ];
@@ -75,7 +75,7 @@ export default function Pharmacyadmin() {
         <div className={styles.pharmacyadminright}>
 
 
-          {Pharmacyadmindata.map(({ title, icon }, idx) => {
+          {Pharmacyadmindata.map(({ title, icon, para }, idx) => {
             return (
 
               <div
@@ -97,7 +97,7 @@ export default function Pharmacyadmin() {
                 <h3> {title} </h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                  {para}
                 </p>
               </div>
             );

@@ -1,5 +1,5 @@
 .foodDeliveryBannerMain {
-  height: 700px;
+  height: 600px;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@
   position: absolute;
   width: 43%;
   right: 0%;
-  top: 12%;
+  top: 14%;
   text-align: right;
 }
 

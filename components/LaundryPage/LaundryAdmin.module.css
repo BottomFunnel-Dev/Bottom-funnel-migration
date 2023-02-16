@@ -20,6 +20,7 @@
 }
 
 .laundryadmindatamappingindi {
+  /* border: 1px solid red; */
   width: 44%;
   height: 240px;
   margin: 1%;
@@ -30,9 +31,12 @@
 }
 
 .laundryadmindatamappingindi:hover {
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
   background-color: #efeae1;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
+
 
 .laundryadminrightbox {
   /* border: 1px solid red; */
@@ -40,6 +44,10 @@
   height: 550px;
   margin-top: 7%;
   margin-left: 3%;
+  background: url("/Images/Laundrypage/backgrounds/Background2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 .laundryadminrightbox > img {
