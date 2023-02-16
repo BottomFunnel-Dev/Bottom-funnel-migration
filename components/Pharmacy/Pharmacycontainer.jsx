@@ -36,7 +36,7 @@ export default function Pharmacycontainer() {
           <div>
             <h1>Launch an On-Demand</h1>
             <h2>Pharmacy Delivery App</h2>
-            <p>And 4X Your Sales of Medicines.</p>
+            <p>Pharmacy delivery apps are a convenient way to have your medications delivered to you. With these apps, you can have your medications sent directly to your door by a pharmacy professional. </p>
 
             <button className={styles.szpharmacybtn} onClick={handleOpen}>
               Get Started

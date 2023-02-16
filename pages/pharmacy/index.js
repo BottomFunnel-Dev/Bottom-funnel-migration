@@ -34,7 +34,7 @@ export default function Pharmacy() {
         <Trusted partnerLogo={pharmacyLogo} />
         <Pharmacydelivery />
         <Pharmacysneak />
-        <Pharmacycustomer />
+        <Pharmacycustomer/>
         <Pharmacydrive />
         <Pharmacyadmin />
       </main>

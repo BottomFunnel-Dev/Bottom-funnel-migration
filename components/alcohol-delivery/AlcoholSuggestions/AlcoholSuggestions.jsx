@@ -11,7 +11,7 @@ export default function AlcoholSuggestions() {
       },
       title: "Alcohol Delivery Startup",
       description:
-        "With food delivery startup app development, you can start your journey to becoming a successful food delivery startup. By developing an app that is user-friendly and easy to use, you can attract customers from all over the city. Food delivery startup app development offers a range of cost-effective options that will help you reach your profitability goals.",
+        "With alcohol delivery startup app development, you can start your journey to becoming a successful alcohol delivery startup. By developing an app that is user-friendly and easy to use, you can attract customers from all over the city. Alcohol delivery startup app development offers a range of cost-effective options that will help you reach your profitability goals.",
     },
     {
       img: {
@@ -36,16 +36,16 @@ export default function AlcoholSuggestions() {
         src: "/Images/alcoholPhotos/exlucive-app-image-4.png",
         alt: "Custom Franchise App image",
       },
-      title: "Dummy Text",
+      title: "Mini Bars",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam earum blanditiis praesentium, dignissimos dolore fuga quae nemo ut placeat, eos nesciunt possimus obcaecati iste cum cupiditate deleniti qui quos hic.",
+        "Mini bars are perfect for small spaces, offering a convenient way to serve food, beverages, and snacks. These mini-restaurants are often affordable and easy to setup, making them an attractive option for restaurants and cafés looking to increase their revenues. There are many different mini bar options, from traditional snack counters to specialized beverage counters.",
     },
   ];
 
   return (
     <div className={styles.alcoholExluciveAppMain}>
       <h1>
-        <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DEVLIERY BUSINESS:
+        <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DELIVERY BUSINESS:
       </h1>
 
       <p>
