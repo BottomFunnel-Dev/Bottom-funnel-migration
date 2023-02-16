@@ -126,3 +126,10 @@ width: 60%;
   }
 
 }
+
+@media (min-width:450px) and (max-width:1024px) {
+  .contectemail{
+    display: none;
+  }
+
+}
