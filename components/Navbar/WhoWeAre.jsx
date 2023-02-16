@@ -15,7 +15,7 @@ export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
         homeHoverOut("", false);
       }}
       className={whowe.aboutNavVisible}
-      style={{ top: scroll ? "68px" : "98px" }}
+      style={{ top: scroll ? "68px" : "80px" }}
     >
       <div className={whowe.aboutDropdownSection}>
         <div className={whowe.aboutDropdownContent}>

@@ -69,71 +69,13 @@
   margin: auto;
   height: 320px;
   position: relative;
+  overflow: hidden;
 }
 
-.newYorkLocation {
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  width: 20px;
-  height: 20px;
-}
-.zambiaLocation {
-  position: absolute;
-  top: 62%;
-  left: 54%;
-  width: 20px;
-  height: 20px;
-}
-.germanyLocation {
-  position: absolute;
-  top: 25%;
-  left: 49%;
-  width: 20px;
-  height: 20px;
-}
-.indiaLocation {
-  position: absolute;
-  top: 41%;
-  left: 67%;
-  width: 20px;
-  height: 20px;
-}
-.uaeLocation {
-  position: absolute;
-  top: 40%;
-  left: 62%;
-  width: 20px;
-  height: 20px;
-}
 
-.tooltipCustomised {
-  background-color: #ef4c23;
-  width: 130px;
-  /* height: 80px; */
-  box-sizing: border-box;
-  padding: 8px;
-  border-radius: 5px;
-  color: white;
-  margin-top: 3%;
-  margin-left: -1.5%;
-  position: relative;
-}
 
-.tooltipCustomised > p {
-  font-size: 10px;
-  margin: 0;
-}
 
-.indicate {
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: -5px;
-  left: 15px;
-  transform: rotate(45deg);
-  background-color: #ef4c23;
-}
+
 
 .footerLogo {
   width: 95%;

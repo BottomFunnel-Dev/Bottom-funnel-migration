@@ -11,17 +11,14 @@ const PortFolio = () => {
   const settings = {
     infinite: true,
     accessibility: false,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 5000,
     speed: 1000,
     slidesToScroll: 1,
     centerMode: true,
     slidesToShow: 1,
     pauseOnHover: false,
-    // swipeToSlide:true,
     vertical: true,
-    // autoplay: true,
 
-    // cssEase: "linear",
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),
 
@@ -47,7 +44,8 @@ const PortFolio = () => {
       },
     ],
   };
-  // "mainSlide"
+
+
 
   const portfolioData = [
     {
@@ -255,6 +253,7 @@ const PortFolio = () => {
       website: "https://www.theaanandam.in/",
     },
   ];
+
   return (
     <div className={styles.portfolioSection}>
       <h1>Our Work</h1>

@@ -14,7 +14,7 @@ export const TaxiOccassion = () => {
           <div className={styles.sztaxicard}>
             <div className={styles.sztaxioccasion1}>
               <div className={styles.szoccassionimage}>
-                <Image src={"/Images/Taxibooking/Component 10.png"}
+                <Image src={"/Images/Taxibooking/Component 10.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -32,7 +32,7 @@ export const TaxiOccassion = () => {
               <div className={styles.sztaxiride}>
                 <div>
                   <div className={styles.sztaxiac}>
-                    <Image src={"/Images/Taxibooking/winter.png"}
+                    <Image src={"/Images/Taxibooking/winter.webp"}
                       width={"0"}
                       height={"0"}
                       sizes={"100vw"}
@@ -44,7 +44,7 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxipocket}>
-                    <Image src={"/Images/Taxibooking/cost.png"}
+                    <Image src={"/Images/Taxibooking/cost.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -57,7 +57,7 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxicost}>
-                    <Image src={"/Images/Taxibooking/rupee.png"}
+                    <Image src={"/Images/Taxibooking/rupee.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -72,7 +72,7 @@ export const TaxiOccassion = () => {
 
             <div className={styles.sztaxioccasion2}>
               <div className={styles.szoccassionimage}>
-                <Image src={"/Images/Taxibooking/Component 9.png"}
+                <Image src={"/Images/Taxibooking/Component 9.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -92,7 +92,7 @@ export const TaxiOccassion = () => {
               <div className={styles.sztaxiride}>
                 <div>
                   <div className={styles.sztaxitrip}>
-                    <Image src={"/Images/Taxibooking/route.png"}
+                    <Image src={"/Images/Taxibooking/route.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -105,7 +105,7 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxibook}>
-                    <Image src={"/Images/Taxibooking/booking.png"}
+                    <Image src={"/Images/Taxibooking/booking.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -118,7 +118,7 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxisafe}>
-                    <Image src={"/Images/Taxibooking/car.png"}
+                    <Image src={"/Images/Taxibooking/car.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -133,7 +133,7 @@ export const TaxiOccassion = () => {
 
             <div className={styles.sztaxioccasion3}>
               <div className={styles.szoccassionimage}>
-                <Image src={"/Images/Taxibooking/Component 8.png"}
+                <Image src={"/Images/Taxibooking/Component 8.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -152,7 +152,7 @@ export const TaxiOccassion = () => {
               <div className={styles.sztaxiride}>
                 <div>
                   <div className={styles.sztaxihour}>
-                    <Image src={"/Images/Taxibooking/Sand Timer.png"}
+                    <Image src={"/Images/Taxibooking/Sand Timer.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -165,7 +165,7 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxistop}>
-                    <Image src={"/Images/Taxibooking/segment.png"}
+                    <Image src={"/Images/Taxibooking/segment.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -178,7 +178,7 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxirate}>
-                    <Image src={"/Images/Taxibooking/police-hat.png"}
+                    <Image src={"/Images/Taxibooking/police-hat.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}

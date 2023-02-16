@@ -1,95 +1,103 @@
-.ContactAboveNavbarMain {
+.contectemail {
+  position: absolute;
+  top: 4%;
+  right: 0%;
+  width: 30%;
   height: 30px;
+  display: flex;
+}
+.contectemail > span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+
+
+.callcontent {
+  position: absolute;
+  width: 90%;
+  /* height: 260px; */
+  top: 20px;
+  right: 35%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.callcontentinner {
   width: 100%;
+  height: 100%;
+  padding: 10px;
   background-color: white;
+}
+
+.requestquote {
+  width: 100%;
+  padding: 5px;
   display: flex;
+  box-sizing: border-box;
+  column-gap: 5%;
+  align-items: center;
+}
+.requestquote > h5 {
+  margin: 0;
+}
+.requestquote > button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ef4c23;
+  color: white;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.requestquote > button:hover {
+  color: #ef4c23;
+  background-color: white;
+}
+
+.salesenquiry {
+  width: 100%;
+  /* background-color: green; */
+}
+.salesenquiry > h6 {
+  text-align: center;
+  
+}
+
+.outercontact {
+  width: 100%;
+  display: flex;
+  /* background-color: green; */
   justify-content: center;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
   align-items: center;
-  transition: opacity .4s linear .3s;
+}
+.imageicon {
+  width: 30%;
+  /* background-color: red; */
+  text-align: center;
+  border-right: 2px solid gray;
 }
 
-.ContactAboveNavbarMain>div {
-  width: 80%;
-  margin: auto;
-  z-index: 1000;
+.contactNumbs {
+  width: 70%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  /* background-color: gray; */
+  padding: 10px;
+  row-gap: 5px;
 }
 
-.ContactAboveNavbarMain>div>div {
-  width: fit-content;
-  height: fit-content;
-
+.numberMain {
+  width: 100%;
   display: flex;
-  gap: 10px;
-  align-items: center;
+  column-gap: 5%;
   justify-content: center;
-}
-
-
-.ContactAboveNavbarMain>div>div>span {
-  width: fit-content;
-  height: fit-content;
-
-  cursor: pointer;
-
-  display: flex;
-  gap: 5px;
   align-items: center;
-  justify-self: center;
 }
-
-.contactNavbarCountryIcon {
-  height: 14px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.ContactAboveNavbarMain>div>div>span>a {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-color: black;
-  font-size: 14px;
-}
-
-.ContactAboveNavbarMain>div>span {
-  width: fit-content;
-  height: fit-content;
-
-  display: flex;
-  gap: 2px;
-  align-items: center;
-  justify-content: center;
-}
-
-.ContactAboveNavbarMain>div>span>svg {
-  cursor: pointer;
-}
-
-.ContactAboveNavbarMain>div>span>a {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-  font-size: 14px;
-  width: fit-content;
-  height: fit-content;
-  cursor: pointer;
-  color: black;
-}
-
-
-@media (max-width: 480px) {
-  .ContactAboveNavbarMain {
-    display: none;
-  }
+.numberMain>h6 {
+color: rgb(9, 100, 160);
+text-align: center;
+width: 60%;
 
 }

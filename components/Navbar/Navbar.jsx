@@ -5,6 +5,7 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Image from "next/image";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { WhoWeAre } from "./WhoWeAre";
 import { ContactMain } from "../Contact/Contact";
@@ -14,8 +15,7 @@ import { NavIndustries } from "./NavIndustries";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
 import { Industries } from "./Industries";
 
-const Navbar = ({ navredux, productMount }) => {
-  // const router.push = userouter.push();
+const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const [navbar, setNabvar] = useState(false);
   const [mobres, setMobres] = useState(false);
@@ -61,13 +61,17 @@ const Navbar = ({ navredux, productMount }) => {
 
   return (
     <div>
-      <ContactMain scroll={scroll} />
+      {/* <ContactMain scroll={scroll}  /> */}
       <nav
         className={navstyle.navbarSection}
         style={{
-          top: scroll ? "0" : "30px",
+          top: scroll ? "0" : "0px",
+          background: scroll || navbar ? "white" : "white",
         }}
       >
+  <ContactMain/>
+
+
         <div className={navstyle.logoSection}>
           <Link href="/" className={navstyle.logoText}>
             <Image
@@ -138,11 +142,7 @@ const Navbar = ({ navredux, productMount }) => {
                 Industries
               </li>
 
-              <li
-                onClick={() => router.push("portfolio")}
-              >
-                Portfolio
-              </li>
+              <li onClick={() => router.push("portfolio")}>Portfolio</li>
 
               <li
                 onMouseEnter={() => {

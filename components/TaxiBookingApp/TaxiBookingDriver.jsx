@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import styles from "./TaxiBookingDriver.module.css";
 
 export const TaxiBookingDriver = () => {
-    const [imageChange, setImageChange] = useState("/Images/Taxibooking/driverscreen/My Wallet.png")
+    const [imageChange, setImageChange] = useState("/Images/Taxibooking/driverscreen/My Wallet.webp")
 
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
@@ -12,29 +12,29 @@ export const TaxiBookingDriver = () => {
 
     const taxibookingcustomerdata = [
         {
-            images: "/Images/Taxibooking/driverscreen/Settings.png",
-            icon: "/Images/Taxibooking/icons/Component 135.png",
+            images: "/Images/Taxibooking/driverscreen/Settings.webp",
+            icon: "/Images/Taxibooking/icons/Component 135.webp",
             htxt: "Driver's Profile",
             stxt: "Our professionals clarify requirements, prepare the estimations and conquer every required formality",
         },
 
         {
-            images: "/Images/Taxibooking/driverscreen/Frame 2453.png",
-            icon: "/Images/Taxibooking/icons/Component 136.png",
+            images: "/Images/Taxibooking/driverscreen/Frame 2453.webp",
+            icon: "/Images/Taxibooking/icons/Component 136.webp",
             htxt: "Daily Earning Reports",
             stxt: "We get those professionals involved in your projects who have the precise skills to meet your project requirements.",
         },
 
         {
-            images: "/Images/Taxibooking/driverscreen/My Wallet.png",
-            icon: "/Images/Taxibooking/icons/Component 138.png",
+            images: "/Images/Taxibooking/driverscreen/My Wallet.webp",
+            icon: "/Images/Taxibooking/icons/Component 138.webp",
             htxt: "Wallet Management",
             stxt: "With our holistic and optimistic approach we go for improving processes so that your development is consistent with no bugs.",
         },
 
         {
-            images: "/Images/Taxibooking/driverscreen/Pickup location.png",
-            icon: "/Images/Taxibooking/icons/Component 137.png",
+            images: "/Images/Taxibooking/driverscreen/Pickup location.webp",
+            icon: "/Images/Taxibooking/icons/Component 137.webp",
             htxt: "Pickup Details",
             stxt: "Once the needed requirements are fulfilled we get going with your product development and shape the scope of your project.",
         },

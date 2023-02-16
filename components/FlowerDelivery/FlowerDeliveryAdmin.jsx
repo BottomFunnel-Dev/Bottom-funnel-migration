@@ -4,7 +4,7 @@ import styles from "./FlowerDeliveryAdmin.module.css";
 
 const FlowerDeliveryAdmin = () => {
 
-  const [imageChange, setImageChange] = useState("/Images/Flowerdeliverypage/Businesscontrol.png")
+  const [imageChange, setImageChange] = useState("/Images/Flowerdeliverypage/Businesscontrol.webp")
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath)
@@ -12,26 +12,26 @@ const FlowerDeliveryAdmin = () => {
 
   const flowerdeliveryadmindata = [
     {
-      img: "/Images/Flowerdeliverypage/Businesscontrol.png",
+      img: "/Images/Flowerdeliverypage/Businesscontrol.webp",
       htxt: "Business Control",
       stxt: "A fabulous feature you can add to your app is the offer & deals. To affect customer satisfaction levels and expand the current customer base, provide discounts and deals daily."
     },
 
     {
-      img: "/Images/Flowerdeliverypage/Manage customers.png",
+      img: "/Images/Flowerdeliverypage/Manage customers.webp",
       htxt: "Manage customers",
       stxt: "One of the basic features that will benefit you and your potential customers is the delivery schedule. Same-day delivery and other various time delivery will make you stand out in the market."
     },
 
     {
-      img: "/Images/Flowerdeliverypage/Manage Payment.png",
+      img: "/Images/Flowerdeliverypage/Manage Payment.webp",
       htxt: "Manage Payment",
       stxt: "Real-time tracking is one of the app features customers love when ordering any package. So, in addition to delivery tracking, make sure to allow the users to see each delivery stage."
     },
 
 
     {
-      img: "/Images/Flowerdeliverypage/Reports & analytics.png",
+      img: "/Images/Flowerdeliverypage/Reports & analytics.webp",
       htxt: "Reports & analytics",
       stxt: "One of the must-have features is a customized note when offering flower delivery services. The customer can write a customized note while placing an order to be printed with the bouquet."
     },
@@ -57,7 +57,7 @@ const FlowerDeliveryAdmin = () => {
 
       <div className={styles.flowerdeliveryadminflexrightbox}>
         <div className={styles.flowerdeliveryadminrightboxforimageone}>
-          <Image src={'/Images/Flowerdeliverypage/Rectangle4190.png'}
+          <Image src={'/Images/Flowerdeliverypage/Rectangle4190.webp'}
             alt={'image1'}
             width={"0"}
             height={"0"}

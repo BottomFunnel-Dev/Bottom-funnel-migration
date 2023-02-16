@@ -133,10 +133,10 @@
 }
 
 .industryimageIconDivSection > div {
-  width: 12%;
+  width: 27px;
   border-left: 2px solid white;
   /* background-color: #fce7e2; */
-  height: 30px;
+  height: 27px;
 }
 .industryimageIconDivSection > div > img {
   width: 100%;
