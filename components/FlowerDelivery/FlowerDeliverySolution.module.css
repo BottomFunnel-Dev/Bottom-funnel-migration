@@ -9,24 +9,22 @@
 }
 
 .flowerdeliverysolutionbutton {
-  padding: 10px 50px;
+  padding: 10px 30px;
   border-radius: 100px;
-  width: 28%;
+  width: 15%;
   background-color: #3380f2;
   border: none;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
 }
 
 .flowerdeliverysolutionbutton:hover {
   background-color: white;
   color: #3380f2;
-  cursor: pointer;
-  transition: all 0.2s linear;
-  transform: translateY(-10px);
+
 }
 
 .flowerdeliverysolutionflexbox {
