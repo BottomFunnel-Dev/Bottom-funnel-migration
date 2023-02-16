@@ -13,7 +13,7 @@ import { FoodDeliveryBookCall } from "../../components/food-delivery/FoodDeliver
 import FoodDeliveryExluciveApp from "../../components/food-delivery/FoodDeliveryExluciveApp";
 import FoodDeliveryAdvanceTech from "../../components/food-delivery/foodDeliveryAdvanceTech";
 // import { FoodDeliveryAdminPanel } from "../../components/food-delivery/foodDeliveryAdminPanel";
-// import { FoodDeliveryPartnerApp } from "../../components/food-delivery/FoodDeliveryPartnerApp";
+import { FoodDeliveryPartnerApp } from "../../components/food-delivery/FoodDeliveryPartnerApp";
 import { FoodDeliveryNeedSuccess } from "../../components/food-delivery/FoodDeliveryNeedSuccess";
 
 import Head from "next/head";

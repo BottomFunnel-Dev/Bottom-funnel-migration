@@ -3,6 +3,7 @@
   padding: 20px;
   margin-top: 80px;
 }
+
 .exclusiveFeature > h1 {
   text-align: center;
   color: #ef4c23;
@@ -17,13 +18,19 @@
   justify-content: space-around;
   row-gap: 30px;
 }
+
 .innerFeatures > div {
   width: 27%;
-  height: 300px;
+  height: 270px;
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
   border-radius: 10px;
+}
+
+.innerFeatures > div > h3 {
+  /* border: 1px solid red; */
+  font-size: 21px;
+  font-weight: 600;
 }
 
 .innerFeatures > div:hover {

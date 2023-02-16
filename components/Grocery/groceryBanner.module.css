@@ -39,8 +39,9 @@
 }
 
 .groceryImage {
+  /* border: 1px solid red; */
   width: 60%;
-  top: 5%;
+  top: 2%;
   right: 0%;
   position: absolute;
 }

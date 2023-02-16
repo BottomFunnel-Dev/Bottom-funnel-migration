@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import styles from './deliveryServices.module.css';
 const DeliveryServices = () => {
@@ -49,7 +50,13 @@ const DeliveryServices = () => {
             <h4> {item.service} </h4>
             <p> {item.decs} </p>
             <div className={styles.servicesIcons}>
-              <img src={item.icon} alt="image" />
+              <Image src={item.icon}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "90%", height: "90%" }}
+              />
             </div>
           </div>
         ))}

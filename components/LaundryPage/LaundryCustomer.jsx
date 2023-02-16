@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import React, { useState } from 'react'
 import styles from "./LaundryPage.module.css"
 
 const LaundryCustomer = () => {
 
-  const [imageChange, setImageChange] = useState("Images/Laundrypage/Customerappscreens/Easytoplaceorder.png")
+  const [imageChange, setImageChange] = useState("/Images/Laundrypage/switchscreens/Easy to place order.webp")
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath)
@@ -43,13 +44,18 @@ const LaundryCustomer = () => {
   return (
     <div className={styles.laundrycutomermaindiv}>
       <div className={styles.laundrycustomerapptxtfront}>
-        <h5><small>OUR ON DEMAND LAUNDRY APP DEVELOPMENT COMPANY</small></h5>
-        <h2>Provide You With Robust Solution For Your Laundry Service Business</h2>
+        <h5>
+          <small>OUR ON DEMAND LAUNDRY APP DEVELOPMENT COMPANY</small>
+        </h5>
+        <h2>
+          Provide You With Robust Solution For Your Laundry Service Business
+        </h2>
       </div>
 
       <div className={styles.laundrycustomerflexboxmaindiv}>
         <div className={styles.laundryflexboxleftdiv}>
-          <div className={styles.laundryflexboxleftdivinsidertxt}><h1>Customer app</h1>
+          <div className={styles.laundryflexboxleftdivinsidertxt}>
+            <h1> Customer app </h1>
             <p>
               By using it, providers can view their statistics and know how many users they have, their earnings,
               and their commissions.
@@ -67,8 +73,15 @@ const LaundryCustomer = () => {
 
                 >
                   <div className={styles.laundryflexboxleftdivflexboxicon}>
-                    <img className={styles.laundryiconleftboxinsider} src={e.img} alt="image" />
+                    <Image className={styles.laundryiconleftboxinsider}
+                      src={e.img}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }} />
                   </div>
+                  
                   <div className={styles.laundryflexboxleftdivflexboxicontxt}>
                     <h3> {e.htxt} </h3>
                     <p>
@@ -82,7 +95,13 @@ const LaundryCustomer = () => {
         </div>
 
         <div className={styles.laundryflexboxrightdiv}>
-          <img src={imageChange} alt='image' />
+          <Image src={imageChange}
+            alt={'image'}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>

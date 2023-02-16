@@ -7,7 +7,6 @@ export const GroceryCustomer = () => {
     const [imageChange, setImageChange] = useState("/Images/grocery/Customer App/Simple & Secure Login.png")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
-
     }
 
     const Grocerycustomerappdata = [

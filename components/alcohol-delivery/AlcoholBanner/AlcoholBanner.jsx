@@ -62,7 +62,7 @@ export default function AlcoholBanner() {
       </Modal>
 
       <div className={styles.alcoholBannerImage}>
-        <Player
+        <Player className={styles.alcoholBannerAnimation}
           src={reactAnimation}
           background="transparent"
           speed="1"

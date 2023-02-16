@@ -5,31 +5,37 @@ import Head from "next/head";
 
 const LaudryApplication = dynamic(
   () => import("../../components/LaundryPage/LaudryApplication"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
+
 const LaundryAdmin = dynamic(
   () => import("../../components/LaundryPage/LaundryAdmin"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
+
 const Laundryapppagelowerfooter = dynamic(
   () => import("../../components/LaundryPage/Laundryapppagelowerfooter"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
+
 const LaundryBannerlower = dynamic(
   () => import("../../components/LaundryPage/LaundryBannerlower"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
+
 const LaundryCustomer = dynamic(
   () => import("../../components/LaundryPage/LaundryCustomer"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
+
 const LaundryDelivery = dynamic(
   () => import("../../components/LaundryPage/LaundryDelivery"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
+
 const LaundryPageBanner = dynamic(
   () => import("../../components/LaundryPage/LaundryPageBanner"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 
 export default function LaundryPage() {
@@ -53,7 +59,6 @@ export default function LaundryPage() {
         <LaundryAdmin />
         <LaundryBannerlower />
         <Laundryapppagelowerfooter />
-
       </main>
     </>
   );

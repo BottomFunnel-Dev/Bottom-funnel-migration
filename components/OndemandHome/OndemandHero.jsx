@@ -40,7 +40,7 @@ const OndemandHero = () => {
             industry-leading on demand home services app development services.
           </p>
 
-          <button onClick={handleOpen}>Get Started </button>
+          <button onClick={handleOpen}> Get Started </button>
         </div>
 
         <Modal
