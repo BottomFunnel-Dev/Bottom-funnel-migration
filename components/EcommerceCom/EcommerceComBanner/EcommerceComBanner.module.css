@@ -5,19 +5,23 @@
   margin-top: 60px;
   height: 700px;
 }
+
 .eCommerceBannerContent {
   width: 40%;
 }
+
 .eCommerceBannerContent>h1 {
   width: 100%;
   font-size: 35px;
 }
+
 .eCommerceBannerContent>p {
   width: 100%;
   font-size: 16px;
   margin-bottom: 25px;
   text-align: justify;
 }
+
 .eCommerceBannerContent>button {
   font-size: 18px;
   font-weight: 600;
@@ -25,7 +29,7 @@
   background-color: #ef4c23;
   border-radius: 25px;
   padding: 10px 60px;
-  border: none;
+  border: 2px solid #ef4c23;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -33,7 +37,7 @@
 .eCommerceBannerContent>button:hover {
   background-color: white;
   color: #ef4c23;
- 
+
 }
 
 .eCommerceBannerImage {

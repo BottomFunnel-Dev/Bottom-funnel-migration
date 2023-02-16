@@ -220,7 +220,7 @@ export const foodDeliveryCustomer = {
   ],
 
   sectionTitle: "Customer App",
-  // background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  background: "/Images/foodDeliveryphotos/backgrounds/Background1.png",
 };
 
 export const foodDeliveryDrive = {
@@ -276,7 +276,7 @@ export const foodDeliveryDrive = {
   ],
 
   sectionTitle: "Customer App",
-  // background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  background: "/Images/foodDeliveryphotos/backgrounds/Background2.png",
 };
 
 export const foodDeliveryAdmin = {

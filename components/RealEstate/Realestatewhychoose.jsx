@@ -7,25 +7,25 @@ export const Realestatewhychoose = () => {
         {
             htxt:"100% Customization",
             icon:"Images/RealEstate/Icons/Rectangle 133.webp",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
+            stxt:"We believe in providing our customers with 100% customization so that each phone is unique and one of a kind.",
         },
 
         {
             htxt:"Highly Scalable",
             icon:"Images/RealEstate/Icons/Rectangle 133-2.webp",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
+            stxt:"We believe in providing our customers with 100% customization so that each phone is unique and one of a kind. ",
         },
 
         {
             htxt:"Dedicated Support",
             icon:"Images/RealEstate/Icons/Rectangle 133-1.webp",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
+            stxt:"Dedicated support is the type of support provided by a company or organization that is focused on a particular client or group of clients.",
         },
 
         {
             htxt:"Global Solution",
             icon:"Images/RealEstate/Icons/Rectangle 133-3.webp",
-            stxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id bibendum lorem, ac ullamcorper neque. ",
+            stxt:"Global solution is a solution to the global problem. It's a complex issue with many contributing factors, but one thing is clear.",
         },
 
     ]

@@ -81,7 +81,7 @@ const LaundryCustomer = () => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }} />
                   </div>
-                  
+
                   <div className={styles.laundryflexboxleftdivflexboxicontxt}>
                     <h3> {e.htxt} </h3>
                     <p>
@@ -94,14 +94,16 @@ const LaundryCustomer = () => {
           </div>
         </div>
 
-        <div className={styles.laundryflexboxrightdiv}>
-          <Image src={imageChange}
-            alt={'image'}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-          />
+        <div className={styles.laundryPageOuterDiv}>
+          <div className={styles.laundryflexboxrightdiv}>
+            <Image src={imageChange}
+              alt={'image'}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
+          </div>
         </div>
       </div>
     </div>

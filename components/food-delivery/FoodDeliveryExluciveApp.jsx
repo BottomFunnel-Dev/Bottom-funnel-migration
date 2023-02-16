@@ -39,9 +39,13 @@ export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
           }}
         >
           <div className={styles.logisticCustomerImage}>
-            <img
+            <Image
               src={foodDeliverycustomerdata.foodDeliverycustomerdata[active].img.src}
               alt={foodDeliverycustomerdata.foodDeliverycustomerdata[active].img.alt}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
             />
           </div>
         </div>

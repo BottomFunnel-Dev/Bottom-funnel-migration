@@ -6,14 +6,14 @@
   margin-bottom: 20px;
 }
 
-.eCommerceFeatsolContent > h1 {
+.eCommerceFeatsolContent>h1 {
   width: 100%;
   text-align: center;
   font-size: 32px;
   margin-bottom: 0%;
 }
 
-.eCommerceFeatsolContent > p {
+.eCommerceFeatsolContent>p {
   font-size: 16px;
   margin-bottom: 0px;
   text-align: center;
@@ -32,17 +32,31 @@
 
 }
 
-.eCommerceFeatsolCardsMain > div {
+.eCommerceFeatsolCardsMain>div {
   width: 29%;
   border-radius: 10px;
   padding: 12px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.eCommerceFeatsolCardsMain > div > h4 {
-  font-size: 16px;
+.eCommerceFeatsolCardsMain>div>div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.eCommerceFeatsolCardsMain>div>div>h4 {
+  font-size: 18px;
   margin-bottom: 0%;
   margin-top: 0%;
+  width: fit-content;
+}
+
+.eCommerceFeatsolCardsMain>div>div>span {
+  height: 40px;
+  width: fit-content;
 }
 
 /* media query for mobiles and tablets devices */
@@ -52,12 +66,12 @@
     height: fit-content;
   }
 
-  .eCommerceFeatsolContent > h1 {
+  .eCommerceFeatsolContent>h1 {
     font-size: 32px;
     text-align: center;
   }
 
-  .eCommerceFeatsolContent > p {
+  .eCommerceFeatsolContent>p {
     font-size: 14px;
     text-align: justify;
   }
@@ -69,15 +83,15 @@
     margin-top: 5%;
   }
 
-  .eCommerceFeatsolCardsMain > div {
+  .eCommerceFeatsolCardsMain>div {
     width: 35%;
   }
 
-  .eCommerceFeatsolCardsMain > div > h4 {
+  .eCommerceFeatsolCardsMain>div>h4 {
     font-size: 16px;
   }
 
-  .eCommerceFeatsolCardsMain > div p {
+  .eCommerceFeatsolCardsMain>div p {
     font-size: 14px;
   }
 }

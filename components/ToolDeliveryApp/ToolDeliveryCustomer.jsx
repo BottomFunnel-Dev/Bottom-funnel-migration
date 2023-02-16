@@ -16,7 +16,7 @@ function ToolDeliveryCustomer() {
       },
 
       title: "Business Control",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Business control, or the ability to control various aspects of a business, is an important aspect of customer app development",
     },
 
     {
@@ -29,7 +29,7 @@ function ToolDeliveryCustomer() {
         alt: "Product logo",
       },
       title: "Reports & Analytics",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Reports & Analytics are tools that allow you to analyze and visualize data in order to make informed decisions.",
     },
     {
       img: {
@@ -41,7 +41,7 @@ function ToolDeliveryCustomer() {
         alt: "Revenuelogo",
       },
       title: "Manage Payments",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "This is an online service that allows you to process credit card, bank transfer, and other forms of payment.",
     },
     {
       img: {
@@ -53,7 +53,7 @@ function ToolDeliveryCustomer() {
         alt: "Customer logo",
       },
       title: "Manage Customer",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "This application allows a user to manage their orders for a specific user.",
     },
   ];
 
@@ -64,7 +64,7 @@ function ToolDeliveryCustomer() {
       <h1> Customer App </h1>
       <div className={styles.tooladminsub}>
         <div className={styles.tooladminright}>
-          {ToolDeliveryCustomerData.map(({ title, icon }, idx) => {
+          {ToolDeliveryCustomerData.map(({ title, icon, para }, idx) => {
             return (
               <div
                 key={title}
@@ -84,8 +84,7 @@ function ToolDeliveryCustomer() {
                 <h3> {title} </h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-                  quis eum ev
+                  {para}
                 </p>
               </div>
             );
