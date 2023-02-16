@@ -286,11 +286,9 @@
   font-weight: 600;
   border: none;
   margin-top: 20px;
-  /* border: 2px solid #ef4c23; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .popuprobotCaptcha input:hover {
-  /* border: 2px solid #ef4c23; */
   color: #ef4c23;
   background-color: white;
 }
