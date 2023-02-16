@@ -1,5 +1,5 @@
 .eyeweardeliveryadminpannelmainbox {
-  height: 100vh;
+  height: 80vh;
   margin-top: 100px;
   display: flex;
 }
@@ -10,9 +10,9 @@
 }
 
 .eyeweardeliveryadminpannelrightbox {
-  height: 70%;
+  height: 85%;
   width: 50%;
-margin-top: -1%;
+
   position: relative;
 
 background: url("/Images/EyewearDeliveryapp/Adminpanelscreens/Rectangle 4787.webp");
