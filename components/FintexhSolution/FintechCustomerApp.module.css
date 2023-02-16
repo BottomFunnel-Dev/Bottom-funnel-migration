@@ -19,10 +19,11 @@
   height: 500px;
   width: 50%;
   margin-top: 8%;
-  background: url("/Images/fintechsolutionpage/Component187.webp");
+  background: url("/Images/fintechsolutionpage/Ellipse 65.webp");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
+
 }
 
 .fintechcustomerappleftsectionformobile {
@@ -42,14 +43,14 @@
 .fintechcustomerappflexright {
   height: 400px;
   width: 70%;
-  margin-top: 12%;
+  margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .fintechcustomerappboxesaftermapping {
-  height: auto;
-  width: 40%;
+  height: 200px;
+  width: 44%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   display: flex;

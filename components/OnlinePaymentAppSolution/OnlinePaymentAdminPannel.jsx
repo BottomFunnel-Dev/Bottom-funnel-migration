@@ -33,7 +33,7 @@ export const OnlinePaymentAdminPannel = () => {
                             </svg>
 
                             <div className={styles.onlinepaymentadminpannelmappertxtallign}>
-                                <h4> {e.xtt} </h4>
+                                <h5> {e.xtt} </h5>
                             </div>
                         </div>
                     )

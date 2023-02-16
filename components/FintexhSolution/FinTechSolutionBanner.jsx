@@ -34,8 +34,7 @@ export const FinTechSolutionBanner = () => {
       <div className={styles.fintechsolutionbannertextboxes}>
         <h1> Fintech App Solution </h1>
         <p>
-          The screeno ecosystem is designed to help you generate profit. Set up
-          complete sales and marketing funnels with ease using the screeno app.
+        In a world where data is the new oil, but making sense of it can be tricky, you need a finance company that knows how to solve your most complex data-related problems. Introducing Fintech App Solution -a team of experts who understand the ins and outs of data analysis. They'll use their in-depth expertise to help you get the most out of your data so you can make smarter decisions and grow your business faster. Plus, they offer cutting-edge technologies that will give you an edge over your competitors.
         </p>
 
         <button onClick={handleOpen} className={styles.fintechsolutionbannerbutton}>
