@@ -35,6 +35,7 @@ export default function Beautycontainer() {
         <h1 className={styles.heading}>
           Beauty And Salon App Development Solutions
         </h1>
+        
         <p>
           Beautify Your Business with An App! Enhance your salon's customer
           experience with our cutting-edge beauty & salon app development.
