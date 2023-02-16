@@ -90,7 +90,7 @@ export const ContactMain = ({ scroll, navbar }) => {
             setCalldrop(true);
           }}
           onMouseLeave={() => {
-            setCalldrop(true);
+            setCalldrop(false);
           }}
         >
           <svg
@@ -124,7 +124,7 @@ export const ContactMain = ({ scroll, navbar }) => {
             setCalldrop(true);
           }}
           onMouseLeave={() => {
-            setCalldrop(true);
+            setCalldrop(false);
           }}
           className={stylecon.callcontent}
         >
