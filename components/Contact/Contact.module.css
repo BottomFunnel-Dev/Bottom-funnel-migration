@@ -16,12 +16,12 @@
 
 .callcontent {
   position: absolute;
-  width: 90%;
-  /* height: 260px; */
+  width: 100%;
   top: 20px;
   right: 35%;
   padding: 10px;
   box-sizing: border-box;
+  
 }
 
 .callcontentinner {
@@ -91,7 +91,7 @@
 .numberMain {
   width: 100%;
   display: flex;
-  column-gap: 5%;
+  column-gap: 2%;
   justify-content: center;
   align-items: center;
 }
@@ -101,3 +101,11 @@ text-align: center;
 width: 60%;
 
 }
+.contactNumbers{
+  width: 70%;
+}
+.contactNumbers>li{
+  font-weight: bolder;
+}
+
+

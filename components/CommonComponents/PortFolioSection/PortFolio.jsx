@@ -10,39 +10,18 @@ const PortFolio = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
     infinite: true,
-    accessibility: false,
-    autoplaySpeed: 5000,
+    autoplay:true,
+    accessibility: true,
+    autoplaySpeed: 4000,
     speed: 1000,
     slidesToScroll: 1,
     centerMode: true,
     slidesToShow: 1,
     pauseOnHover: false,
     vertical: true,
-
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),
 
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          vertical: false,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-          vertical: false,
-          infinite: true,
-        },
-      },
-    ],
   };
 
 
@@ -71,9 +50,9 @@ const PortFolio = () => {
       tagline: "Educational Brand",
       description:
         "physicsfun is my ongoing attempt to create and sustain a museum on social media, one where I can share my vast collection of curious objects of science",
-      frontend: " React, Javascript",
+      frontend: " Javascript, Jquery, Bootstrap",
       backend: " PHP",
-      database: "CloudFront",
+      database: "Google",
       website: "https://www.physicsfunshop.com/",
       playStore: "http://play.google.com/store/apps/details?id=",
     },
@@ -87,9 +66,9 @@ const PortFolio = () => {
     Tourism division The Blueberry Group is setting new benchmarks in the sector while providing
       savvy clients from more than 30 countries worldwide.
       `,
-      frontend: " React, Javascript",
+      frontend: " Javascript, Jquery, Bootstrap, Underscore",
       backend: " PHP",
-      database: " CloudFare works",
+      database: " Wordpress MySQL",
       website: "https://blueberrygroup.co/",
     },
     {
@@ -100,11 +79,14 @@ const PortFolio = () => {
       tagline: "D2C Travel Website",
       description:
         "Blueberry Travel was the first company in the Blueberry Group which was started in 2013. It’s involved in simplifying Travel for everyone with a dedicated team, simplified services and easy customizations according to traveller’s need. It has become fastest growing company and is IATA certified in more than 17 countries. Blueberry Travel was ranked top in most of the Major Airlines in African Continent.",
-      frontend: " Javascript, Jquery",
-      backend: " PHP, PHP7,",
-      database: " Amazon Route 53",
+      frontend: " Javascript, Jquery, Bootstrap",
+      backend: " PHP",
+      database: " Host Europe, CDN, jsDelivr",
       website: "https://www.blueberry-travel.com/",
     },
+
+
+
 
     {
       leftimg: "#FE8805",
@@ -118,9 +100,9 @@ const PortFolio = () => {
       your life easy like washing machines, TVs, ACs, blenders and other time-saving kitchen and small
       appliances, they got everything everyone covered.
       `,
-      frontend: " Javascript ,Bootstrap",
+      frontend: " Javascript, Jquery, Bootstrap, Moment.Js",
       backend: " Java",
-      database: " CloudFront",
+      database: " AWS",
       website: "https://www.jamboshop.com/",
       playStore:
         "http://play.google.com/store/apps/details?id=com.coffye.lijwvx",
@@ -137,9 +119,9 @@ const PortFolio = () => {
       distributors, Roshi’s mobile first SaaS platform actively manages inventory and optimizes business
       operations while maintaining the highest levels of regulatory compliance.
       `,
-      frontend: "Javascript, Bootstrap",
+      frontend: "Javascript, Jquery, Polyfill.io",
       backend: " Ruby",
-      database: " CloudFront",
+      database: " Shopify, CDNJS",
       website: "https://roshiwellness.com/",
     },
     {
@@ -154,9 +136,9 @@ const PortFolio = () => {
       requirements. Travel needs are thoroughly met with polite and friendly, timely and efficient, services
       to put smiles on a generation of tourists.
       `,
-      frontend: " Angular, jquery",
+      frontend: " Javascript, Jquery",
       backend: " ASP.NET",
-      database: " Cloudflare.js, CDN.js",
+      database: " AWS",
       website: "https://www.nextholidays.com/",
     },
     {
@@ -171,9 +153,9 @@ const PortFolio = () => {
       products. They provide logistic support to their clients to ensure continuity of service and on time
       delivery.
       `,
-      frontend: " Angular, jquery, Mordenizr",
-      backend: " PHP, ASP.NET,",
-      database: " CloudFront, AJAX Libraries API",
+      frontend: " Javascript, jquery, Mordenizr",
+      backend: " ASP.NET,",
+      database: " AWS",
       website: "https://www.on-cart.com/",
       playStore:
         "http://play.google.com/store/apps/details?id=com.coffye.lijwvx",
@@ -204,9 +186,9 @@ const PortFolio = () => {
       goods, diversified in all sorts of goods. They are the subsidiary of Blueberry Holding Limited based in
       Dubai, with experienced procurement team having turnover above 100 million dollars per annum.
       `,
-      frontend: "Javascript, Bootstrap,",
+      frontend: "Javascript, Jquery, Bootstrap, Underscore",
       backend: "Php",
-      database: "MongoDB",
+      database: "Wordpress, Woocommerce, MySQL",
       website: "https://www.themukunda.com/",
     },
     {
@@ -220,9 +202,9 @@ const PortFolio = () => {
       They are the distributor of modern appliances that are available in the market. SPJ Electronic was
       found in Madagascar initially and now it has presence in Zambia & Kenya and planning to open new
       13 new store in East Africa market.`,
-      frontend: "React, Bootstrap,Javascript",
+      frontend: " Javascript, Jquery, Bootstrap",
       backend: "PHP",
-      database: "MongoDB",
+      database: "Godaddy",
       website: "https://spj-electronics.com/",
     },
     {
@@ -234,15 +216,15 @@ const PortFolio = () => {
       description: `Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which 
       offers collection in both men's and women's wear. Online plus size clothing and plus size fashion makes a fresh start with 
       Amydus and vice versa. Now you can not only find clothing in trend but also get them in your size`,
-      frontend: "React, Bootstrap,",
-      backend: "Node, Javascript",
-      database: "MongoDB",
+      frontend: " Javascript, Jquery",
+      backend: "Ruby",
+      database: "Shopify",
       website: "https://www.amydus.com/",
     },
     {
       leftimg: "#FFC701",
       rightImg:
-        "/https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/aanandam1.webp",
+        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/aanandam1.webp",
       title: "The Aanandam",
       tagline: "Hotel and Resorts Brand",
       description:
