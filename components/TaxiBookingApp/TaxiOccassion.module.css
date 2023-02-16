@@ -54,7 +54,9 @@
   }
 
 .sztaxicard>div:hover{
-   transform: scale(1.02);
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 
@@ -95,23 +97,23 @@
     height: 100%;
   }
   .sztaxiride {
-    width: 96%;
+    width: 100%;
     height: fit-content;
     padding: 10px;
     display: flex;
     justify-content: space-between;
   }
   .sztaxiride > div {
-    width: 30%;
+    width: 60%;
 
     display: flex;
     height: 50px;
     display: flex;
-    gap: 4%;
+    gap: 2%;
     align-items: center;
   }
   .sztaxiride > div > p {
-    font-size: 13px;
+    font-size: 11px;
     margin: 0;
   }
 }
