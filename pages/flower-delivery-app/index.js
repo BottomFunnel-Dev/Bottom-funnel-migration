@@ -18,9 +18,8 @@ export default function FlowerDelivery() {
         </title>
         <meta
           name="description"
-          content="Want to build a flower-delivery web App but don't know where to 
-        start? Let us help you out, we are the best in this field and have 
-        years of experience in developing flower-delivery web Apps."
+          content="Want to build a flower-delivery web App but don't know where to start? Let us help you out, we are the best in this 
+          field and have years of experience in developing flower-delivery web Apps."
         />
       </Head>
 
