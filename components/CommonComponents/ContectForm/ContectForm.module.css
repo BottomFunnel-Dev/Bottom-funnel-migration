@@ -10,16 +10,13 @@
 }
 .contectSection {
   width: 80%;
-  /* background-color: green; */
   display: flex;
   box-shadow: 0px 0px 5px 0px rgb(236 234 234);
 
   justify-content: space-between;
-  /* background: teal; */
   position: absolute;
   border-radius: 10px;
   overflow: hidden;
-  /* padding: 25px; */
   transform: translate(-50%, -50%);
   top: 62%;
   left: 50%;
@@ -33,13 +30,10 @@
 .formHeader > h5 {
   font-size: 18px;
 }
-.formHeader > h2 {
-  /* margin: 0; */
-}
+
 
 .addressSection {
   width: 40%;
-  /* padding: 20px; */
   position: relative;
 }
 .addressSection > img {
@@ -84,13 +78,8 @@
   width: 70%;
 }
 
-.mailAddress:hover .mailIcon {
-  /* color: #ef4c23; */
-}
-/* .mailAddress:hover {
-  background-color: rgb(192, 188, 188);
- 
-} */
+
+
 
 .mailAddress > div > p {
   margin: 0;
@@ -123,12 +112,8 @@
 
 .formPart {
   width: 60%;
-  /* border-radius: 10px; */
-  /* border: 5px solid #d0d0d0; */
-  /* background-color: rgb(84, 87, 84); */
-  /* background: linear-gradient(45deg, rgba(255,255,255,0.7),rgba(255,255,255,0.8) ); */
+
   background-color: white;
-  /* backdrop-filter: blur(20px); */
   padding: 20px;
 }
 
@@ -162,7 +147,6 @@
   width: 85%;
   box-sizing: border-box;
   border: none;
-  /* color: #ef4c23; */
   color: black;
 
   background: none;
@@ -224,7 +208,6 @@
 
   border: none;
   background: none;
-  /* color: white; */
   outline: none;
   font-size: 16px;
   padding: 10px 0;
@@ -242,7 +225,6 @@
   width: 90%;
   box-sizing: border-box;
   font-size: 16px;
-  /* color: rgb(125, 118, 118); */
   background: none;
   outline: none;
   border: none;
@@ -312,11 +294,50 @@
   font-weight: 600;
   border: none;
   margin-top: 20px;
-  /* border: 2px solid #ef4c23; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .robotCaptcha input:hover {
-  /* border: 2px solid #ef4c23; */
   color: #ef4c23;
   background-color: white;
+}
+
+
+@media (max-width:480px) {
+
+  .mainLeadform {
+    width: 100%;
+    height: fit-content;
+  }
+
+  
+  .backgroundDiv{
+    height: 20%;
+  }
+
+  .contectSection{
+    width: 100%;
+    position: static;
+    transform: none;
+    flex-direction: column;
+    border-radius: 0;
+    
+  }
+
+  .addressSection{
+    width: 100%;
+  }
+
+  .mailAddress{
+    width: 90%;
+  }
+  .assistanceSection{
+    width: 60%;
+  }
+
+  .contactformcss {
+    width: 100%;
+  }
+
+
+
 }

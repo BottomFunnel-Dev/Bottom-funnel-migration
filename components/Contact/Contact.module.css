@@ -1,18 +1,27 @@
 .contectemail {
   position: absolute;
   top: 4%;
-  right: 0%;
+  right: 3%;
   width: 30%;
   height: 30px;
   display: flex;
 }
 .contectemail > span {
   display: flex;
+  width: 75%;
   align-items: center;
   column-gap: 5px;
 }
 
+.dashgap{
+  margin: 0 6%;
+}
+.calldropdown{
+  width: 15%;
+  display: flex;
+  align-items: center;
 
+}
 
 .callcontent {
   position: absolute;
@@ -109,3 +118,9 @@ width: 60%;
 }
 
 
+@media (max-width:450px) {
+  .contectemail{
+    display: none;
+  }
+
+}
