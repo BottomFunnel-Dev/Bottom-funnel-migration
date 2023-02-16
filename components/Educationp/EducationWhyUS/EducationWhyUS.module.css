@@ -5,7 +5,7 @@
 
 .EducationWhyUSContainer>div {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
     margin: 5% 0 2%;
 }
@@ -19,6 +19,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: transform 200ms linear;
+}
+
+.EducationWhyUSCards:hover {
+    box-shadow: none;
+    border: 1px solid rgba(99, 99, 99, 0.2);
+    transform: translateY(-5%);
+
+}
+
+.EducationWhyUSCards:hover div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(99, 99, 99, 0.2);
 }
 
 .EducationWhyUSCards>div {

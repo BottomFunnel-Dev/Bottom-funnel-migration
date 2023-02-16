@@ -28,6 +28,12 @@
     border-radius: 100px;
     outline: none;
     margin-top: 2%;
+    cursor: pointer;
+}
+
+.EducationMidBannerContent>button:hover {
+    background-color: white;
+    color: #ef4c23;
 }
 
 .EducationMidBannerImages {
