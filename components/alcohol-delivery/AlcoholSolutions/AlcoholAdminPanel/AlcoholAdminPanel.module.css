@@ -22,6 +22,7 @@
   height: 500px;
   padding: 10px;
   display: flex;
+  background: url("/Images/AlcoholDelivery/backgrounds/Background2.png");
   /* background: url("/public/Images/alcohol/rectanglebase.png"); */
   /* border: 2px solid red; */
   background-position: center;
@@ -29,10 +30,12 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-.alcoholAdminleft > div > img {
-  width: 100%;
-  height: 100%;
+.alcoholAdminleft > div {
+  width: 95%;
+  height: 80%;
+  margin: auto;
 }
+
 .alcoholAdminright {
   width: 45%;
   height: 100%;
