@@ -9,7 +9,7 @@ color: white;
 text-align: center;
 }
 /* for any type of mobile screen responsive */
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 .BigDataServiceHandlingMain {
 padding: 5% 3% 5% 3%;
 background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -18,27 +18,16 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 color: white;
+/* border: 2px solid red; */
 }
 .BigDataServiceHandlingMain>p{
 text-align: justify;
+width: 90%;
+margin: auto;
 }
 .BigDataServiceHandlingMain>h1{
 font-size: 25px;
-}
-}
-/* for any type of tablet responsive */
-@media only screen and ( min-width:481px) and (max-width:900px){
-.BigDataServiceHandlingMain {
-padding: 5% 3% 5% 3%;
-background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-url("/Images/BigDataServicePhotos/mid-banner.webp");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-color: white;
-text-align: center;
-}
-.BigDataServiceHandlingMain>p{
-text-align: justify;
+width: 90%;
+margin: auto;
 }
 }

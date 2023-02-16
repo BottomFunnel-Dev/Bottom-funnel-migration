@@ -1,0 +1,36 @@
+.EducationMidBannerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 85%;
+    margin: 2% auto;
+    border: 2px solid #ef4c23;
+    padding: 10px 20px 10px 50px;
+}
+
+.EducationMidBannerContent {
+    width: 60%;
+}
+
+.EducationMidBannerContent>p {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.EducationMidBannerContent>button {
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #ef4c23;
+    background-color: #ef4c23;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 100px;
+    outline: none;
+    margin-top: 2%;
+}
+
+.EducationMidBannerImages {
+    width: 25%;
+    height: fit-content;
+}
