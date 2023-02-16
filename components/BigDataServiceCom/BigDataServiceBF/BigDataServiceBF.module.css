@@ -74,16 +74,23 @@ text-align: justify;
 margin-top: 3%;
 }
 /* for any type of mobile screen responsive */
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 .BigDataServiceBFContainer {
 margin: auto;
 max-height: max-content;
 position: relative;
+/* border: 2px solid green; */
+margin-top: 5%;
+/* text-align: center; */
+/* align-items: center; */
+/* justify-items: center; */
 }
 .BigDataServiceBFBackgroundRectangle {
 position: absolute;
+/* border: 2px solid yellow; */
 height: 90%;
 width: 100%;
+
 bottom: 0;
 z-index: 0;
 display: flex;
@@ -133,85 +140,6 @@ background-color: #f5f5f5;
 width: 100%;
 border-radius: 10px;
 margin-bottom: 5%;
-padding: 2%;
-}
-.BigDataServiceBFCardsMain > div {
-height: 70px;
-width: fit-content;
-}
-.BigDataServiceBFCardsMain > div > img {
-height: 100%;
-}
-.BigDataServiceBFCardsMain > h3 {
-font-size: 18px;
-margin-top: 3%;
-margin-bottom: 3%;
-}
-.BigDataServiceBFCardsMain > p {
-font-size: 16px;
-text-align: justify;
-margin-top: 3%;
-}
-}
-/* for any type of tablet screen responsive */
-@media only screen and ( min-width:481px) and (max-width:900px){
-.BigDataServiceBFContainer {
-margin: auto;
-max-height: max-content;
-position: relative;
-}
-.BigDataServiceBFBackgroundRectangle {
-position: absolute;
-height: 90%;
-width: 100%;
-bottom: 0;
-z-index: 0;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-.BigDataServiceBFMain>h1{
-width: 85%;
-margin:auto;
-}
-.bigdataserviceparagraphbottomservicebfmain{
-width: 85%;
-margin:auto;
-margin-bottom: 2%;
-}
-.BigDataServiceBFBackgroundRectangle > img:nth-child(1) {
-align-self: flex-end;
-height: 57%;
-width: 40%;
-}
-.BigDataServiceBFBackgroundRectangle > img:nth-child(2) {
-align-self: flex-start;
-height: 40%;
-width: 40%;
-}
-.BigDataServiceBF-main {
-width: 90%;
-margin: auto;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-z-index: 1;
-}
-.BigDataServiceBFCardsContainer {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
-width: 85%;
-margin: auto;
-}
-.BigDataServiceBFCardsMain {
-background-color: #f5f5f5;
-height: 300px;
-width: 45%;
-border-radius: 10px;
-margin-bottom: 2%;
 padding: 2%;
 }
 .BigDataServiceBFCardsMain > div {
