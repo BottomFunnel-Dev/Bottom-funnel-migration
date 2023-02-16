@@ -14,17 +14,10 @@ const ExclusiveFeature = dynamic(
   { loading: "Loading..." }
 );
 
-<<<<<<< HEAD
-// const AppFeature = dynamic(
-//   () => import("../../components/KidsWear/AppFeature/AppFeature"),
-//   { loading: "Loading..." },
-// );
-=======
 const AppFeature = dynamic(
   () => import("../../components/KidsWear/AppFeature/AppFeature"),
   { loading: "Loading..." }
 );
->>>>>>> 90e2f55e52a58d5000d9382907a58923ec2bdc6c
 
 // const ChooseUs = dynamic(
 //   () => import("../../components/KidsWear/ChooseUs/ChooseUs"),
