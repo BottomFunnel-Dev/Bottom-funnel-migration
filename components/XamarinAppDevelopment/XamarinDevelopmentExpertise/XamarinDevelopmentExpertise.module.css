@@ -54,7 +54,7 @@
 .xamarinDevelopmentExpertiseIcon {
   width: 70px;
   height: 70px;
-  /* margin-top: 5%; */
+  margin-top: 5%;
   /* border: 2px solid blue; */
 }
 .xamarinDevelopmentExpertiseIcon > img {
@@ -78,6 +78,29 @@
   margin-top: 0%;
   text-align: justify;
 }
+
+.xamarinDevelopmentExpertiseContentbutton{
+  border: 2px   solid yellow;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #ef4c23;
+  margin-left: 25%;
+  margin-top: 5%;
+
+ /* align-items: center; */
+}
+.xamarinDevelopmentExpertiseContentbutton:hover{
+  background-color: white;
+  color: #ef4c23;
+  border: 1px solid #ef4c23;
+
+
+}
+
+
 
 @media only screen and ( min-width:0px) and (max-width:1020px){
   .xamarinDevelopmentExpertiseMainDiv {

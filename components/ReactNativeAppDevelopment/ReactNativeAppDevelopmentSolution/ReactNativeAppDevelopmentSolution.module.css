@@ -29,7 +29,7 @@
 }
 .reactnativeContentScroller{
     width: 50%;
-    /* height: 90vh; */
+    height: 80vh;
     /* border: 2px solid black;  */
     margin-top: 3%;
     margin-left: 2%;  
@@ -41,7 +41,7 @@
 }
 .reactnativeContentScrollerDiv{
     width: 95%;
-    height: 85vh;
+    height: 75vh;
     margin: auto;
     /* border: 2px solid red; */
     background-color: white;

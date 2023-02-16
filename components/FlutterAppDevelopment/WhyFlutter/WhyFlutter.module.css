@@ -30,7 +30,7 @@ border-radius: 10px;
 }
 .whyFlutterContentScrollerDiv{
 width: 90%;
-height: 80vh;
+height: 60vh;
 margin: auto;
 margin-top: 2%;
 margin-bottom: 2%;
@@ -55,8 +55,8 @@ display: flex;
 flex-direction: row;
 }
 .whyFlutterContentIcon{
-width: 10%;
-height: 5vh;
+width: 50px;
+height: 50px;
 }
 .whyFlutterContentHeading{
 width: 70%;

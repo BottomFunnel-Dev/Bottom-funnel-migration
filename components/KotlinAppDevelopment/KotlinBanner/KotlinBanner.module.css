@@ -9,10 +9,15 @@ display: flex;
 justify-content: space-around;
 }
 .kotlinIcon{
-width: fit-content;
+ width: 50%;
+ /* border: 2px solid yellow; */
+ margin-top: 50px;
+ /* margin-left: 5%; */
+
 }
+
 .kotlinbannermainboxinnertextdiv {
- width: 37%;
+ width: 35%;
 margin-top: 16%;
 margin-left: 3%;
 text-align: left;

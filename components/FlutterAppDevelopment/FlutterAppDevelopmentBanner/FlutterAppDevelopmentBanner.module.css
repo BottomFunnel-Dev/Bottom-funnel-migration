@@ -28,7 +28,7 @@
   
   .flutterAppDevbannerbutton {
     padding: 10px 50px;
-    border-radius: 100px;
+    border-radius: 10px;
     width: 220px;
     background-color: #3380f2;
     border: none;
@@ -45,14 +45,12 @@
   }
   .FlutterIcon{
     width: 45%;
+    
     height:600px;
     margin: auto;
+    margin-left: 20%;
     object-fit: cover;
     background-size: cover;
+    /* border: 2px solid green; */
   }
-  .FlutterIcon>img{
-    width: 100%;
-    height: 100%;
-  }
-
- 
+  

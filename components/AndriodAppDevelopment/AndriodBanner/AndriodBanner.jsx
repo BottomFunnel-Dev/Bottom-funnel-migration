@@ -4,6 +4,7 @@ import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./AndriodBanner.module.css";
 import * as reactAnimation from "../../../public/Animation/android.json";
 import { Player } from "@lottiefiles/react-lottie-player";
+import Image from "next/image";
 
 export default function AndriodBanner() {
   const [open, setOpen] = useState(false);
@@ -59,7 +60,11 @@ export default function AndriodBanner() {
       </Modal>
 
         </div>
+        <div className={styles.bg1banner}>
+      
+       
         <div className={styles.androidIcon}>
+       
           <Player
             src={reactAnimation}
             background="transparent"
@@ -68,6 +73,7 @@ export default function AndriodBanner() {
             controls
             autoplay
           ></Player>
+        </div>
         </div>
       </div>
     </>

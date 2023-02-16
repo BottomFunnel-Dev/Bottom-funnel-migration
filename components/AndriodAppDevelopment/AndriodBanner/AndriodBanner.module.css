@@ -4,13 +4,27 @@ width: 100%;
 border: 1px solid white;
 justify-content: space-around;
 display: flex;
+/* background: url("/Images/AndriodDevImages/bg1.png"); */
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 margin-top: 80px;
+
+}
+.bg1banner{
+    /* border: 2px solid red; */
+    align-self: flex-end;
+    width: 50%;
+    /* height: 90vh; */
+    background: url("/Images/AndriodDevImages/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .androidIcon{
+  /* border: 2px solid yellow; */
 height: 85%;
+/* width: 40%; */
 margin-top: -12%;
 }
 .andriodAppDevbannermainboxinnertextdiv {
