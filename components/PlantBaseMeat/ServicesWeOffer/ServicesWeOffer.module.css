@@ -19,20 +19,23 @@ margin-top: 2%;
 justify-content: center;
 row-gap: 40px;
 column-gap: 40px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .plantBasedServicesWeOffers > div {
 width: 26%;
-height: 450px;
-border: 1px solid #d6d6d6;
+height: 420px;
+border: 1px solid #d2d2d2e3;
 border-radius: 10px;
-padding: 1%;
+padding: 2%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 background-color: white;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.plantBasedServicesWeOffers > div:hover {
+    background-color: #fffadc;    
+    margin-top: 0; 
+    transform: scale(1.02);
 }
 .plantBasedServicesWeOffers > div > div > img {
 width: 100%;
@@ -81,7 +84,12 @@ justify-content: center;
 background-color: white;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.plantBasedServicesWeOffers > div {
+width: 40%;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-10px);
+}
 .plantBasedServicesWeOffers > div > div {
 margin-top: 0%;
 height: 220px;

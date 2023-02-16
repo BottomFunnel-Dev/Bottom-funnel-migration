@@ -12,7 +12,7 @@ const FlowerDeliveryAdmin = () => {
 
   const flowerdeliveryadmindata = [
     {
-      img: "/Images/Flowerdeliverypage/Businesscontrol.webp",
+      img: "/Images/Flowerdeliverypage/Business control.webp",
       htxt: "Business Control",
       stxt: "A fabulous feature you can add to your app is the offer & deals. To affect customer satisfaction levels and expand the current customer base, provide discounts and deals daily."
     },

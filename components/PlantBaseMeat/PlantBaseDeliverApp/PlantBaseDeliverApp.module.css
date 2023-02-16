@@ -21,7 +21,7 @@
   height: 500px;
   padding: 10px;
   display: flex;
-  background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+  background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp");
   background-position: center;
   position: relative;
   border-top-left-radius: 15px;
@@ -41,7 +41,7 @@
 
 .plantBasedDeliverright > div {
   padding: 10px 10px 10px 10px;
-  height: 200px;
+  height: 230px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -51,8 +51,10 @@
 }
 
 .plantBasedDeliverright > div:hover {
-  background-color: #fbb807;
-  color: white;
+  background-color: #fdecbe;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .plantBasedDeliverAppLogo {
@@ -61,23 +63,20 @@
 }
 
 .plantBasedDeliverAppLogo > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
 .plantBasedDeliverright > div > h3 {
-  margin-top: 1%;
+  padding-top: 2%;
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
-  margin-top: 0%;
 }
 
 .plantBasedDeliverright > div > p {
-  margin-top: 0%;
+  padding-top: 2%;
   font-size: 15px;
   line-height: 20px;
   vertical-align: baseline;
@@ -122,7 +121,7 @@
     width: 95%;
     padding: 10px;
     display: flex;
-    background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+    background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp");
     background-position: center;
     position: relative;
     border-top-left-radius: 15px;
@@ -200,7 +199,7 @@
     width: 95%;
     padding: 10px;
     display: flex;
-    background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.png");
+    background: url("/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp");
     background-position: center;
     position: relative;
     border-top-left-radius: 15px;

@@ -12,7 +12,7 @@ const FlowerDeliveryDriver = () => {
   const flowerdeliverydriverdata = [
     {
 
-      img: "/Images/Flowerdeliverypage/DriverProfile.webp",
+      img: "/Images/Flowerdeliverypage/Driver Profile.webp",
       htxt: "Driver's Profile",
       stxt: "To make a flower delivery app is to meet the demands of the current market. This will surely increase the number of orders, popularity, and therefore, revenue."
     },
@@ -27,7 +27,7 @@ const FlowerDeliveryDriver = () => {
       stxt: "In the United States and the United Kingdom, developers charge from $70-$ 250. In Europe, on the other hand, developers charge between 50 and 150 dollars an hour. "
     },
     {
-      img: "/Images/Flowerdeliverypage/Orderdetails.webp",
+      img: "/Images/Flowerdeliverypage/Order details.webp",
       htxt: "Order",
       stxt: "It’s easier to track orders when all of them are in one place. With everything on one dashboard, you’ll never have any mixups again.The bigger the user base, the bigger the arena of customers."
     },

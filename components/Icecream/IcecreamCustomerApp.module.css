@@ -10,6 +10,7 @@
 .icecreamdeliveryappflexingbox {
   height: fit-content;
   display: flex;
+
 }
 
 .icecreamdeliveryappflexingboxleftbox {
@@ -51,7 +52,7 @@
 .icecreamdeliveryappindivisualbox {
   height: fit-content;
   width: 45%;
-  height: 180px;
+  height: 220px;
   margin: 1%;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -75,7 +76,7 @@
 }
 
 .icecreamdeliveryappindivisualboxfortext > h4 {
-  margin-top: 1%;
+  padding-top: 3%;
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;

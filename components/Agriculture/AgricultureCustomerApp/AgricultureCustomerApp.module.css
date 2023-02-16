@@ -49,6 +49,9 @@
 
 .agricultureCustomerAppright > div:hover {
   background-color: #e1f9f6;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .agricultureCustomerAppright > div > h3 {

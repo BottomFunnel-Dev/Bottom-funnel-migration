@@ -24,6 +24,9 @@
 .flowerdeliverysolutionbutton:hover {
   background-color: white;
   color: #3380f2;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .flowerdeliverysolutionflexbox {
