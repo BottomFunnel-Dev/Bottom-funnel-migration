@@ -218,7 +218,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.servicetrendImageIconDivSection}
                 >
-                  <div className={navservice.iconDivSection}>
+                  <div >
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -378,7 +378,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.serviceimageIconDivSection}
                 >
-                  <div className={navservice.iconDivSection}>
+                  <div>
                     <Image
                       src={item.navIcons}
                       alt={"image"}

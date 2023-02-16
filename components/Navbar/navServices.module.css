@@ -199,6 +199,7 @@
   width: 100%;
   height: 38px;
   column-gap: 3%;
+  padding: 10px;
   display: flex;
   align-items: center;
   border-left: 3px solid white;
