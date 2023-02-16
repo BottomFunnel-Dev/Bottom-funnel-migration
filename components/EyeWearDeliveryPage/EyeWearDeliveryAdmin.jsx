@@ -44,7 +44,7 @@ export const EyeWearDeliveryAdmin = () => {
     <div className={styles.eyeweardeliveryadminpannelmainbox}>
       <div className={styles.eyeweardeliveryadminpannelleftbox}>
         <div className={styles.eyeweardeliveryadmintextboxleftside}>
-          <h1> Admin Pannel </h1>
+          <h2> Admin Pannel </h2>
           {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce volutpat tempor semper. Fusce auctor blandit odio, non accumsan ipsum</p> */}
           <div className={styles.eyeweardeliveryadminpannelwheremap}>
             {eyeweardeliveryadmindata.map((e) => {
@@ -60,12 +60,13 @@ export const EyeWearDeliveryAdmin = () => {
                       width={"0"}
                       height={"0"}
                       sizes={"100vw"}
-                      style={{ width: "100%", height: "25%" }}
+                      style={{ width: "100%", height: "25%", objectFit:"contain"
+                     }}
                     />
                   </div>
 
                   <div>
-                    <h4> {e.htxt} </h4>
+                    <h5> {e.htxt} </h5>
                     <p> {e.stxt} </p>
                   </div>
                 </div>
@@ -81,7 +82,7 @@ export const EyeWearDeliveryAdmin = () => {
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "80%", height: "100%", objectFit:"contain" , marginLeft:"8%" }}
         />
       </div>
     </div>

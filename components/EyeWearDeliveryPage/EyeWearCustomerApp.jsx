@@ -51,7 +51,7 @@ export const EyeWearCustomerApp = () => {
             <div className={styles.eyewearappcustomerappboxflextype}>
                 <div className={styles.eyewearappcustomerappboxflextypeleftbox}>
                     <div className={styles.eyewearappcustomerappboxflextypeleftboxinsidertext} >
-                        <h1> Customer App </h1>
+                        <h2> Customer App </h2>
                     </div>
 
                     <div className={styles.eyewearcustomermappingdatabox}>
@@ -69,12 +69,12 @@ export const EyeWearCustomerApp = () => {
                                             width={"0"}
                                             height={"0"}
                                             sizes={"100vw"}
-                                            style={{ width: "100%", height: "100%" }}
+                                            style={{ width: "100%", height: "100%" , padding:"7px"}}
                                         />
                                     </div>
 
-                                    <div>
-                                        <h4> {e.htxt} </h4>
+                                    <div className={styles.eyewearcustomerappmappingdatatext}>
+                                        <h5> {e.htxt} </h5>
                                         <p> {e.stxt} </p>
                                     </div>
                                 </div>
