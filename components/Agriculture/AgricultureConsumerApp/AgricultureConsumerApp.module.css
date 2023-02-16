@@ -40,6 +40,9 @@ cursor: pointer;
 }
 .plantBasedDriverAppright > div:hover {
 background-color: #e1f9f6;
+cursor: pointer;
+transition: all 0.2s linear;
+transform: translateY(-10px);
 }
 .plantBasedDriverAppright > div > h3 {
 font-size: 18px;

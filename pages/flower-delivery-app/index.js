@@ -4,7 +4,7 @@ import { FlowerDeliveryService } from "../../components/FlowerDelivery/FlowerDel
 import FlowerDeliverySolution from "../../components/FlowerDelivery/FlowerDeliverySolution";
 import FlowerDeliveryDriver from "../../components/FlowerDelivery/FlowerDeliveryDriver";
 import FlowerDeliveryAdmin from "../../components/FlowerDelivery/FlowerDeliveryAdmin";
-// import FlowerDeliveryBannerbottom from "../../components/FlowerDelivery/FlowerDeliveryBannerbottom";
+import FlowerDeliveryBannerbottom from "../../components/FlowerDelivery/FlowerDeliveryBannerbottom";
 import FlowerDeliverylast from "../../components/FlowerDelivery/FlowerDeliverylast";
 
 import Head from "next/head";
@@ -30,7 +30,7 @@ export default function FlowerDelivery() {
         <FlowerDeliverySolution />
         <FlowerDeliveryDriver />
         <FlowerDeliveryAdmin />
-        {/* <FlowerDeliveryBannerbottom /> */}
+        <FlowerDeliveryBannerbottom />
         <FlowerDeliverylast />
       </main>
     </>

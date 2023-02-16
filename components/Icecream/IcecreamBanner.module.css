@@ -12,18 +12,18 @@
   width: 50%;
   margin-left: 5%;
   position: absolute;
-  margin-top: 17%;
+  margin-top: 13%;
   text-align: justify;
 }
 
 .icreambannersometextbox > h1 {
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 40px;
 }
 
 .icreambannersometextbox > h2 {
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 40px;
 }
 
 .icreambannersometextbox > p {
@@ -43,7 +43,7 @@
   font-size: 18px;
   font-weight: 600;
   color: white;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .icecreambannerbutton:hover {
@@ -63,5 +63,5 @@
   position: absolute;
   width: 50%;
   right: 0%;
-  top: 15%;
+  top: 12%;
 }

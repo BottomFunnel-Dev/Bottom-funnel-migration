@@ -34,7 +34,9 @@
 }
 
 .flowerdeliveryadmingboxmapping:hover {
-  transform: scale(1.02);
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
   background-color: #fee9ec;
 }
 
@@ -59,9 +61,8 @@
 .flowerdeliveryadminrightboxforimagetwo {
   position: absolute;
   height: fit-content;
-  width: 90%;
-
-  top: 17%;
+  width: 80%;
+  top: 23%;
   left: 50px;
 }
 

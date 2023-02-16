@@ -108,7 +108,7 @@ export const plantBaseDriverData = {
       para: "With the help of extensive experience in logistics and transportation web development. Our powerful navigation smoothly directs users to all the relevant information regarding your company's services or products.",
     },
   ],
-  sectionTitle: "Drive's App",
+  sectionTitle: "Driver's App",
   background:
     "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
 };

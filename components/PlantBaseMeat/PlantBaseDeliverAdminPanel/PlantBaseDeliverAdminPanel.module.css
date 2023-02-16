@@ -22,6 +22,7 @@
   width: 45%;
   height: 500px;
   display: flex;
+  background: url("/Images/PlantBasedMeat/banners & backgrounds/Rectangle 4787.webp");
   background-repeat: no-repeat;
   background-size: 100% 500px;
   position: relative;
@@ -48,8 +49,10 @@
 }
 
 .plantBasedAdminPanelright > div:hover {
-  background-color: #fbb807;
-  color: white;
+  background-color: #faf0d5;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .logisticLogo {
@@ -64,17 +67,17 @@
 }
 
 .plantBasedAdminPanelright > div > h3 {
-  margin-top: 1%;
+  padding-top: 2%;
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
-  margin-top: 0%;
+  
 }
 
 .plantBasedAdminPanelright > div > p {
-  margin-top: 0%;
+  padding-top: 1%;
   font-size: 14px;
   line-height: 20px;
   vertical-align: baseline;
@@ -93,8 +96,6 @@
 }
 
 .plantBasedAdminPanelmage > img {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
 }
 
