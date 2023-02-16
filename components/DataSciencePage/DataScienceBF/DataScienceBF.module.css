@@ -1,5 +1,4 @@
-/* for any type of laptop and big screen responsive */
-@media only screen and (min-width:901px){
+
 .datasciencebfmainboxes{
   height: 60vh;
 
@@ -93,23 +92,24 @@
   font-size: 16px;
   margin: 2% auto;
 }
-}
+
 
 /* for any type of mobile screen responsible */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 
   .datasciencebfmainboxes{
-    height: 130vh;
+    height: 155vh;
+    border: 1px solid transparent;
 
   }
 
   .DataScienceBFContainer {
     margin: 2% auto;
-    height: 115vh;
+    height: 135vh;
     position: relative;
  margin-top: 20%;
-    
+    /* border: 2px solid red; */
   }
   
   .DataScienceBFBackgroundRectangle {
@@ -122,6 +122,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* border: 2px solid aqua; */
   }
   
   .DataScienceBFBackgroundRectangle > img:nth-child(1) {
@@ -144,6 +145,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    /* border: 2px solid red; */
   }
   
   .DataScienceBFMain > h1 {
@@ -158,6 +160,7 @@
   
   .DataScienceBFCardsContainer {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -165,11 +168,12 @@
     width: 100%;
     margin: auto;
     margin-top: 3%;
+    /* border: 2px solid green; */
   }
   
   .DataScienceBannerHrLine {
     background-color: #f5f5f5;
-    width: 42%;
+    width: 90%;
     border-radius: 10px;
     margin-bottom: 2%;
     margin-right: 2%;
@@ -198,108 +202,4 @@
   }
 }
 
-/* for any type of tablet screen responsive */
-@media only screen and ( min-width:481px) and (max-width:900px){
 
-.datasciencebfmainboxes{
-  height:80vh;
-  border: 1px solid transparent;
-}
-
-
-
-  .DataScienceBFContainer {
-    height: fit-content;
-  
-  margin: 2% auto;
-  height: fit-content;
-  position: relative;
- margin-top: 55%;
- 
-}
-
-.DataScienceBFBackgroundRectangle {
-  position: absolute;
-  height: 95%;
-  width: 100%;
-  bottom: 0;
-  z-index: 0;
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.DataScienceBFBackgroundRectangle > img:nth-child(1) {
-  align-self: flex-start;
-  height: 40%;
-  width: 45%;
-}
-
-.DataScienceBFBackgroundRectangle > img:nth-child(2) {
-  align-self: flex-end;
-  height: 30%;
-  width: 40%;
-}
-
-.DataScienceBFMain {
-  width: 95%;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-
-}
-
-.DataScienceBFMain > h1 {
-  font-size: 32px;
-  width: 90%;
-  margin: 1% auto;
-}
-
-.DataScienceBFMain > h1 > span {
-  color: #ef4c23;
-}
-
-.DataScienceBFCardsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
-  margin-top: 3%;
-}
-
-.DataScienceBannerHrLine {
-  background-color: #f5f5f5;
-  width: 45%;
-  border-radius: 10px;
-  margin-bottom: 2%;
-  padding: 2%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.DataScienceBannerHrLine > div {
-  height: 70px;
-  width: fit-content;
-}
-
-.DataScienceBannerHrLine > div > img {
-  height: 100%;
-}
-
-.DataScienceBannerHrLine > h3 {
-  font-size: 18px;
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
-
-.DataScienceBannerHrLine > p {
-  font-size: 16px;
-  margin: 2% auto;
-}
-}

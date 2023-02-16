@@ -85,17 +85,20 @@
 
 /* for any type of mobile screen responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 
   .CryptoDevBannerMain {
-    height: 100vh;
-    padding-left: 5%;
-  
+    height: 70vh;
+    padding-left: 0%;
+  border: 2px solid green;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url("/Images/CryptoDevPhotos/banner.webp");
-    background-size: 100% 30%;
-
+    background-size: 100% 100%;
+    background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
   }
   
@@ -103,10 +106,10 @@
     font-size: 25px;
     width: 90%;
     margin-bottom: 1%;
-    margin-top: 45%;
-    margin-bottom: 1%;
+    /* margin-top: 45%; */
+    /* margin-bottom: 1%; */
   text-align: center;
-    color: black;
+    color: white;
   }
   
   .CryptoDevBannerMain > h1 > span {
@@ -119,7 +122,7 @@
     margin-bottom: 1%;
     margin-top: 1%;
   text-align: justify;
-    color: black;
+    color: white;
   }
   
   .CryptoDevBannerMain > button {
@@ -138,7 +141,7 @@
     cursor: pointer;
   
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 17%;
+    /* margin-left: 17%; */
     margin-top: 2%;
   }
   

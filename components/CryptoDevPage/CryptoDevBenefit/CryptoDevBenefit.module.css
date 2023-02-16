@@ -64,16 +64,18 @@
 
 
   /* for any type of mobile screen responsible */
+  @media only screen and (min-width:0px) and (max-width:1024px){
 
   .CryptoDevBenefitContainer {
-    width: 90%;
+    width: 100%;
     margin: 10% auto 2% auto;
+    /* border: 1px solid green; */
 
   }
 
   .CryptoDevBenefitContainer>h1 {
     font-size: 25px;
-
+  width: 90%;
     text-align: center;
 
   }
@@ -87,10 +89,11 @@
   }
 
   .CryptoDevBenefitMain>div {
-    width: 95%;
+    width: 90%;
+    margin: auto;
     margin-bottom: 2%;
     padding: 2%;
-
+  /* border: 2px solid yellow; */
     background: #f5f5f5;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -119,7 +122,8 @@
 
   .CryptoDevBenefitHrLine {
     width: 95%;
-    margin: 1% 0 1% 0;
+    margin: auto;
+    /* margin: 1% 0 1% 0; */
 
     display: flex;
     align-items: center;
@@ -143,6 +147,7 @@
 
   .cryptodevbannerfitindiboxes>h2 {
 
-    text-align: center;
+    text-align: left;
     font-size: 25px;
   }
+}
