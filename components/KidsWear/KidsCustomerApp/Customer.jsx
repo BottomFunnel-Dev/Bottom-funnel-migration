@@ -1,12 +1,19 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./Customer.module.css"
 
 
 export const Customer = () => {
 
+
+  const [imageChange, setImageChange] = useState("/Images/kidswearappservice/ha/clicktocall.webp")
+  const handleImageChange = (imagepath) => {
+      setImageChange(() => imagepath)
+  }
+
     const kidswearcustomerappdaat=[
-        {
+        {   
+            img:"/Images/kidswearappservice/ha/clicktocall.webp",
             icon:"/Images/kidswearappservice/Group78.webp",
             htxt:" Product Filtering & Sorting",
             stxt:"With advanced search filter, users will be able to find their products and services in a more efficient way.",
@@ -14,6 +21,7 @@ export const Customer = () => {
        
         
         {
+            img:"/Images/kidswearappservice/ha/shipmenttracking.webp",
             icon:"/Images/kidswearappservice/Tracking delivery.webp",
             htxt:"Shipment Tracking",
             stxt:"Users should be able to track their products in real-time.",
@@ -21,6 +29,7 @@ export const Customer = () => {
 
 
         {
+            img:"/Images/kidswearappservice/ha/multiplepayment.webp",
             icon:"/Images/kidswearappservice/Vector.webp",
             htxt:"Multiple Payment Options",
             stxt:"Integrate standard payment gateway to allow users to pay anyway they want.",
@@ -28,15 +37,13 @@ export const Customer = () => {
 
 
         {
+            img:"/Images/kidswearappservice/ha/shipmenttracking1.webp",
             icon:"/Images/kidswearappservice/Group.webp",
             htxt:"Push Notification",
             stxt:"Offer your shipper with multiple payment options and helps in invoice generation.",
         },
 
     ]
-
-
-
 
 
   return (
@@ -46,7 +53,12 @@ export const Customer = () => {
 
   <div className={styles.kidswearcustomerdatamapping}>{kidswearcustomerappdaat.map((e)=>{
     return (
-        <div>
+        <div
+        key={e.htxt} onMouseEnter={() => {
+          handleImageChange(e.img)
+        }}
+        
+        >
         <div className={styles.kidswearicon}>
         <Image
           src={e.icon}
@@ -73,7 +85,7 @@ export const Customer = () => {
 
 <div className={styles.kidswearcustomerrightbox}>
 <Image
-src={"/Images/kidswearappservice/Multiple Payment.webp"}
+src={imageChange}
 alt={"image"}
 width={"0"}
 height={"0"}
@@ -87,3 +99,4 @@ style={{ width: "40%", height: "90%",objectFit:"contain", marginLeft:"20%" }}
     </div>
   )
 }
+

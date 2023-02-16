@@ -52,8 +52,10 @@
 .kidswearcustomerrightbox{
     margin-left: 2%;
     width: 40%;
-    background: url("/Images/kidswearappservice/Vector 3.webp");
+    background: url("/Images/kidswearappservice/ha/Rectangle 4787.webp");
     background-repeat: no-repeat;
-    background-size: 80% 100%;
+    background-size: 100% 40%;
+    background-position-y: bottom;
+    background-position-x: right;
 
 }

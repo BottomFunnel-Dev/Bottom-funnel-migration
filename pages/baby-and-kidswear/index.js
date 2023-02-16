@@ -1,6 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
+import AviationAirlines from "../../components/Aviation/AviationAirlines";
 import { Customer } from "../../components/KidsWear/KidsCustomerApp/Customer";
 import { KidswearAdmin } from "../../components/KidsWear/KidswearAdminApp/KidswearAdmin";
 
@@ -41,12 +42,14 @@ export default function Kidswear() {
       </Head>
 
       <main>
+
         <KidsWearBanner />
-        <ExclusiveFeature />
-       <Customer />
-       <KidswearAdmin />
-      {/*  <ChooseUs /> */}
+       <ExclusiveFeature  />
+    <Customer />
+    <KidswearAdmin />
       </main>
     </div>
   );
 }
+
+

@@ -8,40 +8,6 @@ import { MdArrowDropDown } from "react-icons/md";
 
 export const ContactMain = ({ scroll, navbar }) => {
   const [calldrop, setCalldrop] = useState(false);
-
-  const arr = [
-    {
-      icon: "/Images/navbar/iconcontact/india.svg",
-      contact: "+91 7877680588, +91 8209366227",
-    },
-    {
-      icon: "/Images/navbar/iconcontact/usa.svg",
-      contact: "+1 9176956550",
-    },
-    {
-      icon: "/Images/navbar/iconcontact/usa.svg",
-      contact: "+971 553070316, +971 565664624, ",
-    },
-    {
-      icon: "/Images/navbar/iconcontact/kenya.svg",
-      contact: "+254 787213522",
-    },
-    {
-      icon: "/Images/navbar/iconcontact/skypes.svg",
-      contact: "bottomfunnel",
-    },
-    {
-      icon: "/Images/navbar/iconcontact/mail.svg",
-      contact: "sales@bottomfunnel.net, info@bottomfunnel.net",
-    },
-  ];
-  const hr = [
-    {
-      icon: "/Images/navbar/iconcontact/india.svg",
-      contact: "+91 7877680588, +91 8209366227",
-    },
-  ];
-
   return (
     <div className={stylecon.contectemail}>
       <span>
