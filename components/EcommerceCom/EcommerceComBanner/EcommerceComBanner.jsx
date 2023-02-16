@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComBanner.module.css";
 
-export const EcommerceComBanner = () => {
+export default function EcommerceComBanner() {
   return (
     <div className={styles.eCommerceBannerMain}>
       <div className={styles.eCommerceBannerContent}>
@@ -18,7 +18,7 @@ export const EcommerceComBanner = () => {
       </div>
       <div className={styles.eCommerceBannerImage}>
         <Image
-          src={"/Images/EcommercePhotos/banner.webp"}
+          src={"/Images/EcommercePhotos/background/banner.webp"}
           alt={"e-commerce banner image"}
           width={"0"}
           height={"0"}
@@ -28,4 +28,4 @@ export const EcommerceComBanner = () => {
       </div>
     </div>
   );
-};
+}
