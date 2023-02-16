@@ -1,4 +1,4 @@
-@media only screen and (min-width:901px){
+
 .MLPopularMain {
 width: 90%;
 margin: auto;
@@ -121,143 +121,25 @@ width: 20px;
 height: 20px;
 color: white;
 }
-}
+
 /* for any type of mobile screen responsive */
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 .MLPopularMain {
-width: 90%;
+width: 100%;
 margin: auto;
 margin-top: 3%;
 margin-bottom: 3%;
-}
-.MLPopularMain > h1 {
-font-size: 25px;
-margin-bottom: 1%;
+/* border: 2px solid green; */
 text-align: center;
-}
-.MLPopularHrLine {
-width: 95%;
-margin-top: 1%;
-margin-bottom: 1%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-.MLPopularHrLine > div {
-border: 2px solid #ef4c23;
-width: 20px;
-height: 20px;
-border-radius: 20px;
-}
-.MLPopularHrLine > span {
-width: 46%;
-height: 2px;
-background-color: #ef4c23;
-color: #ef4c23;
-}
-.MLPopularMain > p {
-font-size: 16px;
-margin-top: 1%;
-margin-bottom: 3%;
-}
-.MLPopularContent {
-width: 100%;
-margin: auto;
-}
-.MLPopularContent > div {
-margin-top: 2%;
-margin-bottom: 2%;
-padding-bottom: 3%;
-display: flex;
-justify-content: space-between;
-border-bottom: 1px solid gray;
-}
-.MLPopularContent > div:last-child {
-border-bottom: none;
-}
-.MLPopularCardsContent {
-width: 70%;
-}
-.MLPopularCardsContent > h2 {
-font-size: 25px;
-margin: auto;
-margin-bottom: 2%;
-}
-.MLPopularCardsContent > p {
-font-size: 16px;
-text-align: justify;
-}
-.MLPopularCardsImages {
-width: 25%;
-padding: 5px;
-background: #ffeee9;
-border-radius: 5px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.MLPopularCardsImages > img {
-width: 100%;
-}
-.MLPopularButton {
-width: 95%;
-height: fit-content;
-margin: auto;
-cursor: pointer;
-display: flex;
-align-items: center;
-justify-content: flex-end;
-border-radius: 100px;
-padding-left: 3%;
-background: linear-gradient(to Right, #ef4c23 60%, #fd5f03);
-}
-.MLPopularButton > h3 {
-font-size: 18px;
-color: white;
-margin-top: 0px;
-margin-bottom: 0px;
-}
-.MLPopularButton > div {
-height: fit-content;
-width: fit-content;
-padding: 5px;
-background: linear-gradient(to Bottom, #ef4c23, #fd5f03);
-border-radius: 100px;
-border: 2px solid white;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.MLPopularButton > div > div {
-width: fit-content;
-height: fit-content;
-background: linear-gradient(to Bottom, #fd5f03, #ef4c23);
-padding: 5px;
-border-radius: 100px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.MLPopularButton > div > div > svg {
-width: 20px;
-height: 20px;
-color: white;
-}
-}
-/* for any type of tablet screen responsive */
-@media only screen and ( min-width:481px) and (max-width:900px){
-.MLPopularMain {
-width: 90%;
-margin: auto;
-margin-top: 3%;
-margin-bottom: 3%;
 }
 .MLPopularMain > h1 {
 font-size: 32px;
 margin-bottom: 1%;
+text-align: center;
 }
 .MLPopularHrLine {
-width: 80%;
+width: 90%;
+margin: auto;
 margin-top: 1%;
 margin-bottom: 1%;
 display: flex;
@@ -282,7 +164,7 @@ margin-top: 1%;
 margin-bottom: 3%;
 }
 .MLPopularContent {
-width: 90%;
+width: 95%;
 margin: auto;
 }
 .MLPopularContent > div {
@@ -290,14 +172,16 @@ margin-top: 2%;
 margin-bottom: 2%;
 padding-bottom: 3%;
 display: flex;
-justify-content: space-between;
+flex-direction: column;
+justify-content:center;
+align-items: center;
 border-bottom: 1px solid gray;
 }
 .MLPopularContent > div:last-child {
 border-bottom: none;
 }
 .MLPopularCardsContent {
-width: 70%;
+width: 90%;
 }
 .MLPopularCardsContent > h2 {
 font-size: 25px;
@@ -309,7 +193,7 @@ font-size: 16px;
 text-align: justify;
 }
 .MLPopularCardsImages {
-width: 25%;
+width: 85%;
 padding: 5px;
 background: #ffeee9;
 border-radius: 5px;
@@ -321,14 +205,11 @@ justify-content: center;
 width: 100%;
 }
 .MLPopularButton {
-width: 600px;
+width: 95%;
 height: fit-content;
 margin: auto;
 cursor: pointer;
-margin-top: 0;
-margin-bottom: 0;
 display: flex;
-gap: 3%;
 align-items: center;
 justify-content: flex-end;
 border-radius: 100px;
@@ -358,7 +239,6 @@ height: fit-content;
 background: linear-gradient(to Bottom, #fd5f03, #ef4c23);
 padding: 5px;
 border-radius: 100px;
-
 display: flex;
 align-items: center;
 justify-content: center;
@@ -369,3 +249,4 @@ height: 20px;
 color: white;
 }
 }
+
