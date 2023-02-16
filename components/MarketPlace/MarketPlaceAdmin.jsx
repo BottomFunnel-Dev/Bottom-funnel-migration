@@ -1,8 +1,9 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./MarketPlaceAdmin.module.css";
 
 const MarketPlaceAdmin = () => {
-  const [imageChange, setImageChange] = useState( "/Images/Marketplaceapp/Adminappscreens/dashboard.webp");
+  const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Adminappscreens/dashboard.webp");
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -58,8 +59,12 @@ const MarketPlaceAdmin = () => {
                     }}
                   >
                     <div className={styles.marketplaceadminflexboxingforimagecontain}>
-                      <img className={styles.marketplaceadminlogo}
-                        src={el.img} alt="image"
+                      <Image className={styles.marketplaceadminlogo}
+                        src={el.img} alt={"image"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "100%", height: "100%" }}
                       />
                     </div>
 

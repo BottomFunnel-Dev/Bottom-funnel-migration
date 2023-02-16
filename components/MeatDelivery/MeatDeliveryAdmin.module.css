@@ -9,6 +9,7 @@
   height: 600px;
   width: 55%;
   margin-left: 5%;
+  
 }
 
 .meatdeliveryadminuppertextbox {
@@ -23,6 +24,7 @@
   margin-top: 3%;
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 .meatdeliveryadminboxindivisually {
@@ -54,14 +56,11 @@
 .meatdeliveryadminrightboxes {
   height: 450px;
   width: 45%;
-  margin: 3% 5% 0% 2%;
+  margin: 3% 0% 0% 2%;
+  background: url("/Images/meatdelieveryapp/Rectangle 4793.webp");
 }
 
-.meatdeliveryadminrightboxes > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
+
 
 .specialcolor {
   color: #ef4c23;

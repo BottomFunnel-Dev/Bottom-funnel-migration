@@ -65,7 +65,7 @@
 .pharmacyCustomerImage {
   /* border: 1px solid red; */
   width: 100%;
-  text-align: right;
+  height: 600px;
 }
 
 .pharmacyCustomerImage > img {

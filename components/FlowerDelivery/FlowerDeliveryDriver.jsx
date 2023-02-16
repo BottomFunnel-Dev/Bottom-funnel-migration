@@ -59,6 +59,7 @@ const FlowerDeliveryDriver = () => {
 
       <div className={styles.flowerdeliveryflexboxright}>
         <h2> Driver Applications </h2>
+        <div className={styles.flowerdeliverydrivermapping}>
         {flowerdeliverydriverdata.map((e) => {
           return (
             <div className={styles.flowerdeliverydrivermappingbox}
@@ -71,6 +72,7 @@ const FlowerDeliveryDriver = () => {
             </div>
           )
         })}
+        </div>
       </div>
     </div>
   );

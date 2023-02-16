@@ -13,7 +13,7 @@ export default function Cannabiscustomersection() {
       image: "/Images/newcannabispage/Customer screens/sign up.png",
       icon: "/Images/newcannabispage/icons/image 15.png",
       headertext: "Easy app onboarding",
-      paragraph: "Customize this Cannabis  App however you see fit with our powerful online app builder. You don’t need any design or coding experience",
+      paragraph: "Customize this Canabbis App however you see fit with our powerful online app builder. You don’t need any design or coding experience fit with our powerful online app builder fit .",
     },
 
     {

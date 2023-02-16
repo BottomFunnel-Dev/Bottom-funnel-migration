@@ -34,8 +34,7 @@ function TooDeliveryBanner() {
       <div className={styles.txtooldeliverysubcontainer}>
         <div className={styles.tdtooldeliveryleft}>
           <div className={styles.tdtooldeliverysometxtbox}>
-            <h1> On-Demand </h1>
-            <h2> Tool Delivery Solution </h2>
+            <h1>On-Demand Tool Delivery Solution </h1>
             <p>
               Tool delivery app is a smart solution which makes your life as an
               entrepreneur much easier. It helps you deliver tools faster than

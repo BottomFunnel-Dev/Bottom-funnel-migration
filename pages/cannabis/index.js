@@ -56,4 +56,4 @@ export default function Cannabis() {
       </main>
     </>
   );
-};
+}

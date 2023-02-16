@@ -15,7 +15,7 @@ export const TaxiBookingAdminpannel = () => {
     const adminpanneltaxibookingdata = [
 
         {
-            images: "/Images/Taxibooking/Adminscreens/Driver management.webp",
+            images: "/Images/Taxibooking/Adminscreens/Dahboard.webp",
             icon: "/Images/Taxibooking/icons/Component 132.webp",
             htxt: "Dashboard",
             stxt: "The taxi booking applications are a solution to several problems like reducing the waiting time on the road, looking out for cabs under the sun, and several other things.,",

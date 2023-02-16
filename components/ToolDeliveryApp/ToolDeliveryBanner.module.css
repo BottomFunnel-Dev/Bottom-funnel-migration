@@ -20,11 +20,6 @@
   font-weight: 500;
 }
 
-.tdtooldeliverysometxtbox > h2 {
-  font-size: 40px;
-  font-weight: 500;
-  color: black;
-}
 
 .tdtooldeliverysometxtbox > p {
   text-align: justify;
@@ -48,11 +43,11 @@
 }
 
 .tdtooldeliveryleft > div > h1 {
-  margin-top: -10%;
+  margin-top: -8%;
 }
 
 .tdtooldeliveryleft > div > p {
-  margin-top: 6%;
+  margin-top: 5%;
   color: black;
 }
 
@@ -72,9 +67,6 @@
   color: #3380f2;
   background-color: white;
 }
-
-
-
 
 .toolDeliveryAnimationDiv {
   position: absolute;

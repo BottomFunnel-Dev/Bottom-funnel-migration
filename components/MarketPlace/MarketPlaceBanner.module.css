@@ -14,8 +14,21 @@
   padding: 10px;
   color: black;
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: 5%;
+}
+
+.marketplacebannerimageinsideboxtext > h1 {
+  /* border: 1px solid red; */
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.marketplacebannerimageinsideboxtext > p {
+  /* border: 1px solid red; */
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 .marketplacebutton {
@@ -37,6 +50,7 @@
 }
 
 .marketplaceBannerAnimationDiv {
+  /* border: 1px solid red; */
   position: absolute;
   width: 50%;
   right: 0%;
@@ -45,7 +59,7 @@
 
 .marketPlaceBannerAnimation {
   /* border: 1px solid red; */
-  width: 80%;
+  width: 75%;
 }
 
 /* Media query for the Mobile Device */

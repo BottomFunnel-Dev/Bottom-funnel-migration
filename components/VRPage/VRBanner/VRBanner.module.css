@@ -77,3 +77,89 @@
   background-color: #fff;
   color: #fff;
 }
+@media only screen and (min-width:0px) and (max-width:1024px){
+  .VRBannerMain {
+    height: 70vh;
+    padding-left: 0%;
+  
+    background: url("/Images/VRPhotos/banner.webp");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .VRBannerMain > h1 {
+    font-size: 32px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  
+  
+    color: whitesmoke;
+  }
+  
+  .VRBannerMain > p {
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: justify;
+  
+    color: whitesmoke;
+  }
+  
+  .VRBannerMain > button {
+    font-size: 20px;
+    font-weight: 600;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 1%;
+  
+    background-color: white;
+    color: #bf42b9;
+    padding: 10px 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .VRBannerMain > button:hover {
+    color: white;
+    background-color: #bf42b9;
+  }
+  
+  .VRBannerHrLine {
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .VRBannerHrLine > div {
+    border: 2px solid #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  
+  .VRBannerHrLine > span {
+    width: 46%;
+    height: 2px;
+    background-color: #fff;
+    color: #fff;
+  }
+}

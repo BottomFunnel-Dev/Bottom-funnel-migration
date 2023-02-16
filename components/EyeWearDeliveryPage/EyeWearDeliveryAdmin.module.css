@@ -1,5 +1,5 @@
 .eyeweardeliveryadminpannelmainbox {
-  height: 100vh;
+  height: 80vh;
   margin-top: 100px;
   display: flex;
 }
@@ -10,17 +10,18 @@
 }
 
 .eyeweardeliveryadminpannelrightbox {
-  height: 50%;
-  width: 45%;
+  height: 85%;
+  width: 50%;
+
   position: relative;
-  margin-top: 5%;
+
+background: url("/Images/EyewearDeliveryapp/Adminpanelscreens/Rectangle 4787.webp");
+background-repeat: no-repeat;
+background-size: 100% 50%;
+background-position-y:bottom ;
 }
 
-.eyeweardeliveryadminpannelrightbox > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
+
 
 .eyeweardeliveryadmintextboxleftside {
   height: fit-content;
@@ -28,23 +29,25 @@
   position: absolute;
   text-align: justify;
   left: 3%;
+
 }
 
-.eyeweardeliveryadmintextboxleftside > h1 {
-  margin-left: 3%;
+.eyeweardeliveryadmintextboxleftside > h2 {
+  margin-left: 2%;
 }
 
 .eyeweardeliveryadminpannelwheremap {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .eyewearmappingdataboxadminpannel {
-  width: 40%;
+  width: 44%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  height: auto;
+  height: 220px;
   border-radius: 10px;
-  margin: 3%;
+  margin: 1%;
   display: flex;
   padding: 10px;
 }

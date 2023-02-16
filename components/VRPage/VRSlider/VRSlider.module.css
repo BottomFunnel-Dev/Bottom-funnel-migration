@@ -103,3 +103,112 @@
 .VRSliderSliderArrow:hover {
   background-color: #d6d5d5;
 }
+
+@media only screen and (min-width:0px) and (max-width:1024px){
+  .VRSliderSliderDiv {
+    position: relative;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .VRSliderSliderDiv > h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .VRSliderHrLine {
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .VRSliderHrLine > div {
+    border: 2px solid #bf42b9;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  
+  .VRSliderHrLine > span {
+    width: 46%;
+    height: 2px;
+    background-color: #bf42b9;
+    color: #bf42b9;
+  }
+  
+  .VRSlider-slide {
+    width: 670px;
+    height: 250px;
+    position: relative;
+  
+    transform: scale(0.5);
+    transition: transform 0.5s ease-in-out;
+  
+    border-radius: 20px;
+    border: 1px solid gray;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .VRSlider-slide-active {
+    width: 100px;
+    transform: scale(0.8);
+  }
+  
+  .VRSliderImages{
+    width: 50px;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 10%;
+    /* border: 2px solid red; */
+  }
+  
+  .VRSliderSliderPrev {
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    left: 0%;
+    top: 50%;
+  }
+  
+  .VRSliderSliderArrow {
+    background-color: #f1f1f1;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    color: #393939;
+  
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .VRSliderSliderPrev {
+    left: 0%;
+    top: 50%;
+  }
+  
+  .VRSliderSliderNext {
+    right: 0%;
+    top: 50%;
+  }
+  
+  .VRSliderSliderArrow:hover {
+    background-color: #d6d5d5;
+  }
+
+}

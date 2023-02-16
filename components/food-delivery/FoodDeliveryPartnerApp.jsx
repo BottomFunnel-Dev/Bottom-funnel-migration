@@ -1,71 +1,169 @@
+// import Image from "next/image";
+// import React from "react";
+// import styles from "./FoodDeliveryPartnerApp.module.css";
+
+// export const FoodDeliveryPartnerApp = () => {
+//   let adminpanelData = [
+//     {
+//       title: "Manage Offers & Discounts",
+//       description:
+//         "Partners can give secial offers and discounts to increase their customer base and earn their loyalty.",
+//     },
+//     {
+//       title: "Menu category and Order Managerment",
+//       description:
+//         "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
+//     },
+//     {
+//       title: "Chat Support",
+//       description:
+//         "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
+//     },
+//     {
+//       title: "Custom Alerts",
+//       description:
+//         "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
+//     },
+//   ];
+
+//   return (
+//     <div className={styles.foodDeliveryAdvanceTechPartnerAppMain}>
+//       <div className={styles.foodDeliveryPartnerAppMain}>
+//         <div className={styles.foodDeliveryPartnerAppImages}>
+//           <div>
+//             <Image
+//               src={"/Images/foodDeliveryphotos/partner-bkgd-rectangle.png"}
+//               alt={"triangle background image"}
+//               width={"0"}
+//               height={"0"}
+//               sizes={"100vw"}
+//               style={{ width: "100%", height: "100%" }}
+//             />
+//           </div>
+
+//           <div>
+//             <Image
+//               src={"/Images/foodDeliveryphotos/mobile-screen-2.png"}
+//               alt={"customer app iphone image"}
+//               width={"0"}
+//               height={"0"}
+//               sizes={"100vw"}
+//               style={{ width: "100%", height: "100%" }}
+//             />
+//           </div>
+//         </div>
+//         <div className={styles.foodDeliveryPartnerAppContent}>
+//           <h2> Partner app </h2>
+//           <div>
+//             {adminpanelData.map(({ title, description }) => {
+//               return (
+//                 <div>
+//                   <h4> {title} </h4>
+//                   <p> {description} </p>
+//                 </div>
+//               );
+//             })}
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+import React, { useState } from "react";
 import Image from "next/image";
-import React from "react";
 import styles from "./FoodDeliveryPartnerApp.module.css";
 
-export const FoodDeliveryPartnerApp = () => {
-  let adminpanelData = [
+export default function FoodDeliveryPartnerApp() {
+  const [imageChange, setImageChange] = useState("/Images/newcannabispage/Admin Screens/AdminPanelImage.webp");
+  const handleImageChange = (imagepath) => {
+    setImageChange(() => imagepath);
+  };
+
+  const icecreamadmindata = [
     {
-      title: "Manage Offers & Discounts",
-      description:
-        "Partners can give secial offers and discounts to increase their customer base and earn their loyalty.",
+      image: "/Images/newcannabispage/Admin Screens/AdminPanelImage.webp",
+      icon: "/Images/PlantBasedMeat/icons/prototyping-10.png",
+      headertext: "Dashboard Management",
+      paragraph:
+        "Build an admin panel for your web app or backend panel with Ready Dashboard.It’s built sophisticatedly with a clean and colorful user interface and modern web building methods and technology. ",
     },
+
     {
-      title: "Menu category and Order Managerment",
-      description:
-        "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
+      image: "/Images/newcannabispage/Admin Screens/Reports & analytics.webp",
+      icon: "/Images/PlantBasedMeat/icons/prototyping-7.png",
+      headertext: "Reports & Analytics",
+      paragraph:
+        "A report allows you to summarize and chart record data. A dashboard can present summary reports on a single page. It is a collection of Reports.Here is my next exploration of Mersy. Hope you guys like it Cheers! ",
     },
+
     {
-      title: "Chat Support",
-      description:
-        "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
+      image: "/Images/newcannabispage/Admin Screens/AdminPanelImage1.webp",
+      icon: "/Images/PlantBasedMeat/icons/prototyping-6.png",
+      headertext: "Clients Management",
+      paragraph:
+        "This design is about managing customer reviews. The business owner can see all reviews, and average ratings and give any customer instant feedback using this dashboard. ",
     },
+
     {
-      title: "Custom Alerts",
-      description:
-        "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
+      image: "/Images/newcannabispage/Admin Screens/AdminPanelImage2.webp",
+      icon: "/Images/PlantBasedMeat/icons/prototyping-5.png",
+      headertext: "Orders Management",
+      paragraph:
+        "Customer relationship management (CRM) is a technology for managing all your company's relationships and interactions with customers and potential customers.",
     },
   ];
 
   return (
-    <div className={styles.foodDeliveryAdvanceTechPartnerAppMain}>
-      <div className={styles.foodDeliveryPartnerAppMain}>
-        <div className={styles.foodDeliveryPartnerAppImages}>
-          <div>
-            <Image
-              src={"/Images/foodDeliveryphotos/partner-bkgd-rectangle.png"}
-              alt={"triangle background image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
-          </div>
-          
-          <div>
-            <Image
-              src={"/Images/foodDeliveryphotos/mobile-screen-2.png"}
-              alt={"customer app iphone image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
-          </div>
-        </div>
-        <div className={styles.foodDeliveryPartnerAppContent}>
-          <h2> Partner app </h2>
-          <div>
-            {adminpanelData.map(({ title, description }) => {
-              return (
-                <div>
-                  <h4> {title} </h4>
-                  <p> {description} </p>
+    <div className={styles.cannabiesadminpannelmainboxes}>
+      <div className={styles.cannbiesadminpannelmainboxsometextupper}>
+        <h2> Admin Pannel </h2>
+      </div>
+
+      <div className={styles.cannabiesadminpannelmainflexboxclass}>
+        <div className={styles.cannabieasadminpannelleftbox}>
+          {icecreamadmindata.map((e) => {
+            return (
+              <div
+                className={styles.cannabiesadminpannelmapperboxindivisyal}
+                key={e.htxt}
+                onMouseEnter={() => {
+                  handleImageChange(e.image);
+                }}
+              >
+                <div className={styles.cannabieasadminpannelmapperboxindivisyalicon} >
+                  <Image
+                    src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "80%" }}
+                  />
                 </div>
-              );
-            })}
+
+                <div className={styles.canabisadminpannelmapperboxindivisyaltxt}>
+                  <h4> {e.headertext} </h4>
+                  <p> {e.paragraph} </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className={styles.cannabiesamadminpannelrightbox}>
+          <div className={styles.cannbiesamadminpannelrightboxinnerimage}>
+            <Image
+              src={imageChange}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>
     </div>
   );
-};
+}

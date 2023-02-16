@@ -21,20 +21,26 @@
 .eyewearappcustomerappboxflextypeleftboxinsidertext {
   height: fit-content;
   width: 70%;
-  margin: 3% 0% 0% 3%;
+ margin-left: 7%;
+ 
+  
+
 }
+
+
 
 .eyewearcustomermappingdatabox {
   display: flex;
   flex-wrap: wrap;
+  margin: 3% 0% 0% 5%;
+
 }
 
 .eyewearcustomeraftermap1box {
   height: auto;
-  width: 42%;
+  width: 44%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-left: 3%;
-  margin-top: 3%;
+ margin: 1%;
   display: flex;
   padding: 13px;
   border-radius: 10px;

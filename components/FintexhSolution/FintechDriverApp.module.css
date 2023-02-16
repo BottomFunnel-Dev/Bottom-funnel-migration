@@ -7,7 +7,7 @@
   position: absolute;
   right: 16%;
   width: 40%;
-  top: 7%;
+
 }
 
 .fintedriverappfelxingboxupper {
@@ -17,10 +17,12 @@
 .fintedriverappfelxingboxupperleft {
   height: 500px;
   width: 40%;
-  margin-top: 8%;
-  margin-left: 3%;
-  background: url("/Images/fintechsolutionpage/Vector-2.webp");
+
+margin-top: 3%;
+  background: url("/Images/fintechsolutionpage/Rectangle 4789.webp");
   background-size: contain;
+  background-position-y: bottom;
+  background-position-x: left;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -41,14 +43,15 @@
 .fintechdriverappflexright {
   height: fit-content;
   width: 60%;
-  margin-top: 10%;
+margin-top: 5%;
+  margin-left: 3%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .fintechdriverappboxesaftermapping {
-  height: auto;
-  width: 40%;
+  height: 220px;
+  width: 44%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   display: flex;
@@ -59,6 +62,7 @@
 
 .fintechdriverappboxesaftermapping:hover {
   transform: scale(1.02);
+  background-color: #bed0f1;
 }
 
 .logofintechdriverapp {

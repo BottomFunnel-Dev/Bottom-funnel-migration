@@ -1,6 +1,6 @@
 .onlinepmobilebrowsermainboxes {
 height: fit-content;
-padding-top: 3%;
+padding-top: 5%;
 margin-bottom: 5%;
 display: flex;
 background-color: white;
@@ -9,14 +9,17 @@ background-color: white;
 .onlinepmobilebrowserleftbox {
 height: 420px;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Ellipse 2193.webp");
+background: url("/Images/onlinepaymentpage/Rectangle 4788.webp");
 background-repeat: no-repeat;
 background-size: contain;
+background-position-y: bottom;
 }
 
 .onlinepmobilebrowserrightbox {
 width: 45%;
 height: fit-content;
+margin-left: 7%;
+margin-top: 5%;
 }
 .onlinepmobilebrowserrightboxheadertext {
 height: fit-content;
@@ -41,7 +44,7 @@ padding: 10px;
 
 .onlinepmobilebrowseraftermappingdata:hover {
 transform: scale(1.02);
-background-color: #cdfcf6;
+background-color: #F9EDF9;
 }
 
 .onlinepmobilebrowseraftermappingxtt {

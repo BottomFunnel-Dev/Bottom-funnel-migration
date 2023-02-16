@@ -24,10 +24,24 @@
 }
 
 .beautyleft {
-  width: 40%;
+  /* border: 1px solid red; */
+  width: 50%;
   margin-left: 7%;
-  margin-top: 15%;
+  margin-top: 20%;
   text-align: left;
+}
+
+.beautyleft > h1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.beautyleft > p {
+  /* border: 1px solid red; */
+  font-size: 19px;
+  font-weight: 400;
 }
 
 .beautyleft > button {

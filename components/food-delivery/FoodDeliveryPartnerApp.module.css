@@ -1,102 +1,82 @@
-.foodDeliveryPartnerAppMain {
+.cannabiesadminpannelmainboxes {
+  height: fit-content;
+}
+
+.cannbiesadminpannelmainboxsometextupper {
+  height: fit-content;
+  margin-top: 10%;
+  margin-left: 4%;
+}
+
+.cannabiesadminpannelmainflexboxclass {
+  height: fit-content;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 550px;
-  margin-bottom: 3%;
 }
 
-.foodDeliveryPartnerAppImages {
-  width: 50%;
-  height: 100%;
-  position: relative;
-}
-
-.foodDeliveryPartnerAppImages > div {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  object-fit: contain;
-  /* border: 1px solid red; */
-}
-
-.foodDeliveryPartnerAppImages > div > img {
-  position: absolute;
-  height: 100%;
-}
-
-.foodDeliveryPartnerAppImages > div:nth-child(1) > img {
-  left: 0;
-  bottom: 8%;
-  z-index: 1;
-  width: 100%;
-  height: 200px;
-  /* border: 1px solid red; */
-}
-.foodDeliveryPartnerAppImages > div:nth-child(2) > img {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* border: 1px solid green; */
-  object-fit: contain;
-  z-index: 4;
-  bottom: 0;
-  height: 100%;
-}
-
-.foodDeliveryPartnerAppContent {
-  width: 45%;
-  text-align: center;
-  padding: 20px;
-}
-
-.foodDeliveryPartnerAppContent > h2 {
-  color: #ef4c23;
-  margin-bottom: 35px;
-}
-
-.foodDeliveryPartnerAppContent > div {
+.cannabieasadminpannelleftbox {
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  width: 55%;
+  margin-left: 3%;
 }
 
-.foodDeliveryPartnerAppContent > div:hover{
-  cursor: pointer;
-}
-
-.foodDeliveryPartnerAppContent > div > div {
-  width: 45%;
-  height: 170px;
+.cannabiesadminpannelmapperboxindivisyal {
+  height: 220px;
+  width: 44%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  text-align: justify;
   padding: 10px;
-  font-size: 16px;
-  background-color: white;
-  margin: auto;
-  margin-bottom: 20px;
-  cursor: default;
-
-  border-radius: 15px;
-
-  border: 2px solid rgb(225, 249, 246);
-  box-shadow: rgba(136, 249, 234, 0.5) 0px 3px 8px;
-  margin-top: 10px;
+  border-radius: 10px;
 }
 
-.foodDeliveryPartnerAppContent > div > div:hover {
-  cursor: pointer;
-  margin-top: 0;
-  transition: all .3s linear;
+.cannabiesadminpannelmapperboxindivisyal:hover {
+  transform: scale(1.02);
+  background-color: #e1f9f6;
 }
 
-.foodDeliveryPartnerAppContent > div > div > h4,
-.foodDeliveryPartnerAppContent > div > div > p {
+.cannabiesamadminpannelrightbox {
+  /* border: 1px solid red; */
+  width: 45%;
+  height: 460px;
+  /* margin-left: 1%; */
+  /* background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png"); */
+}
+
+.cannbiesamadminpannelrightboxinnerimage {
+  /* border: 1px solid green; */
+  height: 460px;
+  width: 90%;
+  margin: 2% 3% 3% 5%;
+  object-fit: cover;
+}
+
+.cannabieasadminpannelmapperboxindivisyalicon {
+  height: 30%;
+  width: 15%;
+}
+
+.cannabieasadminpannelmapperboxindivisyalicon > Image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+}
+
+.canabisadminpannelmapperboxindivisyaltxt > h4 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 21.6px;
+  vertical-align: baseline;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.canabisadminpannelmapperboxindivisyaltxt > p {
+  margin-top: 3%;
   font-size: 16px;
-  text-align: left;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 400;
 }

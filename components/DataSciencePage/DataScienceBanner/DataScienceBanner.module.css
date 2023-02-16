@@ -77,11 +77,11 @@
 
 /* for any type of mobile screen responsive */
 
-@media only screen and (min-width:0px) and (max-width:480px){
+@media only screen and (min-width:0px) and (max-width:1024px){
 
   .DataScienceBannerMain {
-    height: 40vh;
-    padding-left: 5%;
+    height:60vh;
+    padding-left: 0%;
   background: url("/Images/DataSciencePhotos/banner.webp");
     background-size: 100% 100%;
     background-position: center;
@@ -90,6 +90,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
   .DataScienceBannerMain > h1 {
@@ -98,6 +100,7 @@
     margin-bottom: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
+
   
     color: whitesmoke;
   }
@@ -117,7 +120,7 @@
   }
   
   .DataScienceBannerMain > button {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     height: fit-content;
     width: fit-content;
@@ -132,7 +135,7 @@
     cursor: pointer;
   
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 25%;
+    /* margin-left: 25%; */
     margin-top: 5%;
   }
   
@@ -167,92 +170,4 @@
 
 }
 
-@media only screen and ( min-width:481px) and (max-width:900px){
 
-  .DataScienceBannerMain {
-  height: 50vh;
-  padding-left: 5%;
-
-  background: url("/Images/DataSciencePhotos/banner.webp");
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.DataScienceBannerMain > h1 {
-  font-size: 40px;
-  width: 65%;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-
-  color: whitesmoke;
-}
-
-.DataScienceBannerMain > h1 > span {
-  color: #ef4c23;
-}
-
-.DataScienceBannerMain > p {
-  font-size: 20px;
-  width: 70%;
-  margin-bottom: 1%;
-  margin-top: 1%;
-
-  color: whitesmoke;
-}
-
-.DataScienceBannerMain > button {
-  font-size: 20px;
-  font-weight: 600;
-  height: fit-content;
-  width: fit-content;
-  margin-top: 1%;
-
-  background-color: white;
-  color: #ed0926;
-  padding: 10px 50px;
-  border-radius: 10px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.DataScienceBannerMain > button:hover {
-  color: white;
-  background-color: #ed0926;
-}
-
-.DataScienceBannerHrLine {
-  width: 60%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.DataScienceBannerHrLine > div {
-  border: 2px solid #fff;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-}
-
-.DataScienceBannerHrLine > span {
-  width: 46%;
-  height: 2px;
-  background-color: #fff;
-  color: #fff;
-}
-
-
-
-}

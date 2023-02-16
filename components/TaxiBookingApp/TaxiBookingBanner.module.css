@@ -2,8 +2,7 @@
 
 .taxibookingbannermainboxes {
   height: 100vh;
-  border: 1px solid white;
-  /* background: url("/Images/Taxibooking/Bannersbackgrounds/Taxi booking app.png"); */
+  border: 1px solid transparent;
   background-repeat: no-repeat;
   background-size: 55% 100%;
   background-position-x: right;
@@ -14,13 +13,13 @@
 .taxibookingappboxfortext {
   height: fit-content;
   width: 45%;
-  margin-top: 17%;
+  margin-top: 17% !important;
   margin-left: 5%;
 }
 
 .taxibookingappboxfortext > h1 {
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 700 !important;
+  font-size: 40px !important;
 }
 
 .taxibookingappboxfortext > p {
@@ -54,7 +53,7 @@
 .taxiBookingBannerAnimationDiv {
   /* border: 1px solid red; */
   position: absolute;
-  top: 15%;
+  top: 14%;
   right: 0%;
   left: 55%;
 }

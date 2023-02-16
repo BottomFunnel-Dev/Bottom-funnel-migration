@@ -20,9 +20,9 @@ export const OnlinePaymentAdminPannel = () => {
         <div className={styles.onlinepaymentadminpannelmainbox}>
             <div className={styles.onlinepaymentadminpannelleftbox}>
                 <div className={styles.onlinepaymentadminpanneltxtbox}>
-                    <h1>
+                    <h2>
                         <span className={styles.specialcolor}>Admin</span> Pannel Features
-                    </h1>
+                    </h2>
                 </div>
                 
                 <div className={styles.onlinepaymentadminmappingdata}>{onlinepaymentadminpanneldata.map((e) => {
@@ -33,7 +33,7 @@ export const OnlinePaymentAdminPannel = () => {
                             </svg>
 
                             <div className={styles.onlinepaymentadminpannelmappertxtallign}>
-                                <h4> {e.xtt} </h4>
+                                <h5> {e.xtt} </h5>
                             </div>
                         </div>
                     )

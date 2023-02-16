@@ -16,6 +16,7 @@
 .fintechexclusiveleftboxfortext {
   width: 25%;
   border-right: 2px solid #ef4c23;
+  margin-left: 4%;
 }
 
 .specialtextcolored {
@@ -24,7 +25,7 @@
 }
 
 .fintechexclusiverightboxfortext {
-  margin-left: 1%;
+  margin-left: 3%;
 }
 
 .flexingboxoffintechexclusive {
@@ -42,6 +43,7 @@
   margin: 1%;
   padding: 10px;
   text-align: justify;
+  border-radius: 10px;
 }
 
 .fintechsolutionsflexingboxaftermapping:hover {

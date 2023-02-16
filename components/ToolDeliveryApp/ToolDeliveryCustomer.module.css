@@ -19,17 +19,8 @@
   display: flex;
 }
 
-.tooladminleft {
-  width: 50%;
-  height: 500px;
-  display: flex;
-  background: url("/public/Images/tooldeliveryapp/Rectangle\ 4175.webp");
-  background-repeat: no-repeat;
-  background-size: 100% 500px;
-}
-
 .tooladminright {
-  width: 50%;
+  width: 100%;
   margin-left: 1%;
   height: fit-content;
   display: flex;
@@ -40,7 +31,7 @@
 .tooladminright > div {
   padding: 10px;
   margin: 1%;
-  height: fit-content;
+  height: 240;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -64,6 +55,10 @@
 
 .toolcustomerpannelleft{
   width: 50%;
+  margin-top: -30px;
+  background: url("/Images/tooldeliveryapp/Component19.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .toolCustomerImage {

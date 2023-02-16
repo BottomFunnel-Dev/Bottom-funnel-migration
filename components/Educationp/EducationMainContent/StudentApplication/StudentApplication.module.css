@@ -1,0 +1,97 @@
+.studentApplicationContainer {
+    height: fit-content;
+    margin: 3% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.studentApplicationContent {
+    width: 60%;
+    height: fit-content;
+}
+
+.studentApplicationContent>h1 {
+    font-size: 28px;
+    margin-bottom: 3%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.studentApplicationContent>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.studentApplicationCards {
+    width: 45%;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: transform 200ms linear;
+}
+
+.studentApplicationCards:hover {
+    background-color: #f3d5cd;
+    transform: translateY(-5%);
+}
+
+.studentApplicationCards>div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5%;
+}
+
+.studentApplicationCards>div>span {
+    height: 30px;
+    width: fit-content;
+}
+
+.studentApplicationCards>div>h2 {
+    font-size: 20px;
+}
+
+.studentApplicationCards>p {
+    font-size: 16px;
+}
+
+.studentApplicationImages {
+    height: 450px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.studentApplicationImages>span:nth-child(1) {
+    width: 85%;
+    aspect-ratio: 1/1;
+    z-index: 1;
+    right: 0;
+    position: absolute;
+}
+
+.studentApplicationImages>span:nth-child(2) {
+    height: 95%;
+    width: fit-content;
+    z-index: 2;
+    right: 20%;
+    position: absolute;
+}
+
+.studentApplicationImages>span:nth-child(3) {
+    width: 50%;
+    height: fit-content;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    position: absolute;
+}
