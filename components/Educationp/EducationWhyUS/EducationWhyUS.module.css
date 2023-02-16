@@ -1,0 +1,43 @@
+.EducationWhyUSContainer>h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.EducationWhyUSContainer>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5% 0 2%;
+}
+
+.EducationWhyUSCards {
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EducationWhyUSCards>div {
+    width: fit-content;
+    height: 80px;
+    margin: auto;
+    margin-top: -17%;
+    border-radius: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.EducationWhyUSCards>h2 {
+    font-size: 23px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.EducationWhyUSCards>p {
+    font-size: 16px;
+    text-align: justify;
+}
