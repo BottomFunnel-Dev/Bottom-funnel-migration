@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function BigDataServiceBF  () {
 const cardsData = [
 {
-title: "Advnaceed Analytics & Insights",
+title: "Advanced Analytics & Insights",
 body: "Our team has helped companies across a wide spectrum of industries to understand their data in new ways, helping them to make informed decisions that improve their business processes.",
 image: "/Images/BigDataServicePhotos/stairs.webp",
 },

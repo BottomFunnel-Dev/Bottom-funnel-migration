@@ -3,7 +3,7 @@ import styles from "./LaundryAdmin.module.css";
 import Image from "next/image";
 
 const LaundryAdmin = () => {
-    const [imageChange, setImageChange] = useState("/Images/Laundrypage/Adminpanelscreens/Admininterface.png")
+    const [imageChange, setImageChange] = useState("/Images/Laundrypage/switchscreens/Admin interface.webp")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
     }
@@ -12,28 +12,28 @@ const LaundryAdmin = () => {
         {
             img: "/Images/Laundrypage/icons/dashboard1.png",
             Htxt: "Easy to use Super Admin Interface",
-            stxt: "An on-demand laundry app is exactly what it sounds like, an internet request on demand delivery of their laundry. ",
+            stxt: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your laundry business. ",
             tablet: "/Images/Laundrypage/switchscreens/Admin interface.webp"
         },
 
         {
             img: "/Images/Laundrypage/icons/group.png",
             Htxt: "Manage multiple users",
-            stxt: " the app, labeling clothes with barcodes, processing garments in the factory, laundry PoS, to delivery at customers’ doorsteps.",
+            stxt: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
             tablet: "/Images/Laundrypage/switchscreens/Multiple users.webp"
         },
 
         {
             img: "/Images/Laundrypage/icons/sales.png",
             Htxt: "Generate earnings & Sales Report",
-            stxt: " the global laundry care market is expected to register 5% CAGR in terms of value between 2021 and 2031.",
+            stxt: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
             tablet: "/Images/Laundrypage/switchscreens/Earnings & sales report.webp"
         },
 
         {
             img: "/Images/Laundrypage/icons/tag.png",
             Htxt: "Manage Discount Coupons and Pomos",
-            stxt: "Coupons can drive customers to business,existing customer engagement, and generate new revenue.",
+            stxt: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward.",
             tablet: "/Images/Laundrypage/switchscreens/Discounts & promos.webp"
         }
 
@@ -61,7 +61,7 @@ const LaundryAdmin = () => {
                                             width={"0"}
                                             height={"0"}
                                             sizes={"100vw"}
-                                            style={{ width: "10%", height: "20%" }}
+                                            style={{ width: "15%", height: "25%" }}
                                         />
                                     </div>
 

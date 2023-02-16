@@ -205,12 +205,6 @@
 
 /* Media query for the Mobile Device */
 
-@media (max-width:480px) {
-.portfolioSection{
-  display: none;
-}
-
-
 
 
  
@@ -219,4 +213,3 @@
 
 
 
-}

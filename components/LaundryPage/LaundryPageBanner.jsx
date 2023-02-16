@@ -46,7 +46,7 @@ const LaundryPageBanner = () => {
           <button onClick={handleOpen} className={styles.laundrypagebannerbutton}>
             Get Started
           </button>
-          
+
           <Modal
             open={open}
             onClose={handleClose}

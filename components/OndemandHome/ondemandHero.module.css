@@ -21,6 +21,12 @@
   left: 60%;
 }
 
+.textcontainer > div > h1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  font-size: 35px;
+}
+
 .textcontainer > div > button {
   padding: 10px 60px;
   border-radius: 25px;
@@ -31,26 +37,23 @@
   font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
- 
+
 .textcontainer > div > button:hover {
   color: #ef4c23;
   background-color: white;
 }
 
 .imageContainer {
-  width: 70%;
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  top: 3%;
   /* height: 95%; */
   background-repeat: no-repeat;
 }
 
-.imageContainer > img {
-  margin-left: 30px;
-  width: 95%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .onDemandHomeServiceAnimation {
   /* border: 1px solid red; */
-  width: 70%;
+  width: 100%;
 }

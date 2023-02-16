@@ -12,7 +12,7 @@ export const Resource = ({
       onMouseEnter={()=>{resHoverIn("resource")}}
       onMouseLeave={()=>{resHoverOut("")}}
       className={resCSS.resourceVisible}
-      style={{ top: scroll? "68px" : "98px" }}
+      style={{ top: scroll? "68px" : "80px" }}
     >
 
       <div id={resCSS.ondemandsol} className={resCSS.indindustryContent}>

@@ -49,24 +49,18 @@
 }
 
 .foodDeliveryBannerImage {
-  position: absolute;
   /* border: 1px solid red; */
-  width: 60%;
+  position: absolute;
+  width: 43%;
   right: 0%;
-  top: 15%;
+  top: 12%;
   text-align: right;
 }
 
-.foodDeliveryBannerImage > img {
-  /* border: 1px solid red; */
-  height: 620px;
-  width: 90%;
-  object-fit: contain;
-}
-
 .foodDeliveryBannerAnimation {
-  /* border: 1px solid red; */
-  width: 70%;
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-left: 15%;
 }
 
 /* @media (min-width: 481px) and (max-width: 1024px) {
