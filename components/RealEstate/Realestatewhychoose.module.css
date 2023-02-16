@@ -1,7 +1,8 @@
 .realestatewhychoosemainboxes{
     height: fit-content;
     background-color: white;
-
+    margin-bottom: 5%;
+    
 }
 
 .realestatewhychoosebottomtextbox{
@@ -28,9 +29,19 @@ margin-top: 3%;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;
     text-align: justify;
+    border-radius: 10px;
+
 }
 
-.realestatewhychooseindivisuallybox >h3{
+.realestatewhychooseindivisuallybox:hover{
+    transform: scale(1.02);
+    background-color: #f4edcb;
+}
+
+
+
+
+.realestatewhychooseindivisuallybox >h4{
     text-align: center;
 }
 
@@ -44,3 +55,4 @@ margin-top: 3%;
 .whychooserealestateicon >img{
   padding: 10px;
 }
+

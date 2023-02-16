@@ -1,7 +1,7 @@
 .meatdeliverycustomerappmainboxes {
-  height: fit-content;
-  padding-top: 50px;
-  background-color: white;
+  height: 100vh;
+   background-color: white;
+ 
 }
 
 .meatdeliverycustomerapptextbox {
@@ -10,6 +10,7 @@
   text-align: center;
   font-weight: 600;
   font-size: 20px;
+ margin-bottom: 3%;
 }
 
 .customerapponlyformeatdeliveryapp {
@@ -27,9 +28,9 @@
 }
 
 .meatdeliverycustomerappmobilebox {
-  height: 90%;
+  height: 100%;
   width: 40%;
-  margin: 0% 0% 0% 30%;
+  margin: 5% 0% 0% 30%;
 }
 
 .meatdeliverycustomerappmobilebox > img {
@@ -56,16 +57,20 @@
   display: flex;
   flex-wrap: wrap;
   height: 80%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .meatdeliverymappingboxes {
-  height: 180px;
-  width: 42%;
+  height: 250px;
+  width: 44%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
   padding: 15px;
   border-radius: 10px;
+}
+
+.meatdeliverymappingboxes p{
+  text-align: justify;
 }
 
 .meatdeliverymappingboxes > h3 {
@@ -76,7 +81,7 @@
 
 .meatdeliverymappingboxes:hover {
   transform: scale(1.02);
-  background-color: #f6deb8;
+  background-color: #FFEBE7;
 }
 
 .specialcolor {

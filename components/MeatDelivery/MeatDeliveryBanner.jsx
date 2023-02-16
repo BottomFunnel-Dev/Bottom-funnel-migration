@@ -35,8 +35,7 @@ export const MeatDeliveryBanner = () => {
         <h1> Meat Delivery Application Solutions </h1>
         <p>
           {" "}
-          Spice up the competition in the industry with your own Meat Delivery
-          App!{" "}
+          Bottom Funnel is surely one of the best ways to find quick and simple solutions for IT support. We provide you with a wide range of services, so you can always be sure that your system is being looked after. What's more, our experts are available 24 hours a day, 7 days a week - so there's no need to worry about any issues arising at odd times.{" "}
         </p>
 
         <button onClick={handleOpen} className={styles.meatdeliverybanner}> Get Started </button>
