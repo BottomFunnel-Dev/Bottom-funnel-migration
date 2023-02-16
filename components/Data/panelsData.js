@@ -339,11 +339,11 @@ export const carpoolCustomer = {
   customerdata: [
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Quick bookings.png",
+        src: "/Images/carpoolingpage/customerapp/Quick bookings.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: " Register logo",
       },
       title: "Flexible & Quick Bookings",
@@ -351,11 +351,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Fare estimate.png",
+        src: "/Images/carpoolingpage/customerapp/Fare estimate.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Schedule logo",
       },
       title: "Fare Estimates",
@@ -363,11 +363,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Pool options.png",
+        src: "/Images/carpoolingpage/customerapp/Pool options.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Pool Options",
@@ -375,11 +375,11 @@ export const carpoolCustomer = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/customerapp/Time tracking.png",
+        src: "/Images/carpoolingpage/customerapp/Time tracking.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Track Order logo",
       },
       title: "Real-Time Tracking",
@@ -388,18 +388,18 @@ export const carpoolCustomer = {
   ],
 
   sectionTitle: "Customer App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.png",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle2.webp",
 };
 
 export const carpoolDrive = {
   driverdata: [
     {
       img: {
-        src: "/Images/carpoolingpage/driverapp/real time requests.png",
+        src: "/Images/carpoolingpage/driverapp/real time requests.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: " Register logo",
       },
       title: "Real-time Requests",
@@ -407,11 +407,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/driverapp/Trip details.png",
+        src: "/Images/carpoolingpage/driverapp/Trip details.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Schedule logo",
       },
       title: "Trip Detail",
@@ -419,11 +419,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/driverapp/Rating & review.png",
+        src: "/Images/carpoolingpage/driverapp/Rating & review.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Rating & Review",
@@ -431,11 +431,11 @@ export const carpoolDrive = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/driverapp/Wallet details.png",
+        src: "/Images/carpoolingpage/driverapp/Wallet details.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Track Order logo",
       },
       title: "Wallet Details",
@@ -444,18 +444,18 @@ export const carpoolDrive = {
   ],
 
   sectionTitle: "Driver App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/group9.png",
+  background: "/Images/carpoolingpage/bannersbackgrounds/group9.webp",
 };
 
 export const carpoolAdmin = {
   admindata: [
     {
       img: {
-        src: "/Images/carpoolingpage/adminpanel/Dashboard.png",
+        src: "/Images/carpoolingpage/adminpanel/Dashboard.webp",
         alt: "Register image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: " Register logo",
       },
       title: "Dashboard",
@@ -463,11 +463,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/adminpanel/Reports & analytics.png",
+        src: "/Images/carpoolingpage/adminpanel/Reports & analytics.webp",
         alt: "Schedule",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Schedule logo",
       },
       title: "Reports and Analytics",
@@ -475,11 +475,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/adminpanel/Promos & reffrels.png",
+        src: "/Images/carpoolingpage/adminpanel/Promos & reffrels.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Multiple Payment Option logo",
       },
       title: "Manage Promos & Referals",
@@ -487,11 +487,11 @@ export const carpoolAdmin = {
     },
     {
       img: {
-        src: "/Images/carpoolingpage/adminpanel/Driver management.png",
+        src: "/Images/carpoolingpage/adminpanel/Driver management.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/carpoolingpage/icons/checkmark.png",
+        src: "/Images/carpoolingpage/icons/checkmark.webp",
         alt: "Track Order logo",
       },
       title: "Driver Management",
@@ -500,7 +500,7 @@ export const carpoolAdmin = {
   ],
 
   sectionTitle: "Admin App",
-  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.png",
+  background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.webp",
 };
 
 export const bettingCustomer = {

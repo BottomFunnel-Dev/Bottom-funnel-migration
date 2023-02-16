@@ -42,6 +42,7 @@ export const MarketplaceBanner = () => {
           sites? Let's build an online marketplace where people are looking for
           your type of work!{" "}
         </p>
+        
         <button className={styles.marketplacebutton} onClick={handleOpen}>
           Get Started
         </button>

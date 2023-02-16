@@ -1,7 +1,7 @@
 .carpoolingRide {
 width: 100%;
 height: 400px;
-background: url("/Images/carpoolingpage/bannersbackgrounds/rideback.png");
+background: url("/Images/carpoolingpage/bannersbackgrounds/rideback.webp");
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;
@@ -38,7 +38,7 @@ background-color: white;
 .carpoolingRide {
 width: 100%;
 height: 130px;
-background: url("/Images/carpoolingpage/bannersbackgrounds/MobileImageComp.png");
+background: url("/Images/carpoolingpage/bannersbackgrounds/MobileImageComp.webp");
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;
@@ -86,7 +86,7 @@ background-color: white;
 
 width: 100%;
 height: 200px;
-background: url("/Images/carpoolingpage/bannersbackgrounds/MobileImageComp.png");
+background: url("/Images/carpoolingpage/bannersbackgrounds/MobileImageComp.webp");
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;

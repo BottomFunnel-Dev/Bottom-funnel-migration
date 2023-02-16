@@ -750,49 +750,49 @@ export const logisticsLogo = {
 export const carpoolingLogo = {
   logo: [
     {
-      partnerImage: "/Images/seopages/carpooling/frame31.png",
+      partnerImage: "/Images/seopages/carpooling/frame31.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame32.png",
+      partnerImage: "/Images/seopages/carpooling/frame32.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame33.png",
+      partnerImage: "/Images/seopages/carpooling/frame33.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame34.png",
+      partnerImage: "/Images/seopages/carpooling/frame34.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame35.png",
+      partnerImage: "/Images/seopages/carpooling/frame35.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame36.png",
+      partnerImage: "/Images/seopages/carpooling/frame36.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame37.png",
+      partnerImage: "/Images/seopages/carpooling/frame37.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame38.png",
+      partnerImage: "/Images/seopages/carpooling/frame38.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame39.png",
+      partnerImage: "/Images/seopages/carpooling/frame39.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame40.png",
+      partnerImage: "/Images/seopages/carpooling/frame40.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame41.png",
+      partnerImage: "/Images/seopages/carpooling/frame41.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame42.png",
+      partnerImage: "/Images/seopages/carpooling/frame42.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame43.png",
+      partnerImage: "/Images/seopages/carpooling/frame43.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame44.png",
+      partnerImage: "/Images/seopages/carpooling/frame44.webp",
     },
     {
-      partnerImage: "/Images/seopages/carpooling/frame45.png",
+      partnerImage: "/Images/seopages/carpooling/frame45.webp",
     },
   ],
 

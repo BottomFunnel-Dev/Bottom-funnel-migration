@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./Pharmacycustomer.module.css";
+import Image from 'next/image';
 
 export default function Pharmacycustomer() {
 
@@ -89,7 +89,6 @@ export default function Pharmacycustomer() {
     },
   ];
 
-
   const [active, setActive] = useState(0);
 
   return (
@@ -131,7 +130,6 @@ export default function Pharmacycustomer() {
         </div>
 
         <div className={styles.pharmacycustomerleft}>
-
           <div className={styles.pharmacyCustomerImage}>
             <Image src={pharmacycustomerdata[active].img.src}
               alt={pharmacycustomerdata[active].img.alt}
@@ -144,6 +142,5 @@ export default function Pharmacycustomer() {
         </div>
       </div>
     </div>
-
-  )
-}
+  );
+};

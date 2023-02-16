@@ -48,7 +48,7 @@ export const MLwhyBF = () => {
         />
       </div>
       <div className={styles.MLwhyBFMain}>
-        <h1>Bottom Funnel Big Data Services</h1>
+        <h1>Bottom Funnel Machine-Learning Services</h1>
         <div className={styles.MLPopularHrLine}>
           <span></span>
           <div></div>

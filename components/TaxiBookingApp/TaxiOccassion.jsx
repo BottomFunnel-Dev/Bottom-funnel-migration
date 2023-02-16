@@ -27,7 +27,7 @@ export const TaxiOccassion = () => {
               <p>
                 we work closely with many taxi companies to find the most
                 affordable rates around. Being in a hurry, or just plain lazy,
-                can put you off booking car rides online.
+                can put you off booking car rides online with smooth and easy process.
               </p>
               <div className={styles.sztaxiride}>
                 <div>

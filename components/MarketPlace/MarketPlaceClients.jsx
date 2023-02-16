@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from "./MarketPlaceClient.module.css";
 
@@ -6,7 +7,6 @@ const MarketPlaceClients = () => {
     const [imageChange, setImageChange] = useState("/Images/Marketplaceapp/Clientsappscreen/detailsofposts.webp");
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
-
     }
 
     const marketplaceclientdata = [
@@ -44,10 +44,10 @@ const MarketPlaceClients = () => {
 
                 <div className={styles.clientmarketplaceflexleft}>
                     <div className={styles.clientmarketplaceflexlefttxtbox}>
-                        <h2>Client's Website & Site</h2>
+                        <h2> Client's Website & Site </h2>
                         <p>
-                            The client has a wonderful site that is beautifully designed and clear to navigate. You can see how much care was put
-                            into the creating of their website, as well as their services.
+                            The client has a wonderful site that is beautifully designed and clear to navigate. You can see how much
+                            care was put into the creating of their website, as well as their services.
                         </p>
                     </div>
 
@@ -63,7 +63,13 @@ const MarketPlaceClients = () => {
 
                                     >
                                         <div className={styles.marketplaceclientsflexboxingforimagecontain}>
-                                            <img className={styles.marketplaceadminlogo} src={el.img} alt="image" />
+                                            <Image className={styles.marketplaceadminlogo}
+                                                src={el.img} alt={"image"}
+                                                width={"0"}
+                                                height={"0"}
+                                                sizes={"100vw"}
+                                                style={{ width: "100%", height: "100%" }}
+                                            />
                                         </div>
 
                                         <div className={styles.marketplaceclientflexboxingfortxtcontain}>
