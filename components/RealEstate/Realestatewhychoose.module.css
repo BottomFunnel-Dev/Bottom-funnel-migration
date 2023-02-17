@@ -3,6 +3,7 @@
     background-color: white;
     margin-bottom: 5%;
     
+    
 }
 
 .realestatewhychoosebottomtextbox{
@@ -10,6 +11,7 @@ height: fit-content;
 width: 50%;
 margin: auto;
 text-align: center;
+
 }
 
 .realestatewhychoosemapperbox{
@@ -29,6 +31,7 @@ margin-top: 3%;
     padding: 10px;
     text-align: justify;
     border-radius: 10px;
+  
 }
 
 .realestatewhychooseindivisuallybox:hover{
@@ -55,7 +58,8 @@ margin-top: 3%;
 }
 
 /* for any type of mobile screen responsive */
-
+@media only screen and (min-width:0px) and (max-width:600px){
+ 
 .realestatewhychoosemainboxes{
     height: fit-content;
     background-color: white;
@@ -115,4 +119,6 @@ margin-top: 3%;
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
 }

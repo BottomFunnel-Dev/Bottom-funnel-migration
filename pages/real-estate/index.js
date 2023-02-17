@@ -32,7 +32,7 @@ export default function RealEstate() {
         <RealEstateAdminPannel />
         <RealEstateDriver />
         <Realestatelowerbanner />
-        <Realestatewhychoose />
+      <Realestatewhychoose />
       </main>
     </div>
   );

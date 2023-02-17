@@ -1,6 +1,5 @@
 .realestatecustomerboxmain{
     height: fit-content;
-
     display: flex;
     background-color: white;
 }
@@ -25,9 +24,15 @@
    
 }
 
+.realestatecustomericonind{
+    height: 20%;
+    width: 15%;
+ 
+}
+
 .realstatemapperindivisuallybox{
     width: 48%;
-   height: 220px;
+   height: 250px;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     border-radius: 10px;
