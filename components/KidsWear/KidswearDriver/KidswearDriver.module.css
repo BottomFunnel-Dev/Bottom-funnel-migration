@@ -33,7 +33,8 @@ margin: 1%;
 }
 
 .kidswearcustomerdatamapping>div:hover{
-    transform: scale(1.02);
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
     background-color: #FFF1ED;
 }
 
