@@ -43,7 +43,7 @@
 }
 .ScrollerContentScrollerDiv{
     width: 95%;
-    height: 80vh;
+    height: 70vh;
     margin: auto;
     /* border: 2px solid red; */
     background-color: white;
@@ -79,7 +79,7 @@
     /* height: 10vh; */
     /* border: 2px solid red; */
     text-align: center;
-    margin-top: -5%;
+    /* margin-top: -5%; */
 }
   
 .ScrollerContentIcon h1{

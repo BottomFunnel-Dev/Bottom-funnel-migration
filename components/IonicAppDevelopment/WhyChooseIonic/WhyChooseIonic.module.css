@@ -1,12 +1,17 @@
 .whyChooseIonicMainDiv {
 width: 100%;
 display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
+
+/* border: 2px solid green; */
 }
 .whyChooseIonicContentText {
 width: 60%;
 margin-left: 5%;
+margin-right: 5%;
 margin-top: 8%;
+/* border: 2px solid; */
+align-self: flex-start;
 }
 .whyChooseIonicContentImage {
 width: 32%;

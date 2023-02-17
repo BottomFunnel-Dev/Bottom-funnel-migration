@@ -98,6 +98,7 @@ export const IonicDevelopmentExpertise = () => {
               Essentially, ionic app development enables native mobile components to have an alluring design and smooth animations. Naturally, the app has a native style that enables UI layouts and elements to work. As a top-notch Ionic app development company, MindInventory provides below mentioned app development services to clients across the globe.
             </p>
           </p>
+          <button className={styles.IonicCrossPlatformbtns}>Hire Ionic Developer</button>
         </div>
       </div>
     </>

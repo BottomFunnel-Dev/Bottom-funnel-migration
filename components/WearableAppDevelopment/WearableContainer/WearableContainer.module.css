@@ -1,9 +1,11 @@
 .wearablecompanydiv {
   /* border: 2px solid blue; */
-  width: 75%;
-  margin-left: 4%;
-  margin-top: 5%;
-  text-align: left;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  /* margin-left: 4%; */
+  /* margin-top: 5%; */
+  /* text-align: left; */
 }
 
 .wearablecompanydiv h1 {
@@ -14,23 +16,32 @@
 .wearablecompanydiv p {
   /* font-size: 16px; */
   margin-top: 1%;
-  /* text-align: ; */
+  text-align: justify;
 }
 .wearablegenerationdiv {
   /* border: 2px solid green; */
   width: 90%;
-  margin-left: 4%;
+  margin: auto;
+  /* margin-left: 4%; */
   margin-top: 4%;
-  text-align: left;
+  /* text-align: left; */
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 .wearablegenerationdiv h1 {
   font-size: 40px;
+  /* border: 2px solid green; */
+  margin-top: 5%;
 }
 .wearablegenerationdiv p {
   font-size: 15px;
-  margin-top: 1%;
+  /* margin-top: 1%; */
+}
+.wearablegenerationdivnext{
+  /* border: 2px solid yellow; */
+  width: 75%;
+  /* text-align: center; */
 }
 
 .wearableservice {
@@ -102,7 +113,11 @@
   color: #ef4c23;
 }
 .wearablegenerationdivimage{
-  display: block;
+  /* display: block; */
+  border: 2px solid green;
+  width: 300px;
+
+
 }
 
 @media only screen and (min-width:0px) and (max-width:1024px){

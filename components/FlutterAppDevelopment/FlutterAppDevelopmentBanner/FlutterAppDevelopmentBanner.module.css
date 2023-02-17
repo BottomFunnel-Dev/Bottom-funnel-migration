@@ -8,8 +8,8 @@
   
   .flutterAppDevbannermainboxinnertextdiv {
     width: 37%;
-    margin-top: 18%;
-    margin-left: 5%;
+    margin-top: 19%;
+    margin-left: 7%;
     text-align: left;
   }
   
@@ -22,7 +22,7 @@
   }
   .flutterAppDevbannermainboxinnertextdiv > p {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
   }
   
