@@ -3,7 +3,7 @@ import styles from "./GroceryService.module.css";
 import Image from "next/image";
 
 export const GroceryService = () => {
-    const [imageChange, setImageChange] = useState("/Images/icecreamchanges/driver app/Profile.png")
+    const [imageChange, setImageChange] = useState("/Images/grocery/Service professionals app/Track My Order.png")
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath)
     }
@@ -11,24 +11,28 @@ export const GroceryService = () => {
     const groceryservicedata = [
         {
             image: "/Images/grocery/Service professionals app/Track My Order.png",
+            icon: "/Images/grocery/icons/DriverApp/track my orders.png",
             headertext: "Track My Order",
             paragraph: "In Contrast,manual order tracking system rely on human input and are typically seen in smaller or mid-sized business that handle fewer orders each day.At the most basic level,this often involves manually entering each new order into a database so that it can be tracked throughout the fulfilment process.",
         },
 
         {
             image: "/Images/grocery/Service professionals app/Manage My Cart.png",
+            icon: "/Images/grocery/icons/DriverApp/manage cart.png",
             headertext: "Manage My Cart",
             paragraph: "Our users can work on multiple orders simultaneously via cart Management.You may need to leave a draft order until further clarification or documentation is acquired or you may support several different offices with different procurement needs.",
         },
 
         {
             image: "/Images/grocery/Service professionals app/Simplicity In Searching.png",
+            icon: "/Images/grocery/icons/DriverApp/simplicity in searching.png",
             headertext: "Simplicity In Searching",
             paragraph: "An alternative is to ask whether we can search through the dynamics of natural behavior to find explicit evidence that these behaviors are simpler than they might have been.",
         },
 
         {
             image: "/Images/grocery/Service professionals app/Various Filters.png",
+            icon: "/Images/grocery/icons/DriverApp/various filters.png",
             headertext: "Various Filters",
             paragraph: "As online stores grow and get more sophisticated new ways of guiding customers need to be added.A simple product filter might not be enough.In these cases faceted navigation can help.faceted navigation looks kind of like a filter system."
         },
@@ -60,6 +64,17 @@ export const GroceryService = () => {
                                     handleImageChange(e.image)
                                 }}
                             >
+
+                                <div className={styles.groceruyCustomerappindivisualboxforlogo}>
+                                    <Image src={e.icon}
+                                        alt={"image"}
+                                        width={"0"}
+                                        height={"0"}
+                                        sizes={"100vw"}
+                                        style={{ width: "100%", height: "100%" }}
+                                    />
+                                </div>
+
                                 <div className={styles.groceryserviceindivisualboxfortext}>
                                     <h4> {e.headertext} </h4>
                                     <p> {e.paragraph} </p>

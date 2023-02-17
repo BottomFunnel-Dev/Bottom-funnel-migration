@@ -1,7 +1,8 @@
 .groceryservicemainboxes {
   height: fit-content;
-  border: 1px solid white;
+  /* border: 1px solid red; */
   margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .groceryservicemainboxes > h2 {
@@ -43,7 +44,7 @@
 }
 
 .groceryserviceindivisualbox {
-  height: 220px;
+  height: 260px;
   width: 42%;
   margin: 1%;
   padding: 10px;
@@ -62,7 +63,7 @@
   font-weight: 600;
   line-height: 21.6px;
   vertical-align: baseline;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 1%;
 }
 
@@ -72,4 +73,17 @@
   font-weight: 400;
   line-height: 20px;
   vertical-align: baseline;
+}
+
+.groceruyCustomerappindivisualboxforlogo {
+  /* border: 1px solid red; */
+  height: 23%;
+  width: 18%;
+}
+
+.groceruyCustomerappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }
