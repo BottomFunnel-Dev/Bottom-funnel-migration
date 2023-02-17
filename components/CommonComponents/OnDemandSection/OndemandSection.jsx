@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ondemandSection.module.css";
 import { IconContext } from "react-icons/lib";
-import { MdOutlineMobileFriendly } from "react-icons/md";
+// import { MdOutlineMobileFriendly } from "react-icons/md";
 import { BsArrowRight } from "react-icons/bs";
 import Link from "next/link";
 

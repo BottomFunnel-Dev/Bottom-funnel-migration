@@ -18,7 +18,7 @@ export default function EcommerceWhyChooseUs() {
       <div>
         <div>
           {logoData.map((elem) => (
-            <div className={styles.ecommerceWhyChooseUsLogo}>
+            <div key={elem} className={styles.ecommerceWhyChooseUsLogo}>
               <Image
                 src={elem}
                 alt={elem}

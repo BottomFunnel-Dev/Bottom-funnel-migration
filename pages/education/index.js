@@ -1,6 +1,10 @@
 import dynamic from "next/dynamic";
 import React from "react";
 // import { dmpagesLogo } from "../../components/Data/SeopartnerData";
+import {
+  whyChooseUsData,
+  oursuiteData,
+} from "../../components/Educationp/EducationMainContent/Data/educationData";
 
 const EducationLearningSolutions = dynamic(
   () => import("../../components/Educationp/EducationLearningSolutions"),
@@ -38,9 +42,9 @@ export default function Education() {
       {/* <Trust partnerLogo={dmpagesLogo} /> */}
       <EducationMainContent />
       <EducationLearningSolutions />
-      <EducationOurSuite />
+      <EducationOurSuite data={oursuiteData} />
       <EducationMidBanner />
-      <EducationWhyUS />
+      <EducationWhyUS data={whyChooseUsData} />
     </div>
   );
 }

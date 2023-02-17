@@ -1,21 +1,17 @@
 import React, { useState } from "react";
 import styles from "./revamping.module.css";
-import { RiNavigationLine, RiMailSendFill } from "react-icons/ri";
+import { RiMailSendFill } from "react-icons/ri";
 import { IconContext } from "react-icons/lib";
-
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
-
 const Revamping = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
 
   const style = {
     position: "absolute",
@@ -60,18 +56,13 @@ const Revamping = () => {
           aria-describedby="modal-modal-description"
         >
           <Box sx={style}>
-            <Typography
-              id="modal-modal-title"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modal-modal-title" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
             </Typography>
           </Box>
         </Modal>
-
       </div>
     </div>
   );

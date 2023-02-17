@@ -18,7 +18,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
-import Positions from "./Positions";
+const Positions = dynamic(() => import("./Positions"));
 const FooterTable = dynamic(() => import("./FooterTable"), {
   loading: () => "loading...",
 });
@@ -47,7 +47,6 @@ const MainFooter = () => {
 
   const [more, setMore] = useState(false);
 
-
   const moreServices = () => {
     more ? setMore(false) : setMore(true);
   };
@@ -56,9 +55,7 @@ const MainFooter = () => {
     <div className={styles.mainFooterSection}>
       <div className={styles.rightFooter}>
         <div className={styles.mapImageSection}>
-
-          <Positions/>
-         
+          <Positions />
 
           <Player
             src={footerWorldmapAnimate}
