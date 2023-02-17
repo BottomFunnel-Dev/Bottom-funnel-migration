@@ -9,7 +9,7 @@ export default function AppBuilderDiscoverApp() {
     },
 
     {
-      xtt: "Play a radio,publish an image in the social wall,listen to your favorite podcast and more",
+      xtt: "Play a radio,publish an image in the social wall , listen to your favorite podcast and more",
     },
 
     {

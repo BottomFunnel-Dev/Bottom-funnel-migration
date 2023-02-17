@@ -2,7 +2,6 @@
   height: 80vh;
 margin-top: 50px;
   display: flex;
-
 }
 
 .fintechsolutionadminpannelleftbox {
@@ -56,7 +55,8 @@ margin-top: 9%;
 }
 
 .fintechsolutionmappingdataadminpannel:hover {
-  transform: scale(1.02);
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
     background-color: #bed0f1;
 }
 
