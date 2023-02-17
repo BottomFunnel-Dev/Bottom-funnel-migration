@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from './WearableBanner.module.css';
 import Image from 'next/image';
+import * as reactAnimation from "../../../public/Animation/wearable.json";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 export const WearableBanner = () => {
   const [open, setOpen] = useState(false);
@@ -51,14 +53,26 @@ export const WearableBanner = () => {
         </div>
 
         <div className={styles.wearablebannermainboxImage}>
-                <Image
+                {/* <Image
                     src={'/Images/wearable/Component120.webp'}
                     alt={"image"}
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
                     style={{ width: "100%", height: "100%" }}
-                />
+                /> */}
+
+<div className={styles.WearableIcon}>
+       
+       <Player
+         src={reactAnimation}
+         background="transparent"
+         speed="1"
+         loop
+         controls
+         autoplay
+       ></Player>
+     </div>
         </div>
       </div>
     </div>

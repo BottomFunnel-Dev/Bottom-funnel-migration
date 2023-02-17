@@ -4,6 +4,8 @@ import Head from "next/head";
 import AviationAirlines from "../../components/Aviation/AviationAirlines";
 import { Customer } from "../../components/KidsWear/KidsCustomerApp/Customer";
 import { KidswearAdmin } from "../../components/KidsWear/KidswearAdminApp/KidswearAdmin";
+import ChooseUs from "../../components/KidsWear/ChooseUs/ChooseUs";
+import { KidswearDriver } from "../../components/KidsWear/KidswearDriver/KidswearDriver";
 
 const KidsWearBanner = dynamic(
   () => import("../../components/KidsWear/KidsWearBanner/KidsWearBanner"),
@@ -47,6 +49,9 @@ export default function Kidswear() {
        <ExclusiveFeature  />
     <Customer />
     <KidswearAdmin />
+    <KidswearDriver />
+
+   
       </main>
     </div>
   );

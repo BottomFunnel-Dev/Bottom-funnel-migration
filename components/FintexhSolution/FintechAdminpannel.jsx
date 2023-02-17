@@ -68,7 +68,7 @@ export const FintechAdminpannel = () => {
                                  width={"0"}
                                  height={"0"}
                                  sizes={"100vw"}
-                                 style={{ width: "100%", height: "20%" , objectFit:"contain" }}
+                                 style={{ width: "100%", height: "20%" , objectFit:"contain" , marginTop:"-20%" }}
                               />
                            </div>
 
@@ -89,7 +89,7 @@ export const FintechAdminpannel = () => {
                width={"0"}
                height={"0"}
                sizes={"100vw"}
-               style={{ width: "80%", height: "80%" ,objectFit:"contain"}}
+               style={{ width: "80%", height: "80%" ,objectFit:"contain" , marginLeft:"10%"}}
             />
          </div>
       </div>

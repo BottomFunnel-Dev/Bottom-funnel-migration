@@ -26,7 +26,7 @@
 }
 
 .eCommerceCustomerAppCardsMain {
-  width: 66%;
+  width: 55%;
 }
 
 .eCommerceCustomerAppCardsMain>div {
@@ -37,9 +37,8 @@
 .eCommerceCustomerAppCardsMain>div>h2 {
   font-size: 28px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   margin: auto;
-  color: #ef4c23;
   margin-top: 1%;
   margin-bottom: 3%;
 }
@@ -53,13 +52,12 @@
 }
 
 .eCommerceCustomerAppCards {
-  width: 31%;
+  width: 45%;
 }
 
 .eCommerceCustomerAppCardsLogo {
-  height: 50px;
+  height: 30px;
   width: fit-content;
-  margin-left: 10px;
   position: relative;
   z-index: 4;
 }
@@ -69,13 +67,29 @@
 }
 
 .eCommerceCustomerAppCardsContent {
-  background-color: #ffe6df;
   padding: 10px;
-  padding-top: 30px;
-  margin-top: -23px;
   border-radius: 10px;
   z-index: 0;
   height: 90%;
+  cursor: pointer;
+  transition: transform 200ms linear;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.eCommerceCustomerAppCardsContent:hover {
+  background-color: #ffe6df;
+  transform: translateY(-5%);
+}
+
+.eCommerceCustomerAppCardsContent>div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.eCommerceCustomerAppCardsContent>div>h5 {
+  font-size: 18px;
 }
 
 .eCommerceCustomerAppCardsContent>p {
@@ -88,8 +102,8 @@
 
 .eCommerceCustomerImagesMain {
   position: relative;
-  width: 34%;
-  height: 510px;
+  width: 40%;
+  height: 580px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,15 +115,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 18%;
 }
 
 .eCommerceCustomerImagesMain>div:nth-child(1) {
-  height: 100%;
+  height: 40%;
   width: 100%;
   margin-bottom: 10%;
-  align-self: flex-end;
-  background: linear-gradient(to bottom, #fff 70%, #FEA181 30%);
+  bottom: 0;
+  background: linear-gradient(to bottom right, #ef4c23, #fed200);
 }
 
 /* media query for mobile and tablet devices */

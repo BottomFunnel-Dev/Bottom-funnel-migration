@@ -60,7 +60,8 @@
 }
 
 .fintechcustomerappboxesaftermapping:hover {
-  transform: scale(1.02);
+transition: all 0.2s linear;
+transform: translateY(-10px);
   background-color: #bed0f1;
 }
 

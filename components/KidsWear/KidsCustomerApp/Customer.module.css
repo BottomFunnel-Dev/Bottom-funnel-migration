@@ -26,7 +26,7 @@
 .kidswearcustomerdatamapping>div{
     width: 45%;
    max-height: max-content;
- margin: 2%;
+ margin: 1%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;
    border-radius: 10px;
@@ -41,7 +41,7 @@
 .kidswearicon{
     height: 25%;
     width: 25%;
-    padding: 10px;
+    padding: 12px;
 }
 
 .kidswearcustomerapptextdata{

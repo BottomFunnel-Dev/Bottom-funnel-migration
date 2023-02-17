@@ -1,0 +1,62 @@
+.kidswearcustomermainboxes{
+    height: fit-content;
+   margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.kidswearcustomerleftbox{
+    width:55%;
+    height: fit-content;
+    margin-left: 5%;
+}
+
+
+.kidswearcustomerdatamapping{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.kidswearcustomerleftbox h2>span{
+    color: #ef4c23;
+    margin-left: 3%;
+}
+
+.kidswearcustomerdatamapping>div{
+    width: 45%;
+   max-height: max-content;
+margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+   border-radius: 10px;
+}
+
+.kidswearcustomerdatamapping>div:hover{
+    transform: scale(1.02);
+    background-color: #FFF1ED;
+}
+
+
+.kidswearicon{
+    height: 25%;
+    width: 25%;
+    padding: 12px;
+}
+
+.kidswearcustomerapptextdata{
+    margin-top: 2%;
+}
+
+
+.kidswearcustomerrightbox{
+    margin-left: 2%;
+   
+    width: 40%;
+    background: url("/Images/kidswearappservice/ha/Rectangle 4788.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position-y: 250px;
+    background-position-x: right;
+
+}

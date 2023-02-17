@@ -12,16 +12,12 @@
 .eyeweardeliveryadminpannelrightbox {
   height: 85%;
   width: 50%;
-
   position: relative;
-
-background: url("/Images/EyewearDeliveryapp/Adminpanelscreens/Rectangle 4787.webp");
-background-repeat: no-repeat;
-background-size: 100% 50%;
-background-position-y:bottom ;
+  background: url("/Images/EyewearDeliveryapp/Adminpanelscreens/Rectangle 4787.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position-y:bottom ;
 }
-
-
 
 .eyeweardeliveryadmintextboxleftside {
   height: fit-content;
@@ -62,7 +58,8 @@ background-position-y:bottom ;
 }
 
 .eyewearmappingdataboxadminpannel:hover {
-  transform: scale(1.02);
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
   background-color: #ffebef;
 }
 

@@ -41,7 +41,7 @@ export const EyeWearCustomerApp = () => {
     return (
         <div className={styles.eyewearcustomerappmainboxes}>
             <div className={styles.eyewearcustomerappuppertextbox}>
-                <h1> An Overview of Our Eyewear Delivery App </h1>
+                <h2> An Overview of Our Eyewear Delivery App </h2>
                 <p>
                     A Complete scope of carpoling and ridesharing app development solution for coordinating and moving travellers
                     together.

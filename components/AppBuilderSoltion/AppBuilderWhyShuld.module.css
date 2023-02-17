@@ -6,6 +6,8 @@ background-color: white;
 .appbuildersomeheadertxtboxwhyshould {
 height: fit-content;
 text-align: center;
+width: 90%;
+margin: auto;
 }
 .whyshouldappbuildersolmapperbox {
 height: fit-content;
