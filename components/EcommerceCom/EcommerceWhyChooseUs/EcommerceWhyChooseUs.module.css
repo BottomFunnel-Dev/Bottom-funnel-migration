@@ -1,0 +1,39 @@
+.ecommerceWhyChooseUsContaier {
+    margin: 2% 0;
+}
+
+.ecommerceWhyChooseUsContaier>h1 {
+    font-size: 32px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 2%;
+}
+
+.ecommerceWhyChooseUsContaier>div {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.ecommerceWhyChooseUsContaier>div>div:nth-child(2) {
+    height: 100%;
+    width: fit-content;
+    position: absolute;
+    z-index: 1;
+}
+
+.ecommerceWhyChooseUsContaier>div>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    position: absolute;
+    z-index: 2;
+}
+
+.ecommerceWhyChooseUsLogo {
+    height: 80px;
+    width: fit-content;
+}

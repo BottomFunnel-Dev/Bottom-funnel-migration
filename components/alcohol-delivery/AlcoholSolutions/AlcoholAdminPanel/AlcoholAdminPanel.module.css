@@ -30,6 +30,7 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+
 .alcoholAdminleft > div {
   width: 95%;
   height: 80%;
@@ -46,9 +47,10 @@
   gap: 20px;
   justify-content: center;
 }
+
 .alcoholAdminright > div {
   padding: 10px 10px 10px 10px;
-  height: 170px;
+  height: 220px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -56,6 +58,7 @@
   background-color: white;
   cursor: pointer;
 }
+
 .alcoholAdminright > div:hover {
   background-color: #9a4c72;
   color: white;
@@ -66,9 +69,14 @@
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 .alcoholAdminright > div > h3 {
   font-size: 18px;
+  font-weight: 600;
+  vertical-align: baseline;
+  margin-top: 3%;
 }
+
 .alcohol-customer-image {
   width: 45%;
   height: 500px;
@@ -76,6 +84,7 @@
   margin: auto;
   margin-top: -10px;
 }
+
 .alcohol-customer-image > img {
   width: 100%;
   height: 100%;

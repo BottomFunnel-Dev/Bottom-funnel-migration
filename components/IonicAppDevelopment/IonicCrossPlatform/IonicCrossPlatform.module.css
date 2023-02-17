@@ -21,15 +21,16 @@ text-align: justify;
 }
 .ionicCrossPlatformContentScroller {
 width: 40%;
-height: 82vh;
+height: 70vh;
 margin-right: 5%;
 object-fit: cover;
 background-size: cover;
 background-color: white;
+/* border: 2px solid green; */
 }
 .ionicCrossPlatformContentScrollerDiv {
 width: 90%;
-height: 75vh;
+height: 65vh;
 margin: auto;
 background-color: white;
 display: flex;
@@ -73,6 +74,27 @@ font-weight: 500;
 .ionicCrossPlatformContentDataText {
 width: 70%;
 margin-left: 16%;
+}
+
+.IonicCrossPlatformbtns{
+    border: 2px solid green;
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    color: #3380f2;
+    font-weight: 600;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;;
+    margin-top: 3%;
+
+}
+
+.IonicCrossPlatformbtns:hover{
+    background: #3380f2;
+    color: white;
+    border: 1px solid #3380f2;
 }
 @media only screen and (min-width:0px) and (max-width:1024px){
 .ionicCrossPlatformMainDiv {

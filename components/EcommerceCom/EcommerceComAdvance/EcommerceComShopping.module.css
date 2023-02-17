@@ -9,54 +9,58 @@
 
 .eCommerceShoppingImagesMain {
   position: relative;
-  width: 34%;
-  height: 500px;
+  width: 40%;
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.eCommerceShoppingImagesMain > div {
+.eCommerceShoppingImagesMain>div {
   position: absolute;
   height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.eCommerceShoppingImagesMain > div:nth-child(1) > img {
-  height: 80%;
-  align-self: flex-end;
+.eCommerceShoppingImagesMain>div:nth-child(1) {
+  height: 40%;
+  width: 100%;
+  bottom: 10%;
+  background: linear-gradient(to Bottom Right, #ef4c23, #fed200);
+
 }
 
-.eCommerceShoppingImagesMain > div:nth-child(2) > img {
+.eCommerceShoppingImagesMain>div:nth-child(2) {
   height: 100%;
+  width: fit-content;
 }
 
 .eCommerceVendorPanelCards {
-  width: 31%;
+  width: 45%;
 }
 
 .eCommerceVendorPanelCardsMain {
-  width: 66%;
+  width: 50%;
 }
 
-.eCommerceVendorPanelCardsMain > div {
-  width: 90%;
+.eCommerceVendorPanelCardsMain>div {
+  width: 100%;
   margin: auto;
 }
 
-.eCommerceVendorPanelCardsMain > div > h2 {
+.eCommerceVendorPanelCardsMain>div>h2 {
   font-size: 28px;
-  text-align: center;
+  text-align: left;
   margin: auto;
   margin-bottom: 2%;
   margin-top: 0;
   font-weight: 500;
-  color: #ef4c23;
 }
 
-.eCommerceVendorPanelCardsMain > div > div {
+.eCommerceVendorPanelCardsMain>div>div {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
@@ -64,34 +68,45 @@
   row-gap: 30px;
 }
 
-.eCommerceVendorPanelCardsLogo > img {
-  height: 100%;
-}
-
 .eCommerceVendorPanelCardsLogo {
-  height: 50px;
+  height: 30px;
+  width: fit-content;
   margin-left: 10px;
   z-index: 4;
 }
 
 .eCommerceVendorPanelCardsContent {
-  background-color: #ffe6df;
-  height: 90%;
   padding: 10px;
-  padding-top: 30px;
-  margin-top: -25px;
   border-radius: 10px;
-
   z-index: 0;
+  cursor: pointer;
+  transition: transform 200ms linear;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.eCommerceVendorPanelCardsContent > p {
+.eCommerceVendorPanelCardsContent:hover {
+  background-color: #ffe6df;
+  transform: translateY(-5%);
+}
+
+.eCommerceVendorPanelCardsContent>div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.eCommerceVendorPanelCardsContent>div>h5 {
+  font-size: 18px;
+}
+
+.eCommerceVendorPanelCardsContent>p {
   font-size: 16px;
 }
 
 /* media query for mobile and tablet devices */
 @media (max-width: 1024px) {
-  .eCommerceVendorPanelMain > h1 {
+  .eCommerceVendorPanelMain>h1 {
     font-size: 20px;
     text-align: center;
   }

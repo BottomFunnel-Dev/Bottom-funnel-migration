@@ -14,18 +14,18 @@
   }
   .ionicIcon{
   /* border: 2px solid yellow; */
-  margin-top: 10%;
-  margin-right: 2%;
-  /* width: 40%; */
+  margin-top: 8%;
+  /* margin-right: 2%; */
+  width: 40%;
   }
   
   .ionicAppBannermainboxinnertextdiv {
     /* height: 50%; */
     width: 40%;
-    margin-top: 16%;
+    margin-top: 13%;
     /* justify-content: end; */
      /* margin-left: -15%;  */
-     margin-left: 3%;
+     margin-left: 6%;
      /* margin: auto; */
     text-align: left;
     color: white;

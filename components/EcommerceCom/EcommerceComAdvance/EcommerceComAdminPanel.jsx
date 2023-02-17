@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComAdminPanel.module.css";
 
-export const EcommerceComAdminPanel = () => {
+export default function EcommerceComAdminPanel() {
   let adminPanelData = {
     backgroundImage: {
       src: "/Images/EcommercePhotos/background-blue.webp",
@@ -15,7 +15,7 @@ export const EcommerceComAdminPanel = () => {
     cardsData: [
       {
         image: {
-          src: "/Images/EcommercePhotos/one.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -24,7 +24,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/two.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "user-friendly interface logo",
         },
         description:
@@ -33,7 +33,7 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/three.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "Order food and track their service logo",
         },
         description:
@@ -42,30 +42,12 @@ export const EcommerceComAdminPanel = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/four.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
           "We specialize in helping businesses with their e-commerce needs by providing a wide range of solutions that will help you track your sales effectively and efficiently. From marketing automation tools to site optimization services.",
         title: "Track Sales",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/five.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "We provide solutions that help brands in growing their business and expanding the market by offering complete visibility in terms of promotions, discounts, and loyalty programs.",
-        title: "Manage Promotions & Rewards",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/six.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "We provides you with a content management system that will enable you to save and organize any information about your online business. With this powerful toolset at your disposal, you'll never have to worry about losing critical data.",
-        title: "Content Management System",
       },
     ],
   };
@@ -79,18 +61,20 @@ export const EcommerceComAdminPanel = () => {
             {adminPanelData.cardsData.map(({ description, image, title }) => {
               return (
                 <div className={styles.eCommerceAdminPanelCards} key={title}>
-                  <div className={styles.eCommerceAdminPanelCardsLogo}>
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      width={"0"}
-                      height={"0"}
-                      sizes={"100vw"}
-                      style={{ width: "10%", height: "100%" }}
-                    />
-                  </div>
                   <div className={styles.eCommerceAdminPanelCardsContent}>
-                    <h5>{title}</h5>
+                    <div>
+                      <div className={styles.eCommerceAdminPanelCardsLogo}>
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={"0"}
+                          height={"0"}
+                          sizes={"100vw"}
+                          style={{ width: "100%", height: "100%" }}
+                        />
+                      </div>
+                      <h5>{title}</h5>
+                    </div>
                     <p>{description}</p>
                   </div>
                 </div>
@@ -100,16 +84,7 @@ export const EcommerceComAdminPanel = () => {
         </div>
       </div>
       <div className={styles.eCommerceAdminImagesMain}>
-        <div>
-          <Image
-            src={adminPanelData.backgroundImage.src}
-            alt={adminPanelData.backgroundImage.alt}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%", zIndex: "1" }}
-          />
-        </div>
+        <div></div>
         <div>
           <Image
             src={adminPanelData.mainImage.src}
@@ -123,4 +98,4 @@ export const EcommerceComAdminPanel = () => {
       </div>
     </div>
   );
-};
+}

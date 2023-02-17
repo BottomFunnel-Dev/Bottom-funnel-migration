@@ -3,6 +3,10 @@ import Head from "next/head";
 import dynamic from "next/dynamic";
 import { EcommerceLogo } from "../../components/Data/SeopartnerData";
 
+const EcommerceWhyChooseUs = dynamic(
+  () => import("../../components/EcommerceCom/EcommerceWhyChooseUs"),
+  { loading: () => "loading..." },
+);
 const EcommerceComBanner = dynamic(
   () =>
     import(
@@ -32,8 +36,20 @@ const EcommerceComCustomer = dynamic(
     ),
   { loading: () => "loading..." },
 );
-import { EcommerceComAdminPanel } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComAdminPanel";
-import { EcommerceComShopping } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComShopping";
+const EcommerceComAdminPanel = dynamic(
+  () =>
+    import(
+      "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComAdminPanel"
+    ),
+  { loading: () => "loading..." },
+);
+const EcommerceComShopping = dynamic(
+  () =>
+    import(
+      "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComShopping"
+    ),
+  { loading: () => "loading..." },
+);
 const EcommerceBookCall = dynamic(
   () =>
     import("../../components/EcommerceCom/EcommerceBookCall/EcommerceBookCall"),
@@ -71,6 +87,7 @@ export default function Ecommerce() {
         <EcommerceComShopping />
         <EcommerceBookCall />
         <EcommerceComSolutions />
+        <EcommerceWhyChooseUs />
       </main>
     </div>
   );

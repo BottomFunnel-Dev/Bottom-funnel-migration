@@ -8,6 +8,7 @@ import FlowerDeliveryBannerbottom from "../../components/FlowerDelivery/FlowerDe
 import FlowerDeliverylast from "../../components/FlowerDelivery/FlowerDeliverylast";
 
 import Head from "next/head";
+import FlowerDeliveryCustomer from "../../components/FlowerDelivery/FlowerDeliveryCustomer";
 
 export default function FlowerDelivery() {
   return (
@@ -29,6 +30,7 @@ export default function FlowerDelivery() {
         <FlowerDeliverySolution />
         <FlowerDeliveryDriver />
         <FlowerDeliveryAdmin />
+        <FlowerDeliveryCustomer/>
         <FlowerDeliveryBannerbottom />
         <FlowerDeliverylast />
       </main>
