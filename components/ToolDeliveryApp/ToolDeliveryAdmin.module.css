@@ -23,8 +23,9 @@
   width: 50%;
   height: 500px;
   display: flex;
+  background: url("/Images/tooldeliveryapp/Rectangle\ 4175.webp");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% 500px;
 }
 
 .tooldeliveryadminright {
@@ -39,7 +40,7 @@
 .tooldeliveryadminright > div {
   padding: 10px;
   margin: 1%;
-  height: fit-content;
+  height: 230px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -62,6 +63,7 @@
 }
 
 .tooldeliveryAdminImage {
+  margin-left: 5%;
   width: 90%;
   height: 500px;
   text-align: right;

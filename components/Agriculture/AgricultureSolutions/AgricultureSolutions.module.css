@@ -33,7 +33,10 @@
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.agricultureSolutionsMainDataCards > div:hover {
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
+  }
 .agricultureSolutionsMainDataCards > div > div > img {
   width: 100%;
   object-fit: cover;

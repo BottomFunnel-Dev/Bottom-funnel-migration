@@ -53,7 +53,7 @@ export const logisticsCustomer = {
   sectionTitle: "Customer's App",
 
   background:
-    "/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
+    "/Images/Agriculture/Ellipse 66.webp",
 };
 
 export const agricultureConsumerApp = {
@@ -110,7 +110,7 @@ export const agricultureConsumerApp = {
   ],
   sectionTitle: "Drive's App",
   background:
-    "/public/Images/PlantBasedMeat/customer app screens/CustomerAppBackground.webp",
+    "/Images/Agriculture/Group 340265.webp",
 };
 
 export const agricultureAdmin = {
@@ -167,7 +167,7 @@ export const agricultureAdmin = {
 
   sectionTitle: "Admin's Panel",
   background:
-    "/Images/Agriculture/Ellipse 2193.webp",
+    "/Images/Agriculture/Rectangle 4790.webp.webp",
 };
 
 // export const carpoolCustomer = {
