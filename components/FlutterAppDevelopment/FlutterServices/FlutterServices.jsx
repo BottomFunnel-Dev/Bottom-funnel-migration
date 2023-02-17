@@ -42,7 +42,7 @@ export const FlutterServices = () => {
                         </div>
 
                         <div className={styles.flutterServicesContainerBoxes}>
-                            <div className={styles.flutterServiceBoxIcon}>
+                            <div className={styles.flutterServiceBoxIcon1}>
                             <Image
           src={"/Images/FlutterDevelopment/Icons/wireframe (1).webp"}
           alt={"image"}

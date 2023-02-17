@@ -58,7 +58,7 @@ export const FintechDriverApp = () => {
               width={"0"}
               height={"0"}
               sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
+              style={{ width: "100%", height: "100%" ,marginLeft:"15%"}}
             />
           </div>
         </div>
@@ -78,7 +78,7 @@ export const FintechDriverApp = () => {
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
+                    style={{ width: "100%", height: "100%" , objectFit:"contain", padding:"5px", marginTop:"-70%" }}
                   />
                 </div>
 

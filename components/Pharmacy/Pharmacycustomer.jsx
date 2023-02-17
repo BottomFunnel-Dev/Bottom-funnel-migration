@@ -16,7 +16,7 @@ export default function Pharmacycustomer() {
         alt: "easy app",
       },
       title: "Easy app onboarding",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
+      para: "Easy app onboarding for pharmacy apps is a great way to make your pharmacy app more user-friendly and engaging.",
     },
     {
       img: {
@@ -29,7 +29,7 @@ export default function Pharmacycustomer() {
         alt: "Schedule logo",
       },
       title: "Buy Medicines",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
+      para: "Find local pharmacies and pharmacists, and stay up to date on all the latest news and tips on health and wellness.",
     },
 
     {
@@ -43,7 +43,7 @@ export default function Pharmacycustomer() {
         alt: "book",
       },
       title: "Book doctors",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
+      para: "It allows you to search for a doctor based on your specific needs, such as location, specialty, and availability.",
     },
 
     {
@@ -57,7 +57,7 @@ export default function Pharmacycustomer() {
         alt: "Multiple Payment Option logo",
       },
       title: "Multiple Payment Option",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
+      para: "We have multiple payment options available in our pharmacy app, including Paypal, Visa, Mastercard, and American Express. ",
     },
 
     {
@@ -71,7 +71,7 @@ export default function Pharmacycustomer() {
         alt: "bookambulance",
       },
       title: "Book Ambulance",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
+      para: "All you need to do is to select the city, state, and hospital where your emergency is located and we will provide you with a list of trusted companies.",
     },
 
     {
@@ -85,14 +85,14 @@ export default function Pharmacycustomer() {
         alt: "Track Order",
       },
       title: "Track Order",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos",
+      para: "User can track an order in our pharmacy app with ease! Just enter the needed information and our app will take care of the rest. ",
     },
   ];
 
   const [active, setActive] = useState(0);
 
   return (
-    <div className={styles.pharmacycustomer}>
+    <div className={styles.pharmacycustomer} >
       <h1>
         Customer app
       </h1>
@@ -100,7 +100,7 @@ export default function Pharmacycustomer() {
       <div className={styles.pharmacycustomersub}>
 
         <div className={styles.pharmacycustomerright}>
-          {pharmacycustomerdata.map(({ title, icon }, idx) => {
+          {pharmacycustomerdata.map(({ title, icon,para }, idx) => {
             return (
               <div
                 key={title}
@@ -120,7 +120,7 @@ export default function Pharmacycustomer() {
                 <h3> {title} </h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                   {para}
                 </p>
               </div>
 

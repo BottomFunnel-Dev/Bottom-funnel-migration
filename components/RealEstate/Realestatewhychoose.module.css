@@ -23,7 +23,11 @@ margin-top: 3%;
 }
 
 .realestatewhychooseindivisuallybox{
-    height: 250px;
+<<<<<<< HEAD
+    height: fit-content;
+=======
+    height: 280px;
+>>>>>>> 4df5c7425175a880c1be92d25f2ecc1ba7ad536e
     width: 30%;
     margin: 1%;
    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -48,11 +52,15 @@ margin-top: 3%;
 
 .whychooserealestateicon{
 
-   width: 40%;
+   width: 30%;
+   height: 30%;
    margin-left: 25%;
 }
 
 .whychooserealestateicon >img{
   padding: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 

@@ -17,6 +17,7 @@
   margin: auto;
   text-align: center;
   width: 80%;
+  /* border: 2px solid yellow; */
 }
 .flutterServicesDescription p {
 margin: 0%;
@@ -54,20 +55,33 @@ margin: 0%;
 }
 
 .flutterServiceBoxIcon {
-  width: 30%;
+  width: 60px;
+  height: 50px;
   padding-left: 6px;
   border-radius: 5px;
   margin-top: 2%;
   object-fit: cover;
   background-size: cover;
+  /* border: 2px solid green; */
+}
+.flutterServiceBoxIcon1 {
+  width: 50px;
+  height: 50px;
+  padding-left: 6px;
+  border-radius: 5px;
+  margin-top: 2%;
+  object-fit: cover;
+  background-size: cover;
+  /* border: 2px solid red; */
 }
 .flutterServiceBoxHeading {
   width: 100%;
   font-weight: 500;
 }
 .flutterServiceBoxHeading h6{
-  margin: 0%;
+  margin-left: 3%;
   font-size: 23px;
+  /* border: 2px solid green; */
 }
 .flutterServiceBoxContent {
   font-size: 13px;

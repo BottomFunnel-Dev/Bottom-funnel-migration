@@ -51,12 +51,14 @@
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
+ 
 }
 
 .meatdeliveryadminrightboxes {
   height: 450px;
   width: 45%;
-  margin: 3% 0% 0% 2%;
+  /* margin: 3% 0% 0% 2%; */
+  margin: auto;
   background: url("/Images/meatdelieveryapp/Rectangle 4793.webp");
 }
 

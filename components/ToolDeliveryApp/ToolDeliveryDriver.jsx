@@ -14,7 +14,7 @@ function ToolDeliveryDriver() {
         alt: " registerlogo",
       },
       title: "Manage Profile",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Drivers can manage their profile in the driver app to update their driving record and track their driving history. This allows them to stay up-to-date on any changes",
     },
     {
       img: {
@@ -26,7 +26,7 @@ function ToolDeliveryDriver() {
         alt: "notification logo",
       },
       title: "Reports",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Drivers can see their Reports in the driver app. These reports include things like driving history, driving violations, and driving records.",
     },
     {
       img: {
@@ -38,7 +38,7 @@ function ToolDeliveryDriver() {
         alt: "order",
       },
       title: "Get order Details",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Drivers can easily get the details of their orders by simply logging in to their account and accessing their order history.",
     },
     {
       img: {
@@ -50,7 +50,7 @@ function ToolDeliveryDriver() {
         alt: "Navigationimage",
       },
       title: "Track Pickup Location",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "They can view a map showing the location of their delivery, as well as get directions to their drop-off address.",
     },
   ];
 
@@ -76,7 +76,7 @@ function ToolDeliveryDriver() {
           </div>
 
           <div className={styles.tooldeliverydriveright}>
-            {TooDeliverydrivedata.map(({ title, icon }, idx) => {
+            {TooDeliverydrivedata.map(({ title, icon, para }, idx) => {
               return (
                 <div
                   key={title}
@@ -96,8 +96,7 @@ function ToolDeliveryDriver() {
 
                   <h3> {title} </h3>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Non, quis eum ev
+                    {para}
                   </p>
                 </div>
               );

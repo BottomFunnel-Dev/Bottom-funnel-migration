@@ -55,10 +55,12 @@ border-radius: 15px;
 margin: auto;
 display: flex;
 flex-direction: row;
+/* border: 2px solid green; */
 }
 .kotlinIntegrationIcon{
-width: 15%;
+width: 80px ;
 padding: 3.5%;
+/* border: 2px solid yellowgreen; */
 }
 .kotlinIntegrationText{
 width: 85%;

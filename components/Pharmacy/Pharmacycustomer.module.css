@@ -33,7 +33,8 @@
 .pharmacycustomerright > div {
   padding: 10px 10px 10px 10px;
   margin-left: 4%;
-  height: 180px;
+  margin-top: 2%;
+  height: auto;
   width: 25%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
