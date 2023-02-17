@@ -2,7 +2,7 @@
 height: fit-content;
 background-color: white;
 display: flex;
-margin-top: 4%;
+/* margin-top: 4%; */
 }
 .meatdeliverypartnerleftbox {
 height: 500px;
@@ -47,7 +47,8 @@ padding: 15px;
 border-radius: 10px;
 }
 .meatdeliveryflexingboxindivisually:hover {
-transform: scale(1.02);
+transition: all 0.2s linear;
+transform: translateY(-10px);
 background-color: #FFEBE7;
 }
 .specialcolor {

@@ -57,7 +57,7 @@ export const KidswearAdmin = () => {
     width={"0"}
     height={"0"}
     sizes={"100vw"}
-    style={{ width: "100%", height: "100%" ,objectFit:"contain",
+    style={{ width: "100%", height: "100%" ,objectFit:"contain",padding:"10px"
 
   }}
         />
@@ -83,7 +83,7 @@ export const KidswearAdmin = () => {
         width={"0"}
         height={"0"}
         sizes={"100vw"}
-        style={{ width: "100%", height: "100%" ,objectFit:"contain",
+        style={{ width: "100%", height: "100%" ,objectFit:"contain", padding:"2px"
   
       }}
         />

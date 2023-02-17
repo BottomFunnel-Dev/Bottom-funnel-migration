@@ -30,7 +30,7 @@ export const Realestatelowerbanner = () => {
   return (
     <div className={styles.realestatelowerbannermainboxes}>
       <div className={styles.realestatelowerbannersometxtbox}>
-        <h1> Software Products Development </h1>
+        <h2> Software Products Development </h2>
         <p>
           We belive that every business, no matter how small or large,should be able to have easy access to quality it services, which is
           why we offer a varitety of plans for every budget.
