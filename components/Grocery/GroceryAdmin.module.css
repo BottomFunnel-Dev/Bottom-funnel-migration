@@ -23,7 +23,7 @@
 }
 
 .groceryadminpannelmapperboxindivisyal {
-  height: 220px;
+  height: 250px;
   width: 42%;
   margin: 1%;
   padding: 10px;
@@ -51,7 +51,6 @@
   margin: 5% 3% 3% 5%;
 }
 
-
 .groceryadminpannelmapperboxindivisyal > div > h4 {
   font-size: 25px;
   font-weight: 600;
@@ -67,4 +66,17 @@
   font-weight: 400;
   line-height: 20px;
   vertical-align: baseline;
+}
+
+.groceruyCustomerappindivisualboxforlogo {
+  /* border: 1px solid red; */
+  height: 23%;
+  width: 18%;
+}
+
+.groceruyCustomerappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }

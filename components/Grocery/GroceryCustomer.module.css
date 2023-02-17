@@ -48,7 +48,7 @@
 }
 
 .grocerydeliveryappindivisualbox {
-  height: 220px;
+  height: 250px;
   width: 42%;
   margin: 1%;
   padding: 10px;
@@ -63,20 +63,32 @@
 }
 
 .grocerydeliveryappindivisualbox > div > h4 {
-  margin-top: 1%;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 21.6px;
   vertical-align: baseline;
   margin-bottom: 1%;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .grocerydeliveryappindivisualbox > div > p {
   /* border: 1px solid red; */
   margin-top: 3%;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   vertical-align: baseline;
   font-weight: 400;
+}
+
+.groceruyCustomerappindivisualboxforlogo {
+  /* border: 1px solid red; */
+  height: 18%;
+  width: 15%;
+}
+
+.groceruyCustomerappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }
