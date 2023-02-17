@@ -82,7 +82,7 @@ export const EyeWearDeliveryAdmin = () => {
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "80%", height: "100%", objectFit:"contain" , marginLeft:"8%" }}
+          style={{ width: "80%", height: "100%", objectFit:"contain" , marginLeft:"10%" }}
         />
       </div>
     </div>

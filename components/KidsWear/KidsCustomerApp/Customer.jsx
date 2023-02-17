@@ -70,7 +70,7 @@ export const Customer = () => {
         />
         </div>
         <div className={styles.kidswearcustomerapptextdata}>
-        <h4>{e.htxt}</h4>
+        <h5>{e.htxt}</h5>
         <p>{e.stxt}</p>
         </div>
         
@@ -90,7 +90,7 @@ alt={"image"}
 width={"0"}
 height={"0"}
 sizes={"100vw"}
-style={{ width: "40%", height: "90%",objectFit:"contain", marginLeft:"20%" }}
+style={{ width: "40%", height: "90%",objectFit:"contain", marginLeft:"30%" }}
         />
     
 </div>

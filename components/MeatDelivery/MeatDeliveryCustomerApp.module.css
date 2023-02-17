@@ -30,7 +30,8 @@
 .meatdeliverycustomerappmobilebox {
   height: 100%;
   width: 40%;
-  margin: 5% 0% 0% 30%;
+  /* margin: 5% 0% 0% 30%; */
+  margin: auto;
 }
 
 .meatdeliverycustomerappmobilebox > img {

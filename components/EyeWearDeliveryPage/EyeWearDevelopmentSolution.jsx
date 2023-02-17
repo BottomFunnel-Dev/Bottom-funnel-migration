@@ -77,7 +77,7 @@ export const EyeWearDevelopmentSolution = () => {
         })}
       </div>
 
-      <button className={styles.Eyeweardevelopmentsolutionbutton}> Get Started </button>
+     
     </div>
   );
 };
