@@ -17,7 +17,13 @@
 
 .KidsWearbannermainboxinnertextdiv > h1 {
   color: black;
-  font-size: 40px;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+
+.kidswearspecialcolor{
+  color: #ef4c23;
 }
 
 .KidsWearbannermainboxinnertextdiv > p {

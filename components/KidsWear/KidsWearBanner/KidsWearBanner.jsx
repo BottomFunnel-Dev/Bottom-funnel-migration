@@ -33,7 +33,7 @@ export default function KidsWearBanner() {
     <div>
       <div className={styles.KidsWearbannermainbox}>
         <div className={styles.KidsWearbannermainboxinnertextdiv}>
-          <h1> Baby & Kids Wear App Solution </h1>
+          <h1> <span className={styles.kidswearspecialcolor}>Baby & Kids Wear</span> App Solution </h1>
           <p>
             Are you looking for a Baby & Kids Wear App Solution? Look no further
             than Ours ! We offer an exciting and easy-to-use app solution that
