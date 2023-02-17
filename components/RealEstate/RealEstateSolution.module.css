@@ -74,3 +74,99 @@
 }
 
 
+/* for any type of mobile screen */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+.realstatesolutionmainboxes {
+  height: fit-content;
+  padding-top: 5%;
+  background-color: white;
+}
+
+.realestatesolutionsometetxboxupper {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.realestatesolutionsometetxboxupper h1{
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+
+.mainrealestatesolutionflexingwithupertextbox {
+  height: fit-content;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.realestateuppertextingbox {
+  height: fit-content;
+}
+
+.realestateuppertextingbox > h1 {
+text-align: center;
+font-weight: 600;
+color: black;
+}
+
+.exclusivefeaturerealestateflexindih4 {
+  padding-top: 5%;
+}
+
+.exuclusivefeaturedatamappingrealestatesolution {
+  height: fit-content;
+  width: 100%;
+  margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("/Images/RealEstate/Backgrounds/Rectangle 141.png");
+}
+
+.exclusivefeaturerealestateflexindi {
+  height: fit-content;
+  width: 80%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0.5%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: 10%;
+
+  background-color: white;
+}
+
+.exclusivefeaturerealestateflexindi:hover {
+  transform: scale(1.02);
+    background-color: #f4edcb;
+}
+
+.indivisualtextforsolutionrealestate {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.exuclusivefeaturedatamappingrealestatesolution > svg {
+  margin-top: 8%;
+  display: none;
+}
+
+.exuclusivefeaturedatamappingrealestatesolution > svg:hover {
+  transform: scale(2);
+}
+
+.indivisualimageforsolutionrealestate {
+  height: 40%;
+  width: 40%;
+  margin-top: 10%;
+  margin: auto;
+  object-fit: contain;
+}
+
+
+}
+

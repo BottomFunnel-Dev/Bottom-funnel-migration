@@ -137,7 +137,7 @@ export default function OttHeader() {
                   <div>
                     <img src={e.icon} alt="image" />
                   </div>
-                  <h3>{e.title}</h3>
+                  <h5>{e.title}</h5>
                 </div>
                 <div className={styles.ottServicesLoremPara}>
                   <p>{e.para}</p>

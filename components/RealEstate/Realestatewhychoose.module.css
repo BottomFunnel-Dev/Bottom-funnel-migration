@@ -6,7 +6,7 @@
 }
 
 .realestatewhychoosebottomtextbox{
-    height: fit-content;
+height: fit-content;
 width: 50%;
 margin: auto;
 text-align: center;
@@ -19,7 +19,6 @@ display: flex;
 width: 90%;
 margin-left: 5%;
 margin-top: 3%;
-
 }
 
 .realestatewhychooseindivisuallybox{
@@ -30,7 +29,6 @@ margin-top: 3%;
     padding: 10px;
     text-align: justify;
     border-radius: 10px;
-
 }
 
 .realestatewhychooseindivisuallybox:hover{
@@ -38,13 +36,9 @@ margin-top: 3%;
     background-color: #f4edcb;
 }
 
-
-
-
 .realestatewhychooseindivisuallybox >h4{
     text-align: center;
 }
-
 
 .whychooserealestateicon{
 
@@ -60,3 +54,65 @@ margin-top: 3%;
   object-fit: contain;
 }
 
+/* for any type of mobile screen responsive */
+
+.realestatewhychoosemainboxes{
+    height: fit-content;
+    background-color: white;
+    margin-bottom: 5%;
+    
+}
+
+.realestatewhychoosebottomtextbox{
+height: fit-content;
+width: 95%;
+margin: auto;
+text-align: center;
+}
+
+.realestatewhychoosebottomtextbox>h1{
+    font-size: 20px;
+}
+
+.realestatewhychoosemapperbox{
+height: fit-content;
+
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+margin-left: 5%;
+margin-top: 3%;
+}
+
+.realestatewhychooseindivisuallybox{
+    max-height: max-content;
+    width: 100%;
+  margin-top: 5%;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.realestatewhychooseindivisuallybox:hover{
+    transform: scale(1.02);
+    background-color: #f4edcb;
+}
+
+.realestatewhychooseindivisuallybox >h4{
+    text-align: center;
+}
+
+.whychooserealestateicon{
+
+   width: 30%;
+   height: 30%;
+   margin-left: 35%;
+}
+
+.whychooserealestateicon >img{
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

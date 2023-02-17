@@ -1,6 +1,6 @@
 .realestatebannermainbox {
   height: 95vh;
-  background: url("/Images/RealEstate/ReslEstateNewBanner.webp");
+  background: url("/Images/RealEstate/Backgrounds/realestatenewbanner.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: right;
@@ -60,4 +60,79 @@
   position: absolute;
   right: 0%;
   top: 15%;
+}
+
+
+/* for any type of mobile responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+.realestatebannermainbox {
+  height: fit-content;
+  background: url("/Images/RealEstate/Backgrounds/realestatenewbanner.webp");
+  background-repeat: no-repeat;
+  background-size: 80% 40%;
+  background-position-x: center;
+  margin-top: 15%;
+  
+}
+
+.realestatebannersometextandimages {
+  display: flex;
+  width: fit-content;
+  position: relative;
+}
+
+.realestatebannersometext {
+  width: 100%;
+  height: fit-content;
+  margin: 60% 0% 0% 5%;
+  color: black;
+}
+
+.realestatebannersometext > h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.realestatebannersomeimages {
+  width: 18%;
+  height: fit-content;
+  margin-left: 3%;
+  margin-top: 10%;
+}
+
+.realestatebannersomeimages > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.textboxinsidetextrealestatebox {
+  width: 100%;
+  height: fit-content;
+  margin-top: 10%;
+  display: flex;
+}
+
+.txtinsidetxtrealstateindi {
+  width: 30%;
+  height: fit-content;
+  margin: 2%;
+}
+
+.txtinsidetxtrealstateindi > h1 {
+  color: #ef4c23;
+}
+
+.realEstateBannerAnimationDiv {
+  border: 1px solid red;
+  position: absolute;
+  right: 0%;
+  top: 15%;
+}
+
+
+
+
 }

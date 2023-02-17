@@ -62,14 +62,15 @@
 
 .ottAppRightDivHeading > p {
   font-size: 18px;
+  text-align: justify;
 }
 
-.ottAppRightDivForCards > h3 {
+.ottAppRightDivForCards > h5 {
   color: red;
   margin-top: 0%;
 }
 
 .ottAppRightDivForCards > p {
-  font-size: 18px;
-  margin: -5% auto;
+ margin: 0;
+  /* margin: -5% auto; */
 }

@@ -1,7 +1,6 @@
 .meatdeliverycustomerappmainboxes {
   height: 100vh;
    background-color: white;
- 
 }
 
 .meatdeliverycustomerapptextbox {
@@ -95,7 +94,6 @@
 @media only screen and (max-width: 600px) {
   .meatdeliverycustomerappmainboxes {
     height: fit-content;
-    padding-top: 50px;
     background-color: white;
   }
   .meatdeliverycustomerapptextbox {
@@ -157,5 +155,6 @@
   }
   .specialcolor {
     color: #ef4c23;
+    
   }
 }

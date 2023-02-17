@@ -44,3 +44,59 @@
     color:  #3380f2;
 
 }
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+.realestatelowerbannermainboxes{
+    height: 40vh;
+    border: 1px solid white;
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 142.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.realestatelowerbannersometxtbox{
+    height: fit-content;
+
+    margin: 15% 0% 10% 0%;
+    text-align: center;
+}
+
+.realestatelowerbannersometxtbox >h1{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.realestatelowerbannersometxtbox >p{
+    font-size: 12px;
+    margin: 1%;
+}
+
+.realstatelowerbannerbutton{
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: fit-content;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+margin-top: 5%;
+}
+
+.realstatelowerbannerbutton:hover {
+
+    background-color:white;
+    color:  #3380f2;
+
+}
+
+
+
+
+}

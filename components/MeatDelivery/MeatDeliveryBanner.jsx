@@ -46,7 +46,7 @@ export const MeatDeliveryBanner = () => {
           aria-labelledby={styles.modalmodaltitle}
           aria-describedby={styles.modamodaldescription}
         >
-          <Box sx={style}>
+          <Box className={styles.style} sx={style}>
             <Typography
               id="modalmodaltitle"
               variant="h6"

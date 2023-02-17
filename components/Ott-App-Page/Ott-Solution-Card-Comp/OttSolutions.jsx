@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import styles from "./ottSolutions.module.css";
-
+import styles from "./ottSolutions.module.css"
 export default function OttSolutions() {
   const [imageChange, setImageChange] = useState(
     "/Images/ott-app/Group901187.webp",
@@ -69,7 +68,7 @@ export default function OttSolutions() {
                   handleImageChange(e.img);
                 }}
               >
-                <h3>{e.head}</h3>
+                <h5>{e.head}</h5>
                 <p>{e.para}</p>
               </div>
             );
