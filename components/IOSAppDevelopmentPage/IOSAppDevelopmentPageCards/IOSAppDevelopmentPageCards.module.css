@@ -223,6 +223,14 @@ margin-top: 3%;
 }
 .iosappdevelopmentparagraph>p{
 text-align: justify;
+/* border: 2px solid ; */
+}
+.iosappdevelopmentparagraph:hover{
+   
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .iosinnermaindiv41stdivbox {
