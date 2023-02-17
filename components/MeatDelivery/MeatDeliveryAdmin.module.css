@@ -63,8 +63,93 @@ transition: all 0.2s linear;
   background: url("/Images/meatdelieveryapp/Rectangle 4793.webp");
 }
 
-
-
 .specialcolor {
   color: #ef4c23;
 }
+
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+  .meatdeliveryadminpannelmainboxes {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    background-color: white;
+    position: relative;
+    margin-top: 5%;
+  }
+  
+  .meatdeliveryadminleftbox {
+    height: fit-content;
+    width: 90%;
+    margin-left: 5%;
+    
+  }
+  
+  .meatdeliveryadminuppertextbox {
+    height: fit-content;
+    margin-left: 15%;
+    font-size: 17px;
+    position: absolute;
+    top:0;
+  }
+  
+.meatdeliveryadminuppertextbox>h2{
+  font-weight: 700;
+  font-size: 35px;
+}
+
+  .meateliverymappingboxforadminpannel {
+    height: 70%;
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .meatdeliveryadminboxindivisually {
+    height: fit-content;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .meatdeliveryadminboxindivisually:hover {
+  transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #FFEBE7;
+  }
+  
+  .meatdeliveryadminboxindivisually > h4 {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 2%;
+  }
+  
+  .meatdeliveryadminboxindivisually > p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+   
+  }
+  
+  .meatdeliveryadminrightboxes {
+    height: 250px;
+    width: 100%;
+    /* margin: 3% 0% 0% 2%; */
+    margin: auto;
+    background: url("/Images/meatdelieveryapp/Rectangle 4793.webp");
+  }
+  
+  .specialcolor {
+    color: #ef4c23;
+  }
+
+
+  }
