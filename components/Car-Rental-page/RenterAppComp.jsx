@@ -13,26 +13,26 @@ export default function RenterAppComp() {
   const RGrenterAppData = [
     {
       img: "/Images/Car-Rental-Page-Images/signup.webp",
-      head: "Register and Signup within The Application",
-      para: "The customer can sign up for the app to start booking cars.",
+      head: "Register and Signup within Application",
+      para: "You can easily register and signup within our car rental app. All you have to do is provide the information required by the car rental company, such as your name, contact details.",
     },
 
     {
       img: "/Images/Car-Rental-Page-Images/Component190.webp",
       head: "Find Nearby Available Cars",
-      para: "Customers can easily find out which cars are available for rent in their area by looking online.",
+      para: "Search for cars by using the filter options to find the perfect vehicle for your trip. Once you've found a car, click to reserve it and pay with our secure payment methods. Don't forget to check out our car rental deals.",
     },
 
     {
       img: "/Images/Car-Rental-Page-Images/filter.webp",
       head: "Search By Filters",
-      para: "Customers can search for cars by different filters, such as fuel type or category.",
+      para: "You can use filters to narrow down your search by car type, location, and price range. For example, if you're looking for a car with a CD player, you can filter by that specific feature.",
     },
 
     {
       img: "/Images/Car-Rental-Page-Images/cardetails.webp",
       head: "Car Details",
-      para: "Customers can inspect the details of the listed car, like the model, year of the car, images of the car, etc., through the app.",
+      para: "Car details in our car rental app are all about helping you make informed decisions about your car rental. We provide detailed information about each car rental company.",
     },
   ];
   return (

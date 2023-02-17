@@ -10,7 +10,7 @@ export const logisticsCustomer = {
         alt: " Register logo",
       },
       title: "Easy App On-boarding",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: "We want to provide an easy and convenient on-boarding experience for our customers so they can start using our plant-based meat delivery app. We've designed a new user interface with clear information and step-by-step guides for each feature.",
     },
     {
       img: {
@@ -67,7 +67,7 @@ export const plantBaseDriverData = {
         src: "/Images/PlantBasedMeat/icons/prototyping-8.png",
         alt: "image",
       },
-      title: "Profile Management",
+      title: "Profile Manage",
       para: "we've come up with a solution that saves you time and money. With our web app, you can manage your shipments from anywhere in the world on your mobile device or laptop.",
     },
 

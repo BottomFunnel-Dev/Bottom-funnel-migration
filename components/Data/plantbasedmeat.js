@@ -10,7 +10,7 @@ export const logisticsCustomer = {
         alt: " Register logo",
       },
       title: "Easy App On-boarding",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      para: "We want to provide an easy and convenient on-boarding experience for our customers so they can start using our plant-based meat delivery app.",
     },
     {
       img: {
@@ -22,7 +22,7 @@ export const logisticsCustomer = {
         alt: "image",
       },
       title: "Easy Checkout",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "With the easy checkout feature, you can simply select the products that you would like to purchase and submit your payment information.",
     },
     {
       img: {

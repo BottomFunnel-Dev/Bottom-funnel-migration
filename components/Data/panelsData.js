@@ -347,7 +347,7 @@ export const carpoolCustomer = {
         alt: " Register logo",
       },
       title: "Flexible & Quick Bookings",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      para: "Flexible and quick bookings are two important factors to consider when choosing a vacation rental. If you need to find a place quickly, there are many options available online that cater to specific needs and preferences.",
     },
     {
       img: {
@@ -359,7 +359,7 @@ export const carpoolCustomer = {
         alt: "Schedule logo",
       },
       title: "Fare Estimates",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      para: "In order to estimate the costs of carpooling, we have to determine how many people are needed to form a carpool and the distance between their destinations.",
     },
     {
       img: {
@@ -371,7 +371,7 @@ export const carpoolCustomer = {
         alt: "Multiple Payment Option logo",
       },
       title: "Pool Options",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      para: "There are a number of options for car pooling, including ride-sharing, vanpooling, and car-sharing. These options allow individuals to share the cost of transportation and make fewer trips on their own.",
     },
     {
       img: {
@@ -383,7 +383,7 @@ export const carpoolCustomer = {
         alt: "Track Order logo",
       },
       title: "Real-Time Tracking",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      para: "In real-time tracking, a car pooling service tracks the location of individual riders and vehicles in order to efficiently route people and cars.",
     },
   ],
 
@@ -403,7 +403,7 @@ export const carpoolDrive = {
         alt: " Register logo",
       },
       title: "Real-time Requests",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      para: "Drivers can post their availability, and passengers can request a ride. The users can communicate with each other through messaging and chat features.",
     },
     {
       img: {
@@ -415,7 +415,7 @@ export const carpoolDrive = {
         alt: "Schedule logo",
       },
       title: "Trip Detail",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      para: "These details include the pickup and drop-off locations, the expected time of departure, and any additional information about the driver, such as their driving history or vehicle details.",
     },
     {
       img: {
@@ -427,7 +427,7 @@ export const carpoolDrive = {
         alt: "Multiple Payment Option logo",
       },
       title: "Rating & Review",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      para: "This will allow them to share their experiences with other drivers and provide valuable feedback for us to improve our service.",
     },
     {
       img: {
@@ -439,7 +439,7 @@ export const carpoolDrive = {
         alt: "Track Order logo",
       },
       title: "Wallet Details",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      para: "This helps drivers provide better service and make sure that they are delivering on their promises.",
     },
   ],
 
@@ -459,7 +459,7 @@ export const carpoolAdmin = {
         alt: " Register logo",
       },
       title: "Dashboard",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      para: "Our Dashboard is a user-friendly platform where admin can manage their individual and shared carpools, such as adding and deleting riders, viewing real-time carpool stats, and communicating with each other.",
     },
     {
       img: {
@@ -471,7 +471,7 @@ export const carpoolAdmin = {
         alt: "Schedule logo",
       },
       title: "Reports and Analytics",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      para: "One of the must-have features is a customized note when offering flower delivery services. The customer can write a customized note while placing an order to be printed with the bouquet.",
     },
     {
       img: {
@@ -483,7 +483,7 @@ export const carpoolAdmin = {
         alt: "Multiple Payment Option logo",
       },
       title: "Manage Promos & Referals",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      para: "Admins can manage promos and referrals in our car pooling app by allowing users to set up rewards for completing certain tasks.",
     },
     {
       img: {
@@ -495,7 +495,7 @@ export const carpoolAdmin = {
         alt: "Track Order logo",
       },
       title: "Driver Management",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      para: "Admins can manage Drivers in our car pooling app by adding them to the app, editing their profile, and setting their preferences.",
     },
   ],
 
