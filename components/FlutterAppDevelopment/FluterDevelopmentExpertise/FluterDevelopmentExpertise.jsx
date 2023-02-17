@@ -11,13 +11,13 @@ export const FluterDevelopmentExpertise = () => {
             <div className={styles.flutterDevelopmentExpertiseContainerDiv}>
               <div className={styles.flutterDevelopmentExpertiseIcon}>
               <Image
-          src={"/Images/FlutterDevelopment/Icons/platform 2.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+                src={"/Images/FlutterDevelopment/Icons/platform 2.webp"}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
               </div>
 
               <div className={styles.flutterDevelopmentExpertiseIconHeading}>
@@ -102,7 +102,11 @@ export const FluterDevelopmentExpertise = () => {
             Flutter App Development Expertise
           </h1>
           <p className={styles.flutterDevelopmentExpertiseContentText}>
-            We have a team of experts who are adept at developing applications for all types of devices. Our experience spans over years, so you can be sure that your app will run smoothly on all platforms and devices. Don't think we're just experts in Android apps! We also have expertise in Apple development as well! As a result, you can expect 100% perfection from us every time.
+          Flutter offers several benefits over other platforms, such as the ability to build high-performance apps with little to no code overhead and the use of Material Design 2 for a consistent user interface. This makes Flutter an ideal choice for building both small apps and large enterprise applications.
+
+In addition to its powerful development tools, Flutter also offers advanced libraries and SDKs for various platforms, such as Android and iOS. This allows developers to quickly port their apps to different devices without having to make major changes to the underlying code.
+
+With its easy-to-use API and rapid development pace, Flutter is a powerful tool that can help you create elegant and effective applications quickly and efficiently. With our expert team of engineers, we will help you develop your next application with Flutter in no time!  
           </p>
           <div>
             <button className={styles.FluterDevelopmentExpertisebutton}>Hire flutter Developer</button>

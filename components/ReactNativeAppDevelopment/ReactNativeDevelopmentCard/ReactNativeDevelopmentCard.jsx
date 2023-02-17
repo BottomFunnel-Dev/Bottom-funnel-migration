@@ -81,9 +81,8 @@ export const ReactNativeDevelopmentCard = () => {
 
                     <div className={styles.stcontaindivContainreact} >
                         <h2>React Native Customization Service</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsa eveniet porro amet ut est distinctio saepe vitae nulla excepturi quisquam,
-                            aliquam ad ex odio autem sit ratione officia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maxime porro qui suscipit quod, nisi natus similique
-                            tenetur nulla a sed, ullam perspiciatis ab illum, nemo delectus. Dicta, doloremque vero!
+                        <p>
+                           React Native is a mobile app development platform that lets you build complex, native-like apps using JavaScript and React. It has a robust ecosystem of third-party tools and libraries, which can make it easy to customize your app. One such tool is the React Native Customization Service (RN-CSS), which provides a wide range of customization options for React Native apps. With RN-CSS, you can easily add new features, modify existing components, and change the look and feel of your app. 
                         </p>
 
                     </div>
