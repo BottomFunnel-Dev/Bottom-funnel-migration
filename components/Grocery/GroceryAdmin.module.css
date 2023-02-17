@@ -32,9 +32,13 @@
 }
 
 .groceryadminpannelmapperboxindivisyal:hover {
-  transform: scale(1.02);
   background-color: #f7ab97;
   color: white;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .groceryamadminpannelrightbox {
