@@ -33,7 +33,9 @@
 
 .cannabiesadminpannelmapperboxindivisyal:hover {
   transform: scale(1.02);
-  background-color: #e1f9f6;
+  background-color: #fac665;
+  cursor: pointer;
+  color: white;
 }
 
 .cannabiesamadminpannelrightbox {
