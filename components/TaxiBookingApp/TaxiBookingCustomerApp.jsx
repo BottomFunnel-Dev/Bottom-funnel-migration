@@ -15,28 +15,28 @@ export const TaxiBookingCustomerApp = () => {
             images: "/Images/Taxibooking/Customerscreens/Component 117.webp",
             icon: "/Images/Taxibooking/icons/Group 340238.webp",
             htxt: "Easy To Choose Your Ride",
-            stxt: "We always strive to deliver futuristic solutions that will help you take your business further from the existing ones business further from the existing ones . ",
+            stxt: "We always strive to deliver futuristic solutions that will help you take your business further from the existing ones business . A users can book a taxi with a single tap and they just have to enter the pickup location and destination. ",
         },
 
         {
             images: "/Images/Taxibooking/Customerscreens/Component 125.webp",
             icon: "/Images/Taxibooking/icons/Group 340235.webp",
             htxt: "Track Your Driver",
-            stxt: "As a taxi app development company, we'll build white label ride sharing app that is user friendly for registration to booking with numerous features that is easy to use. ",
+            stxt: "As a taxi app development company, we'll build white label ride sharing app that is user friendly for registration to booking with numerous features that is easy to use. It will give the rider’s data like location, contact information, and many more. ",
         },
 
         {
             images: "/Images/Taxibooking/Customerscreens/Component 126.webp",
             icon: "/Images/Taxibooking/icons/Group 340236.webp",
             htxt: " Easy Pick Up",
-            stxt: "We Will follow the standard procedure to deliver the app on time to enjoy the benefits and meet your business growth goals.",
+            stxt: "We Will follow the standard procedure to deliver the app on time to enjoy the benefits and meet your business growth goals.Real-time location tracking is a feature that you would love to see in your taxi booking application.",
         },
 
         {
             images: "/Images/Taxibooking/Customerscreens/Component 127.webp",
             icon: "/Images/Taxibooking/icons/Component 131.webp",
             htxt: "Booking History",
-            stxt: "The taxi app development solutions provided are tailored to your specific needs and objectives with rational taxi app development cost.",
+            stxt: "The taxi app development solutions provided are tailored to your specific needs and objectives with rational taxi app development cost.The users can easily enjoy the service of booking a cab through their smartphones without any problem.",
         },
     ]
 

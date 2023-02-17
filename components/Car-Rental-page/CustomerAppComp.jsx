@@ -14,22 +14,22 @@ export default function CustomerAppComp() {
     {
       img: "/Images/Car-Rental-Page-Images/dashboard.webp",
       htxt: "Dashboard",
-      stxt: "The business owner can see all the pertinent information on the dashboard for analyzing bookings and revenue.",
+      stxt: "Here customer can manage your account, view your rental history, and pay your bill. The dashboard is designed to make it easy for you to manage all of your rental needs. Just select one of the options below to learn more about it.",
     },
     {
       img: "/Images/Car-Rental-Page-Images/reporting.webp",
       htxt: "Reporting",
-      stxt: "Owners can check the financial report to see how much money was booked and what the return on investment (ROI) was.",
+      stxt: "Reporting for customer in our car rental app is a breeze. Simply enter your desired pick-up and drop-off locations, desired date and time, and a list of cars and we'll provide you with all the options. From there, it's up to you to make the decision on which one fits your needs best.",
     },
     {
       img: "/Images/Car-Rental-Page-Images/cardetails.webp",
       htxt: "Car Management",
-      stxt: "Users have the ability to add, edit or delete car and car details as they see fit..",
+      stxt: "Car management is a crucial component of any car rental app. It helps customers plan ahead, track their trips, and make informed decisions about their travels. With car management, customers can view detailed information about the car they are renting, such as its age, model, and mileage.",
     },
     {
       img: "/Images/Car-Rental-Page-Images/payment.webp",
       htxt: "Payment",
-      stxt: "Customers can make Payment either through the app or by paying at the time of booking.",
+      stxt: "In addition to the traditional methods of paying for your rental, our app also offers a variety of mobile payment options. These include Android Pay and Apple Pay, which allow you to pay with your phone without having to carry cash or a credit card.",
     },
   ];
 

@@ -9,7 +9,7 @@
   width: 50%;
   background: url("/Images/Taxibooking/Bannersbackgrounds/Rectangle 4864.webp");
   background-repeat: no-repeat;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .taxibookingadminpannelleftboximagesize {
@@ -29,6 +29,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 4%;
+  top: 2%;
 }
 
 .taxibookingappadminpannelindivilogo {
