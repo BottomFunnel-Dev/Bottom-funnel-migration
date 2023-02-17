@@ -25,7 +25,13 @@ const EcommerceComFeatures = dynamic(
     loading: () => "loading...",
   },
 );
-import { EcommerceComCustomer } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComCustomer";
+const EcommerceComCustomer = dynamic(
+  () =>
+    import(
+      "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComCustomer"
+    ),
+  { loading: () => "loading..." },
+);
 import { EcommerceComAdminPanel } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComAdminPanel";
 import { EcommerceComShopping } from "../../components/EcommerceCom/EcommerceComAdvance/EcommerceComShopping";
 const EcommerceBookCall = dynamic(
