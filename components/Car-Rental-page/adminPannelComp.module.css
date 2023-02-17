@@ -46,7 +46,7 @@ gap: 20px;
 
 .RGadminPannelLeftDivBoxex {
 padding: 10px 10px 10px 10px;
-height: 250px;
+height: 220px;
 width: 45%;
 border-radius: 18px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -56,12 +56,15 @@ cursor: pointer;
 }
 
 .RGadminPannelLeftDivBoxex:hover {
-  transform: scale(1.02);
-  /* background-color: #ffebef; */
-  background-color: rgb(10,178,189);
-  color: white;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
+  background-color: rgb(228, 252, 254);
 }
-
+.RGadminPannelLeftDivicon{
+  height: 22%;
+  width: 15%;
+}
 .RGadminPannelLeftDivBoxex > div > h4 {
   margin-top: 1%;
   font-size: 18px;

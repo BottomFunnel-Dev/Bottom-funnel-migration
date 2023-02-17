@@ -6,7 +6,7 @@ function ToolDeliveryDriver() {
   let TooDeliverydrivedata = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/DriverProfile.webp",
+        src: "/Images/tooldeliveryapp/Driver Profile.webp",
         alt: "image",
       },
       icon: {

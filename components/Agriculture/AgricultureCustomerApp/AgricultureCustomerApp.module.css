@@ -37,7 +37,7 @@
 }
 
 .agricultureCustomerAppright > div {
-  padding: 10px 10px 10px 10px;
+  padding: 20px 10px 10px 14px;
   height: 270px;
   width: 45%;
   border-radius: 18px;
@@ -56,6 +56,7 @@
 
 .agricultureCustomerAppright > div > h3 {
   font-size: 18px;
+  margin-top: 4%;
 }
 
 .agricultureCustomerAppAppCustomerImage {
@@ -112,7 +113,7 @@
   }
 
   .agricultureCustomerAppright > div {
-    padding: 10px 10px 10px 10px;
+    padding: 30px 20px 10px 10px;
     height: 200px;
     width: 100%;
     border-radius: 18px;
@@ -128,7 +129,7 @@
 
   .agricultureCustomerAppright > div > h3 {
     font-size: 18px;
-    margin-top: 0%;
+    margin-top: 3%;
     margin-bottom: 0%;
   }
 

@@ -15,24 +15,28 @@ export default function AdminPannelComp() {
       img: "/Images/Car-Rental-Page-Images/login.webp",
       head: "Login",
       para: "We are excited to announce that we have made it easier to access the admin panel of our app. You can now login with your email address and password, or with your Facebook or Google account. This makes logging in easier, faster, and more secure!",
+      icon: "/Images/Car-Rental-Page-Images/icon/icon 2/login.webp"
     },
 
     {
       img: "/Images/Car-Rental-Page-Images/owner-management.webp",
       head: "Owner Management",
       para: "With Owner Management, you can have control over who can access your admin panel. Create a group of users and give them access to the admin panel. With this feature, you can also block any user from accessing your admin panel.",
+      icon: "/Images/Car-Rental-Page-Images/icon/icon 2/owner management.webp"
     },
 
     {
       img: "/Images/Car-Rental-Page-Images/dashboard(2).webp",
       head: "Dashboard",
       para: "It is a dashboard which will help you to manage your apps and their details. You can easily see the number of active users and their activity on your app. You can also see the number of downloads, ratings and comments for each of your apps.",
+      icon: "/Images/Car-Rental-Page-Images/icon/icon 2/dashboard.webp"
     },
 
     {
       img: "/Images/Car-Rental-Page-Images/rental-management.webp",
       head: "Retail Management",
       para: "We can make your admin panel look more professional and user-friendly. We can help you create a better user experience. You will be able to manage your store with ease, as well as track everything in real time.",
+      icon: "/Images/Car-Rental-Page-Images/icon/icon 2/retail management.webp"
     },
   ];
 
@@ -47,6 +51,15 @@ export default function AdminPannelComp() {
                 handleImageChange(e.img);
               }}
             >
+              <div className={styles.RGadminPannelLeftDivicon}>
+              <Image src={e.icon}
+                    alt={"image"}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
+              </div>
               <div>
                 <h4> {e.head} </h4>
                 <p> {e.para} </p>

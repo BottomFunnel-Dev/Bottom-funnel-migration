@@ -6,7 +6,7 @@ function ToolDeliveryCustomer() {
   let ToolDeliveryCustomerData = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/Easyappboarding.webp",
+        src: "/Images/tooldeliveryapp/Easy app boarding.webp",
         alt: "control business admin pannel",
       },
 
@@ -16,7 +16,7 @@ function ToolDeliveryCustomer() {
       },
 
       title: "Easy App On-boarding",
-      para: "Business control, or the ability to control various aspects of a business, is an important aspect of customer app development",
+      para: "The tool delivery app is a dynamic platform that allows users to manage,organize and track their tool inventory With the help of this app. They can also share their inventory with other users.",
     },
 
     {
@@ -29,7 +29,7 @@ function ToolDeliveryCustomer() {
         alt: "Product logo",
       },
       title: "Easy Checkout",
-      para: "Reports & Analytics are tools that allow you to analyze and visualize data in order to make informed decisions.",
+      para: " Nowadays, users prefer apps or online business models instead of calling or live to order. Online flower delivery app is the best way to get ahead of the competition and stay relevant in today’s market.",
     },
     {
       img: {
@@ -41,7 +41,7 @@ function ToolDeliveryCustomer() {
         alt: "Revenuelogo",
       },
       title: "Multiple Payment Option",
-      para: "This is an online service that allows you to process credit card, bank transfer, and other forms of payment.",
+      para: "Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience fit with our powerful online app builder fit with our app.",
     },
     {
       img: {
@@ -53,7 +53,7 @@ function ToolDeliveryCustomer() {
         alt: "Customer logo",
       },
       title: "Track Your Order",
-      para: "This application allows a user to manage their orders for a specific user.",
+      para: "It’s easier to track orders when all of them are in one place. With everything on one dashboard, you’ll never have any mixups again.The bigger the user base, the bigger the arena of customers.",
     },
   ];
 

@@ -6,7 +6,7 @@ function ToolDeliveryAdmin() {
   let ToolDeliveryadmindata = [
     {
       img: {
-        src: "/Images/tooldeliveryapp/control business admin panel.webp",
+        src: "/Images/tooldeliveryapp/Business control.webp",
         alt: "Marketimage",
       },
 
@@ -16,7 +16,7 @@ function ToolDeliveryAdmin() {
       },
 
       title: "Buisness Control",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "The business control for tool delivery app is a dynamic platform that allows users to manage, organize, and track their tool inventory.A users can easily manage their tool inventory and schedule deliveries.",
     },
 
     {
@@ -29,7 +29,7 @@ function ToolDeliveryAdmin() {
         alt: "Reports Analytics",
       },
       title: "Report Analytics",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Reports and analytics help the tool delivery app team make informed decisions about their products and services. A key feature of reports and analytics is that they provide detailed insights into the performance of the tool delivery app",
     },
     {
       img: {
@@ -41,7 +41,7 @@ function ToolDeliveryAdmin() {
         alt: "Manage Payments",
       },
       title: "Manage Payments",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "In order to manage payments for tool delivery app, you will have to create a payment plan and set up various disbursements. This will allow you to make payments as the tools are being collected and delivered.",
     },
     {
       img: {
@@ -53,7 +53,7 @@ function ToolDeliveryAdmin() {
         alt: "Customer logo",
       },
       title: "Manage Customer",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Manage customer in a tool delivery app is all about helping customers to receive the tools they need in a timely manner. This can be done through providing useful information,the location of the nearest store or how to use certain tools.",
     },
   ];
 
@@ -65,7 +65,7 @@ function ToolDeliveryAdmin() {
 
       <div className={styles.tooldeliveryadminsub}>
         <div className={styles.tooldeliveryadminright}>
-          {ToolDeliveryadmindata.map(({ title, icon }, idx) => {
+          {ToolDeliveryadmindata.map(({ title, icon, para }, idx) => {
             return (
               <div
                 key={title}
@@ -83,10 +83,7 @@ function ToolDeliveryAdmin() {
                   />
                 </div>
                 <h3> {title} </h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-                  quis eum ev
-                </p>
+                <p>{para}</p>
               </div>
             );
           })}
