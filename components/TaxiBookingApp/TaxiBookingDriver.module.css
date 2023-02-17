@@ -38,7 +38,7 @@
 .taxibookingdriverflexingboxesindi {
   height: fit-content;
   width: 45%;
-  height: 220px;
+  height: 230px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 1%;
@@ -56,11 +56,10 @@
 .taxibookingflexingboxesdriverindiforlogo {
   height: 30%;
   width: 15%;
+  padding: 2px;
 }
 
 .taxibookingflexingboxesdriverindiforlogo > img {
-  height: 100%;
-  width: 100%;
   object-fit: contain;
 }
 
@@ -84,7 +83,6 @@
   font-weight: 500;
   line-height: 21.6px;
   vertical-align: baseline;
-  margin-top: 3%;
   margin-bottom: 2%;
 }
 

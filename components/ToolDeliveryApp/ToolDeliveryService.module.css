@@ -65,13 +65,11 @@
 }
 
 .tddeliverytraking {
-  width: 25%;
+  width: 19%;
   height: 50px;
 }
 
 .tddeliverytraking > img {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
 }
 
@@ -84,7 +82,7 @@
 }
 
 .tddeliverysolutionapp > p {
-  font-size: 23px;
+  font-size: 22px;
   line-height: 12px !important;
   font-weight: 500;
   margin-top: 0%;
