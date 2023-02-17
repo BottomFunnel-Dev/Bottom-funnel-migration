@@ -8,7 +8,7 @@ export default function WebDevServices  ({ webservicesContent }) {
         <div className={styles.webdevTextServices}>
           <h1>
             {webservicesContent.title}
-            <span className={styles.spanText}>Services</span> Provided By Us
+            <span className={styles.spanText}> Services</span> Provided By Us
           </h1>
           <p>{webservicesContent.description}</p>
         </div>

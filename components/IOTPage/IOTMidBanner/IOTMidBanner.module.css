@@ -8,3 +8,21 @@ background-repeat: no-repeat;
 color: white;
 text-align: center;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+
+    .IOTMidBannerMain {
+        padding: 5% 3% 5% 3%;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("/Images/IOTPhotos/mid-banner.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        text-align: center;
+        }
+        
+    .IOTMidBannerMain p{
+        text-align: justify;
+    }
+}

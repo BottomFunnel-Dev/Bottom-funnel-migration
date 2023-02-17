@@ -678,22 +678,42 @@ export const alcoholCustomer = {
         src: "/Images/AlcoholDelivery/CustomerApp/one.webp",
         alt: "accessable",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/Customer/easily acces through.png",
+        alt: " image",
+      },
+
       title: "Can be easily accessed through both android/iOS",
       para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
     },
+
     {
       img: {
         src: "/Images/AlcoholDelivery/CustomerApp/Two.webp",
         alt: "Friendly",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/Customer/user friendly interface.png",
+        alt: " image",
+      },
+
       title: "User-friendly interface",
       para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
     },
+
     {
       img: {
         src: "/Images/AlcoholDelivery/CustomerApp/Three.webp",
         alt: "OrderFood",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/Customer/order food & track.png",
+        alt: " image",
+      },
+
       title: "Order food and Track their service",
       para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
     },
@@ -703,6 +723,12 @@ export const alcoholCustomer = {
         src: "/Images/AlcoholDelivery/CustomerApp/Four.webp",
         alt: "Favorites",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/Customer/Smart search.png",
+        alt: " image",
+      },
+
       title: "Smart search and add-to-your-favorites list",
       para: "The app will give suggestionsbased on what customers search. The customers can also add their favourite dishes in a list to avoid repetitive searches",
     },
@@ -714,7 +740,7 @@ export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/one.webp",
+        src: "/Images/AlcoholDelivery/AdminPannel/One.webp",
         alt: "Manage",
       },
 
@@ -777,25 +803,45 @@ export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/one.webp",
+        src: "/Images/AlcoholDelivery/PartnerApp/One.webp",
         alt: "Discounts",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/PartnerSection/offers & discounts.png",
+        alt: " image",
+      },
+
       title: "Manage Offers & Discounts",
       para: "Partners can give secial offers and discounts to increase their customer base and earn their loyalty.",
     },
+
     {
       img: {
         src: "/Images/AlcoholDelivery/PartnerApp/Two.webp",
         alt: "Menu",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/PartnerSection/order management.png",
+        alt: " image",
+      },
+
       title: "Menu category and Order Management",
       para: "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
     },
+
     {
       img: {
         src: "/Images/AlcoholDelivery/PartnerApp/Three.webp",
         alt: "Chat",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/PartnerSection/chat support.png",
+        alt: " image",
+      },
+
       title: "Chat Support",
       para: "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
     },
@@ -805,6 +851,12 @@ export const alcoholPartner = {
         src: "/Images/AlcoholDelivery/PartnerApp/Four.webp",
         alt: "Notification",
       },
+      
+      icon: {
+        src: "/Images/alcoholPhotos/icons/PartnerSection/custom alerts.png",
+        alt: " image",
+      },
+
       title: "Custom Alerts",
       para: "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
     },

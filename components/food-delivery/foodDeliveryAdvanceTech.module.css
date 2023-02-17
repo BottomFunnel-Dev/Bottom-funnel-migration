@@ -48,7 +48,8 @@
 }
 
 .foodDeliveryAdvanceTechright > div:hover {
-  background-color: #e1f9f6;
+  background-color: #fac665;
+  color: white;
   cursor: pointer;
   /* margin-top: 0; */
   transition: all 0.2s linear;

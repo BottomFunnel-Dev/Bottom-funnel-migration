@@ -46,7 +46,7 @@
 
 .alcoholPartnerright > div {
   padding: 10px 10px 10px 10px;
-  height: 160px;
+  height: 200px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -67,7 +67,11 @@
 }
 
 .alcoholPartnerright > div > h3 {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: baseline;
+  line-height: 21.6px;
+  margin-top: 3%;
 }
 
 .alcoholCustomerImage {

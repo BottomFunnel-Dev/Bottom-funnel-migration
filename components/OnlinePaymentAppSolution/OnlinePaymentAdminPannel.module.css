@@ -53,6 +53,7 @@ height: fit-content;
 margin-top: 4%;
 padding-top: 7px;
 padding-left: 10px;
+font-size: 17px;
 }
 
 .onlinepaymentadminpannelaftermapping > svg {
@@ -61,14 +62,15 @@ margin-top: 3%;
 }
 
 .onlinepaymentadminpannelrightbox {
-height: 360px;
+height: 400px;
 width: 50%;
-background: url("/Images/onlinepaymentpage/Rectangle 4789.webp");
+background: url("/Images/onlinepaymentpage/ha/banner & backgrounds/Rectangle 34624101.webp");
 background-repeat: no-repeat;
 background-position-x: right;
 background-position-y: bottom;
 background-size: 100% 70%;
 margin-left: 5%;
+margin-top: 3%;
 }
 
 .onlinepaymentadminpannelrightboxchangerimages {

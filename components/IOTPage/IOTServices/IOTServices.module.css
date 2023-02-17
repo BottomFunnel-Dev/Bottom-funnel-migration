@@ -129,3 +129,151 @@ width: 20px;
 height: 20px;
 color: white;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .IOTServicesMain {
+        width: 100%;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        /* background-color: #ed0946; */
+        /* text-align: center; */
+        }
+        
+        .IOTServicesMain > h1 {
+        font-size: 30px;
+        margin: auto;
+        margin-bottom: 1%;
+        text-align: center;
+        width: 90%;
+        }
+        .IOTServicesMain > p {
+         text-align: justify;
+         margin: auto;
+         width: 90%;
+        }
+        
+        .IOTServicesHrLine {
+        width: 90%;
+        margin: auto;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        
+        .IOTServicesHrLine > div {
+        border: 2px solid #ed0946;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        }
+        
+        .IOTServicesHrLine > span {
+        width: 44%;
+        height: 2px;
+        background-color: #ed0946;
+        color: #ed0946;
+        }
+        
+        .IOTServicesMain > p {
+        font-size: 16px;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        }
+        
+        .IOTServicesContent {
+        width: 90%;
+        margin: auto;
+        
+        }
+        
+        .IOTServicesCotentOuterDiv {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding-bottom: 3%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+        }
+        .IOTServices-Content > div:last-child {
+        border-bottom: none;
+        }
+        .IOTServicesCardsContent {
+        width: 100%;
+       
+        text-align: center;
+        }
+        .IOTServicesCardsContent > h2 {
+        font-size: 25px;
+        font-weight: 500;
+        margin: auto;
+        margin-bottom: 2%;
+        }
+        .IOTServicesCardsContent > p {
+        font-size: 16px;
+        text-align: justify;
+        }
+        .IOTServicesCardsImages {
+        width: 90%;
+        margin: auto;
+        padding: 4px;
+        background-color: #ff8494;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+       
+        
+        .IOTServicesButton {
+        width: 340px;
+        height: fit-content;
+        margin: auto;
+        cursor: pointer;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        gap: 3%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 100px;
+        padding-left: 3%;
+        background: linear-gradient(to Right, #ee0a26 60%, #fa00ff);
+        }
+        .IOTServicesButton > h3 {
+        font-size: 18px;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 500;
+        }
+        .IOTServicesButton > div {
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        background: linear-gradient(to Bottom, #ee0a26, #fa00ff);
+        border-radius: 100px;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .IOTServicesButton > div > div {
+        width: fit-content;
+        height: fit-content;
+        background: linear-gradient(to Bottom, #fa00ff, #ee0a26);
+        padding: 5px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .IOTServicesButton > div > div > svg {
+        width: 20px;
+        height: 20px;
+        color: white;
+        }
+}

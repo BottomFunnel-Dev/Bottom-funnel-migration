@@ -8,7 +8,7 @@ export const Usercentric = () => {
 <div className={styles.usercentricMaindiv}>
     <div className={styles.usercentricContain} >
         <h1>User-centric and business-aligned solution</h1>
-        <p>We have developed  smatphone apps for several years and have now our Lorem ipsum dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt officiis a quibusdam similique fuga animi fugit corrupti! Reprehenderit, sed facere sapiente accusamus quis illo magni atque quas rerum. At, consequatur.</p>
+        <p>User-centric and business-aligned solutions are those that consider the needs, wants, and desires of both the business and its customers. These solutions are designed with the end user in mind, allowing users to achieve their goals efficiently and effectively. They are flexible, scalable, and easy to use, making them ideal for any type of organization.</p>
     </div>
 
 <div className={styles.userCentricStickercolum}>

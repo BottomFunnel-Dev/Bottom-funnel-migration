@@ -84,3 +84,71 @@ export const panelData = {
     },
   ],
 };
+
+export const whyChooseUsData = {
+  heading: "Why Choose Us",
+  cardData: [
+    {
+      image: "/Images/Educationp/icons/circle.webp",
+      title: "Agile Development Process",
+      description: "",
+    },
+    {
+      image: "/Images/Educationp/icons/files.webp",
+      title: "Data Security and Protection",
+      description: "",
+    },
+    {
+      image: "/Images/Educationp/icons/support.webp",
+      title: "Round the-clock support",
+      description: "",
+    },
+    {
+      image: "/Images/Educationp/icons/awards.webp",
+      title: "Quality development",
+      description: "",
+    },
+  ],
+};
+
+export const oursuiteData = {
+  heading: "Our Suite of Educational App Development Services",
+  cardsData: [
+    {
+      image: "/Images/Educationp/icons/building.webp",
+      title: "Corporate Training Apps",
+      description:
+        "Our education app development services consist of an easy-to-follow design concept for corporate learing apps. when we conbine our desings with clients' leared content, we are able to create a training module that helps the team hone their present skillset.",
+    },
+    {
+      image: "/Images/Educationp/icons/safari.webp",
+      title: "Induction and Orientation Apps",
+      description:
+        "Our education app development services consist of an easy-to-follow design concept for corporate learing apps. when we conbine our desings with clients' leared content, we are able to create a training module that helps the team hone their present skillset.",
+    },
+    {
+      image: "/Images/Educationp/icons/connect.webp",
+      title: "Employees Engagement Apps",
+      description:
+        "Our education app development services consist of an easy-to-follow design concept for corporate learing apps. when we conbine our desings with clients' leared content, we are able to create a training module that helps the team hone their present skillset.",
+    },
+    {
+      image: "/Images/Educationp/icons/video.webp",
+      title: "E2c eLearning App Development",
+      description:
+        "Our education app development services consist of an easy-to-follow design concept for corporate learing apps. when we conbine our desings with clients' leared content, we are able to create a training module that helps the team hone their present skillset.",
+    },
+    {
+      image: "/Images/Educationp/icons/learning.webp",
+      title: "On-demand eLearning Apps",
+      description:
+        "Our education app development services consist of an easy-to-follow design concept for corporate learing apps. when we conbine our desings with clients' leared content, we are able to create a training module that helps the team hone their present skillset.",
+    },
+    {
+      image: "/Images/Educationp/icons/connect.webp",
+      title: "Tuition Apps",
+      description:
+        "Our education app development services consist of an easy-to-follow design concept for corporate learing apps. when we conbine our desings with clients' leared content, we are able to create a training module that helps the team hone their present skillset.",
+    },
+  ],
+};

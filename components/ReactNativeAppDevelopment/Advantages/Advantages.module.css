@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     /* border: 2px solid blue; */
-    height: 57vh;
+    height: 65vh;
 
 
 }
@@ -11,7 +11,7 @@
     flex-direction: column;
     /* border: 2px solid yellow; */
      margin-left: 1%;
-    width: 40%;
+    width: 45%;
     margin-top: 3%;
 }
 .rnativeinnermaindiv41stdivbox{
@@ -39,7 +39,7 @@
     flex-direction: row;
     margin-left: 5%;
     margin-top: 3%;
-    /* width: 45%; */
+    width:50%;
 }
 .rn1stdivbox:hover{
     cursor: pointer;
@@ -59,14 +59,14 @@
 }
 .rnlogo{
     /* border: 2px solid pink ; */
-    width: 100px;
+    width: 180px;
     height: 50px;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 .stylesrnativeinnermaindiv42nddiv{
     border-left: 1px solid grey;
-    width: 60%;
+    width: 45%;
     margin: 2% 2% 2% 3%;
     padding: 5px 5px 5px 15px;
 }
@@ -126,7 +126,7 @@
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-left: 3%;
-    
+    width: 30%;
     margin-top: 2%;
     padding-top: 1%;
     padding-left: 1%;

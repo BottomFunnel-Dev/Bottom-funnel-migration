@@ -6,7 +6,7 @@ export const Pickupadmin = () => {
   let ToolDeliveryadmindata = [
     {
       img: {
-        src: "/Images/pickup/adminpanel/analyticinsights.png",
+        src: "/Images/pickup/switchscreens/Analytics & insights.webp",
         alt: "analytics Insights",
       },
 
@@ -21,7 +21,7 @@ export const Pickupadmin = () => {
 
     {
       img: {
-        src: "/Images/pickup/adminpanel/deliveryagents.png",
+        src: "/Images/pickup/switchscreens/Delivery Agents.webp",
         alt: "deliveryagents",
       },
 
@@ -35,7 +35,7 @@ export const Pickupadmin = () => {
 
     {
       img: {
-        src: "/Images/pickup/adminpanel/managepayment.png",
+        src: "/Images/pickup/switchscreens/Manage Payment.webp",
         alt: "Manage Payments image",
       },
 
@@ -49,7 +49,7 @@ export const Pickupadmin = () => {
 
     {
       img: {
-        src: "/Images/pickup/adminpanel/managecustomer.png",
+        src: "/Images/pickup/switchscreens/Manage customer.webp",
         alt: "manage Customer image",
       },
 

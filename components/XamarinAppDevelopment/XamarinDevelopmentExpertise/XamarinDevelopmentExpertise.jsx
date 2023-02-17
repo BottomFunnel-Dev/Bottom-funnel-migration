@@ -85,7 +85,8 @@ export const XamarinDevelopmentExpertise = () => {
         </div>
         <div className={styles.xamarinDevelopmentExpertiseContent}>
           <h1 className={styles.xamarinDevelopmentExpertiseContentHeading}>Xamarin App Development Expertise</h1>
-          <p className={styles.xamarinDevelopmentExpertiseContentText}>We have a team of experts who are adept at developing applications for all types of devices. Our experience spans over years, so you can be sure that your app will run smoothly on all platforms and devices. Don't think we're just experts in Android apps! We also have expertise in Apple development as well! As a result, you can expect 100% perfection from us every time.
+          <p className={styles.xamarinDevelopmentExpertiseContentText}>
+          Xamarin is a leading platform for developing mobile apps for iOS, Android, and other platforms. This expert Xamarin app development service offers a range of services to help you create high-quality apps with speed and efficiency. Our team of experts can help you build engaging mobile applications using Xamarin's powerful cross-platform tools and code base. We provide training and support to ensure that you learn the best techniques for building your app. As an Xamarin app development expert, we can also assist you with any technical issues or concerns you may have. So why not give us a try? Contact us today!
           </p>
           <button className={styles.xamarinDevelopmentExpertiseContentbutton}>Hire Xamarin App Developer</button>
         </div>

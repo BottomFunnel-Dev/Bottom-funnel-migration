@@ -52,8 +52,9 @@
 }
 
 .foodDeliveryExclusiveAppright > div:hover {
-  background-color: #e1f9f6;
+  background-color: #fac665;
   cursor: pointer;
+  color: white;
   /* margin-top: 0; */
   transition: all 0.2s linear;
   /* transform: scale(1.1); */

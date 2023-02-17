@@ -136,7 +136,7 @@ export const IOSAppDevelopmentPageCards = () => {
                             </div>
                             <h3> Maintenance & Support </h3>
                             <p>
-                                LWe offer personalized maintenance and support packages on top of our iOS development services that help you manage platform updates and ongoing version releases.
+                                We offer personalized maintenance and support packages on top of our iOS development services that help you manage platform updates and ongoing version releases.
                             </p>
                         </div>
                     </div>

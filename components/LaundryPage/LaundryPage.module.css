@@ -43,14 +43,19 @@
 
 .laundryapplicationtxtdiv {
   height: 150px;
-
   text-align: center;
   width: 70%;
   margin-left: 190px;
 }
 
+
 .laundryapplicationtxtdiv > h5 {
   color: green;
+}
+
+.laundryapplicationtxtdiv > h1 {
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .laundryapplicationflexbox {
@@ -161,17 +166,9 @@
   /* border: 1px solid red; */
   height: 45px;
   width: 45px;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 0%;
 }
-
-/* .laundryflexboxleftdivflexboxicon > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  padding: 5px;
-  margin-bottom: 0%;
-} */
 
 .laundryflexboxleftdivflexboxicontxt {
   /* border: 1px solid red;  */
@@ -225,17 +222,19 @@
 .laundryflexboxrightdiv {
   /* border: 1px solid red; */
   height: 580px;
-  margin-top: 9%;
+  margin-top: 15%;
   margin-left: 5%;
-  background: url("/Images/Laundrypage/backgrounds/Background2.png");
+  background: url("/Images/Laundrypage/backgrounds/Background3.png");
   background-repeat: no-repeat;
   background-position: bottom;
+  background-size: 100% 55%;
 }
 
 .laundryPageOuterDiv {
   /* border: 1px solid red; */
   width: 40%;
 }
+
 
 .laundryflexboxrightdiv > img {
   height: 100%;

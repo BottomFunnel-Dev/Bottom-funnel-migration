@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Image from "next/image";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { WhoWeAre } from "./WhoWeAre";
 import { ContactMain } from "../Contact/Contact";
@@ -175,8 +175,6 @@ const Navbar = () => {
             </button>
           </div>
         )}
-
-        
 
         {mobres && (
           <DropdownResp

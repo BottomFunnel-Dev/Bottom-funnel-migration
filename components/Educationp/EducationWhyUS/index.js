@@ -2,33 +2,15 @@ import Image from "next/image";
 import React from "react";
 import styles from "./EducationWhyUS.module.css";
 
-export default function EducationWhyUS() {
-  const cardData = [
-    {
-      image: "/Images/Educationp/icons/circle.webp",
-      title: "Agile Development Process",
-      description: "",
-    },
-    {
-      image: "/Images/Educationp/icons/files.webp",
-      title: "Data Security and Protection",
-      description: "",
-    },
-    {
-      image: "/Images/Educationp/icons/support.webp",
-      title: "Round the-clock support",
-      description: "",
-    },
-    {
-      image: "/Images/Educationp/icons/awards.webp",
-      title: "Quality development",
-      description: "",
-    },
-  ];
+export default function EducationWhyUS({ data, bgcolor }) {
+  const { heading, cardData } = data;
 
   return (
-    <div className={styles.EducationWhyUSContainer}>
-      <h1>Why choose us</h1>
+    <div
+      className={styles.EducationWhyUSContainer}
+      style={{ background: bgcolor ? bgcolor : "#fff" }}
+    >
+      <h1>{heading}</h1>
       <div>
         {cardData.map(({ image, title }) => (
           <div key={title} className={styles.EducationWhyUSCards}>

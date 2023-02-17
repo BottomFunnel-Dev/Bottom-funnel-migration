@@ -23,7 +23,7 @@
 }
 
 .groceryadminpannelmapperboxindivisyal {
-  height: 220px;
+  height: 250px;
   width: 42%;
   margin: 1%;
   padding: 10px;
@@ -32,9 +32,13 @@
 }
 
 .groceryadminpannelmapperboxindivisyal:hover {
-  transform: scale(1.02);
-  background-color: #ef2c00;
+  background-color: #f7ab97;
   color: white;
+  /* margin-top: 0; */
+  transition: all 0.2s linear;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .groceryamadminpannelrightbox {
@@ -42,14 +46,14 @@
   margin-left: 1%;
   margin-top: 3%;
   height: 480px;
+  background: url("/Images/grocery/backgrounds/Background2.png");
 }
 
 .groceryamadminpannelrightboxinnerimage {
-  height: 450px;
-  width: 95%;
-  margin: 0% 3% 3% 2%;
+  height: 400px;
+  width: 90%;
+  margin: 5% 3% 3% 5%;
 }
-
 
 .groceryadminpannelmapperboxindivisyal > div > h4 {
   font-size: 25px;
@@ -66,4 +70,17 @@
   font-weight: 400;
   line-height: 20px;
   vertical-align: baseline;
+}
+
+.groceruyCustomerappindivisualboxforlogo {
+  /* border: 1px solid red; */
+  height: 23%;
+  width: 18%;
+}
+
+.groceruyCustomerappindivisualboxforlogo > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 5px;
 }

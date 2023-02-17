@@ -67,7 +67,7 @@ export const MeatDeliveryAdmin = () => {
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
-                    style={{ width: "80%", height: "80%" ,marginLeft:"10%", marginTop:"7%" }}
+                    style={{ width: "80%", height: "80%" ,marginLeft:"10%", marginTop:"7%",objectFit:"contain" }}
                 />
             </div>
         </div>

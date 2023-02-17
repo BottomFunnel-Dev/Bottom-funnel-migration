@@ -137,7 +137,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
                   </div>
                   <Link
                     onClick={() => {
@@ -218,7 +217,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.servicetrendImageIconDivSection}
                 >
-                  <div >
+                  <div>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -340,7 +339,7 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                   }}
                   className={navservice.servicebackendimageIconDivSection}
                 >
-                  <div >
+                  <div>
                     <Image
                       src={item.navIcons}
                       alt={"image"}
@@ -349,8 +348,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
                       sizes={"100vw"}
                       style={{ width: "100%", height: "100%" }}
                     />
-
-                 
                   </div>
                   <Link
                     onClick={() => {

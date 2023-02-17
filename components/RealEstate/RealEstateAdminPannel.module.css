@@ -37,14 +37,19 @@ padding-top: 5%;
     margin-top: 5%;
 }
 
+.realestateiconadminpannel{
+  height: 17%;
+  width: 15%;
+  
+}
+
 .realstateadminpannelindidaat{
   height: 250px;
     width: 48%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     padding: 10px;
-  
-    border-radius: 10px;
+   border-radius: 10px;
 
 }
 

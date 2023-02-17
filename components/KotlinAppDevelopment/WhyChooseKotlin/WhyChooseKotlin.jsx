@@ -101,18 +101,9 @@ export const WhyChooseKotlin = () => {
           <p style={{
             textAlign:"justify"
           }} className={styles.whyChooseKotlinContentText}>
-            We Offer a full range of ionic app development solutions from
-            designing Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Laborum dicta inventore a quidem ipsum recusandae voluptatem,
-            similique, odit totam cupiditate perspiciatis animi ullam omnis
-            deserunt sequi dignissimos soluta hic voluptatum. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Quibusdam nesciunt quas
-            perspiciatis explicabo. Deleniti laborum adipisci dolores. Ullam ad
-            nam, repellendus officia mollitia, sunt fuga, magni nemo sint
-            accusantium debitis! Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Debitis deserunt, expedita unde ad numquam totam
-            maiores, quasi sequi iure vitae, dolorum aut amet tenetur! Id
-            similique fugiat quia voluptatem nisi?
+            Kotlin is a modern, functional programming language with strong support for object-oriented and functional programming principles. Kotlin is designed to improve the developer experience by providing features found in more advanced languages like Swift, such as safety, tooling, and flexibility. It is a great choice for developing high-quality, bug-free applications that are easy to maintain and scale.
+            One of the main reasons to choose Kotlin for app development is its safety features. Kotlin provides safer and clearer code thanks to its functional programming principles. It also has good support for Android development, making it a good choice for creating app 
+            development projects. Finally, Kotlin is a rapidly evolving language with new features being added regularly, making it an exciting choice for developers looking to keep up with the latest trends in app development.
           </p>
           <div className={styles.mobileappactionkotlinbuttondiv}>
           <button className={styles.mobileappactionkotlinbutton}>Hire Kotlin developer</button>

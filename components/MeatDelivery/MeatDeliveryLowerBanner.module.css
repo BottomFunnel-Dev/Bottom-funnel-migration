@@ -41,3 +41,56 @@ background-color:white;
 color:#EF4C23;
 
 }
+
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+.meatdeliverylowerbannermainboxes{
+height:100px;
+margin-bottom: 5%;
+margin-top: 5%;
+background: url("/Images/meatdelieveryapp/Rectangle 18123.webp");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ position: relative;
+
+}
+.meatdeliverylowerbannertextbox{
+height: fit-content;
+color: white;
+position: absolute;
+top: 13%;
+left: 12%;
+text-align: center;
+/* border: 1px solid red; */
+
+}
+.meatdeliverylowerbannertextbox>h2{
+font-size: 14px;
+}
+.meatdeliverylowerbanner{
+padding: 10px 10px;
+border-radius: 20px;
+width: fit-content;
+background-color: #EF4C23;
+color: white;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 10px;
+font-weight: 600;
+position: absolute;
+left: 20%;
+margin-top: 1%;
+}
+
+.meatdeliverylowerbanner:hover{
+background-color:white;
+color:#EF4C23;
+
+}
+
+
+}

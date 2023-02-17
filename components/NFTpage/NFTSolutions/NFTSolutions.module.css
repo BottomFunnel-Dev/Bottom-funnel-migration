@@ -52,3 +52,67 @@
   width: 80px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  .NFTSolutionsContainer {
+    width: 100%;
+    margin: 1% auto;
+    /* background-color: #ef4c23; */
+  }
+  
+  .NFTSolutionsContainer > h1 {
+    width: 90%;
+    font-size: 20px;
+    margin:  1% auto;
+    text-align: center;
+    /* border: 2px solid yellow; */
+
+  }
+  
+  .NFTSoluitonsMain {
+    width: 90%;
+    margin: auto;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .NFTSolutionsContainer > h1 {
+    font-size: 32px;
+    margin: 1% auto;
+  }
+  
+  .NFTSolutionsContainer > h1 > span {
+    color: #ef4c23;
+  }
+  
+  .NFTSoluitonsMain > div {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 2%;
+  
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .NFTSoluitonsMain > div > h2 {
+    font-size: 25px;
+    margin: 1% auto;
+  }
+  
+  .NFTSoluitonsMain > div > p {
+    font-size: 16px;
+    margin: 1% auto;
+    text-align: justify;
+  }
+  
+  .NFTSoluitonsMain > div > div {
+    height: 80px;
+    width: 80px;
+  }
+
+}
+

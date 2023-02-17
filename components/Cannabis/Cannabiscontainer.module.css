@@ -40,12 +40,12 @@
 
 .CannabisContainerAnimationDiv {
   position: absolute;
-  width: 50%;
+  width: 45%;
   right: 0%;
   top: 0%;
 }
 
 .cannabisContainerBannerAnimation {
   /* border: 1px solid red; */
-  width: 92%;
+  width: 100%;
 }
