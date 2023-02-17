@@ -80,3 +80,89 @@ height: 2px;
 background-color: #fff;
 color: #fff;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .NFTDevBannerMain {
+        height: 80vh;
+        padding-left: 0%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("/Images/NFTDevPhotos/banner.webp");
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 80px;
+        }
+        
+        .NFTDevBannerMain > h1 {
+        font-size: 32px;
+        width: 90%;
+        margin: auto;
+
+        
+        color: #f5f5f5;
+        }
+        
+        .NFTDevBannerMain > h1 > span {
+        color: #ef4c23;
+        }
+        
+        .NFTDevBannerMain > p {
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+       text-align: justify;
+        color: #f5f5f5;
+        }
+        
+        .NFTDevBannerMain > button {
+        font-size: 20px;
+        font-weight: 600;
+        height: fit-content;
+        width: fit-content;
+        margin:auto;
+        
+        background-color: #f5f5f5;
+        color: #ef4c23;
+        padding: 10px 50px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        
+        .NFTDevBannerMain > button:hover {
+        color: #f5f5f5;
+        background-color: #ef4c23;
+        }
+        
+        .NFTDevBannerHrLine {
+        width: 90%;
+        margin: auto;
+        /* margin-top: 1%; */
+        /* margin-bottom: 1%; */
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        
+        .NFTDevBannerHrLine > div {
+        border: 2px solid #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        }
+        
+        .NFTDevBannerHrLine > span {
+        width: 46%;
+        height: 2px;
+        background-color: #fff;
+        color: #fff;
+        }
+}

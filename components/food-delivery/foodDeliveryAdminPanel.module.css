@@ -2,6 +2,8 @@
   width: 100%;
   height: max-content;
   margin: 60px 0;
+  margin-bottom: 3%;
+  border: 1px solid black;
   /* background-color: aqua; */
 }
 

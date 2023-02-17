@@ -740,7 +740,7 @@ export const alcoholAdmin = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/AdminPannel/one.webp",
+        src: "/Images/AlcoholDelivery/AdminPannel/One.webp",
         alt: "Manage",
       },
 
@@ -803,7 +803,7 @@ export const alcoholPartner = {
   customerdata: [
     {
       img: {
-        src: "/Images/AlcoholDelivery/PartnerApp/one.webp",
+        src: "/Images/AlcoholDelivery/PartnerApp/One.webp",
         alt: "Discounts",
       },
       

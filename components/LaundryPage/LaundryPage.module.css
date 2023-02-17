@@ -43,14 +43,19 @@
 
 .laundryapplicationtxtdiv {
   height: 150px;
-
   text-align: center;
   width: 70%;
   margin-left: 190px;
 }
 
+
 .laundryapplicationtxtdiv > h5 {
   color: green;
+}
+
+.laundryapplicationtxtdiv > h1 {
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .laundryapplicationflexbox {
