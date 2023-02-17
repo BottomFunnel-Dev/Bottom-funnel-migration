@@ -15,28 +15,28 @@ export const TaxiBookingDriver = () => {
             images: "/Images/Taxibooking/driverscreen/Settings.webp",
             icon: "/Images/Taxibooking/icons/Component 135.webp",
             htxt: "Driver's Profile",
-            stxt: "Our professionals clarify requirements, prepare the estimations and conquer every required formality",
+            stxt: "Our professionals clarify requirements, prepare the estimations and conquer every required formality. Customers can easily go through the profile of the driver and check ratings, experience, cost, and many other things before booking a taxi.",
         },
 
         {
             images: "/Images/Taxibooking/driverscreen/Frame 2453.webp",
             icon: "/Images/Taxibooking/icons/Component 136.webp",
             htxt: "Daily Earning Reports",
-            stxt: "We get those professionals involved in your projects who have the precise skills to meet your project requirements.",
+            stxt: "We get those professionals involved in your projects who have the precise skills to meet your project requirements.you can generate revenue for your taxi business through the application in a effective manner.",
         },
 
         {
             images: "/Images/Taxibooking/driverscreen/My Wallet.webp",
             icon: "/Images/Taxibooking/icons/Component 138.webp",
             htxt: "Wallet Management",
-            stxt: "With our holistic and optimistic approach we go for improving processes so that your development is consistent with no bugs.",
+            stxt: "With our holistic and optimistic approach we go for improving processes so that your development is consistent with no bugs.The users of the taxi booking application will get multiple payment options. Users can use any mode of payment at their convenience.",
         },
 
         {
             images: "/Images/Taxibooking/driverscreen/Pickup location.webp",
             icon: "/Images/Taxibooking/icons/Component 137.webp",
             htxt: "Pickup Details",
-            stxt: "Once the needed requirements are fulfilled we get going with your product development and shape the scope of your project.",
+            stxt: "Once the needed requirements are fulfilled we get going with your product development and shape the scope of your project.eal-time location tracking is a feature that you would love to see in your taxi booking application. ",
         },
     ]
 

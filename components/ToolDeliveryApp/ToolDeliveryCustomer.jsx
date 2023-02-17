@@ -15,7 +15,7 @@ function ToolDeliveryCustomer() {
         alt: "Marketlogo",
       },
 
-      title: "Business Control",
+      title: "Easy App On-boarding",
       para: "Business control, or the ability to control various aspects of a business, is an important aspect of customer app development",
     },
 
@@ -28,7 +28,7 @@ function ToolDeliveryCustomer() {
         src: "/Images/tooldeliveryapp/Analytics & insights.webp",
         alt: "Product logo",
       },
-      title: "Reports & Analytics",
+      title: "Easy Checkout",
       para: "Reports & Analytics are tools that allow you to analyze and visualize data in order to make informed decisions.",
     },
     {
@@ -40,7 +40,7 @@ function ToolDeliveryCustomer() {
         src: "/Images/tooldeliveryapp/rupee.webp",
         alt: "Revenuelogo",
       },
-      title: "Manage Payments",
+      title: "Multiple Payment Option",
       para: "This is an online service that allows you to process credit card, bank transfer, and other forms of payment.",
     },
     {
@@ -52,7 +52,7 @@ function ToolDeliveryCustomer() {
         src: "/Images/tooldeliveryapp/manage customer.webp",
         alt: "Customer logo",
       },
-      title: "Manage Customer",
+      title: "Track Your Order",
       para: "This application allows a user to manage their orders for a specific user.",
     },
   ];

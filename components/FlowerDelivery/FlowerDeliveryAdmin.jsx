@@ -4,7 +4,7 @@ import styles from "./FlowerDeliveryAdmin.module.css";
 
 const FlowerDeliveryAdmin = () => {
   const [imageChange, setImageChange] = useState(
-    "/Images/Flowerdeliverypage/Businesscontrol.webp"
+    "/Images/Flowerdeliverypage/Business control.webp"
   );
 
   const handleImageChange = (imagepath) => {

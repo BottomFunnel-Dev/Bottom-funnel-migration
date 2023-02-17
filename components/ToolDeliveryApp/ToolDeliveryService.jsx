@@ -33,7 +33,7 @@ function ToolDeliveryService() {
 
               <p
                 style={{
-                  marginLeft: "27.5%",
+                  marginLeft: "22.5%",
                   marginTop: "0%",
                 }}
               >
@@ -59,7 +59,7 @@ function ToolDeliveryService() {
 
               <p
                 style={{
-                  marginLeft: "27.5%",
+                  marginLeft: "22.5%",
                 }}
               >
                 Less time spent in the ordering process means better user
@@ -84,7 +84,7 @@ function ToolDeliveryService() {
 
               <p
                 style={{
-                  marginLeft: "27.5%",
+                  marginLeft: "22.5%",
                 }}
               >
                 Use the app's in-built advanced analytics to see and analyze how
@@ -112,7 +112,7 @@ function ToolDeliveryService() {
 
               <p
                 style={{
-                  marginLeft: "27.5%",
+                  marginLeft: "22.5%",
                 }}
               >
                 Avoid messy ordering processes and long queues with our Pharmacy
@@ -137,7 +137,7 @@ function ToolDeliveryService() {
 
               <p
                 style={{
-                  marginLeft: "27.5%",
+                  marginLeft: "22.5%",
                 }}
               >
                 Make effective strategies by using features like Push
@@ -161,7 +161,7 @@ function ToolDeliveryService() {
               </div>
               <p
                 style={{
-                  marginLeft: "27.5%",
+                  marginLeft: "22.5%",
                 }}
               >
                 Provide your customer loyalty bonuses, introduce referrals and

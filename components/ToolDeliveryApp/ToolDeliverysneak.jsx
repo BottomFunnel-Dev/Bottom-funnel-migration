@@ -11,7 +11,7 @@ function ToolDeliverysneak() {
         </button>
         <div className={styles.tdtooldeliverysneakheading}>
           <h5> A SNEAK-PEEK OF OUR </h5>
-          <h3> Pharmacy Delivery App Solution </h3>
+          <h3> Tool Delivery App Solution </h3>
         </div>
       </div>
     </div>

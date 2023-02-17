@@ -39,8 +39,6 @@ export const MeatDeliveryPartnerApp = () => {
         },
     ]
 
-
-
     return (
         <div className={styles.meatdeliverypartnerappmainboxes}>
             <div className={styles.meatdeliverypartnerleftbox}>

@@ -125,7 +125,7 @@ export const agricultureAdmin = {
         alt: "image",
       },
       title: "Dashboard",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      para: " A good dashboard should have all the information you need at your fingertips, so you can quickly see what's going on and make decisions about the farm as a whole.",
     },
     {
       img: {
@@ -137,7 +137,7 @@ export const agricultureAdmin = {
         alt: "image",
       },
       title: "Reports & Analytics",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      para: "This is a great place to find in-depth reports and analytics on your farm's performance. You can view detailed information about the growth of your crops, water usage, fertilizer usage, and more.",
     },
     {
       img: {
@@ -149,7 +149,7 @@ export const agricultureAdmin = {
         alt: "Multiple Payment Option logo",
       },
       title: "Managing Order",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      para: "This is important because we want to ensure that the admin team has access to all the relevant information about our products and customers, without having to sift through a massive library of data.",
     },
     {
       img: {
@@ -161,7 +161,7 @@ export const agricultureAdmin = {
         alt: "image",
       },
       title: "Reviews Dashboard",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      para: "Reviews Dashboard is a tool that helps administrators keep track of all the reviews and feedback their app has received. It allows them to easily see how many people have downloaded the app.",
     },
   ],
 
