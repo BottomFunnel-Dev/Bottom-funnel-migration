@@ -16,9 +16,9 @@
 .groceryserviceflexingboxleftbox {
   height: 480px;
   width: 45%;
+  background: url("/Images/grocery/backgrounds/Background3.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position-y: bottom;
+  background-size: 90% 100%;
 }
 
 .groceryseryserviceleftboxinsiderupperimage {
@@ -53,7 +53,7 @@
 
 .groceryserviceindivisualbox:hover {
   transform: scale(1.02);
-  background-color: #ef3c00;
+  background-color: #f7ab97;
   color: white;
 }
 

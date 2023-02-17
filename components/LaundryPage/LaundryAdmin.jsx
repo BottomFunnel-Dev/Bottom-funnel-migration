@@ -61,7 +61,7 @@ const LaundryAdmin = () => {
                                             width={"0"}
                                             height={"0"}
                                             sizes={"100vw"}
-                                            style={{ width: "15%", height: "25%" }}
+                                            style={{ width: "15%", height: "20%" }}
                                         />
                                     </div>
 
@@ -74,15 +74,17 @@ const LaundryAdmin = () => {
                 </div>
             </div>
 
-            
+
             <div className={styles.laundryadminrightbox}>
-                <Image src={imageChange}
-                    alt={"images"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                />
+                <div className={styles.laundryadminImageDiv}>
+                    <Image src={imageChange}
+                        alt={"images"}
+                        width={"0"}
+                        height={"0"}
+                        sizes={"100vw"}
+                        style={{ width: "90%", height: "80%" }}
+                    />
+                </div>
             </div>
         </div>
     );

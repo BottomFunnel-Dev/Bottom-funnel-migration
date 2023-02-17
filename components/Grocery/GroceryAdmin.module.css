@@ -33,7 +33,7 @@
 
 .groceryadminpannelmapperboxindivisyal:hover {
   transform: scale(1.02);
-  background-color: #ef2c00;
+  background-color: #f7ab97;
   color: white;
 }
 
@@ -42,12 +42,13 @@
   margin-left: 1%;
   margin-top: 3%;
   height: 480px;
+  background: url("/Images/grocery/backgrounds/Background2.png");
 }
 
 .groceryamadminpannelrightboxinnerimage {
-  height: 450px;
-  width: 95%;
-  margin: 0% 3% 3% 2%;
+  height: 400px;
+  width: 90%;
+  margin: 5% 3% 3% 5%;
 }
 
 
