@@ -3,37 +3,37 @@ import styles from "./OnDemandCustomer.module.css";
 import Image from "next/image";
 
 export default function OnDemandCustomerSection() {
-    const [imageChange, setImageChange] = useState("/Images/newcannabispage/Customer screens/Component 116.png");
+    const [imageChange, setImageChange] = useState("/Images/ondemand/OnDemandSwitchScreens/Login.webp");
     const handleImageChange = (imagepath) => {
         setImageChange(() => imagepath);
     };
 
     const canabiescustomerappdata = [
         {
-            image: "/Images/newcannabispage/Customer screens/sign up.png",
+            image: "/Images/ondemand/OnDemandSwitchScreens/Login.webp",
             icon: "/Images/newcannabispage/icons/image 15.png",
             headertext: "Easy app onboarding",
             paragraph: "Customize this Canabbis App however you see fit with our powerful online app builder. You don’t need any design or coding experience fit with our powerful online app builder fit .",
         },
 
         {
-            image: "/Images/newcannabispage/Customer screens/Component 116.png",
+            image: "/Images/ondemand/OnDemandSwitchScreens/Simplicity In Searching.webp",
             icon: "/Images/newcannabispage/icons/image 16.png",
             headertext: "Browse By Categories",
             paragraph: "Cannabies is important to many people. They use it for more than eating and as a source of dessert. Many people like ice cream in cooking, like pancakes or cupcakes. Ice cream also provides a cooling sensation and can help digestion.",
         },
 
         {
-            image: "/Images/newcannabispage/Customer screens/messages.png",
+            image: "/Images/ondemand/OnDemandSwitchScreens/Easy To Contact.webp",
             icon: "/Images/newcannabispage/icons/image 18.png",
-            headertext: "In App Chat",
+            headertext: "Easy to Contact",
             paragraph: "Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience.",
         },
 
         {
-            image: "/Images/newcannabispage/Customer screens/order tracking.png",
+            image: "/Images/ondemand/OnDemandSwitchScreens/Easy to Schedule.webp",
             icon: "/Images/newcannabispage/icons/image 17.png",
-            headertext: "Track Order",
+            headertext: "Easy to Schedule",
             paragraph: "Better pricing doesn’t always have to be dropping your prices instantly. It’s somehow psychological in nature. There’s a subtle art to make it appear that you’re offering a better price without sacrificing your bottom-line.",
         },
     ];

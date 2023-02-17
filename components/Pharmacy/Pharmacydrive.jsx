@@ -14,7 +14,7 @@ export default function Pharmacydrive() {
         alt: " registerlogo",
       },
       title: "Accept/Reject Request",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Drivers are responsible for deciding when it's best to accept a ride and when it's best to decline one.",
     },
 
     {
@@ -28,7 +28,7 @@ export default function Pharmacydrive() {
         alt: "notification logo",
       },
       title: "Notification",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "We want to notify drivers when orders are ready to be picked up or delivered. ",
     },
 
     {
@@ -42,7 +42,7 @@ export default function Pharmacydrive() {
         alt: "order",
       },
       title: "Get order Details",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "Drivers can easily get the details of their orders by simply logging in to their account and accessing their order history.",
 
     },
 
@@ -57,7 +57,7 @@ export default function Pharmacydrive() {
         alt: "Navigationimage",
       },
       title: "Navigation",
-      para: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum dicta reiciendis odit nostrum! Dolorum, obcaecati similique at officia fugiat, dolorem eaque illo numquam explicabo ad dignissimos  ",
+      para: "With this feature, you can easily find the products and services you need, no matter where you are.",
     },
 
   ];
@@ -86,7 +86,7 @@ export default function Pharmacydrive() {
         </div>
 
         <div className={styles.pharmacydriveright}>
-          {pharmacydrivedata.map(({ title, icon }, idx) => {
+          {pharmacydrivedata.map(({ title, icon, para }, idx) => {
             return (
               <div
                 key={title}
@@ -107,7 +107,7 @@ export default function Pharmacydrive() {
                 <h3> {title} </h3>
 
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, quis eum ev
+                  {para}
                 </p>
               </div>
             );
