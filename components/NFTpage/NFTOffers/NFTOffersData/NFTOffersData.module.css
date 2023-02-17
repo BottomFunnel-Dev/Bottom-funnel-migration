@@ -56,3 +56,66 @@
 .NFTOffersDataContainer>.NFTOffersDataImage{
   width: 45%;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  .NFTOffersDataContainer {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .NFTOffersDataContainer > div {
+    width: 100%;
+    margin-top: 2%;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .NFTOffersDataContainer > div > h1 {
+    font-size: 32px;
+    margin: 1% auto;
+    width: 100%;
+  }
+  
+  .NFTOffersDataContainer > div > p {
+    font-size: 16px;
+    width: 100%;
+    height: fit-content;
+    text-align: justify;
+    margin: 1% auto;
+  }
+  
+  .NFTOffersDataContainer > div > button {
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 10px 50px;
+    background-color: #ef4c23;
+    color: white;
+    cursor: pointer;
+    margin-top: 4%;
+  
+    border: 2px solid #ef4c23;
+    border-radius: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .NFTOffersDataContainer > div > button:hover {
+    color: #ef4c23;
+    background: white;
+  }
+  
+  .NFTOffersDataContainer>.NFTOffersDataImage{
+    width: 90%;
+  }
+}

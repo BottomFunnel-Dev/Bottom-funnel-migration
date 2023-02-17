@@ -63,3 +63,71 @@ height: 2px;
 background-color: #fff;
 color: #fff;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .IOTBannerMain {
+        height: 100vh;
+        padding-left: 5%;
+        background: url("/Images/IOTPhotos/banner.webp");
+        background-size: 110%;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .IOTBannerMain > h1 {
+        font-size: 40px;
+        width: 70%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        color: whitesmoke;
+        }
+        .IOTBannerMain > p {
+        font-size: 20px;
+        width: 70%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        color: whitesmoke;
+        }
+        .IOTBannerMain > button {
+        font-size: 18px;
+        font-weight: 600;
+        height: fit-content;
+        width: fit-content;
+        margin-top: 1%;
+        background-color: white;
+        color: #ed0926;
+        padding: 10px 50px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .IOTBannerMain > button:hover {
+        color: white;
+        background-color: #ed0926;
+        }
+        .IOTBannerHrLine {
+        width: 30%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .IOTBannerHrLine > div {
+        border: 2px solid #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        }
+        .IOTBannerHrLine > span {
+        width: 46%;
+        height: 2px;
+        background-color: #fff;
+        color: #fff;
+        }
+}
