@@ -13,24 +13,28 @@ margin-top: 80px;
 }
 .bg1banner{
     /* border: 2px solid red; */
-    align-self: flex-end;
+    /* align-self: flex-start; */
     width: 50%;
-    /* height: 90vh; */
-    background: url("/Images/AndriodDevImages/bg1.png");
+    height: 90vh;
+    background: url("/Images/AndriodDevImages/bgbox/bg1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-left: 15%;
+    padding-top:3% ;
 }
 .androidIcon{
   /* border: 2px solid yellow; */
-height: 85%;
-/* width: 40%; */
-margin-top: -12%;
+
+width: 80%;
+margin-top: 5%;
+margin-left: 10%;
+
 }
 .andriodAppDevbannermainboxinnertextdiv {
- width: 40%;
- margin-top: 12%;
- margin-left: 5%;
+ width: 38%;
+ margin-top: 11%;
+ margin-left: 7%;
 text-align: left;
 }
 .andriodAppDevbannermainboxinnertextdiv > h1 {

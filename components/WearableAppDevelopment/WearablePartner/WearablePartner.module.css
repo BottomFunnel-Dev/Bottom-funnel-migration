@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   /* border: 2px solid blue; */
-  height: 60vh;
+  height: 50vh;
   margin-bottom: 5%;
 }
 
@@ -77,12 +77,30 @@
   width: 50px;
   height: 50px;
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-  margin-top: 7%;
+  /* margin-top: 7%; */
 }
 
 .wearablelogoimg {
   /* width: 100%; */
   height: 100%;
+}
+.wearableinnermaindiv4SecondDivbtns{
+  border: 1px solid #3280f2;
+  width: 260px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  color: #3280f2;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+.wearableinnermaindiv4SecondDivbtns:hover{
+  background: #3280f2;
+  color: white;
+
 }
 
 
@@ -93,7 +111,7 @@
   display: flex;
   flex-direction: column;
 
-  background: url("/public/Images/wearable/Rectangle 4559.webp");
+  background: url("/Images/wearable/Rectangle 4559.webp");
   background-size: 100% 50%;
   background-position: center;
   /* margin-top: 5%; */
@@ -165,7 +183,8 @@ padding: 10px;
   justify-content: left;
   text-align: left;
   width: 70%;
-  margin-left: 3%;
+ margin: auto;
+ margin-left: 5%;
 }
 
 .wearableheading>p{
@@ -179,21 +198,19 @@ padding: 10px;
   height: fit-content;
 }
 .wearablePathImg {
-  width: 30%;
+  width: 40%;
   /* border: 2px solid black; */
   object-fit: cover;
   background-size: cover;
 }
 
-.wearablePathImgdiv {
-  width: 100%;
-  height: 100%;
-}
+
 
 .wearableheading p {
   /* margin-top: 4%; */
   font-size: 16px;
   /* border: 2px solid red; */
+  margin-top: 1%;
 }
 
 .wearableheading h1 {
@@ -420,7 +437,7 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearableheading {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     justify-content: left;
     text-align: center;
     width: 95%;
@@ -428,7 +445,7 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearablepath {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -450,7 +467,7 @@ padding: 5px 5px 5px 5px;
     /* margin-top: 4%; */
     font-size: 16px;
     text-align: justify;
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
   
   .wearableheading h1 {
