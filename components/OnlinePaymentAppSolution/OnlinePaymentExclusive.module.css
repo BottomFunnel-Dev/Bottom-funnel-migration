@@ -25,6 +25,7 @@
 
 .onlinepaymentexclusivemappingboxindivisually {
   width: 29%;
+height: 300px;
   margin: 1%;
   transition: 0.2s ease-in-out;
   text-align: justify;
@@ -34,13 +35,14 @@
 }
 
 .onlinepaymentexclusivemappingboxindivisually:hover {
-  transform: scale(1.02);
-  background-color: #ceb8f3;
+ transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #F9EDF9;
 }
 
 .onlinepaymentexclusivemappingboxindivisuallyforlogo {
-  height: 30%;
-  width: 30%;
+  height: 20%;
+  width: 20%;
   padding: 10px;
 }
 

@@ -25,7 +25,7 @@ export default function OnlinePaymentApplication() {
 
       <main>
         <OnlinePaymentAppSolutionBanner />
-        {/* <OnlinePaymentExclusive /> */}
+        <OnlinePaymentExclusive /> 
         <OnlinePaymentApplications />
         <OnlinePaymentAdminPannel />
         <OnlinePMobileBrowser />
