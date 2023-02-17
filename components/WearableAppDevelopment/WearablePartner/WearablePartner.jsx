@@ -219,6 +219,7 @@ export const WearablePartner = () => {
                }}>
                   With every passing year, wearable technology is getting more and more ubiquitous. We have the expertise to cover the different spectrum of wearables according to your custom needs and requirements. You can trust our wearable app developers to assist you with highly functional and user-friendly applications that will give you the results you have in your mind.
                </p>
+               <button className={styles.wearableinnermaindiv4SecondDivbtns}>Hire Wearable App Developer</button>
             </div>
          </div>
       </div>

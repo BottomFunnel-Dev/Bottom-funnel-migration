@@ -54,7 +54,6 @@ export const FlowerDeliveryService = () => {
           Expand Your Flower Business With A Flower Delivery Service App Solution
         </p>
       </div>
-
       <div className={styles.flowerdeliveryservicebackgroundimagebox}>
         {flowerdeliveryservicedata.map((el) => {
           return (

@@ -1,6 +1,6 @@
 .realestatedriverboxmain{
     height: fit-content;
-background-color: white;
+    background-color: white;
     display: flex;
 }
 
@@ -14,7 +14,6 @@ background-color: white;
     height: fit-content;
     width: fit-content;
     margin-left: 2%;
-  
 }
 .realestatedrivermappingmainbox{
     display: flex;
@@ -68,3 +67,95 @@ background-color: white;
     width: 100%;
     object-fit: contain;
 }
+
+/* for any type of mobile screen responsive */
+
+@media only screen and (min-width:0px) and (max-width:480px){
+   
+    .realestatedriverboxmain{
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        /* border: 2px solid red; */
+        position: relative;
+        margin-top: 5%;
+    }
+    
+    .realestatedriverleftbox{
+        width:100%;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+    
+    .realstatedriverappleftboxsometextupper{
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+        top: 0;
+        margin-left: 20%;
+    }
+
+.realstatedriverappleftboxsometextupper>h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+    .realestatedrivermappingmainbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .realestatedrivermappingmainbox{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3%;
+    }
+    
+    .realstatemapperdriverindivisuallybox{
+        width: 90%;
+       max-height: max-content;
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 5%;
+        margin-left: 3%;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    .realstatemapperdriverindivisuallybox:hover{
+        transition: all 0.2s linear;
+    
+        transform: translateY(-10px);
+         background-color: #f4edcb;
+    }
+    
+    .realestatedriverrightbox{
+        height: fit-content;
+        width: 100%;
+        margin-top: 7%;
+        margin-left: 3%;
+        background: url("/Images/RealEstate/Backgrounds/Rectangle 146.webp");
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        background-position-y: center;
+        background-position-x: right;
+    }
+    
+    .realestatedriverapprightboxformobile{
+        height: 25%;
+        width: 30%;
+    
+        margin: 4% 0% 3% 25%;
+    }
+    
+    .realestatedriverapprightboxformobile >img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+
+    }

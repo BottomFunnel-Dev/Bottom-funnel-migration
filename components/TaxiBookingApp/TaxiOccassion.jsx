@@ -39,7 +39,7 @@ export const TaxiOccassion = () => {
                       style={{ width: "100%", height: "100%" }}
                     />{" "}
                   </div>
-                  <p> AC Cabs </p>
+                  <p> AC Cabs</p>
                 </div>
 
                 <div>

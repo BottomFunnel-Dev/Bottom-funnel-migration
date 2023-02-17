@@ -1,13 +1,11 @@
 .fintechsolutiondriverappmainbox {
   position: relative;
-
 }
 
 .fintechdriverappboxfortext {
   position: absolute;
   right: 16%;
   width: 40%;
-
 }
 
 .fintedriverappfelxingboxupper {
@@ -17,8 +15,7 @@
 .fintedriverappfelxingboxupperleft {
   height: 500px;
   width: 40%;
-
-margin-top: 3%;
+  margin-top: 3%;
   background: url("/Images/fintechsolutionpage/Rectangle 4789.webp");
   background-size: contain;
   background-position-y: bottom;
@@ -61,7 +58,8 @@ margin-top: 5%;
 }
 
 .fintechdriverappboxesaftermapping:hover {
-  transform: scale(1.02);
+  transition: all 0.2s linear;
+transform: translateY(-10px);
   background-color: #bed0f1;
 }
 

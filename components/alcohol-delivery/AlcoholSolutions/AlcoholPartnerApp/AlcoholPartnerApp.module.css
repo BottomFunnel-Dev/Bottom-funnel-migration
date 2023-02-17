@@ -28,6 +28,9 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   background: url("/Images/AlcoholDelivery/backgrounds/Background2.png");
+  background-size: 100% 45%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .alcoholPartnerright {

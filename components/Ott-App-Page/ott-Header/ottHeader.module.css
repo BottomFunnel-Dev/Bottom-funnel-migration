@@ -25,7 +25,7 @@
 }
 
 .ottHeaderLeftTextDiv > p {
-  font-size: 20px;
+text-align: justify;
   width: 90%;
   color: white;
 }
@@ -150,12 +150,13 @@
 }
 
 .ottServicesDivForFlexIconHead > div > img {
-  width: 70%;
+  width: 60%;
   margin-top: 10%;
+  padding: 10px;
 }
 
-.ottServicesDivForFlexIconHead > h3 {
-  font-size: 29px;
+.ottServicesDivForFlexIconHead > h5 {
+  font-size: 22px;
   font-weight: 600;
   text-align: center;
   margin: 2% auto;

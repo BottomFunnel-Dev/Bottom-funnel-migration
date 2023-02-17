@@ -1,18 +1,14 @@
 .eCommerceAdminMain {
   height: fit-content;
-  width: 95%;
   margin: 5% auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .eCommerceAdminCardsMain {
-  width: 65%;
-}
-
-.eCommerceAdminCardsMain>div>h2 {
-  color: #ef4c23;
+  width: 43%;
+  margin-left: 3%;
 }
 
 .eCommerceAdminCardsMain>div>div {
@@ -25,11 +21,12 @@
 }
 
 .eCommerceAdminPanelCards {
-  width: 31%;
+  width: 45%;
 }
 
 .eCommerceAdminPanelCardsLogo {
-  height: 50px;
+  height: 30px;
+  width: fit-content;
   margin-left: 10px;
   z-index: 4;
 }
@@ -39,25 +36,38 @@
 }
 
 .eCommerceAdminPanelCardsContent {
-  background-color: #ffe6df;
-  height: 40%;
   padding: 10px;
-  padding-top: 30px;
-  margin-top: -25px;
   border-radius: 10px;
-
+  transition: transform 200ms linear;
   z-index: 0;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.eCommerceAdminPanelCardsContent:hover {
+  background-color: #ffe6df;
+  transform: translateY(-5%);
 }
 
 .eCommerceAdminPanelCardsContent>p {
   font-size: 16px;
 }
 
+.eCommerceAdminPanelCardsContent>div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .eCommerceAdminImagesMain {
   position: relative;
-  width: 40%;
-  height: 550px;
+  width: 55%;
+  height: 510px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .eCommerceAdminImagesMain>div {
@@ -71,16 +81,17 @@
 
 .eCommerceAdminImagesMain>div:nth-child(1) {
   height: 100%;
-  margin-left: 10%;
+  width: 80%;
+  right: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: linear-gradient(to bottom right, #ef4c23, #fed200);
 }
 
 .eCommerceAdminImagesMain>div:nth-child(2) {
-  height: 85%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  height: fit-content;
   z-index: 4;
-  width: 100%;
+  width: 90%;
 }
 
 /* media query for mobile and tablet devices */

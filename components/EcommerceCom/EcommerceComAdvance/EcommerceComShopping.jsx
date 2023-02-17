@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComShopping.module.css";
 
-export const EcommerceComShopping = () => {
+export default function EcommerceComShopping() {
   let shoppingAppData = {
     backgroundImage: {
       src: "/Images/EcommercePhotos/background-yellow.webp",
@@ -15,7 +15,7 @@ export const EcommerceComShopping = () => {
     cardsData: [
       {
         image: {
-          src: "/Images/EcommercePhotos/one.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -24,7 +24,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/two.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "user-friendly interface logo",
         },
         description:
@@ -33,7 +33,7 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/three.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "Order food and track their service logo",
         },
         description:
@@ -42,30 +42,12 @@ export const EcommerceComShopping = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/four.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
           "We  provides a platform for vendors to manage their customers' orders and transactions in real time. With features like intelligent customer support, organization tools, and analytics.",
         title: "Order Management",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/five.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "It is important to have a user-friendly catalogue that makes sure that all information is displayed clearly. With our easy-to-use interface, you will be able to customize it as per your requirements.",
-        title: "Manage Catalogue",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/six.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "We've got you covered with alerts that tell you when your favorite products are on sale, or which new arrivals have arrived in the store. With us you'll be prepared for every situation and know how to keep your customers happy!",
-        title: "Notifications & Alerts",
       },
     ],
   };
@@ -73,28 +55,16 @@ export const EcommerceComShopping = () => {
   return (
     <div className={styles.eCommerceShoppingMain}>
       <div className={styles.eCommerceShoppingImagesMain}>
+        <div></div>
         <div>
           <Image
-          src={shoppingAppData.backgroundImage.src}
-          alt={shoppingAppData.backgroundImage.alt}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" ,  zIndex: "1"  }}
-        />
-        </div>
-        <div>
-      
-      <Image
-          src={shoppingAppData.mainImage.src}
-          alt={shoppingAppData.mainImage.alt}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" ,  zIndex: "4" }}
-        />
-
-
+            src={shoppingAppData.mainImage.src}
+            alt={shoppingAppData.mainImage.alt}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%", zIndex: "4" }}
+          />
         </div>
       </div>
       <div className={styles.eCommerceVendorPanelCardsMain}>
@@ -105,20 +75,20 @@ export const EcommerceComShopping = () => {
               ({ description, image, title }, idx) => {
                 return (
                   <div className={styles.eCommerceVendorPanelCards} key={idx}>
-                    <div className={styles.eCommerceVendorPanelCardsLogo}>
-                      
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      width={"0"}
-                      height={"0"}
-                      sizes={"100vw"}
-                      style={{ width: "10%", height: "100%" }}
-                    />
-
-                    </div>
                     <div className={styles.eCommerceVendorPanelCardsContent}>
-                      <h5>{title}</h5>
+                      <div>
+                        <div className={styles.eCommerceVendorPanelCardsLogo}>
+                          <Image
+                            src={image.src}
+                            alt={image.alt}
+                            width={"0"}
+                            height={"0"}
+                            sizes={"100vw"}
+                            style={{ width: "100%", height: "100%" }}
+                          />
+                        </div>
+                        <h5>{title}</h5>
+                      </div>
                       <p>{description}</p>
                     </div>
                   </div>
@@ -130,4 +100,4 @@ export const EcommerceComShopping = () => {
       </div>
     </div>
   );
-};
+}

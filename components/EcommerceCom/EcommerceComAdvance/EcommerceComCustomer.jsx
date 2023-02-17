@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./EcommerceComCustomer.module.css";
 
-export const EcommerceComCustomer = () => {
+export default function EcommerceComCustomer() {
   let customerAppData = {
     backgroundImage: {
       src: "/Images/EcommercePhotos/background-orange.webp",
@@ -15,7 +15,7 @@ export const EcommerceComCustomer = () => {
     cardsData: [
       {
         image: {
-          src: "/Images/EcommercePhotos/one.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "can be easily accessed through both android/ios",
         },
         description:
@@ -24,7 +24,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/two.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "user-friendly interface logo",
         },
         description:
@@ -33,7 +33,7 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/three.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "Order food and track their service logo",
         },
         description:
@@ -42,30 +42,12 @@ export const EcommerceComCustomer = () => {
       },
       {
         image: {
-          src: "/Images/EcommercePhotos/four.webp",
+          src: "/Images/EcommercePhotos/icons/checkmark.webp",
           alt: "Smart search and add-to-your-favorites list logo",
         },
         description:
           "Push notification is easy to integrate and will help turn visitors into buyers. Make sure that all visitors are informed about new products and promotions available at the store they like most.",
         title: "Push Notification",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/five.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "With our simple registration process, you can create an account in no time and start engaging with your users. We offer end-to-end solutions that ensure a smooth user experience.",
-        title: "Simple Registration Process",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/six.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "We understand how important it is for you to have an easy-to-navigate ecommerce website, that is why we offers comprehensive solutions for both beginners and professional web developers.",
-        title: "Super Navigation",
       },
     ],
   };
@@ -75,11 +57,9 @@ export const EcommerceComCustomer = () => {
       <h1>
         SOLUTIONS FOR YOUR <span> E-COMMERCE APP </span>
       </h1>
-
       <div className={styles.eCommerceCustomerMain}>
         <div className={styles.eCommerceCustomerImagesMain}>
           <div></div>
-
           <div>
             <Image
               src={customerAppData.mainImage.src}
@@ -91,28 +71,31 @@ export const EcommerceComCustomer = () => {
             />
           </div>
         </div>
-
         <div className={styles.eCommerceCustomerAppCardsMain}>
           <div>
             <h2>Customer app</h2>
             <div>
               {customerAppData.cardsData.map(
-                ({ description, image, title }, idx) => {
+                ({ description, image, title }) => {
                   return (
-                    <div className={styles.eCommerceCustomerAppCards} key={idx}>
-                      <div className={styles.eCommerceCustomerAppCardsLogo}>
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          width={"0"}
-                          height={"0"}
-                          sizes={"100vw"}
-                          style={{ width: "100%", height: "100%" }}
-                        />
-                      </div>
-
+                    <div
+                      key={title}
+                      className={styles.eCommerceCustomerAppCards}
+                    >
                       <div className={styles.eCommerceCustomerAppCardsContent}>
-                        <h5>{title}</h5>
+                        <div>
+                          <div className={styles.eCommerceCustomerAppCardsLogo}>
+                            <Image
+                              src={image.src}
+                              alt={image.alt}
+                              width={"0"}
+                              height={"0"}
+                              sizes={"100vw"}
+                              style={{ width: "100%", height: "100%" }}
+                            />
+                          </div>
+                          <h5>{title}</h5>
+                        </div>
                         <p>{description}</p>
                       </div>
                     </div>
@@ -125,4 +108,4 @@ export const EcommerceComCustomer = () => {
       </div>
     </div>
   );
-};
+}

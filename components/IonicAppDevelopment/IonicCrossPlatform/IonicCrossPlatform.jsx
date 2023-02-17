@@ -13,6 +13,8 @@ export const IonicCrossPlatform = () => {
                         Ionic is an open-source framework which helps in building Hybrid Mobile Apps. It is one of the recent frameworks to build engaging cross-platform mobile apps with a native feel. As a leading Ionic app development company, Nimblechapps develops innovative solutions that are suited for your business needs.
                         We have built a number of cross-platform apps for our partners with proven Agile methodologies. Our services are meant to deliver smart solutions with cutting-edge technology.
                     </p>
+                    <button className={styles.IonicCrossPlatformbtns}>Hire Ionic Developer</button>
+
                 </div>
                 <div className={styles.ionicCrossPlatformContentScroller}>
                     <div className={styles.ionicCrossPlatformContentScrollerDiv}>

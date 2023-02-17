@@ -83,7 +83,7 @@ export const FintechDriverApp = () => {
                 </div>
 
                 <div className={styles.txtdriverappfintech}>
-                  <h4> {e.htxt} </h4>
+                  <h5> {e.htxt} </h5>
                   <p> {e.stxt} </p>
                 </div>
               </div>

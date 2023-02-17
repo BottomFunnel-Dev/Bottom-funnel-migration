@@ -227,43 +227,43 @@ export const foodDeliveryDrive = {
   fooddeliverydrivedata: [
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/Login.webp",
+        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface.webp",
         alt: "Register image",
       },
       icon: {
         src: "/Images/PlantBasedMeat/icons/prototyping-8.png",
         alt: "image",
       },
-      title: "Can be easily accessed through both android/iOS",
+      title: "User friendly interface",
       para: "It is a cross platform application which gives ease to customer of accessing it through both android and iOS.",
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-1.webp",
+        src: "/Images/foodDeliveryphotos/switchscreens/Menu category and Order Managerment.webp",
         alt: "Schedule",
       },
-       icon: {
+      icon: {
         src: "/Images/PlantBasedMeat/icons/prototyping-4.png",
         alt: "Schedule logo",
       },
-      title: "User-friendly interface",
+      title: "Manage every information in one Place",
       para: "It has easy to understand templates and customisable app designs to give the customer comfort of use.",
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface-2.webp",
+        src: "/Images/foodDeliveryphotos/switchscreens/Manage Offers & Discounts.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
         src: "/Images/PlantBasedMeat/icons/prototyping-9.png",
         alt: "image",
       },
-      title: "Order food and track their service",
+      title: "Manage Offers and Discounts",
       para: "Customers can easily order their favourite food and track when the food will get prepared and delivered.",
     },
     {
       img: {
-        src: "/Images/foodDeliveryphotos/switchscreens/User-friendly interface.webp",
+        src: "/Images/foodDeliveryphotos/switchscreens/Custom Alerts.webp",
         alt: "Track Order image",
       },
       icon: {
@@ -717,6 +717,12 @@ export const alcoholAdmin = {
         src: "/Images/AlcoholDelivery/AdminPannel/one.webp",
         alt: "Manage",
       },
+
+      icon: {
+        src: "/Images/newcannabispage/icons/Task Completed.png",
+        alt: " image",
+      },
+
       title: "Manage everything in one place",
       para: "This feature allows admin to manage all their activites through this app only, i.e, from one place or screen",
     },
@@ -725,6 +731,12 @@ export const alcoholAdmin = {
         src: "/Images/AlcoholDelivery/AdminPannel/Two.webp",
         alt: "Info",
       },
+
+      icon: {
+        src: "/Images/newcannabispage/icons/Task Completed-1.png",
+        alt: "image",
+      },
+
       title: "Gather information about customer preferences",
       para: "The admin will be able to check which products the customers are liking the most and what's generating highest profits.",
     },
@@ -733,6 +745,12 @@ export const alcoholAdmin = {
         src: "/Images/AlcoholDelivery/AdminPannel/Three.webp",
         alt: "OrderFood",
       },
+
+      icon: {
+        src: "/Images/newcannabispage/icons/Card Payment.png",
+        alt: "image",
+      },
+
       title: "Generate profit reports and draw insights",
       para: "This feature will generate profit and sales report so that the admin can draw fruitful insights out or it and work on it.",
     },
@@ -742,6 +760,12 @@ export const alcoholAdmin = {
         src: "/Images/AlcoholDelivery/AdminPannel/Four.webp",
         alt: "features",
       },
+
+      icon: {
+        src: "/Images/newcannabispage/icons/Track Order.png",
+        alt: "image",
+      },
+
       title: "Various CRM features",
       para: "These customer relationship management features for admin panel will help the admin in improving relationship with their customers.",
     },

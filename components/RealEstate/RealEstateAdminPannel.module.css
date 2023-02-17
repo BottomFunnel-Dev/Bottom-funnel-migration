@@ -72,3 +72,95 @@ transition: all 0.2s linear;
     width: 100%;
     object-fit: contain;
 }
+
+
+@media only screen and (min-width:0px) and (max-width:480px){
+
+.realestateadminpannelmainboxes{
+    height: fit-content;
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+   
+}
+
+.realestateadminleftbox{
+    height: fit-content;
+    width: 100%;
+    margin-top: 10%;
+    background: url("/Images/RealEstate/Backgrounds/Rectangle 145.webp");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+position: relative;
+}
+
+.realestateadminrightbox{
+    height: fit-content;
+    width: 100%;
+    margin-right: 3%;
+}
+
+.realestateuppertextforleftboxadmin{
+    height: fit-content;
+    width: fit-content;
+  position: absolute;
+  margin-top: -68%;
+  margin-left: 25%;
+}
+
+.realestateuppertextforleftboxadmin>h2{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.realestaterightboxmappingmainbox{
+    height: fit-content;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.realstateadminpannelindidaat{
+  max-height: max-content;
+    width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 7%;
+    margin-top: 5%;
+    padding: 10px;
+  
+    border-radius: 10px;
+
+}
+
+.realstateadminpannelindidaat p{
+    text-align: justify;
+}
+
+.realstateadminpannelindidaat:hover{
+transition: all 0.2s linear;
+
+  transform: translateY(-10px);
+  background-color: #f4edcb;
+}
+
+
+.realestateadminleftinsiderimageupper{
+    height: 80%;
+    width: 80%;
+
+    margin-left: 5%;
+}
+
+.realestateadminleftinsiderimageupper>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+}

@@ -51,7 +51,7 @@ export default function OttAdminPannel() {
               //   handleImageChange(e.img);
               // }}
             >
-              <h3>{e.head}</h3>
+              <h5>{e.head}</h5>
               <p>{e.para}</p>
             </div>
           );
