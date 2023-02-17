@@ -14,16 +14,21 @@
 }
 
 .realestatebannersometext {
-  width: 35%;
+  width: 40%;
   height: fit-content;
   margin: 12% 0% 0% 5%;
   color: black;
 }
 
 .realestatebannersometext > h1 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 40px;
 }
+
+.realestatebannersometext > h1>span{
+  color: #ef4c23;
+}
+
 
 .realestatebannersomeimages {
   width: 18%;

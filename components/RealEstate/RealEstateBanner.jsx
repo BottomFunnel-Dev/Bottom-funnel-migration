@@ -23,7 +23,7 @@ export const RealEstateBanner = () => {
     <div className={styles.realestatebannermainbox}>
       <div className={styles.realestatebannersometextandimages}>
         <div className={styles.realestatebannersometext}>
-          <h1> Find Your Most Comfortable Place </h1>
+          <h1> Find Your Most<span> Comfortable Place</span> </h1>
           <p>
             find a vanity of properties that suit you very easily forget all
             dificulties in finding a residence for you
