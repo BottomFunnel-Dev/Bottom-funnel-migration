@@ -34,7 +34,7 @@ justify-content: center;
 }
 .flowerdeliverydrivermappingbox {
   padding: 21px ;
-  height: 240px;
+  height: 250px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -48,6 +48,11 @@ justify-content: center;
   transition: all 0.2s linear;
   transform: translateY(-10px);
   background-color: #FFE9ED;
+}
+.flowerdeliverydrivermappingboxicon{
+  height: 25%;
+  width: 18%;
+  padding: 1%;
 }
 
 .flowerdeliveryflexboxleftimageone {
@@ -195,8 +200,6 @@ justify-content: center;
   }
 
   .flowerdeliveryflexboxleftimagetwo > img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
     z-index: 1;
   }

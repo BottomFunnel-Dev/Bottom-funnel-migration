@@ -23,8 +23,8 @@
   justify-content: center;
 }
 .flowerdeliveryadmingboxmapping {
-  padding: 25px 15px 15px 10px;
-  height: 230px;
+  padding: 9px 15px 15px 10px;
+  height: 250px;
   width: 45%;
   border-radius: 18px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -39,7 +39,11 @@
   transform: translateY(-10px);
   background-color: #fee9ec;
 }
-
+.flowerdeliveryadmingboxmappingicon{
+  height: 22%;
+  width: 18%;
+  padding: 2.5%;
+}
 .flowerdeliveryadminflexrightbox {
   position: relative;
   width: 50%;
@@ -47,9 +51,9 @@
 
 .flowerdeliveryadminrightboxforimageone {
   position: absolute;
-  height: 80%;
+  height: 90%;
   width: 93%;
-  top: 20%;
+  top: 10%;
   left: 11%;
 }
 
@@ -59,11 +63,11 @@
 }
 
 .flowerdeliveryadminrightboxforimagetwo {
-  position: absolute;
+  position: relative;
   height: fit-content;
-  width: 80%;
-  top: 23%;
-  left: 50px;
+  width: 85%;
+  top: 20%;
+  left: 15%;
 }
 
 .flowerdeliveryadminrightboxforimagetwo > img {

@@ -1,0 +1,236 @@
+.flowerdeliverycustomermainboxing {
+    height: fit-content;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+  }
+  
+  .flowerdeliveryflexboxleft {
+    height: fit-content;
+    width: 50%;
+    position: relative;
+  
+  }
+  
+  .flowerdeliveryflexboxright {
+    height: fit-content;
+    width: 55%;
+    margin-right: 4%;
+  }
+  
+  .flowerdeliveryflexboxright > h2 {
+    margin-left: 2%;
+  }
+  .flowerdeliverycustomermapping{
+    width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 30px;
+  gap: 20px;
+  justify-content: center;
+  }
+  .flowerdeliverycustomermappingbox {
+    padding: 10px ;
+    height: 260px;
+    width: 45%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .flowerdeliverycustomermappingbox:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #FFE9ED;
+  }
+  .flowerdeliverycustomermappingboxicon{
+    height: 23%;
+    width: 18%;
+    padding: 2%;
+  }
+  
+  .flowerdeliveryflexboxleftimageone {
+    position: absolute;
+    height: 300px;
+    width: 90%;
+    margin-top: 45%;
+  }
+  
+  .flowerdeliveryflexboxleftimageone > img {
+    object-fit: cover;
+    z-index: 0;
+  }
+  
+  .flowerdeliveryflexboxleftimagetwo {
+    position: absolute;
+    height: fit-content;
+    width: 43%;
+    left: 150px;
+    top: 60px;
+  }
+  
+  .flowerdeliveryflexboxleftimagetwo > img {
+    object-fit: cover;
+    padding: 5%;
+    z-index: 1;
+  }
+  
+  
+  /* Media query for the Mobile Device */
+  
+  @media (max-width: 480px) {
+    .flowerdeliverycustomermainboxing {
+      height: fit-content;
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  
+    .flowerdeliveryflexboxleft {
+      height: 400px;
+      width: 70%;
+      position: relative;
+    }
+  
+    .flowerdeliveryflexboxleftimageone {
+      position: absolute;
+      left: 30%;
+      width: 100%;
+      top: 60px;
+    }
+  
+    .flowerdeliveryflexboxleftimageone > img {
+      height: 80%;
+      width: 100%;
+      border-radius: 20px;
+      object-fit: cover;
+      z-index: 0;
+    }
+  
+    .flowerdeliveryflexboxleftimagetwo {
+      position: absolute;
+      height: fit-content;
+      width: 80%;
+      left: 40%;
+    }
+  
+    .flowerdeliveryflexboxleftimagetwo > img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      z-index: 1;
+    }
+  
+    .flowerdeliveryflexboxright {
+      height: fit-content;
+      width: 100%;
+      margin-left: 2%;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .flowerdeliveryflexboxright > h2 {
+      margin-left: 2%;
+      font-weight: 500;
+    }
+  
+    .flowerdeliverycustomermappingbox {
+      height: 150px;
+      width: 95%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 2%;
+      border-radius: 10px;
+    }
+  
+    .flowerdeliverycustomermappingbox:hover {
+      cursor: pointer;
+      transition: all 0.2s linear;
+      transform: translateY(-10px);
+      background-color: #fff8f9;
+    }
+  
+    .flowerdeliverycustomermappingbox > h4 {
+      margin-top: 0%;
+      margin-bottom: 2%;
+    }
+  
+    .flowerdeliverycustomermappingbox > p {
+      margin-top: 0%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .flowerdeliverycustomermainboxing {
+      height: fit-content;
+      margin-top: 10%;
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  
+    .flowerdeliveryflexboxleft {
+      height: 900px;
+      width: 60%;
+      position: relative;
+    }
+  
+    .flowerdeliveryflexboxleftimageone {
+      position: absolute;
+      left: 40%;
+      width: 100%;
+      height: 800px;
+      top: 50px;
+    }
+  
+    .flowerdeliveryflexboxleftimageone > img {
+      border-radius: 20px;
+      object-fit: cover;
+      z-index: 0;
+    }
+  
+    .flowerdeliveryflexboxleftimagetwo {
+      position: absolute;
+      height: fit-content;
+      width: 80%;
+      left: 50%;
+    }
+  
+    .flowerdeliveryflexboxleftimagetwo > img {
+      object-fit: cover;
+      z-index: 1;
+    }
+  
+    .flowerdeliveryflexboxright {
+      height: fit-content;
+      width: 100%;
+      margin-left: 5%;
+      text-align: center;
+    }
+  
+    .flowerdeliveryflexboxright > h2 {
+      margin-left: 2%;
+      font-weight: 400;
+      
+    }
+  
+    .flowerdeliverycustomermappingbox {
+      height: 170px;
+      width: 95%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 10px;
+      margin: 2%;
+      border-radius: 10px;
+    }
+  
+    .flowerdeliverycustomermappingbox:hover {
+      cursor: pointer;
+      transition: all 0.2s linear;
+      transform: translateY(-10px);
+      background-color: #fff8f9;
+    }
+  }
+  

@@ -1,48 +1,48 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import styles from "./FlowerDeliveryDriver.module.css"
+import styles from "./FloweDeliveryCustomer.module.css";
 
-const FlowerDeliveryDriver = () => {
+export default function FlowerDeliveryCustomer() {
   const [imageChange, setImageChange] = useState(
-    "/Images/Flowerdeliverypage/DriverProfile.webp"
+    "/Images/Flowerdeliverypage/Easy register.webp"
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
   };
 
-  const flowerdeliverydriverdata = [
+  const flowerdeliverycustomerdata = [
     {
-      img: "/Images/Flowerdeliverypage/Driver Profile.webp",
-      htxt: "Driver's Profile",
-      stxt: "To make a flower delivery app is to meet the demands of the current market. This will surely increase the number of orders, popularity, and therefore, revenue.",
+      img: "/Images/Flowerdeliverypage/Easy register.webp",
+      htxt: "Easy Registration",
+      stxt: "Customize this Flower Delivery App however you see fit with our powerful online app builder. You don’t need any design or coding experience fit with our powerful online app builder fit with our powerful online app builder",
       icon:"/Images/Flowerdeliverypage/icons/driver profile.webp"
     },
     {
-      img: "/Images/Flowerdeliverypage/Pickup location.webp",
-      htxt: "Pickup Details",
+      img: "/Images/Flowerdeliverypage/Group 339923.webp",
+      htxt: "Buy Flowers",
       stxt: "Nowadays, users prefer apps or online business models instead of calling or live to order. Online flower delivery app is the best way to get ahead of the competition and stay relevant in today’s market.",
-      icon:"/Images/Flowerdeliverypage/icons/pickupdetails.webp"
+      icon:"/Images/Flowerdeliverypage/icons/Card Payment-1.webp"
     },
     {
-      img: "/Images/Flowerdeliverypage/Reports.webp",
-      htxt: "Performance Analysis",
-      stxt: "In the United States and the United Kingdom, developers charge from $70-$ 250. In Europe, on the other hand, developers charge between 50 and 150 dollars an hour. ",
+      img: "/Images/Flowerdeliverypage/MULTIP~1.webp",
+      htxt: "Multiple Payment Options",
+      stxt: "Less time spent in the ordering process means better user experience. Let your app users pay easily using multiple payment options so as to improve their overall app experience fit with our powerful online app builder fit with our app. ",
       icon:"/Images/Flowerdeliverypage/icons/Performence & analytics.webp"
     },
     {
-      img: "/Images/Flowerdeliverypage/Order details.webp",
-      htxt: "Order",
+      img: "/Images/Flowerdeliverypage/Track order.webp",
+      htxt: "Tracking Details",
       stxt: "It’s easier to track orders when all of them are in one place. With everything on one dashboard, you’ll never have any mixups again.The bigger the user base, the bigger the arena of customers.",
-      icon:"/Images/Flowerdeliverypage/icons/order details.webp"
+      icon:"/Images/Flowerdeliverypage/icons/Track Order.webp"
     },
   ];
 
   return (
-    <div className={styles.flowerdeliverydrivermainboxing}>
+    <div className={styles.flowerdeliverycustomermainboxing}>
       <div className={styles.flowerdeliveryflexboxleft}>
         <div className={styles.flowerdeliveryflexboxleftimageone}>
           <Image
-            src={"/Images/Flowerdeliverypage/Rectangle 4192.webp"}
+            src={"/Images/Flowerdeliverypage/Rectangle4191.webp"}
             alt={"image1"}
             width={"0"}
             height={"0"}
@@ -64,19 +64,19 @@ const FlowerDeliveryDriver = () => {
       </div>
 
       <div className={styles.flowerdeliveryflexboxright}>
-        <h2> Driver Applications </h2>
-        <div className={styles.flowerdeliverydrivermapping}>
-          {flowerdeliverydriverdata.map((e) => {
+        <h2> Customer Applications </h2>
+        <div className={styles.flowerdeliverycustomermapping}>
+          {flowerdeliverycustomerdata.map((e) => {
             return (
               <div
-                className={styles.flowerdeliverydrivermappingbox}
+                className={styles.flowerdeliverycustomermappingbox}
                 key={e.htxt}
                 onMouseEnter={() => {
                   handleImageChange(e.img);
                 }}
               >
                 <div
-                  className={styles.flowerdeliverydrivermappingboxicon}
+                  className={styles.flowerdeliverycustomermappingboxicon}
                 >
                   <Image
                     src={e.icon}
@@ -98,4 +98,3 @@ const FlowerDeliveryDriver = () => {
   );
 };
 
-export default FlowerDeliveryDriver;
