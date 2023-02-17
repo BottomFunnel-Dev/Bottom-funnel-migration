@@ -49,24 +49,6 @@ export default function EcommerceComCustomer() {
           "Push notification is easy to integrate and will help turn visitors into buyers. Make sure that all visitors are informed about new products and promotions available at the store they like most.",
         title: "Push Notification",
       },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/icons/checkmark.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "With our simple registration process, you can create an account in no time and start engaging with your users. We offer end-to-end solutions that ensure a smooth user experience.",
-        title: "Simple Registration Process",
-      },
-      {
-        image: {
-          src: "/Images/EcommercePhotos/icons/checkmark.webp",
-          alt: "Dummy text logo",
-        },
-        description:
-          "We understand how important it is for you to have an easy-to-navigate ecommerce website, that is why we offers comprehensive solutions for both beginners and professional web developers.",
-        title: "Super Navigation",
-      },
     ],
   };
 
@@ -75,11 +57,9 @@ export default function EcommerceComCustomer() {
       <h1>
         SOLUTIONS FOR YOUR <span> E-COMMERCE APP </span>
       </h1>
-
       <div className={styles.eCommerceCustomerMain}>
         <div className={styles.eCommerceCustomerImagesMain}>
           <div></div>
-
           <div>
             <Image
               src={customerAppData.mainImage.src}
@@ -91,7 +71,6 @@ export default function EcommerceComCustomer() {
             />
           </div>
         </div>
-
         <div className={styles.eCommerceCustomerAppCardsMain}>
           <div>
             <h2>Customer app</h2>
