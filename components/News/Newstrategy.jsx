@@ -1,25 +1,27 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./Newstrategy.module.css";
 
 export default function Newstrategy() {
   return (
     <div className={styles.sznewstrategy}>
-      <div className={styles.sznewstrategysub}>
-        <div className={styles.sznewstrategydiv}>
-          <div className={styles.sznewstrategyhead}>
-            <h2>We help create your monetization strategy</h2>
-          </div>
-          <p>
-            We offer services including: logo design, desktop and mobile website
-            building, blog creation, social media marketing, search engine
-            optimization (SEO), and marketing campaigns. With over 10 years of
-            experience working with some of the biggest names in the industry,
-            we know what works and what doesn't when it comes to getting results
-            online.
-          </p>
-          
-        </div>
+      <div>
+        <h1>
+          LET'S CREATE AN APP THAT ELEVATES THE WHOLE EVENT EXPERIENCE FOR
+          CUSTOMERS!
+        </h1>
+        <button>Talk to our experts</button>
       </div>
+      <span>
+        <Image
+          src={"/Images/News/bookCall.webp"}
+          alt={"News/bookCall.webp"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+      </span>
     </div>
   );
 }

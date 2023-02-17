@@ -54,7 +54,7 @@ function SkillsAngularjs() {
         <title>{title}</title>
         <meta name="description" content={description} />
       </Head>
-      {isBanner ? <SkillsComBanner data={BannerData} /> : null}
+      <SkillsComBanner data={BannerData} />
       <hr style={{ margin: 0 }} />
       {isDes ? <SkillsComDes DescrptionData={desData} /> : null}
       {isWhyApp ? <SkillsComWhyApp data={WhyAppData} /> : null}

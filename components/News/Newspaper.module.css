@@ -1,50 +1,48 @@
-.newspapermainboxes{
+.newspapermainboxes {
     height: fit-content;
-  background-color: white;
+    background-color: white;
     display: flex;
 }
 
-.newspaperleftboxforimages{
+.newspaperleftboxforimages {
     height: 500px;
     width: 20%;
     margin-left: 5%;
-  
-
 }
 
-.newspaperleftboxforimages >img {
+.newspaperleftboxforimages>img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
 
-.newspaperrightboxforsometext{
+.newspaperrightboxforsometext {
     width: 70%;
     height: 500px;
-  
+
     margin-left: 5%;
 }
 
-.newspaperrightboxforsometext>h1{
+.newspaperrightboxforsometext>h1 {
     font-weight: 700;
     font-size: 45px;
 }
 
-.newspaperrightboxforsometext >p{
+.newspaperrightboxforsometext>p {
     font-size: 18px;
     margin-top: 1%;
 }
 
-.newstextboxdisplyaflex{
+.newstextboxdisplyaflex {
     height: fit-content;
     width: 60%;
-  margin-top: 5%;
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.newstextboxdisplayindi{
+.newstextboxdisplayindi {
     height: fit-content;
     width: 40%;
     border-radius: 10px;
@@ -56,6 +54,6 @@
 
 
 
-.newstextboxdisplayindi:hover{
+.newstextboxdisplayindi:hover {
     transform: scale(1.02);
 }

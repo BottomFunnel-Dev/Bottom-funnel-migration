@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import styles from "./moreServices.module.css";
 const MoreServices = () => {
-
   return (
     <div className={styles.footerTable}>
       <div className={styles.innerTable}>
@@ -174,7 +173,6 @@ const MoreServices = () => {
         <p className={styles.link_inner_css}>Bottom Funnel Team</p>
         <p className={styles.link_inner_css}>Bottom Funnel Marketer</p>
       </div>
-
     </div>
   );
 };
