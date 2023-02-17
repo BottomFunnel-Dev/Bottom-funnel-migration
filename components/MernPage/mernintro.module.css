@@ -52,3 +52,74 @@
   width: 70%;
   height: 100%;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+  .mernintro {
+    width: 100%;
+    /* background-color: green; */
+    margin-top: 5%;
+  }
+  
+  .stackintro {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+  }
+  .stackintro p{
+    text-align: justify;
+  }
+  
+  .mainstackDiv {
+    width: 100%;
+    margin: auto;
+    padding: 2% 0;
+    background-color: #def4f9;
+    /* border: 2px solid red; */
+  }
+  
+  .stackflex {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    /* border: 2px solid green; */
+  }
+  
+  .stackCard {
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: top;
+    border: 1px solid lightgrey;
+  }
+
+  .stackCard:hover {
+    background: #def4f9;
+  }
+  
+  .stackImage {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .stackImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: content;
+  }
+  
+  .stackContent {
+    width: 70%;
+    height: 100%;
+  }
+}

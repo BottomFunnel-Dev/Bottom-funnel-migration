@@ -40,7 +40,7 @@ export const aspnetBanner = {
     normal: "Development Around the Globe",
   },
   description:
-    "With ASP.net, you can create an e-commerce website that looks beautiful and functions smoothly on all types of devices. Not only does it provide a rich user experience, but it also protects your data through encryption and complies to PCI DSS standards for securing customer credit card information.Bottom funnel ASP.NET development gives you a chance to learn how an application works from ground up and provides all the technologies required to build it successfully.",
+    "With ASP.net, you can create an e-commerce website that looks beautiful and functions smoothly on all types of devices. it provide a rich user experience,it also protects your data through encryption and complies to PCI DSS standards for securing customer credit card information.Bottom funnel ASP.NET development gives you a chance to learn how an application works from ground up and provides all the technologies required to build it successfully.",
 };
 export const javaBanner = {
   background: "Images/webdevmain/webdevnewbanners/Frame40255.webp",
