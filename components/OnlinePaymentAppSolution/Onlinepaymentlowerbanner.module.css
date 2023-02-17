@@ -1,0 +1,35 @@
+.onlinepaymentlowerbannermainboxes{
+    height: 40vh;
+    margin-bottom: 5%;
+    border: 1px solid transparent;
+    background: url("/Images/onlinepaymentpage/ha/banner & backgrounds/Rectangle 34624109.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.onlinepaymentlowerbannertxt{
+    height: fit-content;
+    width: fit-content;
+   
+    margin: 7% 0% 0% 15%;
+}
+
+.onlinepaymentbuttonlowerbanner {
+  padding: 10px 50px;
+  border-radius: 100px;
+  width: fit-content;
+  background-color: #3380f2;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.onlinepaymentbuttonlowerbanner:hover {
+  background-color: white;
+  color: #3380f2;
+}

@@ -8,11 +8,13 @@ background-color: white;
 
 .onlinepmobilebrowserleftbox {
 height: 420px;
-width: 50%;
-background: url("/Images/onlinepaymentpage/Rectangle 4788.webp");
+width: 40%;
+background: url("/Images/onlinepaymentpage/ha/banner & backgrounds/Group 1000002551.webp");
 background-repeat: no-repeat;
 background-size: contain;
 background-position-y: bottom;
+margin-left: 5%;
+margin-top: 7%;
 }
 
 .onlinepmobilebrowserrightbox {
@@ -53,8 +55,9 @@ margin-top: 1%;
 font-size: 18px;
 }
 
-.onlinepmobilebrowseraftermappingxtt > h4 {
-margin-top: 4%;
+.onlinepmobilebrowseraftermappingxtt > h5 {
+margin-top: 6%;
+font-size: 18px;
 }
 
 .onlinepmobilebrowseraftermappingdata > svg {
@@ -75,6 +78,10 @@ width: 100%;
 object-fit: contain;
 }
 
+
+.specialcolor{
+    color: #ef4c23;
+}
 
 /* Media query for the Mobile Device */
 

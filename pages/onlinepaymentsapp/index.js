@@ -8,6 +8,7 @@ import { OnlinePMobileBrowser } from "../../components/OnlinePaymentAppSolution/
 import { OnlinePaymentWhyChoose } from "../../components/OnlinePaymentAppSolution/OnlinePaymentWhyChoose";
 
 import Head from "next/head";
+import { Onlinepaymentlowerbanner } from "../../components/OnlinePaymentAppSolution/Onlinepaymentlowerbanner";
 
 export default function OnlinePaymentApplication() {
   return (
@@ -29,6 +30,7 @@ export default function OnlinePaymentApplication() {
         <OnlinePaymentApplications />
         <OnlinePaymentAdminPannel />
         <OnlinePMobileBrowser />
+        <Onlinepaymentlowerbanner />
         {/* <OnlinePaymentWhyChoose /> */}
       </main>
     </div>
