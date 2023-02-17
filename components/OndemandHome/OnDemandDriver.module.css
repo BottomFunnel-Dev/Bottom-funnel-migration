@@ -61,7 +61,8 @@
 
 .canabisdriverappindivisualbox:hover {
   transform: scale(1.02);
-  background-color: #dafd92;
+  background-color: #f4721a;
+  color: white;
 }
 
 .canabisdeliveryappindivisualboxforlogo {

@@ -18,13 +18,18 @@
   /* border: 1px solid black; */
   width: 45%;
   height: fit-content;
-  margin-top: 20%;
+  margin-top: 17%;
   position: absolute;
   margin-left: 5%;
   text-align: justify;
 }
 
-.laundrypagebannerleft > h1 {
+/* .laundrypageBannerContentDiv {
+  border: 1px solid red;
+  margin-top: 0%;
+} */
+
+.laundrypageBannerContentDiv > h1 {
   /* border: 1px solid red; */
   font-size: 38px;
   font-weight: 600;

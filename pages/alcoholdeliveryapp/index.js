@@ -8,15 +8,18 @@ const AlcoholBanner = dynamic(
   () => import("../../components/alcohol-delivery/AlcoholBanner/AlcoholBanner"),
   { loading: () => "loading..." },
 );
+
 const Trusted = dynamic(
   () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
   { loading: () => "loading..." },
 );
+
 const AlcoholBookCall = dynamic(
   () =>
     import("../../components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall"),
   { loading: () => "loading..." },
 );
+
 const AlcoholSuggestions = dynamic(
   () =>
     import(
@@ -24,6 +27,7 @@ const AlcoholSuggestions = dynamic(
     ),
   { loading: () => "loading..." },
 );
+
 const AlcoholSolutions = dynamic(
   () =>
     import(
