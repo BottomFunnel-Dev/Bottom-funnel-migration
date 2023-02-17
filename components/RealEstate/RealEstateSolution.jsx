@@ -48,7 +48,7 @@ export const RealEstateSolution = () => {
 
             <div className={styles.mainrealestatesolutionflexingwithupertextbox}>
                 <div className={styles.realestateuppertextingbox}>
-                    <h1> Exculusive Features </h1>
+                    <h2> Exculusive Features </h2>
                 </div>
 
                 <div className={styles.exuclusivefeaturedatamappingrealestatesolution}>
@@ -59,7 +59,7 @@ export const RealEstateSolution = () => {
                         return (
                             <div className={styles.exclusivefeaturerealestateflexindi}>
                                 <div className={styles.exclusivefeaturerealestateflexindih4}>
-                                    <h3> {e.txt} </h3>
+                                    <h4> {e.txt} </h4>
                                 </div>
 
                                 <div className={styles.indivisualimageforsolutionrealestate}>
@@ -68,7 +68,7 @@ export const RealEstateSolution = () => {
                                         width={"0"}
                                         height={"0"}
                                         sizes={"100vw"}
-                                        style={{ width: "100%", height: "100%" }}
+                                        style={{ width: "100%", height: "100%", padding:"10px" }}
                                     />
                                 </div>
 
