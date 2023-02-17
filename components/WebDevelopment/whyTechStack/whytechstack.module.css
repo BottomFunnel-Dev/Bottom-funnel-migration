@@ -6,6 +6,7 @@ width: 90%;
 margin: auto;
 text-align: center;
 padding: 20px;
+/* border: 2px solid; */
 }
 .techHeader span {
 color: #ef4c23;
@@ -31,4 +32,48 @@ cursor: pointer;
 transition: all 0.2s linear;
 transform: translateY(-15px);
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .whytechData {
+        width: 100%;
+        }
+        .techHeader {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        /* border: 2px solid; */
+        }
+        .techHeader p{
+            text-align: justify;
+        }
+        .techHeader span {
+        color: #ef4c23;
+        }
+        .whyTechFeaturesCard {
+        width: 100%;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 40px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+        /* border: 2px solid; */
+        }
+        .whyTechFeaturesCardBox {
+        width: 80%;
+        margin: auto;
+        padding: 30px 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        }
+        .whyTechFeaturesCardBox:hover {
+        cursor: pointer;
+        transition: all 0.2s linear;
+        transform: translateY(-15px);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
 }

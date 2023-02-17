@@ -37,20 +37,25 @@
   transform: translateY(-10px);
 }
 
-
 .laundryadminrightbox {
   /* border: 1px solid red; */
   width: 40%;
   height: 550px;
   margin-top: 7%;
   margin-left: 3%;
-  background: url("/Images/Laundrypage/backgrounds/Background2.png");
+  background: url("/Images/Laundrypage/backgrounds/Background3.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: 100%;
+  background-position: 100% 50%;
 }
 
-.laundryadminrightbox > img {
+.laundryadminImageDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin-left: 10%;
+}
+
+.laundryadminImageDiv > img {
   height: 100%;
   width: 100%;
   object-fit: contain;
