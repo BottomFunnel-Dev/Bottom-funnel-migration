@@ -29,7 +29,7 @@ export default function Politics() {
         <Politicaltool />
         <Politicsreliable />
         <Politictarget />
-      </main>
+   
     </div>
   );
 }

@@ -10,6 +10,22 @@ import { AviationWhy } from '../../components/Aviationp/AviationWhy'
 export default function AviationNew () {
   return (
     <div>
+
+    <Head>
+    <title>Aviation Softwere Development Services | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="Looking for professional aviation 
+      software development services? Look no 
+      further than Aviation Softwere Development 
+      Services. Our team of experts has years of 
+      experience in developing top-notch aviation 
+      software."
+    />
+  </Head>
+
+
+  <main>
       <AviationBannerone/>
       <AviationService/>
       <AviationCustomer/>
@@ -17,6 +33,7 @@ export default function AviationNew () {
       <AviationDevProcess/>
       <AviationLower/>
       <AviationWhy/>
+      </main>
     </div>
   )
 }

@@ -10,6 +10,18 @@ import { Eventwhychoose } from '../../components/EventPages/Eventwhychoose'
 export default function Event () {
   return (
     <div>
+
+    <Head>
+    <title>Enterprise Solutions development | Bottom Funnel</title>
+    <meta
+      name="description"
+      content="Looking to provide your business with enterprise 
+      solutions services? Our extensive portfolio of 
+      offerings includes everything you need to grow your 
+      business. Read on for details."
+    />
+  </Head>
+  <main>
     <Eventbanner />
      <CompanyLogo />
      <Eventuserexperience />
@@ -17,7 +29,7 @@ export default function Event () {
      <Eventlowerbanner />
      <Eventbest />
      <Eventwhychoose />
-
+     </main>
 
     </div>
   )
