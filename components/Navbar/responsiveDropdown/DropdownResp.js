@@ -5,21 +5,18 @@ import {
   AccordionDetails,
   Typography,
 } from "@mui/material";
-import { WhoWeAre } from "../WhoWeAre";
-import { NavServices } from "../NavServices";
 import { RiArrowDropDownLine } from "react-icons/ri";
-
 import dropdown from "./dropdownResp.module.css";
-import { NavIndustries } from "../NavIndustries";
-import { Products } from "../Products";
-import { Industries } from "../Industries";
-import { Resource } from "../Resource";
-export default function DropdownResp({
+import dynamic from "next/dynamic";
 
-  hoverhandle,
-  scroll,
-  productMount,
-}) {
+import WhoWeAre from "../WhoWeAre";
+import NavServices from "../NavServices";
+import NavIndustries from "../NavIndustries";
+import Products from "../Products";
+import Industries from "../Industries";
+import Resource from "../Resource";
+
+export default function DropdownResp({ hoverhandle, scroll, productMount }) {
   return (
     <div className={dropdown.dropdown_css}>
       <Accordion>
@@ -57,68 +54,62 @@ export default function DropdownResp({
         </AccordionDetails>
       </Accordion>
 
-     
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            <Typography>Solutions</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <NavIndustries
-              solHoverIn={hoverhandle}
-              solHoverOut={hoverhandle}
-              scroll={scroll}
-              productMount={productMount}
-            />
-          </AccordionDetails>
-        </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Solutions</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <NavIndustries
+            solHoverIn={hoverhandle}
+            solHoverOut={hoverhandle}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        </AccordionDetails>
+      </Accordion>
 
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            <Typography>Industries</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Industries
-              solHoverIn={hoverhandle}
-              solHoverOut={hoverhandle}
-              scroll={scroll}
-              productMount={productMount}
-            />
-          </AccordionDetails>
-        </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Industries</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Industries
+            solHoverIn={hoverhandle}
+            solHoverOut={hoverhandle}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        </AccordionDetails>
+      </Accordion>
 
-        <Accordion>
-          <AccordionSummary
-            expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            <Typography>Resources</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Resource
-              solHoverIn={hoverhandle}
-              solHoverOut={hoverhandle}
-              scroll={scroll}
-              productMount={productMount}
-            />
-          </AccordionDetails>
-        </Accordion>
-    
-
-     
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<RiArrowDropDownLine fontSize={"30px"} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Resources</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Resource
+            solHoverIn={hoverhandle}
+            solHoverOut={hoverhandle}
+            scroll={scroll}
+            productMount={productMount}
+          />
+        </AccordionDetails>
+      </Accordion>
 
       <div className={dropdown.otherNav}>
-       
         <div>WORK</div>
-    
 
         <button className={dropdown.ProductPageRouteButton}> Products </button>
         <button> Hire A Talent </button>
