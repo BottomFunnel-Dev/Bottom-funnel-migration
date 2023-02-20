@@ -34,3 +34,8 @@
     border-radius: 5px;
     font-weight: 700;
 }
+.arrangeCallImage>button:hover{
+    background-color: #ED5D37;
+    color: white;
+    border: 2px solid white;
+}

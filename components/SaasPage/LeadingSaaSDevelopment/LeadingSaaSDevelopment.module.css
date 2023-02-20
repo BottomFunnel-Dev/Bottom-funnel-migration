@@ -19,3 +19,7 @@
     width: 10%;
     height: 35px;
 }
+.leadingDevContent>button:hover{
+    background-color: white;
+    color: #ED5D37;
+}

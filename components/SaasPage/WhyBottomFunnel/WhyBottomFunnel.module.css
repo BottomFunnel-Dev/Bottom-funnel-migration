@@ -59,6 +59,7 @@
     flex-direction: column;
     color: white;
     margin-left: 5%;
+    padding: 20px;
 }
 .whyBFdataLogo{
     /* border: 2px solid red; */
@@ -67,4 +68,7 @@
 }
 .whyBFdataDiv>h4{
     color: #ED5D37;
+}
+.whyBFdataDiv:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

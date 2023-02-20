@@ -29,6 +29,11 @@
     font-size: 15px;
     height: 40px;
 }
+.saasAppData>button:hover{
+    background-color: white;
+    border: 2px solid #ED5D37;
+    color: #ED5D37;
+}
 .saasAppDataImage{
     /* border: 2px solid white; */
     width: 40%;
@@ -61,4 +66,8 @@
     font-weight: 500;
     font-size: 15px;
     height: 40px;
+}
+.saasAppData1>button:hover{
+    background-color:#3380F2;
+    color: white;
 }

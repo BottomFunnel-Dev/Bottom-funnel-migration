@@ -33,3 +33,8 @@
   color:#F57419;
   font-weight: 600;
 }
+.saasBannerImage>button:hover{
+  background-color: #F57419;
+  color: white;
+  border: 2px solid white;
+}

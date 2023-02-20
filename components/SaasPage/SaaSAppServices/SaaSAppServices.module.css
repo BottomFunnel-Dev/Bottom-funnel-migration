@@ -32,6 +32,9 @@
     height: 200px;
     text-align: center;
 }
+.saasAppHeading:hover{
+    background-color: antiquewhite;
+}
 .saasAppRightData{
     /* border: 2px solid yellow; */
     margin-left: 3%;
