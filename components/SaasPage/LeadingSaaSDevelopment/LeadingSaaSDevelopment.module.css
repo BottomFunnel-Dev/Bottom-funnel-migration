@@ -1,0 +1,21 @@
+.leadingDev{
+    /* border: 2px solid red; */
+    background-color: #ED5D37;
+    width: 100%;
+    height: 40vh;
+    margin-top: 2%;
+}
+.leadingDevContent{
+    /* border: 2px solid red; */
+    color: white;
+    margin-left: 7%;
+    padding-top: 4%;
+    width: 85%;
+}
+.leadingDevContent>button{
+    border: 2px solid white;
+    background-color: #ED5D37;
+    color: white;
+    width: 10%;
+    height: 35px;
+}

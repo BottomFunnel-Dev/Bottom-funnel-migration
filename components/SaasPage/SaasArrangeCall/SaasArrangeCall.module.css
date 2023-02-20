@@ -1,0 +1,36 @@
+.arrangeCallMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 65vh;
+}
+.arrangeCallImage{
+    width: 65%;
+    height: 350px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+}
+.arrangeCallImage>h1{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    color: white;
+}
+.arrangeCallImage>p{
+    position: absolute;
+    top: 34%;
+    left: 38%;
+    color: white;
+}
+.arrangeCallImage>button{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    border: none;
+    color: black;
+    width: 32%;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+}

@@ -1,0 +1,70 @@
+.whyBFMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: row;
+}
+.WhyBFLeftDiv{
+    /* border: 2px solid  red; */
+    width: 30%;
+    height: 100%;
+    background-color: #ED5D37;
+    position: relative;
+}
+.whyBFrightDiv{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 100%;
+    background-color: #393939;
+    display: flex;
+    flex-direction: column;
+}
+.citrusbugImage{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+.whyBFrightDivHeading{
+    /* border: 2px solid red; */
+    width: 75%;
+    color: white;
+    margin-left:21%;
+    margin-top: 5%;
+}
+.whyBFContainerDiv{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin-left: 17%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+}
+.whyBFContainerData{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.whyBFdataDiv{
+    /* border: 2px solid red; */
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 5%;
+}
+.whyBFdataLogo{
+    /* border: 2px solid red; */
+    width: 60px;
+    height: 60px;
+}
+.whyBFdataDiv>h4{
+    color: #ED5D37;
+}
