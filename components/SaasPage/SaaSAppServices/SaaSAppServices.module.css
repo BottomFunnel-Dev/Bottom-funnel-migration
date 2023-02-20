@@ -27,7 +27,7 @@
 }
 .saasAppHeading{
     /* border: 2px solid black; */
-    border-bottom: 3px solid #ED5D37;
+    border-bottom: 5px solid #ED5D37;
     width: 100%;
     height: 200px;
     text-align: center;
@@ -37,7 +37,7 @@
     margin-left: 3%;
 }
 .saasAppHeading>h6{
-    color: #ED5D37;
+    /* color: #ED5D37; */
     margin-top: 5%;
 }
 .saasAppImage{

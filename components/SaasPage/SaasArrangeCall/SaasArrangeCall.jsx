@@ -21,7 +21,7 @@ export const SaasArrangeCall = () => {
                     If so,connect with us now for a free consultation call. Our solution
                     architects and CTO can nudge you towards success.
                 </p>
-                <button>Book A 30 MIN CALL</button>
+                <button>BOOK A 30 MIN CALL</button>
         </div>
       </div>
     </>
