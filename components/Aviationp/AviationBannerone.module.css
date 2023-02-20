@@ -1,0 +1,34 @@
+.AviationBannermain{
+    height: 100vh;
+    margin-top: 2%;
+    background: url("/Images/aviation/Newpage/background/bannermain.webp");
+    background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aviationbannertext{
+    width: 60%;
+    top: 36%;
+    left: 5%;
+    color: white;
+  position: absolute;
+
+}
+.aviationbannertext>button {
+    padding: 10px 50px;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .aviationbannertext>button:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
