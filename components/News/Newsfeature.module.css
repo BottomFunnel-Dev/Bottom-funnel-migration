@@ -1,42 +1,65 @@
-.newfeaturemainboxes{
-    height: 60vh;
-padding-top: 1%;
-  position: relative;
-    background: url("/Images/News/Bannerbackground/Group 340282.webp");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: white;
-}
-
-.newsfeaturelowerbannersometextandimageboxes{
-    width: 95%;
-    height: 70%;
+.newfeaturemainboxes {
+    padding-top: 1%;
     display: flex;
-
- padding-top: 8%;
-    margin-left: 5%;
-    position: absolute;
- 
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.newsfeaturelowerbannersometextboxes{
+.newfeaturemainboxes>span {
+    width: 40%;
     height: fit-content;
-    width:50%;
- color: white;
-   position: relative;
-text-align: justify;
-    
 }
 
-.newsfeaturelowerbannersomeimageboxes{
-    width: 30%;
- 
-
-    margin-left: 5%;
+.newfeaturemainboxes>div {
+    width: 50%;
 }
 
-.newsfeaturelowerbannersomeimageboxes >img {
-    height: 100%;
+.newfeaturemainboxes>div>h1 {
+    font-size: 28px;
+}
+
+.newfeaturemainboxes>div>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
     width: 100%;
-    object-fit: contain;
+}
+
+.newsfeaturesContent {
+    height: fit-content;
+    width: 40%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 200ms linear;
+}
+
+.newsfeaturesContent:hover {
+    background-color: #ffe2db;
+    transform: translateY(-2%);
+}
+
+.newsfeaturesContent>div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.newsfeaturesContent>div>span {
+    height: 30px;
+    width: fit-content;
+}
+
+.newsfeaturesContent>div>h1 {
+    font-size: 20px;
+}
+
+.newsfeaturesContent>p {
+    font-size: 16px;
+    text-align: justify;
 }
