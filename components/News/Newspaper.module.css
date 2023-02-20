@@ -1,13 +1,22 @@
+.newspaperCustomerContainer>h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 2%;
+}
+
 .newspapermainboxes {
     height: fit-content;
     background-color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4%;
 }
 
 .newspaperleftboxforimages {
     height: 500px;
-    width: 20%;
-    margin-left: 5%;
+    width: 40%;
+    background: linear-gradient(to bottom, #fff 60%, #ffe2db 40%);
 }
 
 .newspaperleftboxforimages>img {
@@ -16,44 +25,60 @@
     object-fit: contain;
 }
 
-
 .newspaperrightboxforsometext {
-    width: 70%;
-    height: 500px;
-
-    margin-left: 5%;
+    width: 60%;
+    height: fit-content;
 }
 
 .newspaperrightboxforsometext>h1 {
-    font-weight: 700;
-    font-size: 45px;
-}
-
-.newspaperrightboxforsometext>p {
-    font-size: 18px;
-    margin-top: 1%;
+    font-size: 28px;
+    margin-bottom: 2%;
 }
 
 .newstextboxdisplyaflex {
     height: fit-content;
-    width: 60%;
-    margin-top: 5%;
+    width: 100%;
     display: flex;
+    align-items: stretch;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
     flex-wrap: wrap;
 }
 
 .newstextboxdisplayindi {
     height: fit-content;
     width: 40%;
+    cursor: pointer;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 2%;
-    padding: 3%;
+    padding: 10px;
     text-align: center;
+    transition: transform 200ms linear;
 }
 
+.newstextboxdisplayindi>p {
+    font-size: 16px;
+    text-align: justify;
+}
 
+.newstextboxdisplayindi>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.newstextboxdisplayindi>div>h4 {
+    font-size: 20px;
+}
+
+.newstextboxdisplayindi>div>span {
+    height: 30px;
+    width: fit-content;
+}
 
 .newstextboxdisplayindi:hover {
-    transform: scale(1.02);
+    background-color: #ffe2db;
+    transform: translateY(-2%);
 }

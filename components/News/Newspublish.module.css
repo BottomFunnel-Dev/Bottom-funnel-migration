@@ -15,3 +15,36 @@
     width: 60%;
     text-align: center;
 }
+
+.newspublishdiv>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.newspublishContent {
+    width: 28%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.newspublishContent>h2 {
+    font-size: 20px;
+    color: #ef4c23;
+    margin: 2% 0;
+}
+
+.newspublishContent>p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.newspublishContent>div {
+    height: 50px;
+    width: fit-content;
+}
