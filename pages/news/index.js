@@ -16,9 +16,12 @@ const Newstrategy = dynamic(() => import("../../components/News/Newstrategy"), {
 const Newsintro = dynamic(() => import("../../components/News/Newsintro"), {
   loading: () => "loading...",
 });
-const Newspaper = dynamic(() => import("../../components/News/Newspaper"), {
-  loading: () => "loading...",
-});
+const NewspaperCustomer = dynamic(
+  () => import("../../components/News/NewspaperCustomer"),
+  {
+    loading: () => "loading...",
+  },
+);
 const Newsfeature = dynamic(() => import("../../components/News/Newsfeature"), {
   loading: () => "loading...",
 });
@@ -52,7 +55,7 @@ export default function News() {
       <main>
         <Newsintro />
         <Trusted partnerLogo={newsLogo} />
-        <Newspaper />
+        <NewspaperCustomer />
         <Newsfeature />
         <Newspublish />
         <Newstrategy />

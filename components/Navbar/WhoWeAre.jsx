@@ -4,7 +4,8 @@ import whowe from "./whoWeAre.module.css";
 import { useRouter } from "next/router";
 import { company, whyBottom, process } from "../../Data/Navbar";
 import Image from "next/image";
-export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
+
+export default function WhoWeAre({ homeHoverIn, homeHoverOut, scroll }) {
   const router = useRouter();
   return (
     <div
@@ -15,7 +16,6 @@ export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
         homeHoverOut("", false);
       }}
       className={whowe.aboutNavVisible}
-      style={{ top: scroll ? "68px" : "80px" }}
     >
       <div className={whowe.aboutDropdownSection}>
         <div className={whowe.aboutDropdownContent}>
@@ -46,7 +46,6 @@ export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
                     src={item.navIcons}
                     alt={item.navIcons}
                   />
-                
                 </div>
 
                 <p className={whowe.aboutlinkP}>{item.dropContent}</p>
@@ -69,8 +68,8 @@ export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
                 }}
                 className={whowe.aboutimageIconDivSection}
               >
-                <div  className={whowe.iconDivSection}>
-                <Image
+                <div className={whowe.iconDivSection}>
+                  <Image
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
@@ -100,8 +99,8 @@ export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
                 }}
                 className={whowe.aboutimageIconDivSection}
               >
-                <div  className={whowe.iconDivSection}>
-                <Image
+                <div className={whowe.iconDivSection}>
+                  <Image
                     width={"0"}
                     height={"0"}
                     sizes={"100vw"}
@@ -119,4 +118,4 @@ export const WhoWeAre = ({ homeHoverIn, homeHoverOut, scroll }) => {
       </div>
     </div>
   );
-};
+}

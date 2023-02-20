@@ -42,12 +42,12 @@ export default function Layout({ children }) {
     <>
       <Navbar navPageColor={true} />
       <main>{children}</main>
+      <PortFolio />
       <StoriesSection />
       <OndemandSection />
       <PlanProject />
       <SeoblogSection />
       <Revamping />
-      <PortFolio />
       <TextDropdown />
       <ContectForm />
       <MainFooter />

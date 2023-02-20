@@ -21,7 +21,8 @@ import { BsArrowRight } from "react-icons/bs";
 import ImageCard from "../particularComponents/ImageCardText/ImageCard";
 import { useRouter } from "next/router";
 import Image from "next/image";
-export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
+
+export default function NavServices({ serHoverIn, serHoverOut, scroll }) {
   const [sidetoggle, setSidetoggle] = useState("Technologies");
 
   const handleSide = (element) => {
@@ -47,7 +48,6 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
         serHoverOut("", true);
       }}
       className={navservice.servicesolutionVisible}
-      style={{ top: scroll ? "68px" : "80px" }}
     >
       <div className={navservice.servicesideNav}>
         {sideBar.map((item, index) => (
@@ -554,4 +554,4 @@ export const NavServices = ({ serHoverIn, serHoverOut, scroll }) => {
       )}
     </div>
   );
-};
+}

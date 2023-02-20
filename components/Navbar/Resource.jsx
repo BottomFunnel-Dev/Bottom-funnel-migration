@@ -1,20 +1,19 @@
 import React from "react";
 import resCSS from "./resource.module.css";
 import Link from "next/link";
-import {resource } from "../../Data/Navbar";
-export const Resource = ({
-  resHoverIn,
-  resHoverOut,
-  scroll,
-}) => {
+import { resource } from "../../Data/Navbar";
+
+export default function Resource({ resHoverIn, resHoverOut, scroll }) {
   return (
     <div
-      onMouseEnter={()=>{resHoverIn("resource")}}
-      onMouseLeave={()=>{resHoverOut("")}}
+      onMouseEnter={() => {
+        resHoverIn("resource");
+      }}
+      onMouseLeave={() => {
+        resHoverOut("");
+      }}
       className={resCSS.resourceVisible}
-      style={{ top: scroll? "68px" : "80px" }}
     >
-
       <div id={resCSS.ondemandsol} className={resCSS.indindustryContent}>
         <div className={resCSS.resourceListItems}>
           {resource.map((item, i) => (
@@ -25,9 +24,10 @@ export const Resource = ({
               }}
               className={resCSS.industryimageIconDivSection}
             >
-             
               <Link
-                onClick={()=>{resHoverOut("")}}
+                onClick={() => {
+                  resHoverOut("");
+                }}
                 href={item.path}
                 className={resCSS.resourcelinkP}
               >
@@ -38,6 +38,5 @@ export const Resource = ({
         </div>
       </div>
     </div>
-  
   );
-};
+}

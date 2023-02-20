@@ -1,0 +1,92 @@
+.aviationAdminMain {
+    margin-bottom: 5%;
+    width: 100%;
+  }
+  
+  .aviationAdminMain > h2 {
+    margin-left: 21.5%;
+    font-size: 40px;
+  }
+  
+  .aviationAdminbox {
+    height: fit-content;
+    display: flex;
+  }
+  
+  .aviationAdminleftbox {
+    height: 480px;
+    width: 50%;
+    background: url("/Images/aviation/Newpage/background/Rectangle1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .aviationAdminleftboxinsider {
+    height: 90%;
+    width: 85%;
+    margin: 3% 0% 5% 5%;
+  }
+  
+  .aviationAdminleftboxinsider > img {
+    object-fit: contain;
+  }
+  
+  .aviationAdminrightbox {
+    height: fit-content;
+    width: 60%;
+    margin: 2% 2% 4% 3%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .aviationAdminMain > h2 {
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .aviationAdminindivisual {
+    height: fit-content;
+    width: 45%;
+    height: 210px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .aviationAdminindivisual:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #f9e8eb;
+  }
+  
+  .aviationAdminindivisualicon {
+    height: 23%;
+    width: 12%;
+  }
+  
+  .aviationAdminindivisualicon > img {
+    object-fit: contain;
+  }
+  
+  .aviationAdminindivisualtext > h4 {
+    padding-top: 5px;
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+  }
+  
+  .aviationAdminindivisualtext > p {
+    padding-top: 1%;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  

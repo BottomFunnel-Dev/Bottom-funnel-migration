@@ -31,7 +31,7 @@ const Revamping = () => {
   return (
     <div className={styles.revamp}>
       <div className={styles.revampback}>
-        <img src="/Images/revamp/final2.png" alt="images" />
+        <img src="/Images/revamp/final2.webp" alt="images" />
       </div>
       <div className={styles.textlayer}>
         <div className={styles.navmotion}>
