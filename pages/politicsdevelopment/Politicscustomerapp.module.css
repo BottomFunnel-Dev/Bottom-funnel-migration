@@ -1,0 +1,66 @@
+.politicscustomerappmainboxes{
+    height: 100vh;
+   
+}
+.politicscustomerappmainboxes>h2{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+.politicsdevelopmentcustomermainboxes{
+
+    height: 80%;
+    margin-top: 5%;
+      background-image: linear-gradient(to right, red , yellow);
+      display: flex;
+      background-size: 100% 100%;
+}
+
+.politicsdevelopmentleftbox{
+    width: 40%;
+  
+    height: 450px;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.politicsdevelopmentrightbox{
+    width: 50%;
+   height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+
+
+}
+
+.politicscustomermappingind{
+    height: fit-content;
+    width: 47%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.politicscustomermappingind:hover{
+    transition: all 0.2s linear;
+transform: translateY(-10px);
+}
+
+
+
+
+.policsinddatainnerflexbox{
+    display: flex;
+}
+
+.customerpoliticsh5txt{
+    margin-top: 3%;
+}
+
+.politicscustomermappingind>p{
+    text-align: justify;
+}

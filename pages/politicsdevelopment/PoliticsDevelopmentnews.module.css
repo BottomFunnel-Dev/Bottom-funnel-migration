@@ -1,0 +1,86 @@
+.settinghomebannerrotationalbox {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  
+  .slick-slide>div {
+    margin: 0 !important;
+  }
+  
+  .slick-slide {
+    border: none !important;
+  }
+  
+  .slick-list {
+    margin: 0 !important;
+  
+  }
+  
+  .slideDivSection {
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+  }
+  
+  .slideDivSection>div {
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    box-sizing: border-box;
+   
+  }
+  
+  /* Media Query for Mobile Devices */
+  
+  @media only screen and (min-width: 0px) and (max-width: 480px) {
+  
+    /* .settinghomebannerrotationalbox{
+    border: 50px solid black;
+   } */
+    .slideDivSection {
+      height: 50%;
+    }
+  
+    .slideDivSection>div {
+      padding: 0;
+      width: 67%;
+    }
+  }
+  
+  /* Media Query for low resolution  Tablets, Ipads */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .slideDivSection>div {
+      padding: 0;
+      width: 65%;
+    }
+  }
+  
+  /* Media Query for Tablets Ipads portrait mode */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .slideDivSection>div {
+      padding: 0;
+      width: 70%;
+    }
+  }
+  
+  /* Media Query for Laptops and Desktops */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .slideDivSection>div {
+      padding: 0;
+      width: 55%;
+    }
+  }
+  
+  /* Media Query for Large screens */
+  
+  @media (min-width: 1281px) and (max-width: 1520px) {
+    .slideDivSection>div {
+      padding: 0;
+      width: 50%;
+    }
+  }

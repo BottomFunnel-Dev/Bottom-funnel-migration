@@ -1,0 +1,36 @@
+.eventlowerbannerboxes{
+    height: 50vh;
+    border: 1px solid transparent;
+    margin-top: 5%;
+    background: url("/Images/Event page/Banners & backgrounds/ha/Group 1000002733.webp");
+    background-size: 100% 100%;
+}
+
+.eventlowerbannersometxtboxes{
+    width: 60%;
+    margin: auto;
+  
+    height: 200px;
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+
+.eventlowerbannerbutton{
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 2%;
+}
+
+.eventlowerbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
