@@ -1,44 +1,22 @@
-import React from "react";
-import Head from "next/head";
-import dynamic from "next/dynamic";
+import React from 'react'
+import AviationAdmin from '../../components/Aviationp/AviationAdmin'
+import AviationBannerone from '../../components/Aviationp/AviationBannerone'
+import AviationCustomer from '../../components/Aviationp/AviationCustomer'
+import AviationDevProcess from '../../components/Aviationp/AviationDevProcess'
+import AviationLower from '../../components/Aviationp/AviationLower'
+import AviationService from '../../components/Aviationp/AviationService'
+import { AviationWhy } from '../../components/Aviationp/AviationWhy'
 
-const AviationAirlines = dynamic(
-  () => import("../../components/Aviation/AviationAirlines"),
-  { loading: "Loading..." },
-);
-
-const AviationLetsDiscuss = dynamic(
-  () => import("../../components/Aviation/AviationLetsDiscuss"),
-  { loading: "Loading..." },
-);
-
-const AvitaionBanner = dynamic(
-  () => import("../../components/Aviation/AvitaionBanner"),
-  { loading: "Loading..." },
-);
-
-const AvitaionLowerBaner = dynamic(
-  () => import("../../components/Aviation/AvitaionLowerBaner"),
-  { loading: "Loading..." },
-);
-
-export default function Aviation() {
+export default function AviationNew () {
   return (
     <div>
-      <Head>
-        <title>Aviation Web App development | Bottom Funnel</title>
-        <meta
-          name="description"
-          content="Do you want to develop an aviation web app but don't know where 
-        to start? Our team of experienced professionals can help you build 
-        the perfect solution, tailored specifically for your business."
-        />
-      </Head>
-
-      <AvitaionBanner />
-      <AviationAirlines />
-      <AviationLetsDiscuss />
-      <AvitaionLowerBaner />
+      <AviationBannerone/>
+      <AviationService/>
+      <AviationCustomer/>
+      <AviationAdmin/>
+      <AviationDevProcess/>
+      <AviationLower/>
+      <AviationWhy/>
     </div>
-  );
+  )
 }

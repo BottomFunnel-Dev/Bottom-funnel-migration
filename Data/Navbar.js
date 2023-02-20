@@ -445,7 +445,7 @@ export const industries = [
     dropContent: "Politics",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/politics.svg",
-    path: "/politics",
+    path: "/politicsdevelopment",
   },
   {
     dropContent: "Wellness",
@@ -469,7 +469,7 @@ export const industries = [
     dropContent: "Events",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/event.svg",
-    path: "/events",
+    path: "/event",
   },
   {
     dropContent: "eScooter",
