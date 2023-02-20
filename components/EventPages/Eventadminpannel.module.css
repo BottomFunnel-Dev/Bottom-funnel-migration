@@ -10,7 +10,7 @@
  
     height: 500px;
     margin-left: 3%;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .eventadminpannelrightboxes{
@@ -52,12 +52,22 @@
 }
 
 .eventadminpanneldataimg{
-    height: 20%;
-    width: 20%;
+    height: 15%;
+    width: 15%;
 
 }
 
 .eventadminpanneltxtbox{
-    margin-left: 12%;
-    margin-top: 5%;
+    margin-left: 0%;
+    margin-top: 3%;
+}
+
+.eventadminpanneltxtbox>h5{
+    font-weight: 700;
+}
+
+
+.eventadminpanneldatamappingindi>p{
+    line-height: normal;
+    text-align: justify;
 }
