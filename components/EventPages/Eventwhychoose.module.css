@@ -1,0 +1,52 @@
+.eventwhychooseusmainboxes{
+    height: 70vh;
+    border: 1px solid transparent;
+    margin-bottom: 5%;
+    background-color: #ffe2db;
+}
+
+.eventwhychooseusdatabox{
+    width: 90%;
+   
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+}
+
+.eventwhychooseusindiboxes{
+    width: 30%;
+   max-height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    position: relative;
+    background-color: #fffbfa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.eventwhychooseusindiboxes:hover{
+    transition: all 0.2s linear;
+transform: translateY(-10px);
+}
+
+.eventwhychooseusiconbox{
+    height: 45%;
+    width: 50%;
+
+    position: absolute;
+    margin-top: -17%;
+  margin-left: 22%;
+
+}
+
+.eventwhychooseustxtboxes{
+    margin-top: 20%;
+}
+
+.eventwhychooseustxtboxes>h5{
+    text-align: center;
+}
+
+.eventwhychooseustxtboxes>p{
+    text-align: justify;
+}

@@ -1,0 +1,63 @@
+.eventadminpannelmainboxes{
+    height: fit-content;
+
+    display: flex;
+    margin-top: 2%;
+}
+
+.eventadminpannelleftboxes{
+    width: 42%;
+ 
+    height: 500px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.eventadminpannelrightboxes{
+    width: 50%;
+  
+    margin-left: 3%;
+}
+
+.eventadminpannelrightboxes>h2{
+    color: #ef4c23;
+    margin-left: 2%;
+}
+
+.eventadminpanneldatamapping{
+    width: 100%;
+    margin-top: 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventadminpanneldatamappingindi{
+    width: 47%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.eventadminpanneldatamappingindi:hover{
+    background-color: #FDF5F2;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+}
+
+.eventadminpanneldataimgandhtxtbox{
+    display: flex;
+}
+
+.eventadminpanneldataimg{
+    height: 20%;
+    width: 20%;
+
+}
+
+.eventadminpanneltxtbox{
+    margin-left: 12%;
+    margin-top: 5%;
+}

@@ -1,0 +1,47 @@
+.eventbannermainboxes{
+    height: 100vh;
+    border: 1px solid transparent;
+    background: url("/Images/Event page/Banners & backgrounds/ha/Frame 1000002392.webp");
+    background-size: 100% 100%;
+    margin-top: 5%;
+}
+
+.eventbannersometextboxes{
+    height: fit-content;
+    width: 40%;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+.eventbannersometextboxes span{
+    color: #ef4c23;
+}
+
+.eventbannersometextboxes>h1{
+    font-weight: 700;
+
+}
+
+
+.eventbannersometextboxes>p{
+    text-align: justify;
+}
+
+.eventbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .eventbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }

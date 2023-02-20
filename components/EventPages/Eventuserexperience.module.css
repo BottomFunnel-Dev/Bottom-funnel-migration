@@ -1,0 +1,83 @@
+.eventuserexperiencemainboxes{
+    height: fit-content;
+  
+    display: flex;
+    margin-top: 5%;
+}
+
+.userexpeventapptxtbox>h1{
+text-align: center;
+margin-top: 2%;
+}
+
+.userexpeventapptxtbox>h3{
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.userexpeventapptxtbox>h3>span{
+    color: #ef4c23;
+}
+
+.userexperienceleftbox{
+    width: 50%;
+margin-top: -3%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventuserexperiencemappingdataindi{
+    width: 47%;
+    height: fit-content;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.eventuserexperiencemappingdataindi:hover{
+    background-color: #FDF5F2;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+}
+
+
+.eventuserexperienceindiflexforiconhtxt{
+    display: flex;
+}
+
+.eventuserexphtxtmappingdata{
+margin-left: 12%;
+margin-top: 5%;
+}
+
+.eventuserexperiencemappingdataindi>p{
+    text-align: justify;
+   
+}
+.eventuserexpimgindi{
+    height: 20%;
+    width: 20%;
+  
+}
+
+.userexperiencerightbox{
+    background: url("/Images/Event page/Banners & backgrounds/ha/Rectangle 34624125.webp");
+    margin-top: -3%;
+    height: 550px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 90% 70%;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.userexperiencerightboximagechanges{
+    height: 100%;
+    width: 40%;
+    
+    margin: auto;
+    margin-top: 0%;
+}
