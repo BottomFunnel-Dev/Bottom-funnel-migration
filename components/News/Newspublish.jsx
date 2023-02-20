@@ -52,6 +52,24 @@ export default function Newspublish() {
         Apart from top-notch SaaS Development, there are several reasions to
         choose us.
       </p>
+      <div>
+        {cardData.map(({ title, description, image }) => (
+          <div key={title} className={styles.newspublishContent}>
+            <div>
+              <Image
+                src={image}
+                alt={image}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
+            <h2>{title}</h2>
+            <p>{description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
