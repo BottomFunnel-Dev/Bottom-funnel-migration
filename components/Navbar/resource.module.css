@@ -6,7 +6,7 @@
   position: fixed;
   box-sizing: border-box;
   top: 78px;
-  left: 47%;
+  right: 20%;
   z-index: 100000000;
   justify-content: center;
 }
@@ -17,13 +17,12 @@
   background-color: white;
   display: flex;
   flex-wrap: wrap;
-  padding: 0 20px ;
+  padding: 0 20px;
   flex-direction: column;
   border: 2px solid white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.resourceListItems > div > p {
+.resourceListItems>div>p {
   margin: 0;
   width: 49%;
   padding: 5px 5px;
@@ -31,7 +30,7 @@
   text-decoration: none !important;
 }
 
-.resourceListItems > p:hover {
+.resourceListItems>p:hover {
   margin: 0;
   color: #ef4c23;
   cursor: pointer;
@@ -44,7 +43,7 @@
   font-size: 14px;
 }
 
-.resourcelinkP > p {
+.resourcelinkP>p {
   margin: 0;
   text-decoration: none;
   color: black;
@@ -61,6 +60,7 @@
     box-sizing: border-box;
     width: 100%;
   }
+
   .resourceVisible>div {
 
     width: 100%;
@@ -69,15 +69,17 @@
   .resourceListItems {
     width: 100%;
     padding: 10px;
-   
+
   }
 }
-@media (min-width: 480px) and  (max-width: 1024px) {
+
+@media (min-width: 480px) and (max-width: 1024px) {
   .resourceVisible {
     position: static;
     box-sizing: border-box;
     width: 100%;
   }
+
   .resourceVisible>div {
 
     width: 100%;
@@ -86,6 +88,6 @@
   .resourceListItems {
     width: 100%;
     padding: 10px;
-   
+
   }
 }

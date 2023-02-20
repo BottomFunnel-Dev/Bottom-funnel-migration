@@ -9,7 +9,7 @@ export const company = [
     dropContent: "Our Team",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/About us/ourteam.svg",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Career ",
@@ -100,7 +100,7 @@ export const process = [
     dropContent: "Our Partners",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/About us/partners.svg",
-    path: "",
+    path: "/404",
   },
 ];
 
@@ -316,7 +316,7 @@ export const trendingTech = [
     dropContent: "Augmented Reality",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Trending technologies/augmentedreality.svg",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "NFT Development",
@@ -383,7 +383,8 @@ export const industries = [
   },
   {
     dropContent: "Game Development",
-    navIcons: "Images/NavbarIconsSvg/industries section/gamedevelopment.svg",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/gamedevelopment.svg",
     path: "/gameDevelopment",
   },
   {
@@ -396,7 +397,7 @@ export const industries = [
     dropContent: "Video Streaming",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/video streaming.svg",
-    path: "Videostreaming",
+    path: "/Videostreaming",
   },
   {
     dropContent: "Sports Betting",
@@ -430,13 +431,15 @@ export const industries = [
   },
   {
     dropContent: "Social Media",
-    navIcons: "Images/NavbarIconsSvg/industries section/socialmedia.svg",
-    path: "social-media",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/socialmedia.svg",
+    path: "/social-media",
   },
   {
     dropContent: "Logistics",
-    navIcons: "Images/NavbarIconsSvg/industries section/logistics.svg",
-    path: "Logistics",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/logistics.svg",
+    path: "/Logistics",
   },
   {
     dropContent: "Politics",
@@ -470,8 +473,9 @@ export const industries = [
   },
   {
     dropContent: "eScooter",
-    navIcons: "Images/NavbarIconsSvg/industries section/escooter.svg",
-    path: "e-scooter",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/escooter.svg",
+    path: "/e-scooter",
   },
   {
     dropContent: "Travel",
@@ -481,8 +485,9 @@ export const industries = [
   },
   {
     dropContent: "Aviation",
-    navIcons: "Images/NavbarIconsSvg/industries section/aviation.svg",
-    path: "aviation",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/aviation.svg",
+    path: "/aviation",
   },
   {
     dropContent: "Telecommunication",
@@ -580,88 +585,100 @@ export const ondemand = [
   },
   {
     dropContent: "Icecream Delivery App",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/icecream.svg",
-    path: "icecream-deliveryapp",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/icecream.svg",
+    path: "/icecream-deliveryapp",
   },
   {
     dropContent: "Plant Based Meat Delivery App",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/plantbasedmeat.svg",
-    path: "plant-based-meat-delivery",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/plantbasedmeat.svg",
+    path: "/plant-based-meat-delivery",
   },
   {
     dropContent: "Car Rental Delivery App",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/carrental.svg",
-    path: "car-rentals-app",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/carrental.svg",
+    path: "/car-rentals-app",
   },
   {
     dropContent: "Agriculture App Solutions",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/agriculture.svg",
-    path: "agriculture-solution-app",
+    path: "/agriculture-solution-app",
   },
   {
     dropContent: "Car Service App Solutions",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/carservice.svg",
-    path: "/",
+    path: "/404",
   },
   {
     dropContent: "Trading App Solutions",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/trading.svg",
-    path: "/",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/trading.svg",
+    path: "/404",
   },
 
   {
     dropContent: "RealState Apps Solutions",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/realestate.svg",
-    path: "real-estate",
+    path: "/real-estate",
   },
   {
     dropContent: "Meat Delivery App",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/meatdelivery.svg",
-    path: "meatdeliveryapp",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/meatdelivery.svg",
+    path: "/meatdeliveryapp",
   },
   {
     dropContent: "Eyewear Delivery App ",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/eyewear.svg",
-    path: "eyeweardeliverapp",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/eyewear.svg",
+    path: "/eyeweardeliverapp",
   },
   {
     dropContent: "Baby & KidsWear App ",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/baby.svg",
-    path: "baby-and-kidswear",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/baby.svg",
+    path: "/baby-and-kidswear",
   },
   {
     dropContent: "Online Payment App ",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/onlinepayment.svg",
-    path: "onlinepaymentsapp",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/onlinepayment.svg",
+    path: "/onlinepaymentsapp",
   },
   {
     dropContent: "Fintech App Solutions",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/fintech.svg",
-    path: "fintech-solution",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/fintech.svg",
+    path: "/fintech-solution",
   },
   {
     dropContent: "Webiste Builder App",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/websitebuilder.svg",
-    path: "website-builder-app",
+    path: "/website-builder-app",
   },
   {
     dropContent: "App Builder Solutions",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/ap builder.svg",
-    path: "app-builder-solution",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/ap builder.svg",
+    path: "/app-builder-solution",
   },
   {
     dropContent: "AI Content App Solutions",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/aicontent.svg",
-    path: "artificial-intelligence",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/aicontent.svg",
+    path: "/artificial-intelligence",
   },
   {
     dropContent: "OTT App Solutions",
-    navIcons: "Images/NavbarIconsSvg/on demand solutions/ott.svg",
-    path: "ott-app-solutions",
+    navIcons:
+      "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/ott.svg",
+    path: "/ott-app-solutions",
   },
 ];
 
@@ -670,182 +687,182 @@ export const backend = [
     dropContent: "Node.js",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/nodejs.png",
-    path: "/nodejs",
+    path: "/skills/nodejs",
   },
   {
     dropContent: ".NET",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/-net.png",
-    path: "/dotnet",
+    path: "/skills/dotnet",
   },
   {
     dropContent: "PHP",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/php.png",
-    path: "/php",
+    path: "/skills/php",
   },
   {
     dropContent: "Laravel",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/laravel.png",
-    path: "/laravel",
+    path: "/skills/laravel",
   },
   {
     dropContent: "SpringBoot",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/springboot.png",
-    path: "/springboot",
+    path: "/skills/springboot",
   },
   {
     dropContent: "Hibernate",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/hibernate.png",
-    path: "/hibernate",
+    path: "/skills/hibernate",
   },
   {
     dropContent: "Django",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/django.png",
-    path: "/django",
+    path: "/skills/django",
   },
   {
     dropContent: "CakePHP",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/cakephp.png",
-    path: "/cakephp",
+    path: "/skills/cakephp",
   },
 
   {
     dropContent: "CodeIgniter",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/codeigniter.png",
-    path: "/codeigniter",
+    path: "/skills/codeigniter",
   },
   {
     dropContent: "Flask",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/flask.png",
-    path: "/flask",
+    path: "/skills/flask",
   },
   {
     dropContent: "Golang",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/golang.png",
-    path: "/golang",
+    path: "/skills/golang",
   },
   {
     dropContent: "Struts",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/struts.png",
-    path: "/struts",
+    path: "/skills/struts",
   },
   {
     dropContent: "Symfony",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/symfony.png",
-    path: "/symfony",
+    path: "/skills/symfony",
   },
   {
     dropContent: "Phalcon",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/phalcon.png",
-    path: "/phalcon",
+    path: "/skills/phalcon",
   },
   {
     dropContent: "JSF",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/jsf.png",
-    path: "/jsf",
+    path: "/skills/jsf",
   },
   {
     dropContent: "Grails",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/grails.png",
-    path: "/grails",
+    path: "/skills/grails",
   },
   {
     dropContent: "Yii",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/yii.png",
-    path: "/yii",
+    path: "/skills/yii",
   },
   {
     dropContent: "Zend",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/Zend.png",
-    path: "/zend",
+    path: "/skills/zend",
   },
   {
     dropContent: "Git",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/Git.png",
-    path: "/git",
+    path: "/skills/git",
   },
   {
     dropContent: "Cherrpy",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/cherrpy.png",
-    path: "/cherrypy",
+    path: "/skills/cherrypy",
   },
   {
     dropContent: "Cuba",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/cuba.png",
-    path: "/cuba",
+    path: "/skills/cuba",
   },
   {
     dropContent: "Echo",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/echoo.png",
-    path: "/echo",
+    path: "/skills/echo",
   },
   {
     dropContent: "Gorilla",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/gorilla.png",
-    path: "/gorilla",
+    path: "/skills/gorilla",
   },
   {
     dropContent: "Hanami",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/hanami.png",
-    path: "/hanami",
+    path: "/skills/hanami",
   },
   {
     dropContent: "Iris",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/iris.png",
-    path: "/iris",
+    path: "/skills/iris",
   },
   {
     dropContent: "Padrino",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/padrino.png",
-    path: "/padrino",
+    path: "/skills/padrino",
   },
   {
     dropContent: "Rails",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/rails.png",
-    path: "/rails",
+    path: "/skills/rails",
   },
   {
     dropContent: "Revel",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/revel.png",
-    path: "/revel",
+    path: "/skills/revel",
   },
   {
     dropContent: "Roda",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/roda.png",
-    path: "/roda",
+    path: "/skills/roda",
   },
   {
     dropContent: "Sintara",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/sinatra.png",
-    path: "/sinatra",
+    path: "/skills/sinatra",
   },
 ];
 
@@ -854,55 +871,55 @@ export const frontend = [
     dropContent: "React.js",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/react.png",
-    path: "/reactjs",
+    path: "/skills/reactjs",
   },
   {
     dropContent: "Angular",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/angular.png",
-    path: "/angularjs",
+    path: "/skills/angularjs",
   },
   {
     dropContent: "Vue.js",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/vue js.png",
-    path: "/vuejs",
+    path: "/skills/vuejs",
   },
   {
     dropContent: "Ember.js",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/emberjs.png",
-    path: "/emberjs",
+    path: "/skills/emberjs",
   },
   {
     dropContent: "jQuery",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/jquery.png",
-    path: "/jquery",
+    path: "/skills/jquery",
   },
   {
     dropContent: "Next.js",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/next js.png",
-    path: "/nextjs",
+    path: "/skills/nextjs",
   },
   {
     dropContent: "Backbone.js",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/backbone js.png",
-    path: "/backbonejs",
+    path: "/skills/backbonejs",
   },
   {
     dropContent: "Svelte",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/svelte.png",
-    path: "/svelte",
+    path: "/skills/svelte",
   },
   {
     dropContent: "Semantic UI",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/semantic.png",
-    path: "/semantic",
+    path: "/skills/semantic",
   },
 ];
 
@@ -935,7 +952,7 @@ export const mobile = [
     dropContent: "Java",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/javaimage.png",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Flutter",
@@ -953,7 +970,7 @@ export const mobile = [
     dropContent: "Swift",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/swift.png",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Kotlin",
@@ -968,55 +985,55 @@ export const database = [
     dropContent: "MySQL",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/mysqlimage.png",
-    path: "/mysql",
+    path: "/skills/mysql",
   },
   {
     dropContent: "Microsoft SQL Server",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/microsoftsql.png",
-    path: "/microsoftsql",
+    path: "/skills/microsoftsql",
   },
   {
     dropContent: "PostgreSQL",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/postgreSQL.png",
-    path: "/postgresql",
+    path: "/skills/postgresql",
   },
   {
     dropContent: "MongoDB",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/mongodb.png",
-    path: "/mongodb",
+    path: "/skills/mongodb",
   },
   {
     dropContent: "Redis",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/redis.png",
-    path: "/redis",
+    path: "/skills/redis",
   },
   {
     dropContent: "IBM db2",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/ibmdb2.png",
-    path: "/ibmdb",
+    path: "/skills/ibmdb",
   },
   {
     dropContent: "Elacticsearch",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/elasticsearch.png",
-    path: "/elasticsearch",
+    path: "/skills/elasticsearch",
   },
   {
     dropContent: "SQLite",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/sqlite.png",
-    path: "/sqlite",
+    path: "/skills/sqlite",
   },
   {
     dropContent: "Cassandra",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/cassandra.png",
-    path: "/cassandra",
+    path: "/skills/cassandra",
   },
 ];
 
@@ -1025,55 +1042,55 @@ export const cms = [
     dropContent: "Wordpress",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/wordpress.png",
-    path: "/wordpress",
+    path: "/skills/wordpress",
   },
   {
     dropContent: "Hubspot CMS Hub",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/hubspot.png",
-    path: "/hubspot",
+    path: "/skills/hubspot",
   },
   {
     dropContent: "Joomla",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/joomla.png",
-    path: "/joomla",
+    path: "/skills/joomla",
   },
   {
     dropContent: "WooCommerce",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/woo.png",
-    path: "/woocommerce",
+    path: "/skills/woocommerce",
   },
   {
     dropContent: "Drupal",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/drupal.png",
-    path: "/drupal",
+    path: "/skills/drupal",
   },
   {
     dropContent: "Wix",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/wix.png",
-    path: "/wix",
+    path: "/skills/wix",
   },
   {
     dropContent: "Big Commerce",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/bigcommerce.png",
-    path: "/bigcommerce",
+    path: "/skills/bigcommerce",
   },
   {
     dropContent: "Ghost website builder",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/ghost.png",
-    path: "/ghost",
+    path: "/skills/ghost",
   },
   {
     dropContent: "Weebly",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/weebly.png",
-    path: "/weebly",
+    path: "/skills/weebly",
   },
 ];
 
@@ -1107,12 +1124,14 @@ export const discoverRightContent = [
     description: `We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Discover section/fullcycledevelopment.svg",
+    path: "/Full-Cycle-Poduct-Design",
   },
   {
     title: "Innovation Lab",
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Discover section/innovationlab.svg",
+    path: "/404",
   },
 ];
 
@@ -1153,6 +1172,7 @@ export const designRightContent = [
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Discover section/innovationlab.svg",
+    path: "/404",
   },
 ];
 
@@ -1185,12 +1205,14 @@ export const scaleRightContent = [
     description: ` We validate early and iterate often. From ideation to launch, we follow a holistic approach to full-cycle product development.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/scale section/fullcycledevelopment.svg",
+    path: "/Full-Cycle-Poduct-Design",
   },
   {
     title: "Innovation Lab",
     description: ` We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/scale section/innovationlab.svg",
+    path: "/404",
   },
 ];
 
@@ -1401,7 +1423,7 @@ export const productDesk = [
     productText2: "Field Service",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/Logos/funnel-desk/contact-center.png",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Omnichannel Suite",
@@ -1409,7 +1431,7 @@ export const productDesk = [
     productText2: "Travel & Hospitality",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/Logos/funnel-desk/omnichannel.png",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Customer Sucess",
@@ -1418,7 +1440,7 @@ export const productDesk = [
     productText2: "Travel & Hospitality",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/Logos/funnel-desk/customer-sucess.png",
-    path: "",
+    path: "/404",
   },
 ];
 
@@ -1441,54 +1463,54 @@ export const productFeatures = [
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Security",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Integration",
-    path: "",
+    path: "/404",
   },
 ];
 
 export const productResources = [
   {
     dropContent: "Remote Support",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Customer Stories",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Resource Library",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Webinars",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Videos",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Free Tools",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Academy",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Blog",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "What's new",
-    path: "",
+    path: "/404",
   },
 ];
 
@@ -1498,122 +1520,122 @@ export const salesProduct = [
     productText1: "Sales CRM",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/product/bottomFunnnelSales.png",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Bottom Funnel Suite",
     productText1: "Sales & Markeing CRM",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/product/Sales.png",
-    path: "",
+    path: "/404",
   },
 ];
 
 export const salesFeatures = [
   {
     dropContent: "Contact Management",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Cloud Telephony",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "CPQ",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Deal Management",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Email Integration",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Olly AI",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Mobile",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Sales Reports",
-    path: "",
+    path: "/404",
   },
 ];
 
 export const salesResources = [
   {
     dropContent: "Case Study",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Product Tour",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Blog",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "What's new",
-    path: "",
+    path: "/404",
   },
 ];
 
 export const salesIndustries = [
   {
     dropContent: "Real Estate",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Manufacturing",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "SAAS",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Hospitality",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Insurance",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Logistics",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Agency",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Retail",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Finance",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "HealthCare",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Education",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Travel Agency",
-    path: "",
+    path: "/404",
   },
   {
     dropContent: "Law Firm",
-    path: "",
+    path: "/404",
   },
 ];
