@@ -1,0 +1,39 @@
+.politicsappdevelopmentmainboxes{
+    height: 100vh;
+    margin-top: 5%;
+    border: 1px solid transparent;
+    background: url("/Images/politics Re/politicsbanner.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.politicsappdevelopmenttxtboxes{
+    width: 50%;
+    height: fit-content;
+   
+    margin-top: 14%;
+    margin-left: 5%;
+    color: white;
+}
+
+.politicsappdevelopmenttxtboxes>p{
+    text-align: justify;
+}
+.politicsbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .politicsbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }

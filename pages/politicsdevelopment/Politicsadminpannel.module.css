@@ -1,0 +1,47 @@
+.politicsadminpannelmainboxes{
+    display: flex;
+    height: fit-content;
+
+    margin-top: 5%;
+}
+.policsadminpannelleftboxes{
+    width: 55%;
+    height: fit-content;
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+.politicsadminpannelindboxes{
+width: 47%;
+margin: 1%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+height: fit-content;
+padding: 10px;
+border-radius: 10px;
+}
+
+.politicsadminpannelindtxtandimagesbox{
+    display: flex;
+}
+.politicsadminindiconbox{
+    height: 15%;
+    width: 15%;
+  
+}
+
+.politicsadminindtxtbox{
+    margin-top: 3%;
+}
+
+.politicsadminpannelindboxes>p{
+    text-align: justify;
+}
+
+.politicsadminpannelrightboxes{
+    height: 500px;
+    width: 40%;
+  
+    margin-left: 2%;
+}

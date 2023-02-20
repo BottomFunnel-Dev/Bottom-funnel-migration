@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 
 function SampleNextArrow(props) {
+  
   const { className, style, onClick } = props;
   return (
     <div
