@@ -1,0 +1,57 @@
+
+.saasappOuterDiv>h1{
+    /* border: 2px solid red; */
+    margin-left: 18%;
+}
+.saasappOuterDiv>span{
+    color: #ED5D37;
+}
+.saasAppMainDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.saasAppLeftContainer{
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.saasAppRightContainer{
+    /* border: 2px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.saasAppHeading{
+    /* border: 2px solid black; */
+    border-bottom: 5px solid #ED5D37;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.saasAppRightData{
+    /* border: 2px solid yellow; */
+    margin-left: 3%;
+}
+.saasAppHeading>h6{
+    /* color: #ED5D37; */
+    margin-top: 5%;
+}
+.saasAppImage{
+    width: 50px;
+    height: 50px;
+    margin:auto;
+    margin-top: 15%;
+}
+.saasAppServiceImage{
+    /* border: 2px solid  red; */
+    width: 40%;
+    height: 350px;
+    margin-top: 2%;
+}
+.saasAppRightData>h3{
+    margin-top: 3%;
+}

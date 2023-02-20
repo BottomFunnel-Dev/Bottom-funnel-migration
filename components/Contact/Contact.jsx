@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import stylecon from "./Contact.module.css";
-// import ButtonGroup from "react-bootstrap/ButtonGroup";
-// import Dropdown from "react-bootstrap/Dropdown";
-// import DropdownButton from "react-bootstrap/DropdownButton";
 import { MdArrowDropDown } from "react-icons/md";
 
 export const ContactMain = ({ scroll, navbar }) => {
@@ -51,7 +48,7 @@ export const ContactMain = ({ scroll, navbar }) => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_3_3215)">
+            <g clipPath="url(#clip0_3_3215)">
               <path
                 d="M34.52 0C35.9 0.77 37.52 0.820002 38.95 1.51C41.074 2.50694 43.012 3.85977 44.68 5.51C51.76 12.6 58.86 19.66 65.92 26.77C71.54 32.41 72.58 39.99 68.68 46.42C67.0292 49.2173 64.444 51.3421 61.38 52.42C56.86 54.05 53.38 56.81 51.38 61.32C50.0962 64.2305 49.863 67.4965 50.72 70.56C52.65 77.9 56.48 84.22 61.22 90.03C68.22 98.62 76.42 105.83 86.44 110.78C89.75 112.42 93.19 113.91 96.98 113.78C103.98 113.45 109.26 110.16 111.53 103.4C114.87 93.46 128.35 89.4 137.01 97.96C144.583 105.46 152.12 113 159.62 120.58C162.265 123.127 163.856 126.575 164.08 130.24C164.08 130.49 164.08 130.79 164.38 130.88V132.81C163.95 132.94 164.08 133.32 164.05 133.61C163.651 137.313 162.02 140.774 159.42 143.44C154.42 148.44 149.42 153.44 144.42 158.44C142.095 160.75 139.232 162.447 136.09 163.38C128.95 165.56 121.88 164.64 114.87 162.86C102.76 159.79 91.87 154.08 81.43 147.36C64.3095 136.174 48.8279 122.661 35.43 107.21C23.33 93.43 12.87 78.55 5.75 61.53C2.53 53.85 0.179973 45.93 -0.060027 37.53C-0.280027 29.91 1.73999 23.22 7.57999 17.88C11.73 14.08 15.58 9.99 19.58 5.97C22.09 3.4 24.81 1.24 28.42 0.450001C28.66 0.390001 28.96 0.37 29.01 0.0200005L34.52 0Z"
                 fill="black"
@@ -114,10 +111,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                 </div>
                 <div className={stylecon.contactNumbs}>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/india.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
@@ -129,10 +129,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                     </ul>
                   </div>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/usa.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
@@ -141,10 +144,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                     </ul>
                   </div>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/uae.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
@@ -156,10 +162,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                     </ul>
                   </div>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/kenya.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
@@ -168,10 +177,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                     </ul>
                   </div>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/skypes.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
@@ -180,10 +192,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                     </ul>
                   </div>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/mail.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>
@@ -224,10 +239,13 @@ export const ContactMain = ({ scroll, navbar }) => {
                 </div>
                 <div className={stylecon.contactNumbs}>
                   <div className={stylecon.numberMain}>
-                    <img
+                    <Image
                       src="/Images/navbar/iconcontact/india.svg"
                       alt=""
-                      width={"30px"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "30px", height: "fit-content" }}
                     />
                     <ul className={stylecon.contactNumbers}>
                       <li>

@@ -10,7 +10,7 @@ const PortFolio = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const settings = {
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     accessibility: true,
     autoplaySpeed: 4000,
     speed: 1000,
@@ -21,10 +21,7 @@ const PortFolio = () => {
     vertical: true,
     arrows: false,
     beforeChange: (current, next) => setImageIndex(next),
-
   };
-
-
 
   const portfolioData = [
     {
@@ -84,9 +81,6 @@ const PortFolio = () => {
       database: " Host Europe, CDN, jsDelivr",
       website: "https://www.blueberry-travel.com/",
     },
-
-
-
 
     {
       leftimg: "#FE8805",
@@ -301,7 +295,10 @@ const PortFolio = () => {
                     </div>
                   </div>
                   <div className={styles.bottomfunnelBranding}>
-                    <img src="Images/navbar/whitebottom.png" alt="image" />
+                    <img
+                      src="https://d1krs40fxb67ye.cloudfront.net/Images/navbar/whitebottom.png"
+                      alt="image"
+                    />
                   </div>
                   <p className={styles.tagline}>
                     <i>Build Your Brand Presence</i>

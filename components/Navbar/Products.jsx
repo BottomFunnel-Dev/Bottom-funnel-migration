@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import prods from "./products.module.css";
 import Link from "next/link";
 import { product1, product2, product3, product4 } from "../../Data/Navbar";
-export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
+
+export default function Products({
+  serHoverIn,
+  serHoverOut,
+  scroll,
+  productMount,
+}) {
   return (
     <div
       onMouseEnter={() => serHoverIn()}
@@ -128,7 +134,7 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
           >
             Platforms
           </h5>
-          <div style={{marginTop:"6%"}} className={prods.listItems}>
+          <div style={{ marginTop: "6%" }} className={prods.listItems}>
             {product4.map((item, i) => (
               <div
                 key={i}
@@ -258,4 +264,4 @@ export const Products = ({ serHoverIn, serHoverOut, scroll, productMount }) => {
       </div>
     </div>
   );
-};
+}

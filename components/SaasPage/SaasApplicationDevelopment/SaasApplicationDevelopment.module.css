@@ -1,0 +1,64 @@
+.saasAppDevMainDiv{
+    /* border: 2px solid  red; */
+    width: 100%;
+    /* height: 100vh; */
+}
+.saasAppDevDataDiv{
+    /* border: 2px solid red; */
+    background-color: #ED5D37;
+    width: 100%;
+    height: 60vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.saasAppData{
+    /* border: 2px solid white; */
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.saasAppData>button{
+    border: 2px solid white;
+    background-color: #ED5D37;
+    width: 15%;
+    color: white;
+    /* border-radius: 5px; */
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+}
+.saasAppDataImage{
+    /* border: 2px solid white; */
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+}
+
+.saasAppDevDataDiv1{
+    /* border: 2px solid red; */
+    /* background-color: #ED5D37; */
+    width: 100%;
+    height: 60vh;
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+}
+.saasAppData1{
+    /* border: 2px solid white; */
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.saasAppData1>button{
+    border: 2px solid #3380F2;
+    background-color: white;
+    width: 15%;
+    color: #3380F2;
+    /* border-radius: 5px; */
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+}

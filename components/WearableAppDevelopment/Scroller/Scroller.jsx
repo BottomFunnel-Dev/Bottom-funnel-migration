@@ -48,7 +48,7 @@ export const Scroller = () => {
                                 <p>UI layout is an important aspect of any design project, and it's something that should be considered from the very beginning. </p>
                                 <li>Function & API Integration </li>
                                 <p>UI layouts are one of the most important aspects of any web or mobile application. </p>
-                                <li>Code Optimization</li>
+                                {/* <li>Code Optimization</li> */}
                                 {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p> */}
                             </div>
                         </div>
@@ -58,19 +58,19 @@ export const Scroller = () => {
                                     <h1>3</h1>
                                 </div>
                                 <div className={styles.ScrollerContentHeading}>
-                                    Ease of Code Sharing
+                                    Compatibility Checks and Execution
                                 </div>
                             </div>
                             <div className={styles.ScrollerContentDataText}>
-                                <li>Recognizing Platforms</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
-                                <li>Analyzing Core Requirements</li>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
-                                <li>Implementing Roadmap</li>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
+                                <li>Assuring Quality</li>
+                                <p>Before we start with wearable app development, we anaylze the targeted platform and technologies.</p>
+                                <li>App Execution</li>
+                                <p>We come to the analysis of app requirements once we know targeted platforms.</p>
+                                {/* <li>Upgrading the features</li> */}
+                                {/* <p>We Put our best efforts to Implement a successfull strategy and build the desired end-product.</p> */}
                             </div>
                         </div>
-                        <div className={styles.ScrollerContentScrollerDivContainer}>
+                        {/* <div className={styles.ScrollerContentScrollerDivContainer}>
                             <div className={styles.ScrollerContentData}>
                                 <div className={styles.ScrollerContentIcon}>
                                     <h1>4</h1>
@@ -123,7 +123,7 @@ export const Scroller = () => {
                                 <li>Implementing Roadmap</li>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maxime, .</p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

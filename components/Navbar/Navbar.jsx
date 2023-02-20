@@ -5,15 +5,15 @@ import { IconContext } from "react-icons";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useRouter } from "next/router";
 import Image from "next/image";
-// import NavDropdown from "react-bootstrap/NavDropdown";
-
-import { WhoWeAre } from "./WhoWeAre";
 import { ContactMain } from "../Contact/Contact";
-import { Resource } from "./Resource";
-import { NavServices } from "./NavServices";
-import { NavIndustries } from "./NavIndustries";
 import DropdownResp from "./responsiveDropdown/DropdownResp";
-import { Industries } from "./Industries";
+import dynamic from "next/dynamic";
+
+const WhoWeAre = dynamic(() => import("./WhoWeAre"));
+const Resource = dynamic(() => import("./Resource"));
+const NavServices = dynamic(() => import("./NavServices"));
+const NavIndustries = dynamic(() => import("./NavIndustries"));
+const Industries = dynamic(() => import("./Industries"));
 
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -178,6 +178,7 @@ const Navbar = () => {
 
         {mobres && (
           <DropdownResp
+            hoverhandle={hoverhandle}
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}

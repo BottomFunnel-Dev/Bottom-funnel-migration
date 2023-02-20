@@ -7,6 +7,12 @@ import { SaasValuable } from "../../components/SaasPage/SaasValuable/SaasValuabl
 import { SaasStrategy } from "../../components/SaasPage/SaasStrategy/SaasStrategy";
 
 import Head from "next/head";
+import { SaasArrangeCall } from "../../components/SaasPage/SaasArrangeCall/SaasArrangeCall";
+import { SaasApplicationDevelopment } from "../../components/SaasPage/SaasApplicationDevelopment/SaasApplicationDevelopment";
+import { LeadingSaaSDevelopment } from "../../components/SaasPage/LeadingSaaSDevelopment/LeadingSaaSDevelopment";
+import { SaaSDevelopmentPlans } from "../../components/SaasPage/SaaSDevelopmentPlans/SaaSDevelopmentPlans";
+import { WhyBottomFunnel } from "../../components/SaasPage/WhyBottomFunnel/WhyBottomFunnel";
+import { SaaSAppServices } from "../../components/SaasPage/SaaSAppServices/SaaSAppServices";
 
 export default function SaasPage() {
   return (
@@ -23,11 +29,18 @@ export default function SaasPage() {
       </Head>
 
       <main>
-        <Saasbanner />
-        <SaasExpetise />
+        <Saasbanner/>
+        <SaaSAppServices/>
+        <SaasArrangeCall/>
+        <SaasApplicationDevelopment/>
+        <LeadingSaaSDevelopment/>
+        <SaaSDevelopmentPlans/>
+        <WhyBottomFunnel/>
+
+        {/* <SaasExpetise />
         <SaasSuite />
         <SaasValuable />
-        <SaasStrategy />
+        <SaasStrategy /> */}
       </main>
     </div>
   );

@@ -1,0 +1,68 @@
+
+.AviationProcesstext{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.AviationProcesstext>h2{
+    margin-top: -2%;
+    padding-bottom: 1%;
+}
+
+.ProcessFeatures {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+
+  }
+  
+  .ProcesCards {
+    padding-top: 2%;
+    width: 18%;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+  
+  .ProcessCards:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .ProcesscardIcon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  
+  .ProcesscardIcon > img {
+    object-fit: contain;
+  }
+  
+  .ProcessContent {
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .AviationProcesstexts{
+    width: 50%;
+    padding-top: 2%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  .AviationLowertext{
+    padding-left: 13%;
+    font-size: 18px;
+    padding-bottom: 10px;
+
+  }
+  
+  

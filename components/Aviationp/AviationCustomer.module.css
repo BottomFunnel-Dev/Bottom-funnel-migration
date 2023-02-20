@@ -1,0 +1,92 @@
+.aviationCustomerMain {
+    margin-bottom: 5%;
+    width: 100%;
+    background-color: #fac1b2;
+  }
+  
+  .aviationCustomerMain > h2 {
+    margin-left: 3.5%;
+    font-size: 40px;
+    padding-top: 1%;
+  }
+  
+  .aviationCustomerbox {
+    height: fit-content;
+    display: flex;
+  }
+  
+  .aviationCustomerleftbox {
+    height: 480px;
+    width: 50%;
+    
+  }
+  
+  .aviationCustomerleftboxinsider {
+    height: 90%;
+    width: 35%;
+    margin: 3% 0% 5% 30%;
+  }
+  
+  .aviationCustomerleftboxinsider > img {
+    object-fit: contain;
+  }
+  
+  .aviationCustomerrightbox {
+    height: fit-content;
+    width: 60%;
+    margin: 2% 2% 4% 3%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .aviationCustomerMain > h2 {
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .aviationCustomerindivisual {
+    height: fit-content;
+    width: 45%;
+    height: 210px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .aviationCustomerindivisual:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #f9e8eb;
+  }
+  
+  .aviationCustomerindivisualicon {
+    height: 23%;
+    width: 12%;
+  }
+  
+  .aviationCustomerindivisualicon > img {
+    object-fit: contain;
+  }
+  
+  .aviationCustomerindivisualtext > h4 {
+    padding-top: 5px;
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+  }
+  
+  .aviationCustomerindivisualtext > p {
+    padding-top: 1%;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  

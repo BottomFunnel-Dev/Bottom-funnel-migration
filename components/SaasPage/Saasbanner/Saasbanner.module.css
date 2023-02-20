@@ -1,11 +1,35 @@
 .saasBannerMain {
-  height: fit-content;
-  margin-bottom: 1%;
+  height: 90vh;
+  /* margin-bottom: 1%; */
   /* border: 1px solid red; */
+  color: white;
 }
 
 .saasBannerImage {
-  height: fit-content;
-  overflow: hidden;
-  text-align: right;
+  height:80vh;
+  width: 100%;
+  /* border: 2px solid black; */
+  margin-top: 5%;
+  position: relative;
+}
+.saasBannerImage>h1{
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+.saasBannerImage>p{
+  position: absolute;
+  top: 38%;
+  left: 5%;
+}
+.saasBannerImage>button{
+  position:absolute;
+  top: 62%;
+  left: 5%;
+  border: none;
+  width: 15%;
+  height: 48px;
+  border-radius: 5px;
+  color:#F57419;
+  font-weight: 600;
 }
