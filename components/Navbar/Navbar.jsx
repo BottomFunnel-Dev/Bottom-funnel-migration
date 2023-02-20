@@ -178,6 +178,7 @@ const Navbar = () => {
 
         {mobres && (
           <DropdownResp
+            hoverhandle={hoverhandle}
             homeHoverIn={hoverhandle}
             homeHoverOut={hoverhandle}
             scroll={scroll}

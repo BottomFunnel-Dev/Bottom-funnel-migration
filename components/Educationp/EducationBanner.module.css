@@ -45,3 +45,37 @@
     width: 45%;
     height: fit-content;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .EducationBannerMain {
+        flex-direction: column-reverse;
+    }
+
+    .EducationBannerimg {
+        width: 80%;
+    }
+
+    .EducationBannerText {
+        width: 90%;
+        text-align: center;
+    }
+
+    .EducationBannerText>h1 {
+        font-size: 30px;
+    }
+
+    .EducationBannerText>p:nth-child(1) {
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .EducationBannerText>p:nth-child(3) {
+        font-size: 14px;
+    }
+
+    .EducationBannerText>button {
+        font-size: 14px;
+        padding: 8px 30px;
+    }
+}

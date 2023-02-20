@@ -5,3 +5,10 @@
     margin: auto;
     margin-bottom: 20px;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .educationMainContainer>h1 {
+        font-size: 25px;
+    }
+}

@@ -12,7 +12,7 @@ export default function EducationBanner() {
           Education App
         </h1>
         <p>Get branded App & Website for your business</p>
-        <button>Start 15 Days Risk-Free Trail</button>
+        <button>Get Started</button>
       </div>
       <div className={styles.EducationBannerimg}>
         <Image
