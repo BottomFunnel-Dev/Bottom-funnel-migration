@@ -3,6 +3,9 @@
     /* border: 2px solid red; */
     margin-left: 18%;
 }
+.saasappOuterDiv>span{
+    color: #ED5D37;
+}
 .saasAppMainDiv{
     /* border: 2px solid red; */
     width: 100%;

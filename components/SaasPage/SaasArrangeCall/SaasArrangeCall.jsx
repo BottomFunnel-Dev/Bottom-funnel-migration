@@ -19,7 +19,7 @@ export const SaasArrangeCall = () => {
                 <p>
                     Do you need an expert opinion or advice for your software development ? <br/>
                     If so,connect with us now for a free consultation call. Our solution
-                    architects and CTO can nudge ypu towards success.
+                    architects and CTO can nudge you towards success.
                 </p>
                 <button>Book A 30 MIN CALL</button>
         </div>

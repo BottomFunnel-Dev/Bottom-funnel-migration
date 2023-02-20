@@ -29,7 +29,7 @@ export default function SaasPage() {
       </Head>
 
       <main>
-        <Saasbanner />
+        <Saasbanner/>
         <SaaSAppServices/>
         <SaasArrangeCall/>
         <SaasApplicationDevelopment/>
