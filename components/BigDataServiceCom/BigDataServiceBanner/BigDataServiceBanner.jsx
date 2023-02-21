@@ -1,27 +1,9 @@
-import { Box, Modal, Typography } from "@/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./BigDataServiceBanner.module.css";
 
 export default function BigDataServiceBanner() {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
 
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 700,
-    height: 550,
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    // boxShadow: 24,
-    backgorund: "green",
-    p: 1,
-    borderRadius: 2,
-  };
 
   return (
     <div className={styles.BigDataServiceBannerMain}>
@@ -51,7 +33,7 @@ export default function BigDataServiceBanner() {
 
       <div
         className="modal fade"
-        id="staticBackdrop"
+        id="staticBackdropbigdatas"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
         aria-labelledby="staticBackdropLabel"

@@ -1,4 +1,3 @@
-import { Box, Typography, Modal } from "@/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./IonicAppBanner.module.css";
