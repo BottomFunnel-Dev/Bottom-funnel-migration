@@ -37,3 +37,59 @@
     background-color: white;
     color: #ef4c23;
   }
+
+  @media only screen and (min-width:0px) and (max-width:600px){
+
+.politicsappdevelopmentmainboxes{
+    height: 70vh;
+    margin-top: 10%;
+    border: 1px solid transparent;
+    background: url("/Images/politics Re/politicsbanner.webp");
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+   
+
+}
+
+.politicsappdevelopmenttxtboxes{
+    width: 90%;
+    height: fit-content;
+   margin: auto;
+    margin-top: 60%;
+    /* margin-left: 5%; */
+    color: black;
+    
+}
+
+.politicsappdevelopmenttxtboxes>h1{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.politicsappdevelopmenttxtboxes>p{
+    text-align: justify;
+    line-height: normal;
+    font-size: 12px;
+}
+.politicsbannerbutton {
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    
+  }
+  
+  .politicsbannerbutton:hover {
+    background-color: black;
+    color: white;
+  }
+
+}

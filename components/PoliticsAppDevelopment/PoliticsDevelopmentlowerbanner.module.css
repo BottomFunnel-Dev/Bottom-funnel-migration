@@ -2,7 +2,7 @@
     height: 40vh;
     border: 1px solid transparent;
     margin-top: 5%;
-      background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, red , yellow);
 }
 
 .lowerbannerpoliticstxtbox{
@@ -31,6 +31,53 @@
   
   .politicslowerbannerbutton:hover {
     background-color: white;
-    color: #ef4c23
+    color: #ef4c23
+
+}
+
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.politicslowerbannermainboxes{
+    height: 20vh;
+    border: 1px solid transparent;
+    margin-top: 5%;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.lowerbannerpoliticstxtbox{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    height: fit-content;
+
+    text-align: center;
+    color: white;
+}
+
+.lowerbannerpoliticstxtbox>h3{
+    font-size: 14px;
+}
+
+.politicslowerbannerbutton {
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: fit-content;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    margin-top: 2%;
+  }
+  
+  .politicslowerbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23
+
+}
+
 
 }

@@ -86,3 +86,98 @@ margin-top: 3%;
     margin: auto;
     margin-top: 0%;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.eventuserexperiencemainboxes{
+    height: fit-content;
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+}
+
+.userexpeventapptxtbox>h1{
+text-align: center;
+margin-top: 2%;
+}
+
+.userexpeventapptxtbox>h3{
+text-align: center;
+font-weight: 700;
+font-size: 25px;
+}
+
+.userexpeventapptxtbox>h3>span{
+    color: #ef4c23;
+}
+
+.userexperienceleftbox{
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventuserexperiencemappingdataindi{
+    width: 85%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.eventuserexperiencemappingdataindi:hover{
+    background-color: #FDF5F2;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+}
+
+
+.eventuserexperienceindiflexforiconhtxt{
+    display: flex;
+}
+
+.eventuserexphtxtmappingdata{
+margin-left: 0%;
+margin-top: 3%;
+}
+
+.eventuserexphtxtmappingdata>h5{
+    font-weight: 700;
+}
+
+.eventuserexperiencemappingdataindi>p{
+    text-align: justify;
+    line-height: normal;
+   
+}
+.eventuserexpimgindi{
+    height: 17%;
+    width: 17%;
+  
+}
+
+.userexperiencerightbox{
+    background: url("/Images/Event page/Banners & backgrounds/ha/Rectangle 34624125.webp");
+
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position-x: right;
+    
+}
+
+.userexperiencerightboximagechanges{
+    height: 100%;
+    width: 40%;
+    margin: auto;
+
+   
+}
+
+}

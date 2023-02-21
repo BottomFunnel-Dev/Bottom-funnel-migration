@@ -33,8 +33,8 @@ export default function AviationAdmin () {
     <div className={styles.aviationAdminMain}>
 
     <h2> Admin Panel </h2>
+
     <div className={styles.aviationAdminbox}>
-    
         <div className={styles.aviationAdminrightbox}>
             {aviationAdmindata.map((e) => {
                 return (
@@ -50,7 +50,7 @@ export default function AviationAdmin () {
                         </div>
 
                         <div className={styles.aviationAdminindivisualtext}>
-                            <h4> {e.headertext} </h4>
+                            <h1> {e.headertext} </h1>
                             <p> {e.paragraph} </p>
                         </div>
                     </div>
