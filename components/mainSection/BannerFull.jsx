@@ -129,26 +129,41 @@ export default function BannerFull() {
               <div className={styles.bannertextcontentfull}>
                 <h1> {item.title} </h1>
                 <p> {item.desc} </p>
-                <button onClick={handleOpen}> Get Started </button>
-
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby={styles.modalmodaltitle}
-                  aria-describedby={styles.modamodaldescription}
+                <button
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
                 >
-                  <Box sx={style}>
-                    <Typography
-                      id="modalmodaltitle"
-                      variant="h6"
-                      component="h2"
-                    >
-                      <div className={styles.popform}>
+                  {" "}
+                  Get Started{" "}
+                </button>
+
+                <div
+                  className="modal fade"
+                  id={`${item.title}`}
+                  data-bs-backdrop="static"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog">
+                    <div className="modal-content">
+                      <div className="modal-header">
+                        <button
+                          type="button"
+                          className="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+
+                      <div>
                         <PopupForm />
                       </div>
-                    </Typography>
-                  </Box>
-                </Modal>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
