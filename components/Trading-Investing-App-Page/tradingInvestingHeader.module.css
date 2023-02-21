@@ -8,7 +8,7 @@
 .RGtradingInvestingLeftContainer {
     justify-content: center;
     width: 50%;
-   
+
     text-align: justify;
 }
 
@@ -17,14 +17,14 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    
+
 }
 
-.RGtradingInvestingLeftContainer > h1 {
+.RGtradingInvestingLeftContainer>h1 {
     font-size: 40px;
 }
 
-.RGtradingInvestingLeftContainer > p {
+.RGtradingInvestingLeftContainer>p {
     font-size: 18px;
 }
 
@@ -38,10 +38,9 @@
     cursor: pointer;
     outline: none;
     border: 2px solid white;
-  }
-  
-  .RGTIbtn:hover {
+}
+
+.RGTIbtn:hover {
     color: black;
     background-color: white;
-  }
-
+}

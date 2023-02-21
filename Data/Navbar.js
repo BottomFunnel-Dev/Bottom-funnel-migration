@@ -617,7 +617,7 @@ export const ondemand = [
     dropContent: "Trading App Solutions",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/trading.svg",
-    path: "/404",
+    path: "/trading-app-solutions",
   },
 
   {
