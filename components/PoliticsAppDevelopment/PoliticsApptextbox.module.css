@@ -108,7 +108,8 @@ transform: translateY(-10px);
 @media only screen and ( min-width:601px) and (max-width:900px){
 
 .politicalappetxtboxmainboxes{
-    height:90vh;
+    height:75vh;
+
 }
 
 .politicstxtbox{
@@ -164,6 +165,4 @@ transform: translateY(-10px);
 .politicsapptxtboxmappingind>p{
     text-align: justify;
 }
-
-
 }

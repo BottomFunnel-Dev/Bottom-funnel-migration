@@ -23,7 +23,7 @@ const BIAnalytics = dynamic(
   { loading: "loading..." },
 );
 const BISlider = dynamic(
-  () => import("../../components/BIPages/BIAnalytics/BIAnalytics"),
+  () => import("../../components/BIPages/BISlider/BISlider"),
   { loading: "loading..." },
 );
 const CustomWebForm = dynamic(
@@ -50,7 +50,7 @@ export default function BusinessIntelligence() {
         <BISolutions />
         <BIWhyBF />
         <BIAnalytics />
-        {/* <BISlider /> */}
+        <BISlider />
         <CustomWebForm />
       </main>
     </div>

@@ -4,8 +4,6 @@ import styles from "./WearableBanner.module.css";
 import Image from "next/image";
 
 export const WearableBanner = () => {
-
-
   return (
     <div>
       <div className={styles.wearablebannermainbox}>
@@ -22,7 +20,7 @@ export const WearableBanner = () => {
           </p>
 
           <button
-          className={styles.wearablebannerbutton}
+            className={styles.wearablebannerbutton}
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -56,23 +54,18 @@ export const WearableBanner = () => {
               </div>
             </div>
           </div>
-          
         </div>
 
         <div className={styles.wearablebannermainboxImage}>
-                
-
-<div className={styles.WearableIcon}>
-       
-       <Player
-         src={reactAnimation}
-         background="transparent"
-         speed="1"
-         loop
-         controls
-         autoplay
-       ></Player>
-     </div>
+          <div className={styles.WearableIcon}>
+            <lottie-player
+              src="/Animation/wearable.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
         </div>
       </div>
     </div>

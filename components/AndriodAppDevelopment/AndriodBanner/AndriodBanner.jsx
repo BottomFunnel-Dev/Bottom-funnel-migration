@@ -57,14 +57,13 @@ export default function AndriodBanner() {
         </div>
         <div className={styles.bg1banner}>
           <div className={styles.androidIcon}>
-            <Player
-              src={reactAnimation}
+            <lottie-player
+              src="/Animation/android.json"
               background="transparent"
               speed="1"
               loop
-              controls
               autoplay
-            ></Player>
+            ></lottie-player>
           </div>
         </div>
       </div>

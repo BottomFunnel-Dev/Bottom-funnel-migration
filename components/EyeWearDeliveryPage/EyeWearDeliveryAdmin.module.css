@@ -72,3 +72,86 @@
   height: 40px;
   width: 40px;
 }
+
+@media  (max-width: 1024px) {
+  .eyeweardeliveryadminpannelmainbox {
+    height: fit-content;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 4%;
+  }
+  
+  .eyeweardeliveryadminpannelleftbox {
+    height: fit-content;
+    width: 100%;
+  }
+  
+  .eyeweardeliveryadminpannelrightbox {
+    height: 85%;
+    width: 100%;
+    position: relative;
+    background: url("/Images/EyewearDeliveryapp/Adminpanelscreens/Rectangle 4787.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position-y:bottom ;
+  }
+  
+  .eyeweardeliveryadmintextboxleftside {
+    height: fit-content;
+    width: 100%;
+    position: sticky;
+    text-align: justify;
+    left: 3%;
+    /* border: 2px solid; */
+  
+  }
+  
+  .eyeweardeliveryadmintextboxleftside > h2 {
+    margin-left: 2%;
+  }
+  
+  .eyeweardeliveryadminpannelwheremap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  
+  .eyewearmappingdataboxadminpannel {
+    width: 90%;
+    /* border: 2px solid; */
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:fit-content;
+    border-radius: 10px;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .eyewearmappingdataboxadminpannel > div > p {
+    margin-top: 1%;
+    font-size: 14px;
+  }
+  
+  .eyewearmappingdataboxadminpannel > div > h4 {
+    margin-top: 1%;
+  }
+  
+  .eyewearmappingdataboxadminpannel:hover {
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #ffebef;
+  }
+  
+  .eyeadminlogo {
+    padding: 10px;
+    width: 50px;
+  }
+  
+  
+  
+}

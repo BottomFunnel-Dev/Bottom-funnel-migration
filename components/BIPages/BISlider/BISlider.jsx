@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
 
-export default function BISlider  () {
+export default function BISlider() {
   const data = [
     "/Images/BIPhotos/slidericons/anaconda.webp",
     "/Images/BIPhotos/slidericons/docker.webp",
@@ -74,25 +74,25 @@ export default function BISlider  () {
             <div
               className={
                 index === slideindex
-                  ? "BISlider-slide BISlider-slide-active"
-                  : "BISlider-slide"
+                  ? `${styles.BISliderSlideCards} ${styles.BISliderSlideCardsActive}`
+                  : `${styles.BISliderSlideCards}`
               }
               key={index}
             >
-            <div className={styles.BISliderImage}>
-              <Image
-                    src={elem}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                  />
-            </div>
+              <div className={styles.BISliderImage}>
+                <Image
+                  src={elem}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
+              </div>
             </div>
           );
         })}
       </Slider>
     </div>
   );
-};
+}

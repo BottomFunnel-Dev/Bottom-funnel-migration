@@ -27,65 +27,6 @@
 
 }
 
-.flowerdeliverysolutionflexbox {
-  display: flex;
-}
-
-.flowerdeliverysolutionflexboxleft {
-  height: fit-content;
-  width: 45%;
-  margin-left: 5%;
-}
-
-.flexboxingmappingdivleftforserviceflower {
-  height: fit-content;
-  width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 2%;
-  margin-bottom: 2%;
-  border-radius: 10px;
-  margin-top: 5%;
-}
-
-.flexboxingmappingdivleftforserviceflower:hover {
-  transform: scale(1.02);
-  background-color: #fff8f9;
-}
-
-.flowerdeliverysolutionflexboxright {
-  width: 45%;
-  position: relative;
-}
-
-.flowerdeliverysolutionflexboxrightinnerimageone {
-  position: absolute;
-  top: 60%;
-  height: fit-content;
-  width: 100%;
-  left: 10%;
-}
-
-.flowerdeliverysolutionflexboxrightinnerimageone > img {
-  width: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-
-.flowerdeliverysolutionflexboxrightinnerimagetwo {
-  height: 80%;
-  width: 50%;
-  padding: auto;
-  position: absolute;
-  left: 20%;
-  top: 20%;
-}
-
-.flowerdeliverysolutionflexboxrightinnerimagetwo > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  z-index: 1;
-}
 
 
 
@@ -93,9 +34,8 @@
 
 @media (max-width: 480px) {
   .flowerdeliverysolutionmainbox {
-    height: fit-content;
-
-    width: 100%;
+    height: 100px;
+    width: 90%;
   }
 
   .flowerdeliveryappsolutionboxfortext {
@@ -113,11 +53,58 @@
   }
 
   .flowerdeliveryappsolutionboxfortext > h1 {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 0%;
     font-weight: 500;
     margin-bottom: 0%;
     margin-top: 0%;
+  }
+
+  .flowerdeliverysolutionbutton {
+    border-radius: 100px;
+    width: 60%;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 7%;
+  }
+
+  .flowerdeliverysolutionbutton:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flowerdeliverysolutionmainbox {
+    height: fit-content;
+    width: 90%;
+
+  }
+
+  .flowerdeliveryappsolutionboxfortext {
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-left: 5%;
+  }
+
+  .flowerdeliveryappsolutionboxfortext > h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0%;
+  }
+
+  .flowerdeliveryappsolutionboxfortext > h1 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0%;
+    margin-top: 1%;
   }
 
   .flowerdeliverysolutionbutton {
@@ -128,61 +115,10 @@
     border: none;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     color: white;
-    margin-top: -4%;
-    margin-bottom: 7%;
-  }
-
-  .flowerdeliverysolutionbutton:hover {
-    background-color: white;
-    color: #3380f2;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 1024px) {
-  .flowerdeliverysolutionmainbox {
-    height: fit-content;
-    width: 100%;
-
-  }
-
-  .flowerdeliveryappsolutionboxfortext {
-    height: fit-content;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    margin-left: 5%;
-  }
-
-  .flowerdeliveryappsolutionboxfortext > h2 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 0%;
-  }
-
-  .flowerdeliveryappsolutionboxfortext > h1 {
-    font-size: 27px;
-    margin-top: 0%;
-    font-weight: 500;
-    margin-bottom: 0%;
-    margin-top: 1%;
-  }
-
-  .flowerdeliverysolutionbutton {
-    padding: 10px 50px;
-    border-radius: 100px;
-    width: 40%;
-    background-color: #3380f2;
-    border: none;
-    outline: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 24px;
-    font-weight: 600;
-    color: white;
-    margin-top: -4%;
-    margin-bottom: 7%;
+    
   }
 
   .flowerdeliverysolutionbutton:hover {

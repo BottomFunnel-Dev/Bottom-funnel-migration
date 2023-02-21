@@ -23,8 +23,6 @@
   width: 70%;
  margin-left: 7%;
  
-  
-
 }
 
 
@@ -91,4 +89,112 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width: 1024px) {
+  .eyewearcustomerappmainboxes {
+    height:fit-content;
+  }
+  
+  .eyewearcustomerappuppertextbox {
+    text-align: center;
+    margin-top: 2%;
+    height: fit-content;
+  }
+  
+  .eyewearappcustomerappboxflextype {
+    height: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .eyewearappcustomerappboxflextypeleftbox {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid; */
+  }
+  
+  .eyewearappcustomerappboxflextypeleftboxinsidertext {
+    height: fit-content;
+    width: 90%;
+   margin-left: 7%;
+   
+  }
+  
+  
+  
+  .eyewearcustomermappingdatabox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3% 0% 0% 5%;
+  
+  }
+  
+  .eyewearcustomeraftermap1box {
+    height: auto;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin: 1%;
+    display: flex;
+    padding: 13px;
+    border-radius: 10px;
+  }
+  
+  .eyewearcustomeraftermap1box > div > h4 {
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+  
+  .eyewearcustomeraftermap1box > div > p {
+    margin-top: 1%;
+    font-size: 14px;
+  }
+  
+  .eyewearcustomeraftermap1box:hover {
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #ffebef;
+  }
+  
+  .flexingeyewearcustomerforlogo {
+    width: 100%;
+    height: 25%;
+    padding: 5px;
+  }
+  
+  
+  
+  .eyewearappcustomerappboxflextyperightbox {
+    height: fit-content;
+    width: 100%;
+    margin-top: 5%;
+    background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Ellipse\ 240.webp");
+    background-size: contain;
+    position: static;
+    /* border: 2px solid; */
+  }
+  
+  .eyewearmobileforcustomerappdelivery {
+    position: sticky;
+    height: 70%;
+    width: 70%;
+    left: 15%;
+    top:10%;
+    /* border: 2px solid red; */
+  }
+  
+  .eyewearmobileforcustomerappdelivery > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
 }
