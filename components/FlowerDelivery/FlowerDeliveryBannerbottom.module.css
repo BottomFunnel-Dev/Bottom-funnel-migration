@@ -41,7 +41,6 @@
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
   .lowerbannerflower {
-    border: 1px solid red;
     width: 100%;
     background-image: url("/Images/Flowerdeliverypage/Group339928.webp");
     background-repeat: no-repeat;
@@ -59,7 +58,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-size: 18px;
     font-weight: 600;
-    margin-left: 40%;
+    margin-left: 20%;
     color: white;
   }
 
@@ -75,7 +74,7 @@
   }
 
   .lowerbannerflowertext {
-    width: 60%;
+    width: 90%;
     margin: auto;
   }
 }

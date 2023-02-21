@@ -45,22 +45,21 @@
 @media (max-width: 480px) {
   .flowerdeliverylastdivstart {
     height: fit-content;
-    width: 100%;
-    margin-left: 10%;
-    margin-top: 5%;
+    width: 90%;
+    margin: 0;
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
 
   .flowerdeliverydisplayflex {
     border: 1px solid black;
-    height: 140px;
-    width: 70%;
+    height: 220px;
+    width: 90%;
+    margin-left: 13%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 20px;
-    margin: 2%;
     display: flex;
     border-radius: 10px;
+    margin-bottom: 10%;
   }
 
   .insiderdivflexboxleft {
@@ -94,8 +93,8 @@
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliverylastdivstart {
     height: fit-content;
-    width: 100%;
-    margin-left: 10%;
+    width: 93%;
+    margin-left: 6%;
     margin-top: 5%;
     flex-direction: column-reverse;
     flex-wrap: wrap;

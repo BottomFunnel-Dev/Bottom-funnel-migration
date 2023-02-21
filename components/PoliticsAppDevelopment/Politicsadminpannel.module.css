@@ -71,7 +71,7 @@ background-color: #f7f3e6;
 }
 
 .politicsadminpannelindboxes{
-width: 100%;
+width: 90%;
 margin-top: 5%;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 height: fit-content;
@@ -103,7 +103,7 @@ background-color: #f7f3e6;
 
 .politicsadminpannelrightboxes{
     height: 200px;
-    width: 100%;
+    width: 90%;
     margin-left: 2%;
 }
 }
@@ -161,7 +161,4 @@ background-color: #f7f3e6;
     width: 40%;
     margin-left: 2%;
 }
-
-
-
 }

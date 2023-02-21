@@ -69,3 +69,80 @@
   text-align: center;
   font-size: 40px;
 }
+
+
+
+
+@media  (max-width: 1024px) {
+  .exclusiveFeatureMaindiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  
+  .exclusiveFeatureInnermaindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .exclusiveFeatureInnerdivcontain {
+    text-align: center;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    margin: auto;
+    margin-top: 3%;
+   
+  }
+  
+  .exclusiveFeatureInnerdivcontain:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .exclusiveFeatureInnerdivcontain1 {
+    text-align: center;
+    width: 90%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    margin: auto;
+    margin-top: 3%;
+   
+    background-color: #fff1ed;
+  
+  }
+  
+  .exclusiveFeatureInnerdivcontain1:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .exclusiveFeatureInnerdivcontain > h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .exclusiveFeatureInnerdivcontain1 > h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .exclusiveFeatureInnerdivcontain > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  
+  .exclusiveFeatureInnerdivcontain1 > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    /* border: 1px solid red; */
+  }
+  
+  .exclusiveFeatureMaindiv h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}

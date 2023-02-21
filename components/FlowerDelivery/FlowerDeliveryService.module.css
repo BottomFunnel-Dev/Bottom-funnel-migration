@@ -29,10 +29,10 @@
 
 .flowerdeliveryserviceboxesmap {
   padding: 1%;
-  width: 28%;
+  width: 30%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: 1% 1% 1% 2%;
   background-color: white;
+  margin: 1% 1% 1% 2%;
   border-radius: 10px;
 }
 
@@ -66,19 +66,13 @@
 @media (max-width: 480px) {
   .flowerdeliveryservicemainbox {
     height: fit-content;
-    margin-top: 5%;
-
+    width: 90%;
   }
 
   .flowerdeliveryservicetextbox {
-
     width: 100%;
     border: 1px solid transparent;
-  
     margin-top: 10%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-left: 5%;
   }
 
@@ -93,7 +87,7 @@
   .flowerdeliveryservicetextbox > p {
     text-align: center;
     font-size: 15px;
-    margin-top: 0%;
+    margin-top: 3%;
   }
 
   .flowerdeliveryservicebackgroundimagebox {
@@ -103,34 +97,38 @@
     background-image: url("/Images/Flowerdeliverypage/Rectangle1947.webp");
     display: flex;
     flex-wrap: wrap;
-    padding: 2%;
-    margin-left: 3%;
+    margin-left: 5%;
   }
 
   .flowerdeliveryserviceboxesmap {
-    padding: 2%;
-    width: 43%;
+    padding: 1%;
+    width: 46%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1% 1% 1% 2%;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
   .flowerdeliveryserviceboxesmap:hover {
-    transform: scale(1.02);
+    cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
   }
 
   .flowerdeliveryserviceboxesmap > div > h5 {
-
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 600;
+
   }
 
   .flowerdeliveryserviceboxesmap > div > p {
     font-size: 13px;
     line-height: 20px;
     font-weight: 500;
+    padding-bottom: 4px;
+
   }
   .flowerdeliveryserviceinnerboximagebox {
 
@@ -149,24 +147,21 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliveryservicemainbox {
-    height: fit-content;
-    margin-top: 5%;
-   
+    height: fit-content;  
+    width: 90%; 
   }
 
   .flowerdeliveryservicetextbox {
     width: 100%;
     border: 1px solid transparent;
     margin-top: 10%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-left: 5%;
+    text-align: center;
   }
 
   .flowerdeliveryservicetextbox > h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     margin-top: 4%;
     margin-bottom: 0%;
@@ -174,8 +169,8 @@
 
   .flowerdeliveryservicetextbox > p {
     text-align: center;
-    font-size: 15px;
-    margin-top: 0%;
+    font-size: 18px;
+    margin-top: 1%;
   }
 
   .flowerdeliveryservicebackgroundimagebox {
@@ -185,13 +180,12 @@
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
-    margin-left: 3%;
+    margin-left: 5.5%;
   }
 
   .flowerdeliveryserviceboxesmap {
     padding: 1%;
-    height: fit-content;
-    width: 43%;
+    width: 46.5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1% 1% 1% 2%;
     background-color: white;
@@ -205,18 +199,16 @@
   .flowerdeliveryserviceboxesmap > div > h5 {
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
   }
 
   .flowerdeliveryserviceboxesmap > div > p {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 20px;
     font-weight: 400;
   }
 
   .flowerdeliveryserviceinnerboximagebox {
-
     height: 45%;
     width: 100%;
     margin: auto;

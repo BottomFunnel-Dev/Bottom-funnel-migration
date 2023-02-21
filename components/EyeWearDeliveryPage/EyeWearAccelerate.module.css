@@ -35,3 +35,53 @@
   background-color: white;
   color: #ef4c23;
 }
+
+
+@media  (max-width: 1024px) {
+  .eyewearacceleratemainbox {
+    height: fit-content;
+    background: url("/Images/EyewearDeliveryapp/bannersBackgrounds/Group 340082.webp");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid white; */
+  }
+  
+  .eyewearacceleratemainbox > h1 {
+    text-align: center;
+    font-size: 28px;
+    /* border: 2px solid green; */
+  }
+  
+  .eyewearacceleratetextbox {
+    height: 200px;
+    margin-top: 25%;
+    margin-left: 3%;
+    width: 70%;
+    color: white;
+    /* border: 2px solid ; */
+  }
+  .eyewearacceleratetextbox h2{
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+  }
+  
+  .Eyewearacceleratebannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1%;
+  }
+  
+  .Eyewearacceleratebannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  
+}

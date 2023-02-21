@@ -85,26 +85,28 @@
 /* Media query for the Mobile Device */
 @media (max-width: 480px) {
   .flowerdeliverybannermaindiv {
+    height: 80vh;
+    width: 100%;
+    margin: 0;
     flex-direction: column-reverse;
     position: static;
   }
 
   .flowerdeliverybannerleftbox {
     height: 50%;
-    width: 95%;
+    width: 90%;
+    padding-top:  15%;
     text-align: justify;
-    position: absolute;
-    top: 82%;
-    z-index: 100;
   }
 
   .flowerdeliverybannerleftbox > h1 {
     width: 100%;
     font-weight: 700;
     font-size: 23px;
-    align-items: center;
     text-align: center;
     justify-content: center;
+    padding-bottom: 5%;
+
   }
 
   .flowerdeliverybannerleftbox > h1 > span {
@@ -112,8 +114,9 @@
   }
 
   .flowerdeliverybannerleftbox > p {
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
+    padding-bottom: 5%;
   }
 
   .flowerdeliverybannerbutton {
@@ -140,14 +143,16 @@
 
   .flowerdeliverybannerrightbox {
     position: static;
+    width: 60%;
+    margin-left: 20%;
   }
 
   .flowerdeliverybannerimageone {
-    position: absolute;
     height: 100%;
     width: 100%;
     z-index: 0;
     top: 10%;
+
   }
 
   .flowerdeliverybannerimageone > img {
@@ -173,20 +178,18 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliverybannermaindiv {
+    margin: 0;
     flex-direction: column-reverse;
     position: static;
     height: 90vh;
-    margin-top: 120px;
     display: flex;
   }
 
   .flowerdeliverybannerleftbox {
     width: 100%;
-    margin-left: 5%;
     text-align: justify;
-    position: absolute;
     top: 85%;
-    z-index: 100;
+    margin: 0;
     align-items: center;
     justify-content: center;
   }
@@ -198,6 +201,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 5%;
+
   }
 
   .flowerdeliverybannerleftbox > h1 > span {
@@ -207,6 +212,7 @@
   .flowerdeliverybannerleftbox > p {
     font-size: 25px;
     text-align: center;
+    margin-bottom: 10%;
   }
 
   .flowerdeliverybannerbutton {
@@ -230,6 +236,7 @@
 
   .flowerdeliverybannerrightbox {
     position: static;
+    margin-left: 20%;
   }
 
   .flowerdeliverybannerimageone {
