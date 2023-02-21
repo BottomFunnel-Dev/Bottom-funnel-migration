@@ -1,0 +1,56 @@
+.politicsreliablemainboxes{
+    height: fit-content;
+  
+}
+
+.politicsreliablemainboxes>h2{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.politicsreliablemainboxes>p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.politicalreliabledatamapping{
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.politicsreliabledataindi{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+    margin-top: 2%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.politicsreliabledataindi:hover{
+    transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #f7f3e6;
+}
+
+
+
+.politicalreliableindiflexboximgandtxt{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.politicsreliableiconbox{
+    height: 70px;
+    width: 70px;
+}
+
+.politicsreliabletxthbox>h5{
+font-weight: 700;
+font-size: 20px;
+}
