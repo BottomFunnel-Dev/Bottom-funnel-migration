@@ -48,3 +48,57 @@
   right: 3%;
   top: 5%;
 }
+@media  (max-width: 1024px) {
+  .eyeweardeliverybannermainboxes {
+    height: 95vh;
+    margin-top: 20px;
+    background-size: contain;
+    position: static;
+  }
+  
+  .eyewearbannersometextboxes {
+    height: fit-content;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+  }
+  
+  .colored {
+    color: #ef4c23;
+  }
+  
+  .eyewearbannersometextboxes > p {
+    text-align: justify;
+  }
+  
+  .Eyeweardeliverybannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 1%;
+  }
+  
+  .Eyeweardeliverybannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  
+  .eyeWearDeliveryBannerAnimationDiv {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+  }
+}

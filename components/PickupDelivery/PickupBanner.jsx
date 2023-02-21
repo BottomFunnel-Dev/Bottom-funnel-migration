@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./pickupBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/pickup and delivery.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const PickupBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -39,7 +36,9 @@ export const PickupBanner = () => {
           little detail of it, life gets hectic. And if there's shipping
           involved, things can get even more complicated.
         </p>
-        <button onClick={handleOpen} className={styles.pickupbannerbutton}>Get Started </button>
+        <button onClick={handleOpen} className={styles.pickupbannerbutton}>
+          Get Started{" "}
+        </button>
 
         <Modal
           open={open}
@@ -48,11 +47,7 @@ export const PickupBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -62,14 +57,13 @@ export const PickupBanner = () => {
       </div>
 
       <div className={styles.pickupDeliveryBannerAimationDiv}>
-        <Player className={styles.pickupDeliveryBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/pickup and delivery.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

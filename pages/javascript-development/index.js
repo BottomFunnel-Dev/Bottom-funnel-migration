@@ -6,7 +6,6 @@ import { whyJavascript } from "../../components/Data/webdevPageData/whyTechStack
 import { javascriptwebDevServices } from "../../components/Data/webdevPageData/Popularservices";
 import { javascriptstackIntro } from "../../components/Data/webdevPageData/StackData";
 import { javascriptBanner } from "../../components/Data/webdevPageData/TechBannerData";
-import * as ReactAnimation from "../../public/webdevanimation/Java Script.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
@@ -48,14 +47,16 @@ export default function JavascriptPage() {
       </Head>
 
       <main>
-
-        <WebdevBanner paraColor={"#393939"} bannerContent={javascriptBanner} animateData={ReactAnimation} />
+        <WebdevBanner
+          paraColor={"#393939"}
+          bannerContent={javascriptBanner}
+          animateData={"/webdevanimation/Java Script.json"}
+        />
         <Techstackintro techContent={javascriptstackIntro} />
         <WebDevServices webservicesContent={javascriptwebDevServices} />
         <WhyTechStack techData={whyJavascript} />
         <GetStarted />
         <WebDevWhy whyDevContent={javascriptWhyContent} />
-
       </main>
     </div>
   );

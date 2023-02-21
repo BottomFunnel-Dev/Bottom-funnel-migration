@@ -66,7 +66,7 @@ const Navbar = () => {
         className={navstyle.navbarSection}
         style={{
           top: scroll ? "0" : "0px",
-          // background: scroll || navbar ? "white" : "white",
+          // background: scroll || navbar ? "white" : "transparent",
         }}
       >
         <ContactMain />

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./FlowerDelevrybanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Flower delivery.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -65,15 +63,13 @@ const FlowerDeliveryBanner = () => {
       </div>
 
       <div className={styles.flowerdeliverybannerrightbox}>
-        <Player
-          className={styles.flowerDeliveryBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Flower delivery.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

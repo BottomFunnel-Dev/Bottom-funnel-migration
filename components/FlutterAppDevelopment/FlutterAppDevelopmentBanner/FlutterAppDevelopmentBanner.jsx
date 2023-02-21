@@ -1,29 +1,9 @@
-import { Box, Typography, Modal } from "@mui/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./FlutterAppDevelopmentBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/flutter.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const FlutterAppDevelopmentBanner = () => {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
 
-  const style = {
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-      width: 700,
-      height: 550,
-      bgcolor: "background.paper",
-      border: "2px solid #000",
-      // boxShadow: 24,
-      backgorund: "green",
-      p: 1,
-      borderRadius: 2,
-    };
   return (
     <>
       <div className={styles.flutterAppDevbannermainbox}>
@@ -38,33 +18,54 @@ export const FlutterAppDevelopmentBanner = () => {
             smart application will be up-to-date with all the changes in
             technology.
           </p>
-          <button className={styles.flutterAppDevbannerbutton} onClick={() => handleOpen()}>
+
+
+
+          <button
+          className={styles.flutterAppDevbannerbutton}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
             Get Started
           </button>
-          <Modal
-        open={open}
-        onClose={() => handleClose()}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            <div className={styles.popform}>
-              <PopupForm />
+
+          <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm />
+                </div>
+              </div>
             </div>
-          </Typography>
-        </Box>
-      </Modal>
+          </div>
+         
         </div>
         <div className={styles.FlutterIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/flutter.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </>

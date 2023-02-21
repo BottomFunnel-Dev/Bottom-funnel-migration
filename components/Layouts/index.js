@@ -37,6 +37,7 @@ const PortFolio = dynamic(
   () => import("../CommonComponents/PortFolioSection/PortFolio"),
   { loading: () => "Loading..." },
 );
+
 export default function Layout({ children }) {
   return (
     <>

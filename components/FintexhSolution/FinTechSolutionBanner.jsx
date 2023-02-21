@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./FinTechSolutionBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/fintech.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const FinTechSolutionBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -34,13 +31,23 @@ export const FinTechSolutionBanner = () => {
       <div className={styles.fintechsolutionbannertextboxes}>
         <h1> Fintech App Solution </h1>
         <p>
-        In a world where data is the new oil, but making sense of it can be tricky, you need a finance company that knows how to solve your most complex data-related problems. Introducing Fintech App Solution -a team of experts who understand the ins and outs of data analysis. They'll use their in-depth expertise to help you get the most out of your data so you can make smarter decisions and grow your business faster. Plus, they offer cutting-edge technologies that will give you an edge over your competitors.
+          In a world where data is the new oil, but making sense of it can be
+          tricky, you need a finance company that knows how to solve your most
+          complex data-related problems. Introducing Fintech App Solution -a
+          team of experts who understand the ins and outs of data analysis.
+          They'll use their in-depth expertise to help you get the most out of
+          your data so you can make smarter decisions and grow your business
+          faster. Plus, they offer cutting-edge technologies that will give you
+          an edge over your competitors.
         </p>
 
-        <button onClick={handleOpen} className={styles.fintechsolutionbannerbutton}>
+        <button
+          onClick={handleOpen}
+          className={styles.fintechsolutionbannerbutton}
+        >
           Get Started
         </button>
-        
+
         <Modal
           open={open}
           onClose={handleClose}
@@ -48,11 +55,7 @@ export const FinTechSolutionBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -62,14 +65,14 @@ export const FinTechSolutionBanner = () => {
       </div>
 
       <div className={styles.fintechSolutionBannerAnimationDiv}>
-        <Player className={styles.fintechSolutionBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/fintech.json"
           background="transparent"
           speed="1"
+          style={{ width: "100%", height: "100%" }}
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

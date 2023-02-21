@@ -1,21 +1,18 @@
 import React from "react";
 import { SeoForm } from "../seoForm/SeoForm";
 import styles from "./Seosection.module.css";
-import * as reactAnimation from "../../../public/Animation/DMAnimation/1.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 function Seosection() {
   return (
     <div className={styles._SeoMain1}>
       <div className={styles.gifDenote}>
-        <Player
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/DMAnimation/1.json"
           background="transparent"
-          speed="2"
+          speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
 
       <div className={styles._Seoupperdiv}>

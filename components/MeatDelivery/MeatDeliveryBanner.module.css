@@ -60,7 +60,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {
+@media  (max-width: 1024px) {
   .meatdeliverybannermainboxes {
   height: 90vh;
  
@@ -70,8 +70,9 @@
   height: fit-content;
   width: 90%;
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 5%;
+  text-align: center;
 
 }
 
@@ -98,7 +99,7 @@
   font-size: 16px;
   font-weight: 600;
   margin-top: 5%;
-  margin-left: 17%;
+  /* margin-left: 17%; */
 }
 
 .meatdeliverybanner:hover {
@@ -112,9 +113,11 @@
 
 .meatDeliveryBannerAnimationDiv {
   /* border: 1px solid red; */
-  width: 43%;
+  width: 90%;
+  height: 300px;
+  margin: auto;
   position: absolute;
-  right: 0%;
+  right: 4%;
   top: 17%;
 }
 

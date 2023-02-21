@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./FoodDeliveryBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/FoodDelivery.json";
-import { Player } from "@lottiefiles/react-lottie-player"; 
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const FoodDeliveryBanner = () => {
-  
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -40,7 +37,7 @@ export const FoodDeliveryBanner = () => {
           </p>
           <button onClick={handleOpen}> Get Started </button>
         </div>
-        
+
         <Modal
           open={open}
           onClose={handleClose}
@@ -48,11 +45,7 @@ export const FoodDeliveryBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -62,14 +55,13 @@ export const FoodDeliveryBanner = () => {
       </div>
 
       <div className={styles.foodDeliveryBannerImage}>
-        <Player className={styles.foodDeliveryBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/FoodDelivery.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

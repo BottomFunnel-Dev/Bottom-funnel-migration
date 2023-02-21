@@ -15,7 +15,7 @@
   margin-top: 18%;
 }
 
-.appbuildersolutionboxfortextenter > h1 {
+.appbuildersolutionboxfortextenter>h1 {
   font-size: 37px;
   font-weight: 700;
 }
@@ -42,9 +42,11 @@
 
 .appBuilderSolutionBannerAnimationDiv {
   position: absolute;
-  top: 15%;
-  left: 40%;
-  right: 0%;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 50%;
+  height: fit-content;
 }
 
 .appBuilderSolutionsBannerAnimation {

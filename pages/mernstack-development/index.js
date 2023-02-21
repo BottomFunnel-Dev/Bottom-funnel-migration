@@ -11,7 +11,6 @@ import { WhyBottom } from "../../components/MernPage/WhyBottom";
 import { mernWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
 
 import Head from "next/head";
-import * as ReactAnimation from "../../public/webdevanimation/Mern.json";
 
 export default function MernPageWebDevelopment() {
   return (
@@ -28,7 +27,10 @@ export default function MernPageWebDevelopment() {
       </Head>
 
       <main>
-        <Mernbanner bannerdata={mernbanner} animateData={ReactAnimation} />
+        <Mernbanner
+          bannerdata={mernbanner}
+          animateData={"/webdevanimation/Mern.json"}
+        />
         <MernIntro techIntro={whatData} />
         <MernPoluparServices popularservice={mernservices} />
         <TechGetStarted calltoAction={letstart} />

@@ -71,3 +71,88 @@ background-color: #FFE9ED;
   background-color: white;
   color: #ef4c23;
 }
+
+
+
+
+@media  (max-width: 1024px) {
+  .Eyeweardevelopmentmainbox {
+    height: fit-content;
+  }
+  .eyeweardeliveryservicetextbox {
+    width: 95%;
+    margin: auto;
+    /* border: 2px solid; */
+    text-align: center;
+  }
+  .eyeweardeliveryservicetextbox > h1 {
+    text-align: center;
+  
+    font-size: 30px;
+  }
+  .eyeweardeliveryservicetextbox > p {
+    text-align: justify;
+  }
+  
+  .eyeweardeliveryservicebackgroundimagebox {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  background-color: #FFE9ED;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2%;
+    text-align: center;
+  }
+  .eyeweardeliveryserviceboxesmap {
+    padding: 2%;
+    height: auto;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 2px solid; */
+    margin-top: 2%;
+  }
+  .eyeweardeliveryserviceboxesmap p{
+    /* border: 2px solid; */
+    text-align: justify;
+  }
+  
+  .eyeweardeliveryserviceboxesmap:hover {
+    transform: scale(1.02);
+    background-color: #ffebef;
+  }
+  
+  .eyedeliveryserviceinnerboximagebox {
+    height: 200px;
+    width: fit-content;
+  
+    margin: auto;
+  }
+  
+
+  
+  .Eyeweardevelopmentsolutionbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 45%;
+    margin-top: 5%;
+  }
+  
+  .Eyeweardevelopmentsolutionbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+}

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./OnlinePaymentAppSolutionBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/oNLINE PAYMENTY.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const OnlinePaymentAppSolutionBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -44,7 +41,10 @@ export const OnlinePaymentAppSolutionBanner = () => {
           terminals, and other NFC platforms.
         </p>
 
-        <button onClick={handleOpen} className={styles.onlinepaymentsolutionbutton}>
+        <button
+          onClick={handleOpen}
+          className={styles.onlinepaymentsolutionbutton}
+        >
           {" "}
           Get Started{" "}
         </button>
@@ -56,11 +56,7 @@ export const OnlinePaymentAppSolutionBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -70,14 +66,13 @@ export const OnlinePaymentAppSolutionBanner = () => {
       </div>
 
       <div className={styles.onlinePaymentSolutionBannerAnimationDiv}>
-        <Player className={styles.onlinePaymentSolutionBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/oNLINE PAYMENTY.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

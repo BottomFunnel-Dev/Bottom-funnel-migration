@@ -1,7 +1,7 @@
 .fintechsolutionbannermainbox {
   height: 100vh;
   background-size: cover;
-  margin-top: 100px;
+  margin-top: 30px;
   position: relative;
 }
 
@@ -9,7 +9,7 @@
   height: 300px;
   width: 40%;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 5%;
   text-align: justify;
 }
@@ -37,6 +37,8 @@
   position: absolute;
   top: 0%;
   right: 3%;
+  height: fit-content;
+  width: 50%;
 }
 
 .fintechSolutionBannerAnimation {

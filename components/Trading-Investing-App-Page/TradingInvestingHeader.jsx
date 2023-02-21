@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./tradingInvestingHeader.module.css";
 
@@ -17,10 +18,13 @@ export const TradingInvestingHeader = () => {
       </div>
 
       <div className={styles.RGtradingInvestingRightContainer}>
-        <img
-          width="80%"
-          src="Images/Trading-investing-App/banners-backgrounds/banner.webp"
-          alt="images"
+        <Image
+          src="/Images/Trading-investing-App/banners-backgrounds/banner.webp"
+          alt="Trading-investing-App/banners-backgrounds/banner.webp"
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "80%", height: "fit-content" }}
         />
       </div>
     </div>

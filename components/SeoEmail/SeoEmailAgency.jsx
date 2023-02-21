@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './SeoEmailAgency.module.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-// import Accordion from 'react-bootstrap/Accordion';
+// import Accordion from '/Accordion';
 
 export default function SeoEmailAgency() {
 

@@ -26,7 +26,7 @@ export default function PoliticsAppDevelopment() {
   <main>
       <PoliticsAppDevelopmentbanner />
 
-      {/*    <PoliticsnewsLogo /> */}
+   {   /*<PoliticsnewsLogo /> */}
       <PoliticsApptextbox />
       <Politicscustomerapp />
       <Politicsadminpannel />

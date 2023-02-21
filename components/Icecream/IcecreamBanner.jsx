@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./IcecreamBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Icecream.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const IcecreamBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -46,8 +43,11 @@ export const IcecreamBanner = () => {
           code, or by seamlessly embedding it in your website.
         </p>
 
-        <button onClick={handleOpen} className={styles.icecreambannerbutton}> Get Started </button>
-        
+        <button onClick={handleOpen} className={styles.icecreambannerbutton}>
+          {" "}
+          Get Started{" "}
+        </button>
+
         <Modal
           open={open}
           onClose={handleClose}
@@ -55,11 +55,7 @@ export const IcecreamBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -69,15 +65,13 @@ export const IcecreamBanner = () => {
       </div>
 
       <div className={styles.iceCreamBannerAnimationDiv}>
-        <Player className={styles.iceCreamBannerMainAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Icecream.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        >
-        </Player>
+        ></lottie-player>
       </div>
     </div>
   );

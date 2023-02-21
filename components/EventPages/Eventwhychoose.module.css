@@ -7,7 +7,6 @@
 
 .eventwhychooseusdatabox{
     width: 90%;
-   
     margin: auto;
     margin-top: 6%;
     display: flex;
@@ -25,14 +24,13 @@
 }
 
 .eventwhychooseusindiboxes:hover{
-    transition: all 0.2s linear;
+transition: all 0.2s linear;
 transform: translateY(-10px);
 }
 
 .eventwhychooseusiconbox{
     height: 45%;
     width: 50%;
-
     position: absolute;
     margin-top: -17%;
   margin-left: 22%;
@@ -49,4 +47,118 @@ transform: translateY(-10px);
 
 .eventwhychooseustxtboxes>p{
     text-align: justify;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.eventwhychooseusmainboxes{
+    height: fit-content;
+    border: 1px solid transparent;
+    margin-bottom: 5%;
+    background-color: #ffe2db;
+}
+
+.eventwhychooseusdatabox{
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventwhychooseusindiboxes{
+    width: 100%;
+   max-height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 10%;
+    position: relative;
+    background-color: #fffbfa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.eventwhychooseusindiboxes:hover{
+    transition: all 0.2s linear;
+transform: translateY(-10px);
+}
+
+.eventwhychooseusiconbox{
+    height: 45%;
+    width: 50%;
+    position: absolute;
+    margin-top: -17%;
+  margin-left: 22%;
+
+}
+
+.eventwhychooseustxtboxes{
+    margin-top: 20%;
+}
+
+.eventwhychooseustxtboxes>h5{
+    text-align: center;
+}
+
+.eventwhychooseustxtboxes>p{
+    text-align: justify;
+}
+}
+
+@media only screen and ( min-width:601px) and (max-width:900px){
+
+    .eventwhychooseusmainboxes{
+    height: 60vh;
+    border: 1px solid transparent;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    background-color: #ffe2db;
+}
+
+.eventwhychooseusdatabox{
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eventwhychooseusindiboxes{
+    width: 44%;
+   max-height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2%;
+    position: relative;
+    background-color: #fffbfa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.eventwhychooseusindiboxes:hover{
+transition: all 0.2s linear;
+transform: translateY(-10px);
+}
+
+.eventwhychooseusiconbox{
+    height: 45%;
+    width: 50%;
+    position: absolute;
+    margin-top: -17%;
+  margin-left: 22%;
+
+}
+
+.eventwhychooseustxtboxes{
+    margin-top: 20%;
+}
+
+.eventwhychooseustxtboxes>h5{
+    text-align: center;
+}
+
+.eventwhychooseustxtboxes>p{
+    text-align: justify;
+}
+
+
+
 }
