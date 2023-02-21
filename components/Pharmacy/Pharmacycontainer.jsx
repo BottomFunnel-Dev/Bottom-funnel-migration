@@ -1,32 +1,9 @@
 import React, { useState } from "react";
 import styles from "./Pharmacycontainer.module.css";
 
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export default function Pharmacycontainer() {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 700,
-    height: 550,
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    // boxShadow: 24,
-    backgorund: "green",
-    p: 1,
-    borderRadius: 2,
-  };
-
   return (
     <div className={styles.szpharmacycontainer}>
       <div className={styles.szpharmacysubcontainer}>
@@ -40,24 +17,40 @@ export default function Pharmacycontainer() {
               medications sent directly to your door by a pharmacy professional.{" "}
             </p>
 
-            <button className={styles.szpharmacybtn} onClick={handleOpen}>
+            <button
+              className={styles.szpharmacybtn}
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
               Get Started
             </button>
 
-            <Modal
-              open={open}
-              onClose={handleClose}
-              aria-labelledby="modal-modal-title"
-              aria-describedby="modal-modal-description"
+            <div
+              className="modal fade"
+              id="staticBackdroppharmacy"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
             >
-              <Box sx={style}>
-                <Typography id="modal-modal-title" variant="h6" component="h2">
-                  <div className={styles.popform}>
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div>
                     <PopupForm />
                   </div>
-                </Typography>
-              </Box>
-            </Modal>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

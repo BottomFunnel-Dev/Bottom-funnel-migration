@@ -5,7 +5,7 @@ import {
   Accordion,
   AccordionSummary,
   AccordionDetails,
-} from "@mui/material";
+} from "@/material";
 
 export const BlockChainBenefitsAccordion = () => {
   const [expanded, setExpanded] = useState("panel0");
