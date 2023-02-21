@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Seoagency.module.css';
-// import Button from 'react-bootstrap/Button';
+// import Button from '/Button';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-// import Accordion from 'react-bootstrap/Accordion';
+// import Accordion from '/Accordion';
 
 export default function Seoagency() {
 
