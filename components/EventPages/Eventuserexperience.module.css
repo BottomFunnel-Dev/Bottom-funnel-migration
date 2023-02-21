@@ -113,7 +113,7 @@ font-size: 25px;
 }
 
 .userexperienceleftbox{
-    width: 100%;
+    width: 90%;
     height: 400px;
     overflow-y: scroll;
     display: flex;
@@ -121,7 +121,7 @@ font-size: 25px;
 }
 
 .eventuserexperiencemappingdataindi{
-    width: 85%;
+    width: 100%;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
