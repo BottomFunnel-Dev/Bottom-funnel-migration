@@ -3,3 +3,31 @@
     border: 2px solid;
     margin-top: 5%;
 }
+
+.politicsframeworkmainboxes>h2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.politicsframeworkmainboxes>p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.politicsframeworkdatamapping{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid red;
+    display: flex;
+}
+
+.politicsframeworkdataindi{
+    width: 25%;
+    height: fit-content;
+    margin: 1%;
+    border: 1px solid red;
+}

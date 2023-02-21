@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import React from 'react'
 import CompanyLogo from '../../components/CompanyLogos/CompanyLogo'
 import { Eventadminpannel } from '../../components/EventPages/Eventadminpannel'
