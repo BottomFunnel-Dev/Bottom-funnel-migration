@@ -43,7 +43,9 @@ export const Politicscustomerapp = () => {
   return (
     <div className={styles.politicscustomerappmainboxes}>
     <h2>We develop political app development solutions with features that result in trust-inducing mobile apps.</h2>
+  
     <div className={styles.politicsdevelopmentcustomermainboxes}>
+    <h3>Customer Pannel</h3>
     <div className={styles.politicsdevelopmentleftbox}>
     <Image
           src={imageChange}
@@ -58,6 +60,7 @@ export const Politicscustomerapp = () => {
     
     </div>
     <div className={styles.politicsdevelopmentrightbox}>{politicscustomerdata.map((e)=>{
+     
         return (
             <div className={styles.politicscustomermappingind}
             

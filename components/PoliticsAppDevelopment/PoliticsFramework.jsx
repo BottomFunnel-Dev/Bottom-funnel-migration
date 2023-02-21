@@ -6,25 +6,25 @@ export const PoliticsFramework = () => {
 
     const politicalframeworkdata = [
         {
-            icon:"/Images/politics Re/.webp",
+            icon:"/Images/politics Re/checkmark-1.webp",
             htxt:"Cross-platfom solution",
 
         },
 
         {
-            icon:"/Images/politics Re/.webp",
+            icon:"/Images/politics Re/checkmark-2.webp",
             htxt:"Blockchain",
 
         },
 
         {
-            icon:"/Images/politics Re/.webp",
+            icon:"/Images/politics Re/checkmark-3.webp",
             htxt:"IOT",
 
         },
 
         {
-            icon:"/Images/politics Re/.webp",
+            icon:"/Images/politics Re/checkmark-4.webp",
             htxt:"Artificial Intelligent",
 
         },
@@ -39,7 +39,7 @@ export const PoliticsFramework = () => {
     <div className={styles.politicsframeworkdatamapping}>{politicalframeworkdata.map((e)=>{
         return (
             <div className={styles.politicsframeworkdataindi}>
-            
+            <div className={styles.politicsframeworkimagebox}>
             <Image
           src={e.icon}
           alt={"icon"}
@@ -48,7 +48,9 @@ export const PoliticsFramework = () => {
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
         />
-            <h4>{e.htxt}</h4>
+
+</div>
+          <div className={styles.politicsframeworkhtxt}><h4>{e.htxt}</h4></div>
             
             </div>
         )

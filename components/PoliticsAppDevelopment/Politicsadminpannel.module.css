@@ -4,6 +4,9 @@
 
     margin-top: 5%;
 }
+
+
+
 .policsadminpannelleftboxes{
     width: 55%;
     height: fit-content;
@@ -20,6 +23,12 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 height: fit-content;
 padding: 10px;
 border-radius: 10px;
+}
+
+.politicsadminpannelindboxes:hover{
+    transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #f7f3e6;
 }
 
 .politicsadminpannelindtxtandimagesbox{

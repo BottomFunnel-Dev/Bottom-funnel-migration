@@ -1,11 +1,38 @@
-.AviationWhy{
-    width: 50%;
+.AviationWhy {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 6%;
+}
+.AviationWhy > button {
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #ef4c23;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.AviationWhy > button:hover {
+  background-color: white;
+  color: #ef4c23;
+}
+
+@media (max-width: 480px) {
+  .AviationWhy {
+    width: 90%;
     margin: auto;
     text-align: center;
-    padding-bottom: 1%;
-    padding-top: 6%;
-}
-.AviationWhy>button{
+    padding-bottom: 4%;
+    padding-top: 10%;
+  }
+  .AviationWhy > button {
     padding: 10px 10px;
     border-radius: 10px;
     width: 200px;
@@ -18,8 +45,37 @@
     cursor: pointer;
     margin-top: 4%;
     margin-bottom: 4%;
+  }
+  .AviationWhy > button:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
 }
-.AviationWhy>button:hover{
-background-color: white;
-color: #ef4c23;
+
+@media (max-width: 1024px) {
+  .AviationWhy {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 4%;
+    padding-top: 10%;
+  }
+  .AviationWhy > button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #ef4c23;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .AviationWhy > button:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
 }

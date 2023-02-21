@@ -1,18 +1,19 @@
 .AviationBannermain{
     height: 100vh;
+    position: relative;
     margin-top: 2%;
+    justify-content: center;
     background: url("/Images/aviation/Newpage/background/bannermain.webp");
     background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .aviationbannertext{
     width: 60%;
-    top: 36%;
+    position: absolute;
+    margin-top: 14%;
     left: 5%;
     color: white;
-  position: absolute;
-
 }
 .aviationbannertext>button {
     padding: 10px 50px;
@@ -32,3 +33,76 @@
     background-color: white;
     color: #ef4c23;
   }
+
+  @media  (max-width:480px){
+    .AviationBannermain{
+      height: 70vh;
+      width: 100%;
+      margin-top: 2%;
+      background: url("/Images/aviation/Newpage/background/bannermain.webp");
+      background-size: 100% 90%;
+      background-repeat: no-repeat;
+  }
+  .aviationbannertext{
+    width: 60%;
+    margin-top: 14%;
+    top: 10%;
+    left: 20%;
+    color: white;
+  }
+  .aviationbannertext>button {
+    padding: 10px 40px;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10%;
+  }
+  .aviationbannertext>button:hover {
+    background-color: white;
+    color: #ef4c23;
+    cursor: pointer;
+  }
+  
+}
+
+@media (max-width: 1024px) {
+  .AviationBannermain{
+    height: 70vh;
+    width: 100%;
+    margin-top: 2%;
+    background: url("/Images/aviation/Newpage/background/bannermain.webp");
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+.aviationbannertext{
+  width: 80%;
+  margin-top: 17%;
+  top: 10%;
+  left: 10%;
+  color: white;
+}
+.aviationbannertext>button {
+  padding: 10px 40px;
+  border-radius: 8px;
+  width: 200px;
+  background-color: #ef4c23;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 10%;
+}
+.aviationbannertext>button:hover {
+  background-color: white;
+  color: #ef4c23;
+  cursor: pointer;
+}
+}
