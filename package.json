@@ -15,14 +15,11 @@
     "bootstrap": "^5.2.3",
     "cross-env": "^7.0.3",
     "next": "^13.1.1",
-    "next-link": "^2.0.0",
-    "next.js": "^1.0.3",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-icons": "^4.7.1",
     "react-intersection-observer": "^9.4.2",
     "react-slick": "^0.29.0",
-    "redux-devtools-extension": "^2.13.9",
     "sharp": "^0.31.3",
     "slick-carousel": "^1.8.1"
   }
