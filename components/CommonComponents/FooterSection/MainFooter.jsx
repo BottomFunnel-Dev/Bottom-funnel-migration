@@ -161,14 +161,6 @@ const MainFooter = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-          
         </div>
 
         <div className={styles.footerServices}>
