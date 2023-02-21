@@ -1,6 +1,5 @@
 .politicscustomerappmainboxes{
     height: 100vh;
-   
 }
 .politicscustomerappmainboxes>h2{
     width: 70%;
@@ -153,7 +152,7 @@ background-color: #f7f3e6;
    
 }
 .politicscustomerappmainboxes>h2{
-    width: 70%;
+    width: 90%;
     margin:auto;
     text-align: center;
 }
@@ -164,32 +163,34 @@ background-color: #f7f3e6;
      margin-top: 5%;
       background-image: linear-gradient(to right, red , yellow);
       display: flex;
+      flex-wrap: wrap;
       background-size: 100% 100%;
 }
 
 .politicsdevelopmentcustomermainboxes>h3{
-    margin-left: 47%;
+    margin-left: 33%;
     font-weight: 700;
-    margin-top: 1%;
-    font-size: 25px;
+    margin-top: 2%;
+    font-size: 35px;
     position: absolute;
+    color: white;
 }
 
 .politicsdevelopmentleftbox{
-    width: 40%;
+    width: 100%;
   
     height: 440px;
-    margin-top: 4%;
+    margin-top: 10%;
     margin-left: 3%;
     margin-right: 3%;
 }
 
 .politicsdevelopmentrightbox{
-    width: 50%;
-   height: 80%;
+    width: 100%;
+   height: 50%;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 4%;
+    margin: 1%;
 }
 .politicscustomermappingind{
     height: fit-content;
@@ -217,8 +218,4 @@ background-color: #f7f3e6;
 .politicscustomermappingind>p{
     text-align: justify;
 }
-
-
-
-
 }

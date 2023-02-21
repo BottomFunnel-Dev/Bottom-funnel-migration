@@ -1,6 +1,5 @@
 .eventuserexperiencemainboxes{
     height: fit-content;
-  
     display: flex;
     margin-top: 5%;
 }
@@ -29,7 +28,7 @@ margin-top: -3%;
 
 .eventuserexperiencemappingdataindi{
     width: 47%;
-    height: fit-content;
+ max-height: max-content;
  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1%;
     padding: 10px;
