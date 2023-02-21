@@ -6,7 +6,6 @@ import { golangBanner } from "../../components/Data/webdevPageData/TechBannerDat
 import { golangstackIntro } from "../../components/Data/webdevPageData/StackData";
 import { whyGolang } from "../../components/Data/webdevPageData/whyTechStack";
 import Head from "next/head";
-import * as ReactAnimation from "../../public/webdevanimation/Goglang.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
@@ -52,7 +51,7 @@ export default function GolangPages() {
         <WebdevBanner
           paraColor={"#393939"}
           bannerContent={golangBanner}
-          animateData={ReactAnimation}
+          animateData={"/webdevanimation/Goglang.json"}
         />
         <Techstackintro techContent={golangstackIntro} />
         <WebDevServices webservicesContent={golangwebDevServices} />

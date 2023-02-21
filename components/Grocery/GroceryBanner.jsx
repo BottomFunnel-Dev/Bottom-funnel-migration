@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./groceryBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Grocery.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -48,11 +46,7 @@ const GroceryBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -62,14 +56,13 @@ const GroceryBanner = () => {
       </div>
 
       <div className={styles.groceryImage}>
-        <Player className={styles.groceryBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Grocery.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

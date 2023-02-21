@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./ottHeader.module.css";
-import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Ott.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../../PopupForm/PopupForm";
 
 export default function OttHeader() {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -79,7 +76,10 @@ export default function OttHeader() {
               nontcliolectui dignissimos possimus, doloremque in minimabgrds
               ggue quae quia magnam reiciendis ab.
             </p>
-            <button onClick={handleOpen} className={styles.ottHeaderButton}> Get Started </button>
+            <button onClick={handleOpen} className={styles.ottHeaderButton}>
+              {" "}
+              Get Started{" "}
+            </button>
           </div>
 
           <Modal
@@ -89,11 +89,7 @@ export default function OttHeader() {
             aria-describedby={styles.modamodaldescription}
           >
             <Box sx={style}>
-              <Typography
-                id="modalmodaltitle"
-                variant="h6"
-                component="h2"
-              >
+              <Typography id="modalmodaltitle" variant="h6" component="h2">
                 <div className={styles.popform}>
                   <PopupForm />
                 </div>
@@ -105,14 +101,13 @@ export default function OttHeader() {
         <div className={styles.ottHeaderRightDiv}>
           <div className={styles.ottHeaderRightFrameForImage}>
             <div className={styles.ottHeaderRightImagesDiv}>
-              <Player
-                src={reactAnimation}
+              <lottie-player
+                src="/Animation/SolutionsAnimation/Ott.json"
                 background="transparent"
                 speed="1"
                 loop
-                controls
                 autoplay
-              ></Player>
+              ></lottie-player>
             </div>
           </div>
         </div>

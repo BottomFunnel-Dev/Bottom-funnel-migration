@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./FlowerDelevrybanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Flower delivery.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 const FlowerDeliveryBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -42,7 +39,10 @@ const FlowerDeliveryBanner = () => {
           customers
         </p>
 
-        <button onClick={handleOpen} className={styles.flowerdeliverybannerbutton}>
+        <button
+          onClick={handleOpen}
+          className={styles.flowerdeliverybannerbutton}
+        >
           Get Started
         </button>
 
@@ -53,11 +53,7 @@ const FlowerDeliveryBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -67,15 +63,13 @@ const FlowerDeliveryBanner = () => {
       </div>
 
       <div className={styles.flowerdeliverybannerrightbox}>
-        <Player className={styles.flowerDeliveryBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Flower delivery.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        >
-        </Player>
+        ></lottie-player>
       </div>
     </div>
   );

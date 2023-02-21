@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./AgricultureBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Agriculture.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../../PopupForm/PopupForm";
 
 export default function AgricultureBanner() {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -54,11 +51,7 @@ export default function AgricultureBanner() {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -67,14 +60,14 @@ export default function AgricultureBanner() {
         </Modal>
       </div>
       <div className={styles.agricultureBannerImageDiv}>
-        <Player
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Agriculture.json"
           background="transparent"
           speed="1"
+          style={{ width: "100%", height: "100%" }}
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

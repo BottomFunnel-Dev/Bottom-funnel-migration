@@ -6,31 +6,30 @@ import { rubystackIntro } from "../../components/Data/webdevPageData/StackData";
 import { rubyWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
 import { whyRuby } from "../../components/Data/webdevPageData/whyTechStack";
 import { rubywebDevServices } from "../../components/Data/webdevPageData/Popularservices";
-import * as ReactAnimation from "../../public/webdevanimation/Ruby.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const Techstackintro = dynamic(
   () => import("../../components/WebDevelopment/techStackintro/Techstackintro"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const WebDevServices = dynamic(
   () => import("../../components/WebDevelopment/webdevServices/WebDevServices"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const WhyTechStack = dynamic(
   () => import("../../components/WebDevelopment/whyTechStack/WhyTechStack"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const GetStarted = dynamic(
   () => import("../../components/WebDevelopment/webGetStartedCard/GetStarted"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const WebDevWhy = dynamic(
   () => import("../../components/WebDevelopment/webDevWhy/WebDevWhy"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 
 export default function RubyRails() {
@@ -49,7 +48,7 @@ export default function RubyRails() {
         <WebdevBanner
           paraColor={"#393939"}
           bannerContent={rubyBanner}
-          animateData={ReactAnimation}
+          animateData={"/webdevanimation/Ruby.json"}
         />
         <Techstackintro techContent={rubystackIntro} />
         <WebDevServices webservicesContent={rubywebDevServices} />

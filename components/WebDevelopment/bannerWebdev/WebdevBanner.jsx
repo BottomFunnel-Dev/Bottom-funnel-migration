@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./webdevBanner.module.css";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function WebdevBanner({
   paraColor,
@@ -61,14 +60,13 @@ export default function WebdevBanner({
       </div>
 
       <div className={styles.mernanimation}>
-        <Player
+        <lottie-player
           src={animateData}
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

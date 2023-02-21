@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
-import styles from './WearableBanner.module.css';
-import Image from 'next/image';
-import * as reactAnimation from "../../../public/Animation/wearable.json";
-import { Player } from "@lottiefiles/react-lottie-player";
+import styles from "./WearableBanner.module.css";
+import Image from "next/image";
 
 export const WearableBanner = () => {
 
@@ -12,9 +10,15 @@ export const WearableBanner = () => {
     <div>
       <div className={styles.wearablebannermainbox}>
         <div className={styles.wearablebannermainboxinnertextdiv}>
-          <h1><span>Wearable App</span> Development </h1>
+          <h1>
+            <span>Wearable App</span> Development{" "}
+          </h1>
           <p>
-            The use of wearable technology for both individuals and businesses are growing at a rapid rate. Whether it is for tracking steps walked or sending real-time work push notifications, wearable tech of both Android wearable development and IOS wearable development domain is being used by companies and individuals from all walks of life.
+            The use of wearable technology for both individuals and businesses
+            are growing at a rapid rate. Whether it is for tracking steps walked
+            or sending real-time work push notifications, wearable tech of both
+            Android wearable development and IOS wearable development domain is
+            being used by companies and individuals from all walks of life.
           </p>
 
           <button
@@ -72,5 +76,5 @@ export const WearableBanner = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

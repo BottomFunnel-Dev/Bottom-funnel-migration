@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import styles from "./ondemandHero.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/On demand home services.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
-
 
 const OndemandHero = () => {
   const [open, setOpen] = useState(false);
@@ -50,11 +47,7 @@ const OndemandHero = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -64,14 +57,13 @@ const OndemandHero = () => {
       </div>
 
       <div className={styles.imageContainer}>
-        <Player className={styles.onDemandHomeServiceAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/On demand home services.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

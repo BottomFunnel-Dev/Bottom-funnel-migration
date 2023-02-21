@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./Beautycontainer.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/beauty and salon.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export default function Beautycontainer() {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -35,7 +32,7 @@ export default function Beautycontainer() {
         <h1 className={styles.heading}>
           Beauty And Salon App Development Solutions
         </h1>
-        
+
         <p>
           Beautify Your Business with An App! Enhance your salon's customer
           experience with our cutting-edge beauty & salon app development.
@@ -50,11 +47,7 @@ export default function Beautycontainer() {
         aria-describedby={styles.modamodaldescription}
       >
         <Box sx={style}>
-          <Typography
-            id="modalmodaltitle"
-            variant="h6"
-            component="h2"
-          >
+          <Typography id="modalmodaltitle" variant="h6" component="h2">
             <div className={styles.popform}>
               <PopupForm />
             </div>
@@ -63,14 +56,14 @@ export default function Beautycontainer() {
       </Modal>
 
       <div className={styles.mobile}>
-        <Player className={styles.beautyBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/beauty and salon.json"
           background="transparent"
           speed="1"
+          style={{ width: "100%", height: "100%" }}
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

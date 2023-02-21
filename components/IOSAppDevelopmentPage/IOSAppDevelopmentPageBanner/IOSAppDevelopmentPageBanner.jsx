@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./IOSAppDevelopmentPageBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/ios.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const IOSAppDevelopmentPageBanner = () => {
-
 
 
   return (
@@ -58,14 +55,13 @@ export const IOSAppDevelopmentPageBanner = () => {
 
         </div>
         <div className={styles.IOSandroidIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/ios.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </div>

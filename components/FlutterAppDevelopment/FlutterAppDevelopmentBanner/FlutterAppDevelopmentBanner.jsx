@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./FlutterAppDevelopmentBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/flutter.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const FlutterAppDevelopmentBanner = () => {
 
@@ -61,14 +59,13 @@ export const FlutterAppDevelopmentBanner = () => {
          
         </div>
         <div className={styles.FlutterIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/flutter.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </>

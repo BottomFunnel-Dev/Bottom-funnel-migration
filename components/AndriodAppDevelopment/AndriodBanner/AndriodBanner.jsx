@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./AndriodBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/android.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 import Image from "next/image";
 
 export default function AndriodBanner() {

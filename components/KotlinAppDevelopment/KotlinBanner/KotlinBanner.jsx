@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./KotlinBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/kotlin.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const KotlinBanner = () => {
 
@@ -64,14 +62,13 @@ export const KotlinBanner = () => {
         
         </div>
         <div className={styles.kotlinIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/kotlin.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </>

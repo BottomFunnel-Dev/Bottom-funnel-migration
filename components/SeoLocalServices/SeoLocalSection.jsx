@@ -1,25 +1,24 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoLocalSection.module.css";
-import * as reactAnimation from "../../public/Animation/DMAnimation/2.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const SeoLocalSection = () => {
   return (
     <div className={styles.seoLocalMain1}>
       <div className={styles.localgifDenote}>
-            <Player
-                src={reactAnimation}
-                background="transparent"
-                speed="2"
-                loop
-                controls
-                autoplay
-        ></Player>
+        <lottie-player
+          src="/Animation/DMAnimation/2.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
       <div className={styles.seoLocalupperdiv}>
         <div className={styles.seoLocaltext}>
-          <div className={styles.seoLocalheading}>Local SEO Services Company</div>
+          <div className={styles.seoLocalheading}>
+            Local SEO Services Company
+          </div>
 
           <p className={styles.seoLocalparagraph}>
             Our local SEO services revolutionize your online presence so you can
@@ -38,8 +37,7 @@ export const SeoLocalSection = () => {
         </div>
 
         <SeoForm />
-
       </div>
     </div>
   );
-}
+};

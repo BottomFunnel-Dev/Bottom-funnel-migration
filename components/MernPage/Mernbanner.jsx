@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import { Player } from "@lottiefiles/react-lottie-player";
-
 import styles from "./mernbanner.module.css";
 import { PopupForm } from "../PopupForm/PopupForm";
 
@@ -59,16 +57,15 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
         {bannerdata.icons.map((item, index) => (
           <div key={index} className={styles.mernskills}></div>
         ))}
-      </div>  
+      </div>
       <div className={styles.mernanimation}>
-        <Player
+        <lottie-player
           src={animateData}
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );

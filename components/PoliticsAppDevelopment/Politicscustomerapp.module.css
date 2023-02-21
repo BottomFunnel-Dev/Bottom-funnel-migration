@@ -11,7 +11,7 @@
 .politicsdevelopmentcustomermainboxes{
 
     height: 85%;
-    margin-top: 5%;
+     margin-top: 5%;
       background-image: linear-gradient(to right, red , yellow);
       display: flex;
       background-size: 100% 100%;
@@ -144,6 +144,80 @@ background-color: #f7f3e6;
 .politicscustomermappingind>p{
     text-align: justify;
 }
+}
+
+@media only screen and ( min-width:601px) and (max-width:900px){
+
+    .politicscustomerappmainboxes{
+    height: 100vh;
+   
+}
+.politicscustomerappmainboxes>h2{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+.politicsdevelopmentcustomermainboxes{
+
+    height: 85%;
+     margin-top: 5%;
+      background-image: linear-gradient(to right, red , yellow);
+      display: flex;
+      background-size: 100% 100%;
+}
+
+.politicsdevelopmentcustomermainboxes>h3{
+    margin-left: 47%;
+    font-weight: 700;
+    margin-top: 1%;
+    font-size: 25px;
+    position: absolute;
+}
+
+.politicsdevelopmentleftbox{
+    width: 40%;
+  
+    height: 440px;
+    margin-top: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.politicsdevelopmentrightbox{
+    width: 50%;
+   height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+.politicscustomermappingind{
+    height: fit-content;
+    width: 47%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.politicscustomermappingind:hover{
+transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #f7f3e6;
+}
+
+.policsinddatainnerflexbox{
+    display: flex;
+}
+
+.customerpoliticsh5txt{
+    margin-top: 3%;
+}
+
+.politicscustomermappingind>p{
+    text-align: justify;
+}
+
 
 
 

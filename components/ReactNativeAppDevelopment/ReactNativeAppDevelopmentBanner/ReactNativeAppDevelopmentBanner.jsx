@@ -2,8 +2,6 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./ReactNativeAppDevelopmentBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/reactfile.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const ReactNativeAppDevelopmentBanner = () => {
 
@@ -62,14 +60,13 @@ export const ReactNativeAppDevelopmentBanner = () => {
         
         </div>
         <div className={styles.reactfileIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/reactfile.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </div>

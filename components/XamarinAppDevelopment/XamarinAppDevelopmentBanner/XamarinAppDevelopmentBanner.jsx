@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./XamarinAppDevelopmentBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/Xamarin.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const XamarinAppDevelopmentBanner = () => {
  
@@ -54,14 +52,13 @@ export const XamarinAppDevelopmentBanner = () => {
         </div>
 
         <div className={styles.xamrinIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/Xamarin.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </>

@@ -2,8 +2,6 @@ import { Box, Typography, Modal } from "@mui/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./IonicAppBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/ionic.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const IonicAppBanner = () => {
 
@@ -59,14 +57,14 @@ export const IonicAppBanner = () => {
          
         </div>
         <div className={styles.ionicIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/ionic.json"
             background="transparent"
             speed="1"
+            style={{ width: "100%", height: "100%" }}
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </>
