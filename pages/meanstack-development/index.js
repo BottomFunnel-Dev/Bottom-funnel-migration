@@ -6,31 +6,30 @@ import { meanstackIntro } from "../../components/Data/webdevPageData/StackData";
 import { meanDevServices } from "../../components/Data/webdevPageData/Popularservices";
 import { whyMEAN } from "../../components/Data/webdevPageData/whyTechStack";
 import { MEANWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
-import * as ReactAnimation from "../../public/webdevanimation/Mean Stack.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const Techstackintro = dynamic(
   () => import("../../components/WebDevelopment/techStackintro/Techstackintro"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const WebDevServices = dynamic(
   () => import("../../components/WebDevelopment/webdevServices/WebDevServices"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const WhyTechStack = dynamic(
   () => import("../../components/WebDevelopment/whyTechStack/WhyTechStack"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const GetStarted = dynamic(
   () => import("../../components/WebDevelopment/webGetStartedCard/GetStarted"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 const WebDevWhy = dynamic(
   () => import("../../components/WebDevelopment/webDevWhy/WebDevWhy"),
-  { loading: () => "loading..." }
+  { loading: () => "loading..." },
 );
 
 export default function MeanPage() {
@@ -49,7 +48,10 @@ export default function MeanPage() {
       </Head>
 
       <main>
-        <WebdevBanner bannerContent={meanBanner} animateData={ReactAnimation} />
+        <WebdevBanner
+          bannerContent={meanBanner}
+          animateData={"/webdevanimation/Mean Stack.json"}
+        />
         <Techstackintro techContent={meanstackIntro} />
         <WebDevServices webservicesContent={meanDevServices} />
         <WhyTechStack techData={whyMEAN} />

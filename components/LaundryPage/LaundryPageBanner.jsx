@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./LaundaryBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/laundry.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 const LaundryPageBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -40,11 +37,14 @@ const LaundryPageBanner = () => {
               develop complete on-demand app and provides a solution. Our Mobile
               app development team is all determined to make the on-demand app
               revolution in various industries that require instant provisioning
-              of benefits and services. Thus, we had a very welcoming look at the
-              laundry service market.
+              of benefits and services. Thus, we had a very welcoming look at
+              the laundry service market.
             </p>
 
-            <button onClick={handleOpen} className={styles.laundrypagebannerbutton}>
+            <button
+              onClick={handleOpen}
+              className={styles.laundrypagebannerbutton}
+            >
               Get Started
             </button>
           </div>
@@ -56,11 +56,7 @@ const LaundryPageBanner = () => {
             aria-describedby={styles.modamodaldescription}
           >
             <Box sx={style}>
-              <Typography
-                id="modalmodaltitle"
-                variant="h6"
-                component="h2"
-              >
+              <Typography id="modalmodaltitle" variant="h6" component="h2">
                 <div className={styles.popform}>
                   <PopupForm />
                 </div>
@@ -70,14 +66,13 @@ const LaundryPageBanner = () => {
         </div>
 
         <div className={styles.laundaryPageBannerAnimationDiv}>
-          <Player className={styles.laundaryPageBannerAnimation}
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/SolutionsAnimation/laundry.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </div>

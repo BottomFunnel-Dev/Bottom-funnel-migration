@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./WebsiteBuilderBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/SolutionsAnimation/Website builder.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 import Image from "next/image";
 
 import Box from "@mui/material/Box";
@@ -10,7 +8,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../../PopupForm/PopupForm";
 
 export const WebisteBuilderBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -33,12 +30,14 @@ export const WebisteBuilderBanner = () => {
   return (
     <div className={styles.websiteBuilderBannerParentDiv}>
       <div className={styles.websiteBuilderBannerImageDiv}>
-        <Image src={"/Images/WebsiteBuilderApp/BannerBackground.webp"}
+        <Image
+          src={"/Images/WebsiteBuilderApp/BannerBackground.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }} />
+          style={{ width: "100%", height: "100%" }}
+        />
         <div className={styles.websiteBuilderBannerTopComp}>
           <div className={styles.websiteBuilderBannerContentDiv}>
             <h1> Create Website without Limits </h1>
@@ -57,11 +56,7 @@ export const WebisteBuilderBanner = () => {
               aria-describedby={styles.modamodaldescription}
             >
               <Box sx={style}>
-                <Typography
-                  id="modalmodaltitle"
-                  variant="h6"
-                  component="h2"
-                >
+                <Typography id="modalmodaltitle" variant="h6" component="h2">
                   <div className={styles.popform}>
                     <PopupForm />
                   </div>
@@ -71,15 +66,13 @@ export const WebisteBuilderBanner = () => {
           </div>
 
           <div className={styles.websiteBuilderBannerTopImageComp}>
-            <Player className={styles.websiteBuilderBannerAnimation}
-              src={reactAnimation}
+            <lottie-player
+              src="/Animation/SolutionsAnimation/Website builder.json"
               background="transparent"
               speed="1"
               loop
-              controls
               autoplay
-            >
-            </Player>
+            ></lottie-player>
           </div>
         </div>
       </div>

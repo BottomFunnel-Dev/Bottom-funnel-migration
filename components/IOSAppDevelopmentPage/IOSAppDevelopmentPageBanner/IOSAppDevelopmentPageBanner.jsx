@@ -2,8 +2,6 @@ import { Box, Typography, Modal } from "@mui/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./IOSAppDevelopmentPageBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/ios.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const IOSAppDevelopmentPageBanner = () => {
   const [open, setOpen] = useState(false);
@@ -11,19 +9,19 @@ export const IOSAppDevelopmentPageBanner = () => {
   const handleClose = () => setOpen(false);
 
   const style = {
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-      width: 700,
-      height: 550,
-      bgcolor: "background.paper",
-      border: "2px solid #000",
-      // boxShadow: 24,
-      backgorund: "green",
-      p: 1,
-      borderRadius: 2,
-    };
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 700,
+    height: 550,
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    // boxShadow: 24,
+    backgorund: "green",
+    p: 1,
+    borderRadius: 2,
+  };
 
   return (
     <div>
@@ -37,34 +35,35 @@ export const IOSAppDevelopmentPageBanner = () => {
             end-users. Hire iOS software developers now.
           </p>
 
-          <button className={styles.IOSAppDevelopmentbannerbutton} onClick={() => handleOpen()}>
+          <button
+            className={styles.IOSAppDevelopmentbannerbutton}
+            onClick={() => handleOpen()}
+          >
             Get Started
           </button>
           <Modal
-        open={open}
-        onClose={() => handleClose()}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            <div className={styles.popform}>
-              <PopupForm />
-            </div>
-          </Typography>
-        </Box>
-      </Modal>
-
+            open={open}
+            onClose={() => handleClose()}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography id="modal-modal-title" variant="h6" component="h2">
+                <div className={styles.popform}>
+                  <PopupForm />
+                </div>
+              </Typography>
+            </Box>
+          </Modal>
         </div>
         <div className={styles.IOSandroidIcon}>
-          <Player
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/ios.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </div>

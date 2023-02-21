@@ -1,21 +1,18 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoguestSection.module.css";
-import * as reactAnimation from "../../public/Animation/DMAnimation/5.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function SeoguestSection() {
   return (
     <div className={styles._SeoEmailMain1}>
       <div className={styles.guestgifDenote}>
-      <Player
-                src={reactAnimation}
-                background="transparent"
-                speed="2"
-                loop
-                controls
-                autoplay
-        ></Player>
+        <lottie-player
+          src="/Animation/DMAnimation/5.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
       <div className={styles._SeoEmailupperdiv}>
         <div className={styles._SeoEmailtext}>
@@ -33,8 +30,8 @@ export default function SeoguestSection() {
             <button>Check Email SEO Pricing</button>
           </div>
         </div>
-        
-        <SeoForm/>
+
+        <SeoForm />
       </div>
     </div>
   );

@@ -6,8 +6,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/pharmacy.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function Pharmacycontainer() {
   const [open, setOpen] = useState(false);
@@ -36,7 +34,11 @@ export default function Pharmacycontainer() {
           <div>
             <h1>Launch an On-Demand</h1>
             <h2>Pharmacy Delivery App</h2>
-            <p>Pharmacy delivery apps are a convenient way to have your medications delivered to you. With these apps, you can have your medications sent directly to your door by a pharmacy professional. </p>
+            <p>
+              Pharmacy delivery apps are a convenient way to have your
+              medications delivered to you. With these apps, you can have your
+              medications sent directly to your door by a pharmacy professional.{" "}
+            </p>
 
             <button className={styles.szpharmacybtn} onClick={handleOpen}>
               Get Started
@@ -60,14 +62,13 @@ export default function Pharmacycontainer() {
         </div>
 
         <div className={styles.pharmacyBannerAnimationDiv}>
-          <Player className={styles.pharmacyBannerAnimation}
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/SolutionsAnimation/pharmacy.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </div>

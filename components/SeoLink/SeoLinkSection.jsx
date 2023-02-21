@@ -1,21 +1,18 @@
 import React from "react";
 import { SeoForm } from "../SEO/seoForm/SeoForm";
 import styles from "./SeoLinkSection.module.css";
-import * as reactAnimation from "../../public/Animation/DMAnimation/6.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export default function SeoLinkSection() {
   return (
     <div className={styles._SeoLinkMain1}>
       <div className={styles.linkgifDenote}>
-      <Player
-                src={reactAnimation}
-                background="transparent"
-                speed="2"
-                loop
-                controls
-                autoplay
-        ></Player>
+        <lottie-player
+          src="/Animation/DMAnimation/6.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
       <div className={styles._SeoLinkupperdiv}>
         <div className={styles._SeoLinktext}>

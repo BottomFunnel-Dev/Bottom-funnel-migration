@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./MeatDeliveryBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Meat delivery.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const MeatDeliveryBanner = () => {
-
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -35,10 +32,18 @@ export const MeatDeliveryBanner = () => {
         <h1> Meat Delivery Application Solutions </h1>
         <p>
           {" "}
-          Bottom Funnel is surely one of the best ways to find quick and simple solutions for IT support. We provide you with a wide range of services, so you can always be sure that your system is being looked after. What's more, our experts are available 24 hours a day, 7 days a week - so there's no need to worry about any issues arising at odd times.{" "}
+          Bottom Funnel is surely one of the best ways to find quick and simple
+          solutions for IT support. We provide you with a wide range of
+          services, so you can always be sure that your system is being looked
+          after. What's more, our experts are available 24 hours a day, 7 days a
+          week - so there's no need to worry about any issues arising at odd
+          times.{" "}
         </p>
 
-        <button onClick={handleOpen} className={styles.meatdeliverybanner}> Get Started </button>
+        <button onClick={handleOpen} className={styles.meatdeliverybanner}>
+          {" "}
+          Get Started{" "}
+        </button>
 
         <Modal
           open={open}
@@ -47,11 +52,7 @@ export const MeatDeliveryBanner = () => {
           aria-describedby={styles.modamodaldescription}
         >
           <Box className={styles.style} sx={style}>
-            <Typography
-              id="modalmodaltitle"
-              variant="h6"
-              component="h2"
-            >
+            <Typography id="modalmodaltitle" variant="h6" component="h2">
               <div className={styles.popform}>
                 <PopupForm />
               </div>
@@ -61,15 +62,13 @@ export const MeatDeliveryBanner = () => {
       </div>
 
       <div className={styles.meatDeliveryBannerAnimationDiv}>
-        <Player
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Meat delivery.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        >
-        </Player>
+        ></lottie-player>
       </div>
     </div>
   );

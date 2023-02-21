@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styles from "./ToolDeliveryBanner.module.css";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/tool deliver.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -9,7 +7,6 @@ import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 function TooDeliveryBanner() {
-  
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -40,7 +37,10 @@ function TooDeliveryBanner() {
               entrepreneur much easier. It helps you deliver tools faster than
               ever before without any hassles or complications of any sort.
             </p>
-            <button onClick={handleOpen} className={styles.tdtooldeliverybtn}> Get Started </button>
+            <button onClick={handleOpen} className={styles.tdtooldeliverybtn}>
+              {" "}
+              Get Started{" "}
+            </button>
           </div>
 
           <Modal
@@ -50,11 +50,7 @@ function TooDeliveryBanner() {
             aria-describedby={styles.modamodaldescription}
           >
             <Box sx={style}>
-              <Typography
-                id="modalmodaltitle"
-                variant="h6"
-                component="h2"
-              >
+              <Typography id="modalmodaltitle" variant="h6" component="h2">
                 <div className={styles.popform}>
                   <PopupForm />
                 </div>
@@ -64,15 +60,13 @@ function TooDeliveryBanner() {
         </div>
 
         <div className={styles.toolDeliveryAnimationDiv}>
-          <Player
-            className={styles.toolDeliveryMainAnimation}
-            src={reactAnimation}
+          <lottie-player
+            src="/Animation/SolutionsAnimation/tool deliver.json"
             background="transparent"
             speed="1"
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
       </div>
     </div>

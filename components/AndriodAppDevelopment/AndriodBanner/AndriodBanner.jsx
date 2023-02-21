@@ -2,8 +2,6 @@ import { Box, Typography, Modal } from "@mui/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./AndriodBanner.module.css";
-import * as reactAnimation from "../../../public/Animation/android.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 import Image from "next/image";
 
 export default function AndriodBanner() {
@@ -12,19 +10,19 @@ export default function AndriodBanner() {
   const handleClose = () => setOpen(false);
 
   const style = {
-      position: "absolute",
-      top: "50%",
-      left: "50%",
-      transform: "translate(-50%, -50%)",
-      width: 700,
-      height: 550,
-      bgcolor: "background.paper",
-      border: "2px solid #000",
-      // boxShadow: 24,
-      backgorund: "green",
-      p: 1,
-      borderRadius: 2,
-    };
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 700,
+    height: 550,
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    // boxShadow: 24,
+    backgorund: "green",
+    p: 1,
+    borderRadius: 2,
+  };
   return (
     <>
       <div className={styles.andriodAppDevbannermainbox}>
@@ -40,40 +38,39 @@ export default function AndriodBanner() {
             track record of success, so you can be sure that your project will
             be handled with care. Contact us today to get started!
           </p>
-          <button className={styles.andriodAppDevbannerbutton} onClick={() => handleOpen()}>
+          <button
+            className={styles.andriodAppDevbannerbutton}
+            onClick={() => handleOpen()}
+          >
             Get Started
           </button>
-          
-          <Modal
-        open={open}
-        onClose={() => handleClose()}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            <div className={styles.popform}>
-              <PopupForm />
-            </div>
-          </Typography>
-        </Box>
-      </Modal>
 
+          <Modal
+            open={open}
+            onClose={() => handleClose()}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography id="modal-modal-title" variant="h6" component="h2">
+                <div className={styles.popform}>
+                  <PopupForm />
+                </div>
+              </Typography>
+            </Box>
+          </Modal>
         </div>
         <div className={styles.bg1banner}>
-      
-       
-        <div className={styles.androidIcon}>
-       
-          <Player
-            src={reactAnimation}
-            background="transparent"
-            speed="1"
-            loop
-            controls
-            autoplay
-          ></Player>
-        </div>
+          <div className={styles.androidIcon}>
+            <lottie-player
+              src="/Animation/android.json"
+              background="transparent"
+              speed="1"
+              style={{ width: "100%", height: "100%" }}
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
         </div>
       </div>
     </>

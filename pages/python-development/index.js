@@ -6,7 +6,6 @@ import { pythonstackIntro } from "../../components/Data/webdevPageData/StackData
 import { pythonwebDevServices } from "../../components/Data/webdevPageData/Popularservices";
 import { whyPython } from "../../components/Data/webdevPageData/whyTechStack";
 import { pythonWhyContent } from "../../components/Data/webdevPageData/whyBottomContent";
-import * as ReactAnimation from "../../public/webdevanimation/Phyton.json";
 
 const WebdevBanner = dynamic(
   () => import("../../components/WebDevelopment/bannerWebdev/WebdevBanner"),
@@ -48,7 +47,11 @@ export default function PythonDevelopment() {
       </Head>
 
       <main>
-        <WebdevBanner paraColor={"#393939"} bannerContent={pythonBanner} animateData={ReactAnimation}/>
+        <WebdevBanner
+          paraColor={"#393939"}
+          bannerContent={pythonBanner}
+          animateData={"/webdevanimation/Phyton.json"}
+        />
         <Techstackintro techContent={pythonstackIntro} />
         <WebDevServices webservicesContent={pythonwebDevServices} />
         <WhyTechStack techData={whyPython} />

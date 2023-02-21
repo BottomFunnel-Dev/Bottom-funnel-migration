@@ -5,8 +5,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
-import * as reactAnimation from "../../public/Animation/SolutionsAnimation/Marketplace.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 export const MarketplaceBanner = () => {
   const [open, setOpen] = useState(false);
@@ -32,17 +30,14 @@ export const MarketplaceBanner = () => {
   return (
     <div className={styles.marketplacebannerimage}>
       <div className={styles.marketplacebannerimageinsideboxtext}>
-
-        <h1>
-          Build A Freelancer Marketplace Like Upwork & Fiverr
-        </h1>
+        <h1>Build A Freelancer Marketplace Like Upwork & Fiverr</h1>
         <p>
           Are you looking for a place to hire freelancers? Have you tried Upwork
           or Fiverr, but found them to be too time consuming and other similar
           sites? Let's build an online marketplace where people are looking for
           your type of work!{" "}
         </p>
-        
+
         <button className={styles.marketplacebutton} onClick={handleOpen}>
           Get Started
         </button>
@@ -64,14 +59,13 @@ export const MarketplaceBanner = () => {
       </div>
 
       <div className={styles.marketplaceBannerAnimationDiv}>
-        <Player className={styles.marketPlaceBannerAnimation}
-          src={reactAnimation}
+        <lottie-player
+          src="/Animation/SolutionsAnimation/Marketplace.json"
           background="transparent"
           speed="1"
           loop
-          controls
           autoplay
-        ></Player>
+        ></lottie-player>
       </div>
     </div>
   );
