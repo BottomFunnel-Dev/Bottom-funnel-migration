@@ -35,22 +35,40 @@ const PlanProject = () => {
           be able to have easy access to quality IT services, which is why we
           offer a variety of plans for every budget.
         </p>
-        <button onClick={handleOpen}>Let's plan your project</button>
-
-        <Modal
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="modal-modal-title"
-          aria-describedby="modal-modal-description"
+        <button
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
         >
-          <Box sx={style}>
-            <Typography id="modal-modal-title" variant="h6" component="h2">
-              <div className={styles.popform}>
+          Let's plan your project
+        </button>
+
+        <div
+          className="modal fade"
+          id="staticBackdrop"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabindex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
                 <PopupForm />
               </div>
-            </Typography>
-          </Box>
-        </Modal>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -1,28 +1,9 @@
-import { Box, Typography, Modal } from "@mui/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./AndriodBanner.module.css";
 import Image from "next/image";
 
 export default function AndriodBanner() {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 700,
-    height: 550,
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    // boxShadow: 24,
-    backgorund: "green",
-    p: 1,
-    borderRadius: 2,
-  };
   return (
     <>
       <div className={styles.andriodAppDevbannermainbox}>
@@ -40,36 +21,50 @@ export default function AndriodBanner() {
           </p>
           <button
             className={styles.andriodAppDevbannerbutton}
-            onClick={() => handleOpen()}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
           >
             Get Started
           </button>
 
-          <Modal
-            open={open}
-            onClose={() => handleClose()}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
+          <div
+            className="modal fade"
+            id="staticBackdropandroid"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
           >
-            <Box sx={style}>
-              <Typography id="modal-modal-title" variant="h6" component="h2">
-                <div className={styles.popform}>
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
                   <PopupForm />
                 </div>
-              </Typography>
-            </Box>
-          </Modal>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={styles.bg1banner}>
           <div className={styles.androidIcon}>
-            <lottie-player
-              src="/Animation/android.json"
+            <Player
+              src={reactAnimation}
               background="transparent"
               speed="1"
-              style={{ width: "100%", height: "100%" }}
               loop
+              controls
               autoplay
-            ></lottie-player>
+            ></Player>
           </div>
         </div>
       </div>
