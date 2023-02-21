@@ -40,7 +40,9 @@ export const Politicsadminpannel = () => {
         
     ]
   return (
+  
     <div className={styles.politicsadminpannelmainboxes}>
+ 
     <div className={styles.policsadminpannelleftboxes}>{politicsadminpanneldata.map((e)=>{
         return (
             <div className={styles.politicsadminpannelindboxes}
@@ -85,5 +87,6 @@ export const Politicsadminpannel = () => {
     
     </div>
     </div>
+   
   )
 }
