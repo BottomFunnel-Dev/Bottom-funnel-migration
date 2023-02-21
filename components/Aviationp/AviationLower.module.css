@@ -44,5 +44,91 @@
     width: 20%;
     z-index: 1;
 }
-
-
+@media (max-width: 480px) {
+    .AviationLowermain{
+        height: 280px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background: url("/Images/aviation//Newpage/background/Rectangle1.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+    }
+    .AviationLowerText{
+        width: 40%;
+        margin-top: 4%;
+        margin-left: 10%;
+        text-align: justify;
+    }
+    .AviationLowerText>h5{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .AviationLowerText>button{
+        padding: 10px 10px;
+        border-radius: 10px;
+        width: 200px;
+        background-color: #ef4c23;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        margin-top: 4%;
+    }
+    .AviationLowerText>button:hover{
+        background-color: white;
+        color: #ef4c23;
+    }
+   
+}
+@media (max-width: 1024px) {
+    .AviationLowermain{
+        height: 280px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background: url("/Images/aviation//Newpage/background/Rectangle1.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      
+    }
+    .AviationLowerText{
+        width: 40%;
+        margin-top: 4%;
+        margin-left: 10%;
+        text-align: justify;
+    }
+    .AviationLowerText>h5{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .AviationLowerText>button{
+        padding: 10px 10px;
+        border-radius: 10px;
+        width: 200px;
+        background-color: #ef4c23;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        margin-top: 4%;
+    }
+    .AviationLowerText>button:hover{
+        background-color: white;
+        color: #ef4c23;
+    }
+    .AviationLowerImg{
+        position: absolute;
+        right: 5%;
+        top: -12%;
+        height: 340px;
+        width: 30%;
+    }
+}
