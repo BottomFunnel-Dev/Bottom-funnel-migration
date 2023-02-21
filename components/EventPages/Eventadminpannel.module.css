@@ -71,3 +71,83 @@
     line-height: normal;
     text-align: justify;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    
+    .eventadminpannelmainboxes{
+        height: fit-content;
+    
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2%;
+    }
+    
+    .eventadminpannelleftboxes{
+        width: 90%;
+        height: 300px;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    
+    .eventadminpannelrightboxes{
+        width: 100%;
+        margin-left: 3%;
+    }
+    
+    .eventadminpannelrightboxes>h2{
+        color: #ef4c23;
+        margin-left: 2%;
+    }
+    
+    .eventadminpanneldatamapping{
+        width: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
+        overflow-y: scroll;
+    }
+    
+    .eventadminpanneldatamappingindi{
+        width: 95%;
+        height: fit-content;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 1%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .eventadminpanneldatamappingindi:hover{
+        background-color: #FDF5F2;
+        transition: all 0.2s linear;
+        transform: translateY(-10px);
+    }
+    
+    .eventadminpanneldataimgandhtxtbox{
+        display: flex;
+    }
+    
+    .eventadminpanneldataimg{
+        height: 15%;
+        width: 15%;
+    
+    }
+    
+    .eventadminpanneltxtbox{
+        margin-left: 0%;
+        margin-top: 3%;
+    }
+    
+    .eventadminpanneltxtbox>h5{
+        font-weight: 700;
+    }
+    
+    
+    .eventadminpanneldatamappingindi>p{
+        line-height: normal;
+        text-align: justify;
+    }
+
+
+
+    }

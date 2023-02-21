@@ -55,8 +55,6 @@ export const Eventuserexperience = () => {
             key={e.htxt} onMouseEnter={() => {
                 handleImageChange(e.image)
               }}
-              
-            
             >
             <div className={styles.eventuserexperienceindiflexforiconhtxt}>
             <div className={styles.eventuserexpimgindi}>

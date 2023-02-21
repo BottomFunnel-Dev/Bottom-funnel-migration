@@ -46,3 +46,62 @@
     background-color: white;
     color: #ef4c23;
   }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.eventbannermainboxes{
+    height: 50vh;
+    border: 1px solid transparent;
+    background: url("/Images/Event page/Banners & backgrounds/ha/Frame 1000002392.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.eventbannersometextboxes{
+    height: fit-content;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.eventbannersometextboxes span{
+    color: #ef4c23;
+}
+
+.eventbannersometextboxes>h1{
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+
+.eventbannersometextboxes>p{
+    text-align: justify;
+    font-size: 10px;
+    
+}
+
+.eventbannerbutton {
+    padding: 10px 10px;
+    border-radius: 100px;
+    width: 120PX;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    
+  }
+  
+  .eventbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+
+
+}

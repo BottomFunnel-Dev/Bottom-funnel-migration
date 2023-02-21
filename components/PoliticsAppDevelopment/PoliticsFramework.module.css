@@ -50,3 +50,68 @@ background-color: #f7f3e6;
     text-align: center;
     margin-top: 5%;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+    .politicsframeworkmainboxes{
+    height: fit-content;
+
+    margin-top: 5%;
+}
+
+.politicsframeworkmainboxes>h2{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  
+}
+
+.politicsframeworkmainboxes>p{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.politicsframeworkdatamapping{
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.politicsframeworkdataindi{
+    width: 45%;
+    height: 180px;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.politicsframeworkdataindi:hover{
+transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #f7f3e6;
+}
+
+.politicsframeworkimagebox{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.politicsframeworkhtxt{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.politicsframeworkhtxt>h4{
+    font-size: 15px;
+}
+
+
+}
