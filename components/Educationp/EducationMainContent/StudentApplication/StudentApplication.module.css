@@ -95,3 +95,22 @@
     z-index: 3;
     position: absolute;
 }
+
+/* media query for mobile and tablet devices */
+@media (max-width: 1024px) {
+    .studentApplicationContainer {
+        flex-direction: column;
+    }
+
+    .studentApplicationContent {
+        width: 95%;
+    }
+
+    .studentApplicationCards {
+        width: 100%;
+    }
+
+    .studentApplicationImages {
+        width: 95%;
+    }
+}
