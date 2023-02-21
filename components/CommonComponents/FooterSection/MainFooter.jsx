@@ -14,8 +14,6 @@ import {
 } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
-import { Player } from "@lottiefiles/react-lottie-player";
-import * as footerWorldmapAnimate from "../../../public/Animation/Bottom funnel footer map animation.json";
 
 import { PopupForm } from "../../CommonComponents/PopupForm/PopupForm";
 const Positions = dynamic(() => import("./Positions"));
@@ -57,14 +55,14 @@ const MainFooter = () => {
         <div className={styles.mapImageSection}>
           <Positions />
 
-          <Player
-            src={footerWorldmapAnimate}
+          <lottie-player
+            src="/Animation/Bottom funnel footer map animation.json"
             background="transparent"
             speed="1"
+            style={{ width: "100%", height: "100%" }}
             loop
-            controls
             autoplay
-          ></Player>
+          ></lottie-player>
         </div>
 
         <div className={styles.footerLogo}>
