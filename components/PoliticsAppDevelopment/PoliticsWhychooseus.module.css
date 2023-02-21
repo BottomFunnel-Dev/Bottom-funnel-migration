@@ -1,0 +1,27 @@
+.politicswhychooseusmainbox{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.politicswhychooseusmainbox>button {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 2%;
+  }
+  
+  .politicswhychooseusmainbox>button:hover {
+    background-color: black;
+    color: white;
+
+  }

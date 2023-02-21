@@ -8,6 +8,7 @@ import { Politicsadminpannel } from "../../components/PoliticsAppDevelopment/Pol
 import { PoliticsDevelopmentlowerbanner } from "../../components/PoliticsAppDevelopment/PoliticsDevelopmentlowerbanner";
 import { PoliticsFramework } from "../../components/PoliticsAppDevelopment/PoliticsFramework";
 import { Politicsreliable } from "../../components/PoliticsAppDevelopment/Politicsreliable";
+import { PoliticsWhychooseus } from "../../components/PoliticsAppDevelopment/PoliticsWhychooseus";
 
 export default function PoliticsAppDevelopment() {
   return (
@@ -32,6 +33,7 @@ export default function PoliticsAppDevelopment() {
       <PoliticsDevelopmentlowerbanner />
       <PoliticsFramework />
       <Politicsreliable />
+      <PoliticsWhychooseus />
       </main>
     </div>
   );
