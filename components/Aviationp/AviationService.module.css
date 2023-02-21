@@ -53,3 +53,68 @@
     margin-top: 0%;
     margin-bottom: 0%;
   }
+  @media (max-width:480px){
+    .AviationServicetext{
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      padding-top: 1%;
+      padding-bottom: 1%;
+  }
+  .servicesFeatures {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 25px;
+  }
+  .serviceCards {
+    width: 95%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 3%;
+  }
+  .serviceCards:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  }
+
+  @media (max-width: 1024px) {
+    .AviationServicetext{
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      padding-top: 2%;
+      padding-bottom: 1%;
+  }
+  .AviationServicetext>h2{
+      padding-bottom: 1%;
+  }
+    .servicesFeatures {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      column-gap: 50px;
+    }
+  
+    .serviceCards {
+      width: 90%;
+      height: fit-content;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-bottom: 3%;
+    }
+  
+    .serviceCards:hover {
+      cursor: pointer;
+      transition: all 0.2s linear;
+      transform: translateY(-10px);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }

@@ -32,7 +32,7 @@ export default function AviationCustomer () {
   return (
     <div className={styles.aviationCustomerMain}>
 
-    <h2> Customer App </h2>
+    <h1> Customer App </h1>
     <div className={styles.aviationCustomerbox}>
         <div className={styles.aviationCustomerleftbox}>
             <div className={styles.aviationCustomerleftboxinsider}>
