@@ -140,7 +140,6 @@
 
 @media (max-width: 1024px) {
   .aviationCustomerMain {
-    width: 100%;
     height: max-content;
     background-color: #fac1b2;
   }

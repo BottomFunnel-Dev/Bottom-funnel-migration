@@ -91,9 +91,8 @@
 
   .flowerdeliveryadminflexleftbox {
     width: 100%;
-    margin-top: 5%;
+    margin-top: 70%;
     align-items: center;
-    text-align: center;
   }
 
   .flowerdeliveryadminflexleftbox > h2 {
@@ -140,8 +139,6 @@
   }
 
   .flowerdeliveryadminrightboxforimageone > img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
     z-index: 0;
   }
@@ -150,14 +147,13 @@
     position: absolute;
     height: fit-content;
     width: 90%;
-    left: 50px;
+    left: 0px;
   }
 
   .flowerdeliveryadminrightboxforimagetwo > img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
     z-index: 1;
+   margin-left: 8%;
     margin-top: 4%;
   }
 }
@@ -165,16 +161,16 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .flowerdeliveryadminmainbox {
-    height: fit-content;
-    flex-direction: column-reverse;
+    height: max-content;
+    width: 90%;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .flowerdeliveryadminflexleftbox {
     width: 100%;
-    margin-top: 5%;
-    position: absolute;
+    margin-top: 60%;
     align-items: center;
-    text-align: center;
   }
 
   .flowerdeliveryadminflexleftbox > h2 {
@@ -185,12 +181,8 @@
 
   .flowerdeliveryadmingboxmapping {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin: 2%;
-    width: 98%;
-    margin-left: 0%;
+    width: 100%;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
   }
 
   .flowerdeliveryadmingboxmapping:hover {
@@ -206,7 +198,10 @@
   .flowerdeliveryadmingboxmapping > p {
     margin-top: 2%;
   }
-
+  .flowerdeliveryadmingboxmappingicon{
+    width: 100px;
+    height: 90px;
+  }
   .flowerdeliveryadminflexrightbox {
     height: fit-content;
     position: absolute;
@@ -215,29 +210,24 @@
 
   .flowerdeliveryadminrightboxforimageone {
     position: absolute;
-    width: 100%;
+    width: 90%;
     left: 5%;
   }
 
   .flowerdeliveryadminrightboxforimageone > img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
     z-index: 0;
   }
 
   .flowerdeliveryadminrightboxforimagetwo {
-    border: 1px solid black;
     position: absolute;
-    height: 500px;
-    width: 90%;
+    height: 400px;
+    width: 80%;
     top: 17%;
     left: 10%;
   }
 
   .flowerdeliveryadminrightboxforimagetwo > img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
     z-index: 1;
   }
