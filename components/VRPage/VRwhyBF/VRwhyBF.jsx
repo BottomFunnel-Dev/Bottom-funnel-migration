@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./VRwhyBF.module.css";
 import Image from "next/image";
 
-export const VRwhyBF = () => {
+export default function VRwhyBF() {
   const cardsData = [
     {
       title: "Healthcare",
@@ -55,26 +55,26 @@ export const VRwhyBF = () => {
   return (
     <div className={styles.VRwhyBFContainer}>
       <div className={styles.VRwhyBFBackgroundRectangle}>
-            <div className={styles.VRwhyBFImage1}>
-              <Image
-                  src={"/Images/VRPhotos/rectangle-top.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
-            </div>
-            <div className={styles.VRwhyBFImage2}>
-              <Image
-                  src={"/Images/VRPhotos/rectangle-bottom.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
-            </div>
+        <div className={styles.VRwhyBFImage1}>
+          <Image
+            src={"/Images/VRPhotos/rectangle-top.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
+        <div className={styles.VRwhyBFImage2}>
+          <Image
+            src={"/Images/VRPhotos/rectangle-bottom.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
       </div>
       <div className={styles.VRwhyBFMain}>
         <h1>IOT solutions Bottom funnel Builds</h1>
@@ -88,14 +88,14 @@ export const VRwhyBF = () => {
             return (
               <div key={title} className={styles.VRwhyBFCardsMain}>
                 <div>
-                <Image
-                  src={image}
-                  alt={title}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+                  <Image
+                    src={image}
+                    alt={title}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
                 <h3>{title}</h3>
                 <ul>
@@ -110,4 +110,4 @@ export const VRwhyBF = () => {
       </div>
     </div>
   );
-};
+}

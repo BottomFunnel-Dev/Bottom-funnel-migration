@@ -275,7 +275,7 @@ export const foodDeliveryDrive = {
     },
   ],
 
-  sectionTitle: "Customer App",
+  sectionTitle: "Drive App",
   background: "/Images/foodDeliveryphotos/backgrounds/Background2.png",
 };
 

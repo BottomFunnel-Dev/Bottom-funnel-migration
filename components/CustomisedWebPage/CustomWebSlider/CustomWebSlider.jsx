@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-export const CustomWebSlider = () => {
+export default function CustomWebSlider() {
   const data = [
     "/Images/customWebPhotos/sliderIcons/cake.webp",
     "/Images/customWebPhotos/sliderIcons/fly.webp",
@@ -92,4 +92,4 @@ export const CustomWebSlider = () => {
       </Slider>
     </div>
   );
-};
+}

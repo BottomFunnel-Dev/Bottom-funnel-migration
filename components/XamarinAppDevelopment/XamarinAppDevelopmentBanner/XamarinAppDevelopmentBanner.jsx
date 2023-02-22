@@ -3,7 +3,6 @@ import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./XamarinAppDevelopmentBanner.module.css";
 
 export const XamarinAppDevelopmentBanner = () => {
- 
   return (
     <>
       <div className={styles.XamarinAppDevbannermainbox}>
@@ -14,7 +13,7 @@ export const XamarinAppDevelopmentBanner = () => {
             services reflect that
           </p>
           <button
-          className={styles.XamarinAppDevbannerbutton}
+            className={styles.XamarinAppDevbannerbutton}
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -27,7 +26,7 @@ export const XamarinAppDevelopmentBanner = () => {
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
           >
@@ -48,7 +47,6 @@ export const XamarinAppDevelopmentBanner = () => {
               </div>
             </div>
           </div>
-          
         </div>
 
         <div className={styles.xamrinIcon}>

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CloudWhyBF.module.css";
 import Image from "next/image";
 
-export const CloudWhyBF = () => {
+export default function CloudWhyBF() {
   const cardData = [
     {
       title: "High Speed",
@@ -53,16 +53,16 @@ export const CloudWhyBF = () => {
           })}
         </div>
         <div className={styles.CloudWhyBFImage}>
-                <Image
-                    src={"/Images/cloudPhotos/whyBF.webp"}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                  />
+          <Image
+            src={"/Images/cloudPhotos/whyBF.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>
   );
-};
+}

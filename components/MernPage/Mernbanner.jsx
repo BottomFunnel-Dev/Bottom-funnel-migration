@@ -4,9 +4,6 @@ import styles from "./mernbanner.module.css";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const Mernbanner = ({ bannerdata, animateData }) => {
-
-
- 
   return (
     <div
       className={styles.mernBanner}
@@ -20,37 +17,41 @@ export const Mernbanner = ({ bannerdata, animateData }) => {
       <div className={styles.mernbannercontent}>
         <h1>{bannerdata.title}</h1>
         <p>{bannerdata.description}</p>
-        <button className={styles.mernButton}    type="button"
+        <button
+          className={styles.mernButton}
+          type="button"
           data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">Request A Quote</button>
+          data-bs-target="#staticBackdrop"
+        >
+          Request A Quote
+        </button>
 
+        <div
+          className="modal fade"
+          id="staticBackdropmern"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
 
-<div
-            className="modal fade"
-            id="staticBackdropmern"
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            tabindex="-1"
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-
-                <div>
-                  <PopupForm />
-                </div>
+              <div>
+                <PopupForm />
               </div>
             </div>
           </div>
+        </div>
       </div>
 
       <div className={styles.bannerIcons}>

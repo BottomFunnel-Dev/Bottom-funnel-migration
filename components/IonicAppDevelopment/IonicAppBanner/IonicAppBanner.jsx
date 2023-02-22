@@ -3,7 +3,6 @@ import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./IonicAppBanner.module.css";
 
 export const IonicAppBanner = () => {
-
   return (
     <>
       <div className={styles.ionicAppBannermainbox}>
@@ -19,7 +18,7 @@ export const IonicAppBanner = () => {
             PhoneGap.
           </p>
           <button
-          className={styles.ionicAppBannerbutton} 
+            className={styles.ionicAppBannerbutton}
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -32,7 +31,7 @@ export const IonicAppBanner = () => {
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
           >
@@ -53,7 +52,6 @@ export const IonicAppBanner = () => {
               </div>
             </div>
           </div>
-         
         </div>
         <div className={styles.ionicIcon}>
           <lottie-player

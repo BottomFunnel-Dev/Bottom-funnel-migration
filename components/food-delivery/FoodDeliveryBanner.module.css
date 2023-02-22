@@ -59,72 +59,81 @@
   margin-left: 15%;
 }
 
-@media only screen and (min-width:0px) and (max-width:600px){
+@media (max-width: 480px)  {
+  
+  .foodDeliveryBannerMain {
+    height: fit-content;
+    padding: 10px;
+  
+    margin-top: 70px;
+    flex-direction: column-reverse;
+  }
 
-.foodDeliveryBannerMain {
-  height: 70vh;
-  border: 2px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  .foodDeliveryBannerImage{
+    position: static;
+    width: 72%;
 
-}
+  }
+  .foodDeliveryBannerContent{
+    width: 100%;
+    text-align: center;
+  }
 
-.foodDeliveryBannerContent {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  .foodDeliveryBannerContent > div > h1{
+    margin-top: 0;
+    font-size: 24px;
+  }
 
-.foodDeliveryBannerContent > div {
-  width: 80%;
-}
-
-.foodDeliveryBannerContent > div > h1 {
-  font-size: 32px;
-  margin-top: -20%;
-}
-
-.foodDeliveryBannerContent > div > p {
-  font-size: 16px;
-  margin-top: 5px;
-}
-
-.foodDeliveryBannerContent > div > button {
-  font-size: 18px;
-  padding: 10px 60px;
-  border-radius: 25px;
-  outline: none;
-  font-weight: 600;
-  border: none;
-  color: white;
-  background-color: #ef4c23;
-  align-self: flex-start;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.foodDeliveryBannerContent > div > button:hover {
-  background-color: white;
-  color: #ef4c23;
-}
-
-.foodDeliveryBannerImage {
-  position: absolute;
-  width: 43%;
-  right: 0%;
-  top: 14%;
-  text-align: right;
-}
-
-.foodDeliveryBannerAnimation {
-  width: 100%;
-  margin-left: 15%;
+  .foodDeliveryBannerContent > div > button {
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: #ef4c23;
+    align-self: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 }
 
 
+@media (min-width:481px) and (max-width: 1024px)  {
+  
+  .foodDeliveryBannerMain {
+    height: fit-content;
+    padding: 10px;
+  
+    margin-top: 70px;
+    flex-direction: column-reverse;
+  }
 
+  .foodDeliveryBannerImage{
+    position: static;
+    width: 72%;
 
+  }
+  .foodDeliveryBannerContent{
+    width: 100%;
+    text-align: center;
+  }
 
+  .foodDeliveryBannerContent > div > h1{
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .foodDeliveryBannerContent > div > button {
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background-color: #ef4c23;
+    align-self: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 }

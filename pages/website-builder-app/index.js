@@ -1,12 +1,42 @@
 import React from "react";
-
-import { WebisteBuilderBanner } from "../../components/WebsiteBuilderApp/WebsiteBuilderBanner/WebisteBuilderBanner";
-import { WebsiteBuilderOnePlatform } from "../../components/WebsiteBuilderApp/WebsiteBuilderOnePlatform/WebsiteBuilderOnePlatform";
-import { WebsiteBuiulderMiddleComp } from "../../components/WebsiteBuilderApp/WebsiteBuilderMiddleComp/WebsiteBuilderMiddleComp";
-import { CreateWebsites } from "../../components/WebsiteBuilderApp/CreateWebsites/CreateWebsites";
-import { MakeContentCount } from "../../components/WebsiteBuilderApp/MakeContentCount/MakeContentCount";
-
 import Head from "next/head";
+import dynamic from "next/dynamic";
+
+const WebisteBuilderBanner = dynamic(
+  () =>
+    import(
+      "../../components/WebsiteBuilderApp/WebsiteBuilderBanner/WebisteBuilderBanner"
+    ),
+  {
+    loading: () => "loading...",
+  },
+);
+const WebsiteBuilderOnePlatform = dynamic(
+  () =>
+    import(
+      "../../components/WebsiteBuilderApp/WebsiteBuilderOnePlatform/WebsiteBuilderOnePlatform"
+    ),
+  { loading: () => "loading..." },
+);
+const WebsiteBuiulderMiddleComp = dynamic(
+  () =>
+    import(
+      "../../components/WebsiteBuilderApp/WebsiteBuilderMiddleComp/WebsiteBuilderMiddleComp"
+    ),
+  { loading: () => "loading..." },
+);
+const CreateWebsites = dynamic(
+  () =>
+    import("../../components/WebsiteBuilderApp/CreateWebsites/CreateWebsites"),
+  { loading: () => "loading..." },
+);
+const MakeContentCount = dynamic(
+  () =>
+    import(
+      "../../components/WebsiteBuilderApp/MakeContentCount/MakeContentCount"
+    ),
+  { loading: () => "loading..." },
+);
 
 export default function WebsiteBuilderApp() {
   return (

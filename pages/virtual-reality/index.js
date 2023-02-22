@@ -1,11 +1,29 @@
 import React from "react";
+import dynamic from "next/dynamic";
 
-import { VRBanner } from "../../components/VRPage/VRBanner/VRBanner";
-import { VRMidBanner } from "../../components/VRPage/VRMidBanner/VRMidBanner";
-import { VRServices } from "../../components/VRPage/VRServices/VRServices";
-import { VRwhyBF } from "../../components/VRPage/VRwhyBF/VRwhyBF";
-import { VRSlider } from "../../components/VRPage/VRSlider/VRSlider";
-import { VRForm } from "../../components/VRPage/VRForm/VRForm";
+const VRBanner = dynamic(
+  () => import("../../components/VRPage/VRBanner/VRBanner"),
+  { loading: () => "loading..." },
+);
+const VRMidBanner = dynamic(
+  () => import("../../components/VRPage/VRMidBanner/VRMidBanner"),
+  { loading: () => "loading..." },
+);
+const VRServices = dynamic(
+  () => import("../../components/VRPage/VRServices/VRServices"),
+  { loading: () => "loading..." },
+);
+const VRwhyBF = dynamic(
+  () => import("../../components/VRPage/VRwhyBF/VRwhyBF"),
+  { loading: () => "loading..." },
+);
+const VRSlider = dynamic(
+  () => import("../../components/VRPage/VRSlider/VRSlider"),
+  { loading: () => "loading..." },
+);
+const VRForm = dynamic(() => import("../../components/VRPage/VRForm/VRForm"), {
+  loading: () => "loading...",
+});
 
 import Head from "next/head";
 

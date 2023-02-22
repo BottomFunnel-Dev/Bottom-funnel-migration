@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
 
-export const VRSlider = () => {
+export default function VRSlider() {
   const data = [
     "/Images/VRPhotos/cryengine.webp",
     "/Images/VRPhotos/havok.webp",
@@ -74,8 +74,8 @@ export const VRSlider = () => {
               }
               key={index}
             >
-            <div className={styles.VRSliderImages}>
-              <Image
+              <div className={styles.VRSliderImages}>
+                <Image
                   src={elem}
                   alt={"image"}
                   width={"0"}
@@ -90,4 +90,4 @@ export const VRSlider = () => {
       </Slider>
     </div>
   );
-};
+}

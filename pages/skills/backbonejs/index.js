@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import { backbonejsData } from "../../../components/Data/SkillsData";
 
 // ---------------importing components with lazy loading-----------------------
 const SkillsComBanner = dynamic(

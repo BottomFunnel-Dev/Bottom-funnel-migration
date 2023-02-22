@@ -66,7 +66,7 @@ export const FoodDeliveryNeedSuccess = () => {
     <div className={styles.foodDeliveryNeedSuccessMain}>
       <h1>All You Need to Know For A Successfull Food Business</h1>
       <div>
-        <div className={styles.foodDeliveryNeedSuccessImage}>
+        <div className={styles.foodDeliveryNeedSuccessImageimg}>
           <img
             src={foodDeliveryNeedData[active].img.src}
             alt={foodDeliveryNeedData[active].img.alt}

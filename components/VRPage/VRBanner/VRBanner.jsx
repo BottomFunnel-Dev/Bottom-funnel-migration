@@ -1,10 +1,8 @@
-
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./VRBanner.module.css";
 
-export const VRBanner = () => {
-
+export default function VRBanner() {
   return (
     <div className={styles.VRBannerMain}>
       <h1>
@@ -22,41 +20,38 @@ export const VRBanner = () => {
         consectetur quia!
       </p>
       <button
-         
-         type="button"
-         data-bs-toggle="modal"
-         data-bs-target="#staticBackdrop"
-       >
-         Request A Quote
-       </button>
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+      >
+        Request A Quote
+      </button>
 
-       <div
-         className="modal fade"
-         id="staticbackdropds"
-         data-bs-backdrop="static"
-         data-bs-keyboard="false"
-         aria-labelledby="staticBackdropLabel"
-         aria-hidden="true"
-       >
-         <div className="modal-dialog">
-           <div className="modal-content">
-             <div className="modal-header">
-               <button
-                 type="button"
-                 className="btn-close"
-                 data-bs-dismiss="modal"
-                 aria-label="Close"
-               ></button>
-             </div>
+      <div
+        className="modal fade"
+        id="staticbackdropds"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
 
-             <div>
-               <PopupForm />
-             </div>
-           </div>
-         </div>
-       </div>
-
-   
+            <div>
+              <PopupForm />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
-};
+}

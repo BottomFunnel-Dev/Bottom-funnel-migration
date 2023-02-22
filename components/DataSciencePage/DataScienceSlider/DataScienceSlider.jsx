@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Image from "next/image";
 
-export const DataScienceSlider = () => {
+export default function DataScienceSlider() {
   const data = [
     "/Images/DataSciencePhotos/slidericons/torch.webp",
     "/Images/DataSciencePhotos/slidericons/tensor.webp",
@@ -74,8 +74,8 @@ export const DataScienceSlider = () => {
               }
               key={index}
             >
-            <div className={styles.DataScienceIcons}>
-              <Image
+              <div className={styles.DataScienceIcons}>
+                <Image
                   src={elem}
                   alt={"images"}
                   width={"0"}
@@ -83,11 +83,11 @@ export const DataScienceSlider = () => {
                   sizes={"100vw"}
                   style={{ width: "100%", height: "100%" }}
                 />
-            </div>
+              </div>
             </div>
           );
         })}
       </Slider>
     </div>
   );
-};
+}

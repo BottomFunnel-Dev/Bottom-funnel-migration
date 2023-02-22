@@ -2,13 +2,52 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 
-import { DataScienceBanner } from "../../components/DataSciencePage/DataScienceBanner/DataScienceBanner";
-import { DataScienceUnique } from "../../components/DataSciencePage/DataScienceUnique/DataScienceUnique";
-import { DataScienceServices } from "../../components/DataSciencePage/DataScienceServices/DataScienceServices";
-import { DataScienceMidBanner } from "../../components/DataSciencePage/DataScienceMidBanner/DataScienceMidBanner";
-import { DataScienceBF } from "../../components/DataSciencePage/DataScienceBF/DataScienceBF";
-import { DataScienceMethods } from "../../components/DataSciencePage/DataScienceMethods/DataScienceMethods";
-import { DataScienceSlider } from "../../components/DataSciencePage/DataScienceSlider/DataScienceSlider";
+const DataScienceBanner = dynamic(
+  () =>
+    import(
+      "../../components/DataSciencePage/DataScienceBanner/DataScienceBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const DataScienceUnique = dynamic(
+  () =>
+    import(
+      "../../components/DataSciencePage/DataScienceUnique/DataScienceUnique"
+    ),
+  { loading: () => "loading..." },
+);
+const DataScienceServices = dynamic(
+  () =>
+    import(
+      "../../components/DataSciencePage/DataScienceServices/DataScienceServices"
+    ),
+  { loading: () => "loading..." },
+);
+const DataScienceMidBanner = dynamic(
+  () =>
+    import(
+      "../../components/DataSciencePage/DataScienceMidBanner/DataScienceMidBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const DataScienceBF = dynamic(
+  () => import("../../components/DataSciencePage/DataScienceBF/DataScienceBF"),
+  { loading: () => "loading..." },
+);
+const DataScienceMethods = dynamic(
+  () =>
+    import(
+      "../../components/DataSciencePage/DataScienceMethods/DataScienceMethods"
+    ),
+  { loading: () => "loading..." },
+);
+const DataScienceSlider = dynamic(
+  () =>
+    import(
+      "../../components/DataSciencePage/DataScienceSlider/DataScienceSlider"
+    ),
+  { loading: () => "loading..." },
+);
 const CustomWebForm = dynamic(
   () =>
     import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
