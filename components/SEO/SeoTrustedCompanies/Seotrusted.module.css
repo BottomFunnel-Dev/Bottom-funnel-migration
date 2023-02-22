@@ -1,108 +1,101 @@
 .SeoTrusted {
-display: flex;
-padding: 50px 0;
-background-color: white;
+  display: flex;
+  padding: 50px 0;
+  background-color: white;
 }
 .SeoTrustedCarousel {
-width: 68%;
-text-align: center;
-margin: auto;
+  width: 68%;
+  text-align: center;
+  margin: auto;
 }
 .SeoTrustedtext {
-width: 30%;
-color: white;
-font-size: 32px;
-text-align: center;
-box-sizing: border-box;
-padding: 25px;
-font-weight: 600;
-background-color: #ef4c23;
-position: relative;
+  width: 30%;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 25px;
+  font-weight: 600;
+  background-color: #ef4c23;
+  position: relative;
 }
 .globalbrands {
-width: 100%;
-position: absolute;
-transform: translate(-50%, -50%);
-top: 45%;
-font-size: 35px;
-left: 50%;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  font-size: 35px;
+  left: 50%;
 }
 .Seobrandimg {
-height: 90px;
-width: 110px;
-margin-left: 30px;
-position: relative;
+  height: 90px;
+  width: 110px;
+  margin-left: 30px;
+  position: relative;
 }
 
 .Seobrandimg > img {
-object-fit: contain;
-filter: grayscale(1);
-position: absolute;
-transform: translate(-50%, -50%);
-top: 50%;
-left: 50%;
+  object-fit: contain;
+  filter: grayscale(1);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 .Seobrandimg > img:hover {
-filter: none;
+  filter: none;
 }
 .mainlogoDiv {
-height: 100px;
+  height: 100px;
 }
+
 @media (max-width: 480px) {
-.SeoTrusted {
-display: flex;
-height: fit-content;
-background-color: white;
-}
-.SeoTrustedCarousel {
-border: 1px solid red;
-width: 60%;
-height: 50%;
-text-align: center;
-margin: auto;
-}
-.SeoTrustedtext {
-width: 100%;
-height: 100px;
-color: white;
-font-size: 32px;
-text-align: center;
-box-sizing: border-box;
-padding: 25px;
-font-weight: 600;
-background-color: #ef4c23;
-position: relative;
-}
-.globalbrands {
-width: 100%;
-position: absolute;
-transform: translate(-50%, -50%);
-font-size: 15px;
-margin-top: 20%;
-top: 20%;
-left: 50%;
-}
-.Seobrandimg {
-border: 1px solid black;
-height: 100px;
-width: 70px;
-position: relative;
-}
-.Seobrandimg > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-filter: grayscale(1);
-position: absolute;
-transform: translate(-50%, -50%);
-top: 50%;
-left: 50%;
-}
-.Seobrandimg > img:hover {
-filter: none;
-}
-.mainlogoDiv {
-height: 100px;
-}
-}
+  .SeoTrusted {
+    flex-direction: column;
+    padding: 0;
+  }
 
+  .SeoTrustedtext {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #ef4c23;
+    position: relative;
+  }
+  .globalbrands {
+    width: 100%;
+    position: static;
+    transform: none;
+    font-size: 16px;
+  }
+  .SeoTrustedCarousel {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    height: 100px;
+  }
+
+
+  .mainlogoDiv {
+    height: 100px;
+  }
+
+  .Seobrandimg {
+    height: 90px;
+    width: 100px;
+    margin-left: 0px;
+ 
+  }
+
+
+  .Seobrandimg > img {
+    object-fit: contain;
+    position: static;
+    transform: none;
+   
+  }
+}
