@@ -185,3 +185,46 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+@media (max-width:480px) {
+  
+  .grocerybanner {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .groceryImage {
+    width: 100%;
+    position: static;
+  }
+
+  .groceryText {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .groceryText > div {
+    position: static;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    transform: none;
+  }
+
+  .groceryText > div > button {
+    padding: 6px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+  
+  .groceryText > div > button:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+
+
+}
