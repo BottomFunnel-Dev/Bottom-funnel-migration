@@ -87,6 +87,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    border: 1px solid red;  
   }
 
   .flowerdeliveryadminflexleftbox {
@@ -96,16 +97,14 @@
   }
 
   .flowerdeliveryadminflexleftbox > h2 {
-    margin-left: 3%;
     font-weight: 500;
-    width: 100%;
+    width: 90%;
   }
 
   .flowerdeliveryadmingboxmapping {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 2%;
-    width: 98%;
-    margin-left: 5%;
+    width: 90%;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -128,13 +127,13 @@
   .flowerdeliveryadminflexrightbox {
     height: fit-content;
     position: relative;
-    width: 100%;
+    width: 90%;
   }
 
   .flowerdeliveryadminrightboxforimageone {
     position: absolute;
     height: 220px;
-    width: 93%;
+    width: 80%;
     margin-top: 3%;
   }
 
@@ -146,14 +145,12 @@
   .flowerdeliveryadminrightboxforimagetwo {
     position: absolute;
     height: fit-content;
-    width: 90%;
-    left: 0px;
+    width: 80%;
   }
 
   .flowerdeliveryadminrightboxforimagetwo > img {
     object-fit: cover;
     z-index: 1;
-   margin-left: 8%;
     margin-top: 4%;
   }
 }

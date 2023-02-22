@@ -3,7 +3,6 @@ import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./KotlinBanner.module.css";
 
 export const KotlinBanner = () => {
-
   return (
     <>
       <div className={styles.kotlinbannermainbox}>
@@ -22,9 +21,8 @@ export const KotlinBanner = () => {
             order our kotlin app development services right away!
           </p>
 
-
           <button
-          className={styles.kotlinbannerbutton}
+            className={styles.kotlinbannerbutton}
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -37,7 +35,7 @@ export const KotlinBanner = () => {
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
           >
@@ -58,8 +56,6 @@ export const KotlinBanner = () => {
               </div>
             </div>
           </div>
-       
-        
         </div>
         <div className={styles.kotlinIcon}>
           <lottie-player
