@@ -95,3 +95,63 @@
   object-fit: contain;
   padding: 5px;
 }
+
+@media (max-width: 480px) {
+  .cannbiescustomerappmainboxes {
+    height: fit-content;
+    padding: 10px;
+  }
+  .cannbiescustomerappmainboxes > h2 {
+    text-align: center;
+    margin: 5%;
+  }
+
+  .cannbiesdeliveryappflexingbox {
+    height: fit-content;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .cannabiesdeliveryappflexingboxleftbox {
+    height: 220px;
+    width: 100%;
+    background-position-y: center;
+    background-size: 100% 100%;
+  }
+
+  .cannabiesdeliveryappleftboxinsiderupperimage {
+    height: 220px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .cannbiesdeliveryappflexingboxrightbox {
+    height: fit-content;
+    width: 100%;
+    margin: 3% 0;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+  .cannabiesdeliveryappindivisualbox {
+    height: fit-content;
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+  
+  .cannabiesdeliveryappindivisualbox:hover {
+    transform: scale(1.02);
+    background-color: #abd96b;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}

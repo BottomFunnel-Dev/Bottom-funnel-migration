@@ -1,6 +1,5 @@
 .cannabisdriverappmainboxes {
   height: fit-content;
-  border: 1px solid white;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -15,7 +14,6 @@
 }
 
 .canabisdriverappflexingboxleftbox {
-  /* border: 1px solid red; */
   height: 500px;
   width: 45%;
   background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
@@ -62,9 +60,7 @@
 .canabisdriverappindivisualbox:hover {
   transform: scale(1.02);
   background-color: #abd96b;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-10px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -96,4 +92,72 @@
   line-height: 20px;
   vertical-align: baseline;
   font-weight: 400;
+}
+
+
+@media (max-width:480px) {
+  
+  .cannabisdriverappmainboxes {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .cannabisdriverappmainboxes > h2 {
+    margin-left: 0%;
+    text-align: center;
+    margin: 5%;
+  }
+
+  .canabisdriverappflexingbox {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .canabisdriverappflexingboxleftbox {
+    height: 260px;
+    width: 100%;
+    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4912.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-y: center;
+  }
+  
+  .canabisdeliveryappleftboxinsiderupperimage {
+    height: 260px;
+    width: 100%;
+    margin: 0%;
+  }
+  
+  .canabisdeliveryappleftboxinsiderupperimage > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .canabisdriverappflexingboxrightbox {
+    height: fit-content;
+    width: 100%;
+    margin-left: 0%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+  .canabisdriverappindivisualbox {
+    height: fit-content;
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+
+  }
+  
+  .canabisdriverappindivisualbox:hover {
+transform: none;
+  }
+
+
 }
