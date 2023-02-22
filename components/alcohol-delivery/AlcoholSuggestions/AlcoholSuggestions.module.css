@@ -1,10 +1,11 @@
 .alcoholExluciveAppMain {
-  width: 98%;
+  width: 100%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 10px;
   padding-left: 0;
+  box-sizing: border-box;
   padding-right: 0;
 }
 .alcoholExluciveAppMain > h1 {
@@ -79,4 +80,39 @@
   height: 245px;
   width: 100%;
   border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+  .alcoholExluciveAppMain {
+    text-align: center;
+    margin: 0;
+  }
+  .alcoholExluciveAppMain > h1 {
+    font-size: 20px;
+  }
+  .alcoholExluciveAppMain > p {
+    font-size: 14px;
+  }
+
+  .alcoholExluciveAppContent {
+    height: fit-content;
+    justify-content: center;
+  }
+  .alcoholExluciveAppContent>div {
+    width: 95%;
+    height: fit-content;
+
+  }
+
+  .alcoholExlcusiveAppImageDiv {
+    width: 100%;
+  }
+
+  .alcoholExlcusiveAppImageDiv > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
 }
