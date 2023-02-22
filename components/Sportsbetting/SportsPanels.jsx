@@ -10,7 +10,7 @@ import {
 import Logicdrive from "../Logistic/Logicdrive";
 import Logisticadmin from "../Logistic/Logisticadmin";
 
-export const SportsPanels = () => {
+export default function SportsPanels() {
   return (
     <div className={styles.sportspanels}>
       <div className={styles.headingpanel}>
@@ -22,4 +22,4 @@ export const SportsPanels = () => {
       <Logisticadmin adminData={bettingAdmin} />
     </div>
   );
-};
+}

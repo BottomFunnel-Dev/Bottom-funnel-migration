@@ -8,8 +8,7 @@ export default function AppBuilderSolutionBanner() {
     <div className={styles.appbuildersolutionbannermainboxes}>
       <div className={styles.appbuildersolutionboxfortextenter}>
         <h1>
-          {" "}
-          Bottom Funnel: a multi-purpose platform for low-code app development{" "}
+          Bottom Funnel: a multi-purpose platform for low-code app development
         </h1>
         <p>
           In today's fast-paced world, it becomes next to impossible to keep up
@@ -61,7 +60,7 @@ export default function AppBuilderSolutionBanner() {
           src="/Animation/SolutionsAnimation/app builder.json"
           background="transparent"
           speed="1"
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "100%", height: "100%",  }}
           loop
           autoplay
         ></lottie-player>

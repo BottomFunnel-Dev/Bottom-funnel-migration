@@ -57,3 +57,54 @@
   /* border: 1px solid red; */
   width: 100%;
 }
+
+
+@media (max-width:480px) {
+  .ondemandHero {
+    flex-direction: column-reverse;
+height: fit-content;
+margin-top: 60px;
+  }
+
+  .imageContainer {
+
+    position: static;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .textcontainer {
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+  .textcontainer > div {
+    position: static;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    text-align: center;
+    transform: none;
+  
+  }
+
+  
+.textcontainer > div > h1 {
+
+  width: 100%;
+  font-size: 25px;
+}
+
+.textcontainer > div > button {
+  padding: 7px 30px;
+  border-radius: 25px;
+  background-color: #ef4c23;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+}

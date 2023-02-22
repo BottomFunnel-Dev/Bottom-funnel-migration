@@ -6,9 +6,8 @@ import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
 import OndemandQuote from "../../components/OndemandHome/OndemandQuote";
 import HomeServices from "../../components/OndemandHome/HomeServices";
 import ExclusiveFeature from "../../components/OndemandHome/ExclusiveFeature";
-import KeyFeatures from "../../components/OndemandHome/KeyFeatures";
 
-import  OnDemandCustomerSection  from "../../components/OndemandHome/OnDemandCustomer";
+import OnDemandCustomerSection from "../../components/OndemandHome/OnDemandCustomer";
 
 import Head from "next/head";
 import OnDemandAdminSection from "../../components/OndemandHome/OnDemandAdminSection";
@@ -36,11 +35,10 @@ export default function OnDemandSection() {
         <OndemandQuote />
         <HomeServices />
         <ExclusiveFeature />
-        <OnDemandCustomerSection/>
+        <OnDemandCustomerSection />
         <OnDemandAdminSection />
         <OnDemandDriver />
-        {/* <KeyFeatures /> */}
       </main>
     </div>
   );
-};
+}

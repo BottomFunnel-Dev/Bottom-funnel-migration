@@ -68,7 +68,6 @@
   font-weight: 600;
   vertical-align: baseline;
   margin-top: 3%;
-
 }
 
 .alcoholCustomerImage {
@@ -82,4 +81,60 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .alcoholcustomer {
+    width: 100%;
+    height: max-content;
+    margin: 0px 0;
+    padding: 10px;
+  }
+  .alcoholcustomer > h1 {
+    margin-left: 0%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .alcoholcustomersub {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alcoholcustomerleft {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+  }
+
+  .alcoholCustomerImage {
+    width: 100%;
+    height: 300px;
+    text-align: right;
+    margin: auto;
+    margin-top: -10px;
+  }
+  .alcoholCustomerImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .alcoholcustomerright {
+    width: 100%;
+    height: fit-content;
+    align-items: stretch;
+  }
+
+  .alcoholcustomerright > div {
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .alcoholcustomerright > div:hover {
+    transform: none;
+  }
 }

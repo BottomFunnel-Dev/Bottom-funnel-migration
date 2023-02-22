@@ -1,7 +1,6 @@
 .appbuildersolutionbannermainboxes {
   height: 100vh;
   border: 1px solid white;
-  /* background: url("/Images/Appbuildersolutions/Bannersbackgrounds/Component 97.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -50,6 +49,62 @@
 }
 
 .appBuilderSolutionsBannerAnimation {
-  /* border: 1px solid red; */
   width: 90%;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+ 
+  .appbuildersolutionbannermainboxes {
+    height: fit-content;
+    border: 1px solid white;
+  }
+  
+  .appbuildersolutionboxfortextenter {
+    height: fit-content;
+    width: 90%;
+    color: black;
+    margin: auto;
+   margin-top: 90%;
+   
+  }
+  
+  .appbuildersolutionboxfortextenter>h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: justify;
+  }
+  
+  .appbuildersolutionbannerbutton {
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 180px;
+    background-color: #3380f2;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+  
+  }
+  
+  .appbuildersolutionbannerbutton:hover {
+    background-color: white;
+    border: 2px solid #3380f2;
+    color: black;
+  }
+  
+  .appBuilderSolutionBannerAnimationDiv {
+    width: 100%;
+    height: fit-content;
+    margin-top: -35%;
+   
+  }
+  
+  .appBuilderSolutionsBannerAnimation {
+    width: 90%;
+  }
+
+
+
+  }

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./VRMidBanner.module.css";
 
-export const VRMidBanner = () => {
+export default function VRMidBanner() {
   return (
     <div className={styles.VRMidBannerMain}>
       <h1>Virtual Reality Services</h1>
@@ -19,4 +19,4 @@ export const VRMidBanner = () => {
       </p>
     </div>
   );
-};
+}

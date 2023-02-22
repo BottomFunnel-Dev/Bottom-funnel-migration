@@ -23,8 +23,8 @@ export default function FoodDelivery() {
     <div>
       <Head>
         <title>
-          {" "}
-          Food Delivery web App Development Company | Bottom Funnel{" "}
+     
+          Food Delivery web App Development Company | Bottom Funnel
         </title>
         <meta
           name="description"

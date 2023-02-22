@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./CryptoDevBanner.module.css";
 
-export const CryptoDevBanner = () => {
+export default function CryptoDevBanner() {
   return (
     <div className={styles.CryptoDevBannerMain}>
       <h1>
@@ -58,4 +58,4 @@ export const CryptoDevBanner = () => {
       </div>
     </div>
   );
-};
+}

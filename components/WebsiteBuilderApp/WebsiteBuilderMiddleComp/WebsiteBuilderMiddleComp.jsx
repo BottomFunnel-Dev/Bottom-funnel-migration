@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 import styles from "./WebsiteBuilderMiddleComp.module.css";
 
 import Slider from "react-slick";
-import Image from 'next/image';
+import Image from "next/image";
 
-export const WebsiteBuiulderMiddleComp = () => {
-
+export default function WebsiteBuiulderMiddleComp() {
   const settings = {
     dots: false,
     infinite: true,
@@ -62,27 +61,32 @@ export const WebsiteBuiulderMiddleComp = () => {
     },
   ];
 
-
   return (
     <div className={styles.middleCompParentDiv}>
       <div className={styles.middleCompHeadingOuterDiv}>
         <h1> Build a free website that grows with your business </h1>
 
-        <p> Get access to customizable webpage designs and useful tools to build your website  and grow your ideal business.
-          Easily build a free website ti help you get discovered and grow your customer base in style. Start  today with our
-          powerfull free website builder.
+        <p>
+          {" "}
+          Get access to customizable webpage designs and useful tools to build
+          your website and grow your ideal business. Easily build a free website
+          ti help you get discovered and grow your customer base in style. Start
+          today with our powerfull free website builder.
         </p>
 
-        <button className={styles.middleCompHeadingButton}> Get started </button>
+        <button className={styles.middleCompHeadingButton}>
+          {" "}
+          Get started{" "}
+        </button>
       </div>
 
       <div className={styles.middleCompImageSliderOuterDiv}>
         <Slider {...settings}>
           {homeService.map((item, i) => (
             <div key={i} className={styles.middleCompWebsiteImageSlider}>
-
               <div>
-                <Image src={item.serviceimage}
+                <Image
+                  src={item.serviceimage}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -99,4 +103,4 @@ export const WebsiteBuiulderMiddleComp = () => {
       </div>
     </div>
   );
-};
+}

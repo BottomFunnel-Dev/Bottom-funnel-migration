@@ -8,7 +8,6 @@
 .RGtradingInvestingLeftContainer {
     justify-content: center;
     width: 50%;
-
     text-align: justify;
 }
 
@@ -17,7 +16,6 @@
     align-items: center;
     justify-content: center;
     display: flex;
-
 }
 
 .RGtradingInvestingLeftContainer>h1 {

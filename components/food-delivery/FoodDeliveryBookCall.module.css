@@ -37,3 +37,45 @@
   color: #ef4c23;
   box-shadow: none;
 }
+
+
+@media (max-width:480px) {
+  .foodDeliveryBookCallMain {
+    padding: 20px;
+    height: fit-content;
+    border-radius: 0;
+    border: none;
+  }
+
+  .foodDeliveryBookCallMain > h2 {
+    font-size: 20px;
+  }
+
+  .foodDeliveryBookCallMain > button {
+    font-size: 16px;
+    padding: 7px 25px;
+    margin-top: 18px;
+  }
+
+
+}
+@media (min-width:481px) and (max-width:1024px) {
+  .foodDeliveryBookCallMain {
+    padding: 20px;
+    height: fit-content;
+    border-radius: 0;
+    border: none;
+  }
+
+  .foodDeliveryBookCallMain > h2 {
+    font-size: 20px;
+  }
+
+  .foodDeliveryBookCallMain > button {
+    font-size: 16px;
+    padding: 7px 25px;
+    margin-top: 18px;
+  }
+
+
+}

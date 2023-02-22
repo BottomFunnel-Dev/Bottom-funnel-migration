@@ -1,12 +1,28 @@
 import React from "react";
-import SeoSEMSection from "../../components/SeoSEM/SeoSEMSection";
-import Reviews from "../../components/SEO/SeoReviews/Reviews";
-import Seostats from "../../components/SEO/Seostats/Seostats";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
 import { dmpagesLogo } from "../../components/Data/SeopartnerData";
-import SeoServices from "../../components/SEO/SeoServices/SeoServices";
-
 import Head from "next/head";
+import dynamic from "next/dynamic";
+
+const SeoSEMSection = dynamic(
+  () => import("../../components/SeoSEM/SeoSEMSection"),
+  { loading: () => "loading..." },
+);
+const Reviews = dynamic(
+  () => import("../../components/SEO/SeoReviews/Reviews"),
+  { loading: () => "loading..." },
+);
+const Seostats = dynamic(
+  () => import("../../components/SEO/Seostats/Seostats"),
+  { loading: () => "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: () => "loading..." },
+);
+const SeoServices = dynamic(
+  () => import("../../components/SEO/SeoServices/SeoServices"),
+  { loading: () => "loading..." },
+);
 
 export default function SEOSEM() {
   return (

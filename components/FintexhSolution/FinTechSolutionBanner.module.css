@@ -3,6 +3,7 @@
   background-size: cover;
   margin-top: 30px;
   position: relative;
+ 
 }
 
 .fintechsolutionbannertextboxes {
@@ -45,3 +46,65 @@
   /* border: 1px solid red; */
   width: 80%;
 }
+
+/* for any type of mobile responsive */
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+  .fintechsolutionbannermainbox {
+    height: 120vh;
+    background-size: cover;
+    margin-top: 30px;
+    
+
+  }
+  
+  .fintechsolutionbannertextboxes {
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    margin-top: 35%;
+    text-align: justify;
+  }
+
+  .fintechsolutionbannertextboxes>h1{
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .fintechsolutionbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5%;
+  }
+  
+  .fintechsolutionbannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  
+  .fintechSolutionBannerAnimationDiv {
+    position: absolute;
+    top: 0%;
+    height: fit-content;
+    width: 90%;
+  }
+  
+  .fintechSolutionBannerAnimation {
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  
+
+
+
+  }
+  

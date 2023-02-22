@@ -24,12 +24,12 @@ export default function CryptoCurrrency() {
       </Head>
       <main>
         <CryptoCurrencyBanner />
-        <CryptoCurrencyWork />
+      {/*  <CryptoCurrencyWork />
         <CryptoCurrencyServices />
         <CryptoMining />
         <CryptoAdminpannel />
         <CryptoLowerBanner />
-        <CryptoWhyChoose />
+         <CryptoWhyChoose /> */}
       </main>
     </div>
   );

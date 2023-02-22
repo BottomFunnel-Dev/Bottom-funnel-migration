@@ -20,7 +20,6 @@
 }
 
 .laundryadmindatamappingindi {
-  /* border: 1px solid red; */
   width: 44%;
   height: 240px;
   margin: 1%;
@@ -31,14 +30,12 @@
 }
 
 .laundryadmindatamappingindi:hover {
-  /* transform: scale(1.02); */
   background-color: #efeae1;
   transition: all 0.2s linear;
   transform: translateY(-10px);
 }
 
 .laundryadminrightbox {
-  /* border: 1px solid red; */
   width: 40%;
   height: 550px;
   margin-top: 7%;
@@ -50,7 +47,6 @@
 }
 
 .laundryadminImageDiv {
-  /* border: 1px solid red; */
   width: 90%;
   margin-left: 10%;
 }
@@ -62,7 +58,6 @@
 }
 
 .laundryadmindatamappingindi > h4 {
-  /* border: 1px solid red; */
   margin-top: 3%;
   margin-bottom: 1%;
   font-size: 20px;
@@ -78,3 +73,8 @@
   vertical-align: baseline;
   font-weight: 400;
 }
+
+
+@media only screen and (min-width:0px) and (max-width:600px){
+    
+  }

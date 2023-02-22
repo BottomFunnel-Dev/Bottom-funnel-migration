@@ -88,3 +88,63 @@
   vertical-align: baseline;
   font-weight: 400;
 }
+
+
+@media (max-width:480px) {
+  
+  .cannbiesadminpannelmainboxsometextupper {
+    height: fit-content;
+  text-align: center;
+  margin: 5%;
+  }
+
+  .cannabiesadminpannelmainflexboxclass {
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .cannabiesamadminpannelrightbox {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4787.png");
+  }
+
+  .cannbiesamadminpannelrightboxinnerimage {
+  
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+  }
+
+  .cannabieasadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+   margin: 0;
+   padding: 10px;
+   row-gap: 15px;
+  }
+
+  .cannabiesadminpannelmapperboxindivisyal {
+    height: fit-content;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+
+  .cannabiesadminpannelmapperboxindivisyal:hover {
+    transform: none;
+    
+  }
+
+}

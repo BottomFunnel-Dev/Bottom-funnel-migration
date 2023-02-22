@@ -1,25 +1,47 @@
 import React from "react";
-
-import Datingcontainer from "../../components/Dating/Datingcontainer";
-// import { datingLogo } from "../../components/Data/SeopartnerData";
-// import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
-import Datingbrands from "../../components/Dating/Datingbrands";
-import Datingfeatures from "../../components/Dating/Datingfeatures";
-
 import {
   datingCustomer,
   datingAdmin,
   datingService,
 } from "../../components/Data/panelsData";
-
-import Customerapp from "../../components/Dating/Customerapp";
-import Adminpannel from "../../components/Dating/Adminpannel";
-import Datingmobile from "../../components/Dating/Datingmobile";
-// import Solutiondating from "../../components/Dating/Solutiondating";
-import Datingstart from "../../components/Dating/Datingstart";
-import DatingWhy from "../../components/Dating/DatingWhy";
-
 import Head from "next/head";
+import dynamic from "next/dynamic";
+// import { datingLogo } from "../../components/Data/SeopartnerData";
+
+// const Trusted = dynamic(() => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"), {loading: () => "loading..."});
+const Datingcontainer = dynamic(
+  () => import("../../components/Dating/Datingcontainer"),
+  { loading: () => "loading..." },
+);
+const Datingbrands = dynamic(
+  () => import("../../components/Dating/Datingbrands"),
+  { loading: () => "loading..." },
+);
+const Datingfeatures = dynamic(
+  () => import("../../components/Dating/Datingfeatures"),
+  { loading: () => "loading..." },
+);
+
+const Customerapp = dynamic(
+  () => import("../../components/Dating/Customerapp"),
+  { loading: () => "loading..." },
+);
+const Adminpannel = dynamic(
+  () => import("../../components/Dating/Adminpannel"),
+  { loading: () => "loading..." },
+);
+const Datingmobile = dynamic(
+  () => import("../../components/Dating/Datingmobile"),
+  { loading: () => "loading..." },
+);
+// const Solutiondating = dynamic(() => import("../../components/Dating/Solutiondating"), {loading: () => "loading..."});
+const Datingstart = dynamic(
+  () => import("../../components/Dating/Datingstart"),
+  { loading: () => "loading..." },
+);
+const DatingWhy = dynamic(() => import("../../components/Dating/DatingWhy"), {
+  loading: () => "loading...",
+});
 
 export default function Dating() {
   return (

@@ -19,6 +19,7 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
           }}
         >
 
+
           <div className={styles.logisticDriveImage}>
             <Image
               src={fooddeliverydrivedata.fooddeliverydrivedata[active].img.src}
@@ -27,6 +28,8 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "100%" }}
+
+
             />
           </div>
         </div>
@@ -34,7 +37,7 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
         <div className={styles.foodDeliveryAdvanceTechright}>
           {fooddeliverydrivedata.fooddeliverydrivedata.map(({ title, icon, para }, idx) => {
             return (
-              <div key={title} onMouseOver={() => setActive(idx)} v className={`logistic-box-${idx}`}>
+              <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`}>
                 <div className={styles.logisticLogo}>
                   <Image src={icon.src}
                     alt={icon.alt}

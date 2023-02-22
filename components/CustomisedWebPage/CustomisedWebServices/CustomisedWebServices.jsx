@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CustomisedWebServices.module.css";
 import Image from "next/image";
 
-export const CustomisedWebServices = () => {
+export default function CustomisedWebServices() {
   return (
     <div className={styles.CustomisedWebServicesContainer}>
       <div className={styles.CustomisedWebServicesHeading}>
@@ -31,26 +31,26 @@ export const CustomisedWebServices = () => {
             </p>
           </div>
           <div className={styles.CustomisedWebServicesFrontendImage}>
-               <Image
-                  src={"/Images/customWebPhotos/desktop-man.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+            <Image
+              src={"/Images/customWebPhotos/desktop-man.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
         <div className={styles.CustomisedWebServicesBackend}>
           <div className={styles.CustomisedWebServicesBackendImage}>
-                <Image
-                  src={"/Images/customWebPhotos/laptop-man.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+            <Image
+              src={"/Images/customWebPhotos/laptop-man.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.CustomisedWebServicesBackendContent}>
             <h2>Front End Development</h2>
@@ -72,4 +72,4 @@ export const CustomisedWebServices = () => {
       </div>
     </div>
   );
-};
+}

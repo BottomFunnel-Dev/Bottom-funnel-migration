@@ -84,3 +84,70 @@
   object-fit: contain;
   padding: 5px;
 }
+
+@media (max-width: 480px) {
+  .groceryadminpannelmainboxes {
+    height: fit-content;
+    margin-top: 5%;
+    padding: 10px;
+    box-sizing: border-box  ;
+  }
+
+  .groceryadminpannelmainboxsometextupper {
+    height: fit-content;
+    margin-left: 0%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .groceryadminpannelmainflexboxclass {
+    flex-direction: column-reverse;
+  }
+
+  .groceryamadminpannelrightbox {
+    width: 100%;
+    margin: 0;
+    height: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .groceryamadminpannelrightboxinnerimage {
+    height: 230px;
+    width: 100%;
+    margin: 0;
+  }
+  .groceryamadminpannelrightboxinnerimage > img {
+    object-fit: contain;
+  }
+
+  .groceryadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    margin: 0;
+    row-gap: 20px;
+  }
+
+  .groceryadminpannelmapperboxindivisyal {
+    height: fit-content;
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+  
+  .groceryadminpannelmapperboxindivisyal:hover {
+    background-color: #f7ab97;
+    color: white;
+    /* margin-top: 0; */
+    transition: all 0.2s linear;
+    /* transform: scale(1.1); */
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}

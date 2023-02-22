@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CustomWebSolutions.module.css";
 import Image from "next/image";
 
-export const CustomWebSolutions = () => {
+export default function CustomWebSolutions() {
   const cardsData = [
     {
       title: "Cloud-based Dev",
@@ -38,22 +38,22 @@ export const CustomWebSolutions = () => {
   return (
     <div className={styles.CustomWebSolutionsContainer}>
       <div className={styles.CustomWebSolutionsBackgroundRectangle}>
-              <Image
-                  src={"/Images/MLPhotos/rectangle-top.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
-              <Image
-                  src={"/Images/MLPhotos/rectangle-bottom.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+        <Image
+          src={"/Images/MLPhotos/rectangle-top.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
+        <Image
+          src={"/Images/MLPhotos/rectangle-bottom.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
       <div className={styles.CustomWebSolutionsMain}>
         <h1>
@@ -69,14 +69,14 @@ export const CustomWebSolutions = () => {
             return (
               <div key={title} className={styles.CustomWebSolutionsCardsMain}>
                 <div>
-                <Image
-                  src={image}
-                  alt={title}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+                  <Image
+                    src={image}
+                    alt={title}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
                 <h2>{title}</h2>
                 <p>{body}</p>
@@ -87,4 +87,4 @@ export const CustomWebSolutions = () => {
       </div>
     </div>
   );
-};
+}

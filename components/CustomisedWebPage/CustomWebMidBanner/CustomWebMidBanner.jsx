@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CustomWebMidBanner.module.css";
 
-export const CustomWebMidBanner = () => {
+export default function CustomWebMidBanner() {
   return (
     <div className={styles.CustomWebMidBannerMain}>
       <h1>Customised Web Development Services</h1>
@@ -20,4 +20,4 @@ export const CustomWebMidBanner = () => {
       </p>
     </div>
   );
-};
+}

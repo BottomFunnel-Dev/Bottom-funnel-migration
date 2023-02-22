@@ -18,7 +18,7 @@ export const ClientCards = ({ data }) => {
               height={"0"}
               sizes={"100vw"}
               style={{ width: "100%", height: "fit-content" }}
-              />
+            />
           </div>
           <h2>{data.name}</h2>
         </div>

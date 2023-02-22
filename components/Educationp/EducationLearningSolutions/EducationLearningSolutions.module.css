@@ -2,7 +2,9 @@
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    background: linear-gradient(to bottom, #fdf8ee 80%, #fff 20%)
+    background: linear-gradient(to bottom, #fdf8ee 80%, #fff 20%);
+  
+
 }
 
 .educationLearningSolutionsContainer>span {

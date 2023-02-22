@@ -1,74 +1,3 @@
-// import Image from "next/image";
-// import React from "react";
-// import styles from "./FoodDeliveryPartnerApp.module.css";
-
-// export const FoodDeliveryPartnerApp = () => {
-//   let adminpanelData = [
-//     {
-//       title: "Manage Offers & Discounts",
-//       description:
-//         "Partners can give secial offers and discounts to increase their customer base and earn their loyalty.",
-//     },
-//     {
-//       title: "Menu category and Order Managerment",
-//       description:
-//         "The partners can manage their menu items and orders to increase customer traffic and efficiency.",
-//     },
-//     {
-//       title: "Chat Support",
-//       description:
-//         "This feature enables the partners to personally chat with their customers as well as the admin and resolve their queries.",
-//     },
-//     {
-//       title: "Custom Alerts",
-//       description:
-//         "The partner will get a notification for every new activity related to them on the app which will make them stay updated.",
-//     },
-//   ];
-
-//   return (
-//     <div className={styles.foodDeliveryAdvanceTechPartnerAppMain}>
-//       <div className={styles.foodDeliveryPartnerAppMain}>
-//         <div className={styles.foodDeliveryPartnerAppImages}>
-//           <div>
-//             <Image
-//               src={"/Images/foodDeliveryphotos/partner-bkgd-rectangle.png"}
-//               alt={"triangle background image"}
-//               width={"0"}
-//               height={"0"}
-//               sizes={"100vw"}
-//               style={{ width: "100%", height: "100%" }}
-//             />
-//           </div>
-
-//           <div>
-//             <Image
-//               src={"/Images/foodDeliveryphotos/mobile-screen-2.png"}
-//               alt={"customer app iphone image"}
-//               width={"0"}
-//               height={"0"}
-//               sizes={"100vw"}
-//               style={{ width: "100%", height: "100%" }}
-//             />
-//           </div>
-//         </div>
-//         <div className={styles.foodDeliveryPartnerAppContent}>
-//           <h2> Partner app </h2>
-//           <div>
-//             {adminpanelData.map(({ title, description }) => {
-//               return (
-//                 <div>
-//                   <h4> {title} </h4>
-//                   <p> {description} </p>
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 
 import React, { useState } from "react";
 import Image from "next/image";
@@ -122,11 +51,11 @@ export default function FoodDeliveryPartnerApp() {
 
       <div className={styles.cannabiesadminpannelmainflexboxclass}>
         <div className={styles.cannabieasadminpannelleftbox}>
-          {icecreamadmindata.map((e) => {
+          {icecreamadmindata.map((e,index) => {
             return (
               <div
                 className={styles.cannabiesadminpannelmapperboxindivisyal}
-                key={e.htxt}
+                key={index}
                 onMouseEnter={() => {
                   handleImageChange(e.image);
                 }}

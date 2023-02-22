@@ -85,3 +85,99 @@ height: 100%;
 width: 100%;
 object-fit: contain;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.appbuildermakermainboxes{
+height: fit-content;
+padding-top: 5%;
+background-color: white;
+padding-bottom: 5%;
+}
+.appbuildermakeruppertxtbox{
+height: fit-content;
+width: 90%;
+margin: auto;
+}
+.appbuildermakeruppertxtbox>h1{
+font-size: 24px;
+text-align: center;
+}
+.appbuilderbackgroundimagehavetoset{
+height: fit-content;
+width: 100%;
+top: 20%;
+background: url("/Images/Appbuildersolutions/Bannersbackgrounds/Rectangle 4749.webp");
+}
+.appbuildermakerspecialtypeflexboxtypeA{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+height: 40%;
+width: 90%;
+margin-top: 2%;
+margin-left: 3%;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+border-radius: 10px;
+}
+.appbuildermakerspecialtypeflexboxtypeA:hover{
+transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #cbbaf7;
+}
+.appbuildermakerspecialtypeflexboxtypeAfortextA{
+height: fit-content;
+width: 100%;
+text-align: justify;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+}
+.appbuildermakerspecialtypeflexboxtypeAforimageA{
+height: 100%;
+width: 50%;
+margin: auto;
+}
+.appbuildermakerspecialtypeflexboxtypeAfortextA >h4{
+font-size: 18px;
+text-align: center;
+}
+.appbuildermakerspecialtypeflexboxtypeB{
+display: flex;
+flex-wrap: wrap;
+height: 40%;
+width: 90%;
+margin-top: 2%;
+margin-left: 3%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: white;
+border-radius: 10px;
+}
+.appbuildermakerspecialtypeflexboxtypeB:hover{
+transition: all 0.2s linear;
+transform: translateY(-10px);
+background-color: #cbbaf7;
+}
+.appbuildermakerspecialtypeflexboxtypeAforimageB{
+height: 100%;
+width: 50%;
+margin: auto;
+}
+.appbuildermakerspecialtypeflexboxtypeAfortextB{
+height: fit-content;
+width: 100%;
+text-align: justify;
+margin: auto;
+padding: 10px;
+}
+.appbuildermakerspecialtypeflexboxtypeAfortextB>h4{
+font-size: 18px;
+text-align: center;
+}
+
+
+
+
+
+}

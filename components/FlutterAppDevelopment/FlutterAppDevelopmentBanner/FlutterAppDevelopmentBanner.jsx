@@ -3,7 +3,6 @@ import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./FlutterAppDevelopmentBanner.module.css";
 
 export const FlutterAppDevelopmentBanner = () => {
-
   return (
     <>
       <div className={styles.flutterAppDevbannermainbox}>
@@ -19,10 +18,8 @@ export const FlutterAppDevelopmentBanner = () => {
             technology.
           </p>
 
-
-
           <button
-          className={styles.flutterAppDevbannerbutton}
+            className={styles.flutterAppDevbannerbutton}
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -35,7 +32,7 @@ export const FlutterAppDevelopmentBanner = () => {
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
           >
@@ -56,7 +53,6 @@ export const FlutterAppDevelopmentBanner = () => {
               </div>
             </div>
           </div>
-         
         </div>
         <div className={styles.FlutterIcon}>
           <lottie-player

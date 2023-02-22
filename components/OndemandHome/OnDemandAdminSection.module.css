@@ -168,3 +168,71 @@
   vertical-align: baseline;
   font-weight: 400;
 }
+
+
+@media (max-width:480px) {
+  .cannbiesadminpannelmainboxsometextupper {
+    height: fit-content;
+    margin-top: 10%;
+    margin-left: 0%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .cannbiesadminpannelmainboxsometextupper>h2 {
+   margin-bottom: 25px;
+  }
+
+  .cannabiesadminpannelmainflexboxclass {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .cannabiesamadminpannelrightbox {
+    width: 100%;
+    height: 240px;
+    background: url("/Images/ondemand/onDemandBackground/Background2.png");
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .cannbiesamadminpannelrightboxinnerimage {
+    height: 220px;
+    width: 100%;
+    margin: 0;
+  }
+  .cannbiesamadminpannelrightboxinnerimage >img{
+    object-fit: contain;
+  }
+
+  .cannabieasadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0%;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 20px;
+  }
+
+  .cannabiesadminpannelmapperboxindivisyal {
+    height: fit-content;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0%;
+    text-align: justify;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .cannabiesadminpannelmapperboxindivisyal:hover {
+    transform: scale(1);
+    background-color: #abd96b;
+  }
+
+
+
+
+}

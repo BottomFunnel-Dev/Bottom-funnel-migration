@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CloudWorkWithUs.module.css";
 import Image from "next/image";
 
-export const CloudWorkWithUs = () => {
+export default function CloudWorkWithUs() {
   return (
     <div className={styles.CloudWorkWithUsContainer}>
       <h1>
@@ -23,50 +23,50 @@ export const CloudWorkWithUs = () => {
       <div className={styles.CloudWorkIconsContainer}>
         <div className={styles.CloudWorkIconsMain}>
           <div>
-                <Image
-                    src={"/Images/cloudPhotos/aws.webp"}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                  />
-          </div>
-          <span></span>
-          <div>
-                <Image
-                    src={"/Images/cloudPhotos/digital-ocean.webp"}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                  />
+            <Image
+              src={"/Images/cloudPhotos/aws.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <span></span>
           <div>
             <Image
-                src={"/Images/cloudPhotos/google-cloud-platform.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+              src={"/Images/cloudPhotos/digital-ocean.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <span></span>
           <div>
             <Image
-                src={"/Images/cloudPhotos/microsoft-azure.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+              src={"/Images/cloudPhotos/google-cloud-platform.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
+          </div>
+          <span></span>
+          <div>
+            <Image
+              src={"/Images/cloudPhotos/microsoft-azure.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>
     </div>
   );
-};
+}

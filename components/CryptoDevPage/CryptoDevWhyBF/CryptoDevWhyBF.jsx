@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./CryptoDevWhyBF.module.css";
 
-export const CryptoDevWhyBF = () => {
+export default function CryptoDevWhyBF() {
   const cardData = [
     {
       title: "Crypto Exchange Development",
@@ -66,4 +66,4 @@ export const CryptoDevWhyBF = () => {
       </div>
     </div>
   );
-};
+}

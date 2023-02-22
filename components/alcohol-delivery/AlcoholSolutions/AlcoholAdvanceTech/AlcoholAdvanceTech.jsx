@@ -25,7 +25,7 @@ export default function AlcoholAdvanceTech({ customerData }) {
         <div className={styles.alcoholcustomerright}>
           {customerData.customerdata.map(({ title,icon, para }, idx) => {
             return (
-              <div key={title} onMouseOver={() => setActive(idx)} v className={`logistic-box-${idx}`}>
+              <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`}>
                 <div className={styles.logisticLogo}>
                   <Image src={icon.src}
                     alt={icon.alt}

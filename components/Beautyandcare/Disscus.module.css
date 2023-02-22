@@ -25,3 +25,26 @@
   color: #ef4c23;
   background-color: white;
 }
+
+@media (max-width:480px) {
+  .discussSection {
+    background-color: #fcdbd3;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .discussSection>h2 {
+  font-size: 20px;
+  }
+  .discussSection > button {
+    padding: 6px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+ 
+  }
+
+}

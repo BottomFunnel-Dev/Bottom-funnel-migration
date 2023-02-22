@@ -30,3 +30,10 @@
   color: #4d9c33;
   background-color: white;
 }
+
+
+@media (max-width:480px) {
+  .szoverviewsection {
+display: none;
+  }
+}

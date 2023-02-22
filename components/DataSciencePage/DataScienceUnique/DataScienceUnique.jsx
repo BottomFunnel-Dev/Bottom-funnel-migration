@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./DataScienceUnique.module.css";
 import Image from "next/image";
 
-export const DataScienceUnique = () => {
+export default function DataScienceUnique() {
   return (
     <div className={styles.DataScienceUniqueContainer}>
       <div className={styles.DataScienceUniqueContent}>
@@ -31,15 +31,15 @@ export const DataScienceUnique = () => {
         </p>
       </div>
       <div className={styles.DataScienceUniqueImage}>
-                <Image
-                  src={"/Images/DataSciencePhotos/unique.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+        <Image
+          src={"/Images/DataSciencePhotos/unique.webp"}
+          alt={"image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
       </div>
     </div>
   );
-};
+}
