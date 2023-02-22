@@ -39,7 +39,7 @@ export default function OnDemandSection() {
         <OnDemandCustomerSection/>
         <OnDemandAdminSection />
         <OnDemandDriver />
-        {/* <KeyFeatures /> */}
+      
       </main>
     </div>
   );

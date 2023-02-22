@@ -98,3 +98,57 @@
   vertical-align: baseline;
   font-weight: 400;
 }
+
+@media (max-width: 480px) {
+  .cannabisdriverappmainboxes {
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  .cannabisdriverappmainboxes > h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .canabisdriverappflexingbox {
+    flex-direction: column;
+  }
+
+  .canabisdriverappflexingboxleftbox {
+    height: 300px;
+    width: 100%;
+    background: url("/Images/ondemand/onDemandBackground/Background3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+
+  .canabisdeliveryappleftboxinsiderupperimage {
+    height: 300px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .canabisdriverappflexingboxrightbox {
+    height: fit-content;
+    width: 100%;
+    margin-left: 0%;
+align-items: stretch;
+justify-content: center;
+row-gap: 20px;
+  }
+
+  .canabisdriverappindivisualbox {
+    height: fit-content;
+    width: 100%;
+    margin: 0%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+  
+  .canabisdriverappindivisualbox:hover {
+    transform: none;
+   
+  }
+
+}

@@ -43,3 +43,32 @@
 .homeServices > div > h5 {
   margin-top: 5px;
 }
+
+
+@media (max-width:480px) {
+  .ondemandHomeServices {
+  height: fit-content;
+  }
+
+  .ondemandHomeServices > div {
+    position: static;
+    transform: none;
+    height: fit-content;
+  }
+
+  .homeServices {
+  
+    padding: 0px;
+  }
+
+  .homeServices > div {
+    width: 80%;
+    border-radius: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+}
