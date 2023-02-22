@@ -60,7 +60,6 @@
 @media (max-width: 480px) {
   .carpoolSolutions {
     width: 100%;
-    margin-left: 5%;
   }
 
   .carpoolSolutionIntro {
@@ -122,14 +121,13 @@
 
   .solutionContent > h5 {
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 2%;
   }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .carpoolSolutions {
     width: 100%;
-    margin-left: 5%;
     margin-top: 3%;
   }
 
@@ -140,12 +138,12 @@
   }
 
   .carpoolSolutionIntro > h1 {
-    font-size: 14px;
-    font-size: 500;
+    font-size: 20px;
+    font-size: 600;
   }
 
   .carpoolSolutionIntro > p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
   }
 
@@ -154,11 +152,12 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 60px;
   }
 
   .solutionCards {
-    width: 95%;
+    width: 92%;
+    height: fit-content;
     box-sizing: border-box;
     border-radius: 10px;
     margin-bottom: 3%;
@@ -190,6 +189,6 @@
 
   .solutionContent > h5 {
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
   }
 }

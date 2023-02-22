@@ -13,13 +13,13 @@
   display: flex;
 }
 
-.cannabieasadminpannelleftbox {
-  height: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  width: 55%;
-  margin-left: 3%;
-}
+  .cannabieasadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin-left: 3%;
+  }
 
 .cannabiesadminpannelmapperboxindivisyal {
   height: 220px;
@@ -42,15 +42,14 @@
 }
 
 .cannabiesamadminpannelrightbox {
-  /* border: 1px solid red; */
+
   width: 45%;
   height: 460px;
-  /* margin-left: 1%; */
-  /* background: url("/Images/newcannabispage/bannesbackgrounds/Rectangle 4863.png"); */
+
 }
 
 .cannbiesamadminpannelrightboxinnerimage {
-  /* border: 1px solid green; */
+
   height: 460px;
   width: 90%;
   margin: 2% 3% 3% 5%;
@@ -66,7 +65,7 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
-  /* padding: 10px; */
+
 }
 
 .canabisadminpannelmapperboxindivisyaltxt > h4 {
@@ -84,4 +83,61 @@
   line-height: 20px;
   vertical-align: baseline;
   font-weight: 400;
+}
+
+
+@media (max-width:480px) {
+  .cannabiesadminpannelmainboxes {
+    height: fit-content;
+    padding: 10px;
+
+  }
+
+  .cannbiesadminpannelmainboxsometextupper {
+    height: fit-content;
+  margin: 3% 0;
+  text-align: center;
+  }
+
+  .cannabiesadminpannelmainflexboxclass {
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .cannabiesamadminpannelrightbox {
+
+    width: 100%;
+    height: 250px;
+  
+  }
+
+  .cannbiesamadminpannelrightboxinnerimage {
+
+    height: 250px;
+    width:100%;
+    margin: 0;
+    object-fit: cover;
+  }
+
+  .cannabieasadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0%;
+    row-gap: 20px;
+    margin-top: 4%;
+  }
+
+  .cannabiesadminpannelmapperboxindivisyal {
+    height: fit-content;
+    width: 100%;
+    margin: 0%;
+  
+  }
+  .cannabiesadminpannelmapperboxindivisyal:hover {
+  transform: none;
+  }
 }

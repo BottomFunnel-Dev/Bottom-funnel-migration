@@ -72,3 +72,82 @@
 .tooldeliveryAdminImage > img {
   object-fit: contain;
 }
+
+
+@media (max-width:480px){
+  .tooldeliveryadmin {
+    width: 100%;
+    margin-top: 5%;
+    height: fit-content;
+  }
+  
+  .tooldeliveryadmin > h1 {
+    margin-left: 30%;
+    color: #5cacb2;
+  }
+  
+  .tooldeliveryadminsub {
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .tooldeliveryadminleft {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 10%;
+    background: url("/Images/tooldeliveryapp/Rectangle\ 4175.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .tooldeliveryadminright {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tooldeliveryadminright > div {
+    padding: 18px;
+    margin-left: 4%;
+    margin-top: 5%;
+    height: 230px;
+    width: 95%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .tooldeliveryadminright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .tooldeliveryadminright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+  }
+  
+  .tooldeliveryAdminImage {
+    margin-left: 5%;
+    width: 90%;
+    height: 300px;
+    text-align: right;
+  }
+  
+  .tooldeliveryAdminImage > img {
+    object-fit: contain;
+  }
+  
+}

@@ -32,3 +32,38 @@
   color: #3380f2;
   background-color: white;
 }
+@media (max-width:480px){
+  .tdtooldeliverysneak {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .tdtooldeliverysneaksub {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 290px;
+  }
+  
+  .tdtooldeliverysneakheading {
+    margin-top: 35px;
+    padding: 30px 0px;
+  }
+  
+  .tdtooldeliverysneakbttn {
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 8%;
+    background-color: #3380f2;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .tdtooldeliverysneakbttn:hover {
+    color: #3380f2;
+    background-color: white;
+  } 
+}

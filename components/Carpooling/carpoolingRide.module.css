@@ -42,7 +42,6 @@ background: url("/Images/carpoolingpage/bannersbackgrounds/MobileImageComp.webp"
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;
-margin-left: 6%;
  
 }
 
@@ -90,9 +89,6 @@ background: url("/Images/carpoolingpage/bannersbackgrounds/MobileImageComp.webp"
 background-repeat: no-repeat;
 background-size: 100%;
 position: relative;
-margin-left: 6%;
-margin-top: 0%;
-
 }
 
 .carpoolingRide > div {

@@ -73,3 +73,74 @@
 .tooldeliveryDriveImage > img {
   object-fit: contain;
 }
+@media (max-width:480px){
+  .tooldrive {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+  }
+  
+  .tooldrive > h1 {
+    left: 35%;
+    top: 0;
+  }
+  
+  .tooldeliverydrivesub {
+    width: 100%;
+    height: fit-content;
+    margin-top: 5%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tooldeliverydriveleft {
+    width: 100%;
+    height: 400px;
+    background: url("/Images/tooldeliveryapp/Component20.webp");
+    background-repeat: no-repeat;
+    background-size: 70% 90%;
+
+  }
+  
+  .tooldeliverydriveright {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tooldeliverydriveright > div {
+    padding: 10px;
+    margin-left: 5%;
+    height: 200px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .tooldeliverydriveright > div:hover {
+    background-color: #e1f9f6;
+    transition: all 0.2s linear;
+  
+    transform: translateY(-10px);
+  }
+  
+  .tooldeliverydriveright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .tooldeliveryDriveImage {
+    width: 30%;
+    height: 300px;
+  }
+  
+  .tooldeliveryDriveImage > img {
+    object-fit: contain;
+  }
+}

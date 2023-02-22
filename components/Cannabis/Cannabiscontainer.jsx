@@ -3,8 +3,6 @@ import styles from "./Cannabiscontainer.module.css";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export default function Cannabiscontainer() {
- 
-
   return (
     <div className={styles.cannabuscontainermainboxes}>
       <div className={styles.cannabuscontainerboxforsometext}>
@@ -14,10 +12,8 @@ export default function Cannabiscontainer() {
           to ease the ordering process for medical patients
         </p>
 
-
-
         <button
-        className={styles.cannabuscontainerbutton}
+          className={styles.cannabuscontainerbutton}
           type="button"
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop"
@@ -50,8 +46,6 @@ export default function Cannabiscontainer() {
             </div>
           </div>
         </div>
-
-  
       </div>
 
       <div className={styles.CannabisContainerAnimationDiv}>

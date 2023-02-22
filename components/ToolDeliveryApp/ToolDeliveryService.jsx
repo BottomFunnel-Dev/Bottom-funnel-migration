@@ -92,10 +92,10 @@ function ToolDeliveryService() {
                 decisions to grow your sales.
               </p>
             </div>
-          </div>
+          
 
           {/* right */}
-          <div className={styles.tddeliverybottom}>
+          
             <div className={styles.tddeliverysolution}>
               <div className={styles.tddeliverysolutionapp}>
                 <div className={styles.tddeliverytraking}>
@@ -169,7 +169,7 @@ function ToolDeliveryService() {
                 admin panel.
               </p>
             </div>
-          </div>
+            </div>
         </div>
       </div>
     </div>

@@ -61,7 +61,69 @@
 
 .iceCreamBannerAnimationDiv {
   position: absolute;
-  width: 50%;
+  width: 40%;
   right: 0%;
-  top: 12%;
+  top: 10%;
+}
+@media (max-width:480px){
+  .icecreambannermainboxes {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .icreambannersometextbox {
+    height: fit-content;
+    width: 90%;
+    margin-top: 90%;
+    text-align: center;
+  }
+  
+  .icreambannersometextbox > h1 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .icreambannersometextbox > h2 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  .icreambannersometextbox > p {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  
+  .icecreambannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+  }
+  
+  .icecreambannerbutton:hover {
+    background-color: white;
+    color: #ef4c23;
+  }
+  
+  .specialcolr {
+    color: #ef4c23;
+  }
+  
+
+  
+  .iceCreamBannerAnimationDiv {
+    position: absolute;
+    width: 70%;
+    top: 10%;
+    right: 10%;
+  }
 }

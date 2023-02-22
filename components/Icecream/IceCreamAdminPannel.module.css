@@ -42,6 +42,9 @@
 .icecreamadminpannelmapperboxindivisyal:hover {
   transform: scale(1.02);
   background-color: #fbe1e5;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .icecreamadminpannelrightbox {
@@ -89,3 +92,102 @@
   vertical-align: baseline;
   font-weight: 400;
 }
+
+@media (max-width:480px){
+  .icecreamadminpannelmainboxes {
+    height: fit-content;
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
+  
+  .icecreamadminpannelmainboxsometextupper {
+    height: fit-content;
+    margin-left: 4%;
+  }
+  
+  .icecreamadminpannelmainboxsometextupper > h2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .icecreamadminpannelmainflexboxclass {
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .icecreamadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+  .icecreamadminpannelmapperboxindivisyal {
+    height: fit-content;
+    width: 90%;
+    height: 240px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 4% 0 0 5%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .icecreamadminpannelmapperboxindivisyal:hover {
+    transform: scale(1.02);
+    background-color: #fbe1e5;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+  }
+  
+  .icecreamadminpannelrightbox {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 1%;
+    background-color: #ffe7e8;
+  }
+  
+  .icecreamadminpannelrightboxinnerimage {
+    height: 80%;
+    width: 80%;
+    margin: 8% 3% 3% 12%;
+  }
+  
+  .icecreamadminpannelrightboxinnerimage > img {
+    object-fit: contain;
+  }
+  
+  .icecreamadminpannelmapperboxindivisyalicon {
+    height: 25%;
+    width: 18%;
+    padding: 1%;
+  }
+  
+  .icecreamadminpannelmapperboxindivisyalicon > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .icecreamadminpannelmapperboxindivisyaltxt > h4 {
+    padding-top: 4%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+  }
+  
+  .icecreamadminpannelmapperboxindivisyaltxt > p {
+    padding-top: 1%;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+}  

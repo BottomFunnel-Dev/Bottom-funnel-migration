@@ -91,3 +91,50 @@
 .greybg > p {
   text-align: justify;
 }
+
+
+@media (max-width:480px) {
+  .szmedicalsolution {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .szmedicalheading {
+    height: fit-content;
+    position: static;
+    text-align: center;
+
+  }
+
+  .szmedicalheading > p {
+    position: static;
+    margin-left: 0%;
+    padding: 0px;
+    z-index: none;
+  }
+  .szmedicalheading > h2 {
+    position: static;
+    padding: 0px;
+    margin-left: 0%;
+    z-index: none;
+  }
+
+  .szmedicalsub {
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 20px;
+  }
+
+  .szmedicalsub > div {
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    height: fit-content;
+  }
+
+
+}

@@ -40,9 +40,9 @@ return (
 
 
 <div className={styles.diversesalon}>
-{diver.map((item) => {
+{diver.map((item,index) => {
 return (
-<div className={styles.hairsalon}>
+<div key={index} className={styles.hairsalon}>
 <div className={styles.hairimage}>
 <img src={item.img} alt="image"/>{" "}
 </div>

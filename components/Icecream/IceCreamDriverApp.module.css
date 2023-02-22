@@ -59,6 +59,9 @@
 .icecreamdriverappindivisualbox:hover {
   transform: scale(1.02);
   background-color: #fbe1e5;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
 }
 
 .icecreamdeliveryappindivisualboxforlogo {
@@ -87,4 +90,101 @@
   line-height: 20px;
   vertical-align: baseline;
   font-weight: 400;
+}
+
+@media (max-width:480px){
+  .icecreamdriverappmainboxes {
+    height: fit-content;
+    background-color: white;
+    margin-bottom: 5%;
+  }
+  
+  .icecreamdriverappmainboxes > h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  .icecreamdriverappflexingbox {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .icecreamdriverappflexingboxleftbox {
+    height: 300px;
+    width: 85%;
+    margin-left: 7.5%;
+    background: url("/Images/icecreamchanges/Ellipse 247.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .icecreamdeliveryappleftboxinsiderupperimage {
+    height: 90%;
+    width: 45%;
+  }
+  
+  .icecreamdeliveryappleftboxinsiderupperimage > img {
+    object-fit: contain;
+  }
+  
+  .icecreamdriverappflexingboxrightbox {
+    height: fit-content;
+    width: 95%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .icecreamcustomerappmainboxes > h2 {
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .icecreamdriverappindivisualbox {
+    height: fit-content;
+    width: 90%;
+    height: 210px;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .icecreamdriverappindivisualbox:hover {
+    transform: scale(1.02);
+    background-color: #fbe1e5;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+  }
+  
+  .icecreamdeliveryappindivisualboxforlogo {
+    height: 23%;
+    width: 12%;
+  }
+  
+  .icecreamdeliveryappindivisualboxforlogo > img {
+    object-fit: contain;
+  }
+  
+  .icecreamdeliveryappindivisualboxfortext > h4 {
+    padding-top: 5px;
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+  }
+  
+  .icecreamdeliveryappindivisualboxfortext > p {
+    padding-top: 1%;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
 }
