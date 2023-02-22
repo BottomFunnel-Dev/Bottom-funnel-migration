@@ -1,0 +1,116 @@
+.laundrycutomermaindiv {
+    margin-top: 5%;
+  }
+
+  .laundrycustomerapptxtfront {
+    text-align: center;
+    width: 47%;
+  
+    margin-left: 30%;
+  }
+  
+  .laundryflexboxleftdiv {
+    height: fit-content;
+    width: 60%;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .laundryflexboxleftdivinsidertxt {
+    /* border: 1px solid black; */
+    margin-left: 2%;
+    width: 100%;
+  }
+  
+  .laundryflexboxleftdivinsidertxt > h1 {
+    /* border: 1px solid red; */
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  .laundryflexboxleftdivinsidertxt > p {
+    /* border: 1px solid red; */
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .laundryflexboxleftdivflexboxx {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 5%;
+    height: fit-content;
+  }
+
+  .laundryflexboxleftdivflexbox {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 240px;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .laundryflexboxleftdivflexbox:hover {
+    transform: scale(1.02);
+    background-color: #efebe6;
+  }
+
+  .laundryflexboxleftdivflexboxicon {
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 45px;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+
+  .laundryflexboxleftdivflexboxicontxt {
+    /* border: 1px solid red;  */
+    margin-top: 4%;
+  }
+  
+  .laundryflexboxleftdivflexboxicontxt > h3 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+    margin-top: 0%;
+  }
+  
+  .laundryflexboxleftdivflexboxicontxt > p {
+    margin-top: 4%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: baseline;
+  }
+
+  .laundryPageOuterDiv {
+    /* border: 1px solid red; */
+    width: 40%;
+  }
+
+  .laundryflexboxrightdiv {
+    /* border: 1px solid red; */
+    height: 580px;
+    margin-top: 15%;
+    margin-left: 5%;
+    background: url("/Images/Laundrypage/backgrounds/Background3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 55%;
+  }
+  
+  
+  
+  
+  .laundryflexboxrightdiv > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }

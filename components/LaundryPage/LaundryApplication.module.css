@@ -1,6 +1,5 @@
 .laundryapplicationmainboxes{
     height: 100vh;
-
     margin-top: 3%;
 }
 
@@ -28,9 +27,14 @@
     width: 30%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 48px;
-   
+ 
 }
 
+.laundryapplicationdataindibox:hover{
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #f0e9e0;
+}
 .laundryapptxtboxes{
     padding: 10px;
 }
@@ -53,3 +57,72 @@
     cursor: pointer;
     transform: scale(1.05);
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+    .laundryapplicationmainboxes{
+        height: fit-content;
+        margin-top: 3%;
+    }
+    
+    .laundryapplicationtxtboxes>h6{
+        text-align: center;
+        color: green;
+    }
+    
+    .laundryapplicationtxtboxes>h2{
+        text-align: center;
+    }
+    
+    .laundryapplicationdatamappingboxes{
+        height:fit-content;
+        width: 70%;
+      
+        margin: auto;
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    
+    .laundryapplicationdataindibox{
+        height: 80%;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 48px;
+        margin-top: 5%;
+        transition: all 0.2s linear;
+        transform: translateY(-10px);
+       
+    }
+
+    .laundryapplicationdataindibox:hover{
+        transform: scale(1.02);
+        background-color: #f0e9e0;
+    }
+    
+    .laundryapptxtboxes{
+        padding: 10px;
+    }
+    .laundryapptxtboxes>h6{
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .paragraph{
+        text-align: justify;
+    }
+    
+    .parabutton{
+        color: green;
+        text-align: center;
+        
+    }
+    
+    .parabutton:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+
+    }

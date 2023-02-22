@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
-import styles from "./LaundryPage.module.css"
+import styles from "./LaundryCustomer.module.css"
 
 const LaundryCustomer = () => {
 
@@ -8,7 +8,7 @@ const LaundryCustomer = () => {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath)
-    // console.log(imagepath)
+ 
   }
 
   const laundrycustomerdata = [
@@ -67,7 +67,6 @@ const LaundryCustomer = () => {
               return (
                 <div className={styles.laundryflexboxleftdivflexbox}
                   key={e.htxt} onMouseEnter={() => {
-                    console.log(e);
                     handleImageChange(e.bigimage)
                   }}
 
