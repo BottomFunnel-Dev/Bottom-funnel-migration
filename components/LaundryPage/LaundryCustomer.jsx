@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import styles from "./LaundryPage.module.css";
+import styles from "./LaundryCustomer.module.css";
 
 const LaundryCustomer = () => {
   const [imageChange, setImageChange] = useState(

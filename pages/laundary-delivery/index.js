@@ -2,11 +2,12 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
+import { LaudryApplication } from "../../components/LaundryPage/LaudryApplication";
 
-const LaudryApplication = dynamic(
-  () => import("../../components/LaundryPage/LaudryApplication"),
-  { loading: () => "loading..." }
-);
+// const LaudryApplication = dynamic(
+//   () => import("../../components/LaundryPage/LaudryApplication"),
+//   { loading: () => "loading..." }
+// );
 
 const LaundryAdmin = dynamic(
   () => import("../../components/LaundryPage/LaundryAdmin"),
