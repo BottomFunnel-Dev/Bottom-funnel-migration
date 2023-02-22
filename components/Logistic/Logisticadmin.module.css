@@ -86,7 +86,6 @@ object-fit: contain;
 width: 100%;
 height: max-content;
 margin: 60px 0;
-margin-left: 8%;
 }
 
 .logicadmin > h1 {
@@ -126,8 +125,9 @@ margin-top: 3%;
 
 .logicadminright > div {
 padding: 10px 10px 10px 10px;
-height: 180px;
+height: 220px;
 width: 90%;
+margin-left: 5%;
 border-radius: 18px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 border-radius: 10px;
@@ -177,13 +177,12 @@ margin-top: 4%;
 width: 100%;
 height: max-content;
 margin: 60px 0;
-margin-left: 8%;
 }
 
 .logicadmin > h1 {
-margin-left: 5%;
-font-size: 30px;
-margin-left: 30%;
+font-size: 37px;
+font-weight: 600;
+margin-left: 35%;
 }
 
 .logicadminsub {
@@ -217,8 +216,9 @@ margin-top: 3%;
 
 .logicadminright > div {
 padding: 10px 10px 10px 10px;
-height: 160px;
+height: 190px;
 width: 90%;
+margin-left: 4.5%;
 border-radius: 18px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 border-radius: 10px;

@@ -41,7 +41,6 @@
     background: url("/Images/carpoolingpage/bannersbackgrounds/MidBannerBackground.png");
     background-repeat: no-repeat;
     background-size: 120%;
-    margin-left: 7%;
     background-position: center;
   }
 
@@ -83,12 +82,11 @@
     background: url("/Images/carpoolingpage/bannersbackgrounds/MidBannerBackground.png");
     background-repeat: no-repeat;
     background-size: 120%;
-    margin-left: 7%;
     background-position: center;
   }
 
   .carpoolAction > div {
- width: 80%;
+    width: 80%;
     margin: auto;
     text-align: center;
 

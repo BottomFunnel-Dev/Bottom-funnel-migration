@@ -8,6 +8,7 @@
   background-position-x: right;
   background-color: white;
   position: relative;
+
 }
 
 .taxibookingappboxfortext {
@@ -63,19 +64,15 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 769px) {
+@media (max-width:480px) {
   .taxibookingbannermainboxes {
     height: 100vh;
-    border: 1px solid white;
-    background-repeat: no-repeat;
-    background-size: 55% 100%;
-    background-position-x: right;
-    background-color: white;
+    width: 100%;
   }
 
   .taxibookingappboxfortext {
     height: fit-content;
-    width: 45%;
+    width: 90%;
     margin-top: 17%;
     margin-left: 5%;
   }
@@ -118,7 +115,7 @@
 
 /* for any type of tablet screen responsive */
 
-@media only screen and (min-width: 377px) and (max-width: 769px) {
+@media (max-width: 1024px) {
   .taxibookingbannermainboxes {
     height: 50vh;
     border: 1px solid white;

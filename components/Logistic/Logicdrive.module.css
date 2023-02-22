@@ -1,281 +1,264 @@
 .logicdrive {
-width: 100%;
-height: max-content;
-margin: 60px 0;
+  width: 100%;
+  height: max-content;
+  margin: 60px 0;
 }
 
 .logicdrive > h1 {
-margin-left: 55%;
+  margin-left: 55%;
 }
 
 .logicdrivesub {
-width: 100%;
-margin-top: 2%;
-justify-content: space-between;
-display: flex;
-align-items: center;
+  width: 100%;
+  margin-top: 2%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 .logicdriveleft {
-width: 50%;
-height: 500px;
-background-repeat: no-repeat;
-background-size: 100% 670px;
-margin-left: -4%;
-position: relative;
+  width: 50%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100% 670px;
+  margin-left: -4%;
+  position: relative;
 }
 
 .logicdriveright {
-width: 45%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .logicdriveright > div {
-padding: 10px 10px 10px 10px;
-height: 250px;
-width: 45%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  height: 250px;
+  width: 45%;
+  border-radius: 18px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
 }
 
 .logicdriveright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #e1f9f6;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .logicdriveright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
+  font-size: 18px;
+  margin-top: 0%;
 }
 
 .logicdriveright > div > p {
-margin-top: 0%;
-margin-top: -2%;
+  margin-top: 0%;
+  margin-top: -2%;
 }
 
 .logisticDriveImage {
-width: 50%;
-height: 500px;
-position: absolute;
-z-index: 2;
-transform: translate(-50%, -50%);
-top: 50%;
-left: 50%;
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 .logicdive {
-width: 100%;
-display: flex;
-height: 60px;
+  width: 100%;
+  display: flex;
+  height: 60px;
 }
 
 .logisticDriveImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-.logicdrive {
-width: 100%;
-height: max-content;
-margin: 60px 0;
+  .logicdrive {
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
+  }
 
-}
+  .logicdrive > h1 {
+    margin-left: 35%;
+    width: 60%;
+    font-size: 25px;
+  }
 
-.logicdrive > h1 {
+  .logicdrivesub {
+    width: 100%;
+    margin-top: 2%;
+    justify-content: space-between;
 
-margin-left: 35%;
-width: 60%;
-font-size: 25px;
- 
-}
+    flex-direction: column;
+    align-items: center;
+  }
 
-.logicdrivesub {
+  .logicdriveleft {
+    margin-left: 1%;
 
-width: 100%;
-margin-top: 2%;
-justify-content: space-between;
- 
-flex-direction: column-reverse;
-align-items: center;
-}
+    width: 50%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 670px;
+    position: relative;
+  }
 
-.logicdriveleft {
-margin-left: 15%;
+  .logicdriveright {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
-width: 50%;
-height: 300px;
-background-repeat: no-repeat;
-background-size: 100% 670px;
-position: relative;
-}
+  .logicdriveright > div {
+    padding: 10px 10px 10px 10px;
+    height: 220px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
 
-.logicdriveright {
- width: 100%;
-height: 100%;
-flex-direction: column;
-flex-wrap: wrap;
-gap: 20px;
-margin-left: 10%;
-}
+  .logicdriveright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
-.logicdriveright > div {
-padding: 10px 10px 10px 10px;
-height: 170px;
-width: 100%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-}
+  .logicdriveright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
 
-.logicdriveright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
- transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+  .logicdriveright > div > p {
+    margin-top: 0%;
+  }
 
-.logicdriveright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
-margin-bottom: 3%;
-}
+  .logisticDriveImage {
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+  }
 
-.logicdriveright > div > p {
-margin-top: 0%;
+  .logicdive {
+    width: 100%;
+    display: flex;
+    height: 60px;
+  }
 
-}
-
-.logisticDriveImage {
-
-width: 70%;
-height: 300px;
-position: absolute;
-z-index: 2;
-transform: translate(-50%, -50%);
-
-}
-
-.logicdive {
-width: 100%;
-display: flex;
-height: 60px;
-}
-
-.logisticDriveImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-}
+  .logisticDriveImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-.logicdrive {
-width: 100%;
-height: max-content;
-margin: 60px 0;
+  .logicdrive {
+    width: 100%;
+    height: max-content;
+    margin: 50px 0;
+  }
 
-}
+  .logicdrive > h1 {
+    margin-left: 37%;
+    width: 60%;
+    font-size: 35px;
+  }
 
-.logicdrive > h1 {
+  .logicdrivesub {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 
-margin-left: 35%;
-width: 60%;
-font-size: 25px;
- 
-}
+  .logicdriveleft {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 3%;
+    background-repeat: no-repeat;
+    background-size: 100% 670px;
+    position: relative;
+  }
 
-.logicdrivesub {
+  .logicdriveright {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
-width: 100%;
-margin-top: 2%;
-justify-content: space-between;
-flex-direction: column-reverse;
-align-items: center;
-}
+  .logicdriveright > div {
+    padding: 10px 10px 10px 10px;
+    height: 170px;
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
 
-.logicdriveleft {
-margin-left: 15%;
-width: 50%;
-height: 300px;
-background-repeat: no-repeat;
-background-size: 100% 670px;
-position: relative;
-}
+  .logicdriveright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
 
-.logicdriveright {
-width: 100%;
-height: 100%;
-flex-direction: column;
-flex-wrap: wrap;
-gap: 20px;
-margin-left: 10%;
-}
+  .logicdriveright > div > h3 {
+    font-size: 18px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
 
-.logicdriveright > div {
-padding: 10px 10px 10px 10px;
-height: 170px;
-width: 100%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-}
+  .logicdriveright > div > p {
+    margin-top: 0%;
+  }
 
-.logicdriveright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+  .logisticDriveImage {
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+  }
 
-.logicdriveright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
-margin-bottom: 3%;
-}
+  .logicdive {
+    width: 100%;
+    display: flex;
+    height: 60px;
+  }
 
-.logicdriveright > div > p {
-margin-top: 0%;
- 
-}
-
-.logisticDriveImage {
-width: 70%;
-height: 300px;
-position: absolute;
-z-index: 2;
-transform: translate(-50%, -50%);
-
-}
-
-.logicdive {
-width: 100%;
-display: flex;
-height: 60px;
-}
-
-.logisticDriveImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-}
+  .logisticDriveImage > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }

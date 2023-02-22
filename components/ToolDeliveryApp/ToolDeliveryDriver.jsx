@@ -59,7 +59,7 @@ function ToolDeliveryDriver() {
   return (
     <div>
       <div className={styles.tooldrive}>
-        <h1> Drive app </h1>
+        <h1> Driver Panel </h1>
 
         <div className={styles.tooldeliverydrivesub}>
           <div className={styles.tooldeliverydriveleft}>

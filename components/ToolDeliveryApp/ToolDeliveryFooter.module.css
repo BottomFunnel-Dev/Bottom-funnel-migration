@@ -1,5 +1,8 @@
 /* Tool Delivery Footer app */
+.tooldeliveryfooter>h2{
+ text-align: center;
 
+}
 .tooldeliveryfooterapp {
   display: flex;
   height: 400px;
@@ -73,3 +76,68 @@
   background-size: 90% 100%;
   background-position-x: right;
 }
+@media (max-width:480px){
+  .tooldeliveryfooter{
+    width: 100%;
+    margin-top: 5%;
+
+  }
+  .tooldeliveryfooter>h2{
+    text-align: center;
+    margin-bottom: 5%;
+
+  }
+  .tooldeliveryfooterapp {
+    display: flex;
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    flex-wrap: wrap;
+  }
+  
+  .tooldeliveryfooterbox {
+    height: fit-content;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 5%;
+    display: flex;
+    
+    border-radius: 10px;
+  }
+  
+  .tooldeliveryfooterbox:hover {
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #e3f7f7;
+  }
+  
+  .tooldeliveryfooterboxlogo {
+    height: 100%;
+    width: 100%;
+    margin-top: 15%;
+  }
+  
+  .toollogoimg {
+    object-fit: contain;
+  }
+  
+  .tooldeliverytextmapping {
+    margin: 5%;
+    padding: 10px;
+  }
+  
+  .tooldeliverytextmapping > h4 {
+    margin-top: 0%;
+    margin-bottom: 2%;
+  }
+  
+  .flexboxrightinnerimage2fortoolcustomer {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    z-index: 1;
+  }
+  
+ 
+} 

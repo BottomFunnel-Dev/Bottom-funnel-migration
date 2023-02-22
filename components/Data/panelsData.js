@@ -347,7 +347,7 @@ export const carpoolCustomer = {
         alt: " Register logo",
       },
       title: "Flexible & Quick Bookings",
-      para: "Flexible and quick bookings are two important factors to consider when choosing a vacation rental. If you need to find a place quickly, there are many options available online that cater to specific needs and preferences.",
+      para: "Flexible and quick bookings are two important factors to consider when choosing a vacation rental. If you need to find a place quickly, there are many options available online that cater to specific needs",
     },
     {
       img: {
@@ -499,7 +499,7 @@ export const carpoolAdmin = {
     },
   ],
 
-  sectionTitle: "Admin App",
+  sectionTitle: "Admin Panel",
   background: "/Images/carpoolingpage/bannersbackgrounds/rectangle1.webp",
 };
 

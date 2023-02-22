@@ -54,7 +54,7 @@ margin-bottom: 20px;
 
 .solutionsFeatures {
 display: flex;
-flex-direction: row;
+flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 gap: 3%;
@@ -67,12 +67,14 @@ text-align: center;
 }
 
 .carpoolWhy > h1 {
-border: 1px solid red;
+font-size: 20px;
+margin-top: 3%;
 }
 
 .whyCards {
-width: 15%;
+width: 45%;
 padding: 20px;
+margin-top: 3%;
 box-sizing: border-box;
 border-radius: 3px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -103,6 +105,7 @@ object-fit: contain;
 .carpoolingwhy {
 width: 100%;
 margin-bottom: 20px;
+margin-top: 2%;
 }
 
 .solutionsFeatures {
@@ -120,7 +123,7 @@ text-align: center;
 }
 
 .whyCards {
-width: 15%;
+width: 20%;
 padding: 20px;
 box-sizing: border-box;
 border-radius: 3px;

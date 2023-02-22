@@ -92,3 +92,103 @@
   vertical-align: baseline;
   font-weight: 400;
 }
+
+@media (max-width:480px){
+  .icecreamcustomerappmainboxes {
+    height: fit-content;
+    background-color: white;
+  }
+  
+  .icecreamcustomerappmainboxes > h1 {
+    text-align: center;
+  }
+  
+  .icecreamdeliveryappflexingbox {
+    height: fit-content;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+  
+  .icecreamdeliveryappflexingboxleftbox {
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+    background: url("/Images/icecreamchanges/Rectangle 4842.webp");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+
+  }
+  
+  .icecreamdeliveryappleftboxinsiderupperimage {
+    height: 90%;
+    width: 55%;
+  }
+  
+  .icecreamdeliveryappleftboxinsiderupperimage > img {
+    object-fit: contain;
+  }
+  
+  .icecreamdeliveryappflexingboxrightbox {
+    height: fit-content;
+    width: 100%;
+    margin: 5% 3% 3% 1%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .icecreamcustomerappmainboxes > h2 {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .icecreamdeliveryappindivisualbox {
+    height: fit-content;
+    width: 90%;
+    height: 220px;
+    margin-left: 4%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+  
+  .icecreamdeliveryappindivisualbox:hover {
+    transform: scale(1.02);
+    background-color: #fbe1e5;
+  }
+  
+  .icecreamdeliveryappindivisualboxforlogo {
+    height: 23%;
+    width: 18%;
+  }
+  
+  .icecreamdeliveryappindivisualboxforlogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .icecreamdeliveryappindivisualboxfortext > h4 {
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+    margin-top: 0%;
+  }
+  
+  .icecreamdeliveryappindivisualboxfortext > p {
+    margin-top: 0%;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+}
