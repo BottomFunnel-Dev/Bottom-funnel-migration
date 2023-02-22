@@ -23,3 +23,33 @@ background-color: white;
 color: #ef4c23;
 
 }
+
+@media (max-width:480px) {
+  
+  .quotation {
+    width: 100%;
+    padding: 10px;
+    background-color: #e1f9f6;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px auto;
+    box-sizing: border-box;
+  }
+
+  .quotation h2{
+  font-size: 20px;
+  }
+
+  .quotation>button{
+    padding: 7px 30px;
+    font-size: 16px;
+    margin: 10px;
+ 
+  }
+
+  .quotation h3{
+    font-size: 16px;
+    }
+
+
+}

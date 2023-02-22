@@ -15,8 +15,10 @@
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
   justify-content: space-around;
   row-gap: 30px;
+  align-items: stretch;
 }
 
 .innerFeatures > div {
@@ -37,4 +39,24 @@
   transition: all 0.2s linear;
   transform: translateY(-5px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width:480px) {
+  
+  .exclusiveFeature {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+
+  .innerFeatures > div {
+    width:100%;
+    height: fit-content;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+
+
 }
