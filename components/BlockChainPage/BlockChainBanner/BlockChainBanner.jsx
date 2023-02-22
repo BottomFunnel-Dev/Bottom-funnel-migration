@@ -1,4 +1,3 @@
-import { Box, Modal, Typography } from "@mui/material";
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./BlockChainBanner.module.css";
@@ -39,22 +38,45 @@ export default function BlockChainBanner  () {
         Rather than just associating it with cryptocurrencies, they want to make
         people realize its actual potential.
       </p>
-      <button onClick={() => handleOpen()}>Request A Quote</button>
 
-<Modal
-  open={open}
-  onClose={() => handleClose()}
-  aria-labelledby="modal-modal-title"
-  aria-describedby="modal-modal-description"
->
-  <Box sx={style}>
-    <Typography id="modal-modal-title" variant="h6" component="h2">
-      <div className={styles.popform}>
-        <PopupForm/>
-      </div>
-    </Typography>
-  </Box>
-</Modal>
+      <button
+        className={styles.aicontentbannerbutton}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+          Request A Quote
+          </button>
+
+          <div
+            className="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+   
     </div>
   );
 };

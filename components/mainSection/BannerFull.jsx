@@ -5,30 +5,11 @@ import { MobileBanner } from "./BannerAnimations/MobileBanner";
 import { SoftwareBanner } from "./BannerAnimations/SoftwareBanner";
 import { DigitalMarketing } from "./BannerAnimations/DigitalMarketing";
 
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
+
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export default function BannerFull() {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 700,
-    height: 550,
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    // boxShadow: 24,
-    backgorund: "green",
-    p: 1,
-    borderRadius: 2,
-  };
+ 
 
   const banner = [
     {
@@ -143,7 +124,6 @@ export default function BannerFull() {
                   id={`${item.title}`}
                   data-bs-backdrop="static"
                   data-bs-keyboard="false"
-                  tabindex="-1"
                   aria-labelledby="staticBackdropLabel"
                   aria-hidden="true"
                 >
@@ -163,6 +143,8 @@ export default function BannerFull() {
                       </div>
                     </div>
                   </div>
+
+                  
                 </div>
               </div>
             </div>

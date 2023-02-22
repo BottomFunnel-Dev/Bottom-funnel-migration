@@ -1,31 +1,10 @@
 import React, { useState } from "react";
 import styles from "./MarketPlaceBanner.module.css";
 
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export const MarketplaceBanner = () => {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
 
-  // const handleP = () => { console.log("working button") }
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 700,
-    height: 550,
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    // boxShadow: 24,
-    backgorund: "green",
-    p: 1,
-    borderRadius: 2,
-  };
 
   return (
     <div className={styles.marketplacebannerimage}>
@@ -38,24 +17,44 @@ export const MarketplaceBanner = () => {
           your type of work!{" "}
         </p>
 
-        <button className={styles.marketplacebutton} onClick={handleOpen}>
-          Get Started
-        </button>
+        <button
+        className={styles.marketplacebutton}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Plan Project
+          </button>
 
-        <Modal
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="modal-modal-title"
-          aria-describedby="modal-modal-description"
-        >
-          <Box sx={style}>
-            <Typography id="modal-modal-title" variant="h6" component="h2">
-              <div className={styles.popform}>
-                <PopupForm />
+          <div
+            className="modal fade"
+            id="staticBackdropmarketplace"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm />
+                </div>
               </div>
-            </Typography>
-          </Box>
-        </Modal>
+            </div>
+          </div>
+
+
+
+     
       </div>
 
       <div className={styles.marketplaceBannerAnimationDiv}>

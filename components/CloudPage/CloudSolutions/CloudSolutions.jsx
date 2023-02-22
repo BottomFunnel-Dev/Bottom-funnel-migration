@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./CloudSolutions.module.css";
 import Image from "next/image";
-import { style } from "@mui/system";
 
 export const CloudSolutions = () => {
   const cardsData = [
