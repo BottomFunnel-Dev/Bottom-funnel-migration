@@ -1,0 +1,55 @@
+.laundryapplicationmainboxes{
+    height: 100vh;
+
+    margin-top: 3%;
+}
+
+.laundryapplicationtxtboxes>h6{
+    text-align: center;
+    color: green;
+}
+
+.laundryapplicationtxtboxes>h2{
+    text-align: center;
+}
+
+.laundryapplicationdatamappingboxes{
+    height: 90%;
+    width: 70%;
+  
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.laundryapplicationdataindibox{
+    height: 80%;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 48px;
+   
+}
+
+.laundryapptxtboxes{
+    padding: 10px;
+}
+.laundryapptxtboxes>h6{
+    font-weight: 700;
+    text-align: center;
+}
+
+.paragraph{
+    text-align: justify;
+}
+
+.parabutton{
+    color: green;
+    text-align: center;
+    
+}
+
+.parabutton:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
