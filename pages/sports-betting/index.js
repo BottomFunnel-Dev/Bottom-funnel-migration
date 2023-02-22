@@ -1,13 +1,30 @@
 import React from "react";
-
-import { SportsBanner } from "../../components/Sportsbetting/SportsBanner";
-import { sportsBettingLogo } from "../../components/Data/SeopartnerData";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
-import { SportsPanels } from "../../components/Sportsbetting/SportsPanels";
-import { BettingSpecial } from "../../components/Sportsbetting/BettingSpecial";
-import { Bettingwhy } from "../../components/Sportsbetting/Bettingwhy";
-
 import Head from "next/head";
+import dynamic from "next/dynamic";
+import { sportsBettingLogo } from "../../components/Data/SeopartnerData";
+
+const SportsBanner = dynamic(
+  () => import("../../components/Sportsbetting/SportsBanner"),
+  { loading: () => "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  {
+    loading: () => "loading...",
+  },
+);
+const SportsPanels = dynamic(
+  () => import("../../components/Sportsbetting/SportsPanels"),
+  { loading: () => "loading..." },
+);
+const BettingSpecial = dynamic(
+  () => import("../../components/Sportsbetting/BettingSpecial"),
+  { loading: () => "loading..." },
+);
+const Bettingwhy = dynamic(
+  () => import("../../components/Sportsbetting/Bettingwhy"),
+  { loading: () => "loading..." },
+);
 
 export default function SportsBetting() {
   return (

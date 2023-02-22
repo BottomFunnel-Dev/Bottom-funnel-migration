@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./DataScienceServices.module.css";
 import Image from "next/image";
 
-export const DataScienceServices = () => {
+export default function DataScienceServices() {
   const cardData = [
     {
       title: "Business Needs Analysis",
@@ -57,13 +57,13 @@ export const DataScienceServices = () => {
         {cardData.map(({ title, points, image }) => (
           <div key={title}>
             <Image
-                src={image}
-                alt={title}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+              src={image}
+              alt={title}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
             <ul>
               {points.map((elem) => (
                 <li>{elem}</li>
@@ -74,4 +74,4 @@ export const DataScienceServices = () => {
       </div>
     </div>
   );
-};
+}

@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./sportsBanner.module.css";
 
-export const SportsBanner = () => {
+export default function SportsBanner() {
   return (
     <div className={styles.sportsbanner}>
       <div className={styles.bettingSectionleft}>
@@ -22,16 +22,16 @@ export const SportsBanner = () => {
 
       <div className={styles.bettingSectionright}>
         <div className={styles.bettingImage}>
-        <Image
+          <Image
             src={"/Images/sportsbettingpage/banners/bannerimg.webp"}
             alt={"image"}
             width={"0"}
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-        />
+          />
         </div>
       </div>
     </div>
   );
-};
+}

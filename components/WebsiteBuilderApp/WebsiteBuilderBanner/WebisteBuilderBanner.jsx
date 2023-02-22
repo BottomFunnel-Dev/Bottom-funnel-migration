@@ -4,9 +4,7 @@ import Image from "next/image";
 
 import { PopupForm } from "../../PopupForm/PopupForm";
 
-export const WebisteBuilderBanner = () => {
-
-
+export default function WebisteBuilderBanner() {
   return (
     <div className={styles.websiteBuilderBannerParentDiv}>
       <div className={styles.websiteBuilderBannerImageDiv}>
@@ -27,40 +25,38 @@ export const WebisteBuilderBanner = () => {
               you want.
             </p>
             <button
-            type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#staticBackdrop"
-          >
-            Get Started
-          </button>
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Get Started
+            </button>
 
-          <div
-            className="modal fade"
-            id="staticBackdropwebsite"
-            data-bs-backdrop="static"
-            data-bs-keyboard="false"
-            aria-labelledby="staticBackdropLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
+            <div
+              className="modal fade"
+              id="staticBackdropwebsite"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div className="modal-dialog">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
 
-                <div>
-                  <PopupForm />
+                  <div>
+                    <PopupForm />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-
-           
           </div>
 
           <div className={styles.websiteBuilderBannerTopImageComp}>
@@ -76,6 +72,6 @@ export const WebisteBuilderBanner = () => {
       </div>
     </div>
   );
-};
+}
 
 // color quote #f5f5f5

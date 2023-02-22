@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./DataScienceMethods.module.css";
 
-export const DataScienceMethods = () => {
+export default function DataScienceMethods() {
   const cardsData = [
     {
       title: "Statistic mehtods",
@@ -59,4 +59,4 @@ export const DataScienceMethods = () => {
       </div>
     </div>
   );
-};
+}

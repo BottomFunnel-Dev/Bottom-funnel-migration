@@ -3,8 +3,6 @@ import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./IOSAppDevelopmentPageBanner.module.css";
 
 export const IOSAppDevelopmentPageBanner = () => {
-
-
   return (
     <div>
       <div className={styles.IOSAppDevelopmentbannermainbox}>
@@ -18,7 +16,7 @@ export const IOSAppDevelopmentPageBanner = () => {
           </p>
 
           <button
-          className={styles.IOSAppDevelopmentbannerbutton}
+            className={styles.IOSAppDevelopmentbannerbutton}
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -31,7 +29,7 @@ export const IOSAppDevelopmentPageBanner = () => {
             id="staticBackdrop"
             data-bs-backdrop="static"
             data-bs-keyboard="false"
-            tabindex="-1"
+            tabIndex="-1"
             aria-labelledby="staticBackdropLabel"
             aria-hidden="true"
           >
@@ -52,7 +50,6 @@ export const IOSAppDevelopmentPageBanner = () => {
               </div>
             </div>
           </div>
-
         </div>
         <div className={styles.IOSandroidIcon}>
           <lottie-player

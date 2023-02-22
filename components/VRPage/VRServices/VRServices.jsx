@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./VRServices.module.css";
 import Image from "next/image";
 
-export const VRServices = () => {
+export default function VRServices() {
   const cardsData = [
     {
       title: "Business Consulting",
@@ -65,7 +65,7 @@ export const VRServices = () => {
                 </ul>
               </div>
               <div className={styles.VRServicesCardsImages}>
-              <Image
+                <Image
                   src={image}
                   alt={title}
                   width={"0"}
@@ -96,4 +96,4 @@ export const VRServices = () => {
       </div>
     </div>
   );
-};
+}

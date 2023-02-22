@@ -14,7 +14,7 @@ import styles from "./VRForm.module.css";
 
 import { countrycodes, interested, budget } from "./countrycode";
 
-export const VRForm = () => {
+export default function VRForm() {
   return (
     <div className={styles.VRFormContainer}>
       <div className={styles.VRFormStats}>
@@ -40,7 +40,9 @@ export const VRForm = () => {
           <div className={styles.VRFormForm}>
             <div className={styles.VRFormFormSection}>
               <div className={styles.VRFormInputWithIcon}>
-                <IconContext.Provider value={{ className: styles.VRFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.VRFormFormIcon }}
+                >
                   <BsFillPersonFill />
                 </IconContext.Provider>
                 <input
@@ -50,7 +52,9 @@ export const VRForm = () => {
                 />
               </div>
               <div className={styles.VRFormInputWithIcon}>
-                <IconContext.Provider value={{ className: styles.VRFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.VRFormFormIcon }}
+                >
                   <AiTwotoneMail />
                 </IconContext.Provider>
                 <input
@@ -60,7 +64,9 @@ export const VRForm = () => {
                 />
               </div>
               <div className={styles.VRFormPhoneClass}>
-                <IconContext.Provider value={{ className: styles.VRFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.VRFormFormIcon }}
+                >
                   <BsFillTelephoneFill />
                 </IconContext.Provider>
                 <select className={styles.VRFormCountryCode} name="" id="">
@@ -77,7 +83,9 @@ export const VRForm = () => {
                 placeholder="Phone Number"
               />
               <div className={styles.VRFormSelectClass}>
-                <IconContext.Provider value={{ className: styles.VRFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.VRFormFormIcon }}
+                >
                   <CgMenuGridR />
                 </IconContext.Provider>
                 <select className={styles.VRFormSelectPart} name="" id="">
@@ -90,7 +98,9 @@ export const VRForm = () => {
                 </select>
               </div>
               <div className={styles.VRFormSelectClass}>
-                <IconContext.Provider value={{ className: styles.VRFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.VRFormFormIcon }}
+                >
                   <BsCurrencyDollar />
                 </IconContext.Provider>
                 <select className={styles.VRFormSelectPart} name="" id="">
@@ -103,7 +113,9 @@ export const VRForm = () => {
                 </select>
               </div>
               <div className={styles.VRFormInputWithIcon}>
-                <IconContext.Provider value={{ className: styles.VRFormFormIcon }}>
+                <IconContext.Provider
+                  value={{ className: styles.VRFormFormIcon }}
+                >
                   <RiMessage2Fill />
                 </IconContext.Provider>
                 <input
@@ -166,4 +178,4 @@ export const VRForm = () => {
       </div>
     </div>
   );
-};
+}

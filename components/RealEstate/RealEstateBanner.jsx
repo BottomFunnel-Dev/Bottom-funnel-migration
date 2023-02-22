@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./RealEstateBanner.module.css";
 
-export const RealEstateBanner = () => {
+export default function RealEstateBanner() {
   const txtx = [
     {
       txt: "7K+",
@@ -23,12 +23,15 @@ export const RealEstateBanner = () => {
     <div className={styles.realestatebannermainbox}>
       <div className={styles.realestatebannersometextandimages}>
         <div className={styles.realestatebannersometext}>
-          <h1> Find Your Most<span> Comfortable Place</span> </h1>
+          <h1>
+            {" "}
+            Find Your Most<span> Comfortable Place</span>{" "}
+          </h1>
           <p>
             find a vanity of properties that suit you very easily forget all
             dificulties in finding a residence for you
           </p>
-          
+
           <div className={styles.textboxinsidetextrealestatebox}>
             {txtx.map((e) => {
               return (
@@ -43,4 +46,4 @@ export const RealEstateBanner = () => {
       </div>
     </div>
   );
-};
+}

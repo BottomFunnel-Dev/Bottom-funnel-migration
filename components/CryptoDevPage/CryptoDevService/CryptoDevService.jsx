@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CryptoDevService.module.css";
 import Image from "next/image";
 
-export const CryptoDevService = () => {
+export default function CryptoDevService() {
   const cardData = [
     {
       title: "Non-fungible tokens",
@@ -42,14 +42,14 @@ export const CryptoDevService = () => {
       </div>
       <div className={styles.CryptoDevServiceContainer}>
         <div className={styles.CryptoDevServiceImage}>
-        <Image
-          src={"/Images/CryptoDevPhotos/cryptoservice.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+          <Image
+            src={"/Images/CryptoDevPhotos/cryptoservice.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
         <div className={styles.CryptoDevServiceContent}>
           {cardData.map(({ title, body }, idx) => {
@@ -66,4 +66,4 @@ export const CryptoDevService = () => {
       </div>
     </div>
   );
-};
+}

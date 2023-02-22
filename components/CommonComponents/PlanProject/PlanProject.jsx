@@ -4,8 +4,6 @@ import styles from "./planProject.module.css";
 import { PopupForm } from "../PopupForm/PopupForm";
 
 const PlanProject = () => {
-
-
   return (
     <div className={styles.planProject}>
       <div>

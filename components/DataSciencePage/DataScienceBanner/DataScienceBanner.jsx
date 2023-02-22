@@ -1,11 +1,8 @@
-
 import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./DataScienceBanner.module.css";
 
-export const DataScienceBanner = () => {
- 
-
+export default function DataScienceBanner() {
   return (
     <div className={styles.DataScienceBannerMain}>
       <h1>
@@ -56,7 +53,6 @@ export const DataScienceBanner = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
-};
+}

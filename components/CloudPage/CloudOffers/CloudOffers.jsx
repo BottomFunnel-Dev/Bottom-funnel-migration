@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CloudOffers.module.css";
 import Image from "next/image";
 
-export const CloudOffers = () => {
+export default function CloudOffers() {
   return (
     <div className={styles.CloudOffersContainer}>
       <div className={styles.CloudOffersCards}>
@@ -24,14 +24,14 @@ export const CloudOffers = () => {
       <div className={styles.CloudOffersHeading}>
         <h2>Various Cloud</h2>
         <div>
-            <Image
-                src={"/Images/cloudPhotos/cloud.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+          <Image
+            src={"/Images/cloudPhotos/cloud.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
         <h2>Services We Offer</h2>
       </div>
@@ -51,4 +51,4 @@ export const CloudOffers = () => {
       </div>
     </div>
   );
-};
+}
