@@ -68,3 +68,81 @@
 .whychooseustxtbox > p {
   margin-top: 0%;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+  .fintechwhychooseus {
+  height: fit-content;
+  margin-top: 10%;
+}
+
+.fintechwhychooseusmainboxes {
+  height: fit-content;
+  display: flex;
+}
+
+.fintechwhychoosetextboxleft {
+  height: fit-content;
+  width: 40%;
+  height: 10%;
+  margin: 3% 2% 0% 3%;
+  border-right: 1px solid #ef4c23;
+}
+
+.fintechwhychoosetextboxleft>h1{
+  padding: 10px;
+}
+
+
+
+.fintechwhychoosetextboxright>p{
+  text-align: justify;
+}
+
+.fintechsolutionwhychooseusflexingbox {
+  height: fit-content;
+  width: 90%;
+ 
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.whychooseusaftermappingdatabox {
+  height: fit-content;
+  padding: 10px;
+  width: 95%;
+  display: flex;
+
+}
+
+.whychooseusaftermappingdatabox:hover {
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #bed0f1;
+}
+
+.whychooseusfintechlogobox {
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.whychooseustxtbox {
+  text-align: justify;
+}
+
+.whychooseustxtbox > h4 {
+  margin-top: 1%;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0%;
+}
+
+.whychooseustxtbox > p {
+  margin-top: 0%;
+}
+
+
+}

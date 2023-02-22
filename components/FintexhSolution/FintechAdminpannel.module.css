@@ -1,77 +1,157 @@
-.fintechsolutionadminpannelmainbox {
-  height: 80vh;
-margin-top: 50px;
-  display: flex;
+.fintechappsolutionmainboxes{
+height: fit-content;
+margin-bottom: 5%;
 }
 
-.fintechsolutionadminpannelleftbox {
+.fintechappsolutiontextboxes{
   height: fit-content;
-  width: 65%;
+  width: 46%;
+  margin-left: 4%;
+  
 }
-
-.fintechsolutionadminpannelrightboxes {
-  height: 400px;
-  width: 45%;
-  background: url("/Images/fintechsolutionpage/Rectangle 4788.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-background-size: 100% 70%;
-background-position-y: bottom;
-margin-top: 9%;
-}
-
-.fintechsolutionadminpannelrightboxes > img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
-
-.fintechsolutionadminpannelleftboxfortext {
-  height: fit-content;
-  width: 55%;
-
-  position: absolute;
-  text-align: justify;
-  left: 5%;
-}
-
-.fintechsolutionadminpannelleftboxfortext span{
+.fintechappsolutiontextboxes>h2>span{
   color: #ef4c23;
 }
 
-.adminpannelfintechsolutionwheremap {
+.fintechappsolutiondataboxes{
+  display: flex;
+}
+.fintechappsolutionleftboxes{
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
+  margin-left: 3%;
+
 }
 
-.fintechsolutionmappingdataadminpannel {
-  width: 44%;
-  height: 200px;
+.fintechdatamappingindi{
+  width: 48%;
+  margin: 1%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
-  margin: 1%;
-  display: flex;
   padding: 10px;
 }
 
-.fintechsolutionmappingdataadminpannel:hover {
+.fintechdatamappingindi:hover{
   transition: all 0.2s linear;
-  transform: translateY(-10px);
-    background-color: #bed0f1;
+transform: translateY(-10px);
+  background-color: #bed0f1;
 }
 
-.fintechsolutionmappingadmindata > h4 {
-  margin-top: 1%;
+.fintechdatamappinginditxtandicon{
+  display: flex;
+}
+
+.fintechdataiconmappingindi{
+  height: 15%;
+  width: 15%;
+}
+
+.fintechdatahtxtmappingindi{
+  padding: 10px;
+}
+
+.fintechappsolutionrightboxes{
+  width: 47%;
   margin-left: 1%;
+  background: url("/Images/fintechsolutionpage/Rectangle 4788.webp");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: contain;
 }
 
-.fintechsolutionmappingadmindata > p {
-  margin-top: 0%;
+.fintechappsolutionadminpannelimage{
+  height: 90%;
+  width: 90%;
+  margin: auto;
 }
 
-.fintechadminlogo {
-  margin: 1%;
-  padding: 1%;
-  width: 40%;
-  /* border: 1px solid red; */
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+  .fintechappsolutionmainboxes{
+    height: fit-content;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    }
+    
+    .fintechappsolutiontextboxes{
+      height: fit-content;
+      width: 90%;
+    margin: auto;
+      
+    }
+
+.fintechappsolutiontextboxes>h2{
+  text-align: center;
 }
+
+.fintechappsolutiontextboxes>p{
+  text-align: justify;
+}
+
+    .fintechappsolutiontextboxes>h2>span{
+      color: #ef4c23;
+    }
+    
+    .fintechappsolutiondataboxes{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .fintechappsolutionleftboxes{
+      width: 95%;
+      display: flex;
+      flex-wrap: wrap;
+  height: 350px;
+  overflow-y: scroll;
+    margin-top: 3%;
+    
+    }
+    
+    .fintechdatamappingindi{
+      width: 95%;
+      margin: 1%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    
+    .fintechdatamappingindi:hover{
+      transition: all 0.2s linear;
+    transform: translateY(-10px);
+      background-color: #bed0f1;
+    }
+    
+    .fintechdatamappinginditxtandicon{
+      display: flex;
+    }
+    
+    .fintechdataiconmappingindi{
+      height: 15%;
+      width: 15%;
+    }
+    
+    .fintechdatahtxtmappingindi{
+      padding: 10px;
+    }
+    
+    .fintechappsolutionrightboxes{
+      width: 98%;
+  
+      background: url("/Images/fintechsolutionpage/Rectangle 4788.webp");
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
+      background-size: contain;
+    }
+    
+    .fintechappsolutionadminpannelimage{
+      height: 90%;
+      width: 90%;
+      margin: auto;
+    }
+
+
+  }

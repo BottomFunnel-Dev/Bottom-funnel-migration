@@ -76,6 +76,94 @@ transform: translateY(-10px);
   object-fit: contain;
 }
 
+.specialtxtdriver {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.txtdriverappfintech > h4 {
+  margin-top: 1%;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+/* .fintechsolutiondriverappmainbox {
+  position: relative;
+} */
+
+
+.fintechdriverappboxfortext>h2{
+margin-left: -30%;
+font-weight: 700;
+font-size: 25px;
+
+}
+
+.fintedriverappfelxingboxupper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fintedriverappfelxingboxupperleft {
+  height: 300px;
+  width: 100%;
+  margin-top: 15%;
+  background: url("/Images/fintechsolutionpage/Rectangle 4789.webp");
+  background-size: contain;
+  background-position-y: bottom;
+  background-position-x: left;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.fintechdriverappleftsectionformobile {
+  position: absolute;
+  height: 90%;
+  width: 40%;
+  left: 22%;
+}
+
+
+.fintechdriverappflexright {
+  height: fit-content;
+  width: 95%;
+margin-top: 5%;
+height: 300px;
+overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fintechdriverappboxesaftermapping {
+  height: fit-content;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.fintechdriverappboxesaftermapping:hover {
+  transition: all 0.2s linear;
+transform: translateY(-10px);
+  background-color: #bed0f1;
+}
+
+.logofintechdriverapp {
+  margin: 2%;
+  width: 50%;
+  height: 50%;
+  /* border: 1px solid red; */
+}
+
+.logofintechdriverapp>img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 
 .specialtxtdriver {
   color: #ef4c23;
@@ -85,3 +173,5 @@ transform: translateY(-10px);
 .txtdriverappfintech > h4 {
   margin-top: 1%;
 }
+}
+

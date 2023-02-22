@@ -64,3 +64,89 @@
   font-weight: 400;
   /* border: 1px solid red; */
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+  .fintechsolutionexclusivemainboxes {
+  height: fit-content;
+ 
+  position: relative;
+}
+
+.fintechsolutionexclusivetextboxheader {
+  height: fit-content;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  display: flex;
+  right: 3%;
+ 
+}
+
+.fintechexclusiveleftboxfortext {
+  width: 25%;
+  border-right: 2px solid #ef4c23;
+  margin-left: 4%;
+  
+}
+
+.fintechexclusiveleftboxfortext>h1{
+  font-size: 14px;
+  padding: 10px;
+}
+
+.specialtextcolored {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.fintechexclusiverightboxfortext {
+  margin-left: 3%;
+
+}
+
+.fintechexclusiverightboxfortext>p{
+  font-size: 14px;
+}
+
+.flexingboxoffintechexclusive {
+  height: fit-content;
+  width: 90%;
+  margin: auto;
+  margin-top: 50%;
+ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fintechsolutionsflexingboxaftermapping {
+  height: fit-content;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.fintechsolutionsflexingboxaftermapping:hover {
+  transform: scale(1.02);
+  background-color: #bed0f1;
+}
+
+.fintechsolutionsflexingboxaftermapping > h3 {
+  /* border: 1px solid red; */
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fintechsolutionsflexingboxaftermapping > p {
+  margin-top: 0%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  /* border: 1px solid red; */
+}
+}
+
