@@ -91,3 +91,99 @@ transform: translateY(-10px);
   margin-top: 1%;
   font-size: 14px;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.fintechsolutioncustomerappmainbox {
+  height: fit-content;
+  position: relative;
+}
+
+.fintechcustomerappboxfortext {
+  position: absolute;
+  height: fit-content;
+  width: 50%;
+  top: 3%;
+  left: 25%;
+}
+
+.fintecustomerappfelxingboxupper {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.fintecustomerappfelxingboxupperleft {
+  height: 400px;
+  width: 100%;
+  margin-top: 5%;
+  background: url("/Images/fintechsolutionpage/Ellipse 65.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.fintechcustomerappleftsectionformobile {
+  position: absolute;
+  height: 90%;
+  width: 40%;
+  left: 30%;
+  top: 15%;
+}
+
+.fintechcustomerappflexright {
+  height: 300px;
+  overflow-x: scroll;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fintechcustomerappboxesaftermapping {
+  height: fit-content;
+  width: 90%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: auto;
+margin-top: 5%;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.fintechcustomerappboxesaftermapping:hover {
+transition: all 0.2s linear;
+transform: translateY(-10px);
+  background-color: #bed0f1;
+}
+
+.logofintechcustomerapp {
+  margin: 2%;
+  width: 40%;
+  height: 22%;
+  /* border: 1px solid red; */
+}
+
+.logofintechcustomerapp > img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.specialtxt {
+  color: #ef4c23;
+  text-decoration: none;
+}
+
+.txtcustomerappfintech > h4 {
+  margin-top: 2%;
+}
+
+.txtcustomerappfintech > p {
+  margin-top: 1%;
+  font-size: 14px;
+}
+
+
+}

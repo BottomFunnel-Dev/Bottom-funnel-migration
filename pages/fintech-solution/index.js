@@ -30,9 +30,9 @@ export default function FintechSolutions() {
         <FinTechSolutionBanner />
         <FintechExclusive />
         <FintechCustomerApp />
-        <FintechAdminpannel />
-        <FintechDriverApp />
-        <FintechWhyChooseUs />
+         <FintechAdminpannel />
+       <FintechDriverApp />
+       <FintechWhyChooseUs /> 
       </main>
     </div>
   );
