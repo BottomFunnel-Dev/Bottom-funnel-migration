@@ -3,7 +3,7 @@ import styles from "./ottAdminPannel.module.css";
 
 export default function OttAdminPannel() {
   const [imageChange, setImageChange] = useState(
-    "Images/ott-app/MacBookPro1.webp",
+    "Images/ott-app/ha/Group 1000002417.webp",
   );
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
@@ -11,21 +11,27 @@ export default function OttAdminPannel() {
 
   const OttAdminPannelData = [
     {
-      img: "/Images/ott-app/Group901188.webp",
+      img: "/Images/ott-app/ha/Group 1000002417.webp",
       head: "Dashboard",
       para: "To check without the listing",
     },
 
     {
-      img: "/Images/ott-app/Group901187.webp",
+      img: "/Images/ott-app/ha/Group 1261152765.webp",
       head: "Analytics",
       para: "Check system with the same",
     },
 
     {
-      img: "/Images/ott-app/Group901188.webp",
+      img: "/Images/ott-app/ha/Group 1261152766.webp",
       head: "Categories",
       para: "Separate categories for shows",
+    },
+
+    {
+      img: "/Images/ott-app/ha/Group 1261152782.webp",
+      head: "Payments",
+      para: "Separate Payments for shows",
     },
   ];
 
@@ -46,10 +52,10 @@ export default function OttAdminPannel() {
           return (
             <div
               className={styles.ottAdminPannelLeftDivForCards}
-              // key={e.head}
-              // onMouseEnter={() => {
-              //   handleImageChange(e.img);
-              // }}
+              key={e.head}
+              onMouseEnter={() => {
+                handleImageChange(e.img);
+              }}
             >
               <h5>{e.head}</h5>
               <p>{e.para}</p>
