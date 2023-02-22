@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import Image from "next/image";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-export const CryptoDevSlider = () => {
+export default function CryptoDevSlider() {
   const data = [
     "/Images/CryptoDevPhotos/slidericons/angular.png",
     "/Images/CryptoDevPhotos/slidericons/bitcoin.png",
@@ -83,7 +83,7 @@ export const CryptoDevSlider = () => {
               key={index}
             >
               <div className={styles.CryptoDevSliderimagetage}>
-              <Image
+                <Image
                   src={elem}
                   alt={"image"}
                   width={"0"}
@@ -91,11 +91,11 @@ export const CryptoDevSlider = () => {
                   sizes={"100vw"}
                   style={{ width: "100%", height: "100%" }}
                 />
-                </div>
+              </div>
             </div>
           );
         })}
       </Slider>
     </div>
   );
-};
+}

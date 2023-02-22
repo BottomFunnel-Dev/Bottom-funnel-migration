@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CustomWebWhyBF.module.css";
 import Image from "next/image";
 
-export const CustomWebWhyBF = () => {
+export default function CustomWebWhyBF() {
   const cardData = [
     {
       title: "Our Team Are In-Demand",
@@ -54,17 +54,16 @@ export const CustomWebWhyBF = () => {
           })}
         </div>
         <div className={styles.CustomWebWhyBFImage}>
-            <Image
-                  src={"/Images/customWebPhotos/whyBF.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
-      
+          <Image
+            src={"/Images/customWebPhotos/whyBF.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>
   );
-};
+}

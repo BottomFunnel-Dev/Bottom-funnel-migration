@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CryptoDevcurrency.module.css";
 import Image from "next/image";
 
-export const CryptoDevcurrency = () => {
+export default function CryptoDevcurrency() {
   return (
     <div className={styles.CryptoDevcurrencyContainer}>
       <div className={styles.CryptoDevcurrencyMain}>
@@ -29,28 +29,28 @@ export const CryptoDevcurrency = () => {
       </div>
       <div className={styles.CryptoDevcurrencyImagesContainer}>
         <div>
-        <Image
-          src={"/Images/CryptoDevPhotos/bitcoin-coin.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+          <Image
+            src={"/Images/CryptoDevPhotos/bitcoin-coin.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
           <h2>Side Chain Wallet Development</h2>
         </div>
         <div>
-        <Image
-          src={"/Images/CryptoDevPhotos/blockchain.webp"}
-          alt={"image"}
-          width={"0"}
-          height={"0"}
-          sizes={"100vw"}
-          style={{ width: "100%", height: "100%" }}
-        />
+          <Image
+            src={"/Images/CryptoDevPhotos/blockchain.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
           <h2>Alternative block chain</h2>
         </div>
       </div>
     </div>
   );
-};
+}

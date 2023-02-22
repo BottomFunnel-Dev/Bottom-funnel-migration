@@ -3,13 +3,53 @@ import styles from "./CustomisedWebPage.module.css";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 
-import { CustomisedWebBanner } from "../../components/CustomisedWebPage/CustomisedWebBanner/CustomisedWebBanner";
-import { CustomisedWebUnique } from "../../components/CustomisedWebPage/CustomisedWebUnique/CustomisedWebUnique";
-import { CustomisedWebServices } from "../../components/CustomisedWebPage/CustomisedWebServices/CustomisedWebServices";
-import { CustomWebSolutions } from "../../components/CustomisedWebPage/CustomWebSolutions/CustomWebSolutions";
-import { CustomWebMidBanner } from "../../components/CustomisedWebPage/CustomWebMidBanner/CustomWebMidBanner";
-import { CustomWebWhyBF } from "../../components/CustomisedWebPage/CustomWebWhyBF/CustomWebWhyBF";
-import { CustomWebSlider } from "../../components/CustomisedWebPage/CustomWebSlider/CustomWebSlider";
+const CustomisedWebBanner = dynamic(
+  () =>
+    import(
+      "../../components/CustomisedWebPage/CustomisedWebBanner/CustomisedWebBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const CustomisedWebUnique = dynamic(
+  () =>
+    import(
+      "../../components/CustomisedWebPage/CustomisedWebUnique/CustomisedWebUnique"
+    ),
+  { loading: () => "loading..." },
+);
+const CustomisedWebServices = dynamic(
+  () =>
+    import(
+      "../../components/CustomisedWebPage/CustomisedWebServices/CustomisedWebServices"
+    ),
+  { loading: () => "loading..." },
+);
+const CustomWebSolutions = dynamic(
+  () =>
+    import(
+      "../../components/CustomisedWebPage/CustomWebSolutions/CustomWebSolutions"
+    ),
+  { loading: () => "loading..." },
+);
+const CustomWebMidBanner = dynamic(
+  () =>
+    import(
+      "../../components/CustomisedWebPage/CustomWebMidBanner/CustomWebMidBanner"
+    ),
+  { loading: () => "loading..." },
+);
+const CustomWebWhyBF = dynamic(
+  () =>
+    import("../../components/CustomisedWebPage/CustomWebWhyBF/CustomWebWhyBF"),
+  { loading: () => "loading..." },
+);
+const CustomWebSlider = dynamic(
+  () =>
+    import(
+      "../../components/CustomisedWebPage/CustomWebSlider/CustomWebSlider"
+    ),
+  { loading: () => "loading..." },
+);
 const CustomWebForm = dynamic(
   () =>
     import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),

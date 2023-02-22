@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CryptoDevApproach.module.css";
 import { CryptoDevApproachDottedline } from "./CryptoDevApproachDottedline/CryptoDevApproachDottedline";
 
-export const CryptoDevApproach = () => {
+export default function CryptoDevApproach() {
   return (
     <div className={styles.CryptoDevApproachContainer}>
       <h1>Our Crypto Development Approach</h1>
@@ -125,4 +125,4 @@ export const CryptoDevApproach = () => {
       </div>
     </div>
   );
-};
+}

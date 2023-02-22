@@ -1,14 +1,39 @@
 import React from "react";
-import { RealEstateBanner } from "../../components/RealEstate/RealEstateBanner";
-import { RealEstateNextBanner } from "../../components/RealEstate/RealEstateNextBanner";
-import { RealEstateSolution } from "../../components/RealEstate/RealEstateSolution";
-import { RealEstateCustomer } from "../../components/RealEstate/RealEstateCustomer";
-import { RealEstateAdminPannel } from "../../components/RealEstate/RealEstateAdminPannel";
-import { RealEstateDriver } from "../../components/RealEstate/RealEstateDriver";
-import { Realestatelowerbanner } from "../../components/RealEstate/Realestatelowerbanner";
-import { Realestatewhychoose } from "../../components/RealEstate/Realestatewhychoose";
-
 import Head from "next/head";
+import dynamic from "next/dynamic";
+
+const RealEstateBanner = dynamic(
+  () => import("../../components/RealEstate/RealEstateBanner"),
+  { loading: () => "loading..." },
+);
+const RealEstateNextBanner = dynamic(
+  () => import("../../components/RealEstate/RealEstateNextBanner"),
+  { loading: () => "loading..." },
+);
+const RealEstateSolution = dynamic(
+  () => import("../../components/RealEstate/RealEstateSolution"),
+  { loading: () => "loading..." },
+);
+const RealEstateCustomer = dynamic(
+  () => import("../../components/RealEstate/RealEstateCustomer"),
+  { loading: () => "loading..." },
+);
+const RealEstateAdminPannel = dynamic(
+  () => import("../../components/RealEstate/RealEstateAdminPannel"),
+  { loading: () => "loading..." },
+);
+const RealEstateDriver = dynamic(
+  () => import("../../components/RealEstate/RealEstateDriver"),
+  { loading: () => "loading..." },
+);
+const Realestatelowerbanner = dynamic(
+  () => import("../../components/RealEstate/Realestatelowerbanner"),
+  { loading: () => "loading..." },
+);
+const Realestatewhychoose = dynamic(
+  () => import("../../components/RealEstate/Realestatewhychoose"),
+  { loading: () => "loading..." },
+);
 
 export default function RealEstate() {
   return (
@@ -32,7 +57,7 @@ export default function RealEstate() {
         <RealEstateAdminPannel />
         <RealEstateDriver />
         <Realestatelowerbanner />
-      <Realestatewhychoose />
+        <Realestatewhychoose />
       </main>
     </div>
   );

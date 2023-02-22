@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { PopupForm } from "../PopupForm/PopupForm";
 
-export const TaxiBookingBanner = () => {
+export default function TaxiBookingBanner() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -74,4 +74,4 @@ export const TaxiBookingBanner = () => {
       </div>
     </div>
   );
-};
+}

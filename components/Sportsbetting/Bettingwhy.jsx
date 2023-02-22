@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./bettingwhy.module.css";
 
-export const Bettingwhy = () => {
+export default function Bettingwhy() {
   const bettingwhydata = [
     {
       cardtitle: "100% Customzation",
@@ -61,4 +61,4 @@ export const Bettingwhy = () => {
       </div>
     </div>
   );
-};
+}

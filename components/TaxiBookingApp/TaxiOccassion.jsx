@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 import styles from "./TaxiOccassion.module.css";
 
-export const TaxiOccassion = () => {
+export default function TaxiOccassion() {
   return (
     <div className={styles.taxioccasioncontainer}>
       <div className={styles.taxioccasionsub}>
@@ -14,7 +14,8 @@ export const TaxiOccassion = () => {
           <div className={styles.sztaxicard}>
             <div className={styles.sztaxioccasion1}>
               <div className={styles.szoccassionimage}>
-                <Image src={"/Images/Taxibooking/Component 10.webp"}
+                <Image
+                  src={"/Images/Taxibooking/Component 10.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -27,12 +28,14 @@ export const TaxiOccassion = () => {
               <p>
                 we work closely with many taxi companies to find the most
                 affordable rates around. Being in a hurry, or just plain lazy,
-                can put you off booking car rides online with smooth and easy process.
+                can put you off booking car rides online with smooth and easy
+                process.
               </p>
               <div className={styles.sztaxiride}>
                 <div>
                   <div className={styles.sztaxiac}>
-                    <Image src={"/Images/Taxibooking/winter.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/winter.webp"}
                       width={"0"}
                       height={"0"}
                       sizes={"100vw"}
@@ -44,7 +47,8 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxipocket}>
-                    <Image src={"/Images/Taxibooking/cost.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/cost.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -57,7 +61,8 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxicost}>
-                    <Image src={"/Images/Taxibooking/rupee.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/rupee.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -72,7 +77,8 @@ export const TaxiOccassion = () => {
 
             <div className={styles.sztaxioccasion2}>
               <div className={styles.szoccassionimage}>
-                <Image src={"/Images/Taxibooking/Component 9.webp"}
+                <Image
+                  src={"/Images/Taxibooking/Component 9.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -92,7 +98,8 @@ export const TaxiOccassion = () => {
               <div className={styles.sztaxiride}>
                 <div>
                   <div className={styles.sztaxitrip}>
-                    <Image src={"/Images/Taxibooking/route.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/route.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -105,7 +112,8 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxibook}>
-                    <Image src={"/Images/Taxibooking/booking.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/booking.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -118,7 +126,8 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxisafe}>
-                    <Image src={"/Images/Taxibooking/car.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/car.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -133,7 +142,8 @@ export const TaxiOccassion = () => {
 
             <div className={styles.sztaxioccasion3}>
               <div className={styles.szoccassionimage}>
-                <Image src={"/Images/Taxibooking/Component 8.webp"}
+                <Image
+                  src={"/Images/Taxibooking/Component 8.webp"}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
@@ -152,7 +162,8 @@ export const TaxiOccassion = () => {
               <div className={styles.sztaxiride}>
                 <div>
                   <div className={styles.sztaxihour}>
-                    <Image src={"/Images/Taxibooking/Sand Timer.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/Sand Timer.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -165,7 +176,8 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxistop}>
-                    <Image src={"/Images/Taxibooking/segment.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/segment.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -178,7 +190,8 @@ export const TaxiOccassion = () => {
 
                 <div>
                   <div className={styles.sztaxirate}>
-                    <Image src={"/Images/Taxibooking/police-hat.webp"}
+                    <Image
+                      src={"/Images/Taxibooking/police-hat.webp"}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
@@ -188,7 +201,6 @@ export const TaxiOccassion = () => {
                   </div>
 
                   <p> Top-Rated Partners </p>
-                  
                 </div>
               </div>
             </div>
@@ -197,4 +209,4 @@ export const TaxiOccassion = () => {
       </div>
     </div>
   );
-};
+}

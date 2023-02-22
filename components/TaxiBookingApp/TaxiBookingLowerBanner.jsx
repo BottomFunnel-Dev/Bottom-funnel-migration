@@ -1,15 +1,20 @@
-import React from 'react';
+import React from "react";
 import styles from "./TaxiBookingLowerBanner.module.css";
 
-export const TaxiBookingLowerBanner = () => {
+export default function TaxiBookingLowerBanner() {
   return (
     <div className={styles.taxibookinglowerbannermainbox}>
       <div className={styles.taxibookinglowerbannertxtbox}>
-        <h1> Build a high revenue generating online taxi booking business today! </h1>
+        <h1>
+          {" "}
+          Build a high revenue generating online taxi booking business today!{" "}
+        </h1>
 
-        <button className={styles.taxibookinglowerbannerbutton}> Get Started </button>
+        <button className={styles.taxibookinglowerbannerbutton}>
+          {" "}
+          Get Started{" "}
+        </button>
       </div>
-
     </div>
-  )
+  );
 }

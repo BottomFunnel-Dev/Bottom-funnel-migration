@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CloudStats.module.css";
 
-export const CloudStats = () => {
+export default function CloudStats() {
   return (
     <div className={styles.CloudStatsContainer}>
       <h2>
@@ -21,4 +21,4 @@ export const CloudStats = () => {
       </h2>
     </div>
   );
-};
+}

@@ -3,11 +3,10 @@ import React, { useState } from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./CryptoDevBanner.module.css";
 
-export const CryptoDevBanner = () => {
+export default function CryptoDevBanner() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
 
   const style = {
     position: "absolute",
@@ -25,7 +24,6 @@ export const CryptoDevBanner = () => {
   };
   return (
     <div className={styles.CryptoDevBannerMain}>
-    
       <h1>
         <span>Cryptocurrency</span> Development Services
       </h1>
@@ -61,4 +59,4 @@ export const CryptoDevBanner = () => {
       </Modal>
     </div>
   );
-};
+}

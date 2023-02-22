@@ -3,13 +3,44 @@ import styles from "./CryptoDevPage.module.css";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 
-import { CryptoDevBanner } from "../../components/CryptoDevPage/CryptoDevBanner/CryptoDevBanner";
-import { CryptoDevcurrency } from "../../components/CryptoDevPage/CryptoDevcurrency/CryptoDevcurrency";
-import { CryptoDevBenefit } from "../../components/CryptoDevPage/CryptoDevBenefit/CryptoDevBenefit";
-import { CryptoDevApproach } from "../../components/CryptoDevPage/CryptoDevApproach/CryptoDevApproach";
-import { CryptoDevService } from "../../components/CryptoDevPage/CryptoDevService/CryptoDevService";
-import { CryptoDevWhyBF } from "../../components/CryptoDevPage/CryptoDevWhyBF/CryptoDevWhyBF";
-import { CryptoDevSlider } from "../../components/CryptoDevPage/CryptoDevSlider/CryptoDevSlider";
+const CryptoDevBanner = dynamic(
+  () =>
+    import("../../components/CryptoDevPage/CryptoDevBanner/CryptoDevBanner"),
+  { loading: () => "loading..." },
+);
+const CryptoDevcurrency = dynamic(
+  () =>
+    import(
+      "../../components/CryptoDevPage/CryptoDevcurrency/CryptoDevcurrency"
+    ),
+  { loading: () => "loading..." },
+);
+const CryptoDevBenefit = dynamic(
+  () =>
+    import("../../components/CryptoDevPage/CryptoDevBenefit/CryptoDevBenefit"),
+  { loading: () => "loading..." },
+);
+const CryptoDevApproach = dynamic(
+  () =>
+    import(
+      "../../components/CryptoDevPage/CryptoDevApproach/CryptoDevApproach"
+    ),
+  { loading: () => "loading..." },
+);
+const CryptoDevService = dynamic(
+  () =>
+    import("../../components/CryptoDevPage/CryptoDevService/CryptoDevService"),
+  { loading: () => "loading..." },
+);
+const CryptoDevWhyBF = dynamic(
+  () => import("../../components/CryptoDevPage/CryptoDevWhyBF/CryptoDevWhyBF"),
+  { loading: () => "loading..." },
+);
+const CryptoDevSlider = dynamic(
+  () =>
+    import("../../components/CryptoDevPage/CryptoDevSlider/CryptoDevSlider"),
+  { loading: () => "loading..." },
+);
 const CustomWebForm = dynamic(
   () =>
     import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),

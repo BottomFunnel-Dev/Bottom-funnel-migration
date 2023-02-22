@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./CryptoDevBenefit.module.css";
 import Image from "next/image";
 
-export const CryptoDevBenefit = () => {
+export default function CryptoDevBenefit() {
   const cardsData = [
     {
       title: "Reduced Transaction Charges",
@@ -54,4 +54,4 @@ export const CryptoDevBenefit = () => {
       </div>
     </div>
   );
-};
+}

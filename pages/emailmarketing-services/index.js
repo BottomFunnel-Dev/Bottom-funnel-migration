@@ -1,11 +1,27 @@
 import React from "react";
-
-import SeoEmailSection from "../../components/SeoEmail/SeoEmailSection";
-import Reviews from "../../components/SEO/SeoReviews/Reviews";
-import Seostats from "../../components/SEO/Seostats/Seostats";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
+import dynamic from "next/dynamic";
 import { dmpagesLogo } from "../../components/Data/SeopartnerData";
-import SeoServices from "../../components/SEO/SeoServices/SeoServices";
+
+const SeoEmailSection = dynamic(
+  () => import("../../components/SeoEmail/SeoEmailSection"),
+  { loading: () => "loading..." },
+);
+const Reviews = dynamic(
+  () => import("../../components/SEO/SeoReviews/Reviews"),
+  { loading: () => "loading..." },
+);
+const Seostats = dynamic(
+  () => import("../../components/SEO/Seostats/Seostats"),
+  { loading: () => "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: () => "loading..." },
+);
+const SeoServices = dynamic(
+  () => import("../../components/SEO/SeoServices/SeoServices"),
+  { loading: () => "loading..." },
+);
 
 import Head from "next/head";
 

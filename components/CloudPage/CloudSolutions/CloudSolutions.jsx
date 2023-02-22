@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "./CloudSolutions.module.css";
 import Image from "next/image";
-import { style } from "@mui/system";
 
-export const CloudSolutions = () => {
+export default function CloudSolutions() {
   const cardsData = [
     {
       title: "Cloud adoption strategy",
@@ -41,25 +40,25 @@ export const CloudSolutions = () => {
     <div className={styles.CloudSolutionsContainer}>
       <div className={styles.CloudSolutionsBackgroundRectangle}>
         <div className={styles.CloudSolutionsImage1}>
-            <Image
-                src={"/Images/MLPhotos/rectangle-top.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
-          </div>
-          <div className={styles.CloudSolutionsImage2}>
-            <Image
-                src={"/Images/MLPhotos/rectangle-bottom.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
-          </div>
+          <Image
+            src={"/Images/MLPhotos/rectangle-top.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
+        <div className={styles.CloudSolutionsImage2}>
+          <Image
+            src={"/Images/MLPhotos/rectangle-bottom.webp"}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+        </div>
       </div>
       <div className={styles.CloudSolutionsMain}>
         <h1>
@@ -75,7 +74,7 @@ export const CloudSolutions = () => {
             return (
               <div key={title} className={styles.CloudSolutionsCardsMain}>
                 <div>
-                <Image
+                  <Image
                     src={image}
                     alt={title}
                     width={"0"}
@@ -93,4 +92,4 @@ export const CloudSolutions = () => {
       </div>
     </div>
   );
-};
+}

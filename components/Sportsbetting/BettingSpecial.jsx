@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./bettingSpecial.module.css";
 
-export const BettingSpecial = () => {
+export default function BettingSpecial() {
   const apps = [
     {
       title: "Singles",
@@ -57,4 +57,4 @@ export const BettingSpecial = () => {
       </div>
     </div>
   );
-};
+}

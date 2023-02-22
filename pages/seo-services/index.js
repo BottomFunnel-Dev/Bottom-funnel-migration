@@ -1,15 +1,38 @@
 import React from "react";
 import { dmpagesLogo } from "../../components/Data/SeopartnerData";
-
-import Seosection from "../../components/SEO/SEO section/Seosection";
-import Seostats from "../../components/SEO/Seostats/Seostats";
-import Reviews from "../../components/SEO/SeoReviews/Reviews";
-import Seotrusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
-import Trusted from "../../components/SEO/SeoTrustedCompanies/Seotrusted";
-import EnquiryNow from "../../components/SEO/EnquiryNow/EnquiryNow";
-import SeoServices from "../../components/SEO/SeoServices/SeoServices";
-
 import Head from "next/head";
+import dynamic from "next/dynamic";
+
+const Seosection = dynamic(
+  () => import("../../components/SEO/SEO section/Seosection"),
+  {
+    loading: () => "loading...",
+  },
+);
+const Seostats = dynamic(
+  () => import("../../components/SEO/Seostats/Seostats"),
+  { loading: () => "loading..." },
+);
+const Reviews = dynamic(
+  () => import("../../components/SEO/SeoReviews/Reviews"),
+  { loading: () => "loading..." },
+);
+const Seotrusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: () => "loading..." },
+);
+const Trusted = dynamic(
+  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  { loading: () => "loading..." },
+);
+const EnquiryNow = dynamic(
+  () => import("../../components/SEO/EnquiryNow/EnquiryNow"),
+  { loading: () => "loading..." },
+);
+const SeoServices = dynamic(
+  () => import("../../components/SEO/SeoServices/SeoServices"),
+  { loading: () => "loading..." },
+);
 
 export default function SEOMainPage() {
   return (
