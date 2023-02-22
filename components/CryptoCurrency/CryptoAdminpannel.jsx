@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./CryptoAdminpannel.module.css";
 import Image from "next/image";
 
-export const CryptoAdminpannel = () => {
+export default function CryptoAdminpannel() {
   const [imageChange, setImageChange] = useState(
     "/Images/Cryptocurrencypage/adminpanelscreens/Dashboard.webp",
   );
@@ -48,19 +48,18 @@ export const CryptoAdminpannel = () => {
               className={styles.cryptoadminboxingindivisually}
               key={e.txt}
               onMouseEnter={() => {
-                // console.log(e);
                 handleImageChange(e.image);
               }}
             >
               <div className={styles.cryptoadminboxingindivisuallylogo}>
                 <Image
-                    src={e.logo}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                  />
+                  src={e.logo}
+                  alt={"image"}
+                  width={"0"}
+                  height={"0"}
+                  sizes={"100vw"}
+                  style={{ width: "100%", height: "100%" }}
+                />
               </div>
               <div className={styles.cryptoadminboxingindivisuallyfortxt}>
                 <h4>{e.title}</h4>
@@ -73,16 +72,16 @@ export const CryptoAdminpannel = () => {
 
       <div className={styles.cryptocurrencyadminrightboxing}>
         <div className={styles.cryptoadminpannelrightboxingfortab}>
-            <Image
-                src={imageChange}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+          <Image
+            src={imageChange}
+            alt={"image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>
   );
-};
+}

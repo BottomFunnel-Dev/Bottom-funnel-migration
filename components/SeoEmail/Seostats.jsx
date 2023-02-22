@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import styles from './Seostats.module.css';
+import styles from "./Seostats.module.css";
 import { useInView } from "react-intersection-observer";
 
 export default function Seostats() {
-
   const { ref, inview } = useInView({
-    threshold: 0
+    threshold: 0,
   });
 
   const [num, setnum] = useState(0);
@@ -33,25 +32,26 @@ export default function Seostats() {
   if (g === 1500) {
     clearInterval(interval);
   }
-  console.log(inview)
-
 
   return (
     <div ref={ref} className={styles.seostats} inview={inview}>
       <div className={styles.seostats1}>
-        <span> {p}+</span><br />
+        <span> {p}+</span>
+        <br />
         Professional SEO Experts
       </div>
 
       <div className={styles.seostats1}>
-        <span>${num}+</span><br />
+        <span>${num}+</span>
+        <br />
         Million Media Spend Managed
       </div>
 
       <div className={styles.seostats2}>
-        <span> {g}+</span><br />
+        <span> {g}+</span>
+        <br />
         Global clients
       </div>
     </div>
   );
-};
+}

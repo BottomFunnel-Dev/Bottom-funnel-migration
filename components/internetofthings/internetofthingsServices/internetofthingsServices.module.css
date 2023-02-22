@@ -1,0 +1,71 @@
+.internetofthingsServicesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 2% 0;
+}
+
+.internetofthingsServicesContainer > div {
+  width: 60%;
+  text-align: left;
+}
+
+.internetofthingsServicesContainer > div > h1 {
+  font-size: 32px;
+}
+
+.internetofthingsServicesContainer > div > p {
+  font-size: 20px;
+}
+
+.internetofthingsServicesContainer > div > div {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.internetofthingServicesCards {
+  width: 40%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.internetofthingServicesCards > div {
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 20px;
+  border: 1px solid #ef4c23;
+  border-radius: 100px;
+  margin-top: -10%;
+  margin-left: -10%;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.internetofthingServicesCards > div > span {
+  height: 50px;
+  width: fit-content;
+}
+
+.internetofthingServicesCards > div > h2 {
+  font-size: 25px;
+  width: fit-content;
+}
+
+.internetofthingServicesCards > p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.internetofthingsServicesContainer > span {
+  width: 20%;
+  height: fit-content;
+}

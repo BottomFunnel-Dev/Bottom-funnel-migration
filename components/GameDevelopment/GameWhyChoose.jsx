@@ -2,18 +2,18 @@ import Image from "next/image";
 import React from "react";
 import styles from "./GameWhyChoose.module.css";
 
-export const GameWhyChoose = () => {
+export default function GameWhyChoose() {
   return (
     <div className={styles.gamewhychoosemainbox}>
       <div className={styles.whychoosegameflexingleftboxing}>
-          <Image
-            src={"/Images/gamedevelopmentpage/Mask group.webp"}
-            alt={"Image"}
-            width={"0"}
-            height={"0"}
-            sizes={"100vw"}
-            style={{ width: "100%", height: "100%" }}
-          />
+        <Image
+          src={"/Images/gamedevelopmentpage/Mask group.webp"}
+          alt={"Image"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"}
+          style={{ width: "100%", height: "100%" }}
+        />
         <div className={styles.positionabsoulteboxinnerwhychoose1}>
           <div className={styles.positionabsoulteboxinnerwhychoose1logo}>
             <Image
@@ -30,7 +30,7 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose2}>
           <div className={styles.positionabsoulteboxinnerwhychoose2logo}>
-           <Image
+            <Image
               src={"/Images/gamedevelopmentpage/Vector.webp"}
               alt={"Image"}
               width={"0"}
@@ -44,7 +44,7 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose3}>
           <div className={styles.positionabsoulteboxinnerwhychoose3logo}>
-           <Image
+            <Image
               src={"/Images/gamedevelopmentpage/Team.webp"}
               alt={"Image"}
               width={"0"}
@@ -58,7 +58,7 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose4}>
           <div className={styles.positionabsoulteboxinnerwhychoose4logo}>
-           <Image
+            <Image
               src={"/Images/gamedevelopmentpage/Curved Arrow.webp"}
               alt={"Image"}
               width={"0"}
@@ -72,7 +72,7 @@ export const GameWhyChoose = () => {
 
         <div className={styles.positionabsoulteboxinnerwhychoose5}>
           <div className={styles.positionabsoulteboxinnerwhychoose5logo}>
-           <Image
+            <Image
               src={"/Images/gamedevelopmentpage/support.webp"}
               alt={"Image"}
               width={"0"}
@@ -103,4 +103,4 @@ export const GameWhyChoose = () => {
       </div>
     </div>
   );
-};
+}

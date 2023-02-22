@@ -1,0 +1,48 @@
+.internetOfThingsBannerContainer {
+  height: 95vh;
+  margin-top: 5vh;
+  background: url("/Images/internetOfThingsPhotos/background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.internetOfThingsBannerContainer > div {
+  width: 50%;
+}
+
+.internetOfThingsBannerContainer > div > h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.internetOfThingsBannerContainer > div > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.internetOfThingsBannerContainer > div > button {
+  font-size: 18px;
+  font-weight: 600;
+  background: white;
+  color: #ef4c23;
+  border: 2px solid white;
+  outline: none;
+  padding: 10px 50px;
+  border-radius: 100px;
+  margin-top: 3%;
+}
+
+.internetOfThingsBannerContainer > div > button:hover {
+  background: #ef4c23;
+  color: white;
+}
+
+.internetOfThingsBannerContainer > span {
+  width: 35%;
+  height: fit-content;
+}

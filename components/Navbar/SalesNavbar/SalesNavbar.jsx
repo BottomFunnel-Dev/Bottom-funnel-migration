@@ -7,7 +7,7 @@ import { SalesFeature } from "./SalesFeature";
 import { SalesResources } from "./SalesResources";
 import { SalesIndustries } from "./SalesIndustries";
 
-export const SalesNavbar = ({navproductredux}) => {
+export const SalesNavbar = ({ navproductredux }) => {
   // const navigate = useNavigate();
   const [ProductSolution, setProductSolution] = useState(false);
   const [productfeature, setproductFeature] = useState(false);
@@ -20,7 +20,6 @@ export const SalesNavbar = ({navproductredux}) => {
   const skillProductHoverIn = () => {
     setproductNabvar(true);
   };
-  console.log(navproductredux)
   const skillProductHoverOut = () => {
     setProductSolution(false);
 
@@ -100,7 +99,6 @@ export const SalesNavbar = ({navproductredux}) => {
 
   useEffect(() => {
     window.addEventListener("scroll", navBackground);
-    // console.log(scrollY);
   });
 
   return (
@@ -175,7 +173,6 @@ export const SalesNavbar = ({navproductredux}) => {
             alt="image"
           />
         </li>
-
 
         <li>Sign In</li>
         <button>Free Trial</button>

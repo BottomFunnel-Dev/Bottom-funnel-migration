@@ -1,0 +1,19 @@
+.internetofthingsWhyBFContainer {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.internetofthingsWhyBFContainer > h1 {
+  font-size: 32px;
+}
+
+.internetofthingsWhyBFContainer > p {
+  font-size: 25px;
+  width: 50%;
+  margin: 1% auto;
+}
+
+.internetofthingsWhyBFContainer > div {
+  width: 90%;
+  margin: 1% auto;
+}

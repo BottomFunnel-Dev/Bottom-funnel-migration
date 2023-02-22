@@ -7,8 +7,6 @@ export const MernPoluparServices = ({ popularservice }) => {
   const handletoggle = (ele) => {
     setToggle(ele);
   };
-  console.log(toggle);
-  console.log(popularservice);
   return (
     <div className={styles.mernpopularservices}>
       <h1>{popularservice.head}</h1>

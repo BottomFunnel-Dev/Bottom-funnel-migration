@@ -1,0 +1,49 @@
+.internetofthingsProccessContainer {
+  margin: 2% 0;
+  border-top: 8px solid #ef4c23;
+  border-bottom: 8px solid #ef4c23;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.internetofthingsProccessContainer > h1 {
+  font-size: 32px;
+}
+
+.internetofthingsProccessContainer > div {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.internetofthingsProccessCards {
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.internetofthingsProccessCards > span {
+  height: fit-content;
+  width: 10%;
+}
+
+.internetofthingsProccessCards > div {
+  width: 85%;
+}
+
+.internetofthingsProccessCards > div > h2 {
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.internetofthingsProccessCards > div > p {
+  font-size: 16px;
+}

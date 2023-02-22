@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./webDevTechStack.module.css";
 
 export default function StackGrid({ gridData }) {
-  console.log("in griod Data", gridData);
   return (
     <div className={styles.stackGrid}>
       {gridData.frameworks.map((el, idx) => (

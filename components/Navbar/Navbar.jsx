@@ -56,7 +56,6 @@ const Navbar = () => {
 
   const handleMob = () => {
     mobres ? setMobres(false) : setMobres(true);
-    console.log("working tree", mobres);
   };
 
   return (

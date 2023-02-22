@@ -9,7 +9,6 @@ export default function TaxiBookingDriver() {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
-    // console.log(imagepath)
   };
 
   const taxibookingcustomerdata = [

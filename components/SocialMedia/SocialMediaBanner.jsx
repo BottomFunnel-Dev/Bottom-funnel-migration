@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SocialMediaBanner.module.css";
 
-export const SocialMediaBanner = () => {
+export default function SocialMediaBanner() {
   return (
     <div className={styles.socialmediabannermainbox}>
       <div className={styles.socialmediabannerinnertextboxes}>
@@ -15,4 +15,4 @@ export const SocialMediaBanner = () => {
       </div>
     </div>
   );
-};
+}

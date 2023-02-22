@@ -35,12 +35,6 @@ export default function Brand() {
       serviceName: "Tracking & Wearable Apps",
     },
     {
-      serviceimage: "/Images/fitness/body.jpg",
-      serviceDescription:
-        "With Bodybuilding & Workout Apps, you can keep track of your progress and stay motivated while doing something you love.",
-      serviceName: "Bodybuilding & Workout Apps",
-    },
-    {
       serviceimage: "/Images/fitness/meditation.webp",
       serviceDescription:
         "We are developing apps with great features and customer-centric approach. From meditation & yoga to weight loss & nutrition apps, we have covered them all.",

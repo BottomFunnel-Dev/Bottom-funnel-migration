@@ -9,7 +9,6 @@ export default function RealEstateCustomer() {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
-    console.log(imagepath);
   };
 
   const realstatecustomerdata = [

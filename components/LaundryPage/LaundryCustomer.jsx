@@ -1,45 +1,45 @@
-import Image from 'next/image';
-import React, { useState } from 'react'
-import styles from "./LaundryPage.module.css"
+import Image from "next/image";
+import React, { useState } from "react";
+import styles from "./LaundryPage.module.css";
 
 const LaundryCustomer = () => {
-
-  const [imageChange, setImageChange] = useState("/Images/Laundrypage/switchscreens/Easy to place order.webp")
+  const [imageChange, setImageChange] = useState(
+    "/Images/Laundrypage/switchscreens/Easy to place order.webp",
+  );
 
   const handleImageChange = (imagepath) => {
-    setImageChange(() => imagepath)
-    // console.log(imagepath)
-  }
+    setImageChange(() => imagepath);
+  };
 
   const laundrycustomerdata = [
     {
       htxt: "Easy to Place Online Orders",
       stxt: "Laundry app development has gained a lot of popularity these days. Just like the on-demand food delivery app and grocery delivery app have become highly successful",
       img: "/Images/Laundrypage/icons/shopping.png",
-      bigimage: "/Images/Laundrypage/switchscreens/Easy to place order.webp"
+      bigimage: "/Images/Laundrypage/switchscreens/Easy to place order.webp",
     },
     {
       htxt: "Real-Time Delivery Tracking",
       stxt: "As the popularity of laundry apps has grown, several startups have invested in laundry app development. There are some that must be included in the app",
       img: "/Images/Laundrypage/icons/track1.png",
-      bigimage: "/Images/Laundrypage/switchscreens/Real time tracking.webp"
+      bigimage: "/Images/Laundrypage/switchscreens/Real time tracking.webp",
     },
 
     {
       htxt: "Delivery Reminder Alerts",
       stxt: "These fantastic on-demand laundry mobile apps allow users to book their laundry services in a couple of seconds. The global dry cleaning service.",
       img: "/Images/Laundrypage/icons/reminder.png",
-      bigimage: "/Images/Laundrypage/switchscreens/Delivery reminders.webp"
+      bigimage: "/Images/Laundrypage/switchscreens/Delivery reminders.webp",
     },
 
     {
       htxt: "Store Locator and Easy",
       stxt: "the market share of laundry and dry cleaning services in the U.s will reach $13.8 billion by 2025. revenue services is expected to hit $7,660 million  By 2024",
       img: "/Images/Laundrypage/icons/compass.png",
-      bigimage: "/Images/Laundrypage/switchscreens/Store locater & Easy navigate.webp"
-    }
-  ]
-
+      bigimage:
+        "/Images/Laundrypage/switchscreens/Store locater & Easy navigate.webp",
+    },
+  ];
 
   return (
     <div className={styles.laundrycutomermaindiv}>
@@ -57,29 +57,31 @@ const LaundryCustomer = () => {
           <div className={styles.laundryflexboxleftdivinsidertxt}>
             <h1> Customer app </h1>
             <p>
-              By using it, providers can view their statistics and know how many users they have, their earnings,
-              and their commissions.
+              By using it, providers can view their statistics and know how many
+              users they have, their earnings, and their commissions.
             </p>
           </div>
 
           <div className={styles.laundryflexboxleftdivflexboxx}>
             {laundrycustomerdata.map((e) => {
               return (
-                <div className={styles.laundryflexboxleftdivflexbox}
-                  key={e.htxt} onMouseEnter={() => {
-                    console.log(e);
-                    handleImageChange(e.bigimage)
+                <div
+                  className={styles.laundryflexboxleftdivflexbox}
+                  key={e.htxt}
+                  onMouseEnter={() => {
+                    handleImageChange(e.bigimage);
                   }}
-
                 >
                   <div className={styles.laundryflexboxleftdivflexboxicon}>
-                    <Image className={styles.laundryiconleftboxinsider}
+                    <Image
+                      className={styles.laundryiconleftboxinsider}
                       src={e.img}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
                       sizes={"100vw"}
-                      style={{ width: "100%", height: "100%" }} />
+                      style={{ width: "100%", height: "100%" }}
+                    />
                   </div>
 
                   <div className={styles.laundryflexboxleftdivflexboxicontxt}>
@@ -89,15 +91,16 @@ const LaundryCustomer = () => {
                     </p>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
 
         <div className={styles.laundryPageOuterDiv}>
           <div className={styles.laundryflexboxrightdiv}>
-            <Image src={imageChange}
-              alt={'image'}
+            <Image
+              src={imageChange}
+              alt={"image"}
               width={"0"}
               height={"0"}
               sizes={"100vw"}
