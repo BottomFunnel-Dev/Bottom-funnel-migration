@@ -86,3 +86,93 @@ height: 100%;
 width: 100%;
 object-fit: contain;
 }
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.appbuilderdiscoverappmainboxes {
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+background: url("/Images/Appbuildersolutions/Bannersbackgrounds/Rectangle\ 4741.webp");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+margin-top: 10%;
+
+}
+.appbuilderdiscoverleftbox {
+height: fit-content;
+width: 100%;
+}
+
+.appbuilderdiscoverrightbox {
+height: 100%;
+width: 90%;
+margin-left: 5%;
+
+}
+.appbuilderdiscoverrightbox > h1 {
+font-size: 20px;
+}
+.appbuildermappingdatasome {
+height: fit-content;
+width: 100%;
+margin-top: 5%;
+
+}
+.xttmapperdatafromappbuilder {
+height: fit-content;
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 10px;
+margin: 2%;
+background-color: white;
+display: flex;
+border-radius: 10px;
+}
+.xttmapperdatafromappbuilder:hover {
+transform: scale(1.02);
+background-color: #cbbaf7;
+}
+.leftboxfortextappbuilder {
+margin-left: 3%;
+margin-top: 0%;
+
+}
+.leftboxfortextappbuilder > h5 {
+margin-top: 0%;
+font-size: 15px;
+}
+.svgimages {
+color: #3380f2;
+}
+.lowerbuttonandsomeiconsappbuilderdiscover {
+height: 15%;
+width: 80%;
+justify-content: center;
+
+
+}
+.appbuilderdiscoversomeimageandbutton {
+padding: 10px 50px;
+border-radius: 100px;
+width: 180px;
+background-color: #a481ff;
+border: none;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 13px;
+font-weight: 600;
+color: white;
+margin-left: 3%;
+margin-top: 2%;
+}
+.appbuilderdiscoversomeimageandbutton:hover {
+background-color: white;
+color: #a481ff;
+}
+.playstoreboxforappbuilderdiscover {
+height: 5%;
+width: 50%;
+border: 5px solid red;
+}
+}
