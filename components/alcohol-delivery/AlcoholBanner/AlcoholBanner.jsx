@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 import styles from "./AlcoholBanner.module.css";
-
-
-// import { PopupForm } from "../PopupForm/PopupForm";
 import { PopupForm } from "../../PopupForm/PopupForm";
 
 export default function AlcoholBanner() {
-
-
   return (
     <div className={styles.alcoholBannerMain}>
       <div className={styles.alcoholBannerContent}>

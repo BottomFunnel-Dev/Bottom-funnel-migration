@@ -7,7 +7,6 @@
 }
 
 .alcoholBannerContent {
-  /* border: 1px solid red; */
   width: 40%;
   padding-left: 40px;
 }
@@ -77,4 +76,38 @@
 
 .alcoholBannerSmallMobile > img {
   height: 80%;
+}
+
+@media (max-width: 480px) {
+  .alcoholBannerMain {
+    margin-top: 30px;
+    height: fit-content;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .alcoholBannerImage {
+    width: 100%;
+    height: 300px;
+    margin-right: 17%;
+      box-sizing: border-box;
+    position: static;
+  }
+
+  .alcoholBannerContent {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .alcoholBannerContent > h1 {
+    font-size:30px;
+  }
+
+  .alcoholBannerContent > button {
+    font-size: 16px;
+
+    border-radius: 100px;
+    padding: 7px 30px;
+  
+  }
 }
