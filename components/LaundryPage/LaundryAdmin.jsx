@@ -61,7 +61,7 @@ const LaundryAdmin = () => {
                                             width={"0"}
                                             height={"0"}
                                             sizes={"100vw"}
-                                            style={{ width: "15%", height: "20%" }}
+                                            style={{ width: "15%", height: "15%" }}
                                         />
                                     </div>
 
