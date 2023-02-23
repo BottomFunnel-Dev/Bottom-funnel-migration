@@ -2,6 +2,9 @@
   position: relative;
   height: 100vh;
   z-index: 1;
+  background: url("/Images/WebsiteBuilderApp/BannerBackground.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .websiteBuilderBannerImageDiv img {
@@ -69,54 +72,49 @@
 
 @media only screen and (min-width:0px) and (max-width:600px){
 
-  .websiteBuilderBannerParentDiv {
-    margin-top: 10%;
-  }
-
   .websiteBuilderBannerImageDiv {
     position: relative;
     height: 100vh;
-    z-index: 1;
+   background-color: #6E5FD4;
   }
-
-  .websiteBuilderBannerImageDiv img {
-    width: 100%;
-    height: 100vh;
-  }
+  
 
   .websiteBuilderBannerTopComp {
-    flex-direction: column;
+    display: flex;
+   flex-wrap: wrap;
     margin-top: 4%;
   }
-
+  
   .websiteBuilderBannerTopImageComp {
-    position: absolute;
-    top: 15%;
-    right: 4%;
-  }
-  .websiteBuilderBannerTopImageComp img {
-    height: 600px;
-    width: 100%;
-  }
+    margin-left: -40%;
 
+  }
+  
+  .websiteBuilderBannerAnimation {
+    width: 85%;
+  }
+  
   .websiteBuilderBannerContentDiv {
     position: absolute;
     z-index: 2;
-    top: 35%;
+    top: 60%;
     left: 5%;
-    width: 45%;
+    width: 90%;
+   
   }
-
+  
   .websiteBuilderBannerContentDiv h1 {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
   }
-
+  
   .websiteBuilderBannerContentDiv p {
     color: white;
     margin-top: 3%;
+    text-align: justify;
   }
-
+  
   .websiteBuilderBannerContentDiv button {
     padding: 10px 40px;
     border-radius: 10px;
@@ -127,7 +125,7 @@
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-
+  
   .websiteBuilderBannerContentDiv button:hover {
     color: #ef4c23;
     background-color: white;

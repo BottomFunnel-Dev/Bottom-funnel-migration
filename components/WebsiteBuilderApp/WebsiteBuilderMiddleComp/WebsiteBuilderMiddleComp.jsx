@@ -84,14 +84,14 @@ export default function WebsiteBuiulderMiddleComp() {
         <Slider {...settings}>
           {homeService.map((item, i) => (
             <div key={i} className={styles.middleCompWebsiteImageSlider}>
-              <div>
+              <div className={styles.middlecompimageslicker}>
                 <Image
                   src={item.serviceimage}
                   alt={"image"}
                   width={"0"}
                   height={"0"}
                   sizes={"100vw"}
-                  style={{ width: "100%", height: "50%" }}
+                  style={{ width: "100%", height: "100%", objectFit:"contain" }}
                 />
 
                 <h5> {item.serviceName} </h5>
