@@ -1,0 +1,136 @@
+.laundrydeliverymainboxes{
+ height: fit-content;
+ margin-top: 5%;
+}
+
+.laundryapplicationheadingbox{
+ height: fit-content;
+ margin-left: 51%;
+}
+
+.laundrydeliverydatamappingbox{
+ height: 550px;
+ display: flex;
+}
+  
+.laundrydeliveryleftbox{
+ height: 540px;
+ background: url("/Images/Laundrypage/backgrounds/Background3.png");
+ width: 50%;
+ background-repeat: no-repeat;
+ background-size: 95% 50%;
+ background-position-y: bottom;
+}
+
+.laundrydeliveryleftboxinsiderchangaimage{
+ height: 100%;
+ width: 35%;
+ margin: auto;
+ margin-top: 5%;
+}
+
+.laundrydeliveryrightbox{
+ width: 50%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.laundrydeliverydatamappingindi{
+ width: 47%;
+ margin: 1%;
+ height: 260px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.laundrydeliverydatamappingindi:hover{
+ transition: all 0.2s linear;
+ transform: translateY(-10px);
+ background-color: #f0e9e0;
+}
+
+.laundrydeliverymapinditxtbox>p{
+ text-align: justify;
+}
+
+.indivisulaboxiconlaundrydel{
+ height: 15%;
+ width: 15%;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+ 
+  .laundrydeliverymainboxes{
+    height: fit-content;
+    margin-top: 10%;
+   }
+   
+   .laundryapplicationheadingbox{
+    height: fit-content;
+    width: 90%;
+    margin-left: 5%;
+   }
+   .laundryapplicationheadingbox>h4{
+    text-align: center;
+   }
+
+   .laundryapplicationheadingbox>p{
+    text-align: center;
+   }
+   
+   .laundrydeliverydatamappingbox{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+   }
+     
+   .laundrydeliveryleftbox{
+    height: 300px;
+    background: url("/Images/Laundrypage/backgrounds/Background3.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 95% 50%;
+    background-position-y: bottom;
+   }
+   
+   .laundrydeliveryleftboxinsiderchangaimage{
+    height: 90%;
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+   }
+   
+   .laundrydeliveryrightbox{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   }
+   
+   .laundrydeliverydatamappingindi{
+    width: 100%;
+    height: fit-content;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 10px;
+   }
+   
+   .laundrydeliverydatamappingindi:hover{
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: #f0e9e0;
+   }
+   
+   .laundrydeliverymapinditxtbox>p{
+    text-align: justify;
+   }
+   
+   .indivisulaboxiconlaundrydel{
+    height: 10%;
+    width: 10%;
+   }
+
+
+ }

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
-import styles from "./LaundryPage.module.css"
+import styles from "./Laundrycustomer.module.css"
 
 const LaundryCustomer = () => {
 
@@ -73,13 +73,13 @@ const LaundryCustomer = () => {
 
                 >
                   <div className={styles.laundryflexboxleftdivflexboxicon}>
-                    <Image className={styles.laundryiconleftboxinsider}
+                    <Image
                       src={e.img}
                       alt={"image"}
                       width={"0"}
                       height={"0"}
                       sizes={"100vw"}
-                      style={{ width: "100%", height: "100%" }} />
+                      style={{ width: "80%", height: "80%" }} />
                   </div>
 
                   <div className={styles.laundryflexboxleftdivflexboxicontxt}>

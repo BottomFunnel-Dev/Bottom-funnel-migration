@@ -1,0 +1,252 @@
+.laundrycutomermaindiv {
+margin-top: 5%;
+}
+.laundrycustomerapptxtfront {
+text-align: center;
+width: 47%;
+margin-left: 30%;
+}
+
+.laundrycustomerflexboxmaindiv {
+display: flex;
+margin-top: 5%;
+}
+
+.laundryflexboxleftdiv {
+height: fit-content;
+width: 60%;
+margin-left: 3%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.laundryflexboxleftdivinsidertxt {
+width: 90%;
+margin-left: 2%;
+}
+
+.laundryflexboxleftdivinsidertxt > h1 {
+font-size: 25px;
+font-weight: 600;
+}
+
+.laundryflexboxleftdivinsidertxt > p {
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+width: 90%;
+}
+
+.laundryflexboxleftdivflexboxx {
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+margin-top: 5%;
+height: fit-content;
+}
+
+.laundryflexboxleftdivflexbox {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 45%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+height: 240px;
+margin: 1%;
+border-radius: 10px;
+padding: 10px;
+}
+
+.laundryflexboxleftdivflexbox:hover {
+transform: scale(1.02);
+background-color: #efebe6;
+}
+
+.laundryflexboxleftdivflexboxicon {
+height: 45px;
+width: 45px;
+margin-top: 5%;
+margin-bottom: 0%;
+}
+
+.laundryflexboxleftdivflexboxicontxt {
+margin-top: 4%;
+}
+
+.laundryflexboxleftdivflexboxicontxt > h3 {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+vertical-align: baseline;
+margin-bottom: 1%;
+margin-top: 0%;
+}
+
+.laundryflexboxleftdivflexboxicontxt > p {
+margin-top: 4%;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+vertical-align: baseline;
+}
+
+.laundryPageOuterDiv {
+width: 40%;
+margin-top: -2%;
+}
+
+.laundryflexboxrightdiv {
+height: 580px;
+margin-top: 15%;
+margin-left: 5%;
+background: url("/Images/Laundrypage/backgrounds/Background3.png");
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: 100% 55%;
+}
+
+
+.laundryflexboxrightdiv > img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+
+.laundryflexboxrightdivimage {
+position: absolute;
+height: 150px;
+width: 100%;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+.laundrycustomerapptxtfront {
+width: 95%;
+position: absolute;
+margin-left: -0%;
+}
+
+.laundrycustomerflexboxmaindiv {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column-reverse;
+
+
+}
+
+.laundryflexboxleftdiv {
+height: fit-content;
+width: 100%;
+margin-left: 3%;
+display: flex;
+flex-wrap: wrap;
+
+ 
+ 
+}
+
+.laundryflexboxleftdivinsidertxt {
+margin-left: 1%;
+width: 100%;
+
+}
+
+.laundryflexboxleftdivinsidertxt > h1 {
+font-size: 35px;
+font-weight: 600;
+}
+
+.laundryflexboxleftdivinsidertxt > p {
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+ 
+}
+
+.laundryflexboxleftdivflexboxx {
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+margin-top: 5%;
+height: fit-content;
+
+}
+
+.laundryflexboxleftdivflexbox {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 90%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+height: 240px;
+ margin: auto;
+ margin-top: 5%;
+border-radius: 10px;
+padding: 10px;
+}
+
+.laundryflexboxleftdivflexbox:hover {
+transform: scale(1.02);
+background-color: #efebe6;
+}
+
+.laundryflexboxleftdivflexboxicon {
+height: 45px;
+width: 45px;
+margin-top: 5%;
+margin-bottom: 0%;
+
+}
+
+.laundryflexboxleftdivflexboxicontxt {
+margin-top: 4%;
+}
+
+.laundryflexboxleftdivflexboxicontxt > h3 {
+font-size: 18px;
+font-weight: 600;
+line-height: 21.6px;
+vertical-align: baseline;
+margin-bottom: 1%;
+margin-top: 0%;
+}
+
+.laundryflexboxleftdivflexboxicontxt > p {
+margin-top: 4%;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+vertical-align: baseline;
+}
+
+.laundryPageOuterDiv {
+width: 90%;
+margin-top: -2%;
+
+}
+
+.laundryflexboxrightdiv {
+height: 580px;
+margin-top: 55%;
+margin-left: 5%;
+background: url("/Images/Laundrypage/backgrounds/Background3.png");
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: 100% 50%;
+}
+
+
+.laundryflexboxrightdiv > img {
+height: 100%;
+width: 100%;
+object-fit: contain;
+ 
+}
+
+.laundryflexboxrightdivimage {
+position: absolute;
+height: 150px;
+width: 100%;
+}
+
+
+}
