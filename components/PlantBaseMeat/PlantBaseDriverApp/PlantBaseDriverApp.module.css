@@ -109,27 +109,28 @@
   .plantBasedDriverApp {
     width: 100%;
     height: max-content;
-    margin: 60px 0;
   }
 
   .plantBasedDriverApp > h1 {
-    margin-left: 55%;
+    text-align: center;
+    margin: 0;
   }
 
   .plantBasedDriverAppsub {
     width: 100%;
     margin-top: 2%;
     justify-content: space-between;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 
   .plantBasedDriverAppleft {
     width: 50%;
     height: 500px;
-
+    background: url("/Images/PlantBasedMeat/driver app screens/Driver'sAppBackgound.webp");
     background-repeat: no-repeat;
-    background-size: 100% 670px;
+    background-position: center;
+    background-size: 100% 70px;
     position: relative;
   }
 
@@ -142,9 +143,8 @@
   }
 
   .plantBasedDriverAppright > div {
-    padding: 10px 10px 10px 10px;
     height: 210px;
-    width: 100%;
+    width: 90%;
     border-radius: 18px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
@@ -194,11 +194,11 @@
   .plantBasedDriverApp {
     width: 100%;
     height: max-content;
-    margin: 60px 0;
   }
 
   .plantBasedDriverApp > h1 {
-    margin-left: 55%;
+      text-align: center;
+      margin: 0%;
   }
 
   .plantBasedDriverAppsub {
@@ -206,6 +206,7 @@
     margin-top: 2%;
     justify-content: space-between;
     display: flex;
+    flex-direction: column !important;
     align-items: center;
   }
 
@@ -275,10 +276,7 @@
     margin: 60px 0;
   }
 
-  .plantBasedDriverApp > h1 {
-    margin-left: 55%;
-  }
-
+ 
   .plantBasedDriverAppsub {
     width: 100%;
     margin-top: 2%;
