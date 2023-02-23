@@ -9,7 +9,7 @@ import { IOTwhyBF } from "../../components/IOTPage/IOTwhyBF/IOTwhyBF";
 const CustomWebForm = dynamic(
   () =>
     import("../../components/CustomisedWebPage/CustomWebForm/CustomWebForm"),
-  { loading: "loading..." },
+  { loading: () => "loading..." },
 );
 
 export default function IOTDevelopment() {

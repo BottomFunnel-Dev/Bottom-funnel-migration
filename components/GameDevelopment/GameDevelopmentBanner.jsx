@@ -3,7 +3,7 @@ import styles from "./GameDevelopmentBanner.module.css";
 
 import { PopupForm } from "../PopupForm/PopupForm";
 
-const GameDevelopmentBanner = () => {
+export default function GameDevelopmentBanner() {
   return (
     <div className={styles.gamedevelopmentbannermainboxes}>
       <div className={styles.gamedeveloperbackgroundimagetxtdiv}>
@@ -55,6 +55,4 @@ const GameDevelopmentBanner = () => {
       </div>
     </div>
   );
-};
-
-export default GameDevelopmentBanner;
+}

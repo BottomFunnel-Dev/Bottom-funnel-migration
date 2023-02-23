@@ -379,61 +379,61 @@ export const industries = [
     dropContent: "Education",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/education.svg",
-    path: "/education",
+    path: "/industries/education",
   },
   {
     dropContent: "Game Development",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/gamedevelopment.svg",
-    path: "/gameDevelopment",
+    path: "/industries/game_development",
   },
   {
     dropContent: "E-commerce",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/ecommerce.svg",
-    path: "/ecommerce",
+    path: "/industries/ecommerce",
   },
   {
     dropContent: "Video Streaming",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/video streaming.svg",
-    path: "/Videostreaming",
+    path: "/industries/videostreaming",
   },
   {
     dropContent: "Sports Betting",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/sportsbetting.svg",
-    path: "/sports-betting",
+    path: "/industries/sports_betting",
   },
   {
     dropContent: "IOT Development",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/iotdevelopment.svg",
-    path: "/internet-of-things",
+    path: "/industries/iot_development",
   },
   {
     dropContent: "Fitness",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/fitness.svg",
-    path: "/fitness",
+    path: "/industries/fitness",
   },
   {
     dropContent: "Dating",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/dating.svg",
-    path: "/dating",
+    path: "/industries/dating",
   },
   {
     dropContent: "Cryptocurrency",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/cryptocurrency.svg",
-    path: "/cryptocurrency",
+    path: "/industries/cryptocurrency",
   },
   {
     dropContent: "Social Media",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/socialmedia.svg",
-    path: "/social-media",
+    path: "/industries/social_media",
   },
   {
     dropContent: "Logistics",

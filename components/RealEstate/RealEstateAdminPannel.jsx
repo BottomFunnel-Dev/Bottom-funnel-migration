@@ -10,7 +10,6 @@ export default function RealEstateAdminPannel() {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
-    console.log(imagepath);
   };
 
   const realestateadmindata = [

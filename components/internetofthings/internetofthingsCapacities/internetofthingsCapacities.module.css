@@ -1,0 +1,18 @@
+.internetofthingsCapacitiesContainer {
+  width: 95%;
+  margin: 5% auto;
+}
+
+.internetofthingsCapacitiesContainer > h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.internetofthingsCapacitiesContainer > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}

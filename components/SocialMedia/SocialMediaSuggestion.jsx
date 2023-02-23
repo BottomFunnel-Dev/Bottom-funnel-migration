@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./SocialMediaSuggestion.module.css";
 import Image from "next/image";
 
-export const SocialMediaSuggestion = () => {
+export default function SocialMediaSuggestion() {
   const socialmediasuggestiondata = [
     {
       logo: "/Images/socialmedia/bannesbackground/Socialtreecuate2.webp",
@@ -68,4 +68,4 @@ export const SocialMediaSuggestion = () => {
       </div>
     </div>
   );
-};
+}

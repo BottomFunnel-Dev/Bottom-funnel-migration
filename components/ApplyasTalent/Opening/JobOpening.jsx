@@ -3,7 +3,6 @@ import styles from "./JobOpening.module.css";
 
 export default function JobOpening({ currentopeningdata }) {
   const [jobchange, setJobchange] = useState(0);
-  console.log(jobchange);
 
   return (
     <div className={styles.jobopeningmainboxes}>

@@ -22,9 +22,12 @@ const StoriesSection = dynamic(
   () => import("../CommonComponents/StoriesSection/StoriesSection"),
   { loading: () => "loading..." },
 );
-const Revamping = dynamic(() => import("../CommonComponents/revamping/Revamping"), {
-  loading: () => "loading...",
-});
+const Revamping = dynamic(
+  () => import("../CommonComponents/revamping/Revamping"),
+  {
+    loading: () => "loading...",
+  },
+);
 const ContectForm = dynamic(
   () => import("../CommonComponents/ContectForm/ContectForm"),
   { loading: () => "loading..." },

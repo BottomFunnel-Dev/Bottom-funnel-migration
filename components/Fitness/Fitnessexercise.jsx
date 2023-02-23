@@ -8,34 +8,34 @@ export default function Fitnessexercise() {
       <div className={styles.exercisesubdiv}>
         <div className={styles.exercisemobile}>
           <div className={styles.szgreenimg}>
-              <Image
-                  src={"/Images/fitness/greenimg.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/greenimg.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.szphcase}>
-               <Image
-                  src={"/Images/fitness/phone.webp"}
-                  alt={"image"}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "100%" }}
-                />
+            <Image
+              src={"/Images/fitness/phone.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.szmyplan}>
-              <Image
-                src={"/Images/fitness/myplan.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/myplan.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
         <div className={styles.exercisebox}>
@@ -75,24 +75,6 @@ export default function Fitnessexercise() {
               It's hard to say no when your buddy is asking for a quick workout.
               With the Manage & Export Report feature, you can easily manage and
               export weekly or monthly reports from your fitness app.
-            </p>
-          </div>
-          <div>
-            <h5>Workout Plan Editor</h5>
-            <p>
-              With our Workout Plan Editor app, you can plan your workout
-              routine in detail and track your progress day-by-day. It offers
-              detailed information about the different exercises that you can
-              do, along with detailed instructions..
-            </p>
-          </div>
-          <div>
-            <h5>Effective Listing</h5>
-            <p>
-              We understand how important it is to have a well-designed fitness
-              app that offers solutions for all types of problems related to
-              fitness. That's why we're experts in developing a product that
-              will help you reach your health.
             </p>
           </div>
         </div>
@@ -135,59 +117,41 @@ export default function Fitnessexercise() {
             <p>
               It tracks your exercises, steps, calories burned in a day. This
               information is used by our experts to analyze your habits and
-              provide customized recommendations that will help you reach your
-              fitness goals faster.
-            </p>
-          </div>
-          <div>
-            <h5>Workout Music Integration</h5>
-            <p>
-              Finding the perfect music to motivate you through a tough workout
-              is all part of being in shape. We provides app that integrates
-              music into your workout routines for optimum results.
-            </p>
-          </div>
-          <div>
-            <h5>Loyalty Points</h5>
-            <p>
-              Finding the right rewards program for your customer is one of the
-              most important steps to a Health customer relation. We understand
-              that, so we created a loyalty points app that will help you
-              identify your loyal customers.
+              provide customized recommendations.
             </p>
           </div>
         </div>
 
         <div className={styles.szexercisetab}>
           <div className={styles.bluecircle}>
-             <Image
-                src={"/Images/fitness/bluecircle.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/bluecircle.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.tabbluecase}>
-             <Image
-                src={"/Images/fitness/teblate.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/teblate.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.sztabdaily}>
-              <Image
-                src={"/Images/fitness/dailyimg.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/dailyimg.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
       </div>
@@ -197,34 +161,34 @@ export default function Fitnessexercise() {
       <div className={styles.exercisesubdiv}>
         <div className={styles.analitic}>
           <div className={styles.szpeachcircle}>
-              <Image
-                src={"/Images/fitness/pechcircle.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/pechcircle.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.szphonefit}>
-              <Image
-                src={"/Images/fitness/phone.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/phone.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
           <div className={styles.szrates}>
-             <Image
-                src={"/Images/fitness/rates.webp"}
-                alt={"image"}
-                width={"0"}
-                height={"0"}
-                sizes={"100vw"}
-                style={{ width: "100%", height: "100%" }}
-              />
+            <Image
+              src={"/Images/fitness/rates.webp"}
+              alt={"image"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "100%" }}
+            />
           </div>
         </div>
 
@@ -264,24 +228,6 @@ export default function Fitnessexercise() {
               with your trainer and other members in a healthy and fun way.
               Learn new exercises, follow their progress, and ask any question
               you want.
-            </p>
-          </div>
-          <div>
-            <h5>Audio/Video Calling</h5>
-            <p>
-              We offer audio/video calling technology to make your chatting
-              experience seamless and fun. We have expert trainers that can be
-              contacted through our app for guidance on how to improve your
-              health and fitness.
-            </p>
-          </div>
-          <div>
-            <h5>Advanced Search</h5>
-            <p>
-              In your fitness and health app, there's a category called
-              'Advanced Search' that you can use to find relevant content in
-              seconds. This is the new age of tech where user experience matters
-              more than ever before.
             </p>
           </div>
         </div>

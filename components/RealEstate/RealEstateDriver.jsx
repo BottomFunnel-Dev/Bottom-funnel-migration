@@ -9,7 +9,6 @@ export default function RealEstateDriver() {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
-    console.log(imagepath);
   };
 
   const realstatedriverdata = [

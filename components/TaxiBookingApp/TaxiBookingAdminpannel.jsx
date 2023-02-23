@@ -9,7 +9,6 @@ export default function TaxiBookingAdminpannel() {
 
   const handleImageChange = (imagepath) => {
     setImageChange(() => imagepath);
-    console.log(imagepath);
   };
 
   const adminpanneltaxibookingdata = [

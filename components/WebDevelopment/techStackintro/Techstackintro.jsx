@@ -5,7 +5,6 @@ export default function Techstackintro({ techContent }) {
   const [stack, setStack] = useState(0);
 
   const handleStack = (element) => {
-    console.log(element);
     setStack(element);
   };
 

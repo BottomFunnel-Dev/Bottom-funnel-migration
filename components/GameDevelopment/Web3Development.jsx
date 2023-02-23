@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Web3Development.module.css";
 
-const Web3Development = () => {
+export default function Web3Development() {
   return (
     <div className={styles.Web3Developmentmainbox}>
       <div className={styles.web3developmentleftboxing}>
@@ -81,37 +81,35 @@ const Web3Development = () => {
 
       <div className={styles.web3developmentflexingboxrightdiv}>
         <div className={styles.web3develomentgameboxingimageinnerbox1}>
-            <Image
-              src={"/Images/gamedevelopmentpage/Rectangle 18509.webp"}
-              alt={"Image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
-            <Image
-              src={"/Images/gamedevelopmentpage/Rectangle 18509.webp"}
-              alt={"Image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
+          <Image
+            src={"/Images/gamedevelopmentpage/Rectangle 18509.webp"}
+            alt={"Image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
+          <Image
+            src={"/Images/gamedevelopmentpage/Rectangle 18509.webp"}
+            alt={"Image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
 
         <div className={styles.web3develomentgameboxingimageinnerbox2}>
-            <Image
-              src={"/Images/gamedevelopmentpage/Rectangle 18510.webp"}
-              alt={"Image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
+          <Image
+            src={"/Images/gamedevelopmentpage/Rectangle 18510.webp"}
+            alt={"Image"}
+            width={"0"}
+            height={"0"}
+            sizes={"100vw"}
+            style={{ width: "100%", height: "100%" }}
+          />
         </div>
       </div>
     </div>
   );
-};
-
-export default Web3Development;
+}

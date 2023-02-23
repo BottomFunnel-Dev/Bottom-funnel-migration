@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./fitnesscontainer.module.css";
 
-export const Fitnesscontainer = () => {
+export default function Fitnesscontainer() {
   return (
     <div className={styles.fitnesscontainer}>
       <div className={styles.fitnesssub}>
@@ -31,4 +31,4 @@ export const Fitnesscontainer = () => {
       </div>
     </div>
   );
-};
+}

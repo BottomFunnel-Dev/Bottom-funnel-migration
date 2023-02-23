@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import Slider from "react-slick";
 import styles from "./Datingbrand.module.css";
 import Image from "next/image";
 
 export default function Datingbrands() {
-
   const settings = {
     dots: false,
     infinite: true,
@@ -15,7 +14,6 @@ export default function Datingbrands() {
     autoplay: true,
     autoplaySpeed: 3000,
   };
-
 
   const homeService = [
     {
@@ -62,7 +60,6 @@ export default function Datingbrands() {
     },
   ];
 
-
   return (
     <div className={styles.szdatingbrand}>
       <h1>Brand</h1>
@@ -86,7 +83,6 @@ export default function Datingbrands() {
           ))}
         </Slider>
       </div>
-
     </div>
   );
-};
+}
