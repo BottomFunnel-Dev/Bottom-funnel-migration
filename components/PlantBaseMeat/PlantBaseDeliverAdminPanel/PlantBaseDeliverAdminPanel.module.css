@@ -107,7 +107,7 @@
   }
 
   .plantBasedAdminPanel > h1 {
-    margin-left: 5%;
+    text-align: center;
   }
 
   .plantBasedAdminPanelsub {
@@ -115,7 +115,7 @@
     margin: auto;
     margin-top: 2%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
@@ -141,13 +141,12 @@
   .plantBasedAdminPanelright > div {
     padding: 10px 10px 10px 10px;
     height: 250px;
-    width: 100%;
+    width: 90%;
     border-radius: 18px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     background-color: white;
     cursor: pointer;
-    margin-left: 5%;
   }
   .plantBasedAdminPanelright > div:hover {
     background-color: #e1f9f6;
@@ -175,11 +174,10 @@
   .plantBasedAdminPanel {
     width: 100%;
     height: max-content;
-    margin: 60px 0;
   }
 
   .plantBasedAdminPanel > h1 {
-    margin-left: 5%;
+    text-align: center;
   }
 
   .plantBasedAdminPanelsub {
@@ -187,13 +185,13 @@
     margin: auto;
     margin-top: 2%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
 
   .plantBasedAdminPanelleft {
-    width: 100%;
+    width: 80%;
     height: 350px;
     display: flex;
     background-repeat: no-repeat;
@@ -215,13 +213,12 @@
   .plantBasedAdminPanelright > div {
     padding: 10px 10px 10px 10px;
     height: 170px;
-    width: 100%;
+    width: 90%;
     border-radius: 18px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     background-color: white;
     cursor: pointer;
-    margin-left: 5%;
   }
 
   .plantBasedAdminPanelright > div:hover {
