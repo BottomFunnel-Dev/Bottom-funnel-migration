@@ -1,25 +1,34 @@
+import Head from "next/head";
 import React from "react";
-import styles from "./SkillsComWhyApp.module.css";
+// import styles from "./SkillsComWhyApp.module.css";
 
 export default function SkillsComWhyApp({ data }) {
   const { title, cardsData } = data;
 
   return (
-    <div className={styles.skillswhyapplicationmain}>
-      <h1>{title}</h1>
-      <div className={styles.skillswhyapplicationcontent}>
-        {cardsData.map(({ img, title, description }, idx) => {
-          return (
-            <div key={idx}>
-              <div className={styles.skillswhyapplcardsimagesdiv}>
-                <img src={img.src} alt={img.alt} />
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://d1krs40fxb67ye.cloudfront.net/components/SkillsCom/SkillsComWhyApp/SkillsComWhyApp.module.css"
+        />
+      </Head>
+      <div className={"skillswhyapplicationmain"}>
+        <h1>{title}</h1>
+        <div className={"skillswhyapplicationcontent"}>
+          {cardsData.map(({ img, title, description }, idx) => {
+            return (
+              <div key={idx}>
+                <div className={"skillswhyapplcardsimagesdiv"}>
+                  <img src={img.src} alt={img.alt} />
+                </div>
+                <h3>{title}</h3>
+                <p>{description}</p>
               </div>
-              <h3>{title}</h3>
-              <p>{description}</p>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

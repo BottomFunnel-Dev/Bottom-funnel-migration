@@ -52,6 +52,10 @@
   align-items: center;
 }
 
+.skillsbulletspoints > p > i {
+  transform: rotate(90deg);
+}
+
 .skillsbulletspoints > p:hover {
   color: #ef4c23;
   margin-left: 10%;

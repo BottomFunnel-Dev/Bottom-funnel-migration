@@ -1,7 +1,7 @@
 import React from "react";
 import career from "./CareerReferral.module.css";
 
-export const CareerReferral = () => {
+export default function CareerReferral() {
   return (
     <div className={career.careerReferralContainer}>
       <h1>
@@ -42,4 +42,4 @@ export const CareerReferral = () => {
       </div>
     </div>
   );
-};
+}

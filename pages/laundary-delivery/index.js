@@ -3,11 +3,7 @@ import dynamic from "next/dynamic";
 import Navbar from "../../components/Navbar/Navbar";
 import Head from "next/head";
 import { LaudryApplication } from "../../components/LaundryPage/LaudryApplication";
-
-// const LaudryApplication = dynamic(
-//   () => import("../../components/LaundryPage/LaudryApplication"),
-//   { loading: () => "loading..." }
-// );
+import { LaundryDelivery } from "../../components/LaundryPage/LaundryDelivery";
 
 const LaundryAdmin = dynamic(
   () => import("../../components/LaundryPage/LaundryAdmin"),
@@ -29,10 +25,7 @@ const LaundryCustomer = dynamic(
   { loading: () => "loading..." }
 );
 
-const LaundryDelivery = dynamic(
-  () => import("../../components/LaundryPage/LaundryDelivery"),
-  { loading: () => "loading..." }
-);
+
 
 const LaundryPageBanner = dynamic(
   () => import("../../components/LaundryPage/LaundryPageBanner"),

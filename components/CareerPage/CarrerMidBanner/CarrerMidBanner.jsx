@@ -1,7 +1,7 @@
 import React from "react";
 import career from "./CarrerMidBanner.module.css";
 
-export const CarrerMidBanner = () => {
+export default function CarrerMidBanner() {
   return (
     <div className={career.carrerMidBannerContainer}>
       <h1>
@@ -16,4 +16,4 @@ export const CarrerMidBanner = () => {
       <button>Apply Now</button>
     </div>
   );
-};
+}
