@@ -4,7 +4,7 @@ import MarketplaceFreelancer from "../../components/MarketPlace/MarketplaceFreel
 import MarketPlaceAdmin from "../../components/MarketPlace/MarketPlaceAdmin";
 import MarketPlaceClients from "../../components/MarketPlace/MarketPlaceClients";
 import Marketplaceborder from "../../components/MarketPlace/Marketplaceborder";
-import Maketplacefooter from "../../components/MarketPlace/Maketplacefooter";
+// import Maketplacefooter from "../../components/MarketPlace/Maketplacefooter";
 
 import Head from "next/head";
 

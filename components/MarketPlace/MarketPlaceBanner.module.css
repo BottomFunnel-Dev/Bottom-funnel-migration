@@ -1,4 +1,4 @@
-.marketplacebannerimage {
+.marketplacebanner {
   height: 85vh;
   width: 99.5%;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.marketplacebannerimageinsideboxtext {
+.marketplacebannerinsideboxtext {
   margin: auto;
   width: 40%;
   padding: 10px;
@@ -18,14 +18,12 @@
   left: 5%;
 }
 
-.marketplacebannerimageinsideboxtext > h1 {
-  /* border: 1px solid red; */
+.marketplacebannerinsideboxtext > h1 {
   font-size: 35px;
   font-weight: 600;
 }
 
-.marketplacebannerimageinsideboxtext > p {
-  /* border: 1px solid red; */
+.marketplacebannerinsideboxtext > p {
   font-size: 17px;
   font-weight: 400;
   line-height: 22px;
@@ -50,51 +48,52 @@
 }
 
 .marketplaceBannerAnimationDiv {
-  /* border: 1px solid red; */
   position: absolute;
-  width: 50%;
+  width: 40%;
   right: 0%;
-  top: 0%;
+  top: -10%;
 }
 
 .marketPlaceBannerAnimation {
-  /* border: 1px solid red; */
   width: 75%;
 }
 
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-  .marketplacebannerimage {
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component41.png");
-    height: 30vh;
+  .marketplacebanner {
+    height: 60vh ;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
     margin-top: 16%;
-    position: relative;
+
   }
 
-  .marketplacebannerimageinsideboxtext {
-    width: 65%;
-    color: white;
+  .marketplacebannerinsideboxtext {
+    width: 100%;
+    text-align: center;
     position: absolute;
-    top: 1%;
+    top: 65%;
     left: 0%;
-  }
 
-  .marketplacebannerimageinsideboxtext > h1 {
-    font-size: 14px;
-    width: 85%;
+  }
+  .marketplaceBannerAnimationDiv{
+    margin-top: 20%;
+    margin-right: 15%;
+    width: 70%;
+  }
+  .marketplacebannerinsideboxtext > h1 {
+    font-size: 19px;
+    width: 95%;
     font-weight: 600px;
     margin-bottom: 0%;
   }
 
-  .marketplacebannerimageinsideboxtext > p {
+  .marketplacebannerinsideboxtext > p {
     font-size: 9px;
+    text-align: justify;
     font-weight: 500;
-    width: 70%;
+    width: 90%;
+    padding-left: 13px;
     margin-top: 2%;
   }
 
@@ -118,17 +117,14 @@
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .marketplacebannerimage {
+  .marketplacebanner {
     height: 38vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top;
     margin-top: 15%;
     position: relative;
   }
 
-  .marketplacebannerimageinsideboxtext {
+  .marketplacebannerinsideboxtext {
     width: 65%;
     color: white;
     position: absolute;
@@ -136,14 +132,14 @@
     left: 0%;
   }
 
-  .marketplacebannerimageinsideboxtext > h1 {
+  .marketplacebannerinsideboxtext > h1 {
     font-size: 26px;
     width: 90%;
     font-weight: 600px;
     margin-bottom: 0%;
   }
 
-  .marketplacebannerimageinsideboxtext > p {
+  .marketplacebannerinsideboxtext > p {
     font-size: 15px;
     font-weight: 400;
     width: 80%;

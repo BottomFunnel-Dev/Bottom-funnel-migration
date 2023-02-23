@@ -20,3 +20,60 @@ background:#ef4c23;
 .RGspanTagCar {
 color: red;
 }
+
+@media (max-width:480px){
+.RGfeaturesCompContainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+justify-content: space-around
+}
+.RGfeaturesCompLeft {
+width: 70%;
+text-align: center;
+font-weight: 600;
+}
+.RGfeaturesCompRight {
+width: 85%;
+text-align: justify;
+font-size: 20px;
+}
+.RGhrLine {
+width: 80%;
+height: 1px;
+background:#ef4c23;
+}
+.RGspanTagCar {
+color: red;
+}
+        
+}
+
+@media (max-width:1024px){
+.RGfeaturesCompContainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+justify-content: space-around
+}
+.RGfeaturesCompLeft {
+width: 70%;
+text-align: center;
+font-weight: 600;
+}
+.RGfeaturesCompRight {
+width: 85%;
+text-align: justify;
+font-size: 20px;
+}
+.RGhrLine {
+width: 80%;
+height: 1px;
+background:#ef4c23;
+}
+.RGspanTagCar {
+color: red;
+}
+}

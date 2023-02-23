@@ -51,7 +51,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
+    height: 80vh;
   }
   
   .RGcarRentalHeaderLeft {
@@ -80,6 +80,7 @@
     font-weight: 600;
     color: white;
     margin-top: 4%;
+    margin-left: 30px;
   }
   
   .RGcarRentalHeaderLeft > button:hover {

@@ -34,11 +34,9 @@
   position: absolute;
   z-index: 1;
   left: 20%;
-  /* border: 1px solid red; */
 }
 
 .freelancerimagebox3 {
-  /* border: 1px solid red; */
   height: 50%;
   width: 52%;
   position: absolute;
@@ -71,20 +69,17 @@
 }
 
 .dottedimage2 {
-  /* border: 1px solid red; */
   position: absolute;
   height: 20%;
   width: 20%;
   bottom: 0;
   right: 0;
-  /* border: 1px solid red; */
 }
 
 .specialimg {
   height: 100%;
   width: 100%;
   object-fit: contain;
-  /* border: 1px solid red; */
 }
 
 .afterdottedinnerflecboxfreelancer {
@@ -160,7 +155,7 @@
   }
 
   .freelancermarketboxrightflexing {
-    height: 100%;
+    height: 600px;
     width: 100%;
     position: relative;
   }
@@ -196,7 +191,7 @@
   }
 
   .freelancertextboxrightdiv {
-    height: 120px;
+    height: fit-content;
     width: 100%;
     text-align: center;
   }
@@ -204,6 +199,7 @@
   .freelancertextboxrightdiv > h2 {
     font-size: 24px;
     font-weight: 600;
+    margin-top: 10px;
     margin-bottom: 0%;
   }
 
@@ -239,22 +235,22 @@
   }
 
   .afterdottedinnerflecboxfreelancer {
-    height: 100%;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
   }
 
   .flexboxdivfreelancer {
     display: flex;
     background-color: white;
-    height: 22%;
-    width: 100%;
+    height: 120px;
+    width: 90%;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 25%;
+    border-radius: 18px;
     margin-top: 3%;
+    margin-right: 7%;
   }
 
   .flexboxdivfreelancer:hover {

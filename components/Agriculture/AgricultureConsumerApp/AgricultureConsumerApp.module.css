@@ -66,6 +66,8 @@ width: 100%;
 height: 100%;
 object-fit: contain;
 }
+
+
 @media (max-width: 480px) {
 .plantBasedDriverApp {
 width: 100%;
@@ -73,7 +75,7 @@ height: max-content;
 margin: 60px 0;
 }
 .plantBasedDriverApp > h1 {
-margin-left: 55%;
+text-align: center;
 }
 .plantBasedDriverAppsub {
 width: 100%;
@@ -92,15 +94,16 @@ position: relative;
 }
 .plantBasedDriverAppright {
 width: 95%;
-height: 100%;
+height: fit-content;
 display: flex;
 flex-wrap: wrap;
 gap: 20px;
 }
 .plantBasedDriverAppright > div {
 padding: 10px 10px 10px 10px;
-height: 180px;
-width: 100%;
+height: 220px;
+width: 90%;
+margin-left: 4.5%;
 border-radius: 18px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 border-radius: 10px;
@@ -145,7 +148,8 @@ height: max-content;
 margin: 60px 0;
 }
 .plantBasedDriverApp > h1 {
-margin-left: 55%;
+text-align: center;
+margin: 0;
 }
 .plantBasedDriverAppsub {
 width: 100%;
@@ -172,7 +176,7 @@ gap: 20px;
 }
 .plantBasedDriverAppright > div {
 padding: 10px 10px 10px 10px;
-height: 130px;
+height: 230px;
 width: 100%;
 border-radius: 18px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -187,6 +191,11 @@ background-color: #e1f9f6;
 font-size: 18px;
 margin-top: 0%;
 margin-bottom: 0%;
+}
+.logisticlogo{
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .plantBasedDriverAppright > div > p {
 margin-top: 1%;

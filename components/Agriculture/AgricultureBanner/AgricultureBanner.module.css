@@ -45,7 +45,7 @@
 @media (max-width: 480px) {
   .agricultureBannerParentDiv {
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,8 @@
   }
   
   .agricultureMeatBannerContentDiv {
-    width: 100%;
+    width: 90%;
+    height: fit-content;
   }
 
   .agricultureMeatBannerContentDiv > h1 {
@@ -61,10 +62,12 @@
   }
 
   .agricultureMeatBannerContentDiv > h1 > span {
-    color: #056d23;
+    color: #096f26;
   }
 
   .agricultureMeatBannerContentDiv > p {
+    margin-top: 5%;
+    margin-bottom: 10%;
     font-size: 15px;
   }
 
@@ -101,7 +104,7 @@
 @media (min-width: 481px) and (max-width: 1024px) {
   .agricultureBannerParentDiv {
     display: flex;
-    height: 100vh;
+    height: 70vh;
   }
 
   .agricultureMeatBannerContentDiv {
