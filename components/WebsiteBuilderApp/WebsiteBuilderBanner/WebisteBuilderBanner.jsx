@@ -8,14 +8,14 @@ export default function WebisteBuilderBanner() {
   return (
     <div className={styles.websiteBuilderBannerParentDiv}>
       <div className={styles.websiteBuilderBannerImageDiv}>
-        <Image
+      {/*  <Image
           src={"/Images/WebsiteBuilderApp/BannerBackground.webp"}
           alt={"image"}
           width={"0"}
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
-        />
+  />   */}
         <div className={styles.websiteBuilderBannerTopComp}>
           <div className={styles.websiteBuilderBannerContentDiv}>
             <h1> Create Website without Limits </h1>
