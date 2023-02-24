@@ -8,7 +8,7 @@
 }
 
 .studentApplicationContent {
-    width: 60%;
+    width: 58%;
     height: fit-content;
 }
 
@@ -64,7 +64,7 @@
 
 .studentApplicationImages {
     height: 450px;
-    width: 35%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;

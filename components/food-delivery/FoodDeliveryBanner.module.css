@@ -1,5 +1,5 @@
 .foodDeliveryBannerMain {
-  height: 600px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +20,7 @@
 
 .foodDeliveryBannerContent > div > h1 {
   font-size: 32px;
-  margin-top: -20%;
+  margin-top: 0%;
 }
 
 .foodDeliveryBannerContent > div > p {
