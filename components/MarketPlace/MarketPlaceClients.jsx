@@ -12,26 +12,26 @@ const MarketPlaceClients = () => {
 
   const marketplaceclientdata = [
     {
-      img: "/Images/Marketplaceapp/icons/Component47.png",
+      img: "/Images/Marketplaceapp/icons/Component47.webp",
       Htxt: "Details of Posts",
       stxt: "A detailed post about freelancers, project managers and entrepreneurs who like to use the platform to earn their income.",
       Cphone: "/Images/Marketplaceapp/Clientsappscreen/detailsofposts.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Component44.png",
+      img: "/Images/Marketplaceapp/icons/Component44.webp",
       Htxt: "In-App-Chat",
       stxt: "This is an in-app chat platform that helps you communicate effectively with your clients. ",
       Cphone: "/Images/Marketplaceapp/Clientsappscreen/inappchat.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Component46.png",
+      img: "/Images/Marketplaceapp/icons/Component46.webp",
       Htxt: "Employee Details",
       stxt: " If you are an employer that needs a freelancer, here is the best service for you.",
       Cphone: "/Images/Marketplaceapp/Clientsappscreen/employeedetails.webp",
     },
 
     {
-      img: "/Images/Marketplaceapp/icons/Component45.png",
+      img: "/Images/Marketplaceapp/icons/Component45.webp",
       Htxt: "List of Applicants",
       stxt: "Such as a built in system for submission tracking, email notifications for job applications and more.",
       Cphone: "/Images/Marketplaceapp/Clientsappscreen/people applied.webp",
@@ -102,7 +102,7 @@ const MarketPlaceClients = () => {
             <div className={styles.clientflexingrightdiv1forimage}>
               <img
                 className={styles.marketplaceimageclientimage1}
-                src="/Images/Marketplaceapp/Bannersandbackgrounds/Component44.png"
+                src="/Images/Marketplaceapp/Bannersandbackgrounds/Component44.webp"
                 alt="image1"
               />
             </div>
@@ -118,7 +118,7 @@ const MarketPlaceClients = () => {
             <div className={styles.clientflexingrightdiv3forimage}>
               <img
                 className={styles.marketplaceimageclientimage1}
-                src="/Images/Marketplaceapp/Bannersandbackgrounds/picture(2).png"
+                src="/Images/Marketplaceapp/Bannersandbackgrounds/picture(2).webp"
                 alt="image2"
               />
             </div>

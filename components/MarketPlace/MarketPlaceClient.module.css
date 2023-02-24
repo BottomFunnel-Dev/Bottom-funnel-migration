@@ -41,6 +41,7 @@
   height: 150px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 2%;
+  border-radius: 10px;
   display: flex;
   padding: 10px;
 }
@@ -183,7 +184,10 @@
     display: flex;
     padding: 10px;
   }
-
+  .marketplaceclientflexboxingforimageandtxtcontain :hover{
+  cursor: pointer;
+  transition: all 0.2s linear;
+  }
   .marketplaceclientsflexboxingforimagecontain {
     width: 20%;
     height: 50px;

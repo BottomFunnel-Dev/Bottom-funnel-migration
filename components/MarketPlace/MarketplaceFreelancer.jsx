@@ -4,33 +4,33 @@ import styles from "./MarketplaceFreelancer.module.css";
 
 const MarketplaceFreelancer = () => {
   const [imageChange, setImageChange] = useState(
-    "/Images/Marketplaceapp/Freelancerappcreen/Register.png",
+    "/Images/Marketplaceapp/Freelancerappcreen/Register.webp",
   );
 
   const freelancerData = [
     {
-      img: "/Images/Marketplaceapp/icons/Group339964.png",
+      img: "/Images/Marketplaceapp/icons/Group339964.webp",
       Htxt: "Register Yourself",
       stxt: " Register yourself and start Approaching clients.This will allow you to create your profile ",
-      phone: "/Images/Marketplaceapp/Freelancerappcreen/Register.png",
+      phone: "/Images/Marketplaceapp/Freelancerappcreen/Register.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Component44.png",
+      img: "/Images/Marketplaceapp/icons/Component44.webp",
       Htxt: "In App Chat",
       stxt: "This is an in-app chat platform that helps you communicate effectively with your clients. ",
-      phone: "/Images/Marketplaceapp/Freelancerappcreen/inappchat.png",
+      phone: "/Images/Marketplaceapp/Freelancerappcreen/inappchat.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Group339974.png",
+      img: "/Images/Marketplaceapp/icons/Group339974.webp",
       Htxt: "Find Popular Jobs",
       stxt: "Such as a built in system for tracking, email notifications for job applications and more. ",
-      phone: "/Images/Marketplaceapp/Freelancerappcreen/FindPopularjobs.png",
+      phone: "/Images/Marketplaceapp/Freelancerappcreen/FindPopularjobs.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Group339973.png",
+      img: "/Images/Marketplaceapp/icons/Group339973.webp",
       Htxt: "Easy Apply",
       stxt: "If you are an employer that needs a freelancer, here is the best service for you ",
-      phone: "/Images/Marketplaceapp/Freelancerappcreen/Easyapply.png",
+      phone: "/Images/Marketplaceapp/Freelancerappcreen/Easyapply.webp",
     },
   ];
 
@@ -46,7 +46,7 @@ const MarketplaceFreelancer = () => {
             <Image
               className={styles.imagefreelance1}
               src={
-                "/Images/Marketplaceapp/Bannersandbackgrounds/Component42.png"
+                "/Images/Marketplaceapp/Bannersandbackgrounds/Component42.webp"
               }
               alt={"image"}
               width={"0"}
@@ -71,7 +71,7 @@ const MarketplaceFreelancer = () => {
           <div className={styles.freelancerimagebox3}>
             <Image
               className={styles.imagefreelance1}
-              src={"/Images/Marketplaceapp/Bannersandbackgrounds/picture.png"}
+              src={"/Images/Marketplaceapp/Bannersandbackgrounds/picture.webp"}
               alt={"image2"}
               width={"0"}
               height={"0"}
@@ -95,7 +95,7 @@ const MarketplaceFreelancer = () => {
               <Image
                 className={styles.specialimg}
                 src={
-                  "/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png"
+                  "/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.webp"
                 }
                 alt={"rightflexboximageindex0"}
                 width={"0"}
@@ -109,7 +109,7 @@ const MarketplaceFreelancer = () => {
               <Image
                 className={styles.specialimg}
                 src={
-                  "/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.png"
+                  "/Images/Marketplaceapp/Bannersandbackgrounds/Group3399722.webp"
                 }
                 alt={"rightflexboximageindex0"}
                 width={"0"}

@@ -68,7 +68,7 @@ export const Pickupdriveapp = () => {
   const [drive, setdrive] = useState(0);
   return (
     <div className={styles.pickupdrive}>
-      <h1 className={styles.colored}> Drive app </h1>
+      <h1 className={styles.colored}> Driver's app </h1>
       <div className={styles.pickupdrivesub}>
         <div className={styles.pickupdriveleft}>
           <div className={styles.pickupDriveImage}>

@@ -13,9 +13,7 @@
 .marketplaceadminbackgroundimagebanner {
   width: 70%;
   padding: 2%;
-  background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  
 }
 
 .marketplaceadminchangableimagecontent {
@@ -23,6 +21,9 @@
   margin-left: -10%;
   height: 450px;
   margin-top: 1%;
+  background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.webp");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .imageboxmarketplaceadmin {
@@ -54,6 +55,7 @@
   height: 150px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 2%;
+  border-radius: 10px;
   display: flex;
 }
 
@@ -105,6 +107,7 @@
   .marketplaceadminmainbox {
     height: fit-content;
     width: 100%;
+    margin-top: 40px;
   }
 
   .marketplaceflexboxforadmin {
@@ -117,16 +120,18 @@
   .marketplaceadminbackgroundimagebanner {
     width: 95%;
     padding: 2%;
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
-    background-repeat: no-repeat;
-    background-position: center;
+   
   }
 
   .marketplaceadminchangableimagecontent {
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
-    height: 90%;
+    height: 200px;
     margin-top: 1%;
+    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.webp");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100% 500px;
   }
 
   .imageboxmarketplaceadmin {
@@ -161,12 +166,18 @@
   }
 
   .marketplaceadminflexboxingforimageandtxtcontain {
-    width: 100%;
+    width: 90%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 2%;
+    border-radius: 10px;
     display: flex;
   }
-
+  .marketplaceadminflexboxingforimageandtxtcontain:hover {
+  cursor: pointer;
+  background-color: rgb(229, 251, 244);
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
+  }
   .marketplaceadminflexboxingforimagecontain {
     width: 15%;
     height: 50px;
@@ -179,11 +190,11 @@
   }
 
   .marketplaceadminflexboxingfortxtcontain > h5 {
-    margin-top: 2%;
+    margin-top: 10%;
   }
 
   .marketplaceadminflexboxingfortxtcontain > p {
-    margin-top: 2%;
+    margin-top: 5%;
   }
 
   .marketplaceadminlogo {
@@ -211,22 +222,23 @@
   .marketplaceadminbackgroundimagebanner {
     width: 95%;
     padding: 2%;
-    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.png");
-    background-repeat: no-repeat;
-    background-position: center;
   }
 
   .marketplaceadminchangableimagecontent {
     width: 80%;
     margin-left: 10%;
-    height: 90%;
+    height: 400px;
     margin-top: 1%;
+    background-image: url("/Images/Marketplaceapp/Bannersandbackgrounds/Component43.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100px;
   }
 
   .imageboxmarketplaceadmin {
     object-fit: contain;
     height: 100%;
-    width: 90%;
+    width: 70%;
   }
   
   .marketplaceadminbackgroundimagebannertextbox {
@@ -258,7 +270,13 @@
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 2%;
+    border-radius: 10px;
     display: flex;
+  }
+  .marketplaceadminflexboxingforimageandtxtcontain:hover {
+    cursor: pointer;
+  transition: all 0.2s linear;
+  transform: translateY(-10px);
   }
 
   .marketplaceadminflexboxingforimagecontain {

@@ -74,3 +74,159 @@
   height: 100%;
   object-fit: contain;
 }
+
+
+@media (max-width:480px){
+  .pharmacycustomer {
+    width: 98%;
+    height: fit-content;
+  }
+  
+  .pharmacycustomer > h1 {
+    text-align: center;
+    color: #2c8187;
+  }
+  
+  .pharmacycustomersub {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .pharmacycustomerleft {
+    width: 60%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 20%;
+    display: flex;
+  }
+  
+  .pharmacycustomerright {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  
+  .pharmacycustomerright > div {
+    padding: 10px 10px 10px 10px;
+    margin-top: 3%;
+    height: auto;
+    width: 90%;
+    margin: 0;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pharmacycustomerright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pharmacycustomerright > div > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .pharmacycustomerright > div > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2%;
+  }
+  
+  .pharmacyCustomerImage {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .pharmacyCustomerImage > img {
+    object-fit: contain;
+  }
+}
+
+@media (max-width:1024px){
+  .pharmacycustomer {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .pharmacycustomer > h1 {
+    text-align: center;
+    color: #2c8187;
+  }
+  
+  .pharmacycustomersub {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .pharmacycustomerleft {
+    width: 60%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 20%;
+    display: flex;
+  }
+  
+  .pharmacycustomerright {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pharmacycustomerright > div {
+    padding: 10px 10px 10px 10px;
+    margin-left: 3%;
+    margin-top: 3%;
+    height: auto;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pharmacycustomerright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pharmacycustomerright > div > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2%;
+  }
+  
+  .pharmacycustomerright > div > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2%;
+  }
+  
+  .pharmacyCustomerImage {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .pharmacyCustomerImage > img {
+    object-fit: contain;
+  }
+}

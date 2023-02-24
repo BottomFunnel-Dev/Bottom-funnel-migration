@@ -95,3 +95,193 @@
   width: 100%;
   object-fit: contain;
 }
+
+@media (max-width:480px){
+  .pickupdeliveryadmin {
+    width: 100%;
+    height: fit-content;
+    margin-top: 4%;
+  }
+  
+  .pickupdeliveryadmin > h1 {
+    margin: 0;
+    text-align: center;
+    color: #5cacb2;
+  }
+  
+  .pickupdeliveryadminsub {
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .pickupdeliveryadminright {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 4%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .pickupdeliveryadminright > div {
+    padding: 10px 10px 10px 10px;
+    margin-left: 4%;
+    height: 200px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pickupdeliveryadminright > div:hover {
+    background-color: #f2daaf;
+    transform: scale(1.02);
+  }
+  
+  .pickupdeliveryadminright > div > h3 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  
+  .pickupdeliveryadminright > div > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  
+  .pickupdeliveryAdminImage {
+    width: 85%;
+    height: 290px;
+    text-align: right;
+    margin-left: 10%;
+    padding-bottom: 5px;
+  }
+  
+  .pickupdeliveryadminleft {
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: flex;
+    background: url("/Images/pickup/backgrounds/adminpanelbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+  }
+  
+  .pickupLogo {
+    height: 30%;
+    width: 20%;
+  }
+  
+  .pickupLogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (min-width:481px) and (max-width:1024px){
+  .pickupdeliveryadmin {
+    width: 100%;
+    height: fit-content;
+    margin-top: 4%;
+  }
+  
+  .pickupdeliveryadmin > h1 {
+    margin: 0;
+    text-align: center;
+    color: #5cacb2;
+  }
+  
+  .pickupdeliveryadminsub {
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .pickupdeliveryadminright {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 4%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .pickupdeliveryadminright > div {
+    padding: 10px 10px 10px 10px;
+    margin-left: 4%;
+    height: 200px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pickupdeliveryadminright > div:hover {
+    background-color: #f2daaf;
+    transform: scale(1.02);
+  }
+  
+  .pickupdeliveryadminright > div > h3 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  
+  .pickupdeliveryadminright > div > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  
+  .pickupdeliveryAdminImage {
+    width: 85%;
+    height: 330px;
+    text-align: right;
+    margin-left: 10%;
+    padding-bottom: 5px;
+  }
+  
+  .pickupdeliveryadminleft {
+    width: 70%;
+    height: 350px;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: flex;
+    background: url("/Images/pickup/backgrounds/adminpanelbg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+  }
+  
+  .pickupLogo {
+    height: 30%;
+    width: 20%;
+  }
+  
+  .pickupLogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}

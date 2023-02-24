@@ -11,26 +11,26 @@ const MarketPlaceAdmin = () => {
 
   const marketplaceAdminrData = [
     {
-      img: "/Images/Marketplaceapp/icons/Component41.png",
+      img: "/Images/Marketplaceapp/icons/Component41.webp",
       Htxt: "Dashboard",
       stxt: "Easily navigate to the different pages and posts we have for freelancers, like our dashboard.",
       tablet: "/Images/Marketplaceapp/Adminappscreens/dashboard.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Group339972.png",
+      img: "/Images/Marketplaceapp/icons/Group339972.webp",
       Htxt: "Clients Management",
       stxt: "We allow freelancers and clients to access a central dashboard to manage the relationship.",
       tablet: "/Images/Marketplaceapp/Adminappscreens/clientsmanageent.webp",
     },
     {
-      img: "/Images/Marketplaceapp/icons/Component43.png",
+      img: "/Images/Marketplaceapp/icons/Component43.webp",
       Htxt: "Reports",
       stxt: "Reports are reliable and can give you useful insight into the person that’s completing your project.",
       tablet: "/Images/Marketplaceapp/Adminappscreens/reports.webp",
     },
 
     {
-      img: "/Images/Marketplaceapp/icons/icon.png",
+      img: "/Images/Marketplaceapp/icons/icon.webp",
       Htxt: "Email Alerts",
       stxt: "You'll get emailed a notification when a new freelance job opens up.",
       tablet: "/Images/Marketplaceapp/Adminappscreens/emailalerts.webp",
@@ -85,10 +85,15 @@ const MarketPlaceAdmin = () => {
             backgroundSize: "contain",
             backgroundPosition: "center",
           }}>
-          <img className={styles.imageboxmarketplaceadmin}
-            src={imageChange}
-            alt="marketplacebanner"
-          />
+          <Image
+            className={styles.imageboxmarketplaceadmin}
+              src={imageChange}
+              alt={"market"}
+              width={"0"}
+              height={"0"}
+              sizes={"100vw"}
+              style={{ width: "100%", height: "90%" }}
+              />
         </div>
       </div>
     </div>
