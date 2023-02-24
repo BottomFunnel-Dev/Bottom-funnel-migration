@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupForm } from "../PopupForm/PopupForm";
 import styles from "./Laundrybannerlower.module.css";
 
 const LaundryBannerlower = () => {
@@ -41,7 +42,7 @@ const LaundryBannerlower = () => {
                 </div>
 
                 <div>
-                  <PopupForm />
+                  <PopupForm/>
                 </div>
               </div>
             </div>
