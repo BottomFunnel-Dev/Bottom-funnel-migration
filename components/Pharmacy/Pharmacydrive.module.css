@@ -5,7 +5,7 @@
 
 .pharmacydrive > h1 {
   margin-left: 60%;
-  color: #5cacb2;
+  color: #367b80;
 }
 
 .pharmacydrivesub {
@@ -56,13 +56,11 @@
 }
 
 .pharmacyLogo {
-  /* border: 1px solid red; */
   width: 100%;
   height: 40px;
 }
 
 .pharmacydriveright > div > h3 {
-  /* border: 1px solid red; */
   font-size: 18px;
   font-weight: 500;
   line-height: 21.6px;
@@ -71,7 +69,6 @@
 }
 
 .pharmacyDriveImage {
-  /* border: 1px solid red; */
   width: 60%;
   height: 600px;
   position: absolute;
@@ -80,8 +77,173 @@
   margin-left: 20%;
 }
 
-/* .pharmacyDriveImage > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-} */
+
+@media (max-width:480px){
+  .pharmacydrive {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .pharmacydrive > h1 {
+    text-align: center;
+    margin: 0;
+    color: #5cacb2;
+  }
+  
+  .pharmacydrivesub {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pharmacydriveleft {
+    width: 50%;
+    height: 400px;
+    background: url("/Images/pharmacy/lastrectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin-left: 24%;
+    position: relative;
+  }
+  
+  .pharmacydriveright {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 4%;
+  }
+  
+  .pharmacydriveright > div {
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+    margin-left: 5%;
+    height: 200px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pharmacydriveright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pharmacyLogo {
+    width: 100%;
+    height: 50px;
+  }
+  
+  .pharmacydriveright > div > h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 21.6px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  
+  .pharmacyDriveImage {
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 20%;
+  }
+  
+}
+
+@media (max-width:1024px){
+  .pharmacydrive {
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .pharmacydrive > h1 {
+    text-align: center;
+    margin: 0;
+    color: #55aeb5;
+  }
+  
+  .pharmacydrivesub {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pharmacydriveleft {
+    width: 50%;
+    height: 400px;
+    background: url("/Images/pharmacy/lastrectangle.png");
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    margin-left: 24%;
+    position: relative;
+  }
+  
+  .pharmacydriveright {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 4%;
+  }
+  
+  .pharmacydriveright > div {
+    padding: 10px 10px 10px 10px;
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 200px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .pharmacydriveright > div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pharmacyLogo {
+    width: 80%;
+    height: 50px;
+  }
+  
+  .pharmacydriveright > div > h3 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 21.6px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  
+  .pharmacyDriveImage {
+    width: 80%;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 0%;
+    margin-left: 20%;
+  }
+  
+}

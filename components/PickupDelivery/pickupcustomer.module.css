@@ -116,3 +116,231 @@
 .dummy {
   width: 30%;
 }
+
+@media (max-width:480px){
+  .pickupcustomer {
+    width: 97%;
+    height: max-content;
+  }
+  
+  .pickupcustomerright {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .pickupcustomerright h1 {
+    text-align: center;
+    margin: 0 ;
+    color: #5cacb2;
+  }
+  
+  .pickupcustomerSols {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .pickupcustomerImage {
+    width: 70%;
+    height: 300px;
+    position: relative;
+    background: url("/Images/pickup/backgrounds/customerappbg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  
+  .variableImg {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    left: 53%;
+  }
+  
+  .variableImg > img {
+    object-fit: contain;
+  }
+  
+  .pickupcustomerText {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    row-gap: 24px;
+  }
+  
+  .pickupcustomercard {
+    width: 100%;
+    height: 200px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pickupcustomercard:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f2daaf;
+  }
+  
+  .pickupcustomercard > h6 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: 22px;
+    line-height: 21.5px;
+    vertical-align: baseline;
+    font-weight: 500;
+  }
+  
+  .pickupcustomercard > p {
+    margin-top: 3%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: baseline;
+    font-weight: 400;
+    margin-bottom: 0%;
+  }
+  
+  .pickupcustomerIcon {
+    width: 60px;
+    height: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .pickupcustomerIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .dummy {
+    width: 30%;
+  }
+}
+
+@media (min-width:481px) and (max-width:1024px){
+  .pickupcustomer {
+    width: 97%;
+    height: max-content;
+  }
+  
+  .pickupcustomerright {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .pickupcustomerright h1 {
+    text-align: center;
+    margin: 0 ;
+    color: #5cacb2;
+  }
+  
+  .pickupcustomerSols {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .pickupcustomerImage {
+    width: 70%;
+    height: 300px;
+    position: relative;
+    background: url("/Images/pickup/backgrounds/customerappbg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  
+  .variableImg {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 43%;
+    left: 53%;
+  }
+  
+  .variableImg > img {
+    object-fit: contain;
+  }
+  
+  .pickupcustomerText {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    row-gap: 24px;
+  }
+  
+  .pickupcustomercard {
+    width: 100%;
+    height: 200px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pickupcustomercard:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-15px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f2daaf;
+  }
+  
+  .pickupcustomercard > h6 {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: 22px;
+    line-height: 21.5px;
+    vertical-align: baseline;
+    font-weight: 500;
+  }
+  
+  .pickupcustomercard > p {
+    margin-top: 3%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: baseline;
+    font-weight: 400;
+    margin-bottom: 0%;
+  }
+  
+  .pickupcustomerIcon {
+    width: 60px;
+    height: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .pickupcustomerIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .dummy {
+    width: 30%;
+  }
+}

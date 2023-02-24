@@ -67,7 +67,7 @@ export default function Pharmacydrive() {
   return (
     <div className={styles.pharmacydrive}>
       <h1>
-        Drive app
+        Driver's app
       </h1>
 
       <div className={styles.pharmacydrivesub}>

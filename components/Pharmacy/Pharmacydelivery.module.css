@@ -55,7 +55,6 @@
 
 .szdeliverysolutionapp {
   display: flex;
-  /* border: 1px solid red; */
 }
 
 .szdeliverysolutionapp > h5 {
@@ -68,7 +67,6 @@
 .szdeliverytraking {
   width: 15%;
   height: 60px;
-  /* border: 1px solid red; */
 }
 
 .szdeliverytraking > img {
@@ -79,4 +77,90 @@
 
 .szdeliverysolution > p {
   margin-top: 1%;
+}
+
+@media (max-width:480px){
+  .szdeliveryservice {
+    width: 100%;
+  }
+  
+  .szdeliveryservicesub {
+    width: 100%;
+  }
+  
+  .szdeliverypara {
+    width: 90%;
+    margin-left: 7%;
+    text-align: center;
+  }
+  
+  .szdeliveryservicediv {
+    width: 100%;
+    background: url("/Images/pharmacy/Rectangle 40.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .szdeliverytop {
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .szdeliverybottom {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .szdeliverysolution {
+    width: 90%;
+    height: 200px;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 3%;
+  }
+  
+  .szdeliverysolution:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .szdeliverysolutionapp {
+    display: flex;
+  }
+  
+  .szdeliverysolutionapp > h5 {
+    font-size: 17px;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+  }
+  
+  .szdeliverytraking {
+    width: 15%;
+    height: 60px;
+  }
+  
+  .szdeliverytraking > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .szdeliverysolution > p {
+    margin-top: 1%;
+  }
+
+  
 }

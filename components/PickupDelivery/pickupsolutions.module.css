@@ -85,3 +85,96 @@
   color: #ef4c23;
   background-color: white;
 }
+
+@media (max-width:480px){
+  .pickupSolution {
+    width: 99%;
+    height: fit-content;
+  }
+  
+  .pickupright {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .pickupsolutionText {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .pickupSols {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .pickupSolsImage {
+    width: 80%;
+    height: 300px;
+    margin-left: 8%;
+  }
+  .pickupSolsImage > img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+  }
+  
+  .pickupSolsText {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pickupsolcard {
+    width: 90%;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+    margin: 1% 0% 1% 0%;
+    padding: 10px;
+  }
+  
+  .pickupsolcard:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pickupsolcard > h6 {
+    margin-top: 30px;
+    font-weight: 600;
+  }
+  
+  .pickupIcon {
+    width: 60px;
+    height: 60px;
+  }
+  .pickupIcon > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .pickupright > button {
+    padding: 10px 60px;
+    border-radius: 25px;
+    background-color: #ef4c23;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 5%;
+  }
+  
+  .pickupright > button:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+}

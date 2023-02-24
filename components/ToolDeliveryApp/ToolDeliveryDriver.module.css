@@ -73,6 +73,7 @@
 .tooldeliveryDriveImage > img {
   object-fit: contain;
 }
+
 @media (max-width:480px){
   .tooldrive {
     width: 100%;

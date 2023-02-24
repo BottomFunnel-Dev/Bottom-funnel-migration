@@ -9,7 +9,7 @@ const Marketplaceborder = () => {
       <div className={styles.marketplacebordermobilediv}>
 
         <Image className={styles.bannerimagemobileinnerdiv}
-          src={'/Images/Marketplaceapp/Bannersandbackgrounds/Group339972.png'}
+          src={'/Images/Marketplaceapp/Bannersandbackgrounds/Group339972.webp'}
           alt={"image"}
           width={"0"}
           height={"0"}

@@ -10,9 +10,9 @@
 
 .freelancermarketboxleftflexing {
   height: 100%;
-  width: 50%;
+  width: 40%;
   position: relative;
-  margin-left: 10%;
+  margin-left: 8%;
 }
 
 .freelancermarketboxrightflexing {
@@ -85,6 +85,7 @@
 .afterdottedinnerflecboxfreelancer {
   height: 100%;
   width: 95%;
+  margin-left: 7%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -95,9 +96,10 @@
   background-color: white;
   height: 170px;
   width: 40%;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-left: 7%;
+  margin-left: 3%;
   margin-top: 3%;
 }
 
@@ -110,8 +112,8 @@
 
 .frelancerinsiderlogo {
   height: 35%;
-  width: 40%;
-  margin: 6%;
+  width: 50%;
+  padding: 5px;
 }
 
 .imagelogofree {
@@ -121,7 +123,8 @@
 }
 
 .frelancerinsidertxt > h5 {
-  margin-top: 8%;
+  margin-top: 6%;
+  margin-bottom: 5%;
   font-size: 20px;
   font-weight: 500;
   line-height: 21.6px;
@@ -129,7 +132,6 @@
 }
 
 .frelancerinsidertxt > p {
-  margin-top: 0%;
   font-size: 16px;
   line-height: 20px;
   vertical-align: baseline;
@@ -140,7 +142,7 @@
 
 @media (max-width: 480px) {
   .marketplacefreelancermainbox {
-    height: 800px;
+    height: 100vh;
   }
 
   .freelancerboxflexingmain {
@@ -155,7 +157,7 @@
   }
 
   .freelancermarketboxrightflexing {
-    height: 600px;
+    height: 700px;
     width: 100%;
     position: relative;
   }
@@ -199,17 +201,19 @@
   .freelancertextboxrightdiv > h2 {
     font-size: 24px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 0%;
   }
 
   .freelancertextboxrightdiv > h6 {
     margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
     font-size: 15px;
   }
 
   .freelancerboxforspecialimagedotted {
-    height: 70%;
+    height: 82%;
     width: 100%;
     position: relative;
   }
@@ -226,6 +230,7 @@
     width: 20%;
     bottom: 0;
     right: 0;
+    top: 5;
   }
 
   .specialimg {
@@ -236,7 +241,9 @@
 
   .afterdottedinnerflecboxfreelancer {
     height: fit-content;
-    width: 100%;
+    width: 90%;
+    margin: 0;
+    margin-left: 7%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -284,8 +291,7 @@
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .marketplacefreelancermainbox {
-    width: 100%;
-    height: 1100px;
+    height: 100vh;
   }
 
   .freelancerboxflexingmain {
@@ -294,14 +300,13 @@
   }
 
   .freelancermarketboxleftflexing {
-    height: 100%;
-    width: 90%;
+    height: 70%;
+    width: 85%;
     position: relative;
-    margin-top: 1%;
   }
 
   .freelancermarketboxrightflexing {
-    height: 100%;
+    height: 700px;
     width: 100%;
     position: relative;
   }
@@ -309,9 +314,9 @@
   .freelancerimagebox1 {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 90%;
     z-index: 0;
-    left: -10%;
+    border: 1px solid transparent;
   }
 
   .freelancerimagebox2 {
@@ -319,15 +324,14 @@
     width: 30%;
     position: absolute;
     z-index: 1;
-    left: 20%;
   }
 
   .freelancerimagebox3 {
-    height: 45%;
+    height: 50%;
     width: 45%;
     position: absolute;
     z-index: 2;
-    left: 20%;
+    left: 28%;
     top: 40%;
   }
 
@@ -338,28 +342,27 @@
   }
 
   .freelancertextboxrightdiv {
-    height: 120px;
-    width: 99%;
-    margin-top: 1%;
+    height: fit-content;
+    width: 100%;
     text-align: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .freelancertextboxrightdiv > h2 {
     font-size: 24px;
     font-weight: 600;
+    margin-top: 40px;
     margin-bottom: 0%;
   }
 
   .freelancertextboxrightdiv > h6 {
     margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
     font-size: 15px;
-    font-weight: 400;
   }
 
   .freelancerboxforspecialimagedotted {
-    height: 100%;
+    height: 90%;
     width: 100%;
     position: relative;
   }
@@ -376,6 +379,7 @@
     width: 20%;
     bottom: 0;
     right: 0;
+    top: 5;
   }
 
   .specialimg {
@@ -385,23 +389,24 @@
   }
 
   .afterdottedinnerflecboxfreelancer {
-    height: 100%;
-    width: 100%;
+    height: fit-content;
+    width: 90%;
+    margin: 0;
+    margin-left: 7%;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
   }
 
   .flexboxdivfreelancer {
     display: flex;
     background-color: white;
-    height: fit-content;
+    height: 140px;
     width: 100%;
-    height: 110px;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-left: 30%;
+    border-radius: 18px;
     margin-top: 3%;
+    margin-right: 7%;
   }
 
   .flexboxdivfreelancer:hover {
@@ -412,11 +417,8 @@
   }
 
   .frelancerinsiderlogo {
-    height: 70%;
-    width: 20%;
-    margin-top: 0%;
-    margin-left: 15%;
-    object-fit: contain;
+    height:80%;
+    width: 30%;
   }
 
   .imagelogofree {
@@ -426,15 +428,11 @@
   }
 
   .frelancerinsidertxt > h5 {
-    margin-top: 0%;
-    font-size: 20px;
-    font-weight: 700;
+    margin-top: 2%;
     margin-bottom: 0%;
   }
 
   .frelancerinsidertxt > p {
-    margin-top: 1%;
-    font-size: 17px;
-    font-weight: 400;
+    margin-top: 2%;
   }
 }
