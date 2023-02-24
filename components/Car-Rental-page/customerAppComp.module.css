@@ -87,3 +87,190 @@ gap: 20px;
 .RGCustomerSpan {
   color: #ef4c23;
 }
+
+@media (max-width:480px){
+  .RGCustomerAppContainer {
+    position: relative;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .RGCustomerAppTextDiv {
+    position: absolute;
+    height: fit-content;
+    left: 15%;
+    bottom: 100%;
+    width: 76%;
+    text-align: center;
+  }
+  
+  .RGCustomerAppMobileLeftDiv {
+    height: 300px;
+    width: 60%;
+    background: url("/Images/Car-Rental-Page-Images/Rectangle 4724.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .RGCustomerAppMobileLeftDivFrameForImages {
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    left: 30%;
+  }
+  
+  .RGCustomerAppMobileLeftDivFrameForImages > img {
+    object-fit: contain;
+  }
+  
+  .RGCustomerAppMobileRightDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+  }
+  
+  .RGCustomerAppMobileRightDivBoxex {
+    padding: 15px 15px 10px 10px;
+    height: 250px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: justify;
+  }
+  
+  .RGCustomerAppMobileRightDivBoxex:hover {
+    transform: scale(1.02);
+    background-color: rgb(205, 248, 251);
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+  }
+  .RGrenterAppMobileRightDivicon{
+    height: 20%;
+    width: 12%;
+    margin-bottom: 3%;
+  }
+  .RGCustomerAppMobileRightDivBoxex > div > h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 2%;
+  }
+  
+  .RGCustomerAppMobileRightDivBoxex > div > p {
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  .RGCustomerSpan {
+    color: #ef4c23;
+  }
+}
+
+@media (max-width:1024px){
+  .RGCustomerAppContainer {
+    position: relative;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .RGCustomerAppTextDiv {
+    position: absolute;
+    height: fit-content;
+    left: 15%;
+    bottom: 100%;
+    margin-bottom: 5%;
+    width: 76%;
+    text-align: center;
+  }
+  
+  .RGCustomerAppMobileLeftDiv {
+    height: 300px;
+    width: 60%;
+    background: url("/Images/Car-Rental-Page-Images/Rectangle 4724.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .RGCustomerAppMobileLeftDivFrameForImages {
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    left: 30%;
+  }
+  
+  .RGCustomerAppMobileLeftDivFrameForImages > img {
+    object-fit: contain;
+  }
+  
+  .RGCustomerAppMobileRightDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+  }
+  
+  .RGCustomerAppMobileRightDivBoxex {
+    padding: 15px 15px 10px 10px;
+    height: 250px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: justify;
+  }
+  
+  .RGCustomerAppMobileRightDivBoxex:hover {
+    transform: scale(1.02);
+    background-color: rgb(205, 248, 251);
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+  }
+  .RGrenterAppMobileRightDivicon{
+    height: 20%;
+    width: 12%;
+    margin-bottom: 3%;
+  }
+  .RGCustomerAppMobileRightDivBoxex > div > h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 2%;
+  }
+  
+  .RGCustomerAppMobileRightDivBoxex > div > p {
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  .RGCustomerSpan {
+    color: #ef4c23;
+  }
+}

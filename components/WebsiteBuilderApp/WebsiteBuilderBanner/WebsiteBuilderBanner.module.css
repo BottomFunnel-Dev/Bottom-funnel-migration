@@ -1,26 +1,24 @@
 .websiteBuilderBannerImageDiv {
-  /* border: 1px solid black; */
   position: relative;
   height: 100vh;
   z-index: 1;
+  background: url("/Images/WebsiteBuilderApp/BannerBackground.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .websiteBuilderBannerImageDiv img {
-  /* height: 100vh; */
   width: 100%;
   height: 100vh;
-  /* object-fit: cover; */
 }
 
 .websiteBuilderBannerTopComp {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   margin-top: 4%;
 }
 
 .websiteBuilderBannerTopImageComp {
-  /* border: 2px solid gold; */
   position: absolute;
   top: 9%;
   right: 0%;
@@ -28,19 +26,15 @@
 }
 
 .websiteBuilderBannerAnimation {
-  /* border: 1px solid red; */
   width: 85%;
 }
 
 .websiteBuilderBannerTopImageComp img {
-  /* height: 100vh; */
   height: 600px;
   width: 100%;
-  /* object-fit: cover; */
 }
 
 .websiteBuilderBannerContentDiv {
-  /* border: 2px solid red; */
   position: absolute;
   z-index: 2;
   top: 35%;
@@ -56,7 +50,6 @@
 .websiteBuilderBannerContentDiv p {
   color: white;
   margin-top: 3%;
-  /* font-size: 21px; */
 }
 
 .websiteBuilderBannerContentDiv button {
@@ -72,73 +65,56 @@
 
 .websiteBuilderBannerContentDiv button:hover {
   color: #ef4c23;
-  /* border: 1px solid #ef4c23; */
   background-color: white;
 }
 
-/* this css is for the responsive of the pages f0r the mobile and web responsive */
-/* Media query for the Mobile Device */
 
-@media (max-width: 480px) {
-  .websiteBuilderBannerParentDiv {
-    /* border: 1px solid red; */
-    margin-top: 10%;
-  }
+
+@media only screen and (min-width:0px) and (max-width:600px){
 
   .websiteBuilderBannerImageDiv {
-    /* border: 1px solid black; */
     position: relative;
     height: 100vh;
-    z-index: 1;
-    /* height: 400px; */
+   background-color: #6E5FD4;
   }
-
-  .websiteBuilderBannerImageDiv img {
-    /* height: 100vh; */
-    width: 100%;
-    height: 100vh;
-    /* object-fit: cover; */
-  }
+  
 
   .websiteBuilderBannerTopComp {
-    /* border: 2px solid red; */
-    flex-direction: column;
-    /* flex-direction: row; */
+    display: flex;
+   flex-wrap: wrap;
     margin-top: 4%;
   }
-
+  
   .websiteBuilderBannerTopImageComp {
-    /* border: 2px solid gold; */
-    position: absolute;
-    top: 15%;
-    right: 4%;
-  }
-  .websiteBuilderBannerTopImageComp img {
-    height: 600px;
-    width: 100%;
-    /* object-fit: cover; */
-  }
+    margin-left: -40%;
 
+  }
+  
+  .websiteBuilderBannerAnimation {
+    width: 85%;
+  }
+  
   .websiteBuilderBannerContentDiv {
-    /* border: 2px solid red; */
     position: absolute;
     z-index: 2;
-    top: 35%;
+    top: 60%;
     left: 5%;
-    width: 45%;
+    width: 90%;
+   
   }
-
+  
   .websiteBuilderBannerContentDiv h1 {
     color: white;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
   }
-
+  
   .websiteBuilderBannerContentDiv p {
     color: white;
     margin-top: 3%;
-    /* font-size: 21px; */
+    text-align: justify;
   }
-
+  
   .websiteBuilderBannerContentDiv button {
     padding: 10px 40px;
     border-radius: 10px;
@@ -149,11 +125,9 @@
     font-weight: 600;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-
+  
   .websiteBuilderBannerContentDiv button:hover {
-    /* border: 1px solid #ef4c23; */
     color: #ef4c23;
-    /* border: 1px solid #ef4c23; */
     background-color: white;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./LaundryPage.module.css";
+import styles from "./Laundrylowerfooter.module.css";
 
 export default function Laundryapppagelowerfooter() {
   const Laundrywhydata = [

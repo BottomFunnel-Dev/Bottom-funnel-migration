@@ -65,13 +65,14 @@
     align-items: center;
     margin-top: 2%;
     justify-content: center;
-    row-gap: 40px;
-    column-gap: 40px;
+    row-gap: 20px;
+    column-gap: 20px;
   }
 
   .agricultureSolutionsMainDataCards > div {
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    padding: 10px;
+    height: 400px;
     border: 1px solid #d6d6d6;
     border-radius: 10px;
     padding: 1%;
@@ -89,6 +90,7 @@
 
   .agricultureSolutionsMainDataCards > div > p {
     font-size: 15px;
+    text-align: justify;
   }
 
   .agricultureSolutionsMainDataCards > div > div {
@@ -115,9 +117,7 @@
     color: #ef4c23;
   }
 
-  .plantBasedServicesBackImageDiv img {
-    width: 100%;
-  }
+  
 
   .agricultureSolutionsMainDataCards {
     width: 100%;
@@ -130,8 +130,8 @@
   }
 
   .agricultureSolutionsMainDataCards > div {
-    width: 90%;
-    height: 450px;
+    width: 80%;
+    height: 350px;
     border-radius: 10px;
     padding: 1%;
     display: flex;
@@ -142,7 +142,7 @@
   }
 
   .agricultureSolutionsMainDataCards > div > div {
-    width: 100%;
+    width: 50%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -150,14 +150,13 @@
 
   .agricultureSolutionsMainDataCards > div > div > img {
     align-items: center;
-    width: 70%;
     object-fit: contain;
   }
 
   .agricultureSolutionsMainDataCards > div > h3 {
     font-size: 22px;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    margin-bottom: 3%;
+    margin-top: 1%;
   }
 
   .agricultureSolutionsMainDataCards > div > p {

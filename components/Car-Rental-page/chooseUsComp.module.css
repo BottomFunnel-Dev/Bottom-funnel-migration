@@ -1,26 +1,92 @@
 .RGchooseUsCompContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35vh;
 }
 .RGchooseUsCompLeft {
-    width: 20%;
-    text-align: center;
-    font-weight: 600;
+  width: 20%;
+  text-align: center;
+  font-weight: 600;
 }
 
 .RGchooseUsCompRight {
-    width: 75%;
-    font-size: 20px;
+  width: 75%;
+  font-size: 20px;
 }
 
 .RGchooseUsComphrLine {
-    width: 0.2%;
-    height: 50px;
-    background:#ef4c23;
+  width: 0.2%;
+  height: 50px;
+  background: #ef4c23;
 }
 
 .RGchooseUsCompspanTag {
+  color: red;
+}
+
+@media (max-width: 480px) {
+  .RGchooseUsCompContainer {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 35vh;
+  }
+  .RGchooseUsCompLeft {
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .RGchooseUsCompRight {
+    width: 85%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .RGchooseUsComphrLine {
+    width: 72%;
+    height: 2px;
+    background: #ef4c23;
+  }
+
+  .RGchooseUsCompspanTag {
     color: red;
+  }
+}
+
+@media (max-width: 1024px) {
+  .RGchooseUsCompContainer {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 35vh;
+  }
+  .RGchooseUsCompLeft {
+    width: 80%;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .RGchooseUsCompRight {
+    width: 85%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .RGchooseUsComphrLine {
+    width: 72%;
+    height: 2px;
+    background: #ef4c23;
+  }
+
+  .RGchooseUsCompspanTag {
+    color: red;
+  }
 }

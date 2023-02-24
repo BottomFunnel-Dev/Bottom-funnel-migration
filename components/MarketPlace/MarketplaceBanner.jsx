@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./MarketPlaceBanner.module.css";
 
 import { PopupForm } from "../PopupForm/PopupForm";
@@ -7,8 +7,8 @@ export const MarketplaceBanner = () => {
 
 
   return (
-    <div className={styles.marketplacebannerimage}>
-      <div className={styles.marketplacebannerimageinsideboxtext}>
+    <div className={styles.marketplacebanner}>
+      <div className={styles.marketplacebannerinsideboxtext}>
         <h1>Build A Freelancer Marketplace Like Upwork & Fiverr</h1>
         <p>
           Are you looking for a place to hire freelancers? Have you tried Upwork
@@ -51,10 +51,6 @@ export const MarketplaceBanner = () => {
               </div>
             </div>
           </div>
-
-
-
-     
       </div>
 
       <div className={styles.marketplaceBannerAnimationDiv}>

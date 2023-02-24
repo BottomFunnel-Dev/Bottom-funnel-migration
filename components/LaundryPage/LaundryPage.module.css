@@ -143,25 +143,9 @@
   right: 10%;
 }
 
-.bannerlowerlaundrypageapp {
-  height: 500px;
-  background-image: url("/Images/Laundrypage/Bannersbackgrounds/Component 45 1.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-}
 
-.bannerlowerlaundrypageappinsiderimagetxt {
-  color: white;
-  position: absolute;
-  top: 40%;
-  width: 60%;
-  left: 5%;
-}
 
-.bannerlowerlaundrypageappinsiderimagetxt > p {
-  font-size: 17px;
-}
+
 
 .adminpannelLaundrydivmainbox {
   margin-top: 10%;
@@ -234,51 +218,16 @@
 .solutionsFeatures {
   display: flex;
 }
-.laundrypagefooterbanner {
-  height: fit-content;
-  margin-top: 5%;
-}
 
-.laundryfooterbannertxt {
-  height: fit-content;
-  margin: auto;
-  width: 70%;
-}
 
-.laundrylowerbannermapperbox {
-  height: 200px;
-  width: 90%;
-  margin: 5% 5% 0% 5%;
 
-  display: flex;
-}
 
-.laundryfooterbanmappeindi {
-  width: 20%;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin: auto;
-  height: 150px;
-  border-radius: 10px;
-  justify-content: center;
-}
 
-.cardiconlaundry {
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  margin: auto;
-  margin-top: 7%;
-}
 
-.cardiconlaundry > img {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-}
 
-.cardtitlelaundry {
-  text-align: center;
-}
+
+
+
 
 .laundryadmindatamappingindi > h4 {
   margin-top: 1%;

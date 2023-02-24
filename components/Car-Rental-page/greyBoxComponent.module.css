@@ -1,34 +1,111 @@
 .RGgreyBoxContainer {
-display: flex;
-flex-wrap:wrap;
-row-gap: 20px;
-justify-content: space-between;
-width: 96%;
-margin: auto;
-padding: 2%;
-align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+  width: 96%;
+  margin: auto;
+  padding: 2%;
+  align-items: center;
 }
 .RGdivv {
-    border: 1px solid rgb(218, 218, 218);
-width: 32%;
-height: 200px;
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-border-radius: 10px;
-text-align: left;
-padding: 1%;
+  border: 1px solid rgb(218, 218, 218);
+  width: 32%;
+  height: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 1%;
 }
-.RGdivvicon{
-    margin-top: 1%;
-    height: 17%;
-    width: 9%;
+.RGdivvicon {
+  margin-top: 1%;
+  height: 17%;
+  width: 9%;
 }
 .RGdivv > h2 {
+  margin-top: 2%;
+  font-size: x-large;
+  font-weight: 400;
+}
+.RGdivv:hover {
+  background-color: #d1eef0;
+  margin-top: 0;
+  transform: translateY(-10px);
+}
+
+@media (max-width: 480px) {
+  .RGgreyBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+    padding: 2%;
+    align-items: center;
+  }
+  .RGdivv {
+    border: 1px solid rgb(218, 218, 218);
+    width: 95%;
+    margin-left: 2.5%;
+    height: 200px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 1%;
+  }
+  .RGdivvicon {
+    margin-top: 1%;
+    height: 19%;
+    width: 10%;
+  }
+  .RGdivv > h2 {
     margin-top: 2%;
     font-size: x-large;
     font-weight: 400;
+  }
+  .RGdivv:hover {
+    background-color: #d1eef0;
+    margin-top: 0;
+    transform: translateY(-10px);
+  }
 }
-.RGdivv:hover {
-background-color: #d1eef0;    
-margin-top: 0; 
-transform: translateY(-10px);
-} 
+
+@media (max-width: 1024px) {
+    .RGgreyBoxContainer {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 20px;
+      justify-content: space-between;
+      width: 96%;
+      margin: auto;
+      padding: 2%;
+      align-items: center;
+    }
+    .RGdivv {
+      border: 1px solid rgb(218, 218, 218);
+      width: 95%;
+      margin-left: 2.5%;
+      height: 200px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 10px;
+      text-align: left;
+      padding: 1%;
+    }
+    .RGdivvicon {
+      margin-top: 1%;
+      height: 19%;
+      width: 9%;
+    }
+    .RGdivv > h2 {
+      margin-top: 2%;
+      font-size: x-large;
+      font-weight: 400;
+    }
+    .RGdivv:hover {
+      background-color: #d1eef0;
+      margin-top: 0;
+      transform: translateY(-10px);
+    }
+  }
+  

@@ -1,0 +1,113 @@
+.laundrypagefooterbanner {
+height: fit-content;
+margin-top: 5%;
+}
+.laundryfooterbannertxt {
+height: fit-content;
+margin: auto;
+width: 70%;
+}
+
+.laundrylowerbannermapperbox {
+height: 200px;
+width: 90%;
+margin: 5% 5% 0% 5%;
+display: flex;
+}
+
+.laundryfooterbanmappeindi {
+width: 20%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: auto;
+height: 150px;
+border-radius: 10px;
+justify-content: center;
+}
+
+.laundryfooterbanmappeindi:hover{
+transform: scale(1.02);
+}
+
+.cardiconlaundry {
+height: 50px;
+width: 50px;
+text-align: center;
+margin: auto;
+margin-top: 7%;
+}
+
+.cardiconlaundry > img {
+height: 100%;
+width: 100%;
+text-align: center;
+}
+
+.cardtitlelaundry {
+text-align: center;
+}
+
+@media only screen and (min-width:0px) and (max-width:600px){
+
+.laundrypagefooterbanner {
+height: fit-content;
+margin-top: 5%;
+}
+.laundryfooterbannertxt {
+height: fit-content;
+margin: auto;
+width: 90%;
+}
+
+.laundryfooterbannertxt>h1{
+    font-size: 20px;
+}
+.laundryfooterbannertxt>p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.laundrylowerbannermapperbox {
+height: fit-content;
+width: 95%;
+margin-bottom: 5%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 5%;
+}
+
+.laundryfooterbanmappeindi {
+width: 40%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 5%;
+height: 150px;
+border-radius: 10px;
+justify-content: center;
+}
+
+.laundryfooterbanmappeindi:hover{
+transform: scale(1.02);
+}
+
+.cardiconlaundry {
+height: 50px;
+width: 50px;
+text-align: center;
+margin: auto;
+margin-top: 7%;
+}
+
+.cardiconlaundry > img {
+height: 100%;
+width: 100%;
+text-align: center;
+}
+
+.cardtitlelaundry {
+text-align: center;
+}
+
+.cardtitlelaundry>h3{
+    font-size: 20px;
+}
+
+}

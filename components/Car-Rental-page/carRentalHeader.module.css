@@ -44,3 +44,52 @@
   width: 45%;
   margin-top: 7%;
 }
+
+@media (max-width:480px){
+  .RGcarRentalContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+  }
+  
+  .RGcarRentalHeaderLeft {
+    width: 75%;
+    margin-left: 5%;
+    padding-top: 4%;
+  }
+  
+  .RGcarRentalHeaderLeft > h1 {
+    font-size: 40px;
+  }
+  
+  .RGcarRentalHeaderLeft > p {
+    font-size: 20px;
+  }
+  
+  .RGcarRentalHeaderLeft > button {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: 220px;
+    background-color: #ef4c23;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4%;
+    margin-left: 30px;
+  }
+  
+  .RGcarRentalHeaderLeft > button:hover {
+    color: #ef4c23;
+    background-color: white;
+  }
+  
+  .RGcarRentalHeaderRight {
+    width: 70%;
+    margin-top: 20%;
+  }
+}

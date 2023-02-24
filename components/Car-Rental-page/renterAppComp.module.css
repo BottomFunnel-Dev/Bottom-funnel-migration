@@ -89,3 +89,201 @@
 .RGrenterSpan {
   color: #ef4c23;
 }
+
+@media (max-width:480px){
+  .RGrenterAppContainer {
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .RGrenterAppTextDiv {
+    position: absolute;
+    height: auto;
+    right: 15%;
+    bottom: 100%;
+    width: 76%;
+  }
+  .RGrenterAppTextDiv> h1 {
+    text-align: center;
+  }
+  
+  .RGrenterAppMobileLeftDiv {
+    height: 300px;
+    width: 50%;
+    margin-left: 3%;
+    background: url("/Images/Car-Rental-Page-Images/Group 770762.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .RGrenterAppMobileLeftDivFrameForImages {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left: 30%;
+  }
+  
+  .RGrenterAppMobileLeftDivFrameForImages > img {
+    object-fit: contain;
+  }
+  
+  .RGrenterAppMobileRightDiv {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    align-items: center;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex {
+    padding: 9px 15px 10px 10px;
+    height: 220px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: rgb(223, 247, 249);
+  }
+  .RGrenterAppMobileRightDivicon{
+    height: 22%;
+    width: 15%;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex > div > h4 {
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex > div > p {
+    margin-top: 0%;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  .RGrenterSpan {
+    color: #ef4c23;
+  }
+  
+}
+
+@media (max-width:1024px){
+  .RGrenterAppContainer {
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .RGrenterAppTextDiv {
+    position: absolute;
+    height: auto;
+    right: 15%;
+    bottom: 100%;
+    width: 76%;
+  }
+  .RGrenterAppTextDiv> h1 {
+    text-align: center;
+  }
+  
+  .RGrenterAppMobileLeftDiv {
+    height: 300px;
+    width: 50%;
+    margin-left: 3%;
+    background: url("/Images/Car-Rental-Page-Images/Group 770762.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  
+  .RGrenterAppMobileLeftDivFrameForImages {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left: 30%;
+  }
+  
+  .RGrenterAppMobileLeftDivFrameForImages > img {
+    object-fit: contain;
+  }
+  
+  .RGrenterAppMobileRightDiv {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    padding: 2%;
+    align-items: center;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex {
+    padding: 9px 15px 10px 10px;
+    height: 220px;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex:hover {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    background-color: rgb(223, 247, 249);
+  }
+  .RGrenterAppMobileRightDivicon{
+    height: 22%;
+    width: 15%;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex > div > h4 {
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+  
+  .RGrenterAppMobileRightDivBoxex > div > p {
+    margin-top: 0%;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  .RGrenterSpan {
+    color: #ef4c23;
+  }
+  
+}

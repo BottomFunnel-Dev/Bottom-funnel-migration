@@ -44,7 +44,7 @@ export default function TaxiBookingApp() {
 
       <main>
         <TaxiBookingBanner />
-        <TaxiOccassion />
+        {/* <TaxiOccassion /> */}
         <TaxiBookingCustomerApp />
         <TaxiBookingAdminpannel />
         <TaxiBookingDriver />
