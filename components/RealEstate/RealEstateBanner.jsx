@@ -41,7 +41,9 @@ export default function RealEstateBanner() {
                 </div>
               );
             })}
+            
           </div>
+         
         </div>
       </div>
     </div>
