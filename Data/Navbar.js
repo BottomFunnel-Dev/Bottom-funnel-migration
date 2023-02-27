@@ -439,7 +439,7 @@ export const industries = [
     dropContent: "Logistics",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/logistics.svg",
-    path: "/Logistics",
+    path: "/industries/logistics",
   },
   {
     dropContent: "Politics",

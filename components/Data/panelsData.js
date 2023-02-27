@@ -2,109 +2,108 @@ export const logisticsCustomer = {
   customerdata: [
     {
       img: {
-        src: "/Images/logistic/Register screen.png",
-        alt: "Register image",
+        src: "/Images/logistic/screens/customer1.webp",
+        alt: "logistic/screens/customer1.webp",
       },
       icon: {
-        src: "/Images/logistic/inspect.png",
-        alt: " Register logo",
+        src: "/Images/logistic/icons/checked.webp",
+        alt: "logistic/icons/checked.webp",
       },
-      title: "Registration",
-      para: "With logisticx, you get easy registration for your next logistics project. Handpicked by the world's top brands, our software is proven to save you money and streamline operations.",
+      title: "Easy Trade",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/Schedule trip screen.png",
-        alt: "Schedule",
+        src: "/Images/logistic/screens/customer2.webp",
+        alt: "logistic/screens/customer2.webp",
       },
       icon: {
-        src: "/Images/logistic/Location.png",
-        alt: "Schedule logo",
+        src: "/Images/logistic/icons/gps.webp",
+        alt: "logistic/icons/gps.webp",
       },
       title: "Schedule Trip",
-      para: "Scheduling your next trip with Schedule. Just set up an appointment, and the logistics team will keep track of where your product is moving from. Whether it's a local drop-off or getting picked up curbside, we've got you covered.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/Payment option screen.png",
-        alt: "Multiple Payment Option image",
+        src: "/Images/logistic/screens/customer3.webp",
+        alt: "logistic/screens/customer3.webp",
       },
       icon: {
-        src: "/Images/logistic/Card Payment.png",
-        alt: "Multiple Payment Option logo",
+        src: "/Images/logistic/icons/payment.webp",
+        alt: "logistic/icons/payment.webp",
       },
       title: "Multiple Payment Option",
-      para: "We offer multiple payment options that are safe and secure. With our platform, you can effortlessly add payments to your online shopping cart without worrying about credit card fraud or identity theft.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
 
     {
       img: {
-        src: "/Images/logistic/track order screen.png",
-        alt: "Track Order image",
+        src: "/Images/logistic/screens/customer4.webp",
+        alt: "logistic/screens/customer4.webp",
       },
       icon: {
-        src: "/Images/logistic/Track Order.png",
-        alt: "Track Order logo",
+        src: "/Images/logistic/icons/tracker.webp",
+        alt: "logistic/icons/tracker.webp",
       },
       title: "Track Order",
-      para: "Track Order is the web development platform that gives you access to all of the shipping services available today. You can choose how you want your packages to be delivered, and whether you want it on a truck or with UPS.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
   ],
   sectionTitle: "Customer App",
-
   background: "/public/Images/logistic/rectanglebase.png",
 };
 
 export const logisticDrive = {
-  driverdata: [
+  customerdata: [
     {
       img: {
-        src: "/Images/logistic/shipment request screen.png",
-        alt: "Register image",
+        src: "/Images/logistic/screens/driver1.webp",
+        alt: "logistic/screens/driver1.webp",
       },
       icon: {
-        src: "/Images/logistic/boxside.png",
-        alt: " Register logo",
+        src: "/Images/logistic/icons/box.webp",
+        alt: "logistic/icons/grid.webp",
       },
       title: "Receive Shipment Request",
-      para: "we've come up with a solution that saves you time and money. With our web app, you can manage your shipments from anywhere in the world on your mobile device or laptop.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
 
     {
       img: {
-        src: "/Images/logistic/request screen.png",
-        alt: "Schedule",
+        src: "/Images/logistic/screens/driver2.webp",
+        alt: "logistic/screens/driver2.webp",
       },
       icon: {
-        src: "/Images/logistic/inspect.png",
-        alt: "Schedule logo",
+        src: "/Images/logistic/icons/tasks.webp",
+        alt: "logistic/icons/percentage.webp",
       },
       title: "Accept/Reject Request",
-      para: "With our software, you will feel confident that every shipment or pickup is being made on time, according to plan, and that each customer is receiving the exact service he or she expects from you.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/notification screen.png",
-        alt: "Multiple Payment Option image",
+        src: "/Images/logistic/screens/driver3.webp",
+        alt: "logistic/screens/driver3.webp",
       },
       icon: {
-        src: "/Images/logistic/notification1.png",
-        alt: "Multiple Payment Option logo",
+        src: "/Images/logistic/icons/notification.webp",
+        alt: "logistic/icons/history.webp",
       },
       title: "Notification",
-      para: "Our web development team has been in the industry for years now, so they know what it takes to deliver quality work on time. We offer services such as website design, SEO optimization, and content generation as well.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/Navigation screen.png",
-        alt: "Track Order image",
+        src: "/Images/logistic/screens/driver4.webp",
+        alt: "logistic/screens/driver4.webp",
       },
       icon: {
-        src: "/Images/logistic/Near Me.png",
-        alt: "Track Order logo",
+        src: "/Images/logistic/icons/locate.webp",
+        alt: "logistic/icons/location.webp",
       },
-      title: "Navigation",
-      para: "With the help of extensive experience in logistics and transportation web development. Our powerful navigation smoothly directs users to all the relevant information regarding your company's services or products.",
+      title: "Track Pickup Locations",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
   ],
   sectionTitle: "Drive App",
@@ -115,51 +114,51 @@ export const logisticAdmin = {
   admindata: [
     {
       img: {
-        src: "/Images/logistic/Dashboard.webp",
-        alt: "Register image",
+        src: "/Images/logistic/screens/admin1.webp",
+        alt: "logistic/screens/admin1.webp",
       },
       icon: {
-        src: "/Images/logistic/Dashboard Layout.webp",
-        alt: " Register logo",
+        src: "/Images/logistic/icons/grid.webp",
+        alt: "logistic/icons/grid.webp",
       },
       title: "Dashboard",
-      para: "All your logistics and transportation data in one place? That's what Unique Logistics is offering. We've built a dashboard to make it easy for you to see all your data at a glance, so you can stay on top of your business.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/assets.webp",
-        alt: "Schedule",
+        src: "/Images/logistic/screens/admin2.webp",
+        alt: "logistic/screens/admin2.webp",
       },
       icon: {
-        src: "/Images/logistic/Dividends.webp",
-        alt: "Schedule logo",
+        src: "/Images/logistic/icons/percentage.webp",
+        alt: "logistic/icons/percentage.webp",
       },
       title: "Assets",
-      para: "Our logistics and transportation web development services are reliable, fast, and easy to work with. Our team of professionals will take care of everything for you so that you can focus on more important things in your life.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/history.webp",
+        src: "/Images/logistic/screens/admin3.webp",
         alt: "Multiple Payment Option image",
       },
       icon: {
-        src: "/Images/logistic/Order History.webp",
-        alt: "Multiple Payment Option logo",
+        src: "/Images/logistic/icons/history.webp",
+        alt: "logistic/icons/history.webp",
       },
       title: "History",
-      para: "Our team has years of experience in web development, marketing strategies, and more. We know what it takes to build a successful business online, so let us help you take your company forward!",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     {
       img: {
-        src: "/Images/logistic/tracking (2).webp",
+        src: "/Images/logistic/screens/admin4.webp",
         alt: "Track Order image",
       },
       icon: {
-        src: "/Images/logistic/Tracking.webp",
-        alt: "Track Order logo",
+        src: "/Images/logistic/icons/location.webp",
+        alt: "logistic/icons/location.webp",
       },
       title: "Tracking",
-      para: "We have developed an end-to-end solution for tracking your products, both online and offline, including dispatching and receiving. Our database keeps track of every product, from a forklift to a truckload of goods.",
+      para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
   ],
 
@@ -678,7 +677,7 @@ export const alcoholCustomer = {
         src: "/Images/AlcoholDelivery/CustomerApp/one.webp",
         alt: "accessable",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/Customer/easily acces through.png",
         alt: " image",
@@ -693,7 +692,7 @@ export const alcoholCustomer = {
         src: "/Images/AlcoholDelivery/CustomerApp/Two.webp",
         alt: "Friendly",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/Customer/user friendly interface.png",
         alt: " image",
@@ -708,7 +707,7 @@ export const alcoholCustomer = {
         src: "/Images/AlcoholDelivery/CustomerApp/Three.webp",
         alt: "OrderFood",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/Customer/order food & track.png",
         alt: " image",
@@ -723,7 +722,7 @@ export const alcoholCustomer = {
         src: "/Images/AlcoholDelivery/CustomerApp/Four.webp",
         alt: "Favorites",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/Customer/Smart search.png",
         alt: " image",
@@ -806,7 +805,7 @@ export const alcoholPartner = {
         src: "/Images/AlcoholDelivery/PartnerApp/One.webp",
         alt: "Discounts",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/PartnerSection/offers & discounts.png",
         alt: " image",
@@ -821,7 +820,7 @@ export const alcoholPartner = {
         src: "/Images/AlcoholDelivery/PartnerApp/Two.webp",
         alt: "Menu",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/PartnerSection/order management.png",
         alt: " image",
@@ -836,7 +835,7 @@ export const alcoholPartner = {
         src: "/Images/AlcoholDelivery/PartnerApp/Three.webp",
         alt: "Chat",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/PartnerSection/chat support.png",
         alt: " image",
@@ -851,7 +850,7 @@ export const alcoholPartner = {
         src: "/Images/AlcoholDelivery/PartnerApp/Four.webp",
         alt: "Notification",
       },
-      
+
       icon: {
         src: "/Images/alcoholPhotos/icons/PartnerSection/custom alerts.png",
         alt: " image",

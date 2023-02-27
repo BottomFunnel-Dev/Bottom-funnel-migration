@@ -1,225 +1,270 @@
 .logiccustomer {
-width: 100%;
-height: max-content;
-margin: 60px 0;
-}
-.logiccustomer > h1 {
-margin-left: 6%;
-}
-.logiccustomersub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-display: flex;
-align-items: center;
-}
-.logiccustomerleft {
-width: 45%;
-height: 500px;
-padding: 10px;
-display: flex;
-background-position: center;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-}
-.logiccustomerright {
-width: 45%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-gap: 20px;
-justify-content: center;
-}
-.logiccustomerright > div {
-padding: 10px 10px 10px 10px;
-height: 270px;
-width: 45%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-}
-.logiccustomerright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.logiccustomerright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
-}
-.logisticCustomerImage {
-width: 90%;
-height: 500px;
-text-align: right;
-margin: auto;
-margin-top: -10px;
+    width: 100%;
+    height: max-content;
+    margin: 60px 0;
 }
 
-.logisticCustomerImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
+.logiccustomer>h1 {
+    margin-left: 6%;
 }
+
+.logiccustomersub {
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logiccustomerright {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logiccustomerright>div {
+    padding: 10px;
+    height: fit-content;
+    width: 45%;
+    border-radius: 18px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logiccustomerright>div:hover {
+    background-color: #e1f9f6;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logiccustomerright>div>h3 {
+    font-size: 18px;
+    margin-top: 0%;
+}
+
+.logiccustomerleft {
+    width: 45%;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    background-position: center;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.logisticCustomerImageBackground {
+    background: linear-gradient(to bottom right, #ef4c23, #fed200);
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    width: 100%;
+    z-index: -1;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.logisticCustomerImage {
+    width: 90%;
+    height: 500px;
+    text-align: right;
+    margin: auto;
+    position: absolute;
+}
+
+.logisticCustomerImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logisticLogo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logisticLogo>span {
+    height: 40px;
+    width: fit-content;
+}
+
+.logisticLogo>h3 {
+    font-size: 18px;
+}
+
 /* Media query for the Mobile Device */
 
 @media (max-width: 480px) {
-.logiccustomer {
-width: 100%;
-height: max-content;
-margin: 60px 0;
-}
-.logiccustomer > h1 {
-margin-left: 25%;
-font-size: 30px;
-position: absolute;
-margin-top: -16%;
-}
-.logiccustomersub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-flex-direction: column-reverse;
-align-items: center;
-}
+    .logiccustomer {
+        width: 100%;
+        height: max-content;
+        margin: 60px 0;
+    }
 
-.logiccustomerleft {
-margin-top: 30%;
-width: 50%;
-height: 100px;
-padding: 10px;
-flex-direction: column-reverse;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-}
-.logiccustomerright {
-width: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-justify-content: center;
-}
-.logiccustomerright > div {
-padding: 10px 10px 10px 10px;
-height: 230px;
-width: 90%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-}
-.logiccustomerright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.logiccustomerright > div > h3 {
-font-size: 18px;
-margin-top: 0%;
-}
-.logisticCustomerImage {
-width: 65%;
-height: 500px;
-text-align: right;
-}
-.logisticCustomerImage > img {
-object-fit: contain;
-margin-top: 15%;
-}
+    .logiccustomer>h1 {
+        margin-left: 25%;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -16%;
+    }
+
+    .logiccustomersub {
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .logiccustomerleft {
+        margin-top: 30%;
+        width: 50%;
+        height: 100px;
+        padding: 10px;
+        flex-direction: column-reverse;
+        position: relative;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .logiccustomerright {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .logiccustomerright>div {
+        padding: 10px 10px 10px 10px;
+        height: 230px;
+        width: 90%;
+        border-radius: 18px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .logiccustomerright>div:hover {
+        background-color: #e1f9f6;
+        cursor: pointer;
+        transition: all 0.2s linear;
+        transform: translateY(-10px);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .logiccustomerright>div>h3 {
+        font-size: 18px;
+        margin-top: 0%;
+    }
+
+    .logisticCustomerImage {
+        width: 65%;
+        height: 500px;
+        text-align: right;
+    }
+
+    .logisticCustomerImage>img {
+        object-fit: contain;
+        margin-top: 15%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-.logiccustomer {
-width: 100%;
-height: max-content;
-margin: 15% 0;
-}
+    .logiccustomer {
+        width: 100%;
+        height: max-content;
+        margin: 15% 0;
+    }
 
-.logiccustomer > h1 {
-margin-left: 35%;
-font-size: 40px;
-position: absolute;
-margin-top: -15%;
-}
+    .logiccustomer>h1 {
+        margin-left: 35%;
+        font-size: 40px;
+        position: absolute;
+        margin-top: -15%;
+    }
 
-.logiccustomersub {
-width: 100%;
-justify-content: space-between;
-margin: auto;
-flex-direction: column-reverse;
-align-items: center;
-}
+    .logiccustomersub {
+        width: 100%;
+        justify-content: space-between;
+        margin: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 
-.logiccustomerleft {
-margin-top: 30%;
-width: 50%;
-height: 100px;
-padding: 10px;
-flex-direction: column-reverse;
-position: relative;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-}
+    .logiccustomerleft {
+        margin-top: 30%;
+        width: 50%;
+        height: 100px;
+        padding: 10px;
+        flex-direction: column-reverse;
+        position: relative;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
 
-.logiccustomerright {
-width: 100%;
-height: 100%;
-display: flex;
-flex-wrap: wrap;
-margin: auto;
-margin-top: 30px;
-justify-content: center;
-}
+    .logiccustomerright {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 30px;
+        justify-content: center;
+    }
 
-.logiccustomerright > div {
-margin-top: 2%;
-padding: 10px 10px 10px 10px;
-height: 180px;
-width: 93%;
-border-radius: 18px;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-border-radius: 10px;
-background-color: white;
-cursor: pointer;
-}
+    .logiccustomerright>div {
+        margin-top: 2%;
+        padding: 10px 10px 10px 10px;
+        height: 180px;
+        width: 93%;
+        border-radius: 18px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+    }
 
-.logiccustomerright > div:hover {
-background-color: #e1f9f6;
-cursor: pointer;
-transition: all 0.2s linear;
-transform: translateY(-10px);
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
+    .logiccustomerright>div:hover {
+        background-color: #e1f9f6;
+        cursor: pointer;
+        transition: all 0.2s linear;
+        transform: translateY(-10px);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
 
-.logiccustomerright > div > h3 {
-font-size: 25px;
-margin-top: 0%;
-margin-bottom: 0%;
-margin-top: 0%;
-}
+    .logiccustomerright>div>h3 {
+        font-size: 25px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
 
-.logisticCustomerImage {
-width: 65%;
-height: 400px;
-text-align: right;
-margin: auto;
-}
+    .logisticCustomerImage {
+        width: 65%;
+        height: 400px;
+        text-align: right;
+        margin: auto;
+    }
 
-.logisticCustomerImage > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-margin-top: 15%;
-}
+    .logisticCustomerImage>img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin-top: 15%;
+    }
 }
