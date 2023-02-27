@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./FluterDevelopmentExpertise.module.css";
 import Image from "next/image";
+import { PopupForm } from "../../PopupForm/PopupForm";
 
 export const FluterDevelopmentExpertise = () => {
   return (
@@ -109,7 +110,39 @@ In addition to its powerful development tools, Flutter also offers advanced libr
 With its easy-to-use API and rapid development pace, Flutter is a powerful tool that can help you create elegant and effective applications quickly and efficiently. With our expert team of engineers, we will help you develop your next application with Flutter in no time!  
           </p>
           <div>
-            <button className={styles.FluterDevelopmentExpertisebutton}>Hire flutter Developer</button>
+            <button className={styles.FluterDevelopmentExpertisebutton}
+             type="button"
+             data-bs-toggle="modal"
+             data-bs-target="#staticBackdrop"
+            >Hire flutter Developer</button>
+
+<div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
           </div>
         </div>
       </div>

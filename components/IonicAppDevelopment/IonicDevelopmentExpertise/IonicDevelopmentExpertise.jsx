@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './IonicDevelopmentExpertise.module.css';
 import Image from 'next/image';
+import { PopupForm } from '../../PopupForm/PopupForm';
 
 export const IonicDevelopmentExpertise = () => {
   return (
@@ -98,7 +99,40 @@ export const IonicDevelopmentExpertise = () => {
               Essentially, ionic app development enables native mobile components to have an alluring design and smooth animations. Naturally, the app has a native style that enables UI layouts and elements to work. As a top-notch Ionic app development company, MindInventory provides below mentioned app development services to clients across the globe.
             </p>
           </p>
-          <button className={styles.IonicCrossPlatformbtns}>Hire Ionic Developer</button>
+          <button className={styles.IonicCrossPlatformbtns}
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          >Hire Ionic Developer</button>
+
+<div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         </div>
       </div>
     </>

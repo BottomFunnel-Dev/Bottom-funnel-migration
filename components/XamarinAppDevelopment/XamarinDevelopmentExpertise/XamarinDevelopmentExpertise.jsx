@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './XamarinDevelopmentExpertise.module.css';
 import Image from 'next/image';
+import { PopupForm } from '../../PopupForm/PopupForm';
 
 export const XamarinDevelopmentExpertise = () => {
   return (
@@ -88,7 +89,38 @@ export const XamarinDevelopmentExpertise = () => {
           <p className={styles.xamarinDevelopmentExpertiseContentText}>
           Xamarin is a leading platform for developing mobile apps for iOS, Android, and other platforms. This expert Xamarin app development service offers a range of services to help you create high-quality apps with speed and efficiency. Our team of experts can help you build engaging mobile applications using Xamarin's powerful cross-platform tools and code base. We provide training and support to ensure that you learn the best techniques for building your app. As an Xamarin app development expert, we can also assist you with any technical issues or concerns you may have. So why not give us a try? Contact us today!
           </p>
-          <button className={styles.xamarinDevelopmentExpertiseContentbutton}>Hire Xamarin App Developer</button>
+          <button className={styles.xamarinDevelopmentExpertiseContentbutton}
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          >Hire Xamarin App Developer</button>
+
+<div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </>

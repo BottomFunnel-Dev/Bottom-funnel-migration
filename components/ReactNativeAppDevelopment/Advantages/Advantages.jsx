@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Advantages.module.css';
 import Image from 'next/image';
+import { PopupForm } from '../../PopupForm/PopupForm';
 
 export const Advantages = () => {
    return (
@@ -173,7 +174,39 @@ export const Advantages = () => {
          <div className={styles.middlebannerdiv}>
             <h2>KickStart Your Dream Project With Us </h2>
             <p>We have worked with some of the best innovative ideas and brand in the world across industries</p>
-            <button className={styles.ReactNativeAppDevelopmentbannerbutton}>Get Started</button>
+            <button className={styles.ReactNativeAppDevelopmentbannerbutton}
+             type="button"
+             data-bs-toggle="modal"
+             data-bs-target="#staticBackdrop"
+            >Get Started</button>
+
+<div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
          </div>
 
 
@@ -263,7 +296,39 @@ export const Advantages = () => {
                We believe in providing personalized service, so we welcome all kinds of projects from small business owners and individuals to large enterprises. We take pride in providing quick responses and delivering high-quality results at affordable rates. So if you're looking for an experienced team with proven expertise, reach out to us today!
                </p>
                <div>
-                  <button className={styles.stylesrnativeinnermaindiv42nddivbutton}>Hire React Native Developer</button>
+                  <button className={styles.stylesrnativeinnermaindiv42nddivbutton}
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                  >Hire React Native Developer</button>
+
+         <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
                </div>
             </div>
          </div>
