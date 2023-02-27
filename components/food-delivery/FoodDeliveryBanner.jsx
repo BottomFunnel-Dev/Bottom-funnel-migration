@@ -49,6 +49,7 @@ export const FoodDeliveryBanner = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
 
