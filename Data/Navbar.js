@@ -445,13 +445,13 @@ export const industries = [
     dropContent: "Politics",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/politics.svg",
-    path: "/politicsdevelopment",
+    path: "/industries/politics",
   },
   {
     dropContent: "Wellness",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/wellness.svg",
-    path: "/wellness",
+    path: "/industries/wellness",
   },
   {
     dropContent: "News",

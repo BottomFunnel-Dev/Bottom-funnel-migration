@@ -4,13 +4,13 @@ import {
   wellnessPatient,
   wellnessAdmin,
   wellnessDoctor,
-} from "../../components/Data/panelsData";
+} from "../../../components/Data/panelsData";
 
-import Wellnesscontainer from "../../components/Wellness/Wellnesscontainer";
-import WellnessPatient from "../../components/Wellness/WellnessPatient/WellnessPatient";
-import WellnessDoctor from "../../components/Wellness/WellnessDoctor/WellnessDoctor";
-import WellnessAdmin from "../../components/Wellness/WellnessAdmin/WellnessAdmin";
-import Wellnesshealthcare from "../../components/Wellness/Wellnesshealthcare";
+import Wellnesscontainer from "../../../components/Wellness/Wellnesscontainer";
+import WellnessPatient from "../../../components/Wellness/WellnessPatient/WellnessPatient";
+import WellnessDoctor from "../../../components/Wellness/WellnessDoctor/WellnessDoctor";
+import WellnessAdmin from "../../../components/Wellness/WellnessAdmin/WellnessAdmin";
+import Wellnesshealthcare from "../../../components/Wellness/Wellnesshealthcare";
 
 import Head from "next/head";
 
