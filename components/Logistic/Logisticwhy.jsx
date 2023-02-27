@@ -7,7 +7,12 @@ export default function Logisticwhy() {
     <div className={styles.logisticwhyContainer}>
       <div>
         <h1>Boost your revenue with our Logistics app development services</h1>
-        <button>Let's Get Started</button>
+        <button
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        
+        >Let's Get Started</button>
       </div>
       <span>
         <Image
