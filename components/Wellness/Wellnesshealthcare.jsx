@@ -31,7 +31,12 @@ export default function Wellnesshealthcare() {
               also know how doctors' schedules work. That means your software
               will be up-and-running quickly without any bugs or issues.
             </p>
-            <button className={styles.WellnesshealthcareButton}>Get Started</button>
+            <button className={styles.WellnesshealthcareButton}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            
+            >Get Started</button>
           </div>
         </div>
       </div>

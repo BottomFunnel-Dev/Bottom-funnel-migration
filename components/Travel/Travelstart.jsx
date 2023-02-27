@@ -7,7 +7,13 @@ export default function Travelstart() {
 
     <div className={styles.travelstartcontainer}>
         <h2>Get all the fitness solution for all the kind of platforms</h2>
-        <button className={styles.sztravelstartbtn}>Let's Get Started</button>
+        <button className={styles.sztravelstartbtn}
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        
+        
+        >Let's Get Started</button>
     </div>
 </div>
   )
