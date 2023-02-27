@@ -1,0 +1,190 @@
+.carservicecustomerappmain {
+    height: fit-content;
+    background-color: white;
+  }
+  
+  .carserviceappbox {
+    height: fit-content;
+    display: flex;
+  
+  }
+  
+  .carserviceappboxleft {
+    height: 480px;
+    width: 45%;
+    background: url("/Images/CarService/BannersBackgrounds/Rectangle 4722.webp");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+  }
+  
+  .carserviceappleftboximage {
+    height: 90%;
+    width: 35%;
+    margin: 5% 0% 5% 20%;
+  }
+  
+  .carserviceappleftboximage > img {
+    object-fit: contain;
+  }
+  
+  .carserviceappboxright {
+    height: fit-content;
+    width: 55%;
+    margin: 1% 3% 3% 1%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .carservicecustomerappmain > h2 {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 2%;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .carserviceappindivisualbox {
+    height: fit-content;
+    width: 45%;
+    height: 220px;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+  }
+  
+  .carserviceappindivisualbox:hover {
+    transform: scale(1.02);
+    background-color: #f0c0b3;
+  }
+  
+  .carserviceappindivisualboxforlogo {
+    height: 23%;
+    width: 18%;
+  }
+  
+  .carserviceappindivisualboxforlogo > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .carserviceappindivisualboxfortext > h4 {
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+    margin-top: 0%;
+  }
+  
+  .carserviceappindivisualboxfortext > p {
+    margin-top: 0%;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  @media (max-width:480px){
+    .carservicecustomerappmain {
+      height: fit-content;
+      background-color: white;
+    }
+    
+    .carservicecustomerappmain > h1 {
+      text-align: center;
+    }
+    
+    .carserviceappbox {
+      height: fit-content;
+      display: flex;
+      margin-top: 5%;
+      flex-direction: column;
+    }
+    
+    .carserviceappboxleft {
+      height: 300px;
+      width: 90%;
+      margin-left: 5%;
+      background: url("/Images/CarService/BannersBackgrounds/Rectangle 4722.webp");
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-size: contain;
+  
+    }
+    
+    .carserviceappleftboximage {
+      height: 90%;
+      width: 55%;
+    }
+    
+    .carserviceappleftboximage > img {
+      object-fit: contain;
+    }
+    
+    .carserviceappboxright {
+      height: fit-content;
+      width: 100%;
+      margin: 5% 3% 3% 1%;
+      text-align: justify;
+      display: flex;
+      flex-wrap: wrap;
+  
+    }
+    
+    .carservicecustomerappmain > h2 {
+      text-align: center;
+      margin-top: 3%;
+      margin-left: 2%;
+      font-weight: 700;
+      font-size: 30px;
+    }
+    
+    .carserviceappindivisualbox {
+      height: fit-content;
+      width: 90%;
+      height: 220px;
+      margin-left: 4%;
+      padding: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 10px;
+    }
+    
+    .carserviceappindivisualbox:hover {
+      transform: scale(1.02);
+      background-color: #f8ad9b;
+    }
+    
+    .carserviceappindivisualboxforlogo {
+      height: 23%;
+      width: 18%;
+    }
+    
+    .carserviceappindivisualboxforlogo > img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+    
+    .carserviceappindivisualboxfortext > h4 {
+      padding-top: 3%;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.6px;
+      vertical-align: baseline;
+      margin-bottom: 1%;
+      margin-top: 0%;
+    }
+    
+    .carserviceappindivisualboxfortext > p {
+      margin-top: 0%;
+      font-size: 15px;
+      line-height: 20px;
+      vertical-align: baseline;
+      font-weight: 400;
+    }
+  }

@@ -1,0 +1,190 @@
+.carservicetechappmainboxes {
+    height: fit-content;
+    background-color: white;
+    margin-bottom: 5%;
+  }
+  
+  .carservicetechappmainboxes > h2 {
+    margin-left: 43.5%;
+    font-size: 30px;
+  }
+  
+  .carservicetechappflexingbox {
+    height: fit-content;
+    display: flex;
+  }
+  
+  .carservicetechappflexingboxleftbox {
+    height: 480px;
+    width: 50%;
+    background: url("/Images/CarService/BannersBackgrounds/Rectangle 4721.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .carservicetechappleftboxinsiderupperimage {
+    height: 90%;
+    width: 35%;
+    margin: 5% 0% 5% 30%;
+  }
+  
+  .carservicetechappleftboxinsiderupperimage > img {
+    object-fit: contain;
+  }
+  
+  .carservicetechappflexingboxrightbox {
+    height: fit-content;
+    width: 60%;
+    margin: 2% 2% 0% 3%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .icecreamcustomerappmainboxes > h2 {
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .carservicetechappindivisualbox {
+    height: fit-content;
+    width: 45%;
+    height: 210px;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .carservicetechappindivisualbox:hover {
+    transform: scale(1.02);
+    background-color: #fbe1e5;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+  }
+  
+  .carservicetechappindivisualboxforlogo {
+  
+    height: 23%;
+    width: 12%;
+  }
+  
+  .carservicetechappindivisualboxforlogo > img {
+    object-fit: contain;
+  }
+  
+  .carservicetechappindivisualboxfortext > h4 {
+    padding-top: 5px;
+    margin-top: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+  }
+  
+  .carservicetechappindivisualboxfortext > p {
+    padding-top: 1%;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  @media (max-width:480px){
+    .carservicetechappmainboxes {
+      height: fit-content;
+      background-color: white;
+      margin-bottom: 5%;
+    }
+    
+    .carservicetechappmainboxes > h2 {
+      text-align: center;
+      font-size: 30px;
+      margin: 0;
+    }
+    
+    .carservicetechappflexingbox {
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .carservicetechappflexingboxleftbox {
+      height: 300px;
+      width: 85%;
+      margin-left: 7.5%;
+      background: url("/Images/CarService/BannersBackgrounds/Rectangle 4721.webp");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    
+    .carservicetechappleftboxinsiderupperimage {
+      height: 90%;
+      width: 45%;
+    }
+    
+    .carservicetechappleftboxinsiderupperimage > img {
+      object-fit: contain;
+    }
+    
+    .carservicetechappflexingboxrightbox {
+      height: fit-content;
+      width: 95%;
+      text-align: justify;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .icecreamcustomerappmainboxes > h2 {
+      text-align: center;
+      margin-top: 3%;
+    }
+    
+    .carservicetechappindivisualbox {
+      height: fit-content;
+      width: 90%;
+      height: 210px;
+      margin-left: 5%;
+      margin-top: 4%;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    .carservicetechappindivisualbox:hover {
+      transform: scale(1.02);
+      background-color: #fbe1e5;
+      cursor: pointer;
+      transition: all 0.2s linear;
+      transform: translateY(-10px);
+    }
+    
+    .carservicetechappindivisualboxforlogo {
+      height: 23%;
+      width: 12%;
+    }
+    
+    .carservicetechappindivisualboxforlogo > img {
+      object-fit: contain;
+    }
+    
+    .carservicetechappindivisualboxfortext > h4 {
+      padding-top: 5px;
+      margin-top: 2%;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.6px;
+      vertical-align: baseline;
+      margin-bottom: 1%;
+    }
+    
+    .carservicetechappindivisualboxfortext > p {
+      padding-top: 1%;
+      font-size: 14px;
+      line-height: 20px;
+      vertical-align: baseline;
+      font-weight: 400;
+    }
+  }
