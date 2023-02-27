@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupForm } from "../../PopupForm/PopupForm";
 import styles from "./WebsiteBuilderOnePlatform.module.css";
 
 export default function WebsiteBuilderOnePlatform() {
@@ -33,7 +34,39 @@ export default function WebsiteBuilderOnePlatform() {
       </div>
 
       <div className={styles.onePlatformButtonDiv}>
-        <button className={styles.onePlatformButton1}> Get Started </button>
+        <button className={styles.onePlatformButton1}
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        
+        
+        > Get Started </button>
+
+        <div
+        className="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div>
+              <PopupForm />
+            </div>
+          </div>
+        </div>
+      </div>
         <button className={styles.onePlatformButton2}> More Designs</button>
       </div>
     </div>
