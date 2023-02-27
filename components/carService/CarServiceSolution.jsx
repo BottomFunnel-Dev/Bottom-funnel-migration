@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import { PopupForm } from '../PopupForm/PopupForm';
 import styles from "./CarServiceSolution.module.css"
 
 export default function CarServiceSolution () {
@@ -74,8 +75,38 @@ export default function CarServiceSolution () {
           )
         })}
       </div>
-      <button className={styles.Carservicesolutionbutton}>Get started</button>
-     
+      <button className={styles.Carservicesolutionbutton}
+       type="button"
+       data-bs-toggle="modal"
+       data-bs-target="#staticBackdrop"
+      >Get started</button>
+
+          <div
+            className="modal fade"
+            id="staticBackdropcarrental"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+
+                <div>
+                  <PopupForm/>
+                </div>
+              </div>
+            </div>
+          </div>  
+
     </div>
   );
 };

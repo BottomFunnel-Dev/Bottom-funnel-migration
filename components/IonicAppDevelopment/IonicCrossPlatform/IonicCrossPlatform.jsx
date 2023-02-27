@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./IonicCrossPlatform.module.css";
 import Image from "next/image";
+import { PopupForm } from "../../PopupForm/PopupForm";
 
 export const IonicCrossPlatform = () => {
 
@@ -13,7 +14,38 @@ export const IonicCrossPlatform = () => {
                         Ionic is an open-source framework which helps in building Hybrid Mobile Apps. It is one of the recent frameworks to build engaging cross-platform mobile apps with a native feel. As a leading Ionic app development company, Nimblechapps develops innovative solutions that are suited for your business needs.
                         We have built a number of cross-platform apps for our partners with proven Agile methodologies. Our services are meant to deliver smart solutions with cutting-edge technology.
                     </p>
-                    <button className={styles.IonicCrossPlatformbtns}>Hire Ionic Developer</button>
+                    <button className={styles.IonicCrossPlatformbtns}
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    >Hire Ionic Developer</button>
+
+        <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
 
                 </div>
                 <div className={styles.ionicCrossPlatformContentScroller}>
