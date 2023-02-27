@@ -1,42 +1,51 @@
 import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import { newsLogo } from "../../components/Data/SeopartnerData";
+import { newsLogo } from "../../../components/Data/SeopartnerData";
 import {
   newswhychooseData,
   oursuiteData,
-} from "../../components/News/newsIndustriesData";
+} from "../../../components/News/newsIndustriesData";
 
-const Newspublish = dynamic(() => import("../../components/News/Newspublish"), {
-  loading: () => "loading...",
-});
-const Newstrategy = dynamic(() => import("../../components/News/Newstrategy"), {
-  loading: () => "loading...",
-});
-const Newsintro = dynamic(() => import("../../components/News/Newsintro"), {
-  loading: () => "loading...",
-});
-const NewspaperCustomer = dynamic(
-  () => import("../../components/News/NewspaperCustomer"),
+const Newspublish = dynamic(
+  () => import("../../../components/News/Newspublish"),
   {
     loading: () => "loading...",
   },
 );
-const Newsfeature = dynamic(() => import("../../components/News/Newsfeature"), {
+const Newstrategy = dynamic(
+  () => import("../../../components/News/Newstrategy"),
+  {
+    loading: () => "loading...",
+  },
+);
+const Newsintro = dynamic(() => import("../../../components/News/Newsintro"), {
   loading: () => "loading...",
 });
+const NewspaperCustomer = dynamic(
+  () => import("../../../components/News/NewspaperCustomer"),
+  {
+    loading: () => "loading...",
+  },
+);
+const Newsfeature = dynamic(
+  () => import("../../../components/News/Newsfeature"),
+  {
+    loading: () => "loading...",
+  },
+);
 const Trusted = dynamic(
-  () => import("../../components/SEO/SeoTrustedCompanies/Seotrusted"),
+  () => import("../../../components/SEO/SeoTrustedCompanies/Seotrusted"),
   { loading: () => "loading..." },
 );
 const EducationWhyUS = dynamic(
-  () => import("../../components/Educationp/EducationWhyUS"),
+  () => import("../../../components/Educationp/EducationWhyUS"),
   {
     loading: () => "loading...",
   },
 );
 const EducationOurSuite = dynamic(
-  () => import("../../components/Educationp/EducationOurSuite"),
+  () => import("../../../components/Educationp/EducationOurSuite"),
   { loading: () => "loading..." },
 );
 
