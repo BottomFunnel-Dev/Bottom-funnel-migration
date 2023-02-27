@@ -1,0 +1,83 @@
+.Midbannermainbox{
+    border: 1px solid white;
+    height: 550px;
+    background: url("/Images/CarService/BannersBackgrounds/Group.webp");
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+  .Midbannertextbox {
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 3%;
+    width: 70%;
+    color: white;
+  }
+  
+  .Midbannerbutton {
+    padding: 10px 50px;
+    border-radius: 100px;
+    width: auto;
+    height: auto;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1%;
+  }
+  
+  .Midbannerbutton:hover {
+    background-color: white;
+    color: #6aa3ed;
+  }
+  .Midbannertext{
+    margin-top: 4%;
+    text-align: center;
+    color: black;
+  }
+  
+  
+  @media  (max-width: 1024px) {
+    .Midbannermainbox {
+      height: fit-content;
+      background: url("/Images/CarService/BannersBackgrounds/Group.webp");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    
+    
+    .Midbannertextbox {
+      height: 200px;
+      margin-top: 25%;
+      margin-left: 3%;
+      width: 70%;
+      color: white;
+    }
+    .Midbannertextbox h2{
+      font-size: 20px;
+    }
+    
+    .Midbannerbutton {
+      padding: 10px 50px;
+      border-radius: 100px;
+      width: auto;
+      height: auto;
+      border: none;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 1%;
+    }
+    
+    .Midbannerbutton:hover {
+      background-color: white;
+      color: #6aa3ed;
+    }
+    .Midbannertext{
+        text-align: center;
+        color: black;
+      }
+    
+  }

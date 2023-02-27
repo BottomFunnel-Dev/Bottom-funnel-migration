@@ -1,0 +1,80 @@
+
+.carservicebannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+    background: url("/Images/CarService/BannersBackgrounds/Component 94.webp");
+    background-size: 100% 100%;
+}
+
+.carservicestextboxes{
+    height: 40%;
+    width: 50%;
+    color: white;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+.carservicestextboxes>h1{
+    font-size: 40px;
+}
+.carservicestextboxes>p{
+    font-size: 20px;
+}
+.carservicestextboxes>button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 8% auto;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ef4c23;
+    color: #ef4c23;
+}
+.carservicestextboxes>button:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: #ef4c23;
+}
+@media (max-width:480px){
+    
+.carservicebannermainboxes{
+    height: 100vh;
+    border: 1px solid white;
+    background: url("/Images/CarService/BannersBackgrounds/Component 94.webp");
+    background-size: 100% 100%;
+}
+
+.carservicestextboxes{
+    height: 40%;
+    width: 50%;
+    color: white;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+.carservicestextboxes>h1{
+    font-size: 40px;
+}
+.carservicestextboxes>p{
+    font-size: 20px;
+}
+.carservicestextboxes>button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 50px;
+    text-align: center;
+    margin: 8% auto;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ef4c23;
+    color: #ef4c23;
+}
+.carservicestextboxes>button:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: #ef4c23;
+}
+}
