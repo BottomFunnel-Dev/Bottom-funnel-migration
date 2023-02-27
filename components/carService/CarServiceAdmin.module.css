@@ -47,20 +47,23 @@
     transform: translateY(-10px);
   }
   
-  .icecreamadminpannelrightbox {
+  .carserviceadminpannelrightbox {
     width: 45%;
     margin-left: 1%;
     margin-top: 1%;
-    background-color: #ffe7e8;
+    background: url("/Images/CarService/BannersBackgrounds/Rectangle 4723.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
   
-  .icecreamadminpannelrightboximg {
+  .carserviceadminpannelrightboximg {
     height: 80%;
     width: 80%;
     margin: 8% 3% 3% 12%;
   }
   
-  .icecreamadminpannelrightboximg > img {
+  .carserviceadminpannelboximg > img {
     object-fit: contain;
   }
   
@@ -145,20 +148,23 @@
       transform: translateY(-10px);
     }
     
-    .icecreamadminpannelrightbox {
+    .carserviceadminpannelrightbox {
       width: 85%;
       margin-left: 7.5%;
       margin-top: 1%;
-      background-color: #ffe7e8;
+      background: url("/Images/CarService/BannersBackgrounds/Rectangle 4723.webp");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
     }
     
-    .icecreamadminpannelrightboximg {
+    .carserviceadminpannelrightboximg {
       height: 80%;
       width: 80%;
       margin: 8% 3% 3% 12%;
     }
     
-    .icecreamadminpannelrightboximg > img {
+    .carserviceadminpannelrightboximg > img {
       object-fit: contain;
     }
     
