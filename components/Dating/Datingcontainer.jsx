@@ -8,7 +8,7 @@ export default function Datingcontainer() {
       <div className={styles.datingflexdiv}>
         <div className={styles.datingtext}>
           <div>
-            <h1>Dating </h1>
+            <h1>Dating Application</h1>
             <p>
             There's no doubt that dating apps have revolutionized the way we date and find love. But with so many different options out there, it can be hard to know which one is right for you. That's why we've created this comprehensive guide to the best dating app solutions out there.
             </p>
