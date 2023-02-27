@@ -48,12 +48,7 @@ export default function Layout({ children }) {
       <main>{children}</main>
       <PortFolio />
       <StoriesSection />
-      <OndemandSection />
-      <PlanProject />
-      <SeoblogSection />
-      <Revamping />
       <TextDropdown />
-      <ContectForm />
       <MainFooter />
     </>
   );
