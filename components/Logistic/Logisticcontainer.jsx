@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Logicsticcontainer.module.css";
 import Image from "next/image";
+import { PopupForm } from "../PopupForm/PopupForm";
 
 export default function Logisticcontainer() {
   return (
@@ -14,7 +15,14 @@ export default function Logisticcontainer() {
               great on any device. We build them with mobile-first approach and use best practices to ensure your site
               works well on all devices. Using our expertise, you will get an app-like navigation, responsive design, and more.
             </p>
-            <button className={styles.szlogisticbtn}>Get Started</button>
+            <button className={styles.szlogisticbtn}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            
+            >Get Started</button>
+              
+          
           </div>
         </div>
 
