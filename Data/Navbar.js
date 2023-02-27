@@ -457,7 +457,7 @@ export const industries = [
     dropContent: "News",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/news.svg",
-    path: "/news",
+    path: "/industries/news",
   },
   {
     dropContent: "SaaS",

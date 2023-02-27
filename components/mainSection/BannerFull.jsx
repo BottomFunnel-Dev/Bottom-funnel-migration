@@ -5,12 +5,9 @@ import { MobileBanner } from "./BannerAnimations/MobileBanner";
 import { SoftwareBanner } from "./BannerAnimations/SoftwareBanner";
 import { DigitalMarketing } from "./BannerAnimations/DigitalMarketing";
 
-
 import { PopupForm } from "../PopupForm/PopupForm";
 
 export default function BannerFull() {
- 
-
   const banner = [
     {
       title: "Mobile App Development",
@@ -143,8 +140,6 @@ export default function BannerFull() {
                       </div>
                     </div>
                   </div>
-
-                  
                 </div>
               </div>
             </div>
