@@ -439,25 +439,25 @@ export const industries = [
     dropContent: "Logistics",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/logistics.svg",
-    path: "/Logistics",
+    path: "/industries/logistics",
   },
   {
     dropContent: "Politics",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/politics.svg",
-    path: "/politicsdevelopment",
+    path: "/industries/politics",
   },
   {
     dropContent: "Wellness",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/wellness.svg",
-    path: "/wellness",
+    path: "/industries/wellness",
   },
   {
     dropContent: "News",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/industries section/news.svg",
-    path: "/news",
+    path: "/industries/news",
   },
   {
     dropContent: "SaaS",

@@ -16,7 +16,13 @@ export default function Travelcontainer() {
               agencies so you can access all the features of your rental from
               anywhere.
             </p>
-            <button className={styles.travelgetbtn}>Get Started</button>
+            <button className={styles.travelgetbtn}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            
+            
+            >Get Started</button>
           </div>
         </div>
         <div className={styles.sztravelright}>

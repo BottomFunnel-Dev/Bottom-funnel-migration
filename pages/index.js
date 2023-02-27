@@ -2,6 +2,19 @@ import React from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
+const SeoblogSection = dynamic(
+  () => import("../components/CommonComponents/SeoBlogs/Seoblogs"),
+  { loading: () => "loading..." },
+);
+const OndemandSection = dynamic(
+  () =>
+    import("../components/CommonComponents/OnDemandSection/OndemandSection"),
+  { loading: () => "loading..." },
+);
+const Revamping = dynamic(
+  () => import("../components/CommonComponents/revamping/Revamping"),
+  { loading: () => "loading..." },
+);
 const About = dynamic(() => import("../components/AboutSection/About"), {
   loading: () => "Loading...",
 });
@@ -42,6 +55,9 @@ export default function Home() {
         <About />
         <Services />
         <Awards />
+        <SeoblogSection />
+        <OndemandSection />
+        <Revamping />
       </main>
     </div>
   );

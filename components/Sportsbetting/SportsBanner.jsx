@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { PopupForm } from "../PopupForm/PopupForm";
 import styles from "./sportsBanner.module.css";
 
 export default function SportsBanner() {
@@ -16,7 +17,14 @@ export default function SportsBanner() {
             to be in touch with all the latest trends and technologies of their
             days.
           </p>
-          <button className={styles.bottomButton}>Get Started</button>
+          <button className={styles.bottomButton}
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          
+          >Get Started</button>
+
+         
         </div>
       </div>
 

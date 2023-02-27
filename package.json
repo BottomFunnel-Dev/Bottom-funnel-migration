@@ -8,9 +8,6 @@
     "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.8",
     "@next/bundle-analyzer": "^13.1.6",
     "bootstrap": "^5.2.3",
     "cross-env": "^7.0.3",

@@ -1,70 +1,67 @@
-.logistictranport {
-width: 100%;
-height: 800px;
+.logisticContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
-.logistictranportsub {
-width: 100%;
-height: 650px;
-/* border: 2px solid red; */
+
+.logisticContainer>h2 {
+    font-size: 32px;
+    width: fit-content;
 }
-.sztransporty {
-width: 90%;
-margin-left: 6.5%;
-/* border: 2px solid red; */
+
+.logisticContainer>p {
+    width: 75%;
+    font-size: 16px;
+    text-align: center;
 }
-.logistictranportdiv {
-width: 100%;
-height: 650px;
-background: url("/Images/logistic/bigrectangle.webp");
-background-repeat: no-repeat;
-background-size: 100% 500px;
+
+.logisticCards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
 }
-.sztransporttop {
-width: 90%;
-height: 250px;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
-margin-bottom: 60px;
-margin-top: 20px;
-/* border: 2px solid red; */
+
+.logisticContent {
+    width: 28%;
+    cursor: pointer;
 }
-.sztransportbottom {
-width: 90%;
-margin: auto;
-height: 250px;
-display: flex;
-flex-wrap: wrap;
+
+.logisticContent>div {
+    background: #ef4c23;
+    color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border-radius: 100px;
+    border-top-left-radius: 0px;
+    transition: transform 200ms linear;
 }
-.szship {
-width: 30%;
-height: 250px;
-border-radius: 18px;
-background-color: white;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-padding: 15px;
-margin: auto;
-margin-bottom: 60px;
-/* border: 2px solid red; */
+
+.logisticContent>div>span {
+    height: 50px;
+    width: fit-content;
+    background-color: white;
+    padding: 10px 20px 5px;
+    border-radius: 100px;
+    border-top-left-radius: 0px;
 }
-.szship > p {
-margin-top: 1%;
-font-size: 15px;
+
+.logisticContent>div>h2 {
+    font-size: 18px;
+    width: fit-content;
 }
-.szshipping {
-display: flex;
+
+.logisticContent>p {
+    width: 80%;
+    margin: 2% auto;
 }
-.delivery {
-width: 25%;
-height: 60px;
-}
-.delivery > img {
-width: 100%;
-height: 100%;
-object-fit: contain;
-}
-.szshipping > h5 {
-font-size: 17px;
-margin-top: 1%;
-padding: 6px;
+
+.logisticContent:hover div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-5px);
 }

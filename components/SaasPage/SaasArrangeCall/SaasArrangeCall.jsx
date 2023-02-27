@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./SaasArrangeCall.module.css";
 import Image from "next/image";
+import { PopupForm } from "../../PopupForm/PopupForm";
 
 export const SaasArrangeCall = () => {
   return (
@@ -21,7 +22,38 @@ export const SaasArrangeCall = () => {
                     If so,connect with us now for a free consultation call. Our solution
                     architects and CTO can nudge you towards success.
                 </p>
-                <button>BOOK A 30 MIN CALL</button>
+                <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                
+                >BOOK A 30 MIN CALL</button>
+
+                <div
+                className="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <button
+                        type="button"
+                        className="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+    
+                    <div>
+                      <PopupForm />
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     </>

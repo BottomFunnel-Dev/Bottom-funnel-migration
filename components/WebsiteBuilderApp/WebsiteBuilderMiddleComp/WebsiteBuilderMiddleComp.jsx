@@ -3,6 +3,7 @@ import styles from "./WebsiteBuilderMiddleComp.module.css";
 
 import Slider from "react-slick";
 import Image from "next/image";
+import { PopupForm } from "../../PopupForm/PopupForm";
 
 export default function WebsiteBuiulderMiddleComp() {
   const settings = {
@@ -74,10 +75,42 @@ export default function WebsiteBuiulderMiddleComp() {
           today with our powerfull free website builder.
         </p>
 
-        <button className={styles.middleCompHeadingButton}>
+        <button className={styles.middleCompHeadingButton}
+        
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop"
+        
+        >
           {" "}
           Get started{" "}
         </button>
+
+        <div
+        className="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div>
+              <PopupForm />
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
 
       <div className={styles.middleCompImageSliderOuterDiv}>

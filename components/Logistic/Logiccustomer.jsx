@@ -18,31 +18,25 @@ export default function Logiccustomer({ customerData }) {
                 className={`logistic-box-${idx}`}
               >
                 <div className={styles.logisticLogo}>
-                  <Image
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "fit-content", height: "50px" }}
-                    src={icon.src}
-                    alt={icon.alt}
-                  />
+                  <span>
+                    <Image
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                      src={icon.src}
+                      alt={icon.alt}
+                    />
+                  </span>
+                  <h3>{title}</h3>
                 </div>
-                <h3>{title}</h3>
                 <p>{para}</p>
               </div>
             );
           })}
         </div>
 
-        <div
-          className={styles.logiccustomerleft}
-          style={{
-            background: `url(${customerData.background})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+        <div className={styles.logiccustomerleft}>
           <div className={styles.logisticCustomerImage}>
             <Image
               width={"0"}
@@ -53,6 +47,7 @@ export default function Logiccustomer({ customerData }) {
               alt={customerData.customerdata[active].img.alt}
             />
           </div>
+          <div className={styles.logisticCustomerImageBackground}></div>
         </div>
       </div>
     </div>
