@@ -1,64 +1,40 @@
-.logistictranspotwhy {
-  width: 100%;
-  height: 550px;
-  /* background-color: aqua; */
-  /* margin-top: 6%; */
-}
-.logistictranspotwhysub {
-  width: 90%;
-  /* background-color: blue; */
-  height: 450px;
-  margin: 25px auto;
-}
-.sztransport {
+.logisticwhyContainer {
   width: 85%;
-  margin-left: 1.5%;
-  margin-bottom: 20px;
-}
-.logistictranspotwhydiv {
+  margin: 5% auto;
   display: flex;
-  width: 100%;
-  height: 280px;
-  /* background-color: teal; */
-  justify-content: space-around;
-}
-/* .logistictranspotwhydiv{
-    width: 50%;
-    background-color: crimson;
- 
-} */
-.szagiledive {
-  width: 22%;
-  height: 320px;
-  /* background-color: rgb(192, 131, 143); */
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 15px;
-  border-radius: 18px;
-  margin: 10px 0px;
-  /* border: 2px solid red; */
-  /* margin: auto; */
-  /* margin-top: 10%; */
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px solid #ef4c23;
+  background-color: white;
 }
 
-.szagiledive > p {
-  /* border: 1px solid red; */
-  margin-top: 1%;
-  margin-left: 3%;
+.logisticwhyContainer>div {
+  width: 60%;
 }
 
-.szprocess {
-  width: 25%;
-  height: 50px;
-  /* border: 1px solid black; */
+.logisticwhyContainer>div>h1 {
+  font-size: 35px;
 }
 
-.szprocess > img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.logisticwhyContainer>div>button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 50px;
+  border: 2px solid #ef4c23;
+  border-radius: 100px;
+  background: #ef4c23;
+  color: white;
+  outline: none;
+  margin-top: 3%;
 }
-.szagile > h5 {
-  font-size: 17px;
-  margin-top: 1%;
-  padding: 12px;
+
+.logisticwhyContainer>div>button:hover {
+  background: white;
+  color: #ef4c23;
+}
+
+.logisticwhyContainer>span {
+  width: 30%;
+  height: fit-content;
+  transform: scale(1.4);
 }

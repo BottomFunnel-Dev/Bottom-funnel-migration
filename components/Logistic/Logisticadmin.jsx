@@ -6,9 +6,7 @@ export default function Logisticadmin({ adminData }) {
   const [active, setActive] = useState(0);
   return (
     <div className={styles.logicadmin}>
-      <h1>
-        {adminData.sectionTitle}
-      </h1>
+      <h1>{adminData.sectionTitle}</h1>
       <div className={styles.logicadminsub}>
         <div className={styles.logicadminright}>
           {adminData.admindata.map(({ title, icon, para }, idx) => {
@@ -19,32 +17,26 @@ export default function Logisticadmin({ adminData }) {
                 className={`logistic-box-${idx}`}
               >
                 <div className={styles.logisticLogo}>
-                  <Image
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "fit-content", height: "50px" }}
-                    src={icon.src}
-                    alt={icon.alt}
-                  />
+                  <span>
+                    <Image
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                      src={icon.src}
+                      alt={icon.alt}
+                    />
+                  </span>
+                  <h3>{title}</h3>
                 </div>
 
-                <h3>{title}</h3>
                 <p>{para}</p>
               </div>
             );
           })}
         </div>
 
-        <div
-          className={styles.logicadminleft}
-          style={{
-            background: `url(${adminData.background})`,
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            backgroundPosition: "center",
-          }}
-        >
+        <div className={styles.logicadminleft}>
           <div className={styles.logisticAdminImage}>
             <Image
               width={"0"}
@@ -55,6 +47,7 @@ export default function Logisticadmin({ adminData }) {
               alt={adminData.admindata[active].img.alt}
             />
           </div>
+          <div className={styles.logisticAdminImagesBackground}></div>
         </div>
       </div>
     </div>
