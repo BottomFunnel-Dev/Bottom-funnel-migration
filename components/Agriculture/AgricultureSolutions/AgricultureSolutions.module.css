@@ -8,8 +8,6 @@
 .agricultureSolutionsHeadingDiv > h1 > span {
   color: #ef4c23;
 }
-
-
 .agricultureSolutionsMainDataCards {
   width: 100%;
   display: flex;
@@ -20,7 +18,6 @@
   row-gap: 40px;
   column-gap: 40px;
 }
-
 .agricultureSolutionsMainDataCards > div {
   width: 26%;
   height: 450px;
