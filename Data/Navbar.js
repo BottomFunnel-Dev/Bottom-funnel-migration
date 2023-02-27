@@ -611,7 +611,7 @@ export const ondemand = [
     dropContent: "Car Service App Solutions",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/on demand solutions/carservice.svg",
-    path: "/404",
+    path: "/car-service-app",
   },
   {
     dropContent: "Trading App Solutions",

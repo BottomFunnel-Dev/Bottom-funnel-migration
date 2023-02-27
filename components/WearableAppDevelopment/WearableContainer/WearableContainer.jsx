@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './WearableContainer.module.css';
 import { FcApproval } from "react-icons/fc";
 import Image from 'next/image';
+import { PopupForm } from '../../PopupForm/PopupForm';
 
 export const WearableContainer = () => {
   return (
@@ -78,7 +79,39 @@ export const WearableContainer = () => {
         </div>
 
         <div>
-          <button className={styles.wearablebannerbutton1}>Get Started</button>
+          <button className={styles.wearablebannerbutton1}
+           type="button"
+           data-bs-toggle="modal"
+           data-bs-target="#staticBackdrop"
+          >Get Started</button>
+
+        <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
 
       </div>

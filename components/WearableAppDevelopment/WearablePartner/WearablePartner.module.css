@@ -1,7 +1,6 @@
 .wearablePageCardsInnerMainDiv4 {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid blue; */
   height: 50vh;
   margin-bottom: 5%;
 }
@@ -9,7 +8,6 @@
 .wearableInnerMainDiv4FirstDiv {
   display: flex;
   flex-direction: column;
-  /* border: 2px solid yellow; */
   margin-left: 1%;
   width: 40%;
   margin-top: 3%;
@@ -18,13 +16,11 @@
 .wearableInnerMaindiv4FirstDivBox {
   display: flex;
   flex-direction: row;
-  /* border: 2px solid green; */
 }
 
 .wearableInnerMaindiv4FirstDivBox h3 {
   font-size: 18px;
   margin-left: 10%;
-  /* margin-top: 0; */
 
 }
 
@@ -35,19 +31,15 @@
 }
 
 .wearable1stdivbox {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
   margin-left: 5%;
   margin-top: 3%;
-  /* width: 45%; */
 }
 
 .wearable1stdivbox:hover {
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-15px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -69,11 +61,9 @@
   font-size: 16px;
   text-align: justify;
   width: 95%;
-  /* margin-top: 3%; */
 }
 
 .wearablelogo {
-  /* border: 2px solid pink ; */
   width: 50px;
   height: 50px;
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
@@ -81,7 +71,6 @@
 }
 
 .wearablelogoimg {
-  /* width: 100%; */
   height: 100%;
 }
 .wearableinnermaindiv4SecondDivbtns{
@@ -107,14 +96,12 @@
 
 
 .wearableInnerMaindiv5BoxDiv {
-  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
 
   background: url("/Images/wearable/Rectangle 4559.webp");
   background-size: 100% 50%;
   background-position: center;
-  /* margin-top: 5%; */
 
   border-radius: 5px;
 }
@@ -124,8 +111,6 @@
   flex-direction: row;
   width: 90%;
  
-  /* height: 43vh; */
-  /* border: 2px solid yellow; */
   margin: auto;
   margin-top: 2%;
 }
@@ -133,27 +118,20 @@
 .wearableInnerMaindiv4Row {
   justify-content: left;
   text-align: left;
-  /* border: 2px solid red; */
   background-color: white;
   margin: auto;
   width: 30%;
   height: fit-content;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  /* margin-left: 3%; */
-  /* margin-right: 3%; */
+
 padding: 10px;
-   /* margin-top: 2%; */
-  /* padding: 5px 5px 5px 5px; */
-  /* padding-left: 1%; */
+
   border-radius: 10px;
-  /* margin-bottom: 1%; */
 }
 
 .wearableInnerMaindiv4Row:hover {
   cursor: pointer;
-  /* margin-top: 0; */
   transition: all 0.2s linear;
-  /* transform: scale(1.1); */
   transform: translateY(-15px);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -165,8 +143,6 @@ padding: 10px;
 
 .wearableInnerMaindiv4Row p {
   margin-top: 1%;
-  /* border: 2px solid red; */
-  /* font-size: 14px; */
   text-align: justify;
 }
 
@@ -179,7 +155,6 @@ padding: 10px;
 }
 
 .wearableheading {
-  /* border: 2px solid red; */
   justify-content: left;
   text-align: left;
   width: 70%;
@@ -192,14 +167,12 @@ padding: 10px;
 }
 
 .wearablepath {
-  /* border: 2px solid yellow; */
   display: flex;
   flex-direction: row;
   height: fit-content;
 }
 .wearablePathImg {
   width: 40%;
-  /* border: 2px solid black; */
   object-fit: cover;
   background-size: cover;
 }
@@ -207,9 +180,7 @@ padding: 10px;
 
 
 .wearableheading p {
-  /* margin-top: 4%; */
   font-size: 16px;
-  /* border: 2px solid red; */
   margin-top: 1%;
 }
 
@@ -223,17 +194,14 @@ padding: 10px;
 }
 
 .wearableimag {
-  /* border: 2px solid green; */
   width: 75%;
 }
 
 .wearabledivbox {
-  /* border: 2px solid yellow; */
   width: 20%;
 }
 
 .wearablebannerdiv {
-  /* border: 2px solid red; */
   background-image: url("/Images/wearable/bgimage.webp");
   color: white;
   margin-top: 3%;
@@ -253,7 +221,6 @@ padding: 10px;
 }
 .wearablebannerdiv p {
   font-size: 18px;
-  /* margin-top: 3%; */
 }
 .wearableAppDevelopmentbannerbutton{
 border: none;
@@ -273,14 +240,12 @@ padding: 5px 5px 5px 5px;
   .wearablePageCardsInnerMainDiv4 {
     display: flex;
     flex-direction: column-reverse;
-    /* border: 2px solid blue; */
     height: fit-content;
   }
   
   .wearableInnerMainDiv4FirstDiv {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid yellow; */
    
     width: 70%;
     margin: auto;
@@ -290,7 +255,6 @@ padding: 5px 5px 5px 5px;
   .wearableInnerMaindiv4FirstDivBox {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid green; */
   }
   
   .wearableInnerMaindiv4FirstDivBox h3 {
@@ -307,7 +271,6 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearable1stdivbox {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -318,9 +281,7 @@ padding: 5px 5px 5px 5px;
   
   .wearable1stdivbox:hover {
     cursor: pointer;
-    /* margin-top: 0; */
     transition: all 0.2s linear;
-    /* transform: scale(1.1); */
     transform: translateY(-15px);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
@@ -335,21 +296,17 @@ padding: 5px 5px 5px 5px;
   .wearableinnermaindiv4SecondDiv h1 {
     font-size: 35px;
     width: 95%;
-    /* border: 2px solid yellow; */
   }
   
   .wearableinnermaindiv4SecondDiv p {
     font-size: 16px;
     text-align: justify;
     width: 95%;
-    /* margin-top: 3%; */
   }
   
   .wearablelogo {
-    /* border: 2px solid pink ; */
     width: 50px;
     height: 50px;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     margin-top: 7%;
   }
   
@@ -362,7 +319,6 @@ padding: 5px 5px 5px 5px;
   
   
   .wearableInnerMaindiv5BoxDiv {
-    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
   
@@ -379,8 +335,6 @@ padding: 5px 5px 5px 5px;
     flex-direction: column;
     width: 90%;
    
-    /* height: 43vh; */
-    /* border: 2px solid yellow; */
     margin: auto;
     margin-top: 2%;
   }
@@ -395,21 +349,15 @@ padding: 5px 5px 5px 5px;
     width: 70%;
     height: fit-content;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* margin-left: 3%; */
-    /* margin-right: 3%; */
   
-     /* margin-top: 2%; */
     padding: 5px 5px 5px 5px;
-    /* padding-left: 1%; */
     border-radius: 10px;
-    /* margin-bottom: 1%; */
   }
   
   .wearableInnerMaindiv4Row:hover {
     cursor: pointer;
     /* margin-top: 0; */
     transition: all 0.2s linear;
-    /* transform: scale(1.1); */
     transform: translateY(-15px);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
@@ -423,7 +371,6 @@ padding: 5px 5px 5px 5px;
   
   .wearableInnerMaindiv4Row p {
     margin-top: 1%;
-    /* border: 2px solid red; */
     font-size: 14px;
     text-align: justify;
   }
@@ -437,7 +384,6 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearableheading {
-    border: 2px solid red;
     justify-content: left;
     text-align: center;
     width: 95%;
@@ -445,14 +391,12 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearablepath {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     height: fit-content;
   }
   .wearablePathImg {
     width: 80%;
-    /* border: 2px solid black; */
     object-fit: cover;
     background-size: cover;
     margin: auto;
@@ -464,10 +408,8 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearableheading p {
-    /* margin-top: 4%; */
     font-size: 16px;
     text-align: justify;
-    border: 2px solid red;
   }
   
   .wearableheading h1 {
@@ -480,17 +422,14 @@ padding: 5px 5px 5px 5px;
   }
   
   .wearableimag {
-    /* border: 2px solid green; */
     width: 75%;
   }
   
   .wearabledivbox {
-    /* border: 2px solid yellow; */
     width: 20%;
   }
   
   .wearablebannerdiv {
-    /* border: 2px solid red; */
     background-image: url("/Images/wearable/bgimage.webp");
     color: white;
     margin-top: 3%;
@@ -508,7 +447,6 @@ padding: 5px 5px 5px 5px;
   }
   .wearablebannerdiv p {
     font-size: 18px;
-    /* margin-top: 3%; */
   }
   .wearableAppDevelopmentbannerbutton{
   border: none;

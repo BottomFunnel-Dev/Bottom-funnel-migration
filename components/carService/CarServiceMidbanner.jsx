@@ -16,7 +16,7 @@ export default function CarServiceMidbanner ()  {
         data-bs-target="#staticBackdrop"
         > Get Started </button>
 
-<div
+        <div
             className="modal fade"
             id="staticBackdropcarrental"
             data-bs-backdrop="static"

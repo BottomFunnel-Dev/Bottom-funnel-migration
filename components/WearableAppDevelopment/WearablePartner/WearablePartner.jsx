@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './WearablePartner.module.css';
 import Image from 'next/image';
+import { PopupForm } from '../../PopupForm/PopupForm';
 
 export const WearablePartner = () => {
    return (
@@ -139,7 +140,41 @@ export const WearablePartner = () => {
             <p>
                We have worked with some of the best innovative ideas and brand in the world across industries
             </p>
-            <button className={styles.wearableAppDevelopmentbannerbutton}>Get Started</button>
+            <button className={styles.wearableAppDevelopmentbannerbutton}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            >Get Started</button>
+
+            <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
          </div>
 
 
@@ -219,7 +254,39 @@ export const WearablePartner = () => {
                }}>
                   With every passing year, wearable technology is getting more and more ubiquitous. We have the expertise to cover the different spectrum of wearables according to your custom needs and requirements. You can trust our wearable app developers to assist you with highly functional and user-friendly applications that will give you the results you have in your mind.
                </p>
-               <button className={styles.wearableinnermaindiv4SecondDivbtns}>Hire Wearable App Developer</button>
+               <button className={styles.wearableinnermaindiv4SecondDivbtns}
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+               >Hire Wearable App Developer</button>
+
+<div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
             </div>
          </div>
       </div>
