@@ -61,6 +61,21 @@
   color: black;
   font-weight: 500;
   cursor: pointer;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdownBar>div li>p {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdownBar>div li>i {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
 }
 
 .dropdownBar>div li:hover {

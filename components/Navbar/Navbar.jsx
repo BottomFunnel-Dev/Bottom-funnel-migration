@@ -104,7 +104,14 @@ const Navbar = () => {
                   hoverhandle("", false);
                 }}
               >
-                About
+                <p>About</p>
+                <i
+                  className={
+                    navtoggle == "about"
+                      ? "bi bi-chevron-up"
+                      : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -115,7 +122,14 @@ const Navbar = () => {
                   hoverhandle("", false);
                 }}
               >
-                Services
+                <p>Services</p>
+                <i
+                  className={
+                    navtoggle == "services"
+                      ? "bi bi-chevron-up"
+                      : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -126,7 +140,14 @@ const Navbar = () => {
                   hoverhandle("", false);
                 }}
               >
-                Solutions
+                <p>Solutions</p>
+                <i
+                  className={
+                    navtoggle == "solutions"
+                      ? "bi bi-chevron-up"
+                      : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li
@@ -137,7 +158,14 @@ const Navbar = () => {
                   hoverhandle("", false);
                 }}
               >
-                Industries
+                <p>Industries</p>
+                <i
+                  className={
+                    navtoggle == "industry"
+                      ? "bi bi-chevron-up"
+                      : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
 
               <li onClick={() => router.push("portfolio")}>Portfolio</li>
@@ -150,7 +178,14 @@ const Navbar = () => {
                   hoverhandle("");
                 }}
               >
-                Resources
+                <p>Resources</p>
+                <i
+                  className={
+                    navtoggle == "resource"
+                      ? "bi bi-chevron-up"
+                      : "bi bi-chevron-down"
+                  }
+                ></i>
               </li>
             </div>
             <button
