@@ -1,0 +1,199 @@
+.carserviceadminpannelmain {
+    height: fit-content;
+    background-color: white;
+    padding-bottom: 5%;
+    padding-top: 2%;
+  }
+  
+  .carserviceadminpanneltext {
+    height: fit-content;
+    margin-left: 4%;
+  }
+  
+  .carserviceadminpanneltext > h2 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .carserviceadminpannelbox {
+    height: 500px;
+    display: flex;
+  }
+  
+  .carserviceadminpannelleftbox {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin-left: 3%;
+  }
+  
+  .carserviceadminpannelindivisual {
+    height: fit-content;
+    width: 45%;
+    height: 240px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1%;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .carserviceadminpannelindivisual:hover {
+    transform: scale(1.02);
+    background-color: #fbe1e5;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    transform: translateY(-10px);
+  }
+  
+  .carserviceadminpannelrightbox {
+    width: 45%;
+    margin-left: 1%;
+    margin-top: 1%;
+    background: url("/Images/CarService/BannersBackgrounds/Rectangle 4723.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .carserviceadminpannelrightboximg {
+    height: 80%;
+    width: 80%;
+    margin: 8% 3% 3% 12%;
+  }
+  
+  .carserviceadminpannelboximg > img {
+    object-fit: contain;
+  }
+  
+  .carserviceadminpannelindivisualicon {
+    height: 25%;
+    width: 18%;
+    padding: 1%;
+  }
+  
+  .carserviceadminpannelindivisualicon > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .carserviceadminpannelindivisualtxt > h4 {
+    padding-top: 4%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    margin-bottom: 1%;
+  }
+  
+  .carserviceadminpannelindivisualtxt > p {
+    padding-top: 1%;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  
+  @media (max-width:480px){
+    .carserviceadminpannelmain {
+      height: fit-content;
+      background-color: white;
+      padding-bottom: 5%;
+      padding-top: 2%;
+    }
+    
+    .carserviceadminpanneltext {
+      height: fit-content;
+      margin-left: 4%;
+    }
+    
+    .carserviceadminpanneltext > h2 {
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    .carserviceadminpannelbox {
+      height: fit-content;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .carserviceadminpannelleftbox {
+      height: fit-content;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-left: 0%;
+    }
+    
+    .carserviceadminpannelindivisual {
+      height: fit-content;
+      width: 90%;
+      height: 240px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 4% 0 0 5%;
+      text-align: justify;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    
+    .carserviceadminpannelindivisual:hover {
+      transform: scale(1.02);
+      background-color: #fbe1e5;
+      cursor: pointer;
+      transition: all 0.2s linear;
+      transform: translateY(-10px);
+    }
+    
+    .carserviceadminpannelrightbox {
+      width: 85%;
+      margin-left: 7.5%;
+      margin-top: 1%;
+      background: url("/Images/CarService/BannersBackgrounds/Rectangle 4723.webp");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+    
+    .carserviceadminpannelrightboximg {
+      height: 80%;
+      width: 80%;
+      margin: 8% 3% 3% 12%;
+    }
+    
+    .carserviceadminpannelrightboximg > img {
+      object-fit: contain;
+    }
+    
+    .carserviceadminpannelindivisualicon {
+      height: 25%;
+      width: 18%;
+      padding: 1%;
+    }
+    
+    .carserviceadminpannelindivisualicon > img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+    
+    .carserviceadminpannelindivisualtxt > h4 {
+      padding-top: 4%;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.6px;
+      vertical-align: baseline;
+      margin-bottom: 1%;
+    }
+    
+    .carserviceadminpannelindivisualtxt > p {
+      padding-top: 1%;
+      font-size: 15px;
+      line-height: 20px;
+      vertical-align: baseline;
+      font-weight: 400;
+    }
+  }  

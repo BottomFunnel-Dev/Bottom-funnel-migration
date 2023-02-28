@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./WhyChooseKotlin.module.css";
 import Image from "next/image";
+import { PopupForm } from "../../PopupForm/PopupForm";
 
 export const WhyChooseKotlin = () => {
   return (
@@ -106,7 +107,41 @@ export const WhyChooseKotlin = () => {
             development projects. Finally, Kotlin is a rapidly evolving language with new features being added regularly, making it an exciting choice for developers looking to keep up with the latest trends in app development.
           </p>
           <div className={styles.mobileappactionkotlinbuttondiv}>
-          <button className={styles.mobileappactionkotlinbutton}>Hire Kotlin developer</button>
+          <button className={styles.mobileappactionkotlinbutton}
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          >Hire Kotlin developer</button>
+
+<div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
           </div>
         </div>
       </div>

@@ -37,11 +37,6 @@
   margin-top: 5%;
 }
 
-.agricultureBannerImageDiv img {
-  width: 100%;
-  margin-top: 10%;
-}
-
 @media (max-width: 480px) {
   .agricultureBannerParentDiv {
     display: flex;
@@ -94,11 +89,6 @@
     width: 100%;
     margin-bottom: 0%;
   }
-
-  .agricultureBannerImageDiv img {
-    width: 100%;
-    margin-top: 8%;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
@@ -144,10 +134,5 @@
 
   .agricultureBannerImageDiv {
     width: 100%;
-  }
-
-  .agricultureBannerImageDiv img {
-    width: 100%;
-    margin-top: 8%;
   }
 }

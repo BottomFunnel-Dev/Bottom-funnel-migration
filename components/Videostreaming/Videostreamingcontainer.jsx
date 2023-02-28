@@ -14,7 +14,15 @@ export default function Videostreamingcontainer() {
               of every single aspect of your business, and that can be
               exhausting at times. We are for whose things.
             </p>
-            <button className={styles.trailbtn}>Start Free Trail</button>
+            <button className={styles.trailbtn}
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+            
+            
+            >Start Free Trail</button>
+
+            
           </div>
         </div>
         <div className={styles.videoimages}>

@@ -1,0 +1,153 @@
+.Carservicemainbox {
+    height: fit-content;
+    margin-top: 5%;
+  }
+  .Carservicetextbox {
+    width: 60%;
+    margin: auto;
+  }
+  .Carservicetextbox > h1 {
+    text-align: center;
+    color: grey;
+    font-size: 35px;
+  }
+  .Carservicetextbox > h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .Carservicebackgroundimage {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  background-color: rgb(241, 237, 237);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+  }
+  .Carserviceboxesmap {
+    padding: 1%;
+    height: auto;
+    width: 28%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1% 1% 1% 3%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .Carserviceboxesmap:hover {
+    transform: scale(1.02);
+    background-color: #ffebef;
+  }
+  
+  .Carserviceinnerbox {
+    height: 200px;
+    width: fit-content;
+  
+    margin: auto;
+  }
+  
+  .Carserviceinnerbox > img {
+    height: 100%;
+  
+    object-fit: contain;
+  }
+  
+  .Carservicesolutionbutton {
+    padding: 10px 50px;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #6aa3ed;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 45%;
+    margin-top: 2%;
+  }
+  
+  .Carservicesolutionbutton:hover {
+    background-color: white;
+    color: #6aa3ed;
+  }
+  
+  
+  
+  
+  @media  (max-width: 1024px) {
+    .Carservicemainbox {
+      height: fit-content;
+    }
+    .Carservicetextbox {
+      width: 95%;
+      margin: auto;
+      text-align: center;
+    }
+    .Carservicetextbox > h1 {
+      text-align: center;
+    
+      font-size: 30px;
+    }
+    .Carservicetextbox > p {
+      text-align: justify;
+    }
+    
+    .Carservicebackgroundimage {
+      height: 100%;
+      width: 100%;
+      margin: auto;
+    background-color: #FFE9ED;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 2%;
+      text-align: center;
+    }
+    .Carserviceboxesmap {
+      padding: 2%;
+      height: auto;
+      width: 90%;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: auto;
+      background-color: white;
+      border-radius: 10px;
+      margin-top: 2%;
+    }
+    .Carserviceboxesmap p{
+      text-align: justify;
+    }
+    
+    .Carserviceboxesmap:hover {
+      transform: scale(1.02);
+      background-color: #ffebef;
+    }
+    
+    .Carserviceinnerbox {
+      height: 200px;
+      width: fit-content;
+    
+      margin: auto;
+    }
+    .Carservicesolutionbutton {
+      padding: 10px 50px;
+      border-radius: 100px;
+      width: 220px;
+      background-color: #6aa3ed;
+      border: none;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      margin-left: 45%;
+      margin-top: 5%;
+    }
+    
+    .Carservicesolutionbutton:hover {
+      background-color: white;
+      color: #ef4c23;
+    }
+  }
+  
