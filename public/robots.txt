@@ -1,0 +1,6 @@
+User-agent: Googlebot
+Disallow: /undefined
+Disallow: /client-reviews
+
+User-agent: *
+Allow: /
