@@ -2,8 +2,6 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
 
-const isProd = process.env.NODE_ENV === "production";
-
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
@@ -18,5 +16,18 @@ module.exports = withBundleAnalyzer({
       },
     ],
   },
-  assetPrefix: isProd ? "https://d1krs40fxb67ye.cloudfront.net" : undefined,
+  async redirects() {
+    return [
+      {
+        source: "/seo-sem",
+        destination: "/sem-services",
+        permanent: true,
+      },
+      {
+        source: "/seo-link-building",
+        destination: "/link-building-services",
+        permanent: true,
+      },
+    ];
+  },
 });
