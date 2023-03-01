@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupForm } from "../../PopupForm/PopupForm";
 import { SeoForm } from "../seoForm/SeoForm";
 import styles from "./Seosection.module.css";
 
@@ -27,7 +28,39 @@ function Seosection() {
             is a blog post or an e-commerce website, we make sure they reach
             their target audience online.
           </p>
-          <button className={styles._Seochkpricing}>Check the pricing</button>
+          <button className={styles._Seochkpricing}
+           type="button"
+           data-bs-toggle="modal"
+           data-bs-target="#staticBackdrop"
+          >Check the pricing</button>
+
+          <div
+          className="modal fade"
+          id="staticBackdrop1"
+          data-bs-backdrop="static"
+          data-bs-keyboard="false"
+          tabIndex="-1"
+          aria-labelledby="staticBackdropLabel"
+          aria-hidden="true"
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <button
+                  type="button"
+                  className="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div>
+                <PopupForm />
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
         <SeoForm />
       </div>

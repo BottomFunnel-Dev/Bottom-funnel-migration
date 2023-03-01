@@ -11,7 +11,7 @@ export default function EngagementModel() {
     <div>
       <Head>
         <title>
-          {" "}
+         
           Engagement Models - Fixed Price, Time Material, Dedicated Resource |
           Bottom Funnel
         </title>
