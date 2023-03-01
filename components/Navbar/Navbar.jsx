@@ -153,6 +153,7 @@ const Navbar = () => {
                 Resources
               </li>
             </div>
+            
             <button
               onClick={() => router.push("https://www.bottomfunnel.net/")}
               className={navstyle.ProductPageRouteButton}
