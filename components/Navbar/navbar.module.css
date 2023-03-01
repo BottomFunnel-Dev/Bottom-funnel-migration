@@ -767,7 +767,6 @@
 }
 
 .ProductPageRouteButton {
-  background-color: #f2613d;
   color: #fff;
   border: 2px solid #f2613d;
   transition: all 500ms linear;
@@ -779,13 +778,25 @@
   font-size: 1vw;
   font-weight: 600;
   margin: 0 5px;
+  background: linear-gradient(to right,
+      #ef4c23,
+      #fed200,
+      #ef4c23);
+  background-size: 200%;
+  animation: gradientAnimate 2s linear infinite;
+}
 
+@keyframes gradientAnimate {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
 }
 
 .ProductPageRouteButton:hover {
-  background: white;
-  color: #ef4c23;
-  border: 2px solid #ef4c23;
   box-shadow: rgba(255, 255, 255, 0.35) 0px 54px 55px, rgba(255, 255, 255, 0.22) 0px -12px 30px, rgba(255, 255, 255, 0.22) 0px 4px 6px, rgba(255, 255, 255, 0.27) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 
