@@ -16,8 +16,8 @@ export default function Pharmacy() {
     <>
       <Head>
         <title>
-          {" "}
-          Pharmacy Web and App Development Company | Bottom Funnel{" "}
+         
+          Pharmacy Web and App Development Company | Bottom Funnel
         </title>
         <meta
           name="description"
