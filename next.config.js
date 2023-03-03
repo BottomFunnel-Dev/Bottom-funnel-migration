@@ -191,7 +191,7 @@ module.exports = withBundleAnalyzer({
       },
       {
         source: "/local-seo",
-        destination: "https://service.bottomfunnel.net/local-seo-services",
+        destination: "/local-seo-services",
         permanent: true,
       },
       {
