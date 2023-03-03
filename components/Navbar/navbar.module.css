@@ -768,9 +768,10 @@
 
 .ProductPageRouteButton {
   color: #fff;
-  border: 2px solid #f2613d;
+  border: none;
+  /* border: 2px solid #f2613d; */
   transition: all 500ms linear;
-  padding: 10px 35px;
+  padding: 9px 30px;
   position: absolute;
   top: 21%;
   right: 2%;
