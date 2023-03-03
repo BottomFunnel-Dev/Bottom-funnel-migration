@@ -16,6 +16,7 @@ module.exports = withBundleAnalyzer({
       },
     ],
   },
+
   async redirects() {
     return [
       {
@@ -121,6 +122,91 @@ module.exports = withBundleAnalyzer({
       {
         source: "/flutter",
         destination: "/flutter-development",
+        permanent: true,
+      },
+      {
+        source: "/django",
+        destination: "/skills/django",
+        permanent: true,
+      },
+      {
+        source: "/pharmacy",
+        destination: "https://service.bottomfunnel.net/pharmacy",
+        permanent: true,
+      },
+      {
+        source: "/mongodb",
+        destination: "https://service.bottomfunnel.net/skills/mongodb",
+        permanent: true,
+      },
+      {
+        source: "/Social-Media",
+        destination: "https://service.bottomfunnel.net/industries/social_media",
+        permanent: true,
+      },
+      {
+        source: "/user-interface",
+        destination: "https://service.bottomfunnel.net/user-interface",
+        permanent: true,
+      },
+      {
+        source: "/mern-stack",
+        destination: "https://service.bottomfunnel.net/mernstack-development",
+        permanent: true,
+      },
+      {
+        source: "/cannabis",
+        destination: "https://service.bottomfunnel.net/cannabis",
+        permanent: true,
+      },
+      {
+        source: "/education",
+        destination: "/industries/education",
+        permanent: true,
+      },
+      {
+        source: "/marketplace",
+        destination: "https://service.bottomfunnel.net/marketplace",
+        permanent: true,
+      },
+      {
+        source: "/web-development",
+        destination: "https://service.bottomfunnel.net/web-development",
+        permanent: true,
+      },
+      {
+        source: "/food-delivery",
+        destination: "https://service.bottomfunnel.net/food-delivery-app",
+        permanent: true,
+      },
+      {
+        source: "/local-seo",
+        destination: "https://service.bottomfunnel.net/local-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/our-clients",
+        destination: "https://service.bottomfunnel.net/our-clients",
+        permanent: true,
+      },
+      {
+        source: "/local-seo",
+        destination: "https://service.bottomfunnel.net/local-seo-services",
+        permanent: true,
+      },
+      {
+        source: "/website-builder-app",
+        destination: "https://service.bottomfunnel.net/website-builder-app",
+        permanent: true,
+      },
+      {
+        source: "/mobile-app-development",
+        destination: "https://service.bottomfunnel.net/mobile-app-development",
+        permanent: true,
+      },
+      {
+        source: "/wearable-app-development",
+        destination: "https://service.bottomfunnel.net/wearable-app-development",
         permanent: true,
       },
     ];
