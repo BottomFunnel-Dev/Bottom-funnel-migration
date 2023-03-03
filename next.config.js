@@ -203,6 +203,7 @@ module.exports = withBundleAnalyzer({
         source: "/wearable-app-development",
         destination: "https://service.bottomfunnel.net/wearable-app-development",
         permanent: true,
+        basePath: false,
       },
     ];
   },
