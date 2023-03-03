@@ -136,12 +136,12 @@ module.exports = withBundleAnalyzer({
       },
       {
         source: "/mongodb",
-        destination: "https://service.bottomfunnel.net/skills/mongodb",
+        destination: "/skills/mongodb",
         permanent: true,
       },
       {
         source: "/Social-Media",
-        destination: "https://service.bottomfunnel.net/industries/social_media",
+        destination: "/industries/social_media",
         permanent: true,
       },
       {
@@ -151,7 +151,7 @@ module.exports = withBundleAnalyzer({
       },
       {
         source: "/mern-stack",
-        destination: "https://service.bottomfunnel.net/mernstack-development",
+        destination: "/mernstack-development",
         permanent: true,
       },
       {
@@ -176,12 +176,7 @@ module.exports = withBundleAnalyzer({
       },
       {
         source: "/food-delivery",
-        destination: "https://service.bottomfunnel.net/food-delivery-app",
-        permanent: true,
-      },
-      {
-        source: "/local-seo",
-        destination: "https://service.bottomfunnel.net/local-seo-services",
+        destination: "/food-delivery-app",
         permanent: true,
       },
       {
