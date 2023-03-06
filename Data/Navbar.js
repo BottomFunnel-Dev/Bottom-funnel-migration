@@ -9,7 +9,7 @@ export const company = [
     dropContent: "Our Team",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/About us/ourteam.svg",
-    path: "/404",
+    path: "/our-team",
   },
   {
     dropContent: "Career ",
@@ -100,7 +100,7 @@ export const process = [
     dropContent: "Our Partners",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/About us/partners.svg",
-    path: "/404",
+    path: "/our-partners",
   },
 ];
 
@@ -316,7 +316,7 @@ export const trendingTech = [
     dropContent: "Augmented Reality",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Trending technologies/augmentedreality.svg",
-    path: "/404",
+    path: "/augmented-reality",
   },
   {
     dropContent: "NFT Development",
@@ -952,7 +952,7 @@ export const mobile = [
     dropContent: "Java",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/javaimage.png",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Flutter",
@@ -970,7 +970,7 @@ export const mobile = [
     dropContent: "Swift",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/skills/swift.png",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Kotlin",
@@ -1131,7 +1131,7 @@ export const discoverRightContent = [
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Discover section/innovationlab.svg",
-    path: "/404",
+    path: "/",
   },
 ];
 
@@ -1172,7 +1172,7 @@ export const designRightContent = [
     description: `We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/Discover section/innovationlab.svg",
-    path: "/404",
+    path: "/",
   },
 ];
 
@@ -1212,7 +1212,7 @@ export const scaleRightContent = [
     description: ` We are early adopters of disruptive technologies. Unravel unique insights on our technological know-how and thought leadership.`,
     cardImg:
       "https://d1krs40fxb67ye.cloudfront.net/Images/NavbarIconsSvg/scale section/innovationlab.svg",
-    path: "/404",
+    path: "/",
   },
 ];
 
@@ -1423,7 +1423,7 @@ export const productDesk = [
     productText2: "Field Service",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/Logos/funnel-desk/contact-center.png",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Omnichannel Suite",
@@ -1431,7 +1431,7 @@ export const productDesk = [
     productText2: "Travel & Hospitality",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/Logos/funnel-desk/omnichannel.png",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Customer Sucess",
@@ -1440,7 +1440,7 @@ export const productDesk = [
     productText2: "Travel & Hospitality",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/Logos/funnel-desk/customer-sucess.png",
-    path: "/404",
+    path: "/",
   },
 ];
 
@@ -1463,54 +1463,54 @@ export const productFeatures = [
   },
   {
     dropContent: "Reporting & Analytics",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Security",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Integration",
-    path: "/404",
+    path: "/",
   },
 ];
 
 export const productResources = [
   {
     dropContent: "Remote Support",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Customer Stories",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Resource Library",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Webinars",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Videos",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Free Tools",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Academy",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Blog",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "What's new",
-    path: "/404",
+    path: "/",
   },
 ];
 
@@ -1520,122 +1520,122 @@ export const salesProduct = [
     productText1: "Sales CRM",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/product/bottomFunnnelSales.png",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Bottom Funnel Suite",
     productText1: "Sales & Markeing CRM",
     navIcons:
       "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/product/Sales.png",
-    path: "/404",
+    path: "/",
   },
 ];
 
 export const salesFeatures = [
   {
     dropContent: "Contact Management",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Cloud Telephony",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "CPQ",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Deal Management",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Email Integration",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Olly AI",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Mobile",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Sales Reports",
-    path: "/404",
+    path: "/",
   },
 ];
 
 export const salesResources = [
   {
     dropContent: "Case Study",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Product Tour",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Blog",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "What's new",
-    path: "/404",
+    path: "/",
   },
 ];
 
 export const salesIndustries = [
   {
     dropContent: "Real Estate",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Manufacturing",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "SAAS",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Hospitality",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Insurance",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Logistics",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Agency",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Retail",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Finance",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "HealthCare",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Education",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Travel Agency",
-    path: "/404",
+    path: "/",
   },
   {
     dropContent: "Law Firm",
-    path: "/404",
+    path: "/",
   },
 ];
