@@ -148,6 +148,11 @@ module.exports = withBundleAnalyzer({
         source: "/local-seo",
         destination: "/local-seo-services",
         permanent: true,
+      },
+      {
+        source: "/seo-ppc",
+        destination: "ppc-services",
+        permanent: true,
       }
     ];
   },
