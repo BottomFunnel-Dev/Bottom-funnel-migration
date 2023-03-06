@@ -129,6 +129,21 @@ module.exports = withBundleAnalyzer({
         destination: "/portfolio",
         permanent: true,
       },
+      {
+        source: "/education",
+        destination: "/industries/education",
+        permanent: true,
+      },
+      {
+        source: "/wellness",
+        destination: "/industries/wellness",
+        permanent: true,
+      },
+      {
+        source: "/ecommerce",
+        destination: "/industries/ecommerce",
+        permanent: true,
+      }
     ];
   },
 });

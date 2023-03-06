@@ -12,7 +12,7 @@ import Head from "next/head";
 
 export default function IonicAppDevelopment() {
   return (
-    <>
+    <div>
       <Head>
         <title>Ionic App Development Company | Bottom Funnel</title>
         <meta
@@ -22,7 +22,6 @@ export default function IonicAppDevelopment() {
       </Head>
 
       <main>
-
         <IonicAppBanner />
         <IonicBottomFunnel />
         <IonicServices />
@@ -31,8 +30,7 @@ export default function IonicAppDevelopment() {
         <WhyChooseIonicBottomFunnel />
         <IonicProject />
         <IonicDevelopmentExpertise />
-
       </main>
-    </>
+    </div>
   );
 }

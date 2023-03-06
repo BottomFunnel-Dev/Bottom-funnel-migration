@@ -53,6 +53,7 @@ export const IonicAppBanner = () => {
             </div>
           </div>
         </div>
+        
         <div className={styles.ionicIcon}>
           <lottie-player
             src="/Animation/ionic.json"
