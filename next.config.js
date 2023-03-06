@@ -143,6 +143,11 @@ module.exports = withBundleAnalyzer({
         source: "/ecommerce",
         destination: "/industries/ecommerce",
         permanent: true,
+      },
+      {
+        source: "/local-seo",
+        destination: "/local-seo-services",
+        permanent: true,
       }
     ];
   },
