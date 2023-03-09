@@ -6,6 +6,16 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
   crossOrigin: 'anonymous',
+  async headers() {
+    return [
+      {
+        source: "/_next/:path*",
+        headers: [
+          { key: "Access-Control-Allow-Origin", value: "*" },
+        ],
+      },
+    ]
+  },
   assetPrefix: isProd ?  'https://d2yx05ns6h4zfl.cloudfront.net':'',
   images: {
     domains: ["d1krs40fxb67ye.cloudfront.net"],
