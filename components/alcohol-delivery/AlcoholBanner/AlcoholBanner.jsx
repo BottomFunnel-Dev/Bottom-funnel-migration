@@ -1,18 +1,27 @@
 import React, { useState } from "react";
-import styles from "./AlcoholBanner.module.css";
+// import styles from "./AlcoholBanner.module.css";
 import { PopupForm } from "../../PopupForm/PopupForm";
+import Head from "next/head";
 
 export default function AlcoholBanner() {
   return (
-    <div className={styles.alcoholBannerMain}>
-      <div className={styles.alcoholBannerContent}>
-        <h1> Alcohol Delivery </h1>
-        <p>
-          There's no need to run out and purchase alcohol anymore! With alcohol
-          delivery services, you can have all the wine, beer, and liquor your
-          heart desires delivered right to your door.
-        </p>
-        <button
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholBanner/AlcoholBanner.module.css"
+        />
+      </Head>
+
+      <div className="alcoholBannerMain">
+        <div className="alcoholBannerContent">
+          <h1> Alcohol Delivery </h1>
+          <p>
+            There's no need to run out and purchase alcohol anymore! With alcohol
+            delivery services, you can have all the wine, beer, and liquor your
+            heart desires delivered right to your door.
+          </p>
+          <button
             type="button"
             data-bs-toggle="modal"
             data-bs-target="#staticBackdrop"
@@ -45,22 +54,20 @@ export default function AlcoholBanner() {
               </div>
             </div>
           </div>
+        </div>
 
 
-
+        <div className="alcoholBannerImage">
+          <lottie-player
+            src="/Animation/SolutionsAnimation/alchohal delivery.json"
+            background="transparent"
+            speed="1"
+            style={{ width: "100%", height: "100%" }}
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
       </div>
-
-
-      <div className={styles.alcoholBannerImage}>
-        <lottie-player
-          src="/Animation/SolutionsAnimation/alchohal delivery.json"
-          background="transparent"
-          speed="1"
-          style={{ width: "100%", height: "100%" }}
-          loop
-          autoplay
-        ></lottie-player>
-      </div>
-    </div>
+    </>
   );
 }

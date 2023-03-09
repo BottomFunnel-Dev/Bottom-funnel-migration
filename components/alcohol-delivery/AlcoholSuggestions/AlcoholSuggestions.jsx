@@ -1,6 +1,7 @@
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import styles from "./AlcoholSuggestions.module.css";
+// import styles from "./AlcoholSuggestions.module.css";
 
 export default function AlcoholSuggestions() {
   let foodExcluciveAppData = [
@@ -43,36 +44,45 @@ export default function AlcoholSuggestions() {
   ];
 
   return (
-    <div className={styles.alcoholExluciveAppMain}>
-      <h1>
-        <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DELIVERY BUSINESS:
-      </h1>
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholSuggestions/AlcoholSuggestions.module.css"
+        />
+      </Head>
 
-      <p>
-        Get exclusive and robusts apps for your alcohol delivery business with a
-        taste of latest technology and creative designs.
-      </p>
+      <div className="alcoholExluciveAppMain">
+        <h1>
+          <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DELIVERY BUSINESS:
+        </h1>
 
-      <div className={styles.alcoholExluciveAppContent}>
-        {foodExcluciveAppData.map(({ title, description, img }) => {
-          return (
-            <div key={title}>
-              <div className={styles.alcoholExlcusiveAppImageDiv}>
-                <Image src={img.src}
-                  alt={img.alt}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "50%" }}
-                />
+        <p>
+          Get exclusive and robusts apps for your alcohol delivery business with a
+          taste of latest technology and creative designs.
+        </p>
+
+        <div className="alcoholExluciveAppContent">
+          {foodExcluciveAppData.map(({ title, description, img }) => {
+            return (
+              <div key={title}>
+                <div className="alcoholExlcusiveAppImageDiv">
+                  <Image src={img.src}
+                    alt={img.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "50%" }}
+                  />
+                </div>
+
+                <h2> {title} </h2>
+                <p> {description} </p>
               </div>
-
-              <h2> {title} </h2>
-              <p> {description} </p>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
-}
+};

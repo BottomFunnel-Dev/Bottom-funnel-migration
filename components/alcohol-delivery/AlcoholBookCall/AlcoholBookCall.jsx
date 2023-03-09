@@ -1,25 +1,34 @@
+import Head from "next/head";
 import React from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
-import styles from "./AlcoholBookCall.module.css";
+// import styles from "./AlcoholBookCall.module.css";
 
 
 export default function AlcoholBookCall() {
   return (
-    <div className={styles.alcoholBookCallMain}>
-      <div>
-        <h1>
-          Get all the alcohol delivery app development solutions for all the kind of platform?
-        </h1>
-        
-        <button 
-        type="button"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-        >
-          Let's Get Started
-        </button>
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall.module.css"
+        />
+      </Head>
 
-        <div
+      <div className="alcoholBookCallMain">
+        <div>
+          <h1>
+            Get all the alcohol delivery app development solutions for all the kind of platform?
+          </h1>
+
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Let's Get Started
+          </button>
+
+          <div
             className="modal fade"
             id="staticBackdrop"
             data-bs-backdrop="static"
@@ -39,13 +48,14 @@ export default function AlcoholBookCall() {
                 </div>
 
                 <div>
-                  <PopupForm/>
+                  <PopupForm />
                 </div>
               </div>
             </div>
           </div>
 
+        </div>
       </div>
-    </div>
+    </>
   );
-}
+};
