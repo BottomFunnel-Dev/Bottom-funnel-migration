@@ -5,6 +5,7 @@ var isProd = true;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
+  crossOrigin: 'anonymous',
   assetPrefix: isProd ?  'https://d2yx05ns6h4zfl.cloudfront.net':'',
   images: {
     domains: ["d1krs40fxb67ye.cloudfront.net"],
