@@ -10,7 +10,7 @@ export default function AlcoholBookCall() {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall.module.css"
+          href="/components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall.module.css"
         />
       </Head>
 

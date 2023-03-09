@@ -10,7 +10,7 @@ export const FoodDeliveryBanner = () => {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/food-delivery/FoodDeliveryBanner.module.css"
+          href="/components/food-delivery/FoodDeliveryBanner.module.css"
         />
       </Head>
 

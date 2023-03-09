@@ -10,7 +10,7 @@ export default function SkillsComWhyBF({ data }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/SkillsCom/SkillsComWhyBF/SkillsComWhyBF.module.css"
+          href="/components/SkillsCom/SkillsComWhyBF/SkillsComWhyBF.module.css"
         />
       </Head>
       <div className={"skillswhymain"}>

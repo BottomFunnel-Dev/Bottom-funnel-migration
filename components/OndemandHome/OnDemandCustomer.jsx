@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./OnDemandCustomer.module.css";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function OnDemandCustomerSection() {
   const [imageChange, setImageChange] = useState(
@@ -20,8 +21,7 @@ export default function OnDemandCustomerSection() {
     },
 
     {
-      image:
-        "/Images/ondemand/OnDemandSwitchScreens/Simplicity In Searching.webp",
+      image:"/Images/ondemand/OnDemandSwitchScreens/Simplicity In Searching.webp",
       icon: "/Images/newcannabispage/icons/image 16.png",
       headertext: "Browse By Categories",
       paragraph:
@@ -46,52 +46,61 @@ export default function OnDemandCustomerSection() {
   ];
 
   return (
-    <div className={styles.cannbiescustomerappmainboxes}>
-      <h2> Customer App </h2>
-      <div className={styles.cannbiesdeliveryappflexingbox}>
-        <div className={styles.cannabiesdeliveryappflexingboxleftbox}>
-          <div className={styles.cannabiesdeliveryappleftboxinsiderupperimage}>
-            <Image
-              src={imageChange}
-              alt={"image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="/components/OndemandHome/OnDemandCustomer.module.css"
+        />
+      </Head>
+
+      <div className={styles.cannbiescustomerappmainboxes}>
+        <h2> Customer App </h2>
+        <div className={styles.cannbiesdeliveryappflexingbox}>
+          <div className={styles.cannabiesdeliveryappflexingboxleftbox}>
+            <div className={styles.cannabiesdeliveryappleftboxinsiderupperimage}>
+              <Image
+                src={imageChange}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
+          </div>
+
+          <div className={styles.cannbiesdeliveryappflexingboxrightbox}>
+            {canabiescustomerappdata.map((e) => {
+              return (
+                <div
+                  className={styles.cannabiesdeliveryappindivisualbox}
+                  key={e.htxt}
+                  onMouseEnter={() => {
+                    handleImageChange(e.image);
+                  }}
+                >
+                  <div className={styles.cannbiesdeliveryappindivisualboxforlogo}>
+                    <Image
+                      src={e.icon}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "100%" }}
+                    />
+                  </div>
+
+                  <div className={styles.cannabisDeliveryTextDiv}>
+                    <h4> {e.headertext} </h4>
+                    <p> {e.paragraph} </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
-
-        <div className={styles.cannbiesdeliveryappflexingboxrightbox}>
-          {canabiescustomerappdata.map((e) => {
-            return (
-              <div
-                className={styles.cannabiesdeliveryappindivisualbox}
-                key={e.htxt}
-                onMouseEnter={() => {
-                  handleImageChange(e.image);
-                }}
-              >
-                <div className={styles.cannbiesdeliveryappindivisualboxforlogo}>
-                  <Image
-                    src={e.icon}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "100%" }}
-                  />
-                </div>
-
-                <div className={styles.cannabisDeliveryTextDiv}>
-                  <h4> {e.headertext} </h4>
-                  <p> {e.paragraph} </p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
       </div>
-    </div>
+    </>
   );
 }

@@ -19,7 +19,7 @@ export default function Awards() {
           <div>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/appfutura.webp"
+                "/Images/AwardsImageMainServicePage/appfutura.webp"
               }
               alt={"images"}
               width={"0"}
@@ -32,7 +32,7 @@ export default function Awards() {
           <div>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/clutch.webp"
+                "/Images/AwardsImageMainServicePage/clutch.webp"
               }
               alt={"images"}
               width={"0"}
@@ -45,7 +45,7 @@ export default function Awards() {
           <div>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/goodfirms.webp"
+                "/Images/AwardsImageMainServicePage/goodfirms.webp"
               }
               alt={"images"}
               width={"0"}
@@ -58,7 +58,7 @@ export default function Awards() {
           <div>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/itfirms.webp"
+                "/Images/AwardsImageMainServicePage/itfirms.webp"
               }
               alt={"images"}
               width={"0"}
@@ -71,7 +71,7 @@ export default function Awards() {
           <div>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/topdev.webp"
+                "/Images/AwardsImageMainServicePage/topdev.webp"
               }
               alt={"images"}
               width={"0"}
@@ -84,7 +84,7 @@ export default function Awards() {
           <div>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/AwardsImageMainServicePage/upwork.webp"
+                "/Images/AwardsImageMainServicePage/upwork.webp"
               }
               alt={"images"}
               width={"0"}

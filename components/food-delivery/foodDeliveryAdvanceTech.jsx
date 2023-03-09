@@ -12,7 +12,7 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/food-delivery/foodDeliveryAdvanceTech.module.css"
+          href="/components/food-delivery/foodDeliveryAdvanceTech.module.css"
         />
       </Head>
 

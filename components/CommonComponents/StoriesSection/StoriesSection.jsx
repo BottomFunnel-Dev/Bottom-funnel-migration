@@ -48,7 +48,7 @@ export default function StoriesSection() {
     {
       BrandName: "ScaleForce",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories1.webp",
+        "/Images/storiesSection/stories1.webp",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
@@ -56,7 +56,7 @@ export default function StoriesSection() {
     {
       BrandName: "Incubeta",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories2.webp",
+        "/Images/storiesSection/stories2.webp",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
@@ -64,7 +64,7 @@ export default function StoriesSection() {
     {
       BrandName: "Ranking Carolina",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
+        "/Images/storiesSection/stories5.webp",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
@@ -72,7 +72,7 @@ export default function StoriesSection() {
     {
       BrandName: "Studio marche",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories4.webp",
+        "/Images/storiesSection/stories4.webp",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
@@ -80,7 +80,7 @@ export default function StoriesSection() {
     {
       BrandName: "HSE",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
+        "/Images/storiesSection/stories5.webp",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
@@ -88,7 +88,7 @@ export default function StoriesSection() {
     {
       BrandName: "National Geographic",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories2.webp",
+        "/Images/storiesSection/stories2.webp",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",
@@ -96,7 +96,7 @@ export default function StoriesSection() {
     {
       BrandName: "ScaleForce",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories1.webp",
+        "/Images/storiesSection/stories1.webp",
       name: "Venus Wills",
       role: "Senior Director of Demand Execution",
       video: "GEsw-rqC-Hk",
@@ -104,7 +104,7 @@ export default function StoriesSection() {
     {
       BrandName: "Incubeta",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories4.webp",
+        "/Images/storiesSection/stories4.webp",
       name: "Linda Farr",
       role: "Chief of Staff",
       video: "GEsw-rqC-Hk",
@@ -112,7 +112,7 @@ export default function StoriesSection() {
     {
       BrandName: "Ranking Carolina",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
+        "/Images/storiesSection/stories5.webp",
       name: "Tommy Sugishita",
       role: "interective Officer",
       video: "GEsw-rqC-Hk",
@@ -120,7 +120,7 @@ export default function StoriesSection() {
     {
       BrandName: "Studio marche",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories1.webp",
+        "/Images/storiesSection/stories1.webp",
       name: "Alisha Dunsford",
       role: "Graphic Designer",
       video: "GEsw-rqC-Hk",
@@ -128,7 +128,7 @@ export default function StoriesSection() {
     {
       BrandName: "HSE",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories2.webp",
+        "/Images/storiesSection/stories2.webp",
       name: "Chani Thompson",
       role: "Nutrition and Health Coach",
       video: "GEsw-rqC-Hk",
@@ -136,7 +136,7 @@ export default function StoriesSection() {
     {
       BrandName: "National Geographic",
       brandImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/storiesSection/stories5.webp",
+        "/Images/storiesSection/stories5.webp",
       name: "Susie murphy",
       role: "Senior Specialist,Audience Selection",
       video: "GEsw-rqC-Hk",

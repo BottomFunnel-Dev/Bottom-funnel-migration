@@ -9,7 +9,7 @@ export default function AlcoholBanner() {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholBanner/AlcoholBanner.module.css"
+          href="/components/alcohol-delivery/AlcoholBanner/AlcoholBanner.module.css"
         />
       </Head>
 

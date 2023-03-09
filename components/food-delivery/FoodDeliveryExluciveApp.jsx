@@ -10,7 +10,7 @@ export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/food-delivery/FoodDeliveryExluciveApp.module.css"
+          href="/components/food-delivery/FoodDeliveryExluciveApp.module.css"
         />
       </Head>
 

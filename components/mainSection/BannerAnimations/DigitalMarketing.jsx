@@ -7,7 +7,7 @@ export const DigitalMarketing = () => {
       <div className={styles.fbIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/digital/Facebook.png"}
+          src={"/Images/banner/digital/Facebook.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -17,7 +17,7 @@ export const DigitalMarketing = () => {
       <div className={styles.whatsappIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/digital/Whatsapp.png"}
+          src={"/Images/banner/digital/Whatsapp.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -27,7 +27,7 @@ export const DigitalMarketing = () => {
       <div className={styles.pinterestIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/digital/Pinterest.png"}
+          src={"/Images/banner/digital/Pinterest.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -37,7 +37,7 @@ export const DigitalMarketing = () => {
       <div className={styles.linkedinIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/digital/Linkedin.png"}
+          src={"/Images/banner/digital/Linkedin.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -47,7 +47,7 @@ export const DigitalMarketing = () => {
       <div className={styles.youtubeIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/digital/youtube.png"}
+          src={"/Images/banner/digital/youtube.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}

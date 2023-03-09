@@ -48,7 +48,7 @@ export const Trusted = ({ partnerLogo }) => {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/SEO/SeoTrustedCompanies/Seotrusted.module.css"
+          href="/components/SEO/SeoTrustedCompanies/Seotrusted.module.css"
         />
       </Head>
 

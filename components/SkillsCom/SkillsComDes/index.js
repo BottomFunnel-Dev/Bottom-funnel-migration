@@ -9,7 +9,7 @@ export default function SkillsComDes({ DescrptionData }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/SkillsCom/SkillsComDes/SkillsComDes.module.css"
+          href="/components/SkillsCom/SkillsComDes/SkillsComDes.module.css"
         />
       </Head>
       <div className={"skillsdesmain"}>

@@ -10,7 +10,7 @@ export default function SkillsComRemarkable({ data }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/SkillsCom/SkillsComRemarkable/SkillsComRemarkable.module.css"
+          href="/components/SkillsCom/SkillsComRemarkable/SkillsComRemarkable.module.css"
         />
       </Head>
       <div className={"skillsremarkablemain"}>

@@ -9,7 +9,7 @@ export const FoodDeliveryBookCall = () => {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/food-delivery/FoodDeliveryBookCall.module.css"
+          href="/components/food-delivery/FoodDeliveryBookCall.module.css"
         />
       </Head>
 

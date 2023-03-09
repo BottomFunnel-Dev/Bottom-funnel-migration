@@ -1,10 +1,11 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
-
+var isProd = true;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
+  assetPrefix: isProd ?  'https://d2yx05ns6h4zfl.cloudfront.net':'',
   images: {
     domains: ["d1krs40fxb67ye.cloudfront.net"],
     remotePatterns: [

@@ -74,7 +74,7 @@ const Navbar = () => {
           <Link href="/" className={navstyle.logoText}>
             <Image
               src={
-                "https://d1krs40fxb67ye.cloudfront.net/Images/navbar/blacklogo.webp"
+                "/Images/navbar/blacklogo.webp"
               }
               alt={"logo"}
               width={"0"}

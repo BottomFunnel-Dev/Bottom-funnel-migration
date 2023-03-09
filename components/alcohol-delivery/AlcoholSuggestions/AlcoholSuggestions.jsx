@@ -48,7 +48,7 @@ export default function AlcoholSuggestions() {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholSuggestions/AlcoholSuggestions.module.css"
+          href="/components/alcohol-delivery/AlcoholSuggestions/AlcoholSuggestions.module.css"
         />
       </Head>
 

@@ -21,7 +21,7 @@ export default function About() {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/about/aboutbtn.webp"
+            src="/Images/about/aboutbtn.webp"
             alt="Images/about/aboutbtn.webp"
           />
         </div>
@@ -35,7 +35,7 @@ export default function About() {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/about/aboutbtn.webp"
+            src="/Images/about/aboutbtn.webp"
             alt="Images/about/aboutbtn.webp"
           />
         </div>
@@ -50,7 +50,7 @@ export default function About() {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/about/aboutbtn.webp"
+            src="/Images/about/aboutbtn.webp"
             alt="Images/about/aboutbtn.webp"
           />
         </div>

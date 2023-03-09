@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./homeServices.module.css";
 import Slider from "react-slick";
+import Head from "next/head";
 
 const HomeServices = () => {
   const settings = {
@@ -13,7 +14,7 @@ const HomeServices = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
-      
+
       {
         breakpoint: 480,
         settings: {
@@ -70,21 +71,30 @@ const HomeServices = () => {
   ];
 
   return (
-    <div className={styles.ondemandHomeServices}>
-      <div>
-        <Slider {...settings}>
-          {homeService.map((item, i) => (
-            <div key={i} className={styles.homeServices}>
-              <div>
-                <img src={item.serviceimage} alt="images" />
-                <h5> {item.serviceName} </h5>
-                <p> {item.serviceDescription} </p>
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="/components/OndemandHome/homeServices.module.css"
+        />
+      </Head>
+
+      <div className={styles.ondemandHomeServices}>
+        <div>
+          <Slider {...settings}>
+            {homeService.map((item, i) => (
+              <div key={i} className={styles.homeServices}>
+                <div>
+                  <img src={item.serviceimage} alt="images" />
+                  <h5> {item.serviceName} </h5>
+                  <p> {item.serviceDescription} </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

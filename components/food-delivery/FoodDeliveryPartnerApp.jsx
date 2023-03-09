@@ -49,7 +49,7 @@ export default function FoodDeliveryPartnerApp() {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/food-delivery/FoodDeliveryPartnerApp.module.css"
+          href="/components/food-delivery/FoodDeliveryPartnerApp.module.css"
         />
       </Head>
 

@@ -7,7 +7,7 @@ export const SoftwareBanner = () => {
       <div className={styles.javaIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/mobiledev/native.png"}
+          src={"/Images/banner/mobiledev/native.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -17,7 +17,7 @@ export const SoftwareBanner = () => {
       <div className={styles.jqueryIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/webdev/jquery.png"}
+          src={"/Images/banner/webdev/jquery.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -27,7 +27,7 @@ export const SoftwareBanner = () => {
       <div className={styles.jsIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/webdev/js.png"}
+          src={"/Images/banner/webdev/js.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -37,7 +37,7 @@ export const SoftwareBanner = () => {
       <div className={styles.nodeIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/webdev/node.png"}
+          src={"/Images/banner/webdev/node.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
@@ -47,7 +47,7 @@ export const SoftwareBanner = () => {
       <div className={styles.reactIcon}>
         {" "}
         <Image
-          src={"https://d1krs40fxb67ye.cloudfront.net/Images/banner/webdev/react.png"}
+          src={"/Images/banner/webdev/react.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}

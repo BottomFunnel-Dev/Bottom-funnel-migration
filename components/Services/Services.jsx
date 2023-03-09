@@ -11,7 +11,7 @@ export default function Services() {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Mobile & Wearables",
       serviceImages:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/services/mobile-services.webp",
+        "/Images/services/mobile-services.webp",
       serviceTypes: [
         { serName: "IOS", path: "ios-development" },
         { serName: "ANDROID", path: "android-development" },
@@ -26,7 +26,7 @@ export default function Services() {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Web Development",
       serviceImages:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/services/webdevelopment.webp",
+        "/Images/services/webdevelopment.webp",
       serviceTypes: [
         { serName: "MERN", path: "mernstack-development" },
         { serName: "MEAN", path: "meanstack-development" },
@@ -42,7 +42,7 @@ export default function Services() {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Digital Marketing",
       serviceImages:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/services/digital.webp",
+        "/Images/services/digital.webp",
       serviceTypes: [
         { serName: "SEO", path: "seo-services" },
         { serName: "PPC", path: "seo-ppc" },
@@ -58,7 +58,7 @@ export default function Services() {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Cloud Services",
       serviceImages:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/services/cloud-service.webp",
+        "/Images/services/cloud-service.webp",
       serviceTypes: [
         { serName: "AWS", path: "" },
         { serName: "GCP", path: "" },
@@ -74,7 +74,7 @@ export default function Services() {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Software Product Development",
       serviceImages:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/services/machine-learning.webp",
+        "/Images/services/machine-learning.webp",
       serviceTypes: [
         { serName: "IOT", path: "internet-of-things" },
         { serName: "AI", path: "artificial-inteligence" },
@@ -90,7 +90,7 @@ export default function Services() {
       serviceIcon: <FaMobileAlt />,
       serviceName: "Salesforce Development",
       serviceImages:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/services/salesforce.webp",
+        "/Images/services/salesforce.webp",
       serviceTypes: [
         { serName: "QUIP", path: "" },
         { serName: "NFT CLOUD", path: "" },
@@ -111,7 +111,7 @@ export default function Services() {
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
-          src="https://d1krs40fxb67ye.cloudfront.net/Images/services/service.webp"
+          src="/Images/services/service.webp"
           alt="image"
         />
         <div>

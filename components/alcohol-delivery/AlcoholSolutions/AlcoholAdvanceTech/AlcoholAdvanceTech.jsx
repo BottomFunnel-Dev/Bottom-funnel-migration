@@ -10,7 +10,7 @@ export default function AlcoholAdvanceTech({ customerData }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/alcohol-delivery/AlcoholSolutions/AlcoholAdvanceTech/AlcoholAdvanceTech.module.css"
+          href="/components/alcohol-delivery/AlcoholSolutions/AlcoholAdvanceTech/AlcoholAdvanceTech.module.css"
         />
       </Head>
       <div className="alcoholcustomer">

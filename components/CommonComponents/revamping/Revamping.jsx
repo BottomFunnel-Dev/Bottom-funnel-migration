@@ -18,7 +18,7 @@ const Revamping = () => {
           height={"0"}
           sizes={"100vw"}
           style={{ width: "100%", height: "100%" }}
-          src="https://d1krs40fxb67ye.cloudfront.net/Images/revamp/final2.webp"
+          src="/Images/revamp/final2.webp"
           alt="revamp/final2.webp"
         />
       </div>
@@ -29,7 +29,7 @@ const Revamping = () => {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/revamp/navigation.gif"
+            src="/Images/revamp/navigation.gif"
             alt="revamp/navigation.gif"
           />
         </div>

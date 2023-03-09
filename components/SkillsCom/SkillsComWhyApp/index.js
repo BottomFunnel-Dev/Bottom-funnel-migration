@@ -10,7 +10,7 @@ export default function SkillsComWhyApp({ data }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/SkillsCom/SkillsComWhyApp/SkillsComWhyApp.module.css"
+          href="/components/SkillsCom/SkillsComWhyApp/SkillsComWhyApp.module.css"
         />
       </Head>
       <div className={"skillswhyapplicationmain"}>
