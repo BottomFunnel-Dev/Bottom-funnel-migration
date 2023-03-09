@@ -153,7 +153,7 @@ module.exports = withBundleAnalyzer({
         source: "/seo-ppc",
         destination: "ppc-services",
         permanent: true,
-      }
+      },
     ];
   },
 });
