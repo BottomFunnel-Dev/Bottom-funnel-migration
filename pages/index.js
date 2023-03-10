@@ -4,16 +4,16 @@ import dynamic from "next/dynamic";
 
 const SeoblogSection = dynamic(
   () => import("../components/CommonComponents/SeoBlogs/Seoblogs"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const OndemandSection = dynamic(
   () =>
     import("../components/CommonComponents/OnDemandSection/OndemandSection"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const Revamping = dynamic(
   () => import("../components/CommonComponents/revamping/Revamping"),
-  { loading: () => "loading..." },
+  { loading: () => "loading..." }
 );
 const About = dynamic(() => import("../components/AboutSection/About"), {
   loading: () => "Loading...",
@@ -27,13 +27,13 @@ const Services = dynamic(() => import("../components/Services/Services"), {
 });
 const CompanyLogo = dynamic(
   () => import("../components/CompanyLogos/CompanyLogo"),
-  { loading: () => "Loading..." },
+  { loading: () => "Loading..." }
 );
 const BannerFull = dynamic(
   () => import("../components/mainSection/BannerFull"),
   {
     loading: () => "Loading...",
-  },
+  }
 );
 
 export default function Home() {

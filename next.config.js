@@ -5,20 +5,19 @@ var isProd = true;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
-  crossOrigin: 'anonymous',
+  crossOrigin: "anonymous",
   async headers() {
     return [
       {
         source: "/_next/:path*",
-        headers: [
-          { key: "Access-Control-Allow-Origin", value: "*" },
-        ],
+        headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
       },
-    ]
+    ];
   },
-  assetPrefix: isProd ?  'https://d31f03qtwl5xrx.cloudfront.net':'',
+  assetPrefix: isProd ? "https://d31f03qtwl5xrx.cloudfront.net" : "",
   images: {
-    path: (isProd ?  'https://d31f03qtwl5xrx.cloudfront.net':'') + '/_next/image'
+    path:
+      (isProd ? "https://d31f03qtwl5xrx.cloudfront.net" : "") + "/_next/image",
   },
 
   async redirects() {
@@ -155,32 +154,82 @@ module.exports = withBundleAnalyzer({
       },
       {
         source: "/seo-ppc",
-        destination: "ppc-services",
+        destination: "/ppc-services",
         permanent: true,
       },
       {
         source: "/awards",
-        destination: "award-and-membership",
+        destination: "/award-and-membership",
         permanent: true,
       },
       {
         source: "/engagement",
-        destination: "engagement-models",
+        destination: "/engagement-models",
         permanent: true,
       },
       {
         source: "/scopingsession",
-        destination: "scoping-session",
+        destination: "/scoping-session",
         permanent: true,
       },
       {
         source: "/businessanalysis",
-        destination: "business-analysis",
+        destination: "/business-analysis",
         permanent: true,
       },
       {
         source: "/productdiscovery",
-        destination: "product-discovery",
+        destination: "/product-discovery",
+        permanent: true,
+      },
+      {
+        source: "/productdiscovery",
+        destination: "/product-discovery",
+        permanent: true,
+      },
+      {
+        source: "/ruby-development",
+        destination: "/ruby-on-rails-development",
+        permanent: true,
+      },
+      {
+        source: "/android-development",
+        destination: "/android-app-development",
+        permanent: true,
+      },
+      {
+        source: "/ios-development",
+        destination: "/ios-app-development",
+        permanent: true,
+      },
+      {
+        source: "/kotlin-development",
+        destination: "/kotlin-app-development",
+        permanent: true,
+      },
+      {
+        source: "/flutter-development",
+        destination: "/flutter-app-development",
+        permanent: true,
+      },
+      {
+        source: "/reactnative-development",
+        destination: "/reactnative-app-development",
+        permanent: true,
+      },
+      {
+        source: "/xamarin-development",
+        destination: "/xamarin-app-development",
+        permanent: true,
+      },
+      {
+        source: "/ionic",
+        destination: "/ionic-app-development",
+        permanent: true,
+      },
+      {
+        source: "/mobile-user-experience",
+        destination: "/ui-ux-app-development",
         permanent: true,
       },
     ];

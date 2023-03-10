@@ -6,24 +6,22 @@ export const MobileBanner = () => {
     <div className={styles.mobilebanner}>
       <div className={styles.androidIcon}>
         {" "}
-        {/* <Image
+        <Image
           src={"/Images/banner/mobiledev/android.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
-          sizes={"100vw"} /> */}
-        <img src={"/Images/banner/mobiledev/android.png"} alt="image" />
+          sizes={"100vw"} />
       </div>
 
       <div className={styles.iosIcon}>
         {" "}
-        {/* <Image
+        <Image
           src={"/Images/banner/mobiledev/ios.png"}
           alt={"bannerimage"}
           width={"0"}
           height={"0"}
-          sizes={"100vw"} /> */}
-        <img src="/Images/banner/mobiledev/ios.png" alt="image" />
+          sizes={"100vw"} />
       </div>
       <div className={styles.flutterIcon}>
         {" "}
@@ -34,8 +32,10 @@ export const MobileBanner = () => {
           height={"0"}
           sizes={"100vw"} />
       </div>
+
       <div className={styles.ionicIcon}>
-        {" "} <Image
+        {" "}
+        <Image
           src={"/Images/banner/mobiledev/ionic.png"}
           alt={"bannerimage"}
           width={"0"}
