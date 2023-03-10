@@ -1,28 +1,21 @@
 import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
-// import styles from "./FoodDeliveryExluciveApp.module.css";
+import styles from "./FoodDeliveryExluciveApp.module.css";
 
 export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
   const [active, setActive] = useState(0);
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/food-delivery/FoodDeliveryExluciveApp.module.css"
-        />
-      </Head>
-
-      <div className="foodDeliveryExclusiveApp">
+      <div className={styles.foodDeliveryExclusiveApp}>
         <h1>{foodDeliverycustomerdata.sectionTitle}</h1>
 
-        <div className="foodDeliveryExclusiveAppsub">
-          <div className="foodDeliveryExclusiveAppright">
+        <div className={styles.foodDeliveryExclusiveAppsub}>
+          <div className={styles.foodDeliveryExclusiveAppright}>
             {foodDeliverycustomerdata.foodDeliverycustomerdata.map(({ title, icon, para }, idx) => {
               return (
                 <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`} >
-                  <div className="agricultureCustomerAppApplogo">
+                  <div className={styles.agricultureCustomerAppApplogo}>
                     <Image src={icon.src}
                       alt={icon.alt}
                       width={"0"}
@@ -39,7 +32,7 @@ export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
             })}
           </div>
 
-          <div className="foodDeliveryExclusiveAppleft"
+          <div className={styles.foodDeliveryExclusiveAppleft}
             style={{
               background: `url(${foodDeliverycustomerdata.background})`,
               backgroundRepeat: "no-repeat",
@@ -47,7 +40,7 @@ export default function FoodDeliveryExluciveApp({ foodDeliverycustomerdata }) {
               backgroundPosition: "center",
             }}
           >
-            <div className="logisticCustomerImage">
+            <div className={styles.logisticCustomerImage}>
               <Image
                 src={foodDeliverycustomerdata.foodDeliverycustomerdata[active].img.src}
                 alt={foodDeliverycustomerdata.foodDeliverycustomerdata[active].img.alt}

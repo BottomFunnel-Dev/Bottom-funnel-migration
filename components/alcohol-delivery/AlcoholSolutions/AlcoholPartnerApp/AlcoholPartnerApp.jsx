@@ -1,24 +1,16 @@
-import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
-// import styles from "./AlcoholPartnerApp.module.css";
+import styles from "./AlcoholPartnerApp.module.css";
 
 export default function AlcoholPartnerApp({ customerData }) {
   const [active, setActive] = useState(0);
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/alcohol-delivery/AlcoholSolutions/AlcoholPartnerApp/AlcoholPartnerApp.module.css"
-        />
-      </Head>
-
-      <div className="alcoholPartner">
+      <div className={styles.alcoholPartner}>
         <h1>Partner App</h1>
-        <div className="alcoholPartnersub">
-          <div className="alcoholPartnerleft">
-            <div className="alcoholCustomerImage">
+        <div className={styles.alcoholPartnersub}>
+          <div className={styles.alcoholPartnerleft}>
+            <div className={styles.alcoholCustomerImage}>
               <Image
                 src={customerData.customerdata[active].img.src}
                 alt={customerData.customerdata[active].img.alt}
@@ -30,11 +22,11 @@ export default function AlcoholPartnerApp({ customerData }) {
             </div>
           </div>
 
-          <div className="alcoholPartnerright">
+          <div className={styles.alcoholPartnerright}>
             {customerData.customerdata.map(({ title, icon, para }, idx) => {
               return (
                 <div key={title} onMouseOver={() => setActive(idx)} v className={`logistic-box-${idx}`}>
-                  <div className="logisticLogo">
+                  <div className={styles.logisticLogo}>
                     <Image src={icon.src}
                       alt={icon.alt}
                       width={"0"}

@@ -1,6 +1,5 @@
-import Head from "next/head";
 import React, { useEffect, useState } from "react";
-// import styles from "./FoodDeliveryNeedSuccess.module.css";
+import styles from "./FoodDeliveryNeedSuccess.module.css";
 
 export const FoodDeliveryNeedSuccess = () => {
   let foodDeliveryNeedData = [
@@ -65,24 +64,17 @@ export const FoodDeliveryNeedSuccess = () => {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/food-delivery/FoodDeliveryNeedSuccess.module.css"
-        />
-      </Head>
-
-      <div className="foodDeliveryNeedSuccessMain">
+      <div className={styles.foodDeliveryNeedSuccessMain}>
         <h1>All You Need to Know For A Successfull Food Business</h1>
         <div>
-          <div className="foodDeliveryNeedSuccessImageimg">
+          <div className={styles.foodDeliveryNeedSuccessImageimg}>
             <img
               src={foodDeliveryNeedData[active].img.src}
               alt={foodDeliveryNeedData[active].img.alt}
             />
           </div>
 
-          <div className="foodDeliveryNeedSuccessImage">
+          <div className={styles.foodDeliveryNeedSuccessImage}>
             {foodDeliveryNeedData.map(({ title, icon }, idx) => {
               return (
                 <div
@@ -90,7 +82,7 @@ export const FoodDeliveryNeedSuccess = () => {
                   onMouseOver={() => setActive(idx)}
                   className={`foodDeliveryNeedSuccessImage-box-${idx}`}
                 >
-                  <div className="foodDeliveryNeedSuccessImageLogo">
+                  <div className={styles.foodDeliveryNeedSuccessImageLogo}>
                     <img src={icon.src} alt={icon.alt} />
                   </div>
                   <h3>{title}</h3>

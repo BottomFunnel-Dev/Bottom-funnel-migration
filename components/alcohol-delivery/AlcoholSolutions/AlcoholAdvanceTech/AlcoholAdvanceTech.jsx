@@ -1,24 +1,17 @@
-import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
-// import styles from "./AlcoholAdvanceTech.module.css";
+import styles from "./AlcoholAdvanceTech.module.css";
 
 export default function AlcoholAdvanceTech({ customerData }) {
   const [active, setActive] = useState(0);
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/alcohol-delivery/AlcoholSolutions/AlcoholAdvanceTech/AlcoholAdvanceTech.module.css"
-        />
-      </Head>
-      <div className="alcoholcustomer">
+      <div className={styles.alcoholcustomer}>
         <h1> Customer App </h1>
 
-        <div className="alcoholcustomersub">
-          <div className="alcoholcustomerleft">
-            <div className="alcoholCustomerImage">
+        <div className={styles.alcoholcustomersub}>
+          <div className={styles.alcoholcustomerleft}>
+            <div className={styles.alcoholCustomerImage}>
               <Image
                 src={customerData.customerdata[active].img.src}
                 alt={customerData.customerdata[active].img.alt}
@@ -30,11 +23,11 @@ export default function AlcoholAdvanceTech({ customerData }) {
             </div>
           </div>
 
-          <div className="alcoholcustomerright">
+          <div className={styles.alcoholcustomerright}>
             {customerData.customerdata.map(({ title, icon, para }, idx) => {
               return (
                 <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`}>
-                  <div className="logisticLogo">
+                  <div className={styles.logisticLogo}>
                     <Image src={icon.src}
                       alt={icon.alt}
                       width={"0"}

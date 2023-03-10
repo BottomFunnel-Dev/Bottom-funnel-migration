@@ -1,19 +1,11 @@
-import Head from "next/head";
 import React from "react";
 import { PopupForm } from "../PopupForm/PopupForm";
-// import styles from "./ondemandQuote.module.css";
+import styles from "./ondemandQuote.module.css";
 
 const OndemandQuote = () => {
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/OndemandHome/ondemandQuote.module.css"
-        />
-      </Head>
-
-      <div className="quotation">
+      <div className={styles.quotation}>
         <h2> The Best Ondemand Home Services Applications </h2>
         <button
           type="button"

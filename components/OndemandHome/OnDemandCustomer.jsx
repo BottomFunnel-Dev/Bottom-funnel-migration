@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./OnDemandCustomer.module.css";
 import Image from "next/image";
-import Head from "next/head";
 
 export default function OnDemandCustomerSection() {
   const [imageChange, setImageChange] = useState(
@@ -47,13 +46,6 @@ export default function OnDemandCustomerSection() {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/OndemandHome/OnDemandCustomer.module.css"
-        />
-      </Head>
-
       <div className={styles.cannbiescustomerappmainboxes}>
         <h2> Customer App </h2>
         <div className={styles.cannbiesdeliveryappflexingbox}>
@@ -103,4 +95,4 @@ export default function OnDemandCustomerSection() {
       </div>
     </>
   );
-}
+};

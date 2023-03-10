@@ -1,20 +1,12 @@
 import React, { useState } from "react";
-// import styles from "./AlcoholBanner.module.css";
+import styles from "./AlcoholBanner.module.css";
 import { PopupForm } from "../../PopupForm/PopupForm";
-import Head from "next/head";
 
 export default function AlcoholBanner() {
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/alcohol-delivery/AlcoholBanner/AlcoholBanner.module.css"
-        />
-      </Head>
-
-      <div className="alcoholBannerMain">
-        <div className="alcoholBannerContent">
+      <div className={styles.alcoholBannerMain}>
+        <div className={styles.alcoholBannerContent}>
           <h1> Alcohol Delivery </h1>
           <p>
             There's no need to run out and purchase alcohol anymore! With alcohol
@@ -57,7 +49,7 @@ export default function AlcoholBanner() {
         </div>
 
 
-        <div className="alcoholBannerImage">
+        <div className={styles.alcoholBannerImage}>
           <lottie-player
             src="/Animation/SolutionsAnimation/alchohal delivery.json"
             background="transparent"

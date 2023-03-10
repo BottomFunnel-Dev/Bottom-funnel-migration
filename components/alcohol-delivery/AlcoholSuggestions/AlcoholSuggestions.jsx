@@ -1,7 +1,6 @@
-import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-// import styles from "./AlcoholSuggestions.module.css";
+import styles from "./AlcoholSuggestions.module.css";
 
 export default function AlcoholSuggestions() {
   let foodExcluciveAppData = [
@@ -45,14 +44,7 @@ export default function AlcoholSuggestions() {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/alcohol-delivery/AlcoholSuggestions/AlcoholSuggestions.module.css"
-        />
-      </Head>
-
-      <div className="alcoholExluciveAppMain">
+      <div className={styles.alcoholExluciveAppMain}>
         <h1>
           <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DELIVERY BUSINESS:
         </h1>
@@ -62,11 +54,11 @@ export default function AlcoholSuggestions() {
           taste of latest technology and creative designs.
         </p>
 
-        <div className="alcoholExluciveAppContent">
+        <div className={styles.alcoholExluciveAppContent}>
           {foodExcluciveAppData.map(({ title, description, img }) => {
             return (
               <div key={title}>
-                <div className="alcoholExlcusiveAppImageDiv">
+                <div className={styles.alcoholExlcusiveAppImageDiv}>
                   <Image src={img.src}
                     alt={img.alt}
                     width={"0"}

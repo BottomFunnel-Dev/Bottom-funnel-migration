@@ -1,20 +1,12 @@
-import Head from "next/head";
 import React from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
-// import styles from "./AlcoholBookCall.module.css";
+import styles from "./AlcoholBookCall.module.css";
 
 
 export default function AlcoholBookCall() {
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/alcohol-delivery/AlcoholBookCall/AlcoholBookCall.module.css"
-        />
-      </Head>
-
-      <div className="alcoholBookCallMain">
+      <div className={styles.alcoholBookCallMain}>
         <div>
           <h1>
             Get all the alcohol delivery app development solutions for all the kind of platform?

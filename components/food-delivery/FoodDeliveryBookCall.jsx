@@ -1,19 +1,12 @@
 import Head from "next/head";
 import React from "react";
 import { PopupForm } from "../PopupForm/PopupForm";
-// import styles from "./FoodDeliveryBookCall.module.css";
+import styles from "./FoodDeliveryBookCall.module.css";
 
 export const FoodDeliveryBookCall = () => {
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/food-delivery/FoodDeliveryBookCall.module.css"
-        />
-      </Head>
-
-      <div className="foodDeliveryBookCallMain">
+      <div className={styles.foodDeliveryBookCallMain}>
         <h2> Discuss your requirements with our experts </h2>
         <button
           type="button"

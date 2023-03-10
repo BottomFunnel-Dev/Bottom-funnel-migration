@@ -2,21 +2,13 @@ import React, { useState } from "react";
 import styles from "./ondemandHero.module.css";
 
 import { PopupForm } from "../PopupForm/PopupForm";
-import Head from "next/head";
 
 const OndemandHero = () => {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/OndemandHome/ondemandHero.module.css"
-        />
-      </Head>
-
-      <div className="ondemandHero">
-        <div className="textcontainer">
+      <div className={styles.ondemandHero}>
+        <div className={styles.textcontainer}>
           <div>
             <h1> Home Services App Solutions </h1>
             <p>
@@ -61,7 +53,7 @@ const OndemandHero = () => {
           </div>
         </div>
 
-        <div className="imageContainer">
+        <div className={styles.imageContainer}>
           <lottie-player
             src="/Animation/SolutionsAnimation/On demand home services.json"
             background="transparent"

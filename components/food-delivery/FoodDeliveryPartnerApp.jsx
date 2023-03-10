@@ -1,8 +1,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-// import styles from "./FoodDeliveryPartnerApp.module.css";
-import Head from "next/head";
+import styles from "./FoodDeliveryPartnerApp.module.css";
 
 export default function FoodDeliveryPartnerApp() {
   const [imageChange, setImageChange] = useState("/Images/newcannabispage/Admin Screens/AdminPanelImage.webp");
@@ -46,30 +45,23 @@ export default function FoodDeliveryPartnerApp() {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/food-delivery/FoodDeliveryPartnerApp.module.css"
-        />
-      </Head>
-
-      <div className="cannabiesadminpannelmainboxes">
-        <div className="cannbiesadminpannelmainboxsometextupper">
+      <div className={styles.cannabiesadminpannelmainboxes}>
+        <div className={styles.cannbiesadminpannelmainboxsometextupper}>
           <h2> Admin Pannel </h2>
         </div>
 
-        <div className="cannabiesadminpannelmainflexboxclass">
-          <div className="cannabieasadminpannelleftbox">
+        <div className={styles.cannabiesadminpannelmainflexboxclass}>
+          <div className={styles.cannabieasadminpannelleftbox}>
             {icecreamadmindata.map((e, index) => {
               return (
                 <div
-                  className="cannabiesadminpannelmapperboxindivisyal"
+                  className={styles.cannabiesadminpannelmapperboxindivisyal}
                   key={index}
                   onMouseEnter={() => {
                     handleImageChange(e.image);
                   }}
                 >
-                  <div className="cannabieasadminpannelmapperboxindivisyalicon" >
+                  <div className={styles.cannabieasadminpannelmapperboxindivisyalicon} >
                     <Image
                       src={e.icon}
                       alt={"image"}
@@ -80,7 +72,7 @@ export default function FoodDeliveryPartnerApp() {
                     />
                   </div>
 
-                  <div className="canabisadminpannelmapperboxindivisyaltxt">
+                  <div className={styles.canabisadminpannelmapperboxindivisyaltxt}>
                     <h4> {e.headertext} </h4>
                     <p> {e.paragraph} </p>
                   </div>
@@ -89,8 +81,8 @@ export default function FoodDeliveryPartnerApp() {
             })}
           </div>
 
-          <div className="cannabiesamadminpannelrightbox">
-            <div className="cannbiesamadminpannelrightboxinnerimage">
+          <div className={styles.cannabiesamadminpannelrightbox}>
+            <div className={styles.cannbiesamadminpannelrightboxinnerimage}>
               <Image
                 src={imageChange}
                 alt={"image"}

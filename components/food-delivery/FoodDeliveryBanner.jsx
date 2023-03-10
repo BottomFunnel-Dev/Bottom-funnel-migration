@@ -1,5 +1,5 @@
 
-// import styles from "./FoodDeliveryBanner.module.css";
+import styles from "./FoodDeliveryBanner.module.css";
 import { PopupForm } from "../PopupForm/PopupForm";
 import Head from "next/head";
 
@@ -7,15 +7,8 @@ export const FoodDeliveryBanner = () => {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/food-delivery/FoodDeliveryBanner.module.css"
-        />
-      </Head>
-
-      <div className="foodDeliveryBannerMain">
-        <div className="foodDeliveryBannerContent">
+      <div className={styles.foodDeliveryBannerMain}>
+        <div className={styles.foodDeliveryBannerContent}>
           <div>
             <h1> Food Delivery App Solutions </h1>
             <p>
@@ -24,7 +17,7 @@ export const FoodDeliveryBanner = () => {
             </p>
 
             <button
-              className="appbuildersolutionbannerbutton"
+              className={styles.appbuildersolutionbannerbutton}
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
@@ -61,7 +54,7 @@ export const FoodDeliveryBanner = () => {
           </div>
         </div>
 
-        <div className="foodDeliveryBannerImage">
+        <div className={styles.foodDeliveryBannerImage}>
           <lottie-player
             src="/Animation/SolutionsAnimation/FoodDelivery.json"
             background="transparent"

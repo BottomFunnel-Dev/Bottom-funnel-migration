@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./homeServices.module.css";
 import Slider from "react-slick";
-import Head from "next/head";
 
 const HomeServices = () => {
   const settings = {
@@ -72,13 +71,6 @@ const HomeServices = () => {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/OndemandHome/homeServices.module.css"
-        />
-      </Head>
-
       <div className={styles.ondemandHomeServices}>
         <div>
           <Slider {...settings}>

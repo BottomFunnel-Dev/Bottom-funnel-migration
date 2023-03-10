@@ -1,25 +1,15 @@
-
-
-import Head from "next/head";
 import Image from "next/image";
 import React, { useState } from "react";
-// import styles from "./foodDeliveryAdvanceTech.module.css";
+import styles from "./foodDeliveryAdvanceTech.module.css";
 
 export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
   const [active, setActive] = useState(0);
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/food-delivery/foodDeliveryAdvanceTech.module.css"
-        />
-      </Head>
-
-      <div className="foodDeliveryAdvanceTech">
+      <div className={styles.foodDeliveryAdvanceTech}>
         <h1>{fooddeliverydrivedata.sectionTitle}</h1>
-        <div className="foodDeliveryAdvanceTechsub">
-          <div className="foodDeliveryAdvanceTechleft"
+        <div className={styles.foodDeliveryAdvanceTechsub}>
+          <div className={styles.foodDeliveryAdvanceTechleft}
             style={{
               background: `url(${fooddeliverydrivedata.background})`,
               backgroundRepeat: "no-repeat",
@@ -27,7 +17,7 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
               backgroundPosition: "center",
             }}
           >
-            <div className="logisticDriveImage">
+            <div className={styles.logisticDriveImage}>
               <Image
                 src={fooddeliverydrivedata.fooddeliverydrivedata[active].img.src}
                 alt={fooddeliverydrivedata.fooddeliverydrivedata[active].img.alt}
@@ -39,11 +29,11 @@ export default function FoodDeliveryAdvanceTech({ fooddeliverydrivedata }) {
             </div>
           </div>
 
-          <div className="foodDeliveryAdvanceTechright">
+          <div className={styles.foodDeliveryAdvanceTechright}>
             {fooddeliverydrivedata.fooddeliverydrivedata.map(({ title, icon, para }, idx) => {
               return (
                 <div key={title} onMouseOver={() => setActive(idx)} className={`logistic-box-${idx}`}>
-                  <div className="logisticLogo">
+                  <div className={styles.logisticLogo}>
                     <Image src={icon.src}
                       alt={icon.alt}
                       width={"0"}
