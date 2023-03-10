@@ -16,19 +16,8 @@ module.exports = withBundleAnalyzer({
       },
     ]
   },
-  assetPrefix: isProd ?  'https://d2yx05ns6h4zfl.cloudfront.net':'',
-  images: {
-    domains: ["d1krs40fxb67ye.cloudfront.net"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "d1krs40fxb67ye.cloudfront.net",
-        port: "3000",
-        pathname: "/**",
-      },
-    ],
-  },
-
+  assetPrefix: isProd ?  'https://d31f03qtwl5xrx.cloudfront.net':'',
+  
   async redirects() {
     return [
       {
