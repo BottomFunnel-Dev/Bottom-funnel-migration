@@ -166,6 +166,31 @@ module.exports = withBundleAnalyzer({
         destination: "ppc-services",
         permanent: true,
       },
+      {
+        source: "/awards",
+        destination: "award-and-membership",
+        permanent: true,
+      },
+      {
+        source: "/engagement",
+        destination: "engagement-models",
+        permanent: true,
+      },
+      {
+        source: "/scopingsession",
+        destination: "scoping-session",
+        permanent: true,
+      },
+      {
+        source: "/businessanalysis",
+        destination: "business-analysis",
+        permanent: true,
+      },
+      {
+        source: "/productdiscovery",
+        destination: "product-discovery",
+        permanent: true,
+      },
     ];
   },
 });
