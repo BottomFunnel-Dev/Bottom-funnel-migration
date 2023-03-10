@@ -1,7 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
-var isProd = true;
+var isProd = false;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
@@ -17,7 +17,10 @@ module.exports = withBundleAnalyzer({
     ]
   },
   assetPrefix: isProd ?  'https://d31f03qtwl5xrx.cloudfront.net':'',
-  
+  images: {
+    path: (isProd ?  'https://d31f03qtwl5xrx.cloudfront.net':'') + '/_next/image'
+  },
+
   async redirects() {
     return [
       {
