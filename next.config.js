@@ -232,6 +232,86 @@ module.exports = withBundleAnalyzer({
         destination: "/ui-ux-app-development",
         permanent: true,
       },
+      {
+        source: "/ppc-services",
+        destination: "/ppc-management-services",
+        permanent: true,
+      },
+      {
+        source: "/emailmarketing-services",
+        destination: "/email-marketing-services",
+        permanent: true,
+      },
+      {
+        source: "/trending-technology",
+        destination: "/trending-technologies",
+        permanent: true,
+      },
+      {
+        source: "/block-chain",
+        destination: "/blockchain-development",
+        permanent: true,
+      },
+      {
+        source: "/machine-learning",
+        destination: "/machine-learning-development",
+        permanent: true,
+      },
+      {
+        source: "/artificial-intelligence",
+        destination: "/artificial-intelligence-development",
+        permanent: true,
+      },
+      {
+        source: "/data-science",
+        destination: "/data-science-development",
+        permanent: true,
+      },
+      {
+        source: "/crypto-development",
+        destination: "/cryptocurrency-development",
+        permanent: true,
+      },
+      {
+        source: "/custom-web-solutions",
+        destination: "/custom-web-development",
+        permanent: true,
+      },
+      {
+        source: "/virtual-reality",
+        destination: "/virtual-reality-development",
+        permanent: true,
+      },
+      {
+        source: "/internet-of-things",
+        destination: "/iot-development",
+        permanent: true,
+      },
+      {
+        source: "/metaverse",
+        destination: "/metaverse-development",
+        permanent: true,
+      },
+      {
+        source: "/business-intelligence",
+        destination: "/business-intelligence-development",
+        permanent: true,
+      },
+      {
+        source: "/cloud",
+        destination: "/cloud-development",
+        permanent: true,
+      },
+      {
+        source: "/salesforce",
+        destination: "/salesforce-development",
+        permanent: true,
+      },
+      {
+        source: "/image-analysis-software",
+        destination: "/image-analysis-software-developmnet",
+        permanent: true,
+      },
     ];
   },
 });
