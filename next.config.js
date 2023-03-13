@@ -1,7 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
-var isProd = true;
+var isProd = false;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
@@ -461,6 +461,152 @@ module.exports = withBundleAnalyzer({
       {
         source: "/ott-app-solutions",
         destination: "/ott-app-development",
+        permanent: true,
+      },
+      // skills page redirections
+      {
+        source: "/nodejs",
+        destination: "/node-js-developer",
+        permanent: true,
+      },
+      {
+        source: "/dotnet",
+        destination: "/dot-net-developer",
+        permanent: true,
+      },
+      {
+        source: "/php",
+        destination: "/php-developer",
+        permanent: true,
+      },
+      {
+        source: "/laravel",
+        destination: "/laravel-developer",
+        permanent: true,
+      },
+      {
+        source: "/springboot",
+        destination: "/springboot-developer",
+        permanent: true,
+      },
+      {
+        source: "/hibernate",
+        destination: "/hibernate-developer",
+        permanent: true,
+      },
+      {
+        source: "/django",
+        destination: "/django-developer",
+        permanent: true,
+      },
+      {
+        source: "/cakephp",
+        destination: "/cakephp-developer",
+        permanent: true,
+      },
+      {
+        source: "/codeigniter",
+        destination: "/codeigniter-developer",
+        permanent: true,
+      },
+      {
+        source: "/flask",
+        destination: "/flask-developer",
+        permanent: true,
+      },
+      {
+        source: "/golang",
+        destination: "/golang-developer",
+        permanent: true,
+      },
+      {
+        source: "/struts",
+        destination: "/struts-developer",
+        permanent: true,
+      },
+      {
+        source: "/symfony",
+        destination: "/symfony-developer",
+        permanent: true,
+      },
+      {
+        source: "/phalcon",
+        destination: "/phalcon-developer",
+        permanent: true,
+      },
+      {
+        source: "/jsf",
+        destination: "/jsf-developer",
+        permanent: true,
+      },
+      {
+        source: "/grails",
+        destination: "/grails-developer",
+        permanent: true,
+      },
+      {
+        source: "/zend",
+        destination: "/zend-developer",
+        permanent: true,
+      },
+      {
+        source: "/git",
+        destination: "/git-developer",
+        permanent: true,
+      },
+      {
+        source: "/cherrypy",
+        destination: "/cherrypy-developer",
+        permanent: true,
+      },
+      {
+        source: "/cuba",
+        destination: "/cuba-developer",
+        permanent: true,
+      },
+      {
+        source: "/echo",
+        destination: "/echo-developer",
+        permanent: true,
+      },
+      {
+        source: "/gorilla",
+        destination: "/gorilla-developer",
+        permanent: true,
+      },
+      {
+        source: "/hanami",
+        destination: "/hanami-developer",
+        permanent: true,
+      },
+      {
+        source: "/iris",
+        destination: "/iris-developer",
+        permanent: true,
+      },
+      {
+        source: "/padrino",
+        destination: "/padrino-developer",
+        permanent: true,
+      },
+      {
+        source: "/rails",
+        destination: "/rails-developer",
+        permanent: true,
+      },
+      {
+        source: "/revel",
+        destination: "/revel-developer",
+        permanent: true,
+      },
+      {
+        source: "/roda",
+        destination: "/roda-developer",
+        permanent: true,
+      },
+      {
+        source: "/sinatra",
+        destination: "/sinatra-developer",
         permanent: true,
       },
     ];
