@@ -72,11 +72,11 @@ module.exports = withBundleAnalyzer({
         destination: "/digital_marketing",
         permanent: true,
       },
-      {
-        source: "/Fintech-solution",
-        destination: "/fintech-solution",
-        permanent: true,
-      },
+      // {
+      //   source: "/Fintech-solution",
+      //   destination: "/fintech-solution",
+      //   permanent: true,
+      // },
       {
         source: "/Social-Media",
         destination: "/industries/social_media",
