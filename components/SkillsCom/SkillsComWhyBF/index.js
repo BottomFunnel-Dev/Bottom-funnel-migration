@@ -1,26 +1,19 @@
-import Head from "next/head";
 import React from "react";
-// import styles from "./SkillsComWhyBF.module.css";
+import styles from "./SkillsComWhyBF.module.css";
 
 export default function SkillsComWhyBF({ data }) {
   const { title, image, bulletPointData } = data;
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/SkillsCom/SkillsComWhyBF/SkillsComWhyBF.module.css"
-        />
-      </Head>
-      <div className={"skillswhymain"}>
+      <div className={styles.skillswhymain}>
         <h1>{title}</h1>
-        <div className={"skillswhycontent"}>
-          <div className={"skillsbulletspointsimage"}>
+        <div className={styles.skillswhycontent}>
+          <div className={styles.skillsbulletspointsimage}>
             <img src={image} alt="big-left-image.webp" />
           </div>
-          <div className={"skillsbulletspointsmain"}>
-            <div className={"skillsbulletspoints"}>
+          <div className={styles.skillsbulletspointsmain}>
+            <div className={styles.skillsbulletspoints}>
               {bulletPointData.map((elem) => {
                 return (
                   <p key={elem}>

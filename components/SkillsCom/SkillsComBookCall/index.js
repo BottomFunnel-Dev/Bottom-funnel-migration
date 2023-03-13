@@ -1,20 +1,13 @@
-import Head from "next/head";
 import React from "react";
 import { PopupForm } from "../../PopupForm/PopupForm";
-// import styles from "./SkillsComBookCall.module.css";
+import styles from "./SkillsComBookCall.module.css";
 
 export default function SkillsComBookCall({ data }) {
   const { title, btn, image } = data;
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/SkillsCom/SkillsComBookCall/SkillsComBookCall.module.css"
-        />
-      </Head>
       <div
-        className="skillsbookcallmain"
+        className={styles.skillsbookcallmain}
         style={{
           background: `linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(${image})`,
           backgroundPosition: "center",
@@ -22,12 +15,12 @@ export default function SkillsComBookCall({ data }) {
           backgroundSize: "cover",
         }}
       >
-        <h1 className="skillsbookcallmainh1">{title}</h1>
+        <h1 className={styles.skillsbookcallmainh1}>{title}</h1>
         <button
           type="button"
           data-bs-toggle="modal"
           data-bs-target="#staticBackdrop"
-          className="skillsbookcallmainbutton"
+          className={styles.skillsbookcallmainbutton}
         >
           {btn}
         </button>

@@ -1,26 +1,19 @@
-import Head from "next/head";
 import React from "react";
-// import styles from "./SkillsComRemarkable.module.css";
+import styles from "./SkillsComRemarkable.module.css";
 
 export default function SkillsComRemarkable({ data }) {
   const { title, description, cardsData } = data;
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/SkillsCom/SkillsComRemarkable/SkillsComRemarkable.module.css"
-        />
-      </Head>
-      <div className={"skillsremarkablemain"}>
+      <div className={styles.skillsremarkablemain}>
         <h1>{title}</h1>
         <p>{description}</p>
-        <div className={"skillsremarkablesolutions"}>
+        <div className={styles.skillsremarkablesolutions}>
           {cardsData.map(({ img, title }) => {
             return (
               <div key={title}>
-                <div className={"skillsremarkableimage"}>
+                <div className={styles.skillsremarkableimage}>
                   <img src={img.src} alt={img.alt} />
                 </div>
                 <h4>{title}</h4>

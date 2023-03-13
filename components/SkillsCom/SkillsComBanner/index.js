@@ -1,6 +1,5 @@
-import Head from "next/head";
 import React from "react";
-// import styles from "./SkillsComBanner.module.css";
+import styles from "./SkillsComBanner.module.css";
 import { PopupForm } from "../../PopupForm/PopupForm";
 
 export default function SkillsComBanner({ data }) {
@@ -8,14 +7,8 @@ export default function SkillsComBanner({ data }) {
 
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/SkillsCom/SkillsComBanner/SkillsComBanner.module.css"
-        />
-      </Head>
       <div
-        className="skillsbannermain"
+        className={styles.skillsbannermain}
         style={{
           background: `url(${image})`,
           backgroundPosition: "center",
@@ -23,7 +16,7 @@ export default function SkillsComBanner({ data }) {
           backgroundSize: "100% 100%",
         }}
       >
-        <div className="skillsbannercontent">
+        <div className={styles.skillsbannercontent}>
           <h1>
             {title[0]} <span>{title[1]}</span> {title[2]}
           </h1>

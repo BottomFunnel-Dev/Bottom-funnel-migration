@@ -1,26 +1,19 @@
-import Head from "next/head";
 import React from "react";
-// import styles from "./SkillsComDes.module.css";
+import styles from "./SkillsComDes.module.css";
 
 export default function SkillsComDes({ DescrptionData }) {
   const { title, image, description } = DescrptionData;
   return (
     <>
-      <Head>
-        <link
-          rel="stylesheet"
-          href="/components/SkillsCom/SkillsComDes/SkillsComDes.module.css"
-        />
-      </Head>
-      <div className={"skillsdesmain"}>
-        <div className={"skillsdescontent"}>
-          <h1 className={"skillsdescontenth1"}>{title}</h1>
-          <p className={"skillsdescontentp"}>{description}</p>
+      <div className={styles.skillsdesmain}>
+        <div className={styles.skillsdescontent}>
+          <h1 className={styles.skillsdescontenth1}>{title}</h1>
+          <p className={styles.skillsdescontentp}>{description}</p>
         </div>
-        <div className={"skillsdesimage"}>
+        <div className={styles.skillsdesimage}>
           <img
             src={image}
-            className={"skillsdesimageimg"}
+            className={styles.skillsdesimageimg}
             alt={`${title} logo`}
           />
         </div>

@@ -16,28 +16,28 @@
   height: fit-content;
 }
 
-.skillsbannercontent>h1 {
+.skillsbannercontent > h1 {
   font-size: 40px;
   margin: 0px;
 }
 
-.skillsbannercontent>h1>span {
+.skillsbannercontent > h1 > span {
   color: #ef4c34;
 }
 
-.skillsbannercontent>p {
+.skillsbannercontent > p {
   font-size: 20px;
   margin: 2% auto;
 }
 
-.skillsbannercontent>ul>li {
+.skillsbannercontent > ul > li {
   font-size: 20px;
   font-weight: normal;
   color: #575757;
   margin: 5px 0;
 }
 
-.skillsbannercontent>button {
+.skillsbannercontent > button {
   margin-top: 2%;
   font-size: 18px;
   font-weight: 600;
@@ -52,12 +52,12 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.skillsbannercontent>button:hover {
+.skillsbannercontent > button:hover {
   background-color: #ef4c34;
   color: #fff;
 }
 
-.skillsbannermain>img {
+.skillsbannermain > img {
   max-width: 30%;
   height: fit-content;
   max-height: 70%;
@@ -82,32 +82,32 @@
     margin-top: 20px;
   }
 
-  .skillsbannercontent>h1 {
+  .skillsbannercontent > h1 {
     font-size: 30px;
   }
 
-  .skillsbannercontent>p {
+  .skillsbannercontent > p {
     font-size: 14px;
   }
 
-  .skillsbannercontent>ul {
+  .skillsbannercontent > ul {
     width: fit-content;
     margin: auto;
   }
 
-  .skillsbannercontent>ul>li {
+  .skillsbannercontent > ul > li {
     font-size: 13px;
     font-weight: normal;
     color: #575757;
     text-align: left;
   }
 
-  .skillsbannercontent>button {
+  .skillsbannercontent > button {
     font-size: 12px;
     padding: 8px 20px;
   }
 
-  .skillsbannermain>img {
+  .skillsbannermain > img {
     max-width: 80%;
     max-height: 200px;
   }
