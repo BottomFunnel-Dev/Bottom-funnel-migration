@@ -43,36 +43,38 @@ export default function AlcoholSuggestions() {
   ];
 
   return (
-    <div className={styles.alcoholExluciveAppMain}>
-      <h1>
-        <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DELIVERY BUSINESS:
-      </h1>
+    <>
+      <div className={styles.alcoholExluciveAppMain}>
+        <h1>
+          <span> APP SUGGESTIONS </span> FOR DIFFERENT ALCOHOL DELIVERY BUSINESS:
+        </h1>
 
-      <p>
-        Get exclusive and robusts apps for your alcohol delivery business with a
-        taste of latest technology and creative designs.
-      </p>
+        <p>
+          Get exclusive and robusts apps for your alcohol delivery business with a
+          taste of latest technology and creative designs.
+        </p>
 
-      <div className={styles.alcoholExluciveAppContent}>
-        {foodExcluciveAppData.map(({ title, description, img }) => {
-          return (
-            <div key={title}>
-              <div className={styles.alcoholExlcusiveAppImageDiv}>
-                <Image src={img.src}
-                  alt={img.alt}
-                  width={"0"}
-                  height={"0"}
-                  sizes={"100vw"}
-                  style={{ width: "100%", height: "50%" }}
-                />
+        <div className={styles.alcoholExluciveAppContent}>
+          {foodExcluciveAppData.map(({ title, description, img }) => {
+            return (
+              <div key={title}>
+                <div className={styles.alcoholExlcusiveAppImageDiv}>
+                  <Image src={img.src}
+                    alt={img.alt}
+                    width={"0"}
+                    height={"0"}
+                    sizes={"100vw"}
+                    style={{ width: "100%", height: "50%" }}
+                  />
+                </div>
+
+                <h2> {title} </h2>
+                <p> {description} </p>
               </div>
-
-              <h2> {title} </h2>
-              <p> {description} </p>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
-}
+};

@@ -27,7 +27,7 @@ const PortFolio = () => {
     {
       leftimg: "#EB6D42",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/yanbal1.webp",
+        "/Images/portfolio/yanbal1.webp",
       title: "Yanbal",
       tagline: "Global Cosmatic Brand",
       description:
@@ -42,7 +42,7 @@ const PortFolio = () => {
     {
       leftimg: "#A752ED",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/physicsfunshop1.png",
+        "/Images/portfolio/physicsfunshop1.png",
       title: "Physics Fun Shop",
       tagline: "Educational Brand",
       description:
@@ -56,7 +56,7 @@ const PortFolio = () => {
     {
       leftimg: "#1D366A",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/blueberrygroup.png",
+        "/Images/portfolio/blueberrygroup.png",
       title: "BlueBerry Group",
       tagline: "Global D2C Travel Company",
       description: `The Blueberry Group has taken an innovative approach to service development in many industries and specialized services, establishing a reputation as a leading expert in Travel and Tour Services, ECommerce, Electronics, Home Appliances Division and as a Fashion Brand. Through its Travel and
@@ -71,7 +71,7 @@ const PortFolio = () => {
     {
       leftimg: "#3F86A6",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/blueberry1.webp",
+        "/Images/portfolio/blueberry1.webp",
       title: "Blueberry Travels",
       tagline: "D2C Travel Website",
       description:
@@ -85,7 +85,7 @@ const PortFolio = () => {
     {
       leftimg: "#FE8805",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/jambo1.webp",
+        "/Images/portfolio/jambo1.webp",
       title: "Jambo Shoppe",
       tagline: "Global E-commerce Shopping Brand",
       description: `Jambo Shoppe is an e-commerce company in Kenya which houses everything you can possibly
@@ -105,7 +105,7 @@ const PortFolio = () => {
     {
       leftimg: "#42A928",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/roshi1.png",
+        "/Images/portfolio/roshi1.png",
       title: "Roshi Wellness",
       tagline: "Global Herbal Products Brand",
       description: `Roshi brings the sophistication of supply chain technologies designed for FDA regulated products to
@@ -121,7 +121,7 @@ const PortFolio = () => {
     {
       leftimg: "#E54046",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/nextholidays1.png",
+        "/Images/portfolio/nextholidays1.png",
       title: "Next Holidays",
       tagline: "D2C travel Website",
       description: `Based in the ancient land of India with its diverse cultures, the company has 14 years of experience
@@ -138,7 +138,7 @@ const PortFolio = () => {
     {
       leftimg: "#FFD555",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/oncart1.png",
+        "/Images/portfolio/oncart1.png",
       title: "On-cart",
       tagline: "Smart Shopping App",
       description: `On-cart is an e-commerce store that provides a wide array of products among electronics, apparels
@@ -157,7 +157,7 @@ const PortFolio = () => {
     {
       leftimg: "#472AF0",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/travelflap1.webp",
+        "/Images/portfolio/travelflap1.webp",
       title: "Travelflap",
       tagline: "D2C Travel Company",
       description: `Travel Flap is a New York -based privately owned leading tourism brand with over 15 years of
@@ -172,7 +172,7 @@ const PortFolio = () => {
     {
       leftimg: "#84C632",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/mukunda1.webp",
+        "/Images/portfolio/mukunda1.webp",
       title: "Mukunda",
       tagline: "Global Trading Company",
       description: `Mukunda General Trading is a well-established Company for all ICT Material, Hardware, Construction
@@ -188,7 +188,7 @@ const PortFolio = () => {
     {
       leftimg: "#7D59A5",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/spj1.png",
+        "/Images/portfolio/spj1.png",
       title: "SPJ Electronics",
       tagline: "Global Market Leader in Electrical Industry",
       description: `SPJ Electronic is a global market leader in the electrical industry. SPJ Electronics offers diverse
@@ -204,7 +204,7 @@ const PortFolio = () => {
     {
       leftimg: "#B6967F",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/amydus1.webp",
+        "/Images/portfolio/amydus1.webp",
       title: "Amydus",
       tagline: "Global E-commerce Website",
       description: `Amydus is a brand that caters to the very much needed demand of ready to wear plus size clothing online, which 
@@ -218,7 +218,7 @@ const PortFolio = () => {
     {
       leftimg: "#FFC701",
       rightImg:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/portfolio/aanandam1.webp",
+        "/Images/portfolio/aanandam1.webp",
       title: "The Aanandam",
       tagline: "Hotel and Resorts Brand",
       description:
@@ -296,7 +296,7 @@ const PortFolio = () => {
                   </div>
                   <div className={styles.bottomfunnelBranding}>
                     <img
-                      src="https://d1krs40fxb67ye.cloudfront.net/Images/navbar/whitebottom.png"
+                      src="/Images/navbar/whitebottom.png"
                       alt="image"
                     />
                   </div>

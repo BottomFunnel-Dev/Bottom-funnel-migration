@@ -77,7 +77,7 @@ const CompanyLogo = () => {
                 height={"0"}
                 sizes={"100vw"}
                 style={{ width: "100%", height: "100%" }}
-                src="https://d1krs40fxb67ye.cloudfront.net/Images/companiesLogo/aws-partner.svg"
+                src="/Images/companiesLogo/aws-partner.svg"
                 alt="companiesLogo/aws-partner.svg"
               />
             </div>
@@ -89,7 +89,7 @@ const CompanyLogo = () => {
                 height={"0"}
                 sizes={"100vw"}
                 style={{ width: "100%", height: "100%" }}
-                src="https://d1krs40fxb67ye.cloudfront.net/Images/companiesLogo/sap-partner.svg"
+                src="/Images/companiesLogo/sap-partner.svg"
                 alt="companiesLogo/sap-partner.svg"
               />
             </div>
@@ -101,7 +101,7 @@ const CompanyLogo = () => {
                 height={"0"}
                 sizes={"100vw"}
                 style={{ width: "100%", height: "100%" }}
-                src="https://d1krs40fxb67ye.cloudfront.net/Images/companiesLogo/google-agency-dev-partner.svg"
+                src="/Images/companiesLogo/google-agency-dev-partner.svg"
                 alt="companiesLogo/google-agency-dev-partner.svg"
               />
             </div>
@@ -113,7 +113,7 @@ const CompanyLogo = () => {
                 height={"0"}
                 sizes={"100vw"}
                 style={{ width: "100%", height: "100%" }}
-                src="https://d1krs40fxb67ye.cloudfront.net/Images/companiesLogo/cloudare-partner.svg"
+                src="/Images/companiesLogo/cloudare-partner.svg"
                 alt="companiesLogo/cloudare-partner.svg"
               />
             </div>
@@ -125,7 +125,7 @@ const CompanyLogo = () => {
                 height={"0"}
                 sizes={"100vw"}
                 style={{ width: "100%", height: "100%" }}
-                src="https://d1krs40fxb67ye.cloudfront.net/Images/companiesLogo/general-electric.svg"
+                src="/Images/companiesLogo/general-electric.svg"
                 alt="companiesLogo/general-electric.svg"
               />
             </div>
@@ -137,7 +137,7 @@ const CompanyLogo = () => {
                 height={"0"}
                 sizes={"100vw"}
                 style={{ width: "100%", height: "100%" }}
-                src="https://d1krs40fxb67ye.cloudfront.net/Images/companiesLogo/squareLogo.svg"
+                src="/Images/companiesLogo/squareLogo.svg"
                 alt="companiesLogo/squareLogo.svg"
               />
             </div>

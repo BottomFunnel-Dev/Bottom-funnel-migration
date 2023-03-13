@@ -63,32 +63,35 @@ export const FoodDeliveryNeedSuccess = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <div className={styles.foodDeliveryNeedSuccessMain}>
-      <h1>All You Need to Know For A Successfull Food Business</h1>
-      <div>
-        <div className={styles.foodDeliveryNeedSuccessImageimg}>
-          <img
-            src={foodDeliveryNeedData[active].img.src}
-            alt={foodDeliveryNeedData[active].img.alt}
-          />
-        </div>
-        <div className={styles.foodDeliveryNeedSuccessImage}>
-          {foodDeliveryNeedData.map(({ title, icon }, idx) => {
-            return (
-              <div
-                key={title}
-                onMouseOver={() => setActive(idx)}
-                className={`foodDeliveryNeedSuccessImage-box-${idx}`}
-              >
-                <div className={styles.foodDeliveryNeedSuccessImageLogo}>
-                  <img src={icon.src} alt={icon.alt} />
+    <>
+      <div className={styles.foodDeliveryNeedSuccessMain}>
+        <h1>All You Need to Know For A Successfull Food Business</h1>
+        <div>
+          <div className={styles.foodDeliveryNeedSuccessImageimg}>
+            <img
+              src={foodDeliveryNeedData[active].img.src}
+              alt={foodDeliveryNeedData[active].img.alt}
+            />
+          </div>
+
+          <div className={styles.foodDeliveryNeedSuccessImage}>
+            {foodDeliveryNeedData.map(({ title, icon }, idx) => {
+              return (
+                <div
+                  key={title}
+                  onMouseOver={() => setActive(idx)}
+                  className={`foodDeliveryNeedSuccessImage-box-${idx}`}
+                >
+                  <div className={styles.foodDeliveryNeedSuccessImageLogo}>
+                    <img src={icon.src} alt={icon.alt} />
+                  </div>
+                  <h3>{title}</h3>
                 </div>
-                <h3>{title}</h3>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };

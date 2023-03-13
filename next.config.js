@@ -1,20 +1,23 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
-
+var isProd = true;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",
-  images: {
-    domains: ["d1krs40fxb67ye.cloudfront.net"],
-    remotePatterns: [
+  crossOrigin: "anonymous",
+  async headers() {
+    return [
       {
-        protocol: "https",
-        hostname: "d1krs40fxb67ye.cloudfront.net",
-        port: "3000",
-        pathname: "/**",
+        source: "/_next/:path*",
+        headers: [{ key: "Access-Control-Allow-Origin", value: "*" }],
       },
-    ],
+    ];
+  },
+  assetPrefix: isProd ? "https://d31f03qtwl5xrx.cloudfront.net" : "",
+  images: {
+    path:
+      (isProd ? "https://d31f03qtwl5xrx.cloudfront.net" : "") + "/_next/image",
   },
 
   async redirects() {
@@ -151,9 +154,164 @@ module.exports = withBundleAnalyzer({
       },
       {
         source: "/seo-ppc",
-        destination: "ppc-services",
+        destination: "/ppc-services",
         permanent: true,
-      }
+      },
+      {
+        source: "/awards",
+        destination: "/award-and-membership",
+        permanent: true,
+      },
+      {
+        source: "/engagement",
+        destination: "/engagement-models",
+        permanent: true,
+      },
+      {
+        source: "/scopingsession",
+        destination: "/scoping-session",
+        permanent: true,
+      },
+      {
+        source: "/businessanalysis",
+        destination: "/business-analysis",
+        permanent: true,
+      },
+      {
+        source: "/productdiscovery",
+        destination: "/product-discovery",
+        permanent: true,
+      },
+      {
+        source: "/productdiscovery",
+        destination: "/product-discovery",
+        permanent: true,
+      },
+      {
+        source: "/ruby-development",
+        destination: "/ruby-on-rails-development",
+        permanent: true,
+      },
+      {
+        source: "/android-development",
+        destination: "/android-app-development",
+        permanent: true,
+      },
+      {
+        source: "/ios-development",
+        destination: "/ios-app-development",
+        permanent: true,
+      },
+      {
+        source: "/kotlin-development",
+        destination: "/kotlin-app-development",
+        permanent: true,
+      },
+      {
+        source: "/flutter-development",
+        destination: "/flutter-app-development",
+        permanent: true,
+      },
+      {
+        source: "/reactnative-development",
+        destination: "/reactnative-app-development",
+        permanent: true,
+      },
+      {
+        source: "/xamarin-development",
+        destination: "/xamarin-app-development",
+        permanent: true,
+      },
+      {
+        source: "/ionic",
+        destination: "/ionic-app-development",
+        permanent: true,
+      },
+      {
+        source: "/mobile-user-experience",
+        destination: "/ui-ux-app-development",
+        permanent: true,
+      },
+      {
+        source: "/ppc-services",
+        destination: "/ppc-management-services",
+        permanent: true,
+      },
+      {
+        source: "/emailmarketing-services",
+        destination: "/email-marketing-services",
+        permanent: true,
+      },
+      {
+        source: "/trending-technology",
+        destination: "/trending-technologies",
+        permanent: true,
+      },
+      {
+        source: "/block-chain",
+        destination: "/blockchain-development",
+        permanent: true,
+      },
+      {
+        source: "/machine-learning",
+        destination: "/machine-learning-development",
+        permanent: true,
+      },
+      {
+        source: "/artificial-intelligence",
+        destination: "/artificial-intelligence-development",
+        permanent: true,
+      },
+      {
+        source: "/data-science",
+        destination: "/data-science-development",
+        permanent: true,
+      },
+      {
+        source: "/crypto-development",
+        destination: "/cryptocurrency-development",
+        permanent: true,
+      },
+      {
+        source: "/custom-web-solutions",
+        destination: "/custom-web-development",
+        permanent: true,
+      },
+      {
+        source: "/virtual-reality",
+        destination: "/virtual-reality-development",
+        permanent: true,
+      },
+      {
+        source: "/internet-of-things",
+        destination: "/iot-development",
+        permanent: true,
+      },
+      {
+        source: "/metaverse",
+        destination: "/metaverse-development",
+        permanent: true,
+      },
+      {
+        source: "/business-intelligence",
+        destination: "/business-intelligence-development",
+        permanent: true,
+      },
+      {
+        source: "/cloud",
+        destination: "/cloud-development",
+        permanent: true,
+      },
+      {
+        source: "/salesforce",
+        destination: "/salesforce-development",
+        permanent: true,
+      },
+      {
+        source: "/image-analysis-software",
+        destination: "/image-analysis-software-developmnet",
+        permanent: true,
+      },
     ];
   },
 });

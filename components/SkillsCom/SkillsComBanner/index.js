@@ -11,7 +11,7 @@ export default function SkillsComBanner({ data }) {
       <Head>
         <link
           rel="stylesheet"
-          href="https://d1krs40fxb67ye.cloudfront.net/components/SkillsCom/SkillsComBanner/SkillsComBanner.module.css"
+          href="/components/SkillsCom/SkillsComBanner/SkillsComBanner.module.css"
         />
       </Head>
       <div

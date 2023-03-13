@@ -12,34 +12,34 @@ export default function BannerFull() {
     {
       title: "Mobile App Development",
       bannerImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/app dev.gif",
+        "/Images/banner/app dev.gif",
       desc: "Connect to your customers in real time with the latest in mobile app development.",
       background:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/mobilefull.webp",
+        "/Images/banner/mobilefull.webp",
     },
     {
       title: "Software Product Development",
       bannerImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/customsde.gif",
+        "/Images/banner/customsde.gif",
       desc: "Turn your company's opportunities into realities with enterprise-level custom software development.",
       background:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/softwarefull.webp",
+        "/Images/banner/softwarefull.webp",
     },
     {
       title: "Digital Marketing",
       bannerImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/digitalmarketing.gif",
+        "/Images/banner/digitalmarketing.gif",
       desc: "Break through the noise and grow your business with the power of digital marketing",
       background:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/dmfull.webp",
+        "/Images/banner/dmfull.webp",
     },
     {
       title: "Web Development",
       bannerImage:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/web dev.gif",
+        "/Images/banner/web dev.gif",
       desc: "Developing websites that develop your business",
       background:
-        "https://d1krs40fxb67ye.cloudfront.net/Images/banner/webdevfull.webp",
+        "/Images/banner/webdevfull.webp",
     },
   ];
 

@@ -21,13 +21,14 @@ export default function About() {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/about/aboutbtn.webp"
+            src="/Images/about/aboutbtn.webp"
             alt="Images/about/aboutbtn.webp"
           />
         </div>
         <h1>1000+</h1>
         <p>creative nerds under one roof</p>
       </div>
+      
       <div id={styles.aboutStats2} className={styles.aboutStats}>
         <div>
           <Image
@@ -35,7 +36,7 @@ export default function About() {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/about/aboutbtn.webp"
+            src="/Images/about/aboutbtn.webp"
             alt="Images/about/aboutbtn.webp"
           />
         </div>
@@ -43,6 +44,7 @@ export default function About() {
         <h1>1000+</h1>
         <p>Products (Apps) Delivered</p>
       </div>
+
       <div id={styles.aboutStats3} className={styles.aboutStats}>
         <div>
           <Image
@@ -50,7 +52,7 @@ export default function About() {
             height={"0"}
             sizes={"100vw"}
             style={{ width: "100%", height: "100%" }}
-            src="https://d1krs40fxb67ye.cloudfront.net/Images/about/aboutbtn.webp"
+            src="/Images/about/aboutbtn.webp"
             alt="Images/about/aboutbtn.webp"
           />
         </div>
@@ -60,4 +62,4 @@ export default function About() {
       </div>
     </div>
   );
-}
+};

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./digitalmarketing.module.css";
 export const DigitalMarketing = () => {
@@ -5,23 +6,52 @@ export const DigitalMarketing = () => {
     <div className={styles.digitalBanner}>
       <div className={styles.fbIcon}>
         {" "}
-        <img src="Images/banner/digital/Facebook.png" alt="" />
+        <Image
+          src={"/Images/banner/digital/Facebook.png"}
+          alt={"bannerimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"} />
       </div>
+
       <div className={styles.whatsappIcon}>
         {" "}
-        <img src="Images/banner/digital/Whatsapp.png" alt="" />
+        <Image
+          src={"/Images/banner/digital/Whatsapp.png"}
+          alt={"bannerimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"} />
       </div>
+
       <div className={styles.pinterestIcon}>
         {" "}
-        <img src="Images/banner/digital/Pinterest.png" alt="" />
+        <Image
+          src={"/Images/banner/digital/Pinterest.png"}
+          alt={"bannerimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"} />
       </div>
+
       <div className={styles.linkedinIcon}>
         {" "}
-        <img src="Images/banner/digital/Linkedin.png" alt="" />
+        <Image
+          src={"/Images/banner/digital/Linkedin.png"}
+          alt={"bannerimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"} />
       </div>
+      
       <div className={styles.youtubeIcon}>
         {" "}
-        <img src="Images/banner/digital/youtube.png" alt="" />
+        <Image
+          src={"/Images/banner/digital/youtube.png"}
+          alt={"bannerimage"}
+          width={"0"}
+          height={"0"}
+          sizes={"100vw"} />
       </div>
     </div>
   );

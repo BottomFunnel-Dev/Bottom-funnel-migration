@@ -44,55 +44,57 @@ export default function FoodDeliveryPartnerApp() {
   ];
 
   return (
-    <div className={styles.cannabiesadminpannelmainboxes}>
-      <div className={styles.cannbiesadminpannelmainboxsometextupper}>
-        <h2> Admin Pannel </h2>
-      </div>
-
-      <div className={styles.cannabiesadminpannelmainflexboxclass}>
-        <div className={styles.cannabieasadminpannelleftbox}>
-          {icecreamadmindata.map((e,index) => {
-            return (
-              <div
-                className={styles.cannabiesadminpannelmapperboxindivisyal}
-                key={index}
-                onMouseEnter={() => {
-                  handleImageChange(e.image);
-                }}
-              >
-                <div className={styles.cannabieasadminpannelmapperboxindivisyalicon} >
-                  <Image
-                    src={e.icon}
-                    alt={"image"}
-                    width={"0"}
-                    height={"0"}
-                    sizes={"100vw"}
-                    style={{ width: "100%", height: "80%" }}
-                  />
-                </div>
-
-                <div className={styles.canabisadminpannelmapperboxindivisyaltxt}>
-                  <h4> {e.headertext} </h4>
-                  <p> {e.paragraph} </p>
-                </div>
-              </div>
-            );
-          })}
+    <>
+      <div className={styles.cannabiesadminpannelmainboxes}>
+        <div className={styles.cannbiesadminpannelmainboxsometextupper}>
+          <h2> Admin Pannel </h2>
         </div>
 
-        <div className={styles.cannabiesamadminpannelrightbox}>
-          <div className={styles.cannbiesamadminpannelrightboxinnerimage}>
-            <Image
-              src={imageChange}
-              alt={"image"}
-              width={"0"}
-              height={"0"}
-              sizes={"100vw"}
-              style={{ width: "100%", height: "100%" }}
-            />
+        <div className={styles.cannabiesadminpannelmainflexboxclass}>
+          <div className={styles.cannabieasadminpannelleftbox}>
+            {icecreamadmindata.map((e, index) => {
+              return (
+                <div
+                  className={styles.cannabiesadminpannelmapperboxindivisyal}
+                  key={index}
+                  onMouseEnter={() => {
+                    handleImageChange(e.image);
+                  }}
+                >
+                  <div className={styles.cannabieasadminpannelmapperboxindivisyalicon} >
+                    <Image
+                      src={e.icon}
+                      alt={"image"}
+                      width={"0"}
+                      height={"0"}
+                      sizes={"100vw"}
+                      style={{ width: "100%", height: "80%" }}
+                    />
+                  </div>
+
+                  <div className={styles.canabisadminpannelmapperboxindivisyaltxt}>
+                    <h4> {e.headertext} </h4>
+                    <p> {e.paragraph} </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className={styles.cannabiesamadminpannelrightbox}>
+            <div className={styles.cannbiesamadminpannelrightboxinnerimage}>
+              <Image
+                src={imageChange}
+                alt={"image"}
+                width={"0"}
+                height={"0"}
+                sizes={"100vw"}
+                style={{ width: "100%", height: "100%" }}
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
-}
+};

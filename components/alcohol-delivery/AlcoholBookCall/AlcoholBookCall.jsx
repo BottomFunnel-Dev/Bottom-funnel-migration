@@ -5,21 +5,22 @@ import styles from "./AlcoholBookCall.module.css";
 
 export default function AlcoholBookCall() {
   return (
-    <div className={styles.alcoholBookCallMain}>
-      <div>
-        <h1>
-          Get all the alcohol delivery app development solutions for all the kind of platform?
-        </h1>
-        
-        <button 
-        type="button"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-        >
-          Let's Get Started
-        </button>
+    <>
+      <div className={styles.alcoholBookCallMain}>
+        <div>
+          <h1>
+            Get all the alcohol delivery app development solutions for all the kind of platform?
+          </h1>
 
-        <div
+          <button
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Let's Get Started
+          </button>
+
+          <div
             className="modal fade"
             id="staticBackdrop"
             data-bs-backdrop="static"
@@ -39,13 +40,14 @@ export default function AlcoholBookCall() {
                 </div>
 
                 <div>
-                  <PopupForm/>
+                  <PopupForm />
                 </div>
               </div>
             </div>
           </div>
 
+        </div>
       </div>
-    </div>
+    </>
   );
-}
+};

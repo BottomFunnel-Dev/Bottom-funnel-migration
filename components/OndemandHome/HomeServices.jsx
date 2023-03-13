@@ -13,7 +13,7 @@ const HomeServices = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
-      
+
       {
         breakpoint: 480,
         settings: {
@@ -70,21 +70,23 @@ const HomeServices = () => {
   ];
 
   return (
-    <div className={styles.ondemandHomeServices}>
-      <div>
-        <Slider {...settings}>
-          {homeService.map((item, i) => (
-            <div key={i} className={styles.homeServices}>
-              <div>
-                <img src={item.serviceimage} alt="images" />
-                <h5> {item.serviceName} </h5>
-                <p> {item.serviceDescription} </p>
+    <>
+      <div className={styles.ondemandHomeServices}>
+        <div>
+          <Slider {...settings}>
+            {homeService.map((item, i) => (
+              <div key={i} className={styles.homeServices}>
+                <div>
+                  <img src={item.serviceimage} alt="images" />
+                  <h5> {item.serviceName} </h5>
+                  <p> {item.serviceDescription} </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
