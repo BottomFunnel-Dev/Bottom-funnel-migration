@@ -52,11 +52,11 @@ module.exports = withBundleAnalyzer({
         destination: "/asp.net-development",
         permanent: true,
       },
-      {
-        source: "/artificial-inteligence",
-        destination: "/artificial-intelligence",
-        permanent: true,
-      },
+      // {
+      //   source: "/artificial-inteligence",
+      //   destination: "/artificial-intelligence",
+      //   permanent: true,
+      // },
       {
         source: "/seo",
         destination: "/seo-services",
@@ -257,11 +257,11 @@ module.exports = withBundleAnalyzer({
         destination: "/machine-learning-development",
         permanent: true,
       },
-      {
-        source: "/artificial-intelligence",
-        destination: "/artificial-intelligence-development",
-        permanent: true,
-      },
+      // {
+      //   source: "/artificial-intelligence",
+      //   destination: "/artificial-intelligence-development",
+      //   permanent: true,
+      // },
       {
         source: "/data-science",
         destination: "/data-science-development",
@@ -310,6 +310,157 @@ module.exports = withBundleAnalyzer({
       {
         source: "/image-analysis-software",
         destination: "/image-analysis-software-developmnet",
+        permanent: true,
+      },
+      // solutions page url redirections
+      {
+        source: "/food-delivery-app",
+        destination: "/food-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/ondemand-homeservice",
+        destination: "/on-demand-homeservice-app-development",
+        permanent: true,
+      },
+      {
+        source: "/alcoholdeliveryapp",
+        destination: "/alcohol-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/laundary-delivery",
+        destination: "/laundary-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/grocery",
+        destination: "/grocery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/beauty-and-salon",
+        destination: "/beauty-and-salon-development",
+        permanent: true,
+      },
+      {
+        source: "/cannabis",
+        destination: "/cannabis-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/marketplace",
+        destination: "/marketplace-app-development",
+        permanent: true,
+      },
+      {
+        source: "/pickup-and-delivery",
+        destination: "/pickup-and-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/pharmacy",
+        destination: "/pharmacy-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/flower-delivery-app",
+        destination: "/flower-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/carpooling-apps",
+        destination: "/carpooling-app-development",
+        permanent: true,
+      },
+      {
+        source: "/taxi-booking",
+        destination: "/taxi-booking-app-development",
+        permanent: true,
+      },
+      {
+        source: "/tool-delivery",
+        destination: "/tool-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/icecream-deliveryapp",
+        destination: "/icecream-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/plant-based-meat-delivery",
+        destination: "/plant-based-meat-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/car-rentals-app",
+        destination: "/car-rentals-app-development",
+        permanent: true,
+      },
+      {
+        source: "/agriculture-solution-app",
+        destination: "/agriculture-app-development",
+        permanent: true,
+      },
+      {
+        source: "/car-service-app",
+        destination: "/car-service-app-development",
+        permanent: true,
+      },
+      {
+        source: "/trading-app-solutions",
+        destination: "/trading-app-development",
+        permanent: true,
+      },
+      {
+        source: "/real-estate",
+        destination: "/real-estate-app-development",
+        permanent: true,
+      },
+      {
+        source: "/meatdeliveryapp",
+        destination: "/meat-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/eyeweardeliverapp",
+        destination: "/eyewear-delivery-app-development",
+        permanent: true,
+      },
+      {
+        source: "/baby-and-kidswear",
+        destination: "/baby-and-kidswear-app-development",
+        permanent: true,
+      },
+      {
+        source: "/onlinepaymentsapp",
+        destination: "/online-payment-app-development",
+        permanent: true,
+      },
+      {
+        source: "/fintech-solution",
+        destination: "/fintech-app-development",
+        permanent: true,
+      },
+      {
+        source: "/website-builder-app",
+        destination: "/website-builder-app-development",
+        permanent: true,
+      },
+      {
+        source: "/app-builder-solution",
+        destination: "/app-builder-development",
+        permanent: true,
+      },
+      {
+        source: "/artificial-intelligence-development",
+        destination: "/artificial-intelligence-app-development",
+        permanent: true,
+      },  
+      {
+        source: "/ott-app-solutions",
+        destination: "/ott-app-development",
         permanent: true,
       },
     ];
