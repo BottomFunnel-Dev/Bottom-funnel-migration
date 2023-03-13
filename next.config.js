@@ -1,7 +1,7 @@
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
 });
-var isProd = true;
+var isProd = false;
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   distDir: "build",

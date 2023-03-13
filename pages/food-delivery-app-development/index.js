@@ -22,10 +22,7 @@ export default function FoodDelivery() {
   return (
     <div>
       <Head>
-        <title>
-     
-          Food Delivery web App Development Company | Bottom Funnel
-        </title>
+        <title>Food Delivery web App Development Company | Bottom Funnel</title>
         <meta
           name="description"
           content="Want to start delivering food to your customers but don't know where to start? Check out our food delivery web 

@@ -1,7 +1,6 @@
 
 import styles from "./FoodDeliveryBanner.module.css";
 import { PopupForm } from "../PopupForm/PopupForm";
-import Head from "next/head";
 
 export const FoodDeliveryBanner = () => {
 
