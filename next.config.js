@@ -257,11 +257,11 @@ module.exports = withBundleAnalyzer({
         destination: "/machine-learning-development",
         permanent: true,
       },
-      // {
-      //   source: "/artificial-intelligence",
-      //   destination: "/artificial-intelligence-development",
-      //   permanent: true,
-      // },
+      {
+        source: "/artificial-intelligence",
+        destination: "/artificial-intelligence-development",
+        permanent: true,
+      },
       {
         source: "/data-science",
         destination: "/data-science-development",
@@ -607,6 +607,145 @@ module.exports = withBundleAnalyzer({
       {
         source: "/sinatra",
         destination: "/sinatra-developer",
+        permanent: true,
+      },
+      // skills section frontend url's
+      {
+        source: "/reactjs",
+        destination: "/reactjs-developer",
+        permanent: true,
+      },
+      {
+        source: "/angularjs",
+        destination: "/angular-js-developer",
+        permanent: true,
+      },
+      {
+        source: "/vuejs",
+        destination: "/vuejs-developer",
+        permanent: true,
+      },
+      {
+        source: "/emberjs",
+        destination: "/emberjs-developer",
+        permanent: true,
+      },
+      {
+        source: "/jquery",
+        destination: "/jquery-developer",
+        permanent: true,
+      },
+      {
+        source: "/nextjs",
+        destination: "/next-js-developer",
+        permanent: true,
+      },
+      {
+        source: "/backbonejs",
+        destination: "/backbone-js-developer",
+        permanent: true,
+      },
+      {
+        source: "/svelte",
+        destination: "/svelte-developer",
+        permanent: true,
+      },
+      {
+        source: "/semantic",
+        destination: "/semantic-developer",
+        permanent: true,
+      },
+
+      //skills pages mobile section redirections
+      {
+        source: "/mysql",
+        destination: "/mysql-developer",
+        permanent: true,
+      },
+      {
+        source: "/microsoftsql",
+        destination: "/microsoft-sql-developer",
+        permanent: true,
+      },
+      {
+        source: "/postgresql",
+        destination: "/postgresql-developer",
+        permanent: true,
+      },
+      {
+        source: "/mongodb",
+        destination: "/mongodb-developer",
+        permanent: true,
+      },
+      {
+        source: "/redis",
+        destination: "/redis-developer",
+        permanent: true,
+      },
+      {
+        source: "/ibmdb",
+        destination: "/ibmdb-developer",
+        permanent: true,
+      },
+      {
+        source: "/elasticsearch",
+        destination: "/elasticsearch-developer",
+        permanent: true,
+      },
+      {
+        source: "/sqlite",
+        destination: "/sqlite-developer",
+        permanent: true,
+      },
+      {
+        source: "/cassandra",
+        destination: "/sqlite-developer",
+        permanent: true,
+      },
+      // skills pages CMS section redirections
+      {
+        source: "/wordpress",
+        destination: "/wordpress-developer",
+        permanent: true,
+      },
+      {
+        source: "/hubspot",
+        destination: "/hubspot-developer",
+        permanent: true,
+      },
+      {
+        source: "/joomla",
+        destination: "/joomla-developer",
+        permanent: true,
+      },
+      {
+        source: "/woocommerce",
+        destination: "/woocommerce-developer",
+        permanent: true,
+      },
+      {
+        source: "/drupal",
+        destination: "/drupal-developer",
+        permanent: true,
+      },
+      {
+        source: "/wix",
+        destination: "/wix-developer",
+        permanent: true,
+      },
+      {
+        source: "/bigcommerce",
+        destination: "/bigcommerce-developer",
+        permanent: true,
+      },
+      {
+        source: "/ghost",
+        destination: "/ghost-developer",
+        permanent: true,
+      },
+      {
+        source: "/weebly",
+        destination: "/weebly-developer",
         permanent: true,
       },
     ];
