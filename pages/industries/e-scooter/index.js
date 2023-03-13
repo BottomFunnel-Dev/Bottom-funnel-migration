@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Escootersection } from "../../components/Escooter/Escootersection";
-import Escooterstealing from "../../components/Escooter/Escooterstealing";
-import Escooterthunder from "../../components/Escooter/Escooterthunder";
-import { Keyarea } from "../../components/Escooter/Keyarea";
-import { EscooterKeyAreaAgain } from "../../components/Escooter/EscooterKeyAreaAgain";
-import { EscooterAdminpannel } from "../../components/Escooter/EscooterAdminpannel";
-import { Escooterhardware } from "../../components/Escooter/Escooterhardware";
+import { Escootersection } from "../../../components/Escooter/Escootersection";
+import Escooterstealing from "../../../components/Escooter/Escooterstealing";
+import Escooterthunder from "../../../components/Escooter/Escooterthunder";
+import { Keyarea } from "../../../components/Escooter/Keyarea";
+import { EscooterKeyAreaAgain } from "../../../components/Escooter/EscooterKeyAreaAgain";
+import { EscooterAdminpannel } from "../../../components/Escooter/EscooterAdminpannel";
+import { Escooterhardware } from "../../../components/Escooter/Escooterhardware";
 
 import Head from "next/head";
 

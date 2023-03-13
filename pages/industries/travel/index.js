@@ -1,11 +1,11 @@
 import React from "react";
-import TravelBrands from "../../components/Travel/TravelBrands";
-import Travelcontainer from "../../components/Travel/Travelcontainer";
-import Travelfeature from "../../components/Travel/Travelfeature";
-import TravelFlight from "../../components/Travel/TravelFlight";
-import Travelsolution from "../../components/Travel/Travelsolution";
-import Travelstart from "../../components/Travel/Travelstart";
-import Travelwhy from "../../components/Travel/Travelwhy";
+import TravelBrands from "../../../components/Travel/TravelBrands";
+import Travelcontainer from "../../../components/Travel/Travelcontainer";
+import Travelfeature from "../../../components/Travel/Travelfeature";
+import TravelFlight from "../../../components/Travel/TravelFlight";
+import Travelsolution from "../../../components/Travel/Travelsolution";
+import Travelstart from "../../../components/Travel/Travelstart";
+import Travelwhy from "../../../components/Travel/Travelwhy";
 
 import Head from "next/head";
 

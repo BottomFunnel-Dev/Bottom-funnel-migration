@@ -748,6 +748,72 @@ module.exports = withBundleAnalyzer({
         destination: "/weebly-developer",
         permanent: true,
       },
+      // redirection for the industries section
+      {
+        source: "/game-development",
+        destination: "/game",
+        permanent: true,
+      },
+      {
+        source: "/videostreaming",
+        destination: "/video-streaming",
+        permanent: true,
+      },
+      {
+        source: "/sports_betting",
+        destination: "/sports-betting",
+        permanent: true,
+      },
+      {
+        source: "/iot_development",
+        destination: "/internet-of-things",
+        permanent: true,
+      },
+      {
+        source: "/social_media",
+        destination: "/social-media",
+        permanent: true,
+      },
+      {
+        source: "/social_media",
+        destination: "/social-media",
+        permanent: true,
+      },
+      {
+        source: "/saas",
+        destination: "/industries/saas",
+        permanent: true,
+      },
+      {
+        source: "/event",
+        destination: "/industries/event",
+        permanent: true,
+      },
+      {
+        source: "/telecommunication",
+        destination: "/industries/telecommunication",
+        permanent: true,
+      },
+      {
+        source: "/aviation",
+        destination: "/industries/aviation",
+        permanent: true,
+      },
+      {
+        source: "/e-scooter",
+        destination: "/industries/e-scooter",
+        permanent: true,
+      },
+      {
+        source: "/travel",
+        destination: "/industries/travel",
+        permanent: true,
+      },
+      {
+        source: "/event",
+        destination: "/industries/event",
+        permanent: true,
+      },
     ];
   },
 });

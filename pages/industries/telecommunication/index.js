@@ -1,8 +1,8 @@
 import React from "react";
 
-import { TelecommunicationsHeader } from "../../components/Telecommunications/Telecommunications-Header/TelecommunicationsHeader";
-import { TelecommunicationsCustomerApp } from "../../components/Telecommunications/TelecommunicationsCustomerApp/TelecommunicationsCustomerApp";
-import { TelecommunicationsFooter } from "../../components/Telecommunications/Telecommunications-Footer/TelecommunicationsFooter";
+import { TelecommunicationsHeader } from "../../../components/Telecommunications/Telecommunications-Header/TelecommunicationsHeader";
+import { TelecommunicationsCustomerApp } from "../../../components/Telecommunications/TelecommunicationsCustomerApp/TelecommunicationsCustomerApp";
+import { TelecommunicationsFooter } from "../../../components/Telecommunications/Telecommunications-Footer/TelecommunicationsFooter";
 
 import Head from "next/head";
 
