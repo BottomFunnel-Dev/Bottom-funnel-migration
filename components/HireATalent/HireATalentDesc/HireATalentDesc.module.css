@@ -1,0 +1,66 @@
+.HireATalentDescMain{
+    width: 100%;
+    text-align: center;
+}
+.HireATalentDescMain>h2>span{
+color: red;
+}
+.HireATalentDescMain>textarea{
+    width: 60%;
+    height: 40vh;
+    margin-top: 4%;
+    margin-bottom: 3%;
+border: 1px solid #e5aea1;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.HireATalentDescMain>textarea:focus{
+outline: none;
+}
+.HireATalentDeschr{
+   display: flex;
+   margin-left: 10%;
+   gap: 3%;
+}
+.HireATalentDeschr>hr{
+    height: 2px;
+    background-color: black;
+width: 40%;
+}
+.HireATalentDescFile{
+    margin-top: 2%;
+    margin-left: 15%;
+    padding-bottom: 5%;
+    width: 70%;
+    height: 25vh;
+    border: 3px dashed #ef4c23;
+}
+.HireATalentDescFile>h4{
+    margin-top: 4%;
+}
+.HireATalentDescFile>input{
+    border: 1px solid grey;
+    
+}
+
+
+
+.HireATalentDescbtn{
+    display: flex;
+    gap: 68%;
+    margin-left: 10%;
+}
+.HireATalentDescbtn>button{
+    background-color: transparent;
+    width: 150px;
+    color: #ef4c23;
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 15px;
+    font-weight: 600;
+    border: 2px solid #ef4c23;
+}
+.HireATalentDescbtn>button:hover{
+    background-color: #ef4c23;
+    color: white;
+}
