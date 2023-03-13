@@ -1,0 +1,160 @@
+.HireATalentMain{
+    height: fit-content;
+    margin-top: 4%;
+    padding: 4%;
+}
+
+.HireATalentMain>h1{
+    font-weight: 700;
+    text-align: left;
+    font-size: 30px;
+}
+.HireATalentMain>h2{
+    margin-top: 2%;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+}
+.HireATalenthire>p{
+    margin-top: 5%;
+font-size: 25px;
+font-weight: 600;
+}
+.HireATalenthire>p>span{
+    color: red;
+}
+.HireATalenthire>hr{
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+.HireATalentjobs{
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    margin-bottom: 0%;
+    padding: 10px;
+}
+.hovering{
+    width: 14%;
+    padding-top: 5px;
+    text-align: center;
+    border: 1px solid #ef4c23;
+    border-radius: 20px;
+   
+}
+.hovering:hover{
+background-color: #ef4c23;
+color: white;
+}
+.hovering>h3{
+    justify-content: space-around;
+font-size: 22px;
+}
+
+.HireATalentreq{
+    display: flex;
+    width: 100%;
+    gap: 5%;
+    padding: 10px;
+}
+.req{
+    padding-top: 5px;
+    width: 15%;
+    text-align: center;
+    border: 1px solid #ef4c23;
+    border-radius: 20px;
+}
+.HireATalentreq:nth-child(2){
+border: 2px solid red;
+}
+.req:hover,.req:focus{
+    background-color: #ef4c23;
+    color: white;
+}
+
+.req>h3{
+    justify-content: space-around;
+    font-size: 22px;
+}
+.HireATalentskill{
+    width: 100%;
+    gap: 5%;
+    padding: 10px;
+}
+.skill{
+    padding: 5px 0 5px 3%;
+    width: 85%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(214, 211, 211);
+    border-radius: 10px;
+}
+.skill:focus,.skill:active,.skill:hover{
+    border: 1px solid #ef4c23;
+}
+.skill>span>div{
+    margin-left: 90%;
+    text-align: center;
+    border-radius: 25px;
+    width: 100px;
+    border: 1px solid #ef4c23;
+}
+.skill>h3{
+    justify-content: space-around;
+    font-size: 22px;
+}
+.level{
+    margin-top: -1.5%;
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    margin-bottom: 1%;
+    
+}
+.exp{
+    border-radius: 15px;
+   height: fit-content;
+    border: 1px solid #f1a896;
+    text-align: center;
+   width: 20%;
+}
+.exp:hover{
+background-color: #ef4c23;
+color: white;
+}
+.exp>h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.HireATalentMain>p{
+    margin-top: 5%;
+    font-size: 20px;
+font-weight: 600;
+}
+.HireATalentMain>input{
+    border: none;
+    width: 85%;
+    border-bottom: 1px solid black;
+}
+.HireATalentMain>input:focus{
+outline: none;
+border-bottom: 1px solid black;
+}
+.HireATalentMain>button{
+    background-color: #ef4c23;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-left: 83%;
+    border: 2px solid #ef4c23;
+ 
+}
+.HireATalentMain>button:hover{
+    background-color: white;
+    color: #ef4c23;
+}

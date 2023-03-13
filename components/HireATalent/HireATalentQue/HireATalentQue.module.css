@@ -1,0 +1,49 @@
+.HireATalentQueMain{
+    text-align: center;
+}
+.HireATalentQueMain>p{
+    margin-top: 2%;
+    font-size: 25PX;
+    font-weight: 400;
+}
+.HireATalentQuelist>p{
+    text-align: left;
+   margin-left: 7.5%;
+   margin-top: 5%;
+   font-size: 20px;
+   font-weight: 500;
+}
+.HireATalentQuelist>input{
+    border: none;
+    width: 85%;
+    border-bottom: 1px solid black;
+}
+.HireATalentQuelist>input:focus{
+outline: none;
+border-bottom: 1px solid black;
+}
+.HireATalentQueMain>hr{
+    margin-top: 5%;
+    height: 2px;
+    background-color: black;
+
+}
+.HireATalentQuebtn{
+    display: flex;
+    gap: 68%;
+    margin-left: 10%;
+}
+.HireATalentQuebtn>button{
+    background-color: transparent;
+    width: 150px;
+    color: #ef4c23;
+    padding: 10px;
+    margin-top: 2%;
+    border-radius: 15px;
+    font-weight: 600;
+    border: 2px solid #ef4c23;
+}
+.HireATalentQuebtn>button:hover{
+    background-color: #ef4c23;
+    color: white;
+}
