@@ -264,8 +264,8 @@ export const digitalmarket = [
   {
     dropContent: "ASO",
     navIcons:
-      "/Images/navbar/services/seo.png",
-    path: "/seo-services",
+      "/Images/navbar/services/App Store Optimazation(ASO)-Logo.png",
+    path: "/app-store-optimization",
   },
 ];
 
