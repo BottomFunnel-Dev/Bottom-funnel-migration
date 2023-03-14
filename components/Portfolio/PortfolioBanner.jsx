@@ -16,7 +16,10 @@ export const PortfolioBanner = () => {
         </p>
 
         <div>
-          <button className={styles.portfoliobannerbutton}>Get Started</button>
+          <button className={styles.portfoliobannerbutton}
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">Get Started</button>
+
 
           <div
             className="modal fade"
@@ -43,6 +46,7 @@ export const PortfolioBanner = () => {
               </div>
             </div>
           </div>
+
 
         </div>
 
