@@ -1,0 +1,73 @@
+.AppStoreOptimizationSolutionParent {
+
+    background-color: #FFF3F0;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AppStoreOptimizationSolutionParent>h1 {
+    margin-bottom: 1%;
+}
+
+.AppStoreOptimizationSolutionParent>button {
+    margin-top: 5%;
+    width: 250px;
+    height: 60px;
+    background-color: #ec4f25;
+    color: white;
+    font-size: 28px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.AppStoreOptimizationSolutionParent>p {
+    text-align: center;
+    width: 70%;
+}
+
+.AppStoreOptimizationSolutionParent>button:hover {
+    background-color: transparent;
+
+    color: #ec4f25;
+}
+
+@media(max-width:780px) {
+    .AppStoreOptimizationSolutionParent {
+
+        background-color: bisque;
+
+        padding-left: 10%;
+        padding-right: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .AppStoreOptimizationSolutionParent>h1 {
+        margin-bottom: 2%;
+    }
+
+    .AppStoreOptimizationSolutionParent>button {
+        margin-top: 5%;
+        width: 250px;
+        height: 60px;
+        background-color: #ec4f25;
+        color: white;
+        font-size: 28px;
+        border-radius: 10px;
+        border: none;
+
+    }
+
+    .AppStoreOptimizationSolutionParent>button:hover {
+        background-color: transparent;
+
+        color: #ec4f25;
+    }
+}

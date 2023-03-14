@@ -1,0 +1,67 @@
+
+.AppStoreOptimizationExpertiseParent{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.AppStoreOptimizationExpertiseParentonlychild{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+.AppStoreOptimizationExpertiseParentonlychild>div{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+.AppStoreOptimizationExpertiseParentonlychild>div>div{
+   
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+@media(max-width:780px){
+  
+.AppStoreOptimizationExpertiseParent{
+    width: 100%;
+    margin-left: 0%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.AppStoreOptimizationExpertiseParentonlychild{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+.AppStoreOptimizationExpertiseParentonlychild>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+}
+.AppStoreOptimizationExpertiseParentonlychild>div>div{
+   
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+}
