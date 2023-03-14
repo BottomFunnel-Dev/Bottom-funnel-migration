@@ -15,6 +15,9 @@ export default function Document() {
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         {/* lottie-player cdn */}
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        {/* react-icons cdn */}
+        <script src="https://cdn.jsdelivr.net/npm/react-icons@4.8.0/fa/index.esm.min.js"></script>
       </Head>
       <body>
         <Main />
