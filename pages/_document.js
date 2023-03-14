@@ -16,8 +16,24 @@ export default function Document() {
         {/* lottie-player cdn */}
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-        {/* react-icons cdn */}
-        <script src="https://cdn.jsdelivr.net/npm/react-icons@4.8.0/fa/index.esm.min.js"></script>
+        {/*google tag manager script*/}
+        {/* <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-G29RDQG9WQ"
+        ></script>
+        <script>
+          dangerouslySetInnerHTML=
+          {{
+            __html: `
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments);}
+          gtag('js', new Date()); gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                page_path: window.location.pathname,
+            });
+            `,
+          }}
+        </script> */}
+
       </Head>
       <body>
         <Main />

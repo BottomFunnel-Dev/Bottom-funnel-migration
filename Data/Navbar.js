@@ -261,6 +261,12 @@ export const digitalmarket = [
       "/Images/navbar/services/email.png",
     path: "/emailmarketing-services",
   },
+  {
+    dropContent: "ASO",
+    navIcons:
+      "/Images/navbar/services/seo.png",
+    path: "/seo-services",
+  },
 ];
 
 export const trendingTech = [
